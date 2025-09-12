@@ -1,0 +1,192 @@
+[
+  {
+    "categoryId": 1,
+    "categoryNameCanonical": "Friteuse",
+    "parentCategoryId": null,
+    "slug": "friteuse",
+    "level": 0,
+    "description": "Découvrez notre sélection complète de friteuses pour tous vos besoins culinaires",
+    "seo": {
+      "title": "Friteuses - Guide d'achat et comparatif des meilleures friteuses",
+      "description": "Trouvez la friteuse parfaite parmi notre sélection. Comparatif détaillé, avis clients et meilleurs prix.",
+      "keywords": [
+        "friteuse",
+        "friteuses",
+        "guide achat friteuse",
+        "meilleure friteuse"
+      ]
+    }
+  },
+  {
+    "categoryId": 2,
+    "categoryNameCanonical": "Friteuse Air",
+    "parentCategoryId": 1,
+    "slug": "friteuse-air",
+    "level": 1,
+    "description": "Friteuses à air chaud sans huile pour une cuisine plus saine",
+    "seo": {
+      "title": "Friteuse Air - Friteuses sans huile à air chaud",
+      "description": "Découvrez les meilleures friteuses à air pour une cuisine saine sans huile. Comparatif et guide d'achat.",
+      "keywords": [
+        "friteuse air",
+        "friteuse sans huile",
+        "airfryer",
+        "friteuse air chaud"
+      ]
+    }
+  },
+  {
+    "categoryId": 3,
+    "categoryNameCanonical": "Friteuse Huile",
+    "parentCategoryId": 1,
+    "slug": "friteuse-huile",
+    "level": 1,
+    "description": "Friteuses traditionnelles à huile pour des fritures authentiques",
+    "seo": {
+      "title": "Friteuse à Huile - Friteuses traditionnelles",
+      "description": "Sélection des meilleures friteuses à huile traditionnelles. Guide d'achat et comparatif.",
+      "keywords": [
+        "friteuse huile",
+        "friteuse traditionnelle",
+        "friteuse électrique",
+        "bain de friture"
+      ]
+    }
+  },
+  {
+    "categoryId": 4,
+    "categoryNameCanonical": "Friteuse Professionnelle",
+    "parentCategoryId": 1,
+    "slug": "friteuse-professionnelle",
+    "level": 1,
+    "description": "Friteuses professionnelles pour usage intensif",
+    "seo": {
+      "title": "Friteuse Professionnelle - Équipement de restauration",
+      "description": "Friteuses professionnelles haute performance pour restaurants et usage intensif.",
+      "keywords": [
+        "friteuse professionnelle",
+        "friteuse restaurant",
+        "friteuse commerciale"
+      ]
+    }
+  },
+  {
+    "categoryId": 5,
+    "categoryNameCanonical": "Friteuse Air Philips",
+    "parentCategoryId": 2,
+    "slug": "friteuse-air-philips",
+    "level": 2,
+    "description": "Friteuses à air Philips Airfryer",
+    "seo": {
+      "title": "Friteuse Air Philips - Airfryer Philips",
+      "description": "Découvrez la gamme complète des friteuses à air Philips. Comparatif des modèles Airfryer.",
+      "keywords": [
+        "philips airfryer",
+        "friteuse air philips",
+        "airfryer philips"
+      ]
+    }
+  },
+  {
+    "categoryId": 6,
+    "categoryNameCanonical": "Friteuse Air Ninja",
+    "parentCategoryId": 2,
+    "slug": "friteuse-air-ninja",
+    "level": 2,
+    "description": "Friteuses à air Ninja Foodi",
+    "seo": {
+      "title": "Friteuse Air Ninja - Ninja Foodi Airfryer",
+      "description": "Friteuses à air Ninja Foodi multifonctions. Guide d'achat et comparatif.",
+      "keywords": [
+        "ninja foodi",
+        "friteuse air ninja",
+        "ninja airfryer"
+      ]
+    }
+  },
+  {
+    "categoryId": 7,
+    "categoryNameCanonical": "Friteuse Air Tefal",
+    "parentCategoryId": 2,
+    "slug": "friteuse-air-tefal",
+    "level": 2,
+    "description": "Friteuses à air Tefal ActiFry",
+    "seo": {
+      "title": "Friteuse Air Tefal - ActiFry Tefal",
+      "description": "Friteuses à air Tefal ActiFry pour une cuisine saine. Comparatif des modèles.",
+      "keywords": [
+        "tefal actifry",
+        "friteuse air tefal",
+        "actifry tefal"
+      ]
+    }
+  },
+  {
+    "categoryId": 8,
+    "categoryNameCanonical": "Friteuse Air Moulinex",
+    "parentCategoryId": 2,
+    "slug": "friteuse-air-moulinex",
+    "level": 2,
+    "description": "Friteuses à air Moulinex Easy Fry",
+    "seo": {
+      "title": "Friteuse Air Moulinex - Easy Fry Moulinex",
+      "description": "Friteuses à air Moulinex Easy Fry. Guide d'achat et avis clients.",
+      "keywords": [
+        "moulinex easy fry",
+        "friteuse air moulinex",
+        "easy fry moulinex"
+      ]
+    }
+  },
+  {
+    "categoryId": 9,
+    "categoryNameCanonical": "Friteuse Air Cosori",
+    "parentCategoryId": 2,
+    "slug": "friteuse-air-cosori",
+    "level": 2,
+    "description": "Friteuses à air Cosori",
+    "seo": {
+      "title": "Friteuse Air Cosori - Airfryer Cosori",
+      "description": "Friteuses à air Cosori haute performance. Comparatif et guide d'achat.",
+      "keywords": [
+        "cosori airfryer",
+        "friteuse air cosori",
+        "cosori"
+      ]
+    }
+  },
+  {
+    "categoryId": 10,
+    "categoryNameCanonical": "Friteuse Huile SEB",
+    "parentCategoryId": 3,
+    "slug": "friteuse-huile-seb",
+    "level": 2,
+    "description": "Friteuses à huile SEB",
+    "seo": {
+      "title": "Friteuse Huile SEB - Friteuses électriques SEB",
+      "description": "Friteuses à huile SEB de qualité professionnelle. Guide d'achat.",
+      "keywords": [
+        "friteuse seb",
+        "friteuse huile seb",
+        "seb friteuse"
+      ]
+    }
+  },
+  {
+    "categoryId": 11,
+    "categoryNameCanonical": "Friteuse Huile Tefal",
+    "parentCategoryId": 3,
+    "slug": "friteuse-huile-tefal",
+    "level": 2,
+    "description": "Friteuses à huile Tefal",
+    "seo": {
+      "title": "Friteuse Huile Tefal - Friteuses traditionnelles Tefal",
+      "description": "Friteuses à huile Tefal pour des fritures parfaites. Comparatif des modèles.",
+      "keywords": [
+        "friteuse tefal",
+        "friteuse huile tefal",
+        "tefal friteuse"
+      ]
+    }
+  }
+]

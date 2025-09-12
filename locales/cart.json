@@ -1,0 +1,39 @@
+{
+  "cart": {
+    "title": "Panier",
+    "addToCart": "Ajouter au panier",
+    "yourCart": "Votre panier",
+    "cartEmpty": "Votre panier est vide",
+    "continueShopping": "Continuer mes achats",
+    "removeItem": "Supprimer",
+    "updateQuantity": "Modifier la quantité",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "proceedToCheckout": "Finaliser la commande",
+    "empty": "Votre panier est vide",
+    "emptyDescription": "Découvrez notre collection de peluches premium",
+    "removeFromCart": "Retirer du panier",
+    "quantity": "Quantité",
+    "price": "Prix",
+    "product": "Produit",
+    "added": "Ajouté au panier",
+    "removed": "Retiré du panier",
+    "updated": "Panier mis à jour",
+    "checkout": "Commander",
+    "discountCode": "Code promo",
+    "applyDiscount": "Appliquer",
+    "discountApplied": "Code {code} appliqué",
+    "invalidDiscount": "Code de réduction invalide",
+    "discountError": "Une erreur est survenue",
+    "reduction": "Réduction",
+    "freeShipping": "Gratuite",
+    "crossedOutShipping": "5,99€",
+    "orderCommand": "Commander",
+    "trustSignals": {
+      "freeShipping": "Livraison gratuite",
+      "securePayment": "Paiement sécurisé", 
+      "freeReturns": "Retour gratuit"
+    }
+  }
+} 

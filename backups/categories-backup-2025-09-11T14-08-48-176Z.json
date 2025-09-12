@@ -1,0 +1,170 @@
+[
+  {
+    "categoryId": 1,
+    "categoryNameCanonical": "Friteuses Air/Sans Huile",
+    "parentCategoryId": null,
+    "slug": "friteuses-air-sans-huile",
+    "level": 0,
+    "productCount": 0,
+    "description": "Découvrez notre sélection de friteuses air fryer et sans huile pour des frites croustillantes et saines !  Une cuisson plus saine avec moins de calories.",
+    "seo": {
+      "title": "Friteuses Air/Sans Huile - Guide d'achat et comparatif 2024",
+      "description": "Découvrez notre sélection de friteuses air fryer et sans huile pour des frites croustillantes et saines !  Une cuisson plus saine avec moins de calories.",
+      "keywords": [
+        "friteuse air fryer",
+        "friteuse sans huile",
+        "airfryer",
+        "friteuse saine",
+        "cuisson saine"
+      ]
+    }
+  },
+  {
+    "categoryId": 2,
+    "categoryNameCanonical": "Par Marque",
+    "parentCategoryId": 1,
+    "slug": "par-marque",
+    "level": 1,
+    "productCount": 0,
+    "description": "Trouvez la friteuse sans huile de votre marque préférée.",
+    "seo": {
+      "title": "Par Marque - Sélection et avis",
+      "description": "Trouvez la friteuse sans huile de votre marque préférée.",
+      "keywords": [
+        "ninja friteuse",
+        "philips friteuse",
+        "moulinex friteuse",
+        "tefal friteuse",
+        "seb friteuse"
+      ]
+    }
+  },
+  {
+    "categoryId": 3,
+    "categoryNameCanonical": "Ninja, Philips, Moulinex/Tefal/SEB",
+    "parentCategoryId": 2,
+    "slug": "ninja-philips-moulinex-tefal-seb",
+    "level": 2,
+    "productCount": 0,
+    "description": "Les marques les plus populaires de friteuses air fryer.",
+    "seo": {
+      "title": "Ninja, Philips, Moulinex/Tefal/SEB - Sélection et avis",
+      "description": "Les marques les plus populaires de friteuses air fryer.",
+      "keywords": [
+        "ninja air fryer",
+        "philips airfryer",
+        "moulinex air fryer",
+        "tefal air fryer",
+        "seb air fryer"
+      ]
+    }
+  },
+  {
+    "categoryId": 4,
+    "categoryNameCanonical": "Autres Marques",
+    "parentCategoryId": 2,
+    "slug": "autres-marques",
+    "level": 2,
+    "productCount": 0,
+    "description": "Découvrez une large sélection d'autres marques de friteuses air fryer.",
+    "seo": {
+      "title": "Autres Marques - Sélection et avis",
+      "description": "Découvrez une large sélection d'autres marques de friteuses air fryer.",
+      "keywords": [
+        "friteuse air fryer marque",
+        "friteuse sans huile autre marque"
+      ]
+    }
+  },
+  {
+    "categoryId": 5,
+    "categoryNameCanonical": "Par Taille",
+    "parentCategoryId": 1,
+    "slug": "par-taille",
+    "level": 1,
+    "productCount": 0,
+    "description": "Choisissez la taille de friteuse idéale pour vos besoins.",
+    "seo": {
+      "title": "Par Taille - Sélection et avis",
+      "description": "Choisissez la taille de friteuse idéale pour vos besoins.",
+      "keywords": [
+        "mini friteuse",
+        "petite friteuse",
+        "friteuse grande capacité",
+        "friteuse xxl"
+      ]
+    }
+  },
+  {
+    "categoryId": 6,
+    "categoryNameCanonical": "Friteuses Traditionnelles à Huile",
+    "parentCategoryId": null,
+    "slug": "friteuses-traditionnelles-huile",
+    "level": 0,
+    "productCount": 0,
+    "description": "Friteuses classiques à huile pour une cuisson traditionnelle et savoureuse.",
+    "seo": {
+      "title": "Friteuses Traditionnelles à Huile - Guide d'achat et comparatif 2024",
+      "description": "Friteuses classiques à huile pour une cuisson traditionnelle et savoureuse.",
+      "keywords": [
+        "friteuse huile",
+        "friteuse traditionnelle",
+        "friteuse electrique"
+      ]
+    }
+  },
+  {
+    "categoryId": 7,
+    "categoryNameCanonical": "Professionnelles",
+    "parentCategoryId": 6,
+    "slug": "professionnelles",
+    "level": 1,
+    "productCount": 0,
+    "description": "Friteuses professionnelles pour un usage intensif.",
+    "seo": {
+      "title": "Professionnelles - Sélection et avis",
+      "description": "Friteuses professionnelles pour un usage intensif.",
+      "keywords": [
+        "friteuse professionnelle",
+        "friteuse professionnelle electrique",
+        "friteuse gaz professionnelle"
+      ]
+    }
+  },
+  {
+    "categoryId": 8,
+    "categoryNameCanonical": "Familiales",
+    "parentCategoryId": 6,
+    "slug": "familiales",
+    "level": 1,
+    "productCount": 0,
+    "description": "Friteuses pour un usage familial.",
+    "seo": {
+      "title": "Familiales - Sélection et avis",
+      "description": "Friteuses pour un usage familial.",
+      "keywords": [
+        "friteuse electrique familiale",
+        "friteuse familiale"
+      ]
+    }
+  },
+  {
+    "categoryId": 9,
+    "categoryNameCanonical": "Promotions et Prix",
+    "parentCategoryId": null,
+    "slug": "promotions-et-prix",
+    "level": 0,
+    "productCount": 0,
+    "description": "Trouvez les meilleures offres et prix sur les friteuses.",
+    "seo": {
+      "title": "Promotions et Prix - Guide d'achat et comparatif 2024",
+      "description": "Trouvez les meilleures offres et prix sur les friteuses.",
+      "keywords": [
+        "friteuse en solde",
+        "friteuse prix",
+        "friteuse promo",
+        "friteuse pas cher"
+      ]
+    }
+  }
+]

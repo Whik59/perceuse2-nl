@@ -1,0 +1,51 @@
+{
+  "faq": {
+    "title": "Questions fréquentes",
+    "subtitle": "Trouvez rapidement les réponses à vos questions sur nos peluches, la livraison, les retours et bien plus encore.",
+    "contactCta": "Vous ne trouvez pas la réponse à votre question ?",
+    "contactTeam": "Contactez notre équipe",
+    "sendEmail": "Envoyer un email",
+    "questions": [
+      {
+        "id": "1",
+        "question": "Quelle est la durée de vie des veilleuses LED ?",
+        "answer": "Nos veilleuses LED ont une durée de vie exceptionnelle de plus de 50 000 heures d'utilisation. Avec une utilisation normale de 8 heures par nuit, cela représente plus de 17 ans. Les LED ne chauffent pas et consomment très peu d'énergie, garantissant une longévité remarquable."
+      },
+      {
+        "id": "2",
+        "question": "Les veilleuses sont-elles sûres pour les enfants ?",
+        "answer": "Absolument. Toutes nos veilleuses respectent les normes de sécurité européennes les plus strictes (CE, RoHS). Elles fonctionnent en basse tension, ne chauffent pas, et sont fabriquées avec des matériaux non toxiques. Les petites pièces sont évitées pour prévenir tout risque d'étouffement."
+      },
+      {
+        "id": "3",
+        "question": "Comment fonctionne la livraison gratuite ?",
+        "answer": "La livraison est gratuite pour toute commande de 50€ et plus en France métropolitaine. Nous expédions sous 24h (jours ouvrés) avec Colissimo suivi. Pour les commandes inférieures à 50€, les frais de port sont de 4,90€. Livraison en 2-3 jours ouvrés."
+      },
+      {
+        "id": "4",
+        "question": "Puis-je retourner un produit si je ne suis pas satisfait ?",
+        "answer": "Oui, nous offrons une garantie satisfait ou remboursé de 30 jours. Si vous n'êtes pas entièrement satisfait de votre achat, vous pouvez retourner le produit dans son emballage d'origine pour un remboursement complet. Les frais de retour sont à votre charge sauf en cas de défaut."
+      },
+      {
+        "id": "5",
+        "question": "Comment recharger une veilleuse rechargeable ?",
+        "answer": "Nos veilleuses rechargeables se rechargent facilement via USB avec le câble fourni. Une charge complète prend 3-4 heures et offre 8-12 heures d'autonomie selon le modèle et l'intensité lumineuse choisie. Un indicateur lumineux vous indique l'état de charge."
+      },
+      {
+        "id": "6",
+        "question": "Quelles sont les différentes intensités lumineuses disponibles ?",
+        "answer": "La plupart de nos veilleuses offrent plusieurs niveaux d'intensité lumineuse, généralement 3 niveaux : faible, moyen et fort. Certains modèles premium proposent un réglage continu. L'intensité faible est parfaite pour l'endormissement, tandis que l'intensité forte peut servir de lampe de lecture."
+      },
+      {
+        "id": "7",
+        "question": "Y a-t-il une garantie sur les produits ?",
+        "answer": "Tous nos produits sont couverts par une garantie constructeur de 2 ans qui couvre les défauts de fabrication. Cette garantie s'ajoute à vos droits légaux de consommateur. Pour faire jouer la garantie, conservez votre facture et contactez notre service client."
+      },
+      {
+        "id": "8",
+        "question": "Comment nettoyer et entretenir ma veilleuse ?",
+        "answer": "L'entretien est très simple : utilisez un chiffon doux légèrement humide pour nettoyer l'extérieur. Évitez les produits chimiques agressifs. Pour les modèles rechargeables, veillez à maintenir la charge et évitez de laisser la batterie se décharger complètement pendant de longues périodes."
+      }
+    ]
+  }
+} 

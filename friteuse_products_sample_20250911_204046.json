@@ -1,0 +1,35 @@
+{
+  "products_by_category": {},
+  "statistics": {
+    "total_products": 0,
+    "categories_processed": 0,
+    "unique_asins": 0,
+    "products_by_tier": {},
+    "brands_distribution": {},
+    "price_distribution": {
+      "under_50": 0,
+      "50_100": 0,
+      "100_200": 0,
+      "over_200": 0
+    }
+  },
+  "scraping_config": {
+    "tier_limits": {
+      "0": {
+        "min": 50,
+        "max": 100
+      },
+      "1": {
+        "min": 15,
+        "max": 30
+      },
+      "2": {
+        "min": 3,
+        "max": 8
+      }
+    },
+    "min_rating": 4.0,
+    "min_price": 20
+  },
+  "timestamp": "2025-09-11T20:40:46.103125"
+}

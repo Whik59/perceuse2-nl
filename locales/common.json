@@ -1,0 +1,69 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "products": "Friteuses",
+    "categories": "Catégories",
+    "cart": "Sélection",
+    "checkout": "Amazon",
+    "account": "Mon Compte",
+    "contact": "Contact"
+  },
+  "common": {
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "siteName": "Friteuse Expert",
+    "companyName": "Friteuse Expert",
+    "home": "Accueil"
+  },
+  "errors": {
+    "somethingWrong": "Une erreur s'est produite",
+    "tryAgain": "Réessayer",
+    "pageNotFound": "Page non trouvée",
+    "productNotFound": "Friteuse non trouvée",
+    "categoryNotFound": "Catégorie non trouvée",
+    "amazonRedirectError": "Erreur lors de la redirection vers Amazon",
+    "amazonUnavailable": "Amazon non disponible"
+  },
+  "search": {
+    "searchProducts": "Rechercher une friteuse...",
+    "noResults": "Aucune friteuse trouvée",
+    "searchResults": "Friteuses trouvées",
+    "showingResults": "Affichage de {count} friteuses"
+  },
+  "header": {
+    "search": {
+      "placeholder": "Rechercher une friteuse..."
+    },
+    "support": "Support",
+    "cart": {
+      "title": "Ma sélection"
+    }
+  },
+  "social": {
+    "shareProduct": "Partager cette friteuse",
+    "followUs": "Suivez-nous",
+    "customerReviews": "Avis clients Amazon"
+  },
+  "urgency": {
+    "orderInNext": "Commandez dans les prochaines",
+    "hours": "heures",
+    "minutes": "minutes",
+    "toReceiveBy": "pour recevoir avant le",
+    "popularChoice": "Choix populaire",
+    "bestSeller": "Meilleure vente",
+    "almostSoldOut": "Stock limité",
+    "amazonPrime": "Livraison Prime disponible",
+    "freeShipping": "Livraison gratuite"
+  },
+  "amazon": {
+    "buyOnAmazon": "Acheter sur Amazon",
+    "viewOnAmazon": "Voir sur Amazon",
+    "priceOnAmazon": "Prix sur Amazon",
+    "affiliateNotice": "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.",
+    "redirecting": "Redirection vers Amazon...",
+    "openInNewTab": "Ouvre dans un nouvel onglet"
+  }
+} 

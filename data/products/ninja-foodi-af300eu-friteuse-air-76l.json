@@ -1,0 +1,38 @@
+{
+  "productId": "B08L6JBQZX",
+  "name": "NINJA Foodi AF300EU Friteuse à Air 7.6L",
+  "slug": "ninja-foodi-af300eu-friteuse-air-76l",
+  "description": "Friteuse à air Ninja Foodi avec 6 fonctions de cuisson. Grande capacité 7.6L pour toute la famille. Technologie de circulation d'air chaud.",
+  "shortDescription": "Ninja Foodi AF300EU - Friteuse multifonction 7.6L",
+  "price": 179,
+  "compareAtPrice": 219,
+  "images": [
+    "https://m.media-amazon.com/images/I/81def456ghi.jpg"
+  ],
+  "category": "Friteuse Sans Huile",
+  "tags": ["friteuse", "ninja", "multifonction", "air fryer"],
+  "amazonUrl": "https://www.amazon.fr/dp/B08L6JBQZX?tag=friteuseexp-21",
+  "amazonASIN": "B08L6JBQZX",
+  "affiliateId": "friteuseexp-21",
+  "originalAmazonTitle": "NINJA Foodi AF300EU Friteuse à Air",
+  "amazonPrice": "179,00€",
+  "amazonRating": 4.6,
+  "amazonReviewCount": 892,
+  "brand": "Ninja",
+  "seo": {
+    "title": "NINJA Foodi AF300EU Friteuse à Air - Friteuse Expert",
+    "description": "Découvrez la NINJA Foodi AF300EU sur Amazon. Note 4.6/5 avec 892 avis. Friteuse multifonction 7.6L.",
+    "keywords": ["friteuse", "ninja", "amazon", "avis", "multifonction"]
+  },
+  "reviews": {
+    "averageRating": 4.6,
+    "totalReviews": 892,
+    "breakdown": {
+      "5": 65,
+      "4": 23,
+      "3": 8,
+      "2": 2,
+      "1": 2
+    }
+  }
+} 

@@ -1,0 +1,72 @@
+{
+  "averageRating": 4.8,
+  "totalReviews": 2547,
+  "reviews": [
+    {
+      "id": "1",
+      "author": "Marie D.",
+      "rating": 5,
+      "date": "2024-01-15",
+      "title": "Excellente friteuse !",
+      "content": "Très satisfaite de mon achat. La friteuse chauffe rapidement et les frites sont parfaites. Je recommande vivement !",
+      "verified": true,
+      "helpful": 12,
+      "location": "Paris, France"
+    },
+    {
+      "id": "2",
+      "author": "Jean-Pierre M.",
+      "rating": 5,
+      "date": "2024-01-10",
+      "title": "Rapport qualité-prix imbattable",
+      "content": "Pour le prix, c'est vraiment une excellente friteuse. Facile à utiliser et à nettoyer. Mes enfants adorent !",
+      "verified": true,
+      "helpful": 8,
+      "location": "Lyon, France"
+    },
+    {
+      "id": "3",
+      "author": "Sophie L.",
+      "rating": 4,
+      "date": "2024-01-08",
+      "title": "Très bonne qualité",
+      "content": "Friteuse de très bonne qualité, livraison rapide. Seul bémol : un peu bruyante mais rien de dramatique.",
+      "verified": true,
+      "helpful": 15,
+      "location": "Marseille, France"
+    },
+    {
+      "id": "4",
+      "author": "Thomas R.",
+      "rating": 5,
+      "date": "2024-01-05",
+      "title": "Parfait pour une famille",
+      "content": "Capacité idéale pour une famille de 4 personnes. La cuisson est uniforme et les résultats sont excellents.",
+      "verified": true,
+      "helpful": 6,
+      "location": "Toulouse, France"
+    },
+    {
+      "id": "5",
+      "author": "Isabelle C.",
+      "rating": 4,
+      "date": "2024-01-02",
+      "title": "Bon produit",
+      "content": "Bonne friteuse dans l'ensemble. Design moderne et fonctionnalités pratiques. Je suis contente de mon achat.",
+      "verified": true,
+      "helpful": 9,
+      "location": "Nantes, France"
+    },
+    {
+      "id": "6",
+      "author": "Pierre B.",
+      "rating": 5,
+      "date": "2023-12-28",
+      "title": "Excellent choix !",
+      "content": "Après plusieurs mois d'utilisation, je suis toujours aussi satisfait. La friteuse est robuste et efficace.",
+      "verified": true,
+      "helpful": 11,
+      "location": "Strasbourg, France"
+    }
+  ]
+} 
