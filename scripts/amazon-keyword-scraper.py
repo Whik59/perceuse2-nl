@@ -153,20 +153,13 @@ class AdvancedAmazonKeywordScraper:
         }
         return marketplace_ids.get(self.config['amazon_tld'], "A13V1IB3VIYZZH")
     
-    def generate_enhanced_search_patterns(self):
-        """Generate simple universal search patterns - letters, numbers, and 2-letter combinations"""
+    def generate_stage1_patterns(self):
+        """Generate Stage 1 patterns: comprehensive search to find all main categories"""
         search_patterns = []
         
-        # Base keyword alone
-        search_patterns.append(self.base_keyword)
-        
-        # Base keyword + single letters (a-z)
+        # Single letters (a-z)
         for letter in string.ascii_lowercase:
             search_patterns.append(f"{self.base_keyword} {letter}")
-        
-        # Base keyword + single numbers (0-9)
-        for num in range(10):
-            search_patterns.append(f"{self.base_keyword} {num}")
         
         # Two-letter combinations (comprehensive approach)
         vowels = ['a', 'e', 'i', 'o', 'u']
@@ -182,7 +175,7 @@ class AdvancedAmazonKeywordScraper:
             for vowel in vowels:
                 search_patterns.append(f"{self.base_keyword} {consonant}{vowel}")
         
-        # Common consonant + consonant combinations (very useful!)
+        # Common consonant + consonant combinations
         consonant_pairs = [
             # Common blends with 'l'
             'bl', 'cl', 'fl', 'gl', 'pl', 'sl',
@@ -201,10 +194,108 @@ class AdvancedAmazonKeywordScraper:
             search_patterns.append(f"{self.base_keyword} {pair}")
         
         return search_patterns
-
     
-
+    def generate_stage2_patterns(self, main_categories):
+        """Generate Stage 2 patterns: expand each main category with letters"""
+        search_patterns = []
+        
+        for category in main_categories:
+            # Add single letters to each main category
+            for letter in string.ascii_lowercase:
+                search_patterns.append(f"{category} {letter}")
+        
+        return search_patterns
     
+    def filter_to_two_words(self, keywords):
+        """Filter keywords to keep only 2-word combinations (main categories)"""
+        two_word_keywords = []
+        base_lower = self.base_keyword.lower()
+        
+        for keyword in keywords:
+            words = keyword.strip().split()
+            # Keep only keywords with exactly 2 words that start with base keyword
+            if len(words) == 2 and words[0].lower() == base_lower:
+                two_word_keywords.append(keyword)
+        
+        return list(set(two_word_keywords))  # Remove duplicates
+
+    async def scrape_2_stage_async(self, max_concurrent=10):
+        """2-Stage async scraping: Stage 1 for main categories, Stage 2 for subcategories"""
+        safe_print(f"[SEARCH] 2-Stage scraping for: {self.base_keyword}")
+        safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
+        
+        # STAGE 1: Get main categories (2-word combinations)
+        safe_print(f"\n=== STAGE 1: Finding Main Categories ===")
+        stage1_patterns = self.generate_stage1_patterns()
+        safe_print(f"[STATS] Stage 1: {len(stage1_patterns)} patterns with {max_concurrent} concurrent requests")
+        
+        stage1_keywords = set()
+        batch_size = max_concurrent
+        
+        async with aiohttp.ClientSession() as session:
+            # Process Stage 1
+            for i in range(0, len(stage1_patterns), batch_size):
+                batch = stage1_patterns[i:i+batch_size]
+                safe_print(f"[SEARCH] Stage 1 batch {i//batch_size + 1}/{(len(stage1_patterns) + batch_size - 1)//batch_size}")
+                
+                tasks = [self.get_amazon_suggestions_async(session, pattern) for pattern in batch]
+                batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+                
+                for result in batch_results:
+                    if isinstance(result, tuple):
+                        pattern, suggestions = result
+                        if suggestions:
+                            for keyword in suggestions:
+                                stage1_keywords.add(keyword)
+                            safe_print(f"  [OK] '{pattern}': {len(suggestions)} suggestions")
+                        else:
+                            safe_print(f"  [WARNING] '{pattern}': No suggestions")
+                
+                await asyncio.sleep(0.5)
+            
+            # Filter to get main categories (2-word combinations only)
+            main_categories = self.filter_to_two_words(list(stage1_keywords))
+            safe_print(f"\n[STAGE1] Found {len(main_categories)} main categories:")
+            for i, category in enumerate(sorted(main_categories)[:10], 1):  # Show first 10
+                safe_print(f"  {i}. {category}")
+            if len(main_categories) > 10:
+                safe_print(f"  ... and {len(main_categories) - 10} more")
+            
+            # STAGE 2: Expand each main category
+            safe_print(f"\n=== STAGE 2: Finding Subcategories ===")
+            if main_categories:
+                stage2_patterns = self.generate_stage2_patterns(main_categories)
+                safe_print(f"[STATS] Stage 2: {len(stage2_patterns)} patterns from {len(main_categories)} main categories")
+                
+                # Process Stage 2
+                for i in range(0, len(stage2_patterns), batch_size):
+                    batch = stage2_patterns[i:i+batch_size]
+                    safe_print(f"[SEARCH] Stage 2 batch {i//batch_size + 1}/{(len(stage2_patterns) + batch_size - 1)//batch_size}")
+                    
+                    tasks = [self.get_amazon_suggestions_async(session, pattern) for pattern in batch]
+                    batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+                    
+                    for result in batch_results:
+                        if isinstance(result, tuple):
+                            pattern, suggestions = result
+                            if suggestions:
+                                new_keywords = 0
+                                for keyword in suggestions:
+                                    if keyword not in self.all_keywords:
+                                        self.all_keywords.add(keyword)
+                                        new_keywords += 1
+                                if new_keywords > 0:
+                                    safe_print(f"  [OK] '{pattern}': {len(suggestions)} suggestions ({new_keywords} new)")
+                    
+                    await asyncio.sleep(0.5)
+            
+            # Add main categories to final results
+            for category in main_categories:
+                self.all_keywords.add(category)
+        
+        safe_print(f"\n[FINAL] Total keywords found: {len(self.all_keywords)}")
+        return list(self.all_keywords)
+
     async def get_amazon_suggestions_async(self, session, search_term):
         """Async version of get_amazon_suggestions"""
         url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
@@ -401,6 +492,80 @@ class AdvancedAmazonKeywordScraper:
         
         return txt_file
 
+    def extract_structured_keywords(self, all_keywords):
+        """Extract structured keywords: categories (2 words) and subcategories (3+ words)"""
+        safe_print(f"[STRUCTURE] Analyzing {len(all_keywords)} keywords for structure...")
+        
+        category_keywords = set()  # 2-word combinations (main categories)
+        subcategory_keywords = set()  # 3+ word combinations (subcategories)
+        base_lower = self.base_keyword.lower()
+        
+        for keyword in all_keywords:
+            words = keyword.strip().split()
+            if len(words) < 2:
+                continue
+                
+            # Category: exactly 2 words (e.g., "telefono fijo", "phone case")
+            if len(words) == 2:
+                category_keywords.add(keyword)
+            
+            # Subcategory: 3+ words (e.g., "telefono fijo vintage", "phone case leather black")
+            elif len(words) >= 3:
+                subcategory_keywords.add(keyword)
+        
+        safe_print(f"[STRUCTURE] Found {len(category_keywords)} category keywords (2-word combinations)")
+        safe_print(f"[STRUCTURE] Found {len(subcategory_keywords)} subcategory keywords (3+ word combinations)")
+        
+        return sorted(category_keywords), sorted(subcategory_keywords)
+    
+    def save_structured_keywords(self, all_keywords, output_dir="data"):
+        """Save keywords in structured format for AI mapper"""
+        import os
+        import json
+        
+        category_keywords, subcategory_keywords = self.extract_structured_keywords(all_keywords)
+        
+        # Create output directory if it doesn't exist
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Save all keywords (for backward compatibility)
+        keywords_file = os.path.join(output_dir, "keywords.txt")
+        with open(keywords_file, 'w', encoding='utf-8') as f:
+            for keyword in sorted(all_keywords):
+                f.write(f"{keyword}\n")
+        safe_print(f"[SAVE] All keywords saved to: {keywords_file}")
+        
+        # Save category keywords (2-word combinations)
+        categories_file = os.path.join(output_dir, "category_keywords.txt")
+        with open(categories_file, 'w', encoding='utf-8') as f:
+            for keyword in category_keywords:
+                f.write(f"{keyword}\n")
+        safe_print(f"[SAVE] Category keywords saved to: {categories_file}")
+        
+        # Save subcategory keywords (3+ word combinations)  
+        subcategories_file = os.path.join(output_dir, "subcategory_keywords.txt")
+        with open(subcategories_file, 'w', encoding='utf-8') as f:
+            for keyword in subcategory_keywords:
+                f.write(f"{keyword}\n")
+        safe_print(f"[SAVE] Subcategory keywords saved to: {subcategories_file}")
+        
+        # Save structured summary
+        summary_file = os.path.join(output_dir, "keyword_structure.json")
+        structure_data = {
+            "base_keyword": self.base_keyword,
+            "total_keywords": len(all_keywords),
+            "category_keywords": len(category_keywords),
+            "subcategory_keywords": len(subcategory_keywords),
+            "categories": category_keywords,
+            "subcategories": subcategory_keywords
+        }
+        
+        with open(summary_file, 'w', encoding='utf-8') as f:
+            json.dump(structure_data, f, indent=2, ensure_ascii=False)
+        safe_print(f"[SAVE] Keyword structure saved to: {summary_file}")
+        
+        return structure_data
+
 if __name__ == "__main__":
     import argparse
     
@@ -438,20 +603,28 @@ if __name__ == "__main__":
     safe_print(f"\n[START] Starting keyword discovery...")
     
     if args.mode == 'fast':
-        # Async mode - fastest
-        keywords = asyncio.run(scraper.scrape_with_letters_async(max_concurrent=args.concurrent))
+        # 2-Stage async mode - hierarchical keyword discovery
+        keywords = asyncio.run(scraper.scrape_2_stage_async(max_concurrent=args.concurrent))
     elif args.mode == 'parallel':
         # Parallel mode - balanced speed and stability
         keywords = scraper.scrape_with_letters_parallel(max_workers=args.workers)
     else:
         # Sequential mode - most stable but slowest
-        keywords = scraper.scrape_with_letters()
+    keywords = scraper.scrape_with_letters()
     
     if keywords:
         # Save results
         safe_print(f"\n[SAVE] Saving results...")
         scraper.save_keywords(keywords, args.suffix)
         
+        # Save structured keywords for AI mapper
+        output_dir = "../data" if not args.suffix else args.suffix
+        structure_data = scraper.save_structured_keywords(keywords, output_dir)
+        
         safe_print(f"\n[SUCCESS] Scraping completed! Found {len(keywords)} unique keywords.")
+        safe_print(f"�� Category Keywords: {structure_data['category_keywords']}")
+        safe_print(f"📂 Subcategory Keywords: {structure_data['subcategory_keywords']}")
+        safe_print(f"💾 Files saved to: {args.suffix}/")
+        
     else:
         safe_print("[ERROR] No keywords found! Check your network connection and market settings.") 

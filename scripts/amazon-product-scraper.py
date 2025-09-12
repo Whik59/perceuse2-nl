@@ -54,12 +54,9 @@ class AmazonScraper:
         self.market = market
         self.config = self.load_market_config(market)
         
-        # Tier-based product limits
-        self.tier_limits = {
-            0: {"min": 50, "max": 100},  # Main categories
-            1: {"min": 15, "max": 30},   # Subcategories  
-            2: {"min": 3, "max": 8}      # Sub-subcategories
-        }
+        # OPTIMIZED: Only scrape subcategories (level 1)
+        # Main categories get products automatically from their subcategories
+        self.scrape_only_subcategories = True
         
         # Quality filters
         self.min_rating = 4.0
@@ -91,10 +88,11 @@ class AmazonScraper:
         """Setup session with advanced stealth features"""
         session = requests.Session()
         
-        # Advanced headers
+        # Advanced headers with proper language for current market
+        language_header = self.get_language_header()
         session.headers.update({
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
-            'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Language': language_header,
             'Accept-Encoding': 'gzip, deflate, br',
             'DNT': '1',
             'Connection': 'keep-alive',
@@ -106,23 +104,58 @@ class AmazonScraper:
             'Cache-Control': 'max-age=0',
         })
         
-        # Add realistic cookies
-        session.cookies.update({
-            'session-id': f'262-{random.randint(1000000, 9999999)}-{random.randint(1000000, 9999999)}',
-            'ubid-acbfr': f'262-{random.randint(1000000, 9999999)}-{random.randint(1000000, 9999999)}',
-            'i18n-prefs': 'EUR',
-            'lc-acbfr': 'fr_FR',
-            'sp-cdn': 'L5Z9:FR',
-        })
+        # Add realistic cookies for current market
+        market_cookies = self.get_market_cookies()
+        session.cookies.update(market_cookies)
         
         return session
+    
+    def get_language_header(self):
+        """Get appropriate language header for the current market"""
+        language_map = {
+            'es': 'es-ES,es;q=0.9,en;q=0.8',
+            'fr': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+            'de': 'de-DE,de;q=0.9,en;q=0.8',
+            'it': 'it-IT,it;q=0.9,en;q=0.8',
+            'nl': 'nl-NL,nl;q=0.9,en;q=0.8',
+            'pl': 'pl-PL,pl;q=0.9,en;q=0.8',
+            'se': 'sv-SE,sv;q=0.9,en;q=0.8',
+            'com': 'en-US,en;q=0.9'
+        }
+        return language_map.get(self.market, 'es-ES,es;q=0.9,en;q=0.8')
+    
+    def get_market_cookies(self):
+        """Get appropriate cookies for the current market"""
+        session_id = f'262-{random.randint(1000000, 9999999)}-{random.randint(1000000, 9999999)}'
+        ubid_suffix = {
+            'es': 'acbes', 'fr': 'acbfr', 'de': 'acbde', 'it': 'acbit', 
+            'nl': 'acbnl', 'pl': 'acbpl', 'se': 'acbse', 'com': 'acbcom'
+        }.get(self.market, 'acbes')
+        
+        locale_map = {
+            'es': 'es_ES', 'fr': 'fr_FR', 'de': 'de_DE', 'it': 'it_IT',
+            'nl': 'nl_NL', 'pl': 'pl_PL', 'se': 'sv_SE', 'com': 'en_US'
+        }
+        
+        country_code = {
+            'es': 'ES', 'fr': 'FR', 'de': 'DE', 'it': 'IT',
+            'nl': 'NL', 'pl': 'PL', 'se': 'SE', 'com': 'US'
+        }.get(self.market, 'ES')
+        
+        return {
+            'session-id': session_id,
+            f'ubid-{ubid_suffix}': f'262-{random.randint(1000000, 9999999)}-{random.randint(1000000, 9999999)}',
+            'i18n-prefs': self.config['currency'],
+            f'lc-{ubid_suffix}': locale_map.get(self.market, 'es_ES'),
+            'sp-cdn': f'L5Z9:{country_code}',
+        }
     
     def get_random_headers(self):
         """Get randomized headers for each request"""
         headers = {
             'User-Agent': random.choice(self.user_agents),
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7',
+            'Accept-Language': self.get_language_header(),
             'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1',
@@ -180,18 +213,41 @@ class AmazonScraper:
         return None
     
     def load_categories(self):
-        """Load category structure"""
+        """Load category structure from locales/categories.json"""
         try:
-            with open("data/categories.json", 'r', encoding='utf-8') as f:
-                return json.load(f)
+            categories_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'categories.json')
+            with open(categories_path, 'r', encoding='utf-8') as f:
+                categories_data = json.load(f)
+            
+            # Filter categories that need products (flat structure)
+            categories = []
+            
+            for category in categories_data:
+                if category.get('needs_products', False):
+                    categories.append({
+                        'categoryId': category['categoryId'],
+                        'name': category['categoryNameCanonical'],
+                        'slug': category['slug'],
+                        'level': category['level'],
+                        'parentId': category.get('parentCategoryId'),
+                        'targetKeywords': [category['categoryNameCanonical']],
+                        'needs_products': True,
+                        'recommended_products': category.get('recommended_products', 5)
+                    })
+            
+            main_categories = len([c for c in categories_data if c['level'] == 0])
+            safe_print(f"[OK] Loaded {main_categories} main categories, {len(categories)} categories need products")
+            return categories
+            
         except Exception as e:
             safe_print(f"[ERROR] Error loading categories: {e}")
             return []
     
     def search_products(self, keyword, page=1):
         """Search for products with advanced filtering"""
-        # Build search URL with price filter
-                    search_url = f"https://www.amazon{self.config['amazon_tld']}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={self.min_price}&ref=sr_pg_{page}"
+        # Build search URL with price filter using the domain from config
+        domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
+        search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={self.min_price}&ref=sr_pg_{page}"
         
         safe_print(f"[SEARCH] Page {page}: {search_url}")
         
@@ -279,7 +335,8 @@ class AmazonScraper:
             
             product['title'] = title_text
             href = link.get('href')
-                            product['url'] = urljoin(f'https://www.amazon{self.config["amazon_tld"]}', href)
+            domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
+            product['url'] = urljoin(f'https://{domain}', href)
             
             # Price extraction with multiple methods
             price_text = ""
@@ -374,10 +431,24 @@ class AmazonScraper:
             # Brand extraction from title
             product['brand'] = self.extract_brand_from_title(title_text)
             
+            # Extract ASIN from URL
+            asin = self.extract_asin_from_url(product['url'])
+            product['asin'] = asin
+            
             # Generate affiliate URL
             product['amazon_url'] = product['url']
-            product['affiliate_url'] = f"{product['url']}?tag={self.config['affiliate_tag']}"
+            if asin:
+                # Create clean affiliate URL with ASIN
+                domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
+                product['affiliate_url'] = f"https://{domain}/dp/{asin}?tag={self.config['affiliate_tag']}"
+            else:
+                # Fallback: add tag to existing URL
+                separator = '&' if '?' in product['url'] else '?'
+                product['affiliate_url'] = f"{product['url']}{separator}tag={self.config['affiliate_tag']}"
+            
             product['scraped_at'] = datetime.now().isoformat()
+            product['country'] = self.market
+            product['currency'] = self.config['currency']
             
             return product
             
@@ -385,13 +456,36 @@ class AmazonScraper:
             safe_print(f"[ERROR] Error extracting product: {str(e)}")
             return None
     
+    def extract_asin_from_url(self, url):
+        """Extract ASIN from Amazon URL"""
+        try:
+            # Common ASIN patterns in Amazon URLs
+            patterns = [
+                r'/dp/([A-Z0-9]{10})',
+                r'/product/([A-Z0-9]{10})',
+                r'/gp/product/([A-Z0-9]{10})',
+                r'asin=([A-Z0-9]{10})',
+                r'/([A-Z0-9]{10})/'
+            ]
+            
+            for pattern in patterns:
+                match = re.search(pattern, url)
+                if match:
+                    return match.group(1)
+            
+            return None
+        except Exception:
+            return None
+    
     def extract_brand_from_title(self, title):
         """Extract brand name from product title"""
+        # Updated brands for telefono category
         brands = [
-            'Ninja', 'Philips', 'SEB', 'Moulinex', 'Tefal', 'Delonghi', 
-            'Cosori', 'Cecotec', 'Princess', 'Tristar', 'Russell Hobbs',
-            'Aigostar', 'Innsky', 'Proscenic', 'Tower', 'Klarstein',
-            'Rowenta', 'Krups', 'Brandt', 'Electrolux'
+            'Samsung', 'Apple', 'iPhone', 'Xiaomi', 'Huawei', 'Nokia', 'Oppo', 'Realme', 
+            'OnePlus', 'Motorola', 'LG', 'Sony', 'Google', 'Pixel', 'Honor', 'Vivo',
+            'Alcatel', 'TCL', 'Blackview', 'Doogee', 'Ulefone', 'Cubot', 'Oukitel',
+            'Cat', 'Caterpillar', 'Gigaset', 'Panasonic', 'Philips', 'Siemens',
+            'Ninja', 'SEB', 'Moulinex', 'Tefal', 'Delonghi', 'Cosori', 'Cecotec'
         ]
         
         title_upper = title.upper()
@@ -431,25 +525,37 @@ class AmazonScraper:
         return search_terms
     
     def load_market_config(self, market):
-        """Load market configuration from config file"""
+        """Load market configuration from country-config.json"""
         try:
-            config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'markets.json')
+            config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'country-config.json')
             with open(config_path, 'r', encoding='utf-8') as f:
-                markets_config = json.load(f)
+                config_data = json.load(f)
             
-            if market not in markets_config['markets']:
-                safe_print(f"[WARNING] Market '{market}' not found, using default 'fr'")
-                market = markets_config['default_market']
+            if market not in config_data['countries']:
+                safe_print(f"[WARNING] Country '{market}' not found, using default '{config_data['default_country']}'")
+                market = config_data['default_country']
             
-            return markets_config['markets'][market]
-        except Exception as e:
-            safe_print(f"[ERROR] Could not load market config: {e}")
-            # Fallback to French market
+            country_config = config_data['countries'][market]
+            
+            # Convert to expected format for backward compatibility
             return {
-                "name": "France",
-                "amazon_tld": ".fr",
-                "affiliate_tag": "clickclickh01-21",
-                "language": "french",
+                "name": country_config["name"],
+                "amazon_tld": f".{country_config['domain'].split('.')[1]}",  # Extract TLD from domain
+                "amazon_domain": country_config["domain"],
+                "affiliate_tag": country_config["affiliate_tag"],
+                "language": country_config["language"],
+                "currency": country_config["currency"],
+                "currency_symbol": "€" if country_config["currency"] == "EUR" else "$"
+            }
+        except Exception as e:
+            safe_print(f"[ERROR] Could not load country config: {e}")
+            # Fallback to Spanish market
+            return {
+                "name": "Spain",
+                "amazon_tld": ".es",
+                "amazon_domain": "amazon.es",
+                "affiliate_tag": "clickclickh02-21",
+                "language": "es-ES",
                 "currency": "EUR",
                 "currency_symbol": "€"
             }
@@ -622,32 +728,40 @@ class AmazonScraper:
         return product
     
     def scrape_category_products(self, category):
-        """Scrape products for a specific category using parallel processing"""
+        """Scrape products for subcategories only using their targetKeywords"""
         category_name = category['categoryNameCanonical']
         level = category['level']
         
-        safe_print(f"\n[CATEGORY] Scraping: {category_name} (Level {level})")
+        # OPTIMIZATION: Skip main categories (level 0) - they get products from subcategories
+        if level == 0:
+            safe_print(f"\n[SKIP] Main category: {category_name} (products come from subcategories)")
+            return []
         
-        # Create search terms based on category name
-        search_terms = self.create_search_terms(category_name, level)
+        safe_print(f"\n[CATEGORY] Scraping subcategory: {category_name} (Level {level})")
         
-        # Determine target count based on tier
-        limits = self.tier_limits[level]
-        target_count = random.randint(limits['min'], limits['max'])
-        safe_print(f"[TARGET] Target: {target_count} products")
+        # Use targetKeywords from the optimized category structure
+        target_keywords = category.get('targetKeywords', [])
+        recommended_products = category.get('recommendedProducts', 10)
+        
+        if not target_keywords:
+            safe_print(f"[WARNING] No target keywords for {category_name}")
+            return []
+        
+        safe_print(f"[TARGET] Keywords: {target_keywords}")
+        safe_print(f"[TARGET] Recommended products: {recommended_products}")
         
         all_products = []
         
-        # Search with generated terms
-        for keyword_idx, search_term in enumerate(search_terms[:2]):
-            if len(all_products) >= target_count:
+        # Search with target keywords from category structure
+        for keyword_idx, search_term in enumerate(target_keywords):
+            if len(all_products) >= recommended_products:
                 break
                 
-            safe_print(f"[SEARCH] Term {keyword_idx + 1}: '{search_term}'")
+            safe_print(f"[SEARCH] Keyword {keyword_idx + 1}: '{search_term}'")
             
             # Search multiple pages for this keyword
-            for page in range(1, 4):  # Max 3 pages per keyword
-                if len(all_products) >= target_count:
+            for page in range(1, 3):  # Max 2 pages per keyword for efficiency
+                if len(all_products) >= recommended_products:
                     break
                     
                 safe_print(f"  [PAGE] Page {page}...")
@@ -667,7 +781,7 @@ class AmazonScraper:
                     }
                     
                     for future in concurrent.futures.as_completed(future_to_product):
-                        if len(all_products) >= target_count:
+                        if len(all_products) >= recommended_products:
                             # Cancel remaining futures
                             for f in future_to_product:
                                 f.cancel()
@@ -901,6 +1015,779 @@ class AmazonScraper:
         
         return stats
     
+    def get_detailed_product_info(self, product):
+        """Fetch detailed product information from product page"""
+        try:
+            if not product.get('amazon_url'):
+                return None
+            
+            safe_print(f"[DETAIL] Fetching details for ASIN: {product.get('asin', 'N/A')}")
+            
+            # Make request to product page with Spanish language preference
+            response = self.make_request(product['amazon_url'])
+            if not response:
+                return None
+            
+            soup = BeautifulSoup(response.content, 'html.parser')
+            detailed_info = {}
+            
+            # Check if we're getting Spanish content
+            page_lang = soup.find('html', {'lang': True})
+            if page_lang and 'es' not in page_lang.get('lang', '').lower():
+                safe_print(f"[WARNING] Page language may not be Spanish: {page_lang.get('lang', 'unknown')}")
+            
+            # Extract full title
+            title_elem = soup.find('span', {'id': 'productTitle'})
+            if title_elem:
+                detailed_info['title'] = title_elem.get_text(strip=True)
+            
+            # Extract description
+            desc_elem = soup.find('div', {'id': 'feature-bullets'})
+            if not desc_elem:
+                desc_elem = soup.find('div', {'id': 'productDescription'})
+            if desc_elem:
+                detailed_info['description'] = desc_elem.get_text(strip=True)
+            
+            # Extract features/bullet points
+            features = []
+            feature_list = soup.find('div', {'id': 'feature-bullets'})
+            if feature_list:
+                bullets = feature_list.find_all('span', class_='a-list-item')
+                for bullet in bullets:
+                    text = bullet.get_text(strip=True)
+                    if text and len(text) > 10 and not text.startswith('Make sure'):
+                        features.append(text)
+            detailed_info['features'] = features[:10]  # Limit to 10 features
+            
+            # Extract images using the proven regex method for Amazon carousel
+            images = []
+            videos = []
+            
+            safe_print(f"[DEBUG] Starting image extraction using regex method...")
+            
+            # Method 1: Direct regex extraction from page HTML (most reliable)
+            try:
+                page_html = response.text
+                safe_print(f"[DEBUG] Page HTML length: {len(page_html)} characters")
+                
+                # Extract high-resolution images first
+                hires_images = re.findall(r'"hiRes":"([^"]+)"', page_html)
+                safe_print(f"[DEBUG] Found {len(hires_images)} hiRes images")
+                
+                if hires_images:
+                    for i, img_url in enumerate(hires_images):
+                        # Clean the URL (remove escape characters)
+                        clean_url = img_url.replace('\\/', '/')
+                        if clean_url not in images:
+                            images.append(clean_url)
+                            safe_print(f"[DEBUG] HiRes image {i+1}: {clean_url[:60]}...")
+                
+                # Fallback to large images if no hiRes found
+                if len(images) < 3:
+                    large_images = re.findall(r'"large":"([^"]+)"', page_html)
+                    safe_print(f"[DEBUG] Found {len(large_images)} large images")
+                    
+                    for i, img_url in enumerate(large_images):
+                        clean_url = img_url.replace('\\/', '/')
+                        if clean_url not in images:
+                            images.append(clean_url)
+                            safe_print(f"[DEBUG] Large image {i+1}: {clean_url[:60]}...")
+                
+                # Also look for main images
+                if len(images) < 5:
+                    main_images = re.findall(r'"main":"([^"]+)"', page_html)
+                    safe_print(f"[DEBUG] Found {len(main_images)} main images")
+                    
+                    for i, img_url in enumerate(main_images):
+                        clean_url = img_url.replace('\\/', '/')
+                        if clean_url not in images:
+                            images.append(clean_url)
+                            safe_print(f"[DEBUG] Main image {i+1}: {clean_url[:60]}...")
+                
+                # Look for video URLs
+                video_urls = re.findall(r'"videoUrl":"([^"]+)"', page_html)
+                safe_print(f"[DEBUG] Found {len(video_urls)} videos")
+                
+                for video_url in video_urls:
+                    clean_url = video_url.replace('\\/', '/')
+                    if clean_url not in videos:
+                        videos.append(clean_url)
+                        safe_print(f"[DEBUG] Video: {clean_url[:60]}...")
+                        
+            except Exception as e:
+                safe_print(f"[DEBUG] Error in regex extraction: {str(e)}")
+            
+            # Method 2: Fallback to thumbnail extraction if regex didn't work
+            if len(images) < 3:
+                safe_print(f"[DEBUG] Regex found {len(images)} images, trying thumbnail extraction...")
+                
+                # Target specific Amazon carousel elements
+                carousel_selectors = [
+                    'div[id*="altImages"]',
+                    'span[class*="a-button-thumbnail"]'
+                ]
+                
+                for selector in carousel_selectors:
+                    try:
+                        elements = soup.select(selector)
+                        safe_print(f"[DEBUG] Found {len(elements)} elements with selector: {selector}")
+                        
+                        for element in elements:
+                            imgs = element.find_all('img')
+                            for img in imgs:
+                                src = img.get('src') or img.get('data-src')
+                                if src and 'images/I/' in src:
+                                    # Extract image ID and create high-res URL
+                                    img_id_match = re.search(r'/I/([A-Za-z0-9+%]+)', src)
+                                    if img_id_match:
+                                        img_id = img_id_match.group(1)
+                                        high_res_url = f"https://m.media-amazon.com/images/I/{img_id}._AC_SL1500_.jpg"
+                                        if high_res_url not in images:
+                                            images.append(high_res_url)
+                                            safe_print(f"[DEBUG] Thumbnail converted: {img_id}")
+                    except Exception as e:
+                        safe_print(f"[DEBUG] Error with selector {selector}: {str(e)}")
+            
+            # Method 3: Dynamic image data as final fallback
+            if len(images) < 2:
+                safe_print(f"[DEBUG] Still only {len(images)} images, trying dynamic image data...")
+                
+                dynamic_imgs = soup.find_all('img', {'data-a-dynamic-image': True})
+                for img in dynamic_imgs:
+                    try:
+                        dynamic_data = img.get('data-a-dynamic-image')
+                        if dynamic_data:
+                            img_data = json.loads(dynamic_data)
+                            # Get the highest resolution version
+                            best_url = None
+                            best_size = 0
+                            
+                            for img_url, dimensions in img_data.items():
+                                if isinstance(dimensions, list) and len(dimensions) >= 2:
+                                    size = dimensions[0] * dimensions[1]
+                                    if size > best_size:
+                                        best_size = size
+                                        best_url = img_url
+                            
+                            if best_url and best_url not in images:
+                                images.append(best_url)
+                                safe_print(f"[DEBUG] Dynamic image: {best_url[:60]}...")
+                    except Exception as e:
+                        safe_print(f"[DEBUG] Error parsing dynamic image: {str(e)}")
+            
+            safe_print(f"[DEBUG] Total images found: {len(images)}")
+            
+            # Smart image deduplication and quality filtering
+            unique_images = []
+            seen_image_ids = set()
+            
+            # Sort images by quality preference (highest resolution first)
+            def get_image_quality_score(img_url):
+                if '_AC_SL1500_' in img_url:
+                    return 1000  # Highest quality
+                elif '_AC_SL1000_' in img_url:
+                    return 900
+                elif '_AC_SX679_' in img_url:
+                    return 800
+                elif '_AC_SX' in img_url:
+                    # Extract width for scoring
+                    width_match = re.search(r'_AC_SX(\d+)_', img_url)
+                    if width_match:
+                        return int(width_match.group(1))
+                    return 500
+                else:
+                    return 100  # Lowest quality
+            
+            # Sort by quality score (highest first)
+            images.sort(key=get_image_quality_score, reverse=True)
+            
+            for img_url in images:
+                # Extract image ID to avoid duplicates
+                img_id_match = re.search(r'/I/([^/._]+)', img_url)  # More precise regex
+                if img_id_match:
+                    img_id = img_id_match.group(1)
+                    
+                    # Skip very small/low quality images
+                    if any(x in img_url.lower() for x in ['_ss', '_sx40_', '_sx50_', '_sx75_', '_sx100_']):
+                        continue
+                    
+                    if img_id not in seen_image_ids:
+                        seen_image_ids.add(img_id)
+                        # Ensure we get the highest quality version
+                        if '_AC_SL1500_' not in img_url:
+                            # Convert to highest quality
+                            high_quality_url = f"https://m.media-amazon.com/images/I/{img_id}._AC_SL1500_.jpg"
+                            unique_images.append(high_quality_url)
+                        else:
+                            unique_images.append(img_url)
+                        
+                        # Stop at 10 images max
+                        if len(unique_images) >= 10:
+                            break
+            
+            detailed_info['images'] = unique_images[:10]  # Max 10 unique high-quality images
+            detailed_info['videos'] = list(dict.fromkeys(videos))[:5]   # Limit to 5 videos
+            
+            safe_print(f"[DEBUG] Found {len(unique_images)} unique high-quality images and {len(videos)} videos")
+            
+            # Extract availability
+            availability_elem = soup.find('div', {'id': 'availability'})
+            if availability_elem:
+                avail_text = availability_elem.get_text(strip=True)
+                detailed_info['availability'] = avail_text
+            else:
+                detailed_info['availability'] = "Check on Amazon"
+            
+            # Extract shipping info
+            shipping_elem = soup.find('div', {'id': 'mir-layout-DELIVERY_BLOCK'})
+            if not shipping_elem:
+                shipping_elem = soup.find('span', string=re.compile(r'delivery|shipping', re.I))
+            if shipping_elem:
+                detailed_info['shipping_info'] = shipping_elem.get_text(strip=True)[:200]
+            else:
+                detailed_info['shipping_info'] = "Standard shipping available"
+            
+            # Extract additional product details
+            detail_bullets = soup.find('div', {'id': 'detailBullets_feature_div'})
+            if detail_bullets:
+                details = {}
+                rows = detail_bullets.find_all('tr')
+                for row in rows:
+                    cells = row.find_all('td')
+                    if len(cells) == 2:
+                        key = cells[0].get_text(strip=True).replace(':', '')
+                        value = cells[1].get_text(strip=True)
+                        details[key] = value
+                detailed_info['product_details'] = details
+            
+            safe_print(f"[DETAIL] Successfully extracted detailed info")
+            return detailed_info
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Error fetching detailed product info: {str(e)}")
+            return None
+    
+    def create_product_preview_html(self, product, category_name):
+        """Create an HTML preview of the product"""
+        try:
+            html_content = f"""
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Preview - {product.get('title', 'Product')}</title>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }}
+        .product-container {{
+            background: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }}
+        .header {{
+            background: #232f3e;
+            color: white;
+            padding: 20px;
+            margin: -30px -30px 30px -30px;
+            border-radius: 8px 8px 0 0;
+        }}
+        .category-badge {{
+            background: #ff9900;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }}
+        .product-title {{
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #0066cc;
+        }}
+        .product-meta {{
+            display: flex;
+            gap: 30px;
+            margin: 20px 0;
+        }}
+        .meta-item {{
+            text-align: center;
+        }}
+        .meta-label {{
+            font-size: 12px;
+            color: #666;
+            text-transform: uppercase;
+        }}
+        .meta-value {{
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }}
+        .price {{
+            color: #B12704;
+            font-size: 24px;
+        }}
+        .rating {{
+            color: #ff9900;
+        }}
+        .images-section {{
+            margin: 30px 0;
+        }}
+        .images-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }}
+        .image-item {{
+            text-align: center;
+        }}
+        .image-item img {{
+            max-width: 100%;
+            height: 200px;
+            object-fit: contain;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background: white;
+        }}
+        .description-section {{
+            margin: 30px 0;
+        }}
+        .features-list {{
+            list-style: none;
+            padding: 0;
+        }}
+        .features-list li {{
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }}
+        .features-list li:before {{
+            content: "✓";
+            color: #00a652;
+            font-weight: bold;
+            margin-right: 10px;
+        }}
+        .affiliate-section {{
+            background: #e7f3ff;
+            border: 2px solid #0066cc;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }}
+        .affiliate-button {{
+            background: #ff9900;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+        }}
+        .affiliate-button:hover {{
+            background: #e68900;
+        }}
+        .tech-details {{
+            background: #f8f8f8;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 20px 0;
+        }}
+        .asin {{
+            font-family: monospace;
+            background: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }}
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <div class="header">
+            <div class="category-badge">{category_name}</div>
+            <h1>Product Preview - Amazon {self.config['name']}</h1>
+            <p>Scraped from {self.config.get('amazon_domain', 'amazon.es')} with affiliate tag: {self.config['affiliate_tag']}</p>
+        </div>
+
+        <h2 class="product-title">{product.get('title', 'No title available')}</h2>
+
+        <div class="product-meta">
+            <div class="meta-item">
+                <div class="meta-label">Price</div>
+                <div class="meta-value price">{product.get('price', 'N/A')}€</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Rating</div>
+                <div class="meta-value rating">{product.get('rating', 'N/A')} ⭐</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Reviews</div>
+                <div class="meta-value">{product.get('review_count', 'N/A')}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Brand</div>
+                <div class="meta-value">{product.get('brand', 'N/A')}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">ASIN</div>
+                <div class="meta-value asin">{product.get('asin', 'N/A')}</div>
+            </div>
+        </div>
+"""
+
+            # Add images section
+            images = product.get('images', [])
+            if images:
+                html_content += f"""
+        <div class="images-section">
+            <h3>Product Images ({len(images)} images)</h3>
+            <div class="images-grid">
+"""
+                for i, img_url in enumerate(images[:6]):  # Show max 6 images
+                    html_content += f"""
+                <div class="image-item">
+                    <img src="{img_url}" alt="Product Image {i+1}" onerror="this.style.display='none'">
+                    <p>Image {i+1}</p>
+                </div>
+"""
+                html_content += """
+            </div>
+        </div>
+"""
+
+            # Add description and features
+            description = product.get('description', '')
+            features = product.get('features', [])
+            
+            html_content += f"""
+        <div class="description-section">
+            <h3>Product Description</h3>
+            <p>{description[:500] + '...' if len(description) > 500 else description if description else 'No description available'}</p>
+            
+            <h3>Key Features</h3>
+            <ul class="features-list">
+"""
+            
+            if features:
+                for feature in features[:8]:  # Show max 8 features
+                    html_content += f"<li>{feature}</li>"
+            else:
+                html_content += "<li>No features available</li>"
+            
+            html_content += """
+            </ul>
+        </div>
+"""
+
+            # Add affiliate links section
+            html_content += f"""
+        <div class="affiliate-section">
+            <h3>🛒 Purchase Links</h3>
+            <p>These are affiliate links that will earn commission when used:</p>
+            <a href="{product.get('affiliate_url', '#')}" class="affiliate-button" target="_blank">
+                Buy on Amazon {self.config['name']} 
+            </a>
+            <a href="{product.get('amazon_url', '#')}" class="affiliate-button" target="_blank" style="background: #666;">
+                View Original Product Page
+            </a>
+        </div>
+
+        <div class="tech-details">
+            <h3>Technical Details</h3>
+            <p><strong>Country:</strong> {self.config['name']} ({self.market.upper()})</p>
+            <p><strong>Currency:</strong> {product.get('currency', 'EUR')}</p>
+            <p><strong>Availability:</strong> {product.get('availability', 'Check on Amazon')}</p>
+            <p><strong>Shipping:</strong> {product.get('shipping_info', 'Standard shipping available')}</p>
+            <p><strong>Scraped:</strong> {product.get('scraped_at', 'N/A')}</p>
+        </div>
+    </div>
+</body>
+</html>
+"""
+
+            # Save HTML file
+            filename = f"product_preview_{product.get('asin', 'unknown')}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
+            with open(filename, 'w', encoding='utf-8') as f:
+                f.write(html_content)
+            
+            return filename
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Could not create HTML preview: {str(e)}")
+            return None
+    
+    def save_product_in_site_format(self, product, category):
+        """Save product in the format expected by your Next.js site"""
+        try:
+            asin = product.get('asin')
+            if not asin:
+                return None
+            
+            # Create slug from title
+            import re
+            title = product.get('title', '')
+            slug = re.sub(r'[^a-zA-Z0-9\s-]', '', title.lower())
+            slug = re.sub(r'\s+', '-', slug)[:50]  # Limit length
+            
+            # Generate SEO-optimized description with HTML
+            features = product.get('features', [])
+            description_html = self.generate_product_description_html(product, features)
+            
+            # Map to your site's structure
+            site_product = {
+                "productId": asin,
+                "name": product.get('title', ''),
+                "slug": slug,
+                "description": description_html,
+                "shortDescription": product.get('title', ''),
+                "price": str(product.get('price', 0)).replace('€', '').strip(),
+                "compareAtPrice": int(float(str(product.get('price', 0)).replace('€', '').strip()) * 1.2) if product.get('price') else 0,  # 20% higher for comparison
+                "images": product.get('images', [product.get('image_url')] if product.get('image_url') else []),
+                "category": category.get('name', ''),
+                "tags": [
+                    category.get('name', '').lower(),
+                    product.get('brand', '').lower(),
+                    "telefono"
+                ],
+                "amazonUrl": product.get('affiliate_url', product.get('amazon_url', '')),
+                "amazonASIN": asin,
+                "affiliateId": self.config.get('affiliate_tag', ''),
+                "originalAmazonTitle": product.get('title', ''),
+                "amazonPrice": f"{product.get('price', 0)}€",
+                "amazonRating": product.get('rating', 0),
+                "amazonReviewCount": product.get('review_count', 0),
+                "brand": product.get('brand', 'Unknown'),
+                "seo": {
+                    "title": f"{product.get('title', '')} - {self.config.get('name', 'Store')}",
+                    "description": f"Découvrez {product.get('title', '')} sur Amazon. Note {product.get('rating', 'N/A')}/5 avec {product.get('review_count', 0)} avis.",
+                    "keywords": [
+                        "telefono",
+                        product.get('brand', '').lower(),
+                        category.get('name', '').lower(),
+                        "movil",
+                        "smartphone"
+                    ]
+                },
+                "specifications": {
+                    "availability": product.get('availability', 'In stock'),
+                    "shipping": product.get('shipping_info', 'Standard shipping'),
+                    "country": self.market.upper(),
+                    "currency": product.get('currency', 'EUR')
+                },
+                "features": features[:10] if features else [],
+                "scrapedAt": product.get('scraped_at', datetime.now().isoformat()),
+                "lastUpdated": datetime.now().isoformat()
+            }
+            
+            # Save to individual product file
+            filename = f"{asin.lower()}.json"
+            filepath = os.path.join('..', 'data', 'products', filename)
+            
+            # Create products directory if it doesn't exist
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(site_product, f, indent=2, ensure_ascii=False)
+            
+            safe_print(f"[SAVE] Product saved: {filename}")
+            return filepath
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Could not save product {product.get('asin', 'unknown')}: {str(e)}")
+            return None
+    
+    def generate_product_description_html(self, product, features):
+        """Generate SEO-optimized HTML description in Spanish"""
+        title = product.get('title', '')
+        price = product.get('price', 0)
+        rating = product.get('rating', 0)
+        brand = product.get('brand', 'Desconocido')
+        
+        html = f"""```html
+<h1>{title}</h1>
+
+<p>Descubre el {title} - un producto de calidad de la marca {brand}. Disponible en Amazon con entrega rápida.</p>
+
+<ul>
+"""
+        
+        # Add features as bullet points
+        if features:
+            for feature in features[:5]:  # Max 5 features
+                html += f"  <li><strong>{feature[:100]}...</strong></li>\n"
+        else:
+            html += f"  <li><strong>Producto de calidad superior</strong> de la marca {brand}</li>\n"
+            html += f"  <li><strong>Disponible inmediatamente</strong> en Amazon</li>\n"
+            html += f"  <li><strong>Entrega rápida</strong> y excelente servicio al cliente</li>\n"
+        
+        html += f"""</ul>
+
+<p><strong>Ventajas:</strong></p>
+<ul>
+  <li><strong>Calidad garantizada:</strong> Valoración Amazon de {rating}/5 estrellas</li>
+  <li><strong>Precio competitivo:</strong> Solo {price}€</li>
+  <li><strong>Entrega rápida:</strong> Disponible con Amazon Prime</li>
+</ul>
+
+<p><strong>Precio: {price}€</strong></p>
+<p><a href="#">Comprar ahora</a></p>
+```"""
+        
+        return html
+    
+    def test_single_subcategory(self):
+        """Test scraping a single subcategory"""
+        subcategories = [cat for cat in self.categories if cat.get('level') == 1]
+        
+        if not subcategories:
+            safe_print("[ERROR] No subcategories found!")
+            return
+        
+        safe_print(f"\n[TEST] Available subcategories ({len(subcategories)} total):")
+        
+        # Show first 10 subcategories for selection
+        display_count = min(10, len(subcategories))
+        for i in range(display_count):
+            cat = subcategories[i]
+            safe_print(f"  {i+1}. {cat['name']} (ID: {cat['categoryId']})")
+        
+        if len(subcategories) > 10:
+            safe_print(f"  ... and {len(subcategories) - 10} more")
+        
+        # Let user choose or default to first one
+        try:
+            choice = input(f"\nEnter number (1-{display_count}) or press Enter for first one: ").strip()
+            if choice == "":
+                selected_index = 0
+            else:
+                selected_index = int(choice) - 1
+                if selected_index < 0 or selected_index >= display_count:
+                    safe_print("[ERROR] Invalid choice, using first subcategory")
+                    selected_index = 0
+        except ValueError:
+            safe_print("[ERROR] Invalid input, using first subcategory")
+            selected_index = 0
+        
+        selected_category = subcategories[selected_index]
+        
+        safe_print(f"\n[TEST] Testing subcategory: {selected_category['name']}")
+        safe_print(f"[TEST] Category ID: {selected_category['categoryId']}")
+        safe_print(f"[TEST] Target keywords: {selected_category.get('targetKeywords', [])}")
+        
+        # Use the first target keyword or the category name
+        keywords = selected_category.get('targetKeywords', [selected_category['name']])
+        test_keyword = keywords[0] if keywords else selected_category['name']
+        
+        safe_print(f"[TEST] Using search keyword: '{test_keyword}'")
+        safe_print(f"[TEST] Target products: {selected_category.get('recommended_products', 5)}")
+        
+        # Start scraping
+        safe_print("\n[TEST] Starting product search...")
+        products = self.search_products(test_keyword, page=1)
+        
+        if products:
+            safe_print(f"\n[SUCCESS] Found {len(products)} products!")
+            
+            # Get detailed info for first product (for display)
+            first_product = products[0]
+            safe_print("\n[PRODUCT] Basic product details:")
+            safe_print(f"  Title: {first_product.get('title', 'N/A')[:80]}...")
+            safe_print(f"  ASIN: {first_product.get('asin', 'N/A')}")
+            safe_print(f"  Price: {first_product.get('price', 'N/A')} {first_product.get('currency', '')}")
+            safe_print(f"  Brand: {first_product.get('brand', 'N/A')}")
+            safe_print(f"  Rating: {first_product.get('rating', 'N/A')}")
+            safe_print(f"  Review Count: {first_product.get('review_count', 'N/A')}")
+            safe_print(f"  Amazon URL: {first_product.get('amazon_url', 'N/A')[:80]}...")
+            safe_print(f"  Affiliate URL: {first_product.get('affiliate_url', 'N/A')[:80]}...")
+            
+            # Fetch detailed product information for first product (for display)
+            safe_print("\n[DETAIL] Fetching detailed product information...")
+            detailed_product = self.get_detailed_product_info(first_product)
+            
+            if detailed_product:
+                safe_print("\n[PRODUCT] Detailed product information:")
+                safe_print(f"  Full Title: {detailed_product.get('title', 'N/A')}")
+                safe_print(f"  Description: {detailed_product.get('description', 'N/A')[:200]}...")
+                safe_print(f"  Features: {len(detailed_product.get('features', []))} bullet points")
+                if detailed_product.get('features'):
+                    for i, feature in enumerate(detailed_product.get('features', [])[:3]):
+                        safe_print(f"    • {feature[:100]}...")
+                safe_print(f"  Images: {len(detailed_product.get('images', []))} images found")
+                if detailed_product.get('images'):
+                    for i, img in enumerate(detailed_product.get('images', [])[:3]):
+                        safe_print(f"    {i+1}. {img}")
+                safe_print(f"  Availability: {detailed_product.get('availability', 'N/A')}")
+                safe_print(f"  Shipping: {detailed_product.get('shipping_info', 'N/A')}")
+            else:
+                safe_print("\n[WARNING] Could not fetch detailed product information")
+            
+            # Save individual product files in your site's format
+            # Get detailed info for ALL products before saving
+            products_saved = 0
+            for i, product in enumerate(products[:3]):  # Save first 3 products for testing
+                safe_print(f"\n[SAVE] Processing product {i+1}/3: {product.get('asin', 'N/A')}")
+                
+                # Get detailed info for each product
+                if i == 0 and detailed_product:
+                    # Use already fetched detailed info for first product
+                    product.update(detailed_product)
+                else:
+                    # Fetch detailed info for other products
+                    product_detailed = self.get_detailed_product_info(product)
+                    if product_detailed:
+                        product.update(product_detailed)
+                        safe_print(f"[SAVE] Got {len(product_detailed.get('images', []))} images for {product.get('asin', 'N/A')}")
+                    else:
+                        safe_print(f"[SAVE] WARNING: No detailed info for {product.get('asin', 'N/A')}")
+                
+                # Save the product
+                product_file = self.save_product_in_site_format(product, selected_category)
+                if product_file:
+                    products_saved += 1
+                    safe_print(f"[SAVE] Product saved: {product_file}")
+                else:
+                    safe_print(f"[SAVE] Failed to save product: {product.get('asin', 'N/A')}")
+            
+            # Save test results summary
+            test_results = {
+                'test_category': selected_category,
+                'search_keyword': test_keyword,
+                'products_found': len(products),
+                'products_saved': products_saved,
+                'test_date': datetime.now().isoformat(),
+                'country': self.market,
+                'config': self.config
+            }
+            
+            import json
+            output_file = f"test_single_subcategory_{self.market}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(test_results, f, indent=2, ensure_ascii=False)
+            
+            safe_print(f"[SAVE] Saved {products_saved} individual product files for your site")
+            
+            safe_print(f"\n[SAVE] Test results saved to: {output_file}")
+            safe_print(f"[INFO] You can now view this product data on your Next.js site!")
+            safe_print(f"[SUCCESS] Single subcategory test completed successfully!")
+            
+        else:
+            safe_print(f"\n[WARNING] No products found for '{test_keyword}'")
+            safe_print("[INFO] This could be due to:")
+            safe_print("  - Very specific search terms")
+            safe_print("  - Amazon blocking requests")
+            safe_print("  - No products matching quality filters")
+    
     def print_summary(self):
         """Print comprehensive summary"""
         stats = self.get_statistics()
@@ -929,31 +1816,44 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description='Amazon Product Scraper with Multi-Market Support')
-    parser.add_argument('--market', '-m', default='fr', 
-                       choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'us'],
-                       help='Target market (default: fr)')
+    parser.add_argument('--country', '-c', default='es', 
+                       choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'com'],
+                       help='Target country (default: es)')
+    parser.add_argument('--test-single', '-t', action='store_true',
+                       help='Test mode: scrape products from just one subcategory')
     
     args = parser.parse_args()
     
     safe_print("[START] Professional Amazon Product Scraper")
     safe_print("=" * 60)
-    safe_print(f"[MARKET] Target market: {args.market.upper()}")
+    safe_print(f"[MARKET] Target country: {args.country.upper()}")
     
-    scraper = AmazonScraper(market=args.market)
+    scraper = AmazonScraper(market=args.country)
     
     if not scraper.categories:
         safe_print("[ERROR] No categories found!")
         exit(1)
     
     safe_print(f"[OK] Loaded {len(scraper.categories)} categories")
-    safe_print(f"[TARGET] Tier limits: {scraper.tier_limits}")
+    safe_print(f"[OPTIMIZATION] Only scraping subcategories (level 1) with targetKeywords")
     safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price")
     
-    print("\nChoose scraping mode:")
-    print("1. Sample scraping (5 categories) - Quick test")
-    print("2. Full scraping (87 categories) - Complete catalog")
+    # Count subcategories for accurate reporting
+    subcategories = [cat for cat in scraper.categories if cat.get('level') == 1]
+    safe_print(f"[TARGET] Found {len(subcategories)} subcategories to scrape")
     
-    choice = input("\nEnter choice (1 or 2): ").strip()
+    # Handle test single mode
+    if args.test_single:
+        safe_print("\n[TEST] Single subcategory test mode")
+        scraper.test_single_subcategory()
+        exit(0)
+    
+    print("\nChoose scraping mode:")
+    print(f"1. Sample scraping (5 subcategories) - Quick test")
+    print(f"2. Full scraping ({len(subcategories)} subcategories) - Complete catalog")
+    print(f"3. Test single subcategory - Test one specific subcategory")
+    
+    choice = input("\nEnter choice (1, 2, or 3): ").strip()
     
     if choice == "1":
         safe_print("\n[START] Running SAMPLE scraping...")
@@ -965,5 +1865,8 @@ if __name__ == "__main__":
             scraper.scrape_all_categories()
         else:
             safe_print("[ERROR] Cancelled.")
+    elif choice == "3":
+        safe_print("\n[TEST] Single subcategory test mode")
+        scraper.test_single_subcategory()
     else:
         safe_print("[ERROR] Invalid choice. Exiting.") 
