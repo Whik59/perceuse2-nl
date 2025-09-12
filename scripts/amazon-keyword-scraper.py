@@ -10,7 +10,9 @@ import json
 import random
 import string
 import sys
-
+import asyncio
+import aiohttp
+import concurrent.futures
 from datetime import datetime
 
 def safe_print(message):
@@ -153,9 +155,49 @@ class AdvancedAmazonKeywordScraper:
     
 
     
-    def scrape_with_letters(self):
-        """Scrape suggestions using base keyword + letters (simplified version)"""
-        safe_print(f"[SEARCH] Scraping Amazon autocomplete for: {self.base_keyword}")
+    async def get_amazon_suggestions_async(self, session, search_term):
+        """Async version of get_amazon_suggestions"""
+        url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
+        
+        params = {
+            "mid": self.get_marketplace_id(),
+            "alias": "aps",
+            "prefix": search_term
+        }
+        
+        headers = {
+            'User-Agent': random.choice(self.user_agents),
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': f'{self.config["locale"]},{self.config["language"][:2]};q=0.9,en;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Cache-Control': 'no-cache',
+        }
+        
+        try:
+            async with session.get(url, params=params, headers=headers, timeout=10) as response:
+                if response.status == 200:
+                    data = await response.json()
+                    suggestions = []
+                    
+                    if 'suggestions' in data:
+                        for suggestion in data['suggestions']:
+                            if 'value' in suggestion:
+                                keyword = suggestion['value'].strip().lower()
+                                if keyword and self.base_keyword.lower() in keyword:
+                                    suggestions.append(keyword)
+                    
+                    return search_term, suggestions
+                else:
+                    return search_term, []
+                    
+        except Exception as e:
+            safe_print(f"[ERROR] Failed to get suggestions for '{search_term}': {e}")
+            return search_term, []
+
+    async def scrape_with_letters_async(self, max_concurrent=10):
+        """Fast async scraping with concurrent requests"""
+        safe_print(f"[SEARCH] Fast scraping for: {self.base_keyword}")
         safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
         
         # Search patterns - keep it simple and universal
@@ -173,7 +215,130 @@ class AdvancedAmazonKeywordScraper:
             search_patterns.append(f"{self.base_keyword} {num}")
         
         total_patterns = len(search_patterns)
-        safe_print(f"[STATS] Will search {total_patterns} patterns")
+        safe_print(f"[STATS] Will search {total_patterns} patterns with {max_concurrent} concurrent requests")
+        
+        # Process in batches to avoid overwhelming the server
+        batch_size = max_concurrent
+        all_results = []
+        
+        async with aiohttp.ClientSession() as session:
+            for i in range(0, len(search_patterns), batch_size):
+                batch = search_patterns[i:i+batch_size]
+                safe_print(f"[SEARCH] Processing batch {i//batch_size + 1}/{(total_patterns + batch_size - 1)//batch_size}")
+                
+                # Create tasks for this batch
+                tasks = []
+                for pattern in batch:
+                    task = self.get_amazon_suggestions_async(session, pattern)
+                    tasks.append(task)
+                
+                # Execute batch concurrently
+                batch_results = await asyncio.gather(*tasks, return_exceptions=True)
+                
+                # Process results
+                for result in batch_results:
+                    if isinstance(result, tuple):
+                        pattern, suggestions = result
+                        if suggestions:
+                            new_keywords = 0
+                            for keyword in suggestions:
+                                if keyword not in self.all_keywords:
+                                    self.all_keywords.add(keyword)
+                                    new_keywords += 1
+                            safe_print(f"  [OK] '{pattern}': {len(suggestions)} suggestions ({new_keywords} new)")
+                        else:
+                            safe_print(f"  [WARNING] '{pattern}': No suggestions")
+                    else:
+                        safe_print(f"  [ERROR] Exception in batch: {result}")
+                
+                # Small delay between batches
+                if i + batch_size < len(search_patterns):
+                    await asyncio.sleep(random.uniform(0.5, 1.5))
+        
+        safe_print(f"[STATS] Total unique keywords collected: {len(self.all_keywords)}")
+        return list(self.all_keywords)
+
+    def scrape_with_letters_parallel(self, max_workers=5):
+        """Fast parallel scraping using ThreadPoolExecutor"""
+        safe_print(f"[SEARCH] Parallel scraping for: {self.base_keyword}")
+        safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
+        
+        # Search patterns - keep it simple and universal
+        search_patterns = []
+        
+        # Base keyword alone
+        search_patterns.append(self.base_keyword)
+        
+        # Base keyword + space + letters
+        for letter in string.ascii_lowercase:
+            search_patterns.append(f"{self.base_keyword} {letter}")
+        
+        # Base keyword + space + numbers
+        for num in range(10):
+            search_patterns.append(f"{self.base_keyword} {num}")
+        
+        total_patterns = len(search_patterns)
+        safe_print(f"[STATS] Will search {total_patterns} patterns with {max_workers} parallel workers")
+        
+        def process_pattern(pattern):
+            """Process a single pattern"""
+            suggestions = self.get_amazon_suggestions(pattern)
+            return pattern, suggestions
+        
+        # Process patterns in parallel batches
+        batch_size = max_workers * 2
+        
+        for i in range(0, len(search_patterns), batch_size):
+            batch = search_patterns[i:i+batch_size]
+            safe_print(f"[SEARCH] Processing batch {i//batch_size + 1}/{(total_patterns + batch_size - 1)//batch_size}")
+            
+            with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+                future_to_pattern = {executor.submit(process_pattern, pattern): pattern for pattern in batch}
+                
+                for future in concurrent.futures.as_completed(future_to_pattern):
+                    try:
+                        pattern, suggestions = future.result()
+                        if suggestions:
+                            new_keywords = 0
+                            for keyword in suggestions:
+                                if keyword not in self.all_keywords:
+                                    self.all_keywords.add(keyword)
+                                    new_keywords += 1
+                            safe_print(f"  [OK] '{pattern}': {len(suggestions)} suggestions ({new_keywords} new)")
+                        else:
+                            safe_print(f"  [WARNING] '{pattern}': No suggestions")
+                    except Exception as exc:
+                        pattern = future_to_pattern[future]
+                        safe_print(f"  [ERROR] '{pattern}' failed: {exc}")
+            
+            # Small delay between batches
+            if i + batch_size < len(search_patterns):
+                time.sleep(random.uniform(0.5, 1.5))
+        
+        safe_print(f"[STATS] Total unique keywords collected: {len(self.all_keywords)}")
+        return list(self.all_keywords)
+
+    def scrape_with_letters(self):
+        """Original sequential scraping (kept for compatibility)"""
+        safe_print(f"[SEARCH] Sequential scraping for: {self.base_keyword}")
+        safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
+        
+        # Search patterns - keep it simple and universal
+        search_patterns = []
+        
+        # Base keyword alone
+        search_patterns.append(self.base_keyword)
+        
+        # Base keyword + space + letters
+        for letter in string.ascii_lowercase:
+            search_patterns.append(f"{self.base_keyword} {letter}")
+        
+        # Base keyword + space + numbers
+        for num in range(10):
+            search_patterns.append(f"{self.base_keyword} {num}")
+        
+        total_patterns = len(search_patterns)
+        safe_print(f"[STATS] Will search {total_patterns} patterns sequentially")
         
         # Scrape each pattern
         for i, pattern in enumerate(search_patterns, 1):
@@ -192,8 +357,8 @@ class AdvancedAmazonKeywordScraper:
             else:
                 safe_print(f"  [WARNING] No suggestions found")
             
-            # Rate limiting
-            time.sleep(random.uniform(1, 3))
+            # Reduced rate limiting for speed
+            time.sleep(random.uniform(0.3, 0.8))
         
         safe_print(f"[STATS] Total unique keywords collected: {len(self.all_keywords)}")
         return list(self.all_keywords)
@@ -258,8 +423,12 @@ if __name__ == "__main__":
     parser.add_argument('--market', '-m', default='fr', 
                        choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'us'],
                        help='Target market (default: fr)')
-    parser.add_argument('--workers', '-w', type=int, default=3, 
-                       help='Number of parallel workers (default: 3)')
+    parser.add_argument('--workers', '-w', type=int, default=5, 
+                       help='Number of parallel workers (default: 5)')
+    parser.add_argument('--mode', '-M', choices=['fast', 'parallel', 'sequential'], default='parallel',
+                       help='Scraping mode: fast (async), parallel (threads), sequential (default: parallel)')
+    parser.add_argument('--concurrent', '-c', type=int, default=8,
+                       help='Max concurrent requests for async mode (default: 8)')
     parser.add_argument('--suffix', default='', help='Suffix for output files')
     args = parser.parse_args()
     
@@ -267,7 +436,11 @@ if __name__ == "__main__":
     safe_print("=" * 60)
     safe_print(f"[TARGET] Keyword: {args.keyword}")
     safe_print(f"[TARGET] Market: {args.market.upper()}")
-    safe_print(f"[TARGET] Workers: {args.workers}")
+    safe_print(f"[TARGET] Mode: {args.mode}")
+    if args.mode == 'parallel':
+        safe_print(f"[TARGET] Workers: {args.workers}")
+    elif args.mode == 'fast':
+        safe_print(f"[TARGET] Concurrent: {args.concurrent}")
     
     scraper = AdvancedAmazonKeywordScraper(args.keyword, args.market)
     
@@ -275,9 +448,18 @@ if __name__ == "__main__":
     safe_print(f"[OK] Market: {scraper.config['name']} ({scraper.config['amazon_tld']})")
     safe_print(f"[OK] Language: {scraper.config['language']}")
     
-    # Scrape keywords
+    # Scrape keywords based on mode
     safe_print(f"\n[START] Starting keyword discovery...")
-    keywords = scraper.scrape_with_letters()
+    
+    if args.mode == 'fast':
+        # Async mode - fastest
+        keywords = asyncio.run(scraper.scrape_with_letters_async(max_concurrent=args.concurrent))
+    elif args.mode == 'parallel':
+        # Parallel mode - balanced speed and stability
+        keywords = scraper.scrape_with_letters_parallel(max_workers=args.workers)
+    else:
+        # Sequential mode - most stable but slowest
+        keywords = scraper.scrape_with_letters()
     
     if keywords:
         # Save results
