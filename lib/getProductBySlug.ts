@@ -32,6 +32,7 @@ export const getProductBySlug = async (slug: string): Promise<Product | null> =>
         imagePaths: productData.images || [`/products/${slug}.jpg`],
         features: productData.features || [],
         specifications: productData.specifications || {},
+        faq: productData.faq || [],
         seo: productData.seo || {
           title: productData.name || productData.originalAmazonTitle || 'Product',
           description: productData.shortDescription || 'Premium product',

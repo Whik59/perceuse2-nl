@@ -3,70 +3,58 @@
   "totalReviews": 2547,
   "reviews": [
     {
-      "id": "1",
+      "id": 1,
       "author": "Marie D.",
       "rating": 5,
       "date": "2024-01-15",
-      "title": "Excellente friteuse !",
-      "content": "Très satisfaite de mon achat. La friteuse chauffe rapidement et les frites sont parfaites. Je recommande vivement !",
+      "text": "Muy satisfecha con mi compra. El móvil es fácil de usar y la batería dura muchísimo. ¡Recomendado para abuelos!",
       "verified": true,
-      "helpful": 12,
-      "location": "Paris, France"
+      "helpful": 12
     },
     {
-      "id": "2",
+      "id": 2,
       "author": "Jean-Pierre M.",
       "rating": 5,
       "date": "2024-01-10",
-      "title": "Rapport qualité-prix imbattable",
-      "content": "Pour le prix, c'est vraiment une excellente friteuse. Facile à utiliser et à nettoyer. Mes enfants adorent !",
+      "text": "Perfecto para mi padre. El botón SOS nos da mucha tranquilidad. Muy buena atención al cliente.",
       "verified": true,
-      "helpful": 8,
-      "location": "Lyon, France"
+      "helpful": 8
     },
     {
-      "id": "3",
+      "id": 3,
       "author": "Sophie L.",
       "rating": 4,
       "date": "2024-01-08",
-      "title": "Très bonne qualité",
-      "content": "Friteuse de très bonne qualité, livraison rapide. Seul bémol : un peu bruyante mais rien de dramatique.",
+      "text": "El teléfono llegó rápido y funciona bien. Mi abuela lo maneja sin problemas. Quizá el volumen podría ser más alto.",
       "verified": true,
-      "helpful": 15,
-      "location": "Marseille, France"
+      "helpful": 15
     },
     {
-      "id": "4",
+      "id": 4,
       "author": "Thomas R.",
       "rating": 5,
       "date": "2024-01-05",
-      "title": "Parfait pour une famille",
-      "content": "Capacité idéale pour une famille de 4 personnes. La cuisson est uniforme et les résultats sont excellents.",
+      "text": "Muy fácil de configurar. La batería dura toda la semana. Ideal para personas mayores.",
       "verified": true,
-      "helpful": 6,
-      "location": "Toulouse, France"
+      "helpful": 6
     },
     {
-      "id": "5",
+      "id": 5,
       "author": "Isabelle C.",
       "rating": 4,
       "date": "2024-01-02",
-      "title": "Bon produit",
-      "content": "Bonne friteuse dans l'ensemble. Design moderne et fonctionnalités pratiques. Je suis contente de mon achat.",
+      "text": "Buen producto, sencillo y seguro. El envío fue muy rápido. Mi madre está encantada.",
       "verified": true,
-      "helpful": 9,
-      "location": "Nantes, France"
+      "helpful": 9
     },
     {
-      "id": "6",
+      "id": 6,
       "author": "Pierre B.",
       "rating": 5,
       "date": "2023-12-28",
-      "title": "Excellent choix !",
-      "content": "Après plusieurs mois d'utilisation, je suis toujours aussi satisfait. La friteuse est robuste et efficace.",
+      "text": "Después de varios meses, sigue funcionando perfectamente. Muy recomendable para mayores.",
       "verified": true,
-      "helpful": 11,
-      "location": "Strasbourg, France"
+      "helpful": 11
     }
   ]
 } 

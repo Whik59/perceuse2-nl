@@ -34,7 +34,7 @@ const Layout: React.FC<LayoutProps> = ({
   showBanner = false,
   bannerMessage,
   showFloatingButtons = true,
-  showVideoButton = true,
+  showVideoButton = false, // Video disabled
   videoUrl = "/video.mov",
   disableExitIntent = false
 }) => {
@@ -132,15 +132,7 @@ const Layout: React.FC<LayoutProps> = ({
     };
   }, []);
 
-  // Clone children and pass the openCartDrawer function
-  const childrenWithProps = React.Children.map(children, child => {
-    if (React.isValidElement(child)) {
-      return React.cloneElement(child as React.ReactElement<{ openCartDrawer?: () => void }>, {
-        openCartDrawer: handleOpenCartDrawer
-      });
-    }
-    return child;
-  });
+  // Children can access openCartDrawer via the global window object
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
@@ -160,7 +152,7 @@ const Layout: React.FC<LayoutProps> = ({
       />
       
       <main className="flex-1">
-        {childrenWithProps}
+        {children}
       </main>
       
       <Footer />

@@ -4,11 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../components/layout/Layout';
-import ProductCard from '../../components/ProductCard';
-import FeaturedProducts from '../../components/FeaturedProducts';
 import FeaturedCategories from '../../components/FeaturedCategories';
-import AboutSection from '../../components/AboutSection';
-import WhyChooseUs from '../../components/WhyChooseUs';
 import Reviews from '../../components/Reviews';
 import { Button } from '../../components/ui/Button';
 import { Product, Category, CartState } from '../../lib/types';
@@ -101,130 +97,74 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
       categories={categories}
       showFloatingButtons={true}
     >
-      {/* Luxury Hero Section */}
-      <section className="relative bg-gradient-to-br from-stone-100 via-neutral-50 to-stone-100 overflow-hidden min-h-[60vh] md:min-h-[75vh] flex items-center">
-        {/* Hero Background Image - Responsive */}
-        <div className="absolute inset-0">
-          {/* Mobile Image */}
-          <Image
-            src="/hero-mobile.png" 
-            alt={getString('hero.expertise.title')}
-            fill
-            className="object-cover object-center md:hidden"
-            priority
-            sizes="(max-width: 768px) 100vw, 0px"
-            onError={(e) => {
-              console.log('Mobile hero image failed to load:', e);
-              e.currentTarget.style.display = 'none';
-            }}
-          />
-          {/* Desktop Image */}
-          <Image
-            src="/hero.png" 
-            alt={getString('hero.expertise.title')}
-            fill
-            className="object-cover object-center hidden md:block"
-            priority
-            sizes="(min-width: 768px) 100vw, 0px"
-            onError={(e) => {
-              console.log('Desktop hero image failed to load:', e);
-              e.currentTarget.style.display = 'none';
-            }}
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/60"></div>
-        </div>
-        
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
-          <div className="text-center max-w-5xl mx-auto space-y-10 md:space-y-12">
+      {/* Clean Hero Section - Mobile Phones for Seniors */}
+      <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 py-16 md:py-24">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center space-y-8">
             
             {/* Trust Badge */}
-            <div className="inline-flex items-center space-x-3 text-sm font-semibold text-white bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
+            <div className="inline-flex items-center space-x-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
               <div className="flex space-x-1">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
+                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-amber-400 font-bold">{getString('hero.trust.rating')}</span>
+              <span className="text-yellow-400 font-bold">{getString('hero.trust.rating')}</span>
               <span className="text-white/60">•</span>
-              <span>{getString('hero.trust.badge')}</span>
+              <span className="text-white font-medium">{getString('hero.trust.badge')}</span>
             </div>
 
             {/* Main Headline */}
-            <div className="space-y-8">
-              <div className="relative">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight tracking-tight">
-                  <span className="bg-gradient-to-r from-white via-white to-white/90 bg-clip-text text-transparent drop-shadow-2xl">
-                    {getString('hero.expertise.title')}
-                  </span>
-                </h1>
-                <div className="absolute inset-0 bg-gradient-to-r from-white via-white to-white/90 bg-clip-text text-transparent blur-sm opacity-50 -z-10">
-                  {getString('hero.expertise.title')}
-                </div>
-              </div>
-              <div className="relative bg-black/20 backdrop-blur-sm rounded-2xl px-6 py-4 border border-white/10 max-w-3xl mx-auto">
-                <p className="text-lg md:text-xl lg:text-2xl text-white leading-relaxed font-medium tracking-wide">
-                  {getString('hero.expertise.subtitle')}
-                </p>
-              </div>
+            <div className="space-y-6">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                {getString('hero.expertise.title')}
+              </h1>
+              <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl mx-auto">
+                {getString('hero.expertise.subtitle')}
+              </p>
             </div>
 
             {/* CTA Button */}
-            <div className="pt-4 md:pt-6">
+            <div className="pt-4">
               <Link href="/categories">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-white to-white/95 hover:from-white/95 hover:to-white text-stone-900 px-12 py-4 md:px-14 md:py-5 text-base md:text-lg font-bold tracking-[2px] md:tracking-[3px] transition-all duration-500 hover:shadow-2xl hover:scale-105 uppercase border-none rounded-full"
+                  className="bg-white hover:bg-white/90 text-blue-700 px-12 py-4 text-lg font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                 >
                   {getString('hero.expertise.cta')}
                 </Button>
               </Link>
             </div>
 
-            {/* Trust Indicators */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 pt-8 md:pt-12 border-t border-white/30">
-              <div className="text-center space-y-3 md:space-y-4 group">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto border border-white/20 group-hover:bg-white/20 transition-all duration-300">
-                  <Shield className="w-6 h-6 md:w-8 md:h-8 text-white" />
+            {/* Key Features */}
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pt-12 border-t border-white/20">
+              <div className="text-center space-y-4">
+                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
+                  <Shield className="w-8 h-8 text-white" />
                 </div>
-                <p className="text-xs md:text-sm font-bold text-white tracking-wider uppercase">
-                  {getString('hero.features.quality.title')}
-                </p>
-                <p className="text-xs md:text-sm text-white/80 leading-relaxed font-medium">
-                  {getString('hero.features.quality.description')}
-                </p>
+                <h3 className="text-white font-bold">{getString('hero.features.quality.title')}</h3>
+                <p className="text-white/80 text-sm">{getString('hero.features.quality.description')}</p>
               </div>
-              <div className="text-center space-y-3 md:space-y-4 group">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto border border-white/20 group-hover:bg-white/20 transition-all duration-300">
-                  <Award className="w-6 h-6 md:w-8 md:h-8 text-white" />
+              <div className="text-center space-y-4">
+                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
+                  <Award className="w-8 h-8 text-white" />
                 </div>
-                <p className="text-xs md:text-sm font-bold text-white tracking-wider uppercase">
-                  {getString('hero.features.design.title')}
-                </p>
-                <p className="text-xs md:text-sm text-white/80 leading-relaxed font-medium">
-                  {getString('hero.features.design.description')}
-                </p>
+                <h3 className="text-white font-bold">{getString('hero.features.design.title')}</h3>
+                <p className="text-white/80 text-sm">{getString('hero.features.design.description')}</p>
               </div>
-              <div className="text-center space-y-3 md:space-y-4 group">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto border border-white/20 group-hover:bg-white/20 transition-all duration-300">
-                  <Truck className="w-6 h-6 md:w-8 md:h-8 text-white" />
+              <div className="text-center space-y-4">
+                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
+                  <Truck className="w-8 h-8 text-white" />
                 </div>
-                <p className="text-xs md:text-sm font-bold text-white tracking-wider uppercase">
-                  {getString('hero.trust.delivery')}
-                </p>
-                <p className="text-xs md:text-sm text-white/80 leading-relaxed font-medium">
-                  {getString('hero.features.innovation.description')}
-                </p>
+                <h3 className="text-white font-bold">{getString('hero.trust.delivery')}</h3>
+                <p className="text-white/80 text-sm">{getString('hero.features.innovation.description')}</p>
               </div>
-              <div className="text-center space-y-3 md:space-y-4 group">
-                <div className="w-12 h-12 md:w-16 md:h-16 bg-white/15 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto border border-white/20 group-hover:bg-white/20 transition-all duration-300">
-                  <RefreshCw className="w-6 h-6 md:w-8 md:h-8 text-white" />
+              <div className="text-center space-y-4">
+                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
+                  <RefreshCw className="w-8 h-8 text-white" />
                 </div>
-                <p className="text-xs md:text-sm font-bold text-white tracking-wider uppercase">
-                  {getString('hero.trust.guarantee')}
-                </p>
-                <p className="text-xs md:text-sm text-white/80 leading-relaxed font-medium">
-                  {getString('hero.features.innovation.title')}
-                </p>
+                <h3 className="text-white font-bold">{getString('hero.trust.guarantee')}</h3>
+                <p className="text-white/80 text-sm">{getString('hero.features.innovation.title')}</p>
               </div>
             </div>
           </div>
@@ -232,22 +172,22 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
       </section>
 
       {/* Featured Products Section */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-light text-stone-900 mb-4 tracking-wide">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               {getString('homepage.hero.featured.title')}
             </h2>
-            <p className="text-lg text-stone-600 font-light max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               {getString('homepage.hero.featured.subtitle')}
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {products && products.length > 0 ? (
               products.slice(0, 4).map((product, index) => (
-                <div key={product.slug} className="group">
-                  <div className="bg-white border border-stone-200/50 overflow-hidden hover:shadow-lg transition-all duration-300">
+                <Link key={product.slug} href={`/product/${product.slug}`}>
+                  <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
                     <div className="relative aspect-square overflow-hidden">
                       <Image
                         src={product.imagePaths?.[0] || '/placeholder-product.jpg'}
@@ -257,20 +197,26 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                         sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
                       />
                     </div>
-                    <div className="p-4">
-                      <h3 className="font-light text-stone-900 text-sm mb-2 tracking-wide">
+                    <div className="p-6">
+                      <h3 className="font-semibold text-gray-900 text-lg mb-3 line-clamp-2">
                         {product.title}
                       </h3>
-                      <p className="text-lg font-medium text-stone-900">
+                      <p className="text-2xl font-bold text-blue-600">
                         {formatCurrency(product.basePrice)}
                       </p>
+                      <Link 
+                        href={`/product/${product.slug}`}
+                        className="mt-4 block w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium text-center transition-colors duration-200"
+                      >
+                        Ver
+                      </Link>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))
             ) : (
               <div className="col-span-full text-center py-12">
-                <p className="text-stone-500">{getString('homepage.hero.featured.loading')}</p>
+                <p className="text-gray-500">{getString('homepage.hero.featured.loading')}</p>
               </div>
             )}
           </div>
@@ -278,32 +224,21 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           <div className="text-center mt-12">
             <Link href="/categories">
               <Button 
-                variant="outline" 
-                className="border-stone-900 text-stone-900 hover:bg-stone-900 hover:text-white px-8 py-3 text-sm font-medium tracking-wide transition-all duration-300"
+                size="lg"
+                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300"
               >
-{getString('homepage.hero.featured.viewAll')}
+                {getString('homepage.hero.featured.viewAll')}
               </Button>
             </Link>
           </div>
         </div>
       </section>
 
-
-
-      {/* Featured Categories Section */}
+      {/* Top 5 Categories Section */}
       <FeaturedCategories categories={categories} />
 
-      {/* Featured Products Section */}
-      <FeaturedProducts products={products} onAddToCart={handleBuyOnAmazon} />
-
-      {/* About Section */}
-      <AboutSection />
-
       {/* Reviews Section */}
-      <Reviews limit={6} showTitle={true} />
-
-      {/* Why Choose Us Section */}
-      <WhyChooseUs />
+      <Reviews limit={6} />
       
     </Layout>
   );

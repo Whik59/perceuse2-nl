@@ -1,0 +1,152 @@
+{
+  "hero": {
+    "title": "¡Móvil Fácil para Abuelos!",
+    "subtitle": "Tranquilidad para ti,  conexión para ellos.  Calidad y sencillez garantizadas.",
+    "cta": "¡Compra Ahora!",
+    "trust": {
+      "rating": "4.9/5",
+      "badge": "★★★★★ Familias Satisfechas",
+      "reviews": "Más de 2000+ opiniones verificadas",
+      "delivery": "Envío Gratis 24h",
+      "guarantee": "Garantía Total 2 años"
+    },
+    "features": {
+      "quality": {
+        "title": "Botones Gigantes",
+        "description": "Fácil de usar, incluso con poca visión.  Llamadas y mensajes sin complicaciones."
+      },
+      "design": {
+        "title": "Batería de 7 Días",
+        "description": "Olvídate de cargarlo constantemente.  Autonomía para toda la semana sin preocupaciones."
+      },
+      "innovation": {
+        "title": "Botón SOS",
+        "description": "Seguridad garantizada. Un toque para contactar a familiares en caso de emergencia."
+      },
+      "support": {
+        "title": "Servicio al Cliente Premium",
+        "description": "Atención personalizada para resolver cualquier duda.  Te acompañamos en cada paso."
+      }
+    }
+  },
+  "featured": {
+    "title": "¡Tu móvil, tu tranquilidad!",
+    "subtitle": "Fácil de usar, para conectaros con cariño.  Seguridad para toda la familia.",
+    "loading": "Cargando tu tranquilidad...",
+    "viewAll": "¡Ofertas limitadas!"
+  },
+  "about": {
+    "title": "Tu Tranquilidad, Nuestra Prioridad",
+    "subtitle": "Teléfonos móviles sencillos y seguros para tus mayores. ¡Conecta con ellos con confianza!",
+    "description": "En [Nombre de la Tienda], entendemos la preocupación que sientes por tus seres queridos.  Sabemos lo importante que es mantenerte conectado con ellos, especialmente con la distancia o el paso del tiempo. Por eso, nos dedicamos a ofrecer teléfonos móviles diseñados específicamente para mayores, con funciones fáciles de usar y características de seguridad que te brindarán tranquilidad.  Con más de 10 años de experiencia, hemos ayudado a miles de familias a conectar con sus mayores de forma segura y sencilla.  Hemos visto de primera mano la alegría que produce un simple botón SOS, o la facilidad de uso de un teléfono con letras grandes y funciones simplificadas.  Nuestros teléfonos no son solo dispositivos; son un puente que fortalece la comunicación y la cercanía familiar.  Descubre la diferencia de un teléfono diseñado pensando en la comodidad y la seguridad de tus mayores, y en la tranquilidad que esto te proporciona a ti.",
+    "features": [
+      {
+        "title": "Especialistas en Mayores",
+        "description": "Nuestro equipo está formado por expertos en tecnología senior que te asesorarán para encontrar el teléfono perfecto para tus necesidades y las de tu familiar."
+      },
+      {
+        "title": "Soporte Familiar 24/7",
+        "description": "Disponemos de un servicio de atención al cliente disponible las 24 horas del día, los 7 días de la semana, para resolver cualquier duda o incidencia que pueda surgir."
+      },
+      {
+        "title": "Garantía Total",
+        "description": "Todos nuestros teléfonos cuentan con una garantía completa que te cubre ante cualquier fallo de funcionamiento durante el primer año."
+      },
+      {
+        "title": "Instalación Gratuita",
+        "description": "Te ofrecemos la instalación gratuita de tu nuevo teléfono a domicilio.  Configuraremos el dispositivo y te enseñaremos a utilizarlo de forma sencilla."
+      }
+    ],
+    "stats": {
+      "customers": "5000+",
+      "satisfaction": "98%",
+      "support": "24/7",
+      "experience": "10+ años"
+    },
+    "cta": "ENCUENTRA TU TELÉFONO PERFECTO"
+  },
+  "why_choose_us": {
+    "title": "Tu móvil ideal: ¡Sencillez y tranquilidad!",
+    "subtitle": "¿Te preocupa la tecnología?  Olvídalo.  Te acompañamos en cada paso, con sencillez y atención personalizada.",
+    "reasons": [
+      {
+        "title": "Especialización Exclusiva para Mayores",
+        "description": "Nos dedicamos exclusivamente a facilitar el uso de la tecnología a personas mayores.  Nuestros móviles tienen botones grandes, tipografía extragrande y menús intuitivos, diseñados para una experiencia sin frustraciones.  Olvídate de pantallas pequeñas y letras diminutas."
+      },
+      {
+        "title": "Soporte Técnico Familiar y Paciente",
+        "description": "Nuestro equipo de atención al cliente está formado por personas amables y pacientes, dispuestas a resolver cualquier duda que tengas, por teléfono o vídeo llamada.  No te sentirás solo ante la tecnología.  Contáctanos siempre que lo necesites."
+      },
+      {
+        "title": "Instalación y Configuración a Domicilio (opcional)",
+        "description": "Te ofrecemos un servicio de instalación y configuración a domicilio (consultar disponibilidad y coste). Nuestro técnico te enseñará a usar tu nuevo móvil paso a paso,  sin prisas y con toda la paciencia del mundo.  ¡Empieza a disfrutar de tu móvil desde el primer minuto!"
+      },
+      {
+        "title": "Garantía Extendida de 2 Años",
+        "description": "Tu tranquilidad es nuestra prioridad.  Ofrecemos una garantía extendida de 2 años en todos nuestros móviles, cubriendo posibles defectos de fabricación.  Confía en la calidad y durabilidad de nuestros productos."
+      },
+      {
+        "title": "Precios Transparentes y Sin Sorpresas",
+        "description": "En nuestro sitio web encontrarás precios claros y detallados, sin letra pequeña ni costes ocultos.  Sabemos que la transparencia es fundamental para construir una relación de confianza.  Compara nuestros precios y comprobarás la excelente relación calidad-precio."
+      },
+      {
+        "title": "Satisfacción Garantizada o Te Devolvemos tu Dinero",
+        "description": "Si por cualquier motivo no quedas satisfecho con tu compra en los 30 primeros días, te devolvemos el dinero.  Queremos que te sientas seguro y confiado al comprar con nosotros.  Tu satisfacción es nuestra meta principal."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "¡Tranquilidad para toda la familia!",
+    "subtitle": "Miles de personas mayores en España ya confían en nuestro móvil. Lee sus experiencias.",
+    "testimonials": [
+      {
+        "name": "Doña Carmen Ruiz",
+        "age": 82,
+        "city": "Sevilla, España",
+        "rating": 5,
+        "text": "Me caí en casa y gracias al botón SOS, mi hijo recibió la alerta al instante.  Antes, tenía miedo de estar sola, pero ahora me siento mucho más segura. El móvil es muy fácil de usar, ¡incluso para mí! La batería dura todo el día, lo que es genial.",
+        "highlight": "Botón SOS: Seguridad y tranquilidad"
+      },
+      {
+        "name": "Don Antonio Gómez",
+        "age": 70,
+        "city": "Barcelona, España",
+        "rating": 5,
+        "text": "Soy un poco torpe con la tecnología, pero este móvil es increíblemente sencillo. Los botones grandes y la letra gigante me permiten utilizarlo sin problemas.  La familia está más tranquila sabiendo que puedo llamarlos con facilidad en cualquier momento.",
+        "highlight": "Fácil de usar: Diseño intuitivo para mayores"
+      },
+      {
+        "name": "Doña María López",
+        "age": 78,
+        "city": "Valencia, España",
+        "rating": 4,
+        "text": "Tuve un pequeño susto en la calle y el botón SOS fue mi salvación.  Mi hija llegó rápidamente gracias a la alerta.  La única pega es que la cámara no es excelente, pero para el resto, es perfecto.",
+        "highlight": "Botón SOS: Respuesta rápida en emergencias"
+      },
+      {
+        "name": "Don Juan Pérez",
+        "age": 85,
+        "city": "Madrid, España",
+        "rating": 5,
+        "text": "Este móvil me ha devuelto la independencia.  Puedo comunicarme con mis seres queridos sin dificultad y la batería dura hasta dos días con un solo cargo.  Recomiendo este móvil a todos mis amigos.",
+        "highlight": "Batería de larga duración: Independencia y tranquilidad"
+      },
+      {
+        "name": "Doña Isabel García",
+        "age": 72,
+        "city": "Bilbao, España",
+        "rating": 5,
+        "text": "Después de varias caídas, mi familia me regaló este móvil. ¡Qué alivio! El botón SOS me ha salvado en más de una ocasión.  Además, es muy fácil de manejar y la pantalla grande es perfecta para mi vista.",
+        "highlight": "Facilidad de uso y pantalla grande:  Comodidad y visibilidad"
+      },
+      {
+        "name": "Don Rafael Martínez",
+        "age": 75,
+        "city": "Málaga, España",
+        "rating": 4,
+        "text": "Me costó un poco acostumbrarme al principio, pero ahora no lo cambio por nada.  El servicio de atención al cliente fue excelente y me ayudaron a configurar todo.  La batería dura bastante y el sonido es muy claro.",
+        "highlight": "Excelente atención al cliente: Soporte y ayuda personalizada"
+      }
+    ]
+  }
+}

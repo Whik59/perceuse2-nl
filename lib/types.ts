@@ -31,6 +31,9 @@ export interface Product {
   amazonReviewCount?: number;
   affiliateId: string;
   
+  // AI enhanced fields
+  faq?: FAQItem[];
+  
   // Remove inventory and shipping as they're not needed for affiliate
 }
 
@@ -48,6 +51,11 @@ export interface VariationOption {
   amazonASIN?: string;
 }
 
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 export interface Category {
   categoryId: number;
   categoryNameCanonical: string;
@@ -55,9 +63,11 @@ export interface Category {
   slug: string;
   level: number; // 0 = main, 1 = sub, 2 = sub-sub
   description?: string;
+  content?: string; // AI-generated long-form SEO content
   seo?: SEOData;
   productCount?: number;
   children?: Category[]; // For nested display
+  faq?: FAQItem[]; // AI-generated FAQ for the category
 }
 
 export interface SEOData {

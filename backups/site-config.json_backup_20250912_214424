@@ -10,15 +10,7 @@
     "defaultTitle": "Friteuse Expert - Guide d'achat et comparatif des meilleures friteuses",
     "titleTemplate": "%s | Friteuse Expert",
     "defaultDescription": "Découvrez notre guide complet des meilleures friteuses 2024. Comparatifs détaillés, avis d'experts et conseils d'achat pour friteuses à air et traditionnelles.",
-    "keywords": [
-      "friteuse",
-      "friteuse air",
-      "airfryer",
-      "friteuse sans huile",
-      "guide achat friteuse",
-      "meilleure friteuse",
-      "comparatif friteuse"
-    ],
+    "keywords": ["friteuse", "friteuse air", "airfryer", "friteuse sans huile", "guide achat friteuse", "meilleure friteuse", "comparatif friteuse"],
     "ogImage": "/og-image-friteuse.jpg"
   },
   "business": {
@@ -48,19 +40,5 @@
       "enabled": true,
       "message": "Guides d'achat détaillés"
     }
-  },
-  "siteName": "Tu Teléfono Perfecto: Móviles y Smartphones",
-  "siteDescription": "Encuentra tu teléfono ideal.  Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos! #móviles #smartphones #teléfono",
-  "mainProduct": "TELEFONO",
-  "keywords": [
-    "teléfono",
-    "smartphone",
-    "móvil",
-    "accesorios móviles",
-    "comprar teléfono",
-    "ofertas móviles",
-    "teléfonos baratos",
-    "mejores móviles"
-  ],
-  "suggestedDomain": "tutelefonoperfecto.es"
-}
+  }
+} 

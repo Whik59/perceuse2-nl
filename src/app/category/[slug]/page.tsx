@@ -55,15 +55,20 @@ const CategoryPage: React.FC = () => {
   useEffect(() => {
     const loadCategoryData = async () => {
       try {
-        // Load categories to find the current one
-        const categoriesResponse = await import('../../../../data/categories.json');
-        const allCategories: Category[] = categoriesResponse.default;
+        // Load all categories
+        const categoriesResponse = await fetch('/api/categories');
+        if (!categoriesResponse.ok) {
+          throw new Error('Failed to load categories');
+        }
+        const allCategories: Category[] = await categoriesResponse.json();
         setCategories(allCategories);
         
-        const currentCategory = allCategories.find(cat => cat.slug === slug);
-        if (!currentCategory) {
+        // Load current category by slug
+        const categoryResponse = await fetch(`/api/categories/${slug}`);
+        if (!categoryResponse.ok) {
           throw new Error('Category not found');
         }
+        const currentCategory: Category = await categoryResponse.json();
         
         setCategory(currentCategory);
 
@@ -572,9 +577,63 @@ const CategoryPage: React.FC = () => {
         )}
       </div>
 
-      {/* SEO Content Section */}
-      {categoryContent && (
+      {/* Enhanced SEO Content Section */}
+      {category?.content && (
         <div className="bg-gradient-to-br from-gray-50 to-white py-16">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="prose prose-lg max-w-none">
+              <div dangerouslySetInnerHTML={{ __html: category.content }} />
+            </div>
+            
+            {category.seo?.keywords && category.seo.keywords.length > 0 && (
+              <div className="mt-12 p-6 bg-white rounded-xl shadow-sm border border-slate-100">
+                <h3 className="text-lg font-semibold text-slate-900 mb-4 text-center">Términos relacionados:</h3>
+                <div className="flex flex-wrap gap-2 justify-center">
+                  {category.seo.keywords.slice(0, 10).map((keyword, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-1 bg-gradient-to-r from-blue-50 to-purple-50 text-slate-700 rounded-full text-sm font-medium border border-slate-200 hover:shadow-sm transition-shadow"
+                    >
+                      {keyword}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+      
+      {/* Category FAQ Section */}
+      {category?.faq && category.faq.length > 0 && (
+        <div className="bg-white py-16 border-t border-slate-100">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-light text-slate-900 mb-4">
+                Preguntas Frecuentes
+              </h2>
+              <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto rounded-full"></div>
+            </div>
+            
+            <div className="space-y-8">
+              {category.faq.map((item, index) => (
+                <div key={index} className="bg-slate-50 rounded-xl p-6 hover:shadow-md transition-shadow">
+                  <h3 className="text-lg font-semibold text-slate-900 mb-3">
+                    {item.question}
+                  </h3>
+                  <p className="text-slate-700 leading-relaxed">
+                    {item.answer}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* MDX Content Section (if available) */}
+      {categoryContent && (
+        <div className="bg-slate-50 py-16 border-t border-slate-100">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <article className="prose max-w-none">
               <MDXRemote {...categoryContent.content} />

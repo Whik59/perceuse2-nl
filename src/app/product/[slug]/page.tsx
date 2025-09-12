@@ -50,6 +50,8 @@ const ProductDetailPage: React.FC = () => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [productContent, setProductContent] = useState<ProductContent | null>(null);
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
+  const [activeTab, setActiveTab] = useState('description');
+  const [currentCategory, setCurrentCategory] = useState<Category | null>(null);
 
   // SEO and conversion hooks
   useEffect(() => {
@@ -123,6 +125,24 @@ const ProductDetailPage: React.FC = () => {
           } catch (error) {
             console.error('Error loading related products:', error);
           }
+        }
+        
+        // Load categories to get category name for breadcrumb
+        try {
+          const categoriesResponse = await fetch('/api/categories');
+          if (categoriesResponse.ok) {
+            const categoriesData = await categoriesResponse.json();
+            setCategories(categoriesData);
+            
+            // Find the current product's category
+            if (productData.categoryIds && productData.categoryIds.length > 0) {
+              const categoryId = productData.categoryIds[0];
+              const category = categoriesData.find((cat: Category) => cat.categoryId === categoryId);
+              setCurrentCategory(category || null);
+            }
+          }
+        } catch (error) {
+          console.error('Error loading categories:', error);
         }
         
         // Simulate real-time data
@@ -356,7 +376,7 @@ const ProductDetailPage: React.FC = () => {
   }; // Cast to access actual JSON properties
   const productTitle = product.title || productData.productNameCanonical || 'Product';
   const productDescription = product.shortDescription || `Découvrez ${productTitle} dans notre collection`;
-  const productLongDescription = productData.longDescription || productDescription;
+  const productLongDescription = product.longDescription || productDescription;
   const productFeatures = product.features || [];
   const productSEO = product.seo || {
     title: productTitle,
@@ -382,7 +402,7 @@ const ProductDetailPage: React.FC = () => {
       <Head>
         <title>{productSEO.title}</title>
         <meta name="description" content={productSEO.description} />
-        <meta name="keywords" content={productSEO.keywords?.join(', ') || ''} />
+        <meta name="keywords" content={Array.isArray(productSEO.keywords) ? productSEO.keywords.join(', ') : productSEO.keywords || ''} />
         
         {/* Open Graph */}
         <meta property="og:title" content={productSEO.title} />
@@ -440,10 +460,21 @@ const ProductDetailPage: React.FC = () => {
                 {getString('navigation.home')}
               </Link>
               <span className="text-neutral-300">/</span>
-              <Link href="/products" className="hover:text-neutral-800 transition-colors">
-                {getString('navigation.products')}
-              </Link>
-              <span className="text-neutral-300">/</span>
+              {currentCategory ? (
+                <>
+                  <Link href={`/category/${currentCategory.categoryId}`} className="hover:text-neutral-800 transition-colors">
+                    {currentCategory.categoryNameCanonical}
+                  </Link>
+                  <span className="text-neutral-300">/</span>
+                </>
+              ) : (
+                <>
+                  <Link href="/categories" className="hover:text-neutral-800 transition-colors">
+                    {getString('navigation.products')}
+                  </Link>
+                  <span className="text-neutral-300">/</span>
+                </>
+              )}
               <span className="text-neutral-800 font-medium">{product.title}</span>
             </div>
           </div>
@@ -775,36 +806,108 @@ const ProductDetailPage: React.FC = () => {
               {/* Tab Navigation */}
               <div className="border-b border-neutral-100 mb-12">
                 <nav className="-mb-px flex space-x-12">
-                  <button className="border-b-2 border-neutral-900 py-3 text-sm font-medium text-neutral-900">
-                    {getString('product.description')}
+                  <button 
+                    onClick={() => setActiveTab('description')}
+                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                      activeTab === 'description' 
+                        ? 'border-neutral-900 text-neutral-900' 
+                        : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
+                    }`}
+                  >
+                    Description
                   </button>
-                  <button className="border-b-2 border-transparent py-3 text-sm font-medium text-neutral-500 hover:text-neutral-700 hover:border-neutral-300 transition-colors">
-                    {getString('product.specifications')}
+                  <button 
+                    onClick={() => setActiveTab('specifications')}
+                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                      activeTab === 'specifications' 
+                        ? 'border-neutral-900 text-neutral-900' 
+                        : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
+                    }`}
+                  >
+                    Spécifications
                   </button>
-                  <button className="border-b-2 border-transparent py-3 text-sm font-medium text-neutral-500 hover:text-neutral-700 hover:border-neutral-300 transition-colors">
-                    {getString('product.reviews')} ({productReviews.totalReviews})
+                  <button 
+                    onClick={() => setActiveTab('reviews')}
+                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                      activeTab === 'reviews' 
+                        ? 'border-neutral-900 text-neutral-900' 
+                        : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
+                    }`}
+                  >
+                    Avis clients ({productReviews.totalReviews})
                   </button>
+                  {product?.faq && product.faq.length > 0 && (
+                    <button 
+                      onClick={() => setActiveTab('faq')}
+                      className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                        activeTab === 'faq' 
+                          ? 'border-neutral-900 text-neutral-900' 
+                          : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
+                      }`}
+                    >
+                      FAQ
+                    </button>
+                  )}
                 </nav>
               </div>
 
-              {/* Description Content */}
+              {/* Tab Content */}
               <div className="prose prose-neutral prose-lg max-w-none">
-                <p className="text-neutral-700 leading-relaxed mb-8">
-                  {productLongDescription}
-                </p>
-                
-                {/* Key Features */}
-                {productFeatures.length > 0 && (
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-                    {productFeatures.map((feature, index) => (
-                      <div key={index} className="flex items-start space-x-3">
-                        <div className="w-5 h-5 bg-success rounded-full flex items-center justify-center mt-0.5">
-                          <Check className="w-3 h-3 text-white" />
-                        </div>
-                        <span className="text-neutral-700">{feature}</span>
+                {activeTab === 'description' && (
+                  <>
+                    <div className="text-neutral-700 leading-relaxed mb-8" 
+                         dangerouslySetInnerHTML={{ __html: productLongDescription }} />
+                    
+                    {/* Key Features */}
+                    {productFeatures.length > 0 && (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+                        {productFeatures.map((feature, index) => (
+                          <div key={index} className="flex items-start space-x-3">
+                            <div className="w-5 h-5 bg-success rounded-full flex items-center justify-center mt-0.5">
+                              <Check className="w-3 h-3 text-white" />
+                            </div>
+                            <span className="text-neutral-700">{feature}</span>
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                    )}
+                  </>
+                )}
+
+                {activeTab === 'specifications' && (
+                  <div className="space-y-6">
+                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">Spécifications techniques</h3>
+                    {Object.entries(product?.specifications || {}).length > 0 ? (
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {Object.entries(product.specifications).map(([key, value]) => (
+                          <div key={key} className="border-b border-neutral-100 pb-4">
+                            <dt className="font-medium text-neutral-900 mb-2">{key}</dt>
+                            <dd className="text-neutral-700">{value}</dd>
+                          </div>
+                        ))}
+                      </div>
+                    ) : (
+                      <p className="text-neutral-600">Aucune spécification disponible pour ce produit.</p>
+                    )}
                   </div>
+                )}
+
+                {activeTab === 'faq' && product?.faq && product.faq.length > 0 && (
+                  <div className="space-y-6">
+                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">Questions fréquentes</h3>
+                    <div className="space-y-6">
+                      {product.faq.map((item, index) => (
+                        <div key={index} className="border-b border-neutral-100 pb-6">
+                          <h4 className="font-medium text-neutral-900 mb-3">{item.question}</h4>
+                          <p className="text-neutral-700 leading-relaxed">{item.answer}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {activeTab === 'reviews' && (
+                  <Reviews />
                 )}
               </div>
 
@@ -903,7 +1006,7 @@ const ProductDetailPage: React.FC = () => {
 
           {/* Customer Reviews */}
           <div className="mt-24 border-t border-neutral-100 pt-16">
-            <Reviews limit={8} showTitle={true} />
+            <Reviews limit={8} />
           </div>
         </div>
 
@@ -935,6 +1038,20 @@ const ProductDetailPage: React.FC = () => {
         {/* Floating Action Buttons */}
         {/* The FloatingButtons component is now integrated into the Layout's floating buttons props */}
       </Layout>
+      {product && (
+        <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-lg p-4 flex justify-center">
+          <a
+            href={product.amazonUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full"
+          >
+            <Button size="lg" variant="primary" className="w-full text-lg">
+              {getString('product.buyNow')}
+            </Button>
+          </a>
+        </div>
+      )}
     </>
   );
 };

@@ -73,8 +73,9 @@ export async function GET(
         ? productData.images
         : ['/placeholder-product.jpg'],
       videos: productData.videos || [],
-      features: [],
-      specifications: {},
+      features: productData.features || [],
+      specifications: productData.specifications || {},
+      faq: productData.faq || [],
       seo: productData.seo || {
         title: productData.name || 'Product',
         description: productData.shortDescription || 'Premium product',

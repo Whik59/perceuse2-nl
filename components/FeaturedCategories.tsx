@@ -19,8 +19,15 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Get only parent categories for featured display
-  const parentCategories = categories.filter(cat => cat.parentCategoryId === null);
+  // Get top 5 categories with most subcategories
+  const parentCategories = categories
+    .filter(cat => cat.parentCategoryId === null)
+    .map(parent => ({
+      ...parent,
+      subcategoryCount: categories.filter(sub => sub.parentCategoryId === parent.categoryId).length
+    }))
+    .sort((a, b) => b.subcategoryCount - a.subcategoryCount)
+    .slice(0, 5);
 
   // Get category icon and gradient based on category name
   const getCategoryIcon = (categoryName: string) => {

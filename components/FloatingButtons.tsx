@@ -10,7 +10,7 @@ interface FloatingButtonsProps {
 }
 
 const FloatingButtons: React.FC<FloatingButtonsProps> = ({
-  showVideoButton = true,
+  showVideoButton = false, // Disabled video button
   videoUrl = '/video.mov'
 }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)

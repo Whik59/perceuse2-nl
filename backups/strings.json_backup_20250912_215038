@@ -1,0 +1,641 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "products": "Produits",
+    "categories": "Catégories",
+    "cart": "Panier",
+    "checkout": "Commande",
+    "account": "Mon Compte",
+    "contact": "Contact"
+  },
+  "cart": {
+    "addToCart": "Ajouter au panier",
+    "yourCart": "Votre panier",
+    "cartEmpty": "Votre panier est vide",
+    "continueShopping": "Continuer mes achats",
+    "removeItem": "Supprimer",
+    "updateQuantity": "Modifier la quantité",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "proceedToCheckout": "Finaliser la commande"
+  },
+  "product": {
+    "price": "Prix",
+    "originalPrice": "Prix initial",
+    "sale": "PROMO",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "lowStock": "Stock limité",
+    "selectVariation": "Choisir une option",
+    "quantity": "Quantité",
+    "description": "Description",
+    "features": "Caractéristiques",
+    "reviews": "Avis clients",
+    "shipping": "Livraison",
+    "returns": "Retours",
+    "specifications": "Spécifications",
+    "keyFeatures": "Caractéristiques principales",
+    "seeReviews": "Voir les avis",
+    "saveAmount": "Économisez {amount}",
+    "todayOnly": "aujourd'hui seulement",
+    "noInterest": "3x sans frais",
+    "securePayment": "Paiement sécurisé",
+    "wishlist": "Favoris",
+    "share": "Partager",
+    "estimatedDelivery": "Livraison estimée",
+    "orderWithinHours": "Commandez dans les {hours} prochaines heures",
+    "forDeliveryOn": "pour recevoir votre commande le",
+    "freeReturns": "Retours gratuits sous 30 jours",
+    "warranty": "Garantie 2 ans",
+    "expertSupport": "Assistance 7j/7 par chat et téléphone",
+    "premiumQuality": "Qualité Premium",
+    "fastShipping": "Livraison rapide",
+    "basedOnReviews": "Basé sur {count} avis",
+    "recommendationPercentage": "{percentage} des clients recommandent ce produit",
+    "reviewerName": "{name}",
+    "verifiedPurchase": "Achat vérifié",
+    "reviewComment": "{comment}",
+    "daysAgo": "Il y a {days} jours",
+    "useful": "Utile",
+    "alsoLike": "Vous aimerez aussi",
+    "alsoLikeSubtitle": "Découvrez notre sélection similaire",
+    "similarProductsLoading": "Produits similaires à charger..."
+  },
+  "banner": {
+    "discount": "de réduction",
+    "clientReviews": "avis clients",
+    "ordersDelivered": "commandes livrées"
+  },
+  "checkout": {
+    "title": "Finalisation de votre commande",
+    "shippingAddress": "Adresse de livraison",
+    "billingAddress": "Adresse de facturation",
+    "paymentMethod": "Méthode de paiement",
+    "orderSummary": "Récapitulatif de commande",
+    "placeOrder": "Finaliser la commande",
+    "processing": "Traitement en cours...",
+    "orderConfirmed": "Commande confirmée !",
+    "thankYou": "Merci pour votre commande",
+    "emailConfirmation": "Vous recevrez un email de confirmation sous peu",
+    "guestCheckout": "Commande express (Invité)",
+    "guestDescription": "Checkout rapide sans création de compte",
+    "createAccount": "Créer un compte",
+    "accountDescription": "Suivez vos commandes et profitez d'avantages exclusifs",
+    "recommended": "Recommandé",
+    "finalStep": "Étape finale",
+    "checkoutType": "Type de commande",
+    "sameBillingAddress": "L'adresse de facturation est identique à l'adresse de livraison",
+    "creditCard": "Carte bancaire",
+    "creditCardDescription": "Visa, Mastercard, American Express",
+    "applePay": "Apple Pay",
+    "applePayDescription": "Paiement rapide et sécurisé avec Touch ID",
+    "googlePay": "Google Pay",
+    "googlePayDescription": "Paiement en un clic avec votre compte Google",
+    "paypal": "PayPal",
+    "paypalDescription": "Paiement sécurisé avec votre compte PayPal",
+    "securePayment": "Paiement sécurisé",
+    "ssl256": "SSL 256-bit",
+    "pciCompliant": "Certifié PCI DSS",
+    "gdprCompliant": "Conforme RGPD",
+    "support24": "Support 24/7",
+    "satisfiedCustomers": "15000+ clients satisfaits",
+    "protectedData": "Vos données sont protégées par un cryptage SSL 256-bit de niveau bancaire",
+    "encryption": "cryptage",
+    "dataProtected": "Données protégées",
+    "emptyCart": "Votre panier est vide",
+    "emptyCartMessage": "Votre panier est vide. Ajoutez des produits pour continuer.",
+    "backToCart": "Retour au panier",
+    "deliveryIn": "Livraison sous 2-3 jours",
+    "freeShipping": "Livraison gratuite",
+    "returns30": "Retour 30j",
+    "warranty2": "Garantie 2 ans",
+    "orderTotal": "Total de la commande",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "free": "Gratuite",
+    "discount": "Réduction",
+    "total": "Total",
+    "quantity": "Quantité",
+    "continueToPayment": "Continuer vers le paiement",
+    "payment": "Paiement",
+    "modify": "Modifier",
+    "information": "Informations",
+    "securityNotice": "Vos données sont protégées par un cryptage SSL 256-bit de niveau bancaire",
+    "trustSignals": {
+      "ssl": "SSL sécurisé",
+      "dataProtected": "Données protégées",
+      "instantPayment": "Paiement instantané",
+      "delivery": "Livraison 2-3j",
+      "returns": "Retour 30j",
+      "warranty": "Garantie 2 ans"
+    },
+    "reference": "Référence",
+    "amount": "Montant",
+    "method": "Méthode",
+    "creditCardMethod": "Carte bancaire",
+    "paypalMethod": "PayPal",
+    "continueShopping": "Continuer mes achats",
+    "emptyCartTitle": "Panier vide"
+  },
+  "payment": {
+    "paymentMethod": "Méthode de paiement",
+    "payNow": "Payer",
+    "processing": "Traitement...",
+    "creditCard": "Carte bancaire",
+    "creditCardDescription": "Visa, Mastercard, American Express",
+    "applePay": "Apple Pay",
+    "applePayDescription": "Paiement rapide et sécurisé avec Touch ID",
+    "googlePay": "Google Pay",
+    "googlePayDescription": "Paiement en un clic avec votre compte Google",
+    "paypal": "PayPal",
+    "paypalDescription": "Paiement sécurisé avec votre compte PayPal",
+    "comingSoon": "Les paiements {method} seront disponibles prochainement.",
+    "securityNotice": "Vos données sont protégées par un cryptage SSL 256-bit de niveau bancaire",
+    "sslSecure": "SSL sécurisé",
+    "dataProtected": "Données protégées",
+    "instantPayment": "Paiement instantané"
+  },
+  "exitIntent": {
+    "title": "Attendez ! Ne partez pas les mains vides",
+    "subtitle": "Vous avez {count} article{s} dans votre panier",
+    "specialOffer": "OFFRE SPÉCIALE LIMITÉE",
+    "discountTitle": "15% DE RÉDUCTION",
+    "saveAmount": "Économisez {amount} sur votre commande",
+    "currentPrice": "Prix actuel",
+    "newPrice": "Nouveau prix",
+    "offerExpires": "Cette offre expire dans :",
+    "selectedItems": "Vos articles sélectionnés",
+    "quantity": "Qté: {qty}",
+    "moreItems": "+{count} autre{s} article{s}",
+    "freeShipping": "Gratuite",
+    "returns30days": "30 jours",
+    "warranty2years": "2 ans",
+    "claimOffer": "Profiter de l'offre",
+    "continueShopping": "Continuer mes achats",
+    "autoApplied": "Code promo automatiquement appliqué au checkout",
+    "delivery": "Livraison",
+    "returns": "Retours",
+    "warranty": "Garantie"
+  },
+  "forms": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "phone": "Téléphone",
+    "address": "Adresse",
+    "city": "Ville",
+    "postalCode": "Code postal",
+    "country": "Pays",
+    "required": "Obligatoire",
+    "optional": "(optionnel)",
+    "invalidEmail": "Email invalide"
+  },
+  "promotions": {
+    "discountBanner": "Profitez de -10% avec le code WELCOME10",
+    "freeShipping": "Livraison gratuite dès 50€",
+    "limitedOffer": "Offre limitée",
+    "hurryUp": "Dépêchez-vous !",
+    "onlyLeft": "Il ne reste que {count} en stock",
+    "savePercent": "Économisez {percent}%"
+  },
+  "trustSignals": {
+    "freeShipping": "Livraison gratuite",
+    "freeReturns": "Retours gratuits sous 30 jours",
+    "warranty": "Garantie constructeur 2 ans",
+    "securePayment": "Paiement 100% sécurisé",
+    "customerService": "Service client 7j/7",
+    "satisfactionGuarantee": "Garantie satisfaction ou remboursé",
+    "expertSupport": "Support client expert"
+  },
+  "social": {
+    "shareProduct": "Partager ce produit",
+    "followUs": "Suivez-nous",
+    "customerReviews": "Avis clients vérifiés"
+  },
+  "urgency": {
+    "orderInNext": "Commandez dans les prochaines",
+    "hours": "heures",
+    "minutes": "minutes",
+    "toReceiveBy": "pour recevoir avant le",
+    "popularChoice": "Choix populaire",
+    "bestSeller": "Meilleure vente",
+    "almostSoldOut": "Presque épuisé"
+  },
+  "errors": {
+    "somethingWrong": "Une erreur s'est produite",
+    "tryAgain": "Réessayer",
+    "pageNotFound": "Page non trouvée",
+    "productNotFound": "Produit non trouvé",
+    "categoryNotFound": "Catégorie non trouvée"
+  },
+  "footer": {
+    "brand": {
+      "description": "Créateur de peluches premium pour des nuits sereines. Plus de 15,000 familles nous font confiance pour transformer l'heure du coucher en moment de douceur."
+    },
+    "trustSignals": {
+      "freeShipping": "Livraison gratuite",
+      "freeShippingDesc": "Expédition gratuite pour toutes vos commandes, partout en France métropolitaine",
+      "easyReturns": "Retours faciles",
+      "easyReturnsDesc": "30 jours pour changer d'avis avec retour gratuit et remboursement intégral",
+      "securePayment": "Paiement sécurisé",
+      "securePaymentDesc": "Toutes vos transactions sont protégées par un cryptage SSL de niveau bancaire"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "products": "Nos produits",
+      "about": "À propos",
+      "contact": "Contact",
+      "reviews": "Avis clients"
+    },
+    "legal": {
+      "title": "Informations Légales",
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "legalNotices": "Mentions légales"
+    },
+    "bottom": {
+      "copyright": "© 2024 {SITE_NAME}. Tous droits réservés.",
+      "securePayment": "Paiement 100% sécurisé",
+      "encryption": "Cryptage SSL 256-bit",
+      "dataProtected": "Données protégées"
+    },
+    "aboutUs": "À propos",
+    "privacyPolicy": "Politique de confidentialité",
+    "termsOfService": "Conditions d'utilisation",
+    "shippingInfo": "Informations de livraison",
+    "returnPolicy": "Politique de retour",
+    "contactUs": "Nous contacter",
+    "newsletter": "Newsletter",
+    "subscribeNewsletter": "Abonnez-vous à notre newsletter",
+    "enterEmail": "Entrez votre email",
+    "subscribe": "S'abonner"
+  },
+  "search": {
+    "searchProducts": "Rechercher des produits...",
+    "noResults": "Aucun résultat trouvé",
+    "searchResults": "Résultats de recherche",
+    "showingResults": "Affichage de {count} résultats"
+  },
+  "common": {
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "paymentError": "Erreur lors du traitement du paiement",
+    "initializationError": "Erreur lors de l'initialisation du paiement",
+    "paypalCreateError": "Erreur lors de la création de la commande PayPal",
+    "paypalCaptureError": "Erreur lors de la finalisation du paiement PayPal",
+    "paypalError": "Erreur PayPal : {message}",
+    "paypalUnknownError": "Erreur inconnue",
+    "paypalUnavailable": "PayPal non disponible"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Des nuits paisibles pour toute la famille",
+      "subtitle": "Notre collection de peluches premium transforme l'heure du coucher en moment de sérénité absolue. Excellence artisanale garantie.",
+      "cta": "Découvrir la collection",
+      "ctaSecondary": "Nos recommandations",
+      "trustBadge": "Plus de 15,000 familles nous font confiance",
+      "rating": "4.6★",
+      "trustSignals": {
+        "freeShipping": "Livraison gratuite",
+        "returns": "Retour 30 jours",
+        "warranty": "Garantie 2 ans"
+      },
+      "certifications": {
+        "ce": "Certifié CE",
+        "ceSub": "Sécurité enfants",
+        "innovation": "Prix Innovation",
+        "innovationSub": "Design 2024"
+      },
+      "featured": {
+        "title": "✨ Coups de cœur",
+        "subtitle": "Nos meilleures ventes",
+        "add": "Ajouter",
+        "view": "Voir",
+        "promo": "PROMO",
+        "loading": "Chargement des produits...",
+        "productsAvailable": "Produits disponibles",
+        "viewAll": "Voir toute la collection",
+        "addToCart": "Ajouter au panier",
+        "reviews": "avis"
+      }
+    },
+    "featured": {
+      "title": "Nos créations les plus appréciées",
+      "subtitle": "Sélection de nos veilleuses les plus plébiscitées par nos clients",
+      "noProducts": "Aucun produit à afficher pour le moment.",
+      "viewAll": "Voir toute la collection"
+    },
+    "about": {
+      "title": "À propos",
+      "subtitle": "Notre histoire, notre passion",
+      "story1": "Boutique de référence en matière de doudous et de peluches, {SITE_NAME} a été créé en 2020. Ayant une grande collection de peluches, ce site rend l'achat d'une peluche facile.",
+      "story2": "Peu importe la forme recherchée, les peluches de la boutique {SITE_NAME} sont dotées d'une certaine originalité.",
+      "story3": "Notre mission est de créer des moments magiques et réconfortants pour les enfants du monde entier.",
+      "viewProducts": "Voir tous les produits"
+    },
+    "whyChoose": {
+      "title": "Pourquoi acheter des peluches pour enfants chez {SITE_NAME} ?",
+      "subtitle": "La solution de la boutique en ligne {SITE_NAME} propose des avantages non négligeables pour les parents",
+      "advantage1": {
+        "title": "Qualité Premium",
+        "description": "Matériaux certifiés et finitions soignées"
+      },
+      "advantage2": {
+        "title": "Livraison Rapide",
+        "description": "Expédition sous 24h, livraison 2-3 jours"
+      },
+      "advantage3": {
+        "title": "Service Client",
+        "description": "Support disponible 7j/7"
+      },
+      "advantage4": {
+        "title": "Garantie Satisfait",
+        "description": "Retour gratuit sous 30 jours"
+      },
+      "comparison": {
+        "title": "Comparaison avec la concurrence",
+        "us": "Chez nous",
+        "others": "Ailleurs",
+        "quality": "Qualité supérieure",
+        "standardQuality": "Qualité standard",
+        "fastShipping": "Livraison express",
+        "slowShipping": "Livraison lente",
+        "warranty": "Garantie 2 ans",
+        "limitedWarranty": "Garantie limitée",
+        "support": "Support premium",
+        "basicSupport": "Support basique"
+      }
+    }
+  },
+  "support": {
+    "title": "Centre d'Aide",
+    "subtitle": "Nous sommes là pour vous aider ! Consultez notre FAQ ou contactez-nous directement.",
+    "faq": {
+      "title": "Questions Fréquentes",
+      "deliveryTime": {
+        "question": "Quels sont les délais de livraison ?",
+        "answer": "Nous expédions sous 24h et la livraison prend entre 3 à 5 jours ouvrés en France métropolitaine. Pour les DOM-TOM et l'international, comptez 7 à 14 jours ouvrés."
+      },
+      "returns": {
+        "question": "Comment effectuer un retour ou un échange ?",
+        "answer": "Vous avez 30 jours pour retourner votre article. Il doit être dans son état d'origine avec l'emballage. Contactez-nous pour obtenir une étiquette de retour gratuite."
+      },
+      "warranty": {
+        "question": "Quelle est la garantie sur les produits ?",
+        "answer": "Tous nos produits bénéficient d'une garantie de 2 ans contre les défauts de fabrication. La garantie ne couvre pas l'usure normale ou les dommages accidentels."
+      },
+      "payment": {
+        "question": "Quels moyens de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes bancaires (Visa, Mastercard), PayPal, Apple Pay et Google Pay. Tous les paiements sont sécurisés et cryptés."
+      },
+      "tracking": {
+        "question": "Comment suivre ma commande ?",
+        "answer": "Vous recevrez un email avec un numéro de suivi dès l'expédition. Vous pourrez suivre votre colis en temps réel sur le site du transporteur."
+      }
+    },
+    "contact": {
+      "title": "Contactez-nous",
+      "subjectLabel": "Sujet de votre demande",
+      "selectSubject": "Sélectionnez un sujet",
+      "emailLabel": "Votre adresse email",
+      "emailPlaceholder": "votre@email.com",
+      "messageLabel": "Votre message",
+      "messagePlaceholder": "Décrivez votre demande en détail...",
+      "sendWhatsApp": "Envoyer via WhatsApp",
+      "whatsappInfo": "Vous serez redirigé vers WhatsApp pour envoyer votre message à notre équipe support",
+      "whatsappTemplate": "Bonjour, j'ai une question concernant ma commande.",
+      "subject": "Sujet",
+      "email": "Email",
+      "message": "Message",
+      "subjects": {
+        "order": "Question sur ma commande",
+        "refund": "Demande de remboursement",
+        "exchange": "Échange de produit",
+        "quality": "Problème de qualité",
+        "delivery": "Problème de livraison",
+        "other": "Autre question"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Avis Clients Vérifiés",
+    "subtitle": "Découvrez ce que nos clients pensent de nos produits",
+    "averageRating": "4.6",
+    "totalReviews": "2,847",
+    "basedOn": "Basé sur {count} avis vérifiés",
+    "starsFull": "étoiles pleines",
+    "starsEmpty": "étoiles vides",
+    "verifiedPurchase": "Achat vérifié",
+    "helpful": "Utile",
+    "readMore": "Lire la suite",
+    "showLess": "Voir moins"
+  },
+  "categories": {
+    "title": "Collections",
+    "subtitle": "Explorez nos collections soigneusement organisées",
+    "discover": "Découvrez nos",
+    "searchPlaceholder": "Rechercher une catégorie...",
+    "collectionsAvailable": "collection(s) disponible(s)",
+    "subcategories": "sous-catégorie(s)",
+    "products": "produit(s)",
+    "popular": "Populaire",
+    "trending": "Tendance",
+    "allSubcategories": "Toutes les sous-catégories",
+    "subcategoriesDescription": "Affinage par spécialité pour une recherche plus précise",
+    "needHelp": "Besoin d'aide ?",
+    "helpDescription": "Notre équipe est là pour vous conseiller dans le choix de la peluche parfaite.",
+    "backToHome": "Retour à l'accueil"
+  },
+  "common": {
+    "home": "Accueil",
+    "siteName": "{SITE_NAME}",
+    "companyName": "{COMPANY_NAME}"
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "subtitle": "Découvrez comment nous protégeons et utilisons vos données personnelles",
+    "lastUpdated": "Dernière mise à jour",
+    "lastUpdatedDate": "{LAST_UPDATED}",
+    "introduction": {
+      "title": "Introduction",
+      "content1": "Chez {COMPANY_NAME}, nous accordons une grande importance à la protection de vos données personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons, partageons et protégeons vos informations.",
+      "content2": "En utilisant notre site web, vous acceptez les pratiques décrites dans cette politique de confidentialité. Nous nous engageons à respecter votre vie privée et à protéger vos données personnelles conformément au RGPD."
+    },
+    "dataCollection": {
+      "title": "Données que nous collectons",
+      "intro": "Nous collectons différents types d'informations pour vous fournir nos services :",
+      "personalInfo": "Informations personnelles (nom, prénom, date de naissance)",
+      "contactInfo": "Informations de contact (adresse email, numéro de téléphone, adresse postale)",
+      "paymentInfo": "Informations de paiement (données bancaires, historique des commandes)",
+      "navigationInfo": "Données de navigation (pages visitées, temps passé, préférences)"
+    },
+    "dataUsage": {
+      "title": "Comment nous utilisons vos données",
+      "intro": "Vos données personnelles sont utilisées dans les buts suivants :",
+      "orderProcessing": "Traitement et livraison de vos commandes",
+      "customerService": "Service client et support technique",
+      "marketing": "Communications marketing (avec votre consentement)",
+      "improvements": "Amélioration de nos services et de votre expérience"
+    },
+    "dataProtection": {
+      "title": "Protection de vos données",
+      "content1": "Nous mettons en place des mesures techniques et organisationnelles appropriées pour protéger vos données personnelles contre la perte, l'utilisation abusive, l'accès non autorisé, la divulgation, l'altération ou la destruction.",
+      "content2": "Nos serveurs sont sécurisés et nous utilisons des protocoles de chiffrement pour protéger vos informations sensibles. Nous limitons l'accès à vos données personnelles aux employés qui en ont besoin pour vous fournir nos services."
+    },
+    "userRights": {
+      "title": "Vos droits",
+      "intro": "Conformément au RGPD, vous disposez des droits suivants :",
+      "access": "Droit d'accès à vos données personnelles",
+      "rectification": "Droit de rectification de vos données",
+      "deletion": "Droit à l'effacement de vos données",
+      "portability": "Droit à la portabilité de vos données",
+      "opposition": "Droit d'opposition au traitement de vos données"
+    },
+    "cookies": {
+      "title": "Cookies et technologies similaires",
+      "content1": "Notre site utilise des cookies pour améliorer votre expérience de navigation. Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à personnaliser votre visite.",
+      "content2": "Vous pouvez configurer votre navigateur pour refuser les cookies, mais cela peut affecter certaines fonctionnalités de notre site."
+    },
+    "contact": {
+      "title": "Nous contacter",
+      "content": "Pour toute question concernant cette politique de confidentialité ou vos données personnelles, vous pouvez nous contacter :",
+      "email": "{CONTACT_EMAIL}",
+      "address": "{BUSINESS_ADDRESS}",
+      "responseTime": "Nous nous engageons à répondre dans les 72 heures"
+    }
+  },
+  "terms": {
+    "title": "Conditions Générales de Vente",
+    "subtitle": "Conditions applicables à tous vos achats sur notre boutique en ligne",
+    "lastUpdated": "Dernière mise à jour",
+    "lastUpdatedDate": "{LAST_UPDATED}",
+    "general": {
+      "title": "Informations générales",
+      "content1": "Les présentes conditions générales de vente s'appliquent à toutes les commandes passées sur le site web de {COMPANY_NAME}. En passant commande, vous acceptez sans réserve ces conditions.",
+      "content2": "{COMPANY_NAME} se réserve le droit de modifier ces conditions à tout moment. Les conditions applicables sont celles en vigueur au moment de votre commande."
+    },
+    "orders": {
+      "title": "Commandes",
+      "process": "La vente est considérée comme définitive dès la validation de votre commande et l'encaissement du paiement.",
+      "confirmation": "Un email de confirmation vous sera envoyé après validation de votre commande.",
+      "payment": "Le paiement s'effectue en ligne par carte bancaire ou PayPal de manière totalement sécurisée."
+    },
+    "prices": {
+      "title": "Prix",
+      "currency": "Tous les prix sont indiqués en euros (€) toutes taxes comprises.",
+      "taxes": "La TVA applicable est celle en vigueur au moment de la commande.",
+      "changes": "{COMPANY_NAME} se réserve le droit de modifier ses prix à tout moment."
+    },
+    "delivery": {
+      "title": "Livraison",
+      "times": "Les délais de livraison sont de 2-3 jours ouvrés en France métropolitaine et 5-7 jours ouvrés en Europe.",
+      "zones": "Nous livrons en France métropolitaine et dans toute l'Europe.",
+      "costs": "Les frais de port sont de 4,90€ en France métropolitaine (gratuits dès 50€) et 9,90€ en Europe (gratuits dès 100€).",
+      "responsibility": "{COMPANY_NAME} ne peut être tenue responsable des retards de livraison dus aux transporteurs."
+    },
+    "returns": {
+      "title": "Retours et remboursements",
+      "period": "Vous disposez d'un délai de 14 jours pour retourner vos articles, conformément au droit de rétractation.",
+      "conditions": "Les produits doivent être retournés dans leur état d'origine, avec leur emballage.",
+      "process": "Pour effectuer un retour, contactez notre service client qui vous fournira une étiquette de retour.",
+      "costs": "Les frais de retour sont gratuits en cas de produit défectueux, à votre charge dans les autres cas."
+    },
+    "warranty": {
+      "title": "Garanties",
+      "duration": "Tous nos produits bénéficient de la garantie légale de conformité de 2 ans.",
+      "coverage": "Cette garantie couvre les défauts de fabrication et de conformité.",
+      "exclusions": "Sont exclus de la garantie : l'usure normale, les dommages dus à une mauvaise utilisation."
+    },
+    "liability": {
+      "title": "Responsabilité",
+      "limitations": "La responsabilité de {COMPANY_NAME} est limitée au montant de votre commande.",
+      "force_majeure": "{COMPANY_NAME} ne peut être tenue responsable en cas de force majeure ou d'événements indépendants de sa volonté."
+    },
+    "law": {
+      "title": "Droit applicable",
+      "content": "Les présentes conditions sont soumises au droit français. Tout litige sera soumis aux tribunaux compétents de Paris."
+    },
+    "contact": {
+      "title": "Service Client",
+      "email": "{CONTACT_EMAIL}",
+      "address": "{BUSINESS_ADDRESS}"
+    }
+  },
+  "legal": {
+    "title": "Mentions Légales",
+    "subtitle": "Informations légales et coordonnées de notre entreprise",
+    "lastUpdated": "Dernière mise à jour",
+    "lastUpdatedDate": "{LAST_UPDATED}",
+    "company": {
+      "title": "Informations sur l'entreprise",
+      "name": "Dénomination sociale",
+      "status": "Forme juridique",
+      "statusValue": "{BUSINESS_LEGAL_FORM}",
+      "siret": "SIRET",
+      "siretValue": "{BUSINESS_SIRET}",
+      "vat": "N° TVA",
+      "vatValue": "{BUSINESS_VAT}"
+    },
+    "contact": {
+      "title": "Coordonnées",
+      "address": "Adresse",
+      "addressValue": "{BUSINESS_ADDRESS}",
+      "phone": "Téléphone",
+      "phoneValue": "{BUSINESS_PHONE}",
+      "email": "Email",
+      "emailValue": "{CONTACT_EMAIL}"
+    },
+    "director": {
+      "title": "Directeur de publication",
+      "content": "Le directeur de publication du site est le représentant légal de {COMPANY_NAME}."
+    },
+    "hosting": {
+      "title": "Hébergement",
+      "provider": "Hébergeur",
+      "providerValue": "{HOSTING_PROVIDER}",
+      "address": "Adresse de l'hébergeur",
+      "addressValue": "{HOSTING_ADDRESS}"
+    },
+    "intellectual": {
+      "title": "Propriété intellectuelle",
+      "content1": "L'ensemble des éléments composant le site (textes, images, vidéos, logos) sont protégés par le droit de la propriété intellectuelle.",
+      "content2": "Toute reproduction, même partielle, est interdite sans autorisation préalable écrite de {COMPANY_NAME}."
+    },
+    "liability": {
+      "title": "Limitation de responsabilité",
+      "content1": "{COMPANY_NAME} s'efforce d'assurer l'exactitude des informations diffusées sur le site, mais ne peut garantir l'absence d'erreurs.",
+      "content2": "La responsabilité de {COMPANY_NAME} ne peut être engagée en cas d'interruption du site ou de dysfonctionnements."
+    },
+    "data": {
+      "title": "Données personnelles",
+      "content": "Pour plus d'informations sur le traitement de vos données personnelles, consultez notre politique de confidentialité.",
+      "privacyLink": "Consulter la politique de confidentialité"
+    },
+    "law": {
+      "title": "Droit applicable",
+      "content": "Le présent site et les présentes mentions légales sont soumis au droit français."
+    }
+  },
+  "cart": {
+    "title": "Panier",
+    "addToCart": "Ajouter au panier",
+    "removeFromCart": "Retirer du panier",
+    "updateQuantity": "Modifier la quantité",
+    "empty": "Votre panier est vide",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "checkout": "Commander",
+    "continueShopping": "Continuer mes achats",
+    "quantity": "Quantité",
+    "price": "Prix",
+    "product": "Produit",
+    "added": "Ajouté au panier",
+    "removed": "Retiré du panier",
+    "updated": "Panier mis à jour"
+  }
+} 

@@ -1,49 +1,44 @@
 {
   "hero": {
     "expertise": {
-      "title": "L'expert en friteuses à air",
-      "subtitle": "Friteuse Expert vous guide dans le choix de la friteuse parfaite avec des comparatifs détaillés, des tests approfondis et les meilleurs prix Amazon.",
-      "cta": "DÉCOUVRIR LES FRITEUSES"
+      "title": "¡Móvil Fácil para Abuelos!",
+      "subtitle": "Tranquilidad para ti,  conexión para ellos.  Calidad y sencillez garantizadas.",
+      "cta": "¡Compra Ahora!"
     },
     "trust": {
-      "rating": "4.8/5",
-      "badge": "★★★★★ Clients satisfaits",
-      "reviews": "Plus de 1500+ avis vérifiés",
-      "delivery": "Livraison Amazon Prime",
-      "guarantee": "Garantie Amazon A-Z"
+      "rating": "4.9/5",
+      "badge": "★★★★★ Familias Satisfechas",
+      "reviews": "Más de 2000+ opiniones verificadas",
+      "delivery": "Envío Gratis 24h",
+      "guarantee": "Garantía Total 2 años"
     },
     "features": {
       "quality": {
-        "title": "Tests Approfondis",
-        "description": "Analyses détaillées et comparatifs experts"
+        "title": "Botones Gigantes",
+        "description": "Fácil de usar, incluso con poca visión.  Llamadas y mensajes sin complicaciones."
       },
       "design": {
-        "title": "Guides d'Achat", 
-        "description": "Conseils personnalisés selon vos besoins"
+        "title": "Batería de 7 Días",
+        "description": "Olvídate de cargarlo constantemente.  Autonomía para toda la semana sin preocupaciones."
       },
       "innovation": {
-        "title": "Meilleurs Prix",
-        "description": "Prix Amazon mis à jour quotidiennement"
+        "title": "Botón SOS",
+        "description": "Seguridad garantizada. Un toque para contactar a familiares en caso de emergencia."
+      },
+      "support": {
+        "title": "Servicio al Cliente Premium",
+        "description": "Atención personalizada para resolver cualquier duda.  Te acompañamos en cada paso."
       }
-    },
-    "certifications": {
-      "title": "Pourquoi Nous Faire Confiance",
-      "items": [
-        "Tests indépendants et objectifs",
-        "Comparaisons détaillées",
-        "Partenaire Amazon officiel",
-        "Mise à jour quotidienne des prix"
-      ]
     }
   },
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Friteuses Recommandées",
-        "subtitle": "Découvrez notre sélection des meilleures friteuses testées par nos experts",
-        "loading": "Chargement des friteuses...",
-        "viewAll": "VOIR TOUTES LES FRITEUSES"
+        "title": "¡Tu móvil, tu tranquilidad!",
+        "subtitle": "Fácil de usar, para conectaros con cariño.  Seguridad para toda la familia.",
+        "loading": "Cargando tu tranquilidad...",
+        "viewAll": "¡Ofertas limitadas!"
       }
     }
   }
-} 
+}

@@ -28,9 +28,10 @@
     "amazonUnavailable": "Amazon non disponible"
   },
   "search": {
-    "placeholder": "Buscar TELEFONO...",
-    "noResults": "No se encontraron TELEFONO",
-    "searchFor": "Buscar TELEFONO"
+    "searchProducts": "Buscar teléfono móvil...",
+    "noResults": "Ningún teléfono encontrado",
+    "searchResults": "Teléfonos encontrados",
+    "showingResults": "Mostrando {count} teléfonos"
   },
   "header": {
     "search": {
@@ -64,12 +65,5 @@
     "affiliateNotice": "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.",
     "redirecting": "Redirection vers Amazon...",
     "openInNewTab": "Ouvre dans un nouvel onglet"
-  },
-  "siteName": "Tu Teléfono Perfecto: Móviles y Smartphones",
-  "companyName": "Conexión Móvil S.L.",
-  "products": "Telefono",
-  "productNotFound": "Telefono no encontrado",
-  "product": {
-    "buyNow": "Comprar ahora"
   }
-}
+} 
