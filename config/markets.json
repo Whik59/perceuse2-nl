@@ -1,0 +1,183 @@
+{
+  "markets": {
+    "fr": {
+      "name": "France",
+      "amazon_tld": ".fr",
+      "affiliate_tag": "clickclickh01-21",
+      "language": "french",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "locale": "fr-FR",
+      "seo_keywords": [
+        "friteuse sans huile",
+        "friteuse à air",
+        "air fryer",
+        "friteuse électrique",
+        "cuisine saine",
+        "friture sans matière grasse"
+      ],
+      "ai_prompt_language": "Tu es un expert en rédaction e-commerce et SEO pour le marché français.",
+      "search_terms": {
+        "friteuse": "friteuse sans huile",
+        "air_fryer": "friteuse à air",
+        "deep_fryer": "friteuse électrique"
+      }
+    },
+    "de": {
+      "name": "Germany", 
+      "amazon_tld": ".de",
+      "affiliate_tag": "clickclickh0b-21",
+      "language": "german",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "locale": "de-DE",
+      "seo_keywords": [
+        "heißluftfritteuse",
+        "fritteuse ohne öl",
+        "air fryer",
+        "elektrische fritteuse",
+        "gesundes kochen"
+      ],
+      "ai_prompt_language": "Du bist ein Experte für E-Commerce und SEO für den deutschen Markt.",
+      "search_terms": {
+        "friteuse": "heißluftfritteuse",
+        "air_fryer": "fritteuse ohne öl",
+        "deep_fryer": "elektrische fritteuse"
+      }
+    },
+    "es": {
+      "name": "Spain",
+      "amazon_tld": ".es", 
+      "affiliate_tag": "clickclickh02-21",
+      "language": "spanish",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "locale": "es-ES",
+      "seo_keywords": [
+        "freidora sin aceite",
+        "freidora de aire",
+        "air fryer",
+        "freidora eléctrica",
+        "cocina saludable"
+      ],
+      "ai_prompt_language": "Eres un experto en redacción e-commerce y SEO para el mercado español.",
+      "search_terms": {
+        "friteuse": "freidora sin aceite",
+        "air_fryer": "freidora de aire", 
+        "deep_fryer": "freidora eléctrica"
+      }
+    },
+    "it": {
+      "name": "Italy",
+      "amazon_tld": ".it",
+      "affiliate_tag": "clickclickh09-21", 
+      "language": "italian",
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "locale": "it-IT",
+      "seo_keywords": [
+        "friggitrice ad aria",
+        "friggitrice senza olio",
+        "air fryer",
+        "friggitrice elettrica",
+        "cucina sana"
+      ],
+      "ai_prompt_language": "Sei un esperto di redazione e-commerce e SEO per il mercato italiano.",
+      "search_terms": {
+        "friteuse": "friggitrice ad aria",
+        "air_fryer": "friggitrice senza olio",
+        "deep_fryer": "friggitrice elettrica"
+      }
+    },
+    "nl": {
+      "name": "Netherlands",
+      "amazon_tld": ".nl",
+      "affiliate_tag": "clickclickh0a-21",
+      "language": "dutch", 
+      "currency": "EUR",
+      "currency_symbol": "€",
+      "locale": "nl-NL",
+      "seo_keywords": [
+        "hetelucht friteuse",
+        "friteuse zonder olie",
+        "air fryer",
+        "elektrische friteuse",
+        "gezond koken"
+      ],
+      "ai_prompt_language": "Je bent een expert in e-commerce copywriting en SEO voor de Nederlandse markt.",
+      "search_terms": {
+        "friteuse": "hetelucht friteuse",
+        "air_fryer": "friteuse zonder olie",
+        "deep_fryer": "elektrische friteuse"
+      }
+    },
+    "pl": {
+      "name": "Poland",
+      "amazon_tld": ".pl",
+      "affiliate_tag": "clickclickh06-21",
+      "language": "polish",
+      "currency": "PLN", 
+      "currency_symbol": "zł",
+      "locale": "pl-PL",
+      "seo_keywords": [
+        "frytkownica beztłuszczowa",
+        "frytkownica na gorące powietrze",
+        "air fryer",
+        "frytkownica elektryczna",
+        "zdrowe gotowanie"
+      ],
+      "ai_prompt_language": "Jesteś ekspertem od copywritingu e-commerce i SEO na polskim rynku.",
+      "search_terms": {
+        "friteuse": "frytkownica beztłuszczowa",
+        "air_fryer": "frytkownica na gorące powietrze",
+        "deep_fryer": "frytkownica elektryczna"
+      }
+    },
+    "se": {
+      "name": "Sweden",
+      "amazon_tld": ".se",
+      "affiliate_tag": "clickclickh0e-21",
+      "language": "swedish",
+      "currency": "SEK",
+      "currency_symbol": "kr",
+      "locale": "sv-SE", 
+      "seo_keywords": [
+        "varmluftsfritös",
+        "fritös utan olja",
+        "air fryer",
+        "elektrisk fritös",
+        "hälsosam matlagning"
+      ],
+      "ai_prompt_language": "Du är en expert på e-handel copywriting och SEO för den svenska marknaden.",
+      "search_terms": {
+        "friteuse": "varmluftsfritös",
+        "air_fryer": "fritös utan olja",
+        "deep_fryer": "elektrisk fritös"
+      }
+    },
+    "us": {
+      "name": "United States",
+      "amazon_tld": ".com",
+      "affiliate_tag": "natdurdenusa-20",
+      "language": "english",
+      "currency": "USD",
+      "currency_symbol": "$",
+      "locale": "en-US",
+      "seo_keywords": [
+        "air fryer",
+        "oil-free fryer", 
+        "electric fryer",
+        "healthy cooking",
+        "deep fryer"
+      ],
+      "ai_prompt_language": "You are an expert in e-commerce copywriting and SEO for the US market.",
+      "search_terms": {
+        "friteuse": "air fryer",
+        "air_fryer": "oil-free fryer",
+        "deep_fryer": "electric fryer"
+      }
+    }
+  },
+  "default_market": "fr",
+  "gemini_api_key": "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
+} 

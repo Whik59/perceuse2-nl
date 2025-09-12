@@ -1,6 +1,6 @@
 import { Product, Category, SiteConfig } from './types';
 import { generateProductReviewSnippet, generateProductReviews } from './utils';
-import siteConfigData from '../data/site-config.json';
+import siteConfigData from '../config/site-config.json';
 
 export interface SEOProps {
   title: string;

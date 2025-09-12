@@ -13,9 +13,37 @@ from pathlib import Path
 import requests
 
 class SimpleAIGenerator:
-    def __init__(self):
+    def __init__(self, market='fr'):
+        # Load market configuration
+        self.market = market
+        self.config = self.load_market_config(market)
         self.api_key = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
         self.base_url = "https://generativelanguage.googleapis.com/v1beta"
+    
+    def load_market_config(self, market):
+        """Load market configuration from config file"""
+        try:
+            config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'markets.json')
+            with open(config_path, 'r', encoding='utf-8') as f:
+                markets_config = json.load(f)
+            
+            if market not in markets_config['markets']:
+                print(f"[WARNING] Market '{market}' not found, using default 'fr'")
+                market = markets_config['default_market']
+            
+            return markets_config['markets'][market]
+        except Exception as e:
+            print(f"[ERROR] Could not load market config: {e}")
+            # Fallback to French market
+            return {
+                "name": "France",
+                "amazon_tld": ".fr",
+                "affiliate_tag": "clickclickh01-21",
+                "language": "french",
+                "currency": "EUR",
+                "currency_symbol": "€",
+                "ai_prompt_language": "Tu es un expert en rédaction e-commerce et SEO pour le marché français."
+            }
     
     def generate_content(self, prompt, max_tokens=800):
         """Generate content using Gemini API"""
@@ -25,7 +53,7 @@ class SimpleAIGenerator:
             data = {
                 "contents": [{
                     "parts": [{
-                        "text": f"Tu es un expert en rédaction e-commerce et SEO pour le marché français. {prompt}"
+                        "text": f"{self.config['ai_prompt_language']} {prompt}"
                     }]
                 }],
                 "generationConfig": {
@@ -74,7 +102,7 @@ class SimpleAIGenerator:
         Crée une description produit e-commerce pour:
         
         Produit: {product_name}
-        Prix: {price}€
+                 Prix: {price}{self.config['currency_symbol']}
         
         Structure:
         - Accroche (1-2 phrases)
@@ -171,10 +199,14 @@ class SimpleAIGenerator:
 def main():
     parser = argparse.ArgumentParser(description='Simple AI Content Generator')
     parser.add_argument('--sample', type=int, help='Process only N products')
+    parser.add_argument('--market', '-m', default='fr', 
+                       choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'us'],
+                       help='Target market (default: fr)')
     
     args = parser.parse_args()
     
-    generator = SimpleAIGenerator()
+    print(f"[MARKET] Target market: {args.market.upper()}")
+    generator = SimpleAIGenerator(market=args.market)
     generator.process_all_products(args.sample)
 
 if __name__ == "__main__":

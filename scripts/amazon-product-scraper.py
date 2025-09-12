@@ -49,7 +49,11 @@ def safe_print(message):
     print(message)
 
 class AmazonScraper:
-    def __init__(self):
+    def __init__(self, market='fr'):
+        # Load market configuration
+        self.market = market
+        self.config = self.load_market_config(market)
+        
         # Tier-based product limits
         self.tier_limits = {
             0: {"min": 50, "max": 100},  # Main categories
@@ -59,7 +63,7 @@ class AmazonScraper:
         
         # Quality filters
         self.min_rating = 4.0
-        self.min_price = 20  # Minimum price in euros
+        self.min_price = 20  # Minimum price in local currency
         
         # Track unique products (thread-safe)
         self.used_asins = set()
@@ -187,7 +191,7 @@ class AmazonScraper:
     def search_products(self, keyword, page=1):
         """Search for products with advanced filtering"""
         # Build search URL with price filter
-        search_url = f"https://www.amazon.fr/s?k={keyword.replace(' ', '+')}&page={page}&low-price={self.min_price}&ref=sr_pg_{page}"
+                    search_url = f"https://www.amazon{self.config['amazon_tld']}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={self.min_price}&ref=sr_pg_{page}"
         
         safe_print(f"[SEARCH] Page {page}: {search_url}")
         
@@ -275,7 +279,7 @@ class AmazonScraper:
             
             product['title'] = title_text
             href = link.get('href')
-            product['url'] = urljoin('https://www.amazon.fr', href)
+                            product['url'] = urljoin(f'https://www.amazon{self.config["amazon_tld"]}', href)
             
             # Price extraction with multiple methods
             price_text = ""
@@ -372,7 +376,7 @@ class AmazonScraper:
             
             # Generate affiliate URL
             product['amazon_url'] = product['url']
-            product['affiliate_url'] = f"{product['url']}?tag=friteuseexp-21"
+            product['affiliate_url'] = f"{product['url']}?tag={self.config['affiliate_tag']}"
             product['scraped_at'] = datetime.now().isoformat()
             
             return product
@@ -425,6 +429,30 @@ class AmazonScraper:
             search_terms = [category_lower, f"friteuse {category_lower}"]
         
         return search_terms
+    
+    def load_market_config(self, market):
+        """Load market configuration from config file"""
+        try:
+            config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'markets.json')
+            with open(config_path, 'r', encoding='utf-8') as f:
+                markets_config = json.load(f)
+            
+            if market not in markets_config['markets']:
+                safe_print(f"[WARNING] Market '{market}' not found, using default 'fr'")
+                market = markets_config['default_market']
+            
+            return markets_config['markets'][market]
+        except Exception as e:
+            safe_print(f"[ERROR] Could not load market config: {e}")
+            # Fallback to French market
+            return {
+                "name": "France",
+                "amazon_tld": ".fr",
+                "affiliate_tag": "clickclickh01-21",
+                "language": "french",
+                "currency": "EUR",
+                "currency_symbol": "€"
+            }
     
     def extract_all_media(self, response_text, soup):
         """Extract images and videos specifically from Amazon product carousel"""
@@ -794,7 +822,7 @@ class AmazonScraper:
             "tags": ["friteuse", scraped_product.get('brand', '').lower(), scraped_product.get('category_name', '').lower()],
             "amazonUrl": scraped_product.get('affiliate_url', ''),
             "amazonASIN": scraped_product['asin'],
-            "affiliateId": "friteuseexp-21",
+            "affiliateId": self.config['affiliate_tag'],
             "originalAmazonTitle": scraped_product['title'],
             "amazonPrice": scraped_product.get('price', 'Prix non disponible'),
             "amazonRating": scraped_product.get('rating', 4.0),
@@ -898,10 +926,20 @@ class AmazonScraper:
             safe_print(f"  {range_name.replace('_', '-')}: {count} products")
 
 if __name__ == "__main__":
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Amazon Product Scraper with Multi-Market Support')
+    parser.add_argument('--market', '-m', default='fr', 
+                       choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'us'],
+                       help='Target market (default: fr)')
+    
+    args = parser.parse_args()
+    
     safe_print("[START] Professional Amazon Product Scraper")
     safe_print("=" * 60)
+    safe_print(f"[MARKET] Target market: {args.market.upper()}")
     
-    scraper = AmazonScraper()
+    scraper = AmazonScraper(market=args.market)
     
     if not scraper.categories:
         safe_print("[ERROR] No categories found!")
@@ -909,7 +947,7 @@ if __name__ == "__main__":
     
     safe_print(f"[OK] Loaded {len(scraper.categories)} categories")
     safe_print(f"[TARGET] Tier limits: {scraper.tier_limits}")
-    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}€+ price")
+    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price")
     
     print("\nChoose scraping mode:")
     print("1. Sample scraping (5 categories) - Quick test")

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Amazon Keyword Scraper
-Scrapes Amazon autocomplete suggestions using letter combinations
+Advanced Amazon Keyword Scraper
+Scrapes Amazon autocomplete suggestions using advanced anti-detection techniques
 """
 
 import requests
@@ -10,6 +10,7 @@ import json
 import random
 import string
 import sys
+
 from datetime import datetime
 
 def safe_print(message):
@@ -21,37 +22,86 @@ def safe_print(message):
             '⚠️': '[WARNING]',
             '🔍': '[SEARCH]',
             '📊': '[STATS]',
-            '💾': '[SAVE]'
+            '💾': '[SAVE]',
+            '🔄': '[RETRY]',
+            '🚀': '[START]',
+            '🎯': '[TARGET]'
         }
         for unicode_char, replacement in replacements.items():
             message = message.replace(unicode_char, replacement)
     print(message)
 
-class AmazonKeywordScraper:
-    def __init__(self, base_keyword="friteuse"):
+class AdvancedAmazonKeywordScraper:
+    def __init__(self, base_keyword="friteuse", market="fr"):
         self.base_keyword = base_keyword
-        self.session = requests.Session()
+        self.market = market
+        self.config = self.load_market_config(market)
         self.all_keywords = set()
         
-        # Headers to mimic real browser
-        self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        # User agents for rotation
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+            'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        ]
+        
+        # Setup session
+        self.session = self.setup_session()
+    
+    def setup_session(self):
+        """Setup session with proper headers"""
+        session = requests.Session()
+        
+        # Headers to mimic real browser with market-specific language
+        session.headers.update({
+            'User-Agent': random.choice(self.user_agents),
             'Accept': 'application/json, text/plain, */*',
-            'Accept-Language': 'fr-FR,fr;q=0.9,en;q=0.8',
+            'Accept-Language': f'{self.config["locale"]},{self.config["language"][:2]};q=0.9,en;q=0.8',
             'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
             'Cache-Control': 'no-cache',
-        }
-        self.session.headers.update(self.headers)
+        })
+        
+        return session
+    
+
+    
+    def load_market_config(self, market):
+        """Load market configuration from config file"""
+        try:
+            import os
+            config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'markets.json')
+            with open(config_path, 'r', encoding='utf-8') as f:
+                markets_config = json.load(f)
+            
+            if market not in markets_config['markets']:
+                safe_print(f"[WARNING] Market '{market}' not found, using default 'fr'")
+                market = markets_config['default_market']
+            
+            return markets_config['markets'][market]
+        except Exception as e:
+            safe_print(f"[ERROR] Could not load market config: {e}")
+            # Fallback to French market
+            return {
+                "name": "France",
+                "amazon_tld": ".fr",
+                "language": "french",
+                "locale": "fr-FR",
+                "currency": "EUR"
+            }
+    
+
     
     def get_amazon_suggestions(self, search_term):
-        """Get autocomplete suggestions from Amazon.fr"""
-        url = "https://completion.amazon.fr/api/2017/suggestions"
+        """Get autocomplete suggestions from Amazon"""
+        url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
+        
         params = {
-            "mid": "A13V1INA31Y000", 
+            "mid": self.get_marketplace_id(),
             "alias": "aps",
-            "prefix": search_term,
-            "suggestion-type": ["KEYWORD", "WIDGET"]
+            "prefix": search_term
         }
         
         try:
@@ -74,11 +124,41 @@ class AmazonKeywordScraper:
             safe_print(f"[ERROR] Failed to get suggestions for '{search_term}': {e}")
             return []
     
+    def get_marketplace_id(self):
+        """Get marketplace ID for the current market"""
+        marketplace_ids = {
+            ".fr": "A13V1IB3VIYZZH",  # Correct marketplace ID for France
+            ".de": "A1PA6795UKMFR9", 
+            ".es": "A1RKKUPIHCS9HS",
+            ".it": "APJ6JRA9NG5V4",
+            ".nl": "A1805IZSGTT6HS",
+            ".pl": "A1C3SOZRARQ6R3",
+            ".se": "A2NODRKZP88ZB9",
+            ".com": "ATVPDKIKX0DER",
+            ".ca": "A2EUQ1WTGCTBG2",
+            ".com.mx": "A1AM78C64UM0Y8",
+            ".com.br": "A2Q3Y263D00KWC",
+            ".co.uk": "A1F83G8C2ARO7P",
+            ".be": "AMEN7PMS3EDWL",
+            ".co.za": "AE08WJ6YKNBMC",
+            ".eg": "ARBP9OOSHTCHU",
+            ".com.tr": "A33AVAJ2PDY3EV",
+            ".sa": "A17E79C6D8DWNP",
+            ".ae": "A2VIGQ35RCS4UG",
+            ".in": "A21TJRUUN4KGV"
+        }
+        return marketplace_ids.get(self.config['amazon_tld'], "A13V1IB3VIYZZH")
+    
+
+    
+
+    
     def scrape_with_letters(self):
-        """Scrape suggestions using base keyword + letters"""
+        """Scrape suggestions using base keyword + letters (simplified version)"""
         safe_print(f"[SEARCH] Scraping Amazon autocomplete for: {self.base_keyword}")
+        safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
         
-        # Search patterns
+        # Search patterns - keep it simple and universal
         search_patterns = []
         
         # Base keyword alone
@@ -91,16 +171,6 @@ class AmazonKeywordScraper:
         # Base keyword + space + numbers
         for num in range(10):
             search_patterns.append(f"{self.base_keyword} {num}")
-        
-        # Common combinations
-        common_suffixes = [
-            "air", "sans huile", "electrique", "professionnelle", "mini", 
-            "grande", "pas cher", "promo", "solde", "ninja", "philips", 
-            "moulinex", "tefal", "seb", "facile", "rapide"
-        ]
-        
-        for suffix in common_suffixes:
-            search_patterns.append(f"{self.base_keyword} {suffix}")
         
         total_patterns = len(search_patterns)
         safe_print(f"[STATS] Will search {total_patterns} patterns")
@@ -129,67 +199,119 @@ class AmazonKeywordScraper:
         return list(self.all_keywords)
     
     def save_keywords(self, keywords, suffix=""):
-        """Save keywords to files"""
-        # Simple consistent names
-        base_name = "keywords"
+        """Save keywords to multiple formats with enhanced metadata"""
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        base_name = f"keywords_{self.base_keyword}_{self.market}_{timestamp}"
+        if suffix:
+            base_name += f"_{suffix}"
         
         # Save as TXT
         txt_file = f"{base_name}.txt"
         with open(txt_file, 'w', encoding='utf-8') as f:
+            f.write(f"# Amazon Keywords for: {self.base_keyword}\n")
+            f.write(f"# Market: {self.config['name']} ({self.config['amazon_tld']})\n")
+            f.write(f"# Generated: {datetime.now().isoformat()}\n")
+            f.write(f"# Total keywords: {len(keywords)}\n\n")
             for keyword in sorted(keywords):
                 f.write(f"{keyword}\n")
         
-        # Save as CSV  
+        # Save as CSV with metadata
         csv_file = f"{base_name}.csv"
         with open(csv_file, 'w', encoding='utf-8') as f:
-            f.write("keyword\n")
+            f.write("keyword,length,word_count\n")
             for keyword in sorted(keywords):
-                f.write(f'"{keyword}"\n')
+                f.write(f'"{keyword}",{len(keyword)},{len(keyword.split())}\n')
         
-        # Save as JSON
+        # Save as JSON with comprehensive metadata
         json_file = f"{base_name}.json"
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump({
-                'base_keyword': self.base_keyword,
-                'total_keywords': len(keywords),
-                'keywords': sorted(keywords),
-                'scraped_at': datetime.now().isoformat()
+                'metadata': {
+                    'base_keyword': self.base_keyword,
+                    'market': self.market,
+                    'market_config': self.config,
+                    'total_keywords': len(keywords),
+                    'scraped_at': datetime.now().isoformat(),
+                    'scraper_version': '2.0'
+                },
+                'statistics': {
+                    'avg_length': sum(len(k) for k in keywords) / len(keywords) if keywords else 0,
+                    'avg_word_count': sum(len(k.split()) for k in keywords) / len(keywords) if keywords else 0,
+                    'longest_keyword': max(keywords, key=len) if keywords else "",
+                    'shortest_keyword': min(keywords, key=len) if keywords else ""
+                },
+                'keywords': sorted(keywords)
             }, f, indent=2, ensure_ascii=False)
         
-        safe_print(f"[SAVE] Keywords saved:")
-        safe_print(f"  TXT: {txt_file}")
-        safe_print(f"  CSV: {csv_file}")  
-        safe_print(f"  JSON: {json_file}")
+        safe_print(f"[SAVE] Keywords saved to:")
+        safe_print(f"  [OK] TXT: {txt_file}")
+        safe_print(f"  [OK] CSV: {csv_file}")  
+        safe_print(f"  [OK] JSON: {json_file}")
         
         return txt_file, csv_file, json_file
 
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="Scrape Amazon autocomplete keywords")
+    parser = argparse.ArgumentParser(description="Advanced Amazon autocomplete keyword scraper")
     parser.add_argument('keyword', nargs='?', default='friteuse', help='Base keyword to search (default: friteuse)')
+    parser.add_argument('--market', '-m', default='fr', 
+                       choices=['fr', 'de', 'es', 'it', 'nl', 'pl', 'se', 'us'],
+                       help='Target market (default: fr)')
+    parser.add_argument('--workers', '-w', type=int, default=3, 
+                       help='Number of parallel workers (default: 3)')
     parser.add_argument('--suffix', default='', help='Suffix for output files')
     args = parser.parse_args()
     
-    safe_print(f"[START] Amazon Keyword Scraper")
-    safe_print("=" * 50)
+    safe_print(f"[START] Advanced Amazon Keyword Scraper v2.0")
+    safe_print("=" * 60)
+    safe_print(f"[TARGET] Keyword: {args.keyword}")
+    safe_print(f"[TARGET] Market: {args.market.upper()}")
+    safe_print(f"[TARGET] Workers: {args.workers}")
     
-    scraper = AmazonKeywordScraper(args.keyword)
+    scraper = AdvancedAmazonKeywordScraper(args.keyword, args.market)
+    
+    # Display market info
+    safe_print(f"[OK] Market: {scraper.config['name']} ({scraper.config['amazon_tld']})")
+    safe_print(f"[OK] Language: {scraper.config['language']}")
     
     # Scrape keywords
+    safe_print(f"\n[START] Starting keyword discovery...")
     keywords = scraper.scrape_with_letters()
     
     if keywords:
         # Save results
+        safe_print(f"\n[SAVE] Saving results...")
         scraper.save_keywords(keywords, args.suffix)
         
+        # Display final statistics
         safe_print(f"\n[STATS] FINAL RESULTS:")
+        safe_print("=" * 60)
         safe_print(f"Base keyword: {args.keyword}")
-        safe_print(f"Total keywords: {len(keywords)}")
-        safe_print(f"Sample keywords:")
-        for keyword in sorted(keywords)[:10]:
-            safe_print(f"  - {keyword}")
-        if len(keywords) > 10:
-            safe_print(f"  ... and {len(keywords) - 10} more")
+        safe_print(f"Market: {scraper.config['name']}")
+        safe_print(f"Total unique keywords: {len(keywords)}")
+        
+        # Keyword analysis
+        avg_length = sum(len(k) for k in keywords) / len(keywords)
+        avg_words = sum(len(k.split()) for k in keywords) / len(keywords)
+        safe_print(f"Average length: {avg_length:.1f} characters")
+        safe_print(f"Average words: {avg_words:.1f} words")
+        
+        # Show sample keywords
+        safe_print(f"\nSample keywords:")
+        sample_keywords = sorted(keywords)[:15]
+        for i, keyword in enumerate(sample_keywords, 1):
+            safe_print(f"  {i:2d}. {keyword}")
+        if len(keywords) > 15:
+            safe_print(f"  ... and {len(keywords) - 15} more keywords")
+            
+        # Show longest and shortest
+        if keywords:
+            longest = max(keywords, key=len)
+            shortest = min(keywords, key=len)
+            safe_print(f"\nLongest keyword: {longest}")
+            safe_print(f"Shortest keyword: {shortest}")
+            
+        safe_print(f"\n[SUCCESS] Scraping completed successfully!")
     else:
-        safe_print("[ERROR] No keywords found!") 
+        safe_print("[ERROR] No keywords found! Check your network connection and market settings.") 

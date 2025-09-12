@@ -1,0 +1,66 @@
+{
+  "countries": {
+    "fr": {
+      "name": "France",
+      "domain": "amazon.fr",
+      "affiliate_tag": "clickclickh01-21",
+      "currency": "EUR",
+      "language": "fr-FR"
+    },
+    "de": {
+      "name": "Germany",
+      "domain": "amazon.de",
+      "affiliate_tag": "clickclickh0b-21",
+      "currency": "EUR",
+      "language": "de-DE"
+    },
+    "es": {
+      "name": "Spain",
+      "domain": "amazon.es",
+      "affiliate_tag": "clickclickh02-21",
+      "currency": "EUR",
+      "language": "es-ES"
+    },
+    "it": {
+      "name": "Italy",
+      "domain": "amazon.it",
+      "affiliate_tag": "clickclickh09-21",
+      "currency": "EUR",
+      "language": "it-IT"
+    },
+    "nl": {
+      "name": "Netherlands",
+      "domain": "amazon.nl",
+      "affiliate_tag": "clickclickh0a-21",
+      "currency": "EUR",
+      "language": "nl-NL"
+    },
+    "pl": {
+      "name": "Poland",
+      "domain": "amazon.pl",
+      "affiliate_tag": "clickclickh06-21",
+      "currency": "PLN",
+      "language": "pl-PL"
+    },
+    "se": {
+      "name": "Sweden",
+      "domain": "amazon.se",
+      "affiliate_tag": "clickclickh0e-21",
+      "currency": "SEK",
+      "language": "sv-SE"
+    },
+    "com": {
+      "name": "United States",
+      "domain": "amazon.com",
+      "affiliate_tag": "natdurdenusa-20",
+      "currency": "USD",
+      "language": "en-US"
+    }
+  },
+  "default_country": "fr",
+  "affiliate_settings": {
+    "commission_rate": "4-8%",
+    "cookie_duration": "24 hours",
+    "payment_schedule": "Monthly"
+  }
+}
