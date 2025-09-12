@@ -117,7 +117,9 @@ class AdvancedAmazonKeywordScraper:
                 for suggestion in data['suggestions']:
                     if 'value' in suggestion:
                         keyword = suggestion['value'].strip().lower()
-                        if keyword and self.base_keyword.lower() in keyword:
+                        base_lower = self.base_keyword.lower()
+                        # Only include keywords that start with base keyword and are not just the base keyword
+                        if keyword and keyword.startswith(base_lower) and keyword != base_lower:
                             suggestions.append(keyword)
             
             return suggestions
@@ -232,7 +234,9 @@ class AdvancedAmazonKeywordScraper:
                         for suggestion in data['suggestions']:
                             if 'value' in suggestion:
                                 keyword = suggestion['value'].strip().lower()
-                                if keyword and self.base_keyword.lower() in keyword:
+                                base_lower = self.base_keyword.lower()
+                                # Only include keywords that start with base keyword and are not just the base keyword
+                                if keyword and keyword.startswith(base_lower) and keyword != base_lower:
                                     suggestions.append(keyword)
                     
                     return search_term, suggestions

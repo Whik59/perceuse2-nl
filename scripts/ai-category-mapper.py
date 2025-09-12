@@ -194,19 +194,26 @@ Réponds UNIQUEMENT avec le JSON, rien d'autre.
 
 if __name__ == "__main__":
     import argparse
+    import os
     
     parser = argparse.ArgumentParser(description="Create categories from keywords using AI")
-    parser.add_argument('keywords_file', help='Path to keywords file (txt, csv, or json)')
+    parser.add_argument('--keywords', default='data/keywords.txt', help='Path to keywords file (default: data/keywords.txt)')
     parser.add_argument('--output', default='data/categories.json', help='Output file path')
     args = parser.parse_args()
     
     safe_print("[START] AI Category Mapper")
     safe_print("=" * 50)
     
+    # Check if keywords file exists
+    if not os.path.exists(args.keywords):
+        safe_print(f"[ERROR] Keywords file not found: {args.keywords}")
+        safe_print("[INFO] Run the keyword scraper first to generate keywords.txt")
+        sys.exit(1)
+    
     mapper = AICategoryMapper()
     
     # Load keywords
-    keywords = mapper.load_keywords(args.keywords_file)
+    keywords = mapper.load_keywords(args.keywords)
     if not keywords:
         safe_print("[ERROR] No keywords loaded!")
         sys.exit(1)
