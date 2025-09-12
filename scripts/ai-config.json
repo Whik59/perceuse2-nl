@@ -1,0 +1,47 @@
+{
+  "ai_service": {
+    "provider": "openai",
+    "api_key": "your-api-key-here",
+    "model": "gpt-3.5-turbo",
+    "max_tokens": 1000,
+    "temperature": 0.7
+  },
+  "enhancement_settings": {
+    "max_name_length": 80,
+    "max_slug_length": 60,
+    "max_description_words": 500,
+    "min_faq_questions": 5,
+    "max_faq_questions": 8,
+    "delay_between_requests": 3
+  },
+  "seo_settings": {
+    "domain": "https://yourdomain.com",
+    "default_rating": 4.5,
+    "default_review_count": 1,
+    "store_name": "Tu Tienda de Teléfonos"
+  },
+  "spanish_keywords": [
+    "telefono mayores",
+    "telefono personas mayores", 
+    "telefono botones grandes",
+    "telefono sos",
+    "telefono facil usar",
+    "movil mayores",
+    "telefono ancianos",
+    "españa",
+    "envio gratis",
+    "garantia",
+    "mejor precio"
+  ],
+  "prompts": {
+    "system_message": "Eres un experto en marketing digital y SEO para productos de telefonía dirigidos a personas mayores en España. Siempre respondes en español de forma clara y persuasiva.",
+    
+    "name_optimization": "Optimiza este nombre de producto para SEO y atractivo comercial:\nOriginal: \"{original_name}\"\n\nRequisitos:\n- Mantenerlo en español\n- Hacerlo más atractivo y descriptivo\n- Incluir características clave que buscan los usuarios\n- Máximo 80 caracteres\n- Enfocado en beneficios para personas mayores\n\nResponde solo con el nombre optimizado.",
+    
+    "description_enhancement": "Crea una descripción mejorada en español para este teléfono:\nProducto: {product_name}\nCaracterísticas: {features}\nPrecio: {price}€\n\nRequisitos:\n- Escribir en español persuasivo\n- Hacer énfasis en beneficios para personas mayores\n- Incluir llamada a la acción\n- Usar formato HTML con estructura adecuada\n- Máximo 500 palabras\n- Incluir aspectos emocionales y de seguridad\n\nFormatea como HTML con encabezados, listas y párrafos apropiados.",
+    
+    "faq_generation": "Genera {faq_count} preguntas frecuentes con respuestas para este producto:\nProducto: {product_name}\nCaracterísticas: {features}\nPrecio: {price}€\n\nRequisitos:\n- Enfocarse en dudas que tendrían personas mayores\n- Incluir preguntas sobre facilidad de uso, durabilidad, soporte\n- Respuestas útiles y tranquilizadoras\n- Lenguaje español natural\n- Respuestas informativas pero concisas\n\nDevuelve como array JSON con objetos que contengan 'question' y 'answer'.",
+    
+    "specifications_enhancement": "Mejora estas especificaciones técnicas en español:\nEspecificaciones originales: {original_specs}\nProducto: {product_name}\n\nRequisitos:\n- Añadir especificaciones faltantes comunes para teléfonos\n- Usar terminología técnica apropiada en español\n- Incluir detalles técnicos importantes para usuarios\n- Formato consistente\n- Añadir especificaciones que importan a personas mayores\n\nDevuelve como objeto JSON con pares clave-valor."
+  }
+} 
