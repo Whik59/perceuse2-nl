@@ -151,6 +151,54 @@ class AdvancedAmazonKeywordScraper:
         }
         return marketplace_ids.get(self.config['amazon_tld'], "A13V1IB3VIYZZH")
     
+    def generate_enhanced_search_patterns(self):
+        """Generate simple universal search patterns - letters, numbers, and 2-letter combinations"""
+        search_patterns = []
+        
+        # Base keyword alone
+        search_patterns.append(self.base_keyword)
+        
+        # Base keyword + single letters (a-z)
+        for letter in string.ascii_lowercase:
+            search_patterns.append(f"{self.base_keyword} {letter}")
+        
+        # Base keyword + single numbers (0-9)
+        for num in range(10):
+            search_patterns.append(f"{self.base_keyword} {num}")
+        
+        # Two-letter combinations (comprehensive approach)
+        vowels = ['a', 'e', 'i', 'o', 'u']
+        common_consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v']
+        
+        # Vowel + consonant combinations
+        for vowel in vowels:
+            for consonant in common_consonants:
+                search_patterns.append(f"{self.base_keyword} {vowel}{consonant}")
+        
+        # Consonant + vowel combinations
+        for consonant in common_consonants:
+            for vowel in vowels:
+                search_patterns.append(f"{self.base_keyword} {consonant}{vowel}")
+        
+        # Common consonant + consonant combinations (very useful!)
+        consonant_pairs = [
+            # Common blends with 'l'
+            'bl', 'cl', 'fl', 'gl', 'pl', 'sl',
+            # Common blends with 'r'  
+            'br', 'cr', 'dr', 'fr', 'gr', 'pr', 'tr',
+            # 's' combinations
+            'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'st', 'sw',
+            # Other common pairs
+            'ch', 'gh', 'ph', 'th', 'wh', 'wr',
+            # Additional useful combinations
+            'dw', 'gn', 'kn', 'mb', 'mp', 'nd', 'ng', 'nk', 'nt',
+            'pt', 'qu', 'rh', 'rn', 'rt', 'sch', 'tch', 'tw'
+        ]
+        
+        for pair in consonant_pairs:
+            search_patterns.append(f"{self.base_keyword} {pair}")
+        
+        return search_patterns
 
     
 
@@ -200,19 +248,8 @@ class AdvancedAmazonKeywordScraper:
         safe_print(f"[SEARCH] Fast scraping for: {self.base_keyword}")
         safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
         
-        # Search patterns - keep it simple and universal
-        search_patterns = []
-        
-        # Base keyword alone
-        search_patterns.append(self.base_keyword)
-        
-        # Base keyword + space + letters
-        for letter in string.ascii_lowercase:
-            search_patterns.append(f"{self.base_keyword} {letter}")
-        
-        # Base keyword + space + numbers
-        for num in range(10):
-            search_patterns.append(f"{self.base_keyword} {num}")
+        # Enhanced search patterns for maximum keyword discovery
+        search_patterns = self.generate_enhanced_search_patterns()
         
         total_patterns = len(search_patterns)
         safe_print(f"[STATS] Will search {total_patterns} patterns with {max_concurrent} concurrent requests")
@@ -263,19 +300,8 @@ class AdvancedAmazonKeywordScraper:
         safe_print(f"[SEARCH] Parallel scraping for: {self.base_keyword}")
         safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
         
-        # Search patterns - keep it simple and universal
-        search_patterns = []
-        
-        # Base keyword alone
-        search_patterns.append(self.base_keyword)
-        
-        # Base keyword + space + letters
-        for letter in string.ascii_lowercase:
-            search_patterns.append(f"{self.base_keyword} {letter}")
-        
-        # Base keyword + space + numbers
-        for num in range(10):
-            search_patterns.append(f"{self.base_keyword} {num}")
+        # Enhanced search patterns for maximum keyword discovery
+        search_patterns = self.generate_enhanced_search_patterns()
         
         total_patterns = len(search_patterns)
         safe_print(f"[STATS] Will search {total_patterns} patterns with {max_workers} parallel workers")
@@ -323,19 +349,8 @@ class AdvancedAmazonKeywordScraper:
         safe_print(f"[SEARCH] Sequential scraping for: {self.base_keyword}")
         safe_print(f"[TARGET] Market: {self.config['name']} ({self.config['amazon_tld']})")
         
-        # Search patterns - keep it simple and universal
-        search_patterns = []
-        
-        # Base keyword alone
-        search_patterns.append(self.base_keyword)
-        
-        # Base keyword + space + letters
-        for letter in string.ascii_lowercase:
-            search_patterns.append(f"{self.base_keyword} {letter}")
-        
-        # Base keyword + space + numbers
-        for num in range(10):
-            search_patterns.append(f"{self.base_keyword} {num}")
+        # Enhanced search patterns for maximum keyword discovery
+        search_patterns = self.generate_enhanced_search_patterns()
         
         total_patterns = len(search_patterns)
         safe_print(f"[STATS] Will search {total_patterns} patterns sequentially")
@@ -364,56 +379,23 @@ class AdvancedAmazonKeywordScraper:
         return list(self.all_keywords)
     
     def save_keywords(self, keywords, suffix=""):
-        """Save keywords to multiple formats with enhanced metadata"""
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        base_name = f"keywords_{self.base_keyword}_{self.market}_{timestamp}"
-        if suffix:
-            base_name += f"_{suffix}"
+        """Save keywords to simple keywords.txt file in data folder"""
+        import os
         
-        # Save as TXT
-        txt_file = f"{base_name}.txt"
+        # Ensure data directory exists
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
+        os.makedirs(data_dir, exist_ok=True)
+        
+        # Save as simple keywords.txt
+        txt_file = os.path.join(data_dir, 'keywords.txt')
         with open(txt_file, 'w', encoding='utf-8') as f:
-            f.write(f"# Amazon Keywords for: {self.base_keyword}\n")
-            f.write(f"# Market: {self.config['name']} ({self.config['amazon_tld']})\n")
-            f.write(f"# Generated: {datetime.now().isoformat()}\n")
-            f.write(f"# Total keywords: {len(keywords)}\n\n")
             for keyword in sorted(keywords):
                 f.write(f"{keyword}\n")
         
-        # Save as CSV with metadata
-        csv_file = f"{base_name}.csv"
-        with open(csv_file, 'w', encoding='utf-8') as f:
-            f.write("keyword,length,word_count\n")
-            for keyword in sorted(keywords):
-                f.write(f'"{keyword}",{len(keyword)},{len(keyword.split())}\n')
+        safe_print(f"[SAVE] Keywords saved to: {txt_file}")
+        safe_print(f"[SAVE] Total keywords saved: {len(keywords)}")
         
-        # Save as JSON with comprehensive metadata
-        json_file = f"{base_name}.json"
-        with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump({
-                'metadata': {
-                    'base_keyword': self.base_keyword,
-                    'market': self.market,
-                    'market_config': self.config,
-                    'total_keywords': len(keywords),
-                    'scraped_at': datetime.now().isoformat(),
-                    'scraper_version': '2.0'
-                },
-                'statistics': {
-                    'avg_length': sum(len(k) for k in keywords) / len(keywords) if keywords else 0,
-                    'avg_word_count': sum(len(k.split()) for k in keywords) / len(keywords) if keywords else 0,
-                    'longest_keyword': max(keywords, key=len) if keywords else "",
-                    'shortest_keyword': min(keywords, key=len) if keywords else ""
-                },
-                'keywords': sorted(keywords)
-            }, f, indent=2, ensure_ascii=False)
-        
-        safe_print(f"[SAVE] Keywords saved to:")
-        safe_print(f"  [OK] TXT: {txt_file}")
-        safe_print(f"  [OK] CSV: {csv_file}")  
-        safe_print(f"  [OK] JSON: {json_file}")
-        
-        return txt_file, csv_file, json_file
+        return txt_file
 
 if __name__ == "__main__":
     import argparse
@@ -466,34 +448,6 @@ if __name__ == "__main__":
         safe_print(f"\n[SAVE] Saving results...")
         scraper.save_keywords(keywords, args.suffix)
         
-        # Display final statistics
-        safe_print(f"\n[STATS] FINAL RESULTS:")
-        safe_print("=" * 60)
-        safe_print(f"Base keyword: {args.keyword}")
-        safe_print(f"Market: {scraper.config['name']}")
-        safe_print(f"Total unique keywords: {len(keywords)}")
-        
-        # Keyword analysis
-        avg_length = sum(len(k) for k in keywords) / len(keywords)
-        avg_words = sum(len(k.split()) for k in keywords) / len(keywords)
-        safe_print(f"Average length: {avg_length:.1f} characters")
-        safe_print(f"Average words: {avg_words:.1f} words")
-        
-        # Show sample keywords
-        safe_print(f"\nSample keywords:")
-        sample_keywords = sorted(keywords)[:15]
-        for i, keyword in enumerate(sample_keywords, 1):
-            safe_print(f"  {i:2d}. {keyword}")
-        if len(keywords) > 15:
-            safe_print(f"  ... and {len(keywords) - 15} more keywords")
-            
-        # Show longest and shortest
-        if keywords:
-            longest = max(keywords, key=len)
-            shortest = min(keywords, key=len)
-            safe_print(f"\nLongest keyword: {longest}")
-            safe_print(f"Shortest keyword: {shortest}")
-            
-        safe_print(f"\n[SUCCESS] Scraping completed successfully!")
+        safe_print(f"\n[SUCCESS] Scraping completed! Found {len(keywords)} unique keywords.")
     else:
         safe_print("[ERROR] No keywords found! Check your network connection and market settings.") 
