@@ -183,7 +183,8 @@
     "continueShopping": "Continuar comprando",
     "amazonPartner": "Compra en Amazon",
     "amazonPartnerText": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen.",
-    "linkCopied": "Enlace copiado"
+    "linkCopied": "Enlace copiado",
+    "addToCart": "Añadir a la selección"
   },
   "checkout": {
     "empty": {
@@ -305,7 +306,9 @@
     "clientsRecommend": "de los clientes recomiendan este producto",
     "similarProductsLoading": "Cargando productos similares...",
     "limitedOffer": "Oferta limitada",
-    "expiresIn": "Termina en"
+    "expiresIn": "Termina en",
+    "quickPreview": "Vista rápida",
+    "saveAmount": "Ahorra {amount}"
   },
   "homepage": {
     "whyChoose": {
@@ -378,6 +381,199 @@
       "twitter": "Twitter",
       "instagram": "Instagram",
       "youtube": "YouTube"
+    }
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "subtitle": "Condiciones de uso de nuestros servicios",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Bienvenido a Móviles Senior. Estos términos y condiciones rigen el uso de nuestro sitio web y servicios.",
+    "acceptance": "Al acceder y utilizar nuestro sitio web, aceptas estos términos en su totalidad.",
+    "general": {
+      "title": "Disposiciones Generales",
+      "content1": "Estos términos y condiciones regulan el uso de nuestro sitio web y los servicios que ofrecemos. Al utilizar nuestros servicios, aceptas cumplir con todas las disposiciones aquí establecidas.",
+      "content2": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web."
+    },
+    "orders": {
+      "title": "Pedidos y Compras",
+      "process": "Todos los pedidos se procesan a través de Amazon. Al hacer clic en 'Comprar en Amazon', serás redirigido al sitio de Amazon para completar tu compra.",
+      "confirmation": "La confirmación del pedido se realizará directamente por Amazon. Recibirás un email de confirmación de Amazon con los detalles de tu compra.",
+      "payment": "Todos los pagos se procesan de forma segura a través de Amazon. Aceptamos todas las formas de pago disponibles en Amazon."
+    },
+    "prices": {
+      "title": "Precios y Pagos",
+      "currency": "Todos los precios se muestran en euros (€) e incluyen el IVA aplicable. Los precios pueden variar según la disponibilidad y las ofertas de Amazon."
+    },
+    "services": {
+      "title": "Nuestros Servicios",
+      "description": "Proporcionamos información sobre teléfonos móviles diseñados para personas mayores y facilitamos la compra a través de Amazon."
+    },
+    "userObligations": {
+      "title": "Obligaciones del Usuario",
+      "description": "Los usuarios deben proporcionar información veraz y utilizar nuestros servicios de manera responsable."
+    },
+    "liability": {
+      "title": "Limitación de Responsabilidad",
+      "description": "No nos hacemos responsables de los productos comprados a través de Amazon. Consulta los términos de Amazon para más información."
+    },
+    "modifications": {
+      "title": "Modificaciones",
+      "description": "Nos reservamos el derecho de modificar estos términos en cualquier momento."
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "subtitle": "Cómo protegemos y utilizamos tu información personal",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "En Móviles Senior respetamos tu privacidad y nos comprometemos a proteger tu información personal.",
+    "dataCollection": {
+      "title": "Información que Recopilamos",
+      "description": "Recopilamos información que nos proporcionas voluntariamente, como tu nombre y dirección de email."
+    },
+    "dataUsage": {
+      "title": "Cómo Utilizamos tu Información",
+      "description": "Utilizamos tu información para mejorar nuestros servicios y comunicarnos contigo sobre productos relevantes."
+    },
+    "dataProtection": {
+      "title": "Protección de Datos",
+      "description": "Implementamos medidas de seguridad para proteger tu información personal contra acceso no autorizado."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "Utilizamos cookies para mejorar tu experiencia de navegación y analizar el uso del sitio."
+    },
+    "rights": {
+      "title": "Tus Derechos",
+      "description": "Tienes derecho a acceder, rectificar, eliminar o portar tus datos personales."
+    }
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "subtitle": "Información sobre el uso de cookies en nuestro sitio",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Este sitio web utiliza cookies para mejorar tu experiencia de navegación.",
+    "whatAreCookies": {
+      "title": "¿Qué son las Cookies?",
+      "description": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas nuestro sitio web."
+    },
+    "typesOfCookies": {
+      "title": "Tipos de Cookies que Utilizamos",
+      "essential": "Cookies esenciales: Necesarias para el funcionamiento básico del sitio",
+      "analytics": "Cookies de análisis: Nos ayudan a entender cómo utilizas nuestro sitio",
+      "marketing": "Cookies de marketing: Para mostrarte contenido relevante"
+    },
+    "managingCookies": {
+      "title": "Gestionar Cookies",
+      "description": "Puedes controlar y eliminar las cookies a través de la configuración de tu navegador."
+    }
+  },
+  "returns": {
+    "title": "Política de Devoluciones",
+    "subtitle": "Información sobre devoluciones y reembolsos",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Entendemos que a veces necesitas devolver un producto. Aquí te explicamos nuestro proceso de devoluciones.",
+    "returnPeriod": {
+      "title": "Período de Devolución",
+      "description": "Tienes 30 días desde la fecha de entrega para devolver cualquier producto."
+    },
+    "returnConditions": {
+      "title": "Condiciones de Devolución",
+      "description": "El producto debe estar en su estado original, con todos los accesorios y embalaje original."
+    },
+    "returnProcess": {
+      "title": "Proceso de Devolución",
+      "description": "Contacta con nuestro servicio de atención al cliente para iniciar el proceso de devolución."
+    },
+    "refunds": {
+      "title": "Reembolsos",
+      "description": "Los reembolsos se procesarán una vez recibido y verificado el producto devuelto."
+    }
+  },
+  "shipping": {
+    "title": "Información de Envío",
+    "subtitle": "Detalles sobre envíos y entregas",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Información importante sobre nuestros servicios de envío y entrega.",
+    "shippingMethods": {
+      "title": "Métodos de Envío",
+      "description": "Todos los productos se envían a través de Amazon con envío estándar o Prime."
+    },
+    "deliveryTimes": {
+      "title": "Tiempos de Entrega",
+      "description": "Los tiempos de entrega varían según la ubicación, generalmente entre 1-3 días laborables."
+    },
+    "shippingCosts": {
+      "title": "Costos de Envío",
+      "description": "Los costos de envío se calculan automáticamente en Amazon según tu ubicación."
+    },
+    "tracking": {
+      "title": "Seguimiento de Envíos",
+      "description": "Recibirás un número de seguimiento para monitorear el estado de tu envío."
+    }
+  },
+  "warranty": {
+    "title": "Garantía",
+    "subtitle": "Información sobre garantías de productos",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Todos nuestros productos incluyen garantía del fabricante y protección adicional.",
+    "manufacturerWarranty": {
+      "title": "Garantía del Fabricante",
+      "description": "Todos los productos incluyen la garantía estándar del fabricante, generalmente de 2 años."
+    },
+    "amazonProtection": {
+      "title": "Protección Amazon A-Z",
+      "description": "Todos los productos están protegidos por la garantía Amazon A-Z."
+    },
+    "warrantyCoverage": {
+      "title": "Cobertura de Garantía",
+      "description": "La garantía cubre defectos de fabricación y fallos técnicos no causados por el usuario."
+    },
+    "warrantyClaims": {
+      "title": "Reclamaciones de Garantía",
+      "description": "Para reclamaciones de garantía, contacta directamente con Amazon o el fabricante."
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Conoce más sobre Móviles Senior",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Somos especialistas en teléfonos móviles diseñados específicamente para personas mayores.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Facilitar el acceso a la tecnología móvil para personas mayores con productos adaptados a sus necesidades."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "description": "Simplicidad, calidad, soporte personalizado y confianza son los pilares de nuestro servicio."
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "description": "Contamos con expertos en tecnología y atención al cliente especializados en usuarios senior."
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en contacto con nosotros",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "12 de septiembre de 2025",
+    "introduction": "Estamos aquí para ayudarte. Contacta con nosotros de la manera que prefieras.",
+    "methods": {
+      "title": "Métodos de Contacto",
+      "phone": "Teléfono: +34 900 123 456",
+      "email": "Email: info@movilessenior.com",
+      "whatsapp": "WhatsApp: +34 600 123 456",
+      "hours": "Horario de atención: Lunes a Viernes, 9:00 - 18:00"
+    },
+    "responseTime": {
+      "title": "Tiempo de Respuesta",
+      "description": "Respondemos a todas las consultas en menos de 24 horas."
     }
   }
 }

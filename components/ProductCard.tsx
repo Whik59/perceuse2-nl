@@ -80,7 +80,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         {/* Quick Actions Overlay */}
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
           <div className="bg-white/95 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-2xl border border-white/20 transform translate-y-4 group-hover:translate-y-0 transition-all duration-300">
-            <span className="text-slate-800 font-semibold text-sm tracking-wide">Aperçu rapide</span>
+            <span className="text-slate-800 font-semibold text-sm tracking-wide">{getString('product.quickPreview')}</span>
           </div>
         </div>
       </Link>
@@ -126,7 +126,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
               </div>
               {hasDiscount && (
                 <span className="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded-lg">
-                  Économisez {formatCurrency(product.compareAtPrice! - product.basePrice)}
+                  {getString('product.saveAmount').replace('{amount}', formatCurrency(product.compareAtPrice! - product.basePrice))}
                 </span>
               )}
             </div>

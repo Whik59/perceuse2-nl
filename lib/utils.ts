@@ -69,19 +69,19 @@ export function getString(key: string, replacements: Record<string, string> = {}
  * @returns Formatted currency string
  */
 export function formatCurrency(amount: number, currency: string = 'EUR'): string {
-  return new Intl.NumberFormat('fr-FR', {
+  return new Intl.NumberFormat('es-ES', {
     style: 'currency',
     currency: currency,
   }).format(amount);
 }
 
 /**
- * Format date for French locale
+ * Format date for Spanish locale
  * @param date - The date to format
  * @returns Formatted date string
  */
 export function formatDate(date: Date): string {
-  return new Intl.DateTimeFormat('fr-FR', {
+  return new Intl.DateTimeFormat('es-ES', {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -146,10 +146,10 @@ export const debounce = <T extends (...args: unknown[]) => unknown>(
 };
 
 export const formatPhoneNumber = (phone: string): string => {
-  // Simple French phone number formatting
+  // Simple Spanish phone number formatting
   const cleaned = phone.replace(/\D/g, '');
-  if (cleaned.length === 10) {
-    return cleaned.replace(/(\d{2})(\d{2})(\d{2})(\d{2})(\d{2})/, '$1 $2 $3 $4 $5');
+  if (cleaned.length === 9) {
+    return cleaned.replace(/(\d{3})(\d{3})(\d{3})/, '$1 $2 $3');
   }
   return phone;
 };
@@ -243,7 +243,7 @@ export const generateProductReviewSnippet = (productSlug: string, productTitle: 
   return {
     averageRating: roundedRating,
     reviewCount,
-    displayText: `${roundedRating}/5 ★ (${reviewCount} avis)`,
+    displayText: `${roundedRating}/5 ★ (${reviewCount} opiniones)`,
     stars: Math.round(roundedRating) // For display purposes
   };
 };
@@ -259,23 +259,23 @@ export const generateProductReviews = (productSlug: string, productTitle: string
   
   // Use existing reviews if available, otherwise use fallback data
   const reviewerNames = reviewsData.reviewerNames || [
-    "Marie D.", "Jean-Pierre M.", "Sophie L.", "Thomas R.", "Isabelle C.", 
-    "Pierre B.", "Catherine V.", "Michel L.", "Anne-Marie P.", "François D.",
-    "Sylvie M.", "Patrick R.", "Nathalie B.", "Alain C.", "Véronique T.",
-    "Daniel G.", "Martine H.", "Claude J.", "Monique F.", "Bernard K."
+    "María D.", "José M.", "Carmen L.", "Antonio R.", "Isabel C.", 
+    "Pedro B.", "Ana V.", "Miguel L.", "Pilar P.", "Francisco D.",
+    "Sofía M.", "Carlos R.", "Natalia B.", "Alejandro C.", "Verónica T.",
+    "Daniel G.", "Marta H.", "Claudio J.", "Monica F.", "Bernardo K."
   ];
   
   const reviewTemplates = reviewsData.reviewTemplates || [
-    "Excellente {productTitle} ! Je la recommande vivement.",
-    "Très satisfait de cette {productTitle}. Rapport qualité-prix imbattable.",
-    "Super {productTitle}, facile à utiliser et efficace.",
-    "Parfait pour ma famille. Cette {productTitle} répond à toutes nos attentes.",
-    "Bonne {productTitle} dans l'ensemble. Je suis content de mon achat.",
-    "Après plusieurs mois d'utilisation, toujours aussi satisfait de cette {productTitle}.",
-    "Design moderne et fonctionnalités pratiques. Cette {productTitle} est top !",
-    "Livraison rapide et produit conforme. Cette {productTitle} est de qualité.",
-    "Je recommande cette {productTitle} sans hésitation. Excellent choix !",
-    "Très bonne {productTitle}, facile à nettoyer et performante."
+    "¡Excelente {productTitle}! Lo recomiendo encarecidamente.",
+    "Muy satisfecho con este {productTitle}. Relación calidad-precio imbatible.",
+    "Súper {productTitle}, fácil de usar y eficaz.",
+    "Perfecto para mi familia. Este {productTitle} cumple todas nuestras expectativas.",
+    "Buena {productTitle} en general. Estoy contento con mi compra.",
+    "Después de varios meses de uso, sigo igual de satisfecho con este {productTitle}.",
+    "Diseño moderno y funcionalidades prácticas. ¡Este {productTitle} es genial!",
+    "Entrega rápida y producto conforme. Este {productTitle} es de calidad.",
+    "Recomiendo este {productTitle} sin dudarlo. ¡Excelente elección!",
+    "Muy buena {productTitle}, fácil de limpiar y eficiente."
   ];
   
   const reviews = [];

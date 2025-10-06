@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           
           {/* Company Info */}
-          <div className="lg:col-span-1">
+          <div>
             <h3 className="text-lg font-semibold mb-4">{getString('common.companyName')}</h3>
             <p className="text-gray-300 text-sm mb-4">
               Especialistas en teléfonos móviles diseñados específicamente para personas mayores. 
@@ -72,55 +72,6 @@ const Footer: React.FC = () => {
               <li>
                 <Link href="/warranty" className="text-gray-300 hover:text-white transition-colors text-sm">
                   {getString('footer.legal.warranty')}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Company Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{getString('footer.company.title')}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/about" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.company.about')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/careers" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.company.careers')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/press" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.company.press')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/partners" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.company.partners')}
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Support Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{getString('footer.support.title')}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/help" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.support.help')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/faq" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.support.faq')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.contact')}
                 </Link>
               </li>
             </ul>

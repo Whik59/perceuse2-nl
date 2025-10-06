@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Star } from 'lucide-react';
-import { generateProductReviewSnippet } from '../lib/utils';
+import { generateProductReviewSnippet, getString } from '../lib/utils';
 
 interface ReviewSnippetProps {
   productSlug: string;
@@ -68,7 +68,7 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
         <>
           <span className={`${sizeClasses[size].text} text-gray-400`}>•</span>
           <span className={`${sizeClasses[size].text} text-gray-600`}>
-            {reviewData.reviewCount} avis
+            {reviewData.reviewCount} {getString('product.reviews')}
           </span>
         </>
       )}
