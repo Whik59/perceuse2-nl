@@ -255,7 +255,7 @@ const CategoryPage: React.FC = () => {
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
                 <span className="text-sm text-slate-600 font-medium">
-                  {products.length} {products.length === 1 ? 'produit' : 'produits'}
+                  {products.length} {products.length === 1 ? getString('categories.products').slice(0, -1) : getString('categories.products')}
                 </span>
               </div>
               {categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 0 && (
@@ -263,7 +263,7 @@ const CategoryPage: React.FC = () => {
                   <div className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
                     <span className="text-sm text-slate-600 font-medium">
-                      {categories.filter(cat => cat.parentCategoryId === category.categoryId).length} spécialité{categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 1 ? 's' : ''}
+                      {categories.filter(cat => cat.parentCategoryId === category.categoryId).length} {getString('categories.subcategories')}
                     </span>
                   </div>
                 </>
@@ -283,10 +283,10 @@ const CategoryPage: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-8">
               <h2 className="text-2xl lg:text-3xl font-extralight text-slate-900 mb-3 tracking-wide">
-                Parcourir par spécialité
+                {getString('categories.exploreBySpecialty')}
               </h2>
               <p className="text-slate-600 font-light">
-                Affinez votre recherche avec nos sous-catégories spécialisées
+                {getString('categories.refineSearch')}
               </p>
             </div>
             
@@ -345,7 +345,7 @@ const CategoryPage: React.FC = () => {
                               {subcategory.categoryNameCanonical}
                             </h3>
                             <p className="text-xs text-slate-500 mt-1">
-                              Voir la collection
+                              {getString('categories.viewCollection')}
                             </p>
                           </div>
                         </div>
@@ -369,7 +369,7 @@ const CategoryPage: React.FC = () => {
               className="flex items-center space-x-2 border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300 rounded-xl font-medium"
             >
               <SlidersHorizontal className="w-4 h-4" />
-              <span>Filtres</span>
+              <span>{getString('categories.filterBy')}</span>
             </Button>
             
             <select
@@ -377,18 +377,18 @@ const CategoryPage: React.FC = () => {
               onChange={(e) => handleFilterChange({ sortBy: e.target.value as FilterState['sortBy'] })}
               className="border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-transparent bg-white shadow-sm font-medium"
             >
-              <option value="newest">Plus récent</option>
-              <option value="price_asc">Prix croissant</option>
-              <option value="price_desc">Prix décroissant</option>
-              <option value="rating">Mieux noté</option>
+              <option value="newest">{getString('categories.newArrivals')}</option>
+              <option value="price_asc">{getString('categories.priceAscending')}</option>
+              <option value="price_desc">{getString('categories.priceDescending')}</option>
+              <option value="rating">{getString('categories.topRated')}</option>
             </select>
           </div>
 
           <div className="flex items-center space-x-4">
             <span className="text-sm text-slate-600 font-medium">
-              {filteredProducts.length} produit{filteredProducts.length > 1 ? 's' : ''} trouvé{filteredProducts.length > 1 ? 's' : ''}
+              {filteredProducts.length} {filteredProducts.length === 1 ? getString('categories.productFound') : getString('categories.productsFound')}
               {categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 0 && (
-                <span className="text-slate-500 ml-1">(toutes spécialités incluses)</span>
+                <span className="text-slate-500 ml-1">{getString('categories.allSpecialtiesIncluded')}</span>
               )}
             </span>
             
@@ -416,7 +416,7 @@ const CategoryPage: React.FC = () => {
               {/* Price Range */}
               <div>
                 <label className="block text-sm font-semibold text-slate-900 mb-3 tracking-wide">
-                  {getString('product.price')}
+                  {getString('categories.priceRange')}
                 </label>
                 <div className="space-y-2">
                   <input
@@ -439,17 +439,17 @@ const CategoryPage: React.FC = () => {
               {/* Rating */}
               <div>
                 <label className="block text-sm font-semibold text-slate-900 mb-3 tracking-wide">
-                  Note minimum
+                  {getString('categories.minimumRating')}
                 </label>
                 <select
                   value={filters.rating}
                   onChange={(e) => handleFilterChange({ rating: parseInt(e.target.value) })}
                   className="w-full border border-slate-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900 focus:border-transparent bg-white shadow-sm font-medium"
                 >
-                  <option value="0">Toutes les notes</option>
-                  <option value="4">4★ et plus</option>
-                  <option value="3">3★ et plus</option>
-                  <option value="2">2★ et plus</option>
+                  <option value="0">{getString('categories.allRatings')}</option>
+                  <option value="4">{getString('categories.fourStarsAndUp')}</option>
+                  <option value="3">{getString('categories.threeStarsAndUp')}</option>
+                  <option value="2">{getString('categories.twoStarsAndUp')}</option>
                 </select>
               </div>
 
@@ -463,7 +463,7 @@ const CategoryPage: React.FC = () => {
                     className="rounded border-slate-300 text-slate-900 focus:ring-slate-900 focus:ring-offset-0 shadow-sm"
                   />
                                       <span className="text-sm font-semibold text-slate-900 tracking-wide">
-                      {getString('product.inStock')} uniquement
+                      {getString('categories.inStock')} {getString('categories.inStockOnly')}
                     </span>
                 </label>
               </div>
@@ -477,8 +477,8 @@ const CategoryPage: React.FC = () => {
             <div className="w-16 h-16 bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Star className="w-8 h-8 text-slate-400" />
             </div>
-            <h3 className="text-lg font-semibold text-slate-900 mb-2">Aucun produit trouvé</h3>
-            <p className="text-slate-600 font-light">Essayez de modifier vos filtres ou explorez nos autres catégories</p>
+            <h3 className="text-lg font-semibold text-slate-900 mb-2">{getString('categories.noProductsFound')}</h3>
+            <p className="text-slate-600 font-light">{getString('categories.modifyFilters')}</p>
           </div>
         ) : (
           <div className={
@@ -571,7 +571,7 @@ const CategoryPage: React.FC = () => {
               size="lg"
               className="border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300 rounded-xl font-semibold px-8 py-4 transition-all duration-300"
             >
-              Voir plus de produits
+              {getString('categories.viewMoreProducts')}
             </Button>
           </div>
         )}
@@ -587,7 +587,7 @@ const CategoryPage: React.FC = () => {
             
             {category.seo?.keywords && category.seo.keywords.length > 0 && (
               <div className="mt-12 p-6 bg-white rounded-xl shadow-sm border border-slate-100">
-                <h3 className="text-lg font-semibold text-slate-900 mb-4 text-center">Términos relacionados:</h3>
+                <h3 className="text-lg font-semibold text-slate-900 mb-4 text-center">{getString('categories.relatedTerms')}:</h3>
                 <div className="flex flex-wrap gap-2 justify-center">
                   {category.seo.keywords.slice(0, 10).map((keyword, index) => (
                     <span

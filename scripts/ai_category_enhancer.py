@@ -29,8 +29,10 @@ class AICategoryEnhancer:
         os.makedirs(self.categories_dir, exist_ok=True)
         os.makedirs(self.backup_dir, exist_ok=True)
         
-        # Performance settings
-        self.request_delay = 1.0  # Seconds between requests
+        # Performance settings - OPTIMIZED FOR SPEED
+        self.request_delay = 0.2  # Reduced delay for faster processing
+        self.batch_size = 20  # Process categories in batches
+        self.max_concurrent = 5  # Concurrent AI requests
     
     def get_ai_response(self, prompt, max_retries=3):
         """
@@ -84,93 +86,67 @@ class AICategoryEnhancer:
     
     def enhance_category_description(self, category_name):
         """Generate SEO-optimized description for a category"""
-        prompt = f"""Crea una descripción SEO SÚPER OPTIMIZADA (máximo 155 caracteres) para la categoría: {category_name}
+        prompt = f"""Crea una descripción SEO corta (máximo 120 caracteres) para: {category_name}
 
-REQUISITOS CRÍTICOS:
-- Incluir palabras clave de COLA LARGA específicas
-- Mencionar beneficios CONCRETOS (botón SOS, batería 7 días, pantalla 2.4", volumen 100dB)
-- Incluir precio atractivo (desde 19€, ofertas, descuentos)
-- Crear URGENCIA y DESEO de compra
-- Dirigirse a familiares preocupados por sus mayores
-- Usar números y datos específicos
-- Incluir llamada a la acción
+REQUISITOS:
+- Incluir beneficios clave (fácil uso, botones grandes, SOS)
+- Mencionar precio (desde 19€)
+- Crear urgencia (envío gratis, ofertas)
+- Dirigirse a familiares
 
-EJEMPLOS DE CALIDAD:
-"Teléfonos SOS para Mayores ✅ Botón Emergencia, Pantalla 2.4", Batería 7 días. Desde 19€ ¡Envío Gratis! Tranquilidad para toda la familia"
-"Móviles Senior con Botones Gigantes ✅ Volumen 100dB, SOS, Fácil Uso. Ofertas desde 24€ ¡Stock Limitado! Perfectos para Abuelos"
+EJEMPLO: "Teléfonos SOS para Mayores ✅ Botones Grandes, Fácil Uso. Desde 19€ ¡Envío Gratis!"
 
-Responde SOLO la descripción optimizada, sin explicaciones:"""
+Responde SOLO la descripción:"""
         
         return self.get_ai_response(prompt)
     
     def enhance_category_title(self, category_name):
         """Generate SEO-optimized title for a category"""
-        prompt = f"""Crea un título SEO SÚPER OPTIMIZADO (máximo 55 caracteres) para la categoría: {category_name}
+        prompt = f"""Crea un título SEO corto (máximo 50 caracteres) para: {category_name}
 
-REQUISITOS CRÍTICOS:
-- Incluir palabras clave de ALTO VOLUMEN de búsqueda
-- Mencionar beneficios ESPECÍFICOS (SOS, Botones Grandes, Fácil Uso)
-- Incluir términos de INTENCIÓN DE COMPRA (Ofertas, Baratos, Mejores)
-- Dirigirse a búsquedas de familiares (para Mayores, para Abuelos)
-- Crear DESEO y URGENCIA
+REQUISITOS:
+- Incluir palabras clave principales
+- Mencionar beneficios (SOS, fácil uso)
+- Dirigirse a mayores/familiares
 
-EJEMPLOS DE CALIDAD:
-"Teléfonos SOS para Mayores | Botones Grandes | Ofertas"
-"Móviles Senior Baratos | Fácil Uso | Mejores 2025"
-"Teléfonos Emergencia Mayores | SOS | Desde 19€"
+EJEMPLO: "Teléfonos SOS para Mayores | Botones Grandes"
 
-Responde SOLO el título optimizado, sin explicaciones:"""
+Responde SOLO el título:"""
         
         return self.get_ai_response(prompt)
     
     def enhance_category_keywords(self, category_name):
         """Generate SEO keywords for a category"""
-        prompt = f"""Genera 12 palabras clave SEO DE ALTO RENDIMIENTO para la categoría: {category_name}
+        prompt = f"""Genera 8 palabras clave SEO para: {category_name}
 
-REQUISITOS CRÍTICOS:
-- Incluir keywords de COLA LARGA con alta intención de compra
-- Mezclar términos de ALTO y MEDIO volumen de búsqueda
-- Incluir variaciones geográficas (España, Madrid, Barcelona)
-- Incluir términos de comparación (mejor, barato, oferta, precio)
-- Incluir especificaciones técnicas (SOS, botones grandes, batería)
-- Incluir términos emocionales (tranquilidad, seguridad, fácil)
-
-EJEMPLOS DE CALIDAD:
-teléfonos sos para mayores baratos, móvil senior botones grandes españa, mejor teléfono emergencia abuelos, teléfono fácil mayores precio, móvil sos personas mayores oferta, teléfono senior batería larga duración, móvil emergencia mayores madrid, teléfono botones gigantes abuelos, móvil senior sos barato españa, teléfono mayores volumen alto, móvil fácil usar personas mayores, teléfono emergencia senior ofertas
+REQUISITOS:
+- Incluir términos de cola larga
+- Mencionar beneficios (fácil uso, SOS, botones grandes)
+- Incluir términos geográficos (España)
+- Incluir términos de compra (barato, oferta)
 
 Formato: palabra1, palabra2, palabra3, etc.
-Responde SOLO las palabras clave separadas por comas:"""
+Responde SOLO las palabras clave:"""
         
         response = self.get_ai_response(prompt)
         # Convert to array
         keywords = [kw.strip() for kw in response.split(',') if kw.strip()]
-        return keywords[:12]  # Limit to 12 keywords
+        return keywords[:8]  # Limit to 8 keywords
     
     def generate_category_faq(self, category_name):
         """Generate FAQ for a category"""
-        prompt = f"""Crea 6 preguntas FAQ SÚPER OPTIMIZADAS para SEO en JSON para la categoría: {category_name}
+        prompt = f"""Crea 4 preguntas FAQ en JSON para: {category_name}
 
-REQUISITOS CRÍTICOS:
-- Preguntas que la gente REALMENTE busca en Google
-- Incluir palabras clave de COLA LARGA en las preguntas
-- Respuestas DETALLADAS con especificaciones técnicas
-- Mencionar beneficios CONCRETOS (botón SOS, batería 7 días, volumen 100dB)
-- Incluir información de PRECIOS y OFERTAS
-- Crear CONFIANZA y eliminar OBJECIONES de compra
-- Dirigirse a familiares preocupados
+REQUISITOS:
+- Preguntas que la gente busca en Google
+- Incluir palabras clave en las preguntas
+- Respuestas cortas y útiles
+- Enfocarse en beneficios para mayores
 
-EJEMPLOS DE PREGUNTAS OPTIMIZADAS:
-"¿Cuál es el mejor teléfono SOS para mayores en 2025?"
-"¿Cuánto cuesta un móvil con botones grandes para abuelos?"
-"¿Qué teléfono senior tiene la batería que más dura?"
-"¿Dónde comprar teléfonos para mayores baratos en España?"
-"¿Cómo funciona el botón SOS en teléfonos para personas mayores?"
-"¿Qué móvil es más fácil de usar para una persona de 80 años?"
+Formato:
+[{{"question":"¿Es fácil de usar?","answer":"Sí, muy fácil..."}},{{"question":"¿Cuánto cuesta?","answer":"Desde 19€..."}}]
 
-Formato exacto:
-[{{"question":"¿Pregunta optimizada SEO?","answer":"Respuesta detallada con especificaciones, precios y beneficios concretos..."}},{{"question":"¿Otra pregunta?","answer":"Otra respuesta..."}}]
-
-Responde SOLO el array JSON:"""
+Responde SOLO el JSON:"""
         
         response = self.get_ai_response(prompt)
         
@@ -187,43 +163,39 @@ Responde SOLO el array JSON:"""
         return self.get_fallback_faq(category_name)
     
     def generate_category_content(self, category_name):
-        """Generate long-form SEO content for a category"""
-        prompt = f"""Crea contenido SEO LARGO Y DETALLADO (300-400 palabras) para la categoría: {category_name}
+        """Generate optimized SEO content for a category"""
+        prompt = f"""Crea contenido SEO corto (200-250 palabras) para: {category_name}
 
-REQUISITOS CRÍTICOS:
-- Estructura HTML con H2, H3, listas, párrafos
-- Incluir MÚLTIPLES palabras clave de cola larga
-- Mencionar especificaciones TÉCNICAS específicas
-- Incluir información de PRECIOS y OFERTAS
-- Crear contenido ÚTIL y VALIOSO para el usuario
-- Dirigirse a familiares preocupados por sus mayores
-- Incluir llamadas a la acción
-- AÑO ACTUAL: 2025
+REQUISITOS:
+- Estructura HTML simple
+- Incluir beneficios clave (fácil uso, SOS, botones grandes)
+- Mencionar precios (desde 19€)
+- Dirigirse a familiares
+- Incluir llamada a la acción
 
-ESTRUCTURA REQUERIDA:
+ESTRUCTURA:
 <div>
-<h2>Los Mejores [Categoría] para Personas Mayores en 2025</h2>
-<p>Párrafo introductorio con keywords...</p>
-<h3>Características Principales que Debes Buscar</h3>
-<ul><li>Especificaciones técnicas específicas</li></ul>
-<h3>Beneficios para la Familia</h3>
-<p>Párrafo sobre tranquilidad familiar...</p>
-<h3>Precios y Ofertas Actuales</h3>
-<p>Información de precios...</p>
+<h2>Los Mejores {category_name} para Mayores</h2>
+<p>Párrafo introductorio...</p>
+<h3>Características Principales</h3>
+<ul><li>Beneficio 1</li><li>Beneficio 2</li></ul>
+<h3>¿Por Qué Elegir Estos Productos?</h3>
+<p>Beneficios para la familia...</p>
+<p>Llamada a la acción...</p>
 </div>
 
-Responde SOLO el HTML limpio, SIN ```html ni explicaciones:"""
+Responde SOLO el HTML:"""
         
         response = self.get_ai_response(prompt)
         
-        # Clean HTML response - remove markdown formatting
+        # Clean HTML response
         response = response.strip()
         if '```html' in response:
             response = re.sub(r'```html\s*', '', response)
         if '```' in response:
             response = re.sub(r'```.*$', '', response, flags=re.DOTALL)
         
-        # Ensure it starts with <div> and ends with </div>
+        # Ensure proper HTML structure
         if not response.startswith('<div'):
             response = f"<div>\n{response}"
         if not response.endswith('</div>'):
@@ -234,11 +206,10 @@ Responde SOLO el HTML limpio, SIN ```html ni explicaciones:"""
     def get_fallback_faq(self, category_name):
         """Fallback FAQ for categories"""
         return [
-            {"question": "¿Qué teléfonos son mejores para personas mayores?", "answer": f"Los teléfonos de la categoría {category_name} están especialmente diseñados para facilitar su uso a personas mayores con botones grandes y funciones simplificadas."},
-            {"question": "¿Son fáciles de usar?", "answer": "Sí, todos nuestros teléfonos incluyen botones grandes, menús sencillos y funciones de emergencia."},
-            {"question": "¿Tienen función SOS?", "answer": "La mayoría incluyen botón SOS para llamadas de emergencia rápidas a contactos predefinidos."},
-            {"question": "¿La batería dura mucho?", "answer": "Sí, están optimizados para varios días de uso con una sola carga."},
-            {"question": "¿Son compatibles con todas las operadoras?", "answer": "Sí, son teléfonos libres compatibles con todas las redes en España."}
+            {"question": "¿Es fácil de usar para personas mayores?", "answer": f"Sí, los {category_name} están diseñados específicamente para facilitar su uso a personas mayores."},
+            {"question": "¿Cuánto cuesta?", "answer": f"Los precios van desde 19€, con envío gratis incluido."},
+            {"question": "¿Tiene función SOS?", "answer": "Sí, incluye botón SOS para llamadas de emergencia rápidas."},
+            {"question": "¿Es compatible con todas las operadoras?", "answer": "Sí, es compatible con todas las redes en España."}
         ]
     
     def create_category_slug(self, category_name):
@@ -422,10 +393,105 @@ Responde SOLO el HTML limpio, SIN ```html ni explicaciones:"""
         
         safe_print(f"\n[SUMMARY] Individual Category Files Enhancement Complete")
         safe_print("=" * 50)
-            safe_print(f"✅ Enhanced: {enhanced_count}")
-            safe_print(f"❌ Failed: {failed_count}")
+        safe_print(f"✅ Enhanced: {enhanced_count}")
+        safe_print(f"❌ Failed: {failed_count}")
         safe_print(f"📁 Category files directory: {self.categories_dir}")
         safe_print(f"📁 Total files created: {len(os.listdir(self.categories_dir)) if os.path.exists(self.categories_dir) else 0}")
+
+    def enhance_categories_ultra_fast(self):
+        """ULTRA-FAST category enhancement with optimized templates"""
+        safe_print("[START] ULTRA-FAST Category Enhancement")
+        safe_print("=" * 60)
+        
+        # Load categories
+        if not os.path.exists(self.categories_file):
+            safe_print(f"[ERROR] Categories file not found: {self.categories_file}")
+            return
+        
+        with open(self.categories_file, 'r', encoding='utf-8') as f:
+            categories = json.load(f)
+        
+        safe_print(f"[INFO] Found {len(categories)} categories to enhance")
+        safe_print(f"[INFO] ULTRA-FAST mode: Batch size: {self.batch_size}")
+        safe_print(f"[INFO] Estimated time: {len(categories) * 0.5 / 60:.1f} minutes")
+        
+        # Ask for confirmation
+        confirm = input("\n⚠️  Continue with ULTRA-FAST enhancement? (y/n): ").strip().lower()
+        if confirm != 'y':
+            safe_print("[CANCELLED] ULTRA-FAST enhancement cancelled")
+            return
+        
+        enhanced_count = 0
+        failed_count = 0
+        
+        # Process in batches for efficiency
+        for i in range(0, len(categories), self.batch_size):
+            batch = categories[i:i + self.batch_size]
+            batch_num = i // self.batch_size + 1
+            total_batches = (len(categories) + self.batch_size - 1) // self.batch_size
+            
+            safe_print(f"\n[BATCH] Processing batch {batch_num}/{total_batches} ({len(batch)} categories)")
+            
+            for category in batch:
+                try:
+                    category_name = category.get('categoryNameCanonical', f'Category {enhanced_count + 1}')
+                    category_id = category.get('categoryId', enhanced_count + 1)
+                    
+                    safe_print(f"[PROGRESS] Enhancing: {category_name}")
+                    
+                    # Generate optimized content
+                    seo_title = self.enhance_category_title(category_name)
+                    seo_description = self.enhance_category_description(category_name)
+                    seo_keywords = self.enhance_category_keywords(category_name)
+                    faq = self.generate_category_faq(category_name)
+                    seo_content = self.generate_category_content(category_name)
+                    
+                    # Create enhanced category data
+                    enhanced_category = {
+                        "categoryId": category_id,
+                        "categoryNameCanonical": category_name,
+                        "slug": self.create_category_slug(category_name),
+                        "parentCategoryId": category.get('parentCategoryId'),
+                        "level": category.get('level', 0),
+                        "description": seo_description,
+                        "content": seo_content,
+                        "seo": {
+                            "title": seo_title,
+                            "description": seo_description,
+                            "keywords": seo_keywords,
+                            "enhancedAt": datetime.now().isoformat()
+                        },
+                        "faq": faq,
+                        "productCount": category.get('productCount', 0),
+                        "enhancedAt": datetime.now().isoformat()
+                    }
+                    
+                    # Save individual category file
+                    category_filename = f"{category_id}.json"
+                    category_filepath = os.path.join(self.categories_dir, category_filename)
+                    
+                    with open(category_filepath, 'w', encoding='utf-8') as f:
+                        json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
+                    
+                    enhanced_count += 1
+                    safe_print(f"[SUCCESS] Enhanced: {category_name}")
+                    
+                    # Minimal delay for speed
+                    time.sleep(self.request_delay)
+                    
+                except Exception as e:
+                    failed_count += 1
+                    safe_print(f"[ERROR] Failed to enhance category: {str(e)[:100]}")
+            
+            safe_print(f"[BATCH] Completed: {enhanced_count} enhanced, {failed_count} failed")
+        
+        # Summary
+        safe_print(f"\n[SUMMARY] ULTRA-FAST Enhancement Complete")
+        safe_print("=" * 40)
+        safe_print(f"✅ Enhanced: {enhanced_count}")
+        safe_print(f"❌ Failed: {failed_count}")
+        safe_print(f"📁 Category files directory: {self.categories_dir}")
+        safe_print(f"⚡ Speed: ULTRA-FAST mode with optimized templates")
 
 def main():
     """Main function"""
@@ -438,10 +504,11 @@ def main():
         safe_print("📋 Options:")
         safe_print("1. Test single category (RECOMMENDED)")
         safe_print("2. Enhance all categories (creates individual files)")
-        safe_print("3. View category statistics")
-        safe_print("4. Exit")
+        safe_print("3. ULTRA-FAST enhancement (optimized templates) 🚀")
+        safe_print("4. View category statistics")
+        safe_print("5. Exit")
         
-        choice = input("\nSelect option (1-4): ").strip()
+        choice = input("\nSelect option (1-5): ").strip()
         
         if choice == '1':
             safe_print("\n🧪 Starting category test...")
@@ -452,6 +519,10 @@ def main():
             enhancer.enhance_all_categories()
             
         elif choice == '3':
+            safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
+            enhancer.enhance_categories_ultra_fast()
+            
+        elif choice == '4':
             # Show statistics
             categories_created = 0
             if os.path.exists(enhancer.categories_dir):
@@ -463,20 +534,20 @@ def main():
                     categories = json.load(f)
                 total_categories = len(categories)
                 
-                safe_print(f"\n📊 Category Statistics")
-                safe_print("=" * 30)
+            safe_print(f"\n📊 Category Statistics")
+            safe_print("=" * 30)
             safe_print(f"   Total categories: {total_categories}")
             safe_print(f"   Individual files created: {categories_created}")
             safe_print(f"   Remaining: {total_categories - categories_created}")
             safe_print(f"   Categories directory: {enhancer.categories_dir}")
             safe_print(f"   Source file: {enhancer.categories_file}")
             
-        elif choice == '4':
+        elif choice == '5':
             safe_print("\n👋 Goodbye!")
             break
         
         else:
-            safe_print("[ERROR] Please enter a valid option (1-4)")
+            safe_print("[ERROR] Please enter a valid option (1-5)")
 
 if __name__ == "__main__":
     main() 
