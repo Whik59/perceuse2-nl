@@ -47,7 +47,7 @@ class AICategoryEnhancer:
                 return self.get_fallback_response(prompt)
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
             # System prompt for Spanish SEO expert
             system_prompt = "Eres un experto en SEO y marketing digital para teléfonos móviles dirigidos a personas mayores en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."

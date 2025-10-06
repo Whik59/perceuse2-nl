@@ -49,10 +49,25 @@ def safe_print(message):
     print(message)
 
 class AmazonScraper:
-    def __init__(self, market='fr'):
+    def __init__(self, market='fr', speed_mode='normal'):
         # Load market configuration
         self.market = market
         self.config = self.load_market_config(market)
+        
+        # Speed configuration
+        self.speed_mode = speed_mode
+        if speed_mode == 'fast':
+            self.request_delay = (0.5, 1.5)  # Faster requests
+            self.category_delay = (2, 5)      # Less rest between categories
+            self.max_workers = 8              # More workers
+        elif speed_mode == 'turbo':
+            self.request_delay = (0.2, 0.8)   # Very fast requests
+            self.category_delay = (1, 3)      # Minimal rest
+            self.max_workers = 12             # Maximum workers
+        else:  # normal
+            self.request_delay = (1, 3)       # Balanced
+            self.category_delay = (5, 10)    # Moderate rest
+            self.max_workers = 5              # Moderate workers
         
         # OPTIMIZED: Only scrape subcategories (level 1)
         # Main categories get products automatically from their subcategories
@@ -174,8 +189,8 @@ class AmazonScraper:
         """Make HTTP request with advanced retry logic and CAPTCHA detection"""
         for attempt in range(retries):
             try:
-                # Random delay to appear human
-                time.sleep(random.uniform(3, 7))
+                # Random delay to appear human (configurable speed)
+                time.sleep(random.uniform(*self.request_delay))
                 
                 # Use random headers for this request
                 headers = self.get_random_headers()
@@ -774,7 +789,7 @@ class AmazonScraper:
                 # Process products in parallel
                 safe_print(f"  [START] Processing {len(products_on_page)} products in parallel...")
                 
-                with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
                     future_to_product = {
                         executor.submit(self.get_detailed_product_info, product): product 
                         for product in products_on_page
@@ -814,7 +829,7 @@ class AmazonScraper:
         return final_products
     
     def scrape_sample_categories(self, max_categories=5):
-        """Scrape a sample of categories for testing"""
+        """Scrape a sample of categories for testing with parallel processing"""
         safe_print("[START] Starting Sample Product Scraping...")
         
         # Get sample categories (1-2 from each level)
@@ -831,20 +846,24 @@ class AmazonScraper:
         
         total_products = 0
         
-        for i, category in enumerate(sample_categories, 1):
-            safe_print(f"\n--- Progress: {i}/{len(sample_categories)} ---")
+        # Process categories in parallel (2 at a time)
+        safe_print(f"[SPEED] Processing categories in parallel...")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+            future_to_category = {
+                executor.submit(self.scrape_category_products, category): category 
+                for category in sample_categories
+            }
             
-            try:
-                products = self.scrape_category_products(category)
-                total_products += len(products)
+            for i, future in enumerate(concurrent.futures.as_completed(future_to_category), 1):
+                category = future_to_category[future]
+                safe_print(f"\n--- Progress: {i}/{len(sample_categories)} ---")
                 
-                # Rest between categories
-                safe_print(f"[RETRY] Resting between categories...")
-                time.sleep(random.uniform(15, 25))
-                
-            except Exception as e:
-                safe_print(f"[ERROR] Error with category {category['categoryNameCanonical']}: {e}")
-                continue
+                try:
+                    products = future.result()
+                    total_products += len(products)
+                    safe_print(f"[SUCCESS] Category {category['categoryNameCanonical']}: {len(products)} products")
+                except Exception as e:
+                    safe_print(f"[ERROR] Error with category {category['categoryNameCanonical']}: {e}")
         
         safe_print(f"\n[SUCCESS] Sample Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
@@ -900,7 +919,13 @@ class AmazonScraper:
             }, f, indent=2, ensure_ascii=False)
         
         # Create individual product files
-        os.makedirs('data/products', exist_ok=True)
+        # Fix path - check if we're in scripts directory or root
+        if os.path.basename(os.getcwd()) == 'scripts':
+            products_dir = '../data/products'
+        else:
+            products_dir = 'data/products'
+        
+        os.makedirs(products_dir, exist_ok=True)
         product_count = 0
         
         for category_id, products in self.all_products.items():
@@ -909,14 +934,14 @@ class AmazonScraper:
                 site_product = self.convert_to_site_format(product)
                 
                 # Save individual product file
-                product_file = f"data/products/{product['asin'].lower()}.json"
+                product_file = f"{products_dir}/{product['asin'].lower()}.json"
                 with open(product_file, 'w', encoding='utf-8') as f:
                     json.dump(site_product, f, indent=2, ensure_ascii=False)
                 product_count += 1
         
         safe_print(f"[SAVE] Results saved:")
         safe_print(f"  [OK] Main file: {results_file}")
-        safe_print(f"  [OK] Individual products: {product_count} files in data/products/")
+        safe_print(f"  [OK] Individual products: {product_count} files in {products_dir}/")
         
         self.print_summary()
     
@@ -1592,7 +1617,11 @@ class AmazonScraper:
             
             # Save to individual product file
             filename = f"{asin.lower()}.json"
-            filepath = os.path.join('..', 'data', 'products', filename)
+            # Fix path - check if we're in scripts directory or root
+            if os.path.basename(os.getcwd()) == 'scripts':
+                filepath = os.path.join('..', 'data', 'products', filename)
+            else:
+                filepath = os.path.join('data', 'products', filename)
             
             # Create products directory if it doesn't exist
             os.makedirs(os.path.dirname(filepath), exist_ok=True)
@@ -1821,14 +1850,18 @@ if __name__ == "__main__":
                        help='Target country (default: es)')
     parser.add_argument('--test-single', '-t', action='store_true',
                        help='Test mode: scrape products from just one subcategory')
+    parser.add_argument('--speed', '-s', default='normal',
+                       choices=['normal', 'fast', 'turbo'],
+                       help='Speed mode: normal (balanced), fast (faster), turbo (maximum speed)')
     
     args = parser.parse_args()
     
     safe_print("[START] Professional Amazon Product Scraper")
     safe_print("=" * 60)
     safe_print(f"[MARKET] Target country: {args.country.upper()}")
+    safe_print(f"[SPEED] Mode: {args.speed.upper()} (Workers: {8 if args.speed == 'fast' else 12 if args.speed == 'turbo' else 5})")
     
-    scraper = AmazonScraper(market=args.country)
+    scraper = AmazonScraper(market=args.country, speed_mode=args.speed)
     
     if not scraper.categories:
         safe_print("[ERROR] No categories found!")

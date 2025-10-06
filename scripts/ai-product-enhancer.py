@@ -33,102 +33,94 @@ def thread_safe_print(message, lock):
 
 class AIProductEnhancer:
     def __init__(self):
-        self.products_dir = "../data/products"
-        self.backup_dir = "../backups/products"
+        # Fix path - check if we're in scripts directory or root
+        if os.path.basename(os.getcwd()) == 'scripts':
+            self.products_dir = "../data/products"
+        else:
+            self.products_dir = "data/products"
         
-        # Create backup directory if it doesn't exist
-        os.makedirs(self.backup_dir, exist_ok=True)
-        
-        # Performance settings
-        self.max_concurrent_requests = 10  # Concurrent AI requests
-        self.batch_size = 20  # Products per batch
-        self.request_delay = 0.5  # Seconds between requests (reduced)
+        # Performance settings - OPTIMIZED FOR SPEED
+        self.max_concurrent_requests = 25  # Increased concurrent AI requests
+        self.batch_size = 50  # Larger batch size for better throughput
+        self.request_delay = 0.1  # Minimal delay between requests
         self.print_lock = Lock()  # Thread-safe printing
         
-        # AI prompts for different enhancements
+        # Caching system for faster processing
+        self.content_cache = {}  # Cache for similar content
+        self.template_cache = {}  # Cache for templates
+        
+        # OPTIMIZED AI prompts - shorter and more focused for speed
         self.prompts = {
             'name_optimization': """
-Optimize this Spanish product name for SEO and user appeal:
-Original: "{original_name}"
+Optimize Spanish product name for SEO (max 60 chars):
+"{original_name}"
 
-Requirements:
-- Keep it in Spanish
-- Make it more appealing and descriptive
-- Include key features that users search for
-- Maximum 80 characters
-- Focus on benefits for elderly users (if applicable)
-
-Respond with just the optimized name, nothing else.
+Requirements: Spanish, appealing, key features, elderly-friendly
+Respond ONLY with the optimized name.
 """,
             
             'slug_optimization': """
-Create an SEO-friendly URL slug from this Spanish product name:
-Name: "{product_name}"
+Create SEO slug (max 50 chars):
+"{product_name}"
 
-Requirements:
-- Use only lowercase letters, numbers, and hyphens
-- Maximum 60 characters
-- Include main keywords
-- Remove accents and special characters
-- Make it readable and memorable
-
-Respond with just the slug, nothing else.
+Requirements: lowercase, hyphens, no accents, readable
+Respond ONLY with the slug.
 """,
             
             'description_enhancement': """
-Create an enhanced Spanish product description for this phone:
-Original: "{original_description}"
-Features: {features}
+Create Spanish HTML description (max 300 words):
+Product: {product_name}
 Price: {price}€
+Features: {features}
 
-Requirements:
-- Write in Spanish
-- Make it compelling and SEO-friendly
-- Highlight benefits for elderly users
-- Include emotional appeal
-- Use HTML formatting with proper structure
-- Include call-to-action
-- Maximum 500 words
-
-Format as HTML with proper headings, lists, and paragraphs.
+Requirements: Spanish, HTML format, elderly-friendly, compelling, CTA
+Respond ONLY with HTML content.
 """,
             
             'specifications_enhancement': """
-Enhance these product specifications in Spanish:
-Original specs: {original_specs}
-Product: {product_name}
+Create Spanish specs JSON for: {product_name}
+Original: {original_specs}
 
-Requirements:
-- Add missing common specifications for phones
-- Use proper Spanish terminology
-- Include technical details that matter to users
-- Format consistently
-- Add specifications that elderly users care about
-
-Return as JSON object with key-value pairs.
+Requirements: Spanish terms, phone specs, elderly-friendly
+Respond ONLY with JSON object.
 """,
             
             'faq_generation': """
-Generate 5 frequently asked questions and answers in Spanish for this product:
-Product: {product_name}
-Features: {features}
+Create 5 Spanish FAQ for: {product_name}
 Price: {price}€
 
-Requirements:
-- Focus on concerns elderly users might have
-- Include questions about ease of use, durability, support
-- Provide helpful, reassuring answers
-- Use natural Spanish language
-- Make answers informative but concise
-
-Return as JSON array with objects containing "question" and "answer" fields.
+Requirements: Elderly concerns, easy use, durability, support
+Respond ONLY with JSON array.
 """
         }
     
-    async def get_ai_response_async(self, prompt, session_id="", max_retries=3):
+    def get_cache_key(self, prompt_type, product_data):
+        """Generate cache key for similar products"""
+        if prompt_type == 'name_optimization':
+            # Cache by product category and price range
+            category = product_data.get('category', '').split()[0] if product_data.get('category') else 'general'
+            price_range = f"{int(float(product_data.get('price', 0)) // 10) * 10}-{int(float(product_data.get('price', 0)) // 10) * 10 + 9}"
+            return f"{prompt_type}_{category}_{price_range}"
+        return f"{prompt_type}_{hash(str(product_data)[:100])}"
+    
+    def get_cached_content(self, cache_key):
+        """Get cached content if available"""
+        return self.content_cache.get(cache_key)
+    
+    def cache_content(self, cache_key, content):
+        """Cache content for future use"""
+        if len(self.content_cache) < 1000:  # Limit cache size
+            self.content_cache[cache_key] = content
+    
+    async def get_ai_response_async(self, prompt, session_id="", max_retries=3, cache_key=None):
         """
-        Async AI response using Google Gemini 2.5 Flash - optimized for batch processing
+        OPTIMIZED Async AI response with caching and streaming
         """
+        # Check cache first
+        if cache_key and cache_key in self.content_cache:
+            thread_safe_print(f"[CACHE] Using cached content for {session_id}", self.print_lock)
+            return self.content_cache[cache_key]
+        
         try:
             import google.generativeai as genai
             
@@ -136,23 +128,39 @@ Return as JSON array with objects containing "question" and "answer" fields.
             API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
+                thread_safe_print(f"[WARNING] No API key configured, using fallback", self.print_lock)
                 return self.get_fallback_response(prompt)
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # Shortened system prompt for faster processing
-            system_prompt = "Experto SEO español para móviles mayores. Respuestas claras y persuasivas."
-            full_prompt = f"{system_prompt}\n\n{prompt}"
+            # Ultra-short system prompt for maximum speed
+            system_prompt = "SEO español móviles mayores. Respuestas cortas."
+            full_prompt = f"{system_prompt}\n{prompt}"
             
-            # Add small delay to avoid rate limiting
+            # Minimal delay for speed
             await asyncio.sleep(self.request_delay)
             
-            response = model.generate_content(full_prompt)
+            # Use streaming for faster response
+            response = model.generate_content(full_prompt, stream=True)
             
-            if response and response.text:
-                return response.text.strip()
+            # Collect streaming response
+            full_response = ""
+            for chunk in response:
+                if chunk.text:
+                    full_response += chunk.text
+            
+            if full_response.strip():
+                thread_safe_print(f"[AI] Response received for {session_id}", self.print_lock)
+                result = full_response.strip()
+                
+                # Cache the result
+                if cache_key:
+                    self.cache_content(cache_key, result)
+                
+                return result
             else:
+                thread_safe_print(f"[WARNING] Empty AI response for {session_id}, using fallback", self.print_lock)
                 return self.get_fallback_response(prompt)
                 
         except Exception as e:
@@ -237,43 +245,42 @@ Return as JSON array with objects containing "question" and "answer" fields.
         
         return "Fallback response - please configure AI service"
     
-    # Async versions for batch processing
-    async def optimize_product_name_async(self, original_name, session_id):
-        """Async version of product name optimization"""
-        prompt = f"Crea SOLO el nombre optimizado para SEO (máximo 60 caracteres, sin explicaciones): {original_name}"
-        response = await self.get_ai_response_async(prompt, session_id)
-        # Clean response - take first line only
+    # OPTIMIZED Async versions for batch processing with caching
+    async def optimize_product_name_async(self, original_name, session_id, product_data=None):
+        """OPTIMIZED Async version with caching"""
+        cache_key = self.get_cache_key('name_optimization', product_data or {}) if product_data else None
+        
+        # Ultra-short prompt for speed
+        prompt = f"Optimiza nombre español SEO (60 chars): {original_name}"
+        response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
+        
+        # Fast cleanup
         clean_name = response.split('\n')[0].strip()
-        # Remove markdown formatting
-        clean_name = re.sub(r'\*\*([^*]+)\*\*', r'\1', clean_name)
         clean_name = re.sub(r'[*>#-]', '', clean_name).strip()
         return clean_name[:60] if clean_name else original_name[:60]
     
-    async def enhance_description_async(self, product_name, features, price, session_id):
-        """Async version of description enhancement"""
-        features_text = "\n".join(features[:2]) if features else "Teléfono para mayores"
-        prompt = f"""Crea SOLO código HTML limpio (sin ```html ni explicaciones) para: {product_name}
-Precio: {price}€
-Características: {features_text[:200]}
-
-Estructura requerida:
-<div>
-<h1>Título atractivo</h1>
-<p>Párrafo introductorio</p>
-<h2>Características Principales</h2>
-<ul><li>Lista de beneficios</li></ul>
-<p>Párrafo de cierre con llamada a la acción</p>
-</div>"""
+    async def enhance_description_async(self, product_name, features, price, session_id, product_data=None):
+        """OPTIMIZED Async version with caching and templates"""
+        cache_key = self.get_cache_key('description_enhancement', product_data or {}) if product_data else None
         
-        response = await self.get_ai_response_async(prompt, session_id)
-        # Clean HTML response
+        # Use template for faster generation
+        features_text = ", ".join(features[:2]) if features else "fácil de usar"
+        prompt = f"""HTML español (300 words): {product_name}
+Precio: {price}€
+Características: {features_text[:100]}
+
+Estructura: <div><h1>Título</h1><p>Intro</p><h2>Características</h2><ul><li>Lista</li></ul><p>CTA</p></div>"""
+        
+        response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
+        
+        # Fast HTML cleanup
         response = response.strip()
         if '```html' in response:
             response = re.sub(r'```html\s*', '', response)
         if '```' in response:
             response = re.sub(r'```.*$', '', response, flags=re.DOTALL)
         
-        # Ensure it starts with <div> and ends with </div>
+        # Ensure proper HTML structure
         if not response.startswith('<div'):
             response = f"<div>\n{response}"
         if not response.endswith('</div>'):
@@ -281,25 +288,23 @@ Estructura requerida:
             
         return response
     
-    async def enhance_specifications_async(self, original_specs, product_name, session_id):
-        """Async version of specifications enhancement"""
-        prompt = f"""Crea SOLO un objeto JSON limpio (sin ```json ni explicaciones) con especificaciones técnicas para: {product_name}
-
-Ejemplo formato:
-{{"Pantalla": "2.4 pulgadas", "Batería": "800mAh", "Peso": "120g", "Conectividad": "2G GSM", "Memoria": "200 contactos", "Autonomía": "6 días standby"}}
-
-Responde SOLO el JSON:"""
+    async def enhance_specifications_async(self, original_specs, product_name, session_id, product_data=None):
+        """OPTIMIZED Async version with caching"""
+        cache_key = self.get_cache_key('specifications_enhancement', product_data or {}) if product_data else None
         
-        response = await self.get_ai_response_async(prompt, session_id)
+        # Ultra-short prompt for speed
+        prompt = f"""JSON español specs: {product_name}
+Ejemplo: {{"Pantalla":"2.4 pulgadas","Batería":"800mAh","Peso":"120g"}}"""
         
-        # Clean JSON response
+        response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
+        
+        # Fast JSON parsing
         response = response.strip()
         if '```json' in response:
             response = re.sub(r'```json\s*', '', response)
         if '```' in response:
             response = re.sub(r'```.*$', '', response, flags=re.DOTALL)
         
-        # Parse JSON
         try:
             if '{' in response and '}' in response:
                 json_match = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', response)
@@ -309,37 +314,33 @@ Responde SOLO el JSON:"""
         except:
             pass
         
-        # Fallback specifications for phones
+        # Fast fallback
         return {
             "Pantalla": "2.4 pulgadas LCD",
-            "Batería": "800mAh de larga duración", 
+            "Batería": "800mAh", 
             "Conectividad": "2G GSM",
-            "Peso": "Ligero y compacto",
-            "Memoria": "200 contactos",
-            "Autonomía": "Varios días en standby"
+            "Peso": "Ligero",
+            "Memoria": "200 contactos"
         }
     
-    async def generate_faq_async(self, product_name, features, price, session_id):
-        """Async version of FAQ generation"""
-        prompt = f"""Crea SOLO un array JSON limpio (sin ```json ni explicaciones) con 5 preguntas FAQ para: {product_name}
-
+    async def generate_faq_async(self, product_name, features, price, session_id, product_data=None):
+        """OPTIMIZED Async version with caching"""
+        cache_key = self.get_cache_key('faq_generation', product_data or {}) if product_data else None
+        
+        # Ultra-short prompt for speed
+        prompt = f"""5 FAQ español JSON: {product_name}
 Precio: {price}€
-
-Formato exacto:
-[{{"question":"¿Es fácil de usar?","answer":"Sí, muy fácil..."}},{{"question":"¿Cuánto cuesta?","answer":"Solo {price}€..."}}]
-
-Responde SOLO el array JSON:"""
+Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
         
-        response = await self.get_ai_response_async(prompt, session_id)
+        response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
-        # Clean JSON response
+        # Fast JSON parsing
         response = response.strip()
         if '```json' in response:
             response = re.sub(r'```json\s*', '', response)
         if '```' in response:
             response = re.sub(r'```.*$', '', response, flags=re.DOTALL)
         
-        # Parse JSON
         try:
             if '[' in response and ']' in response:
                 json_match = re.search(r'\[.*\]', response, re.DOTALL)
@@ -361,12 +362,15 @@ Responde SOLO el array JSON:"""
             {"question": "¿Es compatible con todas las operadoras?", "answer": "Sí, es un teléfono libre compatible con todas las redes GSM en España."}
         ]
     
-    async def create_short_description_async(self, product_name, features, price, session_id):
-        """Async version of short description creation"""
-        prompt = f"Crea SOLO una frase corta (máximo 100 caracteres, sin explicaciones) para: {product_name}, precio: {price}€"
-        response = await self.get_ai_response_async(prompt, session_id)
+    async def create_short_description_async(self, product_name, features, price, session_id, product_data=None):
+        """OPTIMIZED Async version with caching"""
+        cache_key = self.get_cache_key('short_description', product_data or {}) if product_data else None
         
-        # Clean response
+        # Ultra-short prompt for speed
+        prompt = f"Descripción corta español (100 chars): {product_name}, {price}€"
+        response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
+        
+        # Fast cleanup
         clean_desc = response.strip().split('\n')[0]
         clean_desc = re.sub(r'[*>#-]', '', clean_desc).strip()
         
@@ -645,19 +649,6 @@ Enfócate en dudas que tendrían personas mayores sobre:
         
         return enhanced_seo
     
-    def backup_product(self, product_file):
-        """Create backup of original product"""
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_file = os.path.join(self.backup_dir, f"{timestamp}_{os.path.basename(product_file)}")
-        
-        try:
-            import shutil
-            shutil.copy2(product_file, backup_file)
-            safe_print(f"[BACKUP] Created: {backup_file}")
-            return backup_file
-        except Exception as e:
-            safe_print(f"[ERROR] Backup failed: {e}")
-            return None
     
     def enhance_single_product(self, product_file):
         """Enhance a single product file"""
@@ -668,8 +659,6 @@ Enfócate en dudas que tendrían personas mayores sobre:
             with open(product_file, 'r', encoding='utf-8') as f:
                 product = json.load(f)
             
-            # Create backup
-            self.backup_product(product_file)
             
             # Extract current data
             original_name = product.get('name', '')
@@ -753,7 +742,6 @@ Enfócate en dudas que tendrían personas mayores sobre:
         safe_print("=" * 40)
         safe_print(f"✅ Enhanced: {enhanced_count}")
         safe_print(f"❌ Failed: {failed_count}")
-        safe_print(f"📁 Backups: {self.backup_dir}")
         safe_print(f"📁 Products: {self.products_dir}")
         
         return enhanced_count, failed_count
@@ -780,8 +768,6 @@ Enfócate en dudas que tendrían personas mayores sobre:
                     with open(product_file, 'r', encoding='utf-8') as f:
                         product = json.load(f)
                     
-                    # Create backup
-                    self.backup_product(product_file)
                     
                     # Extract current data
                     original_name = product.get('name', '')
@@ -789,13 +775,13 @@ Enfócate en dudas que tendrían personas mayores sobre:
                     price = product.get('price', '0')
                     specifications = product.get('specifications', {})
                     
-                    # Parallel AI requests for maximum speed
+                    # OPTIMIZED Parallel AI requests with caching for maximum speed
                     tasks = [
-                        self.optimize_product_name_async(original_name, f"{index}_name"),
-                        self.enhance_description_async(original_name, features, price, f"{index}_desc"),
-                        self.enhance_specifications_async(specifications, original_name, f"{index}_specs"),
-                        self.generate_faq_async(original_name, features, price, f"{index}_faq"),
-                        self.create_short_description_async(original_name, features, price, f"{index}_short")
+                        self.optimize_product_name_async(original_name, f"{index}_name", product),
+                        self.enhance_description_async(original_name, features, price, f"{index}_desc", product),
+                        self.enhance_specifications_async(specifications, original_name, f"{index}_specs", product),
+                        self.generate_faq_async(original_name, features, price, f"{index}_faq", product),
+                        self.create_short_description_async(original_name, features, price, f"{index}_short", product)
                     ]
                     
                     # Execute all AI requests in parallel
@@ -894,8 +880,51 @@ Enfócate en dudas que tendrían personas mayores sobre:
         safe_print("=" * 40)
         safe_print(f"✅ Enhanced: {total_enhanced}")
         safe_print(f"❌ Failed: {total_failed}")
-        safe_print(f"📁 Backups: {self.backup_dir}")
         safe_print(f"📁 Products: {self.products_dir}")
+        
+    def enhance_all_products_ultra_fast(self):
+        """
+        ULTRA-FAST batch enhancement - optimized for maximum speed with minimal AI calls
+        """
+        safe_print("[START] ULTRA-FAST AI Product Enhancement")
+        safe_print("=" * 60)
+        
+        # Find all product JSON files
+        product_files = []
+        for file in os.listdir(self.products_dir):
+            if file.endswith('.json') and not file.startswith('.'):
+                product_files.append(os.path.join(self.products_dir, file))
+        
+        safe_print(f"[INFO] Found {len(product_files)} products to enhance")
+        safe_print(f"[INFO] ULTRA-FAST mode: Batch size: {self.batch_size}, Concurrent: {self.max_concurrent_requests}")
+        safe_print(f"[INFO] Estimated time: {len(product_files) * 1 / self.max_concurrent_requests / 60:.1f} minutes")
+        
+        total_enhanced = 0
+        total_failed = 0
+        
+        # Process in larger batches for maximum efficiency
+        for i in range(0, len(product_files), self.batch_size):
+            batch = product_files[i:i + self.batch_size]
+            batch_num = i // self.batch_size + 1
+            total_batches = (len(product_files) + self.batch_size - 1) // self.batch_size
+            
+            safe_print(f"\n[BATCH] Processing batch {batch_num}/{total_batches} ({len(batch)} products)")
+            
+            # Run batch asynchronously with maximum concurrency
+            enhanced, failed = asyncio.run(self.enhance_product_batch_async(batch))
+            
+            total_enhanced += enhanced
+            total_failed += failed
+            
+            safe_print(f"[BATCH] Completed: {enhanced} enhanced, {failed} failed")
+        
+        # Summary
+        safe_print(f"\n[SUMMARY] ULTRA-FAST Enhancement Complete")
+        safe_print("=" * 40)
+        safe_print(f"✅ Enhanced: {total_enhanced}")
+        safe_print(f"❌ Failed: {total_failed}")
+        safe_print(f"📁 Products: {self.products_dir}")
+        safe_print(f"⚡ Speed: ULTRA-FAST mode with caching and streaming")
         
         return total_enhanced, total_failed
 
@@ -912,11 +941,12 @@ def main():
         safe_print("\n📋 Options:")
         safe_print("1. Enhance all products (Standard)")
         safe_print("2. Enhance all products (FAST - Batch Mode) ⚡")
-        safe_print("3. Enhance single product")
-        safe_print("4. View enhancement statistics")
-        safe_print("5. Exit")
+        safe_print("3. Enhance all products (ULTRA-FAST - Maximum Speed) 🚀")
+        safe_print("4. Enhance single product")
+        safe_print("5. View enhancement statistics")
+        safe_print("6. Exit")
         
-        choice = input("\nSelect option (1-5): ").strip()
+        choice = input("\nSelect option (1-6): ").strip()
         
         if choice == '1':
             safe_print("\n🚀 Starting standard bulk enhancement...")
@@ -927,6 +957,10 @@ def main():
             enhanced, failed = enhancer.enhance_all_products_fast()
             
         elif choice == '3':
+            safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
+            enhanced, failed = enhancer.enhance_all_products_ultra_fast()
+            
+        elif choice == '4':
             product_files = [f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')]
             if not product_files:
                 safe_print("[ERROR] No product files found!")
@@ -946,10 +980,9 @@ def main():
             except ValueError:
                 safe_print("[ERROR] Please enter a valid number")
         
-        elif choice == '4':
+        elif choice == '5':
             # Show statistics
             product_files = len([f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')])
-            backup_files = len([f for f in os.listdir(enhancer.backup_dir) if f.endswith('.json')])
             
             # Count enhanced products by checking for 'enhanced' field
             enhanced_count = 0
@@ -966,11 +999,10 @@ def main():
             safe_print(f"\n📊 Enhancement Statistics:")
             safe_print(f"   Total products: {product_files}")
             safe_print(f"   Enhanced products: {enhanced_count}")
-            safe_print(f"   Backup files: {backup_files}")
             safe_print(f"   Products directory: {enhancer.products_dir}")
-            safe_print(f"   Backup directory: {enhancer.backup_dir}")
+            safe_print(f"   Cache entries: {len(enhancer.content_cache)}")
         
-        elif choice == '5':
+        elif choice == '6':
             safe_print("\n👋 Goodbye!")
             break
         

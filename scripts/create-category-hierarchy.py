@@ -237,6 +237,10 @@ def main():
     
     # Save new structure
     print(f"\n💾 Saving hierarchy to {output_file}...")
+    
+    # Ensure output directory exists
+    os.makedirs(os.path.dirname(output_file), exist_ok=True)
+    
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(categories_json, f, indent=2, ensure_ascii=False)
@@ -244,9 +248,15 @@ def main():
         
         # Also save a copy in locales directory for backward compatibility
         locales_output = "../locales/categories.json"
-        with open(locales_output, 'w', encoding='utf-8') as f:
-            json.dump(categories_json, f, indent=2, ensure_ascii=False)
-        print(f"✅ Copy saved to {locales_output}")
+        try:
+            # Ensure locales directory exists
+            os.makedirs(os.path.dirname(locales_output), exist_ok=True)
+            with open(locales_output, 'w', encoding='utf-8') as f:
+                json.dump(categories_json, f, indent=2, ensure_ascii=False)
+            print(f"✅ Copy saved to {locales_output}")
+        except Exception as e:
+            print(f"⚠️ Could not save copy to locales: {e}")
+            print("   (This is not critical - main file saved successfully)")
         
     except Exception as e:
         print(f"❌ Failed to save hierarchy: {e}")

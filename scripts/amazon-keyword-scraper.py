@@ -206,6 +206,48 @@ class AdvancedAmazonKeywordScraper:
         
         return search_patterns
     
+    def generate_enhanced_search_patterns(self):
+        """Generate enhanced search patterns for comprehensive keyword discovery"""
+        search_patterns = []
+        
+        # Single letters (a-z)
+        for letter in string.ascii_lowercase:
+            search_patterns.append(f"{self.base_keyword} {letter}")
+        
+        # Two-letter combinations (comprehensive approach)
+        vowels = ['a', 'e', 'i', 'o', 'u']
+        common_consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v']
+        
+        # Vowel + consonant combinations
+        for vowel in vowels:
+            for consonant in common_consonants:
+                search_patterns.append(f"{self.base_keyword} {vowel}{consonant}")
+        
+        # Consonant + vowel combinations
+        for consonant in common_consonants:
+            for vowel in vowels:
+                search_patterns.append(f"{self.base_keyword} {consonant}{vowel}")
+        
+        # Common consonant + consonant combinations
+        consonant_pairs = [
+            # Common blends with 'l'
+            'bl', 'cl', 'fl', 'gl', 'pl', 'sl',
+            # Common blends with 'r'  
+            'br', 'cr', 'dr', 'fr', 'gr', 'pr', 'tr',
+            # 's' combinations
+            'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'st', 'sw',
+            # Other common pairs
+            'ch', 'gh', 'ph', 'th', 'wh', 'wr',
+            # Additional useful combinations
+            'dw', 'gn', 'kn', 'mb', 'mp', 'nd', 'ng', 'nk', 'nt',
+            'pt', 'qu', 'rh', 'rn', 'rt', 'sch', 'tch', 'tw'
+        ]
+        
+        for pair in consonant_pairs:
+            search_patterns.append(f"{self.base_keyword} {pair}")
+        
+        return search_patterns
+    
     def filter_to_two_words(self, keywords):
         """Filter keywords to keep only 2-word combinations (main categories)"""
         two_word_keywords = []
@@ -610,7 +652,7 @@ if __name__ == "__main__":
         keywords = scraper.scrape_with_letters_parallel(max_workers=args.workers)
     else:
         # Sequential mode - most stable but slowest
-    keywords = scraper.scrape_with_letters()
+        keywords = scraper.scrape_with_letters()
     
     if keywords:
         # Save results
@@ -618,7 +660,7 @@ if __name__ == "__main__":
         scraper.save_keywords(keywords, args.suffix)
         
         # Save structured keywords for AI mapper
-        output_dir = "../data" if not args.suffix else args.suffix
+        output_dir = "data" if not args.suffix else args.suffix
         structure_data = scraper.save_structured_keywords(keywords, output_dir)
         
         safe_print(f"\n[SUCCESS] Scraping completed! Found {len(keywords)} unique keywords.")

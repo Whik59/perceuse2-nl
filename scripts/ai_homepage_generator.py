@@ -46,7 +46,7 @@ class AIHomepageGenerator:
                 return self.get_fallback_response(prompt)
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-1.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
             # System prompt for Spanish mobile phone expert
             system_prompt = """Eres un experto en marketing digital y copywriting para teléfonos móviles dirigidos a personas mayores en España. 
