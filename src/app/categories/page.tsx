@@ -24,12 +24,12 @@ import {
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Friteuse Expert'} - Collections | Friteuses Premium`,
-  description: 'Découvrez notre gamme complète de friteuses premium. Collections air fryer, friteuse huile, et bien plus. Qualité exceptionnelle et livraison Amazon.',
-  keywords: ['friteuses', 'collections', 'air fryer', 'friteuse huile', 'ninja', 'philips', 'qualité premium'],
+  title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Móviles Senior'} - Categorías | Teléfonos Móviles Premium`,
+  description: 'Descubre nuestra amplia gama de teléfonos móviles premium. Categorías especializadas para personas mayores. Calidad excepcional y envío Amazon.',
+  keywords: ['teléfonos móviles', 'categorías', 'teléfonos para mayores', 'móviles senior', 'smartphones', 'calidad premium'],
   openGraph: {
-    title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Friteuse Expert'} - Collections`,
-    description: 'Découvrez notre gamme complète de friteuses premium avec livraison Amazon.',
+    title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Móviles Senior'} - Categorías`,
+    description: 'Descubre nuestra amplia gama de teléfonos móviles premium con envío Amazon.',
     type: 'website',
   }
 };

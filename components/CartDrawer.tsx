@@ -93,7 +93,7 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
         {/* Header */}
         <div className="flex items-center justify-between p-6 border-b border-gray-200">
           <h2 className="text-lg font-semibold text-gray-900">
-            Ma sélection ({cartItemCount})
+            {getString('cart.title')} ({cartItemCount})
           </h2>
           <button
             onClick={onClose}
@@ -109,10 +109,10 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
             // Empty State
             <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
               <ShoppingBag className="w-16 h-16 text-gray-300 mb-4" />
-              <h3 className="text-lg font-medium text-gray-900 mb-2">Votre sélection est vide</h3>
-              <p className="text-gray-600 mb-6">Ajoutez des friteuses à votre sélection</p>
+              <h3 className="text-lg font-medium text-gray-900 mb-2">{getString('cart.empty.title')}</h3>
+              <p className="text-gray-600 mb-6">{getString('cart.empty.description')}</p>
               <Button onClick={onClose} className="bg-gray-900 text-white hover:bg-gray-800">
-                Découvrir nos friteuses
+                {getString('cart.empty.button')}
               </Button>
             </div>
           ) : (
@@ -204,13 +204,13 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
               {/* Footer */}
               <div className="border-t border-gray-200 p-6 space-y-4">
                 <div className="flex justify-between text-lg font-semibold">
-                  <span>Total estimé</span>
+                  <span>{getString('cart.total')}</span>
                   <span>{formatCurrency(cart.subtotal)}</span>
                 </div>
 
                 <div className="bg-orange-50 border border-orange-200 rounded-lg p-3">
                   <p className="text-xs text-orange-700">
-                    Prix final et frais de livraison sur Amazon
+                    {getString('cart.amazonNotice')}
                   </p>
                 </div>
 
@@ -218,13 +218,13 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
                   onClick={handleBuyOnAmazon}
                   className="w-full bg-orange-600 text-white hover:bg-orange-700 flex items-center justify-center space-x-2"
                 >
-                  <span>Acheter sur Amazon</span>
+                  <span>{getString('cart.buyOnAmazon')}</span>
                   <ArrowRight className="w-4 h-4" />
                 </Button>
 
                 <Link href="/cart" onClick={onClose}>
                   <Button variant="outline" className="w-full">
-                    Voir ma sélection complète
+                    {getString('cart.viewFullSelection')}
                   </Button>
                 </Link>
               </div>

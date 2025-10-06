@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ShoppingCart, X, Maximize2 } from 'lucide-react';
 import { CartItem } from '../lib/types';
+import { getString } from '../lib/utils';
 
 interface FloatingButtonsProps {
   showVideoButton?: boolean;
@@ -122,7 +123,7 @@ const FloatingButtons: React.FC<FloatingButtonsProps> = ({
 
             {/* Tooltip */}
             <div className="absolute left-full ml-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap shadow-xl">
-              Voir la vidéo
+              {getString('floatingButtons.videoTooltip')}
               <div className="absolute right-full top-1/2 -translate-y-1/2 border-4 border-transparent border-r-gray-900"></div>
             </div>
           </div>
@@ -135,7 +136,7 @@ const FloatingButtons: React.FC<FloatingButtonsProps> = ({
           <button
             onClick={handleCartClick}
             className="bg-gray-900 hover:bg-gray-800 text-white p-4 rounded-full shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-105"
-            aria-label="Voir le panier"
+            aria-label={getString('floatingButtons.cartAriaLabel')}
           >
             <ShoppingCart className="w-6 h-6" />
             {cartItemCount > 0 && (
@@ -147,7 +148,7 @@ const FloatingButtons: React.FC<FloatingButtonsProps> = ({
 
           {/* Tooltip */}
           <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap shadow-xl">
-            Panier ({cartItemCount})
+            {getString('floatingButtons.cartTooltip')} ({cartItemCount})
             <div className="absolute left-full top-1/2 -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
           </div>
         </div>
@@ -171,7 +172,7 @@ const FloatingButtons: React.FC<FloatingButtonsProps> = ({
             <button
               onClick={() => setIsModalOpen(false)}
               className="absolute top-4 right-4 bg-black/60 hover:bg-black/80 backdrop-blur-sm text-white p-2 rounded-full transition-all duration-300 hover:scale-105"
-              aria-label="Fermer la vidéo"
+              aria-label={getString('floatingButtons.closeVideoAriaLabel')}
             >
               <X className="w-4 h-4" />
             </button>

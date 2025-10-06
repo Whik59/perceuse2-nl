@@ -59,19 +59,19 @@ const WhyChooseUs: React.FC = () => {
       usGood: true
     },
     {
-      feature: 'Livraison',
+      feature: getString('homepage.whyChoose.comparison.fastShipping'),
       us: getString('homepage.whyChoose.comparison.fastShipping'),
       others: getString('homepage.whyChoose.comparison.slowShipping'),
       usGood: true
     },
     {
-      feature: 'Garantie',
+      feature: getString('homepage.whyChoose.comparison.warranty'),
       us: getString('homepage.whyChoose.comparison.warranty'),
       others: getString('homepage.whyChoose.comparison.limitedWarranty'),
       usGood: true
     },
     {
-      feature: 'Support',
+      feature: getString('homepage.whyChoose.comparison.support'),
       us: getString('homepage.whyChoose.comparison.support'),
       others: getString('homepage.whyChoose.comparison.basicSupport'),
       usGood: true
@@ -91,7 +91,7 @@ const WhyChooseUs: React.FC = () => {
         <div className="text-center mb-20 lg:mb-24">
           <div className="inline-flex items-center bg-gradient-to-r from-white via-slate-50 to-white backdrop-blur-sm rounded-2xl px-8 py-4 shadow-xl border border-slate-200/50 mb-8 hover:shadow-2xl transition-all duration-300">
             <Sparkles className="w-5 h-5 text-slate-600 mr-3" />
-            <span className="text-sm font-bold text-slate-800 tracking-wider uppercase">Avantages Exclusifs</span>
+            <span className="text-sm font-bold text-slate-800 tracking-wider uppercase">{getString('homepage.whyChoose.advantage1.title')}</span>
           </div>
           <h2 className="text-4xl lg:text-6xl font-extralight text-slate-900 mb-8 tracking-tighter leading-tight">
             {getString('homepage.whyChoose.title')}
@@ -140,7 +140,7 @@ const WhyChooseUs: React.FC = () => {
                 {getString('homepage.whyChoose.comparison.title')}
               </h3>
               <p className="text-slate-300 max-w-2xl mx-auto text-lg font-light leading-relaxed">
-                Découvrez pourquoi Ma Peluche se démarque de la concurrence
+                {getString('homepage.whyChoose.comparison.subtitle')}
               </p>
             </div>
           </div>
@@ -151,7 +151,7 @@ const WhyChooseUs: React.FC = () => {
                 <thead>
                   <tr className="border-b border-slate-200/60">
                     <th className="text-left py-6 px-8 text-xl font-semibold text-slate-900 tracking-wide">
-                      Critères
+                      {getString('homepage.whyChoose.comparison.criteria')}
                     </th>
                     <th className="text-center py-6 px-8">
                       <div className="flex items-center justify-center gap-4">
@@ -209,7 +209,7 @@ const WhyChooseUs: React.FC = () => {
         <div className="text-center mt-20">
           <div className="inline-flex items-center gap-3 bg-gradient-to-r from-slate-800 via-slate-700 to-slate-900 text-white px-10 py-5 rounded-2xl text-lg font-semibold shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 border border-slate-600/20 backdrop-blur-sm">
             <Heart className="w-6 h-6 fill-current text-rose-400" />
-            <span className="tracking-wide">Rejoignez nos 15 000+ clients satisfaits</span>
+            <span className="tracking-wide">{getString('homepage.whyChoose.cta')}</span>
           </div>
         </div>
       </div>

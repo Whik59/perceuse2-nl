@@ -94,13 +94,13 @@ const CartPage: React.FC = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="text-center">
               <ShoppingBag className="mx-auto h-24 w-24 text-gray-300 mb-8" />
-              <h1 className="text-3xl font-light text-gray-900 mb-4">Votre panier est vide</h1>
+              <h1 className="text-3xl font-light text-gray-900 mb-4">{getString('cart.empty.title')}</h1>
               <p className="text-gray-600 mb-8 max-w-md mx-auto">
-                Découvrez notre sélection de friteuses et trouvez le modèle parfait pour vous.
+                {getString('cart.empty.description')}
               </p>
               <Link href="/">
                 <Button size="lg" className="bg-gray-900 text-white hover:bg-gray-800">
-                  Découvrir nos friteuses
+                  {getString('cart.empty.button')}
                 </Button>
               </Link>
             </div>
@@ -115,8 +115,8 @@ const CartPage: React.FC = () => {
       <div className="min-h-screen bg-gray-50 pt-24">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="mb-8">
-            <h1 className="text-3xl font-light text-gray-900 mb-2">Votre sélection</h1>
-            <p className="text-gray-600">Vos friteuses sélectionnées - Achetez directement sur Amazon</p>
+            <h1 className="text-3xl font-light text-gray-900 mb-2">{getString('cart.pageTitle')}</h1>
+            <p className="text-gray-600">{getString('cart.pageSubtitle')}</p>
           </div>
 
           <div className="lg:grid lg:grid-cols-12 lg:gap-12">
@@ -212,7 +212,7 @@ const CartPage: React.FC = () => {
                     onClick={handleClearCart}
                     className="text-red-500 hover:text-red-700 text-sm font-medium transition-colors"
                       >
-                    Vider le panier
+                    {getString('cart.clearCart')}
                       </button>
                 </div>
                     </div>
@@ -221,22 +221,22 @@ const CartPage: React.FC = () => {
             {/* Summary Sidebar */}
             <div className="lg:col-span-4 mt-8 lg:mt-0">
               <div className="bg-white rounded-2xl shadow-sm p-8 sticky top-8">
-                <h2 className="text-xl font-semibold text-gray-900 mb-6">Résumé</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-6">{getString('cart.summary')}</h2>
                 
                 <div className="space-y-4 mb-6">
                     <div className="flex justify-between">
-                    <span className="text-gray-600">Sous-total ({cart.items.reduce((sum, item) => sum + item.quantity, 0)} articles)</span>
+                    <span className="text-gray-600">{getString('cart.subtotal')} ({cart.items.reduce((sum, item) => sum + item.quantity, 0)} {getString('cart.items')})</span>
                     <span className="font-semibold">{formatCurrency(cart.subtotal)}</span>
                   </div>
                 </div>
 
                 <div className="border-t pt-4 mb-6">
                   <div className="flex justify-between text-lg font-semibold">
-                    <span>Total estimé</span>
+                    <span>{getString('cart.total')}</span>
                     <span>{formatCurrency(cart.subtotal)}</span>
                   </div>
                   <p className="text-xs text-gray-500 mt-2">
-                    Prix final et frais de livraison sur Amazon
+                    {getString('cart.amazonNotice')}
                   </p>
                   </div>
 
@@ -244,10 +244,10 @@ const CartPage: React.FC = () => {
                 <div className="bg-orange-50 border border-orange-200 rounded-lg p-4 mb-6">
                   <div className="flex items-center space-x-2 mb-2">
                     <Gift className="w-4 h-4 text-orange-600" />
-                    <span className="text-sm font-medium text-orange-800">Achat sur Amazon</span>
+                    <span className="text-sm font-medium text-orange-800">{getString('cart.amazonPartner')}</span>
                   </div>
                   <p className="text-xs text-orange-700">
-                    En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.
+                    {getString('cart.amazonPartnerText')}
                   </p>
                 </div>
 
@@ -257,14 +257,14 @@ const CartPage: React.FC = () => {
                     size="lg" 
                   className="w-full bg-orange-600 text-white hover:bg-orange-700 flex items-center justify-center space-x-2 mb-4"
                   >
-                  <span>Acheter sur Amazon</span>
+                  <span>{getString('cart.buyOnAmazon')}</span>
                     <ArrowRight className="w-4 h-4" />
                   </Button>
 
                 <div className="mt-4">
                   <Link href="/">
                     <Button variant="outline" size="lg" className="w-full">
-                      Continuer les achats
+                      {getString('cart.continueShopping')}
                     </Button>
                   </Link>
                 </div>

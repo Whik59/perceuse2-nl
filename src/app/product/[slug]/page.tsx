@@ -52,6 +52,7 @@ const ProductDetailPage: React.FC = () => {
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
   const [activeTab, setActiveTab] = useState('description');
   const [currentCategory, setCurrentCategory] = useState<Category | null>(null);
+  const [countdown, setCountdown] = useState({ minutes: 10, seconds: 0 });
 
   // SEO and conversion hooks
   useEffect(() => {
@@ -73,7 +74,18 @@ const ProductDetailPage: React.FC = () => {
   // Countdown timer for urgency
   useEffect(() => {
     const timer = setInterval(() => {
-      // This effect is no longer needed as timeLeft state is removed
+      setCountdown(prev => {
+        if (prev.minutes === 0 && prev.seconds === 0) {
+          // Reset to 10 minutes when timer reaches 0
+          return { minutes: 10, seconds: 0 };
+        }
+        
+        if (prev.seconds === 0) {
+          return { minutes: prev.minutes - 1, seconds: 59 };
+        }
+        
+        return { minutes: prev.minutes, seconds: prev.seconds - 1 };
+      });
     }, 1000);
 
     return () => clearInterval(timer);
@@ -252,7 +264,7 @@ const ProductDetailPage: React.FC = () => {
       
     } catch (error) {
       console.error('Error redirecting to Amazon:', error);
-      alert('Erreur lors de la redirection vers Amazon');
+      alert(getString('errors.amazonRedirectError'));
     } finally {
       setIsAddingToCart(false);
     }
@@ -288,12 +300,12 @@ const ProductDetailPage: React.FC = () => {
       } catch {
         // Fallback to copy to clipboard
         navigator.clipboard.writeText(window.location.href);
-        alert('Lien copié !');
+        alert(getString('common.linkCopied'));
       }
     } else {
       // Fallback for browsers without native sharing
       navigator.clipboard.writeText(window.location.href);
-      alert('Lien copié !');
+      alert(getString('common.linkCopied'));
     }
   };
 
@@ -309,7 +321,7 @@ const ProductDetailPage: React.FC = () => {
     return (
       <>
         <Head>
-          <title>Chargement... | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
+          <title>{getString('product.loading')} | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
         </Head>
         <Layout
           categories={categories}
@@ -338,7 +350,7 @@ const ProductDetailPage: React.FC = () => {
     return (
       <>
         <Head>
-          <title>Produit introuvable | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
+          <title>{getString('product.notFound')} | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
           <meta name="robots" content="noindex" />
         </Head>
         <Layout
@@ -349,8 +361,8 @@ const ProductDetailPage: React.FC = () => {
         >
           <div className="max-w-7xl mx-auto px-6 lg:px-8 py-12">
             <div className="text-center">
-              <h1 className="text-2xl font-light text-neutral-900 mb-6">{getString('errors.productNotFound')}</h1>
-              <p className="text-neutral-600 mb-8">{getString('errors.productNotFound')}</p>
+              <h1 className="text-2xl font-light text-neutral-900 mb-6">{getString('product.notFound')}</h1>
+              <p className="text-neutral-600 mb-8">{getString('product.notFoundDescription')}</p>
               <Link href="/">
                 <Button variant="outline" className="border-neutral-200 text-neutral-800 hover:bg-neutral-50">
                   {getString('navigation.home')}
@@ -375,7 +387,7 @@ const ProductDetailPage: React.FC = () => {
     longDescription?: string;
   }; // Cast to access actual JSON properties
   const productTitle = product.title || productData.productNameCanonical || 'Product';
-  const productDescription = product.shortDescription || `Découvrez ${productTitle} dans notre collection`;
+  const productDescription = product.shortDescription || `Descubre ${productTitle} en nuestra colección`;
   const productLongDescription = product.longDescription || productDescription;
   const productFeatures = product.features || [];
   const productSEO = product.seo || {
@@ -489,13 +501,13 @@ const ProductDetailPage: React.FC = () => {
                   {viewersCount > 0 && (
                     <div className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
-                      <span className="font-medium">{viewersCount} personnes consultent ce produit</span>
+                      <span className="font-medium">{viewersCount} {getString('product.viewersCount')}</span>
                     </div>
                   )}
                   
                   {recentPurchases.length > 0 && (
                     <div className="flex items-center space-x-2">
-                      <span>Dernière commande par</span>
+                      <span>{getString('product.lastOrderBy')}</span>
                       <span className="font-medium text-gray-900">{recentPurchases[0]}</span>
                     </div>
                   )}
@@ -601,7 +613,7 @@ const ProductDetailPage: React.FC = () => {
                     ))}
                   </div>
                   <span className="text-gray-600 font-medium">
-                    {productReviews.averageRating} • {productReviews.totalReviews} avis clients
+                    {productReviews.averageRating} • {productReviews.totalReviews} {getString('product.customerReviews')}
                   </span>
                 </div>
                 
@@ -609,17 +621,17 @@ const ProductDetailPage: React.FC = () => {
                 {isOutOfStock ? (
                   <div className="inline-flex items-center space-x-3 text-gray-600">
                     <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
-                    <span className="font-medium">Temporairement indisponible</span>
+                    <span className="font-medium">{getString('product.temporarilyUnavailable')}</span>
                   </div>
                 ) : maxQuantity <= 5 ? (
                   <div className="inline-flex items-center space-x-3 text-gray-900">
                     <div className="w-2 h-2 bg-orange-400 rounded-full"></div>
-                    <span className="font-medium">Stock limité • {maxQuantity} restants</span>
+                    <span className="font-medium">{getString('product.limitedStock')} • {maxQuantity} {getString('product.remaining')}</span>
                   </div>
                 ) : (
                   <div className="inline-flex items-center space-x-3 text-green-700">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span className="font-medium">En stock</span>
+                    <span className="font-medium">{getString('product.inStock')}</span>
                   </div>
                 )}
               </div>
@@ -636,7 +648,7 @@ const ProductDetailPage: React.FC = () => {
                         {formatCurrency(compareAtPrice)}
                       </span>
                       <div className="text-sm text-green-700 font-medium">
-                        Économie de {formatCurrency(savings)}
+                        {getString('product.savings')} {formatCurrency(savings)}
                       </div>
                     </div>
                   )}
@@ -646,15 +658,15 @@ const ProductDetailPage: React.FC = () => {
                 <div className="flex flex-wrap gap-6 text-sm text-gray-600">
                   <div className="flex items-center space-x-2">
                     <CreditCard className="w-4 h-4" />
-                    <span className="font-medium">Paiement en plusieurs fois</span>
+                    <span className="font-medium">{getString('product.paymentInstallments')}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Shield className="w-4 h-4" />
-                    <span className="font-medium">Transaction sécurisée</span>
+                    <span className="font-medium">{getString('product.secureTransaction')}</span>
                   </div>
                   <div className="flex items-center space-x-2">
                     <Truck className="w-4 h-4" />
-                    <span className="font-medium">Livraison sous 48h</span>
+                    <span className="font-medium">{getString('product.delivery48h')}</span>
                   </div>
                 </div>
               </div>
@@ -699,7 +711,7 @@ const ProductDetailPage: React.FC = () => {
                 <div className="space-y-6">
                   <div className="space-y-4">
                     <label className="block text-lg font-medium text-gray-900">
-                      Quantité
+                      {getString('product.quantity')}
                     </label>
                     <div className="flex items-center">
                       <button
@@ -732,7 +744,7 @@ const ProductDetailPage: React.FC = () => {
                       size="lg"
                     >
                       <ShoppingCart className="w-5 h-5 mr-3" />
-                      {isAddingToCart ? 'Redirection...' : 'Acheter sur Amazon'}
+                      {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyOnAmazon')} ${productTitle}`}
                     </Button>
                     
                     <div className="grid grid-cols-2 gap-4">
@@ -744,7 +756,7 @@ const ProductDetailPage: React.FC = () => {
                         }`}
                       >
                         <Heart className={`w-4 h-4 mr-2 ${isWishlisted ? 'fill-current' : ''}`} />
-                        Favoris
+                        {getString('product.favorites')}
                       </Button>
                       
                       <Button
@@ -753,7 +765,7 @@ const ProductDetailPage: React.FC = () => {
                         className="border-gray-200 text-gray-700 hover:bg-gray-50 py-4 rounded-xl transition-all duration-300"
                       >
                         <Share2 className="w-4 h-4 mr-2" />
-                        Partager
+                        {getString('product.share')}
                       </Button>
                     </div>
                   </div>
@@ -772,17 +784,17 @@ const ProductDetailPage: React.FC = () => {
                     {
                       icon: RefreshCw,
                       title: getString('trustSignals.freeReturns'),
-                      subtitle: "Retours gratuits sous 30 jours"
+                      subtitle: getString('trustSignals.freeReturns')
                     },
                     {
                       icon: Shield,
                       title: getString('trustSignals.warranty'),
-                      subtitle: "Protection complète incluse"
+                      subtitle: getString('trustSignals.warranty')
                     },
                     {
                       icon: Headphones,
-                      title: "Support client expert",
-                      subtitle: "Assistance 7j/7 par chat et téléphone"
+                      title: getString('trustSignals.expertSupport'),
+                      subtitle: getString('trustSignals.customerSupport')
                     }
                   ].map((item, index) => (
                     <div key={index} className="flex items-center space-x-4">
@@ -814,7 +826,7 @@ const ProductDetailPage: React.FC = () => {
                         : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
                     }`}
                   >
-                    Description
+                    {getString('product.description')}
                   </button>
                   <button 
                     onClick={() => setActiveTab('specifications')}
@@ -824,7 +836,7 @@ const ProductDetailPage: React.FC = () => {
                         : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
                     }`}
                   >
-                    Spécifications
+                    {getString('product.specifications')}
                   </button>
                   <button 
                     onClick={() => setActiveTab('reviews')}
@@ -834,7 +846,7 @@ const ProductDetailPage: React.FC = () => {
                         : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
                     }`}
                   >
-                    Avis clients ({productReviews.totalReviews})
+                    {getString('product.customerReviews')} ({productReviews.totalReviews})
                   </button>
                   {product?.faq && product.faq.length > 0 && (
                     <button 
@@ -845,7 +857,7 @@ const ProductDetailPage: React.FC = () => {
                           : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
                       }`}
                     >
-                      FAQ
+                      {getString('product.faq')}
                     </button>
                   )}
                 </nav>
@@ -876,7 +888,7 @@ const ProductDetailPage: React.FC = () => {
 
                 {activeTab === 'specifications' && (
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">Spécifications techniques</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">{getString('product.technicalSpecifications')}</h3>
                     {Object.entries(product?.specifications || {}).length > 0 ? (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {Object.entries(product.specifications).map(([key, value]) => (
@@ -887,14 +899,14 @@ const ProductDetailPage: React.FC = () => {
                         ))}
                       </div>
                     ) : (
-                      <p className="text-neutral-600">Aucune spécification disponible pour ce produit.</p>
+                      <p className="text-neutral-600">{getString('product.noSpecifications')}</p>
                     )}
                   </div>
                 )}
 
                 {activeTab === 'faq' && product?.faq && product.faq.length > 0 && (
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">Questions fréquentes</h3>
+                    <h3 className="text-xl font-semibold text-neutral-900 mb-6">{getString('product.frequentlyAskedQuestions')}</h3>
                     <div className="space-y-6">
                       {product.faq.map((item, index) => (
                         <div key={index} className="border-b border-neutral-100 pb-6">
@@ -933,14 +945,14 @@ const ProductDetailPage: React.FC = () => {
                           ))}
                         </div>
                         <p className="text-sm text-neutral-600 mt-1">
-                          Basé sur {productReviews.totalReviews} avis
+                          {getString('product.basedOnReviews')} {productReviews.totalReviews} {getString('product.reviews')}
                         </p>
                       </div>
                     </div>
                     
                     <div className="flex items-center justify-center md:justify-start space-x-2 text-sm text-neutral-600">
                       <ThumbsUp className="w-4 h-4" />
-                      <span>94% des clients recommandent ce produit</span>
+                      <span>94% {getString('product.clientsRecommend')}</span>
                     </div>
                   </div>
 
@@ -1039,17 +1051,65 @@ const ProductDetailPage: React.FC = () => {
         {/* The FloatingButtons component is now integrated into the Layout's floating buttons props */}
       </Layout>
       {product && (
-        <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-lg p-4 flex justify-center">
-          <a
-            href={product.amazonUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full"
-          >
-            <Button size="lg" variant="primary" className="w-full text-lg">
-              {getString('product.buyNow')}
-            </Button>
-          </a>
+        <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-4 animate-slide-up">
+          <div className="max-w-lg mx-auto">
+            {/* Discount Banner with Gradient - Clickable */}
+            <a
+              href={product.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group cursor-pointer"
+            >
+              <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-3 px-6 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
+                {/* Animated background pattern */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
+                
+                <div className="relative z-10 flex items-center justify-center space-x-4">
+                  <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                    <span className="font-bold text-xl">-30%</span>
+                  </div>
+                  
+                  <div className="text-sm font-medium">
+                    {getString('product.limitedOffer')}
+                  </div>
+                  
+                  <div className="flex items-center space-x-2 text-sm">
+                    <span className="opacity-90">{getString('product.expiresIn')}:</span>
+                    <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
+                      <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                        {countdown.minutes.toString().padStart(2, '0')}
+                      </span>
+                      <span className="text-red-200">:</span>
+                      <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                        {countdown.seconds.toString().padStart(2, '0')}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            
+            {/* Buy Button with Enhanced Design */}
+            <a
+              href={product.amazonUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block group"
+            >
+              <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-6 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
+                {/* Button background animation */}
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
+                
+                <div className="relative z-10 flex items-center justify-center space-x-3">
+                  <ShoppingCart className="w-5 h-5" />
+                  <span className="text-lg">
+                    {getString('product.buyOnAmazon')} {productTitle}
+                  </span>
+                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       )}
     </>

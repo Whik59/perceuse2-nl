@@ -1,75 +1,383 @@
 {
   "navigation": {
-    "home": "Accueil",
+    "home": "Inicio",
     "products": "Teléfonos Móviles",
-    "categories": "Catégories",
-    "cart": "Sélection",
+    "categories": "Categorías",
+    "cart": "Selección",
     "checkout": "Amazon",
-    "account": "Mon Compte",
-    "contact": "Contact"
+    "account": "Mi Cuenta",
+    "contact": "Contacto"
+  },
+  "categories": {
+    "title": "Categorías de Teléfonos Móviles",
+    "hero": {
+      "title": "Encuentra el Teléfono Perfecto para Ti",
+      "subtitle": "Descubre nuestra amplia selección de teléfonos móviles diseñados específicamente para personas mayores"
+    },
+    "subtitle": "Explora nuestras categorías especializadas en teléfonos móviles para mayores",
+    "browseAll": "Ver todas las categorías",
+    "noProducts": "No hay productos disponibles en esta categoría",
+    "loading": "Cargando categorías...",
+    "error": "Error al cargar las categorías",
+    "collectionsAvailable": "Colecciones Disponibles",
+    "discover": "Descubre",
+    "subcategories": "subcategorías",
+    "popular": "Popular",
+    "rating": "Valoración",
+    "products": "productos",
+    "viewAll": "Ver todos",
+    "showMore": "Mostrar más",
+    "showLess": "Mostrar menos",
+    "filterBy": "Filtrar por",
+    "sortBy": "Ordenar por",
+    "priceRange": "Rango de precios",
+    "inStock": "En stock",
+    "onSale": "En oferta",
+    "newArrivals": "Nuevos productos",
+    "bestSellers": "Más vendidos",
+    "topRated": "Mejor valorados",
+    "searchPlaceholder": "Buscar categorías...",
+    "allSubcategories": "Todas las subcategorías",
+    "subcategoriesDescription": "Explora todas las subcategorías disponibles",
+    "needHelp": "¿Necesitas ayuda?",
+    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el teléfono perfecto para ti",
+    "backToHome": "Volver al inicio"
   },
   "common": {
-    "close": "Fermer",
-    "cancel": "Annuler",
-    "confirm": "Confirmer",
-    "loading": "Chargement...",
-    "error": "Une erreur est survenue",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
     "siteName": "Móviles Senior",
     "companyName": "Móviles Senior",
-    "home": "Accueil"
+    "home": "Inicio",
+    "linkCopied": "Enlace copiado"
   },
   "errors": {
-    "somethingWrong": "Une erreur s'est produite",
-    "tryAgain": "Réessayer",
-    "pageNotFound": "Page non trouvée",
+    "somethingWrong": "Algo salió mal",
+    "tryAgain": "Intentar de nuevo",
+    "pageNotFound": "Página no encontrada",
     "productNotFound": "Teléfono no encontrado",
-    "categoryNotFound": "Catégorie non trouvée",
-    "amazonRedirectError": "Erreur lors de la redirection vers Amazon",
-    "amazonUnavailable": "Amazon non disponible"
+    "categoryNotFound": "Categoría no encontrada",
+    "amazonRedirectError": "Error al redirigir a Amazon",
+    "amazonUnavailable": "Amazon no disponible"
   },
   "search": {
-    "placeholder": "Buscar TELEFONO...",
-    "noResults": "No se encontraron TELEFONO",
-    "searchFor": "Buscar TELEFONO"
+    "placeholder": "Buscar teléfono...",
+    "noResults": "No se encontraron teléfonos",
+    "searchFor": "Buscar teléfono"
   },
   "header": {
     "search": {
-      "placeholder": "Rechercher une friteuse..."
+      "placeholder": "Buscar teléfono..."
     },
-    "support": "Support",
+    "support": "Soporte",
     "cart": {
-      "title": "Ma sélection"
+      "title": "Mi selección"
     }
   },
   "social": {
-    "shareProduct": "Partager cette friteuse",
-    "followUs": "Suivez-nous",
-    "customerReviews": "Avis clients Amazon"
+    "shareProduct": "Compartir este teléfono",
+    "followUs": "Síguenos",
+    "customerReviews": "Opiniones de clientes Amazon"
   },
   "urgency": {
-    "orderInNext": "Commandez dans les prochaines",
-    "hours": "heures",
-    "minutes": "minutes",
-    "toReceiveBy": "pour recevoir avant le",
-    "popularChoice": "Choix populaire",
-    "bestSeller": "Meilleure vente",
-    "almostSoldOut": "Stock limité",
-    "amazonPrime": "Livraison Prime disponible",
-    "freeShipping": "Livraison gratuite"
+    "orderInNext": "Pedido en las próximas",
+    "hours": "horas",
+    "minutes": "minutos",
+    "toReceiveBy": "para recibir antes del",
+    "popularChoice": "Elección popular",
+    "bestSeller": "Más vendido",
+    "almostSoldOut": "Stock limitado",
+    "amazonPrime": "Envío Prime disponible",
+    "freeShipping": "Envío gratuito"
   },
   "amazon": {
-    "buyOnAmazon": "Acheter sur Amazon",
-    "viewOnAmazon": "Voir sur Amazon",
-    "priceOnAmazon": "Prix sur Amazon",
-    "affiliateNotice": "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises.",
-    "redirecting": "Redirection vers Amazon...",
-    "openInNewTab": "Ouvre dans un nouvel onglet"
+    "buyOnAmazon": "Comprar en Amazon",
+    "viewOnAmazon": "Ver en Amazon",
+    "priceOnAmazon": "Precio en Amazon",
+    "affiliateNotice": "Como Asociado de Amazon, obtenemos ingresos por las compras que cumplan los requisitos aplicables.",
+    "redirecting": "Redirigiendo a Amazon...",
+    "openInNewTab": "Abre en una nueva pestaña"
   },
   "siteName": "Tu Teléfono Perfecto: Móviles y Smartphones",
   "companyName": "Conexión Móvil S.L.",
-  "products": "Telefono",
-  "productNotFound": "Telefono no encontrado",
+  "products": "Teléfono",
+  "productNotFound": "Teléfono no encontrado",
   "product": {
     "buyNow": "Comprar ahora"
+  },
+  "banner": {
+    "discount": "descuento",
+    "clientReviews": "opiniones de clientes",
+    "ordersDelivered": "pedidos entregados"
+  },
+  "support": {
+    "title": "Atención al Cliente",
+    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros teléfonos móviles",
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "deliveryTime": {
+        "question": "¿Cuánto tiempo tarda la entrega?",
+        "answer": "Nuestros teléfonos móviles se envían en 24-48 horas laborables. Ofrecemos envío gratuito a toda España y seguimiento en tiempo real de tu pedido."
+      },
+      "returns": {
+        "question": "¿Puedo devolver mi pedido?",
+        "answer": "Sí, tienes 30 días para devolver tu teléfono móvil si no estás satisfecho. El proceso es simple y cubrimos los gastos de envío de la devolución."
+      },
+      "warranty": {
+        "question": "¿Qué garantía tienen los productos?",
+        "answer": "Todos nuestros teléfonos móviles incluyen garantía del fabricante de 2 años. Además, ofrecemos soporte técnico gratuito durante toda la garantía."
+      },
+      "payment": {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos todas las tarjetas de crédito y débito principales, PayPal, y transferencia bancaria. Todos los pagos son seguros y protegidos."
+      },
+      "tracking": {
+        "question": "¿Cómo puedo seguir mi pedido?",
+        "answer": "Recibirás un email con el número de seguimiento una vez que tu pedido sea enviado. Puedes seguir el estado en tiempo real en la web del transportista."
+      }
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "subjectLabel": "Asunto",
+      "selectSubject": "Selecciona un asunto",
+      "emailLabel": "Tu email",
+      "emailPlaceholder": "tu@email.com",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Describe tu consulta aquí...",
+      "sendWhatsApp": "Enviar por WhatsApp",
+      "whatsappInfo": "Te responderemos por WhatsApp en menos de 2 horas",
+      "whatsappTemplate": "Hola, tengo una consulta sobre mi pedido:",
+      "subject": "Asunto",
+      "email": "Email",
+      "message": "Mensaje",
+      "subjects": {
+        "order": "Consulta sobre pedido",
+        "refund": "Solicitud de reembolso",
+        "exchange": "Cambio de producto",
+        "quality": "Problema de calidad",
+        "delivery": "Consulta de envío",
+        "other": "Otra consulta"
+      }
+    }
+  },
+  "cart": {
+    "title": "Mi Selección",
+    "empty": {
+      "title": "Tu selección está vacía",
+      "description": "Añade teléfonos móviles a tu selección para continuar",
+      "button": "Volver a la tienda"
+    },
+    "total": "Total estimado",
+    "amazonNotice": "Precio final y gastos de envío en Amazon",
+    "buyOnAmazon": "Comprar",
+    "viewFullSelection": "Ver mi selección completa",
+    "pageTitle": "Tu selección",
+    "pageSubtitle": "Tus teléfonos móviles seleccionados - Compra directamente en Amazon",
+    "summary": "Resumen",
+    "subtotal": "Subtotal",
+    "items": "artículos",
+    "clearCart": "Vaciar la selección",
+    "continueShopping": "Continuar comprando",
+    "amazonPartner": "Compra en Amazon",
+    "amazonPartnerText": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen.",
+    "linkCopied": "Enlace copiado"
+  },
+  "checkout": {
+    "empty": {
+      "title": "Tu selección está vacía",
+      "description": "Añade teléfonos móviles a tu selección antes de proceder al pago",
+      "button": "Descubrir nuestros teléfonos"
+    },
+    "backToCart": "Volver a la selección",
+    "pageTitle": "Finalizar tu compra",
+    "pageSubtitle": "Serás redirigido a Amazon para completar tu pedido",
+    "securePurchase": {
+      "title": "Compra segura en Amazon",
+      "subtitle": "Disfruta de la seguridad y garantías de Amazon"
+    },
+    "benefits": {
+      "securePayment": "Pago 100% seguro",
+      "fastShipping": "Envío rápido con Amazon Prime",
+      "allPayments": "Todos los métodos de pago aceptados"
+    },
+    "amazonGuarantee": {
+      "title": "Garantía Amazon A-Z",
+      "description": "Tus compras están protegidas por la garantía Amazon A-Z. Devoluciones gratuitas y reembolso completo en caso de problema."
+    },
+    "partnerInfo": {
+      "title": "Información de Socio",
+      "description": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen. Esto no afecta el precio que pagas."
+    },
+    "orderSummary": {
+      "title": "Resumen de tu selección",
+      "quantity": "Cantidad",
+      "subtotal": "Subtotal",
+      "shipping": "Gastos de envío",
+      "shippingNote": "Calculados en Amazon",
+      "total": "Total estimado",
+      "finalPrice": "Precio final en Amazon"
+    },
+    "buttons": {
+      "continueToAmazon": "Continuar en Amazon",
+      "modifySelection": "Modificar mi selección"
+    }
+  },
+  "floatingButtons": {
+    "videoTooltip": "Ver el vídeo",
+    "cartTooltip": "Selección",
+    "cartAriaLabel": "Ver la selección",
+    "closeVideoAriaLabel": "Cerrar el vídeo"
+  },
+  "exitIntent": {
+    "title": "¡Espera! No te vayas con las manos vacías",
+    "subtitle": "Tienes {count} artículo{plural} en tu selección",
+    "specialOffer": {
+      "title": "OFERTA ESPECIAL LIMITADA",
+      "discount": "15% DE DESCUENTO",
+      "saveAmount": "Ahorra {amount} en tu pedido",
+      "currentPrice": "Precio actual",
+      "newPrice": "Nuevo precio",
+      "expiresIn": "Esta oferta expira en:"
+    },
+    "cartPreview": {
+      "title": "Tus artículos seleccionados",
+      "quantity": "Cantidad",
+      "moreItems": "+{count} artículo{plural} más"
+    },
+    "trustSignals": {
+      "shipping": "Envío",
+      "free": "Gratuito",
+      "returns": "Devoluciones",
+      "days": "30 días",
+      "warranty": "Garantía",
+      "years": "2 años"
+    },
+    "buttons": {
+      "takeOffer": "Aprovechar la oferta",
+      "continueShopping": "Continuar comprando"
+    },
+    "footer": "Código promocional aplicado automáticamente al checkout"
+  },
+  "trustSignals": {
+    "freeShipping": "Envío gratuito",
+    "freeReturns": "Devoluciones gratuitas en 30 días",
+    "warranty": "Protección completa incluida",
+    "expertSupport": "Soporte experto",
+    "customerSupport": "Asistencia 7 días por chat y teléfono"
+  },
+  "promotions": {
+    "freeShipping": "Envío gratuito"
+  },
+  "product": {
+    "description": "Descripción",
+    "specifications": "Especificaciones",
+    "customerReviews": "Opiniones de clientes",
+    "faq": "Preguntas frecuentes",
+    "alsoLike": "También te puede gustar",
+    "alsoLikeSubtitle": "Otros teléfonos móviles que podrían interesarte",
+    "buyNow": "Comprar ahora",
+    "loading": "Cargando...",
+    "notFound": "Producto no encontrado",
+    "notFoundDescription": "El producto que buscas no está disponible",
+    "viewersCount": "personas consultan este producto",
+    "lastOrderBy": "Última compra por",
+    "temporarilyUnavailable": "Temporalmente no disponible",
+    "limitedStock": "Stock limitado",
+    "remaining": "restantes",
+    "inStock": "En stock",
+    "savings": "Ahorro de",
+    "paymentInstallments": "Pago en varias veces",
+    "secureTransaction": "Transacción segura",
+    "delivery48h": "Entrega en 48h",
+    "quantity": "Cantidad",
+    "redirecting": "Redirigiendo...",
+    "buyOnAmazon": "Comprar",
+    "favorites": "Favoritos",
+    "share": "Compartir",
+    "technicalSpecifications": "Especificaciones técnicas",
+    "noSpecifications": "No hay especificaciones disponibles para este producto",
+    "frequentlyAskedQuestions": "Preguntas frecuentes",
+    "basedOnReviews": "Basado en",
+    "reviews": "opiniones",
+    "clientsRecommend": "de los clientes recomiendan este producto",
+    "similarProductsLoading": "Cargando productos similares...",
+    "limitedOffer": "Oferta limitada",
+    "expiresIn": "Termina en"
+  },
+  "homepage": {
+    "whyChoose": {
+      "title": "¿Por Qué Elegirnos?",
+      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para teléfonos móviles para mayores",
+      "advantage1": {
+        "title": "Calidad Premium",
+        "description": "Teléfonos móviles de la más alta calidad, diseñados específicamente para personas mayores con materiales duraderos y tecnología avanzada."
+      },
+      "advantage2": {
+        "title": "Envío Rápido",
+        "description": "Entrega gratuita en 24-48 horas en toda España. Tu tranquilidad es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
+      },
+      "advantage3": {
+        "title": "Soporte Especializado",
+        "description": "Equipo de atención al cliente especializado en teléfonos para mayores. Te ayudamos con cualquier duda o problema que puedas tener."
+      },
+      "advantage4": {
+        "title": "Garantía Completa",
+        "description": "Garantía de 2 años en todos nuestros productos. Tu satisfacción está garantizada con nuestro servicio post-venta excepcional."
+      },
+      "comparison": {
+        "title": "Comparación con la Competencia",
+        "subtitle": "Descubre por qué Móviles Senior se destaca de la competencia",
+        "us": "Nosotros",
+        "others": "Otros",
+        "criteria": "Criterios",
+        "quality": "Calidad",
+        "standardQuality": "Calidad estándar",
+        "fastShipping": "Envío rápido 24h",
+        "slowShipping": "Envío lento 5-7 días",
+        "warranty": "Garantía 2 años",
+        "limitedWarranty": "Garantía limitada",
+        "support": "Soporte especializado",
+        "basicSupport": "Soporte básico"
+      },
+      "cta": "Únete a nuestros 15.000+ clientes satisfechos"
+    }
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados",
+    "legal": {
+      "title": "Información Legal",
+      "terms": "Términos y Condiciones",
+      "privacy": "Política de Privacidad",
+      "cookies": "Política de Cookies",
+      "returns": "Política de Devoluciones",
+      "shipping": "Información de Envío",
+      "warranty": "Garantía",
+      "contact": "Contacto"
+    },
+    "company": {
+      "title": "Empresa",
+      "about": "Sobre Nosotros",
+      "careers": "Trabaja con Nosotros",
+      "press": "Prensa",
+      "partners": "Socios"
+    },
+    "support": {
+      "title": "Soporte",
+      "help": "Centro de Ayuda",
+      "faq": "Preguntas Frecuentes",
+      "shipping": "Envíos",
+      "returns": "Devoluciones",
+      "warranty": "Garantía"
+    },
+    "social": {
+      "title": "Síguenos",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "youtube": "YouTube"
+    }
   }
 }
