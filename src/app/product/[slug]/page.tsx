@@ -1064,25 +1064,53 @@ const ProductDetailPage: React.FC = () => {
                 {/* Animated background pattern */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
                 
-                <div className="relative z-10 flex items-center justify-center space-x-4">
-                  <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                    <span className="font-bold text-xl">-30%</span>
+                <div className="relative z-10">
+                  {/* Desktop: Single line layout */}
+                  <div className="hidden sm:flex items-center justify-center space-x-4">
+                    <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                      <span className="font-bold text-xl">-30%</span>
+                    </div>
+                    
+                    <div className="text-sm font-medium">
+                      {getString('product.limitedOffer')}
+                    </div>
+                    
+                    <div className="flex items-center space-x-2 text-sm">
+                      <span className="opacity-90">{getString('product.expiresIn')}:</span>
+                      <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
+                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                          {countdown.minutes.toString().padStart(2, '0')}
+                        </span>
+                        <span className="text-red-200">:</span>
+                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                          {countdown.seconds.toString().padStart(2, '0')}
+                        </span>
+                      </div>
+                    </div>
                   </div>
                   
-                  <div className="text-sm font-medium">
-                    {getString('product.limitedOffer')}
-                  </div>
-                  
-                  <div className="flex items-center space-x-2 text-sm">
-                    <span className="opacity-90">{getString('product.expiresIn')}:</span>
-                    <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
-                      <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                        {countdown.minutes.toString().padStart(2, '0')}
-                      </span>
-                      <span className="text-red-200">:</span>
-                      <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                        {countdown.seconds.toString().padStart(2, '0')}
-                      </span>
+                  {/* Mobile: Two line layout */}
+                  <div className="sm:hidden flex flex-col items-center space-y-2">
+                    <div className="flex items-center space-x-3">
+                      <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
+                        <span className="font-bold text-xl">-30%</span>
+                      </div>
+                      <div className="text-sm font-medium">
+                        {getString('product.limitedOffer')}
+                      </div>
+                    </div>
+                    
+                    <div className="flex items-center space-x-2 text-sm">
+                      <span className="opacity-90">{getString('product.expiresIn')}:</span>
+                      <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
+                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                          {countdown.minutes.toString().padStart(2, '0')}
+                        </span>
+                        <span className="text-red-200">:</span>
+                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
+                          {countdown.seconds.toString().padStart(2, '0')}
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -1,9 +1,13 @@
-python scripts/amazon-keyword-scraper.py "airfryer" --market fr
+# Step 1: Discover keywords for main categories
+python scripts/amazon-keyword-scraper.py "patinete electrico" --market es --max-categories 15 --max-subcategories 50
 
 
-python scripts/ai-category-mapper.py
+# Step 2: Create category structure
+python scripts/create-category-hierarchy.py
 
+# Step 3: Scrape actual products
 python scripts/amazon-product-scraper.py
 
-python scripts/simple-ai-generator.py --sample 10  # Test with 10 products
-python scripts/simple-ai-generator.py              # Process all products
+# Step 4: Enhance with AI
+python scripts/ai_category_enhancer.py
+python scripts/ai-product-enhancer.py

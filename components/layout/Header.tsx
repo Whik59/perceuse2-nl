@@ -372,7 +372,7 @@ const Header: React.FC<HeaderProps> = ({
                 >
             <Link
               href={`/category/${category.slug}`}
-                    className="flex items-center text-gray-700 hover:text-gray-900 font-light text-sm tracking-[0.5px] transition-all duration-500 py-3 px-5 group relative uppercase letter-spacing-wide"
+                    className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-3 px-5 group relative uppercase letter-spacing-wide"
             >
               <span className="relative font-medium">
                 {category.categoryNameCanonical}
@@ -416,9 +416,9 @@ const Header: React.FC<HeaderProps> = ({
                             <Link
                               key={subcategory.categoryId}
                               href={`/category/${subcategory.slug}`}
-                              className="group/item flex items-center justify-between px-5 py-3 text-sm font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
+                              className="group/item flex items-center justify-between px-5 py-2 text-xs font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
                             >
-                              <span className="relative tracking-[0.3px] uppercase">
+                              <span className="relative tracking-[0.3px] uppercase whitespace-nowrap">
                                 {subcategory.categoryNameCanonical}
                               </span>
                               <svg className="w-3 h-3 opacity-0 group-hover/item:opacity-60 transition-all duration-300 transform translate-x-2 group-hover/item:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
@@ -469,7 +469,7 @@ const Header: React.FC<HeaderProps> = ({
                       <div className="flex items-center justify-between bg-white border border-gray-100/50 overflow-hidden">
                 <Link
                   href={`/category/${category.slug}`}
-                          className="flex-1 text-gray-700 hover:text-gray-900 font-light text-sm tracking-[0.5px] py-4 px-5 hover:bg-gray-50/50 transition-all duration-300 uppercase"
+                          className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-4 px-5 hover:bg-gray-50/50 transition-all duration-300 uppercase"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {category.categoryNameCanonical}
@@ -499,7 +499,7 @@ const Header: React.FC<HeaderProps> = ({
                             <Link
                               key={subcategory.categoryId}
                               href={`/category/${subcategory.slug}`}
-                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-3 px-5 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px]"
+                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-3 px-5 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px] whitespace-nowrap"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               {subcategory.categoryNameCanonical}
