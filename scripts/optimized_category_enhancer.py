@@ -369,14 +369,14 @@ Responde SOLO el HTML específico para {category_name}:"""
                         # Save file immediately
                         success, filename, result = self.save_category_file(enhanced_category)
                         
-                        if success:
-                            enhanced_categories.append(enhanced_category)
-                            successful_count += 1
-                            safe_print(f"✅ {enhanced_category['categoryNameCanonical']} -> {filename}")
-                        else:
-                            failed_count += 1
-                            safe_print(f"❌ Failed to save {filename}: {result}")
-                            
+                    if success:
+                        enhanced_categories.append(enhanced_category)
+                        successful_count += 1
+                        safe_print(f"✅ {enhanced_category['categoryNameCanonical']} -> {filename}")
+                    else:
+                        failed_count += 1
+                        safe_print(f"❌ Failed to save {filename}: {result}")
+            
                     except Exception as e:
                         failed_count += 1
                         safe_print(f"❌ Failed to enhance {category.get('categoryNameCanonical', 'Unknown')}: {str(e)[:100]}")
@@ -490,7 +490,7 @@ def main():
             
         elif choice == '2':
             safe_print("\n🤖 Starting full AI enhancement...")
-            enhancer.run_optimization()
+    enhancer.run_optimization()
             
         elif choice == '3':
             # Show statistics

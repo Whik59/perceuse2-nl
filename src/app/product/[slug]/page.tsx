@@ -522,7 +522,7 @@ const ProductDetailPage: React.FC = () => {
             {/* Luxury Image Gallery */}
             <div className="space-y-6">
               {/* Main Image */}
-              <div className="relative aspect-square bg-neutral-50 rounded-2xl overflow-hidden group">
+              <div className="relative aspect-square bg-white rounded-2xl overflow-hidden group">
                 <Image
                   src={product.imagePaths[selectedImageIndex] || '/placeholder-product.jpg'}
                   alt={productTitle}
@@ -574,7 +574,7 @@ const ProductDetailPage: React.FC = () => {
                     <button
                       key={index}
                       onClick={() => setSelectedImageIndex(index)}
-                      className={`aspect-square bg-neutral-50 rounded-lg overflow-hidden border-2 transition-all duration-300 ${
+                      className={`aspect-square bg-white rounded-lg overflow-hidden border-2 transition-all duration-300 ${
                         selectedImageIndex === index 
                           ? 'border-neutral-900' 
                           : 'border-transparent hover:border-neutral-200'

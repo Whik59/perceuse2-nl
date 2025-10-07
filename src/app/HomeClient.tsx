@@ -188,12 +188,13 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
               products.slice(0, 4).map((product, index) => (
                 <Link key={product.slug} href={`/product/${product.slug}`}>
                   <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
-                    <div className="relative aspect-square overflow-hidden">
+                    <div className="relative aspect-square bg-white flex items-center justify-center p-4">
                       <Image
                         src={product.imagePaths?.[0] || '/placeholder-product.jpg'}
                         alt={product.title || 'Product'}
-                        fill
-                        className="object-cover group-hover:scale-105 transition-transform duration-500"
+                        width={200}
+                        height={200}
+                        className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
                         sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 20vw"
                       />
                     </div>

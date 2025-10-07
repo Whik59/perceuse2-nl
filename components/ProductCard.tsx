@@ -65,12 +65,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
       )}
 
       {/* Product Image */}
-      <Link href={`/product/${product.slug}`} className="block relative aspect-square overflow-hidden rounded-t-2xl">
+      <Link href={`/product/${product.slug}`} className="block relative aspect-square rounded-t-2xl bg-white flex items-center justify-center p-4">
         <Image
           src={product.imagePaths[0]}
           alt={productName}
-          fill
-          className="object-cover transition-all duration-700 group-hover:scale-110"
+          width={300}
+          height={300}
+          className="max-w-full max-h-full object-contain transition-all duration-700 group-hover:scale-105"
           sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
         />
         
