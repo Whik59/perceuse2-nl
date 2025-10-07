@@ -57,17 +57,17 @@ class AmazonScraper:
         # Speed configuration
         self.speed_mode = speed_mode
         if speed_mode == 'fast':
-            self.request_delay = (0.5, 1.5)  # Faster requests
-            self.category_delay = (2, 5)      # Less rest between categories
-            self.max_workers = 8              # More workers
+            self.request_delay = (1.0, 3.0)  # More realistic delays
+            self.category_delay = (3, 8)      # Longer rest between categories
+            self.max_workers = 6              # Fewer workers
         elif speed_mode == 'turbo':
-            self.request_delay = (0.2, 0.8)   # Very fast requests
-            self.category_delay = (1, 3)      # Minimal rest
-            self.max_workers = 12             # Maximum workers
+            self.request_delay = (0.5, 2.0)   # Still realistic
+            self.category_delay = (2, 5)      # Minimal rest
+            self.max_workers = 8              # Moderate workers
         else:  # normal
-            self.request_delay = (0.5, 1.5)   # Faster requests
-            self.category_delay = (2, 5)      # Faster rest
-            self.max_workers = 8              # More workers
+            self.request_delay = (2.0, 5.0)   # Human-like delays
+            self.category_delay = (5, 10)     # Longer rest
+            self.max_workers = 4              # Conservative workers
         
         # MODIFIED: Scrape all categories (flat structure, no subcategories)
         # All categories are main categories and need products
@@ -98,10 +98,16 @@ class AmazonScraper:
         
         # Adaptive rate limiting system
         self.consecutive_503_errors = 0
-        self.base_delay = (2.0, 4.0)  # Slower base delays
+        self.base_delay = (3.0, 6.0)  # More human-like base delays
         self.current_delay = self.base_delay
-        self.max_delay = (10.0, 20.0)  # Maximum delay when heavily rate limited
+        self.max_delay = (15.0, 30.0)  # Higher maximum delay
         self.rate_limit_lock = threading.Lock()
+        
+        # Session rotation system
+        self.request_count = 0
+        self.max_requests_per_session = 50  # Rotate session every 50 requests
+        self.session_rotation_lock = threading.Lock()
+        self.last_rotation_time = time.time()
         
         # Progress tracking and resumption
         self.progress_file = f"scraping_progress_{self.market}.json"
@@ -114,12 +120,25 @@ class AmazonScraper:
         # Load categories
         self.categories = self.load_categories()
         
-        # User agents for rotation
+        # User agents for rotation (more diverse)
         self.user_agents = [
+            # Windows Chrome
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36',
+            # Mac Chrome
             'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+            # Firefox
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15'
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/121.0',
+            # Safari
+            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15',
+            # Edge
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0',
+            # Mobile
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Mobile/15E148 Safari/604.1',
+            'Mozilla/5.0 (Linux; Android 14; SM-G998B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36'
         ]
         
     def setup_advanced_session(self):
@@ -128,8 +147,10 @@ class AmazonScraper:
         
         # Advanced headers with proper language for current market
         language_header = self.get_language_header()
+        
+        # Start with a realistic browser-like base
         session.headers.update({
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'Accept-Language': language_header,
             'Accept-Encoding': 'gzip, deflate, br',
             'DNT': '1',
@@ -140,6 +161,9 @@ class AmazonScraper:
             'Sec-Fetch-Site': 'none',
             'Sec-Fetch-User': '?1',
             'Cache-Control': 'max-age=0',
+            'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+            'sec-ch-ua-mobile': '?0',
+            'sec-ch-ua-platform': '"Windows"',
         })
         
         # Add realistic cookies for current market
@@ -147,6 +171,62 @@ class AmazonScraper:
         session.cookies.update(market_cookies)
         
         return session
+    
+    def rotate_session(self):
+        """Rotate browser session to avoid detection"""
+        with self.session_rotation_lock:
+            safe_print(f"  [ROTATION] Rotating browser session...")
+            
+            # Close current session
+            if hasattr(self.session, 'close'):
+                self.session.close()
+            
+            # Wait a bit before creating new session
+            time.sleep(random.uniform(2, 5))
+            
+            # Create new session with different fingerprint
+            self.session = self.setup_advanced_session()
+            
+            # Reset request counter
+            self.request_count = 0
+            
+            # Reset rate limiting counters
+            self.consecutive_503_errors = 0
+            self.current_delay = self.base_delay
+            self.last_rotation_time = time.time()
+            
+            safe_print(f"  [ROTATION] New session created")
+    
+    def should_rotate_session(self):
+        """Check if session should be rotated"""
+        return self.request_count >= self.max_requests_per_session
+    
+    def should_force_rotation(self):
+        """Check if we should force rotation based on patterns"""
+        # Force rotation if we haven't rotated in the last 5 minutes and have 503 errors
+        time_since_last_rotation = time.time() - self.last_rotation_time
+        if time_since_last_rotation > 300 and self.consecutive_503_errors > 0:  # 5 minutes
+            return True
+        
+        # Force rotation if we have many consecutive 503s regardless of time
+        if self.consecutive_503_errors >= 10:
+            return True
+            
+        return False
+    
+    def simulate_human_behavior(self):
+        """Simulate human-like browsing behavior"""
+        # Random pause like a human reading
+        if random.random() < 0.3:  # 30% chance
+            pause = random.uniform(1, 3)
+            safe_print(f"  [HUMAN] Reading pause: {pause:.1f}s")
+            time.sleep(pause)
+        
+        # Occasionally longer pause (like checking phone)
+        if random.random() < 0.1:  # 10% chance
+            pause = random.uniform(5, 10)
+            safe_print(f"  [HUMAN] Extended pause: {pause:.1f}s")
+            time.sleep(pause)
     
     def get_language_header(self):
         """Get appropriate language header for the current market"""
@@ -269,10 +349,22 @@ class AmazonScraper:
                         min(self.current_delay[1] * 1.5, self.max_delay[1])
                     )
                     safe_print(f"[RATE_LIMIT] Slowing down to {self.current_delay[0]:.1f}-{self.current_delay[1]:.1f}s delays")
+                    
+                    # If we're hitting max delays, rotate session
+                    if self.current_delay[0] >= self.max_delay[0] * 0.8:  # 80% of max delay
+                        safe_print(f"[RATE_LIMIT] Near max delay, forcing session rotation")
+                        self.rotate_session()
                 elif self.consecutive_503_errors >= 5:
                     # Very slow after 5 consecutive 503s
                     self.current_delay = self.max_delay
                     safe_print(f"[RATE_LIMIT] Maximum slowdown: {self.max_delay[0]:.1f}-{self.max_delay[1]:.1f}s delays")
+                    # Force session rotation when hitting max delay
+                    safe_print(f"[RATE_LIMIT] Forcing session rotation due to max delay")
+                    self.rotate_session()
+                elif self.consecutive_503_errors >= 3:
+                    # Force session rotation after 3 consecutive 503s
+                    safe_print(f"[RATE_LIMIT] Forcing session rotation after {self.consecutive_503_errors} consecutive 503s")
+                    self.rotate_session()
             else:
                 # Reset on successful requests
                 if self.consecutive_503_errors > 0:
@@ -308,13 +400,23 @@ class AmazonScraper:
         """Make HTTP request with adaptive retry logic and CAPTCHA detection"""
         for attempt in range(retries):
             try:
+                # Check if we need to rotate session
+                if self.should_rotate_session() or self.should_force_rotation():
+                    self.rotate_session()
+                
                 # Use adaptive delay based on rate limiting
                 delay = random.uniform(*self.current_delay)
                 safe_print(f"  [DELAY] Waiting {delay:.1f}s before request...")
                 time.sleep(delay)
                 
+                # Simulate human behavior
+                self.simulate_human_behavior()
+                
                 # Use random headers for this request
                 headers = self.get_random_headers()
+                
+                # Increment request counter
+                self.request_count += 1
                 
                 response = self.session.get(url, headers=headers, timeout=15)
                 
