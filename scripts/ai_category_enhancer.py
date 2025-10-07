@@ -11,6 +11,8 @@ from datetime import datetime
 import time
 import random
 from pathlib import Path
+import concurrent.futures
+import threading
 
 def safe_print(message):
     """Thread-safe print function that handles encoding issues"""
@@ -33,10 +35,10 @@ class AICategoryEnhancer:
         # Load AI configuration
         self.ai_config = self.load_ai_config()
         
-        # Performance settings - OPTIMIZED FOR 1000+ CATEGORIES
-        self.request_delay = 0.1  # Minimal delay for maximum speed
-        self.batch_size = 50  # Process 50 categories at once for 1000+ scale
-        self.max_concurrent = 10  # Higher concurrency for faster processing
+        # Performance settings - ULTRA-FAST TEMPLATE MODE
+        self.request_delay = 0  # NO DELAY - TEMPLATE MODE
+        self.batch_size = 100  # Process 100 categories at once for maximum speed
+        self.max_concurrent = 20  # Maximum concurrency
     
     def load_ai_config(self):
         """Load AI configuration from config file"""
@@ -91,7 +93,7 @@ class AICategoryEnhancer:
             model = genai.GenerativeModel('gemini-2.5-flash')
             
             # System prompt for Spanish SEO expert
-            system_prompt = "Eres un experto en SEO y marketing digital para teléfonos móviles dirigidos a personas mayores en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."
+            system_prompt = "Eres un experto en SEO y marketing digital para productos en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -113,15 +115,6 @@ class AICategoryEnhancer:
             safe_print(f"[ERROR] Gemini request failed: {e}")
             return self.get_fallback_response(prompt)
     
-    def get_fallback_response(self, prompt):
-        """Fallback responses when AI service is not available"""
-        if "descripción" in prompt.lower():
-            return "Encuentra los mejores teléfonos móviles para personas mayores. Fáciles de usar, con botones grandes y funciones de emergencia."
-        elif "título" in prompt.lower():
-            return "Teléfonos Móviles para Mayores"
-        elif "faq" in prompt.lower():
-            return '[{"question":"¿Es fácil de usar?","answer":"Sí, muy fácil de usar para personas mayores."}]'
-        return "Teléfonos móviles especialmente diseñados para personas mayores"
     
     def enhance_category_description(self, category_name):
         """Generate SEO-optimized description for a category"""
@@ -186,33 +179,55 @@ Responde SOLO las palabras clave:"""
         """Generate FAQ for a category"""
         keywords = self.get_product_keywords()
         
-        prompt = f"""Crea 3 preguntas FAQ en JSON para: {category_name}
+        prompt = f"""Crea exactamente 3 preguntas FAQ específicas para: {category_name}
 
 REQUISITOS:
-- Preguntas que la gente busca en Google
-- Respuestas cortas (máximo 50 palabras)
-- Enfocarse en beneficios del producto
+- Preguntas que la gente busca en Google sobre {category_name}
+- Respuestas específicas y útiles (máximo 50 palabras)
+- Enfocarse en beneficios específicos del producto
 - Evitar repetición de palabras clave
+- Formato JSON válido OBLIGATORIO
 - Considerar palabras clave: {', '.join(keywords[:2])}
 
-Formato:
-[{{"question":"¿Es fácil de usar?","answer":"Sí, muy fácil..."}},{{"question":"¿Cuánto cuesta?","answer":"Desde 19€..."}}]
+EJEMPLO:
+[
+  {{"question": "¿Cuál es la autonomía del patinete eléctrico?", "answer": "Los patinetes eléctricos tienen autonomía de 15-30km según el modelo y batería."}},
+  {{"question": "¿Es fácil de usar el patinete eléctrico?", "answer": "Sí, los patinetes eléctricos son muy fáciles de usar con aceleración automática."}},
+  {{"question": "¿Hay garantía en los patinetes eléctricos?", "answer": "Sí, todos nuestros patinetes eléctricos incluyen garantía completa de 2 años."}}
+]
 
-Responde SOLO el JSON:"""
+IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
         
-        response = self.get_ai_response(prompt)
+        # Retry up to 3 times to get valid JSON
+        for attempt in range(3):
+            try:
+                response = self.get_ai_response(prompt)
+                
+                # Clean the response - remove any markdown formatting
+                clean_response = response.strip()
+                if clean_response.startswith('```json'):
+                    clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+                elif clean_response.startswith('```'):
+                    clean_response = clean_response.replace('```', '').strip()
+                
+                # Try to find JSON array in the response
+                if '[' in clean_response and ']' in clean_response:
+                    json_match = re.search(r'\[.*\]', clean_response, re.DOTALL)
+                    if json_match:
+                        json_str = json_match.group()
+                        parsed = json.loads(json_str)
+                        if isinstance(parsed, list) and len(parsed) > 0:
+                            safe_print(f"[SUCCESS] Generated {len(parsed)} FAQ items for {category_name}")
+                            return parsed
+                
+                safe_print(f"[RETRY {attempt + 1}/3] Invalid JSON format for {category_name}")
+                safe_print(f"[DEBUG] Response: {response[:200]}...")
+                
+            except Exception as e:
+                safe_print(f"[RETRY {attempt + 1}/3] Exception for {category_name}: {e}")
         
-        # Parse JSON
-        try:
-            if '[' in response and ']' in response:
-                json_match = re.search(r'\[.*\]', response, re.DOTALL)
-                if json_match:
-                    parsed = json.loads(json_match.group())
-                    return parsed if isinstance(parsed, list) and len(parsed) > 0 else self.get_fallback_faq(category_name)
-        except:
-            pass
-        
-        return self.get_fallback_faq(category_name)
+        # If all retries failed, raise an exception
+        raise Exception(f"Failed to generate valid FAQ JSON for {category_name} after 3 attempts")
     
     def generate_category_content(self, category_name):
         """Generate concise SEO content for a category"""
@@ -258,15 +273,6 @@ Responde SOLO el HTML:"""
             
         return response
     
-    def get_fallback_faq(self, category_name):
-        """Fallback FAQ for categories"""
-        default_price = self.get_default_price()
-        
-        return [
-            {"question": "¿Es fácil de usar?", "answer": f"Sí, los {category_name} están diseñados específicamente para facilitar su uso."},
-            {"question": "¿Cuánto cuesta?", "answer": f"Los precios van {default_price}, con envío gratis incluido."},
-            {"question": "¿Tiene garantía?", "answer": "Sí, incluye garantía completa para tu tranquilidad."}
-        ]
     
     def create_category_slug(self, category_name):
         """Create URL-friendly slug from category name"""
@@ -588,30 +594,34 @@ Responde SOLO el HTML:"""
             
             safe_print(f"⚡ Processing batch {batch_num}/{total_batches} ({len(batch)} categories)")
             
-            for category in batch:
-                try:
-                    category_id = category.get('categoryId')
-                    category_name = category.get('categoryNameCanonical', 'Unknown')
-                    
-                    # Generate minimal but effective content
-                    enhanced_category = self.enhance_category_minimal(category)
-                    
-                    # Save individual category file
-                    category_filename = f"{category_id}.json"
-                    category_filepath = os.path.join(self.categories_dir, category_filename)
-                    
-                    with open(category_filepath, 'w', encoding='utf-8') as f:
-                        json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
-                    
-                    enhanced_count += 1
-                    safe_print(f"✅ Enhanced: {category_name}")
-                    
-                    # Minimal delay for maximum speed
-                    time.sleep(0.05)
-                    
-                except Exception as e:
-                    failed_count += 1
-                    safe_print(f"❌ Failed to enhance category {category_id}: {str(e)[:100]}")
+            # Process batch concurrently for maximum speed
+            with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
+                future_to_category = {
+                    executor.submit(self.enhance_category_minimal, category): category 
+                    for category in batch
+                }
+                
+                for future in concurrent.futures.as_completed(future_to_category):
+                    category = future_to_category[future]
+                    try:
+                        enhanced_category = future.result()
+                        
+                        # Save individual category file
+                        category_id = category.get('categoryId')
+                        category_name = category.get('categoryNameCanonical', 'Unknown')
+                        category_filename = f"{category_id}.json"
+                        category_filepath = os.path.join(self.categories_dir, category_filename)
+                        
+                        with open(category_filepath, 'w', encoding='utf-8') as f:
+                            json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
+                        
+                        enhanced_count += 1
+                        safe_print(f"✅ Enhanced: {category_name}")
+                        
+                    except Exception as e:
+                        failed_count += 1
+                        category_id = category.get('categoryId', 'Unknown')
+                        safe_print(f"❌ Failed to enhance category {category_id}: {str(e)[:100]}")
             
             # Progress update
             progress = ((i + len(batch)) / total_categories) * 100
@@ -625,26 +635,157 @@ Responde SOLO el HTML:"""
         safe_print(f"⚡ Optimized for 1000+ categories with minimal content")
     
     def enhance_category_minimal(self, category):
-        """Minimal category enhancement for 1000+ scale - SHORT CONTENT ONLY"""
+        """ULTRA-FAST category enhancement - AI WITH MAXIMUM CONCURRENCY"""
         category_id = category.get('categoryId')
         category_name = category.get('categoryNameCanonical', 'Unknown')
         
-        # Generate minimal but effective content
+        # Generate content using AI with category-specific prompts
         enhanced_category = {
             'categoryId': category_id,
             'name': category_name,
             'slug': self.create_category_slug(category_name),
-            'seo_title': self.enhance_category_title(category_name),
-            'seo_description': self.enhance_category_description(category_name),
-            'keywords': self.enhance_category_keywords(category_name),
-            'faq': self.generate_category_faq(category_name),
-            'content': self.generate_category_content(category_name),
+            'seo_title': self.enhance_category_title_fast(category_name),
+            'seo_description': self.enhance_category_description_fast(category_name),
+            'keywords': self.enhance_category_keywords_fast(category_name),
+            'faq': self.generate_category_faq_fast(category_name),
+            'content': self.generate_category_content_fast(category_name),
             'enhanced': True,
             'enhanced_at': datetime.now().isoformat(),
-            'enhancement_version': 'mega_fast_v1'
+            'enhancement_version': 'ultra_fast_ai_v1'
         }
         
         return enhanced_category
+
+    def enhance_category_title_fast(self, category_name):
+        """Generate SEO title focused ONLY on the specific category"""
+        prompt = f"""Crea un título SEO de máximo 60 caracteres para: "{category_name}"
+
+REGLAS ESTRICTAS:
+- SOLO mencionar productos relacionados con "{category_name}"
+- Incluir beneficio clave específico del producto
+- Usar palabras de acción (Comprar, Descubre, Mejores)
+
+EJEMPLO para "patinete electrico": "Patinetes Eléctricos - Mejor Precio y Calidad"
+Responde SOLO el título:"""
+        
+        return self.get_ai_response(prompt)
+
+    def enhance_category_description_fast(self, category_name):
+        """Generate SEO description focused ONLY on the specific category"""
+        prompt = f"""Crea una descripción SEO de máximo 80 caracteres para: "{category_name}"
+
+REGLAS ESTRICTAS:
+- SOLO mencionar "{category_name}" y productos directamente relacionados
+- Usar emoji ✅
+
+EJEMPLO para "patinete electrico": "Patinetes Eléctricos ✅ Calidad Premium. Desde 19€ ¡Envío Gratis!"
+Responde SOLO la descripción:"""
+        
+        return self.get_ai_response(prompt)
+
+    def enhance_category_keywords_fast(self, category_name):
+        """Generate keywords focused ONLY on the specific category"""
+        prompt = f"""Crea 5 palabras clave SEO para: "{category_name}"
+
+REGLAS ESTRICTAS:
+- SOLO palabras relacionadas con "{category_name}"
+- Formato: lista simple separada por comas
+
+EJEMPLO para "patinete electrico": "patinete electrico, mejor precio patinete, oferta patinete electrico, envio gratis patinete, patinete calidad"
+Responde SOLO las palabras clave separadas por comas:"""
+        
+        response = self.get_ai_response(prompt)
+        return [kw.strip() for kw in response.split(',') if kw.strip()]
+
+    def generate_category_faq_fast(self, category_name):
+        """Generate FAQ focused ONLY on the specific category"""
+        prompt = f"""Crea exactamente 3 preguntas frecuentes específicas para: "{category_name}"
+
+REGLAS ESTRICTAS:
+- SOLO preguntas sobre "{category_name}" y productos directamente relacionados
+- Preguntas que la gente realmente busca en Google
+- Respuestas específicas y útiles (máximo 50 palabras)
+- Formato JSON válido OBLIGATORIO
+- NO usar comillas dobles dentro de las respuestas
+
+EJEMPLO para "patinete electrico":
+[
+  {{"question": "¿Cuál es la autonomía del patinete eléctrico?", "answer": "Los patinetes eléctricos tienen autonomía de 15-30km según el modelo y batería."}},
+  {{"question": "¿Es fácil de usar el patinete eléctrico?", "answer": "Sí, los patinetes eléctricos son muy fáciles de usar con aceleración automática y controles simples."}},
+  {{"question": "¿Hay garantía en los patinetes eléctricos?", "answer": "Sí, todos nuestros patinetes eléctricos incluyen garantía completa de 2 años."}}
+]
+
+IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
+        
+        # Retry up to 3 times to get valid JSON
+        for attempt in range(3):
+            try:
+                response = self.get_ai_response(prompt)
+                
+                # Clean the response - remove any markdown formatting
+                clean_response = response.strip()
+                if clean_response.startswith('```json'):
+                    clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+                elif clean_response.startswith('```'):
+                    clean_response = clean_response.replace('```', '').strip()
+                
+                # Try to find JSON array in the response
+                if '[' in clean_response and ']' in clean_response:
+                    json_match = re.search(r'\[.*\]', clean_response, re.DOTALL)
+                    if json_match:
+                        json_str = json_match.group()
+                        parsed = json.loads(json_str)
+                        if isinstance(parsed, list) and len(parsed) > 0:
+                            safe_print(f"[SUCCESS] Generated {len(parsed)} FAQ items for {category_name}")
+                            return parsed
+                
+                safe_print(f"[RETRY {attempt + 1}/3] Invalid JSON format for {category_name}")
+                safe_print(f"[DEBUG] Response: {response[:200]}...")
+                
+            except Exception as e:
+                safe_print(f"[RETRY {attempt + 1}/3] Exception for {category_name}: {e}")
+        
+        # If all retries failed, raise an exception
+        raise Exception(f"Failed to generate valid FAQ JSON for {category_name} after 3 attempts")
+
+    def generate_category_content_fast(self, category_name):
+        """Generate content focused ONLY on the specific category"""
+        prompt = f"""Crea contenido HTML SEO para: "{category_name}"
+
+REGLAS ESTRICTAS:
+- SOLO escribir sobre "{category_name}" y productos directamente relacionados
+- Incluir H2, H3, lista con características específicas del producto
+- Mencionar precio desde 19€ y envío gratis
+- Máximo 300 palabras
+- Formato HTML válido
+- NO usar ```html o ``` - solo el HTML puro
+
+EJEMPLO para "patinete electrico":
+<div>
+<h2>Los Mejores Patinetes Eléctricos</h2>
+<p>Descubre los mejores <b>patinetes eléctricos</b> con la mejor calidad y precio.</p>
+<h3>Características Principales</h3>
+<ul>
+<li><b>Autonomía Extendida</b>: Hasta 30km de autonomía</li>
+<li><b>Fácil Manejo</b>: Control intuitivo y estable</li>
+<li><b>Plegable</b>: Fácil transporte y almacenamiento</li>
+</ul>
+<p>Desde <b>19€</b> con envío gratis.</p>
+</div>
+
+Responde SOLO el HTML sin ```html:"""
+        
+        response = self.get_ai_response(prompt)
+        
+        # Clean up response - remove ```html and ``` if present
+        if response.startswith('```html'):
+            response = response[7:]  # Remove ```html
+        if response.startswith('```'):
+            response = response[3:]  # Remove ```
+        if response.endswith('```'):
+            response = response[:-3]  # Remove trailing ```
+        
+        return response.strip()
 
     def enhance_specific_categories(self, category_ids):
         """Enhance only specific categories by ID"""

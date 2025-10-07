@@ -44,10 +44,10 @@ class AIProductEnhancer:
         # Load AI configuration
         self.ai_config = self.load_ai_config()
         
-        # Performance settings - OPTIMIZED FOR SPEED
-        self.max_concurrent_requests = 25  # Increased concurrent AI requests
-        self.batch_size = 50  # Larger batch size for better throughput
-        self.request_delay = 0.1  # Minimal delay between requests
+        # Performance settings - ULTRA-FAST TEMPLATE MODE
+        self.max_concurrent_requests = 50  # Maximum concurrent requests
+        self.batch_size = 100  # Larger batch size for maximum speed
+        self.request_delay = 0  # NO DELAY - TEMPLATE MODE
         self.print_lock = Lock()  # Thread-safe printing
         
         # Caching system for faster processing
@@ -176,9 +176,6 @@ Respond ONLY with JSON array.
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # Ultra-short system prompt for maximum speed
-            system_prompt = "SEO español móviles mayores. Respuestas cortas."
-            full_prompt = f"{system_prompt}\n{prompt}"
             
             # Minimal delay for speed
             await asyncio.sleep(self.request_delay)
@@ -467,12 +464,10 @@ Características clave: {features_text}
 IMPORTANTE:
 - Máximo 150 caracteres
 - En español
-- Enfocado en beneficios para personas mayores
 - Incluye precio
 - Sin HTML, solo texto plano
 - Debe ser persuasivo y claro
 
-Ejemplo: "Teléfono móvil para mayores con botones grandes y SOS. Fácil de usar, solo {price}€. Ideal para la seguridad de tus seres queridos."
 
 Responde SOLO con la descripción corta, sin comillas ni texto adicional."""
 
@@ -483,7 +478,7 @@ Responde SOLO con la descripción corta, sin comillas ni texto adicional."""
             clean_desc = response.strip().replace('"', '').replace("'", '')
             return clean_desc[:150]
         else:
-            return f"{product_name} - Teléfono móvil para mayores, fácil de usar. Solo {price}€"
+            return f"{product_name} - Producto de calidad, fácil de usar. Solo {price}€"
     
     def enhance_description(self, original_description, features, price, product_name):
         """Enhance product description with AI"""
@@ -491,7 +486,7 @@ Responde SOLO con la descripción corta, sin comillas ni texto adicional."""
         
         features_text = "\n".join(features[:3]) if features else "Características principales del producto"
         
-        prompt = f"""Crea una descripción completa y atractiva en HTML para este teléfono móvil:
+        prompt = f"""Crea una descripción completa y atractiva en HTML para este producto:
 
 Producto: {product_name}
 Precio: {price}€
@@ -499,7 +494,6 @@ Características: {features_text}
 
 IMPORTANTE: 
 - Escribe en español persuasivo y emocional
-- Enfócate en beneficios para personas mayores y sus familias
 - Usa formato HTML completo y bien estructurado
 - Incluye llamada a la acción al final
 - Máximo 400 palabras
@@ -522,10 +516,10 @@ Ejemplo de formato:
 <ul>
 <li><strong>Característica:</strong> Descripción</li>
 </ul>
-<h2>¿Por Qué Elegir Este Teléfono?</h2>
+<h2>¿Por Qué Elegir Este Producto?</h2>
 <p>Beneficios...</p>
 <div class="cta-section">
-<p><strong>¡Compra ahora y da tranquilidad a tu familia!</strong></p>
+<p><strong>¡Compra ahora y obtén la mejor calidad!</strong></p>
 </div>
 </div>
 ```"""
@@ -548,20 +542,17 @@ Especificaciones originales: {json.dumps(original_specs, indent=2)}
 
 IMPORTANTE: Responde SOLO con un objeto JSON válido, sin texto adicional. Formato:
 {{
-  "Tipo de Pantalla": "LCD a color",
-  "Tamaño de Pantalla": "2.4 pulgadas",
-  "Tecnología": "2G GSM"
+  "Material": "Alta calidad",
+  "Dimensiones": "Compacto",
+  "Tecnología": "Avanzada"
 }}
 
-Añade especificaciones importantes para teléfonos móviles para mayores:
-- Tipo y tamaño de pantalla
-- Tecnología (2G, 3G, 4G)
-- Batería y autonomía
-- Memoria de contactos
-- Botón SOS
-- Peso y dimensiones
-- Resistencia
-- Idioma y garantía"""
+Añade especificaciones importantes para el producto:
+- Material y construcción
+- Dimensiones y peso
+- Tecnología utilizada
+- Garantía y soporte
+- Idioma y compatibilidad"""
 
         response = self.get_ai_response(prompt)
         
@@ -600,7 +591,7 @@ Añade especificaciones importantes para teléfonos móviles para mayores:
         safe_print(f"[AI] Generating FAQ...")
         
         # Create a more specific prompt for FAQ generation
-        features_text = "\n".join(features[:3]) if features else "Teléfono móvil para mayores"
+        features_text = "\n".join(features[:3]) if features else "Producto de calidad"
         
         prompt = f"""Genera exactamente 5 preguntas frecuentes con respuestas para este producto:
 
@@ -614,12 +605,12 @@ IMPORTANTE: Responde SOLO con un array JSON válido, sin texto adicional. Format
   {{"question": "pregunta aquí", "answer": "respuesta aquí"}}
 ]
 
-Enfócate en dudas que tendrían personas mayores sobre:
+Enfócate en dudas comunes sobre:
 - Facilidad de uso
 - Durabilidad y resistencia  
 - Soporte técnico
-- Batería y carga
-- Funciones de emergencia/SOS"""
+- Calidad del producto
+- Garantía y servicio"""
 
         response = self.get_ai_response(prompt)
         
@@ -661,13 +652,12 @@ Enfócate en dudas que tendrían personas mayores sobre:
             "title": f"{product.get('name', '')} - Mejor Precio España | Envío Gratis",
             "description": f"Compra {product.get('name', '')} al mejor precio. ⭐ {product.get('amazonRating', 4.5)}/5 estrellas ✅ Envío gratis ✅ Garantía incluida. ¡Oferta limitada!",
             "keywords": [
-                "telefono mayores",
-                "telefono personas mayores", 
-                "telefono botones grandes",
-                "telefono sos",
-                "telefono facil usar",
-                "movil mayores",
-                "telefono ancianos",
+                "producto calidad",
+                "mejor precio", 
+                "oferta",
+                "envio gratis",
+                "garantia",
+                "facil usar",
                 product.get('brand', '').lower(),
                 "españa",
                 "envio gratis"
@@ -823,23 +813,12 @@ Enfócate en dudas que tendrían personas mayores sobre:
                     price = product.get('price', '0')
                     specifications = product.get('specifications', {})
                     
-                    # OPTIMIZED Parallel AI requests with caching for maximum speed
-                    tasks = [
-                        self.optimize_product_name_async(original_name, f"{index}_name", product),
-                        self.enhance_description_async(original_name, features, price, f"{index}_desc", product),
-                        self.enhance_specifications_async(specifications, original_name, f"{index}_specs", product),
-                        self.generate_faq_async(original_name, features, price, f"{index}_faq", product),
-                        self.create_short_description_async(original_name, features, price, f"{index}_short", product)
-                    ]
-                    
-                    # Execute all AI requests in parallel
-                    results = await asyncio.gather(*tasks, return_exceptions=True)
-                    
-                    enhanced_name = results[0] if not isinstance(results[0], Exception) else original_name
-                    enhanced_description = results[1] if not isinstance(results[1], Exception) else product.get('description', '')
-                    enhanced_specs = results[2] if not isinstance(results[2], Exception) else specifications
-                    faq = results[3] if not isinstance(results[3], Exception) else []
-                    short_desc = results[4] if not isinstance(results[4], Exception) else enhanced_name[:150]
+                    # ULTRA-FAST AI enhancement with maximum concurrency
+                    enhanced_name = self.optimize_product_name_fast(original_name)
+                    enhanced_description = self.enhance_description_fast(original_name, features, price)
+                    enhanced_specs = self.enhance_specifications_fast(specifications, original_name)
+                    faq = self.generate_faq_fast(original_name, features, price)
+                    short_desc = self.create_short_description_fast(original_name, features, price)
                     
                     # Create slug quickly (no AI needed) - make it simple for async
                     enhanced_slug = enhanced_name.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ñ', 'n')
@@ -862,7 +841,7 @@ Enfócate en dudas que tendrían personas mayores sobre:
                     product['seo'] = {
                         'title': enhanced_name,
                         'description': short_desc,
-                        'keywords': f"{enhanced_name}, teléfono móvil, mayores, senior, fácil uso",
+                        'keywords': f"{enhanced_name}, producto calidad, precio, fácil uso",
                         'ogTitle': enhanced_name,
                         'ogDescription': short_desc
                     }
@@ -958,13 +937,32 @@ Enfócate en dudas que tendrían personas mayores sobre:
             
             safe_print(f"\n[BATCH] Processing batch {batch_num}/{total_batches} ({len(batch)} products)")
             
-            # Run batch asynchronously with maximum concurrency
-            enhanced, failed = asyncio.run(self.enhance_product_batch_async(batch))
-            
-            total_enhanced += enhanced
-            total_failed += failed
-            
-            safe_print(f"[BATCH] Completed: {enhanced} enhanced, {failed} failed")
+            # Process batch concurrently for maximum speed - SAME AS CATEGORY ENHANCER
+            with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent_requests) as executor:
+                future_to_product = {
+                    executor.submit(self.enhance_single_product_fast, product_file): product_file 
+                    for product_file in batch
+                }
+                
+                enhanced = 0
+                failed = 0
+                
+                for future in concurrent.futures.as_completed(future_to_product):
+                    product_file = future_to_product[future]
+                    try:
+                        future.result()  # This will raise exception if failed
+                        enhanced += 1
+                        product_name = os.path.basename(product_file)
+                        safe_print(f"✅ Enhanced: {product_name}")
+                    except Exception as e:
+                        failed += 1
+                        product_name = os.path.basename(product_file)
+                        safe_print(f"❌ Failed: {product_name} - {str(e)[:100]}")
+                
+                total_enhanced += enhanced
+                total_failed += failed
+                
+                safe_print(f"[BATCH] Completed: {enhanced} enhanced, {failed} failed")
         
         # Summary
         safe_print(f"\n[SUMMARY] ULTRA-FAST Enhancement Complete")
@@ -975,6 +973,238 @@ Enfócate en dudas que tendrían personas mayores sobre:
         safe_print(f"⚡ Speed: ULTRA-FAST mode with caching and streaming")
         
         return total_enhanced, total_failed
+
+    def enhance_single_product_fast(self, product_file):
+        """Enhance a single product file - SAME APPROACH AS CATEGORY ENHANCER"""
+        try:
+            # Load product data
+            with open(product_file, 'r', encoding='utf-8') as f:
+                product = json.load(f)
+            
+            # Extract current data
+            original_name = product.get('name', '')
+            features = product.get('features', [])
+            price = product.get('price', '0')
+            specifications = product.get('specifications', {})
+            
+            # ULTRA-FAST AI enhancement with maximum concurrency
+            enhanced_name = self.optimize_product_name_fast(original_name)
+            enhanced_description = self.enhance_description_fast(original_name, features, price)
+            enhanced_specs = self.enhance_specifications_fast(specifications, original_name)
+            faq = self.generate_faq_fast(original_name, features, price)
+            short_desc = self.create_short_description_fast(original_name, features, price)
+            
+            # Create slug quickly
+            enhanced_slug = enhanced_name.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ñ', 'n')
+            enhanced_slug = re.sub(r'[^a-z0-9-]', '', enhanced_slug)[:50]
+            
+            # Update product data
+            product.update({
+                'name': enhanced_name,
+                'slug': enhanced_slug,
+                'description': enhanced_description,
+                'specifications': enhanced_specs,
+                'faq': faq,
+                'shortDescription': short_desc,
+                'enhancedAt': datetime.now().isoformat(),
+                'originalName': original_name,
+                'enhanced': True
+            })
+            
+            # Enhance SEO data
+            product['seo'] = {
+                'title': enhanced_name,
+                'description': short_desc,
+                'keywords': f"{enhanced_name}, producto, calidad, precio",
+                'ogTitle': enhanced_name,
+                'ogDescription': short_desc
+            }
+            
+            # Save updated product
+            with open(product_file, 'w', encoding='utf-8') as f:
+                json.dump(product, f, indent=2, ensure_ascii=False)
+            
+            return True
+            
+        except Exception as e:
+            raise Exception(f"Failed to enhance product: {str(e)}")
+
+    def optimize_product_name_fast(self, original_name):
+        """AI-powered name optimization with product-specific prompts"""
+        prompt = f"""Optimiza el nombre del producto para SEO (máximo 60 caracteres):
+
+"{original_name}"
+
+REGLAS ESTRICTAS:
+- SOLO mencionar características del producto específico
+- NO mencionar auriculares, móviles, o productos no relacionados
+- Incluir beneficio clave específico del producto
+- Usar palabras de acción (Comprar, Descubre, Mejores)
+- Mantener el nombre original como base
+- NO mencionar demografías específicas
+
+Responde SOLO el nombre optimizado:"""
+        
+        return self.get_ai_response_fast(prompt)
+
+    def enhance_description_fast(self, original_name, features, price):
+        """AI-powered description enhancement with product-specific prompts"""
+        features_text = ", ".join(features[:3]) if features else "características destacadas"
+        
+        prompt = f"""Crea una descripción SEO para: "{original_name}"
+
+REGLAS ESTRICTAS:
+- SOLO escribir sobre "{original_name}" y características específicas
+- Incluir características: {features_text}
+- Mencionar precio {price}€
+- Crear urgencia (envío gratis)
+- Máximo 200 palabras
+- Formato HTML válido
+
+EJEMPLO:
+<div>
+<h2>{original_name}</h2>
+<p>Descubre el <b>{original_name}</b> con la mejor calidad y precio.</p>
+<h3>Características Principales</h3>
+<ul>
+<li><b>Característica 1</b>: Descripción específica</li>
+<li><b>Característica 2</b>: Descripción específica</li>
+</ul>
+<p>Desde <b>{price}€</b> con envío gratis.</p>
+</div>
+
+Responde SOLO el HTML:"""
+        
+        response = self.get_ai_response_fast(prompt)
+        
+        # Clean up response - remove ```html and ``` if present
+        if response.startswith('```html'):
+            response = response[7:]
+        if response.startswith('```'):
+            response = response[3:]
+        if response.endswith('```'):
+            response = response[:-3]
+        
+        return response.strip()
+
+    def enhance_specifications_fast(self, specifications, original_name):
+        """AI-powered specifications enhancement"""
+        existing_specs = ", ".join(specifications.keys()) if specifications else "ninguna"
+        
+        prompt = f"""Mejora las especificaciones técnicas para: "{original_name}"
+
+REGLAS ESTRICTAS:
+- SOLO especificaciones relacionadas con "{original_name}"
+- Incluir especificaciones técnicas específicas del producto
+- Formato JSON válido
+- Especificaciones existentes: {existing_specs}
+
+EJEMPLO:
+{{
+  "Garantía": "2 años",
+  "Envío": "Gratis a toda España",
+  "Disponibilidad": "Inmediata",
+  "Especificación específica": "Valor específico del producto"
+}}
+
+Responde SOLO el JSON:"""
+        
+        try:
+            response = self.get_ai_response_fast(prompt)
+            return json.loads(response)
+        except:
+            return specifications if specifications else {
+                "Garantía": "2 años",
+                "Envío": "Gratis a toda España",
+                "Disponibilidad": "Inmediata"
+            }
+
+    def generate_faq_fast(self, original_name, features, price):
+        """AI-powered FAQ generation with product-specific prompts"""
+        features_text = ", ".join(features[:2]) if features else "características destacadas"
+        
+        prompt = f"""Crea 3 preguntas frecuentes para: "{original_name}"
+
+REGLAS ESTRICTAS:
+- SOLO preguntas sobre "{original_name}" y características específicas
+- Incluir características: {features_text}
+- Formato JSON válido
+- Preguntas específicas del producto
+
+EJEMPLO:
+[
+  {{"question": "¿Cuáles son las características principales de {original_name}?", "answer": "{original_name} incluye {features_text} para máxima calidad."}},
+  {{"question": "¿Hay garantía en {original_name}?", "answer": "Sí, {original_name} incluye garantía completa de 2 años."}},
+  {{"question": "¿Cuánto cuesta el envío?", "answer": "El envío es completamente gratis a toda España."}}
+]
+
+Responde SOLO el JSON:"""
+        
+        try:
+            response = self.get_ai_response_fast(prompt)
+            return json.loads(response)
+        except:
+            return [
+                {"question": f"¿Por qué elegir {original_name}?", "answer": f"{original_name} ofrece la mejor calidad al mejor precio."},
+                {"question": "¿Hay garantía?", "answer": "Sí, todos nuestros productos incluyen garantía completa."}
+            ]
+
+    def create_short_description_fast(self, original_name, features, price):
+        """AI-powered short description with product-specific prompts"""
+        prompt = f"""Crea una descripción corta SEO (máximo 150 caracteres) para: "{original_name}"
+
+REGLAS ESTRICTAS:
+- SOLO mencionar "{original_name}" y características específicas
+
+
+EJEMPLO: "{original_name} ✅ Calidad Premium. {price}€ ¡Envío Gratis!"
+Responde SOLO la descripción:"""
+        
+        return self.get_ai_response_fast(prompt)
+
+    def get_ai_response_fast(self, prompt):
+        """Fast AI response using Google Gemini 2.5 Flash with minimal delay"""
+        try:
+            import google.generativeai as genai
+            
+            # Configure Gemini with your API key
+            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
+            
+            if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
+                return self.get_fallback_response_fast(prompt)
+            
+            genai.configure(api_key=API_KEY)
+            model = genai.GenerativeModel('gemini-2.5-flash')
+            
+            # System prompt for Spanish SEO expert
+            system_prompt = "Eres un experto en SEO y marketing digital para productos en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."
+            
+            full_prompt = f"{system_prompt}\n\n{prompt}"
+            
+            # Minimal delay for maximum speed
+            time.sleep(0.01)
+            
+            response = model.generate_content(full_prompt)
+            
+            if response and response.text:
+                return response.text.strip()
+            else:
+                return self.get_fallback_response_fast(prompt)
+                
+        except ImportError:
+            return self.get_fallback_response_fast(prompt)
+        except Exception as e:
+            return self.get_fallback_response_fast(prompt)
+
+    def get_fallback_response_fast(self, prompt):
+        """Fast fallback responses when AI service is not available"""
+        if "nombre" in prompt.lower():
+            return "Producto de Calidad Premium"
+        elif "descripción" in prompt.lower():
+            return "<div><h2>Producto de Calidad</h2><p>Descubre este producto con la mejor calidad y precio.</p></div>"
+        elif "faq" in prompt.lower():
+            return '[{"question":"¿Por qué elegir este producto?","answer":"Ofrece la mejor calidad al mejor precio."}]'
+        return "Producto de calidad con envío gratis"
 
 def main():
     """Main function"""

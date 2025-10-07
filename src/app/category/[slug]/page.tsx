@@ -277,88 +277,8 @@ const CategoryPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Subcategories Section (if any) */}
-      {categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 0 && (
-        <div className="bg-gradient-to-br from-slate-50/50 via-white to-slate-50/30 py-12 border-b border-slate-200/60">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-8">
-              <h2 className="text-2xl lg:text-3xl font-extralight text-slate-900 mb-3 tracking-wide">
-                {getString('categories.exploreBySpecialty')}
-              </h2>
-              <p className="text-slate-600 font-light">
-                {getString('categories.refineSearch')}
-              </p>
-            </div>
-            
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-              {categories
-                .filter(cat => cat.parentCategoryId === category.categoryId)
-                .map((subcategory) => {
-                  // Get subcategory icon based on name
-                  const getSubcategoryIcon = (categoryName: string) => {
-                    const name = categoryName.toLowerCase();
-                    if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-                      return <Grid3X3 className="w-5 h-5 text-purple-600" />;
-                    }
-                    if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-                      return <Star className="w-5 h-5 text-blue-600" />;
-                    }
-                    if (name.includes('bébé') || name.includes('enfant')) {
-                      return <Star className="w-5 h-5 text-pink-600" />;
-                    }
-                    if (name.includes('kawaii') || name.includes('mignon')) {
-                      return <Star className="w-5 h-5 text-amber-600" />;
-                    }
-                    return <Star className="w-5 h-5 text-slate-600" />;
-                  };
-
-                  const getSubcategoryGradient = (categoryName: string) => {
-                    const name = categoryName.toLowerCase();
-                    if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-                      return 'from-purple-100 to-indigo-100';
-                    }
-                    if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-                      return 'from-blue-100 to-cyan-100';
-                    }
-                    if (name.includes('bébé') || name.includes('enfant')) {
-                      return 'from-pink-100 to-rose-100';
-                    }
-                    if (name.includes('kawaii') || name.includes('mignon')) {
-                      return 'from-amber-100 to-yellow-100';
-                    }
-                    return 'from-slate-100 to-slate-200';
-                  };
-                  
-                  return (
-                    <Link
-                      key={subcategory.categoryId}
-                      href={`/category/${subcategory.slug}`}
-                      className="group block"
-                    >
-                      <div className="bg-white rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-slate-200/60 hover:border-slate-300/60 hover:-translate-y-1">
-                        <div className="text-center space-y-3">
-                          <div className={`w-12 h-12 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical)} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-sm`}>
-                            {getSubcategoryIcon(subcategory.categoryNameCanonical)}
-                          </div>
-                          <div>
-                            <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
-                              {subcategory.categoryNameCanonical}
-                            </h3>
-                            <p className="text-xs text-slate-500 mt-1">
-                              {getString('categories.viewCollection')}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  );
-                })}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Products Section */}
+      {/* Products Section - Show for ALL categories with products */}
+      {filteredProducts.length > 0 && (
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
         {/* Filters and Controls */}
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-8 space-y-4 lg:space-y-0">
@@ -576,6 +496,88 @@ const CategoryPage: React.FC = () => {
           </div>
         )}
       </div>
+      )}
+
+      {/* Subcategories Section (if any) - Show AFTER products */}
+      {categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 0 && (
+        <div className="bg-gradient-to-br from-slate-50/50 via-white to-slate-50/30 py-12 border-b border-slate-200/60">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-8">
+              <h2 className="text-2xl lg:text-3xl font-extralight text-slate-900 mb-3 tracking-wide">
+                {getString('categories.exploreBySpecialty')}
+              </h2>
+              <p className="text-slate-600 font-light">
+                {getString('categories.refineSearch')}
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {categories
+                .filter(cat => cat.parentCategoryId === category.categoryId)
+                .map((subcategory) => {
+                  // Get subcategory icon based on name
+                  const getSubcategoryIcon = (categoryName: string) => {
+                    const name = categoryName.toLowerCase();
+                    if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
+                      return <Grid3X3 className="w-5 h-5 text-purple-600" />;
+                    }
+                    if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
+                      return <Star className="w-5 h-5 text-blue-600" />;
+                    }
+                    if (name.includes('bébé') || name.includes('enfant')) {
+                      return <Star className="w-5 h-5 text-pink-600" />;
+                    }
+                    if (name.includes('kawaii') || name.includes('mignon')) {
+                      return <Star className="w-5 h-5 text-amber-600" />;
+                    }
+                    return <Star className="w-5 h-5 text-slate-600" />;
+                  };
+
+                  const getSubcategoryGradient = (categoryName: string) => {
+                    const name = categoryName.toLowerCase();
+                    if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
+                      return 'from-purple-100 to-indigo-100';
+                    }
+                    if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
+                      return 'from-blue-100 to-cyan-100';
+                    }
+                    if (name.includes('bébé') || name.includes('enfant')) {
+                      return 'from-pink-100 to-rose-100';
+                    }
+                    if (name.includes('kawaii') || name.includes('mignon')) {
+                      return 'from-amber-100 to-yellow-100';
+                    }
+                    return 'from-slate-100 to-slate-200';
+                  };
+                  
+                  return (
+                    <Link
+                      key={subcategory.categoryId}
+                      href={`/category/${subcategory.slug}`}
+                      className="group block"
+                    >
+                      <div className="bg-white rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-slate-200/60 hover:border-slate-300/60 hover:-translate-y-1">
+                        <div className="text-center space-y-3">
+                          <div className={`w-12 h-12 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical)} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-sm`}>
+                            {getSubcategoryIcon(subcategory.categoryNameCanonical)}
+                          </div>
+                          <div>
+                            <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
+                              {subcategory.categoryNameCanonical}
+                            </h3>
+                            <p className="text-xs text-slate-500 mt-1">
+                              {getString('categories.viewCollection')}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  );
+                })}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Enhanced SEO Content Section */}
       {category?.content && (
@@ -643,7 +645,7 @@ const CategoryPage: React.FC = () => {
       )}
 
       {/* Customer Reviews */}
-      <Reviews limit={6} showTitle={true} />
+      <Reviews limit={6} />
     </Layout>
   );
 };

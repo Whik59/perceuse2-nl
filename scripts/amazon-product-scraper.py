@@ -888,7 +888,7 @@ class AmazonScraper:
         safe_print(f"\n[SUCCESS] Sample Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
         
-        self.save_results("sample")
+        # self.save_results("sample")  # DISABLED - No more progress files
     
     def scrape_all_categories(self):
         """Scrape all categories"""
@@ -904,9 +904,9 @@ class AmazonScraper:
                 products = self.scrape_category_products(category)
                 total_products += len(products)
                 
-                # Save progress every 10 categories
-                if i % 10 == 0:
-                    self.save_results(f"progress_{i}")
+                # Save progress every 10 categories - DISABLED
+                # if i % 10 == 0:
+                #     self.save_results(f"progress_{i}")
                 
                 # Rest between categories (reduced for speed)
                 time.sleep(random.uniform(2, 5))
@@ -918,7 +918,7 @@ class AmazonScraper:
         safe_print(f"\n[SUCCESS] Full Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
         
-        self.save_results("final")
+        # self.save_results("final")  # DISABLED - No more progress files
     
     def save_individual_product(self, product, category):
         """Save individual product immediately to avoid data loss"""
