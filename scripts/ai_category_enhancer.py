@@ -21,10 +21,10 @@ def safe_print(message):
 
 class AICategoryEnhancer:
     def __init__(self):
-        self.categories_file = "../data/categories.json"
-        self.categories_dir = "../data/categories"
-        self.backup_dir = "../backups"
-        self.config_file = "../scripts/ai-config.json"
+        self.categories_file = "data/categories.json"
+        self.categories_dir = "data/categories"
+        self.backup_dir = "backups"
+        self.config_file = "scripts/ai-config.json"
         
         # Create directories if they don't exist
         os.makedirs(self.categories_dir, exist_ok=True)
@@ -276,6 +276,20 @@ Responde SOLO el HTML:"""
         slug = re.sub(r'\s+', '-', slug)
         slug = slug.strip('-')
         return slug
+    
+    def load_categories(self):
+        """Load categories from the categories.json file"""
+        if not os.path.exists(self.categories_file):
+            safe_print(f"[ERROR] Categories file not found: {self.categories_file}")
+            return []
+        
+        try:
+            with open(self.categories_file, 'r', encoding='utf-8') as f:
+                categories = json.load(f)
+            return categories
+        except Exception as e:
+            safe_print(f"[ERROR] Failed to load categories: {str(e)}")
+            return []
     
     def test_single_category(self):
         """Test enhancement on a single category"""
@@ -577,7 +591,7 @@ Responde SOLO el HTML:"""
             for category in batch:
                 try:
                     category_id = category.get('categoryId')
-                    category_name = category.get('name', 'Unknown')
+                    category_name = category.get('categoryNameCanonical', 'Unknown')
                     
                     # Generate minimal but effective content
                     enhanced_category = self.enhance_category_minimal(category)
@@ -613,7 +627,7 @@ Responde SOLO el HTML:"""
     def enhance_category_minimal(self, category):
         """Minimal category enhancement for 1000+ scale - SHORT CONTENT ONLY"""
         category_id = category.get('categoryId')
-        category_name = category.get('name', 'Unknown')
+        category_name = category.get('categoryNameCanonical', 'Unknown')
         
         # Generate minimal but effective content
         enhanced_category = {
