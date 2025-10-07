@@ -10,8 +10,8 @@ const config = getSiteConfig();
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: `Politique de Confidentialité | ${config.siteName}`,
-  description: `Découvrez comment nous protégeons vos données personnelles. Notre politique de confidentialité détaillée pour ${config.siteName}.`,
+  title: `${getString('privacy.title')} | ${config.siteName}`,
+  description: `${getString('privacy.introduction')} ${getString('privacy.title')} detallada para ${config.siteName}.`,
   robots: 'index, follow',
 };
 

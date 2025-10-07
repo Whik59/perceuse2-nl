@@ -24,12 +24,12 @@ import {
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Móviles Senior'} - Categorías | Teléfonos Móviles Premium`,
-  description: 'Descubre nuestra amplia gama de teléfonos móviles premium. Categorías especializadas para personas mayores. Calidad excepcional y envío Amazon.',
-  keywords: ['teléfonos móviles', 'categorías', 'teléfonos para mayores', 'móviles senior', 'smartphones', 'calidad premium'],
+  title: `${process.env.NEXT_PUBLIC_SITE_NAME || getString('common.siteName')} - ${getString('categories.title')} | ${getString('common.siteName')}`,
+  description: getString('categories.hero.subtitle') + '. ' + getString('categories.subtitle') + '. ' + getString('common.qualityExceptional') + ' y ' + getString('common.amazonShipping') + '.',
+  keywords: ['patinetes eléctricos', 'categorías', 'patinetes', 'movilidad urbana', 'scooters eléctricos', 'calidad premium'],
   openGraph: {
-    title: `${process.env.NEXT_PUBLIC_SITE_NAME || 'Móviles Senior'} - Categorías`,
-    description: 'Descubre nuestra amplia gama de teléfonos móviles premium con envío Amazon.',
+    title: `${process.env.NEXT_PUBLIC_SITE_NAME || getString('common.siteName')} - ${getString('categories.title')}`,
+    description: getString('categories.hero.subtitle') + ' con ' + getString('common.amazonShipping') + '.',
     type: 'website',
   }
 };
@@ -38,8 +38,7 @@ export const metadata: Metadata = {
 const CategoryCard: React.FC<{ 
   category: Category; 
   subcategories: Category[];
-  categoryProducts: string[];
-}> = async ({ category, subcategories, categoryProducts }) => {
+}> = async ({ category, subcategories }) => {
   // Get category icon based on name
   const getCategoryIcon = (categoryName: string) => {
     const name = categoryName.toLowerCase();
@@ -83,28 +82,8 @@ const CategoryCard: React.FC<{
     return 'text-amber-600';
   };
 
-  // Load sample product images for the category
-  const productImages: string[] = [];
-  
-  try {
-    // Get up to 4 product images for this category
-    const sampleProducts = categoryProducts.slice(0, 4);
-    for (const productSlug of sampleProducts) {
-      try {
-        const product = await getProductBySlug(productSlug);
-        if (product && product.imagePaths && product.imagePaths.length > 0) {
-          productImages.push(product.imagePaths[0]);
-        }
-      } catch (error) {
-        console.error(`Error loading product ${productSlug}:`, error);
-      }
-    }
-  } catch (error) {
-    console.error(`Error loading products for category ${category.categoryId}:`, error);
-  }
-
-  // If we have products, show image grid, otherwise show icon
-  const showImageGrid = productImages.length >= 2;
+  // For now, always show icon instead of product images
+  const showImageGrid = false;
 
   return (
     <Link
@@ -120,22 +99,8 @@ const CategoryCard: React.FC<{
           <div className="flex items-center justify-center mb-6">
             {showImageGrid ? (
               <div className="grid grid-cols-2 gap-2 w-24 h-24">
-                {productImages.slice(0, 4).map((imagePath, index) => (
-                  <div
-                    key={index}
-                    className="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg overflow-hidden"
-                  >
-                    <Image
-                      src={imagePath}
-                      alt={`Product ${index + 1}`}
-                      width={48}
-                      height={48}
-                      className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110"
-                    />
-                  </div>
-                ))}
-                {/* Fill remaining slots if needed */}
-                {[...Array(Math.max(0, 4 - productImages.length))].map((_, index) => (
+                {/* Placeholder for future product images */}
+                {[...Array(4)].map((_, index) => (
                   <div
                     key={`empty-${index}`}
                     className="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg flex items-center justify-center"
@@ -171,7 +136,7 @@ const CategoryCard: React.FC<{
               </p>
             ) : (
               <p className="text-sm text-slate-600 font-medium">
-                {categoryProducts.length} {getString('categories.products')}
+                {(category as any).recommended_products || 0} {getString('categories.products')}
               </p>
             )}
 
@@ -202,15 +167,10 @@ const CategoryCard: React.FC<{
 const CategoriesPage: React.FC = async () => {
   // Load categories on server side
   let categories: Category[] = [];
-  let categoryProductIndex: Record<number, string[]> = {};
   
   try {
-    const [categoriesData, indexData] = await Promise.all([
-      import('../../../data/categories.json'),
-      import('../../../data/indices/category-products.json')
-    ]);
+    const categoriesData = await import('../../../data/categories.json');
     categories = categoriesData.default;
-    categoryProductIndex = indexData.default;
   } catch (error) {
     console.error('Error loading categories:', error);
   }
@@ -288,14 +248,12 @@ const CategoriesPage: React.FC = async () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
               {parentCategories.map((category) => {
                 const subcategories = getSubcategories(category.categoryId);
-                const categoryProducts = categoryProductIndex[category.categoryId] || [];
                 
                 return (
                   <CategoryCard
                     key={category.categoryId}
                     category={category}
                     subcategories={subcategories}
-                    categoryProducts={categoryProducts}
                   />
                 );
               })}
@@ -315,7 +273,6 @@ const CategoriesPage: React.FC = async () => {
 
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                   {categories.filter(cat => cat.parentCategoryId !== null).map((subcategory) => {
-                    const categoryProducts = categoryProductIndex[subcategory.categoryId] || [];
                     
                     // Get subcategory icon based on name
                     const getSubcategoryIcon = (categoryName: string) => {
@@ -367,7 +324,7 @@ const CategoriesPage: React.FC = async () => {
                                       {subcategory.categoryNameCanonical}
                                     </h3>
                             <p className="text-xs text-slate-600">
-                              {categoryProducts.length} {getString('categories.products')}
+                              {(subcategory as any).recommended_products || 0} {getString('categories.products')}
                             </p>
                       </div>
                         </div>
@@ -410,7 +367,7 @@ const CategoriesPage: React.FC = async () => {
 
         {/* Reviews Section */}
         <div className="border-t border-slate-200/60">
-          <Reviews limit={6} showTitle={true} />
+          <Reviews limit={6} />
         </div>
       </div>
     </Layout>

@@ -32,7 +32,7 @@ const Reviews: React.FC<ReviewsProps> = ({
   useEffect(() => {
     const loadReviews = async () => {
       try {
-        const response = await import('../data/reviews.json');
+        const response = await import('../locales/reviews.json');
         const data = response.default as ReviewsData;
         setReviewsData(data);
         // Shuffle and limit reviews

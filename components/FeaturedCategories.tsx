@@ -173,13 +173,13 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
         <div className="text-center mb-12 lg:mb-16">
           <div className="inline-flex items-center bg-gradient-to-r from-slate-100/80 via-white/90 to-slate-100/80 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-lg border border-slate-200/50 mb-6">
             <Sparkles className="w-4 h-4 text-slate-600 mr-2" />
-            <span className="text-sm font-semibold text-slate-700 tracking-wider uppercase">Collections</span>
+            <span className="text-sm font-semibold text-slate-700 tracking-wider uppercase">{getString('categories.collections')}</span>
           </div>
           <h2 className="text-3xl lg:text-4xl font-extralight text-slate-900 mb-4 tracking-wide">
-            Catégories les plus populaires
+            {getString('categories.mostPopularCategories')}
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">
-            Découvrez nos collections soigneusement sélectionnées pour tous les âges et tous les goûts
+            {getString('categories.discoverCollections')}
           </p>
         </div>
 
@@ -281,7 +281,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
             href="/categories"
             className="inline-flex items-center text-slate-700 hover:text-slate-900 font-semibold transition-all duration-300 group bg-white/80 backdrop-blur-sm px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl border border-slate-200/50 hover:border-slate-300/50"
           >
-            <span className="tracking-wide">Voir toutes les catégories</span>
+            <span className="tracking-wide">{getString('categories.viewAllCategories')}</span>
             <ChevronRight className="w-5 h-5 ml-3 group-hover:translate-x-2 transition-transform duration-300" />
           </Link>
         </div>

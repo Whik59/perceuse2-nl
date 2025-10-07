@@ -6,6 +6,12 @@ const productsDirectory = path.join(process.cwd(), 'data/products');
 
 export const getProducts = (): Product[] => {
   try {
+    // Check if products directory exists
+    if (!fs.existsSync(productsDirectory)) {
+      console.log(`Products directory not found at ${productsDirectory}`);
+      return [];
+    }
+
     const filenames = fs.readdirSync(productsDirectory);
 
     const products = filenames.map((filename) => {

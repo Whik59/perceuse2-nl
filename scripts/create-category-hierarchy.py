@@ -150,7 +150,7 @@ def create_category_json_structure(hierarchy, all_categories):
 def save_backup(data, filename):
     """Save a backup of the data with timestamp"""
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    backup_dir = "../backups"
+    backup_dir = "backups"
     
     if not os.path.exists(backup_dir):
         os.makedirs(backup_dir)
@@ -171,9 +171,9 @@ def main():
     print("🏗️  Starting Category Hierarchy Builder...")
     
     # File paths
-    categories_file = "../data/category_keywords.txt"
-    subcategories_file = "../data/subcategory_keywords.txt"
-    output_file = "../data/categories.json"
+    categories_file = "data/category_keywords.txt"
+    subcategories_file = "data/subcategory_keywords.txt"
+    output_file = "data/categories.json"
     
     # Load data
     print("📖 Loading category keywords...")
@@ -246,17 +246,7 @@ def main():
             json.dump(categories_json, f, indent=2, ensure_ascii=False)
         print("✅ Categories saved successfully!")
         
-        # Also save a copy in locales directory for backward compatibility
-        locales_output = "../locales/categories.json"
-        try:
-            # Ensure locales directory exists
-            os.makedirs(os.path.dirname(locales_output), exist_ok=True)
-            with open(locales_output, 'w', encoding='utf-8') as f:
-                json.dump(categories_json, f, indent=2, ensure_ascii=False)
-            print(f"✅ Copy saved to {locales_output}")
-        except Exception as e:
-            print(f"⚠️ Could not save copy to locales: {e}")
-            print("   (This is not critical - main file saved successfully)")
+        # Note: Not saving to locales/categories.json as requested
         
     except Exception as e:
         print(f"❌ Failed to save hierarchy: {e}")

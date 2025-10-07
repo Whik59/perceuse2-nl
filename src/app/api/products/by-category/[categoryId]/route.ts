@@ -10,14 +10,28 @@ export async function GET(
     const resolvedParams = await params;
     const categoryId = parseInt(resolvedParams.categoryId);
 
-    // Load the category-products mapping
+    // Check if category-products mapping exists
     const categoryProductsPath = path.join(process.cwd(), 'data', 'indices', 'category-products.json');
-    const categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
     
-    // Get product IDs for this category
-    const productIds = categoryProductsData[categoryId.toString()] || [];
+    let productIds: string[] = [];
+    
+    if (fs.existsSync(categoryProductsPath)) {
+      const categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
+      productIds = categoryProductsData[categoryId.toString()] || [];
+    } else {
+      console.log(`Category-products mapping not found at ${categoryProductsPath}`);
+      // Return empty array if no mapping exists
+      return NextResponse.json([]);
+    }
     
     const productsDir = path.join(process.cwd(), 'data', 'products');
+    
+    // Check if products directory exists
+    if (!fs.existsSync(productsDir)) {
+      console.log(`Products directory not found at ${productsDir}`);
+      return NextResponse.json([]);
+    }
+    
     const products = [];
     
     for (const productId of productIds) {

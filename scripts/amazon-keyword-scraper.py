@@ -546,13 +546,20 @@ class AdvancedAmazonKeywordScraper:
             words = keyword.strip().split()
             if len(words) < 2:
                 continue
-                
-            # Category: exactly 2 words (e.g., "telefono fijo", "phone case")
-            if len(words) == 2:
+            
+            # Skip if keyword doesn't start with base keyword
+            if not keyword.lower().startswith(base_lower):
+                continue
+            
+            # Remove base keyword to count additional words
+            remaining_words = keyword[len(base_lower):].strip().split()
+            
+            # Category: exactly 1 additional word (e.g., "patinete electrico joyor")
+            if len(remaining_words) == 1:
                 category_keywords.add(keyword)
             
-            # Subcategory: 3+ words (e.g., "telefono fijo vintage", "phone case leather black")
-            elif len(words) >= 3:
+            # Subcategory: 2+ additional words (e.g., "patinete electrico joyor acelerador")
+            elif len(remaining_words) >= 2:
                 subcategory_keywords.add(keyword)
         
         safe_print(f"[STRUCTURE] Found {len(category_keywords)} category keywords (2-word combinations)")
@@ -560,10 +567,33 @@ class AdvancedAmazonKeywordScraper:
         
         return sorted(category_keywords), sorted(subcategory_keywords)
     
+    def cleanup_old_files(self, output_dir="data"):
+        """Delete old keyword files before creating new ones"""
+        import os
+        
+        files_to_delete = [
+            "keywords.txt",
+            "category_keywords.txt", 
+            "subcategory_keywords.txt",
+            "keyword_structure.json"
+        ]
+        
+        safe_print(f"[CLEANUP] Deleting old files...")
+        for filename in files_to_delete:
+            filepath = os.path.join(output_dir, filename)
+            if os.path.exists(filepath):
+                os.remove(filepath)
+                safe_print(f"[CLEANUP] Deleted: {filepath}")
+        
+        safe_print(f"[CLEANUP] Cleanup completed!")
+
     def save_structured_keywords(self, all_keywords, output_dir="data"):
         """Save keywords in structured format for AI mapper"""
         import os
         import json
+        
+        # Clean up old files first
+        self.cleanup_old_files(output_dir)
         
         category_keywords, subcategory_keywords = self.extract_structured_keywords(all_keywords)
         
@@ -580,14 +610,14 @@ class AdvancedAmazonKeywordScraper:
         # Save category keywords (2-word combinations)
         categories_file = os.path.join(output_dir, "category_keywords.txt")
         with open(categories_file, 'w', encoding='utf-8') as f:
-            for keyword in category_keywords:
+            for keyword in sorted(category_keywords):
                 f.write(f"{keyword}\n")
         safe_print(f"[SAVE] Category keywords saved to: {categories_file}")
         
         # Save subcategory keywords (3+ word combinations)  
         subcategories_file = os.path.join(output_dir, "subcategory_keywords.txt")
         with open(subcategories_file, 'w', encoding='utf-8') as f:
-            for keyword in subcategory_keywords:
+            for keyword in sorted(subcategory_keywords):
                 f.write(f"{keyword}\n")
         safe_print(f"[SAVE] Subcategory keywords saved to: {subcategories_file}")
         
@@ -598,8 +628,8 @@ class AdvancedAmazonKeywordScraper:
             "total_keywords": len(all_keywords),
             "category_keywords": len(category_keywords),
             "subcategory_keywords": len(subcategory_keywords),
-            "categories": category_keywords,
-            "subcategories": subcategory_keywords
+            "categories": sorted(category_keywords),
+            "subcategories": sorted(subcategory_keywords)
         }
         
         with open(summary_file, 'w', encoding='utf-8') as f:
@@ -655,11 +685,8 @@ if __name__ == "__main__":
         keywords = scraper.scrape_with_letters()
     
     if keywords:
-        # Save results
-        safe_print(f"\n[SAVE] Saving results...")
-        scraper.save_keywords(keywords, args.suffix)
-        
         # Save structured keywords for AI mapper
+        safe_print(f"\n[SAVE] Saving results...")
         output_dir = "data" if not args.suffix else args.suffix
         structure_data = scraper.save_structured_keywords(keywords, output_dir)
         

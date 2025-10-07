@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Inicio",
-    "products": "Teléfonos Móviles",
+    "products": "Patinetes Eléctricos",
     "categories": "Categorías",
     "cart": "Selección",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Contacto"
   },
   "categories": {
-    "title": "Categorías de Teléfonos Móviles",
+    "title": "Categorías de Patinetes Eléctricos",
     "hero": {
-      "title": "Encuentra el Teléfono Perfecto para Ti",
-      "subtitle": "Descubre nuestra amplia selección de teléfonos móviles diseñados específicamente para personas mayores"
+      "title": "Encuentra el Patinete Eléctrico Perfecto para Ti",
+      "subtitle": "Descubre nuestra amplia selección de patinetes eléctricos de alta calidad"
     },
-    "subtitle": "Explora nuestras categorías especializadas en teléfonos móviles para mayores",
+    "subtitle": "Explora nuestras categorías especializadas en patinetes eléctricos",
     "browseAll": "Ver todas las categorías",
     "noProducts": "No hay productos disponibles en esta categoría",
     "loading": "Cargando categorías...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Todas las subcategorías",
     "subcategoriesDescription": "Explora todas las subcategorías disponibles",
     "needHelp": "¿Necesitas ayuda?",
-    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el teléfono perfecto para ti",
+    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el patinete eléctrico perfecto para ti",
     "backToHome": "Volver al inicio",
     "exploreBySpecialty": "Explorar por especialidad",
     "refineSearch": "Refina tu búsqueda con nuestras subcategorías especializadas",
@@ -59,7 +59,11 @@
     "noProductsFound": "Ningún producto encontrado",
     "modifyFilters": "Intenta modificar tus filtros o explora nuestras otras categorías",
     "viewMoreProducts": "Ver más productos",
-    "relatedTerms": "Términos relacionados"
+    "relatedTerms": "Términos relacionados",
+    "collections": "Colecciones",
+    "mostPopularCategories": "Categorías más populares",
+    "discoverCollections": "Descubre nuestras colecciones cuidadosamente seleccionadas para todos los gustos",
+    "viewAllCategories": "Ver todas las categorías"
   },
   "common": {
     "close": "Cerrar",
@@ -67,28 +71,30 @@
     "confirm": "Confirmar",
     "loading": "Cargando...",
     "error": "Ha ocurrido un error",
-    "siteName": "Móviles Senior",
-    "companyName": "Móviles Senior",
+    "siteName": "Patinetes Eléctricos",
+    "companyName": "Patinetes Eléctricos",
     "home": "Inicio",
-    "linkCopied": "Enlace copiado"
+    "linkCopied": "Enlace copiado",
+    "qualityExceptional": "Calidad excepcional",
+    "amazonShipping": "envío Amazon"
   },
   "errors": {
     "somethingWrong": "Algo salió mal",
     "tryAgain": "Intentar de nuevo",
     "pageNotFound": "Página no encontrada",
-    "productNotFound": "Teléfono no encontrado",
+    "productNotFound": "Patinete eléctrico no encontrado",
     "categoryNotFound": "Categoría no encontrada",
     "amazonRedirectError": "Error al redirigir a Amazon",
     "amazonUnavailable": "Amazon no disponible"
   },
   "search": {
-    "placeholder": "Buscar teléfono...",
-    "noResults": "No se encontraron teléfonos",
-    "searchFor": "Buscar teléfono"
+    "placeholder": "Buscar patinete eléctrico...",
+    "noResults": "No se encontraron patinetes eléctricos",
+    "searchFor": "Buscar patinete eléctrico"
   },
   "header": {
     "search": {
-      "placeholder": "Buscar teléfono..."
+      "placeholder": "Buscar patinete eléctrico..."
     },
     "support": "Soporte",
     "cart": {
@@ -96,7 +102,7 @@
     }
   },
   "social": {
-    "shareProduct": "Compartir este teléfono",
+    "shareProduct": "Compartir este patinete eléctrico",
     "followUs": "Síguenos",
     "customerReviews": "Opiniones de clientes Amazon"
   },
@@ -119,13 +125,10 @@
     "redirecting": "Redirigiendo a Amazon...",
     "openInNewTab": "Abre en una nueva pestaña"
   },
-  "siteName": "Tu Teléfono Perfecto: Móviles y Smartphones",
-  "companyName": "Conexión Móvil S.L.",
-  "products": "Teléfono",
-  "productNotFound": "Teléfono no encontrado",
-  "product": {
-    "buyNow": "Comprar ahora"
-  },
+  "siteName": "Tu Patinete Eléctrico Perfecto",
+  "companyName": "Patinetes Eléctricos S.L.",
+  "products": "Patinete Eléctrico",
+  "productNotFound": "Patinete eléctrico no encontrado",
   "banner": {
     "discount": "descuento",
     "clientReviews": "opiniones de clientes",
@@ -133,30 +136,56 @@
   },
   "support": {
     "title": "Atención al Cliente",
-    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros teléfonos móviles",
-    "faq": {
-      "title": "Preguntas Frecuentes",
-      "deliveryTime": {
-        "question": "¿Cuánto tiempo tarda la entrega?",
-        "answer": "Nuestros teléfonos móviles se envían en 24-48 horas laborables. Ofrecemos envío gratuito a toda España y seguimiento en tiempo real de tu pedido."
+    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros patinetes eléctricos",
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Encuentra rápidamente las respuestas a tus preguntas sobre nuestros patinetes eléctricos, envío, devoluciones y mucho más.",
+    "contactCta": "¿No encuentras la respuesta a tu pregunta?",
+    "contactTeam": "Contacta con nuestro equipo",
+    "sendEmail": "Enviar un email",
+    "questions": [
+      {
+        "id": "1",
+        "question": "¿Cuánto tiempo dura la batería de los patinetes eléctricos?",
+        "answer": "Nuestros patinetes eléctricos tienen una batería de larga duración que puede durar hasta 25-40 km de autonomía según el modelo. Están optimizados para un uso eficiente de la energía, garantizando una autonomía excepcional para desplazamientos urbanos diarios."
       },
-      "returns": {
-        "question": "¿Puedo devolver mi pedido?",
-        "answer": "Sí, tienes 30 días para devolver tu teléfono móvil si no estás satisfecho. El proceso es simple y cubrimos los gastos de envío de la devolución."
+      {
+        "id": "2",
+        "question": "¿Son seguros los patinetes eléctricos?",
+        "answer": "Absolutamente. Todos nuestros patinetes cumplen con las normas de seguridad europeas más estrictas (CE, RoHS). Incluyen sistemas de frenado dual, luces LED, y están fabricados con materiales resistentes. Los modelos homologados cumplen con la normativa DGT para circular por la ciudad."
       },
-      "warranty": {
-        "question": "¿Qué garantía tienen los productos?",
-        "answer": "Todos nuestros teléfonos móviles incluyen garantía del fabricante de 2 años. Además, ofrecemos soporte técnico gratuito durante toda la garantía."
+      {
+        "id": "3",
+        "question": "¿Cómo funciona el envío gratuito?",
+        "answer": "El envío es gratuito para cualquier pedido de 50€ o más en España peninsular. Enviamos en 24 horas (días laborables) con seguimiento. Para pedidos inferiores a 50€, los gastos de envío son de 4,90€. Entrega en 2-3 días laborables."
       },
-      "payment": {
-        "question": "¿Qué métodos de pago aceptan?",
-        "answer": "Aceptamos todas las tarjetas de crédito y débito principales, PayPal, y transferencia bancaria. Todos los pagos son seguros y protegidos."
+      {
+        "id": "4",
+        "question": "¿Puedo devolver un patinete si no estoy satisfecho?",
+        "answer": "Sí, ofrecemos una garantía de satisfacción o reembolso de 30 días. Si no estás completamente satisfecho con tu compra, puedes devolver el patinete en su embalaje original para un reembolso completo. Los gastos de devolución corren por tu cuenta excepto en caso de defecto."
       },
-      "tracking": {
-        "question": "¿Cómo puedo seguir mi pedido?",
-        "answer": "Recibirás un email con el número de seguimiento una vez que tu pedido sea enviado. Puedes seguir el estado en tiempo real en la web del transportista."
+      {
+        "id": "5",
+        "question": "¿Cómo cargar un patinete eléctrico?",
+        "answer": "Nuestros patinetes eléctricos se cargan fácilmente mediante el cargador incluido. Una carga completa toma 4-6 horas y ofrece hasta 40 km de autonomía según el modelo y el uso. Un indicador luminoso te muestra el estado de la carga."
+      },
+      {
+        "id": "6",
+        "question": "¿Qué velocidades están disponibles?",
+        "answer": "La mayoría de nuestros patinetes ofrecen varias velocidades, generalmente 3 niveles: eco, normal y sport. Algunos modelos premium ofrecen ajuste continuo. La velocidad máxima es de 25 km/h para cumplir con la normativa DGT."
+      },
+      {
+        "id": "7",
+        "question": "¿Hay garantía en los patinetes?",
+        "answer": "Todos nuestros patinetes están cubiertos por una garantía del fabricante de 2 años que cubre los defectos de fabricación. Esta garantía se suma a tus derechos legales como consumidor. Para hacer valer la garantía, conserva tu factura y contacta con nuestro servicio al cliente."
+      },
+      {
+        "id": "8",
+        "question": "¿Cómo limpiar y mantener mi patinete eléctrico?",
+        "answer": "El mantenimiento es muy sencillo: usa un paño sude ligeramente húmedo para limpiar el exterior. Evita productos químicos agresivos. Para la batería, mantén la carga y evita dejar que se descargue completamente durante largos períodos. Revisa regularmente la presión de las ruedas."
       }
-    },
+    ]
+  },
     "contact": {
       "title": "Contáctanos",
       "subjectLabel": "Asunto",
@@ -183,32 +212,59 @@
   },
   "cart": {
     "title": "Mi Selección",
+    "addToCart": "Añadir al carrito",
+    "yourCart": "Tu carrito",
+    "cartEmpty": "Tu carrito está vacío",
+    "continueShopping": "Continuar comprando",
+    "removeItem": "Eliminar",
+    "updateQuantity": "Modificar cantidad",
+    "subtotal": "Subtotal",
+    "shipping": "Envío",
+    "total": "Total",
+    "proceedToCheckout": "Finalizar pedido",
     "empty": {
       "title": "Tu selección está vacía",
-      "description": "Añade teléfonos móviles a tu selección para continuar",
+      "description": "Añade patinetes eléctricos a tu selección para continuar",
       "button": "Volver a la tienda"
     },
-    "total": "Total estimado",
+    "removeFromCart": "Quitar del carrito",
+    "quantity": "Cantidad",
+    "price": "Precio",
+    "added": "Añadido al carrito",
+    "removed": "Quitado del carrito",
+    "updated": "Carrito actualizado",
+    "checkout": "Pedir",
+    "discountCode": "Código promocional",
+    "applyDiscount": "Aplicar",
+    "discountApplied": "Código {code} aplicado",
+    "invalidDiscount": "Código de descuento inválido",
+    "discountError": "Ha ocurrido un error",
+    "reduction": "Descuento",
+    "freeShipping": "Gratuito",
+    "crossedOutShipping": "5,99€",
+    "orderCommand": "Pedir",
+    "totalEstimated": "Total estimado",
     "amazonNotice": "Precio final y gastos de envío en Amazon",
     "buyOnAmazon": "Comprar",
     "viewFullSelection": "Ver mi selección completa",
     "pageTitle": "Tu selección",
-    "pageSubtitle": "Tus teléfonos móviles seleccionados - Compra directamente en Amazon",
+    "pageSubtitle": "Tus patinetes eléctricos seleccionados - Compra directamente en Amazon",
     "summary": "Resumen",
-    "subtotal": "Subtotal",
     "items": "artículos",
     "clearCart": "Vaciar la selección",
-    "continueShopping": "Continuar comprando",
     "amazonPartner": "Compra en Amazon",
     "amazonPartnerText": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen.",
-    "linkCopied": "Enlace copiado",
-    "addToCart": "Añadir a la selección"
+    "trustSignals": {
+      "freeShipping": "Envío gratuito",
+      "securePayment": "Pago seguro", 
+      "freeReturns": "Devolución gratuita"
+    }
   },
   "checkout": {
     "empty": {
       "title": "Tu selección está vacía",
-      "description": "Añade teléfonos móviles a tu selección antes de proceder al pago",
-      "button": "Descubrir nuestros teléfonos"
+      "description": "Añade patinetes eléctricos a tu selección antes de proceder al pago",
+      "button": "Descubrir nuestros patinetes"
     },
     "backToCart": "Volver a la selección",
     "pageTitle": "Finalizar tu compra",
@@ -236,7 +292,7 @@
       "subtotal": "Subtotal",
       "shipping": "Gastos de envío",
       "shippingNote": "Calculados en Amazon",
-      "total": "Total estimado",
+      "totalEstimated": "Total estimado",
       "finalPrice": "Precio final en Amazon"
     },
     "buttons": {
@@ -296,7 +352,7 @@
     "customerReviews": "Opiniones de clientes",
     "faq": "Preguntas frecuentes",
     "alsoLike": "También te puede gustar",
-    "alsoLikeSubtitle": "Otros teléfonos móviles que podrían interesarte",
+    "alsoLikeSubtitle": "Otros patinetes eléctricos que podrían interesarte",
     "buyNow": "Comprar ahora",
     "loading": "Cargando...",
     "notFound": "Producto no encontrado",
@@ -328,21 +384,63 @@
     "quickPreview": "Vista rápida",
     "saveAmount": "Ahorra {amount}"
   },
+  "hero": {
+    "expertise": {
+      "title": "¡Patinete Eléctrico Perfecto!",
+      "subtitle": "Movilidad urbana sostenible. Calidad y rendimiento garantizados.",
+      "cta": "¡Compra Ahora!"
+    },
+    "trust": {
+      "rating": "4.9/5",
+      "badge": "★★★★★ Clientes Satisfechos",
+      "reviews": "Más de 2000+ opiniones verificadas",
+      "delivery": "Envío Gratis 24h",
+      "guarantee": "Garantía Total 2 años"
+    },
+    "features": {
+      "quality": {
+        "title": "Autonomía Extendida",
+        "description": "Hasta 40 km de autonomía. Perfecto para desplazamientos urbanos diarios sin preocupaciones."
+      },
+      "design": {
+        "title": "Velocidad Regulable",
+        "description": "3 modos de velocidad: Eco, Normal y Sport. Adapta la velocidad a tus necesidades."
+      },
+      "innovation": {
+        "title": "Frenos Duales",
+        "description": "Seguridad garantizada. Sistema de frenado dual para máxima seguridad en ciudad."
+      },
+      "support": {
+        "title": "Servicio al Cliente Premium",
+        "description": "Atención personalizada para resolver cualquier duda. Te acompañamos en cada paso."
+      }
+    }
+  },
   "homepage": {
+    "title": "Inicio",
+    "loading": "Cargando...",
+    "hero": {
+      "featured": {
+        "title": "¡Tu patinete, tu libertad!",
+        "subtitle": "Movilidad urbana sostenible y eficiente. Libertad para toda la familia.",
+        "loading": "Cargando tu libertad...",
+        "viewAll": "¡Ofertas limitadas!"
+      }
+    },
     "whyChoose": {
       "title": "¿Por Qué Elegirnos?",
-      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para teléfonos móviles para mayores",
+      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para patinetes eléctricos",
       "advantage1": {
         "title": "Calidad Premium",
-        "description": "Teléfonos móviles de la más alta calidad, diseñados específicamente para personas mayores con materiales duraderos y tecnología avanzada."
+        "description": "Patinetes eléctricos de la más alta calidad, diseñados con materiales duraderos y tecnología avanzada para máxima durabilidad."
       },
       "advantage2": {
         "title": "Envío Rápido",
-        "description": "Entrega gratuita en 24-48 horas en toda España. Tu tranquilidad es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
+        "description": "Entrega gratuita en 24-48 horas en toda España. Tu movilidad es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
       },
       "advantage3": {
         "title": "Soporte Especializado",
-        "description": "Equipo de atención al cliente especializado en teléfonos para mayores. Te ayudamos con cualquier duda o problema que puedas tener."
+        "description": "Equipo de atención al cliente especializado en patinetes eléctricos. Te ayudamos con cualquier duda o problema que puedas tener."
       },
       "advantage4": {
         "title": "Garantía Completa",
@@ -350,7 +448,7 @@
       },
       "comparison": {
         "title": "Comparación con la Competencia",
-        "subtitle": "Descubre por qué Móviles Senior se destaca de la competencia",
+        "subtitle": "Descubre por qué Patinetes Eléctricos se destaca de la competencia",
         "us": "Nosotros",
         "others": "Otros",
         "criteria": "Criterios",
@@ -368,7 +466,7 @@
   },
   "footer": {
     "copyright": "Todos los derechos reservados",
-    "companyDescription": "Especialistas en teléfonos móviles diseñados específicamente para personas mayores. Calidad, simplicidad y soporte experto.",
+    "companyDescription": "Especialistas en patinetes eléctricos de alta calidad. Movilidad urbana sostenible y soporte experto.",
     "legal": {
       "title": "Información Legal",
       "terms": "Términos y Condiciones",
@@ -407,7 +505,7 @@
     "subtitle": "Condiciones de uso de nuestros servicios",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Bienvenido a Móviles Senior. Estos términos y condiciones rigen el uso de nuestro sitio web y servicios.",
+    "introduction": "Bienvenido a Patinetes Eléctricos. Estos términos y condiciones rigen el uso de nuestro sitio web y servicios.",
     "acceptance": "Al acceder y utilizar nuestro sitio web, aceptas estos términos en su totalidad.",
     "general": {
       "title": "Disposiciones Generales",
@@ -426,7 +524,7 @@
     },
     "services": {
       "title": "Nuestros Servicios",
-      "description": "Proporcionamos información sobre teléfonos móviles diseñados para personas mayores y facilitamos la compra a través de Amazon."
+      "description": "Proporcionamos información sobre patinetes eléctricos de alta calidad y facilitamos la compra a través de Amazon."
     },
     "userObligations": {
       "title": "Obligaciones del Usuario",
@@ -446,7 +544,7 @@
     "subtitle": "Cómo protegemos y utilizamos tu información personal",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "En Móviles Senior respetamos tu privacidad y nos comprometemos a proteger tu información personal.",
+    "introduction": "En Patinetes Eléctricos respetamos tu privacidad y nos comprometemos a proteger tu información personal.",
     "dataCollection": {
       "title": "Información que Recopilamos",
       "description": "Recopilamos información que nos proporcionas voluntariamente, como tu nombre y dirección de email."
@@ -560,13 +658,13 @@
   },
   "about": {
     "title": "Sobre Nosotros",
-    "subtitle": "Conoce más sobre Móviles Senior",
+    "subtitle": "Conoce más sobre Patinetes Eléctricos",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Somos especialistas en teléfonos móviles diseñados específicamente para personas mayores.",
+    "introduction": "Somos especialistas en patinetes eléctricos de alta calidad para movilidad urbana sostenible.",
     "mission": {
       "title": "Nuestra Misión",
-      "description": "Facilitar el acceso a la tecnología móvil para personas mayores con productos adaptados a sus necesidades."
+      "description": "Facilitar la movilidad urbana sostenible con patinetes eléctricos de alta calidad, tecnología avanzada y soporte experto."
     },
     "values": {
       "title": "Nuestros Valores",
@@ -574,7 +672,7 @@
     },
     "team": {
       "title": "Nuestro Equipo",
-      "description": "Contamos con expertos en tecnología y atención al cliente especializados en usuarios senior."
+      "description": "Contamos con expertos en movilidad eléctrica y atención al cliente especializados en patinetes eléctricos."
     }
   },
   "contact": {
@@ -582,11 +680,11 @@
     "subtitle": "Ponte en contacto con nosotros",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Estamos aquí para ayudarte. Contacta con nosotros de la manera que prefieras.",
+    "introduction": "Estamos aquí para ayudarte con cualquier consulta sobre patinetes eléctricos.",
     "methods": {
       "title": "Métodos de Contacto",
       "phone": "Teléfono: +34 900 123 456",
-      "email": "Email: info@movilessenior.com",
+      "email": "Email: info@patineteselectricos.com",
       "whatsapp": "WhatsApp: +34 600 123 456",
       "hours": "Horario de atención: Lunes a Viernes, 9:00 - 18:00"
     },

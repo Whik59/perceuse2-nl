@@ -2,23 +2,11 @@ import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { siteConfig, getDynamicString } from './config'
 
-// Import localized strings from multiple files
-import strings from '../locales/strings.json'
+// Import localized strings from common.json (consolidated file)
 import commonStrings from '../locales/common.json'
-import cartStrings from '../locales/cart.json'
-import categoriesStrings from '../locales/categories.json'
-import faqStrings from '../locales/faq.json'
-import heroStrings from '../locales/hero.json'
 
-// Combine all strings into one object
-const allStrings = {
-  ...strings,
-  ...commonStrings,
-  ...cartStrings,
-  ...categoriesStrings,
-  ...faqStrings,
-  ...heroStrings
-};
+// Use the consolidated strings object
+const allStrings = commonStrings;
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
@@ -255,7 +243,7 @@ export const generateProductReviews = (productSlug: string, productTitle: string
   
   // Import review data from reviews.json
   // eslint-disable-next-line @typescript-eslint/no-require-imports
-  const reviewsData = require('../data/reviews.json');
+  const reviewsData = require('../locales/reviews.json');
   
   // Use existing reviews if available, otherwise use fallback data
   const reviewerNames = reviewsData.reviewerNames || [

@@ -1,31 +1,31 @@
 {
   "site": {
-    "name": "Tu Teléfono Perfecto",
-    "description": "Encuentra tu teléfono ideal. Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos!",
-    "url": "https://tutelefonoperfecto.es",
+    "name": "Tu Patinete Eléctrico Perfecto",
+    "description": "Encuentra tu patinete eléctrico ideal. Amplia gama de patinetes, scooters eléctricos y accesorios. ¡Precios increíbles y envíos rápidos!",
+    "url": "https://tupatineteelectrico.es",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Tu Teléfono Perfecto - Móviles y Smartphones",
-    "titleTemplate": "%s | Tu Teléfono Perfecto",
-    "defaultDescription": "Encuentra tu teléfono ideal. Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos!",
+    "defaultTitle": "Tu Patinete Eléctrico Perfecto - Patinetes y Scooters Eléctricos",
+    "titleTemplate": "%s | Tu Patinete Eléctrico Perfecto",
+    "defaultDescription": "Encuentra tu patinete eléctrico ideal. Amplia gama de patinetes, scooters eléctricos y accesorios. ¡Precios increíbles y envíos rápidos!",
     "keywords": [
-      "teléfono",
-      "smartphone",
-      "móvil",
-      "accesorios móviles",
-      "comprar teléfono",
-      "ofertas móviles",
-      "teléfonos baratos",
-      "mejores móviles"
+      "patinete eléctrico",
+      "scooter eléctrico",
+      "patinete",
+      "accesorios patinete",
+      "comprar patinete",
+      "ofertas patinetes",
+      "patinetes baratos",
+      "mejores patinetes"
     ],
-    "ogImage": "/og-image-telefono.jpg"
+    "ogImage": "/og-image-patinete.jpg"
   },
   "business": {
-    "email": "contact@tutelefonoperfecto.es",
+    "email": "contact@tupatineteelectrico.es",
     "phone": "+34 91 123 45 67",
-    "address": "Calle de la Tecnología, 28001 Madrid, España",
+    "address": "Calle de la Movilidad, 28001 Madrid, España",
     "socialMedia": {
       "facebook": "",
       "instagram": "",
@@ -33,7 +33,7 @@
     }
   },
   "affiliate": {
-    "amazonTag": "tutelefono-21",
+    "amazonTag": "tupatinete-21",
     "disclaimer": "Como Afiliado de Amazon, obtenemos ingresos por las compras que califican."
   },
   "features": {
