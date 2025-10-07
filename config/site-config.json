@@ -1,30 +1,31 @@
 {
   "site": {
-    "name": "Friteuse Expert",
-    "description": "Guide d'achat et comparatif des meilleures friteuses - Trouvez la friteuse parfaite pour vos besoins",
-    "url": "https://friteuseexpert.com",
+    "name": "Tu Teléfono Perfecto",
+    "description": "Encuentra tu teléfono ideal. Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos!",
+    "url": "https://tutelefonoperfecto.es",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Friteuse Expert - Guide d'achat et comparatif des meilleures friteuses",
-    "titleTemplate": "%s | Friteuse Expert",
-    "defaultDescription": "Découvrez notre guide complet des meilleures friteuses 2024. Comparatifs détaillés, avis d'experts et conseils d'achat pour friteuses à air et traditionnelles.",
+    "defaultTitle": "Tu Teléfono Perfecto - Móviles y Smartphones",
+    "titleTemplate": "%s | Tu Teléfono Perfecto",
+    "defaultDescription": "Encuentra tu teléfono ideal. Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos!",
     "keywords": [
-      "friteuse",
-      "friteuse air",
-      "airfryer",
-      "friteuse sans huile",
-      "guide achat friteuse",
-      "meilleure friteuse",
-      "comparatif friteuse"
+      "teléfono",
+      "smartphone",
+      "móvil",
+      "accesorios móviles",
+      "comprar teléfono",
+      "ofertas móviles",
+      "teléfonos baratos",
+      "mejores móviles"
     ],
-    "ogImage": "/og-image-friteuse.jpg"
+    "ogImage": "/og-image-telefono.jpg"
   },
   "business": {
-    "email": "contact@friteuseexpert.com",
-    "phone": "+33 1 23 45 67 89",
-    "address": "123 Rue de la Cuisine, 75001 Paris, France",
+    "email": "contact@tutelefonoperfecto.es",
+    "phone": "+34 91 123 45 67",
+    "address": "Calle de la Tecnología, 28001 Madrid, España",
     "socialMedia": {
       "facebook": "",
       "instagram": "",
@@ -32,35 +33,21 @@
     }
   },
   "affiliate": {
-    "amazonTag": "friteuseexp-21",
-    "disclaimer": "En tant que Partenaire Amazon, nous réalisons un bénéfice sur les achats remplissant les conditions requises."
+    "amazonTag": "tutelefono-21",
+    "disclaimer": "Como Afiliado de Amazon, obtenemos ingresos por las compras que califican."
   },
   "features": {
     "expertReviews": {
       "enabled": true,
-      "message": "Avis d'experts et tests approfondis"
+      "message": "Reseñas de expertos y pruebas detalladas"
     },
     "priceComparison": {
       "enabled": true,
-      "message": "Comparaison de prix en temps réel"
+      "message": "Comparación de precios en tiempo real"
     },
     "buyingGuides": {
       "enabled": true,
-      "message": "Guides d'achat détaillés"
+      "message": "Guías de compra detalladas"
     }
-  },
-  "siteName": "Tu Teléfono Perfecto: Móviles y Smartphones",
-  "siteDescription": "Encuentra tu teléfono ideal.  Amplia gama de móviles, smartphones y accesorios. ¡Precios increíbles y envíos rápidos! #móviles #smartphones #teléfono",
-  "mainProduct": "TELEFONO",
-  "keywords": [
-    "teléfono",
-    "smartphone",
-    "móvil",
-    "accesorios móviles",
-    "comprar teléfono",
-    "ofertas móviles",
-    "teléfonos baratos",
-    "mejores móviles"
-  ],
-  "suggestedDomain": "tutelefonoperfecto.es"
+  }
 }

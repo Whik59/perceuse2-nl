@@ -24,15 +24,54 @@ class AICategoryEnhancer:
         self.categories_file = "../data/categories.json"
         self.categories_dir = "../data/categories"
         self.backup_dir = "../backups"
+        self.config_file = "../scripts/ai-config.json"
         
         # Create directories if they don't exist
         os.makedirs(self.categories_dir, exist_ok=True)
         os.makedirs(self.backup_dir, exist_ok=True)
         
-        # Performance settings - OPTIMIZED FOR SPEED
-        self.request_delay = 0.2  # Reduced delay for faster processing
-        self.batch_size = 20  # Process categories in batches
-        self.max_concurrent = 5  # Concurrent AI requests
+        # Load AI configuration
+        self.ai_config = self.load_ai_config()
+        
+        # Performance settings - OPTIMIZED FOR 1000+ CATEGORIES
+        self.request_delay = 0.1  # Minimal delay for maximum speed
+        self.batch_size = 50  # Process 50 categories at once for 1000+ scale
+        self.max_concurrent = 10  # Higher concurrency for faster processing
+    
+    def load_ai_config(self):
+        """Load AI configuration from config file"""
+        try:
+            if os.path.exists(self.config_file):
+                with open(self.config_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+        except Exception as e:
+            safe_print(f"[WARNING] Could not load AI config: {e}")
+        
+        # Default fallback config
+        return {
+            "spanish_keywords": [
+                "productos",
+                "mejor precio",
+                "oferta",
+                "envio gratis",
+                "garantia",
+                "calidad",
+                "fácil uso",
+                "españa"
+            ],
+            "seo_settings": {
+                "default_price": "desde 19€",
+                "store_name": "Tu Tienda"
+            }
+        }
+    
+    def get_product_keywords(self):
+        """Get product-specific keywords from config"""
+        return self.ai_config.get("spanish_keywords", ["productos", "mejor precio", "oferta"])
+    
+    def get_default_price(self):
+        """Get default price from config"""
+        return self.ai_config.get("seo_settings", {}).get("default_price", "desde 19€")
     
     def get_ai_response(self, prompt, max_retries=3):
         """
@@ -86,15 +125,19 @@ class AICategoryEnhancer:
     
     def enhance_category_description(self, category_name):
         """Generate SEO-optimized description for a category"""
-        prompt = f"""Crea una descripción SEO corta (máximo 120 caracteres) para: {category_name}
+        keywords = self.get_product_keywords()
+        default_price = self.get_default_price()
+        
+        prompt = f"""Crea una descripción SEO corta (máximo 80 caracteres) para: {category_name}
 
 REQUISITOS:
-- Incluir beneficios clave (fácil uso, botones grandes, SOS)
-- Mencionar precio (desde 19€)
-- Crear urgencia (envío gratis, ofertas)
-- Dirigirse a familiares
+- Incluir beneficios clave para el producto
+- Mencionar precio ({default_price})
+- Crear urgencia (envío gratis)
+- Dirigirse a compradores
+- Usar palabras clave relevantes: {', '.join(keywords[:3])}
 
-EJEMPLO: "Teléfonos SOS para Mayores ✅ Botones Grandes, Fácil Uso. Desde 19€ ¡Envío Gratis!"
+EJEMPLO: "{category_name} ✅ Calidad Premium. {default_price} ¡Envío Gratis!"
 
 Responde SOLO la descripción:"""
         
@@ -102,14 +145,17 @@ Responde SOLO la descripción:"""
     
     def enhance_category_title(self, category_name):
         """Generate SEO-optimized title for a category"""
+        keywords = self.get_product_keywords()
+        
         prompt = f"""Crea un título SEO corto (máximo 50 caracteres) para: {category_name}
 
 REQUISITOS:
 - Incluir palabras clave principales
-- Mencionar beneficios (SOS, fácil uso)
-- Dirigirse a mayores/familiares
+- Mencionar beneficios clave del producto
+- Dirigirse a compradores
+- Usar palabras clave: {', '.join(keywords[:2])}
 
-EJEMPLO: "Teléfonos SOS para Mayores | Botones Grandes"
+EJEMPLO: "{category_name} | Calidad Premium"
 
 Responde SOLO el título:"""
         
@@ -117,13 +163,16 @@ Responde SOLO el título:"""
     
     def enhance_category_keywords(self, category_name):
         """Generate SEO keywords for a category"""
-        prompt = f"""Genera 8 palabras clave SEO para: {category_name}
+        keywords = self.get_product_keywords()
+        
+        prompt = f"""Genera 5 palabras clave SEO para: {category_name}
 
 REQUISITOS:
 - Incluir términos de cola larga
-- Mencionar beneficios (fácil uso, SOS, botones grandes)
+- Mencionar beneficios clave del producto
 - Incluir términos geográficos (España)
 - Incluir términos de compra (barato, oferta)
+- Basarse en palabras clave existentes: {', '.join(keywords[:3])}
 
 Formato: palabra1, palabra2, palabra3, etc.
 Responde SOLO las palabras clave:"""
@@ -131,17 +180,20 @@ Responde SOLO las palabras clave:"""
         response = self.get_ai_response(prompt)
         # Convert to array
         keywords = [kw.strip() for kw in response.split(',') if kw.strip()]
-        return keywords[:8]  # Limit to 8 keywords
+        return keywords[:5]  # Limit to 5 keywords
     
     def generate_category_faq(self, category_name):
         """Generate FAQ for a category"""
-        prompt = f"""Crea 4 preguntas FAQ en JSON para: {category_name}
+        keywords = self.get_product_keywords()
+        
+        prompt = f"""Crea 3 preguntas FAQ en JSON para: {category_name}
 
 REQUISITOS:
 - Preguntas que la gente busca en Google
-- Incluir palabras clave en las preguntas
-- Respuestas cortas y útiles
-- Enfocarse en beneficios para mayores
+- Respuestas cortas (máximo 50 palabras)
+- Enfocarse en beneficios del producto
+- Evitar repetición de palabras clave
+- Considerar palabras clave: {', '.join(keywords[:2])}
 
 Formato:
 [{{"question":"¿Es fácil de usar?","answer":"Sí, muy fácil..."}},{{"question":"¿Cuánto cuesta?","answer":"Desde 19€..."}}]
@@ -163,25 +215,28 @@ Responde SOLO el JSON:"""
         return self.get_fallback_faq(category_name)
     
     def generate_category_content(self, category_name):
-        """Generate optimized SEO content for a category"""
-        prompt = f"""Crea contenido SEO corto (200-250 palabras) para: {category_name}
+        """Generate concise SEO content for a category"""
+        keywords = self.get_product_keywords()
+        default_price = self.get_default_price()
+        
+        prompt = f"""Crea contenido SEO muy corto (100-150 palabras) para: {category_name}
 
 REQUISITOS:
 - Estructura HTML simple
-- Incluir beneficios clave (fácil uso, SOS, botones grandes)
-- Mencionar precios (desde 19€)
-- Dirigirse a familiares
-- Incluir llamada a la acción
+- Incluir beneficios clave del producto
+- Mencionar precio ({default_price})
+- Dirigirse a compradores
+- Evitar repetición excesiva de palabras clave
+- Enfoque en productos, no texto
+- Usar palabras clave: {', '.join(keywords[:3])}
 
 ESTRUCTURA:
 <div>
-<h2>Los Mejores {category_name} para Mayores</h2>
-<p>Párrafo introductorio...</p>
+<h2>Los Mejores {category_name}</h2>
+<p>Descubre los mejores {category_name} diseñados para máxima calidad y facilidad de uso.</p>
 <h3>Características Principales</h3>
-<ul><li>Beneficio 1</li><li>Beneficio 2</li></ul>
-<h3>¿Por Qué Elegir Estos Productos?</h3>
-<p>Beneficios para la familia...</p>
-<p>Llamada a la acción...</p>
+<ul><li>Calidad premium</li><li>Fácil de usar</li><li>Garantía incluida</li><li>Envío gratis</li></ul>
+<p>{default_price} con envío gratis. ¡Encuentra el modelo perfecto para ti!</p>
 </div>
 
 Responde SOLO el HTML:"""
@@ -205,11 +260,12 @@ Responde SOLO el HTML:"""
     
     def get_fallback_faq(self, category_name):
         """Fallback FAQ for categories"""
+        default_price = self.get_default_price()
+        
         return [
-            {"question": "¿Es fácil de usar para personas mayores?", "answer": f"Sí, los {category_name} están diseñados específicamente para facilitar su uso a personas mayores."},
-            {"question": "¿Cuánto cuesta?", "answer": f"Los precios van desde 19€, con envío gratis incluido."},
-            {"question": "¿Tiene función SOS?", "answer": "Sí, incluye botón SOS para llamadas de emergencia rápidas."},
-            {"question": "¿Es compatible con todas las operadoras?", "answer": "Sí, es compatible con todas las redes en España."}
+            {"question": "¿Es fácil de usar?", "answer": f"Sí, los {category_name} están diseñados específicamente para facilitar su uso."},
+            {"question": "¿Cuánto cuesta?", "answer": f"Los precios van {default_price}, con envío gratis incluido."},
+            {"question": "¿Tiene garantía?", "answer": "Sí, incluye garantía completa para tu tranquilidad."}
         ]
     
     def create_category_slug(self, category_name):
@@ -493,6 +549,174 @@ Responde SOLO el HTML:"""
         safe_print(f"📁 Category files directory: {self.categories_dir}")
         safe_print(f"⚡ Speed: ULTRA-FAST mode with optimized templates")
 
+    def enhance_categories_mega_fast(self):
+        """MEGA-FAST enhancement for 1000+ categories - MINIMAL CONTENT"""
+        safe_print("🚀 MEGA-FAST MODE: Processing 1000+ categories with minimal content...")
+        
+        # Load categories
+        categories = self.load_categories()
+        if not categories:
+            safe_print("❌ No categories found!")
+            return
+        
+        safe_print(f"📊 Found {len(categories)} categories to enhance")
+        safe_print(f"⚡ MEGA-FAST: Batch size {self.batch_size}, Delay {self.request_delay}s")
+        
+        # Process in large batches for maximum speed
+        total_categories = len(categories)
+        enhanced_count = 0
+        failed_count = 0
+        
+        for i in range(0, total_categories, self.batch_size):
+            batch = categories[i:i + self.batch_size]
+            batch_num = (i // self.batch_size) + 1
+            total_batches = (total_categories + self.batch_size - 1) // self.batch_size
+            
+            safe_print(f"⚡ Processing batch {batch_num}/{total_batches} ({len(batch)} categories)")
+            
+            for category in batch:
+                try:
+                    category_id = category.get('categoryId')
+                    category_name = category.get('name', 'Unknown')
+                    
+                    # Generate minimal but effective content
+                    enhanced_category = self.enhance_category_minimal(category)
+                    
+                    # Save individual category file
+                    category_filename = f"{category_id}.json"
+                    category_filepath = os.path.join(self.categories_dir, category_filename)
+                    
+                    with open(category_filepath, 'w', encoding='utf-8') as f:
+                        json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
+                    
+                    enhanced_count += 1
+                    safe_print(f"✅ Enhanced: {category_name}")
+                    
+                    # Minimal delay for maximum speed
+                    time.sleep(0.05)
+                    
+                except Exception as e:
+                    failed_count += 1
+                    safe_print(f"❌ Failed to enhance category {category_id}: {str(e)[:100]}")
+            
+            # Progress update
+            progress = ((i + len(batch)) / total_categories) * 100
+            safe_print(f"📈 Progress: {progress:.1f}% ({enhanced_count} enhanced, {failed_count} failed)")
+        
+        # Final summary
+        safe_print(f"\n🎉 MEGA-FAST ENHANCEMENT COMPLETE!")
+        safe_print(f"✅ Enhanced: {enhanced_count} categories")
+        safe_print(f"❌ Failed: {failed_count} categories")
+        safe_print(f"📁 Files saved to: {self.categories_dir}")
+        safe_print(f"⚡ Optimized for 1000+ categories with minimal content")
+    
+    def enhance_category_minimal(self, category):
+        """Minimal category enhancement for 1000+ scale - SHORT CONTENT ONLY"""
+        category_id = category.get('categoryId')
+        category_name = category.get('name', 'Unknown')
+        
+        # Generate minimal but effective content
+        enhanced_category = {
+            'categoryId': category_id,
+            'name': category_name,
+            'slug': self.create_category_slug(category_name),
+            'seo_title': self.enhance_category_title(category_name),
+            'seo_description': self.enhance_category_description(category_name),
+            'keywords': self.enhance_category_keywords(category_name),
+            'faq': self.generate_category_faq(category_name),
+            'content': self.generate_category_content(category_name),
+            'enhanced': True,
+            'enhanced_at': datetime.now().isoformat(),
+            'enhancement_version': 'mega_fast_v1'
+        }
+        
+        return enhanced_category
+
+    def enhance_specific_categories(self, category_ids):
+        """Enhance only specific categories by ID"""
+        safe_print("[START] Custom Category Enhancement")
+        safe_print("=" * 60)
+        
+        # Load categories
+        if not os.path.exists(self.categories_file):
+            safe_print(f"[ERROR] Categories file not found: {self.categories_file}")
+            return
+        
+        with open(self.categories_file, 'r', encoding='utf-8') as f:
+            all_categories = json.load(f)
+        
+        # Filter categories by ID
+        target_categories = [cat for cat in all_categories if cat.get('categoryId') in category_ids]
+        
+        if not target_categories:
+            safe_print(f"[ERROR] No categories found with IDs: {category_ids}")
+            return
+        
+        safe_print(f"[INFO] Found {len(target_categories)} categories to enhance")
+        safe_print(f"[INFO] Category IDs: {category_ids}")
+        safe_print(f"[INFO] Estimated time: {len(target_categories) * 0.5 / 60:.1f} minutes")
+        
+        enhanced_count = 0
+        failed_count = 0
+        
+        for category in target_categories:
+            try:
+                category_name = category.get('categoryNameCanonical', f'Category {category.get("categoryId")}')
+                category_id = category.get('categoryId')
+                
+                safe_print(f"[PROGRESS] Enhancing: {category_name} (ID: {category_id})")
+                
+                # Generate optimized content
+                seo_title = self.enhance_category_title(category_name)
+                seo_description = self.enhance_category_description(category_name)
+                seo_keywords = self.enhance_category_keywords(category_name)
+                faq = self.generate_category_faq(category_name)
+                seo_content = self.generate_category_content(category_name)
+                
+                # Create enhanced category data
+                enhanced_category = {
+                    "categoryId": category_id,
+                    "categoryNameCanonical": category_name,
+                    "slug": self.create_category_slug(category_name),
+                    "parentCategoryId": category.get('parentCategoryId'),
+                    "level": category.get('level', 0),
+                    "description": seo_description,
+                    "content": seo_content,
+                    "seo": {
+                        "title": seo_title,
+                        "description": seo_description,
+                        "keywords": seo_keywords,
+                        "enhancedAt": datetime.now().isoformat()
+                    },
+                    "faq": faq,
+                    "productCount": category.get('productCount', 0),
+                    "enhancedAt": datetime.now().isoformat()
+                }
+                
+                # Save individual category file
+                category_filename = f"{category_id}.json"
+                category_filepath = os.path.join(self.categories_dir, category_filename)
+                
+                with open(category_filepath, 'w', encoding='utf-8') as f:
+                    json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
+                
+                enhanced_count += 1
+                safe_print(f"[SUCCESS] Enhanced: {category_name}")
+                
+                # Minimal delay for speed
+                time.sleep(self.request_delay)
+                
+            except Exception as e:
+                failed_count += 1
+                safe_print(f"[ERROR] Failed to enhance category {category_id}: {str(e)[:100]}")
+        
+        # Summary
+        safe_print(f"\n[SUMMARY] Custom Enhancement Complete")
+        safe_print("=" * 40)
+        safe_print(f"✅ Enhanced: {enhanced_count}")
+        safe_print(f"❌ Failed: {failed_count}")
+        safe_print(f"📁 Category files directory: {self.categories_dir}")
+
 def main():
     """Main function"""
     enhancer = AICategoryEnhancer()
@@ -505,10 +729,12 @@ def main():
         safe_print("1. Test single category (RECOMMENDED)")
         safe_print("2. Enhance all categories (creates individual files)")
         safe_print("3. ULTRA-FAST enhancement (optimized templates) 🚀")
-        safe_print("4. View category statistics")
-        safe_print("5. Exit")
+        safe_print("4. MEGA-FAST enhancement (1000+ categories) ⚡")
+        safe_print("5. Enhance specific categories by ID")
+        safe_print("6. View category statistics")
+        safe_print("7. Exit")
         
-        choice = input("\nSelect option (1-5): ").strip()
+        choice = input("\nSelect option (1-7): ").strip()
         
         if choice == '1':
             safe_print("\n🧪 Starting category test...")
@@ -523,6 +749,22 @@ def main():
             enhancer.enhance_categories_ultra_fast()
             
         elif choice == '4':
+            safe_print("\n⚡ Starting MEGA-FAST enhancement for 1000+ categories...")
+            enhancer.enhance_categories_mega_fast()
+            
+        elif choice == '5':
+            safe_print("\n🎯 Custom category enhancement...")
+            try:
+                category_ids_input = input("Enter category IDs (comma-separated, e.g., 1,2,3): ").strip()
+                category_ids = [int(id.strip()) for id in category_ids_input.split(',') if id.strip().isdigit()]
+                if category_ids:
+                    enhancer.enhance_specific_categories(category_ids)
+                else:
+                    safe_print("[ERROR] Please enter valid category IDs")
+            except ValueError:
+                safe_print("[ERROR] Please enter valid numbers separated by commas")
+            
+        elif choice == '6':
             # Show statistics
             categories_created = 0
             if os.path.exists(enhancer.categories_dir):
@@ -542,12 +784,12 @@ def main():
             safe_print(f"   Categories directory: {enhancer.categories_dir}")
             safe_print(f"   Source file: {enhancer.categories_file}")
             
-        elif choice == '5':
+        elif choice == '7':
             safe_print("\n👋 Goodbye!")
             break
         
         else:
-            safe_print("[ERROR] Please enter a valid option (1-5)")
+            safe_print("[ERROR] Please enter a valid option (1-7)")
 
 if __name__ == "__main__":
     main() 

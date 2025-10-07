@@ -15,8 +15,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">{getString('common.companyName')}</h3>
             <p className="text-gray-300 text-sm mb-4">
-              Especialistas en teléfonos móviles diseñados específicamente para personas mayores. 
-              Calidad, simplicidad y soporte experto.
+              {getString('footer.companyDescription')}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

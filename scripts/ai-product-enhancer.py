@@ -36,8 +36,13 @@ class AIProductEnhancer:
         # Fix path - check if we're in scripts directory or root
         if os.path.basename(os.getcwd()) == 'scripts':
             self.products_dir = "../data/products"
+            self.config_file = "../scripts/ai-config.json"
         else:
             self.products_dir = "data/products"
+            self.config_file = "scripts/ai-config.json"
+        
+        # Load AI configuration
+        self.ai_config = self.load_ai_config()
         
         # Performance settings - OPTIMIZED FOR SPEED
         self.max_concurrent_requests = 25  # Increased concurrent AI requests
@@ -48,14 +53,49 @@ class AIProductEnhancer:
         # Caching system for faster processing
         self.content_cache = {}  # Cache for similar content
         self.template_cache = {}  # Cache for templates
+    
+    def load_ai_config(self):
+        """Load AI configuration from config file"""
+        try:
+            if os.path.exists(self.config_file):
+                with open(self.config_file, 'r', encoding='utf-8') as f:
+                    return json.load(f)
+        except Exception as e:
+            safe_print(f"[WARNING] Could not load AI config: {e}")
         
-        # OPTIMIZED AI prompts - shorter and more focused for speed
-        self.prompts = {
-            'name_optimization': """
+        # Default fallback config
+        return {
+            "spanish_keywords": [
+                "productos",
+                "mejor precio",
+                "oferta",
+                "envio gratis",
+                "garantia",
+                "calidad",
+                "fácil uso",
+                "españa"
+            ],
+            "seo_settings": {
+                "default_price": "desde 19€",
+                "store_name": "Tu Tienda"
+            }
+        }
+    
+    def get_product_keywords(self):
+        """Get product-specific keywords from config"""
+        return self.ai_config.get("spanish_keywords", ["productos", "mejor precio", "oferta"])
+    
+    # OPTIMIZED AI prompts - shorter and more focused for speed
+    def get_prompts(self):
+        """Get dynamic prompts based on config"""
+        keywords = self.get_product_keywords()
+        return {
+            'name_optimization': f"""
 Optimize Spanish product name for SEO (max 60 chars):
-"{original_name}"
+"{{original_name}}"
 
-Requirements: Spanish, appealing, key features, elderly-friendly
+Requirements: Spanish, appealing, key features, quality-focused
+Keywords to consider: {', '.join(keywords[:3])}
 Respond ONLY with the optimized name.
 """,
             
@@ -67,13 +107,14 @@ Requirements: lowercase, hyphens, no accents, readable
 Respond ONLY with the slug.
 """,
             
-            'description_enhancement': """
+            'description_enhancement': f"""
 Create Spanish HTML description (max 300 words):
-Product: {product_name}
-Price: {price}€
-Features: {features}
+Product: {{product_name}}
+Price: {{price}}€
+Features: {{features}}
 
-Requirements: Spanish, HTML format, elderly-friendly, compelling, CTA
+Requirements: Spanish, HTML format, quality-focused, compelling, CTA
+Keywords: {', '.join(keywords[:3])}
 Respond ONLY with HTML content.
 """,
             
@@ -81,15 +122,16 @@ Respond ONLY with HTML content.
 Create Spanish specs JSON for: {product_name}
 Original: {original_specs}
 
-Requirements: Spanish terms, phone specs, elderly-friendly
+Requirements: Spanish terms, product specs, quality-focused
 Respond ONLY with JSON object.
 """,
             
-            'faq_generation': """
-Create 5 Spanish FAQ for: {product_name}
-Price: {price}€
+            'faq_generation': f"""
+Create 5 Spanish FAQ for: {{product_name}}
+Price: {{price}}€
 
-Requirements: Elderly concerns, easy use, durability, support
+Requirements: Common concerns, easy use, durability, support
+Keywords: {', '.join(keywords[:2])}
 Respond ONLY with JSON array.
 """
         }
@@ -175,26 +217,29 @@ Respond ONLY with JSON array.
     
     def get_fallback_response(self, prompt):
         """Fallback responses when AI service is not available"""
+        keywords = self.get_product_keywords()
+        main_keyword = keywords[0] if keywords else "producto"
+        
         if "name_optimization" in prompt:
-            return "Teléfono Móvil para Mayores con Botones Grandes y SOS - Fácil de Usar"
+            return f"{main_keyword.title()} de Calidad Premium - Fácil de Usar"
         elif "slug_optimization" in prompt:
-            return "telefono-movil-mayores-botones-grandes-sos-facil"
+            return f"{main_keyword.lower()}-calidad-premium-facil-usar"
         elif "description_enhancement" in prompt:
-            return """<div class="product-description">
-<h2>Teléfono Móvil Especialmente Diseñado para Personas Mayores</h2>
-<p>Descubre la tranquilidad de tener un teléfono que realmente entiende tus necesidades. Este dispositivo ha sido cuidadosamente diseñado pensando en la comodidad y seguridad de las personas mayores.</p>
+            return f"""<div class="product-description">
+<h2>{main_keyword.title()} de Calidad Premium</h2>
+<p>Descubre la tranquilidad de tener un {main_keyword} que realmente entiende tus necesidades. Este producto ha sido cuidadosamente diseñado pensando en la calidad y facilidad de uso.</p>
 
 <h3>Características Principales:</h3>
 <ul>
-<li><strong>Botones Grandes y Visibles:</strong> Teclas de gran tamaño con números claros para una marcación sin errores</li>
-<li><strong>Botón SOS de Emergencia:</strong> Conexión directa con tus contactos de confianza en caso de necesidad</li>
-<li><strong>Pantalla Fácil de Leer:</strong> Display con letras grandes y alto contraste</li>
-<li><strong>Sonido Potente:</strong> Volumen extra alto para escuchar perfectamente</li>
+<li><strong>Calidad Premium:</strong> Materiales de alta calidad para máxima durabilidad</li>
+<li><strong>Fácil de Usar:</strong> Diseño intuitivo y funcionalidades simplificadas</li>
+<li><strong>Garantía Completa:</strong> Protección total para tu tranquilidad</li>
+<li><strong>Envio Gratis:</strong> Entrega rápida y segura</li>
 </ul>
 
-<h3>¿Por Qué Elegir Este Teléfono?</h3>
-<p>✓ <strong>Simplicidad:</strong> Interfaz intuitiva, sin complicaciones<br>
-✓ <strong>Seguridad:</strong> Función SOS para mayor tranquilidad<br>
+<h3>¿Por Qué Elegir Este Producto?</h3>
+<p>✓ <strong>Calidad:</strong> Productos de la más alta calidad<br>
+✓ <strong>Confianza:</strong> Garantía completa incluida<br>
 ✓ <strong>Durabilidad:</strong> Construcción robusta para uso diario<br>
 ✓ <strong>Soporte:</strong> Atención al cliente especializada</p>
 
@@ -204,17 +249,15 @@ Respond ONLY with JSON array.
 </div>"""
         elif "specifications_enhancement" in prompt:
             return {
-                "Tipo de Pantalla": "LCD a color",
-                "Tamaño de Pantalla": "2.4 pulgadas", 
-                "Tecnología": "2G GSM",
-                "Batería": "1000mAh Li-ion",
-                "Autonomía en Standby": "Hasta 7 días",
-                "Autonomía en Conversación": "Hasta 6 horas",
-                "Memoria de Contactos": "300 contactos",
-                "Botón SOS": "Sí, programable",
-                "Carga": "Micro USB / USB-C",
-                "Peso": "Aproximadamente 100g",
-                "Dimensiones": "110 x 58 x 15 mm",
+                "Material": "Alta calidad",
+                "Dimensiones": "Compacto y ligero", 
+                "Tecnología": "Avanzada",
+                "Batería": "Duradera",
+                "Autonomía": "Larga duración",
+                "Memoria": "Amplia capacidad",
+                "Conectividad": "Universal",
+                "Carga": "USB / USB-C",
+                "Peso": "Ligero",
                 "Resistencia": "Resistente a golpes",
                 "Idioma": "Español",
                 "Garantía": "2 años"
@@ -222,24 +265,24 @@ Respond ONLY with JSON array.
         elif "faq_generation" in prompt:
             return [
                 {
-                    "question": "¿Es realmente fácil de usar para personas mayores?",
-                    "answer": "Absolutamente. Este teléfono está diseñado específicamente para personas mayores con botones grandes, menús simples y instrucciones claras. No necesitas conocimientos técnicos para usarlo."
+                    "question": "¿Es realmente fácil de usar?",
+                    "answer": f"Absolutamente. Este {main_keyword} está diseñado específicamente para facilitar su uso con controles simples y instrucciones claras. No necesitas conocimientos técnicos para usarlo."
                 },
                 {
-                    "question": "¿Cómo funciona el botón SOS?", 
-                    "answer": "El botón SOS se puede programar con hasta 5 contactos de emergencia. Al presionarlo, el teléfono llamará automáticamente a estos números hasta que alguien responda, y también puede enviar un mensaje de texto con tu ubicación."
+                    "question": "¿Qué garantía incluye?", 
+                    "answer": f"Este {main_keyword} incluye garantía completa de 2 años, cubriendo cualquier defecto de fabricación. Tu satisfacción está garantizada."
                 },
                 {
-                    "question": "¿Qué pasa si se me cae el teléfono?",
-                    "answer": "Este teléfono está construido para ser resistente a golpes y caídas normales. Su diseño robusto lo protege del uso diario, aunque recomendamos usar la funda incluida para mayor protección."
+                    "question": "¿Es resistente a golpes?",
+                    "answer": f"Este {main_keyword} está construido para ser resistente a golpes y caídas normales. Su diseño robusto lo protege del uso diario."
                 },
                 {
                     "question": "¿Cuánto dura la batería?",
-                    "answer": "La batería puede durar hasta 7 días en modo standby y hasta 6 horas de conversación continua. Esto significa que no tendrás que cargarlo todos los días, dándote mayor tranquilidad."
+                    "answer": f"La batería está optimizada para máxima duración. Puedes usarlo durante días sin necesidad de cargarlo constantemente."
                 },
                 {
                     "question": "¿Incluye manual en español y soporte técnico?",
-                    "answer": "Sí, incluye un manual detallado en español con ilustraciones claras. Además, nuestro equipo de soporte técnico está disponible para ayudarte con cualquier duda, especializados en atender a personas mayores."
+                    "answer": f"Sí, incluye un manual detallado en español con instrucciones claras. Además, nuestro equipo de soporte técnico está disponible para ayudarte con cualquier duda."
                 }
             ]
         
@@ -353,13 +396,16 @@ Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
         return self.get_fallback_faq(product_name, price)
     
     def get_fallback_faq(self, product_name, price):
-        """Fallback FAQ for phones"""
+        """Fallback FAQ for products"""
+        keywords = self.get_product_keywords()
+        main_keyword = keywords[0] if keywords else "producto"
+        
         return [
-            {"question": "¿Es fácil de usar para personas mayores?", "answer": f"Sí, el {product_name} está diseñado específicamente para facilitar su uso a personas mayores con botones grandes y funciones simplificadas."},
+            {"question": "¿Es fácil de usar?", "answer": f"Sí, el {product_name} está diseñado específicamente para facilitar su uso con controles simples y funciones intuitivas."},
             {"question": "¿Cuál es el precio?", "answer": f"El precio es de solo {price}€, una excelente relación calidad-precio."},
-            {"question": "¿Tiene función de emergencia?", "answer": "Sí, incluye botón SOS para llamadas de emergencia rápidas."},
-            {"question": "¿La batería dura mucho?", "answer": "Sí, la batería está optimizada para varios días de uso con una sola carga."},
-            {"question": "¿Es compatible con todas las operadoras?", "answer": "Sí, es un teléfono libre compatible con todas las redes GSM en España."}
+            {"question": "¿Tiene garantía?", "answer": "Sí, incluye garantía completa para tu tranquilidad."},
+            {"question": "¿La batería dura mucho?", "answer": "Sí, la batería está optimizada para máxima duración con una sola carga."},
+            {"question": "¿Es compatible con todos los dispositivos?", "answer": f"Sí, este {main_keyword} es compatible con la mayoría de dispositivos modernos."}
         ]
     
     async def create_short_description_async(self, product_name, features, price, session_id, product_data=None):
@@ -379,13 +425,15 @@ Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
     def optimize_product_name(self, original_name):
         """Optimize product name for SEO and appeal"""
         safe_print(f"[AI] Optimizing product name...")
-        prompt = self.prompts['name_optimization'].format(original_name=original_name)
+        prompts = self.get_prompts()
+        prompt = prompts['name_optimization'].format(original_name=original_name)
         return self.get_ai_response(prompt)
     
     def create_seo_slug(self, product_name):
         """Create SEO-friendly slug"""
         safe_print(f"[AI] Creating SEO slug...")
-        prompt = self.prompts['slug_optimization'].format(product_name=product_name)
+        prompts = self.get_prompts()
+        prompt = prompts['slug_optimization'].format(product_name=product_name)
         slug = self.get_ai_response(prompt)
         
         # Additional cleanup

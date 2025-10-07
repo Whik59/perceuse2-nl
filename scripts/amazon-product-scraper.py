@@ -65,9 +65,9 @@ class AmazonScraper:
             self.category_delay = (1, 3)      # Minimal rest
             self.max_workers = 12             # Maximum workers
         else:  # normal
-            self.request_delay = (1, 3)       # Balanced
-            self.category_delay = (5, 10)    # Moderate rest
-            self.max_workers = 5              # Moderate workers
+            self.request_delay = (0.5, 1.5)   # Faster requests
+            self.category_delay = (2, 5)      # Faster rest
+            self.max_workers = 8              # More workers
         
         # OPTIMIZED: Only scrape subcategories (level 1)
         # Main categories get products automatically from their subcategories
@@ -84,6 +84,10 @@ class AmazonScraper:
         
         # Results storage
         self.all_products = {}
+        
+        # Progress tracking
+        self.products_saved_count = 0
+        self.products_saved_lock = threading.Lock()
         
         # Setup advanced session
         self.session = self.setup_advanced_session()
@@ -200,17 +204,17 @@ class AmazonScraper:
                 # Check for various blocking scenarios
                 if response.status_code == 503:
                     safe_print(f"  [WARNING] Rate limited (503), waiting longer...")
-                    time.sleep(random.uniform(15, 25))
+                    time.sleep(random.uniform(5, 10))
                     continue
                 elif response.status_code == 429:
                     safe_print(f"  [WARNING] Too many requests (429), backing off...")
-                    time.sleep(random.uniform(20, 35))
+                    time.sleep(random.uniform(8, 15))
                     continue
                 elif 'validateCaptcha' in response.text or 'Continuer les achats' in response.text:
                     safe_print(f"  [WARNING] CAPTCHA detected on attempt {attempt + 1}")
                     if attempt < retries - 1:
                         safe_print("  [RETRY] Waiting longer before retry...")
-                        time.sleep(random.uniform(15, 25))
+                        time.sleep(random.uniform(5, 10))
                         continue
                     else:
                         safe_print("  [ERROR] All attempts failed due to CAPTCHA")
@@ -222,7 +226,7 @@ class AmazonScraper:
             except requests.exceptions.RequestException as e:
                 safe_print(f"  [WARNING] Attempt {attempt + 1} failed: {str(e)}")
                 if attempt < retries - 1:
-                    time.sleep(random.uniform(8, 15))
+                    time.sleep(random.uniform(3, 8))
                     continue
                     
         return None
@@ -241,11 +245,11 @@ class AmazonScraper:
                 if category.get('needs_products', False):
                     categories.append({
                         'categoryId': category['categoryId'],
-                        'name': category['categoryNameCanonical'],
+                        'name': category.get('name', category.get('categoryNameCanonical', 'Unknown')),
                         'slug': category['slug'],
                         'level': category['level'],
                         'parentId': category.get('parentCategoryId'),
-                        'targetKeywords': [category['categoryNameCanonical']],
+                        'targetKeywords': [category.get('name', category.get('categoryNameCanonical', 'Unknown'))],
                         'needs_products': True,
                         'recommended_products': category.get('recommended_products', 5)
                     })
@@ -494,13 +498,16 @@ class AmazonScraper:
     
     def extract_brand_from_title(self, title):
         """Extract brand name from product title"""
-        # Updated brands for telefono category
+        # Generic brands for various product categories
         brands = [
             'Samsung', 'Apple', 'iPhone', 'Xiaomi', 'Huawei', 'Nokia', 'Oppo', 'Realme', 
             'OnePlus', 'Motorola', 'LG', 'Sony', 'Google', 'Pixel', 'Honor', 'Vivo',
             'Alcatel', 'TCL', 'Blackview', 'Doogee', 'Ulefone', 'Cubot', 'Oukitel',
             'Cat', 'Caterpillar', 'Gigaset', 'Panasonic', 'Philips', 'Siemens',
-            'Ninja', 'SEB', 'Moulinex', 'Tefal', 'Delonghi', 'Cosori', 'Cecotec'
+            'Ninja', 'SEB', 'Moulinex', 'Tefal', 'Delonghi', 'Cosori', 'Cecotec',
+            'Bosch', 'KitchenAid', 'Kenwood', 'Braun', 'Dyson', 'Shark', 'iRobot',
+            'JBL', 'Sony', 'Bose', 'Sennheiser', 'Audio-Technica', 'Marshall',
+            'Nike', 'Adidas', 'Puma', 'Reebok', 'Under Armour', 'New Balance'
         ]
         
         title_upper = title.upper()
@@ -518,24 +525,19 @@ class AmazonScraper:
         search_terms = []
         
         if level == 0:  # Main categories
-            if "sans huile" in category_lower:
-                search_terms = ["friteuse sans huile", "air fryer", "friteuse air"]
-            elif "huile" in category_lower:
-                search_terms = ["friteuse huile", "friteuse traditionnelle"]
-            else:
-                search_terms = [f"friteuse {category_lower}", category_lower]
+            search_terms = [category_lower, f"{category_lower} amazon"]
         
         elif level == 1:  # Brand subcategories
             brand_name = category_name.lower()
-            search_terms = [f"friteuse {brand_name}", f"{brand_name} friteuse", f"{brand_name} air fryer"]
+            search_terms = [f"{brand_name} {category_lower}", f"{brand_name} amazon"]
         
         elif level == 2:  # Specific models
             model_name = category_name.lower()
-            search_terms = [model_name, f"friteuse {model_name}"]
+            search_terms = [model_name, f"{model_name} amazon"]
         
         else:
             # Fallback
-            search_terms = [category_lower, f"friteuse {category_lower}"]
+            search_terms = [category_lower, f"{category_lower} amazon"]
         
         return search_terms
     
@@ -576,74 +578,78 @@ class AmazonScraper:
             }
     
     def extract_all_media(self, response_text, soup):
-        """Extract images and videos specifically from Amazon product carousel"""
+        """Extract up to 3 images and videos from Amazon product page"""
         carousel_images = []
         carousel_videos = []
         
-        # Method 1: Extract from main product carousel JSON (most reliable)
+        # Method 1: Extract multiple images using regex patterns
         try:
-            # Look for the main image carousel data structure
-            # Amazon stores carousel images in colorImages.initial array
-            carousel_pattern = r'"colorImages":\s*{\s*"initial":\s*(\[.*?\])'
-            carousel_match = re.search(carousel_pattern, response_text, re.DOTALL)
+            # Extract hiRes images (highest quality)
+            hires_images = re.findall(r'"hiRes":"([^"]+)"', response_text)
+            safe_print(f"  [DEBUG] Found {len(hires_images)} hiRes images")
             
-            if carousel_match:
-                try:
+            for img_url in hires_images[:3]:  # Limit to 3 images
+                clean_url = img_url.replace('\\/', '/')
+                if clean_url.startswith('http') and clean_url not in carousel_images:
+                    carousel_images.append(clean_url)
+            
+            # If we don't have 3 images yet, get large images
+            if len(carousel_images) < 3:
+                large_images = re.findall(r'"large":"([^"]+)"', response_text)
+                safe_print(f"  [DEBUG] Found {len(large_images)} large images")
+                
+                for img_url in large_images:
+                    if len(carousel_images) >= 3:
+                        break
+                    clean_url = img_url.replace('\\/', '/')
+                    if clean_url.startswith('http') and clean_url not in carousel_images:
+                        carousel_images.append(clean_url)
+            
+            # If still not enough, get main images
+            if len(carousel_images) < 3:
+                main_images = re.findall(r'"main":"([^"]+)"', response_text)
+                safe_print(f"  [DEBUG] Found {len(main_images)} main images")
+                
+                for img_url in main_images:
+                    if len(carousel_images) >= 3:
+                        break
+                    clean_url = img_url.replace('\\/', '/')
+                    if clean_url.startswith('http') and clean_url not in carousel_images:
+                        carousel_images.append(clean_url)
+                        
+        except Exception as e:
+            safe_print(f"  [WARNING] Image extraction failed: {e}")
+        
+        # Method 2: Fallback to carousel JSON if regex didn't work
+        if len(carousel_images) < 3:
+            try:
+                carousel_pattern = r'"colorImages":\s*{\s*"initial":\s*(\[.*?\])'
+                carousel_match = re.search(carousel_pattern, response_text, re.DOTALL)
+                
+                if carousel_match:
                     carousel_data = json.loads(carousel_match.group(1))
-                    safe_print(f"  [OK] Found carousel with {len(carousel_data)} items")
+                    safe_print(f"  [DEBUG] Found carousel JSON with {len(carousel_data)} items")
                     
                     for item in carousel_data:
-                        # Get the highest quality image from each carousel item
+                        if len(carousel_images) >= 3:
+                            break
                         if isinstance(item, dict):
-                            # Priority: hiRes > large > main
                             img_url = item.get('hiRes') or item.get('large') or item.get('main')
-                            if img_url and img_url.startswith('http'):
+                            if img_url and img_url.startswith('http') and img_url not in carousel_images:
                                 carousel_images.append(img_url)
                                 
-                except json.JSONDecodeError:
-                    safe_print("  [WARNING] Could not parse carousel JSON")
-            
-            # Look for product videos in the carousel
-            video_pattern = r'"videos":\s*\[([^\]]+)\]'
-            video_match = re.search(video_pattern, response_text)
-            
-            if video_match:
-                try:
-                    # Extract video URLs from the videos array
-                    video_urls = re.findall(r'"url":"([^"]*\.mp4[^"]*)"', video_match.group(1))
-                    for video_url in video_urls:
-                        clean_url = video_url.replace('\\/', '/')
-                        if clean_url.startswith('http'):
-                            carousel_videos.append(clean_url)
-                            
-                except Exception as e:
-                    safe_print(f"  [WARNING] Video extraction failed: {e}")
-                    
-        except Exception as e:
-            safe_print(f"  [WARNING] Carousel JSON extraction failed: {e}")
-        
-        # Method 2: Fallback to main product image if carousel not found
-        if not carousel_images:
-            try:
-                # Look for the main product image
-                main_img_patterns = [
-                    r'"hiRes":"([^"]+)"',
-                    r'"large":"([^"]+)"',
-                    r'data-a-dynamic-image="([^"]+)"'
-                ]
-                
-                for pattern in main_img_patterns:
-                    matches = re.findall(pattern, response_text)
-                    for match in matches:
-                        img_url = match.replace('\\u0026', '&').replace('\\"', '"').replace('\\/', '/')
-                        if img_url.startswith('http') and img_url not in carousel_images:
-                            carousel_images.append(img_url)
-                            break  # Only get the first high-quality image as fallback
-                    if carousel_images:
-                        break
-                        
             except Exception as e:
-                safe_print(f"  [WARNING] Fallback image extraction failed: {e}")
+                safe_print(f"  [WARNING] Carousel JSON extraction failed: {e}")
+        
+        # Method 3: Extract videos
+        try:
+            video_urls = re.findall(r'"videoUrl":"([^"]+)"', response_text)
+            for video_url in video_urls[:2]:  # Limit to 2 videos
+                clean_url = video_url.replace('\\/', '/')
+                if clean_url.startswith('http') and clean_url not in carousel_videos:
+                    carousel_videos.append(clean_url)
+        except Exception as e:
+            safe_print(f"  [WARNING] Video extraction failed: {e}")
         
         # Enhance image quality by upgrading Amazon's size parameters
         enhanced_images = []
@@ -671,11 +677,11 @@ class AmazonScraper:
             except Exception:
                 enhanced_images.append(img_url)
         
-        # Remove duplicates while preserving order
+        # Remove duplicates while preserving order and limit to 3 images
         final_images = []
         seen = set()
         for img in enhanced_images:
-            if img not in seen and len(img) > 30:  # Filter out small/invalid URLs
+            if img not in seen and len(img) > 30 and len(final_images) < 3:
                 seen.add(img)
                 final_images.append(img)
         
@@ -704,10 +710,10 @@ class AmazonScraper:
         # Enhanced media extraction from Amazon carousel
         all_images, videos = self.extract_all_media(response.text, soup)
         
-        # Set main image and gallery
+        # Set main image and gallery (limit to 3 images)
         product['image'] = all_images[0] if all_images else product.get('main_image')
-        product['images'] = all_images[:12]  # Up to 12 images for gallery
-        product['videos'] = videos[:5]  # Up to 5 videos
+        product['images'] = all_images[:3]  # Limit to 3 images max
+        product['videos'] = videos[:2]  # Limit to 2 videos max
         
         # Extract product description/features
         descriptions = []
@@ -739,12 +745,23 @@ class AmazonScraper:
         if brand_elem:
             product['brand'] = brand_elem.get_text(strip=True)
         
+        # Ensure ASIN is properly set
+        if not product.get('asin'):
+            # Try to extract ASIN from URL
+            asin = self.extract_asin_from_url(product['url'])
+            if asin:
+                product['asin'] = asin
+                safe_print(f"  [FIX] Extracted ASIN from URL: {asin}")
+            else:
+                safe_print(f"  [WARNING] Could not extract ASIN for product")
+                return None
+        
         safe_print(f"  [OK] Extracted {len(product['description'])} description points")
         return product
     
     def scrape_category_products(self, category):
         """Scrape products for subcategories only using their targetKeywords"""
-        category_name = category['categoryNameCanonical']
+        category_name = category.get('name', category.get('categoryNameCanonical', 'Unknown'))
         level = category['level']
         
         # OPTIMIZATION: Skip main categories (level 0) - they get products from subcategories
@@ -810,18 +827,21 @@ class AmazonScraper:
                         except Exception as exc:
                             safe_print(f"  [ERROR] Product failed: {exc}")
                 
-                # Rate limiting between pages
-                time.sleep(random.uniform(8, 15))
+                # Rate limiting between pages (reduced for speed)
+                time.sleep(random.uniform(2, 5))
                 
                 if len(products_on_page) < 5:  # Not many products left
                     break
         
         # Limit to target count and add category info
-        final_products = all_products[:target_count]
+        final_products = all_products[:recommended_products]
         for product in final_products:
             product['category_id'] = category['categoryId']
             product['category_name'] = category_name
             product['category_level'] = level
+            
+            # Save individual product immediately
+            self.save_individual_product(product, category)
         
         self.all_products[category['categoryId']] = final_products
         safe_print(f"[SUCCESS] Final: {len(final_products)} products for {category_name}")
@@ -842,7 +862,7 @@ class AmazonScraper:
         
         safe_print(f"[STATS] Sample categories to process: {len(sample_categories)}")
         for cat in sample_categories:
-            safe_print(f"  - {cat['categoryNameCanonical']} (Level {cat['level']})")
+            safe_print(f"  - {cat.get('name', cat.get('categoryNameCanonical', 'Unknown'))} (Level {cat['level']})")
         
         total_products = 0
         
@@ -861,9 +881,9 @@ class AmazonScraper:
                 try:
                     products = future.result()
                     total_products += len(products)
-                    safe_print(f"[SUCCESS] Category {category['categoryNameCanonical']}: {len(products)} products")
+                    safe_print(f"[SUCCESS] Category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {len(products)} products")
                 except Exception as e:
-                    safe_print(f"[ERROR] Error with category {category['categoryNameCanonical']}: {e}")
+                    safe_print(f"[ERROR] Error with category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {e}")
         
         safe_print(f"\n[SUCCESS] Sample Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
@@ -872,7 +892,7 @@ class AmazonScraper:
     
     def scrape_all_categories(self):
         """Scrape all categories"""
-        safe_print("[START] Starting Full Friteuse Scraping...")
+        safe_print("[START] Starting Full Product Scraping...")
         safe_print(f"[STATS] Categories to process: {len(self.categories)}")
         
         total_products = 0
@@ -888,11 +908,11 @@ class AmazonScraper:
                 if i % 10 == 0:
                     self.save_results(f"progress_{i}")
                 
-                # Rest between categories
-                time.sleep(random.uniform(15, 25))
+                # Rest between categories (reduced for speed)
+                time.sleep(random.uniform(2, 5))
                 
             except Exception as e:
-                safe_print(f"[ERROR] Error with category {category['categoryNameCanonical']}: {e}")
+                safe_print(f"[ERROR] Error with category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {e}")
                 continue
         
         safe_print(f"\n[SUCCESS] Full Scraping Complete!")
@@ -900,12 +920,51 @@ class AmazonScraper:
         
         self.save_results("final")
     
+    def save_individual_product(self, product, category):
+        """Save individual product immediately to avoid data loss"""
+        try:
+            asin = product.get('asin')
+            if not asin:
+                safe_print(f"[WARNING] No ASIN found for product, skipping save")
+                return None
+            
+            # Convert to site format
+            site_product = self.convert_to_site_format(product, category)
+            
+            # Create filename
+            filename = f"{asin.lower()}.json"
+            
+            # Determine path
+            if os.path.basename(os.getcwd()) == 'scripts':
+                filepath = os.path.join('..', 'data', 'products', filename)
+            else:
+                filepath = os.path.join('data', 'products', filename)
+            
+            # Create products directory if it doesn't exist
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+            
+            # Save the product
+            with open(filepath, 'w', encoding='utf-8') as f:
+                json.dump(site_product, f, indent=2, ensure_ascii=False)
+            
+            # Update progress counter
+            with self.products_saved_lock:
+                self.products_saved_count += 1
+                total_saved = self.products_saved_count
+            
+            safe_print(f"[SAVE] Product saved: {filename} (Total: {total_saved})")
+            return filepath
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Could not save individual product {product.get('asin', 'unknown')}: {str(e)}")
+            return None
+    
     def save_results(self, suffix=""):
         """Save scraping results"""
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
         
         # Main results file
-        results_file = f"friteuse_products_{suffix}_{timestamp}.json"
+        results_file = f"amazon_products_{suffix}_{timestamp}.json"
         with open(results_file, 'w', encoding='utf-8') as f:
             json.dump({
                 'products_by_category': self.all_products,
@@ -918,34 +977,13 @@ class AmazonScraper:
                 'timestamp': datetime.now().isoformat()
             }, f, indent=2, ensure_ascii=False)
         
-        # Create individual product files
-        # Fix path - check if we're in scripts directory or root
-        if os.path.basename(os.getcwd()) == 'scripts':
-            products_dir = '../data/products'
-        else:
-            products_dir = 'data/products'
-        
-        os.makedirs(products_dir, exist_ok=True)
-        product_count = 0
-        
-        for category_id, products in self.all_products.items():
-            for product in products:
-                # Convert to site format
-                site_product = self.convert_to_site_format(product)
-                
-                # Save individual product file
-                product_file = f"{products_dir}/{product['asin'].lower()}.json"
-                with open(product_file, 'w', encoding='utf-8') as f:
-                    json.dump(site_product, f, indent=2, ensure_ascii=False)
-                product_count += 1
-        
         safe_print(f"[SAVE] Results saved:")
         safe_print(f"  [OK] Main file: {results_file}")
-        safe_print(f"  [OK] Individual products: {product_count} files in {products_dir}/")
+        safe_print(f"  [OK] Individual products already saved progressively")
         
         self.print_summary()
     
-    def convert_to_site_format(self, scraped_product):
+    def convert_to_site_format(self, scraped_product, category=None):
         """Convert scraped product to site format"""
         return {
             "productId": scraped_product['asin'],
@@ -957,8 +995,8 @@ class AmazonScraper:
             "compareAtPrice": int(float(scraped_product.get('price', '100').replace('€', '').replace(',', '.')) * 1.15) if scraped_product.get('price', '').replace('€', '').replace(',', '.').replace('.', '').isdigit() else 100,
             "images": scraped_product.get('images', [scraped_product.get('image', '')]) if scraped_product.get('images') else [scraped_product.get('image', '')],
             "videos": scraped_product.get('videos', []),
-            "category": scraped_product.get('category_name', 'Friteuse'),
-            "tags": ["friteuse", scraped_product.get('brand', '').lower(), scraped_product.get('category_name', '').lower()],
+            "category": scraped_product.get('category_name', 'Product'),
+            "tags": ["producto", scraped_product.get('brand', '').lower(), scraped_product.get('category_name', '').lower()],
             "amazonUrl": scraped_product.get('affiliate_url', ''),
             "amazonASIN": scraped_product['asin'],
             "affiliateId": self.config['affiliate_tag'],
@@ -968,9 +1006,9 @@ class AmazonScraper:
             "amazonReviewCount": scraped_product.get('review_count', 0),
             "brand": scraped_product.get('brand', 'Unknown'),
             "seo": {
-                "title": f"{scraped_product['title']} - Friteuse Expert",
+                "title": f"{scraped_product['title']} - Product Expert",
                 "description": f"Découvrez {scraped_product['title']} sur Amazon. Note {scraped_product.get('rating', 4.0)}/5 avec {scraped_product.get('review_count', 0)} avis.",
-                "keywords": ["friteuse", scraped_product.get('brand', '').lower(), "amazon", "avis"]
+                "keywords": ["producto", scraped_product.get('brand', '').lower(), "amazon", "avis"]
             },
             "reviews": {
                 "averageRating": scraped_product.get('rating', 4.0),
@@ -1039,258 +1077,6 @@ class AmazonScraper:
                     pass
         
         return stats
-    
-    def get_detailed_product_info(self, product):
-        """Fetch detailed product information from product page"""
-        try:
-            if not product.get('amazon_url'):
-                return None
-            
-            safe_print(f"[DETAIL] Fetching details for ASIN: {product.get('asin', 'N/A')}")
-            
-            # Make request to product page with Spanish language preference
-            response = self.make_request(product['amazon_url'])
-            if not response:
-                return None
-            
-            soup = BeautifulSoup(response.content, 'html.parser')
-            detailed_info = {}
-            
-            # Check if we're getting Spanish content
-            page_lang = soup.find('html', {'lang': True})
-            if page_lang and 'es' not in page_lang.get('lang', '').lower():
-                safe_print(f"[WARNING] Page language may not be Spanish: {page_lang.get('lang', 'unknown')}")
-            
-            # Extract full title
-            title_elem = soup.find('span', {'id': 'productTitle'})
-            if title_elem:
-                detailed_info['title'] = title_elem.get_text(strip=True)
-            
-            # Extract description
-            desc_elem = soup.find('div', {'id': 'feature-bullets'})
-            if not desc_elem:
-                desc_elem = soup.find('div', {'id': 'productDescription'})
-            if desc_elem:
-                detailed_info['description'] = desc_elem.get_text(strip=True)
-            
-            # Extract features/bullet points
-            features = []
-            feature_list = soup.find('div', {'id': 'feature-bullets'})
-            if feature_list:
-                bullets = feature_list.find_all('span', class_='a-list-item')
-                for bullet in bullets:
-                    text = bullet.get_text(strip=True)
-                    if text and len(text) > 10 and not text.startswith('Make sure'):
-                        features.append(text)
-            detailed_info['features'] = features[:10]  # Limit to 10 features
-            
-            # Extract images using the proven regex method for Amazon carousel
-            images = []
-            videos = []
-            
-            safe_print(f"[DEBUG] Starting image extraction using regex method...")
-            
-            # Method 1: Direct regex extraction from page HTML (most reliable)
-            try:
-                page_html = response.text
-                safe_print(f"[DEBUG] Page HTML length: {len(page_html)} characters")
-                
-                # Extract high-resolution images first
-                hires_images = re.findall(r'"hiRes":"([^"]+)"', page_html)
-                safe_print(f"[DEBUG] Found {len(hires_images)} hiRes images")
-                
-                if hires_images:
-                    for i, img_url in enumerate(hires_images):
-                        # Clean the URL (remove escape characters)
-                        clean_url = img_url.replace('\\/', '/')
-                        if clean_url not in images:
-                            images.append(clean_url)
-                            safe_print(f"[DEBUG] HiRes image {i+1}: {clean_url[:60]}...")
-                
-                # Fallback to large images if no hiRes found
-                if len(images) < 3:
-                    large_images = re.findall(r'"large":"([^"]+)"', page_html)
-                    safe_print(f"[DEBUG] Found {len(large_images)} large images")
-                    
-                    for i, img_url in enumerate(large_images):
-                        clean_url = img_url.replace('\\/', '/')
-                        if clean_url not in images:
-                            images.append(clean_url)
-                            safe_print(f"[DEBUG] Large image {i+1}: {clean_url[:60]}...")
-                
-                # Also look for main images
-                if len(images) < 5:
-                    main_images = re.findall(r'"main":"([^"]+)"', page_html)
-                    safe_print(f"[DEBUG] Found {len(main_images)} main images")
-                    
-                    for i, img_url in enumerate(main_images):
-                        clean_url = img_url.replace('\\/', '/')
-                        if clean_url not in images:
-                            images.append(clean_url)
-                            safe_print(f"[DEBUG] Main image {i+1}: {clean_url[:60]}...")
-                
-                # Look for video URLs
-                video_urls = re.findall(r'"videoUrl":"([^"]+)"', page_html)
-                safe_print(f"[DEBUG] Found {len(video_urls)} videos")
-                
-                for video_url in video_urls:
-                    clean_url = video_url.replace('\\/', '/')
-                    if clean_url not in videos:
-                        videos.append(clean_url)
-                        safe_print(f"[DEBUG] Video: {clean_url[:60]}...")
-                        
-            except Exception as e:
-                safe_print(f"[DEBUG] Error in regex extraction: {str(e)}")
-            
-            # Method 2: Fallback to thumbnail extraction if regex didn't work
-            if len(images) < 3:
-                safe_print(f"[DEBUG] Regex found {len(images)} images, trying thumbnail extraction...")
-                
-                # Target specific Amazon carousel elements
-                carousel_selectors = [
-                    'div[id*="altImages"]',
-                    'span[class*="a-button-thumbnail"]'
-                ]
-                
-                for selector in carousel_selectors:
-                    try:
-                        elements = soup.select(selector)
-                        safe_print(f"[DEBUG] Found {len(elements)} elements with selector: {selector}")
-                        
-                        for element in elements:
-                            imgs = element.find_all('img')
-                            for img in imgs:
-                                src = img.get('src') or img.get('data-src')
-                                if src and 'images/I/' in src:
-                                    # Extract image ID and create high-res URL
-                                    img_id_match = re.search(r'/I/([A-Za-z0-9+%]+)', src)
-                                    if img_id_match:
-                                        img_id = img_id_match.group(1)
-                                        high_res_url = f"https://m.media-amazon.com/images/I/{img_id}._AC_SL1500_.jpg"
-                                        if high_res_url not in images:
-                                            images.append(high_res_url)
-                                            safe_print(f"[DEBUG] Thumbnail converted: {img_id}")
-                    except Exception as e:
-                        safe_print(f"[DEBUG] Error with selector {selector}: {str(e)}")
-            
-            # Method 3: Dynamic image data as final fallback
-            if len(images) < 2:
-                safe_print(f"[DEBUG] Still only {len(images)} images, trying dynamic image data...")
-                
-                dynamic_imgs = soup.find_all('img', {'data-a-dynamic-image': True})
-                for img in dynamic_imgs:
-                    try:
-                        dynamic_data = img.get('data-a-dynamic-image')
-                        if dynamic_data:
-                            img_data = json.loads(dynamic_data)
-                            # Get the highest resolution version
-                            best_url = None
-                            best_size = 0
-                            
-                            for img_url, dimensions in img_data.items():
-                                if isinstance(dimensions, list) and len(dimensions) >= 2:
-                                    size = dimensions[0] * dimensions[1]
-                                    if size > best_size:
-                                        best_size = size
-                                        best_url = img_url
-                            
-                            if best_url and best_url not in images:
-                                images.append(best_url)
-                                safe_print(f"[DEBUG] Dynamic image: {best_url[:60]}...")
-                    except Exception as e:
-                        safe_print(f"[DEBUG] Error parsing dynamic image: {str(e)}")
-            
-            safe_print(f"[DEBUG] Total images found: {len(images)}")
-            
-            # Smart image deduplication and quality filtering
-            unique_images = []
-            seen_image_ids = set()
-            
-            # Sort images by quality preference (highest resolution first)
-            def get_image_quality_score(img_url):
-                if '_AC_SL1500_' in img_url:
-                    return 1000  # Highest quality
-                elif '_AC_SL1000_' in img_url:
-                    return 900
-                elif '_AC_SX679_' in img_url:
-                    return 800
-                elif '_AC_SX' in img_url:
-                    # Extract width for scoring
-                    width_match = re.search(r'_AC_SX(\d+)_', img_url)
-                    if width_match:
-                        return int(width_match.group(1))
-                    return 500
-                else:
-                    return 100  # Lowest quality
-            
-            # Sort by quality score (highest first)
-            images.sort(key=get_image_quality_score, reverse=True)
-            
-            for img_url in images:
-                # Extract image ID to avoid duplicates
-                img_id_match = re.search(r'/I/([^/._]+)', img_url)  # More precise regex
-                if img_id_match:
-                    img_id = img_id_match.group(1)
-                    
-                    # Skip very small/low quality images
-                    if any(x in img_url.lower() for x in ['_ss', '_sx40_', '_sx50_', '_sx75_', '_sx100_']):
-                        continue
-                    
-                    if img_id not in seen_image_ids:
-                        seen_image_ids.add(img_id)
-                        # Ensure we get the highest quality version
-                        if '_AC_SL1500_' not in img_url:
-                            # Convert to highest quality
-                            high_quality_url = f"https://m.media-amazon.com/images/I/{img_id}._AC_SL1500_.jpg"
-                            unique_images.append(high_quality_url)
-                        else:
-                            unique_images.append(img_url)
-                        
-                        # Stop at 10 images max
-                        if len(unique_images) >= 10:
-                            break
-            
-            detailed_info['images'] = unique_images[:10]  # Max 10 unique high-quality images
-            detailed_info['videos'] = list(dict.fromkeys(videos))[:5]   # Limit to 5 videos
-            
-            safe_print(f"[DEBUG] Found {len(unique_images)} unique high-quality images and {len(videos)} videos")
-            
-            # Extract availability
-            availability_elem = soup.find('div', {'id': 'availability'})
-            if availability_elem:
-                avail_text = availability_elem.get_text(strip=True)
-                detailed_info['availability'] = avail_text
-            else:
-                detailed_info['availability'] = "Check on Amazon"
-            
-            # Extract shipping info
-            shipping_elem = soup.find('div', {'id': 'mir-layout-DELIVERY_BLOCK'})
-            if not shipping_elem:
-                shipping_elem = soup.find('span', string=re.compile(r'delivery|shipping', re.I))
-            if shipping_elem:
-                detailed_info['shipping_info'] = shipping_elem.get_text(strip=True)[:200]
-            else:
-                detailed_info['shipping_info'] = "Standard shipping available"
-            
-            # Extract additional product details
-            detail_bullets = soup.find('div', {'id': 'detailBullets_feature_div'})
-            if detail_bullets:
-                details = {}
-                rows = detail_bullets.find_all('tr')
-                for row in rows:
-                    cells = row.find_all('td')
-                    if len(cells) == 2:
-                        key = cells[0].get_text(strip=True).replace(':', '')
-                        value = cells[1].get_text(strip=True)
-                        details[key] = value
-                detailed_info['product_details'] = details
-            
-            safe_print(f"[DETAIL] Successfully extracted detailed info")
-            return detailed_info
-            
-        except Exception as e:
-            safe_print(f"[ERROR] Error fetching detailed product info: {str(e)}")
-            return None
     
     def create_product_preview_html(self, product, category_name):
         """Create an HTML preview of the product"""
@@ -1583,7 +1369,7 @@ class AmazonScraper:
                 "tags": [
                     category.get('name', '').lower(),
                     product.get('brand', '').lower(),
-                    "telefono"
+                    "producto"
                 ],
                 "amazonUrl": product.get('affiliate_url', product.get('amazon_url', '')),
                 "amazonASIN": asin,
@@ -1597,11 +1383,11 @@ class AmazonScraper:
                     "title": f"{product.get('title', '')} - {self.config.get('name', 'Store')}",
                     "description": f"Découvrez {product.get('title', '')} sur Amazon. Note {product.get('rating', 'N/A')}/5 avec {product.get('review_count', 0)} avis.",
                     "keywords": [
-                        "telefono",
+                        "producto",
                         product.get('brand', '').lower(),
                         category.get('name', '').lower(),
-                        "movil",
-                        "smartphone"
+                        "amazon",
+                        "oferta"
                     ]
                 },
                 "specifications": {
