@@ -1,0 +1,50 @@
+{
+  "productId": "B0DR9C7XT6",
+  "name": "Bestseller",
+  "slug": "bestseller",
+  "description": "",
+  "shortDescription": "Bestseller",
+  "price": "15.99",
+  "compareAtPrice": 18,
+  "images": [
+    "https://m.media-amazon.com/images/I/71BgAeNogdL._SL1293_.jpg",
+    "https://m.media-amazon.com/images/I/51QO8ar0-iL.jpg",
+    "https://m.media-amazon.com/images/I/61nqg2iC-GL.jpg"
+  ],
+  "videos": [],
+  "category": "airfryer diät",
+  "tags": [
+    "producto",
+    "bestseller",
+    "airfryer diät"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B0DR9C7XT6?tag=clickclickh0b-21",
+  "amazonASIN": "B0DR9C7XT6",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Bestseller",
+  "amazonPrice": "15.99€",
+  "amazonRating": 4.5,
+  "amazonReviewCount": 0,
+  "brand": "Bestseller",
+  "seo": {
+    "title": "Bestseller - Product Expert",
+    "description": "Découvrez Bestseller sur Amazon. Note 4.5/5 avec 0 avis.",
+    "keywords": [
+      "producto",
+      "bestseller",
+      "amazon",
+      "avis"
+    ]
+  },
+  "reviews": {
+    "averageRating": 4.5,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "productId": "3690280508",
+  "name": "Airfryer: Speedkitchen",
+  "slug": "airfryer-speedkitchen",
+  "description": "",
+  "shortDescription": "Airfryer: Speedkitchen",
+  "price": "12.95",
+  "compareAtPrice": 14,
+  "images": [
+    "https://m.media-amazon.com/images/I/81MAdsHNelL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91uuXHB6uyL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91jXF3bJTJL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/918Y-q75XGL._SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/91TLV2FWH-L._SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "airfryer essen&trinken",
+  "tags": [
+    "producto",
+    "airfryer:",
+    "airfryer essen&trinken"
+  ],
+  "amazonUrl": "https://amazon.de/dp/3690280508?tag=clickclickh0b-21",
+  "amazonASIN": "3690280508",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Airfryer: Speedkitchen",
+  "amazonPrice": "12.95€",
+  "amazonRating": 5.0,
+  "amazonReviewCount": 0,
+  "brand": "Airfryer:",
+  "seo": {
+    "title": "Airfryer: Speedkitchen - Product Expert",
+    "description": "Découvrez Airfryer: Speedkitchen sur Amazon. Note 5.0/5 avec 0 avis.",
+    "keywords": [
+      "producto",
+      "airfryer:",
+      "amazon",
+      "avis"
+    ]
+  },
+  "reviews": {
+    "averageRating": 5.0,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  }
+}
