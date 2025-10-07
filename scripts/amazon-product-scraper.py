@@ -73,9 +73,9 @@ class AmazonScraper:
         # Main categories get products automatically from their subcategories
         self.scrape_only_subcategories = True
         
-        # Quality filters
-        self.min_rating = 4.0
-        self.min_price = 20  # Minimum price in local currency
+        # Quality filters (relaxed for better coverage)
+        self.min_rating = 3.5  # Relaxed from 4.0 to 3.5
+        self.min_price = 15    # Relaxed from 20 to 15 (minimum price in local currency)
         
         # Track unique products (thread-safe)
         self.used_asins = set()
@@ -262,11 +262,19 @@ class AmazonScraper:
             safe_print(f"[ERROR] Error loading categories: {e}")
             return []
     
-    def search_products(self, keyword, page=1):
-        """Search for products with advanced filtering"""
+    def search_products(self, keyword, page=1, fallback_mode=False):
+        """Search for products with advanced filtering and smart fallback"""
         # Build search URL with price filter using the domain from config
         domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
-        search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={self.min_price}&ref=sr_pg_{page}"
+        
+        # Use different price filters based on fallback mode
+        if fallback_mode:
+            # Fallback: lower price threshold
+            price_filter = max(5, self.min_price - 5)  # At least 5€, but lower than normal
+        else:
+            price_filter = self.min_price
+            
+        search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={price_filter}&ref=sr_pg_{page}"
         
         safe_print(f"[SEARCH] Page {page}: {search_url}")
         
@@ -427,15 +435,24 @@ class AmazonScraper:
             
             product['review_count'] = review_count
             
-            # Quality filtering
-            if rating < self.min_rating:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5)")
+            # Quality filtering with fallback mode support
+            min_rating_threshold = self.min_rating
+            if hasattr(self, '_fallback_mode') and self._fallback_mode:
+                min_rating_threshold = max(3.0, self.min_rating - 0.5)  # Lower threshold in fallback
+            
+            if rating < min_rating_threshold:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {min_rating_threshold})")
                 return None
             
 
             
-            if price_value < self.min_price:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€)")
+            # Price filtering with fallback mode support
+            min_price_threshold = self.min_price
+            if hasattr(self, '_fallback_mode') and self._fallback_mode:
+                min_price_threshold = max(5, self.min_price - 5)  # Lower threshold in fallback
+            
+            if price_value < min_price_threshold:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€, threshold: {min_price_threshold}€)")
                 return None
             
             # Main image
@@ -798,7 +815,16 @@ class AmazonScraper:
                     
                 safe_print(f"  [PAGE] Page {page}...")
                 
-                products_on_page = self.search_products(search_term, page)
+                # Try normal search first
+                products_on_page = self.search_products(search_term, page, fallback_mode=False)
+                
+                # If not enough products, try fallback mode
+                if len(products_on_page) < 3 and page == 1:
+                    safe_print(f"  [FALLBACK] Not enough products, trying relaxed filters...")
+                    self._fallback_mode = True
+                    products_on_page = self.search_products(search_term, page, fallback_mode=True)
+                    self._fallback_mode = False
+                
                 if not products_on_page:
                     safe_print(f"  [WARNING] No products found on page {page}")
                     break
@@ -1655,7 +1681,7 @@ if __name__ == "__main__":
     
     safe_print(f"[OK] Loaded {len(scraper.categories)} categories")
     safe_print(f"[OPTIMIZATION] Only scraping subcategories (level 1) with targetKeywords")
-    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price")
+    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price (with smart fallback)")
     
     # Count subcategories for accurate reporting
     subcategories = [cat for cat in scraper.categories if cat.get('level') == 1]

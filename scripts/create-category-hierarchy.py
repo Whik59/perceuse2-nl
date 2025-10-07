@@ -67,6 +67,14 @@ def categorize_subcategories(categories, subcategories):
                     best_match = original_cat
                     best_match_length = len(clean_cat)
                     matched = True
+            
+            # IMPROVED: Also check if subcategory contains key words from category
+            elif any(word in clean_subcat for word in clean_cat.split() if len(word) > 3):
+                # If any significant word from category appears in subcategory
+                if len(clean_cat) > best_match_length:
+                    best_match = original_cat
+                    best_match_length = len(clean_cat)
+                    matched = True
         
         if matched and best_match:
             hierarchy[best_match].append(subcategory)
@@ -106,7 +114,7 @@ def create_category_json_structure(hierarchy, all_categories):
             "seo": {
                 "title": f"{category.title()} - Best Products & Reviews",
                 "description": f"Find the best {category} products with detailed reviews and comparisons. Free shipping and best prices guaranteed.",
-                "keywords": [category.lower(), "telefono", "movil", "smartphone"]
+                "keywords": [category.lower(), "productos", "mejores", "ofertas"]
             },
             # Scraping metadata
             "has_subcategories": has_subcategories,
@@ -133,7 +141,7 @@ def create_category_json_structure(hierarchy, all_categories):
                 "seo": {
                     "title": f"{subcat.title()} - Expert Reviews & Best Deals",
                     "description": f"Compare {subcat} products with expert reviews. Find the best deals and free shipping options.",
-                    "keywords": [subcat.lower(), category.lower(), "telefono", "movil"]
+                    "keywords": [subcat.lower(), category.lower(), "productos", "mejores"]
                 },
                 # Scraping metadata
                 "has_subcategories": False,

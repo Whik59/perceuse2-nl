@@ -136,7 +136,7 @@ const CategoryCard: React.FC<{
               </p>
             ) : (
               <p className="text-sm text-slate-600 font-medium">
-                {(category as any).recommended_products || 0} {getString('categories.products')}
+                {category.productCount || 0} {getString('categories.products')}
               </p>
             )}
 
@@ -324,7 +324,7 @@ const CategoriesPage: React.FC = async () => {
                                       {subcategory.categoryNameCanonical}
                                     </h3>
                             <p className="text-xs text-slate-600">
-                              {(subcategory as any).recommended_products || 0} {getString('categories.products')}
+                              {subcategory.productCount || 0} {getString('categories.products')}
                             </p>
                       </div>
                         </div>

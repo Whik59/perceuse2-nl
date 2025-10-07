@@ -1,5 +1,5 @@
 # Step 1: Discover keywords for main categories
-python scripts/amazon-keyword-scraper.py "patinete electrico" --market es 
+python scripts/amazon-keyword-scraper.py "airfryer" --market es 
 
 
 # Step 2: Create category structure

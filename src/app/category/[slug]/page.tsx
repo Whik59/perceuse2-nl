@@ -72,16 +72,17 @@ const CategoryPage: React.FC = () => {
         
         setCategory(currentCategory);
 
-        // Load products from current category AND all its subcategories
+        // Load products based on category level
         const categoryIdsToLoad = [currentCategory.categoryId];
         
-        // Find all subcategories of the current category
-        const subcategories = allCategories.filter(cat => cat.parentCategoryId === currentCategory.categoryId);
-        subcategories.forEach(subcat => categoryIdsToLoad.push(subcat.categoryId));
-        
-        // If current category is a subcategory and we want to show only its products
-        // we keep only the current category ID - but if it's a parent category,
-        // we show products from all subcategories
+        // If current category is a main category (level 0), load products from all its subcategories
+        // If current category is a subcategory (level 1), load only its own products
+        if (currentCategory.level === 0) {
+          // Find all subcategories of the current category
+          const subcategories = allCategories.filter(cat => cat.parentCategoryId === currentCategory.categoryId);
+          subcategories.forEach(subcat => categoryIdsToLoad.push(subcat.categoryId));
+        }
+        // For subcategories (level 1), we only load products from the current category itself
         
         let allProducts: Product[] = [];
         
@@ -565,8 +566,8 @@ const CategoryPage: React.FC = () => {
                             <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
                               {subcategory.categoryNameCanonical}
                             </h3>
-                            <p className="text-xs text-slate-500 mt-1">
-                              {getString('categories.viewCollection')}
+                            <p className="text-xs text-slate-600 mt-1">
+                              {subcategory.productCount || 0} {getString('categories.products')}
                             </p>
                           </div>
                         </div>
