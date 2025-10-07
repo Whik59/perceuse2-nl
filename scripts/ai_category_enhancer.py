@@ -25,12 +25,10 @@ class AICategoryEnhancer:
     def __init__(self):
         self.categories_file = "data/categories.json"
         self.categories_dir = "data/categories"
-        self.backup_dir = "backups"
         self.config_file = "scripts/ai-config.json"
         
         # Create directories if they don't exist
         os.makedirs(self.categories_dir, exist_ok=True)
-        os.makedirs(self.backup_dir, exist_ok=True)
         
         # Load AI configuration
         self.ai_config = self.load_ai_config()

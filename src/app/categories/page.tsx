@@ -120,38 +120,9 @@ const CategoryCard: React.FC<{
 
           {/* Category Info */}
           <div className="text-center space-y-4">
-            {/* "Découvrez nos" text */}
-            <div className="space-y-2">
-              <p className="text-xs text-slate-500 font-medium uppercase tracking-widest">
-                {getString('categories.discover')}
-              </p>
-              <h3 className="text-lg font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors leading-tight">
-                {category.categoryNameCanonical}
-              </h3>
-            </div>
-            
-            {subcategories.length > 0 ? (
-              <p className="text-sm text-slate-600 font-medium">
-                {subcategories.length} {getString('categories.subcategories')}
-              </p>
-            ) : (
-              <p className="text-sm text-slate-600 font-medium">
-                {category.productCount || 0} {getString('categories.products')}
-              </p>
-            )}
-
-            {/* Category Stats */}
-            <div className="flex items-center justify-center space-x-3 text-xs">
-              <div className="flex items-center space-x-1">
-                <Star className="w-3 h-3 text-amber-400 fill-amber-400" />
-                <span className="text-slate-600 font-medium">4.8</span>
-              </div>
-              <div className="w-1 h-1 bg-slate-300 rounded-full"></div>
-              <div className="flex items-center space-x-1">
-                <Users className="w-3 h-3 text-slate-500" />
-                <span className="text-slate-600 font-medium">{getString('categories.popular')}</span>
-              </div>
-            </div>
+            <h3 className="text-lg font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors leading-tight">
+              {category.categoryNameCanonical}
+            </h3>
 
             {/* Hover Arrow */}
             <div className="flex items-center justify-center pt-2">
@@ -323,9 +294,6 @@ const CategoriesPage: React.FC = async () => {
                             <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
                                       {subcategory.categoryNameCanonical}
                                     </h3>
-                            <p className="text-xs text-slate-600">
-                              {subcategory.productCount || 0} {getString('categories.products')}
-                            </p>
                       </div>
                         </div>
                         </Link>

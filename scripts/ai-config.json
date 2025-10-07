@@ -20,20 +20,7 @@
     "default_review_count": 1,
     "store_name": "Tu Tienda de Teléfonos"
   },
-  "spanish_keywords": [
-    "auriculares",
-    "auriculares inalambricos",
-    "auriculares bluetooth",
-    "auriculares baratos",
-    "auriculares calidad",
-    "auriculares facil usar",
-    "españa",
-    "envio gratis",
-    "garantia",
-    "mejor precio",
-    "oferta",
-    "calidad premium"
-  ],
+ 
   "prompts": {
     "system_message": "Eres un experto en marketing digital y SEO para productos electrónicos y tecnología en España. Siempre respondes en español de forma clara y persuasiva.",
     

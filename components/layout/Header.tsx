@@ -62,7 +62,7 @@ const MobileRotatingBanner: React.FC = () => {
       content: (
         <>
           <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full font-bold text-sm tracking-wider">10HOURS</span>
-          <span className="text-sm font-medium text-white">10% {getString('banner.discount')}</span>
+          <span className="text-sm font-medium text-white">30% {getString('banner.discount')}</span>
         </>
       )
     },
@@ -245,7 +245,7 @@ const Header: React.FC<HeaderProps> = ({
             <div className="flex items-center space-x-2">
               <Tag className="w-4 h-4 text-yellow-400" />
               <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full font-bold text-sm tracking-wider">10HOURS</span>
-              <span className="text-sm font-medium text-white">10% {getString('banner.discount')}</span>
+              <span className="text-sm font-medium text-white">30% {getString('banner.discount')}</span>
             </div>
             <div className="text-gray-400">•</div>
             <div className="flex items-center space-x-2">

@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../components/layout/Layout';
-import FeaturedCategories from '../../components/FeaturedCategories';
 import Reviews from '../../components/Reviews';
 import { Button } from '../../components/ui/Button';
 import { Product, Category, CartState } from '../../lib/types';
@@ -16,7 +15,12 @@ const getSiteName = () => {
   return process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || siteConfig.siteName;
 };
 import { redirectToAmazonCart } from '../../lib/cart';
-import { Star, Truck, Shield, RefreshCw, Award, ArrowRight } from 'lucide-react';
+import { Star, Truck, Shield, RefreshCw, Award, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+
+interface CategoryWithImage extends Category {
+  imageUrl?: string;
+  hasImage?: boolean;
+}
 
 interface HomeClientProps {
   products: Product[];
@@ -28,6 +32,9 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
     items: [],
     subtotal: 0
   });
+  const [categoriesWithImages, setCategoriesWithImages] = useState<CategoryWithImage[]>([]);
+  const [isLoadingCategories, setIsLoadingCategories] = useState(true);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   // Debug: Log products to console
   useEffect(() => {
@@ -53,6 +60,58 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
     };
     loadCart();
   }, []);
+
+  // Load category images
+  useEffect(() => {
+    const loadCategoryImages = async () => {
+      setIsLoadingCategories(true);
+       const topCategories = categories.slice(0, 20); // Get first 20 categories
+      const categoriesWithImages: CategoryWithImage[] = [];
+
+      for (const category of topCategories) {
+        try {
+          let imageUrl = '';
+          let hasImage = false;
+          
+          // Try to find a product image from this category
+          try {
+            const response = await fetch(`/api/products/by-category/${category.categoryId}`);
+            
+            if (response.ok) {
+              const products = await response.json();
+              
+              if (products.length > 0 && products[0].imagePaths?.length > 0) {
+                imageUrl = products[0].imagePaths[0];
+                hasImage = true;
+              }
+            }
+          } catch (error) {
+            console.error(`Error loading products for category ${category.categoryId}:`, error);
+          }
+          
+          categoriesWithImages.push({
+            ...category,
+            imageUrl,
+            hasImage
+          });
+        } catch (error) {
+          console.error(`Error loading image for category ${category.categoryId}:`, error);
+          categoriesWithImages.push({
+            ...category,
+            imageUrl: '',
+            hasImage: false
+          });
+        }
+      }
+
+      setCategoriesWithImages(categoriesWithImages);
+      setIsLoadingCategories(false);
+    };
+
+    if (categories.length > 0) {
+      loadCategoryImages();
+    }
+  }, [categories]);
 
   // Save cart to localStorage whenever cart changes
   const saveCart = (newCart: CartState) => {
@@ -90,83 +149,183 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
     console.log('Search:', query);
   };
 
-  const cartItemCount = cart.items.reduce((total, item) => total + item.quantity, 0);
+   const cartItemCount = cart.items.reduce((total, item) => total + item.quantity, 0);
+
+   // Slider functions
+   const itemsPerSlide = 4;
+   const totalSlides = Math.ceil(categoriesWithImages.length / itemsPerSlide);
+
+   const nextSlide = () => {
+     setCurrentSlide((prev) => (prev + 1) % totalSlides);
+   };
+
+   const prevSlide = () => {
+     setCurrentSlide((prev) => (prev - 1 + totalSlides) % totalSlides);
+   };
 
   return (
     <Layout
       categories={categories}
       showFloatingButtons={true}
     >
-      {/* Clean Hero Section - Mobile Phones for Seniors */}
+      {/* Hero Section with Two Columns */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
-            {/* Trust Badge */}
-            <div className="inline-flex items-center space-x-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
-              <div className="flex space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
+            {/* Left Column - Hero Content */}
+            <div className="space-y-8">
+              {/* Trust Badge */}
+              <div className="inline-flex items-center space-x-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full border border-white/20">
+                <div className="flex space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
+                  ))}
+                </div>
+                <span className="text-yellow-400 font-bold">{getString('hero.trust.rating')}</span>
+                <span className="text-white/60">•</span>
+                <span className="text-white font-medium">{getString('hero.trust.badge')}</span>
               </div>
-              <span className="text-yellow-400 font-bold">{getString('hero.trust.rating')}</span>
-              <span className="text-white/60">•</span>
-              <span className="text-white font-medium">{getString('hero.trust.badge')}</span>
+
+              {/* Main Headline */}
+              <div className="space-y-6">
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+                  {getString('hero.expertise.title')}
+                </h1>
+                <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
+                  {getString('hero.expertise.subtitle')}
+                </p>
+              </div>
+
+              {/* CTA Button */}
+              <div className="pt-4">
+                <Link href="/categories">
+                  <Button 
+                    size="lg" 
+                    className="bg-white hover:bg-white/90 text-blue-700 px-12 py-4 text-lg font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                  >
+                    {getString('hero.expertise.cta')}
+                  </Button>
+                </Link>
+              </div>
             </div>
 
-            {/* Main Headline */}
-            <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                {getString('hero.expertise.title')}
-              </h1>
-              <p className="text-xl md:text-2xl text-white/90 leading-relaxed max-w-4xl mx-auto">
-                {getString('hero.expertise.subtitle')}
-              </p>
-            </div>
+             {/* Right Column - Category Cards */}
+             <div className="space-y-6">
+               <h2 className="text-2xl font-bold text-white text-center mb-8">
+                 {getString('categories.title')}
+               </h2>
+               
+               {/* Slider Container */}
+               <div className="relative">
+                 {/* Navigation Arrows */}
+                 {totalSlides > 1 && (
+                   <>
+                     <button
+                       onClick={prevSlide}
+                       className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                       disabled={currentSlide === 0}
+                     >
+                       <ChevronLeft className="w-4 h-4 text-white" />
+                     </button>
+                     <button
+                       onClick={nextSlide}
+                       className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 bg-white/20 backdrop-blur-sm hover:bg-white/30 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110"
+                       disabled={currentSlide === totalSlides - 1}
+                     >
+                       <ChevronRight className="w-4 h-4 text-white" />
+                     </button>
+                   </>
+                 )}
 
-            {/* CTA Button */}
-            <div className="pt-4">
-              <Link href="/categories">
-                <Button 
-                  size="lg" 
-                  className="bg-white hover:bg-white/90 text-blue-700 px-12 py-4 text-lg font-bold rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
-                >
-                  {getString('hero.expertise.cta')}
-                </Button>
-              </Link>
-            </div>
+                 {/* Categories Grid */}
+                 <div className="overflow-hidden mx-8">
+                   {isLoadingCategories ? (
+                     <div className="text-center py-8">
+                       <p className="text-white/70">{getString('categories.loading')}</p>
+                     </div>
+                   ) : categoriesWithImages.length > 0 ? (
+                     <div 
+                       className="flex transition-transform duration-500 ease-in-out"
+                       style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                     >
+                       {Array.from({ length: totalSlides }).map((_, slideIndex) => (
+                         <div key={slideIndex} className="w-full flex-shrink-0">
+                           <div className="grid grid-cols-2 gap-4 px-2">
+                             {categoriesWithImages
+                               .slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide)
+                               .map((category, index) => (
+                               <Link key={category.slug} href={`/category/${category.slug}`}>
+                                 <div className="group bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105">
+                                   <div className="text-center space-y-3">
+                                     {/* Round Image Frame */}
+                                     <div className="relative mx-auto w-16 h-16">
+                                       <div className="w-16 h-16 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-white group-hover:ring-white/80">
+                                         {category.hasImage && category.imageUrl ? (
+                                           <Image
+                                             src={category.imageUrl}
+                                             alt={category.categoryNameCanonical}
+                                             width={64}
+                                             height={64}
+                                             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                                           />
+                                         ) : (
+                                           <div className="w-full h-full bg-gradient-to-br from-white/20 to-white/10 flex items-center justify-center transition-all duration-700 group-hover:scale-110">
+                                             <span className="text-white font-bold text-xl">🍳</span>
+                                           </div>
+                                         )}
+                                       </div>
+                                       {/* Hover Overlay */}
+                                       <div className="absolute inset-0 rounded-full bg-gradient-to-br from-slate-900/0 via-slate-900/0 to-slate-900/10 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                                     </div>
+                                     <h3 className="text-white font-semibold text-sm line-clamp-2">
+                                       {category.categoryNameCanonical}
+                                     </h3>
+                                   </div>
+                                 </div>
+                               </Link>
+                             ))}
+                         </div>
+                       </div>
+                     ))}
+                   </div>
+                   ) : (
+                     <div className="text-center py-8">
+                       <p className="text-white/70">No hay categorías disponibles</p>
+                     </div>
+                   )}
+                 </div>
 
-            {/* Key Features */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pt-12 border-t border-white/20">
-              <div className="text-center space-y-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
-                  <Shield className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-white font-bold">{getString('hero.features.quality.title')}</h3>
-                <p className="text-white/80 text-sm">{getString('hero.features.quality.description')}</p>
-              </div>
-              <div className="text-center space-y-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
-                  <Award className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-white font-bold">{getString('hero.features.design.title')}</h3>
-                <p className="text-white/80 text-sm">{getString('hero.features.design.description')}</p>
-              </div>
-              <div className="text-center space-y-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
-                  <Truck className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-white font-bold">{getString('hero.trust.delivery')}</h3>
-                <p className="text-white/80 text-sm">{getString('hero.features.innovation.description')}</p>
-              </div>
-              <div className="text-center space-y-4">
-                <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mx-auto">
-                  <RefreshCw className="w-8 h-8 text-white" />
-                </div>
-                <h3 className="text-white font-bold">{getString('hero.trust.guarantee')}</h3>
-                <p className="text-white/80 text-sm">{getString('hero.features.innovation.title')}</p>
-              </div>
-            </div>
+                 {/* Dots Indicator */}
+                 {totalSlides > 1 && (
+                   <div className="flex justify-center mt-6 space-x-2">
+                     {Array.from({ length: totalSlides }).map((_, index) => (
+                       <button
+                         key={index}
+                         onClick={() => setCurrentSlide(index)}
+                         className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                           index === currentSlide
+                             ? 'bg-white scale-125'
+                             : 'bg-white/40 hover:bg-white/60'
+                         }`}
+                       />
+                     ))}
+                   </div>
+                 )}
+               </div>
+               
+               {/* View All Categories Button */}
+               <div className="text-center pt-4">
+                 <Link href="/categories">
+                   <Button 
+                     size="sm"
+                     className="bg-white/20 hover:bg-white/30 text-white px-6 py-2 text-sm font-medium rounded-lg transition-all duration-300"
+                   >
+                     Ver todas las categorías
+                   </Button>
+                 </Link>
+               </div>
+             </div>
           </div>
         </div>
       </section>
@@ -185,7 +344,10 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {products && products.length > 0 ? (
-              products.slice(0, 4).map((product, index) => (
+              products
+                .sort((a, b) => (b.basePrice || 0) - (a.basePrice || 0)) // Sort by price descending
+                .slice(0, 4) // Get top 4 most expensive
+                .map((product, index) => (
                 <Link key={product.slug} href={`/product/${product.slug}`}>
                   <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
                     <div className="relative aspect-square bg-white flex items-center justify-center p-4">
@@ -234,9 +396,6 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           </div>
         </div>
       </section>
-
-      {/* Top 5 Categories Section */}
-      <FeaturedCategories categories={categories} />
 
       {/* Reviews Section */}
       <Reviews limit={6} />

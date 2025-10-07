@@ -13,6 +13,23 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 /**
+ * Convert product slug to readable title format
+ * @param slug - The product slug (e.g., 'cecotec-freidora-de-aire-de-55l-air-fryer-cecofry')
+ * @returns Readable title (e.g., 'Cecotec Freidora de Aire de 5.5L Air Fryer Cecofry')
+ */
+export function slugToReadableTitle(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => {
+      // Capitalize first letter of each word
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(' ')
+    .replace(/\b(\d+)l\b/gi, '$1L') // Convert "55l" to "5.5L" format
+    .replace(/\b(\d+)(\d)l\b/gi, '$1.$2L'); // Convert "55l" to "5.5L" format
+}
+
+/**
  * Get localized string by key with dynamic placeholder replacement
  * @param key - The key in the strings object (e.g., 'common.home')
  * @param replacements - Optional custom replacements for placeholders

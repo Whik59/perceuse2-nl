@@ -60,7 +60,7 @@ def categorize_subcategories(categories, subcategories):
         best_match_length = 0
         
         for clean_cat, original_cat in clean_categories.items():
-            # Check if the category is a substring of the subcategory
+            # Strategy 1: Check if the category is a substring of the subcategory
             if clean_cat in clean_subcat:
                 # Prefer longer matches (more specific categories)
                 if len(clean_cat) > best_match_length:
@@ -68,9 +68,24 @@ def categorize_subcategories(categories, subcategories):
                     best_match_length = len(clean_cat)
                     matched = True
             
-            # IMPROVED: Also check if subcategory contains key words from category
+            # Strategy 2: Check if subcategory starts with category words
+            elif clean_subcat.startswith(clean_cat):
+                if len(clean_cat) > best_match_length:
+                    best_match = original_cat
+                    best_match_length = len(clean_cat)
+                    matched = True
+            
+            # Strategy 3: Check if subcategory contains key words from category
             elif any(word in clean_subcat for word in clean_cat.split() if len(word) > 3):
                 # If any significant word from category appears in subcategory
+                if len(clean_cat) > best_match_length:
+                    best_match = original_cat
+                    best_match_length = len(clean_cat)
+                    matched = True
+            
+            # Strategy 4: Check for partial word matches (for compound categories)
+            elif any(word in clean_subcat.split() for word in clean_cat.split() if len(word) > 4):
+                # If any significant word from category appears as a separate word in subcategory
                 if len(clean_cat) > best_match_length:
                     best_match = original_cat
                     best_match_length = len(clean_cat)
@@ -155,32 +170,14 @@ def create_category_json_structure(hierarchy, all_categories):
     
     return categories_json
 
-def save_backup(data, filename):
-    """Save a backup of the data with timestamp"""
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    backup_dir = "backups"
-    
-    if not os.path.exists(backup_dir):
-        os.makedirs(backup_dir)
-    
-    backup_file = os.path.join(backup_dir, f"{filename}_backup_{timestamp}.json")
-    
-    try:
-        with open(backup_file, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=2, ensure_ascii=False)
-        print(f"✅ Backup saved: {backup_file}")
-        return backup_file
-    except Exception as e:
-        print(f"❌ Failed to save backup: {e}")
-        return None
+# Backup functionality removed as requested
 
 def main():
-    """Main function to process categories and create hierarchy"""
-    print("🏗️  Starting Category Hierarchy Builder...")
+    """Main function to process categories and create flat structure"""
+    print("🏗️  Starting Simple Category Builder...")
     
     # File paths
     categories_file = "data/category_keywords.txt"
-    subcategories_file = "data/subcategory_keywords.txt"
     output_file = "data/categories.json"
     
     # Load data
@@ -188,63 +185,54 @@ def main():
     categories = load_keywords_from_file(categories_file)
     print(f"   Found {len(categories)} categories")
     
-    print("📖 Loading subcategory keywords...")
-    subcategories = load_keywords_from_file(subcategories_file)
-    print(f"   Found {len(subcategories)} subcategories")
-    
-    if not categories or not subcategories:
-        print("❌ No data loaded. Please check file paths and content.")
+    if not categories:
+        print("❌ No data loaded. Please check file path and content.")
         return
     
-    # Create hierarchy
-    print("🔗 Creating category hierarchy...")
-    hierarchy = categorize_subcategories(categories, subcategories)
+    # Create flat structure (no subcategories)
+    print("📝 Building flat category structure...")
+    categories_json = []
     
-    # Create JSON structure
-    print("📝 Building JSON structure...")
-    categories_json = create_category_json_structure(hierarchy, categories)
+    for i, category in enumerate(categories, 1):
+        # Create slug from category name
+        slug = re.sub(r'[^a-z0-9]+', '-', category.lower()).strip('-')
+        
+        category_obj = {
+            "categoryId": i,
+            "categoryNameCanonical": category,
+            "parentCategoryId": None,
+            "slug": slug,
+            "level": 0,
+            "description": f"Explore our selection of {category}",
+            "productCount": 0,
+            "seo": {
+                "title": f"{category.title()} - Best Products & Reviews",
+                "description": f"Find the best {category} products with detailed reviews and comparisons. Free shipping and best prices guaranteed.",
+                "keywords": [category.lower(), "productos", "mejores", "ofertas"]
+            },
+            "has_subcategories": False,
+            "needs_products": True,
+            "recommended_products": 15,
+            "scraping_strategy": "direct"
+        }
+        
+        categories_json.append(category_obj)
     
     # Statistics
-    main_categories = [cat for cat in categories_json if cat['level'] == 0]
-    subcategories = [cat for cat in categories_json if cat['level'] == 1]
-    categories_with_subcats = len([cat for cat in main_categories if cat['has_subcategories']])
-    categories_without_subcats = len([cat for cat in main_categories if not cat['has_subcategories']])
-    categories_need_products = len([cat for cat in categories_json if cat['needs_products']])
-    
-    # Calculate recommended product counts
-    total_recommended_products = sum(cat['recommended_products'] for cat in categories_json)
-    
-    print(f"\n📊 Hierarchy Statistics:")
-    print(f"   Total categories: {len(main_categories)}")
-    print(f"   Categories with subcategories: {categories_with_subcats}")
-    print(f"   Categories without subcategories: {categories_without_subcats}")
-    print(f"   Total subcategories: {len(subcategories)}")
-    print(f"   Total entries in flat structure: {len(categories_json)}")
-    
-    print(f"\n🎯 Product Scraping Strategy:")
-    print(f"   Categories needing direct products: {categories_need_products}")
-    print(f"   Total recommended products to scrape: {total_recommended_products}")
-    print(f"   Average products per scraping target: {total_recommended_products/categories_need_products:.1f}")
+    print(f"\n📊 Structure Statistics:")
+    print(f"   Total categories: {len(categories_json)}")
+    print(f"   All categories are main categories (level 0)")
+    print(f"   No subcategories")
+    print(f"   All categories need products")
     
     # Show examples
-    print(f"\n🔍 Examples (flat structure):")
+    print(f"\n🔍 Examples:")
     for i, cat in enumerate(categories_json[:6]):  # Show first 6 entries
-        level_icon = "📂" if cat['level'] == 0 else "  └─ 📄"
-        parent_info = f" (parent: {cat['parentCategoryId']})" if cat['parentCategoryId'] else ""
-        print(f"   {level_icon} ID:{cat['categoryId']} {cat['categoryNameCanonical']}{parent_info}")
+        print(f"   📂 ID:{cat['categoryId']} {cat['categoryNameCanonical']}")
         print(f"      Level: {cat['level']}, Products: {cat['recommended_products']}, Strategy: {cat['scraping_strategy']}")
     
-    # Save backup of existing file if it exists
-    if os.path.exists(output_file):
-        try:
-            with open(output_file, 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-            save_backup(existing_data, "categories")
-        except Exception as e:
-            print(f"⚠️  Could not backup existing file: {e}")
-    
-    # Save new structure
-    print(f"\n💾 Saving hierarchy to {output_file}...")
+    # Save new structure directly (no backup)
+    print(f"\n💾 Saving flat category structure to {output_file}...")
     
     # Ensure output directory exists
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -252,12 +240,10 @@ def main():
     try:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(categories_json, f, indent=2, ensure_ascii=False)
-        print("✅ Categories saved successfully!")
-        
-        # Note: Not saving to locales/categories.json as requested
+        print("✅ Flat category structure saved successfully!")
         
     except Exception as e:
-        print(f"❌ Failed to save hierarchy: {e}")
+        print(f"❌ Failed to save categories: {e}")
 
 if __name__ == "__main__":
     main() 

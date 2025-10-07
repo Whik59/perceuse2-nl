@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mb-8">
           
           {/* Company Info */}
           <div>
@@ -38,61 +38,13 @@ const Footer: React.FC = () => {
               </a>
             </div>
           </div>
-
-          {/* Legal Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">{getString('footer.legal.title')}</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link href="/terms" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.terms')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/privacy" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.privacy')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/cookies" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.cookies')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/returns" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.returns')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/shipping" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.shipping')}
-                </Link>
-              </li>
-              <li>
-                <Link href="/warranty" className="text-gray-300 hover:text-white transition-colors text-sm">
-                  {getString('footer.legal.warranty')}
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 text-sm mb-4 md:mb-0">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div className="text-gray-400 text-sm">
               &copy; {new Date().getFullYear()} {getString('common.companyName')}. {getString('footer.copyright')}.
-            </div>
-            <div className="flex space-x-6 text-sm">
-              <Link href="/terms" className="text-gray-400 hover:text-white transition-colors">
-                {getString('footer.legal.terms')}
-              </Link>
-              <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors">
-                {getString('footer.legal.privacy')}
-              </Link>
-              <Link href="/cookies" className="text-gray-400 hover:text-white transition-colors">
-                {getString('footer.legal.cookies')}
-              </Link>
             </div>
           </div>
         </div>

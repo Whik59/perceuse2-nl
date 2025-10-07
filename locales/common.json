@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Inicio",
-    "products": "Patinetes Eléctricos",
+    "products": "Airfryer",
     "categories": "Categorías",
     "cart": "Selección",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Contacto"
   },
   "categories": {
-    "title": "Categorías de Patinetes Eléctricos",
+    "title": "Categorías de Airfryer",
     "hero": {
-      "title": "Encuentra el Patinete Eléctrico Perfecto para Ti",
-      "subtitle": "Descubre nuestra amplia selección de patinetes eléctricos de alta calidad"
+      "title": "Encuentra el Airfryer Perfecto para Ti",
+      "subtitle": "Descubre nuestra amplia selección de airfryer de alta calidad"
     },
-    "subtitle": "Explora nuestras categorías especializadas en patinetes eléctricos",
+    "subtitle": "Explora nuestras categorías especializadas en airfryer",
     "browseAll": "Ver todas las categorías",
     "noProducts": "No hay productos disponibles en esta categoría",
     "loading": "Cargando categorías...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Todas las subcategorías",
     "subcategoriesDescription": "Explora todas las subcategorías disponibles",
     "needHelp": "¿Necesitas ayuda?",
-    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el patinete eléctrico perfecto para ti",
+    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el airfryer perfecto para ti",
     "backToHome": "Volver al inicio",
     "exploreBySpecialty": "Explorar por especialidad",
     "refineSearch": "Refina tu búsqueda con nuestras subcategorías especializadas",
@@ -71,8 +71,8 @@
     "confirm": "Confirmar",
     "loading": "Cargando...",
     "error": "Ha ocurrido un error",
-    "siteName": "Patinetes Eléctricos",
-    "companyName": "Patinetes Eléctricos",
+    "siteName": "Airfryer",
+    "companyName": "Airfryer",
     "home": "Inicio",
     "linkCopied": "Enlace copiado",
     "qualityExceptional": "Calidad excepcional",
@@ -82,19 +82,19 @@
     "somethingWrong": "Algo salió mal",
     "tryAgain": "Intentar de nuevo",
     "pageNotFound": "Página no encontrada",
-    "productNotFound": "Patinete eléctrico no encontrado",
+    "productNotFound": "Airfryer no encontrado",
     "categoryNotFound": "Categoría no encontrada",
     "amazonRedirectError": "Error al redirigir a Amazon",
     "amazonUnavailable": "Amazon no disponible"
   },
   "search": {
-    "placeholder": "Buscar patinete eléctrico...",
-    "noResults": "No se encontraron patinetes eléctricos",
-    "searchFor": "Buscar patinete eléctrico"
+    "placeholder": "Buscar airfryer...",
+    "noResults": "No se encontraron airfryer",
+    "searchFor": "Buscar airfryer"
   },
   "header": {
     "search": {
-      "placeholder": "Buscar patinete eléctrico..."
+      "placeholder": "Buscar airfryer..."
     },
     "support": "Soporte",
     "cart": {
@@ -102,7 +102,7 @@
     }
   },
   "social": {
-    "shareProduct": "Compartir este patinete eléctrico",
+    "shareProduct": "Compartir este airfryer",
     "followUs": "Síguenos",
     "customerReviews": "Opiniones de clientes Amazon"
   },
@@ -125,10 +125,10 @@
     "redirecting": "Redirigiendo a Amazon...",
     "openInNewTab": "Abre en una nueva pestaña"
   },
-  "siteName": "Tu Patinete Eléctrico Perfecto",
-  "companyName": "Patinetes Eléctricos S.L.",
-  "products": "Patinete Eléctrico",
-  "productNotFound": "Patinete eléctrico no encontrado",
+  "siteName": "Tu Airfryer Perfecto",
+  "companyName": "Airfryer S.L.",
+  "products": "Airfryer",
+  "productNotFound": "Airfryer no encontrado",
   "banner": {
     "discount": "descuento",
     "clientReviews": "opiniones de clientes",
@@ -136,23 +136,23 @@
   },
   "support": {
     "title": "Atención al Cliente",
-    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros patinetes eléctricos",
+    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros airfryer",
   "faq": {
     "title": "Preguntas frecuentes",
-    "subtitle": "Encuentra rápidamente las respuestas a tus preguntas sobre nuestros patinetes eléctricos, envío, devoluciones y mucho más.",
+    "subtitle": "Encuentra rápidamente las respuestas a tus preguntas sobre nuestros airfryer, envío, devoluciones y mucho más.",
     "contactCta": "¿No encuentras la respuesta a tu pregunta?",
     "contactTeam": "Contacta con nuestro equipo",
     "sendEmail": "Enviar un email",
     "questions": [
       {
         "id": "1",
-        "question": "¿Cuánto tiempo dura la batería de los patinetes eléctricos?",
-        "answer": "Nuestros patinetes eléctricos tienen una batería de larga duración que puede durar hasta 25-40 km de autonomía según el modelo. Están optimizados para un uso eficiente de la energía, garantizando una autonomía excepcional para desplazamientos urbanos diarios."
+        "question": "¿Cuánto tiempo dura la batería de los airfryer?",
+        "answer": "Nuestros airfryer tienen una batería de larga duración que puede durar hasta 25-40 km de autonomía según el modelo. Están optimizados para un uso eficiente de la energía, garantizando una autonomía excepcional para desplazamientos urbanos diarios."
       },
       {
         "id": "2",
-        "question": "¿Son seguros los patinetes eléctricos?",
-        "answer": "Absolutamente. Todos nuestros patinetes cumplen con las normas de seguridad europeas más estrictas (CE, RoHS). Incluyen sistemas de frenado dual, luces LED, y están fabricados con materiales resistentes. Los modelos homologados cumplen con la normativa DGT para circular por la ciudad."
+        "question": "¿Son seguros los airfryer?",
+        "answer": "Absolutamente. Todos nuestros airfryer cumplen con las normas de seguridad europeas más estrictas (CE, RoHS). Incluyen sistemas de seguridad avanzados, materiales resistentes al calor, y están fabricados con materiales de alta calidad. Los modelos cumplen con la normativa europea para electrodomésticos."
       },
       {
         "id": "3",
@@ -161,28 +161,28 @@
       },
       {
         "id": "4",
-        "question": "¿Puedo devolver un patinete si no estoy satisfecho?",
-        "answer": "Sí, ofrecemos una garantía de satisfacción o reembolso de 30 días. Si no estás completamente satisfecho con tu compra, puedes devolver el patinete en su embalaje original para un reembolso completo. Los gastos de devolución corren por tu cuenta excepto en caso de defecto."
+        "question": "¿Puedo devolver un airfryer si no estoy satisfecho?",
+        "answer": "Sí, ofrecemos una garantía de satisfacción o reembolso de 30 días. Si no estás completamente satisfecho con tu compra, puedes devolver el airfryer en su embalaje original para un reembolso completo. Los gastos de devolución corren por tu cuenta excepto en caso de defecto."
       },
       {
         "id": "5",
-        "question": "¿Cómo cargar un patinete eléctrico?",
-        "answer": "Nuestros patinetes eléctricos se cargan fácilmente mediante el cargador incluido. Una carga completa toma 4-6 horas y ofrece hasta 40 km de autonomía según el modelo y el uso. Un indicador luminoso te muestra el estado de la carga."
+        "question": "¿Cómo usar un airfryer?",
+        "answer": "Nuestros airfryer son muy fáciles de usar. Simplemente coloca los alimentos en la cesta, ajusta la temperatura y el tiempo según la receta, y presiona el botón de inicio. Una vez terminado, el airfryer se apagará automáticamente. Un indicador luminoso te muestra el estado de la cocción."
       },
       {
         "id": "6",
-        "question": "¿Qué velocidades están disponibles?",
-        "answer": "La mayoría de nuestros patinetes ofrecen varias velocidades, generalmente 3 niveles: eco, normal y sport. Algunos modelos premium ofrecen ajuste continuo. La velocidad máxima es de 25 km/h para cumplir con la normativa DGT."
+        "question": "¿Qué temperaturas están disponibles?",
+        "answer": "La mayoría de nuestros airfryer ofrecen un rango de temperaturas de 80°C a 200°C, generalmente con ajuste en incrementos de 5°C. Algunos modelos premium ofrecen ajuste continuo. La temperatura máxima es de 200°C para cocinar una amplia variedad de alimentos."
       },
       {
         "id": "7",
-        "question": "¿Hay garantía en los patinetes?",
-        "answer": "Todos nuestros patinetes están cubiertos por una garantía del fabricante de 2 años que cubre los defectos de fabricación. Esta garantía se suma a tus derechos legales como consumidor. Para hacer valer la garantía, conserva tu factura y contacta con nuestro servicio al cliente."
+        "question": "¿Hay garantía en los airfryer?",
+        "answer": "Todos nuestros airfryer están cubiertos por una garantía del fabricante de 2 años que cubre los defectos de fabricación. Esta garantía se suma a tus derechos legales como consumidor. Para hacer valer la garantía, conserva tu factura y contacta con nuestro servicio al cliente."
       },
       {
         "id": "8",
-        "question": "¿Cómo limpiar y mantener mi patinete eléctrico?",
-        "answer": "El mantenimiento es muy sencillo: usa un paño sude ligeramente húmedo para limpiar el exterior. Evita productos químicos agresivos. Para la batería, mantén la carga y evita dejar que se descargue completamente durante largos períodos. Revisa regularmente la presión de las ruedas."
+        "question": "¿Cómo limpiar y mantener mi airfryer?",
+        "answer": "El mantenimiento es muy sencillo: usa un paño suave ligeramente húmedo para limpiar el exterior. Evita productos químicos agresivos. Para la cesta y bandeja, puedes lavarlas en el lavavajillas o con agua caliente y jabón. Revisa regularmente el filtro de aire y límpialo según las instrucciones del fabricante."
       }
     ]
   },
@@ -224,7 +224,7 @@
     "proceedToCheckout": "Finalizar pedido",
     "empty": {
       "title": "Tu selección está vacía",
-      "description": "Añade patinetes eléctricos a tu selección para continuar",
+      "description": "Añade airfryer a tu selección para continuar",
       "button": "Volver a la tienda"
     },
     "removeFromCart": "Quitar del carrito",
@@ -248,7 +248,7 @@
     "buyOnAmazon": "Comprar",
     "viewFullSelection": "Ver mi selección completa",
     "pageTitle": "Tu selección",
-    "pageSubtitle": "Tus patinetes eléctricos seleccionados - Compra directamente en Amazon",
+    "pageSubtitle": "Tus airfryer seleccionados - Compra directamente en Amazon",
     "summary": "Resumen",
     "items": "artículos",
     "clearCart": "Vaciar la selección",
@@ -263,8 +263,8 @@
   "checkout": {
     "empty": {
       "title": "Tu selección está vacía",
-      "description": "Añade patinetes eléctricos a tu selección antes de proceder al pago",
-      "button": "Descubrir nuestros patinetes"
+      "description": "Añade airfryer a tu selección antes de proceder al pago",
+      "button": "Descubrir nuestros airfryer"
     },
     "backToCart": "Volver a la selección",
     "pageTitle": "Finalizar tu compra",
@@ -352,7 +352,7 @@
     "customerReviews": "Opiniones de clientes",
     "faq": "Preguntas frecuentes",
     "alsoLike": "También te puede gustar",
-    "alsoLikeSubtitle": "Otros patinetes eléctricos que podrían interesarte",
+    "alsoLikeSubtitle": "Otros airfryer que podrían interesarte",
     "buyNow": "Comprar ahora",
     "loading": "Cargando...",
     "notFound": "Producto no encontrado",
@@ -386,8 +386,8 @@
   },
   "hero": {
     "expertise": {
-      "title": "¡Patinete Eléctrico Perfecto!",
-      "subtitle": "Movilidad urbana sostenible. Calidad y rendimiento garantizados.",
+      "title": "¡Airfryer Perfecto!",
+      "subtitle": "Cocina saludable y deliciosa. Calidad y rendimiento garantizados.",
       "cta": "¡Compra Ahora!"
     },
     "trust": {
@@ -399,16 +399,16 @@
     },
     "features": {
       "quality": {
-        "title": "Autonomía Extendida",
-        "description": "Hasta 40 km de autonomía. Perfecto para desplazamientos urbanos diarios sin preocupaciones."
+        "title": "Cocción Saludable",
+        "description": "Hasta 80% menos aceite. Perfecto para cocinar alimentos saludables sin comprometer el sabor."
       },
       "design": {
-        "title": "Velocidad Regulable",
-        "description": "3 modos de velocidad: Eco, Normal y Sport. Adapta la velocidad a tus necesidades."
+        "title": "Temperatura Precisa",
+        "description": "Control de temperatura preciso de 80°C a 200°C. Adapta la cocción a cada tipo de alimento."
       },
       "innovation": {
-        "title": "Frenos Duales",
-        "description": "Seguridad garantizada. Sistema de frenado dual para máxima seguridad en ciudad."
+        "title": "Tecnología Avanzada",
+        "description": "Circulación de aire caliente 360°. Cocción uniforme y resultados perfectos en cada uso."
       },
       "support": {
         "title": "Servicio al Cliente Premium",
@@ -421,26 +421,26 @@
     "loading": "Cargando...",
     "hero": {
       "featured": {
-        "title": "¡Tu patinete, tu libertad!",
-        "subtitle": "Movilidad urbana sostenible y eficiente. Libertad para toda la familia.",
+        "title": "¡Tu airfryer, tu cocina!",
+        "subtitle": "Cocina saludable y deliciosa. Libertad culinaria para toda la familia.",
         "loading": "Cargando tu libertad...",
         "viewAll": "¡Ofertas limitadas!"
       }
     },
     "whyChoose": {
       "title": "¿Por Qué Elegirnos?",
-      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para patinetes eléctricos",
+      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para airfryer",
       "advantage1": {
         "title": "Calidad Premium",
-        "description": "Patinetes eléctricos de la más alta calidad, diseñados con materiales duraderos y tecnología avanzada para máxima durabilidad."
+        "description": "Airfryer de la más alta calidad, diseñados con materiales duraderos y tecnología avanzada para máxima durabilidad."
       },
       "advantage2": {
         "title": "Envío Rápido",
-        "description": "Entrega gratuita en 24-48 horas en toda España. Tu movilidad es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
+        "description": "Entrega gratuita en 24-48 horas en toda España. Tu cocina es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
       },
       "advantage3": {
         "title": "Soporte Especializado",
-        "description": "Equipo de atención al cliente especializado en patinetes eléctricos. Te ayudamos con cualquier duda o problema que puedas tener."
+        "description": "Equipo de atención al cliente especializado en airfryer. Te ayudamos con cualquier duda o problema que puedas tener."
       },
       "advantage4": {
         "title": "Garantía Completa",
@@ -448,7 +448,7 @@
       },
       "comparison": {
         "title": "Comparación con la Competencia",
-        "subtitle": "Descubre por qué Patinetes Eléctricos se destaca de la competencia",
+        "subtitle": "Descubre por qué Airfryer se destaca de la competencia",
         "us": "Nosotros",
         "others": "Otros",
         "criteria": "Criterios",
@@ -466,7 +466,7 @@
   },
   "footer": {
     "copyright": "Todos los derechos reservados",
-    "companyDescription": "Especialistas en patinetes eléctricos de alta calidad. Movilidad urbana sostenible y soporte experto.",
+    "companyDescription": "Especialistas en airfryer de alta calidad. Cocina saludable y soporte experto.",
     "legal": {
       "title": "Información Legal",
       "terms": "Términos y Condiciones",
@@ -658,13 +658,13 @@
   },
   "about": {
     "title": "Sobre Nosotros",
-    "subtitle": "Conoce más sobre Patinetes Eléctricos",
+    "subtitle": "Conoce más sobre Airfryer",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Somos especialistas en patinetes eléctricos de alta calidad para movilidad urbana sostenible.",
+    "introduction": "Somos especialistas en airfryer de alta calidad para cocina saludable y deliciosa.",
     "mission": {
       "title": "Nuestra Misión",
-      "description": "Facilitar la movilidad urbana sostenible con patinetes eléctricos de alta calidad, tecnología avanzada y soporte experto."
+      "description": "Facilitar la cocina saludable y deliciosa con airfryer de alta calidad, tecnología avanzada y soporte experto."
     },
     "values": {
       "title": "Nuestros Valores",
@@ -672,7 +672,7 @@
     },
     "team": {
       "title": "Nuestro Equipo",
-      "description": "Contamos con expertos en movilidad eléctrica y atención al cliente especializados en patinetes eléctricos."
+      "description": "Contamos con expertos en cocina saludable y atención al cliente especializados en airfryer."
     }
   },
   "contact": {
@@ -680,11 +680,11 @@
     "subtitle": "Ponte en contacto con nosotros",
     "lastUpdated": "Última actualización:",
     "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Estamos aquí para ayudarte con cualquier consulta sobre patinetes eléctricos.",
+    "introduction": "Estamos aquí para ayudarte con cualquier consulta sobre airfryer.",
     "methods": {
       "title": "Métodos de Contacto",
       "phone": "Teléfono: +34 900 123 456",
-      "email": "Email: info@patineteselectricos.com",
+      "email": "Email: info@airfryer.com",
       "whatsapp": "WhatsApp: +34 600 123 456",
       "hours": "Horario de atención: Lunes a Viernes, 9:00 - 18:00"
     },

@@ -69,9 +69,9 @@ class AmazonScraper:
             self.category_delay = (2, 5)      # Faster rest
             self.max_workers = 8              # More workers
         
-        # OPTIMIZED: Only scrape subcategories (level 1)
-        # Main categories get products automatically from their subcategories
-        self.scrape_only_subcategories = True
+        # MODIFIED: Scrape all categories (flat structure, no subcategories)
+        # All categories are main categories and need products
+        self.scrape_only_subcategories = False
         
         # Quality filters (relaxed for better coverage)
         self.min_rating = 3.5  # Relaxed from 4.0 to 3.5
@@ -232,30 +232,29 @@ class AmazonScraper:
         return None
     
     def load_categories(self):
-        """Load category structure from locales/categories.json"""
+        """Load flat category structure from data/categories.json"""
         try:
             categories_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'categories.json')
             with open(categories_path, 'r', encoding='utf-8') as f:
                 categories_data = json.load(f)
             
-            # Filter categories that need products (flat structure)
+            # MODIFIED: All categories are main categories (flat structure)
             categories = []
             
             for category in categories_data:
-                if category.get('needs_products', False):
-                    categories.append({
-                        'categoryId': category['categoryId'],
-                        'name': category.get('name', category.get('categoryNameCanonical', 'Unknown')),
-                        'slug': category['slug'],
-                        'level': category['level'],
-                        'parentId': category.get('parentCategoryId'),
-                        'targetKeywords': [category.get('name', category.get('categoryNameCanonical', 'Unknown'))],
-                        'needs_products': True,
-                        'recommended_products': category.get('recommended_products', 5)
-                    })
+                # All categories need products in flat structure
+                categories.append({
+                    'categoryId': category['categoryId'],
+                    'name': category.get('categoryNameCanonical', 'Unknown'),
+                    'slug': category['slug'],
+                    'level': category['level'],
+                    'parentId': category.get('parentCategoryId'),
+                    'targetKeywords': [category.get('categoryNameCanonical', 'Unknown')],
+                    'needs_products': True,
+                    'recommended_products': random.randint(5, 8)  # Random 5-8 products per category
+                })
             
-            main_categories = len([c for c in categories_data if c['level'] == 0])
-            safe_print(f"[OK] Loaded {main_categories} main categories, {len(categories)} categories need products")
+            safe_print(f"[OK] Loaded {len(categories)} flat categories (all need products)")
             return categories
             
         except Exception as e:
@@ -305,7 +304,7 @@ class AmazonScraper:
         return products
     
     def extract_product_info(self, container):
-        """Extract comprehensive product information"""
+        """Extract comprehensive product information with improved parsing"""
         try:
             # Skip sponsored products
             if container.find('span', string=re.compile(r'Sponsorisé|Sponsored|Gesponsert', re.I)):
@@ -313,57 +312,117 @@ class AmazonScraper:
             
             product = {}
             
-            # Extract ASIN first (most reliable identifier)
+            # Extract ASIN with multiple methods
             asin = container.get('data-asin')
             if not asin:
-                asin_match = re.search(r'/dp/([A-Z0-9]{10})', str(container))
-                asin = asin_match.group(1) if asin_match else None
+                # Try to find ASIN in various attributes
+                asin_attrs = ['data-asin', 'data-item-id', 'id']
+                for attr in asin_attrs:
+                    asin = container.get(attr)
+                    if asin and re.match(r'^[A-Z0-9]{10}$', asin):
+                        break
+                
+                # Try to extract from links
+                if not asin:
+                    links = container.find_all('a', href=True)
+                    for link in links:
+                        href = link.get('href', '')
+                        asin_match = re.search(r'/dp/([A-Z0-9]{10})', href)
+                        if asin_match:
+                            asin = asin_match.group(1)
+                            break
             
+            # If still no ASIN, try to extract from the container HTML
             if not asin:
-                return None
+                container_html = str(container)
+                asin_match = re.search(r'/dp/([A-Z0-9]{10})', container_html)
+                if asin_match:
+                    asin = asin_match.group(1)
             
-            # Thread-safe ASIN check
-            with self.asins_lock:
-                if asin in self.used_asins:
-                    return None
-                self.used_asins.add(asin)
+            # If still no ASIN, generate a temporary one for testing
+            if not asin:
+                # Create a temporary identifier for products without ASIN
+                temp_id = f"TEMP_{hash(str(container)) % 1000000:06d}"
+                safe_print(f"  [WARNING] No ASIN found, using temp ID: {temp_id}")
+                asin = temp_id
+            
+            # Thread-safe ASIN check (only for real ASINs)
+            if re.match(r'^[A-Z0-9]{10}$', asin):
+                with self.asins_lock:
+                    if asin in self.used_asins:
+                        return None
+                    self.used_asins.add(asin)
             
             product['asin'] = asin
             
-            # Title and URL extraction with multiple methods
+            # Title and URL extraction with improved methods
             title_elem = None
             link = None
+            title_text = ""
             
-            # Method 1: H2 elements
+            # Method 1: H2 elements with links
             h2_elements = container.find_all('h2')
             for h2 in h2_elements:
-                link = h2.find('a')
-                if link and link.get('href'):
-                    title_elem = h2
-                    break
+                link_elem = h2.find('a')
+                if link_elem and link_elem.get('href'):
+                    title_text = link_elem.get_text().strip()
+                    if title_text and len(title_text) > 5:
+                        title_elem = h2
+                        link = link_elem
+                        break
             
-            # Method 2: Direct links
+            # Method 2: Any link with /dp/ in href
             if not title_elem:
                 links = container.find_all('a', href=re.compile(r'/dp/'))
                 for potential_link in links:
                     text = potential_link.get_text().strip()
-                    if text and len(text) > 10:
-                        link = potential_link
+                    if text and len(text) > 5:
+                        title_text = text
                         title_elem = potential_link
+                        link = potential_link
                         break
             
-            if not link or not link.get('href'):
-                return None
+            # Method 3: Look for any text that looks like a product title
+            if not title_elem:
+                # Try to find spans or divs with product-like text
+                text_elements = container.find_all(['span', 'div', 'h3'], string=re.compile(r'.{10,}'))
+                for elem in text_elements:
+                    text = elem.get_text().strip()
+                    if text and len(text) > 10 and not re.match(r'^\d+[,\.]\d*', text):
+                        title_text = text
+                        # Find the closest link
+                        link = elem.find_parent().find('a', href=re.compile(r'/dp/'))
+                        if link:
+                            title_elem = elem
+                            break
             
-            # Extract title and URL
-            title_text = title_elem.get_text().strip()
-            if not title_text or len(title_text) < 10:
+            # If still no title, try to extract from any text in the container
+            if not title_text:
+                all_text = container.get_text()
+                lines = [line.strip() for line in all_text.split('\n') if line.strip()]
+                for line in lines:
+                    if len(line) > 10 and not re.match(r'^\d+[,\.]\d*', line) and not re.match(r'^\d+$', line):
+                        title_text = line
+                        break
+            
+            if not title_text or len(title_text) < 5:
+                safe_print(f"  [WARNING] No valid title found for ASIN: {asin}")
                 return None
             
             product['title'] = title_text
-            href = link.get('href')
-            domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
-            product['url'] = urljoin(f'https://{domain}', href)
+            
+            # URL extraction
+            if link and link.get('href'):
+                href = link.get('href')
+                domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
+                if href.startswith('/'):
+                    product['url'] = f"https://{domain}{href}"
+                else:
+                    product['url'] = href
+            else:
+                # Fallback URL construction
+                domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
+                product['url'] = f"https://{domain}/dp/{asin}"
             
             # Price extraction with multiple methods
             price_text = ""
@@ -393,6 +452,23 @@ class AmazonScraper:
                 if offscreen_elem:
                     price_text = offscreen_elem.get_text().strip()
             
+            # Method 4: Look for any price-like text in the container
+            if not price_text:
+                all_text = container.get_text()
+                price_patterns = [
+                    r'(\d+[,\.]\d*)\s*€',
+                    r'€\s*(\d+[,\.]\d*)',
+                    r'(\d+[,\.]\d*)\s*EUR',
+                    r'EUR\s*(\d+[,\.]\d*)',
+                    r'(\d+[,\.]\d*)\s*euros',
+                    r'euros\s*(\d+[,\.]\d*)'
+                ]
+                for pattern in price_patterns:
+                    match = re.search(pattern, all_text)
+                    if match:
+                        price_text = match.group(0)
+                        break
+            
             # Extract numeric price value
             if price_text:
                 price_match = re.search(r'(\d+[,\.]\d*)', price_text.replace(',', '.'))
@@ -408,7 +484,7 @@ class AmazonScraper:
                 product['price'] = "Prix non disponible"
                 price_value = 0
             
-            # Rating extraction
+            # Rating extraction with multiple methods
             rating = 0
             rating_elem = container.find('span', class_='a-icon-alt')
             if rating_elem:
@@ -416,6 +492,24 @@ class AmazonScraper:
                 rating_match = re.search(r'(\d+[,\.]\d*)', rating_text)
                 if rating_match:
                     rating = float(rating_match.group(1).replace(',', '.'))
+            
+            # Alternative rating extraction
+            if rating == 0:
+                # Look for star ratings in various formats
+                star_elements = container.find_all(['span', 'div'], class_=re.compile(r'star|rating'))
+                for elem in star_elements:
+                    text = elem.get_text()
+                    rating_match = re.search(r'(\d+[,\.]\d*)', text)
+                    if rating_match:
+                        rating = float(rating_match.group(1).replace(',', '.'))
+                        break
+            
+            # If still no rating, look for any text with rating pattern
+            if rating == 0:
+                all_text = container.get_text()
+                rating_match = re.search(r'(\d+[,\.]\d*)\s*de\s*5|(\d+[,\.]\d*)\s*out\s*of\s*5|(\d+[,\.]\d*)\s*/\s*5', all_text)
+                if rating_match:
+                    rating = float((rating_match.group(1) or rating_match.group(2) or rating_match.group(3)).replace(',', '.'))
             
             product['rating'] = rating
             
@@ -438,20 +532,26 @@ class AmazonScraper:
             # Quality filtering with fallback mode support
             min_rating_threshold = self.min_rating
             if hasattr(self, '_fallback_mode') and self._fallback_mode:
-                min_rating_threshold = max(3.0, self.min_rating - 0.5)  # Lower threshold in fallback
+                min_rating_threshold = max(2.0, self.min_rating - 1.0)  # Much lower threshold in fallback
             
-            if rating < min_rating_threshold:
+            # Skip only if rating is 0 (no rating at all) in normal mode, or below threshold in fallback
+            if rating == 0 and not (hasattr(self, '_fallback_mode') and self._fallback_mode):
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No rating, threshold: {min_rating_threshold})")
+                return None
+            elif rating > 0 and rating < min_rating_threshold:
                 safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {min_rating_threshold})")
                 return None
-            
-
             
             # Price filtering with fallback mode support
             min_price_threshold = self.min_price
             if hasattr(self, '_fallback_mode') and self._fallback_mode:
-                min_price_threshold = max(5, self.min_price - 5)  # Lower threshold in fallback
+                min_price_threshold = max(1, self.min_price - 10)  # Much lower threshold in fallback
             
-            if price_value < min_price_threshold:
+            # Skip only if price is 0 (no price) in normal mode, or below threshold in fallback
+            if price_value == 0 and not (hasattr(self, '_fallback_mode') and self._fallback_mode):
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No price, threshold: {min_price_threshold}€)")
+                return None
+            elif price_value > 0 and price_value < min_price_threshold:
                 safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€, threshold: {min_price_threshold}€)")
                 return None
             
@@ -595,7 +695,7 @@ class AmazonScraper:
             }
     
     def extract_all_media(self, response_text, soup):
-        """Extract up to 3 images and videos from Amazon product page"""
+        """Extract up to 5 images and videos from Amazon product page"""
         carousel_images = []
         carousel_videos = []
         
@@ -605,30 +705,30 @@ class AmazonScraper:
             hires_images = re.findall(r'"hiRes":"([^"]+)"', response_text)
             safe_print(f"  [DEBUG] Found {len(hires_images)} hiRes images")
             
-            for img_url in hires_images[:3]:  # Limit to 3 images
+            for img_url in hires_images[:5]:  # Limit to 5 images
                 clean_url = img_url.replace('\\/', '/')
                 if clean_url.startswith('http') and clean_url not in carousel_images:
                     carousel_images.append(clean_url)
             
-            # If we don't have 3 images yet, get large images
-            if len(carousel_images) < 3:
+            # If we don't have 5 images yet, get large images
+            if len(carousel_images) < 5:
                 large_images = re.findall(r'"large":"([^"]+)"', response_text)
                 safe_print(f"  [DEBUG] Found {len(large_images)} large images")
                 
                 for img_url in large_images:
-                    if len(carousel_images) >= 3:
+                    if len(carousel_images) >= 5:
                         break
                     clean_url = img_url.replace('\\/', '/')
                     if clean_url.startswith('http') and clean_url not in carousel_images:
                         carousel_images.append(clean_url)
             
             # If still not enough, get main images
-            if len(carousel_images) < 3:
+            if len(carousel_images) < 5:
                 main_images = re.findall(r'"main":"([^"]+)"', response_text)
                 safe_print(f"  [DEBUG] Found {len(main_images)} main images")
                 
                 for img_url in main_images:
-                    if len(carousel_images) >= 3:
+                    if len(carousel_images) >= 5:
                         break
                     clean_url = img_url.replace('\\/', '/')
                     if clean_url.startswith('http') and clean_url not in carousel_images:
@@ -638,7 +738,7 @@ class AmazonScraper:
             safe_print(f"  [WARNING] Image extraction failed: {e}")
         
         # Method 2: Fallback to carousel JSON if regex didn't work
-        if len(carousel_images) < 3:
+        if len(carousel_images) < 5:
             try:
                 carousel_pattern = r'"colorImages":\s*{\s*"initial":\s*(\[.*?\])'
                 carousel_match = re.search(carousel_pattern, response_text, re.DOTALL)
@@ -648,7 +748,7 @@ class AmazonScraper:
                     safe_print(f"  [DEBUG] Found carousel JSON with {len(carousel_data)} items")
                     
                     for item in carousel_data:
-                        if len(carousel_images) >= 3:
+                        if len(carousel_images) >= 5:
                             break
                         if isinstance(item, dict):
                             img_url = item.get('hiRes') or item.get('large') or item.get('main')
@@ -694,11 +794,11 @@ class AmazonScraper:
             except Exception:
                 enhanced_images.append(img_url)
         
-        # Remove duplicates while preserving order and limit to 3 images
+        # Remove duplicates while preserving order and limit to 5 images
         final_images = []
         seen = set()
         for img in enhanced_images:
-            if img not in seen and len(img) > 30 and len(final_images) < 3:
+            if img not in seen and len(img) > 30 and len(final_images) < 5:
                 seen.add(img)
                 final_images.append(img)
         
@@ -727,9 +827,9 @@ class AmazonScraper:
         # Enhanced media extraction from Amazon carousel
         all_images, videos = self.extract_all_media(response.text, soup)
         
-        # Set main image and gallery (limit to 3 images)
+        # Set main image and gallery (limit to 5 images)
         product['image'] = all_images[0] if all_images else product.get('main_image')
-        product['images'] = all_images[:3]  # Limit to 3 images max
+        product['images'] = all_images[:5]  # Limit to 5 images max
         product['videos'] = videos[:2]  # Limit to 2 videos max
         
         # Extract product description/features
@@ -777,20 +877,15 @@ class AmazonScraper:
         return product
     
     def scrape_category_products(self, category):
-        """Scrape products for subcategories only using their targetKeywords"""
+        """Scrape products for all categories (flat structure)"""
         category_name = category.get('name', category.get('categoryNameCanonical', 'Unknown'))
         level = category['level']
         
-        # OPTIMIZATION: Skip main categories (level 0) - they get products from subcategories
-        if level == 0:
-            safe_print(f"\n[SKIP] Main category: {category_name} (products come from subcategories)")
-            return []
+        safe_print(f"\n[CATEGORY] Scraping category: {category_name} (Level {level})")
         
-        safe_print(f"\n[CATEGORY] Scraping subcategory: {category_name} (Level {level})")
-        
-        # Use targetKeywords from the optimized category structure
+        # Use targetKeywords from the category structure
         target_keywords = category.get('targetKeywords', [])
-        recommended_products = category.get('recommendedProducts', 10)
+        recommended_products = category.get('recommended_products', random.randint(5, 8))
         
         if not target_keywords:
             safe_print(f"[WARNING] No target keywords for {category_name}")
@@ -819,11 +914,19 @@ class AmazonScraper:
                 products_on_page = self.search_products(search_term, page, fallback_mode=False)
                 
                 # If not enough products, try fallback mode
-                if len(products_on_page) < 3 and page == 1:
-                    safe_print(f"  [FALLBACK] Not enough products, trying relaxed filters...")
+                if len(products_on_page) < recommended_products and page == 1:
+                    safe_print(f"  [FALLBACK] Not enough products ({len(products_on_page)}/{recommended_products}), trying relaxed filters...")
                     self._fallback_mode = True
                     products_on_page = self.search_products(search_term, page, fallback_mode=True)
                     self._fallback_mode = False
+                    
+                    # If still not enough, try additional pages with fallback mode
+                    if len(products_on_page) < recommended_products:
+                        safe_print(f"  [FALLBACK] Still not enough ({len(products_on_page)}/{recommended_products}), trying page 2 with relaxed filters...")
+                        self._fallback_mode = True
+                        page2_products = self.search_products(search_term, 2, fallback_mode=True)
+                        self._fallback_mode = False
+                        products_on_page.extend(page2_products)
                 
                 if not products_on_page:
                     safe_print(f"  [WARNING] No products found on page {page}")
@@ -1487,24 +1590,22 @@ class AmazonScraper:
         
         return html
     
-    def test_single_subcategory(self):
-        """Test scraping a single subcategory"""
-        subcategories = [cat for cat in self.categories if cat.get('level') == 1]
-        
-        if not subcategories:
-            safe_print("[ERROR] No subcategories found!")
+    def test_single_category(self):
+        """Test scraping a single category"""
+        if not self.categories:
+            safe_print("[ERROR] No categories found!")
             return
         
-        safe_print(f"\n[TEST] Available subcategories ({len(subcategories)} total):")
+        safe_print(f"\n[TEST] Available categories ({len(self.categories)} total):")
         
-        # Show first 10 subcategories for selection
-        display_count = min(10, len(subcategories))
+        # Show first 10 categories for selection
+        display_count = min(10, len(self.categories))
         for i in range(display_count):
-            cat = subcategories[i]
+            cat = self.categories[i]
             safe_print(f"  {i+1}. {cat['name']} (ID: {cat['categoryId']})")
         
-        if len(subcategories) > 10:
-            safe_print(f"  ... and {len(subcategories) - 10} more")
+        if len(self.categories) > 10:
+            safe_print(f"  ... and {len(self.categories) - 10} more")
         
         # Let user choose or default to first one
         try:
@@ -1514,15 +1615,15 @@ class AmazonScraper:
             else:
                 selected_index = int(choice) - 1
                 if selected_index < 0 or selected_index >= display_count:
-                    safe_print("[ERROR] Invalid choice, using first subcategory")
+                    safe_print("[ERROR] Invalid choice, using first category")
                     selected_index = 0
         except ValueError:
-            safe_print("[ERROR] Invalid input, using first subcategory")
+            safe_print("[ERROR] Invalid input, using first category")
             selected_index = 0
         
-        selected_category = subcategories[selected_index]
+        selected_category = self.categories[selected_index]
         
-        safe_print(f"\n[TEST] Testing subcategory: {selected_category['name']}")
+        safe_print(f"\n[TEST] Testing category: {selected_category['name']}")
         safe_print(f"[TEST] Category ID: {selected_category['categoryId']}")
         safe_print(f"[TEST] Target keywords: {selected_category.get('targetKeywords', [])}")
         
@@ -1566,7 +1667,7 @@ class AmazonScraper:
                         safe_print(f"    • {feature[:100]}...")
                 safe_print(f"  Images: {len(detailed_product.get('images', []))} images found")
                 if detailed_product.get('images'):
-                    for i, img in enumerate(detailed_product.get('images', [])[:3]):
+                    for i, img in enumerate(detailed_product.get('images', [])[:5]):
                         safe_print(f"    {i+1}. {img}")
                 safe_print(f"  Availability: {detailed_product.get('availability', 'N/A')}")
                 safe_print(f"  Shipping: {detailed_product.get('shipping_info', 'N/A')}")
@@ -1680,23 +1781,22 @@ if __name__ == "__main__":
         exit(1)
     
     safe_print(f"[OK] Loaded {len(scraper.categories)} categories")
-    safe_print(f"[OPTIMIZATION] Only scraping subcategories (level 1) with targetKeywords")
+    safe_print(f"[OPTIMIZATION] Scraping all categories (flat structure) with 5-8 products each")
     safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price (with smart fallback)")
     
-    # Count subcategories for accurate reporting
-    subcategories = [cat for cat in scraper.categories if cat.get('level') == 1]
-    safe_print(f"[TARGET] Found {len(subcategories)} subcategories to scrape")
+    # Count categories for accurate reporting (flat structure)
+    safe_print(f"[TARGET] Found {len(scraper.categories)} categories to scrape")
     
     # Handle test single mode
     if args.test_single:
-        safe_print("\n[TEST] Single subcategory test mode")
-        scraper.test_single_subcategory()
+        safe_print("\n[TEST] Single category test mode")
+        scraper.test_single_category()
         exit(0)
     
     print("\nChoose scraping mode:")
-    print(f"1. Sample scraping (5 subcategories) - Quick test")
-    print(f"2. Full scraping ({len(subcategories)} subcategories) - Complete catalog")
-    print(f"3. Test single subcategory - Test one specific subcategory")
+    print(f"1. Sample scraping (5 categories) - Quick test")
+    print(f"2. Full scraping ({len(scraper.categories)} categories) - Complete catalog")
+    print(f"3. Test single category - Test one specific category")
     
     choice = input("\nEnter choice (1, 2, or 3): ").strip()
     
@@ -1711,7 +1811,7 @@ if __name__ == "__main__":
         else:
             safe_print("[ERROR] Cancelled.")
     elif choice == "3":
-        safe_print("\n[TEST] Single subcategory test mode")
-        scraper.test_single_subcategory()
+        safe_print("\n[TEST] Single category test mode")
+        scraper.test_single_category()
     else:
         safe_print("[ERROR] Invalid choice. Exiting.") 

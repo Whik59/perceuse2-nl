@@ -362,4245 +362,13 @@
         "ofertas"
       ]
     },
-    "has_subcategories": true,
-    "needs_products": false,
-    "recommended_products": 0,
-    "scraping_strategy": "subcategories"
+    "has_subcategories": false,
+    "needs_products": true,
+    "recommended_products": 15,
+    "scraping_strategy": "direct"
   },
   {
     "categoryId": 17,
-    "categoryNameCanonical": "airfryer acero inox sin antiadherente",
-    "parentCategoryId": 16,
-    "slug": "airfryer-acero-inox-sin-antiadherente",
-    "level": 1,
-    "description": "Discover airfryer acero inox sin antiadherente with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Acero Inox Sin Antiadherente - Expert Reviews & Best Deals",
-      "description": "Compare airfryer acero inox sin antiadherente products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer acero inox sin antiadherente",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 18,
-    "categoryNameCanonical": "airfryer acero inoxidable",
-    "parentCategoryId": 16,
-    "slug": "airfryer-acero-inoxidable",
-    "level": 1,
-    "description": "Discover airfryer acero inoxidable with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Acero Inoxidable - Expert Reviews & Best Deals",
-      "description": "Compare airfryer acero inoxidable products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer acero inoxidable",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 19,
-    "categoryNameCanonical": "airfryer acero inoxidable sin antiadherente",
-    "parentCategoryId": 16,
-    "slug": "airfryer-acero-inoxidable-sin-antiadherente",
-    "level": 1,
-    "description": "Discover airfryer acero inoxidable sin antiadherente with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Acero Inoxidable Sin Antiadherente - Expert Reviews & Best Deals",
-      "description": "Compare airfryer acero inoxidable sin antiadherente products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer acero inoxidable sin antiadherente",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 20,
-    "categoryNameCanonical": "airfryer aigostar 7l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-aigostar-7l",
-    "level": 1,
-    "description": "Discover airfryer aigostar 7l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Aigostar 7L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer aigostar 7l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer aigostar 7l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 21,
-    "categoryNameCanonical": "airfryer amazon blanca",
-    "parentCategoryId": 16,
-    "slug": "airfryer-amazon-blanca",
-    "level": 1,
-    "description": "Discover airfryer amazon blanca with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Amazon Blanca - Expert Reviews & Best Deals",
-      "description": "Compare airfryer amazon blanca products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer amazon blanca",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 22,
-    "categoryNameCanonical": "airfryer amazon cosori",
-    "parentCategoryId": 16,
-    "slug": "airfryer-amazon-cosori",
-    "level": 1,
-    "description": "Discover airfryer amazon cosori with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Amazon Cosori - Expert Reviews & Best Deals",
-      "description": "Compare airfryer amazon cosori products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer amazon cosori",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 23,
-    "categoryNameCanonical": "airfryer ariete 6l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ariete-6l",
-    "level": 1,
-    "description": "Discover airfryer ariete 6l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ariete 6L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ariete 6l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ariete 6l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 24,
-    "categoryNameCanonical": "airfryer arriba y abajo",
-    "parentCategoryId": 16,
-    "slug": "airfryer-arriba-y-abajo",
-    "level": 1,
-    "description": "Discover airfryer arriba y abajo with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Arriba Y Abajo - Expert Reviews & Best Deals",
-      "description": "Compare airfryer arriba y abajo products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer arriba y abajo",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 25,
-    "categoryNameCanonical": "airfryer baking paper",
-    "parentCategoryId": 16,
-    "slug": "airfryer-baking-paper",
-    "level": 1,
-    "description": "Discover airfryer baking paper with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Baking Paper - Expert Reviews & Best Deals",
-      "description": "Compare airfryer baking paper products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer baking paper",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 26,
-    "categoryNameCanonical": "airfryer baking set",
-    "parentCategoryId": 16,
-    "slug": "airfryer-baking-set",
-    "level": 1,
-    "description": "Discover airfryer baking set with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Baking Set - Expert Reviews & Best Deals",
-      "description": "Compare airfryer baking set products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer baking set",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 27,
-    "categoryNameCanonical": "airfryer bandeja cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-bandeja-cristal",
-    "level": 1,
-    "description": "Discover airfryer bandeja cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Bandeja Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer bandeja cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer bandeja cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 28,
-    "categoryNameCanonical": "airfryer blanca 5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-5l",
-    "level": 1,
-    "description": "Discover airfryer blanca 5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca 5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca 5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca 5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 29,
-    "categoryNameCanonical": "airfryer blanca 7 l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-7-l",
-    "level": 1,
-    "description": "Discover airfryer blanca 7 l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca 7 L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca 7 l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca 7 l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 30,
-    "categoryNameCanonical": "airfryer blanca cecotec",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-cecotec",
-    "level": 1,
-    "description": "Discover airfryer blanca cecotec with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca Cecotec - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca cecotec products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca cecotec",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 31,
-    "categoryNameCanonical": "airfryer blanca create",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-create",
-    "level": 1,
-    "description": "Discover airfryer blanca create with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca Create - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca create products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca create",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 32,
-    "categoryNameCanonical": "airfryer blanca grande",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-grande",
-    "level": 1,
-    "description": "Discover airfryer blanca grande with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca Grande - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca grande products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca grande",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 33,
-    "categoryNameCanonical": "airfryer blanca mini",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-mini",
-    "level": 1,
-    "description": "Discover airfryer blanca mini with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca Mini - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca mini products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca mini",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 34,
-    "categoryNameCanonical": "airfryer blanca pequeña",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanca-peque-a",
-    "level": 1,
-    "description": "Discover airfryer blanca pequeña with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanca Pequeña - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanca pequeña products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanca pequeña",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 35,
-    "categoryNameCanonical": "airfryer blanco ninja",
-    "parentCategoryId": 16,
-    "slug": "airfryer-blanco-ninja",
-    "level": 1,
-    "description": "Discover airfryer blanco ninja with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Blanco Ninja - Expert Reviews & Best Deals",
-      "description": "Compare airfryer blanco ninja products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer blanco ninja",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 36,
-    "categoryNameCanonical": "airfryer bosch maf671b1",
-    "parentCategoryId": 16,
-    "slug": "airfryer-bosch-maf671b1",
-    "level": 1,
-    "description": "Discover airfryer bosch maf671b1 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Bosch Maf671B1 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer bosch maf671b1 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer bosch maf671b1",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 37,
-    "categoryNameCanonical": "airfryer bosch serie 6",
-    "parentCategoryId": 16,
-    "slug": "airfryer-bosch-serie-6",
-    "level": 1,
-    "description": "Discover airfryer bosch serie 6 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Bosch Serie 6 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer bosch serie 6 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer bosch serie 6",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 38,
-    "categoryNameCanonical": "airfryer cajon cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cajon-cristal",
-    "level": 1,
-    "description": "Discover airfryer cajon cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cajon Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cajon cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cajon cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 39,
-    "categoryNameCanonical": "airfryer cecotec 10l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-10l",
-    "level": 1,
-    "description": "Discover airfryer cecotec 10l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec 10L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec 10l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec 10l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 40,
-    "categoryNameCanonical": "airfryer cecotec 4l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-4l",
-    "level": 1,
-    "description": "Discover airfryer cecotec 4l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec 4L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec 4l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec 4l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 41,
-    "categoryNameCanonical": "airfryer cecotec 6l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-6l",
-    "level": 1,
-    "description": "Discover airfryer cecotec 6l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec 6L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec 6l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec 6l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 42,
-    "categoryNameCanonical": "airfryer cecotec 8l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-8l",
-    "level": 1,
-    "description": "Discover airfryer cecotec 8l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec 8L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec 8l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec 8l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 43,
-    "categoryNameCanonical": "airfryer cecotec 9l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-9l",
-    "level": 1,
-    "description": "Discover airfryer cecotec 9l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec 9L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec 9l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec 9l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 44,
-    "categoryNameCanonical": "airfryer cecotec doble resistencia",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cecotec-doble-resistencia",
-    "level": 1,
-    "description": "Discover airfryer cecotec doble resistencia with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cecotec Doble Resistencia - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cecotec doble resistencia products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cecotec doble resistencia",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 45,
-    "categoryNameCanonical": "airfryer cosori 10l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-10l",
-    "level": 1,
-    "description": "Discover airfryer cosori 10l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori 10L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori 10l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori 10l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 46,
-    "categoryNameCanonical": "airfryer cosori 6l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-6l",
-    "level": 1,
-    "description": "Discover airfryer cosori 6l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori 6L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori 6l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori 6l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 47,
-    "categoryNameCanonical": "airfryer cosori blanca",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-blanca",
-    "level": 1,
-    "description": "Discover airfryer cosori blanca with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori Blanca - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori blanca products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori blanca",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 48,
-    "categoryNameCanonical": "airfryer cosori doble resistencia",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-doble-resistencia",
-    "level": 1,
-    "description": "Discover airfryer cosori doble resistencia with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori Doble Resistencia - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori doble resistencia products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori doble resistencia",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 49,
-    "categoryNameCanonical": "airfryer cosori dual blaze",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-dual-blaze",
-    "level": 1,
-    "description": "Discover airfryer cosori dual blaze with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori Dual Blaze - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori dual blaze products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori dual blaze",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 50,
-    "categoryNameCanonical": "airfryer cosori pequeña",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cosori-peque-a",
-    "level": 1,
-    "description": "Discover airfryer cosori pequeña with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cosori Pequeña - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cosori pequeña products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cosori pequeña",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 51,
-    "categoryNameCanonical": "airfryer create cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-create-cristal",
-    "level": 1,
-    "description": "Discover airfryer create cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Create Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer create cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer create cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 52,
-    "categoryNameCanonical": "airfryer cristal 6 litros",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-6-litros",
-    "level": 1,
-    "description": "Discover airfryer cristal 6 litros with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal 6 Litros - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal 6 litros products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal 6 litros",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 53,
-    "categoryNameCanonical": "airfryer cristal 8l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-8l",
-    "level": 1,
-    "description": "Discover airfryer cristal 8l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal 8L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal 8l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal 8l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 54,
-    "categoryNameCanonical": "airfryer cristal cosori",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-cosori",
-    "level": 1,
-    "description": "Discover airfryer cristal cosori with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal Cosori - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal cosori products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal cosori",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 55,
-    "categoryNameCanonical": "airfryer cristal grande",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-grande",
-    "level": 1,
-    "description": "Discover airfryer cristal grande with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal Grande - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal grande products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal grande",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 56,
-    "categoryNameCanonical": "airfryer cristal ninja",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-ninja",
-    "level": 1,
-    "description": "Discover airfryer cristal ninja with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal Ninja - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal ninja products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal ninja",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 57,
-    "categoryNameCanonical": "airfryer cristal sin teflon",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cristal-sin-teflon",
-    "level": 1,
-    "description": "Discover airfryer cristal sin teflon with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cristal Sin Teflon - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cristal sin teflon products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cristal sin teflon",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 58,
-    "categoryNameCanonical": "airfryer cubeta cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-cubeta-cristal",
-    "level": 1,
-    "description": "Discover airfryer cubeta cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Cubeta Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer cubeta cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer cubeta cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 59,
-    "categoryNameCanonical": "airfryer de 3 litros",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-3-litros",
-    "level": 1,
-    "description": "Discover airfryer de 3 litros with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De 3 Litros - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de 3 litros products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de 3 litros",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 60,
-    "categoryNameCanonical": "airfryer de 4",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-4",
-    "level": 1,
-    "description": "Discover airfryer de 4 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De 4 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de 4 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de 4",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 61,
-    "categoryNameCanonical": "airfryer de 4 litros",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-4-litros",
-    "level": 1,
-    "description": "Discover airfryer de 4 litros with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De 4 Litros - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de 4 litros products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de 4 litros",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 62,
-    "categoryNameCanonical": "airfryer de 5,5 litros",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-5-5-litros",
-    "level": 1,
-    "description": "Discover airfryer de 5,5 litros with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De 5,5 Litros - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de 5,5 litros products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de 5,5 litros",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 63,
-    "categoryNameCanonical": "airfryer de cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-cristal",
-    "level": 1,
-    "description": "Discover airfryer de cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 64,
-    "categoryNameCanonical": "airfryer de cristal 10l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-cristal-10l",
-    "level": 1,
-    "description": "Discover airfryer de cristal 10l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Cristal 10L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de cristal 10l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de cristal 10l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 65,
-    "categoryNameCanonical": "airfryer de cristal 8l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-cristal-8l",
-    "level": 1,
-    "description": "Discover airfryer de cristal 8l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Cristal 8L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de cristal 8l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de cristal 8l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 66,
-    "categoryNameCanonical": "airfryer de cristal ninja",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-cristal-ninja",
-    "level": 1,
-    "description": "Discover airfryer de cristal ninja with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Cristal Ninja - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de cristal ninja products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de cristal ninja",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 67,
-    "categoryNameCanonical": "airfryer de doble resistencia",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-doble-resistencia",
-    "level": 1,
-    "description": "Discover airfryer de doble resistencia with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Doble Resistencia - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de doble resistencia products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de doble resistencia",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 68,
-    "categoryNameCanonical": "airfryer de vidrio",
-    "parentCategoryId": 16,
-    "slug": "airfryer-de-vidrio",
-    "level": 1,
-    "description": "Discover airfryer de vidrio with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer De Vidrio - Expert Reviews & Best Deals",
-      "description": "Compare airfryer de vidrio products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer de vidrio",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 69,
-    "categoryNameCanonical": "airfryer doble cesta vertical",
-    "parentCategoryId": 16,
-    "slug": "airfryer-doble-cesta-vertical",
-    "level": 1,
-    "description": "Discover airfryer doble cesta vertical with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Doble Cesta Vertical - Expert Reviews & Best Deals",
-      "description": "Compare airfryer doble cesta vertical products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer doble cesta vertical",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 70,
-    "categoryNameCanonical": "airfryer dos cestas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dos-cestas",
-    "level": 1,
-    "description": "Discover airfryer dos cestas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dos Cestas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dos cestas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dos cestas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 71,
-    "categoryNameCanonical": "airfryer dos compartimentos",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dos-compartimentos",
-    "level": 1,
-    "description": "Discover airfryer dos compartimentos with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dos Compartimentos - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dos compartimentos products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dos compartimentos",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 72,
-    "categoryNameCanonical": "airfryer double basket",
-    "parentCategoryId": 16,
-    "slug": "airfryer-double-basket",
-    "level": 1,
-    "description": "Discover airfryer double basket with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Double Basket - Expert Reviews & Best Deals",
-      "description": "Compare airfryer double basket products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer double basket",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 73,
-    "categoryNameCanonical": "airfryer dual basket",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dual-basket",
-    "level": 1,
-    "description": "Discover airfryer dual basket with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dual Basket - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dual basket products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dual basket",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 74,
-    "categoryNameCanonical": "airfryer dual basket serie 3000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dual-basket-serie-3000",
-    "level": 1,
-    "description": "Discover airfryer dual basket serie 3000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dual Basket Serie 3000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dual basket serie 3000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dual basket serie 3000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 75,
-    "categoryNameCanonical": "airfryer dual blaze",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dual-blaze",
-    "level": 1,
-    "description": "Discover airfryer dual blaze with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dual Blaze - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dual blaze products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dual blaze",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 76,
-    "categoryNameCanonical": "airfryer dual philips",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dual-philips",
-    "level": 1,
-    "description": "Discover airfryer dual philips with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dual Philips - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dual philips products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dual philips",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 77,
-    "categoryNameCanonical": "airfryer dual zone xiaomi",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dual-zone-xiaomi",
-    "level": 1,
-    "description": "Discover airfryer dual zone xiaomi with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dual Zone Xiaomi - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dual zone xiaomi products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dual zone xiaomi",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 78,
-    "categoryNameCanonical": "airfryer dupla resistencia",
-    "parentCategoryId": 16,
-    "slug": "airfryer-dupla-resistencia",
-    "level": 1,
-    "description": "Discover airfryer dupla resistencia with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Dupla Resistencia - Expert Reviews & Best Deals",
-      "description": "Compare airfryer dupla resistencia products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer dupla resistencia",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 79,
-    "categoryNameCanonical": "airfryer duronic af14",
-    "parentCategoryId": 16,
-    "slug": "airfryer-duronic-af14",
-    "level": 1,
-    "description": "Discover airfryer duronic af14 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Duronic Af14 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer duronic af14 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer duronic af14",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 80,
-    "categoryNameCanonical": "airfryer en rojo",
-    "parentCategoryId": 16,
-    "slug": "airfryer-en-rojo",
-    "level": 1,
-    "description": "Discover airfryer en rojo with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer En Rojo - Expert Reviews & Best Deals",
-      "description": "Compare airfryer en rojo products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer en rojo",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 81,
-    "categoryNameCanonical": "airfryer forros de silicona",
-    "parentCategoryId": 16,
-    "slug": "airfryer-forros-de-silicona",
-    "level": 1,
-    "description": "Discover airfryer forros de silicona with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Forros De Silicona - Expert Reviews & Best Deals",
-      "description": "Compare airfryer forros de silicona products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer forros de silicona",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 82,
-    "categoryNameCanonical": "airfryer fácil de limpiar",
-    "parentCategoryId": 16,
-    "slug": "airfryer-f-cil-de-limpiar",
-    "level": 1,
-    "description": "Discover airfryer fácil de limpiar with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Fácil De Limpiar - Expert Reviews & Best Deals",
-      "description": "Compare airfryer fácil de limpiar products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer fácil de limpiar",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 83,
-    "categoryNameCanonical": "airfryer gran capacidad",
-    "parentCategoryId": 16,
-    "slug": "airfryer-gran-capacidad",
-    "level": 1,
-    "description": "Discover airfryer gran capacidad with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Gran Capacidad - Expert Reviews & Best Deals",
-      "description": "Compare airfryer gran capacidad products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer gran capacidad",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 84,
-    "categoryNameCanonical": "airfryer grande doble",
-    "parentCategoryId": 16,
-    "slug": "airfryer-grande-doble",
-    "level": 1,
-    "description": "Discover airfryer grande doble with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Grande Doble - Expert Reviews & Best Deals",
-      "description": "Compare airfryer grande doble products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer grande doble",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 85,
-    "categoryNameCanonical": "airfryer grande libre de bpa",
-    "parentCategoryId": 16,
-    "slug": "airfryer-grande-libre-de-bpa",
-    "level": 1,
-    "description": "Discover airfryer grande libre de bpa with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Grande Libre De Bpa - Expert Reviews & Best Deals",
-      "description": "Compare airfryer grande libre de bpa products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer grande libre de bpa",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 86,
-    "categoryNameCanonical": "airfryer grande pizza",
-    "parentCategoryId": 16,
-    "slug": "airfryer-grande-pizza",
-    "level": 1,
-    "description": "Discover airfryer grande pizza with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Grande Pizza - Expert Reviews & Best Deals",
-      "description": "Compare airfryer grande pizza products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer grande pizza",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 87,
-    "categoryNameCanonical": "airfryer grande pollo",
-    "parentCategoryId": 16,
-    "slug": "airfryer-grande-pollo",
-    "level": 1,
-    "description": "Discover airfryer grande pollo with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Grande Pollo - Expert Reviews & Best Deals",
-      "description": "Compare airfryer grande pollo products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer grande pollo",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 88,
-    "categoryNameCanonical": "airfryer horno ninja",
-    "parentCategoryId": 16,
-    "slug": "airfryer-horno-ninja",
-    "level": 1,
-    "description": "Discover airfryer horno ninja with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Horno Ninja - Expert Reviews & Best Deals",
-      "description": "Compare airfryer horno ninja products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer horno ninja",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 89,
-    "categoryNameCanonical": "airfryer horno y freidora",
-    "parentCategoryId": 16,
-    "slug": "airfryer-horno-y-freidora",
-    "level": 1,
-    "description": "Discover airfryer horno y freidora with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Horno Y Freidora - Expert Reviews & Best Deals",
-      "description": "Compare airfryer horno y freidora products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer horno y freidora",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 90,
-    "categoryNameCanonical": "airfryer instant pot",
-    "parentCategoryId": 16,
-    "slug": "airfryer-instant-pot",
-    "level": 1,
-    "description": "Discover airfryer instant pot with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Instant Pot - Expert Reviews & Best Deals",
-      "description": "Compare airfryer instant pot products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer instant pot",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 91,
-    "categoryNameCanonical": "airfryer interior acero inoxidable",
-    "parentCategoryId": 16,
-    "slug": "airfryer-interior-acero-inoxidable",
-    "level": 1,
-    "description": "Discover airfryer interior acero inoxidable with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Interior Acero Inoxidable - Expert Reviews & Best Deals",
-      "description": "Compare airfryer interior acero inoxidable products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer interior acero inoxidable",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 92,
-    "categoryNameCanonical": "airfryer interior cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-interior-cristal",
-    "level": 1,
-    "description": "Discover airfryer interior cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Interior Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer interior cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer interior cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 93,
-    "categoryNameCanonical": "airfryer jamie oliver",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jamie-oliver",
-    "level": 1,
-    "description": "Discover airfryer jamie oliver with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jamie Oliver - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jamie oliver products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jamie oliver",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 94,
-    "categoryNameCanonical": "airfryer jocca 5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jocca-5l",
-    "level": 1,
-    "description": "Discover airfryer jocca 5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jocca 5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jocca 5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jocca 5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 95,
-    "categoryNameCanonical": "airfryer jocca 6 litros y medio",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jocca-6-litros-y-medio",
-    "level": 1,
-    "description": "Discover airfryer jocca 6 litros y medio with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jocca 6 Litros Y Medio - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jocca 6 litros y medio products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jocca 6 litros y medio",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 96,
-    "categoryNameCanonical": "airfryer jocca 6.5",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jocca-6-5",
-    "level": 1,
-    "description": "Discover airfryer jocca 6.5 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jocca 6.5 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jocca 6.5 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jocca 6.5",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 97,
-    "categoryNameCanonical": "airfryer jocca 8l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jocca-8l",
-    "level": 1,
-    "description": "Discover airfryer jocca 8l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jocca 8L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jocca 8l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jocca 8l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 98,
-    "categoryNameCanonical": "airfryer jocca robin food",
-    "parentCategoryId": 16,
-    "slug": "airfryer-jocca-robin-food",
-    "level": 1,
-    "description": "Discover airfryer jocca robin food with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Jocca Robin Food - Expert Reviews & Best Deals",
-      "description": "Compare airfryer jocca robin food products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer jocca robin food",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 99,
-    "categoryNameCanonical": "airfryer keto cookbook",
-    "parentCategoryId": 16,
-    "slug": "airfryer-keto-cookbook",
-    "level": 1,
-    "description": "Discover airfryer keto cookbook with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Keto Cookbook - Expert Reviews & Best Deals",
-      "description": "Compare airfryer keto cookbook products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer keto cookbook",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 100,
-    "categoryNameCanonical": "airfryer la vecina rubia",
-    "parentCategoryId": 16,
-    "slug": "airfryer-la-vecina-rubia",
-    "level": 1,
-    "description": "Discover airfryer la vecina rubia with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer La Vecina Rubia - Expert Reviews & Best Deals",
-      "description": "Compare airfryer la vecina rubia products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer la vecina rubia",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 101,
-    "categoryNameCanonical": "airfryer laura ashley",
-    "parentCategoryId": 16,
-    "slug": "airfryer-laura-ashley",
-    "level": 1,
-    "description": "Discover airfryer laura ashley with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Laura Ashley - Expert Reviews & Best Deals",
-      "description": "Compare airfryer laura ashley products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer laura ashley",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 102,
-    "categoryNameCanonical": "airfryer libre de",
-    "parentCategoryId": 16,
-    "slug": "airfryer-libre-de",
-    "level": 1,
-    "description": "Discover airfryer libre de with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Libre De - Expert Reviews & Best Deals",
-      "description": "Compare airfryer libre de products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer libre de",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 103,
-    "categoryNameCanonical": "airfryer libre pfoa y bpa",
-    "parentCategoryId": 16,
-    "slug": "airfryer-libre-pfoa-y-bpa",
-    "level": 1,
-    "description": "Discover airfryer libre pfoa y bpa with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Libre Pfoa Y Bpa - Expert Reviews & Best Deals",
-      "description": "Compare airfryer libre pfoa y bpa products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer libre pfoa y bpa",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 104,
-    "categoryNameCanonical": "airfryer libre pfoa y bpa 10 litros",
-    "parentCategoryId": 16,
-    "slug": "airfryer-libre-pfoa-y-bpa-10-litros",
-    "level": 1,
-    "description": "Discover airfryer libre pfoa y bpa 10 litros with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Libre Pfoa Y Bpa 10 Litros - Expert Reviews & Best Deals",
-      "description": "Compare airfryer libre pfoa y bpa 10 litros products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer libre pfoa y bpa 10 litros",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 105,
-    "categoryNameCanonical": "airfryer libro recetas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-libro-recetas",
-    "level": 1,
-    "description": "Discover airfryer libro recetas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Libro Recetas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer libro recetas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer libro recetas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 106,
-    "categoryNameCanonical": "airfryer mas vendida",
-    "parentCategoryId": 16,
-    "slug": "airfryer-mas-vendida",
-    "level": 1,
-    "description": "Discover airfryer mas vendida with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Mas Vendida - Expert Reviews & Best Deals",
-      "description": "Compare airfryer mas vendida products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer mas vendida",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 107,
-    "categoryNameCanonical": "airfryer mas vendida cosori",
-    "parentCategoryId": 16,
-    "slug": "airfryer-mas-vendida-cosori",
-    "level": 1,
-    "description": "Discover airfryer mas vendida cosori with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Mas Vendida Cosori - Expert Reviews & Best Deals",
-      "description": "Compare airfryer mas vendida cosori products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer mas vendida cosori",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 108,
-    "categoryNameCanonical": "airfryer mini horno",
-    "parentCategoryId": 16,
-    "slug": "airfryer-mini-horno",
-    "level": 1,
-    "description": "Discover airfryer mini horno with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Mini Horno - Expert Reviews & Best Deals",
-      "description": "Compare airfryer mini horno products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer mini horno",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 109,
-    "categoryNameCanonical": "airfryer moulinex 5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-5l",
-    "level": 1,
-    "description": "Discover airfryer moulinex 5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex 5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex 5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex 5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 110,
-    "categoryNameCanonical": "airfryer moulinex dual",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-dual",
-    "level": 1,
-    "description": "Discover airfryer moulinex dual with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Dual - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex dual products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex dual",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 111,
-    "categoryNameCanonical": "airfryer moulinex easy fry & grill",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-easy-fry-grill",
-    "level": 1,
-    "description": "Discover airfryer moulinex easy fry & grill with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Easy Fry & Grill - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex easy fry & grill products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex easy fry & grill",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 112,
-    "categoryNameCanonical": "airfryer moulinex easy fry & grill xxl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-easy-fry-grill-xxl",
-    "level": 1,
-    "description": "Discover airfryer moulinex easy fry & grill xxl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Easy Fry & Grill Xxl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex easy fry & grill xxl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex easy fry & grill xxl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 113,
-    "categoryNameCanonical": "airfryer moulinex xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-xl",
-    "level": 1,
-    "description": "Discover airfryer moulinex xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 114,
-    "categoryNameCanonical": "airfryer moulinex xl surface",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-xl-surface",
-    "level": 1,
-    "description": "Discover airfryer moulinex xl surface with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Xl Surface - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex xl surface products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex xl surface",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 115,
-    "categoryNameCanonical": "airfryer moulinex xxl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-moulinex-xxl",
-    "level": 1,
-    "description": "Discover airfryer moulinex xxl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Moulinex Xxl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer moulinex xxl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer moulinex xxl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 116,
-    "categoryNameCanonical": "airfryer ninja 6l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-6l",
-    "level": 1,
-    "description": "Discover airfryer ninja 6l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja 6L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja 6l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja 6l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 117,
-    "categoryNameCanonical": "airfryer ninja crispi",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-crispi",
-    "level": 1,
-    "description": "Discover airfryer ninja crispi with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Crispi - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja crispi products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja crispi",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 118,
-    "categoryNameCanonical": "airfryer ninja crispy",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-crispy",
-    "level": 1,
-    "description": "Discover airfryer ninja crispy with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Crispy - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja crispy products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja crispy",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 119,
-    "categoryNameCanonical": "airfryer ninja cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-cristal",
-    "level": 1,
-    "description": "Discover airfryer ninja cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 120,
-    "categoryNameCanonical": "airfryer ninja de vidrio",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-de-vidrio",
-    "level": 1,
-    "description": "Discover airfryer ninja de vidrio with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja De Vidrio - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja de vidrio products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja de vidrio",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 121,
-    "categoryNameCanonical": "airfryer ninja doble",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-doble",
-    "level": 1,
-    "description": "Discover airfryer ninja doble with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Doble - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja doble products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja doble",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 122,
-    "categoryNameCanonical": "airfryer ninja double stack xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-double-stack-xl",
-    "level": 1,
-    "description": "Discover airfryer ninja double stack xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Double Stack Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja double stack xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja double stack xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 123,
-    "categoryNameCanonical": "airfryer ninja max pro",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-max-pro",
-    "level": 1,
-    "description": "Discover airfryer ninja max pro with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Max Pro - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja max pro products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja max pro",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 124,
-    "categoryNameCanonical": "airfryer ninja zubehör",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ninja-zubeh-r",
-    "level": 1,
-    "description": "Discover airfryer ninja zubehör with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ninja Zubehör - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ninja zubehör products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ninja zubehör",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 125,
-    "categoryNameCanonical": "airfryer non toxic",
-    "parentCategoryId": 16,
-    "slug": "airfryer-non-toxic",
-    "level": 1,
-    "description": "Discover airfryer non toxic with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Non Toxic - Expert Reviews & Best Deals",
-      "description": "Compare airfryer non toxic products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer non toxic",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 126,
-    "categoryNameCanonical": "airfryer oferta flash",
-    "parentCategoryId": 16,
-    "slug": "airfryer-oferta-flash",
-    "level": 1,
-    "description": "Discover airfryer oferta flash with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Oferta Flash - Expert Reviews & Best Deals",
-      "description": "Compare airfryer oferta flash products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer oferta flash",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 127,
-    "categoryNameCanonical": "airfryer oven combo",
-    "parentCategoryId": 16,
-    "slug": "airfryer-oven-combo",
-    "level": 1,
-    "description": "Discover airfryer oven combo with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Oven Combo - Expert Reviews & Best Deals",
-      "description": "Compare airfryer oven combo products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer oven combo",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 128,
-    "categoryNameCanonical": "airfryer papel vegetal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-papel-vegetal",
-    "level": 1,
-    "description": "Discover airfryer papel vegetal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Papel Vegetal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer papel vegetal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer papel vegetal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 129,
-    "categoryNameCanonical": "airfryer papel vegetal redondo",
-    "parentCategoryId": 16,
-    "slug": "airfryer-papel-vegetal-redondo",
-    "level": 1,
-    "description": "Discover airfryer papel vegetal redondo with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Papel Vegetal Redondo - Expert Reviews & Best Deals",
-      "description": "Compare airfryer papel vegetal redondo products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer papel vegetal redondo",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 130,
-    "categoryNameCanonical": "airfryer paper liners",
-    "parentCategoryId": 16,
-    "slug": "airfryer-paper-liners",
-    "level": 1,
-    "description": "Discover airfryer paper liners with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Paper Liners - Expert Reviews & Best Deals",
-      "description": "Compare airfryer paper liners products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer paper liners",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 131,
-    "categoryNameCanonical": "airfryer paper liners for ninja dual stack",
-    "parentCategoryId": 16,
-    "slug": "airfryer-paper-liners-for-ninja-dual-stack",
-    "level": 1,
-    "description": "Discover airfryer paper liners for ninja dual stack with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Paper Liners For Ninja Dual Stack - Expert Reviews & Best Deals",
-      "description": "Compare airfryer paper liners for ninja dual stack products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer paper liners for ninja dual stack",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 132,
-    "categoryNameCanonical": "airfryer para 2 personas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-para-2-personas",
-    "level": 1,
-    "description": "Discover airfryer para 2 personas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Para 2 Personas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer para 2 personas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer para 2 personas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 133,
-    "categoryNameCanonical": "airfryer para 3 personas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-para-3-personas",
-    "level": 1,
-    "description": "Discover airfryer para 3 personas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Para 3 Personas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer para 3 personas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer para 3 personas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 134,
-    "categoryNameCanonical": "airfryer para 4 personas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-para-4-personas",
-    "level": 1,
-    "description": "Discover airfryer para 4 personas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Para 4 Personas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer para 4 personas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer para 4 personas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 135,
-    "categoryNameCanonical": "airfryer para camion",
-    "parentCategoryId": 16,
-    "slug": "airfryer-para-camion",
-    "level": 1,
-    "description": "Discover airfryer para camion with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Para Camion - Expert Reviews & Best Deals",
-      "description": "Compare airfryer para camion products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer para camion",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 136,
-    "categoryNameCanonical": "airfryer pequeña 3l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-peque-a-3l",
-    "level": 1,
-    "description": "Discover airfryer pequeña 3l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Pequeña 3L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer pequeña 3l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer pequeña 3l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 137,
-    "categoryNameCanonical": "airfryer pequeña 3l cosori",
-    "parentCategoryId": 16,
-    "slug": "airfryer-peque-a-3l-cosori",
-    "level": 1,
-    "description": "Discover airfryer pequeña 3l cosori with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Pequeña 3L Cosori - Expert Reviews & Best Deals",
-      "description": "Compare airfryer pequeña 3l cosori products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer pequeña 3l cosori",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 138,
-    "categoryNameCanonical": "airfryer pequeña oferta",
-    "parentCategoryId": 16,
-    "slug": "airfryer-peque-a-oferta",
-    "level": 1,
-    "description": "Discover airfryer pequeña oferta with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Pequeña Oferta - Expert Reviews & Best Deals",
-      "description": "Compare airfryer pequeña oferta products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer pequeña oferta",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 139,
-    "categoryNameCanonical": "airfryer philips 2000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-2000",
-    "level": 1,
-    "description": "Discover airfryer philips 2000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips 2000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips 2000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips 2000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 140,
-    "categoryNameCanonical": "airfryer philips 3000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-3000",
-    "level": 1,
-    "description": "Discover airfryer philips 3000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips 3000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips 3000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips 3000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 141,
-    "categoryNameCanonical": "airfryer philips 4l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-4l",
-    "level": 1,
-    "description": "Discover airfryer philips 4l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips 4L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips 4l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips 4l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 142,
-    "categoryNameCanonical": "airfryer philips blanca",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-blanca",
-    "level": 1,
-    "description": "Discover airfryer philips blanca with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips Blanca - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips blanca products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips blanca",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 143,
-    "categoryNameCanonical": "airfryer philips serie 1000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-serie-1000",
-    "level": 1,
-    "description": "Discover airfryer philips serie 1000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips Serie 1000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips serie 1000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips serie 1000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 144,
-    "categoryNameCanonical": "airfryer philips serie 2000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-serie-2000",
-    "level": 1,
-    "description": "Discover airfryer philips serie 2000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips Serie 2000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips serie 2000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips serie 2000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 145,
-    "categoryNameCanonical": "airfryer philips xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-xl",
-    "level": 1,
-    "description": "Discover airfryer philips xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 146,
-    "categoryNameCanonical": "airfryer philips xxl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-philips-xxl",
-    "level": 1,
-    "description": "Discover airfryer philips xxl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Philips Xxl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer philips xxl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer philips xxl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 147,
-    "categoryNameCanonical": "airfryer phillips 2000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-phillips-2000",
-    "level": 1,
-    "description": "Discover airfryer phillips 2000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Phillips 2000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer phillips 2000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer phillips 2000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 148,
-    "categoryNameCanonical": "airfryer princesa xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-princesa-xl",
-    "level": 1,
-    "description": "Discover airfryer princesa xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Princesa Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer princesa xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer princesa xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 149,
-    "categoryNameCanonical": "airfryer princess 11 l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-princess-11-l",
-    "level": 1,
-    "description": "Discover airfryer princess 11 l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Princess 11 L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer princess 11 l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer princess 11 l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 150,
-    "categoryNameCanonical": "airfryer princess 3,5 l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-princess-3-5-l",
-    "level": 1,
-    "description": "Discover airfryer princess 3,5 l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Princess 3,5 L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer princess 3,5 l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer princess 3,5 l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 151,
-    "categoryNameCanonical": "airfryer princess xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-princess-xl",
-    "level": 1,
-    "description": "Discover airfryer princess xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Princess Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer princess xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer princess xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 152,
-    "categoryNameCanonical": "airfryer pro large create",
-    "parentCategoryId": 16,
-    "slug": "airfryer-pro-large-create",
-    "level": 1,
-    "description": "Discover airfryer pro large create with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Pro Large Create - Expert Reviews & Best Deals",
-      "description": "Compare airfryer pro large create products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer pro large create",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 153,
-    "categoryNameCanonical": "airfryer recetas sanas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-recetas-sanas",
-    "level": 1,
-    "description": "Discover airfryer recetas sanas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Recetas Sanas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer recetas sanas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer recetas sanas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 154,
-    "categoryNameCanonical": "airfryer recetas sanas y equilibradas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-recetas-sanas-y-equilibradas",
-    "level": 1,
-    "description": "Discover airfryer recetas sanas y equilibradas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Recetas Sanas Y Equilibradas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer recetas sanas y equilibradas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer recetas sanas y equilibradas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 155,
-    "categoryNameCanonical": "airfryer recipiente cristal",
-    "parentCategoryId": 16,
-    "slug": "airfryer-recipiente-cristal",
-    "level": 1,
-    "description": "Discover airfryer recipiente cristal with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Recipiente Cristal - Expert Reviews & Best Deals",
-      "description": "Compare airfryer recipiente cristal products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer recipiente cristal",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 156,
-    "categoryNameCanonical": "airfryer retro vintage",
-    "parentCategoryId": 16,
-    "slug": "airfryer-retro-vintage",
-    "level": 1,
-    "description": "Discover airfryer retro vintage with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Retro Vintage - Expert Reviews & Best Deals",
-      "description": "Compare airfryer retro vintage products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer retro vintage",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 157,
-    "categoryNameCanonical": "airfryer russell hobbs",
-    "parentCategoryId": 16,
-    "slug": "airfryer-russell-hobbs",
-    "level": 1,
-    "description": "Discover airfryer russell hobbs with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Russell Hobbs - Expert Reviews & Best Deals",
-      "description": "Compare airfryer russell hobbs products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer russell hobbs",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 158,
-    "categoryNameCanonical": "airfryer russell hobbs 4,3",
-    "parentCategoryId": 16,
-    "slug": "airfryer-russell-hobbs-4-3",
-    "level": 1,
-    "description": "Discover airfryer russell hobbs 4,3 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Russell Hobbs 4,3 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer russell hobbs 4,3 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer russell hobbs 4,3",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 159,
-    "categoryNameCanonical": "airfryer russell hobbs 8,3 l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-russell-hobbs-8-3-l",
-    "level": 1,
-    "description": "Discover airfryer russell hobbs 8,3 l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Russell Hobbs 8,3 L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer russell hobbs 8,3 l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer russell hobbs 8,3 l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 160,
-    "categoryNameCanonical": "airfryer san ignacio",
-    "parentCategoryId": 16,
-    "slug": "airfryer-san-ignacio",
-    "level": 1,
-    "description": "Discover airfryer san ignacio with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer San Ignacio - Expert Reviews & Best Deals",
-      "description": "Compare airfryer san ignacio products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer san ignacio",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 161,
-    "categoryNameCanonical": "airfryer serie 2000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-2000",
-    "level": 1,
-    "description": "Discover airfryer serie 2000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 2000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 2000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 2000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 162,
-    "categoryNameCanonical": "airfryer serie 2000 digital xl",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-2000-digital-xl",
-    "level": 1,
-    "description": "Discover airfryer serie 2000 digital xl with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 2000 Digital Xl - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 2000 digital xl products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 2000 digital xl",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 163,
-    "categoryNameCanonical": "airfryer serie 2000 freidora de aire 13 en 1 negra",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-2000-freidora-de-aire-13-en-1-negra",
-    "level": 1,
-    "description": "Discover airfryer serie 2000 freidora de aire 13 en 1 negra with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 2000 Freidora De Aire 13 En 1 Negra - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 2000 freidora de aire 13 en 1 negra products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 2000 freidora de aire 13 en 1 negra",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 164,
-    "categoryNameCanonical": "airfryer serie 2000 freidora de aire 13 en 1 negra, hasta 4 raciones",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-2000-freidora-de-aire-13-en-1-negra-hasta-4-raciones",
-    "level": 1,
-    "description": "Discover airfryer serie 2000 freidora de aire 13 en 1 negra, hasta 4 raciones with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 2000 Freidora De Aire 13 En 1 Negra, Hasta 4 Raciones - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 2000 freidora de aire 13 en 1 negra, hasta 4 raciones products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 2000 freidora de aire 13 en 1 negra, hasta 4 raciones",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 165,
-    "categoryNameCanonical": "airfryer serie 3000",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-3000",
-    "level": 1,
-    "description": "Discover airfryer serie 3000 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 3000 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 3000 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 3000",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 166,
-    "categoryNameCanonical": "airfryer serie 6",
-    "parentCategoryId": 16,
-    "slug": "airfryer-serie-6",
-    "level": 1,
-    "description": "Discover airfryer serie 6 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Serie 6 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer serie 6 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer serie 6",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 167,
-    "categoryNameCanonical": "airfryer silicone liner",
-    "parentCategoryId": 16,
-    "slug": "airfryer-silicone-liner",
-    "level": 1,
-    "description": "Discover airfryer silicone liner with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Silicone Liner - Expert Reviews & Best Deals",
-      "description": "Compare airfryer silicone liner products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer silicone liner",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 168,
-    "categoryNameCanonical": "airfryer sin aceite",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-aceite",
-    "level": 1,
-    "description": "Discover airfryer sin aceite with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Aceite - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin aceite products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin aceite",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 169,
-    "categoryNameCanonical": "airfryer sin bpa ni pfoa",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-bpa-ni-pfoa",
-    "level": 1,
-    "description": "Discover airfryer sin bpa ni pfoa with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Bpa Ni Pfoa - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin bpa ni pfoa products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin bpa ni pfoa",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 170,
-    "categoryNameCanonical": "airfryer sin bpa pfoa teflon",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-bpa-pfoa-teflon",
-    "level": 1,
-    "description": "Discover airfryer sin bpa pfoa teflon with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Bpa Pfoa Teflon - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin bpa pfoa teflon products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin bpa pfoa teflon",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 171,
-    "categoryNameCanonical": "airfryer sin pfas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-pfas",
-    "level": 1,
-    "description": "Discover airfryer sin pfas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Pfas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin pfas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin pfas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 172,
-    "categoryNameCanonical": "airfryer sin teflon",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-teflon",
-    "level": 1,
-    "description": "Discover airfryer sin teflon with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Teflon - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin teflon products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin teflon",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 173,
-    "categoryNameCanonical": "airfryer sin toxicos",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sin-toxicos",
-    "level": 1,
-    "description": "Discover airfryer sin toxicos with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sin Toxicos - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sin toxicos products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sin toxicos",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 174,
-    "categoryNameCanonical": "airfryer stainless steel",
-    "parentCategoryId": 16,
-    "slug": "airfryer-stainless-steel",
-    "level": 1,
-    "description": "Discover airfryer stainless steel with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Stainless Steel - Expert Reviews & Best Deals",
-      "description": "Compare airfryer stainless steel products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer stainless steel",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 175,
-    "categoryNameCanonical": "airfryer sur la table",
-    "parentCategoryId": 16,
-    "slug": "airfryer-sur-la-table",
-    "level": 1,
-    "description": "Discover airfryer sur la table with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Sur La Table - Expert Reviews & Best Deals",
-      "description": "Compare airfryer sur la table products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer sur la table",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 176,
-    "categoryNameCanonical": "airfryer swiss home",
-    "parentCategoryId": 16,
-    "slug": "airfryer-swiss-home",
-    "level": 1,
-    "description": "Discover airfryer swiss home with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Swiss Home - Expert Reviews & Best Deals",
-      "description": "Compare airfryer swiss home products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer swiss home",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 177,
-    "categoryNameCanonical": "airfryer taurus 6,5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-taurus-6-5l",
-    "level": 1,
-    "description": "Discover airfryer taurus 6,5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Taurus 6,5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer taurus 6,5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer taurus 6,5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 178,
-    "categoryNameCanonical": "airfryer taurus 8l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-taurus-8l",
-    "level": 1,
-    "description": "Discover airfryer taurus 8l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Taurus 8L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer taurus 8l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer taurus 8l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 179,
-    "categoryNameCanonical": "airfryer tefal actifry extra",
-    "parentCategoryId": 16,
-    "slug": "airfryer-tefal-actifry-extra",
-    "level": 1,
-    "description": "Discover airfryer tefal actifry extra with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Tefal Actifry Extra - Expert Reviews & Best Deals",
-      "description": "Compare airfryer tefal actifry extra products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer tefal actifry extra",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 180,
-    "categoryNameCanonical": "airfryer tefal actifry genius",
-    "parentCategoryId": 16,
-    "slug": "airfryer-tefal-actifry-genius",
-    "level": 1,
-    "description": "Discover airfryer tefal actifry genius with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Tefal Actifry Genius - Expert Reviews & Best Deals",
-      "description": "Compare airfryer tefal actifry genius products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer tefal actifry genius",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 181,
-    "categoryNameCanonical": "airfryer tipo horno",
-    "parentCategoryId": 16,
-    "slug": "airfryer-tipo-horno",
-    "level": 1,
-    "description": "Discover airfryer tipo horno with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Tipo Horno - Expert Reviews & Best Deals",
-      "description": "Compare airfryer tipo horno products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer tipo horno",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 182,
-    "categoryNameCanonical": "airfryer toaster oven",
-    "parentCategoryId": 16,
-    "slug": "airfryer-toaster-oven",
-    "level": 1,
-    "description": "Discover airfryer toaster oven with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Toaster Oven - Expert Reviews & Best Deals",
-      "description": "Compare airfryer toaster oven products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer toaster oven",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 183,
-    "categoryNameCanonical": "airfryer todas las recetas dk",
-    "parentCategoryId": 16,
-    "slug": "airfryer-todas-las-recetas-dk",
-    "level": 1,
-    "description": "Discover airfryer todas las recetas dk with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Todas Las Recetas Dk - Expert Reviews & Best Deals",
-      "description": "Compare airfryer todas las recetas dk products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer todas las recetas dk",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 184,
-    "categoryNameCanonical": "airfryer ufesa elektra",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ufesa-elektra",
-    "level": 1,
-    "description": "Discover airfryer ufesa elektra with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ufesa Elektra - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ufesa elektra products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ufesa elektra",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 185,
-    "categoryNameCanonical": "airfryer ufesa jaguar",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ufesa-jaguar",
-    "level": 1,
-    "description": "Discover airfryer ufesa jaguar with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ufesa Jaguar - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ufesa jaguar products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ufesa jaguar",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 186,
-    "categoryNameCanonical": "airfryer ufesa talent",
-    "parentCategoryId": 16,
-    "slug": "airfryer-ufesa-talent",
-    "level": 1,
-    "description": "Discover airfryer ufesa talent with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Ufesa Talent - Expert Reviews & Best Deals",
-      "description": "Compare airfryer ufesa talent products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer ufesa talent",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 187,
-    "categoryNameCanonical": "airfryer una relación sana con la comida",
-    "parentCategoryId": 16,
-    "slug": "airfryer-una-relaci-n-sana-con-la-comida",
-    "level": 1,
-    "description": "Discover airfryer una relación sana con la comida with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Una Relación Sana Con La Comida - Expert Reviews & Best Deals",
-      "description": "Compare airfryer una relación sana con la comida products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer una relación sana con la comida",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 188,
-    "categoryNameCanonical": "airfryer una relación sana con la comida libro",
-    "parentCategoryId": 16,
-    "slug": "airfryer-una-relaci-n-sana-con-la-comida-libro",
-    "level": 1,
-    "description": "Discover airfryer una relación sana con la comida libro with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Una Relación Sana Con La Comida Libro - Expert Reviews & Best Deals",
-      "description": "Compare airfryer una relación sana con la comida libro products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer una relación sana con la comida libro",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 189,
-    "categoryNameCanonical": "airfryer una relación sana con tu comida",
-    "parentCategoryId": 16,
-    "slug": "airfryer-una-relaci-n-sana-con-tu-comida",
-    "level": 1,
-    "description": "Discover airfryer una relación sana con tu comida with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Una Relación Sana Con Tu Comida - Expert Reviews & Best Deals",
-      "description": "Compare airfryer una relación sana con tu comida products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer una relación sana con tu comida",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 190,
-    "categoryNameCanonical": "airfryer vertical ninja",
-    "parentCategoryId": 16,
-    "slug": "airfryer-vertical-ninja",
-    "level": 1,
-    "description": "Discover airfryer vertical ninja with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Vertical Ninja - Expert Reviews & Best Deals",
-      "description": "Compare airfryer vertical ninja products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer vertical ninja",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 191,
-    "categoryNameCanonical": "airfryer with glass",
-    "parentCategoryId": 16,
-    "slug": "airfryer-with-glass",
-    "level": 1,
-    "description": "Discover airfryer with glass with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer With Glass - Expert Reviews & Best Deals",
-      "description": "Compare airfryer with glass products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer with glass",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 192,
-    "categoryNameCanonical": "airfryer with grill",
-    "parentCategoryId": 16,
-    "slug": "airfryer-with-grill",
-    "level": 1,
-    "description": "Discover airfryer with grill with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer With Grill - Expert Reviews & Best Deals",
-      "description": "Compare airfryer with grill products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer with grill",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 193,
-    "categoryNameCanonical": "airfryer xiaomi 3,5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-3-5l",
-    "level": 1,
-    "description": "Discover airfryer xiaomi 3,5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi 3,5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi 3,5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi 3,5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 194,
-    "categoryNameCanonical": "airfryer xiaomi 4.5",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-4-5",
-    "level": 1,
-    "description": "Discover airfryer xiaomi 4.5 with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi 4.5 - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi 4.5 products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi 4.5",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 195,
-    "categoryNameCanonical": "airfryer xiaomi 4l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-4l",
-    "level": 1,
-    "description": "Discover airfryer xiaomi 4l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi 4L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi 4l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi 4l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 196,
-    "categoryNameCanonical": "airfryer xiaomi 6,5l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-6-5l",
-    "level": 1,
-    "description": "Discover airfryer xiaomi 6,5l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi 6,5L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi 6,5l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi 6,5l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 197,
-    "categoryNameCanonical": "airfryer xiaomi 6l",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-6l",
-    "level": 1,
-    "description": "Discover airfryer xiaomi 6l with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi 6L - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi 6l products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi 6l",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 198,
-    "categoryNameCanonical": "airfryer xiaomi smart",
-    "parentCategoryId": 16,
-    "slug": "airfryer-xiaomi-smart",
-    "level": 1,
-    "description": "Discover airfryer xiaomi smart with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Xiaomi Smart - Expert Reviews & Best Deals",
-      "description": "Compare airfryer xiaomi smart products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer xiaomi smart",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 199,
-    "categoryNameCanonical": "airfryer y horno",
-    "parentCategoryId": 16,
-    "slug": "airfryer-y-horno",
-    "level": 1,
-    "description": "Discover airfryer y horno with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Y Horno - Expert Reviews & Best Deals",
-      "description": "Compare airfryer y horno products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer y horno",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 200,
-    "categoryNameCanonical": "airfryer y microondas",
-    "parentCategoryId": 16,
-    "slug": "airfryer-y-microondas",
-    "level": 1,
-    "description": "Discover airfryer y microondas with detailed product information and reviews",
-    "productCount": 0,
-    "seo": {
-      "title": "Airfryer Y Microondas - Expert Reviews & Best Deals",
-      "description": "Compare airfryer y microondas products with expert reviews. Find the best deals and free shipping options.",
-      "keywords": [
-        "airfryer y microondas",
-        "airfryer borosilicato",
-        "productos",
-        "mejores"
-      ]
-    },
-    "has_subcategories": false,
-    "needs_products": true,
-    "recommended_products": 5,
-    "scraping_strategy": "direct"
-  },
-  {
-    "categoryId": 201,
     "categoryNameCanonical": "airfryer bosch",
     "parentCategoryId": null,
     "slug": "airfryer-bosch",
@@ -4623,7 +391,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 202,
+    "categoryId": 18,
     "categoryNameCanonical": "airfryer bourgini",
     "parentCategoryId": null,
     "slug": "airfryer-bourgini",
@@ -4646,7 +414,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 203,
+    "categoryId": 19,
     "categoryNameCanonical": "airfryer branca",
     "parentCategoryId": null,
     "slug": "airfryer-branca",
@@ -4669,7 +437,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 204,
+    "categoryId": 20,
     "categoryNameCanonical": "airfryer breville",
     "parentCategoryId": null,
     "slug": "airfryer-breville",
@@ -4692,7 +460,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 205,
+    "categoryId": 21,
     "categoryNameCanonical": "airfryer camping",
     "parentCategoryId": null,
     "slug": "airfryer-camping",
@@ -4715,7 +483,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 206,
+    "categoryId": 22,
     "categoryNameCanonical": "airfryer carrefour",
     "parentCategoryId": null,
     "slug": "airfryer-carrefour",
@@ -4738,7 +506,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 207,
+    "categoryId": 23,
     "categoryNameCanonical": "airfryer cecotec",
     "parentCategoryId": null,
     "slug": "airfryer-cecotec",
@@ -4761,7 +529,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 208,
+    "categoryId": 24,
     "categoryNameCanonical": "airfryer ceramic",
     "parentCategoryId": null,
     "slug": "airfryer-ceramic",
@@ -4784,7 +552,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 209,
+    "categoryId": 25,
     "categoryNameCanonical": "airfryer cl",
     "parentCategoryId": null,
     "slug": "airfryer-cl",
@@ -4807,7 +575,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 210,
+    "categoryId": 26,
     "categoryNameCanonical": "airfryer cleaner",
     "parentCategoryId": null,
     "slug": "airfryer-cleaner",
@@ -4830,7 +598,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 211,
+    "categoryId": 27,
     "categoryNameCanonical": "airfryer cosori",
     "parentCategoryId": null,
     "slug": "airfryer-cosori",
@@ -4853,7 +621,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 212,
+    "categoryId": 28,
     "categoryNameCanonical": "airfryer create",
     "parentCategoryId": null,
     "slug": "airfryer-create",
@@ -4876,7 +644,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 213,
+    "categoryId": 29,
     "categoryNameCanonical": "airfryer crispi",
     "parentCategoryId": null,
     "slug": "airfryer-crispi",
@@ -4899,7 +667,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 214,
+    "categoryId": 30,
     "categoryNameCanonical": "airfryer cristal",
     "parentCategoryId": null,
     "slug": "airfryer-cristal",
@@ -4922,7 +690,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 215,
+    "categoryId": 31,
     "categoryNameCanonical": "airfryer cuisinart",
     "parentCategoryId": null,
     "slug": "airfryer-cuisinart",
@@ -4945,7 +713,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 216,
+    "categoryId": 32,
     "categoryNameCanonical": "airfryer digital",
     "parentCategoryId": null,
     "slug": "airfryer-digital",
@@ -4968,7 +736,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 217,
+    "categoryId": 33,
     "categoryNameCanonical": "airfryer dish",
     "parentCategoryId": null,
     "slug": "airfryer-dish",
@@ -4991,7 +759,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 218,
+    "categoryId": 34,
     "categoryNameCanonical": "airfryer double",
     "parentCategoryId": null,
     "slug": "airfryer-double",
@@ -5014,7 +782,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 219,
+    "categoryId": 35,
     "categoryNameCanonical": "airfryer dual",
     "parentCategoryId": null,
     "slug": "airfryer-dual",
@@ -5037,7 +805,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 220,
+    "categoryId": 36,
     "categoryNameCanonical": "airfryer duo",
     "parentCategoryId": null,
     "slug": "airfryer-duo",
@@ -5060,7 +828,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 221,
+    "categoryId": 37,
     "categoryNameCanonical": "airfryer dupla",
     "parentCategoryId": null,
     "slug": "airfryer-dupla",
@@ -5083,7 +851,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 222,
+    "categoryId": 38,
     "categoryNameCanonical": "airfryer elco",
     "parentCategoryId": null,
     "slug": "airfryer-elco",
@@ -5106,7 +874,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 223,
+    "categoryId": 39,
     "categoryNameCanonical": "airfryer electrolux",
     "parentCategoryId": null,
     "slug": "airfryer-electrolux",
@@ -5129,7 +897,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 224,
+    "categoryId": 40,
     "categoryNameCanonical": "airfryer eletto",
     "parentCategoryId": null,
     "slug": "airfryer-eletto",
@@ -5152,7 +920,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 225,
+    "categoryId": 41,
     "categoryNameCanonical": "airfryer evvo",
     "parentCategoryId": null,
     "slug": "airfryer-evvo",
@@ -5175,7 +943,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 226,
+    "categoryId": 42,
     "categoryNameCanonical": "airfryer fagor",
     "parentCategoryId": null,
     "slug": "airfryer-fagor",
@@ -5198,7 +966,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 227,
+    "categoryId": 43,
     "categoryNameCanonical": "airfryer flama",
     "parentCategoryId": null,
     "slug": "airfryer-flama",
@@ -5221,7 +989,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 228,
+    "categoryId": 44,
     "categoryNameCanonical": "airfryer forms",
     "parentCategoryId": null,
     "slug": "airfryer-forms",
@@ -5244,7 +1012,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 229,
+    "categoryId": 45,
     "categoryNameCanonical": "airfryer forno",
     "parentCategoryId": null,
     "slug": "airfryer-forno",
@@ -5267,7 +1035,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 230,
+    "categoryId": 46,
     "categoryNameCanonical": "airfryer glass",
     "parentCategoryId": null,
     "slug": "airfryer-glass",
@@ -5290,7 +1058,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 231,
+    "categoryId": 47,
     "categoryNameCanonical": "airfryer gloves",
     "parentCategoryId": null,
     "slug": "airfryer-gloves",
@@ -5313,7 +1081,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 232,
+    "categoryId": 48,
     "categoryNameCanonical": "airfryer gourmia",
     "parentCategoryId": null,
     "slug": "airfryer-gourmia",
@@ -5336,7 +1104,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 233,
+    "categoryId": 49,
     "categoryNameCanonical": "airfryer grande",
     "parentCategoryId": null,
     "slug": "airfryer-grande",
@@ -5359,7 +1127,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 234,
+    "categoryId": 50,
     "categoryNameCanonical": "airfryer grill",
     "parentCategoryId": null,
     "slug": "airfryer-grill",
@@ -5382,7 +1150,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 235,
+    "categoryId": 51,
     "categoryNameCanonical": "airfryer gris",
     "parentCategoryId": null,
     "slug": "airfryer-gris",
@@ -5405,7 +1173,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 236,
+    "categoryId": 52,
     "categoryNameCanonical": "airfryer haeger",
     "parentCategoryId": null,
     "slug": "airfryer-haeger",
@@ -5428,7 +1196,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 237,
+    "categoryId": 53,
     "categoryNameCanonical": "airfryer hisense",
     "parentCategoryId": null,
     "slug": "airfryer-hisense",
@@ -5451,7 +1219,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 238,
+    "categoryId": 54,
     "categoryNameCanonical": "airfryer horizontal",
     "parentCategoryId": null,
     "slug": "airfryer-horizontal",
@@ -5474,7 +1242,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 239,
+    "categoryId": 55,
     "categoryNameCanonical": "airfryer horno",
     "parentCategoryId": null,
     "slug": "airfryer-horno",
@@ -5497,7 +1265,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 240,
+    "categoryId": 56,
     "categoryNameCanonical": "airfryer huawei",
     "parentCategoryId": null,
     "slug": "airfryer-huawei",
@@ -5520,7 +1288,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 241,
+    "categoryId": 57,
     "categoryNameCanonical": "airfryer industrial",
     "parentCategoryId": null,
     "slug": "airfryer-industrial",
@@ -5543,7 +1311,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 242,
+    "categoryId": 58,
     "categoryNameCanonical": "airfryer innsky",
     "parentCategoryId": null,
     "slug": "airfryer-innsky",
@@ -5566,7 +1334,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 243,
+    "categoryId": 59,
     "categoryNameCanonical": "airfryer inox",
     "parentCategoryId": null,
     "slug": "airfryer-inox",
@@ -5589,7 +1357,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 244,
+    "categoryId": 60,
     "categoryNameCanonical": "airfryer insky",
     "parentCategoryId": null,
     "slug": "airfryer-insky",
@@ -5612,7 +1380,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 245,
+    "categoryId": 61,
     "categoryNameCanonical": "airfryer instant",
     "parentCategoryId": null,
     "slug": "airfryer-instant",
@@ -5635,7 +1403,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 246,
+    "categoryId": 62,
     "categoryNameCanonical": "airfryer jata",
     "parentCategoryId": null,
     "slug": "airfryer-jata",
@@ -5658,7 +1426,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 247,
+    "categoryId": 63,
     "categoryNameCanonical": "airfryer jocca",
     "parentCategoryId": null,
     "slug": "airfryer-jocca",
@@ -5681,7 +1449,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 248,
+    "categoryId": 64,
     "categoryNameCanonical": "airfryer juanita",
     "parentCategoryId": null,
     "slug": "airfryer-juanita",
@@ -5704,7 +1472,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 249,
+    "categoryId": 65,
     "categoryNameCanonical": "airfryer koenic",
     "parentCategoryId": null,
     "slug": "airfryer-koenic",
@@ -5727,7 +1495,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 250,
+    "categoryId": 66,
     "categoryNameCanonical": "airfryer lacor",
     "parentCategoryId": null,
     "slug": "airfryer-lacor",
@@ -5750,7 +1518,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 251,
+    "categoryId": 67,
     "categoryNameCanonical": "airfryer lekue",
     "parentCategoryId": null,
     "slug": "airfryer-lekue",
@@ -5773,7 +1541,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 252,
+    "categoryId": 68,
     "categoryNameCanonical": "airfryer lg",
     "parentCategoryId": null,
     "slug": "airfryer-lg",
@@ -5796,7 +1564,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 253,
+    "categoryId": 69,
     "categoryNameCanonical": "airfryer liner",
     "parentCategoryId": null,
     "slug": "airfryer-liner",
@@ -5819,7 +1587,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 254,
+    "categoryId": 70,
     "categoryNameCanonical": "airfryer magefesa",
     "parentCategoryId": null,
     "slug": "airfryer-magefesa",
@@ -5842,7 +1610,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 255,
+    "categoryId": 71,
     "categoryNameCanonical": "airfryer masterchef",
     "parentCategoryId": null,
     "slug": "airfryer-masterchef",
@@ -5865,7 +1633,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 256,
+    "categoryId": 72,
     "categoryNameCanonical": "airfryer masterpro",
     "parentCategoryId": null,
     "slug": "airfryer-masterpro",
@@ -5888,7 +1656,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 257,
+    "categoryId": 73,
     "categoryNameCanonical": "airfryer medion",
     "parentCategoryId": null,
     "slug": "airfryer-medion",
@@ -5911,7 +1679,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 258,
+    "categoryId": 74,
     "categoryNameCanonical": "airfryer mellerware",
     "parentCategoryId": null,
     "slug": "airfryer-mellerware",
@@ -5934,7 +1702,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 259,
+    "categoryId": 75,
     "categoryNameCanonical": "airfryer metal",
     "parentCategoryId": null,
     "slug": "airfryer-metal",
@@ -5957,7 +1725,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 260,
+    "categoryId": 76,
     "categoryNameCanonical": "airfryer mi",
     "parentCategoryId": null,
     "slug": "airfryer-mi",
@@ -5980,7 +1748,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 261,
+    "categoryId": 77,
     "categoryNameCanonical": "airfryer microwave",
     "parentCategoryId": null,
     "slug": "airfryer-microwave",
@@ -6003,7 +1771,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 262,
+    "categoryId": 78,
     "categoryNameCanonical": "airfryer midea",
     "parentCategoryId": null,
     "slug": "airfryer-midea",
@@ -6026,7 +1794,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 263,
+    "categoryId": 79,
     "categoryNameCanonical": "airfryer mini",
     "parentCategoryId": null,
     "slug": "airfryer-mini",
@@ -6049,7 +1817,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 264,
+    "categoryId": 80,
     "categoryNameCanonical": "airfryer mob",
     "parentCategoryId": null,
     "slug": "airfryer-mob",
@@ -6072,7 +1840,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 265,
+    "categoryId": 81,
     "categoryNameCanonical": "airfryer moulinex",
     "parentCategoryId": null,
     "slug": "airfryer-moulinex",
@@ -6095,7 +1863,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 266,
+    "categoryId": 82,
     "categoryNameCanonical": "airfryer newlux",
     "parentCategoryId": null,
     "slug": "airfryer-newlux",
@@ -6118,7 +1886,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 267,
+    "categoryId": 83,
     "categoryNameCanonical": "airfryer ninja",
     "parentCategoryId": null,
     "slug": "airfryer-ninja",
@@ -6141,7 +1909,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 268,
+    "categoryId": 84,
     "categoryNameCanonical": "airfryer nk",
     "parentCategoryId": null,
     "slug": "airfryer-nk",
@@ -6164,7 +1932,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 269,
+    "categoryId": 85,
     "categoryNameCanonical": "airfryer orbegozo",
     "parentCategoryId": null,
     "slug": "airfryer-orbegozo",
@@ -6187,7 +1955,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 270,
+    "categoryId": 86,
     "categoryNameCanonical": "airfryer papel",
     "parentCategoryId": null,
     "slug": "airfryer-papel",
@@ -6210,7 +1978,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 271,
+    "categoryId": 87,
     "categoryNameCanonical": "airfryer paper",
     "parentCategoryId": null,
     "slug": "airfryer-paper",
@@ -6233,7 +2001,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 272,
+    "categoryId": 88,
     "categoryNameCanonical": "airfryer pequeña",
     "parentCategoryId": null,
     "slug": "airfryer-peque-a",
@@ -6256,7 +2024,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 273,
+    "categoryId": 89,
     "categoryNameCanonical": "airfryer philips",
     "parentCategoryId": null,
     "slug": "airfryer-philips",
@@ -6279,7 +2047,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 274,
+    "categoryId": 90,
     "categoryNameCanonical": "airfryer pink",
     "parentCategoryId": null,
     "slug": "airfryer-pink",
@@ -6302,7 +2070,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 275,
+    "categoryId": 91,
     "categoryNameCanonical": "airfryer pizza",
     "parentCategoryId": null,
     "slug": "airfryer-pizza",
@@ -6325,7 +2093,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 276,
+    "categoryId": 92,
     "categoryNameCanonical": "airfryer plato",
     "parentCategoryId": null,
     "slug": "airfryer-plato",
@@ -6348,7 +2116,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 277,
+    "categoryId": 93,
     "categoryNameCanonical": "airfryer princes",
     "parentCategoryId": null,
     "slug": "airfryer-princes",
@@ -6371,7 +2139,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 278,
+    "categoryId": 94,
     "categoryNameCanonical": "airfryer princess",
     "parentCategoryId": null,
     "slug": "airfryer-princess",
@@ -6394,7 +2162,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 279,
+    "categoryId": 95,
     "categoryNameCanonical": "airfryer profesional",
     "parentCategoryId": null,
     "slug": "airfryer-profesional",
@@ -6417,7 +2185,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 280,
+    "categoryId": 96,
     "categoryNameCanonical": "airfryer proscenic",
     "parentCategoryId": null,
     "slug": "airfryer-proscenic",
@@ -6440,7 +2208,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 281,
+    "categoryId": 97,
     "categoryNameCanonical": "airfryer protector",
     "parentCategoryId": null,
     "slug": "airfryer-protector",
@@ -6463,7 +2231,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 282,
+    "categoryId": 98,
     "categoryNameCanonical": "airfryer rack",
     "parentCategoryId": null,
     "slug": "airfryer-rack",
@@ -6486,7 +2254,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 283,
+    "categoryId": 99,
     "categoryNameCanonical": "airfryer recetas",
     "parentCategoryId": null,
     "slug": "airfryer-recetas",
@@ -6509,7 +2277,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 284,
+    "categoryId": 100,
     "categoryNameCanonical": "airfryer redondo",
     "parentCategoryId": null,
     "slug": "airfryer-redondo",
@@ -6532,7 +2300,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 285,
+    "categoryId": 101,
     "categoryNameCanonical": "airfryer retro",
     "parentCategoryId": null,
     "slug": "airfryer-retro",
@@ -6555,7 +2323,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 286,
+    "categoryId": 102,
     "categoryNameCanonical": "airfryer roja",
     "parentCategoryId": null,
     "slug": "airfryer-roja",
@@ -6578,7 +2346,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 287,
+    "categoryId": 103,
     "categoryNameCanonical": "airfryer rosa",
     "parentCategoryId": null,
     "slug": "airfryer-rosa",
@@ -6601,7 +2369,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 288,
+    "categoryId": 104,
     "categoryNameCanonical": "airfryer rowenta",
     "parentCategoryId": null,
     "slug": "airfryer-rowenta",
@@ -6624,7 +2392,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 289,
+    "categoryId": 105,
     "categoryNameCanonical": "airfryer roxa",
     "parentCategoryId": null,
     "slug": "airfryer-roxa",
@@ -6647,7 +2415,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 290,
+    "categoryId": 106,
     "categoryNameCanonical": "airfryer russell",
     "parentCategoryId": null,
     "slug": "airfryer-russell",
@@ -6670,7 +2438,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 291,
+    "categoryId": 107,
     "categoryNameCanonical": "airfryer salter",
     "parentCategoryId": null,
     "slug": "airfryer-salter",
@@ -6693,7 +2461,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 292,
+    "categoryId": 108,
     "categoryNameCanonical": "airfryer samsung",
     "parentCategoryId": null,
     "slug": "airfryer-samsung",
@@ -6716,7 +2484,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 293,
+    "categoryId": 109,
     "categoryNameCanonical": "airfryer siemens",
     "parentCategoryId": null,
     "slug": "airfryer-siemens",
@@ -6739,7 +2507,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 294,
+    "categoryId": 110,
     "categoryNameCanonical": "airfryer silicone",
     "parentCategoryId": null,
     "slug": "airfryer-silicone",
@@ -6762,7 +2530,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 295,
+    "categoryId": 111,
     "categoryNameCanonical": "airfryer small",
     "parentCategoryId": null,
     "slug": "airfryer-small",
@@ -6785,7 +2553,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 296,
+    "categoryId": 112,
     "categoryNameCanonical": "airfryer smart",
     "parentCategoryId": null,
     "slug": "airfryer-smart",
@@ -6808,7 +2576,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 297,
+    "categoryId": 113,
     "categoryNameCanonical": "airfryer smeg",
     "parentCategoryId": null,
     "slug": "airfryer-smeg",
@@ -6831,7 +2599,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 298,
+    "categoryId": 114,
     "categoryNameCanonical": "airfryer sogo",
     "parentCategoryId": null,
     "slug": "airfryer-sogo",
@@ -6854,7 +2622,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 299,
+    "categoryId": 115,
     "categoryNameCanonical": "airfryer solac",
     "parentCategoryId": null,
     "slug": "airfryer-solac",
@@ -6877,7 +2645,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 300,
+    "categoryId": 116,
     "categoryNameCanonical": "airfryer stand",
     "parentCategoryId": null,
     "slug": "airfryer-stand",
@@ -6900,7 +2668,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 301,
+    "categoryId": 117,
     "categoryNameCanonical": "airfryer taurus",
     "parentCategoryId": null,
     "slug": "airfryer-taurus",
@@ -6923,7 +2691,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 302,
+    "categoryId": 118,
     "categoryNameCanonical": "airfryer tefal",
     "parentCategoryId": null,
     "slug": "airfryer-tefal",
@@ -6946,7 +2714,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 303,
+    "categoryId": 119,
     "categoryNameCanonical": "airfryer tesla",
     "parentCategoryId": null,
     "slug": "airfryer-tesla",
@@ -6969,7 +2737,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 304,
+    "categoryId": 120,
     "categoryNameCanonical": "airfryer toaster",
     "parentCategoryId": null,
     "slug": "airfryer-toaster",
@@ -6992,7 +2760,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 305,
+    "categoryId": 121,
     "categoryNameCanonical": "airfryer tools",
     "parentCategoryId": null,
     "slug": "airfryer-tools",
@@ -7015,7 +2783,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 306,
+    "categoryId": 122,
     "categoryNameCanonical": "airfryer tower",
     "parentCategoryId": null,
     "slug": "airfryer-tower",
@@ -7038,7 +2806,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 307,
+    "categoryId": 123,
     "categoryNameCanonical": "airfryer tristar",
     "parentCategoryId": null,
     "slug": "airfryer-tristar",
@@ -7061,7 +2829,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 308,
+    "categoryId": 124,
     "categoryNameCanonical": "airfryer typhur",
     "parentCategoryId": null,
     "slug": "airfryer-typhur",
@@ -7084,7 +2852,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 309,
+    "categoryId": 125,
     "categoryNameCanonical": "airfryer ufesa",
     "parentCategoryId": null,
     "slug": "airfryer-ufesa",
@@ -7107,7 +2875,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 310,
+    "categoryId": 126,
     "categoryNameCanonical": "airfryer ultenic",
     "parentCategoryId": null,
     "slug": "airfryer-ultenic",
@@ -7130,7 +2898,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 311,
+    "categoryId": 127,
     "categoryNameCanonical": "airfryer uten",
     "parentCategoryId": null,
     "slug": "airfryer-uten",
@@ -7153,7 +2921,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 312,
+    "categoryId": 128,
     "categoryNameCanonical": "airfryer vapor",
     "parentCategoryId": null,
     "slug": "airfryer-vapor",
@@ -7176,7 +2944,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 313,
+    "categoryId": 129,
     "categoryNameCanonical": "airfryer ventana",
     "parentCategoryId": null,
     "slug": "airfryer-ventana",
@@ -7199,7 +2967,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 314,
+    "categoryId": 130,
     "categoryNameCanonical": "airfryer verde",
     "parentCategoryId": null,
     "slug": "airfryer-verde",
@@ -7222,7 +2990,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 315,
+    "categoryId": 131,
     "categoryNameCanonical": "airfryer vertical",
     "parentCategoryId": null,
     "slug": "airfryer-vertical",
@@ -7245,7 +3013,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 316,
+    "categoryId": 132,
     "categoryNameCanonical": "airfryer vintage",
     "parentCategoryId": null,
     "slug": "airfryer-vintage",
@@ -7268,7 +3036,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 317,
+    "categoryId": 133,
     "categoryNameCanonical": "airfryer vortex",
     "parentCategoryId": null,
     "slug": "airfryer-vortex",
@@ -7291,7 +3059,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 318,
+    "categoryId": 134,
     "categoryNameCanonical": "airfryer white",
     "parentCategoryId": null,
     "slug": "airfryer-white",
@@ -7314,7 +3082,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 319,
+    "categoryId": 135,
     "categoryNameCanonical": "airfryer wmf",
     "parentCategoryId": null,
     "slug": "airfryer-wmf",
@@ -7337,7 +3105,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 320,
+    "categoryId": 136,
     "categoryNameCanonical": "airfryer xiaomi",
     "parentCategoryId": null,
     "slug": "airfryer-xiaomi",
@@ -7360,7 +3128,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 321,
+    "categoryId": 137,
     "categoryNameCanonical": "airfryer xl",
     "parentCategoryId": null,
     "slug": "airfryer-xl",
@@ -7383,7 +3151,7 @@
     "scraping_strategy": "direct"
   },
   {
-    "categoryId": 322,
+    "categoryId": 138,
     "categoryNameCanonical": "airfryer xxl",
     "parentCategoryId": null,
     "slug": "airfryer-xxl",

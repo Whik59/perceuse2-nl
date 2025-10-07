@@ -165,9 +165,9 @@ const CategoryPage: React.FC = () => {
   }, [products, filters]);
 
   const handleAddToCart = (product: Product) => {
-    const cartItem = createCartItem(product);
-    const updatedCart = addToCart(cart, cartItem);
-    setCart(updatedCart);
+    if (product.amazonUrl) {
+      window.open(product.amazonUrl, '_blank', 'noopener,noreferrer');
+    }
   };
 
   const handleCartClick = () => {
@@ -239,40 +239,22 @@ const CategoryPage: React.FC = () => {
       </nav>
 
       {/* Category Header */}
-      <div className="bg-gradient-to-br from-slate-50 via-white to-stone-50 py-16">
+      <div className="bg-gradient-to-br from-slate-50 via-white to-stone-50 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            {/* "Découvrez nos" text */}
-            <div className="space-y-3 mb-6">
-              <p className="text-sm text-slate-500 font-semibold uppercase tracking-widest">
-                {getString('categories.discover')}
-              </p>
-              <h1 className="text-4xl lg:text-5xl font-extralight text-slate-900 capitalize tracking-wide">{category.categoryNameCanonical}</h1>
-            </div>
+            <h1 className="text-4xl lg:text-5xl font-extralight text-slate-900 capitalize tracking-wide mb-4">{category.categoryNameCanonical}</h1>
             <p className="text-lg text-slate-600 max-w-2xl mx-auto font-light leading-relaxed">{category.description}</p>
             
             {/* Category Stats */}
-            <div className="flex items-center justify-center space-x-6 mt-8">
-              <div className="flex items-center space-x-2">
-                <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
-                <span className="text-sm text-slate-600 font-medium">
-                  {products.length} {products.length === 1 ? getString('categories.products').slice(0, -1) : getString('categories.products')}
-                </span>
-              </div>
+            <div className="flex items-center justify-center space-x-6 mt-4">
               {categories.filter(cat => cat.parentCategoryId === category.categoryId).length > 0 && (
-                <>
-                  <div className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
-                    <span className="text-sm text-slate-600 font-medium">
-                      {categories.filter(cat => cat.parentCategoryId === category.categoryId).length} {getString('categories.subcategories')}
-                    </span>
-                  </div>
-                </>
+                <div className="flex items-center space-x-2">
+                  <div className="w-2 h-2 bg-slate-400 rounded-full"></div>
+                  <span className="text-sm text-slate-600 font-medium">
+                    {categories.filter(cat => cat.parentCategoryId === category.categoryId).length} {getString('categories.subcategories')}
+                  </span>
+                </div>
               )}
-              <div className="flex items-center space-x-2">
-                <Star className="w-3 h-3 text-amber-400 fill-amber-400" />
-                <span className="text-sm text-slate-600 font-medium">4.8/5</span>
-              </div>
             </div>
           </div>
         </div>
@@ -473,7 +455,7 @@ const CategoryPage: React.FC = () => {
                           size="sm"
                           className="bg-gradient-to-r from-slate-800 via-slate-700 to-slate-900 text-white hover:shadow-xl rounded-xl font-semibold tracking-wide transition-all duration-300 hover:scale-105"
                         >
-                          {getString('cart.addToCart')}
+                          {getString('cart.addToCart')} (-30%)
                         </Button>
                       </div>
                     </div>

@@ -56,7 +56,7 @@ const ExitIntentPopup: React.FC<ExitIntentPopupProps> = ({
     return `${minutes}:${remainingSeconds.toString().padStart(2, '0')}`;
   };
 
-  const discountAmount = Math.min(cartTotal * 0.15, 50); // 15% discount, max 50€
+  const discountAmount = Math.min(cartTotal * 0.35, 50); // 35% discount, max 50€
   const finalPrice = cartTotal - discountAmount;
 
   if (!isVisible) return null;

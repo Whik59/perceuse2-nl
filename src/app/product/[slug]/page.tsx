@@ -11,7 +11,7 @@ import ProductCard from '../../../../components/ProductCard';
 import Reviews from '../../../../components/Reviews';
 import { Product, Category, ProductVariation } from '../../../../lib/types';
 import { getAmazonUrlWithAffiliateTag } from '../../../../lib/cart';
-import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, generateProductReviews } from '../../../../lib/utils';
+import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, generateProductReviews, slugToReadableTitle } from '../../../../lib/utils';
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
 import { 
@@ -19,8 +19,6 @@ import {
   Plus, 
   Minus, 
   ShoppingCart, 
-  Heart, 
-  Share2, 
   Truck, 
   Shield, 
   RefreshCw,
@@ -39,11 +37,9 @@ const ProductDetailPage: React.FC = () => {
   
   const [product, setProduct] = useState<Product | null>(null);
   const [selectedVariations, setSelectedVariations] = useState<Record<string, string>>({});
-  const [quantity, setQuantity] = useState(1);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
-  const [isWishlisted, setIsWishlisted] = useState(false);
   const [showImageModal, setShowImageModal] = useState(false);
   const [viewersCount, setViewersCount] = useState(0);
   const [recentPurchases, setRecentPurchases] = useState<string[]>([]);
@@ -189,12 +185,6 @@ const ProductDetailPage: React.FC = () => {
     }));
   };
 
-  const handleQuantityChange = (newQuantity: number) => {
-    if (product) {
-      const maxQuantity = getMaxQuantity();
-      setQuantity(Math.min(Math.max(1, newQuantity), maxQuantity));
-    }
-  };
 
   const getMaxQuantity = (): number => {
     if (!product) return 0;
@@ -284,30 +274,6 @@ const ProductDetailPage: React.FC = () => {
     }
   };
 
-  const handleWishlist = () => {
-    setIsWishlisted(!isWishlisted);
-    // In production, save to user's wishlist
-  };
-
-  const handleShare = async () => {
-    if (navigator.share && product) {
-      try {
-        await navigator.share({
-          title: product.title,
-          text: product.shortDescription,
-          url: window.location.href,
-        });
-      } catch {
-        // Fallback to copy to clipboard
-        navigator.clipboard.writeText(window.location.href);
-        alert(getString('common.linkCopied'));
-      }
-    } else {
-      // Fallback for browsers without native sharing
-      navigator.clipboard.writeText(window.location.href);
-      alert(getString('common.linkCopied'));
-    }
-  };
 
   const handleCartClick = () => {
     window.location.href = '/cart';
@@ -379,14 +345,32 @@ const ProductDetailPage: React.FC = () => {
   const compareAtPrice = getCurrentCompareAtPrice();
   const maxQuantity = getMaxQuantity();
   const isOutOfStock = maxQuantity === 0;
-  const savings = compareAtPrice && compareAtPrice > currentPrice ? compareAtPrice - currentPrice : 0;
+  
+  // Generate consistent discount percentage based on product slug (30-35%)
+  const getConsistentDiscount = (slug: string) => {
+    let hash = 0;
+    for (let i = 0; i < slug.length; i++) {
+      const char = slug.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32-bit integer
+    }
+    return 30 + (Math.abs(hash) % 6); // Returns 30-35
+  };
+  
+  const fakeDiscountPercentage = compareAtPrice && compareAtPrice > currentPrice 
+    ? getConsistentDiscount(slug) 
+    : 0;
+  const fakeCompareAtPrice = fakeDiscountPercentage > 0
+    ? Math.round(currentPrice / (1 - fakeDiscountPercentage / 100) * 100) / 100
+    : compareAtPrice;
+  const savings = fakeCompareAtPrice && fakeCompareAtPrice > currentPrice ? fakeCompareAtPrice - currentPrice : 0;
 
   // Generate fallback values for missing properties
   const productData = product as Product & { 
     productNameCanonical?: string;
     longDescription?: string;
   }; // Cast to access actual JSON properties
-  const productTitle = product.title || productData.productNameCanonical || 'Product';
+  const productTitle = slugToReadableTitle(slug) || product.title || productData.productNameCanonical || 'Product';
   const productDescription = product.shortDescription || `Descubre ${productTitle} en nuestra colección`;
   const productLongDescription = product.longDescription || productDescription;
   const productFeatures = product.features || [];
@@ -487,7 +471,7 @@ const ProductDetailPage: React.FC = () => {
                   <span className="text-neutral-300">/</span>
                 </>
               )}
-              <span className="text-neutral-800 font-medium">{product.title}</span>
+              <span className="text-neutral-800 font-medium">{productTitle}</span>
             </div>
           </div>
         </nav>
@@ -642,10 +626,10 @@ const ProductDetailPage: React.FC = () => {
                   <span className="text-5xl lg:text-6xl font-light text-gray-900 tracking-tight">
                     {formatCurrency(currentPrice)}
                   </span>
-                  {compareAtPrice && compareAtPrice > currentPrice && (
+                  {fakeCompareAtPrice && fakeCompareAtPrice > currentPrice && (
                     <div className="space-y-2">
                       <span className="text-2xl text-gray-400 line-through font-light">
-                        {formatCurrency(compareAtPrice)}
+                        {formatCurrency(fakeCompareAtPrice)}
                       </span>
                       <div className="text-sm text-green-700 font-medium">
                         {getString('product.savings')} {formatCurrency(savings)}
@@ -706,33 +690,9 @@ const ProductDetailPage: React.FC = () => {
                 </div>
               )}
 
-              {/* Quantity and CTA */}
+              {/* CTA */}
               {!isOutOfStock && (
                 <div className="space-y-6">
-                  <div className="space-y-4">
-                    <label className="block text-lg font-medium text-gray-900">
-                      {getString('product.quantity')}
-                    </label>
-                    <div className="flex items-center">
-                      <button
-                        onClick={() => handleQuantityChange(quantity - 1)}
-                        disabled={quantity <= 1}
-                        className="w-14 h-14 border border-gray-200 rounded-l-2xl hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center"
-                      >
-                        <Minus className="w-5 h-5 text-gray-600" />
-                      </button>
-                      <div className="w-20 h-14 border-t border-b border-gray-200 flex items-center justify-center bg-white text-center font-medium text-lg">
-                        {quantity}
-                      </div>
-                      <button
-                        onClick={() => handleQuantityChange(quantity + 1)}
-                        disabled={quantity >= maxQuantity}
-                        className="w-14 h-14 border border-gray-200 rounded-r-2xl hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-300 flex items-center justify-center"
-                      >
-                        <Plus className="w-5 h-5 text-gray-600" />
-                      </button>
-                    </div>
-                  </div>
 
                   {/* Premium CTA Buttons */}
                   <div className="space-y-6">
@@ -746,28 +706,6 @@ const ProductDetailPage: React.FC = () => {
                       <ShoppingCart className="w-5 h-5 mr-3" />
                       {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyOnAmazon')} ${productTitle}`}
                     </Button>
-                    
-                    <div className="grid grid-cols-2 gap-4">
-                      <Button
-                        onClick={handleWishlist}
-                        variant="outline"
-                        className={`border-gray-200 hover:bg-gray-50 py-4 rounded-xl transition-all duration-300 ${
-                          isWishlisted ? 'text-gray-900 bg-gray-50 border-gray-300' : 'text-gray-700'
-                        }`}
-                      >
-                        <Heart className={`w-4 h-4 mr-2 ${isWishlisted ? 'fill-current' : ''}`} />
-                        {getString('product.favorites')}
-                      </Button>
-                      
-                      <Button
-                        onClick={handleShare}
-                        variant="outline"
-                        className="border-gray-200 text-gray-700 hover:bg-gray-50 py-4 rounded-xl transition-all duration-300"
-                      >
-                        <Share2 className="w-4 h-4 mr-2" />
-                        {getString('product.share')}
-                      </Button>
-                    </div>
                   </div>
                 </div>
               )}
@@ -1052,23 +990,18 @@ const ProductDetailPage: React.FC = () => {
       </Layout>
       {product && (
         <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-4 animate-slide-up">
-          <div className="max-w-lg mx-auto">
-            {/* Discount Banner with Gradient - Clickable */}
-            <a
-              href={product.amazonUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block group cursor-pointer"
-            >
-              <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-3 px-6 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
-                {/* Animated background pattern */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
-                
-                <div className="relative z-10">
-                  {/* Desktop: Single line layout */}
-                  <div className="hidden sm:flex items-center justify-center space-x-4">
+          <div className="max-w-6xl mx-auto">
+            {/* Desktop: Horizontal layout */}
+            <div className="hidden sm:flex items-center justify-between space-x-6">
+              {/* Left side: Discount and countdown */}
+              <div className="flex items-center space-x-4">
+                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white py-3 px-6 rounded-xl relative overflow-hidden">
+                  {/* Animated background pattern */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
+                  
+                  <div className="relative z-10 flex items-center space-x-4">
                     <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                      <span className="font-bold text-xl">-30%</span>
+                      <span className="font-bold text-xl">-35%</span>
                     </div>
                     
                     <div className="text-sm font-medium">
@@ -1088,12 +1021,48 @@ const ProductDetailPage: React.FC = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              
+              {/* Right side: Buy button */}
+              <a
+                href={product.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex-shrink-0"
+              >
+                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
+                  {/* Button background animation */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
                   
-                  {/* Mobile: Two line layout */}
-                  <div className="sm:hidden flex flex-col items-center space-y-2">
+                  <div className="relative z-10 flex items-center space-x-3">
+                    <ShoppingCart className="w-5 h-5" />
+                    <span className="text-lg">
+                      {getString('product.buyOnAmazon')} {productTitle}
+                    </span>
+                    <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            
+            {/* Mobile: Vertical layout (unchanged) */}
+            <div className="sm:hidden max-w-lg mx-auto">
+              {/* Discount Banner with Gradient - Clickable */}
+              <a
+                href={product.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block group cursor-pointer"
+              >
+                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-3 px-6 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
+                  {/* Animated background pattern */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
+                  
+                  <div className="relative z-10 flex flex-col items-center space-y-2">
                     <div className="flex items-center space-x-3">
                       <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="font-bold text-xl">-30%</span>
+                        <span className="font-bold text-xl">-35%</span>
                       </div>
                       <div className="text-sm font-medium">
                         {getString('product.limitedOffer')}
@@ -1114,29 +1083,29 @@ const ProductDetailPage: React.FC = () => {
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
-            
-            {/* Buy Button with Enhanced Design */}
-            <a
-              href={product.amazonUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block group"
-            >
-              <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-6 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
-                {/* Button background animation */}
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
-                
-                <div className="relative z-10 flex items-center justify-center space-x-3">
-                  <ShoppingCart className="w-5 h-5" />
-                  <span className="text-lg">
-                    {getString('product.buyOnAmazon')} {productTitle}
-                  </span>
-                  <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+              </a>
+              
+              {/* Buy Button with Enhanced Design */}
+              <a
+                href={product.amazonUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block group"
+              >
+                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-6 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
+                  {/* Button background animation */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
+                  
+                  <div className="relative z-10 flex items-center justify-center space-x-3">
+                    <ShoppingCart className="w-5 h-5" />
+                    <span className="text-lg">
+                      {getString('product.buyOnAmazon')} {productTitle}
+                    </span>
+                    <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
         </div>
       )}

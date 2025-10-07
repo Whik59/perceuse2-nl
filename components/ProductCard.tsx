@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '../lib/types';
 import { Button } from './ui/Button';
-import { cn, formatCurrency, getString } from '../lib/utils';
+import { cn, formatCurrency, getString, slugToReadableTitle } from '../lib/utils';
 import ReviewSnippet from './ReviewSnippet';
 
 interface ProductCardProps {
@@ -28,27 +28,35 @@ const ProductCard: React.FC<ProductCardProps> = ({
     productNameCanonical?: string; 
     shortDescription?: string; 
   };
-  const productName = product.title || productData.productNameCanonical || 'Product';
+  const productName = slugToReadableTitle(product.slug) || product.title || productData.productNameCanonical || 'Product';
   const productDescription = product.shortDescription || productData.shortDescription || '';
 
-  const handleAddToCart = async () => {
-    if (!onAddToCart) return;
-    
-    setIsLoading(true);
-    try {
-      await onAddToCart(product);
-    } catch (error) {
-      console.error('Error adding to cart:', error);
-    } finally {
-      setIsLoading(false);
+  const handleBuyOnAmazon = () => {
+    if (product.amazonUrl) {
+      window.open(product.amazonUrl, '_blank', 'noopener,noreferrer');
     }
   };
 
   const isButtonLoading = isLoading || externalLoading;
   const hasDiscount = product.onSale && product.compareAtPrice;
-  const discountPercentage = hasDiscount 
-    ? Math.round(((product.compareAtPrice! - product.basePrice) / product.compareAtPrice!) * 100)
-    : 0;
+  
+  // Generate consistent discount percentage based on product slug (30-35%)
+  const getConsistentDiscount = (slug: string) => {
+    let hash = 0;
+    for (let i = 0; i < slug.length; i++) {
+      const char = slug.charCodeAt(i);
+      hash = ((hash << 5) - hash) + char;
+      hash = hash & hash; // Convert to 32-bit integer
+    }
+    return 30 + (Math.abs(hash) % 6); // Returns 30-35
+  };
+  
+  const discountPercentage = hasDiscount ? getConsistentDiscount(product.slug) : 0;
+  
+  // Calculate fake compareAtPrice for display purposes
+  const fakeCompareAtPrice = hasDiscount 
+    ? Math.round(product.basePrice / (1 - discountPercentage / 100) * 100) / 100
+    : product.compareAtPrice;
 
   return (
     <div className={cn(
@@ -121,13 +129,13 @@ const ProductCard: React.FC<ProductCardProps> = ({
                 </span>
                 {hasDiscount && (
                   <span className="text-sm text-slate-400 line-through font-medium">
-                    {formatCurrency(product.compareAtPrice!)}
+                    {formatCurrency(fakeCompareAtPrice!)}
                   </span>
                 )}
               </div>
               {hasDiscount && (
                 <span className="text-xs text-emerald-600 font-semibold bg-emerald-50 px-2 py-1 rounded-lg">
-                  {getString('product.saveAmount').replace('{amount}', formatCurrency(product.compareAtPrice! - product.basePrice))}
+                  {getString('product.saveAmount').replace('{amount}', formatCurrency(fakeCompareAtPrice! - product.basePrice))}
                 </span>
               )}
             </div>
@@ -136,11 +144,11 @@ const ProductCard: React.FC<ProductCardProps> = ({
                      {/* Add to Cart Button */}
            {onAddToCart && (
              <Button
-               onClick={handleAddToCart}
+               onClick={handleBuyOnAmazon}
                loading={isButtonLoading}
                className="w-full bg-gradient-to-r from-slate-800 via-slate-700 to-slate-900 hover:from-slate-900 hover:via-slate-800 hover:to-slate-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:shadow-xl tracking-wide"
              >
-               {getString('cart.addToCart')}
+               {getString('cart.addToCart')} (-35%)
              </Button>
            )}
         </div>
