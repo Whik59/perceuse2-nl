@@ -24,12 +24,12 @@ import {
 
 // SEO Metadata
 export const metadata: Metadata = {
-  title: `${process.env.NEXT_PUBLIC_SITE_NAME || getString('common.siteName')} - ${getString('categories.title')} | ${getString('common.siteName')}`,
-  description: getString('categories.hero.subtitle') + '. ' + getString('categories.subtitle') + '. ' + getString('common.qualityExceptional') + ' y ' + getString('common.amazonShipping') + '.',
-  keywords: ['patinetes eléctricos', 'categorías', 'patinetes', 'movilidad urbana', 'scooters eléctricos', 'calidad premium'],
+  title: `${getString('common.siteName')} - ${getString('categories.title')} | ${getString('common.siteName')}`,
+  description: getString('categories.hero.subtitle') + '. ' + getString('categories.subtitle') + '. ' + getString('common.qualityExceptional') + ' und ' + getString('common.amazonShipping') + '.',
+  keywords: ['airfryer', 'kategorien', 'airfryer', 'gesunde küche', 'luftfritteuse', 'premium qualität'],
   openGraph: {
-    title: `${process.env.NEXT_PUBLIC_SITE_NAME || getString('common.siteName')} - ${getString('categories.title')}`,
-    description: getString('categories.hero.subtitle') + ' con ' + getString('common.amazonShipping') + '.',
+    title: `${getString('common.siteName')} - ${getString('categories.title')}`,
+    description: getString('categories.hero.subtitle') + ' mit ' + getString('common.amazonShipping') + '.',
     type: 'website',
   }
 };

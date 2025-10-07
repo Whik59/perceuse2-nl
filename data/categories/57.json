@@ -1,34 +1,36 @@
 {
   "categoryId": 57,
-  "name": "airfryer industrial",
-  "slug": "airfryer-industrial",
-  "seo_title": "Mejores Airfryer Industriales: Cocina de Gran Volumen",
-  "seo_description": "Airfryer Industrial ✅ Fritura sin aceite, gran capacidad profesional.",
-  "keywords": [
-    "airfryer industrial",
-    "freidora aire industrial",
-    "freidora sin aceite profesional",
-    "airfryer hostelería",
-    "comprar airfryer industrial"
-  ],
+  "categoryNameCanonical": "airfryer brotbackform",
+  "slug": "airfryer-brotbackform",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecken Sie hochwertige Airfryer Brotbackformen ab 19€. Perfekt für krosse Brote & mehr!",
+  "content": "<div><h2>Airfryer Brotbackform: Perfektes Brot leicht gemacht – Top Produkte & Angebote</h2><p>Entdecken Sie die Welt des Brotbackens mit Ihrer Heißluftfritteuse! Eine hochwertige <strong>Airfryer Brotbackform</strong> ist das unverzichtbare Zubehör, um knuspriges, frisches Brot oder leckere Kuchen direkt in Ihrem Airfryer zuzubereiten. Schluss mit aufwendigen Backöfen – Ihr Airfryer wird zur Mini-Bäckerei!</p><p>Wir präsentieren Ihnen eine vielfältige Auswahl an <strong>Produkten</strong>, die speziell für die Nutzung im Airfryer konzipiert wurden. Egal, ob Sie eine Silikon-Brotbackform für einfaches Entformen oder eine robuste Antihaft-Variante suchen – bei uns finden Sie die passende Lösung. Schon <strong>ab 19€</strong> können Sie in die Welt des Airfryer-Brotbackens eintauchen.</p><p>Profitieren Sie von unseren aktuellen <strong>Angeboten</strong> und sichern Sie sich Ihre neue <strong>Airfryer Brotbackform zum besten Preis</strong>. Vergleichen Sie verschiedene Größen, Materialien und Designs, um die ideale Form für Ihre Bedürfnisse zu finden. Beginnen Sie noch heute mit dem Backen Ihrer Lieblingsbrote im Airfryer – einfacher und schneller geht es nicht!</p></div>",
+  "seo": {
+    "title": "Airfryer Brotbackform: Beste Angebote & Produkte ab 19€",
+    "description": "Entdecken Sie hochwertige Airfryer Brotbackformen ab 19€. Perfekt für krosse Brote & mehr!",
+    "keywords": [
+      "airfryer brotbackform",
+      "brotbackform airfryer",
+      "airfryer zubehör"
+    ],
+    "enhancedAt": "2025-10-07T22:48:58.243527"
+  },
   "faq": [
     {
-      "question": "¿Qué ventajas clave ofrece una airfryer industrial para hostelería?",
-      "answer": "Reduce el consumo de aceite hasta un 80%, ofreciendo platos más saludables y crujientes. Mejora la eficiencia operativa y la seguridad en cocinas profesionales en España."
+      "question": "Wofür wird eine Airfryer Brotbackform verwendet?",
+      "answer": "Eine Airfryer Brotbackform ist ideal, um verschiedene Brotsorten, Kuchen oder Aufläufe direkt in Ihrer Heißluftfritteuse zuzubereiten. Sie sorgt für eine gleichmäßige Bräunung und eine knusprige Kruste."
     },
     {
-      "question": "¿Qué capacidades de producción tienen las airfryers industriales?",
-      "answer": "Varían desde 10 litros hasta modelos de gran volumen que procesan cientos de raciones por hora. Es crucial elegir según el flujo de tu negocio en España."
+      "question": "Worauf sollte man beim Kauf einer Airfryer Brotbackform achten?",
+      "answer": "Achten Sie auf das Material (Silikon, Antihaft-Beschichtung), die passende Größe für Ihr Airfryer-Modell, Hitzebeständigkeit und eine einfache Reinigung, um lange Freude an Ihrem Produkt zu haben."
     },
     {
-      "question": "¿Cuál es la inversión inicial de una airfryer industrial en España?",
-      "answer": "El precio de una airfryer industrial en España oscila desde 1.500€ para modelos básicos hasta 15.000€ o más para sistemas avanzados. Depende de capacidad y funcionalidades."
+      "question": "Gibt es spezielle Angebote für Airfryer Brotbackformen?",
+      "answer": "Ja, wir bieten eine breite Palette an Airfryer Brotbackformen an, viele davon schon ab 19€. Entdecken Sie unsere aktuellen Angebote und sichern Sie sich den besten Preis für Ihr Wunschprodukt."
     }
   ],
-  "content": "<div>\n<h2>Airfryer Industrial: La Revolución en tu Cocina Profesional</h2>\n<p>Descubre la <b>airfryer industrial</b>, la solución definitiva para cocinas de alto rendimiento en hostelería, restaurantes y servicios de catering en España. Optimiza tus procesos con una <b>freidora de aire industrial</b> que garantiza resultados perfectos, crujientes y saludables, minimizando el uso de aceite y reduciendo costes operativos.</p>\n<h3>Características Clave de Nuestra Airfryer Profesional</h3>\n<ul>\n<li><b>Gran Capacidad</b>: Diseñadas para volumen, perfectas para atender a un gran número de comensales sin interrupciones.</li>\n<li><b>Eficiencia Energética</b>: Ahorra en tu factura de luz gracias a su avanzada tecnología de cocción por aire caliente.</li>\n<li><b>Cocción Saludable</b>: Prepara alimentos con hasta un 80% menos de grasa, manteniendo el sabor y la textura que tus clientes adoran.</li>\n<li><b>Materiales Duraderos</b>: Construcción robusta en acero inoxidable, ideal para el uso intensivo y fácil limpieza en entornos profesionales.</li>\n<li><b>Control Preciso</b>: Programas de cocción intuitivos y control digital para resultados consistentes y personalizables.</li>\n</ul>\n<p>Transforma tu cocina con la mejor tecnología. Encuentra tu <b>airfryer industrial</b> desde <b>19€</b> con envío gratis a toda España. ¡Invierte en calidad y eficiencia para tu negocio hoy!</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:32:37.561056",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 0,
-  "lastUpdated": "2025-10-07T21:02:26.344723"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:58.243549",
+  "lastUpdated": "2025-10-07T23:02:15.264343"
 }

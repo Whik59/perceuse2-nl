@@ -1,34 +1,36 @@
 {
   "categoryId": 44,
-  "name": "airfryer forms",
-  "slug": "airfryer-forms",
-  "seo_title": "Comprar Airfryer Forms: Fácil Limpieza y Cocina Sana",
-  "seo_description": "Airfryer Forms ✅ Moldes y Accesorios para Freidora de Aire.",
-  "keywords": [
-    "moldes airfryer",
-    "papel airfryer",
-    "recipientes freidora aire",
-    "accesorios airfryer",
-    "moldes silicona airfryer"
-  ],
+  "categoryNameCanonical": "airfryer bio",
+  "slug": "airfryer-bio",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecke Bio Airfryer für gesunde Mahlzeiten. Top Produkte & beste Preise ab 19€. Jetzt nachhaltig kaufen!",
+  "content": "<div><h2>Bio Airfryer: Gesund Kochen & Umwelt Schonen – Top Angebote ab 19€</h2><p>Entdecken Sie unsere exklusive Auswahl an <strong>Bio Airfryer Produkten</strong>, die nicht nur Ihre Küche bereichern, sondern auch einen Beitrag zum Umweltschutz leisten. Ein <strong>Bio Airfryer</strong> steht für nachhaltige Materialien, energieeffizientes Design und eine gesündere Zubereitung Ihrer Lieblingsgerichte. Bei uns finden Sie die <strong>besten Preise</strong> und attraktive <strong>Angebote</strong>, die beweisen, dass Qualität und Nachhaltigkeit erschwinglich sein können. Schon ab <strong>19€</strong> erhalten Sie Zugang zu hochwertigen Modellen, die perfekt zu einem bewussten Lebensstil passen.</p><p>Wählen Sie aus einer Vielzahl von Modellen, die perfekt für fettarmes Garen, Frittieren ohne Öl und schnelles Zubereiten von Snacks und Hauptmahlzeiten geeignet sind. Unsere <strong>Airfryer Bio</strong> Auswahl umfasst Geräte, die oft auf PTFE/PFOA-freie Beschichtungen setzen und somit ein gesünderes Kocherlebnis ermöglichen. Machen Sie den Schritt zu einem gesünderen und nachhaltigeren Kocherlebnis mit unseren sorgfältig ausgewählten <strong>Bio Airfryer Angeboten</strong>. Kaufen Sie jetzt und profitieren Sie von unseren unschlagbaren Konditionen für hochwertige <strong>Produkte</strong>!</p></div>",
+  "seo": {
+    "title": "Bio Airfryer Kaufen – Beste Angebote ab 19€ | Gesund & Nachhaltig",
+    "description": "Entdecke Bio Airfryer für gesunde Mahlzeiten. Top Produkte & beste Preise ab 19€. Jetzt nachhaltig kaufen!",
+    "keywords": [
+      "airfryer bio",
+      "bio airfryer kaufen",
+      "airfryer angebote"
+    ],
+    "enhancedAt": "2025-10-07T22:48:44.735509"
+  },
   "faq": [
     {
-      "question": "¿Qué son los moldes para airfryer y para qué sirven?",
-      "answer": "Son recipientes de silicona o papel diseñados para cocinar en freidoras de aire. Protegen la cesta, evitan que la comida se pegue y facilitan una limpieza más rápida y sencilla tras cada uso. Ideales para repostería o alimentos con líquidos."
+      "question": "Was bedeutet 'Bio' bei einem Airfryer?",
+      "answer": "Ein Bio Airfryer legt Wert auf nachhaltige Materialien, Energieeffizienz und eine Produktion mit möglichst geringem ökologischem Fußabdruck, oft ohne schädliche Beschichtungen für gesünderes Kochen."
     },
     {
-      "question": "¿Qué tipos de moldes para airfryer son los más recomendados?",
-      "answer": "Los moldes de silicona reutilizables son muy populares por su durabilidad, resistencia al calor y facilidad de limpieza. También existen opciones de papel antiadherente desechables, ideales para una mayor higiene y comodidad sin fregar."
+      "question": "Welche Vorteile bieten Bio Airfryer Produkte gegenüber Standardmodellen?",
+      "answer": "Bio Airfryer fördern umweltfreundlicheres Kochen, bieten oft robustere Materialien für Langlebigkeit und minimieren den Kontakt mit potenziell unerwünschten Chemikalien, was sie zu einer gesünderen Wahl macht."
     },
     {
-      "question": "¿Cómo se limpian correctamente los moldes de silicona para freidora de aire?",
-      "answer": "Suelen ser aptos para lavavajillas o se pueden limpiar fácilmente a mano con agua tibia y jabón. Es importante secarlos bien antes de guardar para evitar humedad y prolongar su vida útil, manteniéndolos listos para el siguiente uso."
+      "question": "Sind Bio Airfryer teurer als herkömmliche Modelle?",
+      "answer": "Nicht unbedingt. Wir bieten eine attraktive Auswahl an Bio Airfryer Produkten bereits ab 19€ an, die ein hervorragendes Preis-Leistungs-Verhältnis für Qualität und Nachhaltigkeit bieten."
     }
   ],
-  "content": "<div>\n<h2>Descubre los Mejores Moldes para Airfryer y Accesorios Esenciales</h2>\n<p>Potencia tus recetas y saca el máximo partido a tu freidora de aire con nuestra selección de <b>moldes para airfryer</b> de alta calidad. Transforma tu cocina y prepara desde tartas hasta pizzas con la máxima facilidad y resultados perfectos.</p>\n<h3>Características Destacadas de Nuestros Moldes Airfryer</h3>\n<ul>\n<li><b>Materiales Premium</b>: Moldes de silicona alimentaria o antiadherentes, libres de BPA.</li>\n<li><b>Resistencia al Calor Extrema</b>: Aptos para las altas temperaturas de tu freidora de aire.</li>\n<li><b>Fácil Limpieza</b>: Diseñados para una limpieza sencilla, aptos para lavavajillas.</li>\n<li><b>Versatilidad Culinaria</b>: Ideales para bizcochos, muffins, quiches, pan y más.</li>\n<li><b>Compatibilidad Universal</b>: Tamaños variados para adaptarse a la mayoría de freidoras de aire.</li>\n</ul>\n<p>Equipa tu cocina con los mejores <b>accesorios para airfryer</b> y disfruta de una cocina más creativa y saludable. Desde solo <b>19€</b> con envío gratis.</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:32:09.946699",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 7,
-  "lastUpdated": "2025-10-07T21:02:26.325784"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:44.735523",
+  "lastUpdated": "2025-10-07T23:02:15.241819"
 }

@@ -12,7 +12,7 @@ import { siteConfig } from '../../lib/config';
 
 // Get site name from environment with fallback
 const getSiteName = () => {
-  return process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || siteConfig.siteName;
+  return getString('common.siteName');
 };
 import { redirectToAmazonCart } from '../../lib/cart';
 import { Star, Truck, Shield, RefreshCw, Award, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -291,7 +291,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                    </div>
                    ) : (
                      <div className="text-center py-8">
-                       <p className="text-white/70">No hay categorías disponibles</p>
+                       <p className="text-white/70">{getString('categories.noProducts')}</p>
                      </div>
                    )}
                  </div>
@@ -321,7 +321,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                      size="sm"
                      className="bg-white/20 hover:bg-white/30 text-white px-6 py-2 text-sm font-medium rounded-lg transition-all duration-300"
                    >
-                     Ver todas las categorías
+                     {getString('categories.viewAllCategories')}
                    </Button>
                  </Link>
                </div>

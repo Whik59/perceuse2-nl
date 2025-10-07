@@ -1,8 +1,8 @@
 // Configuration utility for environment variables
 export const siteConfig = {
   // Site Information
-  siteName: process.env.SITE_NAME || 'Ma Peluche',
-  companyName: process.env.COMPANY_NAME || 'Ma Peluche SARL',
+  siteName: process.env.SITE_NAME || 'Airfryer Kaufen',
+  companyName: process.env.COMPANY_NAME || 'Airfryer GmbH',
   siteUrl: process.env.SITE_URL || 'https://mapeluche.com',
   
   // Business Information

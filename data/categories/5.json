@@ -1,34 +1,38 @@
 {
   "categoryId": 5,
-  "name": "airfryer baja",
-  "slug": "airfryer-baja",
-  "seo_title": "Mejores Airfryers Baja Grasa para Recetas Ligeras",
-  "seo_description": "Airfryer Baja ✅ Cocina saludable sin aceite. ¡Ofertas increíbles ahora!",
-  "keywords": [
-    "airfryer barata",
-    "airfryer bajo consumo",
-    "airfryer pequeña",
-    "oferta airfryer",
-    "mejor airfryer económica"
-  ],
+  "categoryNameCanonical": "airfryer abstellgitter",
+  "slug": "airfryer-abstellgitter",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Airfryer Abstellgitter: Mehr Kochfläche, Top-Qualität ab 19€. Beste Angebote jetzt sichern!",
+  "content": "<div><h2>Airfryer Abstellgitter: Maximale Kochfläche & Perfekte Ergebnisse ab 19€</h2><p>Entdecken Sie unsere große Auswahl an hochwertigen Airfryer Abstellgittern und optimieren Sie Ihr Kocherlebnis! Mit einem praktischen Abstellgitter verwandeln Sie Ihren Airfryer in ein noch vielseitigeres Küchengerät. Schaffen Sie mühelos zusätzliche Ebenen, um mehr Speisen gleichzeitig zuzubereiten – ideal für Familien oder wenn Sie Gäste haben. Ob für knusprige Pommes, saftiges Hähnchen oder leckeres Gemüse, diese cleveren Produkte sorgen für eine optimale Luftzirkulation und gleichmäßige Garergebnisse. Bei uns finden Sie die besten Angebote und den besten Preis für Ihr neues Airfryer Zubehör, bereits ab 19€. Durchstöbern Sie unser Sortiment und finden Sie das passende Abstellgitter, das perfekt zu Ihrem Airfryer passt und Ihr Kochvergnügen auf ein neues Level hebt. Sichern Sie sich jetzt Ihr neues Airfryer Abstellgitter und profitieren Sie von unseren attraktiven Angeboten!</p></div>",
+  "seo": {
+    "title": "Airfryer Abstellgitter günstig kaufen – Beste Angebote ab 19€",
+    "description": "Airfryer Abstellgitter: Mehr Kochfläche, Top-Qualität ab 19€. Beste Angebote jetzt sichern!",
+    "keywords": [
+      "Airfryer Abstellgitter",
+      "Airfryer Zubehör",
+      "Abstellrost Heißluftfritteuse",
+      "Airfryer Produkte",
+      "beste Angebote"
+    ],
+    "enhancedAt": "2025-10-07T22:48:47.487422"
+  },
   "faq": [
     {
-      "question": "¿Una airfryer ayuda a cocinar alimentos con baja grasa?",
-      "answer": "Sí, las airfryers permiten cocinar con hasta un 80% menos de grasa que la fritura tradicional, ideal para una dieta baja en calorías sin sacrificar sabor ni textura."
+      "question": "Wofür dient ein Airfryer Abstellgitter?",
+      "answer": "Ein Abstellgitter vergrößert die nutzbare Kochfläche in Ihrem Airfryer, indem es eine zusätzliche Ebene schafft. So können Sie mehr Speisen gleichzeitig zubereiten und die Effizienz Ihrer Heißluftfritteuse steigern."
     },
     {
-      "question": "¿Hay modelos de airfryer de perfil bajo para encimeras pequeñas?",
-      "answer": "Absolutamente. Existen airfryers compactas y de diseño bajo, pensadas para optimizar el espacio en cocinas pequeñas sin comprometer su capacidad o rendimiento. Son discretas y eficientes."
+      "question": "Welche Vorteile bieten Airfryer Abstellgitter?",
+      "answer": "Sie ermöglichen das gleichzeitige Garen verschiedener Speisen auf mehreren Ebenen, verbessern die Luftzirkulation für knusprigere Ergebnisse und erleichtern das Abtropfen von Fett. Viele dieser Produkte sind zudem spülmaschinenfest."
     },
     {
-      "question": "¿Son las airfryers de bajo consumo eléctrico comparado con un horno?",
-      "answer": "Sí, generalmente una airfryer tiene un consumo más bajo que un horno convencional. Calientan más rápido y cocinan en un espacio reducido, lo que se traduce en un menor gasto energético."
+      "question": "Gibt es verschiedene Größen von Airfryer Abstellgittern?",
+      "answer": "Ja, Abstellgitter sind in verschiedenen Größen und Formen erhältlich, um zu den gängigsten Airfryer-Modellen zu passen. Achten Sie vor dem Kauf auf die Kompatibilität mit Ihrem Gerät, um den besten Preis für das richtige Zubehör zu finden."
     }
   ],
-  "content": "<div>\n<h2>Tu Airfryer Baja: La Solución Compacta para Cocinar Sano</h2>\n<p>Descubre la eficiencia y el diseño inteligente con nuestra selección de <b>airfryer baja</b>, perfectas para cocinas con espacio limitado en España. Si buscas una forma saludable de freír, asar o hornear tus platos preferidos sin sacrificar espacio en tu encimera, una <b>airfryer baja</b> es tu aliada ideal.</p>\n<h3>Ventajas de la Airfryer Baja que Debes Conocer</h3>\n<ul>\n<li><b>Diseño Compacto y Elegante</b>: Se integra perfectamente en cualquier cocina, optimizando el espacio.</li>\n<li><b>Cocina Saludable y Rápida</b>: Reduce el uso de aceite hasta en un 80%, manteniendo el sabor y la textura.</li>\n<li><b>Fácil Almacenamiento</b>: Su perfil reducido permite guardarla cómodamente en armarios o estantes.</li>\n<li><b>Limpieza Sencilla</b>: Componentes desmontables y antiadherentes, aptos para lavavajillas.</li>\n<li><b>Eficiencia Energética</b>: Prepara tus recetas favoritas de forma más rápida y con menor consumo.</li>\n</ul>\n<p>Hazte con tu <b>airfryer baja</b> desde solo <b>19€</b> y aprovecha el envío gratis. ¡Transforma tu cocina y tu alimentación hoy mismo!</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:31:04.713341",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 8,
-  "lastUpdated": "2025-10-07T21:02:26.275225"
+  "productCount": 6,
+  "enhancedAt": "2025-10-07T22:48:47.487442",
+  "lastUpdated": "2025-10-07T23:02:15.174535"
 }

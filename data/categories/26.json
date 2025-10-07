@@ -1,34 +1,41 @@
 {
   "categoryId": 26,
-  "name": "airfryer cleaner",
-  "slug": "airfryer-cleaner",
-  "seo_title": "Descubre Limpiador Airfryer: Grasa Eliminada sin Esfuerzo",
-  "seo_description": "Airfryer Cleaner ✅ Limpiadores específicos para freidoras de aire.",
-  "keywords": [
-    "limpiador airfryer",
-    "desengrasante airfryer",
-    "productos limpieza freidora aire",
-    "spray limpiador freidoras aire",
-    "limpiador específico airfryer"
-  ],
+  "categoryNameCanonical": "airfryer anleitung",
+  "slug": "airfryer-anleitung",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Airfryer Anleitung & Tipps: Einfache Rezepte, Pflege und beste Angebote ab 19€ entdecken.",
+  "content": "<div><h2>Die ultimative Airfryer Anleitung: So gelingen Ihre Lieblingsgerichte perfekt!</h2><p>Sie haben einen neuen Airfryer und fragen sich, wie Sie das Maximum aus Ihrem Küchenhelfer herausholen können? Unsere umfassende <strong>Airfryer Anleitung</strong> liefert Ihnen alle wichtigen <strong>Tipps</strong> und Tricks, damit Ihre Speisen jedes Mal knusprig, saftig und perfekt gegart sind. Egal ob Sie ein erfahrener Koch oder ein Anfänger sind, hier finden Sie wertvolle Informationen, um Ihre Heißluftfritteuse optimal zu nutzen.</p><p>Ein Airfryer revolutioniert die Art und Weise, wie Sie kochen. Weniger Öl, gleicher Geschmack und oft schnellere Zubereitungszeiten machen ihn zum Must-have in jeder modernen Küche. Doch wie bedient man ihn richtig? Von der ersten Inbetriebnahme über die besten Garzeiten bis hin zu kreativen <strong>Airfryer Rezepten</strong> – wir decken alles ab.</p><h3>Airfryer Start: Erste Schritte und wichtige Hinweise</h3><p>Nach dem Auspacken ist vor dem Genuss! Bevor Sie mit dem Kochen beginnen, sollten Sie die herausnehmbaren Teile gründlich reinigen. Ein kurzer Probelauf ohne Lebensmittel hilft, eventuelle Gerüche zu beseitigen. Werfen Sie immer einen Blick in die spezifische <strong>Anleitung</strong> Ihres <strong>Airfryer Produkts</strong>, da Modelle unterschiedliche Funktionen und Empfehlungen haben können.</p><h3>Optimale Nutzung: Tipps für knusprige Ergebnisse und einfache Reinigung</h3><p>Für beste Ergebnisse ist es wichtig, den Airfryer nicht zu überfüllen und die Lebensmittel regelmäßig zu schütteln oder zu wenden. Experimentieren Sie mit Temperaturen und Garzeiten – viele Gerichte gelingen bei etwas niedrigerer Temperatur über eine längere Zeit gleichmäßiger. Nach dem Kochen ist die Reinigung entscheidend: Die meisten Körbe und Pfannen sind spülmaschinengeeignet, was die Pflege kinderleicht macht. Regelmäßiges Reinigen sorgt für Langlebigkeit und Hygiene.</p><h3>Airfryer kaufen: Finden Sie das beste Angebot ab 19€</h3><p>Sind Sie noch auf der Suche nach dem passenden Gerät? Entdecken Sie auf unserer Seite eine Vielzahl von <strong>Airfryer Produkten</strong>. Wir helfen Ihnen, den <strong>besten Preis</strong> zu finden und das ideale <strong>Angebot</strong> zu nutzen. Schon <strong>ab 19€</strong> können Sie in die Welt des gesunden und schnellen Kochens eintauchen. Vergleichen Sie Modelle, lesen Sie Bewertungen und finden Sie Ihren perfekten Küchenhelfer, der genau zu Ihren Bedürfnissen passt.</p><p>Tauchen Sie ein in die vielseitige Welt des Airfryers und lassen Sie sich von unzähligen Möglichkeiten inspirieren. Ihre kulinarische Reise beginnt hier!</p></div>",
+  "seo": {
+    "title": "Airfryer Anleitung: Perfekte Ergebnisse & Beste Angebote ab 19€",
+    "description": "Airfryer Anleitung & Tipps: Einfache Rezepte, Pflege und beste Angebote ab 19€ entdecken.",
+    "keywords": [
+      "airfryer anleitung",
+      "airfryer tipps",
+      "airfryer rezepte",
+      "heißluftfritteuse anleitung",
+      "airfryer kaufen",
+      "bester preis airfryer",
+      "airfryer angebot",
+      "airfryer produkte"
+    ],
+    "enhancedAt": "2025-10-07T22:48:51.025507"
+  },
   "faq": [
     {
-      "question": "¿Qué es un limpiador de airfryer y para qué sirve?",
-      "answer": "Es un producto especializado para eliminar grasa, restos de alimentos y olores de tu freidora de aire. Su fórmula potente desengrasa eficazmente, manteniendo tu airfryer higiénica y prolongando su vida útil."
+      "question": "Wie starte ich meinen neuen Airfryer richtig?",
+      "answer": "Beginnen Sie mit dem Auspacken, Reinigen der herausnehmbaren Teile und einem kurzen Probelauf. Die spezifische Anleitung Ihres Airfryer-Modells bietet detaillierte Hinweise für den ersten Start und die optimale Nutzung."
     },
     {
-      "question": "¿Cómo se usa correctamente un limpiador de airfryer?",
-      "answer": "Rocía la superficie fría de tu airfryer, deja actuar unos minutos según las instrucciones del producto, luego frota suavemente con una esponja no abrasiva y enjuaga. Asegúrate de secar bien antes de usarla."
+      "question": "Welche Gerichte kann ich im Airfryer zubereiten?",
+      "answer": "Die Möglichkeiten sind vielfältig: Von knusprigen Pommes über saftiges Hähnchen, gebackenes Gemüse, Fisch, bis hin zu Muffins oder kleinen Kuchen. Viele Airfryer Rezepte ermöglichen eine gesunde und schnelle Zubereitung."
     },
     {
-      "question": "¿Es seguro usar un limpiador específico para airfryer en mi electrodoméstico?",
-      "answer": "Sí, los limpiadores específicos para airfryer están formulados para ser seguros con los materiales de tu freidora, incluyendo recubrimientos antiadherentes. Garantizan una limpieza profunda sin dañar el aparato."
+      "question": "Wie reinige ich meinen Airfryer am besten?",
+      "answer": "Lassen Sie das Gerät vollständig abkühlen. Korb und Pfanne sind meist antihaftbeschichtet und spülmaschinengeeignet oder lassen sich leicht von Hand mit warmem Wasser und Spülmittel reinigen. Das Gehäuse wischen Sie mit einem feuchten Tuch ab."
     }
   ],
-  "content": "<div>\n<h2>El Mejor Limpiador para Airfryer: Adiós a la Grasa Incrustada</h2>\n<p>Descubre nuestro potente <b>limpiador para airfryer</b>, la solución definitiva para mantener tu freidora de aire impecable. Olvídate de la grasa persistente y los residuos de comida que afectan el rendimiento y sabor de tus platos. Nuestro <b>airfryer cleaner</b> está diseñado para una limpieza profunda y segura, prolongando la vida útil de tu electrodoméstico.</p>\n<h3>Características Clave de Nuestro Limpiador Airfryer</h3>\n<ul>\n<li><b>Eliminación Superior de Grasa</b>: Disuelve eficazmente la grasa y los restos de comida quemada sin esfuerzo.</li>\n<li><b>Seguro para Antiadherentes</b>: Fórmula no abrasiva que protege las superficies delicadas de tu airfryer.</li>\n<li><b>Aplicación Rápida y Sencilla</b>: Spray fácil de usar para una limpieza sin complicaciones.</li>\n<li><b>Resultados Brillantes</b>: Deja tu freidora de aire como nueva, sin olores ni residuos químicos.</li>\n<li><b>Fórmula Ecológica</b>: Respetuoso con el medio ambiente y seguro para tu hogar.</li>\n</ul>\n<p>Consigue tu <b>limpiador para freidora de aire</b> desde tan solo <b>19€</b> con <b>envío gratis</b> a toda España. ¡Tu airfryer merece el mejor cuidado!</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:31:32.988827",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 6,
-  "lastUpdated": "2025-10-07T21:02:26.301649"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:51.025518",
+  "lastUpdated": "2025-10-07T23:02:15.205398"
 }

@@ -1,499 +1,519 @@
 {
   "navigation": {
-    "home": "Inicio",
+    "home": "Startseite",
     "products": "Airfryer",
-    "categories": "Categorías",
-    "cart": "Selección",
+    "categories": "Kategorien",
+    "cart": "Auswahl",
     "checkout": "Amazon",
-    "account": "Mi Cuenta",
-    "contact": "Contacto"
+    "account": "Mein Konto",
+    "contact": "Kontakt"
   },
   "categories": {
-    "title": "Categorías de Airfryer",
+    "title": "Airfryer Kategorien",
     "hero": {
-      "title": "Encuentra el Airfryer Perfecto para Ti",
-      "subtitle": "Descubre nuestra amplia selección de airfryer de alta calidad"
+      "title": "Finde den perfekten Airfryer für dich",
+      "subtitle": "Entdecke unsere große Auswahl an hochwertigen Airfryern"
     },
-    "subtitle": "Explora nuestras categorías especializadas en airfryer",
-    "browseAll": "Ver todas las categorías",
-    "noProducts": "No hay productos disponibles en esta categoría",
-    "loading": "Cargando categorías...",
-    "error": "Error al cargar las categorías",
-    "collectionsAvailable": "Colecciones Disponibles",
-    "discover": "Descubre",
-    "subcategories": "subcategorías",
-    "popular": "Popular",
-    "rating": "Valoración",
-    "products": "productos",
-    "viewAll": "Ver todos",
-    "showMore": "Mostrar más",
-    "showLess": "Mostrar menos",
-    "filterBy": "Filtrar",
-    "sortBy": "Ordenar por",
-    "priceRange": "Rango de precios",
-    "inStock": "En stock",
-    "onSale": "En oferta",
-    "newArrivals": "Más recientes",
-    "bestSellers": "Más vendidos",
-    "topRated": "Mejor valorados",
-    "searchPlaceholder": "Buscar categorías...",
-    "allSubcategories": "Todas las subcategorías",
-    "subcategoriesDescription": "Explora todas las subcategorías disponibles",
-    "needHelp": "¿Necesitas ayuda?",
-    "helpDescription": "Nuestro equipo de expertos está aquí para ayudarte a encontrar el airfryer perfecto para ti",
-    "backToHome": "Volver al inicio",
-    "exploreBySpecialty": "Explorar por especialidad",
-    "refineSearch": "Refina tu búsqueda con nuestras subcategorías especializadas",
-    "viewCollection": "Ver la colección",
-    "priceAscending": "Precio ascendente",
-    "priceDescending": "Precio descendente",
-    "productsFound": "productos encontrados",
-    "productFound": "producto encontrado",
-    "allSpecialtiesIncluded": "(todas las especialidades incluidas)",
-    "minimumRating": "Nota mínima",
-    "allRatings": "Todas las notas",
-    "fourStarsAndUp": "4★ y más",
-    "threeStarsAndUp": "3★ y más",
-    "twoStarsAndUp": "2★ y más",
-    "inStockOnly": "únicamente",
-    "noProductsFound": "Ningún producto encontrado",
-    "modifyFilters": "Intenta modificar tus filtros o explora nuestras otras categorías",
-    "viewMoreProducts": "Ver más productos",
-    "relatedTerms": "Términos relacionados",
-    "collections": "Colecciones",
-    "mostPopularCategories": "Categorías más populares",
-    "discoverCollections": "Descubre nuestras colecciones cuidadosamente seleccionadas para todos los gustos",
-    "viewAllCategories": "Ver todas las categorías"
+    "subtitle": "Erkunde unsere spezialisierten Airfryer-Kategorien",
+    "browseAll": "Alle Kategorien anzeigen",
+    "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
+    "loading": "Kategorien werden geladen...",
+    "error": "Fehler beim Laden der Kategorien",
+    "collectionsAvailable": "Verfügbare Kollektionen",
+    "discover": "Entdecken",
+    "subcategories": "Unterkategorien",
+    "popular": "Beliebt",
+    "rating": "Bewertung",
+    "products": "Produkte",
+    "viewAll": "Alle anzeigen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "filterBy": "Filtern",
+    "sortBy": "Sortieren nach",
+    "priceRange": "Preisbereich",
+    "inStock": "Auf Lager",
+    "onSale": "Im Angebot",
+    "newArrivals": "Neueste",
+    "bestSellers": "Bestseller",
+    "topRated": "Top bewertet",
+    "searchPlaceholder": "Kategorien suchen...",
+    "allSubcategories": "Alle Unterkategorien",
+    "subcategoriesDescription": "Erkunde alle verfügbaren Unterkategorien",
+    "needHelp": "Brauchst du Hilfe?",
+    "helpDescription": "Unser Expertenteam hilft dir dabei, den perfekten Airfryer für dich zu finden",
+    "backToHome": "Zurück zur Startseite",
+    "exploreBySpecialty": "Nach Spezialität erkunden",
+    "refineSearch": "Verfeinere deine Suche mit unseren spezialisierten Unterkategorien",
+    "viewCollection": "Kollektion anzeigen",
+    "priceAscending": "Preis aufsteigend",
+    "priceDescending": "Preis absteigend",
+    "productsFound": "Produkte gefunden",
+    "productFound": "Produkt gefunden",
+    "allSpecialtiesIncluded": "(alle Spezialitäten enthalten)",
+    "minimumRating": "Mindestbewertung",
+    "allRatings": "Alle Bewertungen",
+    "fourStarsAndUp": "4★ und mehr",
+    "threeStarsAndUp": "3★ und mehr",
+    "twoStarsAndUp": "2★ und mehr",
+    "inStockOnly": "nur",
+    "noProductsFound": "Keine Produkte gefunden",
+    "modifyFilters": "Versuche deine Filter zu ändern oder erkunde unsere anderen Kategorien",
+    "viewMoreProducts": "Mehr Produkte anzeigen",
+    "relatedTerms": "Verwandte Begriffe",
+    "collections": "Kollektionen",
+    "mostPopularCategories": "Beliebteste Kategorien",
+    "discoverCollections": "Entdecke unsere sorgfältig ausgewählten Kollektionen für jeden Geschmack",
+    "viewAllCategories": "Alle Kategorien anzeigen"
   },
   "common": {
-    "close": "Cerrar",
-    "cancel": "Cancelar",
-    "confirm": "Confirmar",
-    "loading": "Cargando...",
-    "error": "Ha ocurrido un error",
-    "siteName": "Airfryer",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "siteName": "Airfryer Kaufen",
     "companyName": "Airfryer",
-    "home": "Inicio",
-    "linkCopied": "Enlace copiado",
-    "qualityExceptional": "Calidad excepcional",
-    "amazonShipping": "envío Amazon"
+    "home": "Startseite",
+    "linkCopied": "Link kopiert",
+    "qualityExceptional": "Außergewöhnliche Qualität",
+    "amazonShipping": "Amazon Versand"
   },
   "errors": {
-    "somethingWrong": "Algo salió mal",
-    "tryAgain": "Intentar de nuevo",
-    "pageNotFound": "Página no encontrada",
-    "productNotFound": "Airfryer no encontrado",
-    "categoryNotFound": "Categoría no encontrada",
-    "amazonRedirectError": "Error al redirigir a Amazon",
-    "amazonUnavailable": "Amazon no disponible"
+    "somethingWrong": "Etwas ist schiefgelaufen",
+    "tryAgain": "Erneut versuchen",
+    "pageNotFound": "Seite nicht gefunden",
+    "productNotFound": "Airfryer nicht gefunden",
+    "categoryNotFound": "Kategorie nicht gefunden",
+    "amazonRedirectError": "Fehler beim Weiterleiten zu Amazon",
+    "amazonUnavailable": "Amazon nicht verfügbar"
   },
   "search": {
-    "placeholder": "Buscar airfryer...",
-    "noResults": "No se encontraron airfryer",
-    "searchFor": "Buscar airfryer"
+    "placeholder": "Airfryer suchen...",
+    "noResults": "Keine Airfryer gefunden",
+    "searchFor": "Airfryer suchen"
   },
   "header": {
     "search": {
-      "placeholder": "Buscar airfryer..."
+      "placeholder": "Airfryer suchen..."
     },
-    "support": "Soporte",
+    "support": "Support",
     "cart": {
-      "title": "Mi selección"
+      "title": "Meine Auswahl"
     }
   },
   "social": {
-    "shareProduct": "Compartir este airfryer",
-    "followUs": "Síguenos",
-    "customerReviews": "Opiniones de clientes Amazon"
+    "shareProduct": "Diesen Airfryer teilen",
+    "followUs": "Folge uns",
+    "customerReviews": "Amazon Kundenbewertungen"
   },
   "urgency": {
-    "orderInNext": "Pedido en las próximas",
-    "hours": "horas",
-    "minutes": "minutos",
-    "toReceiveBy": "para recibir antes del",
-    "popularChoice": "Elección popular",
-    "bestSeller": "Más vendido",
-    "almostSoldOut": "Stock limitado",
-    "amazonPrime": "Envío Prime disponible",
-    "freeShipping": "Envío gratuito"
+    "orderInNext": "Bestellung in den nächsten",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "toReceiveBy": "um zu erhalten vor",
+    "popularChoice": "Beliebte Wahl",
+    "bestSeller": "Bestseller",
+    "almostSoldOut": "Begrenzter Vorrat",
+    "amazonPrime": "Prime Versand verfügbar",
+    "freeShipping": "Kostenloser Versand"
   },
   "amazon": {
-    "buyOnAmazon": "Comprar en Amazon",
-    "viewOnAmazon": "Ver en Amazon",
-    "priceOnAmazon": "Precio en Amazon",
-    "affiliateNotice": "Como Asociado de Amazon, obtenemos ingresos por las compras que cumplan los requisitos aplicables.",
-    "redirecting": "Redirigiendo a Amazon...",
-    "openInNewTab": "Abre en una nueva pestaña"
+    "buyOnAmazon": "Bei Amazon kaufen",
+    "viewOnAmazon": "Bei Amazon ansehen",
+    "priceOnAmazon": "Preis bei Amazon",
+    "affiliateNotice": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen.",
+    "redirecting": "Weiterleitung zu Amazon...",
+    "openInNewTab": "In neuem Tab öffnen"
   },
-  "siteName": "Tu Airfryer Perfecto",
-  "companyName": "Airfryer S.L.",
+  "siteName": "Dein perfekter Airfryer",
+  "companyName": "Airfryer GmbH",
   "products": "Airfryer",
-  "productNotFound": "Airfryer no encontrado",
+  "productNotFound": "Airfryer nicht gefunden",
   "banner": {
-    "discount": "descuento",
-    "clientReviews": "opiniones de clientes",
-    "ordersDelivered": "pedidos entregados"
+    "discount": "Rabatt",
+    "clientReviews": "Kundenbewertungen",
+    "ordersDelivered": "Bestellungen geliefert"
   },
   "support": {
-    "title": "Atención al Cliente",
-    "subtitle": "Estamos aquí para ayudarte con cualquier pregunta sobre nuestros airfryer",
+    "title": "Kundenservice",
+    "subtitle": "Wir sind hier, um dir bei allen Fragen zu unseren Airfryern zu helfen",
   "faq": {
-    "title": "Preguntas frecuentes",
-    "subtitle": "Encuentra rápidamente las respuestas a tus preguntas sobre nuestros airfryer, envío, devoluciones y mucho más.",
-    "contactCta": "¿No encuentras la respuesta a tu pregunta?",
-    "contactTeam": "Contacta con nuestro equipo",
-    "sendEmail": "Enviar un email",
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finde schnell Antworten auf deine Fragen zu unseren Airfryern, Versand, Rückgaben und mehr.",
+    "contactCta": "Findest du keine Antwort auf deine Frage?",
+    "contactTeam": "Kontaktiere unser Team",
+    "sendEmail": "E-Mail senden",
     "questions": [
       {
         "id": "1",
-        "question": "¿Cuánto tiempo dura la batería de los airfryer?",
-        "answer": "Nuestros airfryer tienen una batería de larga duración que puede durar hasta 25-40 km de autonomía según el modelo. Están optimizados para un uso eficiente de la energía, garantizando una autonomía excepcional para desplazamientos urbanos diarios."
+        "question": "Wie lange hält der Akku der Airfryer?",
+        "answer": "Unsere Airfryer haben eine langlebige Batterie, die bis zu 25-40 km Reichweite je nach Modell halten kann. Sie sind für effizienten Energieverbrauch optimiert und garantieren eine außergewöhnliche Reichweite für tägliche Stadtfahrten."
       },
       {
         "id": "2",
-        "question": "¿Son seguros los airfryer?",
-        "answer": "Absolutamente. Todos nuestros airfryer cumplen con las normas de seguridad europeas más estrictas (CE, RoHS). Incluyen sistemas de seguridad avanzados, materiales resistentes al calor, y están fabricados con materiales de alta calidad. Los modelos cumplen con la normativa europea para electrodomésticos."
+        "question": "Sind Airfryer sicher?",
+        "answer": "Absolut. Alle unsere Airfryer erfüllen die strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie enthalten fortschrittliche Sicherheitssysteme, hitzebeständige Materialien und sind aus hochwertigen Materialien gefertigt. Die Modelle erfüllen die europäischen Vorschriften für Haushaltsgeräte."
       },
       {
         "id": "3",
-        "question": "¿Cómo funciona el envío gratuito?",
-        "answer": "El envío es gratuito para cualquier pedido de 50€ o más en España peninsular. Enviamos en 24 horas (días laborables) con seguimiento. Para pedidos inferiores a 50€, los gastos de envío son de 4,90€. Entrega en 2-3 días laborables."
+        "question": "Wie funktioniert der kostenlose Versand?",
+        "answer": "Der Versand ist kostenlos für alle Bestellungen ab 50€ in Deutschland. Wir versenden innerhalb von 24 Stunden (Werktage) mit Tracking. Für Bestellungen unter 50€ betragen die Versandkosten 4,90€. Lieferung in 2-3 Werktagen."
       },
       {
         "id": "4",
-        "question": "¿Puedo devolver un airfryer si no estoy satisfecho?",
-        "answer": "Sí, ofrecemos una garantía de satisfacción o reembolso de 30 días. Si no estás completamente satisfecho con tu compra, puedes devolver el airfryer en su embalaje original para un reembolso completo. Los gastos de devolución corren por tu cuenta excepto en caso de defecto."
+        "question": "Kann ich einen Airfryer zurückgeben, wenn ich nicht zufrieden bin?",
+        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn du mit deinem Kauf nicht vollständig zufrieden bist, kannst du den Airfryer in der Originalverpackung für eine vollständige Rückerstattung zurücksenden. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern."
       },
       {
         "id": "5",
-        "question": "¿Cómo usar un airfryer?",
-        "answer": "Nuestros airfryer son muy fáciles de usar. Simplemente coloca los alimentos en la cesta, ajusta la temperatura y el tiempo según la receta, y presiona el botón de inicio. Una vez terminado, el airfryer se apagará automáticamente. Un indicador luminoso te muestra el estado de la cocción."
+        "question": "Wie verwendet man einen Airfryer?",
+        "answer": "Unsere Airfryer sind sehr einfach zu bedienen. Einfach die Lebensmittel in den Korb legen, Temperatur und Zeit nach dem Rezept einstellen und den Startknopf drücken. Nach dem Ende schaltet sich der Airfryer automatisch ab. Ein Lichtindikator zeigt dir den Garzustand an."
       },
       {
         "id": "6",
-        "question": "¿Qué temperaturas están disponibles?",
-        "answer": "La mayoría de nuestros airfryer ofrecen un rango de temperaturas de 80°C a 200°C, generalmente con ajuste en incrementos de 5°C. Algunos modelos premium ofrecen ajuste continuo. La temperatura máxima es de 200°C para cocinar una amplia variedad de alimentos."
+        "question": "Welche Temperaturen sind verfügbar?",
+        "answer": "Die meisten unserer Airfryer bieten einen Temperaturbereich von 80°C bis 200°C, meist in 5°C-Schritten einstellbar. Einige Premium-Modelle bieten kontinuierliche Einstellung. Die maximale Temperatur beträgt 200°C zum Garen einer großen Vielfalt von Lebensmitteln."
       },
       {
         "id": "7",
-        "question": "¿Hay garantía en los airfryer?",
-        "answer": "Todos nuestros airfryer están cubiertos por una garantía del fabricante de 2 años que cubre los defectos de fabricación. Esta garantía se suma a tus derechos legales como consumidor. Para hacer valer la garantía, conserva tu factura y contacta con nuestro servicio al cliente."
+        "question": "Gibt es eine Garantie auf die Airfryer?",
+        "answer": "Alle unsere Airfryer sind durch eine 2-jährige Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
       },
       {
         "id": "8",
-        "question": "¿Cómo limpiar y mantener mi airfryer?",
-        "answer": "El mantenimiento es muy sencillo: usa un paño suave ligeramente húmedo para limpiar el exterior. Evita productos químicos agresivos. Para la cesta y bandeja, puedes lavarlas en el lavavajillas o con agua caliente y jabón. Revisa regularmente el filtro de aire y límpialo según las instrucciones del fabricante."
+        "question": "Wie reinige und pflege ich meinen Airfryer?",
+        "answer": "Die Wartung ist sehr einfach: Verwende ein leicht feuchtes, weiches Tuch zur Reinigung des Äußeren. Vermeide aggressive Chemikalien. Für Korb und Schale kannst du sie in der Spülmaschine oder mit heißem Wasser und Seife waschen. Überprüfe regelmäßig den Luftfilter und reinige ihn nach den Herstelleranweisungen."
       }
-    ]
+    ],
+    "deliveryTime": {
+      "question": "Wie lange dauert die Lieferung?",
+      "answer": "Die Lieferzeit hängt von deinem Standort ab. Für Deutschland beträgt die Standardlieferung 2-3 Werktage. Für Österreich und die Schweiz beträgt die Lieferzeit 3-5 Werktage. Bestellungen werden innerhalb von 24 Stunden (Werktage) bearbeitet und du erhältst eine E-Mail-Bestätigung mit der Tracking-Nummer."
+    },
+    "returns": {
+      "question": "Wie ist die Rückgaberichtlinie?",
+      "answer": "Wir bieten eine 30-tägige Zufriedenheitsgarantie. Du kannst deinen Airfryer in der Originalverpackung zurückgeben, wenn du nicht vollständig zufrieden bist. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+    },
+    "warranty": {
+      "question": "Welche Garantie haben die Airfryer?",
+      "answer": "Alle unsere Airfryer sind mit einer 2-jährigen Herstellergarantie ausgestattet, die Herstellungsfehler und technische Defekte abdeckt, die nicht durch den Benutzer verursacht wurden. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
+    },
+    "payment": {
+      "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+      "answer": "Wir akzeptieren alle gängigen Kredit- und Debitkarten (Visa, Mastercard, American Express), PayPal, Banküberweisung und Nachnahme. Alle Zahlungen werden sicher über Amazon verarbeitet und garantieren maximale Sicherheit bei deinen Transaktionen."
+    },
+    "tracking": {
+      "question": "Wie kann ich meine Bestellung verfolgen?",
+      "answer": "Sobald deine Bestellung bearbeitet wurde, erhältst du eine E-Mail-Bestätigung mit der Tracking-Nummer. Du kannst deine Sendung direkt auf der Amazon-Website oder mit der Tracking-Nummer auf der Website des Transportunternehmens verfolgen. Du kannst auch unseren Kundenservice kontaktieren, um Updates zu erhalten."
+    }
   },
     "contact": {
-      "title": "Contáctanos",
-      "subjectLabel": "Asunto",
-      "selectSubject": "Selecciona un asunto",
-      "emailLabel": "Tu email",
-      "emailPlaceholder": "tu@email.com",
-      "messageLabel": "Mensaje",
-      "messagePlaceholder": "Describe tu consulta aquí...",
-      "sendWhatsApp": "Enviar por WhatsApp",
-      "whatsappInfo": "Te responderemos por WhatsApp en menos de 2 horas",
-      "whatsappTemplate": "Hola, tengo una consulta sobre mi pedido:",
-      "subject": "Asunto",
-      "email": "Email",
-      "message": "Mensaje",
+      "title": "Kontaktiere uns",
+      "subjectLabel": "Betreff",
+      "selectSubject": "Betreff auswählen",
+      "emailLabel": "Deine E-Mail",
+      "emailPlaceholder": "deine@email.com",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Beschreibe hier deine Anfrage...",
+      "sendWhatsApp": "Per WhatsApp senden",
+      "whatsappInfo": "Wir antworten dir per WhatsApp in weniger als 2 Stunden",
+      "whatsappTemplate": "Hallo, ich habe eine Frage zu meiner Bestellung:",
+      "subject": "Betreff",
+      "email": "E-Mail",
+      "message": "Nachricht",
       "subjects": {
-        "order": "Consulta sobre pedido",
-        "refund": "Solicitud de reembolso",
-        "exchange": "Cambio de producto",
-        "quality": "Problema de calidad",
-        "delivery": "Consulta de envío",
-        "other": "Otra consulta"
+        "order": "Frage zur Bestellung",
+        "refund": "Rückerstattungsanfrage",
+        "exchange": "Produktaustausch",
+        "quality": "Qualitätsproblem",
+        "delivery": "Versandfrage",
+        "other": "Andere Anfrage"
       }
     }
   },
   "cart": {
-    "title": "Mi Selección",
-    "addToCart": "Añadir al carrito",
-    "yourCart": "Tu carrito",
-    "cartEmpty": "Tu carrito está vacío",
-    "continueShopping": "Continuar comprando",
-    "removeItem": "Eliminar",
-    "updateQuantity": "Modificar cantidad",
-    "subtotal": "Subtotal",
-    "shipping": "Envío",
-    "total": "Total",
-    "proceedToCheckout": "Finalizar pedido",
+    "title": "Meine Auswahl",
+    "addToCart": "In den Warenkorb",
+    "yourCart": "Dein Warenkorb",
+    "cartEmpty": "Dein Warenkorb ist leer",
+    "continueShopping": "Einkauf fortsetzen",
+    "removeItem": "Entfernen",
+    "updateQuantity": "Menge ändern",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "total": "Gesamt",
+    "proceedToCheckout": "Bestellung abschließen",
     "empty": {
-      "title": "Tu selección está vacía",
-      "description": "Añade airfryer a tu selección para continuar",
-      "button": "Volver a la tienda"
+      "title": "Deine Auswahl ist leer",
+      "description": "Füge Airfryer zu deiner Auswahl hinzu, um fortzufahren",
+      "button": "Zurück zum Shop"
     },
-    "removeFromCart": "Quitar del carrito",
-    "quantity": "Cantidad",
-    "price": "Precio",
-    "added": "Añadido al carrito",
-    "removed": "Quitado del carrito",
-    "updated": "Carrito actualizado",
-    "checkout": "Pedir",
-    "discountCode": "Código promocional",
-    "applyDiscount": "Aplicar",
-    "discountApplied": "Código {code} aplicado",
-    "invalidDiscount": "Código de descuento inválido",
-    "discountError": "Ha ocurrido un error",
-    "reduction": "Descuento",
-    "freeShipping": "Gratuito",
+    "removeFromCart": "Aus Warenkorb entfernen",
+    "quantity": "Menge",
+    "price": "Preis",
+    "added": "Zum Warenkorb hinzugefügt",
+    "removed": "Aus Warenkorb entfernt",
+    "updated": "Warenkorb aktualisiert",
+    "checkout": "Bestellen",
+    "discountCode": "Promocode",
+    "applyDiscount": "Anwenden",
+    "discountApplied": "Code {code} angewendet",
+    "invalidDiscount": "Ungültiger Rabattcode",
+    "discountError": "Ein Fehler ist aufgetreten",
+    "reduction": "Rabatt",
+    "freeShipping": "Kostenlos",
     "crossedOutShipping": "5,99€",
-    "orderCommand": "Pedir",
-    "totalEstimated": "Total estimado",
-    "amazonNotice": "Precio final y gastos de envío en Amazon",
-    "buyOnAmazon": "Comprar",
-    "viewFullSelection": "Ver mi selección completa",
-    "pageTitle": "Tu selección",
-    "pageSubtitle": "Tus airfryer seleccionados - Compra directamente en Amazon",
-    "summary": "Resumen",
-    "items": "artículos",
-    "clearCart": "Vaciar la selección",
-    "amazonPartner": "Compra en Amazon",
-    "amazonPartnerText": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen.",
+    "orderCommand": "Bestellen",
+    "totalEstimated": "Geschätzte Gesamtsumme",
+    "amazonNotice": "Endpreis und Versandkosten bei Amazon",
+    "buyOnAmazon": "Kaufen",
+    "viewFullSelection": "Meine vollständige Auswahl anzeigen",
+    "pageTitle": "Deine Auswahl",
+    "pageSubtitle": "Deine ausgewählten Airfryer - Kaufe direkt bei Amazon",
+    "summary": "Zusammenfassung",
+    "items": "Artikel",
+    "clearCart": "Auswahl leeren",
+    "amazonPartner": "Bei Amazon kaufen",
+    "amazonPartnerText": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen.",
     "trustSignals": {
-      "freeShipping": "Envío gratuito",
-      "securePayment": "Pago seguro", 
-      "freeReturns": "Devolución gratuita"
+      "freeShipping": "Kostenloser Versand",
+      "securePayment": "Sichere Zahlung", 
+      "freeReturns": "Kostenlose Rückgabe"
     }
   },
   "checkout": {
     "empty": {
-      "title": "Tu selección está vacía",
-      "description": "Añade airfryer a tu selección antes de proceder al pago",
-      "button": "Descubrir nuestros airfryer"
+      "title": "Deine Auswahl ist leer",
+      "description": "Füge Airfryer zu deiner Auswahl hinzu, bevor du zur Zahlung gehst",
+      "button": "Unsere Airfryer entdecken"
     },
-    "backToCart": "Volver a la selección",
-    "pageTitle": "Finalizar tu compra",
-    "pageSubtitle": "Serás redirigido a Amazon para completar tu pedido",
+    "backToCart": "Zurück zur Auswahl",
+    "pageTitle": "Deinen Kauf abschließen",
+    "pageSubtitle": "Du wirst zu Amazon weitergeleitet, um deine Bestellung abzuschließen",
     "securePurchase": {
-      "title": "Compra segura en Amazon",
-      "subtitle": "Disfruta de la seguridad y garantías de Amazon"
+      "title": "Sicherer Kauf bei Amazon",
+      "subtitle": "Genieße die Sicherheit und Garantien von Amazon"
     },
     "benefits": {
-      "securePayment": "Pago 100% seguro",
-      "fastShipping": "Envío rápido con Amazon Prime",
-      "allPayments": "Todos los métodos de pago aceptados"
+      "securePayment": "100% sichere Zahlung",
+      "fastShipping": "Schneller Versand mit Amazon Prime",
+      "allPayments": "Alle Zahlungsmethoden akzeptiert"
     },
     "amazonGuarantee": {
-      "title": "Garantía Amazon A-Z",
-      "description": "Tus compras están protegidas por la garantía Amazon A-Z. Devoluciones gratuitas y reembolso completo en caso de problema."
+      "title": "Amazon A-Z Garantie",
+      "description": "Deine Käufe sind durch die Amazon A-Z Garantie geschützt. Kostenlose Rückgaben und vollständige Rückerstattung bei Problemen."
     },
     "partnerInfo": {
-      "title": "Información de Socio",
-      "description": "Como Socio de Amazon, obtenemos ingresos por las compras que califiquen. Esto no afecta el precio que pagas."
+      "title": "Partner-Information",
+      "description": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen. Dies beeinflusst nicht den Preis, den du zahlst."
     },
     "orderSummary": {
-      "title": "Resumen de tu selección",
-      "quantity": "Cantidad",
-      "subtotal": "Subtotal",
-      "shipping": "Gastos de envío",
-      "shippingNote": "Calculados en Amazon",
-      "totalEstimated": "Total estimado",
-      "finalPrice": "Precio final en Amazon"
+      "title": "Zusammenfassung deiner Auswahl",
+      "quantity": "Menge",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versandkosten",
+      "shippingNote": "Bei Amazon berechnet",
+      "totalEstimated": "Geschätzte Gesamtsumme",
+      "finalPrice": "Endpreis bei Amazon"
     },
     "buttons": {
-      "continueToAmazon": "Continuar en Amazon",
-      "modifySelection": "Modificar mi selección"
+      "continueToAmazon": "Bei Amazon fortfahren",
+      "modifySelection": "Meine Auswahl ändern"
     }
   },
   "floatingButtons": {
-    "videoTooltip": "Ver el vídeo",
-    "cartTooltip": "Selección",
-    "cartAriaLabel": "Ver la selección",
-    "closeVideoAriaLabel": "Cerrar el vídeo"
+    "videoTooltip": "Video ansehen",
+    "cartTooltip": "Auswahl",
+    "cartAriaLabel": "Auswahl anzeigen",
+    "closeVideoAriaLabel": "Video schließen"
   },
   "exitIntent": {
-    "title": "¡Espera! No te vayas con las manos vacías",
-    "subtitle": "Tienes {count} artículo{plural} en tu selección",
+    "title": "Warte! Geh nicht mit leeren Händen",
+    "subtitle": "Du hast {count} Artikel{plural} in deiner Auswahl",
     "specialOffer": {
-      "title": "OFERTA ESPECIAL LIMITADA",
-      "discount": "15% DE DESCUENTO",
-      "saveAmount": "Ahorra {amount} en tu pedido",
-      "currentPrice": "Precio actual",
-      "newPrice": "Nuevo precio",
-      "expiresIn": "Esta oferta expira en:"
+      "title": "LIMITIERTES SPEZIALANGEBOT",
+      "discount": "35% RABATT",
+      "saveAmount": "Spare {amount} bei deiner Bestellung",
+      "currentPrice": "Aktueller Preis",
+      "newPrice": "Neuer Preis",
+      "expiresIn": "Dieses Angebot läuft ab in:"
     },
     "cartPreview": {
-      "title": "Tus artículos seleccionados",
-      "quantity": "Cantidad",
-      "moreItems": "+{count} artículo{plural} más"
+      "title": "Deine ausgewählten Artikel",
+      "quantity": "Menge",
+      "moreItems": "+{count} weitere Artikel{plural}"
     },
     "trustSignals": {
-      "shipping": "Envío",
-      "free": "Gratuito",
-      "returns": "Devoluciones",
-      "days": "30 días",
-      "warranty": "Garantía",
-      "years": "2 años"
+      "shipping": "Versand",
+      "free": "Kostenlos",
+      "returns": "Rückgaben",
+      "days": "30 Tage",
+      "warranty": "Garantie",
+      "years": "2 Jahre"
     },
     "buttons": {
-      "takeOffer": "Aprovechar la oferta",
-      "continueShopping": "Continuar comprando"
+      "takeOffer": "Angebot nutzen",
+      "continueShopping": "Einkauf fortsetzen"
     },
-    "footer": "Código promocional aplicado automáticamente al checkout"
+    "footer": "Promocode wird automatisch beim Checkout angewendet"
   },
   "trustSignals": {
-    "freeShipping": "Envío gratuito",
-    "freeReturns": "Devoluciones gratuitas en 30 días",
-    "warranty": "Protección completa incluida",
-    "expertSupport": "Soporte experto",
-    "customerSupport": "Asistencia 7 días por chat y teléfono"
+    "freeShipping": "Kostenloser Versand",
+    "freeReturns": "Kostenlose Rückgaben in 30 Tagen",
+    "warranty": "Vollständiger Schutz inklusive",
+    "expertSupport": "Experten-Support",
+    "customerSupport": "Kundenservice 7 Tage per Chat und Telefon"
   },
   "promotions": {
-    "freeShipping": "Envío gratuito"
+    "freeShipping": "Kostenloser Versand"
   },
   "product": {
-    "description": "Descripción",
-    "specifications": "Especificaciones",
-    "customerReviews": "Opiniones de clientes",
-    "faq": "Preguntas frecuentes",
-    "alsoLike": "También te puede gustar",
-    "alsoLikeSubtitle": "Otros airfryer que podrían interesarte",
-    "buyNow": "Comprar ahora",
-    "loading": "Cargando...",
-    "notFound": "Producto no encontrado",
-    "notFoundDescription": "El producto que buscas no está disponible",
-    "viewersCount": "personas consultan este producto",
-    "lastOrderBy": "Última compra por",
-    "temporarilyUnavailable": "Temporalmente no disponible",
-    "limitedStock": "Stock limitado",
-    "remaining": "restantes",
-    "inStock": "En stock",
-    "savings": "Ahorro de",
-    "paymentInstallments": "Pago en varias veces",
-    "secureTransaction": "Transacción segura",
-    "delivery48h": "Entrega en 48h",
-    "quantity": "Cantidad",
-    "redirecting": "Redirigiendo...",
-    "buyOnAmazon": "Comprar",
-    "favorites": "Favoritos",
-    "share": "Compartir",
-    "technicalSpecifications": "Especificaciones técnicas",
-    "noSpecifications": "No hay especificaciones disponibles para este producto",
-    "frequentlyAskedQuestions": "Preguntas frecuentes",
-    "basedOnReviews": "Basado en",
-    "reviews": "opiniones",
-    "clientsRecommend": "de los clientes recomiendan este producto",
-    "similarProductsLoading": "Cargando productos similares...",
-    "limitedOffer": "Oferta limitada",
-    "expiresIn": "Termina en",
-    "quickPreview": "Vista rápida",
-    "saveAmount": "Ahorra {amount}"
+    "description": "Beschreibung",
+    "specifications": "Spezifikationen",
+    "customerReviews": "Kundenbewertungen",
+    "faq": "Häufig gestellte Fragen",
+    "alsoLike": "Das könnte dir auch gefallen",
+    "alsoLikeSubtitle": "Andere Airfryer, die dich interessieren könnten",
+    "buyNow": "Jetzt kaufen",
+    "loading": "Wird geladen...",
+    "notFound": "Produkt nicht gefunden",
+    "notFoundDescription": "Das gesuchte Produkt ist nicht verfügbar",
+    "viewersCount": "Personen schauen sich dieses Produkt an",
+    "lastOrderBy": "Letzte Bestellung von",
+    "temporarilyUnavailable": "Vorübergehend nicht verfügbar",
+    "limitedStock": "Begrenzter Vorrat",
+    "remaining": "verbleibend",
+    "inStock": "Auf Lager",
+    "savings": "Ersparnis von",
+    "paymentInstallments": "Ratenzahlung",
+    "secureTransaction": "Sichere Transaktion",
+    "delivery48h": "Lieferung in 48h",
+    "quantity": "Menge",
+    "redirecting": "Weiterleitung...",
+    "buyOnAmazon": "Kaufen",
+    "favorites": "Favoriten",
+    "share": "Teilen",
+    "technicalSpecifications": "Technische Spezifikationen",
+    "noSpecifications": "Keine Spezifikationen für dieses Produkt verfügbar",
+    "frequentlyAskedQuestions": "Häufig gestellte Fragen",
+    "basedOnReviews": "Basierend auf",
+    "reviews": "Bewertungen",
+    "clientsRecommend": "der Kunden empfehlen dieses Produkt",
+    "similarProductsLoading": "Ähnliche Produkte werden geladen...",
+    "limitedOffer": "Limitiertes Angebot",
+    "expiresIn": "Läuft ab in",
+    "quickPreview": "Schnellvorschau",
+    "saveAmount": "Spare {amount}"
   },
   "hero": {
     "expertise": {
-      "title": "¡Airfryer Perfecto!",
-      "subtitle": "Cocina saludable y deliciosa. Calidad y rendimiento garantizados.",
-      "cta": "¡Compra Ahora!"
+      "title": "Perfekter Airfryer!",
+      "subtitle": "Gesundes und leckeres Kochen. Qualität und Leistung garantiert.",
+      "cta": "Jetzt kaufen!"
     },
     "trust": {
-      "rating": "4.9/5",
-      "badge": "★★★★★ Clientes Satisfechos",
-      "reviews": "Más de 2000+ opiniones verificadas",
-      "delivery": "Envío Gratis 24h",
-      "guarantee": "Garantía Total 2 años"
+      "rating": "4,9/5",
+      "badge": "★★★★★ Zufriedene Kunden",
+      "reviews": "Mehr als 2000+ verifizierte Bewertungen",
+      "delivery": "Kostenloser Versand 24h",
+      "guarantee": "Vollständige Garantie 2 Jahre"
     },
     "features": {
       "quality": {
-        "title": "Cocción Saludable",
-        "description": "Hasta 80% menos aceite. Perfecto para cocinar alimentos saludables sin comprometer el sabor."
+        "title": "Gesundes Garen",
+        "description": "Bis zu 80% weniger Öl. Perfekt für gesundes Kochen ohne Geschmackskompromisse."
       },
       "design": {
-        "title": "Temperatura Precisa",
-        "description": "Control de temperatura preciso de 80°C a 200°C. Adapta la cocción a cada tipo de alimento."
+        "title": "Präzise Temperatur",
+        "description": "Präzise Temperaturkontrolle von 80°C bis 200°C. Passe das Garen an jede Lebensmittelart an."
       },
       "innovation": {
-        "title": "Tecnología Avanzada",
-        "description": "Circulación de aire caliente 360°. Cocción uniforme y resultados perfectos en cada uso."
+        "title": "Fortschrittliche Technologie",
+        "description": "360° Heißluftzirkulation. Gleichmäßiges Garen und perfekte Ergebnisse bei jeder Verwendung."
       },
       "support": {
-        "title": "Servicio al Cliente Premium",
-        "description": "Atención personalizada para resolver cualquier duda. Te acompañamos en cada paso."
+        "title": "Premium Kundenservice",
+        "description": "Persönliche Betreuung zur Lösung aller Fragen. Wir begleiten dich bei jedem Schritt."
       }
     }
   },
   "homepage": {
-    "title": "Inicio",
-    "loading": "Cargando...",
+    "title": "Startseite",
+    "loading": "Wird geladen...",
     "hero": {
       "featured": {
-        "title": "¡Tu airfryer, tu cocina!",
-        "subtitle": "Cocina saludable y deliciosa. Libertad culinaria para toda la familia.",
-        "loading": "Cargando tu libertad...",
-        "viewAll": "¡Ofertas limitadas!"
+        "title": "Dein Airfryer, deine Küche!",
+        "subtitle": "Gesundes und leckeres Kochen. Kulinarische Freiheit für die ganze Familie.",
+        "loading": "Deine Freiheit wird geladen...",
+        "viewAll": "Limitierten Angebote!"
       }
     },
     "whyChoose": {
-      "title": "¿Por Qué Elegirnos?",
-      "subtitle": "Descubre las ventajas exclusivas que nos convierten en la mejor opción para airfryer",
+      "title": "Warum uns wählen?",
+      "subtitle": "Entdecke die exklusiven Vorteile, die uns zur besten Wahl für Airfryer machen",
       "advantage1": {
-        "title": "Calidad Premium",
-        "description": "Airfryer de la más alta calidad, diseñados con materiales duraderos y tecnología avanzada para máxima durabilidad."
+        "title": "Premium Qualität",
+        "description": "Airfryer von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Haltbarkeit."
       },
       "advantage2": {
-        "title": "Envío Rápido",
-        "description": "Entrega gratuita en 24-48 horas en toda España. Tu cocina es nuestra prioridad, por eso garantizamos entregas rápidas y seguras."
+        "title": "Schneller Versand",
+        "description": "Kostenlose Lieferung in 24-48 Stunden in ganz Deutschland. Deine Küche ist unsere Priorität, deshalb garantieren wir schnelle und sichere Lieferungen."
       },
       "advantage3": {
-        "title": "Soporte Especializado",
-        "description": "Equipo de atención al cliente especializado en airfryer. Te ayudamos con cualquier duda o problema que puedas tener."
+        "title": "Spezialisierter Support",
+        "description": "Kundenservice-Team spezialisiert auf Airfryer. Wir helfen dir bei allen Fragen oder Problemen, die du haben könntest."
       },
       "advantage4": {
-        "title": "Garantía Completa",
-        "description": "Garantía de 2 años en todos nuestros productos. Tu satisfacción está garantizada con nuestro servicio post-venta excepcional."
+        "title": "Vollständige Garantie",
+        "description": "2-Jahres-Garantie auf alle unsere Produkte. Deine Zufriedenheit ist mit unserem außergewöhnlichen After-Sales-Service garantiert."
       },
       "comparison": {
-        "title": "Comparación con la Competencia",
-        "subtitle": "Descubre por qué Airfryer se destaca de la competencia",
-        "us": "Nosotros",
-        "others": "Otros",
-        "criteria": "Criterios",
-        "quality": "Calidad",
-        "standardQuality": "Calidad estándar",
-        "fastShipping": "Envío rápido 24h",
-        "slowShipping": "Envío lento 5-7 días",
-        "warranty": "Garantía 2 años",
-        "limitedWarranty": "Garantía limitada",
-        "support": "Soporte especializado",
-        "basicSupport": "Soporte básico"
+        "title": "Vergleich mit der Konkurrenz",
+        "subtitle": "Entdecke, warum Airfryer sich von der Konkurrenz abhebt",
+        "us": "Wir",
+        "others": "Andere",
+        "criteria": "Kriterien",
+        "quality": "Qualität",
+        "standardQuality": "Standard-Qualität",
+        "fastShipping": "Schneller Versand 24h",
+        "slowShipping": "Langsamer Versand 5-7 Tage",
+        "warranty": "2-Jahres-Garantie",
+        "limitedWarranty": "Begrenzte Garantie",
+        "support": "Spezialisierter Support",
+        "basicSupport": "Grundlegender Support"
       },
-      "cta": "Únete a nuestros 15.000+ clientes satisfechos"
+      "cta": "Schließe dich unseren 15.000+ zufriedenen Kunden an"
     }
   },
   "footer": {
-    "copyright": "Todos los derechos reservados",
-    "companyDescription": "Especialistas en airfryer de alta calidad. Cocina saludable y soporte experto.",
+    "copyright": "Alle Rechte vorbehalten",
+    "companyDescription": "Spezialisten für hochwertige Airfryer. Gesundes Kochen und Experten-Support.",
     "legal": {
-      "title": "Información Legal",
-      "terms": "Términos y Condiciones",
-      "privacy": "Política de Privacidad",
-      "cookies": "Política de Cookies",
-      "returns": "Política de Devoluciones",
-      "shipping": "Información de Envío",
-      "warranty": "Garantía",
-      "contact": "Contacto"
+      "title": "Rechtliche Informationen",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "cookies": "Cookie-Richtlinie",
+      "returns": "Rückgaberichtlinie",
+      "shipping": "Versandinformationen",
+      "warranty": "Garantie",
+      "contact": "Kontakt"
     },
     "company": {
-      "title": "Empresa",
-      "about": "Sobre Nosotros",
-      "careers": "Trabaja con Nosotros",
-      "press": "Prensa",
-      "partners": "Socios"
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "careers": "Karriere",
+      "press": "Presse",
+      "partners": "Partner"
     },
     "support": {
-      "title": "Soporte",
-      "help": "Centro de Ayuda",
-      "faq": "Preguntas Frecuentes",
-      "shipping": "Envíos",
-      "returns": "Devoluciones",
-      "warranty": "Garantía"
+      "title": "Support",
+      "help": "Hilfezentrum",
+      "faq": "Häufig gestellte Fragen",
+      "shipping": "Versand",
+      "returns": "Rückgaben",
+      "warranty": "Garantie"
     },
     "social": {
-      "title": "Síguenos",
+      "title": "Folge uns",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "instagram": "Instagram",
@@ -501,196 +521,196 @@
     }
   },
   "terms": {
-    "title": "Términos y Condiciones",
-    "subtitle": "Condiciones de uso de nuestros servicios",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Bienvenido a Patinetes Eléctricos. Estos términos y condiciones rigen el uso de nuestro sitio web y servicios.",
-    "acceptance": "Al acceder y utilizar nuestro sitio web, aceptas estos términos en su totalidad.",
+    "title": "Allgemeine Geschäftsbedingungen",
+    "subtitle": "Nutzungsbedingungen für unsere Dienstleistungen",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Willkommen bei Airfryer. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und Dienstleistungen.",
+    "acceptance": "Durch den Zugriff auf und die Nutzung unserer Website akzeptierst du diese Bedingungen vollständig.",
     "general": {
-      "title": "Disposiciones Generales",
-      "content1": "Estos términos y condiciones regulan el uso de nuestro sitio web y los servicios que ofrecemos. Al utilizar nuestros servicios, aceptas cumplir con todas las disposiciones aquí establecidas.",
-      "content2": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación en nuestro sitio web."
+      "title": "Allgemeine Bestimmungen",
+      "content1": "Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und der von uns angebotenen Dienstleistungen. Durch die Nutzung unserer Dienstleistungen verpflichtest du dich, alle hier festgelegten Bestimmungen einzuhalten.",
+      "content2": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft."
     },
     "orders": {
-      "title": "Pedidos y Compras",
-      "process": "Todos los pedidos se procesan a través de Amazon. Al hacer clic en 'Comprar en Amazon', serás redirigido al sitio de Amazon para completar tu compra.",
-      "confirmation": "La confirmación del pedido se realizará directamente por Amazon. Recibirás un email de confirmación de Amazon con los detalles de tu compra.",
-      "payment": "Todos los pagos se procesan de forma segura a través de Amazon. Aceptamos todas las formas de pago disponibles en Amazon."
+      "title": "Bestellungen und Käufe",
+      "process": "Alle Bestellungen werden über Amazon abgewickelt. Durch Klicken auf 'Bei Amazon kaufen' wirst du zur Amazon-Website weitergeleitet, um deinen Kauf abzuschließen.",
+      "confirmation": "Die Bestellbestätigung erfolgt direkt durch Amazon. Du erhältst eine Bestätigungs-E-Mail von Amazon mit den Details deines Kaufs.",
+      "payment": "Alle Zahlungen werden sicher über Amazon abgewickelt. Wir akzeptieren alle bei Amazon verfügbaren Zahlungsmethoden."
     },
     "prices": {
-      "title": "Precios y Pagos",
-      "currency": "Todos los precios se muestran en euros (€) e incluyen el IVA aplicable. Los precios pueden variar según la disponibilidad y las ofertas de Amazon."
+      "title": "Preise und Zahlungen",
+      "currency": "Alle Preise werden in Euro (€) angezeigt und enthalten die anwendbare Mehrwertsteuer. Die Preise können je nach Verfügbarkeit und Amazon-Angeboten variieren."
     },
     "services": {
-      "title": "Nuestros Servicios",
-      "description": "Proporcionamos información sobre patinetes eléctricos de alta calidad y facilitamos la compra a través de Amazon."
+      "title": "Unsere Dienstleistungen",
+      "description": "Wir bieten Informationen über hochwertige Airfryer und erleichtern den Kauf über Amazon."
     },
     "userObligations": {
-      "title": "Obligaciones del Usuario",
-      "description": "Los usuarios deben proporcionar información veraz y utilizar nuestros servicios de manera responsable."
+      "title": "Benutzerpflichten",
+      "description": "Benutzer müssen wahrheitsgemäße Informationen bereitstellen und unsere Dienstleistungen verantwortungsvoll nutzen."
     },
     "liability": {
-      "title": "Limitación de Responsabilidad",
-      "description": "No nos hacemos responsables de los productos comprados a través de Amazon. Consulta los términos de Amazon para más información."
+      "title": "Haftungsbeschränkung",
+      "description": "Wir übernehmen keine Verantwortung für über Amazon gekaufte Produkte. Konsultiere die Amazon-Bedingungen für weitere Informationen."
     },
     "modifications": {
-      "title": "Modificaciones",
-      "description": "Nos reservamos el derecho de modificar estos términos en cualquier momento."
+      "title": "Änderungen",
+      "description": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern."
     }
   },
   "privacy": {
-    "title": "Política de Privacidad",
-    "subtitle": "Cómo protegemos y utilizamos tu información personal",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "En Patinetes Eléctricos respetamos tu privacidad y nos comprometemos a proteger tu información personal.",
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Wie wir deine persönlichen Informationen schützen und verwenden",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Bei Airfryer respektieren wir deine Privatsphäre und verpflichten uns, deine persönlichen Informationen zu schützen.",
     "dataCollection": {
-      "title": "Información que Recopilamos",
-      "description": "Recopilamos información que nos proporcionas voluntariamente, como tu nombre y dirección de email."
+      "title": "Informationen, die wir sammeln",
+      "description": "Wir sammeln Informationen, die du uns freiwillig zur Verfügung stellst, wie deinen Namen und deine E-Mail-Adresse."
     },
     "dataUsage": {
-      "title": "Cómo Utilizamos tu Información",
-      "description": "Utilizamos tu información para mejorar nuestros servicios y comunicarnos contigo sobre productos relevantes."
+      "title": "Wie wir deine Informationen verwenden",
+      "description": "Wir verwenden deine Informationen, um unsere Dienstleistungen zu verbessern und mit dir über relevante Produkte zu kommunizieren."
     },
     "dataProtection": {
-      "title": "Protección de Datos",
-      "description": "Implementamos medidas de seguridad para proteger tu información personal contra acceso no autorizado."
+      "title": "Datenschutz",
+      "description": "Wir implementieren Sicherheitsmaßnahmen zum Schutz deiner persönlichen Informationen vor unbefugtem Zugriff."
     },
     "cookies": {
       "title": "Cookies",
-      "description": "Utilizamos cookies para mejorar tu experiencia de navegación y analizar el uso del sitio."
+      "description": "Wir verwenden Cookies, um deine Browsing-Erfahrung zu verbessern und die Nutzung der Website zu analysieren."
     },
     "rights": {
-      "title": "Tus Derechos",
-      "description": "Tienes derecho a acceder, rectificar, eliminar o portar tus datos personales."
+      "title": "Deine Rechte",
+      "description": "Du hast das Recht, auf deine persönlichen Daten zuzugreifen, sie zu berichtigen, zu löschen oder zu übertragen."
     }
   },
   "cookies": {
-    "title": "Política de Cookies",
-    "subtitle": "Información sobre el uso de cookies en nuestro sitio",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Este sitio web utiliza cookies para mejorar tu experiencia de navegación.",
+    "title": "Cookie-Richtlinie",
+    "subtitle": "Informationen über die Verwendung von Cookies auf unserer Website",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Diese Website verwendet Cookies, um deine Browsing-Erfahrung zu verbessern.",
     "whatAreCookies": {
-      "title": "¿Qué son las Cookies?",
-      "description": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas nuestro sitio web."
+      "title": "Was sind Cookies?",
+      "description": "Cookies sind kleine Textdateien, die auf deinem Gerät gespeichert werden, wenn du unsere Website besuchst."
     },
     "typesOfCookies": {
-      "title": "Tipos de Cookies que Utilizamos",
-      "essential": "Cookies esenciales: Necesarias para el funcionamiento básico del sitio",
-      "analytics": "Cookies de análisis: Nos ayudan a entender cómo utilizas nuestro sitio",
-      "marketing": "Cookies de marketing: Para mostrarte contenido relevante"
+      "title": "Arten von Cookies, die wir verwenden",
+      "essential": "Wesentliche Cookies: Notwendig für die grundlegende Funktionalität der Website",
+      "analytics": "Analyse-Cookies: Helfen uns zu verstehen, wie du unsere Website nutzt",
+      "marketing": "Marketing-Cookies: Um dir relevante Inhalte zu zeigen"
     },
     "managingCookies": {
-      "title": "Gestionar Cookies",
-      "description": "Puedes controlar y eliminar las cookies a través de la configuración de tu navegador."
+      "title": "Cookies verwalten",
+      "description": "Du kannst Cookies über die Einstellungen deines Browsers kontrollieren und löschen."
     }
   },
   "returns": {
-    "title": "Política de Devoluciones",
-    "subtitle": "Información sobre devoluciones y reembolsos",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Entendemos que a veces necesitas devolver un producto. Aquí te explicamos nuestro proceso de devoluciones.",
+    "title": "Rückgaberichtlinie",
+    "subtitle": "Informationen über Rückgaben und Erstattungen",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir verstehen, dass du manchmal ein Produkt zurückgeben musst. Hier erklären wir dir unseren Rückgabeprozess.",
     "returnPeriod": {
-      "title": "Período de Devolución",
-      "description": "Tienes 30 días desde la fecha de entrega para devolver cualquier producto."
+      "title": "Rückgabefrist",
+      "description": "Du hast 30 Tage ab dem Lieferdatum, um jedes Produkt zurückzugeben."
     },
     "returnConditions": {
-      "title": "Condiciones de Devolución",
-      "description": "El producto debe estar en su estado original, con todos los accesorios y embalaje original."
+      "title": "Rückgabebedingungen",
+      "description": "Das Produkt muss in seinem ursprünglichen Zustand sein, mit allen Zubehörteilen und der Originalverpackung."
     },
     "returnProcess": {
-      "title": "Proceso de Devolución",
-      "description": "Contacta con nuestro servicio de atención al cliente para iniciar el proceso de devolución."
+      "title": "Rückgabeprozess",
+      "description": "Kontaktiere unseren Kundenservice, um den Rückgabeprozess zu starten."
     },
     "refunds": {
-      "title": "Reembolsos",
-      "description": "Los reembolsos se procesarán una vez recibido y verificado el producto devuelto."
+      "title": "Erstattungen",
+      "description": "Erstattungen werden verarbeitet, sobald das zurückgegebene Produkt erhalten und überprüft wurde."
     }
   },
   "shipping": {
-    "title": "Información de Envío",
-    "subtitle": "Detalles sobre envíos y entregas",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Información importante sobre nuestros servicios de envío y entrega.",
+    "title": "Versandinformationen",
+    "subtitle": "Details zu Versand und Lieferung",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wichtige Informationen über unsere Versand- und Lieferdienstleistungen.",
     "shippingMethods": {
-      "title": "Métodos de Envío",
-      "description": "Todos los productos se envían a través de Amazon con envío estándar o Prime."
+      "title": "Versandmethoden",
+      "description": "Alle Produkte werden über Amazon mit Standard- oder Prime-Versand versendet."
     },
     "deliveryTimes": {
-      "title": "Tiempos de Entrega",
-      "description": "Los tiempos de entrega varían según la ubicación, generalmente entre 1-3 días laborables."
+      "title": "Lieferzeiten",
+      "description": "Die Lieferzeiten variieren je nach Standort, in der Regel zwischen 1-3 Werktagen."
     },
     "shippingCosts": {
-      "title": "Costos de Envío",
-      "description": "Los costos de envío se calculan automáticamente en Amazon según tu ubicación."
+      "title": "Versandkosten",
+      "description": "Die Versandkosten werden automatisch bei Amazon basierend auf deinem Standort berechnet."
     },
     "tracking": {
-      "title": "Seguimiento de Envíos",
-      "description": "Recibirás un número de seguimiento para monitorear el estado de tu envío."
+      "title": "Sendungsverfolgung",
+      "description": "Du erhältst eine Tracking-Nummer, um den Status deiner Sendung zu verfolgen."
     }
   },
   "warranty": {
-    "title": "Garantía",
-    "subtitle": "Información sobre garantías de productos",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Todos nuestros productos incluyen garantía del fabricante y protección adicional.",
+    "title": "Garantie",
+    "subtitle": "Informationen über Produktgarantien",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Alle unsere Produkte umfassen Herstellergarantie und zusätzlichen Schutz.",
     "manufacturerWarranty": {
-      "title": "Garantía del Fabricante",
-      "description": "Todos los productos incluyen la garantía estándar del fabricante, generalmente de 2 años."
+      "title": "Herstellergarantie",
+      "description": "Alle Produkte umfassen die Standard-Herstellergarantie, in der Regel 2 Jahre."
     },
     "amazonProtection": {
-      "title": "Protección Amazon A-Z",
-      "description": "Todos los productos están protegidos por la garantía Amazon A-Z."
+      "title": "Amazon A-Z Schutz",
+      "description": "Alle Produkte sind durch die Amazon A-Z Garantie geschützt."
     },
     "warrantyCoverage": {
-      "title": "Cobertura de Garantía",
-      "description": "La garantía cubre defectos de fabricación y fallos técnicos no causados por el usuario."
+      "title": "Garantieabdeckung",
+      "description": "Die Garantie deckt Herstellungsfehler und technische Defekte ab, die nicht durch den Benutzer verursacht wurden."
     },
     "warrantyClaims": {
-      "title": "Reclamaciones de Garantía",
-      "description": "Para reclamaciones de garantía, contacta directamente con Amazon o el fabricante."
+      "title": "Garantieansprüche",
+      "description": "Für Garantieansprüche kontaktiere direkt Amazon oder den Hersteller."
     }
   },
   "about": {
-    "title": "Sobre Nosotros",
-    "subtitle": "Conoce más sobre Airfryer",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Somos especialistas en airfryer de alta calidad para cocina saludable y deliciosa.",
+    "title": "Über uns",
+    "subtitle": "Erfahre mehr über Airfryer",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir sind Spezialisten für hochwertige Airfryer für gesundes und leckeres Kochen.",
     "mission": {
-      "title": "Nuestra Misión",
-      "description": "Facilitar la cocina saludable y deliciosa con airfryer de alta calidad, tecnología avanzada y soporte experto."
+      "title": "Unsere Mission",
+      "description": "Gesundes und leckeres Kochen mit hochwertigen Airfryern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
     },
     "values": {
-      "title": "Nuestros Valores",
-      "description": "Simplicidad, calidad, soporte personalizado y confianza son los pilares de nuestro servicio."
+      "title": "Unsere Werte",
+      "description": "Einfachheit, Qualität, persönlicher Support und Vertrauen sind die Säulen unseres Service."
     },
     "team": {
-      "title": "Nuestro Equipo",
-      "description": "Contamos con expertos en cocina saludable y atención al cliente especializados en airfryer."
+      "title": "Unser Team",
+      "description": "Wir haben Experten für gesundes Kochen und Kundenservice, die auf Airfryer spezialisiert sind."
     }
   },
   "contact": {
-    "title": "Contacto",
-    "subtitle": "Ponte en contacto con nosotros",
-    "lastUpdated": "Última actualización:",
-    "lastUpdatedDate": "12 de septiembre de 2025",
-    "introduction": "Estamos aquí para ayudarte con cualquier consulta sobre airfryer.",
+    "title": "Kontakt",
+    "subtitle": "Kontaktiere uns",
+    "lastUpdated": "Letzte Aktualisierung:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir sind hier, um dir bei allen Fragen zu Airfryern zu helfen.",
     "methods": {
-      "title": "Métodos de Contacto",
-      "phone": "Teléfono: +34 900 123 456",
-      "email": "Email: info@airfryer.com",
-      "whatsapp": "WhatsApp: +34 600 123 456",
-      "hours": "Horario de atención: Lunes a Viernes, 9:00 - 18:00"
+      "title": "Kontaktmethoden",
+      "phone": "Telefon: +49 900 123 456",
+      "email": "E-Mail: info@airfryer.de",
+      "whatsapp": "WhatsApp: +49 600 123 456",
+      "hours": "Servicezeiten: Montag bis Freitag, 9:00 - 18:00"
     },
     "responseTime": {
-      "title": "Tiempo de Respuesta",
-      "description": "Respondemos a todas las consultas en menos de 24 horas."
+      "title": "Antwortzeit",
+      "description": "Wir beantworten alle Anfragen in weniger als 24 Stunden."
     }
   }
 }

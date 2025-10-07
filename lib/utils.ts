@@ -18,7 +18,10 @@ export function cn(...inputs: ClassValue[]) {
  * @returns Readable title (e.g., 'Cecotec Freidora de Aire de 5.5L Air Fryer Cecofry')
  */
 export function slugToReadableTitle(slug: string): string {
-  return slug
+  // First decode URL-encoded characters (like %C3%9F for ß)
+  const decodedSlug = decodeURIComponent(slug);
+  
+  return decodedSlug
     .split('-')
     .map(word => {
       // Capitalize first letter of each word

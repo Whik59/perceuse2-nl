@@ -1,34 +1,39 @@
 {
   "categoryId": 98,
-  "name": "airfryer rack",
-  "slug": "airfryer-rack",
-  "seo_title": "Mejores Rejillas Airfryer: Duplica Espacio de Cocción",
-  "seo_description": "Airfryer Rack ✅ Doble nivel. ¡Cocina más en tu freidora!",
-  "keywords": [
-    "rack airfryer",
-    "rejilla freidora aire",
-    "soporte airfryer",
-    "accesorios airfryer rack",
-    "parrilla airfryer"
-  ],
+  "categoryNameCanonical": "airfryer digital",
+  "slug": "airfryer-digital",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Digitale Heißluftfritteusen günstig kaufen. Top-Produkte & beste Angebote schon ab 19€!",
+  "content": "<div><h2>Digitale Airfryer: Top-Produkte & unwiderstehliche Angebote ab 19€</h2><p>Entdecken Sie die Zukunft des Kochens mit unseren digitalen Airfryern! Diese modernen Heißluftfritteusen revolutionieren Ihre Küche, indem sie gesunde und knusprige Gerichte mit minimalem Öleinsatz zubereiten. Von präziser Temperaturregelung über intelligente Voreinstellungen bis hin zur einfachen Touch-Bedienung – ein digitaler Airfryer ist Ihr idealer Küchenhelfer für eine moderne Ernährung. Bei uns finden Sie die besten <strong>Produkte</strong> zum <strong>besten Preis</strong>, mit fantastischen <strong>Angeboten</strong> schon ab unglaublichen <strong>19€</strong>! Egal ob Sie frittieren, backen, grillen oder braten möchten, unsere digitalen Heißluftfritteusen liefern stets perfekte Ergebnisse. Profitieren Sie von schnellerer Zubereitung, einfachem Kochen und gesünderen Mahlzeiten. Tauchen Sie ein in unsere vielfältige Auswahl und finden Sie den perfekten digitalen Airfryer, der zu Ihrem Lebensstil passt.</p></div>",
+  "seo": {
+    "title": "Airfryer Digital Kaufen | Beste Angebote ab 19€",
+    "description": "Digitale Heißluftfritteusen günstig kaufen. Top-Produkte & beste Angebote schon ab 19€!",
+    "keywords": [
+      "Airfryer Digital",
+      "Digitale Heißluftfritteuse",
+      "Airfryer Angebote",
+      "Airfryer Kaufen",
+      "Bester Preis Airfryer",
+      "Airfryer Produkte"
+    ],
+    "enhancedAt": "2025-10-07T22:49:03.881267"
+  },
   "faq": [
     {
-      "question": "¿Para qué sirve un rack o rejilla para airfryer?",
-      "answer": "Un rack maximiza el espacio de tu airfryer, permitiéndote cocinar más alimentos a la vez o apilar capas. Es ideal para deshidratar, tostar o cocinar diferentes platos simultáneamente, ahorrando tiempo y energía."
+      "question": "Was macht einen digitalen Airfryer besonders?",
+      "answer": "Digitale Airfryer bieten präzise Temperaturkontrolle und voreingestellte Programme für kinderleichte Zubereitung von Speisen. Sie verfügen oft über ein Touch-Display für intuitive Bedienung und ermöglichen konstante Kochergebnisse."
     },
     {
-      "question": "¿Cómo elijo el tamaño de rack adecuado para mi freidora de aire?",
-      "answer": "Mide el diámetro interior de la cesta de tu airfryer. Los racks están disponibles en varias medidas estándar (ej. 16cm, 20cm). Consulta siempre la descripción del producto para asegurar la compatibilidad con tu modelo específico."
+      "question": "Welche Vorteile bieten digitale Airfryer gegenüber herkömmlichen Geräten?",
+      "answer": "Digitale Modelle ermöglichen eine exaktere Einstellung und Überwachung, was zu besseren Kochergebnissen führt. Sie sind benutzerfreundlicher, oft energieeffizienter und bieten mehr Funktionen wie Timer, Warmhaltefunktion und eine größere Auswahl an Kochprogrammen."
     },
     {
-      "question": "¿De qué material son los racks para airfryer y cómo se limpian?",
-      "answer": "La mayoría son de acero inoxidable de grado alimentario, resistente a altas temperaturas y al óxido. Se limpian fácilmente con agua y jabón, o en el lavavajillas, garantizando higiene y una larga durabilidad."
+      "question": "Wo finde ich die besten Angebote für digitale Airfryer?",
+      "answer": "In unserem Online-Shop finden Sie eine große Auswahl an digitalen Airfryern, inklusive Top-Produkte und den besten Angeboten schon ab 19€! Entdecken Sie jetzt die neuesten Modelle und sparen Sie clever."
     }
   ],
-  "content": "<div>\n<h2>¡Optimiza tu Cocina con un Rack para Airfryer Esencial!</h2>\n<p>Descubre la versatilidad definitiva para tu freidora de aire con nuestros <b>racks para airfryer</b> de alta calidad. Un buen <b>airfryer rack</b> te permite maximizar el espacio, cocinar múltiples alimentos a la vez y lograr resultados crujientes y perfectos. Nuestros <b>accesorios airfryer</b> son el complemento ideal para potenciar tus recetas diarias en España.</p>\n\n<h3>Características Destacadas de Nuestros Racks Airfryer</h3>\n<ul>\n<li><b>Diseño Multifuncional</b>: Racks de doble capa, ideales para cocinar simultáneamente o deshidratar frutas y verduras.</li>\n<li><b>Material Premium</b>: Fabricados en acero inoxidable 304 de grado alimenticio, garantizando durabilidad y resistencia a altas temperaturas.</li>\n<li><b>Fácil Limpieza</b>: Aptos para lavavajillas, lo que simplifica su mantenimiento y uso diario.</li>\n<li><b>Optimización del Espacio</b>: Aprovecha cada centímetro de tu freidora para preparar patatas, carnes, verduras y más de forma eficiente.</li>\n<li><b>Compatibilidad Universal</b>: Diseñados para adaptarse a una amplia gama de modelos de airfryer.</li>\n</ul>\n\n<p>¡Eleva tu experiencia culinaria hoy mismo! Consigue tu <b>rack airfryer</b> desde tan solo <b>19€</b> con <b>envío gratis</b> a toda España.</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:34:08.492577",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 7,
-  "lastUpdated": "2025-10-07T21:02:26.398192"
+  "productCount": 0,
+  "enhancedAt": "2025-10-07T22:49:03.881281",
+  "lastUpdated": "2025-10-07T23:02:15.324072"
 }

@@ -42,18 +42,41 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
   const renderStars = (rating: number) => {
     return (
       <div className="flex items-center space-x-0.5">
-        {[...Array(5)].map((_, index) => (
-          <Star
-            key={index}
-            className={`${sizeClasses[size].star} ${
-              index < Math.floor(rating) 
-                ? 'text-yellow-400 fill-yellow-400' 
-                : index < rating 
-                  ? 'text-yellow-400 fill-yellow-400' 
-                  : 'text-gray-300'
-            }`}
-          />
-        ))}
+        {[...Array(5)].map((_, index) => {
+          const starValue = index + 1;
+          
+          if (starValue <= Math.floor(rating)) {
+            // Full star
+            return (
+              <Star
+                key={index}
+                className={`${sizeClasses[size].star} text-yellow-400 fill-yellow-400`}
+              />
+            );
+          } else if (starValue === Math.ceil(rating) && rating % 1 !== 0) {
+            // Partial star
+            const fillPercentage = (rating % 1) * 100;
+            return (
+              <div key={index} className="relative">
+                <Star className={`${sizeClasses[size].star} text-gray-300`} />
+                <div 
+                  className="absolute top-0 left-0 overflow-hidden"
+                  style={{ width: `${fillPercentage}%` }}
+                >
+                  <Star className={`${sizeClasses[size].star} text-yellow-400 fill-yellow-400`} />
+                </div>
+              </div>
+            );
+          } else {
+            // Empty star
+            return (
+              <Star
+                key={index}
+                className={`${sizeClasses[size].star} text-gray-300`}
+              />
+            );
+          }
+        })}
       </div>
     );
   };

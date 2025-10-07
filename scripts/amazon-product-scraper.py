@@ -89,6 +89,25 @@ class AmazonScraper:
         self.products_saved_count = 0
         self.products_saved_lock = threading.Lock()
         
+        # Smart caching system
+        self.product_cache = {}  # Cache for detailed product info
+        self.search_cache = {}   # Cache for search results
+        self.cache_lock = threading.Lock()
+        self.cache_hits = 0
+        self.cache_misses = 0
+        
+        # Adaptive rate limiting system
+        self.consecutive_503_errors = 0
+        self.base_delay = (2.0, 4.0)  # Slower base delays
+        self.current_delay = self.base_delay
+        self.max_delay = (10.0, 20.0)  # Maximum delay when heavily rate limited
+        self.rate_limit_lock = threading.Lock()
+        
+        # Progress tracking and resumption
+        self.progress_file = f"scraping_progress_{self.market}.json"
+        self.completed_categories = set()
+        self.load_progress()
+        
         # Setup advanced session
         self.session = self.setup_advanced_session()
         
@@ -169,6 +188,102 @@ class AmazonScraper:
             'sp-cdn': f'L5Z9:{country_code}',
         }
     
+    def get_cache_key(self, cache_type, identifier):
+        """Generate cache key for different types of data"""
+        return f"{cache_type}_{self.market}_{identifier}"
+    
+    def get_cached_data(self, cache_key):
+        """Get data from cache"""
+        with self.cache_lock:
+            if cache_key in self.product_cache:
+                self.cache_hits += 1
+                return self.product_cache[cache_key]
+            elif cache_key in self.search_cache:
+                self.cache_hits += 1
+                return self.search_cache[cache_key]
+            else:
+                self.cache_misses += 1
+                return None
+    
+    def cache_data(self, cache_key, data, cache_type='product'):
+        """Cache data with thread safety"""
+        with self.cache_lock:
+            if cache_type == 'product':
+                self.product_cache[cache_key] = data
+            elif cache_type == 'search':
+                self.search_cache[cache_key] = data
+            
+            # Limit cache size to prevent memory issues
+            if len(self.product_cache) > 1000:
+                # Remove oldest entries
+                oldest_keys = list(self.product_cache.keys())[:100]
+                for key in oldest_keys:
+                    del self.product_cache[key]
+            
+            if len(self.search_cache) > 500:
+                # Remove oldest entries
+                oldest_keys = list(self.search_cache.keys())[:50]
+                for key in oldest_keys:
+                    del self.search_cache[key]
+    
+    def load_progress(self):
+        """Load scraping progress from file"""
+        try:
+            if os.path.exists(self.progress_file):
+                with open(self.progress_file, 'r', encoding='utf-8') as f:
+                    progress_data = json.load(f)
+                    self.completed_categories = set(progress_data.get('completed_categories', []))
+                    safe_print(f"[PROGRESS] Loaded progress: {len(self.completed_categories)} categories completed")
+            else:
+                safe_print("[PROGRESS] No previous progress found, starting fresh")
+        except Exception as e:
+            safe_print(f"[WARNING] Could not load progress: {e}")
+            self.completed_categories = set()
+    
+    def save_progress(self):
+        """Save scraping progress to file"""
+        try:
+            progress_data = {
+                'completed_categories': list(self.completed_categories),
+                'last_updated': datetime.now().isoformat(),
+                'market': self.market,
+                'total_products_saved': self.products_saved_count
+            }
+            with open(self.progress_file, 'w', encoding='utf-8') as f:
+                json.dump(progress_data, f, indent=2, ensure_ascii=False)
+            safe_print(f"[PROGRESS] Saved progress: {len(self.completed_categories)} categories completed")
+        except Exception as e:
+            safe_print(f"[WARNING] Could not save progress: {e}")
+    
+    def adapt_delay_for_rate_limiting(self, response_status):
+        """Adapt delay based on rate limiting responses"""
+        with self.rate_limit_lock:
+            if response_status == 503:
+                self.consecutive_503_errors += 1
+                safe_print(f"[RATE_LIMIT] Consecutive 503 errors: {self.consecutive_503_errors}")
+                
+                if self.consecutive_503_errors >= 2:
+                    # Slow down significantly after 2 consecutive 503s
+                    self.current_delay = (
+                        min(self.current_delay[0] * 1.5, self.max_delay[0]),
+                        min(self.current_delay[1] * 1.5, self.max_delay[1])
+                    )
+                    safe_print(f"[RATE_LIMIT] Slowing down to {self.current_delay[0]:.1f}-{self.current_delay[1]:.1f}s delays")
+                elif self.consecutive_503_errors >= 5:
+                    # Very slow after 5 consecutive 503s
+                    self.current_delay = self.max_delay
+                    safe_print(f"[RATE_LIMIT] Maximum slowdown: {self.max_delay[0]:.1f}-{self.max_delay[1]:.1f}s delays")
+            else:
+                # Reset on successful requests
+                if self.consecutive_503_errors > 0:
+                    safe_print(f"[RATE_LIMIT] Request successful, resetting error count")
+                    self.consecutive_503_errors = 0
+                    # Gradually return to base delay
+                    self.current_delay = (
+                        max(self.current_delay[0] * 0.9, self.base_delay[0]),
+                        max(self.current_delay[1] * 0.9, self.base_delay[1])
+                    )
+    
     def get_random_headers(self):
         """Get randomized headers for each request"""
         headers = {
@@ -190,16 +305,21 @@ class AmazonScraper:
         return headers
     
     def make_request(self, url, retries=3):
-        """Make HTTP request with advanced retry logic and CAPTCHA detection"""
+        """Make HTTP request with adaptive retry logic and CAPTCHA detection"""
         for attempt in range(retries):
             try:
-                # Random delay to appear human (configurable speed)
-                time.sleep(random.uniform(*self.request_delay))
+                # Use adaptive delay based on rate limiting
+                delay = random.uniform(*self.current_delay)
+                safe_print(f"  [DELAY] Waiting {delay:.1f}s before request...")
+                time.sleep(delay)
                 
                 # Use random headers for this request
                 headers = self.get_random_headers()
                 
                 response = self.session.get(url, headers=headers, timeout=15)
+                
+                # Adapt delay based on response status
+                self.adapt_delay_for_rate_limiting(response.status_code)
                 
                 # Check for various blocking scenarios
                 if response.status_code == 503:
@@ -263,6 +383,13 @@ class AmazonScraper:
     
     def search_products(self, keyword, page=1, fallback_mode=False):
         """Search for products with advanced filtering and smart fallback"""
+        # Check cache first
+        cache_key = self.get_cache_key('search', f"{keyword}_{page}_{fallback_mode}")
+        cached_result = self.get_cached_data(cache_key)
+        if cached_result:
+            safe_print(f"[CACHE] Using cached search results for '{keyword}' page {page}")
+            return cached_result
+        
         # Build search URL with price filter using the domain from config
         domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
         
@@ -300,6 +427,9 @@ class AmazonScraper:
                 products.append(product)
                 title_short = product['title'][:40] + "..." if len(product['title']) > 40 else product['title']
                 safe_print(f"[OK] Product {len(products)}: {title_short}")
+        
+        # Cache the results
+        self.cache_data(cache_key, products, 'search')
         
         return products
     
@@ -815,6 +945,18 @@ class AmazonScraper:
     
     def get_detailed_product_info(self, product):
         """Get detailed product information from product page"""
+        asin = product.get('asin')
+        if not asin:
+            safe_print(f"  [ERROR] No ASIN found for product")
+            return None
+        
+        # Check cache first
+        cache_key = self.get_cache_key('product', asin)
+        cached_result = self.get_cached_data(cache_key)
+        if cached_result:
+            safe_print(f"  [CACHE] Using cached product details for ASIN: {asin}")
+            return cached_result
+        
         safe_print(f"  [SEARCH] Getting details for: {product['title'][:30]}...")
         
         response = self.make_request(product['url'])
@@ -874,12 +1016,22 @@ class AmazonScraper:
                 return None
         
         safe_print(f"  [OK] Extracted {len(product['description'])} description points")
+        
+        # Cache the detailed product info
+        self.cache_data(cache_key, product, 'product')
+        
         return product
     
     def scrape_category_products(self, category):
-        """Scrape products for all categories (flat structure)"""
+        """Scrape products for all categories (flat structure) with progress tracking"""
+        category_id = category['categoryId']
         category_name = category.get('name', category.get('categoryNameCanonical', 'Unknown'))
         level = category['level']
+        
+        # Skip if already completed
+        if category_id in self.completed_categories:
+            safe_print(f"\n[SKIP] Category already completed: {category_name}")
+            return []
         
         safe_print(f"\n[CATEGORY] Scraping category: {category_name} (Level {level})")
         
@@ -896,90 +1048,101 @@ class AmazonScraper:
         
         all_products = []
         
-        # Search with target keywords from category structure
-        for keyword_idx, search_term in enumerate(target_keywords):
-            if len(all_products) >= recommended_products:
-                break
-                
-            safe_print(f"[SEARCH] Keyword {keyword_idx + 1}: '{search_term}'")
-            
-            # Search multiple pages for this keyword
-            for page in range(1, 3):  # Max 2 pages per keyword for efficiency
+        try:
+            # Search with target keywords from category structure
+            for keyword_idx, search_term in enumerate(target_keywords):
                 if len(all_products) >= recommended_products:
                     break
                     
-                safe_print(f"  [PAGE] Page {page}...")
+                safe_print(f"[SEARCH] Keyword {keyword_idx + 1}: '{search_term}'")
                 
-                # Try normal search first
-                products_on_page = self.search_products(search_term, page, fallback_mode=False)
-                
-                # If not enough products, try fallback mode
-                if len(products_on_page) < recommended_products and page == 1:
-                    safe_print(f"  [FALLBACK] Not enough products ({len(products_on_page)}/{recommended_products}), trying relaxed filters...")
-                    self._fallback_mode = True
-                    products_on_page = self.search_products(search_term, page, fallback_mode=True)
-                    self._fallback_mode = False
+                # Search multiple pages for this keyword
+                for page in range(1, 3):  # Max 2 pages per keyword for efficiency
+                    if len(all_products) >= recommended_products:
+                        break
+                        
+                    safe_print(f"  [PAGE] Page {page}...")
                     
-                    # If still not enough, try additional pages with fallback mode
-                    if len(products_on_page) < recommended_products:
-                        safe_print(f"  [FALLBACK] Still not enough ({len(products_on_page)}/{recommended_products}), trying page 2 with relaxed filters...")
+                    # Try normal search first
+                    products_on_page = self.search_products(search_term, page, fallback_mode=False)
+                    
+                    # If not enough products, try fallback mode
+                    if len(products_on_page) < recommended_products and page == 1:
+                        safe_print(f"  [FALLBACK] Not enough products ({len(products_on_page)}/{recommended_products}), trying relaxed filters...")
                         self._fallback_mode = True
-                        page2_products = self.search_products(search_term, 2, fallback_mode=True)
+                        products_on_page = self.search_products(search_term, page, fallback_mode=True)
                         self._fallback_mode = False
-                        products_on_page.extend(page2_products)
-                
-                if not products_on_page:
-                    safe_print(f"  [WARNING] No products found on page {page}")
-                    break
-                
-                # Process products in parallel
-                safe_print(f"  [START] Processing {len(products_on_page)} products in parallel...")
-                
-                with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
-                    future_to_product = {
-                        executor.submit(self.get_detailed_product_info, product): product 
-                        for product in products_on_page
-                    }
+                        
+                        # If still not enough, try additional pages with fallback mode
+                        if len(products_on_page) < recommended_products:
+                            safe_print(f"  [FALLBACK] Still not enough ({len(products_on_page)}/{recommended_products}), trying page 2 with relaxed filters...")
+                            self._fallback_mode = True
+                            page2_products = self.search_products(search_term, 2, fallback_mode=True)
+                            self._fallback_mode = False
+                            products_on_page.extend(page2_products)
                     
-                    for future in concurrent.futures.as_completed(future_to_product):
-                        if len(all_products) >= recommended_products:
-                            # Cancel remaining futures
-                            for f in future_to_product:
-                                f.cancel()
-                            break
-                            
-                        try:
-                            detailed_product = future.result()
-                            if detailed_product:
-                                all_products.append(detailed_product)
-                                safe_print(f"  [OK] Product {len(all_products)}: {detailed_product['title'][:30]}...")
-                        except Exception as exc:
-                            safe_print(f"  [ERROR] Product failed: {exc}")
-                
-                # Rate limiting between pages (reduced for speed)
-                time.sleep(random.uniform(2, 5))
-                
-                if len(products_on_page) < 5:  # Not many products left
-                    break
-        
-        # Limit to target count and add category info
-        final_products = all_products[:recommended_products]
-        for product in final_products:
-            product['category_id'] = category['categoryId']
-            product['category_name'] = category_name
-            product['category_level'] = level
+                    if not products_on_page:
+                        safe_print(f"  [WARNING] No products found on page {page}")
+                        break
+                    
+                    # Process products in parallel
+                    safe_print(f"  [START] Processing {len(products_on_page)} products in parallel...")
+                    
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_workers) as executor:
+                        future_to_product = {
+                            executor.submit(self.get_detailed_product_info, product): product 
+                            for product in products_on_page
+                        }
+                        
+                        for future in concurrent.futures.as_completed(future_to_product):
+                            if len(all_products) >= recommended_products:
+                                # Cancel remaining futures
+                                for f in future_to_product:
+                                    f.cancel()
+                                break
+                                
+                            try:
+                                detailed_product = future.result()
+                                if detailed_product:
+                                    all_products.append(detailed_product)
+                                    safe_print(f"  [OK] Product {len(all_products)}: {detailed_product['title'][:30]}...")
+                            except Exception as exc:
+                                safe_print(f"  [ERROR] Product failed: {exc}")
+                    
+                    # Rate limiting between pages (adaptive)
+                    time.sleep(random.uniform(*self.current_delay))
+                    
+                    if len(products_on_page) < 5:  # Not many products left
+                        break
             
-            # Save individual product immediately
-            self.save_individual_product(product, category)
-        
-        self.all_products[category['categoryId']] = final_products
-        safe_print(f"[SUCCESS] Final: {len(final_products)} products for {category_name}")
-        
-        return final_products
+            # Limit to target count and add category info
+            final_products = all_products[:recommended_products]
+            for product in final_products:
+                product['category_id'] = category['categoryId']
+                product['category_name'] = category_name
+                product['category_level'] = level
+                
+                # Save individual product immediately
+                self.save_individual_product(product, category)
+            
+            self.all_products[category['categoryId']] = final_products
+            
+            # Mark category as completed and save progress
+            self.completed_categories.add(category_id)
+            self.save_progress()
+            
+            safe_print(f"[SUCCESS] Final: {len(final_products)} products for {category_name}")
+            safe_print(f"[PROGRESS] Category completed and saved to progress file")
+            
+            return final_products
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Failed to scrape category {category_name}: {e}")
+            return []
     
     def scrape_sample_categories(self, max_categories=5):
         """Scrape a sample of categories for testing with parallel processing"""
-        safe_print("[START] Starting Sample Product Scraping...")
+        safe_print("[START] Starting Sample Product Scraping with Parallel Processing...")
         
         # Get sample categories (1-2 from each level)
         sample_categories = []
@@ -995,59 +1158,104 @@ class AmazonScraper:
         
         total_products = 0
         
-        # Process categories in parallel (2 at a time)
-        safe_print(f"[SPEED] Processing categories in parallel...")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
-            future_to_category = {
-                executor.submit(self.scrape_category_products, category): category 
-                for category in sample_categories
-            }
+        # Process categories in parallel (3 at a time)
+        safe_print(f"[SPEED] Processing categories in parallel (3 at a time)...")
+        batch_size = 3
+        total_batches = (len(sample_categories) + batch_size - 1) // batch_size
+        
+        for batch_num in range(total_batches):
+            start_idx = batch_num * batch_size
+            end_idx = min(start_idx + batch_size, len(sample_categories))
+            batch_categories = sample_categories[start_idx:end_idx]
             
-            for i, future in enumerate(concurrent.futures.as_completed(future_to_category), 1):
-                category = future_to_category[future]
-                safe_print(f"\n--- Progress: {i}/{len(sample_categories)} ---")
+            safe_print(f"\n--- Batch {batch_num + 1}/{total_batches} ---")
+            
+            with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+                future_to_category = {
+                    executor.submit(self.scrape_category_products, category): category 
+                    for category in batch_categories
+                }
                 
-                try:
-                    products = future.result()
-                    total_products += len(products)
-                    safe_print(f"[SUCCESS] Category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {len(products)} products")
-                except Exception as e:
-                    safe_print(f"[ERROR] Error with category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {e}")
+                batch_products = 0
+                for i, future in enumerate(concurrent.futures.as_completed(future_to_category), 1):
+                    category = future_to_category[future]
+                    category_name = category.get('name', category.get('categoryNameCanonical', 'Unknown'))
+                    
+                    try:
+                        products = future.result()
+                        batch_products += len(products)
+                        total_products += len(products)
+                        safe_print(f"[SUCCESS] Category {category_name}: {len(products)} products")
+                    except Exception as e:
+                        safe_print(f"[ERROR] Error with category {category_name}: {e}")
+                
+                safe_print(f"[BATCH] Completed batch {batch_num + 1}: {batch_products} products")
         
         safe_print(f"\n[SUCCESS] Sample Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
-        
-        # self.save_results("sample")  # DISABLED - No more progress files
+        safe_print(f"[CACHE] Cache hits: {self.cache_hits}, Cache misses: {self.cache_misses}")
+        safe_print(f"[CACHE] Cache efficiency: {(self.cache_hits / (self.cache_hits + self.cache_misses) * 100):.1f}%" if (self.cache_hits + self.cache_misses) > 0 else "[CACHE] No cache activity")
     
     def scrape_all_categories(self):
-        """Scrape all categories"""
-        safe_print("[START] Starting Full Product Scraping...")
-        safe_print(f"[STATS] Categories to process: {len(self.categories)}")
+        """Scrape all categories with parallel processing (3 categories at once) and progress resumption"""
+        safe_print("[START] Starting Full Product Scraping with Parallel Processing...")
+        safe_print(f"[STATS] Total categories: {len(self.categories)}")
+        safe_print(f"[PROGRESS] Already completed: {len(self.completed_categories)}")
+        
+        # Filter out completed categories
+        remaining_categories = [cat for cat in self.categories if cat['categoryId'] not in self.completed_categories]
+        safe_print(f"[STATS] Remaining categories to process: {len(remaining_categories)}")
+        safe_print(f"[SPEED] Processing 3 categories in parallel for maximum efficiency")
+        
+        if not remaining_categories:
+            safe_print("[SUCCESS] All categories already completed!")
+            return
         
         total_products = 0
         
-        for i, category in enumerate(self.categories, 1):
-            safe_print(f"\n--- Progress: {i}/{len(self.categories)} ---")
+        # Process categories in batches of 3 for parallel processing
+        batch_size = 3
+        total_batches = (len(remaining_categories) + batch_size - 1) // batch_size
+        
+        for batch_num in range(total_batches):
+            start_idx = batch_num * batch_size
+            end_idx = min(start_idx + batch_size, len(remaining_categories))
+            batch_categories = remaining_categories[start_idx:end_idx]
             
-            try:
-                products = self.scrape_category_products(category)
-                total_products += len(products)
+            safe_print(f"\n--- Batch {batch_num + 1}/{total_batches} (Categories {start_idx + 1}-{end_idx}) ---")
+            
+            # Process batch in parallel
+            with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+                future_to_category = {
+                    executor.submit(self.scrape_category_products, category): category 
+                    for category in batch_categories
+                }
                 
-                # Save progress every 10 categories - DISABLED
-                # if i % 10 == 0:
-                #     self.save_results(f"progress_{i}")
+                batch_products = 0
+                for i, future in enumerate(concurrent.futures.as_completed(future_to_category), 1):
+                    category = future_to_category[future]
+                    category_name = category.get('name', category.get('categoryNameCanonical', 'Unknown'))
+                    
+                    try:
+                        products = future.result()
+                        batch_products += len(products)
+                        total_products += len(products)
+                        safe_print(f"[SUCCESS] Category {category_name}: {len(products)} products")
+                    except Exception as e:
+                        safe_print(f"[ERROR] Error with category {category_name}: {e}")
                 
-                # Rest between categories (reduced for speed)
-                time.sleep(random.uniform(2, 5))
-                
-            except Exception as e:
-                safe_print(f"[ERROR] Error with category {category.get('name', category.get('categoryNameCanonical', 'Unknown'))}: {e}")
-                continue
+                safe_print(f"[BATCH] Completed batch {batch_num + 1}: {batch_products} products")
+            
+            # Rest between batches to avoid overwhelming Amazon
+            if batch_num < total_batches - 1:  # Don't rest after last batch
+                safe_print(f"[REST] Resting between batches...")
+                time.sleep(random.uniform(5, 10))  # Longer rest between batches
         
         safe_print(f"\n[SUCCESS] Full Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
-        
-        # self.save_results("final")  # DISABLED - No more progress files
+        safe_print(f"[CACHE] Cache hits: {self.cache_hits}, Cache misses: {self.cache_misses}")
+        safe_print(f"[CACHE] Cache efficiency: {(self.cache_hits / (self.cache_hits + self.cache_misses) * 100):.1f}%" if (self.cache_hits + self.cache_misses) > 0 else "[CACHE] No cache activity")
+        safe_print(f"[PROGRESS] All progress saved to {self.progress_file}")
     
     def save_individual_product(self, product, category):
         """Save individual product immediately to avoid data loss"""

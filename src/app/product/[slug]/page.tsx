@@ -287,7 +287,7 @@ const ProductDetailPage: React.FC = () => {
     return (
       <>
         <Head>
-          <title>{getString('product.loading')} | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
+          <title>{getString('product.loading')} | {getString('common.siteName')}</title>
         </Head>
         <Layout
           categories={categories}
@@ -316,7 +316,7 @@ const ProductDetailPage: React.FC = () => {
     return (
       <>
         <Head>
-          <title>{getString('product.notFound')} | {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}</title>
+          <title>{getString('product.notFound')} | {getString('common.siteName')}</title>
           <meta name="robots" content="noindex" />
         </Head>
         <Layout
@@ -419,7 +419,7 @@ const ProductDetailPage: React.FC = () => {
               image: product.imagePaths,
               brand: {
                 '@type': 'Brand',
-                name: process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'
+                name: getString('common.siteName')
               },
               offers: {
                 '@type': 'Offer',
@@ -428,7 +428,7 @@ const ProductDetailPage: React.FC = () => {
                 availability: isOutOfStock ? 'https://schema.org/OutOfStock' : 'https://schema.org/InStock',
                 seller: {
                   '@type': 'Organization',
-                  name: process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'
+                  name: getString('common.siteName')
                 }
               },
               aggregateRating: {
@@ -871,16 +871,42 @@ const ProductDetailPage: React.FC = () => {
                       </span>
                       <div>
                         <div className="flex items-center">
-                          {[...Array(5)].map((_, i) => (
-                            <Star
-                              key={i}
-                              className={`w-5 h-5 ${
-                                i < Math.floor(productReviews.averageRating)
-                                  ? 'text-neutral-900 fill-current'
-                                  : 'text-neutral-300'
-                              }`}
-                            />
-                          ))}
+                          {[...Array(5)].map((_, i) => {
+                            const starValue = i + 1;
+                            const rating = productReviews.averageRating;
+                            
+                            if (starValue <= Math.floor(rating)) {
+                              // Full star
+                              return (
+                                <Star
+                                  key={i}
+                                  className="w-5 h-5 text-yellow-400 fill-yellow-400"
+                                />
+                              );
+                            } else if (starValue === Math.ceil(rating) && rating % 1 !== 0) {
+                              // Partial star
+                              const fillPercentage = (rating % 1) * 100;
+                              return (
+                                <div key={i} className="relative w-5 h-5">
+                                  <Star className="w-5 h-5 text-gray-300" />
+                                  <div 
+                                    className="absolute top-0 left-0 overflow-hidden"
+                                    style={{ width: `${fillPercentage}%` }}
+                                  >
+                                    <Star className="w-5 h-5 text-yellow-400 fill-yellow-400" />
+                                  </div>
+                                </div>
+                              );
+                            } else {
+                              // Empty star
+                              return (
+                                <Star
+                                  key={i}
+                                  className="w-5 h-5 text-gray-300"
+                                />
+                              );
+                            }
+                          })}
                         </div>
                         <p className="text-sm text-neutral-600 mt-1">
                           {getString('product.basedOnReviews')} {productReviews.totalReviews} {getString('product.reviews')}

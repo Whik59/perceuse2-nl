@@ -1,34 +1,36 @@
 {
   "categoryId": 16,
-  "name": "airfryer borosilicato",
-  "slug": "airfryer-borosilicato",
-  "seo_title": "Descubre Airfryer Borosilicato: Cocina Sana y Transparente",
-  "seo_description": "Airfryer Borosilicato ✅ Cocina sana, transparente y sin plásticos.",
-  "keywords": [
-    "airfryer borosilicato",
-    "freidora aire borosilicato",
-    "airfryer cristal borosilicato",
-    "comprar airfryer borosilicato",
-    "airfryer borosilicato transparente"
-  ],
+  "categoryNameCanonical": "airfryer aldi",
+  "slug": "airfryer-aldi",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecken Sie Airfryer bei Aldi ab 19€! Top-Angebote & beste Preise für gesunde Küche.",
+  "content": "<div><h2>Airfryer Aldi: Knusprige Genüsse zum besten Preis entdecken!</h2><p>Sie suchen einen Airfryer, der Ihr Budget schont und dennoch top Ergebnisse liefert? Dann sind die <strong>Airfryer Angebote bei Aldi</strong> genau das Richtige für Sie! Entdecken Sie jetzt eine Vielzahl an <strong>Airfryer Produkten</strong>, die das Kochen gesünder, schneller und einfacher machen. Bei Aldi finden Sie regelmäßig Modelle, die bereits <strong>ab 19€</strong> erhältlich sind – das ist ein unschlagbarer <strong>bester Preis</strong> für den Einstieg in die Welt des fettarmen Frittierens. Ob knusprige Pommes, saftiges Hähnchen oder sogar Backwaren: Ein Aldi Airfryer bringt vielseitigen Genuss in Ihre Küche. Halten Sie Ausschau nach unseren aktuellen <strong>Aldi Airfryer Angeboten</strong> und sichern Sie sich Ihr Schnäppchen!</p></div>",
+  "seo": {
+    "title": "Airfryer Aldi: Angebote & Bester Preis ab 19€ entdecken!",
+    "description": "Entdecken Sie Airfryer bei Aldi ab 19€! Top-Angebote & beste Preise für gesunde Küche.",
+    "keywords": [
+      "Airfryer Aldi Angebot",
+      "Heissluftfritteuse Aldi kaufen",
+      "Bester Preis Airfryer ab 19€"
+    ],
+    "enhancedAt": "2025-10-07T22:48:45.534169"
+  },
   "faq": [
     {
-      "question": "¿Qué ventajas ofrece una airfryer de borosilicato frente a las tradicionales?",
-      "answer": "La principal ventaja es su transparencia, permitiendo ver el cocinado sin abrirla. Además, el borosilicato es más resistente a cambios de temperatura, no transfiere sabores ni olores, y facilita la limpieza."
+      "question": "Sind Airfryer von Aldi empfehlenswert?",
+      "answer": "Ja, Aldi bietet oft qualitativ gute Airfryer zu sehr attraktiven Preisen an. Sie sind ideal für den Einstieg oder als Zweitgerät und überzeugen mit grundlegenden Funktionen und zuverlässiger Leistung. Achten Sie auf aktuelle Angebote!"
     },
     {
-      "question": "¿Es el borosilicato seguro y duradero para una airfryer de uso diario?",
-      "answer": "Sí, el borosilicato es un material muy seguro y duradero. Es altamente resistente a las altas temperaturas y a los golpes térmicos, lo que lo hace ideal para el uso constante en airfryers, garantizando fiabilidad."
+      "question": "Ab welchem Preis finde ich einen Airfryer bei Aldi?",
+      "answer": "Airfryer-Angebote bei Aldi beginnen oft schon ab 19€. Diese besonders günstigen Modelle sind meist Teil von Aktionen, also lohnt es sich, die Prospekte im Auge zu behalten, um keine Schnäppchen zu verpassen."
     },
     {
-      "question": "¿Cómo se limpia el recipiente de borosilicato de una airfryer?",
-      "answer": "La limpieza es muy sencilla. El recipiente de borosilicato es apto para lavavajillas, o se puede lavar fácilmente a mano con agua y jabón, recuperando su brillo y transparencia sin esfuerzo."
+      "question": "Welche Vorteile bietet ein Airfryer von Aldi?",
+      "answer": "Aldi Airfryer ermöglichen gesundes Frittieren mit wenig Öl. Sie sind kompakt, einfach zu bedienen und ideal, um knusprige Gerichte schnell zuzubereiten. Zudem profitieren Sie vom guten Preis-Leistungs-Verhältnis und der Verfügbarkeit."
     }
   ],
-  "content": "<div>\n<h2>Airfryer de Borosilicato: Cocina Saludable y Transparente</h2>\n<p>Descubre la revolución culinaria con la <b>airfryer de borosilicato</b>, la freidora de aire que combina tecnología avanzada con un diseño elegante. Prepara platos deliciosos y crujientes con menos aceite, observando cada paso de la cocción gracias a su cuerpo transparente de borosilicato resistente.</p>\n\n<h3>Características Exclusivas de Nuestra Freidora de Aire Borosilicato</h3>\n<ul>\n<li><b>Cocción Visible 360°</b>: Observa tus alimentos dorarse a la perfección sin abrir la cesta.</li>\n<li><b>Material Borosilicato Premium</b>: Higiénico, resistente a altas temperaturas y fácil de limpiar.</li>\n<li><b>Tecnología de Aire Caliente</b>: Platos crujientes por fuera y tiernos por dentro, con hasta un 85% menos de grasa.</li>\n<li><b>Capacidad Amplia</b>: Ideal para comidas familiares o preparar raciones individuales.</li>\n<li><b>Control Intuitivo Digital</b>: Programas preestablecidos y ajuste de temperatura/tiempo.</li>\n</ul>\n\n<p>Experimenta la cocina del futuro. Encuentra tu <b>airfryer borosilicato</b> desde tan solo <b>19€</b> con envío gratis a toda España.</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:30:50.013367",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 8,
-  "lastUpdated": "2025-10-07T21:02:26.289026"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:45.534192",
+  "lastUpdated": "2025-10-07T23:02:15.189126"
 }

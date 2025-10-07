@@ -22,10 +22,28 @@ def safe_print(message):
         print(message.encode('utf-8', errors='ignore').decode('utf-8'))
 
 class AICategoryEnhancer:
-    def __init__(self):
+    def __init__(self, output_language='german'):
         self.categories_file = "data/categories.json"
         self.categories_dir = "data/categories"
         self.config_file = "scripts/ai-config.json"
+        self.output_language = output_language  # Language for output content
+        
+        # Language mapping for better AI understanding
+        self.language_map = {
+            'german': 'German',
+            'spanish': 'Spanish', 
+            'french': 'French',
+            'italian': 'Italian',
+            'dutch': 'Dutch',
+            'polish': 'Polish',
+            'swedish': 'Swedish',
+            'english': 'English',
+            'portuguese': 'Portuguese',
+            'russian': 'Russian',
+            'chinese': 'Chinese',
+            'japanese': 'Japanese',
+            'korean': 'Korean'
+        }
         
         # Create directories if they don't exist
         os.makedirs(self.categories_dir, exist_ok=True)
@@ -33,10 +51,10 @@ class AICategoryEnhancer:
         # Load AI configuration
         self.ai_config = self.load_ai_config()
         
-        # Performance settings - ULTRA-FAST TEMPLATE MODE
-        self.request_delay = 0  # NO DELAY - TEMPLATE MODE
-        self.batch_size = 100  # Process 100 categories at once for maximum speed
-        self.max_concurrent = 20  # Maximum concurrency
+        # Performance settings - ULTRA-FAST MODE
+        self.request_delay = 0  # NO DELAY
+        self.batch_size = 100  # Process 100 categories at once
+        self.max_concurrent = 50  # Maximum concurrency - INCREASED
     
     def load_ai_config(self):
         """Load AI configuration from config file"""
@@ -49,29 +67,19 @@ class AICategoryEnhancer:
         
         # Default fallback config
         return {
-            "spanish_keywords": [
-                "productos",
-                "mejor precio",
-                "oferta",
-                "envio gratis",
-                "garantia",
-                "calidad",
-                "fácil uso",
-                "españa"
-            ],
             "seo_settings": {
-                "default_price": "desde 19€",
-                "store_name": "Tu Tienda"
+                "default_price": "from 19€",
+                "store_name": "Your Store"
             }
         }
     
     def get_product_keywords(self):
         """Get product-specific keywords from config"""
-        return self.ai_config.get("spanish_keywords", ["productos", "mejor precio", "oferta"])
+        return self.ai_config.get("keywords", ["products", "best price", "offer", "free shipping", "warranty", "quality", "easy use"])
     
     def get_default_price(self):
         """Get default price from config"""
-        return self.ai_config.get("seo_settings", {}).get("default_price", "desde 19€")
+        return self.ai_config.get("seo_settings", {}).get("default_price", "from 19€")
     
     def get_ai_response(self, prompt, max_retries=3):
         """
@@ -90,13 +98,13 @@ class AICategoryEnhancer:
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # System prompt for Spanish SEO expert
-            system_prompt = "Eres un experto en SEO y marketing digital para productos en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."
+            # System prompt for SEO expert (in English)
+            language_name = self.language_map.get(self.output_language, self.output_language.title())
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product categories and airfryer-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
-            # Add delay to avoid rate limiting
-            time.sleep(self.request_delay)
+            # No delay for maximum speed
             
             response = model.generate_content(full_prompt)
             
@@ -119,18 +127,18 @@ class AICategoryEnhancer:
         keywords = self.get_product_keywords()
         default_price = self.get_default_price()
         
-        prompt = f"""Crea una descripción SEO corta (máximo 80 caracteres) para: {category_name}
+        prompt = f"""Create a short SEO description (maximum 80 characters) for: {category_name}
 
-REQUISITOS:
-- Incluir beneficios clave para el producto
-- Mencionar precio ({default_price})
-- Crear urgencia (envío gratis)
-- Dirigirse a compradores
-- Usar palabras clave relevantes: {', '.join(keywords[:3])}
+REQUIREMENTS:
+- Include key benefits for the product
+- Mention price ({default_price})
+- Create urgency (free shipping)
+- Target buyers
+- Use relevant keywords: {', '.join(keywords[:3])}
 
-EJEMPLO: "{category_name} ✅ Calidad Premium. {default_price} ¡Envío Gratis!"
+EXAMPLE: "{category_name} ✅ Premium Quality. {default_price} Free Shipping!"
 
-Responde SOLO la descripción:"""
+Respond ONLY with the description:"""
         
         return self.get_ai_response(prompt)
     
@@ -138,17 +146,17 @@ Responde SOLO la descripción:"""
         """Generate SEO-optimized title for a category"""
         keywords = self.get_product_keywords()
         
-        prompt = f"""Crea un título SEO corto (máximo 50 caracteres) para: {category_name}
+        prompt = f"""Create a short SEO title (maximum 50 characters) for: {category_name}
 
-REQUISITOS:
-- Incluir palabras clave principales
-- Mencionar beneficios clave del producto
-- Dirigirse a compradores
-- Usar palabras clave: {', '.join(keywords[:2])}
+REQUIREMENTS:
+- Include main keywords
+- Mention key product benefits
+- Target buyers
+- Use keywords: {', '.join(keywords[:2])}
 
-EJEMPLO: "{category_name} | Calidad Premium"
+EXAMPLE: "{category_name} | Premium Quality"
 
-Responde SOLO el título:"""
+Respond ONLY with the title:"""
         
         return self.get_ai_response(prompt)
     
@@ -156,17 +164,17 @@ Responde SOLO el título:"""
         """Generate SEO keywords for a category"""
         keywords = self.get_product_keywords()
         
-        prompt = f"""Genera 5 palabras clave SEO para: {category_name}
+        prompt = f"""Generate 5 SEO keywords for: {category_name}
 
-REQUISITOS:
-- Incluir términos de cola larga
-- Mencionar beneficios clave del producto
-- Incluir términos geográficos (España)
-- Incluir términos de compra (barato, oferta)
-- Basarse en palabras clave existentes: {', '.join(keywords[:3])}
+REQUIREMENTS:
+- Include long-tail terms
+- Mention key product benefits
+- Include geographic terms (country-specific)
+- Include purchase terms (cheap, offer)
+- Based on existing keywords: {', '.join(keywords[:3])}
 
-Formato: palabra1, palabra2, palabra3, etc.
-Responde SOLO las palabras clave:"""
+Format: keyword1, keyword2, keyword3, etc.
+Respond ONLY with the keywords:"""
         
         response = self.get_ai_response(prompt)
         # Convert to array
@@ -177,24 +185,24 @@ Responde SOLO las palabras clave:"""
         """Generate FAQ for a category"""
         keywords = self.get_product_keywords()
         
-        prompt = f"""Crea exactamente 3 preguntas FAQ específicas para: {category_name}
+        prompt = f"""Create exactly 3 specific FAQ questions for: {category_name}
 
-REQUISITOS:
-- Preguntas que la gente busca en Google sobre {category_name}
-- Respuestas específicas y útiles (máximo 50 palabras)
-- Enfocarse en beneficios específicos del producto
-- Evitar repetición de palabras clave
-- Formato JSON válido OBLIGATORIO
-- Considerar palabras clave: {', '.join(keywords[:2])}
+REQUIREMENTS:
+- Questions people search on Google about {category_name}
+- Specific and useful answers (maximum 50 words)
+- Focus on specific product benefits
+- Avoid keyword repetition
+- Valid JSON format MANDATORY
+- Consider keywords: {', '.join(keywords[:2])}
 
-EJEMPLO:
+EXAMPLE:
 [
-  {{"question": "¿Cuál es la autonomía del patinete eléctrico?", "answer": "Los patinetes eléctricos tienen autonomía de 15-30km según el modelo y batería."}},
-  {{"question": "¿Es fácil de usar el patinete eléctrico?", "answer": "Sí, los patinetes eléctricos son muy fáciles de usar con aceleración automática."}},
-  {{"question": "¿Hay garantía en los patinetes eléctricos?", "answer": "Sí, todos nuestros patinetes eléctricos incluyen garantía completa de 2 años."}}
+  {{"question": "What is the battery life of airfryer?", "answer": "Airfryers have battery life of 15-30km depending on model and battery."}},
+  {{"question": "Is airfryer easy to use?", "answer": "Yes, airfryers are very easy to use with automatic acceleration."}},
+  {{"question": "Is there warranty on airfryers?", "answer": "Yes, all our airfryers include complete 2-year warranty."}}
 ]
 
-IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
+IMPORTANT: Respond ONLY with valid JSON, no additional text:"""
         
         # Retry up to 3 times to get valid JSON
         for attempt in range(3):
@@ -232,27 +240,27 @@ IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
         keywords = self.get_product_keywords()
         default_price = self.get_default_price()
         
-        prompt = f"""Crea contenido SEO muy corto (100-150 palabras) para: {category_name}
+        prompt = f"""Create very short SEO content (100-150 words) for: {category_name}
 
-REQUISITOS:
-- Estructura HTML simple
-- Incluir beneficios clave del producto
-- Mencionar precio ({default_price})
-- Dirigirse a compradores
-- Evitar repetición excesiva de palabras clave
-- Enfoque en productos, no texto
-- Usar palabras clave: {', '.join(keywords[:3])}
+REQUIREMENTS:
+- Simple HTML structure
+- Include key product benefits
+- Mention price ({default_price})
+- Target buyers
+- Avoid excessive keyword repetition
+- Focus on products, not text
+- Use keywords: {', '.join(keywords[:3])}
 
-ESTRUCTURA:
+STRUCTURE:
 <div>
-<h2>Los Mejores {category_name}</h2>
-<p>Descubre los mejores {category_name} diseñados para máxima calidad y facilidad de uso.</p>
-<h3>Características Principales</h3>
-<ul><li>Calidad premium</li><li>Fácil de usar</li><li>Garantía incluida</li><li>Envío gratis</li></ul>
-<p>{default_price} con envío gratis. ¡Encuentra el modelo perfecto para ti!</p>
+<h2>Best {category_name}</h2>
+<p>Discover the best {category_name} designed for maximum quality and ease of use.</p>
+<h3>Key Features</h3>
+<ul><li>Premium quality</li><li>Easy to use</li><li>Warranty included</li><li>Free shipping</li></ul>
+<p>{default_price} with free shipping. Find the perfect model for you!</p>
 </div>
 
-Responde SOLO el HTML:"""
+Respond ONLY with the HTML:"""
         
         response = self.get_ai_response(prompt)
         
@@ -272,6 +280,109 @@ Responde SOLO el HTML:"""
         return response
     
     
+    def enhance_single_category_fast(self, category, index):
+        """Enhance a single category with all content in one go for maximum speed"""
+        try:
+            category_name = category.get('categoryNameCanonical', f'Category {index}')
+            category_id = category.get('categoryId', index)
+            
+            # Generate all content in one AI call for maximum speed
+            language_name = self.language_map.get(self.output_language, self.output_language.title())
+            keywords = self.get_product_keywords()
+            default_price = self.get_default_price()
+            
+            prompt = f"""Generate complete SEO content for: {category_name}
+
+REQUIREMENTS:
+- Language: {language_name}
+- Product type: airfryer
+- Price: {default_price}
+- Keywords: {', '.join(keywords[:3])}
+
+RESPOND WITH JSON ONLY:
+{{
+  "title": "SEO title (max 60 chars)",
+  "description": "SEO description (max 80 chars)",
+  "keywords": ["keyword1", "keyword2", "keyword3"],
+  "faq": [
+    {{"question": "Question 1", "answer": "Answer 1"}},
+    {{"question": "Question 2", "answer": "Answer 2"}},
+    {{"question": "Question 3", "answer": "Answer 3"}}
+  ],
+  "content": "<div><h2>Title</h2><p>Content</p></div>"
+}}
+
+IMPORTANT: Respond ONLY with valid JSON, no additional text."""
+            
+            try:
+                response = self.get_ai_response(prompt)
+                
+                # Clean response
+                clean_response = response.strip()
+                if clean_response.startswith('```json'):
+                    clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+                elif clean_response.startswith('```'):
+                    clean_response = clean_response.replace('```', '').strip()
+                
+                # Extract JSON
+                if '{' in clean_response and '}' in clean_response:
+                    json_match = re.search(r'\{.*\}', clean_response, re.DOTALL)
+                    if json_match:
+                        json_str = json_match.group()
+                        content = json.loads(json_str)
+                    else:
+                        raise Exception("No JSON found in response")
+                else:
+                    raise Exception("Invalid response format")
+                    
+            except Exception as e:
+                safe_print(f"[WARNING] AI generation failed for {category_name}: {e}")
+                # Fallback content
+                content = {
+                    "title": f"Best {category_name.title()} - Premium Quality",
+                    "description": f"Discover premium {category_name} with 2-year warranty and free shipping.",
+                    "keywords": ["airfryer", "premium", "quality", "warranty", "free shipping"],
+                    "faq": [
+                        {"question": "What warranty is included?", "answer": "2-year manufacturer warranty."},
+                        {"question": "Is shipping free?", "answer": "Yes, free shipping on all orders."},
+                        {"question": "How to use?", "answer": "Very easy to use with automatic settings."}
+                    ],
+                    "content": f"<div><h2>Premium {category_name.title()}</h2><p>High-quality airfryer with excellent performance and 2-year warranty.</p></div>"
+                }
+            
+            # Create enhanced category data
+            enhanced_category = {
+                "categoryId": category_id,
+                "categoryNameCanonical": category_name,
+                "slug": self.create_category_slug(category_name),
+                "parentCategoryId": category.get('parentCategoryId'),
+                "level": category.get('level', 0),
+                "description": content["description"],
+                "content": content["content"],
+                "seo": {
+                    "title": content["title"],
+                    "description": content["description"],
+                    "keywords": content["keywords"],
+                    "enhancedAt": datetime.now().isoformat()
+                },
+                "faq": content["faq"],
+                "productCount": category.get('productCount', 0),
+                "enhancedAt": datetime.now().isoformat()
+            }
+            
+            # Save individual category file
+            category_filename = f"{category_id}.json"
+            category_filepath = os.path.join(self.categories_dir, category_filename)
+            
+            with open(category_filepath, 'w', encoding='utf-8') as f:
+                json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
+            
+            return True
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Failed to enhance category {category_name}: {e}")
+            return False
+
     def create_category_slug(self, category_name):
         """Create URL-friendly slug from category name"""
         slug = category_name.lower()
@@ -403,7 +514,7 @@ Responde SOLO el HTML:"""
         
         safe_print(f"[INFO] Found {len(categories)} categories to enhance")
         safe_print(f"[WARNING] This will create {len(categories)} individual JSON files")
-        safe_print(f"[WARNING] Estimated time: {len(categories) * 4 / 60:.1f} minutes")
+        safe_print(f"[WARNING] Estimated time: {len(categories) * 0.2 / 60:.1f} minutes")
         
         # Ask for confirmation
         confirm = input("\n⚠️  Continue with full enhancement? (y/n): ").strip().lower()
@@ -414,56 +525,31 @@ Responde SOLO el HTML:"""
         enhanced_count = 0
         failed_count = 0
         
-        for i, category in enumerate(categories, 1):
-            try:
+        # Process categories concurrently for maximum speed
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
+            # Submit all enhancement tasks
+            future_to_category = {
+                executor.submit(self.enhance_single_category_fast, category, i): (category, i) 
+                for i, category in enumerate(categories, 1)
+            }
+            
+            # Process completed tasks as they finish
+            for future in concurrent.futures.as_completed(future_to_category):
+                category, i = future_to_category[future]
                 category_name = category.get('categoryNameCanonical', f'Category {i}')
-                category_id = category.get('categoryId', i)
                 
-                safe_print(f"[PROGRESS] {i}/{len(categories)} - Enhancing: {category_name}")
-                
-                # Generate all content
-                seo_title = self.enhance_category_title(category_name)
-                seo_description = self.enhance_category_description(category_name)
-                seo_keywords = self.enhance_category_keywords(category_name)
-                faq = self.generate_category_faq(category_name)
-                seo_content = self.generate_category_content(category_name)
-                
-                # Create enhanced category data
-                enhanced_category = {
-                    "categoryId": category_id,
-                    "categoryNameCanonical": category_name,
-                    "slug": self.create_category_slug(category_name),
-                    "parentCategoryId": category.get('parentCategoryId'),
-                    "level": category.get('level', 0),
-                    "description": seo_description,
-                    "content": seo_content,
-                    "seo": {
-                        "title": seo_title,
-                        "description": seo_description,
-                        "keywords": seo_keywords,
-                        "enhancedAt": datetime.now().isoformat()
-                    },
-                    "faq": faq,
-                    "productCount": category.get('productCount', 0),
-                    "enhancedAt": datetime.now().isoformat()
-                }
-                
-                # Save individual category file
-                category_filename = f"{category_id}.json"
-                category_filepath = os.path.join(self.categories_dir, category_filename)
-                
-                with open(category_filepath, 'w', encoding='utf-8') as f:
-                    json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
-                
-                enhanced_count += 1
-                safe_print(f"[SUCCESS] Saved: {category_filepath}")
-                
-                # Small delay to avoid overwhelming the API
-                time.sleep(0.5)
-                
-            except Exception as e:
-                failed_count += 1
-                safe_print(f"[ERROR] Failed to enhance category {i}: {str(e)}")
+                try:
+                    success = future.result()
+                    if success:
+                        enhanced_count += 1
+                        safe_print(f"[PROGRESS] {i}/{len(categories)} - ✅ {category_name}")
+                    else:
+                        failed_count += 1
+                        safe_print(f"[PROGRESS] {i}/{len(categories)} - ❌ {category_name}")
+                        
+                except Exception as e:
+                    failed_count += 1
+                    safe_print(f"[PROGRESS] {i}/{len(categories)} - ❌ {category_name} - {e}")
         
         safe_print(f"\n[SUMMARY] Individual Category Files Enhancement Complete")
         safe_print("=" * 50)
@@ -656,64 +742,64 @@ Responde SOLO el HTML:"""
 
     def enhance_category_title_fast(self, category_name):
         """Generate SEO title focused ONLY on the specific category"""
-        prompt = f"""Crea un título SEO de máximo 60 caracteres para: "{category_name}"
+        prompt = f"""Create an SEO title maximum 60 characters for: "{category_name}"
 
-REGLAS ESTRICTAS:
-- SOLO mencionar productos relacionados con "{category_name}"
-- Incluir beneficio clave específico del producto
-- Usar palabras de acción (Comprar, Descubre, Mejores)
+STRICT RULES:
+- ONLY mention products related to "{category_name}"
+- Include specific key benefit of the product
+- Use action words (Buy, Discover, Best)
 
-EJEMPLO para "patinete electrico": "Patinetes Eléctricos - Mejor Precio y Calidad"
-Responde SOLO el título:"""
+EXAMPLE for "airfryer": "Airfryers - Best Price and Quality"
+Respond ONLY with the title:"""
         
         return self.get_ai_response(prompt)
 
     def enhance_category_description_fast(self, category_name):
         """Generate SEO description focused ONLY on the specific category"""
-        prompt = f"""Crea una descripción SEO de máximo 80 caracteres para: "{category_name}"
+        prompt = f"""Create an SEO description maximum 80 characters for: "{category_name}"
 
-REGLAS ESTRICTAS:
-- SOLO mencionar "{category_name}" y productos directamente relacionados
-- Usar emoji ✅
+STRICT RULES:
+- ONLY mention "{category_name}" and directly related products
+- Use emoji ✅
 
-EJEMPLO para "patinete electrico": "Patinetes Eléctricos ✅ Calidad Premium. Desde 19€ ¡Envío Gratis!"
-Responde SOLO la descripción:"""
+EXAMPLE for "airfryer": "Airfryers ✅ Premium Quality. From 19€ Free Shipping!"
+Respond ONLY with the description:"""
         
         return self.get_ai_response(prompt)
 
     def enhance_category_keywords_fast(self, category_name):
         """Generate keywords focused ONLY on the specific category"""
-        prompt = f"""Crea 5 palabras clave SEO para: "{category_name}"
+        prompt = f"""Create 5 SEO keywords for: "{category_name}"
 
-REGLAS ESTRICTAS:
-- SOLO palabras relacionadas con "{category_name}"
-- Formato: lista simple separada por comas
+STRICT RULES:
+- ONLY words related to "{category_name}"
+- Format: simple list separated by commas
 
-EJEMPLO para "patinete electrico": "patinete electrico, mejor precio patinete, oferta patinete electrico, envio gratis patinete, patinete calidad"
-Responde SOLO las palabras clave separadas por comas:"""
+EXAMPLE for "airfryer": "airfryer, best price airfryer, airfryer offer, free shipping airfryer, airfryer quality"
+Respond ONLY with keywords separated by commas:"""
         
         response = self.get_ai_response(prompt)
         return [kw.strip() for kw in response.split(',') if kw.strip()]
 
     def generate_category_faq_fast(self, category_name):
         """Generate FAQ focused ONLY on the specific category"""
-        prompt = f"""Crea exactamente 3 preguntas frecuentes específicas para: "{category_name}"
+        prompt = f"""Create exactly 3 specific FAQ questions for: "{category_name}"
 
-REGLAS ESTRICTAS:
-- SOLO preguntas sobre "{category_name}" y productos directamente relacionados
-- Preguntas que la gente realmente busca en Google
-- Respuestas específicas y útiles (máximo 50 palabras)
-- Formato JSON válido OBLIGATORIO
-- NO usar comillas dobles dentro de las respuestas
+STRICT RULES:
+- ONLY questions about "{category_name}" and directly related products
+- Questions people actually search on Google
+- Specific and useful answers (maximum 50 words)
+- Valid JSON format MANDATORY
+- DO NOT use double quotes inside answers
 
-EJEMPLO para "patinete electrico":
+EXAMPLE for "airfryer":
 [
-  {{"question": "¿Cuál es la autonomía del patinete eléctrico?", "answer": "Los patinetes eléctricos tienen autonomía de 15-30km según el modelo y batería."}},
-  {{"question": "¿Es fácil de usar el patinete eléctrico?", "answer": "Sí, los patinetes eléctricos son muy fáciles de usar con aceleración automática y controles simples."}},
-  {{"question": "¿Hay garantía en los patinetes eléctricos?", "answer": "Sí, todos nuestros patinetes eléctricos incluyen garantía completa de 2 años."}}
+  {{"question": "What is the battery life of airfryer?", "answer": "Airfryers have battery life of 15-30km depending on model and battery."}},
+  {{"question": "Is airfryer easy to use?", "answer": "Yes, airfryers are very easy to use with automatic acceleration and simple controls."}},
+  {{"question": "Is there warranty on airfryers?", "answer": "Yes, all our airfryers include complete 2-year warranty."}}
 ]
 
-IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
+IMPORTANT: Respond ONLY with valid JSON, no additional text:"""
         
         # Retry up to 3 times to get valid JSON
         for attempt in range(3):
@@ -748,30 +834,30 @@ IMPORTANTE: Responde SOLO con el JSON válido, sin texto adicional:"""
 
     def generate_category_content_fast(self, category_name):
         """Generate content focused ONLY on the specific category"""
-        prompt = f"""Crea contenido HTML SEO para: "{category_name}"
+        prompt = f"""Create SEO HTML content for: "{category_name}"
 
-REGLAS ESTRICTAS:
-- SOLO escribir sobre "{category_name}" y productos directamente relacionados
-- Incluir H2, H3, lista con características específicas del producto
-- Mencionar precio desde 19€ y envío gratis
-- Máximo 300 palabras
-- Formato HTML válido
-- NO usar ```html o ``` - solo el HTML puro
+STRICT RULES:
+- ONLY write about "{category_name}" and directly related products
+- Include H2, H3, list with specific product features
+- Mention price from 19€ and free shipping
+- Maximum 300 words
+- Valid HTML format
+- DO NOT use ```html or ``` - only pure HTML
 
-EJEMPLO para "patinete electrico":
+EXAMPLE for "airfryer":
 <div>
-<h2>Los Mejores Patinetes Eléctricos</h2>
-<p>Descubre los mejores <b>patinetes eléctricos</b> con la mejor calidad y precio.</p>
-<h3>Características Principales</h3>
+<h2>Best Airfryers</h2>
+<p>Discover the best <b>airfryers</b> with the best quality and price.</p>
+<h3>Key Features</h3>
 <ul>
-<li><b>Autonomía Extendida</b>: Hasta 30km de autonomía</li>
-<li><b>Fácil Manejo</b>: Control intuitivo y estable</li>
-<li><b>Plegable</b>: Fácil transporte y almacenamiento</li>
+<li><b>Extended Battery Life</b>: Up to 30km range</li>
+<li><b>Easy Handling</b>: Intuitive control and stable</li>
+<li><b>Foldable</b>: Easy transport and storage</li>
 </ul>
-<p>Desde <b>19€</b> con envío gratis.</p>
+<p>From <b>19€</b> with free shipping.</p>
 </div>
 
-Responde SOLO el HTML sin ```html:"""
+Respond ONLY with HTML without ```html:"""
         
         response = self.get_ai_response(prompt)
         
@@ -872,77 +958,100 @@ Responde SOLO el HTML sin ```html:"""
 
 def main():
     """Main function"""
-    enhancer = AICategoryEnhancer()
+    import argparse
     
-    while True:
-        safe_print("\n🏷️ AI Category Enhancer - Individual Files")
-        safe_print("Creating individual JSON files for each category")
-        safe_print("=" * 60)
-        safe_print("📋 Options:")
-        safe_print("1. Test single category (RECOMMENDED)")
-        safe_print("2. Enhance all categories (creates individual files)")
-        safe_print("3. ULTRA-FAST enhancement (optimized templates) 🚀")
-        safe_print("4. MEGA-FAST enhancement (1000+ categories) ⚡")
-        safe_print("5. Enhance specific categories by ID")
-        safe_print("6. View category statistics")
-        safe_print("7. Exit")
-        
-        choice = input("\nSelect option (1-7): ").strip()
-        
-        if choice == '1':
-            safe_print("\n🧪 Starting category test...")
-            enhancer.test_single_category()
+    parser = argparse.ArgumentParser(description='AI Category Enhancer with Multi-Language Support')
+    parser.add_argument('--language', '-l', default='german', 
+                       choices=['german', 'spanish', 'french', 'italian', 'dutch', 'polish', 'swedish', 'english', 'portuguese', 'russian', 'chinese', 'japanese', 'korean'],
+                       help='Output language for generated content (default: german)')
+    parser.add_argument('--test', '-t', action='store_true',
+                       help='Test mode: enhance just one category')
+    parser.add_argument('--all', '-a', action='store_true',
+                       help='Enhance all categories')
+    
+    args = parser.parse_args()
+    
+    enhancer = AICategoryEnhancer(output_language=args.language)
+    
+    safe_print(f"🌍 Language: {args.language.title()}")
+    
+    if args.test:
+        safe_print("\n🧪 Starting category test...")
+        enhancer.test_single_category()
+    elif args.all:
+        safe_print("\n🚀 Starting full category enhancement...")
+        enhancer.enhance_all_categories()
+    else:
+        # Interactive mode
+        while True:
+            safe_print("\n🏷️ AI Category Enhancer - Individual Files")
+            safe_print("Creating individual JSON files for each category")
+            safe_print("=" * 60)
+            safe_print("📋 Options:")
+            safe_print("1. Test single category (RECOMMENDED)")
+            safe_print("2. Enhance all categories (creates individual files)")
+            safe_print("3. ULTRA-FAST enhancement (optimized templates) 🚀")
+            safe_print("4. MEGA-FAST enhancement (1000+ categories) ⚡")
+            safe_print("5. Enhance specific categories by ID")
+            safe_print("6. View category statistics")
+            safe_print("7. Exit")
             
-        elif choice == '2':
-            safe_print("\n🚀 Starting full category enhancement...")
-            enhancer.enhance_all_categories()
+            choice = input("\nSelect option (1-7): ").strip()
             
-        elif choice == '3':
-            safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
-            enhancer.enhance_categories_ultra_fast()
-            
-        elif choice == '4':
-            safe_print("\n⚡ Starting MEGA-FAST enhancement for 1000+ categories...")
-            enhancer.enhance_categories_mega_fast()
-            
-        elif choice == '5':
-            safe_print("\n🎯 Custom category enhancement...")
-            try:
-                category_ids_input = input("Enter category IDs (comma-separated, e.g., 1,2,3): ").strip()
-                category_ids = [int(id.strip()) for id in category_ids_input.split(',') if id.strip().isdigit()]
-                if category_ids:
-                    enhancer.enhance_specific_categories(category_ids)
-                else:
-                    safe_print("[ERROR] Please enter valid category IDs")
-            except ValueError:
-                safe_print("[ERROR] Please enter valid numbers separated by commas")
-            
-        elif choice == '6':
-            # Show statistics
-            categories_created = 0
-            if os.path.exists(enhancer.categories_dir):
-                categories_created = len([f for f in os.listdir(enhancer.categories_dir) if f.endswith('.json')])
-            
-            total_categories = 0
-            if os.path.exists(enhancer.categories_file):
-                with open(enhancer.categories_file, 'r', encoding='utf-8') as f:
-                    categories = json.load(f)
-                total_categories = len(categories)
+            if choice == '1':
+                safe_print("\n🧪 Starting category test...")
+                enhancer.test_single_category()
                 
-            safe_print(f"\n📊 Category Statistics")
-            safe_print("=" * 30)
-            safe_print(f"   Total categories: {total_categories}")
-            safe_print(f"   Individual files created: {categories_created}")
-            safe_print(f"   Remaining: {total_categories - categories_created}")
-            safe_print(f"   Categories directory: {enhancer.categories_dir}")
-            safe_print(f"   Source file: {enhancer.categories_file}")
-            
-        elif choice == '7':
-            safe_print("\n👋 Goodbye!")
-            break
-        
-        else:
-            safe_print("[ERROR] Please enter a valid option (1-7)")
+            elif choice == '2':
+                safe_print("\n🚀 Starting full category enhancement...")
+                enhancer.enhance_all_categories()
+                
+            elif choice == '3':
+                safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
+                enhancer.enhance_categories_ultra_fast()
+                
+            elif choice == '4':
+                safe_print("\n⚡ Starting MEGA-FAST enhancement for 1000+ categories...")
+                enhancer.enhance_categories_mega_fast()
+                
+            elif choice == '5':
+                safe_print("\n🎯 Custom category enhancement...")
+                try:
+                    category_ids_input = input("Enter category IDs (comma-separated, e.g., 1,2,3): ").strip()
+                    category_ids = [int(id.strip()) for id in category_ids_input.split(',') if id.strip().isdigit()]
+                    if category_ids:
+                        enhancer.enhance_specific_categories(category_ids)
+                    else:
+                        safe_print("[ERROR] Please enter valid category IDs")
+                except ValueError:
+                    safe_print("[ERROR] Please enter valid numbers separated by commas")
+                
+            elif choice == '6':
+                # Show statistics
+                categories_created = 0
+                if os.path.exists(enhancer.categories_dir):
+                    categories_created = len([f for f in os.listdir(enhancer.categories_dir) if f.endswith('.json')])
+                
+                total_categories = 0
+                if os.path.exists(enhancer.categories_file):
+                    with open(enhancer.categories_file, 'r', encoding='utf-8') as f:
+                        categories = json.load(f)
+                    total_categories = len(categories)
+                    
+                safe_print(f"\n📊 Category Statistics")
+                safe_print("=" * 30)
+                safe_print(f"   Total categories: {total_categories}")
+                safe_print(f"   Individual files created: {categories_created}")
+                safe_print(f"   Remaining: {total_categories - categories_created}")
+                safe_print(f"   Categories directory: {enhancer.categories_dir}")
+                safe_print(f"   Source file: {enhancer.categories_file}")
+                
+            elif choice == '7':
+                safe_print("\n👋 Goodbye!")
+                break
+                
+            else:
+                safe_print("[ERROR] Please enter a valid option (1-7)")
 
 if __name__ == "__main__":
     main() 

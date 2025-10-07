@@ -1,34 +1,36 @@
 {
   "categoryId": 22,
-  "name": "airfryer carrefour",
-  "slug": "airfryer-carrefour",
-  "seo_title": "Airfryer Carrefour: Mejor Precio y Cocina Saludable",
-  "seo_description": "Airfryer Carrefour ✅ Freidoras sin aceite Carrefour. ¡Ofertas hoy!",
-  "keywords": [
-    "airfryer carrefour",
-    "comprar airfryer carrefour",
-    "ofertas airfryer carrefour",
-    "precio airfryer carrefour",
-    "freidora aire carrefour"
-  ],
+  "categoryNameCanonical": "airfryer ambiano",
+  "slug": "airfryer-ambiano",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Ambiano Airfryer: Top-Produkte & Angebote ab 19€. Jetzt den besten Preis sichern!",
+  "content": "<div><h2>Ambiano Airfryer Angebote: Gesund frittieren zum besten Preis</h2><p>Entdecken Sie die Welt des gesunden Frittierens mit einem <strong>Ambiano Airfryer</strong>! Diese innovativen <strong>Produkte</strong> ermöglichen Ihnen, knusprige Gerichte mit deutlich weniger Öl zuzubereiten. Egal ob Pommes, Hähnchen oder Gemüse – mit einem Ambiano Airfryer gelingen Ihre Lieblingsspeisen fettarm und köstlich. Wir bieten Ihnen eine breite Auswahl an Modellen, die perfekt zu Ihren Bedürfnissen passen.</p><p>Suchen Sie nach dem <strong>besten Preis</strong> für Ihren neuen Ambiano Airfryer? Hier werden Sie fündig! Profitieren Sie von attraktiven <strong>Angeboten</strong>, die bereits <strong>ab 19€</strong> starten. Unsere Zusammenstellung hilft Ihnen, das ideale Modell zu finden und dabei bares Geld zu sparen. Ein Ambiano Airfryer ist eine Investition in gesunden Genuss und Küchenkomfort.</p><p>Die <strong>Ambiano Heißluftfritteusen</strong> zeichnen sich durch ihre einfache Bedienung, kompaktes Design und zuverlässige Leistung aus. Sie sind nicht nur zum Frittieren geeignet, sondern auch zum Backen, Grillen und Rösten – ein echtes Multitalent für Ihre Küche. Verpassen Sie nicht unsere aktuellen <strong>Airfryer Ambiano Angebote</strong> und sichern Sie sich Ihr Exemplar noch heute!</p></div>",
+  "seo": {
+    "title": "Ambiano Airfryer kaufen: Top Angebote & bester Preis ab 19€",
+    "description": "Ambiano Airfryer: Top-Produkte & Angebote ab 19€. Jetzt den besten Preis sichern!",
+    "keywords": [
+      "Ambiano Airfryer",
+      "Heißluftfritteuse Angebot",
+      "Ambiano bester Preis"
+    ],
+    "enhancedAt": "2025-10-07T22:48:47.987056"
+  },
   "faq": [
     {
-      "question": "¿Qué modelos de airfryer ofrece Carrefour?",
-      "answer": "Carrefour dispone de una amplia selección de freidoras de aire de marcas como Cosori, Cecotec, Philips y su propia marca blanca, adaptable a distintas capacidades y presupuestos."
+      "question": "Was ist ein Ambiano Airfryer?",
+      "answer": "Ein Ambiano Airfryer ist eine Heißluftfritteuse, die Speisen mit heißer Luft statt Öl zubereitet. Dies ermöglicht knusprige Ergebnisse bei deutlich weniger Fett und fördert eine gesündere Zubereitung von Mahlzeiten."
     },
     {
-      "question": "¿Existen ofertas de airfryer en Carrefour?",
-      "answer": "Sí, Carrefour lanza promociones y descuentos regularmente en freidoras de aire. Es recomendable consultar su folleto semanal o la web para las ofertas actuales."
+      "question": "Wo finde ich die besten Ambiano Airfryer Angebote?",
+      "answer": "Die besten Angebote für Ambiano Airfryer Produkte finden Sie oft in Discountern, wie Aldi, sowie in verschiedenen Online-Shops und bei saisonalen Aktionen. Achten Sie auf Sonderangebote, bei denen die Preise schon ab 19€ starten können."
     },
     {
-      "question": "¿Cuál es el precio medio de una airfryer en Carrefour?",
-      "answer": "Los precios varían según marca y capacidad. En Carrefour puedes encontrar airfryers desde 40€ para modelos básicos hasta más de 150€ para opciones avanzadas."
+      "question": "Welche Vorteile bieten Ambiano Heißluftfritteusen?",
+      "answer": "Ambiano Airfryer ermöglichen gesünderes Kochen, sind vielseitig einsetzbar für Frittieren, Backen, Grillen und Rösten. Sie sind zudem benutzerfreundlich, oft kompakt im Design und bieten ein hervorragendes Preis-Leistungs-Verhältnis für den Einstieg in die Heißluftfrittier-Welt."
     }
   ],
-  "content": "<div>\n    <h2>Airfryer Carrefour: Cocina Saludable y Económica a tu Alcance</h2>\n    <p>Descubre la revolución culinaria con las <b>Airfryer Carrefour</b>. Disfruta de tus platos favoritos de forma mucho más sana, sin apenas aceite y con un sabor increíble. En Carrefour encontrarás una amplia gama de <b>freidoras de aire</b> para equipar tu cocina con la última tecnología y empezar a comer mejor.</p>\n    <h3>Ventajas de Comprar tu Airfryer en Carrefour</h3>\n    <ul>\n        <li><b>Cocina Saludable</b>: Prepara fritos crujientes con hasta un 80% menos de grasa.</li>\n        <li><b>Variedad de Modelos</b>: Encuentra la <b>airfryer</b> perfecta para ti, desde modelos compactos hasta grandes capacidades.</li>\n        <li><b>Fácil Uso y Limpieza</b>: Controles intuitivos y componentes aptos para lavavajillas en muchos modelos.</li>\n        <li><b>Versatilidad Culinaria</b>: Fríe, asa, hornea y gratina con un solo electrodoméstico.</li>\n    </ul>\n    <p>Aprovecha nuestras ofertas exclusivas en <b>Airfryer Carrefour</b>. Encuentra modelos disponibles desde <b>19€</b> con envío gratis a tu domicilio. ¡Es hora de transformar tu forma de cocinar!</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:31:25.146758",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 0,
-  "lastUpdated": "2025-10-07T21:02:26.296620"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:47.987073",
+  "lastUpdated": "2025-10-07T23:02:15.199615"
 }

@@ -1,34 +1,41 @@
 {
   "categoryId": 79,
-  "name": "airfryer mini",
-  "slug": "airfryer-mini",
-  "seo_title": "Comprar Airfryer Mini: Cocina Sana y Ahorra Espacio",
-  "seo_description": "Airfryer Mini ✅ Cocina saludable, compacta y rápida. ¡Tu freidora sin aceite!",
-  "keywords": [
-    "airfryer mini",
-    "mini freidora aire",
-    "freidora aire pequeña",
-    "airfryer para 1 persona",
-    "comprar airfryer mini"
-  ],
+  "categoryNameCanonical": "airfryer create",
+  "slug": "airfryer-create",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecke unsere Airfryer Produkte ab 19€! Knusprige Gerichte fettarm mit Bestpreis.",
+  "content": "<div><h2>Airfryer kaufen: Ihre Vorteile & Top Angebote ab 19€</h2><p>Entdecken Sie die Welt der Airfryer und revolutionieren Sie Ihre Küche! Eine Heißluftfritteuse ermöglicht es Ihnen, köstliche, knusprige Gerichte mit deutlich weniger Fett zuzubereiten. Egal ob Pommes, Hähnchen, Gemüse oder sogar Backwaren – mit unseren Airfryer <strong>Produkten</strong> gelingt alles im Handumdrehen.</p><p>Wir bieten eine große Auswahl an Heißluftfritteusen für jeden Bedarf und jedes Budget. Finden Sie Ihren neuen Küchenhelfer und profitieren Sie von unseren unschlagbaren <strong>Angeboten</strong>. Bei uns starten die Preise für hochwertige Airfryer bereits <strong>ab 19€</strong>! Sichern Sie sich den <strong>Bestpreis</strong> für Ihr Wunschmodell und genießen Sie gesünderen Genuss.</p><p>Stöbern Sie durch unser Sortiment und finden Sie den perfekten Airfryer, der zu Ihrem Kochstil passt. Gesund, schnell und lecker – so einfach kann Kochen sein!</p></div>",
+  "seo": {
+    "title": "Airfryer kaufen: Heißluftfritteusen Top Angebote & Bestpreis",
+    "description": "Entdecke unsere Airfryer Produkte ab 19€! Knusprige Gerichte fettarm mit Bestpreis.",
+    "keywords": [
+      "Airfryer",
+      "Heißluftfritteuse",
+      "Produkte",
+      "Bestpreis",
+      "Angebot",
+      "günstig kaufen",
+      "fettarm kochen",
+      "Küchengeräte"
+    ],
+    "enhancedAt": "2025-10-07T22:48:59.674498"
+  },
   "faq": [
     {
-      "question": "¿Qué capacidad suelen tener las airfryer mini?",
-      "answer": "Las airfryer mini tienen una capacidad de 1 a 2 litros, ideales para raciones individuales o para dos personas. Su diseño compacto es perfecto para cocinas con espacio limitado."
+      "question": "Was ist eine Heißluftfritteuse (Airfryer)?",
+      "answer": "Eine Heißluftfritteuse, oft auch Airfryer genannt, ist ein Küchengerät, das Lebensmittel mit heißer Luft zirkuliert, um sie knusprig zu garen. Es ist eine gesündere Alternative zum herkömmlichen Frittieren, da es deutlich weniger Öl benötigt."
     },
     {
-      "question": "¿Para quién es recomendable una airfryer mini?",
-      "answer": "Es ideal para personas solas, parejas, estudiantes o aquellos que viven en apartamentos pequeños. Perfecta si buscas preparar comidas saludables y rápidas sin ocupar mucho espacio en tu cocina."
+      "question": "Welche Vorteile bieten Airfryer Produkte?",
+      "answer": "Airfryer ermöglichen fettarmes Kochen, sind vielseitig einsetzbar (frittieren, backen, grillen, rösten) und garen Speisen schnell und gleichmäßig. Sie sind eine ideale Lösung für gesunde und leckere Mahlzeiten im Alltag."
     },
     {
-      "question": "¿Qué se puede cocinar en una airfryer mini de forma eficiente?",
-      "answer": "Puedes preparar fácilmente patatas fritas, snacks, alitas de pollo, verduras asadas y pequeñas porciones de pescado o carne. Es excelente para platos rápidos y crujientes con poco aceite."
+      "question": "Wo finde ich die besten Airfryer Angebote?",
+      "answer": "Auf unserer Seite finden Sie eine große Auswahl an Airfryer Produkten zum Bestpreis. Unsere Angebote starten bereits ab 19€, sodass für jedes Budget das passende Modell dabei ist. Entdecken Sie jetzt unsere aktuellen Aktionen!"
     }
   ],
-  "content": "<div>\n<h2>Airfryer Mini: Tu Freidora de Aire Compacta para Cocina Saludable</h2>\n<p>Descubre la revolución en tu cocina con una <b>airfryer mini</b>, la solución perfecta para preparar tus platos favoritos de forma saludable y sin apenas aceite. Ideal para cocinas pequeñas o para quienes buscan una <b>freidora de aire compacta</b> que no ocupe espacio, sin renunciar a la eficiencia y el sabor. Transforma tus comidas con facilidad y rapidez.</p>\n<h3>Características Clave de la Airfryer Mini</h3>\n<ul>\n<li><b>Tamaño Compacto</b>: Perfecta para cualquier cocina, se guarda fácilmente en espacios reducidos.</li>\n<li><b>Cocina Saludable</b>: Prepara fritos deliciosos con hasta un 80% menos de grasa, cuidando tu bienestar.</li>\n<li><b>Versatilidad Culinaria</b>: Ideal para raciones individuales o para dos personas. Asa, hornea, fríe y tuesta con un solo electrodoméstico.</li>\n<li><b>Fácil de Usar y Limpiar</b>: Controles intuitivos para un manejo sencillo y piezas aptas para lavavajillas.</li>\n<li><b>Potencia Eficiente</b>: Obtén resultados rápidos y crujientes con un menor consumo energético, ideal para el día a día.</li>\n</ul>\n<p>No esperes más para disfrutar de una alimentación más sana y cómoda. Encuentra tu <b>airfryer mini</b> desde solo <b>19€</b> y aprovecha nuestro <b>envío gratis</b> a toda España. ¡La opción inteligente para tu hogar y tu paladar!</p>\n</div>",
-  "enhanced": true,
-  "enhanced_at": "2025-10-07T20:33:07.714616",
-  "enhancement_version": "ultra_fast_ai_v1",
-  "productCount": 3,
-  "lastUpdated": "2025-10-07T21:02:26.375625"
+  "productCount": 5,
+  "enhancedAt": "2025-10-07T22:48:59.674518",
+  "lastUpdated": "2025-10-07T23:02:15.297130"
 }

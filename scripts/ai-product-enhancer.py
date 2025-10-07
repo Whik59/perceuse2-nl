@@ -32,7 +32,7 @@ def thread_safe_print(message, lock):
         safe_print(message)
 
 class AIProductEnhancer:
-    def __init__(self):
+    def __init__(self, output_language='german'):
         # Fix path - check if we're in scripts directory or root
         if os.path.basename(os.getcwd()) == 'scripts':
             self.products_dir = "../data/products"
@@ -40,6 +40,25 @@ class AIProductEnhancer:
         else:
             self.products_dir = "data/products"
             self.config_file = "scripts/ai-config.json"
+        
+        self.output_language = output_language  # Language for output content
+        
+        # Language mapping for better AI understanding
+        self.language_map = {
+            'german': 'German',
+            'spanish': 'Spanish', 
+            'french': 'French',
+            'italian': 'Italian',
+            'dutch': 'Dutch',
+            'polish': 'Polish',
+            'swedish': 'Swedish',
+            'english': 'English',
+            'portuguese': 'Portuguese',
+            'russian': 'Russian',
+            'chinese': 'Chinese',
+            'japanese': 'Japanese',
+            'korean': 'Korean'
+        }
         
         # Load AI configuration
         self.ai_config = self.load_ai_config()
@@ -65,25 +84,25 @@ class AIProductEnhancer:
         
         # Default fallback config
         return {
-            "spanish_keywords": [
-                "productos",
-                "mejor precio",
-                "oferta",
-                "envio gratis",
-                "garantia",
-                "calidad",
-                "fácil uso",
-                "españa"
+            "keywords": [
+                "products",
+                "best price",
+                "offer",
+                "free shipping",
+                "warranty",
+                "quality",
+                "easy use",
+                "premium"
             ],
             "seo_settings": {
-                "default_price": "desde 19€",
-                "store_name": "Tu Tienda"
+                "default_price": "from 19€",
+                "store_name": "Your Store"
             }
         }
     
     def get_product_keywords(self):
         """Get product-specific keywords from config"""
-        return self.ai_config.get("spanish_keywords", ["productos", "mejor precio", "oferta"])
+        return self.ai_config.get("keywords", ["products", "best price", "offer"])
     
     # OPTIMIZED AI prompts - shorter and more focused for speed
     def get_prompts(self):
@@ -91,10 +110,10 @@ class AIProductEnhancer:
         keywords = self.get_product_keywords()
         return {
             'name_optimization': f"""
-Optimize Spanish product name for SEO (max 60 chars):
+Optimize English product name for SEO (max 60 chars):
 "{{original_name}}"
 
-Requirements: Spanish, appealing, key features, quality-focused
+Requirements: English, appealing, key features, quality-focused
 Keywords to consider: {', '.join(keywords[:3])}
 Respond ONLY with the optimized name.
 """,
@@ -108,26 +127,26 @@ Respond ONLY with the slug.
 """,
             
             'description_enhancement': f"""
-Create Spanish HTML description (max 300 words):
+Create English HTML description (max 300 words):
 Product: {{product_name}}
 Price: {{price}}€
 Features: {{features}}
 
-Requirements: Spanish, HTML format, quality-focused, compelling, CTA
+Requirements: English, HTML format, quality-focused, compelling, CTA
 Keywords: {', '.join(keywords[:3])}
 Respond ONLY with HTML content.
 """,
             
             'specifications_enhancement': """
-Create Spanish specs JSON for: {product_name}
+Create English specs JSON for: {product_name}
 Original: {original_specs}
 
-Requirements: Spanish terms, product specs, quality-focused
+Requirements: English terms, product specs, quality-focused
 Respond ONLY with JSON object.
 """,
             
             'faq_generation': f"""
-Create 5 Spanish FAQ for: {{product_name}}
+Create 5 English FAQ for: {{product_name}}
 Price: {{price}}€
 
 Requirements: Common concerns, easy use, durability, support
@@ -215,71 +234,71 @@ Respond ONLY with JSON array.
     def get_fallback_response(self, prompt):
         """Fallback responses when AI service is not available"""
         keywords = self.get_product_keywords()
-        main_keyword = keywords[0] if keywords else "producto"
+        main_keyword = keywords[0] if keywords else "product"
         
         if "name_optimization" in prompt:
-            return f"{main_keyword.title()} de Calidad Premium - Fácil de Usar"
+            return f"{main_keyword.title()} Premium Quality - Easy to Use"
         elif "slug_optimization" in prompt:
-            return f"{main_keyword.lower()}-calidad-premium-facil-usar"
+            return f"{main_keyword.lower()}-premium-quality-easy-use"
         elif "description_enhancement" in prompt:
             return f"""<div class="product-description">
-<h2>{main_keyword.title()} de Calidad Premium</h2>
-<p>Descubre la tranquilidad de tener un {main_keyword} que realmente entiende tus necesidades. Este producto ha sido cuidadosamente diseñado pensando en la calidad y facilidad de uso.</p>
+<h2>{main_keyword.title()} Premium Quality</h2>
+<p>Discover the peace of mind of having a {main_keyword} that truly understands your needs. This product has been carefully designed with quality and ease of use in mind.</p>
 
-<h3>Características Principales:</h3>
+<h3>Key Features:</h3>
 <ul>
-<li><strong>Calidad Premium:</strong> Materiales de alta calidad para máxima durabilidad</li>
-<li><strong>Fácil de Usar:</strong> Diseño intuitivo y funcionalidades simplificadas</li>
-<li><strong>Garantía Completa:</strong> Protección total para tu tranquilidad</li>
-<li><strong>Envio Gratis:</strong> Entrega rápida y segura</li>
+<li><strong>Premium Quality:</strong> High-quality materials for maximum durability</li>
+<li><strong>Easy to Use:</strong> Intuitive design and simplified functionality</li>
+<li><strong>Complete Warranty:</strong> Full protection for your peace of mind</li>
+<li><strong>Free Shipping:</strong> Fast and secure delivery</li>
 </ul>
 
-<h3>¿Por Qué Elegir Este Producto?</h3>
-<p>✓ <strong>Calidad:</strong> Productos de la más alta calidad<br>
-✓ <strong>Confianza:</strong> Garantía completa incluida<br>
-✓ <strong>Durabilidad:</strong> Construcción robusta para uso diario<br>
-✓ <strong>Soporte:</strong> Atención al cliente especializada</p>
+<h3>Why Choose This Product?</h3>
+<p>✓ <strong>Quality:</strong> Products of the highest quality<br>
+✓ <strong>Trust:</strong> Complete warranty included<br>
+✓ <strong>Durability:</strong> Robust construction for daily use<br>
+✓ <strong>Support:</strong> Specialized customer service</p>
 
 <div class="cta-section">
-<p><strong>¡Haz tu vida más fácil y segura!</strong> Ideal para ti o como regalo perfecto para tus seres queridos.</p>
+<p><strong>Make your life easier and safer!</strong> Perfect for you or as a perfect gift for your loved ones.</p>
 </div>
 </div>"""
         elif "specifications_enhancement" in prompt:
             return {
-                "Material": "Alta calidad",
-                "Dimensiones": "Compacto y ligero", 
-                "Tecnología": "Avanzada",
-                "Batería": "Duradera",
-                "Autonomía": "Larga duración",
-                "Memoria": "Amplia capacidad",
-                "Conectividad": "Universal",
-                "Carga": "USB / USB-C",
-                "Peso": "Ligero",
-                "Resistencia": "Resistente a golpes",
-                "Idioma": "Español",
-                "Garantía": "2 años"
+                "Material": "High quality",
+                "Dimensions": "Compact and lightweight", 
+                "Technology": "Advanced",
+                "Battery": "Long-lasting",
+                "Autonomy": "Long duration",
+                "Memory": "Large capacity",
+                "Connectivity": "Universal",
+                "Charging": "USB / USB-C",
+                "Weight": "Lightweight",
+                "Resistance": "Shock resistant",
+                "Language": "Multi-language",
+                "Warranty": "2 years"
             }
         elif "faq_generation" in prompt:
             return [
                 {
-                    "question": "¿Es realmente fácil de usar?",
-                    "answer": f"Absolutamente. Este {main_keyword} está diseñado específicamente para facilitar su uso con controles simples y instrucciones claras. No necesitas conocimientos técnicos para usarlo."
+                    "question": "Is it really easy to use?",
+                    "answer": f"Absolutely. This {main_keyword} is specifically designed to facilitate its use with simple controls and clear instructions. You don't need technical knowledge to use it."
                 },
                 {
-                    "question": "¿Qué garantía incluye?", 
-                    "answer": f"Este {main_keyword} incluye garantía completa de 2 años, cubriendo cualquier defecto de fabricación. Tu satisfacción está garantizada."
+                    "question": "What warranty is included?", 
+                    "answer": f"This {main_keyword} includes a complete 2-year warranty, covering any manufacturing defects. Your satisfaction is guaranteed."
                 },
                 {
-                    "question": "¿Es resistente a golpes?",
-                    "answer": f"Este {main_keyword} está construido para ser resistente a golpes y caídas normales. Su diseño robusto lo protege del uso diario."
+                    "question": "Is it shock resistant?",
+                    "answer": f"This {main_keyword} is built to be resistant to normal shocks and falls. Its robust design protects it from daily use."
                 },
                 {
-                    "question": "¿Cuánto dura la batería?",
-                    "answer": f"La batería está optimizada para máxima duración. Puedes usarlo durante días sin necesidad de cargarlo constantemente."
+                    "question": "How long does the battery last?",
+                    "answer": f"The battery is optimized for maximum duration. You can use it for days without needing to charge it constantly."
                 },
                 {
-                    "question": "¿Incluye manual en español y soporte técnico?",
-                    "answer": f"Sí, incluye un manual detallado en español con instrucciones claras. Además, nuestro equipo de soporte técnico está disponible para ayudarte con cualquier duda."
+                    "question": "Does it include manual and technical support?",
+                    "answer": f"Yes, it includes a detailed manual with clear instructions. In addition, our technical support team is available to help you with any questions."
                 }
             ]
         
@@ -1031,49 +1050,50 @@ Enfócate en dudas comunes sobre:
 
     def optimize_product_name_fast(self, original_name):
         """AI-powered name optimization with product-specific prompts"""
-        prompt = f"""Optimiza el nombre del producto para SEO (máximo 60 caracteres):
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        prompt = f"""Optimize product name for SEO (max 60 characters) in {language_name}:
 
 "{original_name}"
 
-REGLAS ESTRICTAS:
-- SOLO mencionar características del producto específico
-- NO mencionar auriculares, móviles, o productos no relacionados
-- Incluir beneficio clave específico del producto
-- Usar palabras de acción (Comprar, Descubre, Mejores)
-- Mantener el nombre original como base
-- NO mencionar demografías específicas
+STRICT RULES:
+- ONLY mention specific product characteristics
+- Include key benefit specific to the product
+- Use action words (Buy, Discover, Best)
+- Keep original name as base
+- Focus on airfryer-related content
 
-Responde SOLO el nombre optimizado:"""
+Respond ONLY with optimized name:"""
         
         return self.get_ai_response_fast(prompt)
 
     def enhance_description_fast(self, original_name, features, price):
         """AI-powered description enhancement with product-specific prompts"""
-        features_text = ", ".join(features[:3]) if features else "características destacadas"
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""Crea una descripción SEO para: "{original_name}"
+        prompt = f"""Create SEO description for: "{original_name}" in {language_name}
 
-REGLAS ESTRICTAS:
-- SOLO escribir sobre "{original_name}" y características específicas
-- Incluir características: {features_text}
-- Mencionar precio {price}€
-- Crear urgencia (envío gratis)
-- Máximo 200 palabras
-- Formato HTML válido
+STRICT RULES:
+- ONLY write about "{original_name}" and specific characteristics
+- Include features: {features_text}
+- Mention price {price}€
+- Create urgency (free shipping)
+- Max 200 words
+- Valid HTML format
 
-EJEMPLO:
+EXAMPLE:
 <div>
 <h2>{original_name}</h2>
-<p>Descubre el <b>{original_name}</b> con la mejor calidad y precio.</p>
-<h3>Características Principales</h3>
+<p>Discover the <b>{original_name}</b> with the best quality and price.</p>
+<h3>Key Features</h3>
 <ul>
-<li><b>Característica 1</b>: Descripción específica</li>
-<li><b>Característica 2</b>: Descripción específica</li>
+<li><b>Feature 1</b>: Specific description</li>
+<li><b>Feature 2</b>: Specific description</li>
 </ul>
-<p>Desde <b>{price}€</b> con envío gratis.</p>
+<p>From <b>{price}€</b> with free shipping.</p>
 </div>
 
-Responde SOLO el HTML:"""
+Respond ONLY with HTML:"""
         
         response = self.get_ai_response_fast(prompt)
         
@@ -1089,76 +1109,78 @@ Responde SOLO el HTML:"""
 
     def enhance_specifications_fast(self, specifications, original_name):
         """AI-powered specifications enhancement"""
-        existing_specs = ", ".join(specifications.keys()) if specifications else "ninguna"
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        existing_specs = ", ".join(specifications.keys()) if specifications else "none"
         
-        prompt = f"""Mejora las especificaciones técnicas para: "{original_name}"
+        prompt = f"""Improve technical specifications for: "{original_name}" in {language_name}
 
-REGLAS ESTRICTAS:
-- SOLO especificaciones relacionadas con "{original_name}"
-- Incluir especificaciones técnicas específicas del producto
-- Formato JSON válido
-- Especificaciones existentes: {existing_specs}
+STRICT RULES:
+- ONLY specifications related to "{original_name}"
+- Include specific technical specifications of the product
+- Valid JSON format
+- Existing specifications: {existing_specs}
 
-EJEMPLO:
+EXAMPLE:
 {{
-  "Garantía": "2 años",
-  "Envío": "Gratis a toda España",
-  "Disponibilidad": "Inmediata",
-  "Especificación específica": "Valor específico del producto"
+  "Warranty": "2 years",
+  "Shipping": "Free worldwide",
+  "Availability": "Immediate",
+  "Specific specification": "Specific product value"
 }}
 
-Responde SOLO el JSON:"""
+Respond ONLY with JSON:"""
         
         try:
             response = self.get_ai_response_fast(prompt)
             return json.loads(response)
         except:
             return specifications if specifications else {
-                "Garantía": "2 años",
-                "Envío": "Gratis a toda España",
-                "Disponibilidad": "Inmediata"
+                "Warranty": "2 years",
+                "Shipping": "Free worldwide",
+                "Availability": "Immediate"
             }
 
     def generate_faq_fast(self, original_name, features, price):
         """AI-powered FAQ generation with product-specific prompts"""
-        features_text = ", ".join(features[:2]) if features else "características destacadas"
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        features_text = ", ".join(features[:2]) if features else "key features"
         
-        prompt = f"""Crea 3 preguntas frecuentes para: "{original_name}"
+        prompt = f"""Create 3 frequently asked questions for: "{original_name}" in {language_name}
 
-REGLAS ESTRICTAS:
-- SOLO preguntas sobre "{original_name}" y características específicas
-- Incluir características: {features_text}
-- Formato JSON válido
-- Preguntas específicas del producto
+STRICT RULES:
+- ONLY questions about "{original_name}" and specific characteristics
+- Include features: {features_text}
+- Valid JSON format
+- Product-specific questions
 
-EJEMPLO:
+EXAMPLE:
 [
-  {{"question": "¿Cuáles son las características principales de {original_name}?", "answer": "{original_name} incluye {features_text} para máxima calidad."}},
-  {{"question": "¿Hay garantía en {original_name}?", "answer": "Sí, {original_name} incluye garantía completa de 2 años."}},
-  {{"question": "¿Cuánto cuesta el envío?", "answer": "El envío es completamente gratis a toda España."}}
+  {{"question": "What are the main features of {original_name}?", "answer": "{original_name} includes {features_text} for maximum quality."}},
+  {{"question": "Is there a warranty on {original_name}?", "answer": "Yes, {original_name} includes a complete 2-year warranty."}},
+  {{"question": "How much does shipping cost?", "answer": "Shipping is completely free worldwide."}}
 ]
 
-Responde SOLO el JSON:"""
+Respond ONLY with JSON:"""
         
         try:
             response = self.get_ai_response_fast(prompt)
             return json.loads(response)
         except:
             return [
-                {"question": f"¿Por qué elegir {original_name}?", "answer": f"{original_name} ofrece la mejor calidad al mejor precio."},
-                {"question": "¿Hay garantía?", "answer": "Sí, todos nuestros productos incluyen garantía completa."}
+                {"question": f"Why choose {original_name}?", "answer": f"{original_name} offers the best quality at the best price."},
+                {"question": "Is there a warranty?", "answer": "Yes, all our products include a complete warranty."}
             ]
 
     def create_short_description_fast(self, original_name, features, price):
         """AI-powered short description with product-specific prompts"""
-        prompt = f"""Crea una descripción corta SEO (máximo 150 caracteres) para: "{original_name}"
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        prompt = f"""Create short SEO description (max 150 characters) for: "{original_name}" in {language_name}
 
-REGLAS ESTRICTAS:
-- SOLO mencionar "{original_name}" y características específicas
+STRICT RULES:
+- ONLY mention "{original_name}" and specific characteristics
 
-
-EJEMPLO: "{original_name} ✅ Calidad Premium. {price}€ ¡Envío Gratis!"
-Responde SOLO la descripción:"""
+EXAMPLE: "{original_name} ✅ Premium Quality. {price}€ Free Shipping!"
+Respond ONLY with description:"""
         
         return self.get_ai_response_fast(prompt)
 
@@ -1176,8 +1198,9 @@ Responde SOLO la descripción:"""
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # System prompt for Spanish SEO expert
-            system_prompt = "Eres un experto en SEO y marketing digital para productos en España. Siempre respondes en español de forma clara, persuasiva y optimizada para SEO."
+            # System prompt for SEO expert (in English)
+            language_name = self.language_map.get(self.output_language, self.output_language.title())
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and airfryer-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -1207,85 +1230,112 @@ Responde SOLO la descripción:"""
         return "Producto de calidad con envío gratis"
 
 def main():
-    """Main function"""
+    """Main function with command line arguments"""
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='AI Product Enhancer with Multi-Language Support')
+    parser.add_argument('--language', '-l', default='german', 
+                        choices=['german', 'spanish', 'french', 'italian', 'dutch', 'polish', 'swedish', 'english', 'portuguese', 'russian', 'chinese', 'japanese', 'korean'],
+                        help='Output language for generated content (default: german)')
+    parser.add_argument('--mode', '-m', default='interactive',
+                        choices=['interactive', 'ultra-fast', 'fast', 'standard'],
+                        help='Processing mode (default: interactive)')
+    parser.add_argument('--workers', '-w', type=int, default=50,
+                        help='Number of concurrent workers for ultra-fast mode (default: 50)')
+    
+    args = parser.parse_args()
+    
     safe_print("🤖 AI Product Enhancer")
+    safe_print(f"🌍 Language: {args.language.title()}")
+    safe_print(f"⚡ Mode: {args.mode}")
     safe_print("Optimizing product data for better SEO and user experience")
     safe_print("=" * 60)
     
-    enhancer = AIProductEnhancer()
+    enhancer = AIProductEnhancer(output_language=args.language)
+    enhancer.max_concurrent_requests = args.workers
     
-    # Interactive menu
-    while True:
-        safe_print("\n📋 Options:")
-        safe_print("1. Enhance all products (Standard)")
-        safe_print("2. Enhance all products (FAST - Batch Mode) ⚡")
-        safe_print("3. Enhance all products (ULTRA-FAST - Maximum Speed) 🚀")
-        safe_print("4. Enhance single product")
-        safe_print("5. View enhancement statistics")
-        safe_print("6. Exit")
-        
-        choice = input("\nSelect option (1-6): ").strip()
-        
-        if choice == '1':
-            safe_print("\n🚀 Starting standard bulk enhancement...")
-            enhanced, failed = enhancer.enhance_all_products()
+    if args.mode == 'ultra-fast':
+        safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
+        enhanced, failed = enhancer.enhance_all_products_ultra_fast()
+    elif args.mode == 'fast':
+        safe_print("\n⚡ Starting FAST enhancement...")
+        enhanced, failed = enhancer.enhance_all_products_fast()
+    elif args.mode == 'standard':
+        safe_print("\n🚀 Starting standard enhancement...")
+        enhanced, failed = enhancer.enhance_all_products()
+    else:
+        # Interactive mode
+        while True:
+            safe_print("\n📋 Options:")
+            safe_print("1. Enhance all products (Standard)")
+            safe_print("2. Enhance all products (FAST - Batch Mode) ⚡")
+            safe_print("3. Enhance all products (ULTRA-FAST - Maximum Speed) 🚀")
+            safe_print("4. Enhance single product")
+            safe_print("5. View enhancement statistics")
+            safe_print("6. Exit")
             
-        elif choice == '2':
-            safe_print("\n⚡ Starting FAST batch enhancement...")
-            enhanced, failed = enhancer.enhance_all_products_fast()
+            choice = input("\nSelect option (1-6): ").strip()
             
-        elif choice == '3':
-            safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
-            enhanced, failed = enhancer.enhance_all_products_ultra_fast()
-            
-        elif choice == '4':
-            product_files = [f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')]
-            if not product_files:
-                safe_print("[ERROR] No product files found!")
-                continue
+            if choice == '1':
+                safe_print("\n🚀 Starting standard bulk enhancement...")
+                enhanced, failed = enhancer.enhance_all_products()
                 
-            safe_print("\n📦 Available products:")
-            for i, file in enumerate(product_files[:10], 1):
-                safe_print(f"  {i}. {file}")
+            elif choice == '2':
+                safe_print("\n⚡ Starting FAST batch enhancement...")
+                enhanced, failed = enhancer.enhance_all_products_fast()
+                
+            elif choice == '3':
+                safe_print("\n🚀 Starting ULTRA-FAST enhancement...")
+                enhanced, failed = enhancer.enhance_all_products_ultra_fast()
+                
+            elif choice == '4':
+                product_files = [f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')]
+                if not product_files:
+                    safe_print("[ERROR] No product files found!")
+                    continue
+                    
+                safe_print("\n📦 Available products:")
+                for i, file in enumerate(product_files[:10], 1):
+                    safe_print(f"  {i}. {file}")
+                
+                try:
+                    file_choice = int(input("\nSelect product number: ")) - 1
+                    if 0 <= file_choice < len(product_files):
+                        product_file = os.path.join(enhancer.products_dir, product_files[file_choice])
+                        enhancer.enhance_single_product(product_file)
+                    else:
+                        safe_print("[ERROR] Invalid selection")
+                except ValueError:
+                    safe_print("[ERROR] Please enter a valid number")
             
-            try:
-                file_choice = int(input("\nSelect product number: ")) - 1
-                if 0 <= file_choice < len(product_files):
-                    product_file = os.path.join(enhancer.products_dir, product_files[file_choice])
-                    enhancer.enhance_single_product(product_file)
-                else:
-                    safe_print("[ERROR] Invalid selection")
-            except ValueError:
-                safe_print("[ERROR] Please enter a valid number")
-        
-        elif choice == '5':
-            # Show statistics
-            product_files = len([f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')])
+            elif choice == '5':
+                # Show statistics
+                product_files = len([f for f in os.listdir(enhancer.products_dir) if f.endswith('.json')])
+                
+                # Count enhanced products by checking for 'enhanced' field
+                enhanced_count = 0
+                for file in os.listdir(enhancer.products_dir):
+                    if file.endswith('.json'):
+                        try:
+                            with open(os.path.join(enhancer.products_dir, file), 'r', encoding='utf-8') as f:
+                                product = json.load(f)
+                                if product.get('enhanced', False):
+                                    enhanced_count += 1
+                        except:
+                            pass
+                
+                safe_print(f"\n📊 Enhancement Statistics:")
+                safe_print(f"   Total products: {product_files}")
+                safe_print(f"   Enhanced products: {enhanced_count}")
+                safe_print(f"   Products directory: {enhancer.products_dir}")
+                safe_print(f"   Cache entries: {len(enhancer.content_cache)}")
             
-            # Count enhanced products by checking for 'enhanced' field
-            enhanced_count = 0
-            for file in os.listdir(enhancer.products_dir):
-                if file.endswith('.json'):
-                    try:
-                        with open(os.path.join(enhancer.products_dir, file), 'r', encoding='utf-8') as f:
-                            product = json.load(f)
-                            if product.get('enhanced', False):
-                                enhanced_count += 1
-                    except:
-                        pass
+            elif choice == '6':
+                safe_print("\n👋 Goodbye!")
+                break
             
-            safe_print(f"\n📊 Enhancement Statistics:")
-            safe_print(f"   Total products: {product_files}")
-            safe_print(f"   Enhanced products: {enhanced_count}")
-            safe_print(f"   Products directory: {enhancer.products_dir}")
-            safe_print(f"   Cache entries: {len(enhancer.content_cache)}")
-        
-        elif choice == '6':
-            safe_print("\n👋 Goodbye!")
-            break
-        
-        else:
-            safe_print("[ERROR] Invalid option. Please try again.")
+            else:
+                safe_print("[ERROR] Invalid option. Please try again.")
 
 if __name__ == "__main__":
     main() 

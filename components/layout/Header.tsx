@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Search, ShoppingCart, Menu, X, MessageCircle, Tag, Star, Package } from 'lucide-react';
 import { formatCurrency, getString } from '../../lib/utils';
 import { Category, CartItem } from '../../lib/types';
@@ -275,16 +276,21 @@ const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gray-900 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">
-                {(process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche').charAt(0)}
-              </span>
+            <div className="w-12 h-12 relative rounded-lg overflow-hidden">
+              <Image
+                src="/logo.png"
+                alt={getString('common.siteName')}
+                width={48}
+                height={48}
+                className="rounded-lg object-cover"
+                priority
+              />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-2xl text-gray-900">
-                {process.env.NEXT_PUBLIC_SITE_NAME || process.env.SITE_NAME || 'Ma Peluche'}
+              <span className="font-bold text-2xl text-gray-900 tracking-tight">
+                {getString('common.siteName')}
               </span>
-              <span className="text-sm text-gray-500 -mt-1">Premium</span>
+              <span className="text-sm text-gray-500 -mt-1 font-medium tracking-wide">Premium</span>
             </div>
           </Link>
 
