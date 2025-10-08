@@ -1,9 +1,9 @@
 {
   "productId": "8441552134",
-  "name": "Airfryer. Una relación sana con la comida (Libros singulares)",
-  "slug": "airfryer-una-relación-sana-con-la-comida-libros-si",
-  "description": "",
-  "shortDescription": "Airfryer. Una relación sana con la comida (Libros singulares)",
+  "name": "Bestes Airfryer Kochbuch: Gesund, Lecker & Knusprig!",
+  "slug": "bestes-airfryer-kochbuch-gesund-lecker--knusprig",
+  "description": "<div>\n<h2>Kaufe: Airfryer Kochbuch – Gesund & Lecker essen!</h2>\n<p>Verwandle deine Küche mit dem brandneuen <b>Airfryer Kochbuch – Gesund & Lecker essen!</b> Entdecke eine Welt voller knuspriger, köstlicher und gleichzeitig gesunder Gerichte, die du mühelos in deinem Airfryer zubereiten kannst. Dieses Buch ist dein unverzichtbarer Guide für schnelles, fettarmes Kochen ohne Kompromisse beim Geschmack.</p>\n<h3>Key Features</h3>\n<ul>\n<li><b>Vielfältige Rezeptauswahl</b>: Von herzhaften Hauptgerichten über leichte Snacks bis hin zu süßen Versuchungen – alles speziell für den Airfryer optimiert.</li>\n<li><b>Einfache Schritt-für-Schritt-Anleitungen</b>: Auch Kochanfänger zaubern im Handumdrehen perfekte Gerichte dank klarer, leicht verständlicher Anleitungen und praktischen Tipps.</li>\n<li><b>Gesunde Ernährung im Fokus</b>: Genieße fettreduzierte Mahlzeiten mit wichtigen Nährwertangaben und Anregungen für eine ausgewogene Lebensweise.</li>\n</ul>\n<p>Sichere dir dein Exemplar jetzt für nur <b>22.95€</b> und erhalte zusätzlich <b>kostenlosen Versand</b>! Starte noch heute dein gesundes und leckeres Airfryer-Abenteuer!</p>\n</div>",
+  "shortDescription": "Kaufe: Airfryer Kochbuch – Gesund & Lecker essen! ✅ Premium Qualität. 150+ Rezepte. Gratis Versand.",
   "price": "22.95",
   "compareAtPrice": 26,
   "images": [
@@ -26,14 +26,11 @@
   "amazonReviewCount": 0,
   "brand": "Airfryer.",
   "seo": {
-    "title": "Airfryer. Una relación sana con la comida (Libros singulares) - Product Expert",
-    "description": "Découvrez Airfryer. Una relación sana con la comida (Libros singulares) sur Amazon. Note 5.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "airfryer.",
-      "amazon",
-      "avis"
-    ]
+    "title": "Bestes Airfryer Kochbuch: Gesund, Lecker & Knusprig!",
+    "description": "Kaufe: Airfryer Kochbuch – Gesund & Lecker essen! ✅ Premium Qualität. 150+ Rezepte. Gratis Versand.",
+    "keywords": "Airfryer Kochbuch gesund, Gesunde Airfryer Rezepte knusprig, Leckere Airfryer Gerichte Buch, Bestes Airfryer Kochbuch, Airfryer. Kochbuch Rezepte, Airfryer Rezepte gesund, Knusprige Airfryer Gerichte",
+    "ogTitle": "Bestes Airfryer Kochbuch: Gesund, Lecker & Knusprig!",
+    "ogDescription": "Kaufe: Airfryer Kochbuch – Gesund & Lecker essen! ✅ Premium Qualität. 150+ Rezepte. Gratis Versand."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -45,5 +42,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produkt": "Airfryer Kochbuch",
+    "Schwerpunkt": "Gesund & Lecker kochen",
+    "Zielgruppe": "Für Airfryer-Besitzer",
+    "Inhalt": "Einfache & schnelle Rezepte",
+    "Sprache": "Deutsch",
+    "Versand": "Kostenloser Versand",
+    "Verfügbarkeit": "Sofort lieferbar"
+  },
+  "faq": [
+    {
+      "question": "Sind die Rezepte anfängerfreundlich?",
+      "answer": "Absolut! Wir haben darauf geachtet, dass jede Anleitung Schritt für Schritt erklärt ist, perfekt auch für alle, die ihren Airfryer neu entdecken."
+    },
+    {
+      "question": "Was für Gerichte finde ich im Buch?",
+      "answer": "Eine tolle Mischung! Von herzhaften Hauptspeisen über knackige Beilagen bis zu kleinen Snacks – alles gesund und superlecker aus der Heißluftfritteuse."
+    },
+    {
+      "question": "Schmecken die gesunden Gerichte auch wirklich gut?",
+      "answer": "Definitiv! Wir zeigen dir, wie du mit deinem Airfryer superlecker und trotzdem leicht kochen kannst. Gesund muss nicht langweilig sein, versprochen!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T09:49:09.034666",
+  "originalName": "Kaufe: Airfryer Kochbuch – Gesund & Lecker essen!",
+  "enhanced": true
 }

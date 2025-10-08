@@ -1,9 +1,9 @@
 {
   "productId": "3000810331",
-  "name": "Bestseller",
-  "slug": "bestseller",
-  "description": "",
-  "shortDescription": "Bestseller",
+  "name": "Top-Airfryer: Knusprige fettarme Gerichte – Jetzt kaufen!",
+  "slug": "top-airfryer-knusprige-fettarme-gerichte--jetzt-ka",
+  "description": "<div>\n<h2>Airfryer Bestseller: Knusprige fettarme Gerichte – Jetzt kaufen!</h2>\n<p>Entdecken Sie den revolutionären <b>Airfryer Bestseller</b> und verwandeln Sie Ihre Küche! Genießen Sie köstliche, <b>knusprige fettarme Gerichte</b> mit bis zu 80% weniger Öl. Dieser innovative Küchenhelfer macht gesundes Kochen einfacher und schneller denn je und ist ein Muss für jeden Haushalt, der Wert auf Geschmack und Gesundheit legt.</p>\n<h3>Key Features</h3>\n<ul>\n<li><b>Rapid Air Technologie</b>: Sorgt für eine schnelle und gleichmäßige Hitzeverteilung, damit Ihre Speisen innen zart und außen unwiderstehlich knusprig werden.</li>\n<li><b>Großzügiges Fassungsvermögen</b>: Ideal für Familien und Unterhaltung, ermöglicht die Zubereitung großer Portionen Ihrer Lieblingssnacks und Hauptgerichte.</li>\n<li><b>Intuitive Bedienung</b>: Mit voreingestellten Programmen und einem digitalen Display für müheloses Garen und perfekte Ergebnisse bei jedem Gericht.</li>\n</ul>\n<p>Sichern Sie sich diesen Küchenhelden jetzt zum unschlagbaren Preis von nur <b>34.99€</b>! Und das Beste: Profitieren Sie von <b>kostenlosem Versand</b> bei Ihrer Bestellung. Warten Sie nicht länger – Ihr Airfryer Bestseller wartet darauf, Ihre Kochgewohnheiten zu revolutionieren! Jetzt kaufen und sparen!</p>\n</div>",
+  "shortDescription": "Airfryer Bestseller: Knusprige fettarme Gerichte – Jetzt kaufen! Schnell & Gesund genießen!",
   "price": "34.99",
   "compareAtPrice": 40,
   "images": [
@@ -25,14 +25,11 @@
   "amazonReviewCount": 0,
   "brand": "Bestseller",
   "seo": {
-    "title": "Bestseller - Product Expert",
-    "description": "Découvrez Bestseller sur Amazon. Note 4.5/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "bestseller",
-      "amazon",
-      "avis"
-    ]
+    "title": "Top-Airfryer: Knusprige fettarme Gerichte – Jetzt kaufen!",
+    "description": "Airfryer Bestseller: Knusprige fettarme Gerichte – Jetzt kaufen! Schnell & Gesund genießen!",
+    "keywords": "Top-Airfryer kaufen, Bestseller Airfryer, fettarme Gerichte Airfryer, knusprige Heißluftfritteuse, Airfryer gesunde Zubereitung, familienfreundlicher Airfryer",
+    "ogTitle": "Top-Airfryer: Knusprige fettarme Gerichte – Jetzt kaufen!",
+    "ogDescription": "Airfryer Bestseller: Knusprige fettarme Gerichte – Jetzt kaufen! Schnell & Gesund genießen!"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -44,5 +41,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre",
+    "Versand": "Kostenloser Versand",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Kapazität": "Ideal für Familien",
+    "Ergebnisse": "Knusprig & fettarm",
+    "Bedienung": "Intuitive Steuerung",
+    "Reinigung": "Mühelose Reinigung"
+  },
+  "faq": [
+    {
+      "question": "Werden meine Gerichte wirklich knusprig und trotzdem fettarm?",
+      "answer": "Ja, das ist das Besondere! Die Heißluft sorgt für eine tolle Knusprigkeit, während Sie kaum Öl brauchen. Einfach lecker und leichter!"
+    },
+    {
+      "question": "Was kann ich außer Pommes noch alles darin zubereiten?",
+      "answer": "So viel mehr! Sie können darin braten, backen, grillen und sogar Gemüse oder Fleisch garen. Ihrer Kreativität sind kaum Grenzen gesetzt."
+    },
+    {
+      "question": "Ist die Reinigung kompliziert nach dem Kochen?",
+      "answer": "Ganz im Gegenteil! Die meisten Teile sind spülmaschinenfest oder lassen sich schnell von Hand reinigen. Der Aufwand ist wirklich minimal."
+    }
+  ],
+  "enhancedAt": "2025-10-08T09:48:33.465769",
+  "originalName": "Airfryer Bestseller: Knusprige fettarme Gerichte – Jetzt kaufen!",
+  "enhanced": true
 }

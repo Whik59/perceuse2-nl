@@ -175,7 +175,7 @@ Respond ONLY with JSON array.
     
     async def get_ai_response_async(self, prompt, session_id="", max_retries=3, cache_key=None):
         """
-        OPTIMIZED Async AI response with caching and streaming
+        OPTIMIZED Async AI response with caching and streaming - NO FALLBACKS
         """
         # Check cache first
         if cache_key and cache_key in self.content_cache:
@@ -189,12 +189,17 @@ Respond ONLY with JSON array.
             API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
-                thread_safe_print(f"[WARNING] No API key configured, using fallback", self.print_lock)
-                return self.get_fallback_response(prompt)
+                thread_safe_print(f"[ERROR] No API key configured! Stopping script.", self.print_lock)
+                raise Exception("AI API key not configured - stopping script")
             
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
+            # System prompt for German language
+            language_name = self.language_map.get(self.output_language, self.output_language.title())
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and airfryer-related content."
+            
+            full_prompt = f"{system_prompt}\n\n{prompt}"
             
             # Minimal delay for speed
             await asyncio.sleep(self.request_delay)
@@ -218,12 +223,13 @@ Respond ONLY with JSON array.
                 
                 return result
             else:
-                thread_safe_print(f"[WARNING] Empty AI response for {session_id}, using fallback", self.print_lock)
-                return self.get_fallback_response(prompt)
+                thread_safe_print(f"[ERROR] Empty AI response for {session_id}! Stopping script.", self.print_lock)
+                raise Exception("Empty AI response - stopping script")
                 
         except Exception as e:
             thread_safe_print(f"[ERROR] AI request failed for {session_id}: {str(e)[:100]}", self.print_lock)
-            return self.get_fallback_response(prompt)
+            thread_safe_print(f"[ERROR] Stopping script due to AI failure!", self.print_lock)
+            raise Exception(f"AI request failed: {str(e)}")
     
     def get_ai_response(self, prompt, max_retries=3):
         """
@@ -231,78 +237,7 @@ Respond ONLY with JSON array.
         """
         return asyncio.run(self.get_ai_response_async(prompt, "sync"))
     
-    def get_fallback_response(self, prompt):
-        """Fallback responses when AI service is not available"""
-        keywords = self.get_product_keywords()
-        main_keyword = keywords[0] if keywords else "product"
-        
-        if "name_optimization" in prompt:
-            return f"{main_keyword.title()} Premium Quality - Easy to Use"
-        elif "slug_optimization" in prompt:
-            return f"{main_keyword.lower()}-premium-quality-easy-use"
-        elif "description_enhancement" in prompt:
-            return f"""<div class="product-description">
-<h2>{main_keyword.title()} Premium Quality</h2>
-<p>Discover the peace of mind of having a {main_keyword} that truly understands your needs. This product has been carefully designed with quality and ease of use in mind.</p>
-
-<h3>Key Features:</h3>
-<ul>
-<li><strong>Premium Quality:</strong> High-quality materials for maximum durability</li>
-<li><strong>Easy to Use:</strong> Intuitive design and simplified functionality</li>
-<li><strong>Complete Warranty:</strong> Full protection for your peace of mind</li>
-<li><strong>Free Shipping:</strong> Fast and secure delivery</li>
-</ul>
-
-<h3>Why Choose This Product?</h3>
-<p>✓ <strong>Quality:</strong> Products of the highest quality<br>
-✓ <strong>Trust:</strong> Complete warranty included<br>
-✓ <strong>Durability:</strong> Robust construction for daily use<br>
-✓ <strong>Support:</strong> Specialized customer service</p>
-
-<div class="cta-section">
-<p><strong>Make your life easier and safer!</strong> Perfect for you or as a perfect gift for your loved ones.</p>
-</div>
-</div>"""
-        elif "specifications_enhancement" in prompt:
-            return {
-                "Material": "High quality",
-                "Dimensions": "Compact and lightweight", 
-                "Technology": "Advanced",
-                "Battery": "Long-lasting",
-                "Autonomy": "Long duration",
-                "Memory": "Large capacity",
-                "Connectivity": "Universal",
-                "Charging": "USB / USB-C",
-                "Weight": "Lightweight",
-                "Resistance": "Shock resistant",
-                "Language": "Multi-language",
-                "Warranty": "2 years"
-            }
-        elif "faq_generation" in prompt:
-            return [
-                {
-                    "question": "Is it really easy to use?",
-                    "answer": f"Absolutely. This {main_keyword} is specifically designed to facilitate its use with simple controls and clear instructions. You don't need technical knowledge to use it."
-                },
-                {
-                    "question": "What warranty is included?", 
-                    "answer": f"This {main_keyword} includes a complete 2-year warranty, covering any manufacturing defects. Your satisfaction is guaranteed."
-                },
-                {
-                    "question": "Is it shock resistant?",
-                    "answer": f"This {main_keyword} is built to be resistant to normal shocks and falls. Its robust design protects it from daily use."
-                },
-                {
-                    "question": "How long does the battery last?",
-                    "answer": f"The battery is optimized for maximum duration. You can use it for days without needing to charge it constantly."
-                },
-                {
-                    "question": "Does it include manual and technical support?",
-                    "answer": f"Yes, it includes a detailed manual with clear instructions. In addition, our technical support team is available to help you with any questions."
-                }
-            ]
-        
-        return "Fallback response - please configure AI service"
+    # REMOVED: get_fallback_response method - we only use AI, no fallbacks
     
     # OPTIMIZED Async versions for batch processing with caching
     async def optimize_product_name_async(self, original_name, session_id, product_data=None):
@@ -310,7 +245,7 @@ Respond ONLY with JSON array.
         cache_key = self.get_cache_key('name_optimization', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"Optimiza nombre español SEO (60 chars): {original_name}"
+        prompt = f"Optimiere deutschen Produktnamen für SEO (60 Zeichen): {original_name}"
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
         # Fast cleanup
@@ -323,12 +258,12 @@ Respond ONLY with JSON array.
         cache_key = self.get_cache_key('description_enhancement', product_data or {}) if product_data else None
         
         # Use template for faster generation
-        features_text = ", ".join(features[:2]) if features else "fácil de usar"
-        prompt = f"""HTML español (300 words): {product_name}
-Precio: {price}€
-Características: {features_text[:100]}
+        features_text = ", ".join(features[:2]) if features else "einfach zu verwenden"
+        prompt = f"""HTML auf Deutsch (300 Wörter): {product_name}
+Preis: {price}€
+Merkmale: {features_text[:100]}
 
-Estructura: <div><h1>Título</h1><p>Intro</p><h2>Características</h2><ul><li>Lista</li></ul><p>CTA</p></div>"""
+Struktur: <div><h1>Titel</h1><p>Intro</p><h2>Merkmale</h2><ul><li>Liste</li></ul><p>CTA</p></div>"""
         
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
@@ -352,8 +287,9 @@ Estructura: <div><h1>Título</h1><p>Intro</p><h2>Características</h2><ul><li>Li
         cache_key = self.get_cache_key('specifications_enhancement', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"""JSON español specs: {product_name}
-Ejemplo: {{"Pantalla":"2.4 pulgadas","Batería":"800mAh","Peso":"120g"}}"""
+        prompt = f"""JSON deutsche Spezifikationen für: {product_name}
+Beispiel: {{"Garantie":"2 Jahre","Versand":"Kostenlos","Material":"Hochwertig"}}
+Basierend auf dem tatsächlichen Produkt: {product_name}"""
         
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
@@ -387,9 +323,10 @@ Ejemplo: {{"Pantalla":"2.4 pulgadas","Batería":"800mAh","Peso":"120g"}}"""
         cache_key = self.get_cache_key('faq_generation', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"""5 FAQ español JSON: {product_name}
-Precio: {price}€
-Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
+        prompt = f"""5 deutsche FAQ JSON für: {product_name}
+Preis: {price}€
+Format: [{{"question":"Ist es einfach?","answer":"Ja..."}}]
+Fragen über das tatsächliche Produkt: {product_name}"""
         
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
@@ -405,31 +342,19 @@ Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
                 json_match = re.search(r'\[.*\]', response, re.DOTALL)
                 if json_match:
                     parsed = json.loads(json_match.group())
-                    return parsed if isinstance(parsed, list) and len(parsed) > 0 else self.get_fallback_faq(product_name, price)
+                    return parsed if isinstance(parsed, list) and len(parsed) > 0 else self._raise_ai_error("FAQ")
         except:
             pass
         
-        return self.get_fallback_faq(product_name, price)
-    
-    def get_fallback_faq(self, product_name, price):
-        """Fallback FAQ for products"""
-        keywords = self.get_product_keywords()
-        main_keyword = keywords[0] if keywords else "producto"
-        
-        return [
-            {"question": "¿Es fácil de usar?", "answer": f"Sí, el {product_name} está diseñado específicamente para facilitar su uso con controles simples y funciones intuitivas."},
-            {"question": "¿Cuál es el precio?", "answer": f"El precio es de solo {price}€, una excelente relación calidad-precio."},
-            {"question": "¿Tiene garantía?", "answer": "Sí, incluye garantía completa para tu tranquilidad."},
-            {"question": "¿La batería dura mucho?", "answer": "Sí, la batería está optimizada para máxima duración con una sola carga."},
-            {"question": "¿Es compatible con todos los dispositivos?", "answer": f"Sí, este {main_keyword} es compatible con la mayoría de dispositivos modernos."}
-        ]
+        # If AI fails, the script will stop - no fallbacks
+        raise Exception("AI FAQ generation failed - stopping script")
     
     async def create_short_description_async(self, product_name, features, price, session_id, product_data=None):
         """OPTIMIZED Async version with caching"""
         cache_key = self.get_cache_key('short_description', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"Descripción corta español (100 chars): {product_name}, {price}€"
+        prompt = f"Kurze deutsche Beschreibung (100 Zeichen): {product_name}, {price}€"
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
         # Fast cleanup
@@ -472,23 +397,22 @@ Formato: [{{"question":"¿Es fácil?","answer":"Sí..."}}]"""
         safe_print(f"[AI] Creating short description...")
         
         key_features = features[:2] if features else []
-        features_text = ", ".join([f.split('.')[0] for f in key_features]) if key_features else "fácil de usar"
+        features_text = ", ".join([f.split('.')[0] for f in key_features]) if key_features else "einfach zu verwenden"
         
-        prompt = f"""Crea una descripción corta y atractiva para este producto:
+        prompt = f"""Erstelle eine kurze, ansprechende Beschreibung für dieses Produkt:
 
-Producto: {product_name}
-Precio: {price}€
-Características clave: {features_text}
+Produkt: {product_name}
+Preis: {price}€
+Hauptmerkmale: {features_text}
 
-IMPORTANTE:
-- Máximo 150 caracteres
-- En español
-- Incluye precio
-- Sin HTML, solo texto plano
-- Debe ser persuasivo y claro
+WICHTIG:
+- Maximal 150 Zeichen
+- Auf Deutsch
+- Preis einschließen
+- Kein HTML, nur Text
+- Überzeugend und klar
 
-
-Responde SOLO con la descripción corta, sin comillas ni texto adicional."""
+Antworte NUR mit der kurzen Beschreibung, ohne Anführungszeichen."""
 
         response = self.get_ai_response(prompt)
         
@@ -497,48 +421,48 @@ Responde SOLO con la descripción corta, sin comillas ni texto adicional."""
             clean_desc = response.strip().replace('"', '').replace("'", '')
             return clean_desc[:150]
         else:
-            return f"{product_name} - Producto de calidad, fácil de usar. Solo {price}€"
+            return f"{product_name} - Hochwertiges Produkt, einfach zu verwenden. Nur {price}€"
     
     def enhance_description(self, original_description, features, price, product_name):
         """Enhance product description with AI"""
         safe_print(f"[AI] Enhancing description...")
         
-        features_text = "\n".join(features[:3]) if features else "Características principales del producto"
+        features_text = "\n".join(features[:3]) if features else "Hauptmerkmale des Produkts"
         
-        prompt = f"""Crea una descripción completa y atractiva en HTML para este producto:
+        prompt = f"""Erstelle eine vollständige, ansprechende HTML-Beschreibung für dieses Produkt:
 
-Producto: {product_name}
-Precio: {price}€
-Características: {features_text}
+Produkt: {product_name}
+Preis: {price}€
+Merkmale: {features_text}
 
-IMPORTANTE: 
-- Escribe en español persuasivo y emocional
-- Usa formato HTML completo y bien estructurado
-- Incluye llamada a la acción al final
-- Máximo 400 palabras
-- DEBE terminar con etiqueta de cierre </div>
+WICHTIG: 
+- Schreibe auf Deutsch, überzeugend und emotional
+- Verwende vollständiges, gut strukturiertes HTML
+- Füge einen Call-to-Action am Ende hinzu
+- Maximal 400 Wörter
+- MUSS mit </div> schließen
 
-Estructura requerida:
-- Título principal H1
-- Introducción emocional
-- Secciones con H2
-- Listas con características
-- Sección de beneficios
-- Llamada a la acción final
+Erforderliche Struktur:
+- Haupttitel H1
+- Emotionale Einleitung
+- Abschnitte mit H2
+- Listen mit Merkmalen
+- Vorteils-Sektion
+- Call-to-Action am Ende
 
-Ejemplo de formato:
+Beispiel-Format:
 ```html
 <div class="product-description">
-<h1>Título atractivo</h1>
-<p>Introducción...</p>
-<h2>Características Principales</h2>
+<h1>Ansprechender Titel</h1>
+<p>Einleitung...</p>
+<h2>Hauptmerkmale</h2>
 <ul>
-<li><strong>Característica:</strong> Descripción</li>
+<li><strong>Merkmal:</strong> Beschreibung</li>
 </ul>
-<h2>¿Por Qué Elegir Este Producto?</h2>
-<p>Beneficios...</p>
+<h2>Warum dieses Produkt wählen?</h2>
+<p>Vorteile...</p>
 <div class="cta-section">
-<p><strong>¡Compra ahora y obtén la mejor calidad!</strong></p>
+<p><strong>Jetzt kaufen und beste Qualität erhalten!</strong></p>
 </div>
 </div>
 ```"""
@@ -555,23 +479,23 @@ Ejemplo de formato:
         """Enhance product specifications"""
         safe_print(f"[AI] Enhancing specifications...")
         
-        prompt = f"""Mejora estas especificaciones técnicas en español para: {product_name}
+        prompt = f"""Verbessere diese technischen Spezifikationen auf Deutsch für: {product_name}
 
-Especificaciones originales: {json.dumps(original_specs, indent=2)}
+Originale Spezifikationen: {json.dumps(original_specs, indent=2)}
 
-IMPORTANTE: Responde SOLO con un objeto JSON válido, sin texto adicional. Formato:
+WICHTIG: Antworte NUR mit einem gültigen JSON-Objekt, ohne zusätzlichen Text. Format:
 {{
-  "Material": "Alta calidad",
-  "Dimensiones": "Compacto",
-  "Tecnología": "Avanzada"
+  "Material": "Hochwertig",
+  "Abmessungen": "Kompakt",
+  "Technologie": "Fortschrittlich"
 }}
 
-Añade especificaciones importantes para el producto:
-- Material y construcción
-- Dimensiones y peso
-- Tecnología utilizada
-- Garantía y soporte
-- Idioma y compatibilidad"""
+Füge wichtige Spezifikationen für das Produkt hinzu:
+- Material und Konstruktion
+- Abmessungen und Gewicht
+- Verwendete Technologie
+- Garantie und Support
+- Sprache und Kompatibilität"""
 
         response = self.get_ai_response(prompt)
         
@@ -610,26 +534,26 @@ Añade especificaciones importantes para el producto:
         safe_print(f"[AI] Generating FAQ...")
         
         # Create a more specific prompt for FAQ generation
-        features_text = "\n".join(features[:3]) if features else "Producto de calidad"
+        features_text = "\n".join(features[:3]) if features else "Hochwertiges Produkt"
         
-        prompt = f"""Genera exactamente 5 preguntas frecuentes con respuestas para este producto:
+        prompt = f"""Generiere genau 5 häufig gestellte Fragen mit Antworten für dieses Produkt:
 
-Producto: {product_name}
-Precio: {price}€
-Características principales: {features_text}
+Produkt: {product_name}
+Preis: {price}€
+Hauptmerkmale: {features_text}
 
-IMPORTANTE: Responde SOLO con un array JSON válido, sin texto adicional. Formato:
+WICHTIG: Antworte NUR mit einem gültigen JSON-Array, ohne zusätzlichen Text. Format:
 [
-  {{"question": "pregunta aquí", "answer": "respuesta aquí"}},
-  {{"question": "pregunta aquí", "answer": "respuesta aquí"}}
+  {{"question": "Frage hier", "answer": "Antwort hier"}},
+  {{"question": "Frage hier", "answer": "Antwort hier"}}
 ]
 
-Enfócate en dudas comunes sobre:
-- Facilidad de uso
-- Durabilidad y resistencia  
-- Soporte técnico
-- Calidad del producto
-- Garantía y servicio"""
+Konzentriere dich auf häufige Bedenken über:
+- Einfachheit der Verwendung
+- Haltbarkeit und Widerstandsfähigkeit  
+- Technischen Support
+- Produktqualität
+- Garantie und Service"""
 
         response = self.get_ai_response(prompt)
         
@@ -667,42 +591,80 @@ Enfócate en dudas comunes sobre:
         """Enhance SEO metadata"""
         safe_print(f"[AI] Enhancing SEO data...")
         
-        enhanced_seo = {
-            "title": f"{product.get('name', '')} - Mejor Precio España | Envío Gratis",
-            "description": f"Compra {product.get('name', '')} al mejor precio. ⭐ {product.get('amazonRating', 4.5)}/5 estrellas ✅ Envío gratis ✅ Garantía incluida. ¡Oferta limitada!",
-            "keywords": [
-                "producto calidad",
-                "mejor precio", 
-                "oferta",
-                "envio gratis",
-                "garantia",
-                "facil usar",
-                product.get('brand', '').lower(),
-                "españa",
-                "envio gratis"
-            ],
-            "ogImage": product.get('images', [None])[0],
-            "canonical": f"https://yourdomain.com/product/{product.get('slug', '')}",
-            "schema": {
-                "@context": "https://schema.org/",
-                "@type": "Product",
-                "name": product.get('name', ''),
-                "description": product.get('shortDescription', ''),
-                "brand": {"@type": "Brand", "name": product.get('brand', '')},
-                "offers": {
-                    "@type": "Offer",
-                    "price": product.get('price', '0'),
-                    "priceCurrency": "EUR",
-                    "availability": "https://schema.org/InStock",
-                    "seller": {"@type": "Organization", "name": "Tu Tienda"}
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating", 
-                    "ratingValue": product.get('amazonRating', 4.5),
-                    "reviewCount": max(product.get('amazonReviewCount', 0), 1)
+        if self.output_language == 'german':
+            enhanced_seo = {
+                "title": f"{product.get('name', '')} - Bester Preis Deutschland | Kostenloser Versand",
+                "description": f"Kaufen Sie {product.get('name', '')} zum besten Preis. ⭐ {product.get('amazonRating', 4.5)}/5 Sterne ✅ Kostenloser Versand ✅ Garantie inbegriffen. ⚡ Begrenztes Angebot!",
+                "keywords": [
+                    "produkt qualität",
+                    "bester preis", 
+                    "angebot",
+                    "kostenloser versand",
+                    "garantie",
+                    "einfach verwenden",
+                    product.get('brand', '').lower(),
+                    "deutschland",
+                    "kostenloser versand"
+                ],
+                "ogImage": product.get('images', [None])[0],
+                "canonical": f"https://yourdomain.com/product/{product.get('slug', '')}",
+                "schema": {
+                    "@context": "https://schema.org/",
+                    "@type": "Product",
+                    "name": product.get('name', ''),
+                    "description": product.get('shortDescription', ''),
+                    "brand": {"@type": "Brand", "name": product.get('brand', '')},
+                    "offers": {
+                        "@type": "Offer",
+                        "price": product.get('price', '0'),
+                        "priceCurrency": "EUR",
+                        "availability": "https://schema.org/InStock",
+                        "seller": {"@type": "Organization", "name": "Ihr Shop"}
+                    },
+                    "aggregateRating": {
+                        "@type": "AggregateRating", 
+                        "ratingValue": product.get('amazonRating', 4.5),
+                        "reviewCount": max(product.get('amazonReviewCount', 0), 1)
+                    }
                 }
             }
-        }
+        else:
+            enhanced_seo = {
+                "title": f"{product.get('name', '')} - Bester Preis Deutschland | Kostenloser Versand",
+                "description": f"Kaufen Sie {product.get('name', '')} zum besten Preis. ⭐ {product.get('amazonRating', 4.5)}/5 Sterne ✅ Kostenloser Versand ✅ Garantie inklusive. Begrenztes Angebot!",
+                "keywords": [
+                    "produkt qualität",
+                    "bester preis", 
+                    "angebot",
+                    "kostenloser versand",
+                    "garantie",
+                    "einfach verwenden",
+                    product.get('brand', '').lower(),
+                    "deutschland",
+                    "kostenloser versand"
+                ],
+                "ogImage": product.get('images', [None])[0],
+                "canonical": f"https://yourdomain.com/product/{product.get('slug', '')}",
+                "schema": {
+                    "@context": "https://schema.org/",
+                    "@type": "Product",
+                    "name": product.get('name', ''),
+                    "description": product.get('shortDescription', ''),
+                    "brand": {"@type": "Brand", "name": product.get('brand', '')},
+                    "offers": {
+                        "@type": "Offer",
+                        "price": product.get('price', '0'),
+                        "priceCurrency": "EUR",
+                        "availability": "https://schema.org/InStock",
+                        "seller": {"@type": "Organization", "name": "Tu Tienda"}
+                    },
+                    "aggregateRating": {
+                        "@type": "AggregateRating", 
+                        "ratingValue": product.get('amazonRating', 4.5),
+                        "reviewCount": max(product.get('amazonReviewCount', 0), 1)
+                    }
+                }
+            }
         
         return enhanced_seo
     
@@ -856,11 +818,12 @@ Enfócate en dudas comunes sobre:
                         'enhanced': True
                     })
                     
-                    # Enhance SEO data - simplified for async
+                    # Enhance SEO data - AI-generated keywords
+                    seo_keywords = self.generate_seo_keywords_ai(enhanced_name, product.get('category', ''), product.get('brand', ''))
                     product['seo'] = {
                         'title': enhanced_name,
                         'description': short_desc,
-                        'keywords': f"{enhanced_name}, producto calidad, precio, fácil uso",
+                        'keywords': seo_keywords,
                         'ogTitle': enhanced_name,
                         'ogDescription': short_desc
                     }
@@ -1030,11 +993,12 @@ Enfócate en dudas comunes sobre:
                 'enhanced': True
             })
             
-            # Enhance SEO data
+            # Enhance SEO data - AI-generated keywords
+            seo_keywords = self.generate_seo_keywords_ai(enhanced_name, product.get('category', ''), product.get('brand', ''))
             product['seo'] = {
                 'title': enhanced_name,
                 'description': short_desc,
-                'keywords': f"{enhanced_name}, producto, calidad, precio",
+                'keywords': seo_keywords,
                 'ogTitle': enhanced_name,
                 'ogDescription': short_desc
             }
@@ -1108,68 +1072,132 @@ Respond ONLY with HTML:"""
         return response.strip()
 
     def enhance_specifications_fast(self, specifications, original_name):
-        """AI-powered specifications enhancement"""
+        """AI-powered specifications enhancement - SIMPLIFIED for e-commerce"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         existing_specs = ", ".join(specifications.keys()) if specifications else "none"
         
-        prompt = f"""Improve technical specifications for: "{original_name}" in {language_name}
+        prompt = f"""Create SIMPLE product specifications for: "{original_name}" in {language_name}
 
 STRICT RULES:
-- ONLY specifications related to "{original_name}"
-- Include specific technical specifications of the product
+- ONLY basic consumer-relevant specifications
+- Keep it SIMPLE and realistic
+- NO made-up technical details
+- Focus on what customers actually care about
 - Valid JSON format
-- Existing specifications: {existing_specs}
+- Based on the actual product: {original_name}
 
-EXAMPLE:
+EXAMPLE (keep it simple):
 {{
-  "Warranty": "2 years",
-  "Shipping": "Free worldwide",
-  "Availability": "Immediate",
-  "Specific specification": "Specific product value"
+  "Garantie": "2 Jahre",
+  "Versand": "Kostenloser Versand",
+  "Verfügbarkeit": "Sofort lieferbar",
+  "Material": "Hochwertige Materialien",
+  "Größe": "Kompakt und praktisch"
 }}
 
 Respond ONLY with JSON:"""
         
         try:
             response = self.get_ai_response_fast(prompt)
-            return json.loads(response)
-        except:
-            return specifications if specifications else {
-                "Warranty": "2 years",
-                "Shipping": "Free worldwide",
-                "Availability": "Immediate"
-            }
+            
+            # Clean up response - remove ```json and ``` if present
+            response = response.strip()
+            if response.startswith('```json'):
+                response = response[7:]
+            if response.startswith('```'):
+                response = response[3:]
+            if response.endswith('```'):
+                response = response[:-3]
+            
+            response = response.strip()
+            
+            # Try to find JSON object in the response
+            import re
+            json_match = re.search(r'\{.*\}', response, re.DOTALL)
+            if json_match:
+                json_str = json_match.group()
+                parsed_specs = json.loads(json_str)
+                if isinstance(parsed_specs, dict):
+                    return parsed_specs
+            
+            # If no JSON object found, try parsing the whole response
+            parsed_specs = json.loads(response)
+            if isinstance(parsed_specs, dict):
+                return parsed_specs
+                
+            # If all parsing fails, raise error
+            self._raise_ai_error("specifications")
+            
+        except json.JSONDecodeError as e:
+            safe_print(f"[ERROR] JSON parsing failed: {e}")
+            safe_print(f"[ERROR] Response was: {response[:200]}...")
+            self._raise_ai_error("specifications")
+        except Exception as e:
+            safe_print(f"[ERROR] Specifications enhancement failed: {e}")
+            self._raise_ai_error("specifications")
 
     def generate_faq_fast(self, original_name, features, price):
-        """AI-powered FAQ generation with product-specific prompts"""
+        """AI-powered FAQ generation - SIMPLIFIED and conversational"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:2]) if features else "key features"
         
-        prompt = f"""Create 3 frequently asked questions for: "{original_name}" in {language_name}
+        prompt = f"""Create 3 SIMPLE, conversational FAQ questions for: "{original_name}" in {language_name}
 
 STRICT RULES:
-- ONLY questions about "{original_name}" and specific characteristics
-- Include features: {features_text}
+- Keep questions SHORT and natural
+- Make answers CONVERSATIONAL, not formal
+- NO repetitive phrases
+- Sound like real customer questions
 - Valid JSON format
-- Product-specific questions
+- Questions should be about THIS specific product: {original_name}
 
-EXAMPLE:
+EXAMPLE (natural German):
 [
-  {{"question": "What are the main features of {original_name}?", "answer": "{original_name} includes {features_text} for maximum quality."}},
-  {{"question": "Is there a warranty on {original_name}?", "answer": "Yes, {original_name} includes a complete 2-year warranty."}},
-  {{"question": "How much does shipping cost?", "answer": "Shipping is completely free worldwide."}}
+  {{"question": "Ist das Produkt einfach zu verwenden?", "answer": "Ja, sehr einfach! Die Bedienung ist intuitiv und auch für Anfänger geeignet."}},
+  {{"question": "Gibt es eine Garantie?", "answer": "Ja, 2 Jahre Garantie sind inklusive. Bei Problemen sind wir für Sie da."}},
+  {{"question": "Wie schnell ist der Versand?", "answer": "Der Versand ist kostenlos und dauert nur 1-2 Werktage."}}
 ]
 
 Respond ONLY with JSON:"""
         
         try:
             response = self.get_ai_response_fast(prompt)
-            return json.loads(response)
-        except:
-            return [
-                {"question": f"Why choose {original_name}?", "answer": f"{original_name} offers the best quality at the best price."},
-                {"question": "Is there a warranty?", "answer": "Yes, all our products include a complete warranty."}
-            ]
+            
+            # Clean up response - remove ```json and ``` if present
+            response = response.strip()
+            if response.startswith('```json'):
+                response = response[7:]
+            if response.startswith('```'):
+                response = response[3:]
+            if response.endswith('```'):
+                response = response[:-3]
+            
+            response = response.strip()
+            
+            # Try to find JSON array in the response
+            import re
+            json_match = re.search(r'\[.*\]', response, re.DOTALL)
+            if json_match:
+                json_str = json_match.group()
+                parsed_faq = json.loads(json_str)
+                if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
+                    return parsed_faq
+            
+            # If no JSON array found, try parsing the whole response
+            parsed_faq = json.loads(response)
+            if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
+                return parsed_faq
+                
+            # If all parsing fails, raise error
+            self._raise_ai_error("FAQ")
+            
+        except json.JSONDecodeError as e:
+            safe_print(f"[ERROR] FAQ JSON parsing failed: {e}")
+            safe_print(f"[ERROR] Response was: {response[:200]}...")
+            self._raise_ai_error("FAQ")
+        except Exception as e:
+            safe_print(f"[ERROR] FAQ generation failed: {e}")
+            self._raise_ai_error("FAQ")
 
     def create_short_description_fast(self, original_name, features, price):
         """AI-powered short description with product-specific prompts"""
@@ -1185,7 +1213,7 @@ Respond ONLY with description:"""
         return self.get_ai_response_fast(prompt)
 
     def get_ai_response_fast(self, prompt):
-        """Fast AI response using Google Gemini 2.5 Flash with minimal delay"""
+        """Fast AI response using Google Gemini 2.5 Flash with NO FALLBACKS - stops script if AI fails"""
         try:
             import google.generativeai as genai
             
@@ -1193,12 +1221,13 @@ Respond ONLY with description:"""
             API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
-                return self.get_fallback_response_fast(prompt)
+                safe_print(f"[ERROR] No API key configured! Stopping script.")
+                raise Exception("AI API key not configured - stopping script")
             
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # System prompt for SEO expert (in English)
+            # System prompt for German language
             language_name = self.language_map.get(self.output_language, self.output_language.title())
             system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and airfryer-related content."
             
@@ -1212,22 +1241,51 @@ Respond ONLY with description:"""
             if response and response.text:
                 return response.text.strip()
             else:
-                return self.get_fallback_response_fast(prompt)
+                safe_print(f"[ERROR] Empty AI response! Stopping script.")
+                raise Exception("Empty AI response - stopping script")
                 
         except ImportError:
-            return self.get_fallback_response_fast(prompt)
+            safe_print(f"[ERROR] Google Generative AI not installed! Stopping script.")
+            raise Exception("Google Generative AI library not installed - stopping script")
         except Exception as e:
-            return self.get_fallback_response_fast(prompt)
+            safe_print(f"[ERROR] AI request failed: {str(e)}")
+            safe_print(f"[ERROR] Stopping script due to AI failure!")
+            raise Exception(f"AI request failed: {str(e)}")
 
-    def get_fallback_response_fast(self, prompt):
-        """Fast fallback responses when AI service is not available"""
-        if "nombre" in prompt.lower():
-            return "Producto de Calidad Premium"
-        elif "descripción" in prompt.lower():
-            return "<div><h2>Producto de Calidad</h2><p>Descubre este producto con la mejor calidad y precio.</p></div>"
-        elif "faq" in prompt.lower():
-            return '[{"question":"¿Por qué elegir este producto?","answer":"Ofrece la mejor calidad al mejor precio."}]'
-        return "Producto de calidad con envío gratis"
+    def _raise_ai_error(self, content_type):
+        """Raise error when AI fails - no fallbacks allowed"""
+        raise Exception(f"AI {content_type} generation failed - stopping script")
+    
+    def generate_seo_keywords_ai(self, product_name, category, brand):
+        """Generate SEO keywords using AI based on actual product data"""
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        
+        prompt = f"""Generate relevant SEO keywords for this product in {language_name}:
+
+Product: {product_name}
+Category: {category}
+Brand: {brand}
+
+STRICT RULES:
+- Generate ONLY keywords relevant to THIS specific product
+- Use {language_name} language
+- Include product-specific terms, not generic ones
+- 5-8 keywords maximum
+- Comma-separated format
+
+EXAMPLE:
+"produktname, kategorie-spezifisch, marke, funktion, vorteil"
+
+Respond ONLY with keywords, no additional text:"""
+        
+        try:
+            response = self.get_ai_response_fast(prompt)
+            keywords = response.strip().replace('"', '').replace("'", '')
+            return keywords
+        except Exception as e:
+            safe_print(f"[ERROR] SEO keywords generation failed: {e}")
+            # Fallback to basic product name if AI fails
+            return product_name
 
 def main():
     """Main function with command line arguments"""
