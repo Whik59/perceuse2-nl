@@ -1,9 +1,9 @@
 {
   "productId": "B0BM54GLV6",
-  "name": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES",
-  "slug": "eating-well-magazine-spc-special-2022-air-fryer-re",
-  "description": "",
-  "shortDescription": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES",
+  "name": "Airfryer Rezepte Special 2022: Gesund & Schnell kochen! Jetzt kaufen!",
+  "slug": "airfryer-rezepte-special-2022-gesund--schnell-koch",
+  "description": "<div>\n<h2>EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES</h2>\n<p>Entdecken Sie das exklusive <b>EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES</b> und verwandeln Sie Ihre Küche mit gesunden, schnellen und köstlichen Rezepten. Dieses Sonderheft ist Ihr ultimativer Begleiter für eine bewusste Ernährung mit Ihrem Air-Fryer.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Exklusive Air-Fryer Rezepte</b>: Eine Vielfalt an gesunden und leckeren Gerichten speziell für Ihr Gerät.</li>\n<li><b>Gesund & Zeitsparend</b>: Entdecken Sie fettarme Optionen, die schnell und einfach zuzubereiten sind.</li>\n<li><b>Schritt-für-Schritt-Anleitungen</b>: Klare und verständliche Anleitungen für Kocherfolge vom Anfänger bis zum Profi.</li>\n<li><b>Inspiration für jede Mahlzeit</b>: Von Frühstück bis Abendessen, ideal für bewusste Ernährung.</li>\n</ul>\n<p>Erhältlich ab <b>Prix non disponible€</b> mit kostenlosem Versand.</p>\n</div>",
+  "shortDescription": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES: Exklusive, gesunde & schnelle Airfryer-Rezepte. Einfach genießen!",
   "price": "Prix non disponible",
   "compareAtPrice": 100,
   "images": [
@@ -26,14 +26,11 @@
   "amazonReviewCount": 0,
   "brand": "EATING",
   "seo": {
-    "title": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES - Product Expert",
-    "description": "Découvrez EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES sur Amazon. Note 3.3/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "eating",
-      "amazon",
-      "avis"
-    ]
+    "title": "Airfryer Rezepte Special 2022: Gesund & Schnell kochen! Jetzt kaufen!",
+    "description": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES: Exklusive, gesunde & schnelle Airfryer-Rezepte. Einfach genießen!",
+    "keywords": "Airfryer Rezepte Special 2022, EATING Airfryer Magazin, gesunde Airfryer Rezepte schnell, Airfryer Kochbuch gesund, EATING Rezepte Airfryer, Airfryer Rezepte 2022",
+    "ogTitle": "Airfryer Rezepte Special 2022: Gesund & Schnell kochen! Jetzt kaufen!",
+    "ogDescription": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES: Exklusive, gesunde & schnelle Airfryer-Rezepte. Einfach genießen!"
   },
   "reviews": {
     "averageRating": 3.3,
@@ -45,5 +42,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produktart": "Sonderausgabe Magazin",
+    "Thema": "Heißluftfrittier-Rezepte",
+    "Ausgabe": "SPC Spezial 2022",
+    "Inhalt": "Vielfältige Rezepte für gesunden Genuss",
+    "Sprache": "Englisch",
+    "Format": "Gedrucktes Magazin",
+    "Verfügbarkeit": "Sofort lieferbar"
+  },
+  "faq": [
+    {
+      "question": "Was für Rezepte finde ich im Heft?",
+      "answer": "Hier erwartet Sie eine tolle Vielfalt! Von knusprigen Snacks bis zu leichten Hauptgerichten ist alles dabei, was perfekt in die Heißluftfritteuse passt."
+    },
+    {
+      "question": "Sind die Airfryer-Rezepte auch für Anfänger geeignet?",
+      "answer": "Absolut! Die Anleitungen sind super einfach gehalten, sodass auch Neulinge in der Airfryer-Welt sofort loslegen und leckere Gerichte zaubern können."
+    },
+    {
+      "question": "Ist das Heft von 2022 noch aktuell?",
+      "answer": "Ja klar! Gute Rezepte und die Nutzung einer Heißluftfritteuse bleiben relevant. Die Ideen und Tipps sind zeitlos und immer noch voll im Trend."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:13:07.220537",
+  "originalName": "EATING WELL MAGAZINE / SPC SPECIAL 2022 / AIR-FRYER RECIPES",
+  "enhanced": true
 }

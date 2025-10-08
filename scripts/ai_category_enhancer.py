@@ -89,7 +89,7 @@ class AICategoryEnhancer:
             import google.generativeai as genai
             
             # Configure Gemini with your API key
-            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
+            API_KEY = "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
                 safe_print("[ERROR] Please set your Gemini API key in the script!")

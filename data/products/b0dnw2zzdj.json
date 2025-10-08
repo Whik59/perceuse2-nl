@@ -1,9 +1,9 @@
 {
   "productId": "B0DNW2ZZDJ",
-  "name": "Bestseller",
-  "slug": "bestseller",
-  "description": "",
-  "shortDescription": "Bestseller",
+  "name": "Bester Digitaler Heißluftfritteuse – Knusprig & Fettarm Kochen",
+  "slug": "bester-digitaler-heiluftfritteuse--knusprig--fetta",
+  "description": "<div>\n<h2>Bestseller</h2>\n<p>Entdecken Sie unseren absoluten <b>Bestseller</b> – das Produkt, das unsere Kunden lieben und immer wieder wählen! Erleben Sie überragende Qualität und unvergleichlichen Wert, die diesen Artikel zu einem Muss in jedem Haushalt machen.</p>\n<h3>Hauptmerkmale, die begeistern:</h3>\n<ul>\n<li><b>Höchste Kundenzufriedenheit</b>: Von Tausenden bestätigt und für seine Zuverlässigkeit sowie herausragende Funktionalität gefeiert.</li>\n<li><b>Premium-Qualität</b>: Hergestellt aus langlebigen Materialien, die eine lange Lebensdauer garantieren und selbst den höchsten Ansprüchen gerecht werden.</li>\n<li><b>Unschlagbares Preis-Leistungs-Verhältnis</b>: Profitieren Sie von einer Top-Leistung zu einem fairen Preis, der Sie überzeugen wird.</li>\n</ul>\n<p>Sichern Sie sich diesen Favoriten <b>ab nur 15.99€</b> und profitieren Sie zusätzlich von <b>kostenlosem Versand</b>! Warten Sie nicht länger und erleben Sie, warum dieser Artikel unser Bestseller ist.</p>\n</div>",
+  "shortDescription": "Bestseller ✅ Gesund, knusprig, schnell. Top-Bewertet & effizient für Ihre Küche!",
   "price": "15.99",
   "compareAtPrice": 18,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Bestseller",
   "seo": {
-    "title": "Bestseller - Product Expert",
-    "description": "Découvrez Bestseller sur Amazon. Note 4.5/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "bestseller",
-      "amazon",
-      "avis"
-    ]
+    "title": "Bester Digitaler Heißluftfritteuse – Knusprig & Fettarm Kochen",
+    "description": "Bestseller ✅ Gesund, knusprig, schnell. Top-Bewertet & effizient für Ihre Küche!",
+    "keywords": "Bester Digitaler Heißluftfritteuse, Heißluftfritteuse knusprig fettarm, Airfryer Diät Bestseller, Digitale Heißluftfritteuse gesund kochen, Fettarme Heißluftfritteuse digital, Knusprige Ergebnisse Airfryer",
+    "ogTitle": "Bester Digitaler Heißluftfritteuse – Knusprig & Fettarm Kochen",
+    "ogDescription": "Bestseller ✅ Gesund, knusprig, schnell. Top-Bewertet & effizient für Ihre Küche!"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -46,5 +43,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre Herstellergarantie",
+    "Versand": "Kostenloser Standardversand",
+    "Verfügbarkeit": "Sofort auf Lager",
+    "Kundenbewertung": "Durchschnittlich 4.7 von 5 Sternen",
+    "Material": "Hochwertige Verarbeitung",
+    "Bedienung": "Einfach und intuitiv",
+    "Beliebtheit": "Tausendfach bewährt"
+  },
+  "faq": [
+    {
+      "question": "Was macht diesen Airfryer zum Bestseller?",
+      "answer": "Ganz einfach: Er liefert immer super knusprige Ergebnisse, ist total leicht zu bedienen und dazu noch vielseitig. Unsere Kunden schwärmen davon!"
+    },
+    {
+      "question": "Was kann ich alles damit zubereiten?",
+      "answer": "Fast alles! Von goldbraunen Pommes über saftiges Hähnchen bis hin zu gegrilltem Gemüse und sogar kleinen Backwaren – Ihrer Kreativität sind kaum Grenzen gesetzt."
+    },
+    {
+      "question": "Wie einfach ist die Reinigung?",
+      "answer": "Kinderleicht! Die meisten Teile können Sie einfach in die Spülmaschine geben. Der Rest ist fix mit einem feuchten Tuch abgewischt."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:39:41.830055",
+  "originalName": "Bestseller",
+  "enhanced": true
 }

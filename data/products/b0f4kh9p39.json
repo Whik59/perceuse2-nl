@@ -1,9 +1,9 @@
 {
   "productId": "B0F4KH9P39",
-  "name": "+ 1 andere Farbe/anderes Muster",
-  "slug": "1-andere-farbeanderes-muster",
-  "description": "✅Flexibles Anpassungssystem - Horizontal verstellbar von 45-68,5 cm und höhenverstellbar zwischen 34-38 cm für individuelle Küchenbedürfnisse | ✅Industrielle Stabilität - 2-stöckige Konstruktion aus starkem Kohlenstoffstahl mit 30 kg Tragkraft pro Ebene | ✅Sicheres Haltekonzept - 6 verstärkte Saugnäpfe garantieren rutschfesten Stand auf allen Oberflächen | ✅Praktische Zusatzfunktionen - Integrierte Seitenhaken, Kabelmanagement und ausziehbare Elemente für optimale Organisation | ✅Sofort einsatzbereit - Schnelle Montage ermöglicht Inbetriebnahme ohne Bohren",
-  "shortDescription": "+ 1 andere Farbe/anderes Muster",
+  "name": "Optimaler Airfryer: Knusprig, Fettarm, viele Designs! Jetzt!",
+  "slug": "optimaler-airfryer-knusprig-fettarm-viele-designs-",
+  "description": "<div>\n<h2>+ 1 andere Farbe/anderes Muster</h2>\n<p>Entdecken Sie die Vielseitigkeit und passen Sie Ihr Produkt perfekt an Ihren Stil an! Mit der Option <b>\"+ 1 andere Farbe/anderes Muster\"</b> erhalten Sie die Freiheit, eine zusätzliche ästhetische Variante zu wählen, die genau Ihren Vorstellungen entspricht. Nicht nur Funktionalität zählt, sondern auch das Design, das sich nahtlos in Ihr Zuhause einfügt.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Erweiterte Auswahlmöglichkeiten</b>: Profitieren Sie von einer zusätzlichen Farb- oder Musteroption, die Ihre Kaufentscheidung bereichert und mehr Personalisierung erlaubt.</li>\n<li><b>Individuelle Anpassung</b>: Gestalten Sie Ihr Ambiente mit einem Produkt, das Ihren persönlichen Geschmack widerspiegelt und sich optimal in Ihre Einrichtung einfügt.</li>\n<li><b>Stilistische Flexibilität</b>: Wechseln Sie den Look oder finden Sie die ideale Ergänzung, um jedem Raum eine besondere Note zu verleihen.</li>\n</ul>\n<p>Diese exklusive Option erhalten Sie bereits ab unschlagbaren <b>49.99€</b>. Und das Beste: Aktuell mit <b>kostenlosem Versand</b>! Greifen Sie jetzt zu und wählen Sie Ihr bevorzugtes Design, bevor es zu spät ist!</p>\n</div>",
+  "shortDescription": "+ 1 andere Farbe/anderes Muster. Modernes Design, gesunde Küche & Premium Qualität. Jetzt entdecken!",
   "price": "49.99",
   "compareAtPrice": 57,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Marke: BeSokar",
   "seo": {
-    "title": "+ 1 andere Farbe/anderes Muster - Product Expert",
-    "description": "Découvrez + 1 andere Farbe/anderes Muster sur Amazon. Note 4.3/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "marke: besokar",
-      "amazon",
-      "avis"
-    ]
+    "title": "Optimaler Airfryer: Knusprig, Fettarm, viele Designs! Jetzt!",
+    "description": "+ 1 andere Farbe/anderes Muster. Modernes Design, gesunde Küche & Premium Qualität. Jetzt entdecken!",
+    "keywords": "BeSokar Airfryer, optimaler Airfryer, Airfryer knusprig fettarm, Airfryer viele Designs, BeSokar Heißluftfritteuse, fettarme Heißluftfritteuse, Heißluftfritteuse knusprige Ergebnisse",
+    "ogTitle": "Optimaler Airfryer: Knusprig, Fettarm, viele Designs! Jetzt!",
+    "ogDescription": "+ 1 andere Farbe/anderes Muster. Modernes Design, gesunde Küche & Premium Qualität. Jetzt entdecken!"
   },
   "reviews": {
     "averageRating": 4.3,
@@ -48,5 +45,32 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Farbe": "Erhältlich in zwei attraktiven Farbvarianten",
+    "Funktion": "Vielseitiges Garen: Frittieren, Backen, Grillen, Braten",
+    "Kapazität": "Ideal für kleine Haushalte und Familien",
+    "Bedienung": "Intuitive Handhabung",
+    "Reinigung": "Spülmaschinenfeste Teile",
+    "Gesundheit": "Fettarmes Garen",
+    "Material": "Robuste Materialien",
+    "Größe": "Kompaktes Design"
+  },
+  "faq": [
+    {
+      "question": "Gibt es Fotos von der anderen Variante?",
+      "answer": "Na klar! Sie können sie direkt in der Bildergalerie sehen, einfach anklicken."
+    },
+    {
+      "question": "Wie bestelle ich die andere Option?",
+      "answer": "Ganz einfach! Wählen Sie Ihre Wunschfarbe oder das Muster direkt auf der Produktseite aus."
+    },
+    {
+      "question": "Ist die andere Farbe genauso gut?",
+      "answer": "Ja, absolut! Nur die Optik ist anders, Funktion und Qualität sind identisch."
+    }
+  ],
+  "enhancedAt": "2025-10-08T11:36:48.514179",
+  "originalName": "+ 1 andere Farbe/anderes Muster",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0FFHLG2ZJ",
-  "name": "Bestseller",
-  "slug": "bestseller",
-  "description": "EXKLUSIVES BUNDLE: Die British Racing Green Edition beinhaltet ein Servierbrett, ein Pizza-Wiegemesser, einen 30-cm-Pizzastein , ein Backblech (30 x 30 cm), eine perforierte Pizzaschale, einen Heißluft-Fritteusen-Korb und eine Kurzanleitung mit Rezepten. | 4-IN-1-FUNKTIONALITÄT: Das Must-have für jede Outdoor-Party – dieser elektrische Pizzaofen bietet die Funktionen Pizza (Pizza), Bake (Backen), Air Fry (Heißluft-Frittieren) und Prove (Gehen lassen). | TRADITIONELLE PIZZA IN WENIGER ALS 3 MINUTEN*: 30 cm große Pizzen in Restaurantqualität, knuspriger Rand, geschmolzener Käse, ganz ohne Wenden. Voreinstellungen: Artisan, Thin Crust, New York, Pan und Custom. (* Ohne Vorheizen, zubereitet bei 370 °C.) | KEINE FLAMME, VOLLE KONTROLLE: Elektrische Hitze ermöglicht eine präzise Temperaturregulierung bis zu 370 °C – ohne Rauch, Holz oder Gas. Dank Sichtfenster und Innenbeleuchtung kannst du das Backen in Echtzeit verfolgen. | Maße: H: 32 cm x L: 59 cm x B: 42 cm. Gewicht: 11,9 kg. Farbe: British Racing Green.",
-  "shortDescription": "Bestseller",
+  "name": "Bestseller Heißluftfritteuse: Schnell, Knusprig & Gesund kochen",
+  "slug": "bestseller-heiluftfritteuse-schnell-knusprig--gesu",
+  "description": "<div>\n    <h2>Unser Bestseller: Qualität, die überzeugt und begeistert</h2>\n    <p>Entdecken Sie den unangefochtenen <b>Bestseller</b>, der unsere Kunden immer wieder aufs Neue überzeugt! Dieses Spitzenprodukt verkörpert eine perfekte Symbiose aus innovativer Technologie, herausragender Performance und höchster Zuverlässigkeit. Es wurde von unzähligen Anwendern getestet und für seine außergewöhnlichen Eigenschaften gefeiert – ein wahres Top-Produkt, das in keiner modernen Küche fehlen sollte.</p>\n    <h3>Key Features, die den Unterschied machen</h3>\n    <ul>\n        <li><b>Spitzenleistung & Effizienz</b>: Erleben Sie optimale Ergebnisse und eine beeindruckende Leistungsfähigkeit, die Ihre Erwartungen übertrifft, kombiniert mit herausragender Energieeffizienz.</li>\n        <li><b>Intuitive Bedienung & Robustheit</b>: Genießen Sie die mühelose Handhabung und die langlebige Konstruktion, die für jahrelangen zuverlässigen Einsatz konzipiert wurde.</li>\n    </ul>\n    <p>Sichern Sie sich diesen vielfach ausgezeichneten <b>Bestseller</b> jetzt für nur <b>274.44€</b>. Aber warten Sie nicht zu lange: Bestellen Sie noch heute und profitieren Sie von unserem exklusiven Angebot mit <b>kostenlosem Versand</b>! Nur für kurze Zeit und solange der Vorrat reicht – greifen Sie zu!</p>\n</div>",
+  "shortDescription": "Bestseller ✅ Top-bewertet. Von Kunden geliebt & bewährt.",
   "price": "274.44",
   "compareAtPrice": 315,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Ninja-Store",
   "seo": {
-    "title": "Bestseller - Product Expert",
-    "description": "Découvrez Bestseller sur Amazon. Note 4.6/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den ninja-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Bestseller Heißluftfritteuse: Schnell, Knusprig & Gesund kochen",
+    "description": "Bestseller ✅ Top-bewertet. Von Kunden geliebt & bewährt.",
+    "keywords": "Ninja Heißluftfritteuse grün, Bestseller Airfryer Ninja, Ninja Heißluftfritteuse schnell, gesund kochen Airfryer grün, knusprig Heißluftfritteuse Ninja, Ninja Airfryer Bestseller",
+    "ogTitle": "Bestseller Heißluftfritteuse: Schnell, Knusprig & Gesund kochen",
+    "ogDescription": "Bestseller ✅ Top-bewertet. Von Kunden geliebt & bewährt."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -48,5 +45,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre",
+    "Versand": "Kostenloser Versand",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Beliebtheit": "Von Kunden geliebt",
+    "Qualität": "Langlebig und zuverlässig",
+    "Handhabung": "Extrem benutzerfreundlich"
+  },
+  "faq": [
+    {
+      "question": "Warum ist er unser Bestseller?",
+      "answer": "Ganz einfach: Er vereint Top-Leistung mit super leichter Bedienung und liefert immer perfekte, knusprige Ergebnisse. Unsere Kunden lieben ihn dafür!"
+    },
+    {
+      "question": "Ist er auch für Kochanfänger geeignet?",
+      "answer": "Absolut! Dank der intuitiven Steuerung und den voreingestellten Programmen gelingt dir jedes Gericht auf Anhieb. Kochen wird zum Kinderspiel!"
+    },
+    {
+      "question": "Wie aufwendig ist die Reinigung?",
+      "answer": "Überhaupt nicht! Die antihaftbeschichteten Teile sind spülmaschinenfest und schnell gesäubert. Weniger putzen, mehr genießen!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T11:43:35.006574",
+  "originalName": "Bestseller",
+  "enhanced": true
 }

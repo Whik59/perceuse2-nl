@@ -1,9 +1,9 @@
 {
   "productId": "B0DD816NC7",
-  "name": "Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Dual Zone Heißluftfritteuse| Frittieren ohne Öl| Inkl. Farbfotos",
-  "slug": "das-xxl-ninja-heißluftfritteuse-rezeptbuch-mit-lec",
-  "description": "",
-  "shortDescription": "Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Du",
+  "name": "Bestes XXL Ninja Dual Airfryer Rezeptbuch | Ohne Öl frittieren!",
+  "slug": "bestes-xxl-ninja-dual-airfryer-rezeptbuch--ohne-l-",
+  "description": "<div>\n<h2>Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Dual Zone Heißluftfritteuse| Frittieren ohne Öl| Inkl. Farbfotos</h2>\n<p>Entdecken Sie jetzt <b>Das XXL Ninja Heißluftfritteuse Rezeptbuch</b>, Ihren ultimativen Begleiter für kulinarische Höhepunkte! Mit einer beeindruckenden Auswahl an leckeren und schmackhaften Rezepten, die speziell für Ihre Ninja Dual Zone Heißluftfritteuse entwickelt wurden, verwandeln Sie jede Mahlzeit in ein gesundes und knuspriges Erlebnis. Genießen Sie Frittieren ohne Öl und lassen Sie sich von detaillierten Anleitungen und farbigen Fotos inspirieren.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>XXL-Rezeptsammlung</b>: Eine umfangreiche Auswahl an köstlichen Gerichten für jeden Geschmack und Anlass.</li>\n<li><b>Exklusiv für Ninja Dual Zone</b>: Perfekt abgestimmt auf die Funktionen Ihrer Ninja Dual Zone Heißluftfritteuse.</li>\n<li><b>Gesund genießen</b>: Frittieren Sie knusprig und lecker ganz ohne zusätzliches Öl.</li>\n<li><b>Visuell ansprechend</b>: Jedes Rezept wird durch inspirierende Farbfotos ergänzt, die Lust aufs Kochen machen.</li>\n</ul>\n<p>Sichern Sie sich dieses unverzichtbare Kochbuch jetzt für nur <b>14.99€</b>! Profitieren Sie zusätzlich von <b>kostenlosem Versand</b> bei Ihrer Bestellung – aber nur für kurze Zeit! Greifen Sie zu und revolutionieren Sie Ihre Küche noch heute!</p>\n</div>",
+  "shortDescription": "XXL Ninja Dual Zone Heißluftfritteuse Rezeptbuch: Leckere, schmackhafte Rezepte, frittieren ohne Öl, inkl. Farbfotos.",
   "price": "14.99",
   "compareAtPrice": 17,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Ninja",
   "seo": {
-    "title": "Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Dual Zone Heißluftfritteuse| Frittieren ohne Öl| Inkl. Farbfotos - Product Expert",
-    "description": "Découvrez Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Dual Zone Heißluftfritteuse| Frittieren ohne Öl| Inkl. Farbfotos sur Amazon. Note 4.5/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "ninja",
-      "amazon",
-      "avis"
-    ]
+    "title": "Bestes XXL Ninja Dual Airfryer Rezeptbuch | Ohne Öl frittieren!",
+    "description": "XXL Ninja Dual Zone Heißluftfritteuse Rezeptbuch: Leckere, schmackhafte Rezepte, frittieren ohne Öl, inkl. Farbfotos.",
+    "keywords": "Ninja Dual Airfryer Rezeptbuch, XXL Airfryer Rezepte Ninja, Ohne Öl frittieren Kochbuch, Ninja Foodi Dual Zone Rezepte, Airfryer Snacks Ninja Buch",
+    "ogTitle": "Bestes XXL Ninja Dual Airfryer Rezeptbuch | Ohne Öl frittieren!",
+    "ogDescription": "XXL Ninja Dual Zone Heißluftfritteuse Rezeptbuch: Leckere, schmackhafte Rezepte, frittieren ohne Öl, inkl. Farbfotos."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -46,5 +43,32 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Versand": "Kostenloser Versand",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Kompatibilität": "Für Ninja Dual Zone Heißluftfritteuse",
+    "Inhalt": "Vielfältige Rezepte",
+    "Kochmethode": "Frittieren ohne Öl",
+    "Visuelle Ausstattung": "Inkl. Farbfotos",
+    "Sprache": "Deutsch",
+    "Umfang": "XXL-Ausgabe"
+  },
+  "faq": [
+    {
+      "question": "Sind die Rezepte wirklich nur für die Ninja Dual Zone Heißluftfritteuse?",
+      "answer": "Nein, überhaupt nicht! Obwohl es speziell für die Ninja Dual Zone optimiert ist, kannst du die Rezepte super einfach auch mit anderen Heißluftfritteusen zubereiten. Die Garzeiten lassen sich meistens gut anpassen."
+    },
+    {
+      "question": "Gibt es im Buch eine große Auswahl an Rezepten für jeden Geschmack?",
+      "answer": "Absolut! Das Buch ist prall gefüllt mit vielen leckeren Ideen – von herzhaften Hauptgerichten über Snacks bis hin zu kleinen Süßigkeiten. Da ist für jeden etwas dabei und es wird nie langweilig!"
+    },
+    {
+      "question": "Sind die Rezepte einfach nachzukochen und sind auch Farbfotos dabei?",
+      "answer": "Ja, total! Alle Rezepte sind Schritt für Schritt erklärt und super verständlich. Und klar, jedes Rezept kommt mit ansprechenden Farbfotos, damit du genau weißt, wie dein Gericht am Ende aussehen soll."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:35:45.294562",
+  "originalName": "Das XXL Ninja Heißluftfritteuse Rezeptbuch| Mit leckeren und schmackhaften Rezepten für die Ninja Dual Zone Heißluftfritteuse| Frittieren ohne Öl| Inkl. Farbfotos",
+  "enhanced": true
 }

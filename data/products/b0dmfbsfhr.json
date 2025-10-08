@@ -1,9 +1,9 @@
 {
   "productId": "B0DMFBSFHR",
-  "name": "Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag",
-  "slug": "heißluftfritteuse-300-rezepte-für-jeden-geschmack-",
-  "description": "",
-  "shortDescription": "Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde",
+  "name": "Entdecke Heißluftfritteuse 300 Rezepte: Gesund & Kreativ für Jeden Tag!",
+  "slug": "entdecke-heiluftfritteuse-300-rezepte-gesund--krea",
+  "description": "<div>\n<h2>Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag</h2>\n<p>Entdecken Sie die ultimative Rezeptsammlung für Ihre Küche! Mit <b>\"Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag\"</b> revolutionieren Sie Ihre Mahlzeiten. Dieses umfassende Kochbuch ist Ihr Schlüssel zu einer Welt voller gesunder, kreativer und unglaublich leckerer Airfryer-Gerichte, die einfach zuzubereiten sind – jeden Tag.</p>\n<h3>Key Features</h3>\n<ul>\n<li><b>300 Vielfältige Rezepte</b>: Eine riesige Auswahl an Inspirationen, die wirklich jeden Geschmack trifft und Ihnen endlose kulinarische Möglichkeiten bietet.</li>\n<li><b>Vom Frühstück bis zum Dessert</b>: Decken Sie alle Mahlzeiten des Tages ab – von schnellen Morgenstarts über herzhafte Hauptgerichte bis zu süßen Verführungen, alles aus Ihrer Heißluftfritteuse.</li>\n<li><b>Gesund & Kreativ</b>: Lernen Sie, wie Sie fettarm, nährstoffreich und innovativ kochen, ohne Kompromisse beim Geschmack einzugehen.</li>\n<li><b>Alltagstauglich & Einfach</b>: Praktische Anleitungen, perfekt für Kochanfänger und erfahrene Airfryer-Nutzer gleichermaßen, die gesunde Ernährung leicht machen.</li>\n</ul>\n<p>Erweitern Sie Ihr Repertoire noch heute! Jetzt für nur <b>14.8€</b> erhältlich. Sichern Sie sich Ihr Exemplar mit <b>kostenlosem Versand</b> und starten Sie Ihre kulinarische Entdeckungsreise!</p>\n</div>",
+  "shortDescription": "Heißluftfritteuse: 300 kreative & gesunde Airfryer Rezepte für jeden Geschmack, vom Frühstück bis zum Dessert. Täglich einfach genießen!",
   "price": "14.8",
   "compareAtPrice": 17,
   "images": [
@@ -25,14 +25,11 @@
   "amazonReviewCount": 0,
   "brand": "Heißluftfritteuse",
   "seo": {
-    "title": "Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag - Product Expert",
-    "description": "Découvrez Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag sur Amazon. Note 0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "heißluftfritteuse",
-      "amazon",
-      "avis"
-    ]
+    "title": "Entdecke Heißluftfritteuse 300 Rezepte: Gesund & Kreativ für Jeden Tag!",
+    "description": "Heißluftfritteuse: 300 kreative & gesunde Airfryer Rezepte für jeden Geschmack, vom Frühstück bis zum Dessert. Täglich einfach genießen!",
+    "keywords": "Heißluftfritteuse 300 Rezepte, gesunde Airfryer Rezepte Buch, kreative Heißluftfritteuse Kochbuch, Airfryer Frühstück Rezepte, Heißluftfritteuse Rezepte Alltag, 300 Airfryer Gerichte gesund",
+    "ogTitle": "Entdecke Heißluftfritteuse 300 Rezepte: Gesund & Kreativ für Jeden Tag!",
+    "ogDescription": "Heißluftfritteuse: 300 kreative & gesunde Airfryer Rezepte für jeden Geschmack, vom Frühstück bis zum Dessert. Täglich einfach genießen!"
   },
   "reviews": {
     "averageRating": 0,
@@ -44,5 +41,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Rezeptanzahl": "300",
+    "Inhalt": "Vom Frühstück bis zum Dessert",
+    "Fokus": "Gesund & Kreativ mit Airfryer",
+    "Sprache": "Deutsch",
+    "Eignung": "Für alle Airfryer-Besitzer",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Versand": "Kostenloser Versand"
+  },
+  "faq": [
+    {
+      "question": "Sind wirklich alle Mahlzeiten abgedeckt?",
+      "answer": "Ja, absolut! Das Buch bietet dir eine riesige Auswahl vom leckeren Frühstück über schnelle Mittagessen bis hin zu raffinierten Desserts – alles für deinen Airfryer."
+    },
+    {
+      "question": "Sind die Rezepte auch wirklich gesund und kreativ?",
+      "answer": "Ganz bestimmt! Wir legen Wert auf ausgewogene Mahlzeiten und frische Zutaten. Du findest darin viele originelle Ideen, die Abwechslung in deine Küche bringen und einfach Spaß machen."
+    },
+    {
+      "question": "Sind die Rezepte einfach zuzubereiten, auch für Kochanfänger?",
+      "answer": "Ja, die Anleitungen sind klar und Schritt für Schritt erklärt. Egal, ob du neu beim Airfryer-Kochen bist oder schon Erfahrung hast, du zauberst im Handumdrehen leckere Gerichte."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:39:26.723992",
+  "originalName": "Heißluftfritteuse 300 Rezepte für jeden Geschmack vom Frühstück bis zum Dessert Kreative und gesunde Airfryer-Rezepte für jeden Tag",
+  "enhanced": true
 }

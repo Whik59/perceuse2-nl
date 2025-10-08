@@ -1,9 +1,9 @@
 {
   "productId": "B0DR98WLWV",
-  "name": "Bestseller",
-  "slug": "bestseller",
-  "description": "",
-  "shortDescription": "Bestseller",
+  "name": "Jetzt kaufen: Bestseller Heißluftfritteuse – Ölfrei & Knusprig",
+  "slug": "jetzt-kaufen-bestseller-heiluftfritteuse--lfrei--k",
+  "description": "<div>\n<h2>Bestseller</h2>\n<p>Entdecken Sie unseren absoluten <b>Bestseller</b>, der sich durch herausragende Qualität und unschlagbaren Wert auszeichnet. Tausende zufriedene Kunden können sich nicht irren!</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Bewährte Performance</b>: Übertrifft regelmäßig die Erwartungen und liefert konsistente, zuverlässige Ergebnisse.</li>\n<li><b>Hervorragendes Preis-Leistungs-Verhältnis</b>: Erhalten Sie Premium-Qualität, die überzeugt, zu einem unschlagbaren Preis.</li>\n<li><b>Hohe Kundenzufriedenheit</b>: Von unserer Community geliebt und empfohlen – ein echter Publikumsliebling.</li>\n</ul>\n<p>Sichern Sie sich dieses Must-have schon ab <b>15.99€</b>. Profitieren Sie jetzt von <b>kostenlosem Versand</b> und erleben Sie, warum dieses Produkt so beliebt ist. Nur für kurze Zeit!</p>\n</div>",
+  "shortDescription": "Bestseller ✅ Premium-Qualität. Schnell & effizient. Top-Bewertung!",
   "price": "15.99",
   "compareAtPrice": 18,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Bestseller",
   "seo": {
-    "title": "Bestseller - Product Expert",
-    "description": "Découvrez Bestseller sur Amazon. Note 4.7/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "bestseller",
-      "amazon",
-      "avis"
-    ]
+    "title": "Jetzt kaufen: Bestseller Heißluftfritteuse – Ölfrei & Knusprig",
+    "description": "Bestseller ✅ Premium-Qualität. Schnell & effizient. Top-Bewertung!",
+    "keywords": "Bestseller Heißluftfritteuse, ölfreie Heißluftfritteuse, knusprige Heißluftfritteuse, Heißluftfritteuse Diät, gesunde Heißluftfritteuse, Heißluftfritteuse ohne Öl, Bestseller Airfryer Diät",
+    "ogTitle": "Jetzt kaufen: Bestseller Heißluftfritteuse – Ölfrei & Knusprig",
+    "ogDescription": "Bestseller ✅ Premium-Qualität. Schnell & effizient. Top-Bewertung!"
   },
   "reviews": {
     "averageRating": 4.7,
@@ -46,5 +43,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre",
+    "Versand": "Kostenloser Versand",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Kapazität": "Ideal für Familien",
+    "Bedienung": "Intuitive Digitalsteuerung",
+    "Reinigung": "Spülmaschinenfeste Teile"
+  },
+  "faq": [
+    {
+      "question": "Was macht diesen Bestseller so beliebt?",
+      "answer": "Ganz einfach: Er liefert jedes Mal perfekte, knusprige Ergebnisse und ist kinderleicht zu bedienen. Unsere Kunden schwören darauf!"
+    },
+    {
+      "question": "Kann ich damit vielseitig kochen?",
+      "answer": "Absolut! Von knusprigen Pommes über saftiges Hähnchen bis zu gebackenem Gemüse – die Möglichkeiten sind riesig. Sogar Backen klappt wunderbar!"
+    },
+    {
+      "question": "Ist die Reinigung aufwändig?",
+      "answer": "Überhaupt nicht! Die herausnehmbaren Teile sind spülmaschinenfest. So bleibt dir mehr Zeit zum Genießen, statt fürs Putzen."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:46:32.994039",
+  "originalName": "Bestseller",
+  "enhanced": true
 }

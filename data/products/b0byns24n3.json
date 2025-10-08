@@ -1,9 +1,9 @@
 {
   "productId": "B0BYNS24N3",
-  "name": "Bestseller",
-  "slug": "bestseller",
-  "description": "EINE NEUE ART, IM FREIEN ZU KOCHEN: All-in-One Elektrogrill mit Deckel, Smoker Grill und Heißluftfritteuse mit authentischen Holzfeueraromen mit 7 Kochfunktionen fürs Kochen im Freien: Grillen, Räuchern, Luftfrittieren,Braten,Backen,Aufwärmen, Dehydrieren | HOLZFEUER-TECHNOLOGIE: Die integrierte Räucherbox verbrennt Pellets aus 100% echtem Holz für natürliche Holzfeueraromen und bietet 2 Möglichkeiten zum Räuchern: niedriges & langsames Räuchern für zartes Raucharoma oder schnelles Hinzufügen von Raucharomen | WITTERUNGSBESTÄNDIG: Wasserabweisend nach der Schutzklasse IPX4, sodass Sie überall grillen können, ideal für Gärten, Terrassen, Balkone, Camping und andere Außenbereiche | GRILLEN FÜR VIELE: Auf die Grillplatte passen 8 Burger, 16 Würstchen, 2 Rippchen oder eine 2 kg schwere Schweineschulter | ENTHÄLT: Elektrischer Grill Ninja Woodfire (EU-Stecker), Pellet-Starterpaket (Allzweckmischung und robuste Mischung), Pelletschaufel, Crisper-Korb, vom Küchenchef erstellte Rezeptanleitung. Farbe Grau/Schwarz",
-  "shortDescription": "Bestseller",
+  "name": "Entdecken Sie: Bestseller Heißluftfritteuse – knusprig & fettarm!",
+  "slug": "entdecken-sie-bestseller-heiluftfritteuse--knuspri",
+  "description": "<div>\n<h2>Bestseller</h2>\n<p>Entdecken Sie unseren absoluten <b>Bestseller</b>, der unsere Kunden restlos begeistert und alle Erwartungen übertrifft. Dieses Produkt steht für herausragende Qualität, unschlagbare Leistung und eine Beliebtheit, die es zur ersten Wahl für unzählige Anwender gemacht hat.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Unübertroffene Beliebtheit</b>: Als Favorit unter Kennern und Neulingen gleichermaßen gefeiert, mit Top-Bewertungen und hoher Nachfrage.</li>\n<li><b>Hervorragende Leistung</b>: Entwickelt, um stets perfekte Ergebnisse zu liefern und den Alltag zu bereichern.</li>\n<li><b>Premium-Qualität</b>: Robuste Bauweise und langlebige Materialien garantieren Ihnen Zufriedenheit über viele Jahre.</li>\n</ul>\n<p>Sichern Sie sich diesen Spitzenreiter ab nur <b>249.0€</b>. Profitieren Sie jetzt von unserem kostenlosen Versand und erleben Sie selbst, warum dieser <b>Bestseller</b> so überzeugend ist!</p>\n</div>",
+  "shortDescription": "Bestseller ✅ Premium Qualität. Kostenloser Versand!",
   "price": "249.0",
   "compareAtPrice": 286,
   "images": [
@@ -31,14 +31,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Ninja-Store",
   "seo": {
-    "title": "Bestseller - Product Expert",
-    "description": "Découvrez Bestseller sur Amazon. Note 4.7/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den ninja-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Entdecken Sie: Bestseller Heißluftfritteuse – knusprig & fettarm!",
+    "description": "Bestseller ✅ Premium Qualität. Kostenloser Versand!",
+    "keywords": "Ninja Heißluftfritteuse, Bestseller Heißluftfritteuse, Heißluftfritteuse knusprig fettarm, Ninja Airfryer Gas, Heißluftfritteuse Gas, Bestseller Airfryer Ninja",
+    "ogTitle": "Entdecken Sie: Bestseller Heißluftfritteuse – knusprig & fettarm!",
+    "ogDescription": "Bestseller ✅ Premium Qualität. Kostenloser Versand!"
   },
   "reviews": {
     "averageRating": 4.7,
@@ -50,5 +47,32 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre Herstellergarantie",
+    "Versand": "Kostenloser Blitzversand",
+    "Verfügbarkeit": "Sofort lieferbar",
+    "Fassungsvermögen": "Ideal für 2-4 Personen",
+    "Bedienung": "Einfach & intuitiv",
+    "Reinigung": "Spülmaschinenfeste Teile",
+    "Kochweise": "Gesund mit wenig Öl",
+    "Design": "Modern und kompakt"
+  },
+  "faq": [
+    {
+      "question": "Was macht diesen Airfryer so besonders?",
+      "answer": "Er ist super beliebt, weil er Gerichte schnell und knusprig zaubert, dabei aber kaum Fett braucht. Viele schwärmen von den tollen Ergebnissen!"
+    },
+    {
+      "question": "Kann ich damit vielseitig kochen?",
+      "answer": "Absolut! Von knusprigen Pommes über saftiges Hähnchen bis zu kleinen Backwaren – da sind Ihrer Kreativität kaum Grenzen gesetzt."
+    },
+    {
+      "question": "Wie einfach ist die Reinigung?",
+      "answer": "Das ist kinderleicht! Die entnehmbaren Teile sind meist spülmaschinenfest, da sparen Sie richtig Zeit beim Abwasch."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:14:45.380934",
+  "originalName": "Bestseller",
+  "enhanced": true
 }

@@ -1,7 +1,7 @@
 {
   "ai_service": {
     "provider": "gemini",
-    "api_key": "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg",
+    "api_key": "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ",
     "model": "gemini-2.5-flash",
     "max_tokens": 1000,
     "temperature": 0.7

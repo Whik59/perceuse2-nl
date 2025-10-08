@@ -1,9 +1,9 @@
 {
   "productId": "B0DN1N415K",
-  "name": "PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l",
-  "slug": "pyrex-preware-rechteckige-auflaufform-glas-23-x-15",
-  "description": "Borosilikatglasschale mit hoher Beständigkeit gegen Temperaturschock. Kratzfest, 100 % gesundes Material, extra robust | Perfekt für den Einsatz in Luftfritteuse | Gefriergeeignet, mikrowellengeeignet, ofengeeignet, minimale Temperatur (-40 °C), maximale Temperatur (300 °C) | Spülmaschinenfest | Rechteckige Schüssel: 23 x 15 cm. Fassungsvermögen: 1,1 l",
-  "shortDescription": "PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l",
+  "name": "PYREX Rechteckige Glas-Auflaufform 23x15cm – Airfryer-fähig! Kaufen!",
+  "slug": "pyrex-rechteckige-glas-auflaufform-23x15cm--airfry",
+  "description": "<div>\n<h2>PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l</h2>\n<p>Entdecken Sie die unverzichtbare <b>PYREX Preware Rechteckige Auflaufform</b> aus hochwertigem Glas! Mit ihrer praktischen Größe von 23 x 15 cm und einem Fassungsvermögen von 1,1 Litern ist sie ideal für vielseitige Ofengerichte, Gratins und köstliche Desserts.</p>\n<h3>Produkthighlights</h3>\n<ul>\n<li><b>Hitzebeständiges Borosilikatglas</b>: Extrem widerstandsfähig gegen Temperaturschwankungen von -40°C bis +300°C – perfekt für Ofen, Mikrowelle und Gefrierschrank.</li>\n<li><b>Optimale Maße</b>: Die kompakten Abmessungen von 23 x 15 cm und das Volumen von 1,1 l passen ideal in jeden Backofen und sind perfekt für kleinere Haushalte.</li>\n<li><b>Hygienisch & Pflegeleicht</b>: Kratzfest, geruchs- und geschmacksneutral. Die glatte Oberfläche ist zudem spülmaschinenfest für eine mühelose Reinigung.</li>\n<li><b>Langlebige Qualität</b>: Pyrex steht für Robustheit und Zuverlässigkeit in Ihrer Küche.</li>\n</ul>\n<p>Sichern Sie sich diese langlebige Pyrex-Qualität noch heute! Nur für kurze Zeit ab <b>11.95€</b> mit kostenlosem Versand. Warten Sie nicht!</p>\n</div>",
+  "shortDescription": "PYREX Preware Rechteckige Glas-Auflaufform, 23x15 cm, 1,1L. ✅ Premium Qualität. Hitzebeständig & vielseitig.",
   "price": "11.95",
   "compareAtPrice": 13,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Pyrex-Store",
   "seo": {
-    "title": "PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l - Product Expert",
-    "description": "Découvrez PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l sur Amazon. Note 4.4/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den pyrex-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "PYREX Rechteckige Glas-Auflaufform 23x15cm – Airfryer-fähig! Kaufen!",
+    "description": "PYREX Preware Rechteckige Glas-Auflaufform, 23x15 cm, 1,1L. ✅ Premium Qualität. Hitzebeständig & vielseitig.",
+    "keywords": "Pyrex Glas-Auflaufform Airfryer, rechteckige Pyrex Airfryer-Form, Airfryer Glas Backform 23x15cm, Pyrex Auflaufform Airfryer-fähig, Glasform für Airfryer Pyrex, Airfryer-geeignete Pyrex Schale",
+    "ogTitle": "PYREX Rechteckige Glas-Auflaufform 23x15cm – Airfryer-fähig! Kaufen!",
+    "ogDescription": "PYREX Preware Rechteckige Glas-Auflaufform, 23x15 cm, 1,1L. ✅ Premium Qualität. Hitzebeständig & vielseitig."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -48,5 +45,32 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Material": "Glas",
+    "Form": "Rechteckig",
+    "Maße": "23 x 15 cm",
+    "Fassungsvermögen": "1,1 Liter",
+    "Ofenfest": "Ja",
+    "Spülmaschinengeeignet": "Ja",
+    "Mikrowellengeeignet": "Ja",
+    "Gefrierschrankgeeignet": "Ja"
+  },
+  "faq": [
+    {
+      "question": "Kann ich die Form im Ofen und in der Spülmaschine benutzen?",
+      "answer": "Ja, klar! Sie ist super hitzebeständig und darf auch problemlos in die Spülmaschine. Das spart richtig viel Arbeit!"
+    },
+    {
+      "question": "Reicht die 1,1 Liter Form für eine kleine Mahlzeit?",
+      "answer": "Absolut! Sie ist perfekt für Gerichte für 1-2 Personen, zum Beispiel einen Auflauf, Beilagen oder ein schnelles Gratin."
+    },
+    {
+      "question": "Ist das Glas robust für hohe Temperaturen, vielleicht auch im Airfryer?",
+      "answer": "Ja, PYREX Glas ist extrem widerstandsfähig und hält starken Temperaturschwankungen stand. Wenn sie in Ihren Airfryer passt, ist sie dafür ideal geeignet!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:39:29.645875",
+  "originalName": "PYREX Preware Rechteckige Auflaufform, Glas, 23 x 15 cm, 1,1 l",
+  "enhanced": true
 }

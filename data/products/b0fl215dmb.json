@@ -1,9 +1,9 @@
 {
   "productId": "B0FL215DMB",
-  "name": "Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wählerische Kinder lieben und Eltern glücklich machen. Inklusive genialer Dual-Zone-Tricks",
-  "slug": "das-airfryer-familien-kochbuch-stressfrei-durch-di",
-  "description": "",
-  "shortDescription": "Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wäh",
+  "name": "Jetzt: Airfryer Familien-Kochbuch – 120 schnelle Rezepte & Tricks!",
+  "slug": "jetzt-airfryer-familien-kochbuch--120-schnelle-rez",
+  "description": "<div>\n    <h2>Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wählerische Kinder lieben und Eltern glücklich machen. Inklusive genialer Dual-Zone-Tricks</h2>\n    <p>Entdecken Sie das unverzichtbare <b>Das Airfryer Familien-Kochbuch</b> und revolutionieren Sie Ihre Küche! Nie wieder Stress bei der Abendessensplanung – dieses Kochbuch bietet die perfekte Lösung für beschäftigte Familien, die Wert auf schnelle, gesunde und vor allem leckere Mahlzeiten legen. Machen Sie wählerische Kinder glücklich und genießen Sie entspannte Abende.</p>\n    <h3>Hauptmerkmale:</h3>\n    <ul>\n        <li><b>120 schnelle Feierabend-Rezepte</b>: Kreationen, die in kürzester Zeit zubereitet sind und den Alltag erleichtern.</li>\n        <li><b>Kinderfreundliche Gerichte</b>: Speziell entwickelt, um auch wählerische Esser zu begeistern.</li>\n        <li><b>Stressfreie Wochenplanung</b>: Schluss mit Koch-Chaos und endloser Suche nach Rezeptideen.</li>\n        <li><b>Geniale Dual-Zone-Tricks</b>: Maximieren Sie die Effizienz Ihres Dual-Zone-Airfryers für perfekte Ergebnisse.</li>\n        <li><b>Elternfreundlich</b>: Rezepte, die Eltern das Leben einfacher machen und mehr Zeit für die Familie schaffen.</li>\n    </ul>\n    <p>Sichern Sie sich jetzt Ihr Exemplar für nur <b>14.99€</b> und profitieren Sie vom kostenlosen Versand! Starten Sie noch heute in eine stressfreie Kochwoche!</p>\n</div>",
+  "shortDescription": "Airfryer Familien-Kochbuch: 120 schnelle Rezepte für wählerische Kinder & glückliche Eltern. Stressfrei kochen, inkl. genialer Dual-Zone-Tricks!",
   "price": "14.99",
   "compareAtPrice": 17,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Das",
   "seo": {
-    "title": "Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wählerische Kinder lieben und Eltern glücklich machen. Inklusive genialer Dual-Zone-Tricks - Product Expert",
-    "description": "Découvrez Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wählerische Kinder lieben und Eltern glücklich machen. Inklusive genialer Dual-Zone-Tricks sur Amazon. Note 4.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "das",
-      "amazon",
-      "avis"
-    ]
+    "title": "Jetzt: Airfryer Familien-Kochbuch – 120 schnelle Rezepte & Tricks!",
+    "description": "Airfryer Familien-Kochbuch: 120 schnelle Rezepte für wählerische Kinder & glückliche Eltern. Stressfrei kochen, inkl. genialer Dual-Zone-Tricks!",
+    "keywords": "Airfryer Familien-Kochbuch, schnelle Airfryer Rezepte Familie, Airfryer Rezepte für Familien, Airfryer Kochbuch mit Tricks, 120 Airfryer Familienrezepte, Airfryer Gerichte Familie",
+    "ogTitle": "Jetzt: Airfryer Familien-Kochbuch – 120 schnelle Rezepte & Tricks!",
+    "ogDescription": "Airfryer Familien-Kochbuch: 120 schnelle Rezepte für wählerische Kinder & glückliche Eltern. Stressfrei kochen, inkl. genialer Dual-Zone-Tricks!"
   },
   "reviews": {
     "averageRating": 4.0,
@@ -46,5 +43,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Anzahl Rezepte": "120",
+    "Themenschwerpunkt": "Schnelle Feierabend-Gerichte",
+    "Zielgruppe": "Familien mit Kindern",
+    "Besonderheit": "Inklusive Dual-Zone Airfryer-Tricks",
+    "Vorteil": "Stressfreie Zubereitung, kinderfreundlich"
+  },
+  "faq": [
+    {
+      "question": "Mögen wählerische Kinder die Rezepte wirklich?",
+      "answer": "Ja, absolut! Wir haben uns bewusst auf Gerichte konzentriert, die selbst mäkelige Esser am Tisch begeistern. Da ist für jeden kleinen Geschmack etwas dabei."
+    },
+    {
+      "question": "Gehen die Rezepte wirklich so fix, wie es versprochen wird?",
+      "answer": "Absolut! Die 120 Rezepte sind perfekt für den Feierabend konzipiert. Schnell in der Vorbereitung und dank Airfryer noch schneller gar – so bleibt mehr Zeit für die Familie."
+    },
+    {
+      "question": "Sind die Rezepte nur für Dual-Zone Airfryer?",
+      "answer": "Nein, überhaupt nicht! Die meisten Gerichte kannst du super auch in einem normalen Airfryer zubereiten. Die Dual-Zone-Tricks sind einfach clevere Extras, um das Beste aus deinem Gerät herauszuholen und noch flexibler zu sein."
+    }
+  ],
+  "enhancedAt": "2025-10-08T11:46:10.076844",
+  "originalName": "Das Airfryer Familien-Kochbuch: Stressfrei durch die Woche: 120 schnelle Feierabend-Rezepte, die wählerische Kinder lieben und Eltern glücklich machen. Inklusive genialer Dual-Zone-Tricks",
+  "enhanced": true
 }

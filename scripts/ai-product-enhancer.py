@@ -186,7 +186,7 @@ Respond ONLY with JSON array.
             import google.generativeai as genai
             
             # Configure Gemini with your API key
-            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
+            API_KEY = "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
                 thread_safe_print(f"[ERROR] No API key configured! Stopping script.", self.print_lock)
@@ -207,14 +207,22 @@ Respond ONLY with JSON array.
             # Use streaming for faster response
             response = model.generate_content(full_prompt, stream=True)
             
-            # Collect streaming response
+            # Collect streaming response with better error handling
             full_response = ""
+            chunk_count = 0
             for chunk in response:
-                if chunk.text:
+                chunk_count += 1
+                if chunk and chunk.text:
                     full_response += chunk.text
+                elif chunk and hasattr(chunk, 'candidates') and chunk.candidates:
+                    # Check for finish_reason issues
+                    candidate = chunk.candidates[0]
+                    if hasattr(candidate, 'finish_reason') and candidate.finish_reason == 1:
+                        thread_safe_print(f"[WARNING] AI hit stop token (finish_reason=1) for {session_id}", self.print_lock)
+                        break
             
             if full_response.strip():
-                thread_safe_print(f"[AI] Response received for {session_id}", self.print_lock)
+                thread_safe_print(f"[AI] Response received for {session_id} ({chunk_count} chunks)", self.print_lock)
                 result = full_response.strip()
                 
                 # Cache the result
@@ -223,7 +231,7 @@ Respond ONLY with JSON array.
                 
                 return result
             else:
-                thread_safe_print(f"[ERROR] Empty AI response for {session_id}! Stopping script.", self.print_lock)
+                thread_safe_print(f"[ERROR] Empty AI response after {chunk_count} chunks for {session_id}! Stopping script.", self.print_lock)
                 raise Exception("Empty AI response - stopping script")
                 
         except Exception as e:
@@ -245,7 +253,7 @@ Respond ONLY with JSON array.
         cache_key = self.get_cache_key('name_optimization', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"Optimiere deutschen Produktnamen für SEO (60 Zeichen): {original_name}"
+        prompt = f"SEO name (60 chars) for: {original_name} in {language_name}"
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
         # Fast cleanup
@@ -354,7 +362,7 @@ Fragen über das tatsächliche Produkt: {product_name}"""
         cache_key = self.get_cache_key('short_description', product_data or {}) if product_data else None
         
         # Ultra-short prompt for speed
-        prompt = f"Kurze deutsche Beschreibung (100 Zeichen): {product_name}, {price}€"
+        prompt = f"Short desc (100 chars) for: {product_name}, {price}€ in {language_name}"
         response = await self.get_ai_response_async(prompt, session_id, cache_key=cache_key)
         
         # Fast cleanup
@@ -733,13 +741,25 @@ Konzentriere dich auf häufige Bedenken über:
         safe_print("[START] AI Product Enhancement")
         safe_print("=" * 60)
         
-        # Find all product JSON files
+        # Find all product JSON files (skip already enhanced ones)
         product_files = []
+        skipped_count = 0
         for file in os.listdir(self.products_dir):
             if file.endswith('.json') and not file.startswith('.'):
-                product_files.append(os.path.join(self.products_dir, file))
+                file_path = os.path.join(self.products_dir, file)
+                # Check if already enhanced
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        product = json.load(f)
+                        if product.get('enhanced', False):
+                            skipped_count += 1
+                            continue
+                except:
+                    pass  # If can't read, process it
+                product_files.append(file_path)
         
         safe_print(f"[INFO] Found {len(product_files)} products to enhance")
+        safe_print(f"[INFO] Skipped {skipped_count} already enhanced products")
         
         enhanced_count = 0
         failed_count = 0
@@ -852,13 +872,25 @@ Konzentriere dich auf häufige Bedenken über:
         safe_print("[START] FAST AI Product Enhancement (Batch Mode)")
         safe_print("=" * 60)
         
-        # Find all product JSON files
+        # Find all product JSON files (skip already enhanced ones)
         product_files = []
+        skipped_count = 0
         for file in os.listdir(self.products_dir):
             if file.endswith('.json') and not file.startswith('.'):
-                product_files.append(os.path.join(self.products_dir, file))
+                file_path = os.path.join(self.products_dir, file)
+                # Check if already enhanced
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        product = json.load(f)
+                        if product.get('enhanced', False):
+                            skipped_count += 1
+                            continue
+                except:
+                    pass  # If can't read, process it
+                product_files.append(file_path)
         
         safe_print(f"[INFO] Found {len(product_files)} products to enhance")
+        safe_print(f"[INFO] Skipped {skipped_count} already enhanced products")
         safe_print(f"[INFO] Batch size: {self.batch_size}, Concurrent requests: {self.max_concurrent_requests}")
         safe_print(f"[INFO] Estimated time: {len(product_files) * 2 / self.max_concurrent_requests / 60:.1f} minutes")
         
@@ -898,13 +930,25 @@ Konzentriere dich auf häufige Bedenken über:
         safe_print("[START] ULTRA-FAST AI Product Enhancement")
         safe_print("=" * 60)
         
-        # Find all product JSON files
+        # Find all product JSON files (skip already enhanced ones)
         product_files = []
+        skipped_count = 0
         for file in os.listdir(self.products_dir):
             if file.endswith('.json') and not file.startswith('.'):
-                product_files.append(os.path.join(self.products_dir, file))
+                file_path = os.path.join(self.products_dir, file)
+                # Check if already enhanced
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        product = json.load(f)
+                        if product.get('enhanced', False):
+                            skipped_count += 1
+                            continue
+                except:
+                    pass  # If can't read, process it
+                product_files.append(file_path)
         
         safe_print(f"[INFO] Found {len(product_files)} products to enhance")
+        safe_print(f"[INFO] Skipped {skipped_count} already enhanced products")
         safe_print(f"[INFO] ULTRA-FAST mode: Batch size: {self.batch_size}, Concurrent: {self.max_concurrent_requests}")
         safe_print(f"[INFO] Estimated time: {len(product_files) * 1 / self.max_concurrent_requests / 60:.1f} minutes")
         
@@ -1015,18 +1059,7 @@ Konzentriere dich auf häufige Bedenken über:
     def optimize_product_name_fast(self, original_name):
         """AI-powered name optimization with product-specific prompts"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
-        prompt = f"""Optimize product name for SEO (max 60 characters) in {language_name}:
-
-"{original_name}"
-
-STRICT RULES:
-- ONLY mention specific product characteristics
-- Include key benefit specific to the product
-- Use action words (Buy, Discover, Best)
-- Keep original name as base
-- Focus on airfryer-related content
-
-Respond ONLY with optimized name:"""
+        prompt = f"SEO name (60 chars) for: {original_name} in {language_name}"
         
         return self.get_ai_response_fast(prompt)
 
@@ -1035,29 +1068,11 @@ Respond ONLY with optimized name:"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""Create SEO description for: "{original_name}" in {language_name}
+        prompt = f"""HTML description (200 words) for: {original_name} in {language_name}
+Price: {price}€
+Features: {features_text[:50]}
 
-STRICT RULES:
-- ONLY write about "{original_name}" and specific characteristics
-- Include features: {features_text}
-- Mention price {price}€
-- Create urgency (free shipping)
-- Max 200 words
-- Valid HTML format
-
-EXAMPLE:
-<div>
-<h2>{original_name}</h2>
-<p>Discover the <b>{original_name}</b> with the best quality and price.</p>
-<h3>Key Features</h3>
-<ul>
-<li><b>Feature 1</b>: Specific description</li>
-<li><b>Feature 2</b>: Specific description</li>
-</ul>
-<p>From <b>{price}€</b> with free shipping.</p>
-</div>
-
-Respond ONLY with HTML:"""
+Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p>CTA</p></div>"""
         
         response = self.get_ai_response_fast(prompt)
         
@@ -1076,26 +1091,7 @@ Respond ONLY with HTML:"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         existing_specs = ", ".join(specifications.keys()) if specifications else "none"
         
-        prompt = f"""Create SIMPLE product specifications for: "{original_name}" in {language_name}
-
-STRICT RULES:
-- ONLY basic consumer-relevant specifications
-- Keep it SIMPLE and realistic
-- NO made-up technical details
-- Focus on what customers actually care about
-- Valid JSON format
-- Based on the actual product: {original_name}
-
-EXAMPLE (keep it simple):
-{{
-  "Garantie": "2 Jahre",
-  "Versand": "Kostenloser Versand",
-  "Verfügbarkeit": "Sofort lieferbar",
-  "Material": "Hochwertige Materialien",
-  "Größe": "Kompakt und praktisch"
-}}
-
-Respond ONLY with JSON:"""
+        prompt = f"JSON specs for: {original_name} in {language_name}\nExample: {{'Garantie':'2 Jahre','Versand':'Kostenlos','Material':'Hochwertig'}}"
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1141,24 +1137,7 @@ Respond ONLY with JSON:"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:2]) if features else "key features"
         
-        prompt = f"""Create 3 SIMPLE, conversational FAQ questions for: "{original_name}" in {language_name}
-
-STRICT RULES:
-- Keep questions SHORT and natural
-- Make answers CONVERSATIONAL, not formal
-- NO repetitive phrases
-- Sound like real customer questions
-- Valid JSON format
-- Questions should be about THIS specific product: {original_name}
-
-EXAMPLE (natural German):
-[
-  {{"question": "Ist das Produkt einfach zu verwenden?", "answer": "Ja, sehr einfach! Die Bedienung ist intuitiv und auch für Anfänger geeignet."}},
-  {{"question": "Gibt es eine Garantie?", "answer": "Ja, 2 Jahre Garantie sind inklusive. Bei Problemen sind wir für Sie da."}},
-  {{"question": "Wie schnell ist der Versand?", "answer": "Der Versand ist kostenlos und dauert nur 1-2 Werktage."}}
-]
-
-Respond ONLY with JSON:"""
+        prompt = f"3 FAQ JSON for: {original_name} in {language_name}\nFormat: [{{'question':'Is it easy?','answer':'Yes...'}}]"
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1218,7 +1197,7 @@ Respond ONLY with description:"""
             import google.generativeai as genai
             
             # Configure Gemini with your API key
-            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
+            API_KEY = "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
                 safe_print(f"[ERROR] No API key configured! Stopping script.")
@@ -1238,11 +1217,22 @@ Respond ONLY with description:"""
             
             response = model.generate_content(full_prompt)
             
-            if response and response.text:
-                return response.text.strip()
+            # Check for valid response with proper error handling
+            if response and response.candidates:
+                candidate = response.candidates[0]
+                if candidate.content and candidate.content.parts:
+                    text_content = candidate.content.parts[0].text
+                    if text_content and text_content.strip():
+                        return text_content.strip()
+                    else:
+                        safe_print(f"[ERROR] Empty text content in AI response! Stopping script.")
+                        raise Exception("Empty text content in AI response - stopping script")
+                else:
+                    safe_print(f"[ERROR] No content parts in AI response! Stopping script.")
+                    raise Exception("No content parts in AI response - stopping script")
             else:
-                safe_print(f"[ERROR] Empty AI response! Stopping script.")
-                raise Exception("Empty AI response - stopping script")
+                safe_print(f"[ERROR] No candidates in AI response! Stopping script.")
+                raise Exception("No candidates in AI response - stopping script")
                 
         except ImportError:
             safe_print(f"[ERROR] Google Generative AI not installed! Stopping script.")
@@ -1260,23 +1250,7 @@ Respond ONLY with description:"""
         """Generate SEO keywords using AI based on actual product data"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         
-        prompt = f"""Generate relevant SEO keywords for this product in {language_name}:
-
-Product: {product_name}
-Category: {category}
-Brand: {brand}
-
-STRICT RULES:
-- Generate ONLY keywords relevant to THIS specific product
-- Use {language_name} language
-- Include product-specific terms, not generic ones
-- 5-8 keywords maximum
-- Comma-separated format
-
-EXAMPLE:
-"produktname, kategorie-spezifisch, marke, funktion, vorteil"
-
-Respond ONLY with keywords, no additional text:"""
+        prompt = f"SEO keywords for: {product_name} in {language_name}\nCategory: {category}\nBrand: {brand}\nFormat: keyword1, keyword2, keyword3"
         
         try:
             response = self.get_ai_response_fast(prompt)

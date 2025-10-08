@@ -1,9 +1,9 @@
 {
   "productId": "B0FNL9PBG7",
-  "name": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell",
-  "slug": "kochen-mit-der-philips-airfryer-kochbuch-gesund-kn",
-  "description": "",
-  "shortDescription": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell",
+  "name": "Jetzt: Philips Airfryer Kochbuch – Gesund & Knusprig!",
+  "slug": "jetzt-philips-airfryer-kochbuch--gesund--knusprig",
+  "description": "<div>\n<h2>KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell</h2>\n<p>Entdecken Sie das unverzichtbare <b>KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell</b> und revolutionieren Sie Ihre Küchenroutine! Dieses Kochbuch ist Ihr ultimativer Begleiter, um im Handumdrehen gesunde, unwiderstehlich knusprige und blitzschnell zubereitete Gerichte mit Ihrem Philips Airfryer zu zaubern.</p>\n<h3>Ihre Vorteile auf einen Blick</h3>\n<ul>\n<li><b>Gesunde Rezepte</b>: Eine Fülle an kreativen Ideen, die es Ihnen ermöglichen, fettreduziert und dennoch geschmackvoll zu kochen.</li>\n<li><b>Knusprige Perfektion</b>: Lernen Sie die Geheimnisse, um stets die perfekte Knusprigkeit Ihrer Lieblingsspeisen zu erzielen.</li>\n<li><b>Zeitersparnis</b>: Einfache und schnelle Anleitungen, die ideal für den geschäftigen Alltag sind, ohne Kompromisse beim Geschmack.</li>\n<li><b>Vielfältige Gerichte</b>: Von herzhaften Hauptspeisen bis zu süßen Leckereien – inspirierende Rezepte für jeden Anlass und Geschmack.</li>\n<li><b>Einfache Zubereitung</b>: Klare Schritt-für-Schritt-Anleitungen, die das Kochen mit dem Airfryer für jedermann zugänglich machen.</li>\n</ul>\n<p>Sichern Sie sich Ihr Exemplar jetzt für nur <b>14.98€</b> und profitieren Sie von <b>kostenlosem Versand</b>! Starten Sie noch heute Ihre gesunde und knusprige Kochreise mit Ihrem Philips Airfryer!</p>\n</div>",
+  "shortDescription": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell. Entdecke vielfältige Rezepte für deine Philips Airfryer.",
   "price": "14.98",
   "compareAtPrice": 17,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Philips",
   "seo": {
-    "title": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell - Product Expert",
-    "description": "Découvrez KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell sur Amazon. Note 4.8/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "philips",
-      "amazon",
-      "avis"
-    ]
+    "title": "Jetzt: Philips Airfryer Kochbuch – Gesund & Knusprig!",
+    "description": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell. Entdecke vielfältige Rezepte für deine Philips Airfryer.",
+    "keywords": "Philips Airfryer Kochbuch, Airfryer Rezepte Philips, Gesunde Airfryer Rezepte Buch, Knusprige Airfryer Gerichte, Rezeptbuch Philips Airfryer, Philips Airfryer Kochideen",
+    "ogTitle": "Jetzt: Philips Airfryer Kochbuch – Gesund & Knusprig!",
+    "ogDescription": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell. Entdecke vielfältige Rezepte für deine Philips Airfryer."
   },
   "reviews": {
     "averageRating": 4.8,
@@ -46,5 +43,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Inhalt": "Vielfältige Airfryer-Rezepte",
+    "Fokus": "Gesund, schnell & knusprig kochen",
+    "Anleitung": "Einfach und leicht verständlich",
+    "Format": "Praktisches Buchformat",
+    "Qualität": "Hochwertige Aufmachung",
+    "Sprache": "Deutsch"
+  },
+  "faq": [
+    {
+      "question": "Welche Rezepte finde ich im Kochbuch?",
+      "answer": "Du entdeckst eine tolle Vielfalt an gesunden, knusprigen Gerichten – von schnellen Snacks bis zu vollwertigen Mahlzeiten, ideal für den Alltag!"
+    },
+    {
+      "question": "Sind die Rezepte auch für Kochanfänger leicht umzusetzen?",
+      "answer": "Ja, absolut! Die Schritte sind super einfach und klar erklärt, sodass wirklich jeder im Handumdrehen leckere Sachen zaubern kann."
+    },
+    {
+      "question": "Brauche ich unbedingt eine Philips Airfryer?",
+      "answer": "Nein, überhaupt nicht! Die Rezepte sind für jede Heißluftfritteuse geeignet, egal welche Marke du besitzt. Hauptsache, es brutzelt knusprig!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T11:47:24.490823",
+  "originalName": "KOCHEN MIT DER PHILIPS AIRFRYER KOCHBUCH: Gesund, knusprig, schnell",
+  "enhanced": true
 }

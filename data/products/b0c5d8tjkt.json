@@ -1,9 +1,9 @@
 {
   "productId": "B0C5D8TJKT",
-  "name": "FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff",
-  "slug": "fritel-airfryer-snacktastic-6902-xxl-heißluftfritt",
-  "description": "FRITEL Airfryer SnackTastic 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff",
-  "shortDescription": "FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Per",
+  "name": "Entdecke FRITEL Airfryer SnackTastic® 6902 XXL 5L für 5 Pers.",
+  "slug": "entdecke-fritel-airfryer-snacktastic-6902-xxl-5l-f",
+  "description": "<div>\n    <h2>FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff</h2>\n    <p>Entdecken Sie die revolutionäre <b>FRITEL Airfryer SnackTastic® 6902 XXL</b>, Ihre Premium-Heißluftfritteuse für gesunde und knusprige Mahlzeiten! Mit beeindruckenden 2300 W Leistung und einem großzügigen 5 Liter Fassungsvermögen bereiten Sie Lieblingssnacks und Hauptgerichte im Handumdrehen für 2 bis 5 Personen zu. Erleben Sie fettarmes Frittieren ohne Kompromisse beim Geschmack und holen Sie sich die Zukunft des Kochens nach Hause.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li><b>XXL-Kapazität (5 Liter):</b> Ideal für Familien und größere Portionen, ermöglicht die Zubereitung vielfältiger Gerichte.</li>\n        <li><b>Leistungsstarke 2300 W:</b> Für extrem schnelle Aufheizzeiten und perfekte, knusprige Ergebnisse.</li>\n        <li><b>8 voreingestellte Programme:</b> Einfache One-Touch-Bedienung für Pommes, Snacks, Gemüse und mehr.</li>\n        <li><b>Digitales Touchscreen-Display:</b> Intuitive Steuerung und präzise Einstellungen für maximale Kontrolle.</li>\n        <li><b>Praktischer Aufklappbarer Griff:</b> Spart Platz in Ihrer Küche und sorgt für eine sichere Handhabung.</li>\n    </ul>\n    <p>Sichern Sie sich diese erstklassige Heißluftfritteuse jetzt für nur <b>179.99€</b>! Profitieren Sie zudem von unserem unschlagbaren Angebot mit kostenlosem Versand. Warten Sie nicht länger und verwandeln Sie Ihre Küche in eine gesunde Genuss-Oase!</p>\n</div>",
+  "shortDescription": "FRITEL SnackTastic® 6902 XXL Heißluftfritteuse (5L, 2300W) für 2-5 Pers. Mit 8 Programmen, digitalem Touchscreen & aufklappbarem Griff.",
   "price": "179.99",
   "compareAtPrice": 206,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Fritel",
   "seo": {
-    "title": "FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff - Product Expert",
-    "description": "Découvrez FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff sur Amazon. Note 5.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "marke: fritel",
-      "amazon",
-      "avis"
-    ]
+    "title": "Entdecke FRITEL Airfryer SnackTastic® 6902 XXL 5L für 5 Pers.",
+    "description": "FRITEL SnackTastic® 6902 XXL Heißluftfritteuse (5L, 2300W) für 2-5 Pers. Mit 8 Programmen, digitalem Touchscreen & aufklappbarem Griff.",
+    "keywords": "Fritel Airfryer SnackTastic 6902, Fritel Heissluftfritteuse XXL 5L, Airfryer 5 Personen Fritel, SnackTastic 6902 Heissluftfritteuse, Fritel Airfryer 5 Liter für 5 Personen, Fritel 6902 SnackTastic Airfryer",
+    "ogTitle": "Entdecke FRITEL Airfryer SnackTastic® 6902 XXL 5L für 5 Pers.",
+    "ogDescription": "FRITEL SnackTastic® 6902 XXL Heißluftfritteuse (5L, 2300W) für 2-5 Pers. Mit 8 Programmen, digitalem Touchscreen & aufklappbarem Griff."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -48,5 +45,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produkttyp": "Heißluftfritteuse",
+    "Fassungsvermögen": "5 Liter",
+    "Leistung": "2300 Watt",
+    "Programme": "8 Voreingestellte Programme",
+    "Personenkapazität": "Für 2 bis 5 Personen",
+    "Bedienung": "Digitales Touchscreen-Display",
+    "Besonderheit": "Aufklappbarer Griff"
+  },
+  "faq": [
+    {
+      "question": "Reichen 5 Liter für eine Familie?",
+      "answer": "Ja, absolut! Die Heißluftfritteuse ist perfekt für 2 bis 5 Personen, da passen locker genug Pommes oder Snacks für alle rein."
+    },
+    {
+      "question": "Ist das digitale Display leicht zu bedienen?",
+      "answer": "Sehr einfach und intuitiv! Mit dem digitalen Touchscreen wählen Sie die 8 Programme blitzschnell aus, das geht wirklich kinderleicht."
+    },
+    {
+      "question": "Wofür ist der aufklappbare Griff gut?",
+      "answer": "Der aufklappbare Griff ist super praktisch für die Lagerung! So sparen Sie Platz in Ihrer Küche, wenn die Fritteuse mal nicht in Gebrauch ist."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:15:55.134404",
+  "originalName": "FRITEL Airfryer SnackTastic® 6902 XXL – Heißluftfritteuse – 5 l – 2300 W – 8 Programme – 2 bis 5 Pers. – Digitales Touchscreen-Display – Aufklappbarer Griff",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B09TZV6MPQ",
-  "name": "Medion Air Fryer",
-  "slug": "medion-air-fryer",
-  "description": "Programmierbar, Temperaturregelung, digitales Bedienfeld",
-  "shortDescription": "Medion Air Fryer",
+  "name": "Medion Air Fryer: Jetzt kaufen! Fettarm knusprig genießen!",
+  "slug": "medion-air-fryer-jetzt-kaufen-fettarm-knusprig-gen",
+  "description": "<div>\n<h2>Medion Air Fryer</h2>\n<p>Entdecken Sie den <b>Medion Air Fryer</b> – Ihre ideale Lösung für knusprige und gesunde Gerichte mit deutlich weniger Fett. Genießen Sie Ihre Lieblingsspeisen wie Pommes, Snacks oder Gemüse, zubereitet mit heißer Luft, die Geschmack und Qualität bewahrt und gleichzeitig den Ölverbrauch minimiert.</p>\n<h3>Key Features</h3>\n<ul>\n<li><b>Effiziente Heißluft-Technologie</b>: Kochen, Backen, Braten und Frittieren Sie mit minimalem Öl und maximalem Aroma.</li>\n<li><b>Großes Fassungsvermögen</b>: Perfekt für Familien oder wenn Sie mehrere Portionen gleichzeitig zubereiten möchten.</li>\n<li><b>Intuitive Bedienung & Timerfunktion</b>: Einfache Handhabung dank benutzerfreundlichem Bedienfeld und präziser Timer-Einstellung für immer perfekte Ergebnisse.</li>\n</ul>\n<p>Sichern Sie sich den vielseitigen <b>Medion Air Fryer</b> noch heute und revolutionieren Sie Ihre Küche! Ab <b>Prix non disponible€</b> und profitieren Sie vom <b>kostenlosen Versand</b>. Verpassen Sie nicht dieses Angebot!</p>\n</div>",
+  "shortDescription": "Medion Air Fryer: Knusprig frittieren ohne viel Öl! Gesund, schnell & vielseitig. Dein smarter Küchenhelfer für leckere Mahlzeiten.",
   "price": "Prix non disponible",
   "compareAtPrice": 100,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den MEDION-Store",
   "seo": {
-    "title": "Medion Air Fryer - Product Expert",
-    "description": "Découvrez Medion Air Fryer sur Amazon. Note 0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den medion-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Medion Air Fryer: Jetzt kaufen! Fettarm knusprig genießen!",
+    "description": "Medion Air Fryer: Knusprig frittieren ohne viel Öl! Gesund, schnell & vielseitig. Dein smarter Küchenhelfer für leckere Mahlzeiten.",
+    "keywords": "Medion Heißluftfritteuse, Medion Airfryer, Medion Fritteuse fettarm, Medion Heißluftfritteuse knusprig, Airfryer Medion kaufen, fettarme Heißluftfritteuse Medion, Medion Airfryer Angebot",
+    "ogTitle": "Medion Air Fryer: Jetzt kaufen! Fettarm knusprig genießen!",
+    "ogDescription": "Medion Air Fryer: Knusprig frittieren ohne viel Öl! Gesund, schnell & vielseitig. Dein smarter Küchenhelfer für leckere Mahlzeiten."
   },
   "reviews": {
     "averageRating": 0,
@@ -48,5 +45,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Fassungsvermögen": "Ideal für Familienportionen",
+    "Funktionen": "Vielseitig: Frittieren, Backen, Grillen",
+    "Bedienung": "Intuitive Steuerung",
+    "Reinigung": "Leichte Reinigung, spülmaschinengeeignete Teile",
+    "Garmethode": "Für fettarmes und gesundes Kochen",
+    "Sicherheitsmerkmale": "Mit Überhitzungsschutz",
+    "Design": "Modern und platzsparend"
+  },
+  "faq": [
+    {
+      "question": "Reicht der Medion Air Fryer für 2-3 Personen?",
+      "answer": "Absolut! Mit seinem Fassungsvermögen ist er ideal für Singles, Paare oder kleine Familien. Pommes, Snacks oder ein Hähnchenteil gelingen darin spielend leicht."
+    },
+    {
+      "question": "Werden Gerichte wirklich knusprig darin?",
+      "answer": "Ja, und wie! Dank der Heißluftzirkulation bekommen Ihre Speisen eine tolle goldbraune und knusprige Textur, ganz ohne viel Öl. Sie werden begeistert sein!"
+    },
+    {
+      "question": "Ist die Reinigung kompliziert?",
+      "answer": "Gar nicht! Korb und Pfanne sind antihaftbeschichtet und oft sogar spülmaschinengeeignet. Ein kurzes Abwischen genügt meist schon, das ist wirklich unkompliziert."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:04:55.467805",
+  "originalName": "Medion Air Fryer",
+  "enhanced": true
 }

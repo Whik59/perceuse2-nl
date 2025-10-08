@@ -1,9 +1,9 @@
 {
   "productId": "B0DJ1JMSHT",
-  "name": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie)",
-  "slug": "jamie-oliver-geniale-rezepte-für-den-airfryer-seri",
-  "description": "",
-  "shortDescription": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie)",
+  "name": "Jamie Oliver Airfryer Kochbuch: Geniale Rezepte kaufen!",
+  "slug": "jamie-oliver-airfryer-kochbuch-geniale-rezepte-kau",
+  "description": "<div>\n<h2>Jamie Oliver: Geniale Rezepte für den Airfryer (Serie)</h2>\n<p>Entdecken Sie die exklusive <b>Jamie Oliver: Geniale Rezepte für den Airfryer (Serie)</b> und revolutionieren Sie Ihre Küche! Diese Serie bietet Ihnen die ultimative Inspiration, um das volle Potenzial Ihrer Heißluftfritteuse auszuschöpfen und beeindruckende Gerichte zu zaubern.</p>\n<h3>Key Features</h3>\n<ul>\n<li><b>Vielfältige Genussmomente</b>: Eine breite Palette an Gerichten, von knusprigen Snacks bis zu vollwertigen Hauptmahlzeiten, speziell für den Airfryer entwickelt.</li>\n<li><b>Jamie Olivers Kochkunst</b>: Einfache, verständliche Anleitungen und innovative Ideen direkt vom Meisterkoch, perfekt abgestimmt auf die Heißluftfritteusen-Zubereitung.</li>\n<li><b>Gesunde und schnelle Gerichte</b>: Profitieren Sie von fettärmeren Alternativen und schnellen Zubereitungszeiten, ohne Kompromisse beim Geschmack.</li>\n<li><b>Kreative Airfryer-Nutzung</b>: Entdecken Sie neue Wege, Ihren Airfryer zu nutzen, jenseits der Klassiker und überraschen Sie Ihre Familie und Freunde mit neuen Kreationen.</li>\n</ul>\n<p>Starten Sie jetzt Ihr kulinarisches Abenteuer! Verfügbar ab nur <b>0.0€</b>. Bestellen Sie noch heute und profitieren Sie von <b>kostenlosem Versand</b>! Verpassen Sie nicht die Chance, Ihre Kochkünste zu perfektionieren.</p>\n</div>",
+  "shortDescription": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie) ✅ Hochwertige Inhalte. Einfach & schnell zubereitet.",
   "price": "0.0",
   "compareAtPrice": 0,
   "images": [
@@ -25,14 +25,11 @@
   "amazonReviewCount": 0,
   "brand": "Jamie",
   "seo": {
-    "title": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie) - Product Expert",
-    "description": "Découvrez Jamie Oliver: Geniale Rezepte für den Airfryer (Serie) sur Amazon. Note 0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "jamie",
-      "amazon",
-      "avis"
-    ]
+    "title": "Jamie Oliver Airfryer Kochbuch: Geniale Rezepte kaufen!",
+    "description": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie) ✅ Hochwertige Inhalte. Einfach & schnell zubereitet.",
+    "keywords": "Jamie Oliver Airfryer Kochbuch, Airfryer Rezepte Jamie Oliver, geniale Airfryer Rezepte, Jamie Oliver Kochbuch Airfryer, Airfryer Gerichte Jamie Oliver, Rezeptbuch Jamie Oliver Airfryer",
+    "ogTitle": "Jamie Oliver Airfryer Kochbuch: Geniale Rezepte kaufen!",
+    "ogDescription": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie) ✅ Hochwertige Inhalte. Einfach & schnell zubereitet."
   },
   "reviews": {
     "averageRating": 0,
@@ -44,5 +41,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produktart": "Kochbuch-Serie",
+    "Fokus": "Airfryer-Rezepte",
+    "Sprache": "Deutsch",
+    "Autor": "Jamie Oliver",
+    "Konzept": "Einfach & schnell nachzukochen",
+    "Zielgruppe": "Für Airfryer-Besitzer"
+  },
+  "faq": [
+    {
+      "question": "Sind die Rezepte einfach nachzukochen?",
+      "answer": "Ja, super einfach! Jamie hat alles extra für den Airfryer konzipiert, damit dir jedes Gericht mühelos gelingt – auch ohne viel Kocherfahrung."
+    },
+    {
+      "question": "Was gibt's da alles zu essen?",
+      "answer": "Von schnellen Snacks bis zu vollwertigen Mahlzeiten, süß und herzhaft – du findest eine tolle Auswahl für jeden Anlass, perfekt für den Airfryer."
+    },
+    {
+      "question": "Brauche ich dafür spezielle Zutaten?",
+      "answer": "Nein, gar nicht! Jamie setzt auf normale Supermarkt-Zutaten, die du überall bekommst. Kein Schnickschnack!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:36:28.484397",
+  "originalName": "Jamie Oliver: Geniale Rezepte für den Airfryer (Serie)",
+  "enhanced": true
 }

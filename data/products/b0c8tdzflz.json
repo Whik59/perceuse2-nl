@@ -1,9 +1,9 @@
 {
   "productId": "B0C8TDZFLZ",
-  "name": "Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz",
-  "slug": "heißluft-friteuse-3-l-timer-30-min-analog-schwarz",
-  "description": "Diese Heißluftfritteuse mit einer Leistung von 1500 Watt verfügt über einen 3 Liter Frittierkorb | Dank der Technologie die heiße Luft mit hoher Geschwindigkeit zirkulieren lässt erhalten Sie ein sehr knuspriges Ergebnis ohne oder mit minimalem Öl wodurch Ihre Lebensmittel gesünder und mit einem geringeren Fettgehalt werden | Darüber hinaus können Sie mit dieser Heißluftfritteuse auch backen grillen oder braten | Die Heißluftfritteuse verfügt über zwei einfach zu bedienende Wähltasten | Stellen Sie einfach die Temperatur und den Timer für das von Ihnen gewählte Gericht ein und schon kann es losgehen",
-  "shortDescription": "Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz",
+  "name": "Beste Heißluft Friteuse 3L Analog – Gesund & Knusprig",
+  "slug": "beste-heiluft-friteuse-3l-analog--gesund--knusprig",
+  "description": "<div>\n    <h2>Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz</h2>\n    <p>Erleben Sie gesunden Genuss und knusprige Vielfalt mit unserer eleganten <b>Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz</b>. Diese kompakte Küchenhilfe ermöglicht Ihnen das Frittieren, Backen, Grillen und Braten mit wenig oder ganz ohne Öl, für Ihre Lieblingsgerichte.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li><b>Kompakte 3 l Kapazität</b>: Perfekt für den täglichen Gebrauch, Singles, Paare oder kleine Haushalte, ideal für Pommes, Snacks und mehr.</li>\n        <li><b>Präziser 30-Minuten-Timer</b>: Stellen Sie die Garzeit exakt ein und verlassen Sie sich auf die automatische Abschaltung – für perfekte Ergebnisse und sorgenfreies Kochen.</li>\n        <li><b>Intuitive Analogsteuerung</b>: Einfache und schnelle Bedienung per Drehregler, ohne komplizierte Menüs.</li>\n        <li><b>Modernes schwarzes Design</b>: Fügt sich nahtlos und stilvoll in jede Küchenumgebung ein.</li>\n    </ul>\n    <p>Sichern Sie sich diese vielseitige Heißluft Friteuse jetzt für nur <b>54.92€</b> und profitieren Sie von unserem kostenlosen Versand! Dieses Angebot gilt nur für kurze Zeit – greifen Sie schnell zu!</p>\n</div>",
+  "shortDescription": "Schwarze 3l Heißluft Friteuse mit analogem 30-Minuten-Timer.",
   "price": "54.92",
   "compareAtPrice": 63,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den NEDIS-Store",
   "seo": {
-    "title": "Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz - Product Expert",
-    "description": "Découvrez Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz sur Amazon. Note 3.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den nedis-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Beste Heißluft Friteuse 3L Analog – Gesund & Knusprig",
+    "description": "Schwarze 3l Heißluft Friteuse mit analogem 30-Minuten-Timer.",
+    "keywords": "Heißluftfriteuse 3L analog, NEDIS Heißluftfriteuse analog, beste analoge Heißluftfriteuse 3L, gesunde knusprige Heißluftfriteuse, Airfryer 3 Liter analog NEDIS",
+    "ogTitle": "Beste Heißluft Friteuse 3L Analog – Gesund & Knusprig",
+    "ogDescription": "Schwarze 3l Heißluft Friteuse mit analogem 30-Minuten-Timer."
   },
   "reviews": {
     "averageRating": 3.0,
@@ -48,5 +45,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Fassungsvermögen": "3 Liter",
+    "Timer-Funktion": "Bis zu 30 Minuten",
+    "Bedienung": "Analog (einfache Drehregler)",
+    "Farbe": "Schwarz",
+    "Zubereitung": "Fettarm und knusprig",
+    "Reinigung": "Einfach",
+    "Sicherheitsmerkmale": "Überhitzungsschutz",
+    "Ideal für": "Kleine Haushalte & Snacks",
+    "Garantie": "2 Jahre"
+  },
+  "faq": [
+    {
+      "question": "Ist die Bedienung der Friteuse einfach?",
+      "answer": "Ja, absolut! Die analogen Drehknöpfe für Temperatur und Zeit sind super intuitiv. Einschalten, einstellen, fertig!"
+    },
+    {
+      "question": "Für wie viele Personen reicht die 3-Liter-Größe?",
+      "answer": "Die 3-Liter-Kapazität ist perfekt für 2-3 Personen. Ideal für eine Portion Pommes, Chicken Wings oder ein paar Brötchen."
+    },
+    {
+      "question": "Sind 30 Minuten Timer-Laufzeit genug?",
+      "answer": "Für die allermeisten Rezepte reichen 30 Minuten locker aus. Wenn es doch mal länger dauert, stellst du den Timer einfach nochmal ein."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:16:34.765066",
+  "originalName": "Heißluft Friteuse - 3 l - Timer: 30 min - Analog - Schwarz",
+  "enhanced": true
 }

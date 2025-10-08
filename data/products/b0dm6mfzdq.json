@@ -1,9 +1,9 @@
 {
   "productId": "B0DM6MFZDQ",
-  "name": "Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötchen | Brownies, Cookies, Muffins und mehr (Kochen mit dem Airfryer 5)",
-  "slug": "das-airfryer-backbuch-60-easy-rezepte-aus-der-heiß",
-  "description": "",
-  "shortDescription": "Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötche",
+  "name": "Entdecke: Airfryer Backbuch – 60 einfache Back-Rezepte",
+  "slug": "entdecke-airfryer-backbuch--60-einfache-back-rezep",
+  "description": "<div>\n<h2>Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötchen | Brownies, Cookies, Muffins und mehr (Kochen mit dem Airfryer 5)</h2>\n<p>Entdecken Sie mit <b>\"Das Airfryer-Backbuch\"</b> eine ganz neue Welt des Backens in Ihrer Heißluftfritteuse! Dieses einzigartige Backbuch zeigt Ihnen, wie einfach und lecker Kuchen, Torten, Gebäck und sogar frische Brötchen im Airfryer gelingen. Schluss mit komplizierten Rezepten – dieses Kochbuch ist perfekt für alle Airfryer-Besitzer, die ihre Lieblingssnacks und -desserts noch schneller und energieeffizienter zubereiten möchten. Ideal für süße und herzhafte Backwaren aus der Heißluftfritteuse.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>60 einfache Rezepte</b>: Von luftigen Kuchen über saftige Brownies und knusprige Cookies bis hin zu fluffigen Muffins – speziell für die Heißluftfritteuse optimiert.</li>\n<li><b>Vielseitige Backideen</b>: Entdecken Sie kreative Anleitungen für Kuchen, Torten, Gebäck, Brötchen, Brownies, Cookies, Muffins und mehr – allesamt aus dem Airfryer!</li>\n<li><b>Energieeffizient Backen</b>: Sparen Sie Zeit und Energie, ohne auf den Genuss frisch gebackener Köstlichkeiten zu verzichten.</li>\n</ul>\n<p>Sichern Sie sich dieses unverzichtbare Backbuch für nur <b>15.99€</b> und profitieren Sie noch heute von <b>kostenlosem Versand</b>! Starten Sie jetzt Ihr Airfryer-Backabenteuer!</p>\n</div>",
+  "shortDescription": "Das Airfryer-Backbuch: 60 easy Rezepte für Kuchen, Torten, Gebäck, Brötchen, Brownies, Cookies & Muffins aus der Heißluftfritteuse! 🔥",
   "price": "15.99",
   "compareAtPrice": 18,
   "images": [
@@ -28,14 +28,11 @@
   "amazonReviewCount": 0,
   "brand": "Das",
   "seo": {
-    "title": "Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötchen | Brownies, Cookies, Muffins und mehr (Kochen mit dem Airfryer 5) - Product Expert",
-    "description": "Découvrez Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötchen | Brownies, Cookies, Muffins und mehr (Kochen mit dem Airfryer 5) sur Amazon. Note 4.5/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "das",
-      "amazon",
-      "avis"
-    ]
+    "title": "Entdecke: Airfryer Backbuch – 60 einfache Back-Rezepte",
+    "description": "Das Airfryer-Backbuch: 60 easy Rezepte für Kuchen, Torten, Gebäck, Brötchen, Brownies, Cookies & Muffins aus der Heißluftfritteuse! 🔥",
+    "keywords": "Airfryer Backbuch, einfache Airfryer Backrezepte, Airfryer Rezepte backen, Airfryer Gebäck Rezepte, Airfryer E-Book Backen, Das Airfryer Backbuch, 60 Airfryer Back-Rezepte",
+    "ogTitle": "Entdecke: Airfryer Backbuch – 60 einfache Back-Rezepte",
+    "ogDescription": "Das Airfryer-Backbuch: 60 easy Rezepte für Kuchen, Torten, Gebäck, Brötchen, Brownies, Cookies & Muffins aus der Heißluftfritteuse! 🔥"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -47,5 +44,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Rezeptanzahl": "60 Rezepte",
+    "Fokus": "Backen in der Heißluftfritteuse",
+    "Inhalt": "Kuchen, Torten, Gebäck, Brötchen, Brownies, Cookies, Muffins",
+    "Schwierigkeitsgrad": "Einfach (easy Rezepte)",
+    "Sprache": "Deutsch",
+    "Produktart": "Backbuch"
+  },
+  "faq": [
+    {
+      "question": "Ist das Buch auch für Back-Neulinge geeignet?",
+      "answer": "Ja, auf jeden Fall! Es ist speziell so konzipiert, dass wirklich jeder schnell leckere Ergebnisse erzielt, selbst wenn man noch nie zuvor im Airfryer gebacken hat."
+    },
+    {
+      "question": "Was für Gebäck finde ich denn da drin?",
+      "answer": "Die Auswahl ist riesig! Von süßen Sünden wie Brownies, Cookies und Muffins bis zu richtigen Kuchen und Torten. Sogar frische Brötchen für den Frühstückstisch sind dabei!"
+    },
+    {
+      "question": "Brauche ich für die Rezepte spezielle Zutaten?",
+      "answer": "Nein, überhaupt nicht! Alle Zutaten findest du problemlos in jedem gut sortierten Supermarkt. Der Fokus liegt ja auf unkomplizierten und alltagstauglichen Rezepten."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:39:25.331085",
+  "originalName": "Das Airfryer-Backbuch: 60 easy Rezepte aus der Heißluftfritteuse: Kuchen, Torten, Gebäck und Brötchen | Brownies, Cookies, Muffins und mehr (Kochen mit dem Airfryer 5)",
+  "enhanced": true
 }

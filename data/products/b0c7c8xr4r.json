@@ -1,9 +1,9 @@
 {
   "productId": "B0C7C8XR4R",
-  "name": "Philips Serie 5000 HD9285/93 XXL Conectada Freidora de Aire 7.2 Litros 2000W",
-  "slug": "philips-serie-5000-hd928593-xxl-conectada-freidora",
-  "description": "Hochwertige Material | Hochwertige Abmessungen | Flexible Gestaltung",
-  "shortDescription": "Philips Serie 5000 HD9285/93 XXL Conectada Freidora de Aire 7.2 Litros 2000W",
+  "name": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse 7.2L Smart Kaufen!",
+  "slug": "philips-serie-5000-hd928593-xxl-heiluftfritteuse-7",
+  "description": "<div>\n    <h2>Philips Serie 5000 HD9285/93 Smarte XXL Heißluftfritteuse 7.2 Liter 2000W</h2>\n    <p>Entdecken Sie die <b>Philips Serie 5000 HD9285/93 Smarte XXL Heißluftfritteuse</b>. Mit beeindruckenden <b>7.2 Litern Kapazität</b> und leistungsstarken <b>2000W</b> ermöglicht dieses Gerät gesundes, knuspriges Frittieren für die ganze Familie mit bis zu 90% weniger Fett. Erleben Sie die Zukunft des Kochens direkt in Ihrer Küche.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li><b>XXL-Kapazität (7.2 Liter)</b>: Ideal für große Familienportionen oder die Zubereitung mehrerer Gerichte gleichzeitig.</li>\n        <li><b>Smarte Konnektivität</b>: Steuern Sie Ihre Heißluftfritteuse bequem über die NutriU App, erhalten Sie personalisierte Rezeptvorschläge und überwachen Sie den Garvorgang von überall.</li>\n        <li><b>Leistungsstarke 2000W</b>: Garantiert schnelles Aufheizen und effizientes, gleichmäßiges Garen Ihrer Lieblingsspeisen für perfekte Ergebnisse.</li>\n        <li><b>Gesundes Frittieren</b>: Genießen Sie knusprige Ergebnisse mit wenig bis gar keinem Öl dank der innovativen Rapid Air Technologie.</li>\n    </ul>\n    <p>Sichern Sie sich dieses Must-have für Ihre Küche! Jetzt erhältlich für nur <b>109.99€</b> – und das Beste: Der <b>kostenlose Versand</b> ist bereits inklusive. Greifen Sie jetzt zu und erleben Sie den Unterschied!</p>\n</div>",
+  "shortDescription": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse. Vernetzt, 7.2L Volumen, 2000W Leistung.",
   "price": "109.99",
   "compareAtPrice": 126,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den PHILIPS-Store",
   "seo": {
-    "title": "Philips Serie 5000 HD9285/93 XXL Conectada Freidora de Aire 7.2 Litros 2000W - Product Expert",
-    "description": "Découvrez Philips Serie 5000 HD9285/93 XXL Conectada Freidora de Aire 7.2 Litros 2000W sur Amazon. Note 4.4/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den philips-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse 7.2L Smart Kaufen!",
+    "description": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse. Vernetzt, 7.2L Volumen, 2000W Leistung.",
+    "keywords": "Philips Serie 5000 HD9285/93, XXL Heißluftfritteuse 7.2L, Smart Airfryer Philips, HD9285/93 kaufen, Philips Heißluftfritteuse 7.2 Liter, Serie 5000 Smart Fritteuse",
+    "ogTitle": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse 7.2L Smart Kaufen!",
+    "ogDescription": "Philips Serie 5000 HD9285/93 XXL Heißluftfritteuse. Vernetzt, 7.2L Volumen, 2000W Leistung."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -46,5 +43,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Kapazität": "7,2 Liter",
+    "Leistung": "2000 Watt",
+    "Konnektivität": "App-Steuerung",
+    "Größe": "XXL für Familien",
+    "Reinigung": "Spülmaschinenfest",
+    "Technologie": "Rapid Air"
+  },
+  "faq": [
+    {
+      "question": "Reicht das Volumen für eine Familie?",
+      "answer": "Absolut! Mit 7,2 Litern Fassungsvermögen können Sie problemlos eine ganze Mahlzeit für 4-6 Personen zubereiten. Da passt wirklich viel rein!"
+    },
+    {
+      "question": "Wie funktioniert die Verbindung mit dem Handy?",
+      "answer": "Ganz einfach über die NutriU App! Dort können Sie die Heißluftfritteuse bequem steuern, Rezepte entdecken und sogar den Garfortschritt verfolgen. Das macht das Kochen noch entspannter."
+    },
+    {
+      "question": "Ist die Reinigung kompliziert?",
+      "answer": "Überhaupt nicht! Der Korb und die Schublade sind antihaftbeschichtet und dürfen sogar in die Spülmaschine. So bleibt mehr Zeit für die schönen Dinge."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:16:14.418668",
+  "originalName": "Philips Serie 5000 HD9285/93 XXL Conectada Freidora de Aire 7.2 Litros 2000W",
+  "enhanced": true
 }

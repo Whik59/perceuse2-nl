@@ -1,9 +1,9 @@
 {
   "productId": "B0DPSGY2CZ",
-  "name": "Emeril Lagasse Power AirFryer 360 Cookbook: Delicious and Easy Recipes for Healthier Cooking with the Power of Air Frying",
-  "slug": "emeril-lagasse-power-airfryer-360-cookbook-delicio",
-  "description": "",
-  "shortDescription": "Emeril Lagasse Power AirFryer 360 Cookbook: Delicious and Easy Recipes for Healthier Cooking with th",
+  "name": "KAUFE: Emeril Power AirFryer 360 Kochbuch – Gesunde AirFry Rezepte",
+  "slug": "kaufe-emeril-power-airfryer-360-kochbuch--gesunde-",
+  "description": "<div>\n    <h2>Emeril Lagasse Power AirFryer 360 Kochbuch: Köstliche und einfache Rezepte für gesünderes Kochen mit der Kraft des Heißluftfrittierens</h2>\n    <p>Entdecken Sie das unverzichtbare <b>Emeril Lagasse Power AirFryer 360 Kochbuch</b> und revolutionieren Sie Ihre Küche! Dieses Buch bietet Ihnen eine Fülle von <b>köstlichen und einfachen Rezepten</b>, um gesünder zu kochen, ohne auf Geschmack verzichten zu müssen. Holen Sie das Maximum aus Ihrem AirFryer 360 heraus und genießen Sie fettarme, knusprige Gerichte.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li><b>Perfekte Kompatibilität</b>: Speziell entwickelt für den Emeril Lagasse Power AirFryer 360, um optimale Ergebnisse und maximale Nutzung Ihres Geräts zu garantieren.</li>\n        <li><b>Vielfältige Genüsse</b>: Eine breite Auswahl an einfachen und schmackhaften Rezepten, von herzhaften Hauptgerichten bis zu schnellen Snacks, ideal für jeden Anlass und jede Geschmacksrichtung.</li>\n        <li><b>Gesundes Kochen leicht gemacht</b>: Genießen Sie frittierte Speisen mit deutlich weniger Öl und Fett dank der innovativen Heißluftfrittier-Technologie, ohne Kompromisse beim Geschmack.</li>\n    </ul>\n    <p>Sichern Sie sich dieses einzigartige Kochbuch jetzt für nur <b>16.16€</b>! Profitieren Sie von unserem Angebot und erhalten Sie den <b>kostenlosen Versand</b>. Greifen Sie schnell zu und beginnen Sie noch heute mit gesünderem Genuss!</p>\n</div>",
+  "shortDescription": "Emeril Lagasse Power AirFryer 360 Kochbuch: Entdecke leckere, einfache Rezepte für gesünderes Kochen mit der Power des Heißluftfrittierens.",
   "price": "16.16",
   "compareAtPrice": 18,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Emeril",
   "seo": {
-    "title": "Emeril Lagasse Power AirFryer 360 Cookbook: Delicious and Easy Recipes for Healthier Cooking with the Power of Air Frying - Product Expert",
-    "description": "Découvrez Emeril Lagasse Power AirFryer 360 Cookbook: Delicious and Easy Recipes for Healthier Cooking with the Power of Air Frying sur Amazon. Note 4.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "emeril",
-      "amazon",
-      "avis"
-    ]
+    "title": "KAUFE: Emeril Power AirFryer 360 Kochbuch – Gesunde AirFry Rezepte",
+    "description": "Emeril Lagasse Power AirFryer 360 Kochbuch: Entdecke leckere, einfache Rezepte für gesünderes Kochen mit der Power des Heißluftfrittierens.",
+    "keywords": "Emeril Power AirFryer 360 Kochbuch, Emeril AirFryer 360 Rezepte glutenfrei, Gesunde AirFry Rezepte Emeril, Kochbuch Emeril Power AirFryer 360, glutenfreie AirFryer Rezepte Emeril, Emeril Power AirFryer Kochbuch glutenfrei",
+    "ogTitle": "KAUFE: Emeril Power AirFryer 360 Kochbuch – Gesunde AirFry Rezepte",
+    "ogDescription": "Emeril Lagasse Power AirFryer 360 Kochbuch: Entdecke leckere, einfache Rezepte für gesünderes Kochen mit der Power des Heißluftfrittierens."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -46,5 +43,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produkttyp": "Kochbuch",
+    "Fokus": "Gesunde AirFryer-Rezepte",
+    "Zielgerät": "Emeril Lagasse Power AirFryer 360",
+    "Rezept-Charakteristik": "Einfach & lecker",
+    "Sprache": "Englisch",
+    "Autor": "Emeril Lagasse"
+  },
+  "faq": [
+    {
+      "question": "Ist das Kochbuch nur für den Emeril Lagasse AirFryer 360 gedacht?",
+      "answer": "Nein, gar nicht! Obwohl es speziell für den Emeril 360 entwickelt wurde, kannst du die meisten Rezepte problemlos mit jedem Heißluftfrittierer zubereiten. Vielleicht musst du nur die Garzeiten etwas anpassen."
+    },
+    {
+      "question": "Sind die Rezepte wirklich so einfach und lecker, wie es versprochen wird?",
+      "answer": "Ja, absolut! Emeril hat tolle, unkomplizierte Gerichte kreiert, die richtig gut schmecken und schnell zubereitet sind. Da ist für jeden Geschmack etwas dabei."
+    },
+    {
+      "question": "Hilft mir das Kochbuch, gesünder zu kochen?",
+      "answer": "Auf jeden Fall! Du lernst, wie du mit dem Heißluftfrittierer viel weniger Öl verwendest, aber trotzdem knusprige und geschmackvolle Mahlzeiten genießt. Ideal für eine bewusstere Ernährung."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:45:38.526335",
+  "originalName": "Emeril Lagasse Power AirFryer 360 Cookbook: Delicious and Easy Recipes for Healthier Cooking with the Power of Air Frying",
+  "enhanced": true
 }

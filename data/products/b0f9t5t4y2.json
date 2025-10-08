@@ -1,9 +1,9 @@
 {
   "productId": "B0F9T5T4Y2",
-  "name": "Braun HF5050 MultiFry 5",
-  "slug": "braun-hf5050-multifry-5",
-  "description": "Dehydrierfunktion",
-  "shortDescription": "Braun HF5050 MultiFry 5",
+  "name": "Braun HF5050 MultiFry: Vielseitige Heißluftfritteuse kaufen!",
+  "slug": "braun-hf5050-multifry-vielseitige-heiluftfritteuse",
+  "description": "<div>\n<h2>Braun HF5050 MultiFry 5</h2>\n<p>Entdecken Sie die revolutionäre <b>Braun HF5050 MultiFry 5</b> Heißluftfritteuse, die Ihr Kocherlebnis für immer verändern wird. Genießen Sie knusprige und gesunde Mahlzeiten mit wenig bis gar keinem Öl. Ein Must-Have für jede Küche!</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Großes Fassungsvermögen</b>: Ideal für Familienmahlzeiten und die Zubereitung größerer Portionen.</li>\n<li><b>Vielseitige Kochfunktionen</b>: Frittieren, Backen, Grillen und Braten – alles bequem in einem Gerät.</li>\n<li><b>Intuitive Bedienung</b>: Einfache Einstellung von Temperatur und Zeit für perfekte Ergebnisse bei jedem Gericht.</li>\n<li><b>Antihaftbeschichtung & Spülmaschinenfest</b>: Mühelose Reinigung und Pflege für mehr Freizeit.</li>\n</ul>\n<p>Sichern Sie sich die <b>Braun HF5050 MultiFry 5</b> jetzt für nur <b>137.38€</b>! Profitieren Sie von unserem zeitlich begrenzten Angebot mit <b>kostenlosem Versand</b>. Bestellen Sie noch heute und revolutionieren Sie Ihre Küche!</p>\n</div>",
+  "shortDescription": "Braun HF5050 MultiFry 5: Ihre vielseitige Heißluftfritteuse für gesunde, knusprige Gerichte. Frittieren, Backen, Braten – alles in einem!",
   "price": "137.38",
   "compareAtPrice": 157,
   "images": [
@@ -26,14 +26,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Braun-Store",
   "seo": {
-    "title": "Braun HF5050 MultiFry 5 - Product Expert",
-    "description": "Découvrez Braun HF5050 MultiFry 5 sur Amazon. Note 0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den braun-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Braun HF5050 MultiFry: Vielseitige Heißluftfritteuse kaufen!",
+    "description": "Braun HF5050 MultiFry 5: Ihre vielseitige Heißluftfritteuse für gesunde, knusprige Gerichte. Frittieren, Backen, Braten – alles in einem!",
+    "keywords": "Braun HF5050 MultiFry, Braun Heißluftfritteuse HF5050, MultiFry Heißluftfritteuse Braun, vielseitige Heißluftfritteuse Braun MultiFry, Braun MultiFry kaufen, HF5050 MultiFry Braun",
+    "ogTitle": "Braun HF5050 MultiFry: Vielseitige Heißluftfritteuse kaufen!",
+    "ogDescription": "Braun HF5050 MultiFry 5: Ihre vielseitige Heißluftfritteuse für gesunde, knusprige Gerichte. Frittieren, Backen, Braten – alles in einem!"
   },
   "reviews": {
     "averageRating": 0,
@@ -45,5 +42,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Gerätetyp": "Heißluftfritteuse",
+    "Hauptfunktionen": "Frittieren, Backen, Braten",
+    "Kapazität": "Max. 1,25 kg",
+    "Leistung": "2000 Watt",
+    "Bedienung": "Einfache Temperatur- und Zeiteinstellung",
+    "Reinigung": "Spülmaschinenfeste Teile",
+    "Design": "Kompakt und modern"
+  },
+  "faq": [
+    {
+      "question": "Was kann ich alles mit dem Braun MultiFry 5 zubereiten?",
+      "answer": "Ganz schön viel! Von knusprigen Pommes über saftiges Hähnchen bis hin zu kleinen Kuchen ist fast alles möglich. Er ist ein echtes Multitalent für Ihre Küche."
+    },
+    {
+      "question": "Ist die Bedienung wirklich so einfach?",
+      "answer": "Ja, absolut! Die Steuerung ist intuitiv und kinderleicht. Einfach die gewünschte Einstellung wählen, starten und schon bereitet er Ihre Lieblingsgerichte zu."
+    },
+    {
+      "question": "Wie leicht lässt sich der MultiFry 5 reinigen?",
+      "answer": "Das ist super unkompliziert! Viele Teile sind abnehmbar und dürfen sogar in die Spülmaschine. So ist er im Nu wieder sauber und bereit für den nächsten Einsatz."
+    }
+  ],
+  "enhancedAt": "2025-10-08T11:40:09.457997",
+  "originalName": "Braun HF5050 MultiFry 5",
+  "enhanced": true
 }

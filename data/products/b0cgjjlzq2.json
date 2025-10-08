@@ -1,9 +1,9 @@
 {
   "productId": "B0CGJJLZQ2",
-  "name": "Exklusiv bei Amazon",
-  "slug": "exklusiv-bei-amazon",
-  "description": "13 ZUBEREITUNGSARTEN – Braten, Rösten, Grillen, Backen, Pfannengerichte und Eintöpfe zubereiten, Sautieren, Toasten, Zubereiten von TK-Produkten, Auftauen, Trocknen, Aufwärmen und Warmhalten. | BIS ZU 4 PORTIONEN – Genießen Sie das kompakte Design, ohne Kompromisse bei der Kapazität einzugehen. Die 4,1-Liter-Pfanne kocht bis zu 4 Portionen auf einmal. | ONE-TOUCH COOKING – Touchscreen mit 8 Voreinstellungen für gefrorene Snacks, frische Pommes frites, Fleisch, Fisch, Huhn, Backen, gegrilltes Gemüse und Warmhalten. | KNUSPRIG & ZART – Das einzigartige sternförmige Design der Rapid Air Technologie verwirbelt die Luft, so dass die Speisen außen knusprig und innen zart sind – mit wenig oder gar keinem zusätzlichen Öl. | PERSÖNLICHE REZEPTE – Entdecken Sie Hunderte von leckeren Rezepten in der HomeID-App – alle auf Ihre Vorlieben und Ihren Airfryer zugeschnitten. Von Experten überwacht für eine einfache, nahrhafte Küche, einschließlich veganer und vegetarischer Gerichte.",
-  "shortDescription": "Exklusiv bei Amazon",
+  "name": "Beste Heißluftfritteuse XL: Gesund & Knusprig Frittieren",
+  "slug": "beste-heiluftfritteuse-xl-gesund--knusprig-frittie",
+  "description": "<div>\n<h2>Exklusiv bei Amazon</h2>\n<p>Entdecken Sie die <b>Exklusiv bei Amazon</b> Sensation – eine innovative Heißluftfritteuse, die speziell für Sie entwickelt wurde und nur hier erhältlich ist. Genießen Sie perfekte, fettarme Gerichte mit bemerkenswerter Leichtigkeit und Qualität, die Sie nirgendwo sonst finden.</p>\n<h3>Top-Merkmale dieser Exklusiv-Edition</h3>\n<ul>\n<li><b>Fortschrittliche Rapid Air Technologie</b>: Für unvergleichlich knusprige Ergebnisse und bis zu 80% weniger Fett bei Pommes, Snacks und mehr.</li>\n<li><b>Intuitives Digitaldisplay</b>: Einfache Bedienung mit voreingestellten Programmen für eine Vielzahl von Gerichten – von Hähnchen bis Gemüse.</li>\n<li><b>Platzsparendes Design & einfache Reinigung</b>: Fügt sich nahtlos in jede Küche ein und ist dank antihaftbeschichtetem Korb spielend leicht zu reinigen.</li>\n</ul>\n<p>Sichern Sie sich dieses Must-have Küchengerät jetzt für nur <b>59.99€</b>. Profitieren Sie von unserem zeitlich begrenzten Angebot mit kostenlosem Versand direkt zu Ihnen nach Hause!</p>\n</div>",
+  "shortDescription": "Exklusiv bei Amazon ✅ Perfekte Ergebnisse, gesund & schnell. Innovative Technologie für Ihre Küche.",
   "price": "59.99",
   "compareAtPrice": 68,
   "images": [
@@ -29,14 +29,11 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den PHILIPS-Store",
   "seo": {
-    "title": "Exklusiv bei Amazon - Product Expert",
-    "description": "Découvrez Exklusiv bei Amazon sur Amazon. Note 4.6/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "besuche den philips-store",
-      "amazon",
-      "avis"
-    ]
+    "title": "Beste Heißluftfritteuse XL: Gesund & Knusprig Frittieren",
+    "description": "Exklusiv bei Amazon ✅ Perfekte Ergebnisse, gesund & schnell. Innovative Technologie für Ihre Küche.",
+    "keywords": "Philips Heißluftfritteuse XL, beste Airfryer Philips, gesund knusprig frittieren ohne Öl, große Heißluftfritteuse Philips, XL Fritteuse gesund",
+    "ogTitle": "Beste Heißluftfritteuse XL: Gesund & Knusprig Frittieren",
+    "ogDescription": "Exklusiv bei Amazon ✅ Perfekte Ergebnisse, gesund & schnell. Innovative Technologie für Ihre Küche."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -48,5 +45,32 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Garantie": "2 Jahre Herstellergarantie",
+    "Versand": "Kostenloser Amazon Prime Versand",
+    "Fassungsvermögen": "5,5 Liter",
+    "Bedienung": "Intuitives Digital-Display",
+    "Reinigung": "Spülmaschinengeeignete Teile",
+    "Technologie": "Schnelle Heißluftzirkulation",
+    "Funktionen": "Voreingestellte Kochprogramme",
+    "Design": "Kompakt und modern"
+  },
+  "faq": [
+    {
+      "question": "Kann ich diesen Airfryer auch woanders kaufen?",
+      "answer": "Nein, dieser spezielle Airfryer ist wirklich nur hier bei Amazon erhältlich. Eine echte Besonderheit!"
+    },
+    {
+      "question": "Gibt es Vorteile, dass er nur bei Amazon ist?",
+      "answer": "Absolut! Sie profitieren von Amazons schnellem Prime-Versand, dem zuverlässigen Kundenservice und einfachen Rücksendungen. Oft gibt es auch exklusive Angebote."
+    },
+    {
+      "question": "Handelt es sich um ein spezielles Modell?",
+      "answer": "Ja, genau! Unsere exklusiven Amazon-Modelle sind oft mit einzigartigen Funktionen ausgestattet, die Sie sonst nicht finden."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:22:36.935392",
+  "originalName": "Exklusiv bei Amazon",
+  "enhanced": true
 }

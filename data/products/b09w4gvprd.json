@@ -1,9 +1,9 @@
 {
   "productId": "B09W4GVPRD",
-  "name": "Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen Rezepten für unwiderstehlichen Geschmack. Gesundes Kochen ohne Öl und Fett",
-  "slug": "mehr-als-heiße-luft-das-große-heißluftfritteuse-ko",
-  "description": "",
-  "shortDescription": "Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen R",
+  "name": "Beste Heißluftfritteuse Rezepte: 165 gesunde Gerichte ohne Öl",
+  "slug": "beste-heiluftfritteuse-rezepte-165-gesunde-gericht",
+  "description": "<div>\n    <h2>Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen Rezepten für unwiderstehlichen Geschmack. Gesundes Kochen ohne Öl und Fett</h2>\n    <p>Entdecken Sie jetzt das ultimative Kocherlebnis mit dem Bestseller <b>\"Mehr als heiße Luft\"</b>! Dieses umfassende Heißluftfritteuse-Kochbuch revolutioniert Ihre Küche und bringt gesunden, köstlichen Genuss auf Ihren Tisch – ganz ohne unnötiges Öl und Fett. Perfektionieren Sie Ihre Gerichte und überraschen Sie Familie und Freunde mit unwiderstehlichem Geschmack, schnell und einfach zubereitet.</p>\n    <h3>Ihre Vorteile auf einen Blick:</h3>\n    <ul>\n        <li><b>165 Vielfältige Rezepte</b>: Von herzhaften Hauptgerichten bis zu süßen Versuchungen – immer abwechslungsreich und begeisternd.</li>\n        <li><b>Gesund und Leicht</b>: Kochen Sie fettarm und schonend, ohne auf vollen Geschmack zu verzichten.</li>\n        <li><b>Unwiderstehlicher Geschmack</b>: Garantiert gelingsichere Anleitungen für kulinarische Highlights.</li>\n        <li><b>Perfekt für Ihre Heißluftfritteuse</b>: Maximieren Sie das Potenzial Ihres Gerätes mit speziell entwickelten Rezepten.</li>\n    </ul>\n    <p>Sichern Sie sich dieses unverzichtbare Kochbuch jetzt für nur <b>14,98€</b>! Bestellen Sie noch heute und profitieren Sie vom <b>kostenlosen Versand</b> – aber nur für kurze Zeit!</p>\n</div>",
+  "shortDescription": "Mehr als heiße Luft: Heißluftfritteuse-Kochbuch mit 165 abwechslungsreichen Rezepten. Gesund kochen ohne Öl & Fett für unwiderstehlichen Geschmack!",
   "price": "14.98",
   "compareAtPrice": 17,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Mehr",
   "seo": {
-    "title": "Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen Rezepten für unwiderstehlichen Geschmack. Gesundes Kochen ohne Öl und Fett - Product Expert",
-    "description": "Découvrez Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen Rezepten für unwiderstehlichen Geschmack. Gesundes Kochen ohne Öl und Fett sur Amazon. Note 4.5/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "mehr",
-      "amazon",
-      "avis"
-    ]
+    "title": "Beste Heißluftfritteuse Rezepte: 165 gesunde Gerichte ohne Öl",
+    "description": "Mehr als heiße Luft: Heißluftfritteuse-Kochbuch mit 165 abwechslungsreichen Rezepten. Gesund kochen ohne Öl & Fett für unwiderstehlichen Geschmack!",
+    "keywords": "Heißluftfritteuse Rezepte, gesunde Airfryer Gerichte ohne Öl, Mehr Kochbuch Heißluftfritteuse, 165 Heißluftfritteuse Rezepte gesund, Petra Airfryer Rezepte, ölfreie Heißluftfritteusen Rezepte, Airfryer Rezeptsammlung gesund",
+    "ogTitle": "Beste Heißluftfritteuse Rezepte: 165 gesunde Gerichte ohne Öl",
+    "ogDescription": "Mehr als heiße Luft: Heißluftfritteuse-Kochbuch mit 165 abwechslungsreichen Rezepten. Gesund kochen ohne Öl & Fett für unwiderstehlichen Geschmack!"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -46,5 +43,31 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Anzahl Rezepte": "165",
+    "Gerätekompatibilität": "Optimiert für Heißluftfritteusen",
+    "Kochweise": "Gesund, ohne Öl und Fett",
+    "Sprache": "Deutsch",
+    "Inhaltliche Vielfalt": "Abwechslungsreich für jeden Geschmack",
+    "Geschmacksversprechen": "Unwiderstehlicher Genuss",
+    "Produktart": "Kochbuch"
+  },
+  "faq": [
+    {
+      "question": "Sind die Rezepte im Kochbuch abwechslungsreich?",
+      "answer": "Absolut! Das Buch bietet eine riesige Vielfalt – von herzhaft bis süß ist alles dabei, weit über die klassischen Pommes hinaus. Da wird es nie langweilig!"
+    },
+    {
+      "question": "Kann ich mit diesem Buch wirklich gesund und ohne viel Öl kochen?",
+      "answer": "Ja, genau darum geht es! Die Rezepte zeigen Ihnen, wie Sie leckere Gerichte ohne zusätzliches Öl oder Fett zubereiten. Perfekt für eine bewusste Ernährung."
+    },
+    {
+      "question": "Schmecken die Gerichte auch gut, obwohl sie ohne Öl zubereitet werden?",
+      "answer": "Keine Sorge! Die 165 Rezepte wurden speziell entwickelt, um unwiderstehlichen Geschmack zu garantieren. Sie werden überrascht sein, wie köstlich gesund sein kann!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:05:06.467223",
+  "originalName": "Mehr als heiße Luft: Das große Heißluftfritteuse-Kochbuch mit 165 leckeren und abwechslungsreichen Rezepten für unwiderstehlichen Geschmack. Gesundes Kochen ohne Öl und Fett",
+  "enhanced": true
 }

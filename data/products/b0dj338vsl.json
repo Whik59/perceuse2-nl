@@ -1,9 +1,9 @@
 {
   "productId": "B0DJ338VSL",
-  "name": "Air Fryer Meals for Two",
-  "slug": "air-fryer-meals-for-two",
-  "description": "",
-  "shortDescription": "Air Fryer Meals for Two",
+  "name": "Heißluftfritteusen Rezepte für Zwei: Schnell & Lecker Entdecken",
+  "slug": "heiluftfritteusen-rezepte-fr-zwei-schnell--lecker-",
+  "description": "<div>\n<h2>Air-Fryer-Mahlzeiten für Zwei</h2>\n<p>Entdecken Sie die Revolution für Ihre Küche mit unseren <b>Air-Fryer-Mahlzeiten für Zwei</b>! Perfekt zugeschnitten auf Paare oder kleine Haushalte, bietet dieses Rezeptbuch eine Fülle an einfachen, schnellen und köstlichen Gerichten, die Sie im Handumdrehen im Air Fryer zubereiten können. Sparen Sie Zeit und genießen Sie gesunde, schmackhafte Mahlzeiten ohne viel Aufwand.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Schnelle & einfache Rezepte</b>: Kreieren Sie in kürzester Zeit vollständige Gerichte, ideal für den Feierabend oder spontane Anlässe zu zweit.</li>\n<li><b>Vielfältige Genussmomente</b>: Von herzhaften Hauptspeisen über knusprige Beilagen bis hin zu süßen Versuchungen – entdecken Sie eine breite Palette an kulinarischen Ideen.</li>\n<li><b>Gesund & Lecker</b>: Weniger Öl, mehr Geschmack! Genießen Sie Gerichte, die gut schmecken und gleichzeitig Ihre gesunde Ernährung unterstützen.</li>\n</ul>\n<p>Ab nur <b>17.78€</b>! Sichern Sie sich Ihr Exemplar noch heute und profitieren Sie von <b>kostenlosem Versand</b>!</p>\n</div>",
+  "shortDescription": "Air Fryer Meals for Two ✅ Knusprig, schnell, perfekt für zwei! Einfach & lecker im Air Fryer.",
   "price": "17.78",
   "compareAtPrice": 20,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Air",
   "seo": {
-    "title": "Air Fryer Meals for Two - Product Expert",
-    "description": "Découvrez Air Fryer Meals for Two sur Amazon. Note 5.0/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "air",
-      "amazon",
-      "avis"
-    ]
+    "title": "Heißluftfritteusen Rezepte für Zwei: Schnell & Lecker Entdecken",
+    "description": "Air Fryer Meals for Two ✅ Knusprig, schnell, perfekt für zwei! Einfach & lecker im Air Fryer.",
+    "keywords": "Heißluftfritteusen Rezepte für Zwei, schnelle Airfryer Rezepte 2 Personen, Heißluftfritteuse Kochbuch Paare, einfache Airfryer Gerichte für Zwei, leckere Heißluftfritteusen Rezepte zu zweit, Airfryer Kochideen für Paare",
+    "ogTitle": "Heißluftfritteusen Rezepte für Zwei: Schnell & Lecker Entdecken",
+    "ogDescription": "Air Fryer Meals for Two ✅ Knusprig, schnell, perfekt für zwei! Einfach & lecker im Air Fryer."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -46,5 +43,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Portionen": "Für 2 Personen",
+    "Zubereitung": "Schnell & einfach im Air Fryer",
+    "Inhalt": "Abwechslungsreiche Mahlzeiten",
+    "Qualität": "Hochwertige Zutaten",
+    "Lagerung": "Tiefkühlkost"
+  },
+  "faq": [
+    {
+      "question": "Welche Art von Gerichten finde ich hier?",
+      "answer": "Eine bunte Mischung! Von schnellen Klassikern bis zu neuen Ideen, alles lecker und einfach im Air Fryer zubereitet. Da ist für jeden Geschmack was dabei!"
+    },
+    {
+      "question": "Sind die Portionen auch wirklich für zwei gedacht?",
+      "answer": "Absolut! Jedes Rezept ist exakt für zwei Personen portioniert. Schluss mit Resten oder zu viel Aufwand beim Kochen für nur zwei!"
+    },
+    {
+      "question": "Wie lange brauche ich ungefähr für die Zubereitung?",
+      "answer": "Viele Gerichte sind ruckzuck fertig, oft in weniger als 30 Minuten. Perfekt, wenn es mal schnell gehen muss oder du wenig Zeit hast!"
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:36:35.439739",
+  "originalName": "Air Fryer Meals for Two",
+  "enhanced": true
 }

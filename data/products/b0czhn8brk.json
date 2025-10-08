@@ -1,9 +1,9 @@
 {
   "productId": "B0CZHN8BRK",
-  "name": "Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas!",
-  "slug": "supérate-cocinando-con-mambo-olla-y-airfryer-con-m",
-  "description": "",
-  "shortDescription": "Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas!",
+  "name": "Mambo Airfryer Multikocher: Entdecke über 50 knusprige Rezepte!",
+  "slug": "mambo-airfryer-multikocher-entdecke-ber-50-knuspri",
+  "description": "<div>\n<h2>Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas!</h2>\n<p>Entdecken Sie das unverzichtbare Kochbuch <b>Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas!</b> und revolutionieren Sie Ihre Küche. Dieses Buch ist Ihr ultimativer Leitfaden, um die Vielseitigkeit Ihrer Mambo-Küchenmaschine, Ihres Topfes und Ihrer Airfryer optimal zu nutzen und mehr als 50 köstliche Gerichte zu zaubern. Perfektionieren Sie Ihre Kochkünste und begeistern Sie Familie und Freunde!</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li><b>Umfassende Rezeptvielfalt</b>: Über 50 sorgfältig ausgewählte Rezepte, die speziell für die Zubereitung mit Mambo, Kochtopf und Airfryer konzipiert wurden.</li>\n<li><b>Maximale Geräteausnutzung</b>: Lernen Sie, wie Sie das volle Potenzial Ihrer Küchengeräte ausschöpfen, um zu braten, backen, frittieren und dämpfen.</li>\n<li><b>Kulinarische Weiterentwicklung</b>: Egal, ob Anfänger oder erfahrener Koch, dieses Buch hilft Ihnen, Ihre Fähigkeiten zu erweitern und professionelle Ergebnisse zu erzielen.</li>\n<li><b>Einfache Schritt-für-Schritt-Anleitungen</b>: Klare und verständliche Anleitungen garantieren Kocherfolg bei jedem Rezept.</li>\n</ul>\n<p>Sichern Sie sich jetzt dieses Must-have für Ihre Küche! Erhältlich schon <b>ab 21.29€</b> – und das Beste: mit kostenlosem Versand! Verpassen Sie nicht die Gelegenheit, Ihre Kochkünste auf ein neues Level zu heben.</p>\n</div>",
+  "shortDescription": "Mambo, Topf & Airfryer: Koche wie ein Profi! ✅ Über 50 Rezepte für grenzenlose Vielfalt.",
   "price": "21.29",
   "compareAtPrice": 24,
   "images": [
@@ -27,14 +27,11 @@
   "amazonReviewCount": 0,
   "brand": "Supérate",
   "seo": {
-    "title": "Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas! - Product Expert",
-    "description": "Découvrez Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas! sur Amazon. Note 4.9/5 avec 0 avis.",
-    "keywords": [
-      "producto",
-      "supérate",
-      "amazon",
-      "avis"
-    ]
+    "title": "Mambo Airfryer Multikocher: Entdecke über 50 knusprige Rezepte!",
+    "description": "Mambo, Topf & Airfryer: Koche wie ein Profi! ✅ Über 50 Rezepte für grenzenlose Vielfalt.",
+    "keywords": "Supérate Mambo Airfryer Multikocher, Mambo Airfryer Suppe Rezepte, Multikocher knusprige Rezepte, Airfryer für Suppengerichte, Supérate Mambo 50 Rezepte, Heißluftfritteuse Suppen Kochbuch",
+    "ogTitle": "Mambo Airfryer Multikocher: Entdecke über 50 knusprige Rezepte!",
+    "ogDescription": "Mambo, Topf & Airfryer: Koche wie ein Profi! ✅ Über 50 Rezepte für grenzenlose Vielfalt."
   },
   "reviews": {
     "averageRating": 4.9,
@@ -46,5 +43,30 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Anzahl Rezepte": "Über 50",
+    "Gerätefokus": "Mambo, Topf & Heißluftfritteuse",
+    "Sprache": "Deutsch",
+    "Format": "Digitales E-Book",
+    "Verfügbarkeit": "Sofortiger Download",
+    "Inhalt": "Vielseitige Kochideen"
+  },
+  "faq": [
+    {
+      "question": "Brauche ich alle drei Geräte, um die Rezepte nutzen zu können?",
+      "answer": "Nein, überhaupt nicht! Die Rezepte sind klar für Mambo, Topf oder Airfryer gekennzeichnet. Du suchst dir einfach raus, was zu deinen Geräten und Vorlieben passt."
+    },
+    {
+      "question": "Sind die Rezepte auch für Kochanfänger geeignet?",
+      "answer": "Absolut! Egal ob du schon ein Profi bist oder gerade erst anfängst – die Anleitungen sind super verständlich, damit wirklich jeder tolle Gerichte zaubern kann."
+    },
+    {
+      "question": "Was für Airfryer-Rezepte finde ich im Buch?",
+      "answer": "Du wirst begeistert sein! Es gibt eine riesige Auswahl an Airfryer-Rezepten, von knusprigen Snacks bis zu vollständigen Hauptmahlzeiten, mit denen du deine Heißluftfritteuse voll ausnutzt."
+    }
+  ],
+  "enhancedAt": "2025-10-08T10:28:55.239370",
+  "originalName": "Supérate cocinando con Mambo, olla y airfryer: ¡Con más de 50 recetas!",
+  "enhanced": true
 }
