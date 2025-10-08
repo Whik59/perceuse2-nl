@@ -63,10 +63,10 @@ class AIProductEnhancer:
         # Load AI configuration
         self.ai_config = self.load_ai_config()
         
-        # Performance settings - ULTRA-FAST TEMPLATE MODE
-        self.max_concurrent_requests = 50  # Maximum concurrent requests
-        self.batch_size = 100  # Larger batch size for maximum speed
-        self.request_delay = 0  # NO DELAY - TEMPLATE MODE
+        # Performance settings - OPTIMIZED FOR STABILITY
+        self.max_concurrent_requests = 5  # Reduced for stability
+        self.batch_size = 50  # Smaller batch size
+        self.request_delay = 0.5  # Small delay to avoid rate limits
         self.print_lock = Lock()  # Thread-safe printing
         
         # Caching system for faster processing
@@ -197,7 +197,7 @@ Respond ONLY with JSON array.
             
             # System prompt for German language
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and airfryer-related content."
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and vacuum cleaner-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -1107,6 +1107,13 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
             
             response = response.strip()
             
+            # Remove any conversational text before JSON
+            if ':' in response and '{' in response:
+                # Find the first { and take everything from there
+                json_start = response.find('{')
+                if json_start > 0:
+                    response = response[json_start:]
+            
             # Try to find JSON object in the response
             import re
             json_match = re.search(r'\{.*\}', response, re.DOTALL)
@@ -1152,6 +1159,13 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
                 response = response[:-3]
             
             response = response.strip()
+            
+            # Remove any conversational text before JSON
+            if ':' in response and '[' in response:
+                # Find the first [ and take everything from there
+                json_start = response.find('[')
+                if json_start > 0:
+                    response = response[json_start:]
             
             # Try to find JSON array in the response
             import re
@@ -1208,12 +1222,12 @@ Respond ONLY with description:"""
             
             # System prompt for German language
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and airfryer-related content."
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and vacuum cleaner-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
-            # Minimal delay for maximum speed
-            time.sleep(0.01)
+            # Small delay to avoid rate limits
+            time.sleep(0.5)
             
             response = model.generate_content(full_prompt)
             
@@ -1272,8 +1286,8 @@ def main():
     parser.add_argument('--mode', '-m', default='interactive',
                         choices=['interactive', 'ultra-fast', 'fast', 'standard'],
                         help='Processing mode (default: interactive)')
-    parser.add_argument('--workers', '-w', type=int, default=50,
-                        help='Number of concurrent workers for ultra-fast mode (default: 50)')
+    parser.add_argument('--workers', '-w', type=int, default=5,
+                        help='Number of concurrent workers for ultra-fast mode (default: 5)')
     
     args = parser.parse_args()
     
