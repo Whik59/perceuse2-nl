@@ -1,0 +1,48 @@
+{
+  "productId": "B002S0BXF6",
+  "name": "Staubsauger",
+  "slug": "staubsauger",
+  "description": "",
+  "shortDescription": "Staubsauger",
+  "price": "Prix non disponible",
+  "compareAtPrice": 100,
+  "images": [
+    "https://m.media-amazon.com/images/I/51YFhkzrpeL._AC_UY218_.jpg"
+  ],
+  "videos": [],
+  "category": "staubsauger musik",
+  "tags": [
+    "producto",
+    "staubsauger",
+    "staubsauger musik"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B002S0BXF6?tag=clickclickh0b-21",
+  "amazonASIN": "B002S0BXF6",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Staubsauger",
+  "amazonPrice": "Prix non disponible",
+  "amazonRating": 0,
+  "amazonReviewCount": 0,
+  "brand": "Staubsauger",
+  "seo": {
+    "title": "Staubsauger - Product Expert",
+    "description": "Découvrez Staubsauger sur Amazon. Note 0/5 avec 0 avis.",
+    "keywords": [
+      "producto",
+      "staubsauger",
+      "amazon",
+      "avis"
+    ]
+  },
+  "reviews": {
+    "averageRating": 0,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  }
+}

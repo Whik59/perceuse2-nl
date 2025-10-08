@@ -1,5 +1,5 @@
 # Step 1: Discover keywords for main categories
-python scripts/amazon-keyword-scraper.py "airfryer" --market de 
+python scripts/amazon-keyword-scraper.py "staubsauger" --market de 
 
 
 # Step 2: Create category structure
@@ -19,5 +19,5 @@ python scripts/ai_category_enhancer.py --language german --all
 python scripts/ai-product-enhancer.py --language german --mode ultra-fast --workers 50
 
 
-python scripts/generate_sitemap.py --site-url https://airfryer-kaufen.de
+python scripts/generate_sitemap.py --site-url https://kaufen-staubsauger.de
 

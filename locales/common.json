@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "products": "Airfryer",
+    "products": "Staubsauger",
     "categories": "Kategorien",
     "cart": "Auswahl",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Kontakt"
   },
   "categories": {
-    "title": "Airfryer Kategorien",
+    "title": "Staubsauger Kategorien",
     "hero": {
-      "title": "Finde den perfekten Airfryer für dich",
-      "subtitle": "Entdecke unsere große Auswahl an hochwertigen Airfryern"
+      "title": "Finde den perfekten Staubsauger für dich",
+      "subtitle": "Entdecke unsere große Auswahl an hochwertigen Staubsaugern"
     },
-    "subtitle": "Erkunde unsere spezialisierten Airfryer-Kategorien",
+    "subtitle": "Erkunde unsere spezialisierten Staubsauger-Kategorien",
     "browseAll": "Alle Kategorien anzeigen",
     "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
     "loading": "Kategorien werden geladen...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Alle Unterkategorien",
     "subcategoriesDescription": "Erkunde alle verfügbaren Unterkategorien",
     "needHelp": "Brauchst du Hilfe?",
-    "helpDescription": "Unser Expertenteam hilft dir dabei, den perfekten Airfryer für dich zu finden",
+    "helpDescription": "Unser Expertenteam hilft dir dabei, den perfekten Staubsauger für dich zu finden",
     "backToHome": "Zurück zur Startseite",
     "exploreBySpecialty": "Nach Spezialität erkunden",
     "refineSearch": "Verfeinere deine Suche mit unseren spezialisierten Unterkategorien",
@@ -71,8 +71,8 @@
     "confirm": "Bestätigen",
     "loading": "Wird geladen...",
     "error": "Ein Fehler ist aufgetreten",
-    "siteName": "Airfryer Kaufen",
-    "companyName": "Airfryer",
+    "siteName": "Staubsauger Kaufen",
+    "companyName": "Staubsauger",
     "home": "Startseite",
     "linkCopied": "Link kopiert",
     "qualityExceptional": "Außergewöhnliche Qualität",
@@ -82,19 +82,19 @@
     "somethingWrong": "Etwas ist schiefgelaufen",
     "tryAgain": "Erneut versuchen",
     "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Airfryer nicht gefunden",
+    "productNotFound": "Staubsauger nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler beim Weiterleiten zu Amazon",
     "amazonUnavailable": "Amazon nicht verfügbar"
   },
   "search": {
-    "placeholder": "Airfryer suchen...",
-    "noResults": "Keine Airfryer gefunden",
-    "searchFor": "Airfryer suchen"
+    "placeholder": "Staubsauger suchen...",
+    "noResults": "Keine Staubsauger gefunden",
+    "searchFor": "Staubsauger suchen"
   },
   "header": {
     "search": {
-      "placeholder": "Airfryer suchen..."
+      "placeholder": "Staubsauger suchen..."
     },
     "support": "Support",
     "cart": {
@@ -102,7 +102,7 @@
     }
   },
   "social": {
-    "shareProduct": "Diesen Airfryer teilen",
+    "shareProduct": "Diesen Staubsauger teilen",
     "followUs": "Folge uns",
     "customerReviews": "Amazon Kundenbewertungen"
   },
@@ -125,10 +125,10 @@
     "redirecting": "Weiterleitung zu Amazon...",
     "openInNewTab": "In neuem Tab öffnen"
   },
-  "siteName": "Dein perfekter Airfryer",
-  "companyName": "Airfryer GmbH",
-  "products": "Airfryer",
-  "productNotFound": "Airfryer nicht gefunden",
+  "siteName": "Dein perfekter Staubsauger",
+  "companyName": "Staubsauger GmbH",
+  "products": "Staubsauger",
+  "productNotFound": "Staubsauger nicht gefunden",
   "banner": {
     "discount": "Rabatt",
     "clientReviews": "Kundenbewertungen",
@@ -136,23 +136,23 @@
   },
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind hier, um dir bei allen Fragen zu unseren Airfryern zu helfen",
+    "subtitle": "Wir sind hier, um dir bei allen Fragen zu unseren Staubsaugern zu helfen",
   "faq": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Finde schnell Antworten auf deine Fragen zu unseren Airfryern, Versand, Rückgaben und mehr.",
+    "subtitle": "Finde schnell Antworten auf deine Fragen zu unseren Staubsaugern, Versand, Rückgaben und mehr.",
     "contactCta": "Findest du keine Antwort auf deine Frage?",
     "contactTeam": "Kontaktiere unser Team",
     "sendEmail": "E-Mail senden",
     "questions": [
       {
         "id": "1",
-        "question": "Wie lange hält der Akku der Airfryer?",
-        "answer": "Unsere Airfryer haben eine langlebige Batterie, die bis zu 25-40 km Reichweite je nach Modell halten kann. Sie sind für effizienten Energieverbrauch optimiert und garantieren eine außergewöhnliche Reichweite für tägliche Stadtfahrten."
+        "question": "Wie lange hält der Akku der Staubsauger?",
+        "answer": "Unsere Staubsauger haben eine langlebige Batterie, die je nach Modell 30-60 Minuten Laufzeit halten kann. Sie sind für effizienten Energieverbrauch optimiert und garantieren eine außergewöhnliche Reinigungsleistung für jeden Haushalt."
       },
       {
         "id": "2",
-        "question": "Sind Airfryer sicher?",
-        "answer": "Absolut. Alle unsere Airfryer erfüllen die strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie enthalten fortschrittliche Sicherheitssysteme, hitzebeständige Materialien und sind aus hochwertigen Materialien gefertigt. Die Modelle erfüllen die europäischen Vorschriften für Haushaltsgeräte."
+        "question": "Sind Staubsauger sicher?",
+        "answer": "Absolut. Alle unsere Staubsauger erfüllen die strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie enthalten fortschrittliche Sicherheitssysteme, staubdichte Materialien und sind aus hochwertigen Materialien gefertigt. Die Modelle erfüllen die europäischen Vorschriften für Haushaltsgeräte."
       },
       {
         "id": "3",
@@ -161,28 +161,28 @@
       },
       {
         "id": "4",
-        "question": "Kann ich einen Airfryer zurückgeben, wenn ich nicht zufrieden bin?",
-        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn du mit deinem Kauf nicht vollständig zufrieden bist, kannst du den Airfryer in der Originalverpackung für eine vollständige Rückerstattung zurücksenden. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern."
+        "question": "Kann ich einen Staubsauger zurückgeben, wenn ich nicht zufrieden bin?",
+        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn du mit deinem Kauf nicht vollständig zufrieden bist, kannst du den Staubsauger in der Originalverpackung für eine vollständige Rückerstattung zurücksenden. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern."
       },
       {
         "id": "5",
-        "question": "Wie verwendet man einen Airfryer?",
-        "answer": "Unsere Airfryer sind sehr einfach zu bedienen. Einfach die Lebensmittel in den Korb legen, Temperatur und Zeit nach dem Rezept einstellen und den Startknopf drücken. Nach dem Ende schaltet sich der Airfryer automatisch ab. Ein Lichtindikator zeigt dir den Garzustand an."
+        "question": "Wie verwendet man einen Staubsauger?",
+        "answer": "Unsere Staubsauger sind sehr einfach zu bedienen. Einfach den Staubsauger einschalten, die gewünschte Saugstufe wählen und mit dem Reinigen beginnen. Nach dem Gebrauch schaltet sich der Staubsauger automatisch ab. Ein Lichtindikator zeigt dir den Batteriestand an."
       },
       {
         "id": "6",
-        "question": "Welche Temperaturen sind verfügbar?",
-        "answer": "Die meisten unserer Airfryer bieten einen Temperaturbereich von 80°C bis 200°C, meist in 5°C-Schritten einstellbar. Einige Premium-Modelle bieten kontinuierliche Einstellung. Die maximale Temperatur beträgt 200°C zum Garen einer großen Vielfalt von Lebensmitteln."
+        "question": "Welche Saugstufen sind verfügbar?",
+        "answer": "Die meisten unserer Staubsauger bieten verschiedene Saugstufen von sanft bis intensiv, meist in 3-5 Stufen einstellbar. Einige Premium-Modelle bieten kontinuierliche Einstellung. Die maximale Saugkraft ist für eine gründliche Reinigung aller Oberflächen optimiert."
       },
       {
         "id": "7",
-        "question": "Gibt es eine Garantie auf die Airfryer?",
-        "answer": "Alle unsere Airfryer sind durch eine 2-jährige Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
+        "question": "Gibt es eine Garantie auf die Staubsauger?",
+        "answer": "Alle unsere Staubsauger sind durch eine 2-jährige Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
       },
       {
         "id": "8",
-        "question": "Wie reinige und pflege ich meinen Airfryer?",
-        "answer": "Die Wartung ist sehr einfach: Verwende ein leicht feuchtes, weiches Tuch zur Reinigung des Äußeren. Vermeide aggressive Chemikalien. Für Korb und Schale kannst du sie in der Spülmaschine oder mit heißem Wasser und Seife waschen. Überprüfe regelmäßig den Luftfilter und reinige ihn nach den Herstelleranweisungen."
+        "question": "Wie reinige und pflege ich meinen Staubsauger?",
+        "answer": "Die Wartung ist sehr einfach: Verwende ein leicht feuchtes, weiches Tuch zur Reinigung des Äußeren. Vermeide aggressive Chemikalien. Für Staubbehälter und Filter kannst du sie mit heißem Wasser und Seife waschen. Überprüfe regelmäßig den HEPA-Filter und reinige ihn nach den Herstelleranweisungen."
       }
     ],
     "deliveryTime": {
@@ -191,11 +191,11 @@
     },
     "returns": {
       "question": "Wie ist die Rückgaberichtlinie?",
-      "answer": "Wir bieten eine 30-tägige Zufriedenheitsgarantie. Du kannst deinen Airfryer in der Originalverpackung zurückgeben, wenn du nicht vollständig zufrieden bist. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+      "answer": "Wir bieten eine 30-tägige Zufriedenheitsgarantie. Du kannst deinen Staubsauger in der Originalverpackung zurückgeben, wenn du nicht vollständig zufrieden bist. Die Rücksendekosten gehen zu deinen Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
     },
     "warranty": {
-      "question": "Welche Garantie haben die Airfryer?",
-      "answer": "Alle unsere Airfryer sind mit einer 2-jährigen Herstellergarantie ausgestattet, die Herstellungsfehler und technische Defekte abdeckt, die nicht durch den Benutzer verursacht wurden. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
+      "question": "Welche Garantie haben die Staubsauger?",
+      "answer": "Alle unsere Staubsauger sind mit einer 2-jährigen Herstellergarantie ausgestattet, die Herstellungsfehler und technische Defekte abdeckt, die nicht durch den Benutzer verursacht wurden. Diese Garantie ergänzt deine gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahre deine Rechnung auf und kontaktiere unseren Kundenservice."
     },
     "payment": {
       "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -244,7 +244,7 @@
     "proceedToCheckout": "Bestellung abschließen",
     "empty": {
       "title": "Deine Auswahl ist leer",
-      "description": "Füge Airfryer zu deiner Auswahl hinzu, um fortzufahren",
+      "description": "Füge Staubsauger zu deiner Auswahl hinzu, um fortzufahren",
       "button": "Zurück zum Shop"
     },
     "removeFromCart": "Aus Warenkorb entfernen",
@@ -268,7 +268,7 @@
     "buyOnAmazon": "Kaufen",
     "viewFullSelection": "Meine vollständige Auswahl anzeigen",
     "pageTitle": "Deine Auswahl",
-    "pageSubtitle": "Deine ausgewählten Airfryer - Kaufe direkt bei Amazon",
+    "pageSubtitle": "Deine ausgewählten Staubsauger - Kaufe direkt bei Amazon",
     "summary": "Zusammenfassung",
     "items": "Artikel",
     "clearCart": "Auswahl leeren",
@@ -283,8 +283,8 @@
   "checkout": {
     "empty": {
       "title": "Deine Auswahl ist leer",
-      "description": "Füge Airfryer zu deiner Auswahl hinzu, bevor du zur Zahlung gehst",
-      "button": "Unsere Airfryer entdecken"
+      "description": "Füge Staubsauger zu deiner Auswahl hinzu, bevor du zur Zahlung gehst",
+      "button": "Unsere Staubsauger entdecken"
     },
     "backToCart": "Zurück zur Auswahl",
     "pageTitle": "Deinen Kauf abschließen",
@@ -372,7 +372,7 @@
     "customerReviews": "Kundenbewertungen",
     "faq": "Häufig gestellte Fragen",
     "alsoLike": "Das könnte dir auch gefallen",
-    "alsoLikeSubtitle": "Andere Airfryer, die dich interessieren könnten",
+    "alsoLikeSubtitle": "Andere Staubsauger, die dich interessieren könnten",
     "buyNow": "Jetzt kaufen",
     "loading": "Wird geladen...",
     "notFound": "Produkt nicht gefunden",
@@ -406,8 +406,8 @@
   },
   "hero": {
     "expertise": {
-      "title": "Perfekter Airfryer!",
-      "subtitle": "Gesundes und leckeres Kochen. Qualität und Leistung garantiert.",
+      "title": "Perfekter Staubsauger!",
+      "subtitle": "Gründliche und effiziente Reinigung. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -419,16 +419,16 @@
     },
     "features": {
       "quality": {
-        "title": "Gesundes Garen",
-        "description": "Bis zu 80% weniger Öl. Perfekt für gesundes Kochen ohne Geschmackskompromisse."
+        "title": "Gründliche Reinigung",
+        "description": "Bis zu 99,9% Staub und Allergene entfernt. Perfekt für saubere Luft ohne Kompromisse."
       },
       "design": {
-        "title": "Präzise Temperatur",
-        "description": "Präzise Temperaturkontrolle von 80°C bis 200°C. Passe das Garen an jede Lebensmittelart an."
+        "title": "Präzise Saugkraft",
+        "description": "Präzise Saugkraftkontrolle von sanft bis intensiv. Passe die Reinigung an jede Oberfläche an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360° Heißluftzirkulation. Gleichmäßiges Garen und perfekte Ergebnisse bei jeder Verwendung."
+        "description": "360° Saugtechnologie. Gleichmäßige Reinigung und perfekte Ergebnisse bei jeder Verwendung."
       },
       "support": {
         "title": "Premium Kundenservice",
@@ -441,26 +441,26 @@
     "loading": "Wird geladen...",
     "hero": {
       "featured": {
-        "title": "Dein Airfryer, deine Küche!",
-        "subtitle": "Gesundes und leckeres Kochen. Kulinarische Freiheit für die ganze Familie.",
+        "title": "Dein Staubsauger, dein Zuhause!",
+        "subtitle": "Gründliche und effiziente Reinigung. Saubere Freiheit für die ganze Familie.",
         "loading": "Deine Freiheit wird geladen...",
         "viewAll": "Limitierten Angebote!"
       }
     },
     "whyChoose": {
       "title": "Warum uns wählen?",
-      "subtitle": "Entdecke die exklusiven Vorteile, die uns zur besten Wahl für Airfryer machen",
+      "subtitle": "Entdecke die exklusiven Vorteile, die uns zur besten Wahl für Staubsauger machen",
       "advantage1": {
         "title": "Premium Qualität",
-        "description": "Airfryer von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Haltbarkeit."
+        "description": "Staubsauger von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Haltbarkeit."
       },
       "advantage2": {
         "title": "Schneller Versand",
-        "description": "Kostenlose Lieferung in 24-48 Stunden in ganz Deutschland. Deine Küche ist unsere Priorität, deshalb garantieren wir schnelle und sichere Lieferungen."
+        "description": "Kostenlose Lieferung in 24-48 Stunden in ganz Deutschland. Dein Zuhause ist unsere Priorität, deshalb garantieren wir schnelle und sichere Lieferungen."
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Kundenservice-Team spezialisiert auf Airfryer. Wir helfen dir bei allen Fragen oder Problemen, die du haben könntest."
+        "description": "Kundenservice-Team spezialisiert auf Staubsauger. Wir helfen dir bei allen Fragen oder Problemen, die du haben könntest."
       },
       "advantage4": {
         "title": "Vollständige Garantie",
@@ -468,7 +468,7 @@
       },
       "comparison": {
         "title": "Vergleich mit der Konkurrenz",
-        "subtitle": "Entdecke, warum Airfryer sich von der Konkurrenz abhebt",
+        "subtitle": "Entdecke, warum Staubsauger sich von der Konkurrenz abhebt",
         "us": "Wir",
         "others": "Andere",
         "criteria": "Kriterien",
@@ -486,7 +486,7 @@
   },
   "footer": {
     "copyright": "Alle Rechte vorbehalten",
-    "companyDescription": "Spezialisten für hochwertige Airfryer. Gesundes Kochen und Experten-Support.",
+    "companyDescription": "Spezialisten für hochwertige Staubsauger. Gründliche Reinigung und Experten-Support.",
     "legal": {
       "title": "Rechtliche Informationen",
       "terms": "Allgemeine Geschäftsbedingungen",
@@ -525,7 +525,7 @@
     "subtitle": "Nutzungsbedingungen für unsere Dienstleistungen",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Willkommen bei Airfryer. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und Dienstleistungen.",
+    "introduction": "Willkommen bei Staubsauger. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und Dienstleistungen.",
     "acceptance": "Durch den Zugriff auf und die Nutzung unserer Website akzeptierst du diese Bedingungen vollständig.",
     "general": {
       "title": "Allgemeine Bestimmungen",
@@ -544,7 +544,7 @@
     },
     "services": {
       "title": "Unsere Dienstleistungen",
-      "description": "Wir bieten Informationen über hochwertige Airfryer und erleichtern den Kauf über Amazon."
+      "description": "Wir bieten Informationen über hochwertige Staubsauger und erleichtern den Kauf über Amazon."
     },
     "userObligations": {
       "title": "Benutzerpflichten",
@@ -564,7 +564,7 @@
     "subtitle": "Wie wir deine persönlichen Informationen schützen und verwenden",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Bei Airfryer respektieren wir deine Privatsphäre und verpflichten uns, deine persönlichen Informationen zu schützen.",
+    "introduction": "Bei Staubsauger respektieren wir deine Privatsphäre und verpflichten uns, deine persönlichen Informationen zu schützen.",
     "dataCollection": {
       "title": "Informationen, die wir sammeln",
       "description": "Wir sammeln Informationen, die du uns freiwillig zur Verfügung stellst, wie deinen Namen und deine E-Mail-Adresse."
@@ -678,13 +678,13 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Erfahre mehr über Airfryer",
+    "subtitle": "Erfahre mehr über Staubsauger",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind Spezialisten für hochwertige Airfryer für gesundes und leckeres Kochen.",
+    "introduction": "Wir sind Spezialisten für hochwertige Staubsauger für gesundes und leckeres Kochen.",
     "mission": {
       "title": "Unsere Mission",
-      "description": "Gesundes und leckeres Kochen mit hochwertigen Airfryern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
+      "description": "Gesundes und leckeres Kochen mit hochwertigen Staubsaugern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
     },
     "values": {
       "title": "Unsere Werte",
@@ -692,7 +692,7 @@
     },
     "team": {
       "title": "Unser Team",
-      "description": "Wir haben Experten für gesundes Kochen und Kundenservice, die auf Airfryer spezialisiert sind."
+      "description": "Wir haben Experten für gesundes Kochen und Kundenservice, die auf Staubsauger spezialisiert sind."
     }
   },
   "contact": {
@@ -700,11 +700,11 @@
     "subtitle": "Kontaktiere uns",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind hier, um dir bei allen Fragen zu Airfryern zu helfen.",
+    "introduction": "Wir sind hier, um dir bei allen Fragen zu Staubsaugern zu helfen.",
     "methods": {
       "title": "Kontaktmethoden",
       "phone": "Telefon: +49 900 123 456",
-      "email": "E-Mail: info@airfryer.de",
+      "email": "E-Mail: info@staubsauger.de",
       "whatsapp": "WhatsApp: +49 600 123 456",
       "hours": "Servicezeiten: Montag bis Freitag, 9:00 - 18:00"
     },

@@ -1,31 +1,31 @@
 {
   "site": {
-    "name": "Tu Patinete Eléctrico Perfecto",
-    "description": "Encuentra tu patinete eléctrico ideal. Amplia gama de patinetes, scooters eléctricos y accesorios. ¡Precios increíbles y envíos rápidos!",
-    "url": "https://tupatineteelectrico.es",
+    "name": "Dein perfekter Staubsauger",
+    "description": "Finde deinen idealen Staubsauger. Große Auswahl an Staubsaugern, Saugrobotern und Zubehör. Unglaubliche Preise und schneller Versand!",
+    "url": "https://kaufen-staubsauger.de",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Tu Patinete Eléctrico Perfecto - Patinetes y Scooters Eléctricos",
-    "titleTemplate": "%s | Tu Patinete Eléctrico Perfecto",
-    "defaultDescription": "Encuentra tu patinete eléctrico ideal. Amplia gama de patinetes, scooters eléctricos y accesorios. ¡Precios increíbles y envíos rápidos!",
+    "defaultTitle": "Dein perfekter Staubsauger - Staubsauger und Saugroboter",
+    "titleTemplate": "%s | Dein perfekter Staubsauger",
+    "defaultDescription": "Finde deinen idealen Staubsauger. Große Auswahl an Staubsaugern, Saugrobotern und Zubehör. Unglaubliche Preise und schneller Versand!",
     "keywords": [
-      "patinete eléctrico",
-      "scooter eléctrico",
-      "patinete",
-      "accesorios patinete",
-      "comprar patinete",
-      "ofertas patinetes",
-      "patinetes baratos",
-      "mejores patinetes"
+      "Staubsauger",
+      "Saugroboter",
+      "Handstaubsauger",
+      "Staubsauger Zubehör",
+      "Staubsauger kaufen",
+      "Staubsauger Angebote",
+      "günstige Staubsauger",
+      "beste Staubsauger"
     ],
-    "ogImage": "/og-image-patinete.jpg"
+    "ogImage": "/og-image-staubsauger.jpg"
   },
   "business": {
-    "email": "contact@tupatineteelectrico.es",
-    "phone": "+34 91 123 45 67",
-    "address": "Calle de la Movilidad, 28001 Madrid, España",
+    "email": "info@staubsauger.de",
+    "phone": "+49 900 123 456",
+    "address": "Reinigungsstraße 1, 10115 Berlin, Deutschland",
     "socialMedia": {
       "facebook": "",
       "instagram": "",
@@ -33,21 +33,21 @@
     }
   },
   "affiliate": {
-    "amazonTag": "tupatinete-21",
-    "disclaimer": "Como Afiliado de Amazon, obtenemos ingresos por las compras que califican."
+    "amazonTag": "staubsauger-21",
+    "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen."
   },
   "features": {
     "expertReviews": {
       "enabled": true,
-      "message": "Reseñas de expertos y pruebas detalladas"
+      "message": "Expertenbewertungen und detaillierte Tests"
     },
     "priceComparison": {
       "enabled": true,
-      "message": "Comparación de precios en tiempo real"
+      "message": "Echtzeit-Preisvergleich"
     },
     "buyingGuides": {
       "enabled": true,
-      "message": "Guías de compra detalladas"
+      "message": "Detaillierte Kaufberatung"
     }
   }
 }
