@@ -5,12 +5,12 @@
     "description": "Découvrez notre sélection de robots aspirateurs pour la maison.",
     "subcategories": [
       {
-        "slug": "laveur",
+        "slug": "robot-aspirateur-laveur",
         "name": "Robot Aspirateur Laveur",
         "description": "Aspirer et laver en un seul passage."
       },
       {
-        "slug": "animaux",
+        "slug": "robot-aspirateur-pour-animaux",
         "name": "Robot Aspirateur pour Animaux",
         "description": "Idéal pour les poils de chien et chat."
       }
@@ -22,7 +22,7 @@
     "description": "Robots multifonctions, pâtissiers et cuiseurs.",
     "subcategories": [
       {
-        "slug": "robot-pâtissier",
+        "slug": "robot-ptissier",
         "name": "Robot Pâtissier",
         "description": "Pour vos préparations sucrées et pâtisseries."
       },
@@ -39,12 +39,12 @@
     "description": "Gardez votre pelouse parfaitement entretenue.",
     "subcategories": [
       {
-        "slug": "connecte",
+        "slug": "robot-tondeuse-connect",
         "name": "Robot Tondeuse Connecté",
         "description": "Pilotez votre tondeuse depuis votre smartphone."
       },
       {
-        "slug": "sans-fil",
+        "slug": "robot-tondeuse-sans-fil",
         "name": "Robot Tondeuse Sans Fil",
         "description": "Autonome et pratique pour tous les jardins."
       }

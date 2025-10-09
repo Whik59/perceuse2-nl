@@ -529,6 +529,14 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
     def create_category_slug(self, category_name):
         """Create URL-friendly slug from category name"""
         slug = category_name.lower()
+        # Convert accented characters to their non-accented equivalents
+        slug = re.sub(r'[áàäâã]', 'a', slug)
+        slug = re.sub(r'[éèëê]', 'e', slug)
+        slug = re.sub(r'[íìïî]', 'i', slug)
+        slug = re.sub(r'[óòöôõ]', 'o', slug)
+        slug = re.sub(r'[úùüû]', 'u', slug)
+        slug = re.sub(r'[ñ]', 'n', slug)
+        slug = re.sub(r'[ç]', 'c', slug)
         # Replace spaces and special characters
         slug = re.sub(r'[^a-z0-9\s-]', '', slug)
         slug = re.sub(r'\s+', '-', slug)
@@ -1305,10 +1313,11 @@ def main():
             safe_print("3. ULTRA-FAST enhancement (optimized templates) 🚀")
             safe_print("4. MEGA-FAST enhancement (1000+ categories) ⚡")
             safe_print("5. Enhance specific categories by ID")
-            safe_print("6. View category statistics")
-            safe_print("7. Exit")
+            safe_print("6. Regenerate content with internal links 🔗")
+            safe_print("7. View category statistics")
+            safe_print("8. Exit")
             
-            choice = input("\nSelect option (1-7): ").strip()
+            choice = input("\nSelect option (1-8): ").strip()
             
             if choice == '1':
                 safe_print("\n🧪 Starting category test...")
@@ -1339,7 +1348,18 @@ def main():
                     safe_print("[ERROR] Please enter valid numbers separated by commas")
                 
             elif choice == '6':
-                # Show statistics
+                safe_print("\n🔗 Regenerating content with internal links...")
+                try:
+                    category_ids_input = input("Enter category IDs to regenerate (comma-separated, or press Enter for all): ").strip()
+                    if category_ids_input:
+                        category_ids = [int(id.strip()) for id in category_ids_input.split(',') if id.strip().isdigit()]
+                        enhancer.regenerate_content_with_links(category_ids)
+                    else:
+                        enhancer.regenerate_content_with_links()
+                except ValueError:
+                    safe_print("[ERROR] Please enter valid category IDs")
+                
+            elif choice == '7':
                 categories_created = 0
                 if os.path.exists(enhancer.categories_dir):
                     categories_created = len([f for f in os.listdir(enhancer.categories_dir) if f.endswith('.json')])
@@ -1358,12 +1378,12 @@ def main():
                 safe_print(f"   Categories directory: {enhancer.categories_dir}")
                 safe_print(f"   Source file: {enhancer.categories_file}")
                 
-            elif choice == '7':
+            elif choice == '8':
                 safe_print("\n👋 Goodbye!")
                 break
                 
             else:
-                safe_print("[ERROR] Please enter a valid option (1-7)")
+                safe_print("[ERROR] Please enter a valid option (1-8)")
 
 if __name__ == "__main__":
     main() 

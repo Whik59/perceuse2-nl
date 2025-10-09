@@ -1416,6 +1416,14 @@ class AmazonScraper:
     def create_slug(self, title):
         """Create URL slug from title"""
         slug = title.lower()
+        # Convert accented characters to their non-accented equivalents
+        slug = re.sub(r'[áàäâã]', 'a', slug)
+        slug = re.sub(r'[éèëê]', 'e', slug)
+        slug = re.sub(r'[íìïî]', 'i', slug)
+        slug = re.sub(r'[óòöôõ]', 'o', slug)
+        slug = re.sub(r'[úùüû]', 'u', slug)
+        slug = re.sub(r'[ñ]', 'n', slug)
+        slug = re.sub(r'[ç]', 'c', slug)
         slug = re.sub(r'[^\w\s-]', '', slug)
         slug = re.sub(r'[-\s]+', '-', slug)
         return slug.strip('-')[:50]
