@@ -126,7 +126,10 @@ export async function GET(
       keywords: category.seo?.keywords || [],
       seoTitle: category.seo?.title || category.categoryNameCanonical || '',
       source: category.content,
-      faq: category.faq || []
+      faq: category.faq || [],
+      comparisonTable: category.comparisonTable || null,
+      buyingGuide: category.buyingGuide || null,
+      internalLinks: category.internalLinks || []
     };
     
     return NextResponse.json({ content: categoryContent });

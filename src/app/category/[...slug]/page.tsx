@@ -9,6 +9,10 @@ import ProductCard from '../../../../components/ProductCard';
 import { Button } from '../../../../components/ui/Button';
 import Reviews from '../../../../components/Reviews';
 import SubcategoryCards from '../../../../components/SubcategoryCards';
+import ComparisonTable from '../../../../components/ComparisonTable';
+import BuyingGuide from '../../../../components/BuyingGuide';
+import InternalLinks from '../../../../components/InternalLinks';
+import SmartLinkedText from '../../../../components/SmartLinkedText';
 import { Product, Category, CartState } from '../../../../lib/types';
 import { getString, formatCurrency } from '../../../../lib/utils';
 import { createCartItem, addToCart } from '../../../../lib/cart';
@@ -420,6 +424,40 @@ const CategoryPage: React.FC = () => {
         </div>
       </div>
 
+      {/* Comparison Table Section */}
+      {categoryContent?.comparisonTable && (
+        <div className="py-16 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <ComparisonTable
+              title={categoryContent.comparisonTable.title}
+              columns={categoryContent.comparisonTable.columns}
+              products={categoryContent.comparisonTable.products}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Buying Guide Section */}
+      {categoryContent?.buyingGuide && (
+        <div className="py-16 bg-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <BuyingGuide
+              title={categoryContent.buyingGuide.title}
+              sections={categoryContent.buyingGuide.sections}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Internal Links Section */}
+      {categoryContent?.internalLinks && categoryContent.internalLinks.length > 0 && (
+        <div className="py-16 bg-slate-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <InternalLinks links={categoryContent.internalLinks} />
+          </div>
+        </div>
+      )}
+
       {/* Category FAQ Section */}
       {category?.faq && category.faq.length > 0 && (
         <div className="bg-white py-16 border-t border-slate-100">
@@ -453,7 +491,7 @@ const CategoryPage: React.FC = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Main Content */}
             <article className="prose max-w-none prose-slate prose-lg">
-              <div dangerouslySetInnerHTML={{ __html: categoryContent.source }} />
+              <SmartLinkedText text={categoryContent.source} as="div" />
             </article>
             
             {/* FAQ Section */}
@@ -466,10 +504,10 @@ const CategoryPage: React.FC = () => {
                   {categoryContent.faq.map((faq, index) => (
                     <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
                       <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                        {faq.question}
+                        <SmartLinkedText text={faq.question} />
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        {faq.answer}
+                        <SmartLinkedText text={faq.answer} />
                       </p>
                     </div>
                   ))}

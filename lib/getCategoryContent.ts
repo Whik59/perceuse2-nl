@@ -11,6 +11,36 @@ export interface CategoryContent {
     question: string;
     answer: string;
   }>;
+  comparisonTable?: {
+    title: string;
+    columns: string[];
+    products: Array<{
+      rank: number;
+      name: string;
+      power?: string;
+      autonomy?: string;
+      tank?: string;
+      connectivity?: string;
+      navigation?: string;
+      keyFeatures?: string;
+      price: string;
+      rating: string;
+      productUrl?: string;
+      amazonUrl?: string;
+      image: string;
+    }>;
+  } | null;
+  buyingGuide?: {
+    title: string;
+    sections: Array<{
+      heading: string;
+      content: string;
+    }>;
+  } | null;
+  internalLinks?: Array<{
+    text: string;
+    url: string;
+  }>;
 }
 
 export const getCategoryContent = async (slug: string): Promise<CategoryContent | null> => {

@@ -22,7 +22,7 @@
     "description": "Robots multifonctions, pâtissiers et cuiseurs.",
     "subcategories": [
       {
-        "slug": "robot-ptissier",
+        "slug": "robot-patissier",
         "name": "Robot Pâtissier",
         "description": "Pour vos préparations sucrées et pâtisseries."
       },
@@ -39,7 +39,7 @@
     "description": "Gardez votre pelouse parfaitement entretenue.",
     "subcategories": [
       {
-        "slug": "robot-tondeuse-connect",
+        "slug": "robot-tondeuse-connecte",
         "name": "Robot Tondeuse Connecté",
         "description": "Pilotez votre tondeuse depuis votre smartphone."
       },

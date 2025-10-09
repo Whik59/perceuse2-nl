@@ -63,7 +63,7 @@ class AmazonScraper:
         
         # Quality filters (strict for high-quality products)
         self.min_rating = 3.5  # Minimum rating threshold
-        self.min_price = 50    # Minimum price 50 euros (no relax mode)
+        self.min_price = 0     # No minimum price filter - get prices from product pages
         
         # Track unique products (thread-safe)
         self.used_asins = set()
@@ -473,13 +473,10 @@ class AmazonScraper:
             safe_print(f"[CACHE] Using cached search results for '{keyword}' page {page}")
             return cached_result
         
-        # Build search URL with price filter using the domain from config
+        # Build search URL without price filter using the domain from config
         domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
-        
-        # Use strict price filter (50 euros minimum)
-        price_filter = self.min_price
             
-        search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={price_filter}&ref=sr_pg_{page}"
+        search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&ref=sr_pg_{page}"
         
         safe_print(f"[SEARCH] Page {page}: {search_url}")
         
@@ -751,13 +748,9 @@ class AmazonScraper:
                 safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {self.min_rating})")
                 return None
             
-            # Price filtering (strict)
+            # Price will be extracted from product detail page, so no filtering here
             if price_value == 0:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No price, threshold: {self.min_price}€)")
-                return None
-            elif price_value < self.min_price:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€, threshold: {self.min_price}€)")
-                return None
+                safe_print(f"  [INFO] No price on search page for '{title_text[:30]}...' - will get from product page")
             
             # Main image
             img_elem = container.find('img', class_='s-image')
@@ -1017,6 +1010,90 @@ class AmazonScraper:
         safe_print(f"  [OK] Extracted {len(final_images)} carousel images and {len(final_videos)} videos")
         return final_images, final_videos
     
+    def extract_price_from_detail_page(self, soup):
+        """Extract price from Amazon product detail page with multiple methods"""
+        price_text = ""
+        price_value = 0
+        
+        # Method 1: Main price display (most common)
+        price_elem = soup.find('span', class_='a-price-whole')
+        if price_elem:
+            price_text = price_elem.get_text().strip()
+            # Look for fraction part
+            fraction_elem = soup.find('span', class_='a-price-fraction')
+            if fraction_elem:
+                price_text += "." + fraction_elem.get_text().strip()
+            # Look for currency symbol
+            currency_elem = soup.find('span', class_='a-price-symbol')
+            if currency_elem:
+                price_text += currency_elem.get_text().strip()
+        
+        # Method 2: Price range (for products with multiple options)
+        if not price_text:
+            price_range = soup.find('span', class_='a-price-range')
+            if price_range:
+                price_text = price_range.get_text().strip()
+        
+        # Method 3: Offscreen price (hidden price)
+        if not price_text:
+            offscreen_elem = soup.find('span', class_='a-offscreen')
+            if offscreen_elem:
+                price_text = offscreen_elem.get_text().strip()
+        
+        # Method 4: Deal price (for discounted items)
+        if not price_text:
+            deal_price = soup.find('span', {'id': 'priceblock_dealprice'})
+            if deal_price:
+                price_text = deal_price.get_text().strip()
+        
+        # Method 5: Regular price
+        if not price_text:
+            regular_price = soup.find('span', {'id': 'priceblock_ourprice'})
+            if regular_price:
+                price_text = regular_price.get_text().strip()
+        
+        # Method 6: Kindle price (for digital products)
+        if not price_text:
+            kindle_price = soup.find('span', {'id': 'priceblock_kindleprice'})
+            if kindle_price:
+                price_text = kindle_price.get_text().strip()
+        
+        # Method 7: Look for any price-like text in the page
+        if not price_text:
+            all_text = soup.get_text()
+            price_patterns = [
+                r'(\d+[,\.]\d*)\s*€',
+                r'€\s*(\d+[,\.]\d*)',
+                r'(\d+[,\.]\d*)\s*EUR',
+                r'EUR\s*(\d+[,\.]\d*)',
+                r'(\d+[,\.]\d*)\s*euros',
+                r'euros\s*(\d+[,\.]\d*)',
+                r'(\d+[,\.]\d*)\s*€\s*-\s*(\d+[,\.]\d*)\s*€',  # Price range
+            ]
+            for pattern in price_patterns:
+                match = re.search(pattern, all_text)
+                if match:
+                    price_text = match.group(0)
+                    break
+        
+        # Extract numeric price value
+        if price_text:
+            # Handle price ranges (take the first price)
+            if '-' in price_text:
+                price_text = price_text.split('-')[0].strip()
+            
+            price_match = re.search(r'(\d+[,\.]\d*)', price_text.replace(',', '.'))
+            if price_match:
+                try:
+                    price_value = float(price_match.group(1))
+                    return f"{price_value}€"
+                except:
+                    return price_text
+            else:
+                return price_text
+        
+        return None
+    
     def get_detailed_product_info(self, product):
         """Get detailed product information from product page"""
         asin = product.get('asin')
@@ -1077,6 +1154,14 @@ class AmazonScraper:
         brand_elem = soup.find('a', {'id': 'bylineInfo'})
         if brand_elem:
             product['brand'] = brand_elem.get_text(strip=True)
+        
+        # Extract price from product detail page (more accurate than search results)
+        detail_price = self.extract_price_from_detail_page(soup)
+        if detail_price:
+            product['price'] = detail_price
+            safe_print(f"  [PRICE] Updated price from product page: {detail_price}")
+        else:
+            safe_print(f"  [WARNING] No price found on product detail page")
         
         # Ensure ASIN is properly set
         if not product.get('asin'):
@@ -1368,7 +1453,7 @@ class AmazonScraper:
                 'scraping_config': {
                     'tier_limits': self.tier_limits,
                     'min_rating': self.min_rating,
-                    'min_price': self.min_price
+                    'price_extraction': 'from_product_detail_pages'
                 },
                 'timestamp': datetime.now().isoformat()
             }, f, indent=2, ensure_ascii=False)
