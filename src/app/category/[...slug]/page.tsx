@@ -8,6 +8,7 @@ import Layout from '../../../../components/layout/Layout';
 import ProductCard from '../../../../components/ProductCard';
 import { Button } from '../../../../components/ui/Button';
 import Reviews from '../../../../components/Reviews';
+import SubcategoryCards from '../../../../components/SubcategoryCards';
 import { Product, Category, CartState } from '../../../../lib/types';
 import { getString, formatCurrency } from '../../../../lib/utils';
 import { createCartItem, addToCart } from '../../../../lib/cart';
@@ -176,20 +177,8 @@ const CategoryPage: React.FC = () => {
   const handleAddToCart = async (product: Product) => {
     try {
       const cartItem = createCartItem(product);
-      await addToCart(cartItem);
-      
-      // Update local cart state
-      setCart(prevCart => {
-        const existingItem = prevCart.items.find(item => item.productId === product.productId);
-        if (existingItem) {
-          existingItem.quantity += 1;
-        } else {
-          prevCart.items.push({ ...cartItem, quantity: 1 });
-        }
-        
-        const subtotal = prevCart.items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-        return { ...prevCart, subtotal };
-      });
+      const updatedCart = addToCart(cart, cartItem);
+      setCart(updatedCart);
     } catch (error) {
       console.error('Error adding to cart:', error);
     }
@@ -264,6 +253,15 @@ const CategoryPage: React.FC = () => {
           </nav>
         </div>
       </div>
+
+      {/* Subcategory Cards Section */}
+      {category.categoryId && (
+        <SubcategoryCards 
+          categories={categories} 
+          parentCategoryId={category.categoryId}
+          title={`Explore ${category.name} Categories`}
+        />
+      )}
 
       {/* Products Section */}
       <div className="py-8 bg-white">
@@ -397,7 +395,6 @@ const CategoryPage: React.FC = () => {
                 <ProductCard
                   key={product.productId}
                   product={product}
-                  viewMode={viewMode}
                   onAddToCart={() => handleAddToCart(product)}
                 />
               ))}

@@ -59,51 +59,50 @@ export async function GET(
       return false;
     });
     
-    // If not found in main categories.json, try to find in individual JSON files
-    if (!category) {
-      console.log('API: Category not found in main file, checking individual files...');
-      
-      // Try to find by matching the slug pattern
-      const slugParts = fullSlug.split('/');
-      const lastSlug = slugParts[slugParts.length - 1];
-      const flatSlug = fullSlug.replace(/\//g, '-'); // Convert robot-aspirateur/laveur to robot-aspirateur-laveur
-      
-      console.log('API: Looking for:', {
-        fullSlug,
-        flatSlug,
-        lastSlug,
-        slugParts
-      });
-      
-      // Look through individual category files
-      const categoriesDir = path.join(process.cwd(), 'data', 'categories');
-      const files = fs.readdirSync(categoriesDir);
-      
-      for (const file of files) {
-        if (file.endsWith('.json')) {
-          try {
-            const filePath = path.join(categoriesDir, file);
-            const categoryData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-            
-            console.log('API: Checking file:', file, 'slug:', categoryData.slug, 'name:', categoryData.categoryNameCanonical);
-            
-            // Check if this category matches our slug
-            // Try different slug formats:
-            // 1. Exact match with hierarchical slug (robot-aspirateur/laveur)
-            // 2. Match with flat slug format (robot-aspirateur-laveur)
-            // 3. Match with just the last part (laveur)
-            
-            if (categoryData.slug === fullSlug || 
-                categoryData.slug === flatSlug ||
-                categoryData.slug === lastSlug ||
-                categoryData.slug === slugParts[slugParts.length - 1]) {
-              console.log('API: Found category in individual file:', file, categoryData.categoryNameCanonical, 'slug:', categoryData.slug);
-              category = categoryData;
-              break;
-            }
-          } catch (error) {
-            console.log('API: Error reading file:', file, error);
+    // Always check individual files for content, even if found in main file
+    // because main file doesn't have content, only individual files do
+    console.log('API: Checking individual files for content...');
+    
+    // Try to find by matching the slug pattern
+    const slugParts = fullSlug.split('/');
+    const lastSlug = slugParts[slugParts.length - 1];
+    const flatSlug = fullSlug.replace(/\//g, '-'); // Convert robot-aspirateur/laveur to robot-aspirateur-laveur
+    
+    console.log('API: Looking for:', {
+      fullSlug,
+      flatSlug,
+      lastSlug,
+      slugParts
+    });
+    
+    // Look through individual category files
+    const categoriesDir = path.join(process.cwd(), 'data', 'categories');
+    const files = fs.readdirSync(categoriesDir);
+    
+    for (const file of files) {
+      if (file.endsWith('.json')) {
+        try {
+          const filePath = path.join(categoriesDir, file);
+          const categoryData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+          
+          console.log('API: Checking file:', file, 'slug:', categoryData.slug, 'name:', categoryData.categoryNameCanonical);
+          
+          // Check if this category matches our slug
+          // Try different slug formats:
+          // 1. Exact match with hierarchical slug (robot-aspirateur/laveur)
+          // 2. Match with flat slug format (robot-aspirateur-laveur)
+          // 3. Match with just the last part (laveur)
+          
+          if (categoryData.slug === fullSlug || 
+              categoryData.slug === flatSlug ||
+              categoryData.slug === lastSlug ||
+              categoryData.slug === slugParts[slugParts.length - 1]) {
+            console.log('API: Found category in individual file:', file, categoryData.categoryNameCanonical, 'slug:', categoryData.slug);
+            category = categoryData;
+            break;
           }
+        } catch (error) {
+          console.log('API: Error reading file:', file, error);
         }
       }
     }
