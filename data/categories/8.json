@@ -1,41 +1,41 @@
 {
   "categoryId": 8,
-  "categoryNameCanonical": "staubsauger afg",
-  "slug": "staubsauger-afg",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Gesund genießen! Top Airfryer Produkte & attraktive Angebote ab 19€ hier entdecken.",
-  "content": "<div><h2>Airfryer Angebote: Gesund Kochen zum Bestpreis!</h2><p>Entdecken Sie die Welt des gesunden Genusses mit unseren unschlagbaren <a href=\"/airfryer-angebote\" title=\"Airfryer Angebote\">Airfryer Angebote</a>! Verabschieden Sie sich von fettigem Frittiergut und begrüßen Sie knusprige, köstliche Speisen, zubereitet mit heißer Luft und minimalem Öl. Egal ob knusprige Pommes, saftiges Hähnchen oder perfekt gegrilltes Gemüse – ein Airfryer ist das Must-have für jede moderne Küche.</p><p>Wir präsentieren Ihnen eine exklusive Auswahl an <a href=\"/airfryer-products\" title=\"Airfryer Produkte\">Airfryer products</a>, die nicht nur durch ihre Leistung, sondern auch durch ihren attraktiven Preis überzeugen. Schon <b>ab 19€</b> können Sie in die Welt des fettarmen Frittierens eintauchen. Profitieren Sie von unserem <a href=\"/best-price-airfryer\" title=\"Airfryer zum Bestpreis\">best price</a> und sichern Sie sich Ihr Wunschgerät mit einem sensationellen <a href=\"/airfryer-offer\" title=\"Airfryer Offer\">offer</a>.</p><h3>Ihre Vorteile mit einem Airfryer aus unserem Sortiment:</h3><ul><li><strong>Gesündere Zubereitung:</strong> Bis zu 80% weniger Fett als bei herkömmlichen Fritteusen.</li><li><strong>Vielseitigkeit:</strong> Frittieren, Backen, Grillen, Rösten – alles in einem Gerät.</li><li><strong>Einfache Bedienung &amp; Reinigung:</strong> Intuitive Handhabung und spülmaschinenfeste Teile.</li><li><strong>Energiesparend:</strong> Oft schneller und effizienter als ein Backofen.</li></ul><p>Unsere sorgfältig ausgewählten <a href=\"/günstige-airfryer\" title=\"Günstige Airfryer\">günstige Airfryer</a> Produkte stammen von renommierten Herstellern und garantieren Ihnen Langlebigkeit und Top-Ergebnisse. Verpassen Sie nicht die Chance, von unseren aktuellen <a href=\"/sonderangebote-airfryer\" title=\"Sonderangebote Airfryer\">Sonderangeboten</a> zu profitieren. Kaufen Sie jetzt Ihren neuen Airfryer und erleben Sie, wie einfach und lecker gesunde Ernährung sein kann. Jetzt stöbern und den besten Deal sichern!</p></div>",
+  "categoryNameCanonical": "Robot Tondeuse Connecté",
+  "slug": "robot-tondeuse-connect",
+  "parentCategoryId": 7,
+  "level": 1,
+  "description": "Automatisez votre jardin. Robot tondeuse connecté : meilleur prix et offres !",
+  "content": "<div><h2>Robot Tondeuse Connecté : La Révolution pour votre Jardin</h2><p>Découvrez notre sélection de <b>robots tondeuses connectés</b>, la solution idéale pour un <b>entretien pelouse</b> sans effort et une pelouse toujours impeccable. Fini la corvée de tonte, nos <b>robots</b> autonomes prennent le relais, vous offrant plus de temps libre pour profiter de votre <b>jardin connecté</b>. Grâce à leur connectivité avancée (Wi-Fi, Bluetooth, GPS), ces appareils intelligents peuvent être gérés directement depuis votre smartphone, où que vous soyez. Programmez les tontes, ajustez les zones ou vérifiez le statut de votre <b>tondeuse automatique</b> en quelques clics.</p><p>Nous comprenons l'importance d'un bon investissement pour votre équipement de jardinage. C'est pourquoi nous nous efforçons de vous offrir le <b>meilleur prix</b> sur une large gamme de <b>robots tondeuses</b> de marques reconnues pour leur fiabilité et leur performance. Gardez un œil sur nos <b>offres</b> exclusives pour profiter de réductions exceptionnelles et acquérir votre futur assistant de jardinage sans vous ruiner. Que vous ayez un petit ou un grand terrain, un <b>robot tondeuse sans fil</b> connecté est la garantie d'une <b>pelouse parfaite</b> et d'une tranquillité d'esprit inégalée. Simplifiez votre vie et optez pour l'efficacité intelligente de nos solutions de tonte robotisée. Profitez d'un jardin impeccable avec nos <b>robots</b> à la pointe de la technologie.</p></div>",
   "seo": {
-    "title": "Airfryer Angebote: Bestpreis & Top Produkte ab 19€ sichern!",
-    "description": "Gesund genießen! Top Airfryer Produkte & attraktive Angebote ab 19€ hier entdecken.",
+    "title": "Robot Tondeuse Connecté : Meilleur Prix & Offre Exclusive",
+    "description": "Automatisez votre jardin. Robot tondeuse connecté : meilleur prix et offres !",
     "keywords": [
-      "Airfryer",
-      "Heißluftfritteuse",
-      "Airfryer Angebote",
-      "best price",
-      "offer",
-      "günstige Airfryer products",
-      "Küchengeräte",
-      "gesund frittieren",
-      "Airfryer kaufen"
+      "robot tondeuse connecté",
+      "robots",
+      "meilleur prix",
+      "offre",
+      "tondeuse automatique",
+      "jardin connecté",
+      "entretien pelouse",
+      "robot sans fil",
+      "pelouse parfaite"
     ],
-    "enhancedAt": "2025-10-08T13:19:10.668633"
+    "enhancedAt": "2025-10-09T22:12:35.333045"
   },
   "faq": [
     {
-      "question": "Was ist ein Airfryer und wie funktioniert er?",
-      "answer": "Ein Airfryer, auch Heißluftfritteuse genannt, ist ein Küchengerät, das Speisen mithilfe von heißer Umluft gart. Dadurch werden Gerichte außen knusprig und innen zart, meist mit sehr wenig oder gar keinem Öl – ideal für eine gesündere Zubereitung von Pommes, Hähnchen, Gemüse und mehr."
+      "question": "Qu'est-ce qu'un robot tondeuse connecté ?",
+      "answer": "C'est un appareil autonome qui tond votre pelouse et peut être contrôlé à distance via une application mobile, offrant des fonctionnalités avancées comme la programmation, le suivi GPS et l'ajustement selon la météo. Il s'intègre parfaitement à votre maison intelligente."
     },
     {
-      "question": "Welche Vorteile bietet ein Airfryer gegenüber einer herkömmlichen Fritteuse?",
-      "answer": "Der größte Vorteil ist die gesündere Zubereitung durch den stark reduzierten Fettverbrauch. Zudem ist die Geruchsentwicklung geringer, die Reinigung einfacher und viele Airfryer sind vielseitiger, da sie auch zum Backen, Grillen und Rösten verwendet werden können."
+      "question": "Quels sont les avantages d'un robot tondeuse connecté ?",
+      "answer": "Les avantages incluent un gain de temps considérable, une pelouse toujours impeccable sans effort, un contrôle total à distance, un fonctionnement silencieux et une intégration facile dans votre écosystème de jardin connecté. Il libère votre temps précieux."
     },
     {
-      "question": "Kann ich im Airfryer auch andere Speisen als Pommes zubereiten?",
-      "answer": "Absolut! Airfryer sind äußerst vielseitig. Sie können darin nicht nur Pommes, sondern auch Hähnchen, Fisch, Gemüse, Aufläufe, Brötchen, Gebäck und sogar Desserts zubereiten. Ihrer Kreativität sind kaum Grenzen gesetzt."
+      "question": "Comment trouver le meilleur prix pour un robot tondeuse connecté ?",
+      "answer": "Pour dénicher le meilleur prix, nous vous conseillons de comparer les différentes gammes et fonctionnalités, de surveiller nos offres promotionnelles régulières et de consulter les avis clients. Nous nous engageons à vous proposer le robot tondeuse connecté au meilleur tarif et avec les meilleures offres."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-08T13:19:10.668644"
+  "enhancedAt": "2025-10-09T22:12:35.333057"
 }

@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { getCategories } from '../../../../../lib/getCategories';
 
 export async function GET(
   request: NextRequest,
@@ -10,38 +9,15 @@ export async function GET(
     const resolvedParams = await params;
     const slug = resolvedParams.slug;
 
-    // First try to load from individual category files
-    const categoriesDir = path.join(process.cwd(), 'data', 'categories');
+    // Get all categories using the getCategories function
+    const allCategories = await getCategories();
     
-    // Look for category by slug in individual files
-    if (fs.existsSync(categoriesDir)) {
-      const categoryFiles = fs.readdirSync(categoriesDir).filter(file => file.endsWith('.json'));
-      
-      for (const file of categoryFiles) {
-        try {
-          const filePath = path.join(categoriesDir, file);
-          const categoryData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-          
-          if (categoryData.slug === slug) {
-            return NextResponse.json(categoryData);
-          }
-        } catch (error) {
-          console.error(`Error reading category file ${file}:`, error);
-        }
-      }
-    }
+    // Find category by slug (check both main categories and subcategories)
+    // The slug might be hierarchical like "robot-aspirateur/laveur"
+    const category = allCategories.find((cat) => cat.slug === slug);
     
-    // Fallback to main categories.json file
-    const categoriesPath = path.join(process.cwd(), 'data', 'categories.json');
-    if (fs.existsSync(categoriesPath)) {
-      const categoriesData = JSON.parse(fs.readFileSync(categoriesPath, 'utf-8'));
-      
-      // Find category by slug
-      const category = categoriesData.find((cat: any) => cat.slug === slug);
-      
-      if (category) {
-        return NextResponse.json(category);
-      }
+    if (category) {
+      return NextResponse.json(category);
     }
     
     return NextResponse.json({ error: 'Category not found' }, { status: 404 });

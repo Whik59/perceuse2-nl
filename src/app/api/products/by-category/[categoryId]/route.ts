@@ -51,7 +51,7 @@ export async function GET(
             shortDescription: productData.shortDescription || productData.description?.substring(0, 200) || '',
             longDescription: productData.description || '',
             categoryIds: [categoryId], // Use the current category ID
-            basePrice: parseFloat(productData.price?.toString().replace(/[€,]/g, '') || '0'),
+            basePrice: parseFloat(productData.price?.toString().replace(/[€,]/g, '').replace(',', '.') || '0'),
             compareAtPrice: productData.compareAtPrice,
             onSale: productData.compareAtPrice > 0,
             variations: [],
@@ -81,7 +81,7 @@ export async function GET(
             amazonUrl: productData.amazonUrl || '',
             amazonASIN: productData.amazonASIN || productData.productId,
             originalAmazonTitle: productData.originalAmazonTitle,
-            amazonPrice: parseFloat(productData.amazonPrice?.toString().replace(/[€,]/g, '') || productData.price?.toString().replace(/[€,]/g, '') || '0'),
+            amazonPrice: parseFloat(productData.amazonPrice?.toString().replace(/[€,]/g, '').replace(',', '.') || productData.price?.toString().replace(/[€,]/g, '').replace(',', '.') || '0'),
             amazonRating: productData.amazonRating,
             amazonReviewCount: productData.amazonReviewCount,
             affiliateId: productData.affiliateId || 'friteuseexp-21'

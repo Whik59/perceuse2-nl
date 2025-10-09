@@ -50,12 +50,49 @@ class CategoryProductsIndexer:
         self.category_products_map = defaultdict(list)
         
     def load_categories(self):
-        """Load all categories from categories.json"""
+        """Load hierarchical categories from categories.json and flatten them"""
         try:
             with open(self.categories_file, 'r', encoding='utf-8') as f:
-                categories = json.load(f)
-            safe_print(f"[OK] Loaded {len(categories)} categories")
+                hierarchical_categories = json.load(f)
+            
+            # Flatten hierarchical structure to match the scraper's format
+            categories = []
+            category_id_counter = 1
+            
+            for main_category in hierarchical_categories:
+                # Create main category
+                main_cat = {
+                    'categoryId': category_id_counter,
+                    'name': main_category['name'],
+                    'slug': main_category['slug'],
+                    'level': 0,
+                    'parentCategoryId': None,
+                    'categoryNameCanonical': main_category['name'],
+                    'description': main_category['description']
+                }
+                categories.append(main_cat)
+                category_id_counter += 1
+                
+                # Create subcategories if they exist
+                if 'subcategories' in main_category and main_category['subcategories']:
+                    for subcat in main_category['subcategories']:
+                        subcategory = {
+                            'categoryId': category_id_counter,
+                            'name': subcat['name'],
+                            'slug': f"{main_category['slug']}/{subcat['slug']}",  # Hierarchical slug
+                            'level': 1,
+                            'parentCategoryId': main_cat['categoryId'],
+                            'categoryNameCanonical': subcat['name'],
+                            'description': subcat['description']
+                        }
+                        categories.append(subcategory)
+                        category_id_counter += 1
+            
+            safe_print(f"[OK] Loaded {len(categories)} categories:")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 0])} main categories")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories")
             return categories
+            
         except Exception as e:
             safe_print(f"[ERROR] Could not load categories: {e}")
             return []
@@ -97,14 +134,14 @@ class CategoryProductsIndexer:
         return products
     
     def match_products_to_categories(self, products):
-        """Match products to categories based on category_id field"""
+        """Match products to categories based on category_id field and hierarchical structure"""
         matched_count = 0
         
         for product in products:
             product_data = product['data']
             product_id = product['productId']
             
-            # Method 1: Check if product has category_id field
+            # Method 1: Check if product has category_id field (primary method)
             category_id = product_data.get('category_id')
             if category_id:
                 self.category_products_map[str(category_id)].append(product_id)
@@ -114,7 +151,7 @@ class CategoryProductsIndexer:
             # Method 2: Check if product has category_name field and match by name
             category_name = product_data.get('category_name') or product_data.get('category')
             if category_name:
-                # Find category by name
+                # Find category by name (check both main and subcategories)
                 matching_category = None
                 for cat in self.categories:
                     if (cat.get('name') == category_name or 
@@ -131,11 +168,13 @@ class CategoryProductsIndexer:
             product_title = product_data.get('name') or product_data.get('title', '')
             product_title_lower = product_title.lower()
             
-            # Find best matching category
+            # Find best matching category (prioritize subcategories for more specific matches)
             best_match = None
             best_score = 0
             
-            for cat in self.categories:
+            # First try subcategories (level 1) for more specific matches
+            subcategories = [cat for cat in self.categories if cat['level'] == 1]
+            for cat in subcategories:
                 cat_name = cat.get('name') or cat.get('categoryNameCanonical', '')
                 cat_name_lower = cat_name.lower()
                 
@@ -144,23 +183,48 @@ class CategoryProductsIndexer:
                 
                 # Exact match
                 if cat_name_lower in product_title_lower:
-                    score += 10
+                    score += 15  # Higher score for subcategories
                 
                 # Partial match
                 words = cat_name_lower.split()
                 for word in words:
                     if len(word) > 3 and word in product_title_lower:
-                        score += 1
+                        score += 2
                 
                 if score > best_score:
                     best_score = score
                     best_match = cat
             
+            # If no good subcategory match, try main categories
+            if not best_match or best_score < 3:
+                main_categories = [cat for cat in self.categories if cat['level'] == 0]
+                for cat in main_categories:
+                    cat_name = cat.get('name') or cat.get('categoryNameCanonical', '')
+                    cat_name_lower = cat_name.lower()
+                    
+                    # Calculate similarity score
+                    score = 0
+                    
+                    # Exact match
+                    if cat_name_lower in product_title_lower:
+                        score += 10
+                    
+                    # Partial match
+                    words = cat_name_lower.split()
+                    for word in words:
+                        if len(word) > 3 and word in product_title_lower:
+                            score += 1
+                    
+                    if score > best_score:
+                        best_score = score
+                        best_match = cat
+            
             # If we found a reasonable match, assign the product
             if best_match and best_score >= 2:
                 self.category_products_map[str(best_match['categoryId'])].append(product_id)
                 matched_count += 1
-                safe_print(f"[MATCH] {product_id} -> {best_match.get('name', 'Unknown')} (score: {best_score})")
+                level_type = "subcategory" if best_match['level'] == 1 else "main category"
+                safe_print(f"[MATCH] {product_id} -> {best_match.get('name', 'Unknown')} ({level_type}, score: {best_score})")
         
         safe_print(f"[OK] Matched {matched_count} products to categories")
         return matched_count
@@ -223,9 +287,13 @@ class CategoryProductsIndexer:
             return False
     
     def print_detailed_stats(self):
-        """Print detailed statistics about the mapping"""
+        """Print detailed statistics about the mapping with hierarchical information"""
         safe_print(f"\n[STATS] DETAILED CATEGORY-PRODUCTS MAPPING")
         safe_print("=" * 60)
+        
+        # Separate main categories and subcategories
+        main_categories = [cat for cat in self.categories if cat['level'] == 0]
+        subcategories = [cat for cat in self.categories if cat['level'] == 1]
         
         # Sort categories by product count
         sorted_categories = sorted(
@@ -234,16 +302,36 @@ class CategoryProductsIndexer:
             reverse=True
         )
         
-        # Show top 20 categories with most products
-        safe_print(f"[TOP 20] Categories with most products:")
-        for i, (category_id, products) in enumerate(sorted_categories[:20]):
-            category_name = "Unknown"
-            for cat in self.categories:
+        # Show main categories with most products
+        safe_print(f"[MAIN CATEGORIES] Top categories with most products:")
+        main_cat_stats = []
+        for category_id, products in sorted_categories:
+            for cat in main_categories:
                 if str(cat['categoryId']) == category_id:
-                    category_name = cat.get('name', cat.get('categoryNameCanonical', 'Unknown'))
+                    main_cat_stats.append((cat, len(products)))
                     break
-            
-            safe_print(f"  {i+1:2d}. {category_name} (ID: {category_id}): {len(products)} products")
+        
+        main_cat_stats.sort(key=lambda x: x[1], reverse=True)
+        for i, (cat, count) in enumerate(main_cat_stats[:10]):
+            safe_print(f"  {i+1:2d}. {cat['name']} (ID: {cat['categoryId']}): {count} products")
+        
+        # Show subcategories with most products
+        safe_print(f"\n[SUBCATEGORIES] Top subcategories with most products:")
+        subcat_stats = []
+        for category_id, products in sorted_categories:
+            for cat in subcategories:
+                if str(cat['categoryId']) == category_id:
+                    subcat_stats.append((cat, len(products)))
+                    break
+        
+        subcat_stats.sort(key=lambda x: x[1], reverse=True)
+        for i, (cat, count) in enumerate(subcat_stats[:10]):
+            parent_name = "Unknown"
+            for main_cat in main_categories:
+                if main_cat['categoryId'] == cat['parentCategoryId']:
+                    parent_name = main_cat['name']
+                    break
+            safe_print(f"  {i+1:2d}. {cat['name']} (Parent: {parent_name}, ID: {cat['categoryId']}): {count} products")
         
         # Show categories with no products
         categories_without_products = []
@@ -255,10 +343,28 @@ class CategoryProductsIndexer:
         if categories_without_products:
             safe_print(f"\n[WARNING] Categories with NO products ({len(categories_without_products)}):")
             for cat in categories_without_products[:10]:  # Show first 10
-                safe_print(f"  - {cat.get('name', cat.get('categoryNameCanonical', 'Unknown'))} (ID: {cat['categoryId']})")
+                level_type = "subcategory" if cat['level'] == 1 else "main category"
+                safe_print(f"  - {cat.get('name', cat.get('categoryNameCanonical', 'Unknown'))} ({level_type}, ID: {cat['categoryId']})")
             
             if len(categories_without_products) > 10:
                 safe_print(f"  ... and {len(categories_without_products) - 10} more")
+        
+        # Show hierarchical summary
+        safe_print(f"\n[HIERARCHICAL SUMMARY]:")
+        main_with_products = len([cat for cat in main_categories if str(cat['categoryId']) in self.category_products_map and len(self.category_products_map[str(cat['categoryId'])]) > 0])
+        sub_with_products = len([cat for cat in subcategories if str(cat['categoryId']) in self.category_products_map and len(self.category_products_map[str(cat['categoryId'])]) > 0])
+        
+        safe_print(f"  Main categories: {main_with_products}/{len(main_categories)} have products")
+        safe_print(f"  Subcategories: {sub_with_products}/{len(subcategories)} have products")
+        
+        # Calculate expected vs actual
+        expected_main_products = len(main_categories) * 20
+        expected_sub_products = len(subcategories) * 5
+        actual_main_products = sum(len(self.category_products_map[str(cat['categoryId'])]) for cat in main_categories if str(cat['categoryId']) in self.category_products_map)
+        actual_sub_products = sum(len(self.category_products_map[str(cat['categoryId'])]) for cat in subcategories if str(cat['categoryId']) in self.category_products_map)
+        
+        safe_print(f"  Expected products: {expected_main_products} main + {expected_sub_products} sub = {expected_main_products + expected_sub_products}")
+        safe_print(f"  Actual products: {actual_main_products} main + {actual_sub_products} sub = {actual_main_products + actual_sub_products}")
     
     def run(self):
         """Main execution function"""

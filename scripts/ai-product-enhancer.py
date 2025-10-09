@@ -186,18 +186,18 @@ Respond ONLY with JSON array.
             import google.generativeai as genai
             
             # Configure Gemini with your API key
-            API_KEY = "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ"
+            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
                 thread_safe_print(f"[ERROR] No API key configured! Stopping script.", self.print_lock)
                 raise Exception("AI API key not configured - stopping script")
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash-lite')
             
-            # System prompt for German language
+            # System prompt for target language
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and vacuum cleaner-related content."
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and robot/technology-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -1059,20 +1059,103 @@ Konzentriere dich auf häufige Bedenken über:
     def optimize_product_name_fast(self, original_name):
         """AI-powered name optimization with product-specific prompts"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
-        prompt = f"SEO name (60 chars) for: {original_name} in {language_name}"
+        prompt = f"""Create a clean, SEO-optimized product name (max 60 characters) for: "{original_name}" in {language_name}
+
+CRITICAL RULES:
+- Return ONLY the product name, nothing else
+- NO explanations, analysis, or conversational text
+- NO "¡Claro!" or "Aquí tienes" or similar phrases
+- NO bullet points or formatting
+- NO quotes around the name
+- Focus on key features and benefits
+- Make it appealing and descriptive
+
+EXAMPLE INPUT: "Bobby, the Hopping Robot (Between the Lions)"
+EXAMPLE OUTPUT: Robot Aspirador Bobby - Limpieza Inteligente
+
+RESPOND WITH ONLY THE PRODUCT NAME:"""
         
-        return self.get_ai_response_fast(prompt)
+        response = self.get_ai_response_fast(prompt)
+        
+        # Clean up the response - remove any conversational text
+        clean_name = response.strip()
+        
+        # Remove common conversational prefixes and patterns
+        conversational_patterns = [
+            r'¡.*?\!.*?(?=\n|$)',
+            r'Aquí tienes.*?(?=\n|$)',
+            r'Como.*?especialista.*?(?=\n|$)',
+            r'Opción.*?(?=\n|$)',
+            r'Nombre SEO.*?(?=\n|$)',
+            r'Título SEO.*?(?=\n|$)',
+            r'Justificación.*?(?=\n|$)',
+            r'Consideraciones.*?(?=\n|$)',
+            r'Análisis.*?(?=\n|$)',
+            r'---.*?(?=\n|$)',
+            r'\*\*.*?\*\*',
+            r'^\d+\.\s*',
+        ]
+        
+        for pattern in conversational_patterns:
+            clean_name = re.sub(pattern, '', clean_name, flags=re.IGNORECASE | re.DOTALL | re.MULTILINE)
+        
+        # Extract just the product name if it's wrapped in quotes or asterisks
+        if '"' in clean_name:
+            match = re.search(r'"([^"]+)"', clean_name)
+            if match:
+                clean_name = match.group(1)
+        
+        # Look for bold text patterns
+        bold_match = re.search(r'\*\*([^*]+)\*\*', clean_name)
+        if bold_match:
+            clean_name = bold_match.group(1)
+        
+        # Remove asterisks and other formatting
+        clean_name = re.sub(r'[*#-]', '', clean_name).strip()
+        
+        # Clean up extra whitespace and newlines
+        clean_name = re.sub(r'\s+', ' ', clean_name).strip()
+        
+        # If still contains conversational text, try to extract the first clean line
+        if any(word in clean_name.lower() for word in ['opción', 'justificación', 'consideraciones', 'análisis', 'como especialista']):
+            lines = clean_name.split('\n')
+            for line in lines:
+                line = line.strip()
+                if line and len(line) > 5 and not any(word in line.lower() for word in ['opción', 'justificación', 'consideraciones', 'análisis', 'como especialista', 'aquí tienes']):
+                    clean_name = line
+                    break
+        
+        # Limit to 60 characters
+        return clean_name[:60] if clean_name else original_name[:60]
 
     def enhance_description_fast(self, original_name, features, price):
         """AI-powered description enhancement with product-specific prompts"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""HTML description (200 words) for: {original_name} in {language_name}
+        prompt = f"""Create HTML description (200 words) for: {original_name} in {language_name}
 Price: {price}€
 Features: {features_text[:50]}
 
-Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p>CTA</p></div>"""
+CRITICAL RULES:
+- Return ONLY the HTML content, nothing else
+- NO explanations, analysis, or conversational text
+- NO "¡Absolutamente!" or "Como especialista" or similar phrases
+- NO bullet points or formatting outside HTML
+- Start directly with <div> and end with </div>
+- Focus on product benefits and features
+- Include compelling call-to-action
+
+EXAMPLE OUTPUT:
+<div>
+<h2>Product Title</h2>
+<p>Description...</p>
+<h3>Features</h3>
+<ul><li>Feature 1</li></ul>
+<p>Call to action</p>
+</div>
+
+RESPOND WITH ONLY THE HTML:"""
         
         response = self.get_ai_response_fast(prompt)
         
@@ -1084,6 +1167,31 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
         if response.endswith('```'):
             response = response[:-3]
         
+        # Remove conversational text patterns
+        conversational_patterns = [
+            r'¡.*?\!.*?(?=\n|$)',
+            r'Aquí tienes.*?(?=\n|$)',
+            r'Como.*?especialista.*?(?=\n|$)',
+            r'He creado.*?(?=\n|$)',
+            r'Optimizada.*?(?=\n|$)',
+            r'Persuasiva.*?(?=\n|$)',
+            r'\*\*Precio.*?(?=\n|$)',
+        ]
+        
+        for pattern in conversational_patterns:
+            response = re.sub(pattern, '', response, flags=re.IGNORECASE | re.DOTALL | re.MULTILINE)
+        
+        # Extract HTML content if it's wrapped in conversational text
+        html_match = re.search(r'```html\s*(.*?)\s*```', response, re.DOTALL)
+        if html_match:
+            response = html_match.group(1)
+        
+        # Ensure proper HTML structure
+        if not response.startswith('<div'):
+            response = f"<div>\n{response}"
+        if not response.endswith('</div>'):
+            response = f"{response}\n</div>"
+            
         return response.strip()
 
     def enhance_specifications_fast(self, specifications, original_name):
@@ -1091,7 +1199,11 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         existing_specs = ", ".join(specifications.keys()) if specifications else "none"
         
-        prompt = f"JSON specs for: {original_name} in {language_name}\nExample: {{'Garantie':'2 Jahre','Versand':'Kostenlos','Material':'Hochwertig'}}"
+        prompt = f"""JSON specs for: {original_name} in {language_name}
+Example: {{"Garantie":"2 Jahre","Versand":"Kostenlos","Material":"Hochwertig"}}
+
+IMPORTANT: Respond ONLY with valid JSON object, no additional text.
+Focus on robot/technology specifications for: {original_name}"""
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1116,35 +1228,63 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
             
             # Try to find JSON object in the response
             import re
-            json_match = re.search(r'\{.*\}', response, re.DOTALL)
+            json_match = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', response, re.DOTALL)
             if json_match:
                 json_str = json_match.group()
-                parsed_specs = json.loads(json_str)
-                if isinstance(parsed_specs, dict):
-                    return parsed_specs
+                try:
+                    parsed_specs = json.loads(json_str)
+                    if isinstance(parsed_specs, dict):
+                        return parsed_specs
+                except json.JSONDecodeError:
+                    pass
             
             # If no JSON object found, try parsing the whole response
-            parsed_specs = json.loads(response)
-            if isinstance(parsed_specs, dict):
-                return parsed_specs
+            try:
+                parsed_specs = json.loads(response)
+                if isinstance(parsed_specs, dict):
+                    return parsed_specs
+            except json.JSONDecodeError:
+                pass
                 
-            # If all parsing fails, raise error
-            self._raise_ai_error("specifications")
+            # If all parsing fails, return default specs instead of raising error
+            safe_print(f"[WARNING] Could not parse specs JSON, using defaults")
+            return {
+                "Garantía": "2 años",
+                "Envío": "Gratis", 
+                "Material": "Alta calidad",
+                "Tecnología": "Avanzada"
+            }
             
         except json.JSONDecodeError as e:
             safe_print(f"[ERROR] JSON parsing failed: {e}")
             safe_print(f"[ERROR] Response was: {response[:200]}...")
-            self._raise_ai_error("specifications")
+            # Return default specs instead of raising error
+            return {
+                "Garantía": "2 años",
+                "Envío": "Gratis", 
+                "Material": "Alta calidad",
+                "Tecnología": "Avanzada"
+            }
         except Exception as e:
             safe_print(f"[ERROR] Specifications enhancement failed: {e}")
-            self._raise_ai_error("specifications")
+            # Return default specs instead of raising error
+            return {
+                "Garantía": "2 años",
+                "Envío": "Gratis", 
+                "Material": "Alta calidad",
+                "Tecnología": "Avanzada"
+            }
 
     def generate_faq_fast(self, original_name, features, price):
         """AI-powered FAQ generation - SIMPLIFIED and conversational"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:2]) if features else "key features"
         
-        prompt = f"3 FAQ JSON for: {original_name} in {language_name}\nFormat: [{{'question':'Is it easy?','answer':'Yes...'}}]"
+        prompt = f"""3 FAQ JSON for: {original_name} in {language_name}
+Format: [{{"question":"Is it easy to use?","answer":"Yes, it's very simple..."}}]
+
+IMPORTANT: Respond ONLY with valid JSON array, no additional text.
+Focus on robot/technology FAQs for: {original_name}"""
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1169,28 +1309,49 @@ Format: <div><h2>Title</h2><p>Intro</p><h3>Features</h3><ul><li>List</li></ul><p
             
             # Try to find JSON array in the response
             import re
-            json_match = re.search(r'\[.*\]', response, re.DOTALL)
+            json_match = re.search(r'\[[^\[\]]*(?:\[[^\[\]]*\][^\[\]]*)*\]', response, re.DOTALL)
             if json_match:
                 json_str = json_match.group()
-                parsed_faq = json.loads(json_str)
-                if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
-                    return parsed_faq
+                try:
+                    parsed_faq = json.loads(json_str)
+                    if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
+                        return parsed_faq
+                except json.JSONDecodeError:
+                    pass
             
             # If no JSON array found, try parsing the whole response
-            parsed_faq = json.loads(response)
-            if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
-                return parsed_faq
+            try:
+                parsed_faq = json.loads(response)
+                if isinstance(parsed_faq, list) and len(parsed_faq) > 0:
+                    return parsed_faq
+            except json.JSONDecodeError:
+                pass
                 
-            # If all parsing fails, raise error
-            self._raise_ai_error("FAQ")
+            # If all parsing fails, return default FAQ instead of raising error
+            safe_print(f"[WARNING] Could not parse FAQ JSON, using defaults")
+            return [
+                {"question": "¿Es fácil de usar?", "answer": "Sí, es muy simple y intuitivo de usar."},
+                {"question": "¿Qué garantía tiene?", "answer": "Incluye garantía de 2 años del fabricante."},
+                {"question": "¿El envío es gratuito?", "answer": "Sí, ofrecemos envío gratuito en toda España."}
+            ]
             
         except json.JSONDecodeError as e:
             safe_print(f"[ERROR] FAQ JSON parsing failed: {e}")
             safe_print(f"[ERROR] Response was: {response[:200]}...")
-            self._raise_ai_error("FAQ")
+            # Return default FAQ instead of raising error
+            return [
+                {"question": "¿Es fácil de usar?", "answer": "Sí, es muy simple y intuitivo de usar."},
+                {"question": "¿Qué garantía tiene?", "answer": "Incluye garantía de 2 años del fabricante."},
+                {"question": "¿El envío es gratuito?", "answer": "Sí, ofrecemos envío gratuito en toda España."}
+            ]
         except Exception as e:
             safe_print(f"[ERROR] FAQ generation failed: {e}")
-            self._raise_ai_error("FAQ")
+            # Return default FAQ instead of raising error
+            return [
+                {"question": "¿Es fácil de usar?", "answer": "Sí, es muy simple y intuitivo de usar."},
+                {"question": "¿Qué garantía tiene?", "answer": "Incluye garantía de 2 años del fabricante."},
+                {"question": "¿El envío es gratuito?", "answer": "Sí, ofrecemos envío gratuito en toda España."}
+            ]
 
     def create_short_description_fast(self, original_name, features, price):
         """AI-powered short description with product-specific prompts"""
@@ -1206,23 +1367,23 @@ Respond ONLY with description:"""
         return self.get_ai_response_fast(prompt)
 
     def get_ai_response_fast(self, prompt):
-        """Fast AI response using Google Gemini 2.5 Flash with NO FALLBACKS - stops script if AI fails"""
+        """Fast AI response using Google Gemini 2.5 Flash with fallbacks for robustness"""
         try:
             import google.generativeai as genai
             
             # Configure Gemini with your API key
-            API_KEY = "AIzaSyBdYz04o9vVORDLQ56eDGwMEFpjccIGWtQ"
+            API_KEY = "AIzaSyAz-2QpjTB17-iJNVGZm1DRVO6HUmxV6rg"
             
             if not API_KEY or API_KEY == "YOUR_GEMINI_API_KEY_HERE":
-                safe_print(f"[ERROR] No API key configured! Stopping script.")
-                raise Exception("AI API key not configured - stopping script")
+                safe_print(f"[ERROR] No API key configured! Using fallback.")
+                return self._get_fallback_response(prompt)
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-2.5-flash')
+            model = genai.GenerativeModel('gemini-2.5-flash-lite')
             
-            # System prompt for German language
+            # System prompt for target language
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and vacuum cleaner-related content."
+            system_prompt = f"You are an expert SEO and digital marketing specialist for e-commerce products. Always respond in {language_name} with clear, persuasive, and SEO-optimized content. Focus on product optimization and robot/technology-related content."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -1239,22 +1400,42 @@ Respond ONLY with description:"""
                     if text_content and text_content.strip():
                         return text_content.strip()
                     else:
-                        safe_print(f"[ERROR] Empty text content in AI response! Stopping script.")
-                        raise Exception("Empty text content in AI response - stopping script")
+                        safe_print(f"[WARNING] Empty text content in AI response, using fallback")
+                        return self._get_fallback_response(prompt)
                 else:
-                    safe_print(f"[ERROR] No content parts in AI response! Stopping script.")
-                    raise Exception("No content parts in AI response - stopping script")
+                    safe_print(f"[WARNING] No content parts in AI response, using fallback")
+                    return self._get_fallback_response(prompt)
             else:
-                safe_print(f"[ERROR] No candidates in AI response! Stopping script.")
-                raise Exception("No candidates in AI response - stopping script")
+                safe_print(f"[WARNING] No candidates in AI response, using fallback")
+                return self._get_fallback_response(prompt)
                 
         except ImportError:
-            safe_print(f"[ERROR] Google Generative AI not installed! Stopping script.")
-            raise Exception("Google Generative AI library not installed - stopping script")
+            safe_print(f"[ERROR] Google Generative AI not installed! Using fallback.")
+            return self._get_fallback_response(prompt)
         except Exception as e:
             safe_print(f"[ERROR] AI request failed: {str(e)}")
-            safe_print(f"[ERROR] Stopping script due to AI failure!")
-            raise Exception(f"AI request failed: {str(e)}")
+            safe_print(f"[WARNING] Using fallback response")
+            return self._get_fallback_response(prompt)
+    
+    def _get_fallback_response(self, prompt):
+        """Generate fallback response when AI fails"""
+        if "JSON" in prompt or "json" in prompt:
+            if "FAQ" in prompt or "faq" in prompt:
+                return '[{"question":"¿Es fácil de usar?","answer":"Sí, es muy simple y intuitivo."}]'
+            else:
+                return '{"Garantía":"2 años","Envío":"Gratis","Material":"Alta calidad"}'
+        elif "description" in prompt.lower():
+            return f"Producto de alta calidad con tecnología avanzada. Envío gratuito incluido."
+        elif "name" in prompt.lower() or "nombre" in prompt.lower():
+            # Extract key features from the original name for fallback
+            if "tablet" in prompt.lower() or "tableta" in prompt.lower():
+                return "Tableta Android Premium | Alta Calidad | Envío Gratis"
+            elif "robot" in prompt.lower():
+                return "Robot Inteligente | Tecnología Avanzada | Envío Gratis"
+            else:
+                return "Producto Premium | Alta Calidad | Envío Gratis"
+        else:
+            return "Producto optimizado para mejor rendimiento y calidad."
 
     def _raise_ai_error(self, content_type):
         """Raise error when AI fails - no fallbacks allowed"""

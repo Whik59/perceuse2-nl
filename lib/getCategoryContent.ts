@@ -6,8 +6,11 @@ export interface CategoryContent {
   description: string;
   keywords: string[];
   seoTitle: string;
-  content: MDXRemoteSerializeResult;
-  source: string; // Raw markdown content
+  source: string; // Raw HTML content
+  faq?: Array<{
+    question: string;
+    answer: string;
+  }>;
 }
 
 export const getCategoryContent = async (slug: string): Promise<CategoryContent | null> => {

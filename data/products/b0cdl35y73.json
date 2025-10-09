@@ -1,47 +1,43 @@
 {
   "productId": "B0CDL35Y73",
-  "name": "EUREKA E10s DE Saug- & Wischroboter + beutelloser Multi-Zyklon-Absaugstation (4000Pa, auto Teppicherkennung & auto Mop Lifting, LiDAR-Navigation, ideal gegen Tierhaare, App- & Sprachsteuerung) schwarz",
-  "slug": "eureka-e10s-de-saug-wischroboter-beutelloser-multi",
-  "description": "Lange Entleerungsintervalle bis zu 45 Tage ohne Entleeren: Die innovative, beutellose und damit umweltfreundliche Multi-Zyklon-Absaugstation ermöglicht eine automatische Staubentleerung Ihres E10s ohne, dass Sie den beutellosen Staubbehälter nach jedem Reinigungsvorgang entleeren müssen; Für bis zu 45 Tage ohne Eingreifen Ihrerseits – nicht nur umweltfreundlich, sondern | Hochpräzise Navigation: Die fortschrittliche LiDAR-Navigation in Kombination mit SLAM- Automatische Ultraschall-Teppicherkennung: Intelligente Sensorik erkennt Teppiche in Ihren vier Wänden und hebt den Wischmopp automatisch um bis zu 10mm an; So brauchen Sie sich um Ihren Teppich keine Sorgen machen, denn die bleiben trocken und sauber | Algorithmen garantiert eine präzise Kartierung Ihres Zuhauses und garantiert so eine optimale und effiziente Reinigung Ihrer Wohlfühloase; Mittels App können Sie einfach No-Go-Zonen sowie virtuelle Wände setzen und so empfindliche Bereiche besonders schützen | Mehrstufige Kartierung: Ideal auch für mehrgeschössige Wohnräume dank intelligenter Speicherung von Karten pro Etage; Ermöglicht dir eine gezielte Reinigung jeder Etage Ihrer vier Wände | Leistungsstarke Saugleistung: Mit 4000Pa Saugkraft und einer Akkulaufzeit von bis zu 180 Minuten bewältigt Ihr E10s mühelos Staub, Schmutz und Tierhaare; Ist der Akku mal leer, kehrt er automatisch rechtzeitig zur Station zurück; wieder aufgeladen, führt er die Reinigung an der Stelle fort, wo ihm der Saft ausgegangen ist",
-  "shortDescription": "EUREKA E10s DE Saug- & Wischroboter + beutelloser Multi-Zyklon-Absaugstation (4000Pa, auto Teppicher",
-  "price": "169.99",
-  "compareAtPrice": 195,
+  "name": "Eureka E10s Robot Aspirateur Laveur avec Station Écologique sans Sac Vidage Automatique de Poussière, 4000 Pa, Autonomie 180 Minutes, Navigation LiDAR, Évitement d'Obstacles, pour Poils d'Animaux",
+  "slug": "eureka-e10s-robot-aspirateur-laveur-avec-station-é",
+  "description": "【45 Jours sans Nettoyage】Le Robot Aspirateur Laveur Eureka E10s est équipé d'une station d'aspiration automatique de 2L et d'un bac à poussière écologique à la place des sacs à poussière. Cette configuration peut collecter et stocker de la poussière et de la saleté pendant jusqu'à 45 jours. Cela protège l'environnement et prévient la pollution secondaire. Profitez d'un environnement conscient et propre chez vous. | 【Navigation LiDAR Précise et Évitement d'Obstacles】En tant que aspirateur robot laveur avancé, le robot aspirant lavant E10s crée des cartes précises de votre maison, évite les obstacles et garantit ainsi un nettoyage efficace. Grâce à la navigation LiDAR et aux algorithmes SLAM, il dessine des cartes dynamiques et planifie des itinéraires intelligents. | 【Puissance d'Aspiration de 4000Pa et Autonomie de 180 Minutes】L'E10s est un aspirateur robot laveur avec station avec quatre niveaux d'aspiration réglables, capable de pénétrer profondément dans les tapis et d'éliminer complètement la saleté, les débris, les poils d'animaux et les autres résidus sur les surfaces dures grâce à sa puissante aspiration de 4kPa. Une grosse batterie de 5200mAh permet une durée de nettoyage continue allant jusqu'à 180 minutes. | 【Fonction de Levage Intelligente de la Serpillière Automatique de 10 mm】Notre robot laveur de sol est équipé d'un système intelligent qui soulève automatiquement la plaque de vadrouille de 10 mm lorsque un tapis est détecté ou que l'appareil dépasse la zone de nettoyage. Cela évite les rayures et les traces d'eau dans les zones non à nettoyer. | 【Programmes d'Application Personnalisée】Le robot aspirateur laveur E10s avec station possède des fonctions completes, y compris la détection automatique de tapis, le réglage des zones interdites/mur virtuel, le contrôle via application/voix et le nettoyage programmé. Vous pouvez contrôler à distance le mode de nettoyage et le calendrier via l'application Eureka et contrôler l'aspirateur laveur robot directement via des assistants vocaux comme Alexa ou Google Assistant.",
+  "shortDescription": "Eureka E10s Robot Aspirateur Laveur avec Station Écologique sans Sac Vidage Automatique de Poussière",
+  "price": "199.99",
+  "compareAtPrice": 229,
   "images": [
-    "https://m.media-amazon.com/images/I/71rU+6u4dwL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71Ndvi8m4TL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71W0IxrEuvL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71Cd5efc8CL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71bC97OpOCL._AC_SL1500_.jpg"
+    "https://m.media-amazon.com/images/I/619TvTYML3L._AC_UL320_.jpg"
   ],
   "videos": [
-    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/7c02173a-def1-4089-9bab-d8b6ab31fd0c/default.jobtemplate.hls.m3u8"
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/5ec8d4eb-8f60-4e8a-b067-0a38fb3eb31e/default.jobtemplate.hls.m3u8"
   ],
-  "category": "staubsauger irobot",
+  "category": "Robot Aspirateur Laveur",
   "tags": [
     "producto",
-    "besuche den eureka-store",
-    "staubsauger irobot"
+    "eureka",
+    "robot aspirateur laveur"
   ],
-  "amazonUrl": "https://amazon.de/dp/B0CDL35Y73?tag=clickclickh0b-21",
+  "amazonUrl": "https://amazon.fr/dp/B0CDL35Y73?tag=clickclickh01-21",
   "amazonASIN": "B0CDL35Y73",
-  "affiliateId": "clickclickh0b-21",
-  "originalAmazonTitle": "EUREKA E10s DE Saug- & Wischroboter + beutelloser Multi-Zyklon-Absaugstation (4000Pa, auto Teppicherkennung & auto Mop Lifting, LiDAR-Navigation, ideal gegen Tierhaare, App- & Sprachsteuerung) schwarz",
-  "amazonPrice": "169.99€",
-  "amazonRating": 3.9,
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "Eureka E10s Robot Aspirateur Laveur avec Station Écologique sans Sac Vidage Automatique de Poussière, 4000 Pa, Autonomie 180 Minutes, Navigation LiDAR, Évitement d'Obstacles, pour Poils d'Animaux",
+  "amazonPrice": "199.99€",
+  "amazonRating": 4.2,
   "amazonReviewCount": 0,
-  "brand": "Besuche den EUREKA-Store",
+  "brand": "Eureka",
   "seo": {
-    "title": "EUREKA E10s DE Saug- & Wischroboter + beutelloser Multi-Zyklon-Absaugstation (4000Pa, auto Teppicherkennung & auto Mop Lifting, LiDAR-Navigation, ideal gegen Tierhaare, App- & Sprachsteuerung) schwarz - Product Expert",
-    "description": "Découvrez EUREKA E10s DE Saug- & Wischroboter + beutelloser Multi-Zyklon-Absaugstation (4000Pa, auto Teppicherkennung & auto Mop Lifting, LiDAR-Navigation, ideal gegen Tierhaare, App- & Sprachsteuerung) schwarz sur Amazon. Note 3.9/5 avec 0 avis.",
+    "title": "Eureka E10s Robot Aspirateur Laveur avec Station Écologique sans Sac Vidage Automatique de Poussière, 4000 Pa, Autonomie 180 Minutes, Navigation LiDAR, Évitement d'Obstacles, pour Poils d'Animaux - Product Expert",
+    "description": "Découvrez Eureka E10s Robot Aspirateur Laveur avec Station Écologique sans Sac Vidage Automatique de Poussière, 4000 Pa, Autonomie 180 Minutes, Navigation LiDAR, Évitement d'Obstacles, pour Poils d'Animaux sur Amazon. Note 4.2/5 avec 0 avis.",
     "keywords": [
       "producto",
-      "besuche den eureka-store",
+      "eureka",
       "amazon",
       "avis"
     ]
   },
   "reviews": {
-    "averageRating": 3.9,
+    "averageRating": 4.2,
     "totalReviews": 0,
     "breakdown": {
       "5": 60,

@@ -4,55 +4,55 @@
   "reviews": [
     {
       "id": 1,
-      "author": "Maria D.",
+      "author": "María D.",
       "rating": 5,
       "date": "2024-01-15",
-      "text": "Sehr zufrieden mit meinem Kauf. Der Staubsauger ist einfach zu bedienen und reinigt perfekt. Empfohlen für gründliche Reinigung!",
+      "text": "Muy satisfecha con mi compra. El robot es fácil de usar y funciona perfectamente. ¡Recomendado para automatización eficiente!",
       "verified": true,
       "helpful": 12
     },
     {
       "id": 2,
-      "author": "Hans-Peter M.",
+      "author": "Juan Carlos M.",
       "rating": 5,
       "date": "2024-01-10",
-      "text": "Perfekt für mein Zuhause. Der Staubsauger gibt uns viel Sicherheit beim gründlichen Reinigen. Sehr guter Kundenservice.",
+      "text": "Perfecto para mi hogar. El robot nos da mucha tranquilidad con su funcionamiento eficiente. Muy buen servicio al cliente.",
       "verified": true,
       "helpful": 8
     },
     {
       "id": 3,
-      "author": "Sabine L.",
+      "author": "Ana L.",
       "rating": 4,
       "date": "2024-01-08",
-      "text": "Der Staubsauger kam schnell an und funktioniert gut. Meine Familie nutzt ihn problemlos. Vielleicht könnte der Lärmpegel niedriger sein.",
+      "text": "El robot llegó rápido y funciona bien. Mi familia lo usa sin problemas. Quizás el nivel de ruido podría ser menor.",
       "verified": true,
       "helpful": 15
     },
     {
       "id": 4,
-      "author": "Thomas R.",
+      "author": "Carlos R.",
       "rating": 5,
       "date": "2024-01-05",
-      "text": "Sehr einfach zu bedienen. Das Reinigen ist perfekt und schnell. Ideal für gründliche Reinigung.",
+      "text": "Muy fácil de usar. El funcionamiento es perfecto y rápido. Ideal para automatización eficiente.",
       "verified": true,
       "helpful": 6
     },
     {
       "id": 5,
-      "author": "Isabella C.",
+      "author": "Isabel C.",
       "rating": 4,
       "date": "2024-01-02",
-      "text": "Gutes Produkt, einfach und sicher. Der Versand war sehr schnell. Meine Familie ist begeistert.",
+      "text": "Buen producto, simple y seguro. El envío fue muy rápido. Mi familia está encantada.",
       "verified": true,
       "helpful": 9
     },
     {
       "id": 6,
-      "author": "Peter B.",
+      "author": "Pedro B.",
       "rating": 5,
       "date": "2023-12-28",
-      "text": "Nach mehreren Monaten funktioniert er immer noch perfekt. Sehr empfehlenswert für gründliche Reinigung.",
+      "text": "Después de varios meses sigue funcionando perfectamente. Muy recomendable para automatización eficiente.",
       "verified": true,
       "helpful": 11
     }

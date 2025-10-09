@@ -381,7 +381,7 @@ const Header: React.FC<HeaderProps> = ({
                     className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-3 px-5 group relative uppercase letter-spacing-wide"
             >
               <span className="relative font-medium">
-                {category.categoryNameCanonical}
+                {category.name || category.categoryNameCanonical}
                 <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-gray-900 transition-all duration-500 group-hover:w-full"></span>
               </span>
                     {hasSubcategories && (
@@ -412,7 +412,7 @@ const Header: React.FC<HeaderProps> = ({
                         {/* Dropdown header */}
                         <div className="bg-gray-50/30 px-5 py-3 border-b border-gray-100/50">
                           <h3 className="text-xs font-medium text-gray-500 uppercase tracking-[1px] letter-spacing-wide">
-                            {category.categoryNameCanonical}
+                            {category.name || category.categoryNameCanonical}
                           </h3>
                         </div>
                         
@@ -425,7 +425,7 @@ const Header: React.FC<HeaderProps> = ({
                               className="group/item flex items-center justify-between px-5 py-2 text-xs font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
                             >
                               <span className="relative tracking-[0.3px] uppercase whitespace-nowrap">
-                                {subcategory.categoryNameCanonical}
+                                {subcategory.name || subcategory.categoryNameCanonical}
                               </span>
                               <svg className="w-3 h-3 opacity-0 group-hover/item:opacity-60 transition-all duration-300 transform translate-x-2 group-hover/item:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
@@ -478,7 +478,7 @@ const Header: React.FC<HeaderProps> = ({
                           className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-4 px-5 hover:bg-gray-50/50 transition-all duration-300 uppercase"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  {category.categoryNameCanonical}
+                  {category.name || category.categoryNameCanonical}
                         </Link>
                         {hasSubcategories && (
                           <button
@@ -508,7 +508,7 @@ const Header: React.FC<HeaderProps> = ({
                               className="block text-xs font-light text-gray-600 hover:text-gray-900 py-3 px-5 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px] whitespace-nowrap"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
-                              {subcategory.categoryNameCanonical}
+                              {subcategory.name || subcategory.categoryNameCanonical}
                 </Link>
               ))}
                         </div>

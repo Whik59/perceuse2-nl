@@ -57,17 +57,35 @@ export interface FAQItem {
 }
 
 export interface Category {
-  categoryId: number;
-  categoryNameCanonical: string;
-  parentCategoryId: number | null;
   slug: string;
-  level: number; // 0 = main, 1 = sub, 2 = sub-sub
-  description?: string;
+  name: string;
+  description: string;
+  subcategories?: SubCategory[];
+  // Legacy fields for backward compatibility
+  categoryId?: number;
+  categoryNameCanonical?: string;
+  parentCategoryId?: number | null;
+  level?: number;
   content?: string; // AI-generated long-form SEO content
   seo?: SEOData;
   productCount?: number;
   children?: Category[]; // For nested display
   faq?: FAQItem[]; // AI-generated FAQ for the category
+}
+
+export interface SubCategory {
+  slug: string;
+  name: string;
+  description: string;
+  // Legacy fields for backward compatibility
+  categoryId?: number;
+  categoryNameCanonical?: string;
+  parentCategoryId?: number | null;
+  level?: number;
+  content?: string;
+  seo?: SEOData;
+  productCount?: number;
+  faq?: FAQItem[];
 }
 
 export interface SEOData {

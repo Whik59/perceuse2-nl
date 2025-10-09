@@ -61,9 +61,9 @@ class AmazonScraper:
         # All categories are main categories and need products
         self.scrape_only_subcategories = False
         
-        # Quality filters (relaxed for better coverage)
-        self.min_rating = 3.5  # Relaxed from 4.0 to 3.5
-        self.min_price = 15    # Relaxed from 20 to 15 (minimum price in local currency)
+        # Quality filters (strict for high-quality products)
+        self.min_rating = 3.5  # Minimum rating threshold
+        self.min_price = 50    # Minimum price 50 euros (no relax mode)
         
         # Track unique products (thread-safe)
         self.used_asins = set()
@@ -412,29 +412,52 @@ class AmazonScraper:
         return None
     
     def load_categories(self):
-        """Load flat category structure from data/categories.json"""
+        """Load hierarchical category structure from data/categories.json"""
         try:
             categories_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'categories.json')
             with open(categories_path, 'r', encoding='utf-8') as f:
                 categories_data = json.load(f)
             
-            # MODIFIED: All categories are main categories (flat structure)
+            # Transform hierarchical structure to flat list for scraping
             categories = []
+            category_id_counter = 1
             
-            for category in categories_data:
-                # All categories need products in flat structure
-                categories.append({
-                    'categoryId': category['categoryId'],
-                    'name': category.get('categoryNameCanonical', 'Unknown'),
-                    'slug': category['slug'],
-                    'level': category['level'],
-                    'parentId': category.get('parentCategoryId'),
-                    'targetKeywords': [category.get('categoryNameCanonical', 'Unknown')],
+            for main_category in categories_data:
+                # Create main category
+                main_cat = {
+                    'categoryId': category_id_counter,
+                    'name': main_category['name'],
+                    'slug': main_category['slug'],
+                    'level': 0,
+                    'parentId': None,
+                    'targetKeywords': [main_category['name'], f"{main_category['name']} amazon"],
                     'needs_products': True,
-                    'recommended_products': random.randint(10, 12)  # Increased to 10-12 products per category
-                })
+                    'recommended_products': 20,  # 20 products for main categories
+                    'description': main_category['description']
+                }
+                categories.append(main_cat)
+                category_id_counter += 1
+                
+                # Create subcategories if they exist
+                if 'subcategories' in main_category and main_category['subcategories']:
+                    for subcat in main_category['subcategories']:
+                        subcategory = {
+                            'categoryId': category_id_counter,
+                            'name': subcat['name'],
+                            'slug': f"{main_category['slug']}/{subcat['slug']}",  # Hierarchical slug
+                            'level': 1,
+                            'parentId': main_cat['categoryId'],
+                            'targetKeywords': [subcat['name'], f"{subcat['name']} amazon", f"{main_category['name']} {subcat['name']}"],
+                            'needs_products': True,
+                            'recommended_products': 5,  # 5 products for subcategories
+                            'description': subcat['description']
+                        }
+                        categories.append(subcategory)
+                        category_id_counter += 1
             
-            safe_print(f"[OK] Loaded {len(categories)} flat categories (all need products)")
+            safe_print(f"[OK] Loaded {len(categories)} categories:")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 0])} main categories (20 products each)")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories (5 products each)")
             return categories
             
         except Exception as e:
@@ -453,12 +476,8 @@ class AmazonScraper:
         # Build search URL with price filter using the domain from config
         domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
         
-        # Use different price filters based on fallback mode
-        if fallback_mode:
-            # Fallback: lower price threshold
-            price_filter = max(5, self.min_price - 5)  # At least 5€, but lower than normal
-        else:
-            price_filter = self.min_price
+        # Use strict price filter (50 euros minimum)
+        price_filter = self.min_price
             
         search_url = f"https://{domain}/s?k={keyword.replace(' ', '+')}&page={page}&low-price={price_filter}&ref=sr_pg_{page}"
         
@@ -494,7 +513,7 @@ class AmazonScraper:
         return products
     
     def extract_product_info(self, container):
-        """Extract comprehensive product information with improved parsing"""
+        """Extract comprehensive product information with improved parsing and quality filtering"""
         try:
             # Skip sponsored products
             if container.find('span', string=re.compile(r'Sponsorisé|Sponsored|Gesponsert', re.I)):
@@ -719,30 +738,25 @@ class AmazonScraper:
             
             product['review_count'] = review_count
             
-            # Quality filtering with fallback mode support
-            min_rating_threshold = self.min_rating
-            if hasattr(self, '_fallback_mode') and self._fallback_mode:
-                min_rating_threshold = max(2.0, self.min_rating - 1.0)  # Much lower threshold in fallback
-            
-            # Skip only if rating is 0 (no rating at all) in normal mode, or below threshold in fallback
-            if rating == 0 and not (hasattr(self, '_fallback_mode') and self._fallback_mode):
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No rating, threshold: {min_rating_threshold})")
-                return None
-            elif rating > 0 and rating < min_rating_threshold:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {min_rating_threshold})")
+            # QUALITY FILTERING: Skip products with placeholder images (indicates broken/unavailable product)
+            if product.get('image') and 'grey-pixel.gif' in product['image']:
+                safe_print(f"  [SKIP] Placeholder image detected: '{title_text[:30]}...'")
                 return None
             
-            # Price filtering with fallback mode support
-            min_price_threshold = self.min_price
-            if hasattr(self, '_fallback_mode') and self._fallback_mode:
-                min_price_threshold = max(1, self.min_price - 10)  # Much lower threshold in fallback
-            
-            # Skip only if price is 0 (no price) in normal mode, or below threshold in fallback
-            if price_value == 0 and not (hasattr(self, '_fallback_mode') and self._fallback_mode):
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No price, threshold: {min_price_threshold}€)")
+            # Quality filtering (strict)
+            if rating == 0:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No rating, threshold: {self.min_rating})")
                 return None
-            elif price_value > 0 and price_value < min_price_threshold:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€, threshold: {min_price_threshold}€)")
+            elif rating < self.min_rating:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {self.min_rating})")
+                return None
+            
+            # Price filtering (strict)
+            if price_value == 0:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No price, threshold: {self.min_price}€)")
+                return None
+            elif price_value < self.min_price:
+                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Price: {price_value}€, threshold: {self.min_price}€)")
                 return None
             
             # Main image
@@ -1123,23 +1137,8 @@ class AmazonScraper:
                         
                     safe_print(f"  [PAGE] Page {page}...")
                     
-                    # Try normal search first
+                    # Try normal search
                     products_on_page = self.search_products(search_term, page, fallback_mode=False)
-                    
-                    # If not enough products, try fallback mode
-                    if len(products_on_page) < recommended_products and page == 1:
-                        safe_print(f"  [FALLBACK] Not enough products ({len(products_on_page)}/{recommended_products}), trying relaxed filters...")
-                        self._fallback_mode = True
-                        products_on_page = self.search_products(search_term, page, fallback_mode=True)
-                        self._fallback_mode = False
-                        
-                        # If still not enough, try additional pages with fallback mode
-                        if len(products_on_page) < recommended_products:
-                            safe_print(f"  [FALLBACK] Still not enough ({len(products_on_page)}/{recommended_products}), trying page 2 with relaxed filters...")
-                            self._fallback_mode = True
-                            page2_products = self.search_products(search_term, 2, fallback_mode=True)
-                            self._fallback_mode = False
-                            products_on_page.extend(page2_products)
                     
                     if not products_on_page:
                         safe_print(f"  [WARNING] No products found on page {page}")
@@ -1422,20 +1421,21 @@ class AmazonScraper:
         return slug.strip('-')[:50]
     
     def get_statistics(self):
-        """Get comprehensive statistics"""
+        """Get comprehensive statistics with hierarchical breakdown"""
         total_products = sum(len(prods) for prods in self.all_products.values())
         
         stats = {
             'total_products': total_products,
             'categories_processed': len(self.all_products),
             'unique_asins': len(self.used_asins),
-            'products_by_tier': {},
+            'products_by_level': {},
             'brands_distribution': {},
-            'price_distribution': {'under_50': 0, '50_100': 0, '100_200': 0, 'over_200': 0}
+            'price_distribution': {'under_50': 0, '50_100': 0, '100_200': 0, 'over_200': 0},
+            'hierarchical_summary': {}
         }
         
-        # Calculate by tier
-        for level in [0, 1, 2]:
+        # Calculate by level (0 = main categories, 1 = subcategories)
+        for level in [0, 1]:
             level_products = 0
             level_categories = 0
             
@@ -1445,10 +1445,14 @@ class AmazonScraper:
                     level_categories += 1
             
             if level_categories > 0:
-                stats['products_by_tier'][f'level_{level}'] = {
+                level_name = "main_categories" if level == 0 else "subcategories"
+                expected_per_category = 20 if level == 0 else 5
+                stats['products_by_level'][level_name] = {
                     'total_products': level_products,
                     'categories': level_categories,
-                    'avg_per_category': round(level_products / level_categories, 1)
+                    'avg_per_category': round(level_products / level_categories, 1),
+                    'expected_per_category': expected_per_category,
+                    'target_total': level_categories * expected_per_category
                 }
         
         # Brand and price distribution
@@ -1472,6 +1476,25 @@ class AmazonScraper:
                         stats['price_distribution']['over_200'] += 1
                 except:
                     pass
+        
+        # Hierarchical summary
+        main_cats = stats['products_by_level'].get('main_categories', {})
+        sub_cats = stats['products_by_level'].get('subcategories', {})
+        
+        stats['hierarchical_summary'] = {
+            'main_categories': {
+                'processed': main_cats.get('categories', 0),
+                'products': main_cats.get('total_products', 0),
+                'expected': main_cats.get('target_total', 0),
+                'completion_rate': round((main_cats.get('total_products', 0) / main_cats.get('target_total', 1)) * 100, 1) if main_cats.get('target_total', 0) > 0 else 0
+            },
+            'subcategories': {
+                'processed': sub_cats.get('categories', 0),
+                'products': sub_cats.get('total_products', 0),
+                'expected': sub_cats.get('target_total', 0),
+                'completion_rate': round((sub_cats.get('total_products', 0) / sub_cats.get('target_total', 1)) * 100, 1) if sub_cats.get('target_total', 0) > 0 else 0
+            }
+        }
         
         return stats
     
@@ -1999,19 +2022,38 @@ class AmazonScraper:
             safe_print("  - No products matching quality filters")
     
     def print_summary(self):
-        """Print comprehensive summary"""
+        """Print comprehensive summary with hierarchical breakdown"""
         stats = self.get_statistics()
         
-        safe_print(f"\n[STATS] SCRAPING SUMMARY")
-        safe_print("=" * 60)
+        safe_print(f"\n[STATS] SCRAPING SUMMARY - HIERARCHICAL STRUCTURE")
+        safe_print("=" * 70)
         safe_print(f"Total Products: {stats['total_products']}")
         safe_print(f"Categories Processed: {stats['categories_processed']}")
         safe_print(f"Unique ASINs: {stats['unique_asins']}")
         
-        safe_print(f"\n[STATS] BY TIER:")
-        for tier, data in stats['products_by_tier'].items():
-            level = tier.split('_')[1]
-            safe_print(f"  Level {level}: {data['total_products']} products in {data['categories']} categories (avg: {data['avg_per_category']})")
+        # Hierarchical breakdown
+        safe_print(f"\n[STATS] HIERARCHICAL BREAKDOWN:")
+        hierarchical = stats['hierarchical_summary']
+        
+        main_stats = hierarchical['main_categories']
+        sub_stats = hierarchical['subcategories']
+        
+        safe_print(f"  Main Categories:")
+        safe_print(f"    Processed: {main_stats['processed']}")
+        safe_print(f"    Products: {main_stats['products']} (expected: {main_stats['expected']})")
+        safe_print(f"    Completion: {main_stats['completion_rate']}%")
+        
+        safe_print(f"  Subcategories:")
+        safe_print(f"    Processed: {sub_stats['processed']}")
+        safe_print(f"    Products: {sub_stats['products']} (expected: {sub_stats['expected']})")
+        safe_print(f"    Completion: {sub_stats['completion_rate']}%")
+        
+        # Products by level
+        safe_print(f"\n[STATS] PRODUCTS BY LEVEL:")
+        for level_name, data in stats['products_by_level'].items():
+            level_display = "Main Categories" if level_name == "main_categories" else "Subcategories"
+            safe_print(f"  {level_display}: {data['total_products']} products in {data['categories']} categories")
+            safe_print(f"    Average per category: {data['avg_per_category']} (target: {data['expected_per_category']})")
         
         safe_print(f"\n[STATS] TOP BRANDS:")
         top_brands = sorted(stats['brands_distribution'].items(), key=lambda x: x[1], reverse=True)[:10]
@@ -2050,11 +2092,14 @@ if __name__ == "__main__":
         exit(1)
     
     safe_print(f"[OK] Loaded {len(scraper.categories)} categories")
-    safe_print(f"[OPTIMIZATION] Scraping all categories (flat structure) with 5-8 products each")
-    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price (with smart fallback)")
+    main_cats = len([c for c in scraper.categories if c['level'] == 0])
+    sub_cats = len([c for c in scraper.categories if c['level'] == 1])
+    safe_print(f"[HIERARCHICAL] Structure: {main_cats} main categories (20 products each) + {sub_cats} subcategories (5 products each)")
+    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price")
     
-    # Count categories for accurate reporting (flat structure)
-    safe_print(f"[TARGET] Found {len(scraper.categories)} categories to scrape")
+    # Calculate expected totals
+    expected_total = (main_cats * 20) + (sub_cats * 5)
+    safe_print(f"[TARGET] Expected total products: {expected_total} ({main_cats * 20} main + {sub_cats * 5} sub)")
     
     # Handle test single mode
     if args.test_single:
