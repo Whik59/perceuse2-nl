@@ -1,0 +1,46 @@
+{
+  "productId": "B09LR975HY",
+  "name": "ARENA Damen NinaSandale",
+  "slug": "arena-damen-ninasandale",
+  "description": "",
+  "shortDescription": "ARENA Damen NinaSandale",
+  "price": "24.0",
+  "compareAtPrice": 27,
+  "images": [
+    "https://m.media-amazon.com/images/I/51W-KGYCDIS._AC_SL1280_.jpg",
+    "https://m.media-amazon.com/images/I/71lHh+xEf9L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61GettJG90S._AC_SL1280_.jpg",
+    "https://m.media-amazon.com/images/I/41tR70C8pCS._AC_SL1280_.jpg",
+    "https://m.media-amazon.com/images/I/71cJUnSR6tL._AC_SL1280_.jpg"
+  ],
+  "videos": [],
+  "category": "Badesandalen mit Massagenoppen",
+  "tags": [
+    "besuche den arena-store",
+    "badesandalen mit massagenoppen"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B09LR975HY/?tag=clickclickh0b-21",
+  "amazonASIN": "B09LR975HY",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "ARENA Damen NinaSandale",
+  "amazonPrice": "24.0€",
+  "amazonRating": 4.2,
+  "amazonReviewCount": 0,
+  "brand": "Besuche den ARENA-Store",
+  "seo": {
+    "title": "",
+    "description": "",
+    "keywords": []
+  },
+  "reviews": {
+    "averageRating": 4.2,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  }
+}

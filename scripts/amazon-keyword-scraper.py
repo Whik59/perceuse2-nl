@@ -96,7 +96,7 @@ class AdvancedAmazonKeywordScraper:
     
 
     
-    def get_amazon_suggestions(self, search_term, retries=5):
+    def get_amazon_suggestions(self, search_term, retries=2):
         """Get autocomplete suggestions from Amazon with retry logic"""
         url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
         
@@ -376,7 +376,7 @@ class AdvancedAmazonKeywordScraper:
         safe_print(f"\n[FINAL] Total keywords found: {len(self.all_keywords)}")
         return list(self.all_keywords)
 
-    async def get_amazon_suggestions_async(self, session, search_term, retries=5):
+    async def get_amazon_suggestions_async(self, session, search_term, retries=2):
         """Async version of get_amazon_suggestions with retry logic"""
         url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
         

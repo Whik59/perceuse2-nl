@@ -55,6 +55,22 @@ class AICategoryEnhancer:
         self.request_delay = 0  # NO DELAY
         self.batch_size = 200  # Process 200 categories at once
         self.max_concurrent = 100  # Maximum concurrency - MEGA-FAST
+        
+        # Template system for massive cost savings
+        self.category_templates = {
+            'massage': {
+                'title': '{category} - Best Massage Quality',
+                'description': '{category} ✅ Premium Quality. Livraison Gratuite!',
+                'keywords': ['{category}', 'massage', 'quality', 'best price', 'free shipping'],
+                'content_template': '<div><h2>Best {category}</h2><p>Professional {category} with advanced features...</p></div>'
+            },
+            'robot': {
+                'title': '{category} - Smart Technology',
+                'description': '{category} ✅ Smart Features. Livraison Gratuite!',
+                'keywords': ['{category}', 'robot', 'smart', 'technology', 'best price'],
+                'content_template': '<div><h2>Best {category}</h2><p>Advanced {category} with smart technology...</p></div>'
+            }
+        }
     
     def load_ai_config(self):
         """Load AI configuration from config file"""
@@ -1024,23 +1040,44 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
             category_id = None
         
         try:
-            # Generate content using AI with category-specific prompts
-            enhanced_category = {
-                'categoryId': category_id,
-                'categoryNameCanonical': category_name,
-                'slug': category.get('slug', self.create_category_slug(category_name)),
-                'parentCategoryId': category.get('parentCategoryId'),
-                'level': category.get('level', 0),
-                'description': self.enhance_category_description_fast(category_name, category_id),
-                'seo': {
-                    'title': self.enhance_category_title_fast(category_name),
-                    'description': self.enhance_category_description_fast(category_name, category_id),
-                    'keywords': self.enhance_category_keywords_fast(category_name)
-                },
-                'enhanced': True,
-                'enhancedAt': datetime.now().isoformat(),
-                'enhancement_version': 'enhanced_v2_with_comparison'
+    def enhance_category_ultra_batch(self, category_name, category_id=None):
+        """Single AI call for ALL category content - MASSIVE COST SAVINGS"""
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        
+        prompt = f"""Complete SEO data for: "{category_name}" in {language_name}
+
+JSON only:
+{{
+  "title": "SEO title (60 chars)",
+  "description": "SEO desc (80 chars)", 
+  "keywords": ["kw1", "kw2", "kw3"],
+  "faq": [{{"q": "Q1", "a": "A1"}}, {{"q": "Q2", "a": "A2"}}],
+  "content": "<div><h2>Title</h2><p>Content</p></div>",
+  "comparison": {{"title": "Top 3", "products": [{{"name": "P1", "price": "100"}}]}},
+  "guide": {{"title": "Guide", "sections": [{{"h": "H1", "c": "Content"}}]}}
+}}"""
+        
+        response = self.get_ai_response(prompt)
+        
+        try:
+            import json
+            clean_response = response.strip()
+            if '```json' in clean_response:
+                clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+            
+            data = json.loads(clean_response)
+            return {
+                'title': data.get('title', f"{category_name} - Best Quality"),
+                'description': data.get('description', f"{category_name} ✅ Premium Quality"),
+                'keywords': data.get('keywords', [category_name.lower()]),
+                'faq': data.get('faq', []),
+                'content': data.get('content', f"<div><h2>{category_name}</h2><p>Quality products</p></div>"),
+                'comparisonTable': data.get('comparison'),
+                'buyingGuide': data.get('guide')
             }
+        except Exception as e:
+            safe_print(f"[ERROR] Batch parsing failed: {e}")
+            return self.enhance_category_fallback(category_name, category_id)
             
             # Try to generate comparison table and buying guide
             try:
@@ -1132,48 +1169,77 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
 
     def enhance_category_title_fast(self, category_name):
         """Generate SEO title focused ONLY on the specific category"""
-        prompt = f"""Create an SEO title maximum 60 characters for: "{category_name}"
-
-STRICT RULES:
-- ONLY mention products related to "{category_name}"
-- Include specific key benefit of the product
-- Use action words (Buy, Discover, Best)
-
-EXAMPLE for "{category_name.lower()}": "{category_name} - Best Price and Quality"
-Respond ONLY with the title:"""
+        prompt = f"""SEO title (60 chars) for: "{category_name}". Include benefit. Return only title."""
         
         return self.get_ai_response(prompt)
 
     def enhance_category_description_fast(self, category_name, category_id=None):
         """Generate SEO description focused ONLY on the specific category"""
-        price_range = self.get_category_price_range(category_id) if category_id else "desde 200€"
-        
-        prompt = f"""Create an SEO description maximum 80 characters for: "{category_name}"
-
-STRICT RULES:
-- ONLY mention "{category_name}" and directly related products
-- Use emoji ✅
-- DO NOT mention specific prices or price ranges
-- Focus on quality and benefits
-
-EXAMPLE for "{category_name.lower()}": "{category_name} ✅ Premium Quality. Livraison Gratuite!"
-Respond ONLY with the description:"""
+        prompt = f"""SEO desc (80 chars) for: "{category_name}". Use emoji ✅. Return only description."""
         
         return self.get_ai_response(prompt)
 
-    def enhance_category_keywords_fast(self, category_name):
-        """Generate keywords focused ONLY on the specific category"""
-        prompt = f"""Create 5 SEO keywords for: "{category_name}"
+    def enhance_category_batch_ai(self, category_name, category_id=None):
+        """Single AI call for ALL category content - MASSIVE COST SAVINGS"""
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        
+        prompt = f"""Complete SEO data for: "{category_name}" in {language_name}
 
-STRICT RULES:
-- ONLY words related to "{category_name}"
-- Format: simple list separated by commas
-
-EXAMPLE for "{category_name.lower()}": "{category_name.lower()}, best price {category_name.lower()}, {category_name.lower()} offer, free shipping {category_name.lower()}, {category_name.lower()} quality"
-Respond ONLY with keywords separated by commas:"""
+JSON only:
+{{
+  "title": "SEO title (60 chars)",
+  "description": "SEO desc (80 chars)", 
+  "keywords": ["kw1", "kw2", "kw3"],
+  "faq": [{{"q": "Q1", "a": "A1"}}, {{"q": "Q2", "a": "A2"}}],
+  "content": "<div><h2>Title</h2><p>Content</p></div>"
+}}"""
         
         response = self.get_ai_response(prompt)
-        return [kw.strip() for kw in response.split(',') if kw.strip()]
+        
+        try:
+            import json
+            clean_response = response.strip()
+            if '```json' in clean_response:
+                clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+            
+            data = json.loads(clean_response)
+            return {
+                'title': data.get('title', f"{category_name} - Best Quality"),
+                'description': data.get('description', f"{category_name} ✅ Premium Quality"),
+                'keywords': data.get('keywords', [category_name.lower()]),
+                'faq': data.get('faq', []),
+                'content': data.get('content', f"<div><h2>{category_name}</h2><p>Quality products</p></div>")
+            }
+        except Exception as e:
+            safe_print(f"[ERROR] Batch parsing failed: {e}")
+            return self.enhance_category_fallback(category_name, category_id)
+
+    def enhance_category_with_template(self, category_name, category_id=None):
+        """Use templates for common categories - 95% cost reduction"""
+        category_lower = category_name.lower()
+        
+        # Find matching template
+        template = None
+        for key, template_data in self.category_templates.items():
+            if key in category_lower:
+                template = template_data
+                break
+        
+        if template:
+            # Use template - no AI call needed!
+            return {
+                'title': template['title'].format(category=category_name),
+                'description': template['description'].format(category=category_name),
+                'keywords': [kw.format(category=category_name.lower()) for kw in template['keywords']],
+                'faq': [
+                    {"q": f"What is the best {category_name}?", "a": f"The best {category_name} combines quality and value."},
+                    {"q": f"How to choose {category_name}?", "a": f"Consider your needs and budget when choosing {category_name}."}
+                ],
+                'content': template['content_template'].format(category=category_name)
+            }
+        else:
+            # Fall back to AI batch processing
+            return self.enhance_category_batch_ai(category_name, category_id)
 
     def generate_category_faq_fast(self, category_name, category_id=None):
         """Generate FAQ focused ONLY on the specific category"""

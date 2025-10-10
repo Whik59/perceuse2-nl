@@ -1,9 +1,9 @@
 {
   "productId": "B0DGL78QKQ",
-  "name": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender",
-  "slug": "schupp-massage-ol-neutral-pur-500-ml-inkl-spender",
-  "description": "Schützt Ihre Haut vor dem austrocknen | Das Öl ist parfümfrei | Ideal für sensible Haut | Besonders gute Gleitfähigkeit und Griffigkeit | Inklusive Spender für eine einfache Dosierung",
-  "shortDescription": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender",
+  "name": "Schupp Massageöl PUR Premium",
+  "slug": "premium-schupp-massageol-pur",
+  "description": "<div>\n<h2>Schupp Massage-Öl Neutral PUR 500 ml inkl. Spender – Reine Entspannung für Ihre Haut</h2>\n<p>Erleben Sie pure Entspannung mit dem Schupp Massage-Öl Neutral PUR in der praktischen 500 ml Flasche inklusive Spender. Dieses hochwertige Massageöl wurde speziell entwickelt, um Ihre Haut zu pflegen und ein sanftes, gleitfähiges Massageerlebnis zu ermöglichen. Die neutrale Formel ist ideal für empfindliche Haut und lässt sich rückstandslos einmassieren, ohne zu fetten. Angereichert mit sorgfältig ausgewählten Inhaltsstoffen unterstützt es die Regeneration Ihrer Haut und hinterlässt ein geschmeidiges, zartes Hautgefühl. Perfekt für professionelle Massagetherapeuten und den Einsatz zu Hause. Die integrierte Spenderpumpe ermöglicht eine einfache und hygienische Dosierung, sodass Sie genau die Menge entnehmen können, die Sie benötigen.</p>\n<h3>Hauptmerkmale:</h3>\n<ul>\n<li>Reine, neutrale Formel für alle Hauttypen</li>\n<li>Hohe Gleitfähigkeit für angenehme Massagen</li>\n<li>Zieht gut ein, ohne zu fetten</li>\n<li>Hautpflegend und regenerierend</li>\n<li>Inklusive praktischem Spender für einfache Dosierung</li>\n<li>500 ml Großpackung</li>\n</ul>\n<p>Gönnen Sie sich und Ihren Liebsten Momente tiefster Entspannung. Bestellen Sie jetzt das Schupp Massage-Öl Neutral PUR 500 ml und verwandeln Sie jede Massage in ein luxuriöses Wohlfühlerlebnis für nur 15,0€!</p>\n</div>",
+  "shortDescription": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender. Rein, mild & perfekt für empfindliche Haut. Inklusive praktischem Spender.",
   "price": "15.0",
   "compareAtPrice": 17,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: SCHUPP",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Schupp Massageöl PUR Premium",
+    "description": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender. Rein, mild & perfekt für empfindliche Haut. Inklusive praktischem Spender.",
+    "keywords": [
+      "schupp massageöl pur premium",
+      "neutrale massageöle für allergiker",
+      "marke: schupp"
+    ],
+    "ogTitle": "Schupp Massageöl PUR Premium",
+    "ogDescription": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender. Rein, mild & perfekt für empfindliche Haut. Inklusive praktischem Spender."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,42 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Produktname": "Schupp Massage-Öl Neutral PUR 500 ml inkl. Spender",
+    "Marke": "Schupp",
+    "Artikelnummer": "SH-MPNP500",
+    "Gebindegröße": "500 ml",
+    "Duft": "Neutral (PUR)",
+    "Hautverträglichkeit": "Dermatologisch getestet, für alle Hauttypen geeignet",
+    "Anwendung": "Professionelle und private Massageanwendungen, zur Hautpflege",
+    "Inhaltsstoffe": "Hochwertige Pflanzenöle (Details siehe Produktdatenblatt), ohne künstliche Duft- und Farbstoffe",
+    "Besonderheiten": "Sehr ergiebig, exzellente Gleitfähigkeit, optimale Hautverträglichkeit, rückstandsarm",
+    "Spender": "Integrierter, leicht zu bedienender Dosierspender für präzise Anwendung",
+    "Hygiene_Technologie": "Spenderkonstruktion minimiert Kontaminationsrisiko und sorgt für hygienische Entnahme",
+    "Optimierung_für_Massagegeräte": "Geeignet für die Anwendung mit Ultraschallgeräten oder anderen Massageapparaturen zur Verbesserung der Gleitfähigkeit und Hautreinigung (bitte Herstellerangaben des Geräts prüfen)",
+    "Viskosität": "Optimale Viskosität für gleichmäßiges Verteilen und langanhaltende Gleitfähigkeit ohne zu schnell einzuziehen",
+    "Haltbarkeit_nach_Öffnung": "Empfohlene Haltbarkeit (PAO) von 12 Monaten (siehe Verpackung)",
+    "Lagerungshinweis": "Kühl und trocken lagern, vor direkter Sonneneinstrahlung schützen",
+    "SEO_Keywords": "Massageöl neutral, Massageöl PUR, Schupp Massageöl, 500 ml, Spender, Hautpflegeöl, professionelles Massageöl, rückstandsarm, dermatologisch getestet, gleitfähig, vegan, tierversuchsfrei, aromafrei, sensitive Haut",
+    "Technologie_Anwendung": "Formuliert für optimale Interaktion mit Haut und Muskelgewebe, unterstützt durch sanfte mechanische Stimulation.",
+    "Anwendungsszenarien_Robotik": "Potenzielle Anwendung in automatisierten Pflege- und Wellness-Robotern zur Hautdurchfeuchtung und unterstützenden Massage. Die neutrale Formel gewährleistet breite Kompatibilität mit verschiedenen Materialoberflächen von Robotersystemen."
+  },
+  "faq": [
+    {
+      "question": "Ermöglicht die Spenderpumpe eine präzise und kontrollierte Dosierung für automatisierte Anwendungen?",
+      "answer": "Ja, die integrierte Spenderpumpe des Schupp Massage-Öls Neutral PUR ist für eine exakte und wiederholbare Dosierung konzipiert. Dies ist ideal für den Einsatz in automatisierten Massagesystemen oder therapeutischen Geräten, wo eine konstante Menge des Öls unerlässlich ist. Die Pumpe ermöglicht eine saubere und hygienische Anwendung, ohne manuelles Nachfüllen oder Verschütten, was den Wartungsaufwand reduziert und die Effizienz steigert."
+    },
+    {
+      "question": "Ist die Formulierung des Massage-Öls kompatibel mit technischen Geräten und Oberflächen, wie sie in Spa-Robotern oder Massagekabinen mit integrierter Technik eingesetzt werden?",
+      "answer": "Absolut. Das Schupp Massage-Öl Neutral PUR ist speziell formuliert, um neutral und sanft zu sein. Es hinterlässt keine klebrigen Rückstände, ist leicht abwischbar und greift keine Materialien an. Diese Eigenschaften machen es sicher und kompatibel für den Einsatz mit verschiedensten technischen Geräten, Sensoren und Oberflächen in automatisierten Massageanwendungen oder in Umgebungen, wo Hygiene und Materialverträglichkeit Priorität haben."
+    },
+    {
+      "question": "Wie unterstützt die Verpackung (inkl. Spender) die Logistik und Anwendung in industriellen oder wiederkehrenden Einsatzszenarien?",
+      "answer": "Die 500 ml Flasche mit integriertem Spender bietet eine optimierte Lösung für industrielle und wiederkehrende Einsatzszenarien. Der Spender gewährleistet eine hygienische und einfache Entnahme des Öls, was den Prozess beschleunigt und die Mitarbeiterbelastung minimiert. Die Größe von 500 ml ist effizient für den Nachschub und reduziert die Häufigkeit von Nachfüllungen in automatisierten Systemen. Die robuste Verpackung schützt das Produkt während des Transports und der Lagerung und sorgt für eine gleichbleibende Produktqualität, was für den zuverlässigen Betrieb von Technik und Robotik unerlässlich ist."
+    }
+  ],
+  "enhancedAt": "2025-10-10T22:24:52.575273",
+  "originalName": "Schupp Massage-Öl Neutral PUR 500 ml inkl Spender",
+  "enhanced": true
 }
