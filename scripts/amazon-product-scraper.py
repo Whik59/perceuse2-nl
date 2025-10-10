@@ -64,8 +64,8 @@ class AmazonScraper:
         # All categories are main categories and need products
         self.scrape_only_subcategories = False
         
-        # Quality filters (strict for high-quality products)
-        self.min_rating = 3.5  # Minimum rating threshold
+        # Quality filters (disabled - scrape all products)
+        self.min_rating = 0    # No minimum rating filter - scrape all products
         self.min_price = 0     # No minimum price filter - get prices from product pages
         
         # Track unique products (thread-safe)
@@ -738,7 +738,7 @@ class AmazonScraper:
                 else:
                     product['price'] = price_text
             else:
-                product['price'] = "Prix non disponible"
+                product['price'] = "Price not available"
                 price_value = 0
             
             # Rating extraction with multiple methods
@@ -791,13 +791,11 @@ class AmazonScraper:
                 safe_print(f"  [SKIP] Placeholder image detected: '{title_text[:30]}...'")
                 return None
             
-            # Quality filtering (strict)
+            # Quality filtering (disabled - accept all products)
             if rating == 0:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (No rating, threshold: {self.min_rating})")
-                return None
-            elif rating < self.min_rating:
-                safe_print(f"  [WARNING] Skipping '{title_text[:30]}...' (Rating: {rating}/5, threshold: {self.min_rating})")
-                return None
+                safe_print(f"  [INFO] No rating for '{title_text[:30]}...' - will scrape anyway")
+            elif rating < 1.0:
+                safe_print(f"  [INFO] Low rating ({rating}/5) for '{title_text[:30]}...' - will scrape anyway")
             
             # Price will be extracted from product detail page, so no filtering here
             if price_value == 0:
@@ -1503,7 +1501,7 @@ class AmazonScraper:
                 'statistics': self.get_statistics(),
                 'scraping_config': {
                     'tier_limits': self.tier_limits,
-                    'min_rating': self.min_rating,
+                    'min_rating': 'DISABLED - scraping all products',
                     'price_extraction': 'from_product_detail_pages'
                 },
                 'timestamp': datetime.now().isoformat()
@@ -1523,24 +1521,24 @@ class AmazonScraper:
             "slug": self.create_slug(scraped_product['title']),
             "description": " | ".join(scraped_product.get('description', [])[:5]),
             "shortDescription": scraped_product['title'][:100],
-            "price": scraped_product.get('price', 'Prix non disponible').replace('€', '').strip(),
+            "price": scraped_product.get('price', 'Price not available').replace('€', '').strip(),
             "compareAtPrice": int(float(scraped_product.get('price', '100').replace('€', '').replace(',', '.')) * 1.15) if scraped_product.get('price', '').replace('€', '').replace(',', '.').replace('.', '').isdigit() else 100,
             "images": scraped_product.get('images', [scraped_product.get('image', '')]) if scraped_product.get('images') else [scraped_product.get('image', '')],
             "videos": scraped_product.get('videos', []),
             "category": scraped_product.get('category_name', 'Product'),
-            "tags": ["producto", scraped_product.get('brand', '').lower(), scraped_product.get('category_name', '').lower()],
+            "tags": [scraped_product.get('brand', '').lower(), scraped_product.get('category_name', '').lower()],
             "amazonUrl": scraped_product.get('affiliate_url', ''),
             "amazonASIN": scraped_product['asin'],
             "affiliateId": self.config['affiliate_tag'],
             "originalAmazonTitle": scraped_product['title'],
-            "amazonPrice": scraped_product.get('price', 'Prix non disponible'),
+            "amazonPrice": scraped_product.get('price', 'Price not available'),
             "amazonRating": scraped_product.get('rating', 4.0),
             "amazonReviewCount": scraped_product.get('review_count', 0),
             "brand": scraped_product.get('brand', 'Unknown'),
             "seo": {
-                "title": f"{scraped_product['title']} - Product Expert",
-                "description": f"Découvrez {scraped_product['title']} sur Amazon. Note {scraped_product.get('rating', 4.0)}/5 avec {scraped_product.get('review_count', 0)} avis.",
-                "keywords": ["producto", scraped_product.get('brand', '').lower(), "amazon", "avis"]
+                "title": "",
+                "description": "",
+                "keywords": []
             },
             "reviews": {
                 "averageRating": scraped_product.get('rating', 4.0),
@@ -2239,7 +2237,7 @@ if __name__ == "__main__":
     main_cats = len([c for c in scraper.categories if c['level'] == 0])
     sub_cats = len([c for c in scraper.categories if c['level'] == 1])
     safe_print(f"[HIERARCHICAL] Structure: {main_cats} main categories (20 products each) + {sub_cats} subcategories (5 products each)")
-    safe_print(f"[TARGET] Quality filters: {scraper.min_rating}+ stars, {scraper.min_price}{scraper.config['currency_symbol']}+ price")
+    safe_print(f"[TARGET] Quality filters: DISABLED - scraping all products regardless of rating/price")
     
     # Calculate expected totals
     expected_total = (main_cats * 20) + (sub_cats * 5)

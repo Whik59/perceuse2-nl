@@ -63,10 +63,10 @@ class AIProductEnhancer:
         # Load AI configuration
         self.ai_config = self.load_ai_config()
         
-        # Performance settings - OPTIMIZED FOR STABILITY
-        self.max_concurrent_requests = 5  # Reduced for stability
-        self.batch_size = 50  # Smaller batch size
-        self.request_delay = 0.5  # Small delay to avoid rate limits
+        # Performance settings - OPTIMIZED FOR MAXIMUM SPEED
+        self.max_concurrent_requests = 200  # Increased for maximum speed
+        self.batch_size = 200  # Larger batch size for efficiency
+        self.request_delay = 0.1  # Minimal delay for speed
         self.print_lock = Lock()  # Thread-safe printing
         
         # Caching system for faster processing
@@ -914,8 +914,8 @@ Konzentriere dich auf häufige Bedenken über:
             
             safe_print(f"[BATCH] Completed: {enhanced} enhanced, {failed} failed")
             
-            # Small delay between batches
-            time.sleep(1)
+            # Minimal delay between batches for ultra-fast mode
+            time.sleep(0.1)
         
         # Summary
         safe_print(f"\n[SUMMARY] FAST Enhancement Complete")
@@ -1015,11 +1015,27 @@ Konzentriere dich auf häufige Bedenken über:
             specifications = product.get('specifications', {})
             
             # ULTRA-FAST AI enhancement with maximum concurrency
+            safe_print(f"[DEBUG] Starting AI enhancement for {os.path.basename(product_file)}")
+            
+            name_start = time.time()
             enhanced_name = self.optimize_product_name_fast(original_name)
+            safe_print(f"[DEBUG] Name optimization took {time.time() - name_start:.2f}s")
+            
+            desc_start = time.time()
             enhanced_description = self.enhance_description_fast(original_name, features, price)
+            safe_print(f"[DEBUG] Description enhancement took {time.time() - desc_start:.2f}s")
+            
+            specs_start = time.time()
             enhanced_specs = self.enhance_specifications_fast(specifications, original_name)
+            safe_print(f"[DEBUG] Specifications enhancement took {time.time() - specs_start:.2f}s")
+            
+            faq_start = time.time()
             faq = self.generate_faq_fast(original_name, features, price)
+            safe_print(f"[DEBUG] FAQ generation took {time.time() - faq_start:.2f}s")
+            
+            short_start = time.time()
             short_desc = self.create_short_description_fast(original_name, features, price)
+            safe_print(f"[DEBUG] Short description took {time.time() - short_start:.2f}s")
             
             # Create SEO-optimized slug
             enhanced_slug = self.create_seo_slug_fast(enhanced_name)
@@ -1037,8 +1053,10 @@ Konzentriere dich auf häufige Bedenken über:
                 'enhanced': True
             })
             
-            # Enhance SEO data - AI-generated keywords
-            seo_keywords = self.generate_seo_keywords_ai(enhanced_name, product.get('category', ''), product.get('brand', ''))
+            # Enhance SEO data - Use simple keywords instead of AI generation
+            seo_keywords = [enhanced_name.lower(), product.get('category', '').lower(), product.get('brand', '').lower()]
+            # Remove empty keywords
+            seo_keywords = [kw for kw in seo_keywords if kw and kw.strip()]
             product['seo'] = {
                 'title': enhanced_name,
                 'description': short_desc,
@@ -1448,6 +1466,7 @@ Respond ONLY with description:"""
 
     def get_ai_response_fast(self, prompt):
         """Fast AI response using Google Gemini 2.5 Flash with fallbacks for robustness"""
+        start_time = time.time()
         try:
             import google.generativeai as genai
             
@@ -1467,10 +1486,18 @@ Respond ONLY with description:"""
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
-            # Small delay to avoid rate limits
-            time.sleep(0.5)
+            # Debug: Log before API call
+            safe_print(f"[DEBUG] Making AI request...")
+            api_start = time.time()
+            
+            # Minimal delay for ultra-fast processing
+            time.sleep(0.1)
             
             response = model.generate_content(full_prompt)
+            
+            # Debug: Log API response time
+            api_time = time.time() - api_start
+            safe_print(f"[DEBUG] API response time: {api_time:.2f}s")
             
             # Check for valid response with proper error handling
             if response and response.candidates:
@@ -1493,9 +1520,14 @@ Respond ONLY with description:"""
             safe_print(f"[ERROR] Google Generative AI not installed! Using fallback.")
             return self._get_fallback_response(prompt)
         except Exception as e:
-            safe_print(f"[ERROR] AI request failed: {str(e)}")
+            total_time = time.time() - start_time
+            safe_print(f"[ERROR] AI request failed after {total_time:.2f}s: {str(e)}")
             safe_print(f"[WARNING] Using fallback response")
             return self._get_fallback_response(prompt)
+        finally:
+            total_time = time.time() - start_time
+            if total_time > 5.0:  # Log if request took more than 5 seconds
+                safe_print(f"[SLOW] Total AI request time: {total_time:.2f}s")
     
     def _get_fallback_response(self, prompt):
         """Generate fallback response when AI fails"""
@@ -1521,40 +1553,6 @@ Respond ONLY with description:"""
         """Raise error when AI fails - no fallbacks allowed"""
         raise Exception(f"AI {content_type} generation failed - stopping script")
     
-    def generate_seo_keywords_ai(self, product_name, category, brand):
-        """Generate comprehensive SEO keywords using AI based on actual product data"""
-        language_name = self.language_map.get(self.output_language, self.output_language.title())
-        
-        prompt = f"""Generate comprehensive SEO keywords for: {product_name} in {language_name}
-Category: {category}
-Brand: {brand}
-
-SEO KEYWORD REQUIREMENTS:
-- Include primary keyword (main product type)
-- Add brand-specific keywords
-- Include feature-based keywords
-- Add benefit-focused keywords
-- Include long-tail keywords
-- Add comparison keywords (best, top, review)
-- Include local/regional terms if applicable
-
-FORMAT: keyword1, keyword2, keyword3, keyword4, keyword5, keyword6, keyword7, keyword8, keyword9, keyword10
-
-EXAMPLES:
-INPUT: "Robot Pâtissier KitchenAid Classic Pro - 4.3L Premium"
-OUTPUT: "robot pâtissier, kitchenaid classic, robot pâtissier kitchenaid, meilleur robot pâtissier, robot pâtissier professionnel, kitchenaid 4.3l, robot pâtissier premium, robot cuisine kitchenaid, robot pâtissier pas cher, avis robot pâtissier"
-
-RESPOND WITH ONLY THE KEYWORDS SEPARATED BY COMMAS:"""
-        
-        try:
-            response = self.get_ai_response_fast(prompt)
-            keywords = response.strip().replace('"', '').replace("'", '')
-            return keywords
-        except Exception as e:
-            safe_print(f"[ERROR] SEO keywords generation failed: {e}")
-            # Fallback to basic product name if AI fails
-            return product_name
-
 def main():
     """Main function with command line arguments"""
     import argparse
@@ -1566,8 +1564,8 @@ def main():
     parser.add_argument('--mode', '-m', default='interactive',
                         choices=['interactive', 'ultra-fast', 'fast', 'standard'],
                         help='Processing mode (default: interactive)')
-    parser.add_argument('--workers', '-w', type=int, default=5,
-                        help='Number of concurrent workers for ultra-fast mode (default: 5)')
+    parser.add_argument('--workers', '-w', type=int, default=50,
+                        help='Number of concurrent workers for ultra-fast mode (default: 50)')
     
     args = parser.parse_args()
     
