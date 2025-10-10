@@ -773,7 +773,7 @@ class AmazonScraper:
             if asin:
                 # Create clean affiliate URL with ASIN
                 domain = self.config.get('amazon_domain', f"amazon{self.config['amazon_tld']}")
-                product['affiliate_url'] = f"https://{domain}/dp/{asin}?tag={self.config['affiliate_tag']}"
+                product['affiliate_url'] = f"https://{domain}/dp/{asin}/?tag={self.config['affiliate_tag']}"
             else:
                 # Fallback: add tag to existing URL
                 separator = '&' if '?' in product['url'] else '?'

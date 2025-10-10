@@ -385,15 +385,17 @@ Fragen über das tatsächliche Produkt: {product_name}"""
         prompt = prompts['slug_optimization'].format(product_name=product_name)
         slug = self.get_ai_response(prompt)
         
-        # Additional cleanup
+        # Additional cleanup with comprehensive accent handling
         slug = slug.lower()
-        slug = re.sub(r'[áàäâã]', 'a', slug)
-        slug = re.sub(r'[éèëê]', 'e', slug)
-        slug = re.sub(r'[íìïî]', 'i', slug)
-        slug = re.sub(r'[óòöôõ]', 'o', slug)
-        slug = re.sub(r'[úùüû]', 'u', slug)
-        slug = re.sub(r'[ñ]', 'n', slug)
-        slug = re.sub(r'[ç]', 'c', slug)
+        slug = re.sub(r'[áàäâãāăą]', 'a', slug)
+        slug = re.sub(r'[éèëêēĕėę]', 'e', slug)
+        slug = re.sub(r'[íìïîīĭį]', 'i', slug)
+        slug = re.sub(r'[óòöôõōŏő]', 'o', slug)
+        slug = re.sub(r'[úùüûūŭůű]', 'u', slug)
+        slug = re.sub(r'[ýỳÿŷ]', 'y', slug)
+        slug = re.sub(r'[ñńņň]', 'n', slug)
+        slug = re.sub(r'[çćĉċč]', 'c', slug)
+        slug = re.sub(r'[ß]', 'ss', slug)
         slug = re.sub(r'[^a-z0-9\-]', '-', slug)
         slug = re.sub(r'-+', '-', slug)
         slug = slug.strip('-')
@@ -821,9 +823,8 @@ Konzentriere dich auf häufige Bedenken über:
                     faq = self.generate_faq_fast(original_name, features, price)
                     short_desc = self.create_short_description_fast(original_name, features, price)
                     
-                    # Create slug quickly (no AI needed) - make it simple for async
-                    enhanced_slug = enhanced_name.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ñ', 'n')
-                    enhanced_slug = re.sub(r'[^a-z0-9-]', '', enhanced_slug)[:50]
+                    # Create SEO-optimized slug
+                    enhanced_slug = self.create_seo_slug_fast(enhanced_name)
                     
                     # Update product data
                     product.update({
@@ -1020,9 +1021,8 @@ Konzentriere dich auf häufige Bedenken über:
             faq = self.generate_faq_fast(original_name, features, price)
             short_desc = self.create_short_description_fast(original_name, features, price)
             
-            # Create slug quickly
-            enhanced_slug = enhanced_name.lower().replace(' ', '-').replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u').replace('ñ', 'n')
-            enhanced_slug = re.sub(r'[^a-z0-9-]', '', enhanced_slug)[:50]
+            # Create SEO-optimized slug
+            enhanced_slug = self.create_seo_slug_fast(enhanced_name)
             
             # Update product data
             product.update({
@@ -1057,23 +1057,37 @@ Konzentriere dich auf häufige Bedenken über:
             raise Exception(f"Failed to enhance product: {str(e)}")
 
     def optimize_product_name_fast(self, original_name):
-        """AI-powered name optimization with product-specific prompts"""
+        """AI-powered name optimization with enhanced SEO focus"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
-        prompt = f"""Create a clean, SEO-optimized product name (max 60 characters) for: "{original_name}" in {language_name}
+        prompt = f"""Create a highly SEO-optimized product name (MAXIMUM 4-5 words) for: "{original_name}" in {language_name}
+
+SEO OPTIMIZATION REQUIREMENTS:
+- MAXIMUM 4-5 words only
+- Include primary keyword at the beginning
+- Add ONE compelling benefit or feature
+- Use power words: "Pro", "Premium", "Smart", "Advanced"
+- Include brand name if available
+- Focus on the most important value proposition
+- Make it extremely concise and impactful
 
 CRITICAL RULES:
 - Return ONLY the product name, nothing else
 - NO explanations, analysis, or conversational text
-- NO "¡Claro!" or "Aquí tienes" or similar phrases
 - NO bullet points or formatting
 - NO quotes around the name
-- Focus on key features and benefits
-- Make it appealing and descriptive
+- MAXIMUM 4-5 words - be ruthless with word count
 
-EXAMPLE INPUT: "Bobby, the Hopping Robot (Between the Lions)"
-EXAMPLE OUTPUT: Robot Aspirador Bobby - Limpieza Inteligente
+EXAMPLES:
+INPUT: "KitchenAid Classic Robot pâtissier Noir 4,3 L"
+OUTPUT: "Robot Pâtissier KitchenAid Pro"
 
-RESPOND WITH ONLY THE PRODUCT NAME:"""
+INPUT: "CHeflee Robot Pâtissier 2000W Robot Pétrin Professionnel 7.2 Litres"
+OUTPUT: "Robot Pâtissier CHeflee Premium"
+
+INPUT: "Robot Pâtissier 1500W Facelle Petit électroménager 6,2 L"
+OUTPUT: "Robot Pâtissier Facelle Pro"
+
+RESPOND WITH ONLY THE SHORT SEO-OPTIMIZED PRODUCT NAME:"""
         
         response = self.get_ai_response_fast(prompt)
         
@@ -1125,8 +1139,74 @@ RESPOND WITH ONLY THE PRODUCT NAME:"""
                     clean_name = line
                     break
         
-        # Limit to 60 characters
-        return clean_name[:60] if clean_name else original_name[:60]
+        # Validate word count - ensure it's 4-5 words maximum
+        words = clean_name.split()
+        if len(words) > 5:
+            # Take only the first 5 words
+            clean_name = ' '.join(words[:5])
+        elif len(words) < 2:
+            # If too short, fall back to original name (truncated)
+            original_words = original_name.split()[:4]
+            clean_name = ' '.join(original_words)
+        
+        return clean_name if clean_name else original_name[:60]
+
+    def create_seo_slug_fast(self, product_name):
+        """Create SEO-optimized slug with keyword focus"""
+        # Extract key SEO elements
+        words = product_name.lower().split()
+        
+        # Prioritize important keywords (brand, product type, key features)
+        important_keywords = []
+        brand_keywords = ['kitchenaid', 'bosch', 'worx', 'cheflee', 'facelle', 'sunseeker', 'roboup']
+        product_keywords = ['robot', 'aspirateur', 'pâtissier', 'tondeuse', 'cuisine', 'aspirateur-laveur']
+        feature_keywords = ['intelligent', 'professionnel', 'premium', 'pro', 'smart', 'connecté']
+        
+        # Add brand if found
+        for word in words:
+            if word in brand_keywords:
+                important_keywords.append(word)
+                break
+        
+        # Add product type
+        for word in words:
+            if word in product_keywords:
+                important_keywords.append(word)
+                break
+        
+        # Add key features
+        for word in words:
+            if word in feature_keywords and word not in important_keywords:
+                important_keywords.append(word)
+                break
+        
+        # Add capacity/size if present
+        for word in words:
+            if any(char.isdigit() for char in word) and ('l' in word or 'm' in word or 'w' in word):
+                important_keywords.append(word)
+                break
+        
+        # Create slug from important keywords + remaining words
+        slug_parts = important_keywords + [w for w in words if w not in important_keywords and len(w) > 2]
+        
+        # Join and clean
+        slug = '-'.join(slug_parts[:6])  # Limit to 6 parts for readability
+        
+        # Clean up special characters - comprehensive accent handling
+        slug = re.sub(r'[áàäâãāăą]', 'a', slug)
+        slug = re.sub(r'[éèëêēĕėę]', 'e', slug)
+        slug = re.sub(r'[íìïîīĭį]', 'i', slug)
+        slug = re.sub(r'[óòöôõōŏő]', 'o', slug)
+        slug = re.sub(r'[úùüûūŭůű]', 'u', slug)
+        slug = re.sub(r'[ýỳÿŷ]', 'y', slug)
+        slug = re.sub(r'[ñńņň]', 'n', slug)
+        slug = re.sub(r'[çćĉċč]', 'c', slug)
+        slug = re.sub(r'[ß]', 'ss', slug)
+        slug = re.sub(r'[^a-z0-9\-]', '-', slug)
+        slug = re.sub(r'-+', '-', slug)
+        slug = slug.strip('-')
+        
+        return slug[:60]  # Limit to 60 characters
 
     def enhance_description_fast(self, original_name, features, price):
         """AI-powered description enhancement with product-specific prompts"""
@@ -1442,10 +1522,29 @@ Respond ONLY with description:"""
         raise Exception(f"AI {content_type} generation failed - stopping script")
     
     def generate_seo_keywords_ai(self, product_name, category, brand):
-        """Generate SEO keywords using AI based on actual product data"""
+        """Generate comprehensive SEO keywords using AI based on actual product data"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         
-        prompt = f"SEO keywords for: {product_name} in {language_name}\nCategory: {category}\nBrand: {brand}\nFormat: keyword1, keyword2, keyword3"
+        prompt = f"""Generate comprehensive SEO keywords for: {product_name} in {language_name}
+Category: {category}
+Brand: {brand}
+
+SEO KEYWORD REQUIREMENTS:
+- Include primary keyword (main product type)
+- Add brand-specific keywords
+- Include feature-based keywords
+- Add benefit-focused keywords
+- Include long-tail keywords
+- Add comparison keywords (best, top, review)
+- Include local/regional terms if applicable
+
+FORMAT: keyword1, keyword2, keyword3, keyword4, keyword5, keyword6, keyword7, keyword8, keyword9, keyword10
+
+EXAMPLES:
+INPUT: "Robot Pâtissier KitchenAid Classic Pro - 4.3L Premium"
+OUTPUT: "robot pâtissier, kitchenaid classic, robot pâtissier kitchenaid, meilleur robot pâtissier, robot pâtissier professionnel, kitchenaid 4.3l, robot pâtissier premium, robot cuisine kitchenaid, robot pâtissier pas cher, avis robot pâtissier"
+
+RESPOND WITH ONLY THE KEYWORDS SEPARATED BY COMMAS:"""
         
         try:
             response = self.get_ai_response_fast(prompt)
