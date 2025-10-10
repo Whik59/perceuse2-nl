@@ -193,7 +193,7 @@ Respond ONLY with JSON array.
                 raise Exception("AI API key not configured - stopping script")
             
             genai.configure(api_key=API_KEY)
-            model = genai.GenerativeModel('gemini-2.5-flash-lite')
+            model = genai.GenerativeModel('gemini-2.5-flash')
             
             # System prompt for target language
             language_name = self.language_map.get(self.output_language, self.output_language.title())

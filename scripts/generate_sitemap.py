@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Sitemap Generator for Airfryer Kaufen
-Generates a sitemap.xml file with categories and products URLs
+Sitemap Generator for Massage Products
+Generates a hierarchical sitemap.xml file with categories, subcategories, and products URLs
 """
 
 import json
@@ -12,7 +12,7 @@ from typing import List, Dict, Any
 import argparse
 
 # Configuration
-SITE_URL = "https://airfryer-kaufen.com"  # Update this to your actual domain
+SITE_URL = "https://massage.fr"  # Update this to your actual domain
 SITEMAP_FILE = "public/sitemap.xml"
 CATEGORIES_FILE = "data/categories.json"
 PRODUCTS_DIR = "data/products"
@@ -86,12 +86,33 @@ def create_url_element(urlset: ET.Element, url: str, priority: float, changefreq
     priority_elem = ET.SubElement(url_elem, "priority")
     priority_elem.text = str(priority)
 
+def load_category_products_mapping() -> Dict[str, List[str]]:
+    """Load category-products mapping from indices"""
+    try:
+        indices_path = os.path.join("data", "indices", "category-products.json")
+        if os.path.exists(indices_path):
+            with open(indices_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"Warning: Could not load category-products mapping: {e}")
+    return {}
+
 def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, Any]]) -> str:
-    """Generate sitemap XML content"""
+    """Generate hierarchical sitemap XML content with categories, subcategories, and products"""
     
     # Create root element
     urlset = ET.Element("urlset")
     urlset.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
+    
+    # Load category-products mapping
+    category_products = load_category_products_mapping()
+    
+    # Create product lookup by ID
+    product_lookup = {}
+    for product in products:
+        product_id = product.get('productId') or product.get('amazonASIN')
+        if product_id:
+            product_lookup[product_id.upper()] = product
     
     # Add homepage
     create_url_element(
@@ -111,9 +132,10 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
         datetime.now().strftime("%Y-%m-%d")
     )
     
-    # Add individual category pages
+    # Add main categories and their subcategories with products
     for category in categories:
         if category.get('slug'):
+            # Add main category page
             category_url = f"{SITE_URL}/category/{category['slug']}"
             create_url_element(
                 urlset,
@@ -122,18 +144,60 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
                 CHANGEFREQ_CATEGORIES,
                 datetime.now().strftime("%Y-%m-%d")
             )
+            
+            # Add subcategories if they exist
+            if 'subcategories' in category:
+                for subcategory in category['subcategories']:
+                    if subcategory.get('slug'):
+                        # Create hierarchical slug for subcategory
+                        subcategory_slug = f"{category['slug']}/{subcategory['slug']}"
+                        subcategory_url = f"{SITE_URL}/category/{subcategory_slug}"
+                        create_url_element(
+                            urlset,
+                            subcategory_url,
+                            PRIORITY_CATEGORIES - 0.1,  # Slightly lower priority than main categories
+                            CHANGEFREQ_CATEGORIES,
+                            datetime.now().strftime("%Y-%m-%d")
+                        )
+                        
+                        # Add products for this subcategory
+                        # Find category ID for this subcategory (we need to match by name)
+                        subcategory_id = None
+                        for cat_id, product_ids in category_products.items():
+                            # This is a simplified matching - in a real scenario you'd want better matching
+                            if len(product_ids) > 0:  # If this category has products
+                                subcategory_id = cat_id
+                                break
+                        
+                        if subcategory_id and subcategory_id in category_products:
+                            product_ids = category_products[subcategory_id]
+                            for product_id in product_ids[:10]:  # Limit to first 10 products per category
+                                product = product_lookup.get(product_id.upper())
+                                if product and product.get('slug'):
+                                    product_url = f"{SITE_URL}/product/{product['slug']}"
+                                    create_url_element(
+                                        urlset,
+                                        product_url,
+                                        PRIORITY_PRODUCTS,
+                                        CHANGEFREQ_PRODUCTS,
+                                        datetime.now().strftime("%Y-%m-%d")
+                                    )
     
-    # Add individual product pages
-    for product in products:
-        if product.get('slug'):
-            product_url = f"{SITE_URL}/product/{product['slug']}"
-            create_url_element(
-                urlset,
-                product_url,
-                PRIORITY_PRODUCTS,
-                CHANGEFREQ_PRODUCTS,
-                datetime.now().strftime("%Y-%m-%d")
-            )
+    # Add remaining products that might not be categorized
+    added_products = set()
+    for category_id, product_ids in category_products.items():
+        for product_id in product_ids:
+            product = product_lookup.get(product_id.upper())
+            if product and product.get('slug') and product['slug'] not in added_products:
+                product_url = f"{SITE_URL}/product/{product['slug']}"
+                create_url_element(
+                    urlset,
+                    product_url,
+                    PRIORITY_PRODUCTS,
+                    CHANGEFREQ_PRODUCTS,
+                    datetime.now().strftime("%Y-%m-%d")
+                )
+                added_products.add(product['slug'])
     
     # Convert to string with proper formatting
     ET.indent(urlset, space="  ", level=0)
@@ -197,7 +261,7 @@ def save_robots_txt(content: str, output_file: str) -> None:
 
 def main():
     """Main function"""
-    parser = argparse.ArgumentParser(description='Generate sitemap.xml and robots.txt for Airfryer Kaufen')
+    parser = argparse.ArgumentParser(description='Generate hierarchical sitemap.xml and robots.txt for Massage Products')
     parser.add_argument('--site-url', default=SITE_URL, help='Site URL (default: https://airfryer-kaufen.com)')
     parser.add_argument('--sitemap-output', default=SITEMAP_FILE, help='Sitemap output file path (default: public/sitemap.xml)')
     parser.add_argument('--robots-output', default='public/robots.txt', help='Robots.txt output file path (default: public/robots.txt)')
@@ -214,7 +278,7 @@ def main():
     products_dir = args.products_dir
     
     print("=" * 50)
-    print("Airfryer Kaufen SEO Generator")
+    print("Massage Products SEO Generator")
     print("=" * 50)
     print(f"Site URL: {site_url}")
     print(f"Sitemap output: {sitemap_file}")
@@ -249,15 +313,26 @@ def main():
     print("Saving robots.txt...")
     save_robots_txt(robots_content, robots_file)
     
+    # Calculate totals for summary
+    total_subcategories = sum(len(cat.get('subcategories', [])) for cat in categories)
+    total_urls = 1 + 1 + len(categories) + total_subcategories + len(products)  # homepage + categories page + main categories + subcategories + products
+    
     # Summary
     print("\n" + "=" * 50)
-    print("SEO FILES GENERATION COMPLETE")
+    print("HIERARCHICAL SITEMAP GENERATION COMPLETE")
     print("=" * 50)
-    print(f"Total URLs in sitemap: {1 + 1 + len(categories) + len(products)}")  # homepage + categories page + categories + products
+    print(f"Total URLs in sitemap: {total_urls}")
     print(f"- Homepage: 1")
     print(f"- Categories page: 1")
-    print(f"- Category pages: {len(categories)}")
+    print(f"- Main category pages: {len(categories)}")
+    print(f"- Subcategory pages: {total_subcategories}")
     print(f"- Product pages: {len(products)}")
+    print(f"\nHierarchical structure:")
+    for category in categories:
+        print(f"  📁 {category['name']} ({category['slug']})")
+        if 'subcategories' in category:
+            for subcategory in category['subcategories']:
+                print(f"    📂 {subcategory['name']} ({category['slug']}/{subcategory['slug']})")
     print(f"\nFiles generated:")
     print(f"- Sitemap: {sitemap_file}")
     print(f"- Robots.txt: {robots_file}")

@@ -19,11 +19,11 @@
     "default_rating": 4.5,
     "default_review_count": 1,
     "default_price": "desde 200€",
-    "store_name": "Tu Tienda de Robots"
+    "store_name": "Tu Tienda de Masaje"
   },
  
   "prompts": {
-    "system_message": "Eres un experto en marketing digital y SEO para productos electrónicos y tecnología en España. Siempre respondes en español de forma clara y persuasiva.",
+    "system_message": "Eres un experto en marketing digital y SEO para productos de masaje y bienestar en España. Siempre respondes en español de forma clara y persuasiva.",
     
     "name_optimization": "Optimiza este nombre de producto para SEO y atractivo comercial:\nOriginal: \"{original_name}\"\n\nRequisitos:\n- Mantenerlo en español\n- Hacerlo más atractivo y descriptivo\n- Incluir características clave que buscan los usuarios\n- Máximo 80 caracteres\n- Enfocado en beneficios y calidad\n\nResponde solo con el nombre optimizado.",
     

@@ -96,8 +96,8 @@ class AdvancedAmazonKeywordScraper:
     
 
     
-    def get_amazon_suggestions(self, search_term):
-        """Get autocomplete suggestions from Amazon"""
+    def get_amazon_suggestions(self, search_term, retries=5):
+        """Get autocomplete suggestions from Amazon with retry logic"""
         url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
         
         params = {
@@ -106,27 +106,65 @@ class AdvancedAmazonKeywordScraper:
             "prefix": search_term
         }
         
-        try:
-            response = self.session.get(url, params=params, timeout=10)
-            response.raise_for_status()
-            
-            data = response.json()
-            suggestions = []
-            
-            if 'suggestions' in data:
-                for suggestion in data['suggestions']:
-                    if 'value' in suggestion:
-                        keyword = suggestion['value'].strip().lower()
-                        base_lower = self.base_keyword.lower()
-                        # Only include keywords that start with base keyword and are not just the base keyword
-                        if keyword and keyword.startswith(base_lower) and keyword != base_lower:
-                            suggestions.append(keyword)
-            
-            return suggestions
-            
-        except Exception as e:
-            safe_print(f"[ERROR] Failed to get suggestions for '{search_term}': {e}")
-            return []
+        for attempt in range(retries):
+            try:
+                # Adaptive timeout based on attempt
+                timeout = 10 + (attempt * 5)  # Increase timeout for retries
+                
+                # Adaptive delay based on attempt
+                if attempt > 0:
+                    delay = random.uniform(1, 2 ** attempt)  # Exponential backoff
+                    safe_print(f"  [RETRY] Attempt {attempt + 1}/{retries}: Waiting {delay:.1f}s...")
+                    time.sleep(delay)
+                
+                response = self.session.get(url, params=params, timeout=timeout)
+                response.raise_for_status()
+                
+                data = response.json()
+                suggestions = []
+                
+                if 'suggestions' in data:
+                    for suggestion in data['suggestions']:
+                        if 'value' in suggestion:
+                            keyword = suggestion['value'].strip().lower()
+                            base_lower = self.base_keyword.lower()
+                            # Only include keywords that start with base keyword and are not just the base keyword
+                            if keyword and keyword.startswith(base_lower) and keyword != base_lower:
+                                suggestions.append(keyword)
+                
+                safe_print(f"  [SUCCESS] '{search_term}': {len(suggestions)} suggestions on attempt {attempt + 1}")
+                return suggestions
+                
+            except requests.exceptions.Timeout as e:
+                safe_print(f"  [RETRY] Timeout for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed due to timeout for '{search_term}'")
+                    
+            except requests.exceptions.ConnectionError as e:
+                safe_print(f"  [RETRY] Connection error for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed due to connection error for '{search_term}'")
+                    
+            except requests.exceptions.RequestException as e:
+                safe_print(f"  [RETRY] Request error for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed for '{search_term}': {str(e)}")
+                    
+            except Exception as e:
+                safe_print(f"  [RETRY] Unexpected error for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed for '{search_term}': {str(e)}")
+        
+        safe_print(f"  [WARNING] '{search_term}': No suggestions after {retries} attempts")
+        return []
     
     def get_marketplace_id(self):
         """Get marketplace ID for the current market"""
@@ -338,8 +376,8 @@ class AdvancedAmazonKeywordScraper:
         safe_print(f"\n[FINAL] Total keywords found: {len(self.all_keywords)}")
         return list(self.all_keywords)
 
-    async def get_amazon_suggestions_async(self, session, search_term):
-        """Async version of get_amazon_suggestions"""
+    async def get_amazon_suggestions_async(self, session, search_term, retries=5):
+        """Async version of get_amazon_suggestions with retry logic"""
         url = f"https://completion.amazon{self.config['amazon_tld']}/api/2017/suggestions"
         
         params = {
@@ -357,28 +395,65 @@ class AdvancedAmazonKeywordScraper:
             'Cache-Control': 'no-cache',
         }
         
-        try:
-            async with session.get(url, params=params, headers=headers, timeout=10) as response:
-                if response.status == 200:
-                    data = await response.json()
-                    suggestions = []
-                    
-                    if 'suggestions' in data:
-                        for suggestion in data['suggestions']:
-                            if 'value' in suggestion:
-                                keyword = suggestion['value'].strip().lower()
-                                base_lower = self.base_keyword.lower()
-                                # Only include keywords that start with base keyword and are not just the base keyword
-                                if keyword and keyword.startswith(base_lower) and keyword != base_lower:
-                                    suggestions.append(keyword)
-                    
-                    return search_term, suggestions
+        for attempt in range(retries):
+            try:
+                # Adaptive timeout based on attempt
+                timeout = 10 + (attempt * 5)  # Increase timeout for retries
+                
+                # Adaptive delay based on attempt
+                if attempt > 0:
+                    delay = random.uniform(1, 2 ** attempt)  # Exponential backoff
+                    safe_print(f"  [RETRY] '{search_term}' attempt {attempt + 1}/{retries}: Waiting {delay:.1f}s...")
+                    await asyncio.sleep(delay)
+                
+                async with session.get(url, params=params, headers=headers, timeout=timeout) as response:
+                    if response.status == 200:
+                        data = await response.json()
+                        suggestions = []
+                        
+                        if 'suggestions' in data:
+                            for suggestion in data['suggestions']:
+                                if 'value' in suggestion:
+                                    keyword = suggestion['value'].strip().lower()
+                                    base_lower = self.base_keyword.lower()
+                                    # Only include keywords that start with base keyword and are not just the base keyword
+                                    if keyword and keyword.startswith(base_lower) and keyword != base_lower:
+                                        suggestions.append(keyword)
+                        
+                        safe_print(f"  [SUCCESS] '{search_term}': {len(suggestions)} suggestions on attempt {attempt + 1}")
+                        return search_term, suggestions
+                    else:
+                        safe_print(f"  [RETRY] '{search_term}' HTTP {response.status} on attempt {attempt + 1}")
+                        if attempt < retries - 1:
+                            await asyncio.sleep(random.uniform(1, 3))
+                            continue
+                        else:
+                            safe_print(f"  [ERROR] '{search_term}' failed after {retries} attempts with HTTP {response.status}")
+                            return search_term, []
+                            
+            except asyncio.TimeoutError as e:
+                safe_print(f"  [RETRY] Timeout for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
                 else:
-                    return search_term, []
+                    safe_print(f"  [ERROR] All attempts failed due to timeout for '{search_term}'")
                     
-        except Exception as e:
-            safe_print(f"[ERROR] Failed to get suggestions for '{search_term}': {e}")
-            return search_term, []
+            except aiohttp.ClientError as e:
+                safe_print(f"  [RETRY] Client error for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed due to client error for '{search_term}'")
+                    
+            except Exception as e:
+                safe_print(f"  [RETRY] Unexpected error for '{search_term}' on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed for '{search_term}': {str(e)}")
+        
+        safe_print(f"  [WARNING] '{search_term}': No suggestions after {retries} attempts")
+        return search_term, []
 
     async def scrape_with_letters_async(self, max_concurrent=10):
         """Fast async scraping with concurrent requests"""

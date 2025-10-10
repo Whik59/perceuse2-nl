@@ -1,52 +1,123 @@
 [
   {
-    "slug": "robot-aspirateur",
-    "name": "Robot Aspirateur",
-    "description": "Découvrez notre sélection de robots aspirateurs pour la maison.",
+    "slug": "appareils-massage-electriques",
+    "name": "Appareils de Massage Électriques",
+    "categoryNameCanonical": "Appareils de Massage Électriques",
+    "description": "Appareils motorisés pour le massage en profondeur, la relaxation et la récupération musculaire. Inclut des modèles à percussion, shiatsu, et à vibration pour différentes parties du corps.",
     "subcategories": [
       {
-        "slug": "robot-aspirateur-laveur",
-        "name": "Robot Aspirateur Laveur",
-        "description": "Aspirer et laver en un seul passage."
+        "slug": "pistolets-massage-percussion",
+        "name": "Pistolets de Massage à Percussion",
+        "categoryNameCanonical": "Pistolets de Massage à Percussion",
+        "description": "Appareils portatifs pour le massage des tissus profonds, idéaux pour la récupération des sportifs et le soulagement des tensions musculaires."
       },
       {
-        "slug": "robot-aspirateur-pour-animaux",
-        "name": "Robot Aspirateur pour Animaux",
-        "description": "Idéal pour les poils de chien et chat."
+        "slug": "coussins-massage-shiatsu",
+        "name": "Coussins de Massage Shiatsu",
+        "categoryNameCanonical": "Coussins de Massage Shiatsu",
+        "description": "Coussins et sièges avec têtes rotatives chauffantes pour masser le cou, le dos et les épaules, imitant la technique Shiatsu."
+      },
+      {
+        "slug": "masseurs-electriques-pieds",
+        "name": "Masseurs Électriques pour Pieds",
+        "categoryNameCanonical": "Masseurs Électriques pour Pieds",
+        "description": "Appareils conçus spécifiquement pour la réflexologie plantaire, souvent équipés de fonctions de chauffage et de compression d'air."
+      },
+      {
+        "slug": "ceintures-massage-vibrantes",
+        "name": "Ceintures de Massage Vibrantes",
+        "categoryNameCanonical": "Ceintures de Massage Vibrantes",
+        "description": "Ceintures portables pour cibler la zone abdominale et lombaire, utilisées pour la relaxation, le soulagement de la douleur ou un effet amincissant."
       }
     ]
   },
   {
-    "slug": "robot-de-cuisine",
-    "name": "Robot de Cuisine",
-    "description": "Robots multifonctions, pâtissiers et cuiseurs.",
+    "slug": "outils-massage-manuels",
+    "name": "Outils de Massage Manuels",
+    "categoryNameCanonical": "Outils de Massage Manuels",
+    "description": "Accessoires non électriques pour l'auto-massage et le relâchement myofascial. Parfait pour un contrôle précis de la pression sur les muscles et les points de tension.",
     "subcategories": [
       {
-        "slug": "robot-patissier",
-        "name": "Robot Pâtissier",
-        "description": "Pour vos préparations sucrées et pâtisseries."
+        "slug": "outils-massage-bois",
+        "name": "Outils de Massage en Bois",
+        "categoryNameCanonical": "Outils de Massage en Bois",
+        "description": "Instruments traditionnels en bois comme les rouleaux, les croix de massage ou les outils de madérothérapie pour un massage ferme et naturel."
       },
       {
-        "slug": "robot-cuiseur",
-        "name": "Robot Cuiseur",
-        "description": "Cuisson facile et rapide de tous vos plats."
+        "slug": "rouleaux-massage-mousse",
+        "name": "Rouleaux de Massage en Mousse",
+        "categoryNameCanonical": "Rouleaux de Massage en Mousse",
+        "description": "Rouleaux cylindriques de différentes densités utilisés pour l'échauffement, la récupération post-entraînement et l'amélioration de la flexibilité."
+      },
+      {
+        "slug": "balles-massage-points-gachettes",
+        "name": "Balles de Massage pour Points Gâchettes",
+        "categoryNameCanonical": "Balles de Massage pour Points Gâchettes",
+        "description": "Balles fermes (lisses ou à picots) pour appliquer une pression ciblée sur les nœuds musculaires et les points de déclenchement."
+      },
+      {
+        "slug": "ventouses-massage-silicone",
+        "name": "Ventouses de Massage en Silicone",
+        "categoryNameCanonical": "Ventouses de Massage en Silicone",
+        "description": "Ensembles de ventouses pour la thérapie par succion, utilisés pour améliorer la circulation et réduire l'apparence de la cellulite."
       }
     ]
   },
   {
-    "slug": "robot-tondeuse",
-    "name": "Robot Tondeuse",
-    "description": "Gardez votre pelouse parfaitement entretenue.",
+    "slug": "tapis-accessoires-acupression",
+    "name": "Tapis et Accessoires d'Acupression",
+    "categoryNameCanonical": "Tapis et Accessoires d'Acupression",
+    "description": "Produits basés sur les principes de l'acupression et de la réflexologie pour stimuler les points d'énergie du corps, soulager le stress et les douleurs.",
     "subcategories": [
       {
-        "slug": "robot-tondeuse-connecte",
-        "name": "Robot Tondeuse Connecté",
-        "description": "Pilotez votre tondeuse depuis votre smartphone."
+        "slug": "tapis-acupression-avec-coussin",
+        "name": "Tapis d'Acupression avec Coussin",
+        "categoryNameCanonical": "Tapis d'Acupression avec Coussin",
+        "description": "Ensembles comprenant un tapis et un oreiller recouverts de picots en plastique pour stimuler simultanément le dos, le cou et la tête."
       },
       {
-        "slug": "robot-tondeuse-sans-fil",
-        "name": "Robot Tondeuse Sans Fil",
-        "description": "Autonome et pratique pour tous les jardins."
+        "slug": "sandales-massage-reflexologie",
+        "name": "Sandales de Massage de Réflexologie",
+        "categoryNameCanonical": "Sandales de Massage de Réflexologie",
+        "description": "Sandales équipées de nodules qui stimulent les points de réflexologie sur la plante des pieds pendant la marche."
+      },
+      {
+        "slug": "anneaux-massage-doigts",
+        "name": "Anneaux de Massage pour Doigts",
+        "categoryNameCanonical": "Anneaux de Massage pour Doigts",
+        "description": "Petits anneaux métalliques à rouler sur les doigts pour stimuler la circulation et soulager les tensions liées à l'arthrite ou à l'utilisation du clavier."
+      }
+    ]
+  },
+  {
+    "slug": "huiles-cremes-massage",
+    "name": "Huiles et Crèmes de Massage",
+    "categoryNameCanonical": "Huiles et Crèmes de Massage",
+    "description": "Produits cosmétiques pour faciliter le massage et apporter des bienfaits spécifiques à la peau et aux muscles, comme la relaxation, l'hydratation ou un effet chauffant.",
+    "subcategories": [
+      {
+        "slug": "huiles-massage-relaxantes",
+        "name": "Huiles de Massage Relaxantes",
+        "categoryNameCanonical": "Huiles de Massage Relaxantes",
+        "description": "Huiles végétales enrichies en huiles essentielles (lavande, ylang-ylang) pour favoriser la détente et le bien-être."
+      },
+      {
+        "slug": "cremes-gels-amincissants",
+        "name": "Crèmes et Gels Amincissants",
+        "categoryNameCanonical": "Crèmes et Gels Amincissants",
+        "description": "Formules topiques contenant des actifs comme la caféine pour aider à raffermir la peau et à drainer, souvent utilisées pour le massage abdominal."
+      },
+      {
+        "slug": "baumes-chauffants-sportifs",
+        "name": "Baumes Chauffants pour Sportifs",
+        "categoryNameCanonical": "Baumes Chauffants pour Sportifs",
+        "description": "Baumes à effet chauffant pour préparer les muscles à l'effort ou pour apaiser les courbatures et les douleurs après le sport."
+      },
+      {
+        "slug": "huiles-massage-sensuelles",
+        "name": "Huiles de Massage Sensuelles",
+        "categoryNameCanonical": "Huiles de Massage Sensuelles",
+        "description": "Huiles aux parfums aphrodisiaques, parfois comestibles, conçues pour les massages en couple et les moments intimes."
       }
     ]
   }

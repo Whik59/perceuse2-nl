@@ -17,6 +17,9 @@ import threading
 import sys
 from datetime import datetime
 
+# Set cache directory to data folder
+os.environ['PYTHONPYCACHEPREFIX'] = os.path.join(os.getcwd(), 'data', '__pycache__')
+
 # Fix Windows console encoding issues
 if sys.platform == "win32":
     try:
@@ -98,7 +101,7 @@ class AmazonScraper:
         self.last_rotation_time = time.time()
         
         # Progress tracking and resumption
-        self.progress_file = f"scraping_progress_{self.market}.json"
+        self.progress_file = f"data/scraping_progress_{self.market}.json"
         self.completed_categories = set()
         self.load_progress()
         
@@ -353,7 +356,7 @@ class AmazonScraper:
             
         return headers
     
-    def make_request(self, url, retries=3):
+    def make_request(self, url, retries=5):
         """Make HTTP request with adaptive retry logic and CAPTCHA detection"""
         for attempt in range(retries):
             try:
@@ -361,9 +364,14 @@ class AmazonScraper:
                 if self.should_rotate_session():
                     self.rotate_session()
                 
-                # Optimized delays for better performance while staying safe
-                delay = random.uniform(1, 2)  # Reduced delays for faster scraping
-                safe_print(f"  [DELAY] Waiting {delay:.1f}s before request...")
+                # Adaptive delays based on attempt number
+                if attempt == 0:
+                    delay = random.uniform(1, 2)  # Normal delay for first attempt
+                else:
+                    # Exponential backoff for retries
+                    delay = random.uniform(2 ** attempt, 2 ** (attempt + 1))
+                
+                safe_print(f"  [DELAY] Attempt {attempt + 1}/{retries}: Waiting {delay:.1f}s before request...")
                 time.sleep(delay)
                 
                 # Simulate human behavior
@@ -375,40 +383,83 @@ class AmazonScraper:
                 # Increment request counter
                 self.request_count += 1
                 
-                response = self.session.get(url, headers=headers, timeout=15)
+                # Adaptive timeout based on attempt
+                timeout = 15 + (attempt * 5)  # Increase timeout for retries
+                safe_print(f"  [TIMEOUT] Using {timeout}s timeout for attempt {attempt + 1}")
+                
+                response = self.session.get(url, headers=headers, timeout=timeout)
                 
                 # Handle rate limiting
                 self.handle_rate_limiting(response.status_code)
                 
                 # Check for various blocking scenarios - improved like working scraper
                 if response.status_code == 503:
-                    safe_print(f"Status 503, retrying...")
+                    safe_print(f"  [RETRY] Status 503 on attempt {attempt + 1}, retrying...")
                     if attempt < retries - 1:
                         time.sleep(random.uniform(5, 10))
                         continue
                 elif response.status_code == 429:
-                    safe_print(f"  [WARNING] Too many requests (429), backing off...")
-                    time.sleep(random.uniform(8, 15))
-                    continue
-                elif 'validateCaptcha' in response.text or 'Continuer les achats' in response.text:
-                    safe_print(f"  ⚠️ CAPTCHA detected on attempt {attempt + 1}")
+                    safe_print(f"  [RETRY] Too many requests (429) on attempt {attempt + 1}, backing off...")
                     if attempt < retries - 1:
-                        safe_print("  🔄 Waiting longer before retry...")
+                        time.sleep(random.uniform(8, 15))
+                        continue
+                elif response.status_code == 500:
+                    safe_print(f"  [RETRY] Server error (500) on attempt {attempt + 1}, retrying...")
+                    if attempt < retries - 1:
+                        time.sleep(random.uniform(3, 6))
+                        continue
+                elif response.status_code == 502:
+                    safe_print(f"  [RETRY] Bad gateway (502) on attempt {attempt + 1}, retrying...")
+                    if attempt < retries - 1:
+                        time.sleep(random.uniform(4, 8))
+                        continue
+                elif response.status_code == 504:
+                    safe_print(f"  [RETRY] Gateway timeout (504) on attempt {attempt + 1}, retrying...")
+                    if attempt < retries - 1:
+                        time.sleep(random.uniform(6, 12))
+                        continue
+                elif 'validateCaptcha' in response.text or 'Continuer les achats' in response.text:
+                    safe_print(f"  [RETRY] CAPTCHA detected on attempt {attempt + 1}")
+                    if attempt < retries - 1:
+                        safe_print("  [RETRY] Waiting longer before retry...")
                         time.sleep(random.uniform(10, 15))
                         continue
                     else:
-                        safe_print("  ❌ All attempts failed due to CAPTCHA")
+                        safe_print("  [ERROR] All attempts failed due to CAPTCHA")
                         return None
                 
                 response.raise_for_status()
+                safe_print(f"  [SUCCESS] Request successful on attempt {attempt + 1}")
                 return response
                 
-            except requests.exceptions.RequestException as e:
-                safe_print(f"  [WARNING] Attempt {attempt + 1} failed: {str(e)}")
+            except requests.exceptions.Timeout as e:
+                safe_print(f"  [RETRY] Timeout on attempt {attempt + 1}: {str(e)}")
                 if attempt < retries - 1:
+                    safe_print(f"  [RETRY] Retrying with longer timeout...")
+                    time.sleep(random.uniform(2, 5))
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed due to timeout")
+                    
+            except requests.exceptions.ConnectionError as e:
+                safe_print(f"  [RETRY] Connection error on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    safe_print(f"  [RETRY] Retrying connection...")
                     time.sleep(random.uniform(3, 8))
                     continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed due to connection error")
                     
+            except requests.exceptions.RequestException as e:
+                safe_print(f"  [RETRY] Request error on attempt {attempt + 1}: {str(e)}")
+                if attempt < retries - 1:
+                    safe_print(f"  [RETRY] Retrying request...")
+                    time.sleep(random.uniform(2, 6))
+                    continue
+                else:
+                    safe_print(f"  [ERROR] All attempts failed: {str(e)}")
+                    
+        safe_print(f"  [ERROR] Failed to make request after {retries} attempts")
         return None
     
     def load_categories(self):
@@ -432,7 +483,7 @@ class AmazonScraper:
                     'parentId': None,
                     'targetKeywords': [main_category['name'], f"{main_category['name']} amazon"],
                     'needs_products': True,
-                    'recommended_products': 20,  # 20 products for main categories
+                    'recommended_products': random.randint(15, 20),  # 15-20 products for main categories
                     'description': main_category['description']
                 }
                 categories.append(main_cat)
@@ -449,15 +500,15 @@ class AmazonScraper:
                             'parentId': main_cat['categoryId'],
                             'targetKeywords': [subcat['name'], f"{subcat['name']} amazon", f"{main_category['name']} {subcat['name']}"],
                             'needs_products': True,
-                            'recommended_products': 5,  # 5 products for subcategories
+                            'recommended_products': random.randint(5, 11),  # 5-11 products for subcategories
                             'description': subcat['description']
                         }
                         categories.append(subcategory)
                         category_id_counter += 1
             
             safe_print(f"[OK] Loaded {len(categories)} categories:")
-            safe_print(f"  - {len([c for c in categories if c['level'] == 0])} main categories (20 products each)")
-            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories (5 products each)")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 0])} main categories (15-20 products each)")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories (5-11 products each)")
             return categories
             
         except Exception as e:
@@ -1539,7 +1590,7 @@ class AmazonScraper:
             
             if level_categories > 0:
                 level_name = "main_categories" if level == 0 else "subcategories"
-                expected_per_category = 20 if level == 0 else 5
+                expected_per_category = "15-20" if level == 0 else "5-11"
                 stats['products_by_level'][level_name] = {
                     'total_products': level_products,
                     'categories': level_categories,

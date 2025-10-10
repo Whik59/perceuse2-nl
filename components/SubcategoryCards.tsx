@@ -117,9 +117,6 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
             {title}
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover our specialized categories within this section
-          </p>
         </div>
 
         {/* Slider Container */}

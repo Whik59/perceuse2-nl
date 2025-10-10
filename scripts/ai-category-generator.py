@@ -218,12 +218,14 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
                     subcategories.append({
                         'slug': subcat_slug,
                         'name': subcat['name'],
+                        'categoryNameCanonical': subcat['name'],  # Add this field for compatibility
                         'description': subcat.get('description', '')
                     })
                 
                 processed_categories.append({
                     'slug': category_slug,
                     'name': category['name'],
+                    'categoryNameCanonical': category['name'],  # Add this field for compatibility
                     'description': category.get('description', ''),
                     'subcategories': subcategories
                 })

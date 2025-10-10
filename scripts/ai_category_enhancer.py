@@ -69,13 +69,13 @@ class AICategoryEnhancer:
         return {
             "seo_settings": {
                 "default_price": "desde 200€",
-                "store_name": "Tu Tienda de Robots"
+                "store_name": "Tu Tienda de Masaje"
             }
         }
     
     def get_product_keywords(self):
         """Get product-specific keywords from config"""
-        return self.ai_config.get("keywords", ["robots", "mejor precio", "oferta", "envío gratis", "garantía", "calidad", "fácil uso"])
+        return self.ai_config.get("keywords", ["masaje", "mejor precio", "oferta", "envío gratis", "garantía", "calidad", "bienestar", "relajación"])
     
     def get_category_price_range(self, category_id):
         """No price information - return empty string"""
@@ -98,6 +98,29 @@ class AICategoryEnhancer:
                 parsed = json.loads(clean_response)
                 if expected_keys and all(key in parsed for key in expected_keys):
                     return parsed
+            except json.JSONDecodeError as e:
+                if "Extra data" in str(e):
+                    # Try to extract just the JSON part before the extra data
+                    try:
+                        # Find the end of the first complete JSON object
+                        brace_count = 0
+                        json_end = 0
+                        for i, char in enumerate(clean_response):
+                            if char == '{':
+                                brace_count += 1
+                            elif char == '}':
+                                brace_count -= 1
+                                if brace_count == 0:
+                                    json_end = i + 1
+                                    break
+                        
+                        if json_end > 0:
+                            json_part = clean_response[:json_end]
+                            parsed = json.loads(json_part)
+                            if expected_keys and all(key in parsed for key in expected_keys):
+                                return parsed
+                    except:
+                        pass
             except:
                 pass
             
@@ -173,7 +196,7 @@ class AICategoryEnhancer:
             
             # System prompt for SEO expert (in French)
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"Tu es un expert SEO et spécialiste en marketing digital pour les produits e-commerce. CRITIQUE: Tu DOIS répondre UNIQUEMENT en {language_name}. N'utilise PAS d'espagnol, anglais ou autres langues. Utilise UNIQUEMENT des mots, phrases et expressions en {language_name}. Concentre-toi sur les catégories de produits et le contenu lié aux robots."
+            system_prompt = f"Tu es un expert SEO et spécialiste en marketing digital pour les produits e-commerce. CRITIQUE: Tu DOIS répondre UNIQUEMENT en {language_name}. N'utilise PAS d'espagnol, anglais ou autres langues. Utilise UNIQUEMENT des mots, phrases et expressions en {language_name}. Concentre-toi sur les catégories de produits et le contenu lié aux produits de masage et bien-être."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -465,53 +488,6 @@ Respond ONLY with the HTML:"""
         response = self.get_ai_response(prompt)
         return response.strip()
 
-    def generate_comparison_table(self, category_name, category_id=None):
-        """Generate comparison table for category products"""
-        products = self.load_category_products(category_id) if category_id else []
-        
-        if len(products) < 2:
-            return ""
-        
-        # Take top 5 products for comparison
-        sorted_products = sorted(products, key=lambda x: float(x.get('price', 0)), reverse=True)[:5]
-        
-        prompt = f"""Create a comparison table for {category_name} products in {self.language_map.get(self.output_language, self.output_language.title())}.
-
-ACTUAL PRODUCTS DATA:
-{json.dumps([{
-    'name': p.get('name', ''),
-    'price': p.get('price', ''),
-    'rating': p.get('rating', ''),
-    'features': p.get('features', [])[:5] if isinstance(p.get('features'), list) else [],
-    'description': p.get('shortDescription', '')[:150] if p.get('shortDescription') else p.get('description', '')[:150] if p.get('description') else '',
-    'slug': p.get('slug', '')
-} for p in sorted_products], ensure_ascii=False, indent=2)}
-
-REQUIREMENTS:
-- Write EXCLUSIVELY in {self.language_map.get(self.output_language, self.output_language.title())}
-- Use ONLY the actual product names and data provided above
-- Create an HTML table comparing the actual products
-- Include columns: Product, Price, Rating, Key Features, Best For
-- Use <h3>Comparaison des {category_name}</h3> as title
-- Table should be responsive and well-formatted
-- Use actual product names, prices, and features from the data
-- Focus on helping users compare and choose based on real data
-- Include practical recommendations
-
-HTML STRUCTURE:
-<table class="comparison-table">
-<thead>
-<tr><th>Produit</th><th>Prix</th><th>Note</th><th>Caractéristiques</th><th>Idéal pour</th></tr>
-</thead>
-<tbody>
-[Table rows with actual product data]
-</tbody>
-</table>
-
-Respond ONLY with the HTML:"""
-
-        response = self.get_ai_response(prompt)
-        return response.strip()
 
     def generate_category_content(self, category_name, category_id=None):
         """Generate comprehensive SEO content for a category with internal linking"""
@@ -570,7 +546,7 @@ INTERNAL LINKING REQUIREMENTS:
                     for cat in all_categories:
                         if cat.get('name') != category_name:
                             # Check if it's a related category (same parent or similar keywords)
-                            if any(keyword in cat.get('name', '').lower() for keyword in ['robot', 'aspirateur', 'cuisine', 'tondeuse']):
+                            if any(keyword in cat.get('name', '').lower() for keyword in ['massage', 'masaje', 'bienestar', 'relajación', 'shiatsu', 'acupression']):
                                 related_categories.append({
                                     'name': cat.get('name', ''),
                                     'slug': cat.get('slug', '')
@@ -674,7 +650,7 @@ Respond ONLY with the HTML:"""
 
 REQUIREMENTS:
 - Language: {language_name}
-- Product type: robot laveur
+- Product type: {category_name.lower()}
 - Price: {price_range}
 - Keywords: {', '.join(keywords[:3])}
 
@@ -703,12 +679,34 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
                 elif clean_response.startswith('```'):
                     clean_response = clean_response.replace('```', '').strip()
                 
-                # Extract JSON
+                # Extract JSON with better parsing
                 if '{' in clean_response and '}' in clean_response:
+                    # Try to find the complete JSON object
                     json_match = re.search(r'\{.*\}', clean_response, re.DOTALL)
                     if json_match:
                         json_str = json_match.group()
-                        content = json.loads(json_str)
+                        try:
+                            content = json.loads(json_str)
+                        except json.JSONDecodeError as e:
+                            # If there's extra data after the JSON, try to extract just the JSON part
+                            safe_print(f"[WARNING] JSON parsing error: {e}")
+                            # Try to find the end of the JSON object more precisely
+                            brace_count = 0
+                            json_end = 0
+                            for i, char in enumerate(json_str):
+                                if char == '{':
+                                    brace_count += 1
+                                elif char == '}':
+                                    brace_count -= 1
+                                    if brace_count == 0:
+                                        json_end = i + 1
+                                        break
+                            
+                            if json_end > 0:
+                                json_str = json_str[:json_end]
+                                content = json.loads(json_str)
+                            else:
+                                raise Exception(f"Could not parse JSON: {e}")
                     else:
                         raise Exception("No JSON found in response")
                 else:
@@ -853,53 +851,26 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         safe_print("-" * 40)
         
         try:
-            # Generate all content
-            safe_print("[AI] Generating title...")
-            seo_title = self.enhance_category_title(category_name)
-            safe_print(f"[RESULT] Title: {seo_title}")
+            # Use the comprehensive enhancement method that includes comparison tables and buying guides
+            safe_print("[AI] Generating comprehensive content with comparison tables and buying guides...")
+            enhanced_category = self.enhance_category_minimal(test_category)
             
-            safe_print("\n[AI] Generating description...")
-            seo_description = self.enhance_category_description(category_name, category_id)
-            safe_print(f"[RESULT] Description: {seo_description}")
-            
-            safe_print("\n[AI] Generating keywords...")
-            seo_keywords = self.enhance_category_keywords(category_name)
-            safe_print(f"[RESULT] Keywords: {', '.join(seo_keywords)}")
-            
-            safe_print("\n[AI] Generating FAQ...")
-            faq = self.generate_category_faq(category_name, category_id)
-            safe_print(f"[RESULT] FAQ: {len(faq)} questions generated")
-            
-            safe_print("\n[AI] Generating long-form content...")
-            seo_content = self.generate_category_content(category_name, category_id)
-            safe_print(f"[RESULT] Content: {len(seo_content)} characters generated")
-            
-            # Create enhanced category data
-            enhanced_category = {
-                "categoryId": category_id,
-                "categoryNameCanonical": category_name,
-                "slug": self.create_category_slug(category_name),
+            # Add additional fields for compatibility
+            enhanced_category.update({
                 "parentCategoryId": test_category.get('parentCategoryId'),
                 "level": test_category.get('level', 0),
-                "description": seo_description,
-                "content": seo_content,
-                "seo": {
-                    "title": seo_title,
-                    "description": seo_description,
-                    "keywords": seo_keywords,
-                    "enhancedAt": datetime.now().isoformat()
-                },
-                "faq": faq,
-                "productCount": test_category.get('productCount', 0),
-                "enhancedAt": datetime.now().isoformat()
-            }
+                "productCount": test_category.get('productCount', 0)
+            })
             
             safe_print(f"\n[SUCCESS] Complete enhanced category data:")
             safe_print("=" * 30)
             safe_print(f"Category: {category_name}")
-            safe_print(f"Description: {seo_description}")
-            safe_print(f"FAQ Questions: {len(faq)}")
-            safe_print(f"Keywords: {len(seo_keywords)}")
+            safe_print(f"Description: {enhanced_category.get('description', 'N/A')}")
+            safe_print(f"FAQ Questions: {len(enhanced_category.get('faq', []))}")
+            safe_print(f"Keywords: {len(enhanced_category.get('seo', {}).get('keywords', []))}")
+            safe_print(f"Comparison Table: {'Yes' if enhanced_category.get('comparisonTable') else 'No'}")
+            safe_print(f"Buying Guide: {'Yes' if enhanced_category.get('buyingGuide') else 'No'}")
+            safe_print(f"Content Length: {len(enhanced_category.get('content', ''))} characters")
             safe_print("=" * 30)
             
             # Ask if user wants to save this test
@@ -939,11 +910,7 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         safe_print(f"[WARNING] This will create {len(categories)} individual JSON files")
         safe_print(f"[WARNING] Estimated time: {len(categories) * 0.2 / 60:.1f} minutes")
         
-        # Ask for confirmation
-        confirm = input("\n⚠️  Continue with full enhancement? (y/n): ").strip().lower()
-        if confirm != 'y':
-            safe_print("[CANCELLED] Full enhancement cancelled")
-            return
+        # Start enhancement automatically
         
         enhanced_count = 0
         failed_count = 0
@@ -986,62 +953,41 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         safe_print("[START] MEGA-FAST Category Enhancement")
         safe_print("=" * 60)
         
-        # Load categories
-        if not os.path.exists(self.categories_file):
-            safe_print(f"[ERROR] Categories file not found: {self.categories_file}")
+        # Load categories using the load_categories method (converts hierarchical to flat)
+        categories = self.load_categories()
+        if not categories:
+            safe_print("[ERROR] No categories found")
             return
         
-        with open(self.categories_file, 'r', encoding='utf-8') as f:
-            categories = json.load(f)
-        
+        main_categories = len([c for c in categories if c.get('level') == 0])
+        subcategories = len([c for c in categories if c.get('level') == 1])
         safe_print(f"[INFO] Found {len(categories)} categories to enhance")
+        safe_print(f"[INFO] Main categories: {main_categories}")
+        safe_print(f"[INFO] Subcategories: {subcategories}")
         safe_print(f"[INFO] MEGA-FAST mode: Batch size: {self.batch_size}")
         safe_print(f"[INFO] Estimated time: {len(categories) * 0.2 / 60:.1f} minutes")
         
-        # Ask for confirmation
-        confirm = input("\n⚠️  Continue with MEGA-FAST enhancement? (y/n): ").strip().lower()
-        if confirm != 'y':
-            safe_print("[CANCELLED] MEGA-FAST enhancement cancelled")
-            return
+        # Start MEGA-FAST enhancement automatically
         
         enhanced_count = 0
         failed_count = 0
         
-        # Process in batches for efficiency
-        for i in range(0, len(categories), self.batch_size):
-            batch = categories[i:i + self.batch_size]
-            batch_num = i // self.batch_size + 1
-            total_batches = (len(categories) + self.batch_size - 1) // self.batch_size
+        # Process categories concurrently for maximum speed
+        with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
+            # Submit all enhancement tasks
+            future_to_category = {
+                executor.submit(self.enhance_category_minimal, category): category 
+                for category in categories
+            }
             
-            safe_print(f"\n[BATCH] Processing batch {batch_num}/{total_batches} ({len(batch)} categories)")
-            
-            for category in batch:
+            # Process completed tasks as they finish
+            for future in concurrent.futures.as_completed(future_to_category):
+                category = future_to_category[future]
+                category_name = category.get('categoryNameCanonical', 'Unknown')
+                category_id = category.get('categoryId', 'Unknown')
+                
                 try:
-                    category_name = category.get('categoryNameCanonical', f'Category {enhanced_count + 1}')
-                    category_id = category.get('categoryId', enhanced_count + 1)
-                    
-                    safe_print(f"[PROGRESS] Enhancing: {category_name}")
-                    
-                    # Generate optimized content - MEGA-FAST with minimal content
-                    seo_title = self.enhance_category_title(category_name)
-                    seo_description = self.enhance_category_description(category_name, category_id)
-                    seo_keywords = self.enhance_category_keywords(category_name)
-                    
-                    # Create enhanced category data - MINIMAL CONTENT FOR SPEED
-                    enhanced_category = {
-                        "categoryId": category_id,
-                        "categoryNameCanonical": category_name,
-                        "slug": category.get('slug', ''),
-                        "description": seo_description,
-                        "seo": {
-                            "title": seo_title,
-                            "description": seo_description,
-                            "keywords": seo_keywords
-                        },
-                        "content": f"<p>Découvrez les meilleurs {category_name.lower()} avec notre sélection expert.</p>",
-                        "faq": [],
-                        "enhancedAt": datetime.now().isoformat()
-                    }
+                    enhanced_category = future.result()
                     
                     # Save individual category file
                     category_filename = f"{category_id}.json"
@@ -1053,14 +999,9 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
                     enhanced_count += 1
                     safe_print(f"[SUCCESS] Enhanced: {category_name}")
                     
-                    # Minimal delay for speed
-                    time.sleep(self.request_delay)
-                    
                 except Exception as e:
                     failed_count += 1
-                    safe_print(f"[ERROR] Failed to enhance category: {str(e)[:100]}")
-            
-            safe_print(f"[BATCH] Completed: {enhanced_count} enhanced, {failed_count} failed")
+                    safe_print(f"[ERROR] Failed to enhance category {category_name}: {str(e)[:100]}")
         
         # Summary
         safe_print(f"\n[SUMMARY] MEGA-FAST Enhancement Complete")
@@ -1068,100 +1009,102 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         safe_print(f"✅ Enhanced: {enhanced_count}")
         safe_print(f"❌ Failed: {failed_count}")
         safe_print(f"📁 Category files directory: {self.categories_dir}")
-        safe_print(f"⚡ Speed: MEGA-FAST mode with minimal content")
+        safe_print(f"⚡ Speed: MEGA-FAST mode with {self.max_concurrent} concurrent workers")
+        safe_print(f"📊 Features: Comparison tables, buying guides, FAQ, SEO optimization")
 
-    def enhance_categories_mega_fast(self):
-        """MEGA-FAST enhancement for 1000+ categories - MINIMAL CONTENT"""
-        safe_print("🚀 MEGA-FAST MODE: Processing 1000+ categories with minimal content...")
-        
-        # Load categories
-        categories = self.load_categories()
-        if not categories:
-            safe_print("❌ No categories found!")
-            return
-        
-        safe_print(f"📊 Found {len(categories)} categories to enhance")
-        safe_print(f"⚡ MEGA-FAST: Batch size {self.batch_size}, Delay {self.request_delay}s")
-        
-        # Process in large batches for maximum speed
-        total_categories = len(categories)
-        enhanced_count = 0
-        failed_count = 0
-        
-        for i in range(0, total_categories, self.batch_size):
-            batch = categories[i:i + self.batch_size]
-            batch_num = (i // self.batch_size) + 1
-            total_batches = (total_categories + self.batch_size - 1) // self.batch_size
-            
-            safe_print(f"⚡ Processing batch {batch_num}/{total_batches} ({len(batch)} categories)")
-            
-            # Process batch concurrently for maximum speed
-            with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
-                future_to_category = {
-                    executor.submit(self.enhance_category_minimal, category): category 
-                    for category in batch
-                }
-                
-                for future in concurrent.futures.as_completed(future_to_category):
-                    category = future_to_category[future]
-                    try:
-                        enhanced_category = future.result()
-                        
-                        # Save individual category file
-                        category_id = category.get('categoryId')
-                        category_name = category.get('categoryNameCanonical', 'Unknown')
-                        category_filename = f"{category_id}.json"
-                        category_filepath = os.path.join(self.categories_dir, category_filename)
-                        
-                        with open(category_filepath, 'w', encoding='utf-8') as f:
-                            json.dump(enhanced_category, f, indent=2, ensure_ascii=False)
-                        
-                        enhanced_count += 1
-                        safe_print(f"✅ Enhanced: {category_name}")
-                        
-                    except Exception as e:
-                        failed_count += 1
-                        category_id = category.get('categoryId', 'Unknown')
-                        safe_print(f"❌ Failed to enhance category {category_id}: {str(e)[:100]}")
-            
-            # Progress update
-            progress = ((i + len(batch)) / total_categories) * 100
-            safe_print(f"📈 Progress: {progress:.1f}% ({enhanced_count} enhanced, {failed_count} failed)")
-        
-        # Final summary
-        safe_print(f"\n🎉 MEGA-FAST ENHANCEMENT COMPLETE!")
-        safe_print(f"✅ Enhanced: {enhanced_count} categories")
-        safe_print(f"❌ Failed: {failed_count} categories")
-        safe_print(f"📁 Files saved to: {self.categories_dir}")
-        safe_print(f"⚡ Optimized for 1000+ categories with minimal content")
     
     def enhance_category_minimal(self, category):
         """ULTRA-FAST category enhancement - AI WITH MAXIMUM CONCURRENCY"""
         category_id = category.get('categoryId')
         category_name = category.get('categoryNameCanonical', 'Unknown')
         
-        # Generate content using AI with category-specific prompts
-        enhanced_category = {
-            'categoryId': category_id,
-            'categoryNameCanonical': category_name,
-            'slug': self.create_category_slug(category_name),
-            'description': self.enhance_category_description_fast(category_name, category_id),
-            'seo': {
-                'title': self.enhance_category_title_fast(category_name),
-                'description': self.enhance_category_description_fast(category_name, category_id),
-                'keywords': self.enhance_category_keywords_fast(category_name)
-            },
-            'comparisonTable': self.generate_comparison_table(category_name, category_id),
-            'buyingGuide': self.generate_buying_guide(category_name, category_id),
-            'internalLinks': self.generate_internal_links(category_name, category_id),
-            'faq': self.generate_category_faq_fast(category_name, category_id),
-            'content': self.generate_category_content_fast(category_name, category_id),
-            'enhanced': True,
-            'enhancedAt': datetime.now().isoformat(),
-            'enhancement_version': 'enhanced_v2_with_comparison'
-        }
+        # Ensure categoryId is not None
+        if not category_id:
+            safe_print(f"[WARNING] Category {category_name} has no categoryId, skipping comparison table generation")
+            category_id = None
         
-        return enhanced_category
+        try:
+            # Generate content using AI with category-specific prompts
+            enhanced_category = {
+                'categoryId': category_id,
+                'categoryNameCanonical': category_name,
+                'slug': category.get('slug', self.create_category_slug(category_name)),
+                'parentCategoryId': category.get('parentCategoryId'),
+                'level': category.get('level', 0),
+                'description': self.enhance_category_description_fast(category_name, category_id),
+                'seo': {
+                    'title': self.enhance_category_title_fast(category_name),
+                    'description': self.enhance_category_description_fast(category_name, category_id),
+                    'keywords': self.enhance_category_keywords_fast(category_name)
+                },
+                'enhanced': True,
+                'enhancedAt': datetime.now().isoformat(),
+                'enhancement_version': 'enhanced_v2_with_comparison'
+            }
+            
+            # Try to generate comparison table and buying guide
+            try:
+                safe_print(f"[DEBUG] Generating comparison table for {category_name} with category_id: {category_id}")
+                comparison_table = self.generate_comparison_table(category_name, category_id)
+                if comparison_table:
+                    enhanced_category['comparisonTable'] = comparison_table
+                    safe_print(f"[SUCCESS] Generated comparison table for {category_name}")
+                else:
+                    safe_print(f"[WARNING] No comparison table generated for {category_name} (category_id: {category_id})")
+            except Exception as e:
+                safe_print(f"[WARNING] Comparison table failed for {category_name}: {e}")
+            
+            try:
+                buying_guide = self.generate_buying_guide(category_name, category_id)
+                if buying_guide:
+                    enhanced_category['buyingGuide'] = buying_guide
+                    safe_print(f"[SUCCESS] Generated buying guide for {category_name}")
+                else:
+                    safe_print(f"[WARNING] No buying guide generated for {category_name}")
+            except Exception as e:
+                safe_print(f"[WARNING] Buying guide failed for {category_name}: {e}")
+            
+            # Generate FAQ with internal links
+            try:
+                faq = self.generate_category_faq_fast(category_name, category_id)
+                if faq:
+                    enhanced_category['faq'] = faq
+            except Exception as e:
+                safe_print(f"[WARNING] FAQ failed for {category_name}: {e}")
+            
+            # Generate internal links for SEO (separate from content)
+            try:
+                internal_links = self.generate_internal_links(category_name, category_id)
+                if internal_links:
+                    enhanced_category['internalLinks'] = internal_links
+            except Exception as e:
+                safe_print(f"[WARNING] Internal links failed for {category_name}: {e}")
+            
+            try:
+                # Generate content without comparison table (we'll add it separately)
+                content = self.generate_category_content_fast(category_name, category_id)
+                if content:
+                    # Remove any comparison tables or JSON data from content
+                    import re
+                    # Remove comparison table JSON patterns
+                    content = re.sub(r"\{'title': 'Comparatif des.*?\}", "", content, flags=re.DOTALL)
+                    # Remove any other JSON-like structures
+                    content = re.sub(r"\{.*?'rank':.*?\}", "", content, flags=re.DOTALL)
+                    # Remove Top 5 lists that might be embedded
+                    content = re.sub(r"<h3>Top 5.*?</ul>", "", content, flags=re.DOTALL)
+                    # Clean up extra whitespace and newlines
+                    content = re.sub(r'\n\s*\n\s*\n', '\n\n', content)
+                    content = content.strip()
+                    
+                    enhanced_category['content'] = content
+            except Exception as e:
+                safe_print(f"[WARNING] Content failed for {category_name}: {e}")
+            
+            return enhanced_category
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Failed to enhance category {category_name}: {e}")
+            raise e
 
     def enhance_category_comprehensive(self, category):
         """Comprehensive category enhancement matching the example structure"""
@@ -1196,7 +1139,7 @@ STRICT RULES:
 - Include specific key benefit of the product
 - Use action words (Buy, Discover, Best)
 
-EXAMPLE for "airfryer": "Airfryers - Best Price and Quality"
+EXAMPLE for "{category_name.lower()}": "{category_name} - Best Price and Quality"
 Respond ONLY with the title:"""
         
         return self.get_ai_response(prompt)
@@ -1213,7 +1156,7 @@ STRICT RULES:
 - DO NOT mention specific prices or price ranges
 - Focus on quality and benefits
 
-EXAMPLE for "robot laveur": "Robot Laveur ✅ Premium Quality. Livraison Gratuite!"
+EXAMPLE for "{category_name.lower()}": "{category_name} ✅ Premium Quality. Livraison Gratuite!"
 Respond ONLY with the description:"""
         
         return self.get_ai_response(prompt)
@@ -1226,7 +1169,7 @@ STRICT RULES:
 - ONLY words related to "{category_name}"
 - Format: simple list separated by commas
 
-EXAMPLE for "airfryer": "airfryer, best price airfryer, airfryer offer, free shipping airfryer, airfryer quality"
+EXAMPLE for "{category_name.lower()}": "{category_name.lower()}, best price {category_name.lower()}, {category_name.lower()} offer, free shipping {category_name.lower()}, {category_name.lower()} quality"
 Respond ONLY with keywords separated by commas:"""
         
         response = self.get_ai_response(prompt)
@@ -1321,40 +1264,7 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
         """Generate content focused ONLY on the specific category with internal linking"""
         price_range = self.get_category_price_range(category_id) if category_id else "desde 200€"
         
-        # Get product data for internal linking
-        internal_links_context = ""
-        if category_id:
-            try:
-                category_products_path = os.path.join("data", "indices", "category-products.json")
-                if os.path.exists(category_products_path):
-                    with open(category_products_path, 'r', encoding='utf-8') as f:
-                        category_products = json.load(f)
-                    
-                    product_ids = category_products.get(str(category_id), [])
-                    if product_ids:
-                        products_dir = os.path.join("data", "products")
-                        sample_products = []
-                        for product_id in product_ids[:2]:  # Get first 2 products
-                            product_file = os.path.join(products_dir, f"{product_id.lower()}.json")
-                            if os.path.exists(product_file):
-                                try:
-                                    with open(product_file, 'r', encoding='utf-8') as f:
-                                        product_data = json.load(f)
-                                        sample_products.append({
-                                            'name': product_data.get('name', ''),
-                                            'slug': product_data.get('slug', '')
-                                        })
-                                except Exception:
-                                    continue
-                        
-                        if sample_products:
-                            internal_links_context = f"""
-INTERNAL LINKING:
-- Include links to products: {', '.join([f'<a href="/product/{p["slug"]}">{p["name"][:30]}...</a>' for p in sample_products])}
-- Use natural, contextual linking
-"""
-            except Exception:
-                pass
+        # No internal links in content generation
         
         prompt = f"""Create SEO HTML content for: "{category_name}"
 
@@ -1366,22 +1276,20 @@ STRICT RULES:
 - Valid HTML format
 - DO NOT use ```html or ``` - only pure HTML
 - DO NOT mention specific prices or price ranges
-{internal_links_context if internal_links_context else ''}
+- DO NOT include comparison tables or product comparisons
+- DO NOT include JSON data or structured product lists
+- DO NOT include internal links or product links
+- Focus on descriptive content about the category benefits and features
 
-INTERNAL LINKING REQUIREMENTS:
-- Include 1-2 natural internal links to specific products using <a href="/product/[slug]">[product name]</a>
-- Links should be contextual and add value
-- Use descriptive anchor text
-
-EXAMPLE for "robot laveur":
+EXAMPLE for "{category_name.lower()}":
 <div>
-<h2>Best Robot Laveur</h2>
-<p>Discover the best <b>robot laveur</b> with premium quality and advanced features. Check out our <a href="/product/[slug]">[product name]</a> for superior performance.</p>
+<h2>Best {category_name}</h2>
+<p>Discover the best <b>{category_name.lower()}</b> with premium quality and advanced features for superior performance.</p>
 <h3>Key Features</h3>
 <ul>
-<li><b>Autonomous Navigation</b>: Smart mapping and obstacle avoidance</li>
-<li><b>Deep Cleaning</b>: Powerful suction and mopping system</li>
-<li><b>Easy Maintenance</b>: Self-emptying and washable components</li>
+<li><b>Professional Quality</b>: High-quality materials and construction</li>
+<li><b>Easy to Use</b>: Simple and intuitive operation</li>
+<li><b>Effective Results</b>: Proven effectiveness and reliability</li>
 </ul>
 <p>Livraison gratuite et garantie qualité.</p>
 </div>
@@ -1544,20 +1452,25 @@ Respond ONLY with HTML without ```html:"""
 
     def generate_comparison_table(self, category_name, category_id=None):
         """Generate comparison table with top 5 products for a category"""
+        safe_print(f"[DEBUG] generate_comparison_table called with category_id: {category_id}")
         if not category_id:
+            safe_print(f"[DEBUG] No category_id provided, returning None")
             return None
             
         try:
             # Load category-products mapping
             category_products_path = os.path.join("data", "indices", "category-products.json")
             if not os.path.exists(category_products_path):
+                safe_print(f"[DEBUG] category-products.json not found")
                 return None
                 
             with open(category_products_path, 'r', encoding='utf-8') as f:
                 category_products = json.load(f)
             
             product_ids = category_products.get(str(category_id), [])
+            safe_print(f"[DEBUG] Found {len(product_ids)} products for category_id {category_id}")
             if not product_ids:
+                safe_print(f"[DEBUG] No products found for category_id {category_id}")
                 return None
             
             # Get product data for top 5 products
@@ -1641,7 +1554,6 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
                     # Use robust JSON parsing
                     parsed = self.parse_json_response(response, expected_keys=['products'])
                     if parsed:
-                        safe_print(f"[SUCCESS] Generated comparison table for {category_name}")
                         return parsed
                     
                     safe_print(f"[RETRY {attempt + 1}] Invalid JSON format for comparison table, retrying...")
@@ -1740,7 +1652,6 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
                 # Use robust JSON parsing
                 parsed = self.parse_json_response(response, expected_keys=['sections'])
                 if parsed:
-                    safe_print(f"[SUCCESS] Generated buying guide for {category_name}")
                     return parsed
                 
                 safe_print(f"[RETRY {attempt + 1}] Invalid JSON format for buying guide, retrying...")

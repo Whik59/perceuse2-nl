@@ -364,7 +364,7 @@ const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Navigation - Desktop Luxury Design */}
-        <nav className="hidden md:flex items-center justify-center space-x-8 pb-4 pt-4 border-t border-gray-50">
+        <nav className="hidden md:flex items-center justify-center space-x-3 pb-4 pt-4 border-t border-gray-50">
             {parentCategories.map((category) => {
               const subcategories = getSubcategories(category.categoryId);
               const hasSubcategories = subcategories.length > 0;
@@ -378,7 +378,7 @@ const Header: React.FC<HeaderProps> = ({
                 >
             <Link
               href={`/category/${category.slug}`}
-                    className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-3 px-5 group relative uppercase letter-spacing-wide"
+                    className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
             >
               <span className="relative font-medium">
                 {category.name || category.categoryNameCanonical}
@@ -464,7 +464,7 @@ const Header: React.FC<HeaderProps> = ({
             </form>
 
             {/* Mobile Navigation - Luxury */}
-              <nav className="flex flex-col space-y-1 px-2">
+              <nav className="flex flex-col space-y-0.5 px-2">
                 {parentCategories.map((category) => {
                   const subcategories = getSubcategories(category.categoryId);
                   const hasSubcategories = subcategories.length > 0;
@@ -475,7 +475,7 @@ const Header: React.FC<HeaderProps> = ({
                       <div className="flex items-center justify-between bg-white border border-gray-100/50 overflow-hidden">
                 <Link
                   href={`/category/${category.slug}`}
-                          className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-4 px-5 hover:bg-gray-50/50 transition-all duration-300 uppercase"
+                          className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-3 px-4 hover:bg-gray-50/50 transition-all duration-300 uppercase"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {category.name || category.categoryNameCanonical}
@@ -483,7 +483,7 @@ const Header: React.FC<HeaderProps> = ({
                         {hasSubcategories && (
                           <button
                             onClick={() => toggleMobileCategory(category.categoryId)}
-                            className="p-4 text-gray-400 hover:text-gray-600 transition-all duration-300 hover:bg-gray-50/50"
+                            className="p-3 text-gray-400 hover:text-gray-600 transition-all duration-300 hover:bg-gray-50/50"
                           >
                             <svg
                               className={`w-4 h-4 transition-transform duration-500 ${isExpanded ? 'rotate-180' : ''}`}
@@ -505,7 +505,7 @@ const Header: React.FC<HeaderProps> = ({
                             <Link
                               key={subcategory.categoryId}
                               href={`/category/${subcategory.slug}`}
-                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-3 px-5 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px] whitespace-nowrap"
+                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-2 px-4 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px] whitespace-nowrap"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               {subcategory.name || subcategory.categoryNameCanonical}
@@ -522,7 +522,7 @@ const Header: React.FC<HeaderProps> = ({
                   setIsSupportOpen(true);
                   setIsMobileMenuOpen(false);
                 }}
-                  className="text-gray-700 hover:text-gray-900 font-light text-sm tracking-[0.5px] py-4 px-5 hover:bg-gray-50/50 transition-all duration-300 mt-3 border-t border-gray-100/50 pt-3 w-full text-left bg-white border border-gray-100/50 uppercase"
+                  className="text-gray-700 hover:text-gray-900 font-light text-sm tracking-[0.5px] py-3 px-4 hover:bg-gray-50/50 transition-all duration-300 mt-2 border-t border-gray-100/50 pt-3 w-full text-left bg-white border border-gray-100/50 uppercase"
               >
 {getString('header.support')}
               </button>
