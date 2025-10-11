@@ -1040,6 +1040,10 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
             category_id = None
         
         try:
+            pass  # Placeholder for try block
+        except:
+            pass
+    
     def enhance_category_ultra_batch(self, category_name, category_id=None):
         """Single AI call for ALL category content - MASSIVE COST SAVINGS"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())

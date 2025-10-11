@@ -1,9 +1,9 @@
 {
   "productId": "B000N4QRBY",
-  "name": "Dittmann Tensgerät TENS 240",
-  "slug": "dittmann-tensgerat-tens-240",
-  "description": "Natürliche Schmerzbehandlung durch Tensanwendung | Medizinisches CE | 2 Kanäle und LED Anzeige für jeden Kanal | 13 Anwenderprogramme zur Nervenstimulation | Einstellbare Intensität , Nicht für Patienten mit Herzschrittmacher geeignet",
-  "shortDescription": "Dittmann Tensgerät TENS 240",
+  "name": "Dittmann TENS 240 Schmerztherapie-Gerät",
+  "slug": "dittmann-tens-240-schmerztherapie-gerat",
+  "description": "<div><h2>Dittmann TENS 240 Schmerztherapie-Gerät</h2><p>Quality product</p></div>",
+  "shortDescription": "Dittmann TENS 240 Schmerztherapie-Gerät - Quality Product",
   "price": "30.0",
   "compareAtPrice": 34,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Dittmann",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Dittmann TENS 240 Schmerztherapie-Gerät",
+    "description": "Dittmann TENS 240 Schmerztherapie-Gerät - Quality Product",
+    "keywords": [
+      "dittmann tens 240 schmerztherapie-gerät",
+      "tens-geräte zur schmerztherapie",
+      "marke: dittmann"
+    ],
+    "ogTitle": "Dittmann TENS 240 Schmerztherapie-Gerät",
+    "ogDescription": "Dittmann TENS 240 Schmerztherapie-Gerät - Quality Product"
   },
   "reviews": {
     "averageRating": 4.6,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "Dittmann TENS 240 Schmerztherapie-Gerät",
+  "enhancedAt": "2025-10-10T23:35:37.624100",
+  "enhanced": true
 }

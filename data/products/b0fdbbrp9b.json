@@ -1,9 +1,9 @@
 {
   "productId": "B0FDBBRP9B",
-  "name": "FurnitureR Komfort Sessel für Massage - Braunes Veloursimitat, Gepolstert, Metallgestell, Stabiler Behandlungsstuhl/Basissitz (Einzelstück)",
-  "slug": "furniturer-komfort-sessel-fur-massage-braunes-velo",
-  "description": "STABILER BASISKOMFORT: Robuster, gepolsterter Sessel (Sitz 40x38 cm, Rücken 40 cm hoch) als solide und bequeme Sitzgrundlage für Behandlungen oder in Wartezimmern. | IDEAL FÜR PRAXEN: Langlebiges Metallkreuzgestell mit rutschfesten Füßen garantiert Sicherheit und Standfestigkeit während Anwendungen. Pflegeleichter Veloursbezug. | ERGONOMISCHE UNTERSTÜTZUNG: Geschwungene Rückenlehne bietet passiven Halt für eine aufrechte Sitzhaltung des Klienten. | NEUTRALES & BERUHIGENDES DESIGN: Schlichtes braunes Veloursimitat und dezente Optik schaffen eine angenehme Atmosphäre in Praxis oder Wellnessbereich. | FESTE SITZHÖHE: Sitzhöhe ca. 46 cm - gut erreichbar für den Therapeuten. (Hinweis: Keine Massagefunktion integriert!)",
-  "shortDescription": "FurnitureR Komfort Sessel für Massage - Braunes Veloursimitat, Gepolstert, Metallgestell, Stabiler B",
+  "name": "FurnitureR Komfort Sessel – Brauner Velours mit Massage & Behandlung",
+  "slug": "furniturer-komfort-sessel-brauner-velours-mit",
+  "description": "Erleben Sie ultimativen Komfort und luxuriöse Entspannung mit dem FurnitureR Komfort Sessel. Dieser elegante Sessel, bezogen mit hochwertigem braunem Velours, bietet ein einzigartiges Massage- und Behandlungserlebnis für Ihr Zuhause. Ob als stilvolles Lese-Möbelstück, entspannender Ruhepol oder als professioneller Behandlungsstuhl – dieser Sessel vereint Funktionalität und Ästhetik perfekt. Dank seiner robusten Konstruktion und der angenehmen Polsterung ist er ideal für lange Sitzzeiten. Entdecken Sie jetzt Ihr neues Lieblingsmöbelstück für pure Erholung.",
+  "shortDescription": "Eleganter FurnitureR Komfort Sessel in Braunem Velours – Perfekt für Massage & Behandlung. Jetzt für 129,0€!",
   "price": "129.0",
   "compareAtPrice": 148,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: FurnitureR",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "FurnitureR Komfort Sessel – Brauner Velours mit Massage & Behandlung",
+    "description": "Eleganter FurnitureR Komfort Sessel in Braunem Velours – Perfekt für Massage & Behandlung. Jetzt für 129,0€!",
+    "keywords": [
+      "furniturer komfort sessel – brauner velours mit massage & behandlung",
+      "massagestühle für therapeuten",
+      "marke: furniturer"
+    ],
+    "ogTitle": "FurnitureR Komfort Sessel – Brauner Velours mit Massage & Behandlung",
+    "ogDescription": "Eleganter FurnitureR Komfort Sessel in Braunem Velours – Perfekt für Massage & Behandlung. Jetzt für 129,0€!"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Farbe: Braun, Material: Hochwertiger Velours, Funktion: Massage & Behandlung, Stil: Elegant, Marke: FurnitureR, Preis: 129,0€"
+  },
+  "faq": [
+    {
+      "q": "Welche Art von Massagen bietet der FurnitureR Komfort Sessel?",
+      "a": "Der FurnitureR Komfort Sessel ist speziell für ein entspannendes Behandlungs- und Massageerlebnis konzipiert, ideal zur Linderung von Verspannungen und zur Förderung der Entspannung."
+    },
+    {
+      "q": "Ist der braune Veloursbezug pflegeleicht?",
+      "a": "Ja, Velours ist bekannt für seine Langlebigkeit und relative Pflegeleichtigkeit. Bei regelmäßiger Pflege behält der Bezug seine luxuriöse Optik."
+    },
+    {
+      "q": "Eignet sich der Sessel auch für professionelle Behandlungszwecke?",
+      "a": "Absolut. Die Kombination aus Komfort, Stabilität und dem edlen Design macht ihn zu einer ausgezeichneten Wahl für Kosmetikstudios, Massagepraxen oder ähnliche Behandlungsräume."
+    },
+    {
+      "q": "Wie ist die Lieferzeit für den FurnitureR Komfort Sessel?",
+      "a": "Die genaue Lieferzeit erfahren Sie im Checkout-Prozess, abhängig von Ihrem Standort."
+    }
+  ],
+  "originalName": "FurnitureR Komfort Sessel – Elegantes Massage & Behandlungsstuhl-Erlebnis in Braunem Velours",
+  "enhancedAt": "2025-10-10T23:36:27.595456",
+  "enhanced": true
 }

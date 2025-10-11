@@ -1,9 +1,9 @@
 {
   "productId": "B001NZ3ORC",
-  "name": "Kneipp Arnika Salbe S - Pflanzliches Arzneimittel - Bei Schmerzen von Muskeln und Gelenken - 100 g",
-  "slug": "kneipp-arnika-salbe-s-pflanzliches-arzneimittel-be",
-  "description": "Pflanzliches Arzneimittel | Zur äußerlichen Behandlung stumpfer Verletzungen und von Muskel- und Gelenkschmerzen | Wirkstoff: Arnikablütenauszug | Auch bei rheumatischen Muskel- & Gelenkbeschwerden",
-  "shortDescription": "Kneipp Arnika Salbe S - Pflanzliches Arzneimittel - Bei Schmerzen von Muskeln und Gelenken - 100 g",
+  "name": "Kneipp Arnika Salbe S (100 g) – Intensive Pflege für Muskeln & Gelenke",
+  "slug": "kneipp-arnika-salbe-100-intensive-pflege",
+  "description": "Erleben Sie natürliche Linderung bei Muskel- und Gelenkschmerzen mit der Kneipp Arnika Salbe S. Diese hochkonzentrierte Salbe (100 g) nutzt die Kraft der Arnika-Pflanze, um gezielt auf beanspruchte Bereiche einzuwirken und Ihr Wohlbefinden zu fördern. Ideal für Sportler, aktive Menschen und alle, die unter Verspannungen leiden. Entdecken Sie die bewährte Kneipp-Qualität für eine schnelle Regeneration und verbesserte Beweglichkeit. Die Formel ist speziell darauf ausgelegt, tief in die Haut einzudringen und ihre wohltuende Wirkung zu entfalten. Profitieren Sie von natürlichen Inhaltsstoffen und einer nachhaltigen Anwendung.  Ihr Schlüssel zu mehr Leichtigkeit im Alltag – jetzt kaufen!",
+  "shortDescription": "Kneipp Arnika Salbe S (100g): Natürliche Linderung bei Muskel- & Gelenkschmerzen. Intensive Pflege für mehr Beweglichkeit.",
   "price": "3.0",
   "compareAtPrice": 3,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Kneipp-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kneipp Arnika Salbe S (100 g) – Intensive Pflege für Muskeln & Gelenke",
+    "description": "Kneipp Arnika Salbe S (100g): Natürliche Linderung bei Muskel- & Gelenkschmerzen. Intensive Pflege für mehr Beweglichkeit.",
+    "keywords": [
+      "kneipp arnika salbe s (100 g) – intensive pflege für muskeln & gelenke",
+      "arnika-salben gegen prellungen",
+      "besuche den kneipp-store"
+    ],
+    "ogTitle": "Kneipp Arnika Salbe S (100 g) – Intensive Pflege für Muskeln & Gelenke",
+    "ogDescription": "Kneipp Arnika Salbe S (100g): Natürliche Linderung bei Muskel- & Gelenkschmerzen. Intensive Pflege für mehr Beweglichkeit."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -42,5 +48,36 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Enthält hochkonzentrierten Arnika-Extrakt für intensive Linderung. 100 g Packungsgröße. Dermatologisch getestet. Für Erwachsene. Zur äußerlichen Anwendung.",
+    "anwendung": "Mehrmals täglich eine dünne Schicht auf die betroffenen Stellen auftragen und sanft einmassieren.",
+    "inhaltsstoffe": "Aqua, Alcohol Denat., Glycerin, Arnica Montana Flower Extract, Carbomer, Sodium Hydroxide, Parfum, Linalool, Limonene, Geraniol, Citral, Coumarin, Citronellol, Benzyl Benzoate, Eugenol, Farnesol.",
+    "verpackung": "Klinisch getestete und wiederverschließbare Tube für optimale Frische und einfache Anwendung."
+  },
+  "faq": [
+    {
+      "q": "Für wen ist die Kneipp Arnika Salbe S geeignet?",
+      "a": "Die Salbe ist für Erwachsene bestimmt und ideal zur Linderung von Muskel- und Gelenkschmerzen, insbesondere nach körperlicher Belastung."
+    },
+    {
+      "q": "Wie oft sollte die Arnika Salbe angewendet werden?",
+      "a": "Die Salbe kann mehrmals täglich auf die betroffenen Stellen aufgetragen und sanft einmassiert werden, um die bestmögliche Wirkung zu erzielen."
+    },
+    {
+      "q": "Enthält die Salbe synthetische Duftstoffe?",
+      "a": "Die Salbe enthält natürliche ätherische Öle für einen dezenten Duft, der die Anwendung angenehm macht. Die genaue Zusammensetzung finden Sie in der Spezifikation 'Inhaltsstoffe'."
+    },
+    {
+      "q": "Ist die Kneipp Arnika Salbe für sensible Haut geeignet?",
+      "a": "Die Salbe ist dermatologisch getestet. Bei bekannter Überempfindlichkeit gegenüber einzelnen Inhaltsstoffen raten wir jedoch zur Vorsicht oder zur Rücksprache mit einem Arzt oder Apotheker."
+    },
+    {
+      "q": "Wie lagere ich die Salbe am besten?",
+      "a": "Bewahren Sie die Salbe bei Raumtemperatur und vor direkter Sonneneinstrahlung geschützt auf, um ihre Qualität zu erhalten."
+    }
+  ],
+  "originalName": "Kneipp Arnika Salbe S (100 g) – Natürliche Linderung bei Muskel- & Gelenkschmerzen",
+  "enhancedAt": "2025-10-10T23:35:36.072726",
+  "enhanced": true
 }

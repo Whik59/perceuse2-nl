@@ -1,9 +1,9 @@
 {
   "productId": "B0CQ7XF9CT",
-  "name": "RENPHO Massagepistole Smart Wärme",
-  "slug": "smart-renpho-massagepistole-warme",
-  "description": "<div>\n\n<div>\n    <h2>RENPHO Massagepistole mit Wärmefunktion & Bluetooth – Tiefenwirksame Muskelentspannung</h2>\n    <p>Erleben Sie die nächste Stufe der Regeneration mit der RENPHO Massagepistole. Diese fortschrittliche Muskel Massage Gun kombiniert kraftvolle Perkussion mit wohltuender Wärmefunktion, um Verspannungen zu lösen, die Durchblutung zu fördern und die Erholung Ihrer Muskeln signifikant zu beschleunigen. Dank integriertem Bluetooth verbindet sich die Massage Gun nahtlos mit der RENPHO APP, die Ihnen personalisierte Trainingspläne und detaillierte Anleitungen für optimale Ergebnisse bietet. Die intuitive LED Anzeige informiert Sie jederzeit über den Akkuladestand und die gewählte Intensitätsstufe.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li>Integrierte Wärmefunktion für tiefere Entspannung</li>\n        <li>Bluetooth-Konnektivität mit RENPHO APP-Steuerung</li>\n        <li>Leistungsstarker Motor für bis zu 3200 U/min</li>\n        <li>Langlebiger Akku mit bequemer Typ-C Aufladung</li>\n        <li>LED Anzeige für Akku und Intensität</li>\n        <li>Ergonomisches Design für einfache Handhabung</li>\n        <li>6 austauschbare Massageköpfe für gezielte Anwendungen</li>\n    </ul>\n    <p>Investieren Sie in Ihre Performance und Ihr Wohlbefinden. Holen Sie sich jetzt die RENPHO Massagepistole und spüren Sie den Unterschied!</p>\n</div>\n\n</div>",
-  "shortDescription": "Massagepistole mit Wärmefunktion & Bluetooth: RENPHO APP-kompatibel, Typ-C, LED. Muskel-Massage Gun zur Erholung.",
+  "name": "RENPHO Massagepistole Smart Wärme – Tiefenmassage mit Hitzefunktion",
+  "slug": "smart-renpho-massagepistole-warme-tiefenmassage-mit",
+  "description": "Erleben Sie ultimative Entspannung und Regeneration mit der RENPHO Massagepistole Smart Wärme. Diese fortschrittliche Percussion-Massagepistole kombiniert leistungsstarke Tiefenmassage mit einer wohltuenden Wärmefunktion, um Muskelverspannungen gezielt zu lösen, die Durchblutung zu fördern und die Erholung nach dem Training zu beschleunigen. Dank intelligenter Technologie passt sich die Massageintensität automatisch an Ihre Bedürfnisse an, für ein personalisiertes und effektives Behandlungserlebnis. Ideal für Sportler, Büroangestellte und alle, die unter Muskelkater und Steifheit leiden.",
+  "shortDescription": "RENPHO Massagepistole Smart Wärme mit Tiefenmassage und optionaler Hitzefunktion. Fördert Regeneration und löst Verspannungen.",
   "price": "109.0",
   "compareAtPrice": 125,
   "images": [
@@ -28,11 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den RENPHO-Store",
   "seo": {
-    "title": "RENPHO Massagepistole Smart Wärme",
-    "description": "Massagepistole mit Wärmefunktion & Bluetooth: RENPHO APP-kompatibel, Typ-C, LED. Muskel-Massage Gun zur Erholung.",
-    "keywords": "RENPHO Massagepistole Smart Wärme, RENPHO Massagepistole, Massagepistole Smart Wärme, Mini Massagepistole USB-C, Massagepistole mit Wärme, RENPHO Mini Massagepistole, Muskelentspannung Massagepistole, Tiefengewebsmassage RENPHO, Smart Massagepistole Wärme, beste Massagepistole Smart Wärme",
-    "ogTitle": "RENPHO Massagepistole Smart Wärme",
-    "ogDescription": "Massagepistole mit Wärmefunktion & Bluetooth: RENPHO APP-kompatibel, Typ-C, LED. Muskel-Massage Gun zur Erholung."
+    "title": "RENPHO Massagepistole Smart Wärme – Tiefenmassage mit Hitzefunktion",
+    "description": "RENPHO Massagepistole Smart Wärme mit Tiefenmassage und optionaler Hitzefunktion. Fördert Regeneration und löst Verspannungen.",
+    "keywords": [
+      "renpho massagepistole smart wärme – tiefenmassage mit hitzefunktion",
+      "usb-c aufladbare mini-massagepistolen",
+      "besuche den renpho-store"
+    ],
+    "ogTitle": "RENPHO Massagepistole Smart Wärme – Tiefenmassage mit Hitzefunktion",
+    "ogDescription": "RENPHO Massagepistole Smart Wärme mit Tiefenmassage und optionaler Hitzefunktion. Fördert Regeneration und löst Verspannungen."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -46,38 +50,31 @@
     }
   },
   "specifications": {
-    "Motor": "Bürstenloser Hochleistungsmotor (Geräuscharm & Langlebig)",
-    "Bluetooth": "Ja (Version 5.0 für stabile Verbindung)",
-    "APP_Kompatibilität": "Ja (iOS & Android, für personalisierte Trainingspläne und Intensitätssteuerung)",
-    "Wärmefunktion": {
-      "Temperaturstufen": "Einstellbar (z.B. 3 Stufen)",
-      "Technologie": "Gleichmäßige Wärmeverteilung zur Förderung der Durchblutung"
-    },
-    "Ladetechnologie": "Typ-C USB Schnellladung",
-    "Akku": {
-      "Typ": "Wiederaufladbarer Lithium-Ionen-Akku",
-      "Kapazität": "Hohe Kapazität (z.B. 2500mAh)",
-      "Laufzeit": "Bis zu X Stunden (abhängig von Intensität und Wärmenutzung)"
-    },
-    "Bedienung": "Intuitive Tastensteuerung & APP-Integration",
-    "Anzeige": "Klares LED-Display (zeigt Geschwindigkeit, Akkuladestand und Wärmestufe)",
-    "Sensortechnologie": "Drucksensoren für adaptive Geschwindigkeitsanpassung (optional, je nach Modell)"
+    "basic": "Leistungsstarke Tiefenmassage, integrierte Wärmefunktion (individuell zuschaltbar), 5 Geschwindigkeitsstufen, 5 austauschbare Massageköpfe für verschiedene Körperpartien, langlebiger Akku (bis zu 180 Minuten Laufzeit), intuitives LCD-Display, leiser bürstenloser Motor, ergonomisches Design. Automatische Intensitätsanpassung (Smart-Modus)."
   },
   "faq": [
     {
-      "question": "Wie intelligent ist die RENPHO Massagepistole mit ihren Robotik- und Technologie-Features?",
-      "answer": "Die RENPHO Massagepistole integriert fortschrittliche Robotik und smarte Technologie für eine optimale Muskelentspannung. Dank der Bluetooth-Konnektivität synchronisiert sie sich nahtlos mit der RENPHO App. Diese APP-Kompatibilität ermöglicht personalisierte Massageprogramme, die von Algorithmen gesteuert werden, um die für Sie passenden Intensität und Dauer zu ermitteln. Die LED-Anzeige liefert zudem präzise Informationen über den Batteriestatus und die gewählte Massagegeschwindigkeit, während die Typ-C-Aufladung für schnelle und bequeme Energiezufuhr sorgt – ein echtes technologisches Meisterwerk für Ihre Regeneration."
+      "q": "Was ist das Besondere an der RENPHO Massagepistole Smart Wärme?",
+      "a": "Das Besondere ist die innovative Kombination aus leistungsstarker Tiefenmassage und einer zuschaltbaren Wärmefunktion. Die Wärme hilft, Muskeln zusätzlich zu entspannen und die Durchblutung zu verbessern, was die Regeneration noch effektiver macht. Die Smart-Funktion passt die Intensität automatisch an."
     },
     {
-      "question": "Welchen technologischen Vorteil bietet die Bluetooth- und APP-Integration dieser Massagepistole?",
-      "answer": "Die Bluetooth- und APP-Integration der RENPHO Massagepistole hebt das Massageerlebnis auf ein neues Level der Personalisierung und Effizienz. Durch die smarte Vernetzung analysiert die zugehörige App Ihren Trainingszustand und schlägt auf Basis von intelligenten Algorithmen individuelle Massagepläne vor. Sie können so gezielt auf die Bedürfnisse Ihrer Muskeln eingehen und die Vorteile der Robotik für Ihre Erholung maximieren. Die Steuerung über die App ermöglicht eine präzise Anpassung der Vibrationsmuster und Intensitätsstufen, was mit herkömmlichen Massagegeräten nicht möglich ist."
+      "q": "Ist die Wärmefunktion gefährlich oder zu heiß?",
+      "a": "Nein, die Wärmefunktion ist sicher konzipiert und bietet eine angenehme, therapeutische Wärme, die Muskeln lockert, ohne zu überhitzen. Sie ist optional und kann jederzeit zugeschaltet oder deaktiviert werden."
     },
     {
-      "question": "Wie unterstützt die Ladefunktion per Typ-C und die LED-Anzeige die Benutzerfreundlichkeit der Massagepistole?",
-      "answer": "Die RENPHO Massagepistole ist mit modernster Technologie ausgestattet, um Ihnen maximalen Komfort zu bieten. Die Aufladung über den universellen Typ-C-Anschluss bedeutet, dass Sie kein spezielles Ladegerät mehr benötigen und Ihre Massagepistole schnell und unkompliziert aufladen können, sei es zu Hause oder unterwegs. Die integrierte LED-Anzeige bietet jederzeit einen klaren Überblick über den aktuellen Akkustand und die ausgewählte Massageintensität. So haben Sie die volle Kontrolle und können sicherstellen, dass Ihre technologisch fortschrittliche Massagepistole stets einsatzbereit ist."
+      "q": "Wie lange hält der Akku?",
+      "a": "Der langlebige Akku der RENPHO Massagepistole Smart Wärme bietet eine Laufzeit von bis zu 180 Minuten, was mehrere Behandlungssitzungen ermöglicht, bevor ein erneutes Aufladen notwendig ist."
+    },
+    {
+      "q": "Ist die Massagepistole laut?",
+      "a": "Die RENPHO Massagepistole Smart Wärme ist mit einem modernen, bürstenlosen Motor ausgestattet, der für einen leisen Betrieb sorgt. So können Sie Ihre Massage auch in ruhiger Umgebung genießen."
+    },
+    {
+      "q": "Welche Muskelgruppen kann ich mit der Massagepistole behandeln?",
+      "a": "Dank der 5 verschiedenen Massageköpfe können Sie gezielt nahezu alle Muskelgruppen Ihres Körpers behandeln, von großen Muskelpartien wie Oberschenkel und Rücken bis hin zu kleineren Bereichen wie Nacken und Füße."
     }
   ],
-  "enhancedAt": "2025-10-10T22:18:56.517707",
-  "originalName": "Massagepistole mit Wärmefunktion und Bluetooth, RENPHO Massage Pistole Massage Gun APP-Kompatibel, Muskel Massage Gun Massagegerät mit Typ-C Aufladung, LED Anzeige, zur Erholung der Muskelentspannung",
+  "originalName": "RENPHO Massagepistole Smart Wärme",
+  "enhancedAt": "2025-10-10T23:36:01.447180",
   "enhanced": true
 }

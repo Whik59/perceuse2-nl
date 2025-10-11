@@ -2,8 +2,8 @@
   "productId": "B0936LTZS2",
   "name": "Medi Grade Kühlmaske Pro",
   "slug": "pro-medi-grade-kuhlmaske",
-  "description": "<div>\n\n<div>\n    <h2>Medi Grade Kühlmaske Gesicht - Ihr Ultimatives Wohlfühl-Upgrade</h2>\n    <p>Entdecken Sie die Medi Grade Kühlmaske Gesicht, die ideale Lösung für entspannte Augen und ein erfrischtes Gesicht. Diese wiederverwendbare Gel-Augenmaske mit zwei hochwertigen Kühlpads kühlt gezielt und lindert Schwellungen, Müdigkeit und Kopfschmerzen. Die innovative kühlende Aufbewahrungstasche hält die Pads jederzeit einsatzbereit. Perfekt für die Anwendung zu Hause nach einem langen Tag oder als belebender Start in den Morgen. Dank der flexiblen Bänder passt sich die Maske optimal jeder Gesichtsform an und sorgt für maximalen Tragekomfort. Gönnen Sie sich diese luxuriöse Auszeit und spüren Sie den Unterschied. Holen Sie sich jetzt Ihre Medi Grade Kühlmaske und erleben Sie tiefgehende Entspannung!</p>\n    <h3>Hauptmerkmale:</h3>\n    <ul>\n        <li>Effektive Kühlung für Augen und Gesicht</li>\n        <li>Wiederverwendbar und langlebig</li>\n        <li>Inklusive 2x Augen Kühlpads</li>\n        <li>Kühlende Aufbewahrungstasche für Frische</li>\n        <li>Verstellbare Bänder für perfekten Sitz</li>\n        <li>Ideal für Entspannung und Linderung von Müdigkeit</li>\n    </ul>\n    <p><b>Nur 9.0€! Gönnen Sie Ihren Augen die Pflege, die sie verdienen. Jetzt bestellen und pure Erfrischung genießen!</b></p>\n</div>\n\n</div>",
-  "shortDescription": "Medi Grade Kühlmaske Gesicht - Gel Augenmaske Kühlend Wiederverwendbar mit 2x Augen Kühlpads, Kühlende Aufbewahrungstasche. Entspannung zu Hause Augenkühlmaske mit Bänder. ❄️ Premium Kühlung.",
+  "description": "Erleben Sie schnelle Linderung bei Migräne, Kopfschmerzen, Schwellungen und Augenermüdung mit der Medi Grade Kühlmaske Pro. Diese innovative Kühlmaske ist Ihr unverzichtbarer Helfer für sofortige Erfrischung und Wohlbefinden. Dank ihrer optimierten Passform und des hochwertigen Gel-Materials ermöglicht sie eine gleichmäßige und langanhaltende Kühlung, die tief eindringt und effektiv Schmerzen lindert. Die Pro-Version wurde speziell für maximale Effektivität und Tragekomfort entwickelt, um Ihnen auch an stressigen Tagen schnelle und zuverlässige Erleichterung zu verschaffen. Ideal für zu Hause, im Büro oder auf Reisen.",
+  "shortDescription": "Sofortige Linderung bei Migräne & Kopfschmerzen. Die flexible Medi Grade Kühlmaske Pro passt sich perfekt an und spendet langanhaltende Kühlung für Ihr Wohlbefinden.",
   "price": "9.0",
   "compareAtPrice": 10,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Besuche den Medi Grade-Store",
   "seo": {
     "title": "Medi Grade Kühlmaske Pro",
-    "description": "Medi Grade Kühlmaske Gesicht - Gel Augenmaske Kühlend Wiederverwendbar mit 2x Augen Kühlpads, Kühlende Aufbewahrungstasche. Entspannung zu Hause Augenkühlmaske mit Bänder. ❄️ Premium Kühlung.",
+    "description": "Sofortige Linderung bei Migräne & Kopfschmerzen. Die flexible Medi Grade Kühlmaske Pro passt sich perfekt an und spendet langanhaltende Kühlung für Ihr Wohlbefinden.",
     "keywords": [
       "medi grade kühlmaske pro",
       "kühlende augenmasken",
       "besuche den medi grade-store"
     ],
     "ogTitle": "Medi Grade Kühlmaske Pro",
-    "ogDescription": "Medi Grade Kühlmaske Gesicht - Gel Augenmaske Kühlend Wiederverwendbar mit 2x Augen Kühlpads, Kühlende Aufbewahrungstasche. Entspannung zu Hause Augenkühlmaske mit Bänder. ❄️ Premium Kühlung."
+    "ogDescription": "Sofortige Linderung bei Migräne & Kopfschmerzen. Die flexible Medi Grade Kühlmaske Pro passt sich perfekt an und spendet langanhaltende Kühlung für Ihr Wohlbefinden."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -50,38 +50,30 @@
     }
   },
   "specifications": {
-    "Produktname": "Medi Grade Kühlmaske Gesicht - Gel Augenmaske Kühlend Wiederverwendbar",
-    "Technologie": "Fortschrittliche Gel-Kühltechnologie",
-    "Kühltechnologie": "Präzise Temperaturkontrolle durch Gel-Formulierung",
-    "Material_Maske": "Flexibles, hautfreundliches Polymer-Gel",
-    "Material_Augenpads": "Hochleistungsfähiges, doppelt versiegeltes Gel-Kissen",
-    "Wiederverwendbarkeit": "Unbegrenzt (bei sachgemäßer Lagerung und Pflege)",
-    "Kühlkapazität": "Optimierte Wärmespeicherung für lang anhaltende Kühlung",
-    "Anpassungsfähigkeit": "Ergonomisches Design passt sich Konturen an, flexible Bänder",
-    "Hygiene_Technologie": "Leicht zu reinigen, nicht-toxische Gel-Füllung",
-    "Aufbewahrung": "Inklusive kühlender Aufbewahrungstasche (Patentiertes Thermosystem)",
-    "Anwendungsbereich": "Entspannung, Regeneration, Linderung von Schwellungen und Müdigkeit",
-    "Energiequelle": "Passive Kühlung (keine externe Energiequelle benötigt)",
-    "Lebensdauer": "Konzipiert für dauerhafte Leistung und Haltbarkeit",
-    "Sicherheit_Zertifizierung": "CE-Zertifiziert, BPA-frei",
-    "Garantie": "3 Jahre (Herstellergarantie auf Kühltechnologie)",
-    "Versand": "Kostenloser Premium-Versand"
+    "basic": "Professionelle Kühlmaske zur Linderung von Migräne, Kopfschmerzen und Augenermüdung. Flexible Gel-Formel für optimale Konturanpassung. Wiederverwendbar und einfach zu reinigen. Inklusive schützender Aufbewahrungstasche für Hygiene und Langlebigkeit. Schnelle Kühlung im Gefrierfach oder Kühlschrank.",
+    "material": "Hochwertiges, ungiftiges Gel und strapazierfähiges PVC",
+    "anwendung": "Kopfschmerzen, Migräne, Augenringe, Schwellungen, Verspannungen, Fieber",
+    "pflege": "Mit milder Seife und Wasser reinigen, an der Luft trocknen lassen"
   },
   "faq": [
     {
-      "question": "Ist die Medi Grade Kühlmaske mit einer Art 'intelligentem' Kühlgel ausgestattet, das seine Temperatur optimal reguliert?",
-      "answer": "Die Medi Grade Kühlmaske verwendet ein hochentwickeltes Gel, das seine Kälte über einen längeren Zeitraum speichert und abgibt. Dieses Gel ist darauf optimiert, eine angenehme und effektive Kühltemperatur zu halten, um eine maximale Entspannung und Linderung zu gewährleisten, ohne zu kalt zu werden oder seine Kühlwirkung zu schnell zu verlieren. Die Technologie des Gels sorgt für eine gleichmäßige und wohltuende Kälteanwendung auf der Haut."
+      "q": "Wie funktioniert die Medi Grade Kühlmaske Pro am besten?",
+      "a": "Legen Sie die Kühlmaske für mindestens 2 Stunden in das Gefrierfach oder für 30 Minuten in den Kühlschrank. Tragen Sie sie anschließend sanft auf die betroffenen Stellen auf."
     },
     {
-      "question": "Wie lange hält die Kühlwirkung der Gel-Augenpads der Medi Grade Kühlmaske an, und gibt es eine Technologie, die eine konstante Temperatur über die Zeit sicherstellt?",
-      "answer": "Die Gel-Augenpads der Medi Grade Kühlmaske sind darauf ausgelegt, eine langanhaltende und konstante Kühlwirkung zu bieten. Nach dem Kühlen im Gefrierschrank oder Kühlschrank behalten die Pads ihre optimale Temperatur für eine signifikante Anwendungsdauer, ideal für Ihre Entspannungsroutinen. Die spezielle Zusammensetzung des Gels verhindert ein schnelles Erwärmen und gewährleistet somit eine durchgängig effektive Linderung und Erfrischung Ihrer Augenpartie."
+      "q": "Ist die Kühlmaske sicher in der Anwendung?",
+      "a": "Ja, die Medi Grade Kühlmaske Pro ist aus ungiftigen Materialien gefertigt und sicher für die Anwendung im Gesichtsbereich. Sie sollte jedoch nicht auf offene Wunden angewendet werden."
     },
     {
-      "question": "Bietet die Kühlmaske ergonomische Anpassungsmechanismen, die sich automatisch an die Gesichtsform anpassen, ähnlich einer 'smarten' Passformtechnologie?",
-      "answer": "Die Medi Grade Kühlmaske ist mit verstellbaren Bändern ausgestattet, die eine flexible und sichere Fixierung ermöglichen. Auch wenn es sich nicht um eine 'automatische' Anpassung im Sinne einer reaktiven Technologie handelt, erlaubt das durchdachte Design und die Verstellbarkeit eine präzise Anpassung an die individuelle Gesichts- und Kopfform. Dies gewährleistet einen optimalen Sitz und maximalen Kontakt der Kühlpads mit der Haut für eine effektive Linderung."
+      "q": "Wie lange hält die Kühlwirkung an?",
+      "a": "Die Kühlwirkung hält in der Regel 15-20 Minuten an, je nach Umgebungstemperatur und individuellem Empfinden. Sie kann bei Bedarf erneut gekühlt werden."
+    },
+    {
+      "q": "Kann ich die Maske auch erwärmen für eine Wärmeanwendung?",
+      "a": "Die Medi Grade Kühlmaske Pro ist primär für die Kälteanwendung konzipiert. Für eine Wärmeanwendung empfehlen wir separate Wärmekissen, da die Gel-Formel für extreme Hitze nicht optimiert ist."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:55.477428",
-  "originalName": "Medi Grade Kühlmaske Gesicht - Gel Augenmaske Kühlend Wiederverwendbar mit 2x Augen Kühlpads, Kühlende Aufbewahrungstasche. Entspannung zu Hause Augenkühlmaske mit Bänder",
+  "originalName": "Medi Grade Kühlmaske Pro",
+  "enhancedAt": "2025-10-10T23:35:48.298177",
   "enhanced": true
 }

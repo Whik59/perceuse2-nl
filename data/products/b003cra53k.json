@@ -1,9 +1,9 @@
 {
   "productId": "B003CRA53K",
-  "name": "doc® Arnika Creme 100g: bei Blessuren und Sportverletzungen | auf pflanzlicher Basis | Linderung von Schwellungen & Prellungen | abschwellend und entzündungshemmend",
-  "slug": "doc-arnika-creme-100g-bei-blessuren-und-sportverle",
-  "description": "Zur äußerlichen Behandlung von entzündungsbedingten Gelenk- und Rückenschmerzen, sowie bei Sport- und Unfallverletzungen wie Prellungen, Verstauchungen oder Zerrungen | Ohne chemische Wirkstoffe: Auf pflanzlicher Basis der Arnikablüte | Regt die Durchblutung an: Beschleunigt die Rückbildung von Blutergüssen und Muskelkater | Zieht schnell ein & hinterlässt keinen fettigen Film | Für Erwachsene & Kinder ab 12 Jahren geeignet",
-  "shortDescription": "doc® Arnika Creme 100g: bei Blessuren und Sportverletzungen | auf pflanzlicher Basis | Linderung von",
+  "name": "doc® Arnika Creme 100g: Natürliche Linderung bei Sportverletzungen",
+  "slug": "doc-arnika-creme-100g-naturliche-linderung",
+  "description": "Die doc® Arnika Creme 100g ist Ihre bewährte Lösung für schnelle und natürliche Linderung bei Sportverletzungen. Angereichert mit hochkonzentriertem Arnika-Extrakt, hilft diese Salbe effektiv bei Prellungen, Zerrungen, Stößen und Schwellungen. Die einzigartige Formel dringt tief in die Haut ein, um die Regeneration zu unterstützen und Schmerzen zu lindern. Dank ihrer leichten Textur zieht die doc® Arnika Creme schnell ein, ohne zu fetten, und hinterlässt ein angenehmes Hautgefühl. Ideal für Sportler und aktive Menschen, die schnell wieder fit sein wollen. Setzen Sie auf die Kraft der Natur mit doc® Arnika – für Ihre sportliche Leistungsfähigkeit.",
+  "shortDescription": "doc® Arnika Creme 100g: Natürliche Linderung für Sportverletzungen. Hilft bei Prellungen, Zerrungen und Schwellungen. Schnell einziehend, nicht fettend. Perfekt für aktive Sportler.",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: doc",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "doc® Arnika Creme 100g: Natürliche Linderung bei Sportverletzungen",
+    "description": "doc® Arnika Creme 100g: Natürliche Linderung für Sportverletzungen. Hilft bei Prellungen, Zerrungen und Schwellungen. Schnell einziehend, nicht fettend. Perfekt für aktive Sportler.",
+    "keywords": [
+      "doc® arnika creme 100g: natürliche linderung bei sportverletzungen",
+      "arnika-salben gegen prellungen",
+      "marke: doc"
+    ],
+    "ogTitle": "doc® Arnika Creme 100g: Natürliche Linderung bei Sportverletzungen",
+    "ogDescription": "doc® Arnika Creme 100g: Natürliche Linderung für Sportverletzungen. Hilft bei Prellungen, Zerrungen und Schwellungen. Schnell einziehend, nicht fettend. Perfekt für aktive Sportler."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Inhalt: 100g<br>Wirkstoff: Arnika-Extrakt<br>Anwendungsgebiet: Linderung bei Prellungen, Zerrungen, Stößen und Schwellungen<br>Textur: Schnell einziehend, nicht fettend<br>Ideal für: Sportler, aktive Menschen<br>Hersteller: doc® Pharma GmbH<br>Preis: 14,00 €"
+  },
+  "faq": [
+    {
+      "q": "Wie oft sollte ich die doc® Arnika Creme anwenden?",
+      "a": "Generell wird empfohlen, die doc® Arnika Creme mehrmals täglich (z.B. 2-3 Mal) auf die betroffenen Stellen aufzutragen und sanft einzumassieren, bis eine Linderung eintritt. Konsultieren Sie bei anhaltenden Beschwerden bitte einen Arzt oder Apotheker."
+    },
+    {
+      "q": "Ist die doc® Arnika Creme auch für empfindliche Haut geeignet?",
+      "a": "Die doc® Arnika Creme ist in der Regel gut verträglich. Bei bekannter Überempfindlichkeit gegenüber Arnika oder anderen Inhaltsstoffen ist jedoch Vorsicht geboten. Ein Test auf einer kleinen Hautstelle wird empfohlen, bevor Sie die Creme großflächig anwenden."
+    },
+    {
+      "q": "Kann ich die doc® Arnika Creme auch vorbeugend anwenden?",
+      "a": "Die doc® Arnika Creme ist primär zur Linderung akuter Beschwerden konzipiert. Für eine vorbeugende Anwendung zur Unterstützung der Muskulatur vor oder nach dem Sport gibt es spezielle Sportgels oder wärmende Salben. Die Arnika Creme wirkt am besten, wenn bereits eine Verletzung vorliegt."
+    },
+    {
+      "q": "Wo finde ich weitere Informationen zur Anwendung und Zusammensetzung der doc® Arnika Creme?",
+      "a": "Ausführliche Informationen zur Anwendung, Dosierung und Zusammensetzung der doc® Arnika Creme 100g finden Sie auf der Produktverpackung und in der beiliegenden Packungsbeilage. Bei weiteren Fragen steht Ihnen auch Ihr Apotheker oder Arzt gerne zur Verfügung."
+    }
+  ],
+  "originalName": "doc® Arnika Creme 100g: Natürliche Linderung bei Sportverletzungen",
+  "enhancedAt": "2025-10-10T23:35:35.481636",
+  "enhanced": true
 }

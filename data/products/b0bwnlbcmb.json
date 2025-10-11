@@ -1,9 +1,9 @@
 {
   "productId": "B0BWNLBCMB",
-  "name": "Relaxdays Kühlpads, 16er Set, Kalt-Warm-Kompressen, 9 x 15 cm, Kühlpacks Gel, Wiederverwendbare Gelkühlkompressen, blau",
-  "slug": "relaxdays-kuhlpads-16er-set-kalt-warm-kompressen-9",
-  "description": "Set: Mehrfachkompressen mit Gelfüllung im 16er Pack - Warm-Kalt-Kompressen zur Ganzkörperanwendung | Kaltanwendung: Kühlpads zur effektiven Schmerzlinderung bei Kopf- und Zahnschmerzen, Prellungen uvm. | Wärmetherapie: Wärmepack in Wasserbad o. Mikrowelle erwärmen - Ideal bei Bauch- und Rückenschmerzen | Qualität: Gelkühlpads mit dichter Versiegelung gegen Auslaufen - Formbare Kühlkompressen bis -18 °C | Detail: Handliche Gelkompressen HxBxT: ca. 1 x 9 x 15 cm - Mit Anwendungshinweisen auf dem Kühlpack",
-  "shortDescription": "Relaxdays Kühlpads, 16er Set, Kalt-Warm-Kompressen, 9 x 15 cm, Kühlpacks Gel, Wiederverwendbare Gelk",
+  "name": "Relaxdays Kühlpads 16er Set",
+  "slug": "relaxdays-kuhlpads-16er-set",
+  "description": "Erleben Sie ultimativen Komfort und gezielte Linderung mit dem Relaxdays Kühlpads 16er Set. Diese vielseitigen Kalt-Warm-Kompressen sind Ihre idealen Begleiter für verschiedenste Anwendungen – sei es zur Kühlung bei Überhitzung, zur Linderung von Schwellungen und Entzündungen, oder zur wohltuenden Wärme bei Muskelverspannungen und Krämpfen. Dank ihrer flexiblen Gel-Füllung passen sich die Kühlpads optimal an jede Körperkontur an und bieten so eine effektive und angenehme Anwendung. Das Set beinhaltet 16 einzelne Pads, perfekt für den universellen Einsatz im Haushalt, im Büro oder unterwegs. Die wiederverwendbaren Gel-Pads sind umweltfreundlich und kosteneffizient. Optimieren Sie Ihr Wohlbefinden mit diesen smarten und praktischen Helfern von Relaxdays. Ideal für Sportverletzungen, zur Entspannung nach einem langen Tag oder zur Linderung bei Kopfschmerzen.",
+  "shortDescription": "16er Set vielseitige Kühlpads von Relaxdays für Kalt- und Warmanwendung. Flexibel, wiederverwendbar und optimal für Komfort & Linderung.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Relaxdays-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Relaxdays Kühlpads 16er Set",
+    "description": "16er Set vielseitige Kühlpads von Relaxdays für Kalt- und Warmanwendung. Flexibel, wiederverwendbar und optimal für Komfort & Linderung.",
+    "keywords": [
+      "relaxdays kühlpads 16er set",
+      "kühlgels & sport-salben",
+      "besuche den relaxdays-store"
+    ],
+    "ogTitle": "Relaxdays Kühlpads 16er Set",
+    "ogDescription": "16er Set vielseitige Kühlpads von Relaxdays für Kalt- und Warmanwendung. Flexibel, wiederverwendbar und optimal für Komfort & Linderung."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,39 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "grundfunktion": "Kalt- und Warmanwendung",
+    "inhalt": "16 Stück",
+    "material": "Robuste, flexible Außenhülle mit Gel-Füllung",
+    "anwendungsbereiche": "Kühlung, Linderung von Schwellungen/Entzündungen, Wärmeanwendung bei Verspannungen/Krämpfen, Entspannung",
+    "wiederverwendbar": "Ja",
+    "optimale_anpassung": "Durch flexible Gel-Füllung an Körperkonturen",
+    "langlebigkeit": "Konzipiert für häufigen Gebrauch"
+  },
+  "faq": [
+    {
+      "q": "Wie werden die Kühlpads verwendet?",
+      "a": "Zur Kühlung legen Sie die Pads für mindestens 2 Stunden in das Gefrierfach. Zur Wärmeanwendung erwärmen Sie die Pads vorsichtig in warmem Wasser (nicht kochend) oder in der Mikrowelle (gemäß Anleitung auf geringer Stufe und mit Pausen)."
+    },
+    {
+      "q": "Sind die Kühlpads für empfindliche Haut geeignet?",
+      "a": "Ja, die Kühlpads sind für die meisten Hauttypen geeignet. Es wird jedoch empfohlen, immer ein dünnes Tuch zwischen Pad und Haut zu legen, um direkten Hautkontakt zu vermeiden und so Reizungen vorzubeugen."
+    },
+    {
+      "q": "Wie reinige ich die Kühlpads?",
+      "a": "Die Kühlpads können einfach mit kaltem Wasser und milder Seife abgewaschen und anschließend gut getrocknet werden. Nicht in der Waschmaschine waschen oder aggressive Reinigungsmittel verwenden."
+    },
+    {
+      "q": "Wie lange bleiben die Kühlpads kalt bzw. warm?",
+      "a": "Die Dauer der Kälte- oder Wärmewirkung hängt von verschiedenen Faktoren ab (Umgebungstemperatur, Art der Anwendung). Im Allgemeinen bieten die Pads eine lang anhaltende Linderung, typischerweise für 20-40 Minuten, bevor sie wieder aufgefrischt werden müssen."
+    },
+    {
+      "q": "Sind die Kühlpads aus umweltfreundlichem Material hergestellt?",
+      "a": "Die Kühlpads sind wiederverwendbar und tragen somit zur Reduzierung von Einwegprodukten bei. Das Gel-Material ist für den vorgesehenen Gebrauch konzipiert. Bitte entsorgen Sie beschädigte Pads fachgerecht."
+    }
+  ],
+  "originalName": "Relaxdays Kühlpads im 16er Set: Vielseitige Kalt-Warm-Kompressen für Ihren Komfort",
+  "enhancedAt": "2025-10-10T23:35:55.667522",
+  "enhanced": true
 }

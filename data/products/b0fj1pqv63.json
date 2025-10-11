@@ -1,9 +1,9 @@
 {
   "productId": "B0FJ1PQV63",
-  "name": "Napre Massagepistole Wärme Kälte",
-  "slug": "napre-massagepistole-warme-kalte",
-  "description": "<div>\n\n<div>\n  <h2>Napre Massagepistole: Intensive Muskelentspannung mit Wärme & Kälte</h2>\n  <p>Erleben Sie ultimative Regeneration mit der Napre Massagepistole. Dieses fortschrittliche Percussion-Massagegerät kombiniert die therapeutischen Vorteile von Wärme- und Kälteanwendungen mit kraftvollen Tiefengewebsmassagen. Ideal zur Linderung von Muskelverspannungen in Schulter, Nacken, Rücken und dem gesamten Körper. Die innovative Verlängerungsfunktion ermöglicht Ihnen mühelosen Zugang zu schwer erreichbaren Muskelpartien.</p>\n  <p>Mit 32 einstellbaren Geschwindigkeiten finden Sie die perfekte Intensität für Ihre individuellen Bedürfnisse, von sanfter Lockerung bis hin zu intensiver Triggerpunktbehandlung. Das faltbare Design und die 5 verstellbaren Winkel bieten höchste Flexibilität und Ergonomie für eine komfortable Anwendung. Revolutionieren Sie Ihr Wohlbefinden und steigern Sie Ihre Leistungsfähigkeit.</p>\n  <h3>Schlüsselfunktionen:</h3>\n  <ul>\n    <li>Integrierte Wärme- und Kälteanwendungen</li>\n    <li>32 Geschwindigkeitsstufen für personalisierte Massage</li>\n    <li>Verlängerungsarm für schwer erreichbare Zonen</li>\n    <li>5 einstellbare Winkel für optimale Ergonomie</li>\n    <li>Leistungsstarke Percussion-Massage für tiefenwirksame Entspannung</li>\n    <li>Faltbares, portables Design</li>\n  </ul>\n  <p>Investieren Sie jetzt in Ihre Erholung und bestellen Sie Ihre Napre Massagepistole für nur 99,00€! Ihr Körper wird es Ihnen danken.</p>\n</div>\n\n</div>",
-  "shortDescription": "Massagepistole mit Wärme & Kälte. Napre Massage Gun, verlängerbar, 32 Gänge, faltbar, 5 Winkel. Tiefenmuskelentlastung. Jetzt kaufen!",
+  "name": "Napre Massagepistole mit Wärme- & Kältefunktion",
+  "slug": "napre-massagepistole-mit-warme-kaltefunktion",
+  "description": "Erleben Sie die revolutionäre Napre Massagepistole, die tiefgehende Muskelentspannung mit gezielter Temperaturtherapie kombiniert. Ideal für Sportler, Physiotherapeuten und alle, die unter Muskelverspannungen leiden. Die innovative Wärme- und Kältefunktion ermöglicht eine zielgerichtete Schmerzlinderung und Regeneration.  Mit leistungsstarkem Akku und mehreren Aufsätzen für individuelle Bedürfnisse. Sichern Sie sich jetzt Ihre Napre Massagepistole zum Einführungspreis von nur 99,0€!",
+  "shortDescription": "Napre Massagepistole mit revolutionärer Wärme- und Kältefunktion zur tiefen Muskelentspannung und Regeneration. Jetzt für nur 99,0€!",
   "price": "99.0",
   "compareAtPrice": 113,
   "images": [
@@ -28,11 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den NAPRE-Store",
   "seo": {
-    "title": "Napre Massagepistole Wärme Kälte",
-    "description": "Massagepistole mit Wärme & Kälte. Napre Massage Gun, verlängerbar, 32 Gänge, faltbar, 5 Winkel. Tiefenmuskelentlastung. Jetzt kaufen!",
-    "keywords": "Napre Massagepistole, Massagepistole Wärme Kälte, Napre Massagepistole Wärme Kälte, beste Massagepistole, Massagepistole mit Wärmefunktion, Massagepistole mit Kältefunktion, Napre Massagepistole Test, Massagepistole für Muskelregeneration, Profi Massagepistole Napre, Napre Massagepistole kaufen, Napre Store, Massagepistole mit mehreren Aufsätzen, fortschrittliche Massagepistole, gezielte Muskelentspannung, Wärmetherapie Massagepistole, Kältetherapie Massagepistole, Napre Massagegun, Napre Percussion Massagegerät, Massagepistole für Sportler, Tiefengewebsmassage Napre",
-    "ogTitle": "Napre Massagepistole Wärme Kälte",
-    "ogDescription": "Massagepistole mit Wärme & Kälte. Napre Massage Gun, verlängerbar, 32 Gänge, faltbar, 5 Winkel. Tiefenmuskelentlastung. Jetzt kaufen!"
+    "title": "Napre Massagepistole mit Wärme- & Kältefunktion",
+    "description": "Napre Massagepistole mit revolutionärer Wärme- und Kältefunktion zur tiefen Muskelentspannung und Regeneration. Jetzt für nur 99,0€!",
+    "keywords": [
+      "napre massagepistole mit wärme- & kältefunktion",
+      "massagepistolen mit mehreren aufsätzen",
+      "besuche den napre-store"
+    ],
+    "ogTitle": "Napre Massagepistole mit Wärme- & Kältefunktion",
+    "ogDescription": "Napre Massagepistole mit revolutionärer Wärme- und Kältefunktion zur tiefen Muskelentspannung und Regeneration. Jetzt für nur 99,0€!"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -46,28 +50,27 @@
     }
   },
   "specifications": {
-    "Modus": "Integrierte, einstellbare Wärme- und Kälteapplikation",
-    "Temperaturbereiche": {
-      "Wärme": "Einstellbar (z.B. 40°C - 50°C)",
-      "Kälte": "Einstellbar (z.B. 0°C - 10°C)",
-      "Hinweis": "Optimiert für Schmerzlinderung und Entzündungshemmung"
-    }
+    "basic": "Leistungsstarke Perkussionsmassagepistole mit integrierter Wärme- und Kältefunktion.  Verbessert die Durchblutung, löst tiefsitzende Verspannungen und fördert die Regeneration.  Inklusive mehrerer Aufsätze für unterschiedliche Muskelgruppen und Anwendungsbereiche.  Lange Akkulaufzeit für flexible Anwendung.  Leiser und ergonomischer Betrieb.  Ideal für Zuhause und professionellen Einsatz."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Wärme- und Kältefunktion dieser Massagepistole technologisch?",
-      "answer": "Die Napre Massage Gun nutzt fortschrittliche thermoelektrische Kühl- und Heizelemente (TEC), die direkt in den Massagekopf integriert sind. Diese Technologie ermöglicht einen schnellen und präzisen Temperaturwechsel, um gezielt Muskelverspannungen zu lösen oder Entzündungen zu lindern, ohne dass separate Aufsätze benötigt werden. Die Steuerung erfolgt über integrierte Sensoren und eine intuitive Benutzeroberfläche."
+      "q": "Wie funktioniert die Wärme- und Kältefunktion der Napre Massagepistole?",
+      "a": "Die Napre Massagepistole verfügt über integrierte Heizelemente, die sanfte Wärme abgeben, um die Muskeln zu entspannen und die Durchblutung zu fördern. Die Kältefunktion nutzt einen speziellen Kühlmechanismus, um bei akuten Entzündungen oder Schwellungen Linderung zu verschaffen. Beide Modi können unabhängig voneinander oder in Kombination mit der Massagefunktion genutzt werden."
     },
     {
-      "question": "Welche Art von Motor treibt die 32 Geschwindigkeiten der Massagepistole an und wie ist die Leistungsabgabe?",
-      "answer": "Im Inneren der Napre Massage Gun arbeitet ein hochmoderner, bürstenloser DC-Motor. Dieser Motortyp ist bekannt für seine Langlebigkeit, Effizienz und sein geringes Betriebsgeräusch. Er liefert ein konstantes und kräftiges Drehmoment über das gesamte Spektrum der 32 einstellbaren Geschwindigkeiten, wodurch eine tiefgehende Percussionstherapie für verschiedene Muskelgruppen und Anwendungsbereiche ermöglicht wird."
+      "q": "Für wen ist die Napre Massagepistole geeignet?",
+      "a": "Die Napre Massagepistole ist ideal für Sportler zur Regeneration nach dem Training, für Personen mit chronischen Verspannungen, für Physiotherapeuten zur Unterstützung ihrer Behandlungen und für alle, die aktiv etwas für ihr Wohlbefinden tun möchten. Die Kombination aus Massage, Wärme und Kälte macht sie zu einem vielseitigen Werkzeug."
     },
     {
-      "question": "Wie ist das faltbare Design und die Verstellmechanik mit 5 Winkeln technisch umgesetzt und welche Vorteile bietet dies für die robotische Anwendung?",
-      "answer": "Das innovative faltbare Design der Napre Massage Gun wird durch einen robusten und präzise gefertigten Gelenkmechanismus realisiert. Dieser ermöglicht die Einstellung des Massagekopfes in 5 verschiedene Winkelpositionen. Technologisch ist dieser Mechanismus so konzipiert, dass er auch bei intensiver Nutzung eine stabile und sichere Positionierung gewährleistet. Dies verbessert die Ergonomie und ermöglicht eine zielgerichtete, fast 'robotergesteuerte' Anwendung auf schwer erreichbare Körperstellen, ohne dass der Nutzer seine eigene Haltung stark verändern muss."
+      "q": "Welche verschiedenen Aufsätze sind im Lieferumfang enthalten?",
+      "a": "Die Napre Massagepistole wird mit einer Auswahl an Aufsätzen geliefert, die speziell für die Behandlung unterschiedlicher Muskelgruppen und Körperbereiche konzipiert sind. Dazu gehören typischerweise ein runder Kopf für große Muskelgruppen, ein Gabelkopf für Nacken und Wirbelsäule, ein flacher Kopf für allgemeine Anwendung und ein punktueller Kopf für Triggerpunkte."
+    },
+    {
+      "q": "Wie lange hält der Akku der Napre Massagepistole?",
+      "a": "Die Akkulaufzeit der Napre Massagepistole ist in der Regel sehr gut und ermöglicht mehrere Anwendungssitzungen mit einer einzigen Ladung. Genaue Laufzeiten variieren je nach Intensität und Nutzung der Massage-, Wärme- und Kältefunktionen."
     }
   ],
-  "enhancedAt": "2025-10-10T22:14:55.527308",
-  "originalName": "Massagepistole mit Wärme und Kälte,Napre Massage Gun Massage Pistole mit Verlängerung,Muskel Percussion Massagegerät für Schulter Körper Rücken Entspannung,32 Geschwindigkeiten,Faltbar mit 5 Winkeln",
+  "originalName": "Napre Massagepistole Wärme Kälte",
+  "enhancedAt": "2025-10-10T23:36:28.377438",
   "enhanced": true
 }

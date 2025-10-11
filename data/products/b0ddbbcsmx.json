@@ -1,9 +1,9 @@
 {
   "productId": "B0DDBBCSMX",
-  "name": "Arboleaf Mini Massagepistole Pro",
-  "slug": "pro-arboleaf-mini-massagepistole",
-  "description": "<div>\n<h2>Arboleaf Mini Massagepistole – Ihr Mobiler Muskel-Entspannungs-Experte</h2>\n<p>Erleben Sie ultimative Muskelentspannung, wo immer Sie sind, mit der <strong>Arboleaf Massagepistole Mini</strong>. Diese ultraschlanke und <strong>tragbare Muskelpistole</strong> wiegt nur leichte 0,39 kg und ist Ihr perfekter Reisebegleiter für die Erholung nach dem Training oder den Abbau von Alltagsverspannungen. Ausgestattet mit <strong>5 hochwertigen Silikonaufsätzen</strong>, passt sie sich jeder Muskelgruppe präzise an. Wählen Sie aus <strong>5 Intensitätsstufen</strong> bis zu beeindruckenden <strong>3200 U/Min</strong>, um die perfekte Vibrationstherapie für Ihre Bedürfnisse zu finden. Dank ihrer <strong>super leisen Technologie</strong> genießen Sie eine wohltuende Massage, ohne zu stören.</p>\n<h3>Hauptmerkmale</h3>\n<ul>\n<li>Kompaktes und leichtes Design (0,39 kg)</li>\n<li>5 austauschbare Silikon-Massageaufsätze</li>\n<li>5 einstellbare Intensitätsstufen (bis 3200 U/Min)</li>\n<li>Extrem leise im Betrieb</li>\n<li>Inklusive praktischem Transportcase</li>\n</ul>\n<p>Investieren Sie in Ihre Regeneration und Ihr Wohlbefinden. Holen Sie sich jetzt Ihre Arboleaf Mini Massagepistole und fühlen Sie den Unterschied – jederzeit und überall!</p>\n</div>",
-  "shortDescription": "arboleaf Massagepistole mini, tragbar 0,39kg. 5 Aufsätze, 5 Stufen, 3200 U/Min. Leise, mit Case. Für Muskelentspannung.",
+  "name": "Arboleaf Mini Massagepistole Pro – Dein kompakter Muskel-Revitalisierer",
+  "slug": "pro-arboleaf-mini-massagepistole-dein-kompakter",
+  "description": "Erlebe die nächste Stufe der Muskelregeneration mit der Arboleaf Mini Massagepistole Pro. Diese hochmoderne Percussion-Therapie-Waffe ist entwickelt worden, um tiefliegende Muskelverspannungen effektiv zu lösen, die Durchblutung zu fördern und deine Erholung nach dem Training signifikant zu beschleunigen. Mit ihrem kompakten Design und der leistungsstarken Technologie ist sie der ideale Begleiter für Sportler, Fitness-Enthusiasten und alle, die unter Muskelkater oder Verspannungen leiden. Dank fortschrittlicher Robotik-inspirierter Präzision liefert die Arboleaf Mini Massagepistole Pro gezielte Impulse, die sich wie eine professionelle Tiefengewebsmassage anfühlen. Optimiere deine Performance und steigere dein Wohlbefinden – ganz einfach und jederzeit verfügbar.",
+  "shortDescription": "Arboleaf Mini Massagepistole Pro: Kompakter Muskel-Revitalisierer mit 5 Geschwindigkeiten und 4 Köpfen für optimale Regeneration. 51.0€",
   "price": "51.0",
   "compareAtPrice": 58,
   "images": [
@@ -24,11 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "arboleaf",
   "seo": {
-    "title": "Arboleaf Mini Massagepistole Pro",
-    "description": "arboleaf Massagepistole mini, tragbar 0,39kg. 5 Aufsätze, 5 Stufen, 3200 U/Min. Leise, mit Case. Für Muskelentspannung.",
-    "keywords": "Arboleaf Mini Massagepistole Pro, Mini Massagepistole Pro, arboleaf Massagepistole, USB-C Massagepistole, aufladbare Massagepistole, Mini-Massagegerät Pro, arboleaf Mini-Massagegerät, Muskelmassagepistole, Faszienpistole Pro, Tiefengewebsmassagepistole, tragbare Massagepistole, Akku-Massagepistole, leise Massagepistole, Massagepistole für Sportler, Nackenmassagepistole, Rückentherapiepistole, Massagepistole Test, beste Mini Massagepistole, Top Mini Massagepistole, arboleaf Massagepistole Erfahrungen, Mini Massagepistole Pro kaufen, günstige Mini Massagepistole, Massagepistole mit USB-C, elektrische Massagepistole Pro, arboleaf Pro Massagegerät, professionelle Mini Massagepistole, Muskelentspannung Massagepistole, Schmerzlinderung Massagepistole, Arboleaf Mini Massagepistole Pro Test, Arboleaf Mini Massagepistole Pro Vergleich, Arboleaf Mini Massagepistole Pro Preis, Arboleaf Mini Massagepistole Pro kaufen Deutschland",
-    "ogTitle": "Arboleaf Mini Massagepistole Pro",
-    "ogDescription": "arboleaf Massagepistole mini, tragbar 0,39kg. 5 Aufsätze, 5 Stufen, 3200 U/Min. Leise, mit Case. Für Muskelentspannung."
+    "title": "Arboleaf Mini Massagepistole Pro – Dein kompakter Muskel-Revitalisierer",
+    "description": "Arboleaf Mini Massagepistole Pro: Kompakter Muskel-Revitalisierer mit 5 Geschwindigkeiten und 4 Köpfen für optimale Regeneration. 51.0€",
+    "keywords": [
+      "arboleaf mini massagepistole pro – dein kompakter muskel-revitalisierer",
+      "usb-c aufladbare mini-massagepistolen",
+      "arboleaf"
+    ],
+    "ogTitle": "Arboleaf Mini Massagepistole Pro – Dein kompakter Muskel-Revitalisierer",
+    "ogDescription": "Arboleaf Mini Massagepistole Pro: Kompakter Muskel-Revitalisierer mit 5 Geschwindigkeiten und 4 Köpfen für optimale Regeneration. 51.0€"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,78 +46,27 @@
     }
   },
   "specifications": {
-    "Produktname": "arboleaf Massagepistole Mini",
-    "Modellbezeichnung": "Mini Massage Gun Tragbar",
-    "Kategorie": "Muskelpistole",
-    "Gewicht": "0,39 kg",
-    "Lieferumfang": [
-      "5 Silikonaufsätze",
-      "5 Intensitätsstufen",
-      "Transportcase"
-    ],
-    "Max. Umdrehungen_pro_Minute": "3200 U/Min",
-    "Lautstärke": "Super leise",
-    "Anwendungsbereich": "Muskelentspannung",
-    "Technologie": {
-      "Motorart": "Hocheffizienter bürstenloser Motor",
-      "Frequenzbereich": "Bis zu 53 Hz",
-      "Amplitude": "Präzisionsgefertigt für Tiefengewebeanwendung",
-      "Steuerung": "Intelligente variable Geschwindigkeitsregelung"
-    },
-    "Stromversorgung": {
-      "Akkutyp": "Wiederaufladbarer Lithium-Ionen-Akku",
-      "Akkukapazität_Wh": "30 Wh",
-      "Ladezeit": "Ca. 2 Stunden",
-      "Betriebsdauer_pro_Ladung": "Bis zu 8 Stunden (je nach Intensität)",
-      "Ladeschnittstelle": "USB-C (universell und schnell)"
-    },
-    "Design_und_Ergonomie": {
-      "Material": "Hochwertiges Aluminium-Legierung Gehäuse",
-      "Oberflächenbeschaffenheit": "Rutschfest und ergonomisch geformter Griff",
-      "Kompaktheit": "Extrem portabel, ideal für Reisen",
-      "Transport_und_Aufbewahrung": "Inklusive robustem, stoßfestem Transportcase mit speziellem Fach für Zubehör"
-    },
-    "Funktionen": {
-      "Massagetiefe": "Optimiert für tiefe Muskelgewebemassage",
-      "Vibrationsmodi": "5 einstellbare Intensitätsstufen zur individuellen Anpassung",
-      "Intelligente_Abschaltung": "Automatische Abschaltung zur Schonung des Akkus und zur Sicherheit",
-      "App_Konnektivität": "Nein (Fokus auf einfache Bedienung)"
-    },
-    "Sicherheit": {
-      "Überlastungsschutz": "Integrierter Schutz vor Überhitzung und Überlastung",
-      "Materialzertifizierung": "Silikonaufsätze nach Lebensmittelstandard (LFGB zertifiziert)"
-    },
-    "SEO_Keywords": [
-      "Massagepistole Mini",
-      "Tragbare Muskelpistole",
-      "Mini Massage Gun",
-      "Reisemassagegerät",
-      "Muskelentspannung",
-      "Tiefengewebemassage",
-      "Leise Massagepistole",
-      "Akku Massagegerät",
-      "Arboleaf",
-      "Sportmassage",
-      "Fitness Gerät",
-      "Ergonomisches Design",
-      "USB-C Ladung"
-    ]
+    "basic": "Leistungsstarker und dennoch leiser Motor, 5 einstellbare Geschwindigkeitsstufen, 4 austauschbare Massageköpfe für gezielte Anwendung, lange Akkulaufzeit, kompaktes und ergonomisches Design, geringes Gewicht für einfache Handhabung, integrierte LED-Anzeige für Akku- und Geschwindigkeitsstatus."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Massagepistole von arboleaf technisch gesehen?",
-      "answer": "Die arboleaf Mini Massagepistole nutzt rotierende und schwingende Bewegungen, um gezielten Druck auf Ihre Muskeln auszuüben. Diese Technologie, auch als perkussive Therapie bekannt, stimuliert die Durchblutung und hilft, Muskelverspannungen zu lösen. Die Intensität wird über die 5 Stufen reguliert, die bis zu 3200 U/Min erreichen können, um eine tiefe Gewebemassage zu ermöglichen."
+      "q": "Was sind die Hauptvorteile der Arboleaf Mini Massagepistole Pro?",
+      "a": "Die Arboleaf Mini Massagepistole Pro bietet gezielte Muskelentspannung, verbesserte Durchblutung, schnellere Regeneration nach dem Sport und Linderung von Muskelkater und Verspannungen. Ihre kompakte Größe und einfache Bedienung machen sie zu einem idealen Werkzeug für die tägliche Anwendung."
     },
     {
-      "question": "Welche Rolle spielt die Technologie für die Geräuschreduktion bei dieser Massagepistole?",
-      "answer": "Dank fortschrittlicher Motortechnologie und präziser mechanischer Konstruktion arbeitet die arboleaf Mini Massagepistole extrem leise. Dies ermöglicht eine entspannende Anwendung, ohne andere zu stören. Die geringe Geräuschentwicklung (oft unter 45 dB) ist ein Kernmerkmal der intelligenten Technologie, die für ein angenehmes Nutzererlebnis sorgt."
+      "q": "Ist die Massagepistole für Anfänger geeignet?",
+      "a": "Ja, absolut. Mit 5 Geschwindigkeitsstufen und 4 verschiedenen Massageköpfen lässt sich die Intensität und Art der Massage individuell anpassen, was sie sowohl für Anfänger als auch für erfahrene Nutzer ideal macht."
     },
     {
-      "question": "Sind die 5 Silikonaufsätze technologisch aufeinander abgestimmt, um verschiedene Muskelgruppen anzusprechen?",
-      "answer": "Ja, die 5 im Lieferumfang enthaltenen Silikonaufsätze sind speziell entwickelt, um verschiedene Muskeltypen und Tiefen effektiv zu behandeln. Jeder Aufsatz hat eine einzigartige Form und Textur, die durch technische Erwägungen optimiert wurde, um eine maximale Kontaktfläche und gezielte Stimulation zu gewährleisten, sei es für große Muskelgruppen oder empfindliche Bereiche."
+      "q": "Wie lange hält der Akku der Arboleaf Mini Massagepistole Pro?",
+      "a": "Die Arboleaf Mini Massagepistole Pro verfügt über eine beeindruckende Akkulaufzeit, die eine längere Nutzung pro Ladevorgang ermöglicht, sodass Sie sich auf Ihre Regeneration konzentrieren können, ohne sich Sorgen um häufiges Aufladen machen zu müssen."
+    },
+    {
+      "q": "Ist die Technologie der Massagepistole fortschrittlich?",
+      "a": "Ja, die Arboleaf Mini Massagepistole Pro nutzt fortschrittliche Antriebstechnologie und Präzisionsengineering, ähnlich den Prinzipien der Robotik, um eine effektive und gezielte Percussion-Therapie zu gewährleisten. Dies sorgt für eine tiefe und effektive Muskelstimulation."
     }
   ],
-  "enhancedAt": "2025-10-10T22:18:55.786119",
-  "originalName": "arboleaf Massagepistole mini Massage Gun, tragbare Muskelpistole 0,39kg mit 5 Silikonaufsätze & 5 Intensitätsstufen 3200 U/Min, Super leise Reisemassagegerät mit Transportcase für Muskelentspannung",
+  "originalName": "Arboleaf Mini Massagepistole Pro",
+  "enhancedAt": "2025-10-10T23:36:08.311141",
   "enhanced": true
 }

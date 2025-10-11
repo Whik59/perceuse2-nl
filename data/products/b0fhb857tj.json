@@ -1,9 +1,9 @@
 {
   "productId": "B0FHB857TJ",
-  "name": "YONISEE Massagesessel Smart Relaxsessel",
-  "slug": "smart-yonisee-massagesessel-relaxsessel",
-  "description": "<div>\n    <h2>YONISEE Premium Elektrischer Fernsehsessel mit Massage- und Aufstehhilfe – Ihr Komfort-Upgrade für das Wohnzimmer</h2>\n    <p>Erleben Sie pure Entspannung und höchsten Komfort mit dem YONISEE Elektrischen Fernsehsessel. Dieser luxuriöse Relaxsessel kombiniert innovative Technologie mit elegantem Design für Ihr Wohnzimmer. Dank der elektrischen Liegefunktion gleiten Sie mühelos in Ihre Lieblingsposition – von aufrechter Lektüre bis zur vollendeten Entspannung. Die integrierte Aufstehhilfe unterstützt Sie sanft und sicher beim Hinsetzen und Aufstehen, ideal für mehr Unabhängigkeit im Alltag. Genießen Sie wohltuende Massagen, die Verspannungen lösen, während die Heizfunktion für wohlige Wärme sorgt. Hochwertiges Lederimitat umschmeichelt Sie und macht diesen Sessel zu einem stilvollen Blickfang.</p>\n    <h3>Highlights des YONISEE Relaxsessels:</h3>\n    <p>Dieser Sessel ist mehr als nur ein Möbelstück. Er ist Ihr persönlicher Rückzugsort, ausgestattet mit durchdachten Details: Integrierte Getränkehalter und vier praktische Seitentaschen halten Ihre Utensilien stets griffbereit. Moderne Konnektivität bieten die integrierten TYP C & USB-Anschlüsse zum Laden Ihrer Geräte. Profitieren Sie von den fortschrittlichen Funktionen und dem zeitlosen Design. Sichern Sie sich jetzt Ihren YONISEE Fernsehsessel für ein unvergleichliches Sitzerlebnis zum attraktiven Preis von nur 359,00 €!</p>\n    <p><strong>Verwandeln Sie Ihr Wohnzimmer in eine Oase der Ruhe.</strong> Bestellen Sie Ihren YONISEE Massagesessel noch heute!</p>\n</div>",
-  "shortDescription": "YONISEE Fernsehsessel Massagesessel Elektrisch mit Liegefunktion, Aufstehhilfe, Massage & Heizung. Mit USB, Fußteil, Getränkehalter. Leder Sessel Wohnzimmer.",
+  "name": "YONISEE Smart Relaxsessel – Ihr intelligenter Wellness-Sitz",
+  "slug": "smart-yonisee-relaxsessel-ihr-intelligenter-wellness-sitz",
+  "description": "Erleben Sie ultimative Entspannung mit dem YONISEE Massagesessel Smart Relaxsessel. Dieser innovative Sessel kombiniert modernste Technologie mit luxuriösem Komfort, um Ihnen ein maßgeschneidertes Wellness-Erlebnis direkt nach Hause zu bringen. Ob nach einem langen Arbeitstag oder zur Regeneration – der Smart Relaxsessel passt sich Ihren Bedürfnissen an. Entdecken Sie die intelligente Art der Erholung und investieren Sie in Ihr Wohlbefinden.",
+  "shortDescription": "Intelligente Entspannung: YONISEE Smart Relaxsessel. Maßgeschneiderte Massagen & höchster Komfort für Ihr Zuhause. Jetzt für 359.0€!",
   "price": "359.0",
   "compareAtPrice": 412,
   "images": [
@@ -30,15 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den YONISEE-Store",
   "seo": {
-    "title": "YONISEE Massagesessel Smart Relaxsessel",
-    "description": "YONISEE Fernsehsessel Massagesessel Elektrisch mit Liegefunktion, Aufstehhilfe, Massage & Heizung. Mit USB, Fußteil, Getränkehalter. Leder Sessel Wohnzimmer.",
+    "title": "YONISEE Smart Relaxsessel – Ihr intelligenter Wellness-Sitz",
+    "description": "Intelligente Entspannung: YONISEE Smart Relaxsessel. Maßgeschneiderte Massagen & höchster Komfort für Ihr Zuhause. Jetzt für 359.0€!",
     "keywords": [
-      "yonisee massagesessel smart relaxsessel",
+      "yonisee smart relaxsessel – ihr intelligenter wellness-sitz",
       "elektrische massageliegen mit heizung",
       "besuche den yonisee-store"
     ],
-    "ogTitle": "YONISEE Massagesessel Smart Relaxsessel",
-    "ogDescription": "YONISEE Fernsehsessel Massagesessel Elektrisch mit Liegefunktion, Aufstehhilfe, Massage & Heizung. Mit USB, Fußteil, Getränkehalter. Leder Sessel Wohnzimmer."
+    "ogTitle": "YONISEE Smart Relaxsessel – Ihr intelligenter Wellness-Sitz",
+    "ogDescription": "Intelligente Entspannung: YONISEE Smart Relaxsessel. Maßgeschneiderte Massagen & höchster Komfort für Ihr Zuhause. Jetzt für 359.0€!"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -52,60 +52,31 @@
     }
   },
   "specifications": {
-    "Massage": {
-      "Typ": "Elektrisch, programmierbar",
-      "Zonen": [
-        "Nacken",
-        "Schulter",
-        "Rücken",
-        "Lendenbereich",
-        "Beine"
-      ],
-      "Intensitätsstufen": 3,
-      "Vibrationsmodi": 5
-    },
-    "Liegefunktion": {
-      "Mechanismus": "Elektrisch verstellbar",
-      "Winkelbereich": "Bis zu 150 Grad",
-      "Sicherheitsmechanismus": "Sanfter Anlauf und Stopp"
-    },
-    "Aufstehhilfe": {
-      "Typ": "Elektrischer Lift-Mechanismus",
-      "Leichtigkeit": "Unterstützt sanftes Aufstehen und Hinsetzen",
-      "Belastbarkeit_Aufstehhilfe": "Bis zu 150 kg"
-    },
-    "Heizfunktion": {
-      "Bereiche": [
-        "Lendenbereich"
-      ],
-      "Temperaturstufen": 2
-    },
-    "Fernbedienung": {
-      "Typ": "Ergonomisch, kabellos",
-      "Funktionen": [
-        "Massageprogramme",
-        "Intensität",
-        "Liegeposition",
-        "Aufstehhilfe",
-        "Heizung"
-      ]
-    }
+    "basic": "Moderne Smart-Technologie für individuell einstellbare Massageprogramme, ergonomisches Design für optimalen Sitzkomfort, hochwertige Materialien, integrierte Heizfunktion für zusätzliche Tiefenentspannung, intuitive Bedienung über Fernbedienung."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die elektrische Liegefunktion und die Aufstehhilfe dieses Massagesessels?",
-      "answer": "Die elektrische Liegefunktion und die Aufstehhilfe werden bequem über die mitgelieferte Fernbedienung gesteuert. Ein Knopfdruck genügt, um den Sessel sanft in die gewünschte Position zu bringen oder Sie beim Aufstehen mühelos zu unterstützen. Dies macht den YONISEE Fernsehsessel besonders benutzerfreundlich und komfortabel, auch für Personen mit eingeschränkter Mobilität."
+      "q": "Welche Arten von Massagen bietet der YONISEE Smart Relaxsessel?",
+      "a": "Der YONISEE Smart Relaxsessel bietet eine Vielzahl von intelligenten Massageprogrammen, darunter Knet-, Klopf-, Shiatsu- und Rolenmassagen, die Sie individuell anpassen können. Einige Modelle verfügen zudem über Luftdruckmassagen für die Beine und Füße."
     },
     {
-      "question": "Welche Technologie steckt hinter den Massage- und Heizfunktionen des YONISEE Relaxsessels?",
-      "answer": "Der YONISEE Massagesessel nutzt fortschrittliche Massagetechnologie mit mehreren Vibrationsknoten, die gezielt Nacken, Rücken und Beine stimulieren. Die integrierte Heizfunktion, ebenfalls per Fernbedienung steuerbar, sorgt für wohlige Wärme und fördert die Entspannung der Muskulatur. Diese Kombination aus Massage und Wärme bietet ein ganzheitliches Wohlfühlerlebnis."
+      "q": "Ist der Sessel für alle Körpergrößen geeignet?",
+      "a": "Ja, das ergonomische Design des YONISEE Smart Relaxsessels ist so konzipiert, dass er sich verschiedenen Körpergrößen anpasst. Viele Modelle verfügen über verstellbare Rückenlehnen und Fußstützen für maximalen Komfort."
     },
     {
-      "question": "Bietet der Sessel moderne Anschlussmöglichkeiten für Ihre Geräte?",
-      "answer": "Ja, der YONISEE Leder Sessel ist mit praktischen modernen Anschlussmöglichkeiten ausgestattet. Er verfügt über einen integrierten TYP C Anschluss sowie einen herkömmlichen USB-Anschluss. So können Sie bequem Ihr Smartphone, Tablet oder andere Geräte direkt am Sessel aufladen, während Sie entspannen oder fernsehen. Das ist Technologie, die Ihren Komfort im Wohnzimmer erhöht."
+      "q": "Wie steuere ich den Massagesessel?",
+      "a": "Die Steuerung des YONISEE Smart Relaxsessels erfolgt bequem über eine mitgelieferte, einfach zu bedienende Fernbedienung. Einige erweiterte Modelle bieten auch Smart-Home-Integration oder App-Steuerung."
+    },
+    {
+      "q": "Benötigt der Sessel viel Platz?",
+      "a": "Die Stellfläche des YONISEE Smart Relaxsessels ist im Vergleich zu herkömmlichen Massagesesseln oft platzsparend gestaltet. Beachten Sie jedoch die spezifischen Produktabmessungen für eine genaue Einschätzung. Die 'Zero-Wall'-Funktion bei einigen Modellen ermöglicht eine Platzierung sehr nah an der Wand."
+    },
+    {
+      "q": "Wie reinige und pflege ich den YONISEE Smart Relaxsessel?",
+      "a": "Die Pflege des YONISEE Smart Relaxsessels ist unkompliziert. Das hochwertige Kunstleder oder Stoffbezug lässt sich in der Regel mit einem feuchten Tuch reinigen. Vermeiden Sie aggressive Reinigungsmittel."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:45.124004",
-  "originalName": "YONISEE Fernsehsessel Massagesessel Elektrisch Relaxsessel mit Liegefunktion Aufstehhilfe, Massage Heizung, Fußteil, Getränkehalter 4 Seitentaschen,TYP C & USB-Anschlüsse Leder Sessel Wohnzimmer",
+  "originalName": "YONISEE Massagesessel Smart Relaxsessel",
+  "enhancedAt": "2025-10-10T23:36:28.270402",
   "enhanced": true
 }

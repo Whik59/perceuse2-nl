@@ -1,9 +1,9 @@
 {
   "productId": "B076BLGJV4",
-  "name": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm",
-  "slug": "teqler-halbrolle-lagerungshilfe-mit-kunstlederbezug-7-5",
-  "description": "<div><h2>Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm</h2><p>Quality product</p></div>",
-  "shortDescription": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm - Quality Product",
+  "name": "Teqler Halbrolle Lagerungshilfe | Ergonomischer Liegekomfort mit Kunstleder",
+  "slug": "teqler-halbrolle-lagerungshilfe-ergonomischer-liegekomfort-m",
+  "description": "Optimieren Sie Ihren Komfort und Ihre Lagerung mit der Teqler Halbrolle. Diese multifunktionale Lagerungshilfe, bezogen mit strapazierfähigem Kunstleder, bietet ergonomische Unterstützung für verschiedene Anwendungen. Mit ihren kompakten Maßen von 40 x 15 x 7,5 cm ist sie ideal für den Einsatz in medizinischen Bereichen, im Homeoffice oder zur Entlastung bestimmter Körperpartien. Die hochwertige Verarbeitung und das pflegeleichte Material machen sie zu einem unverzichtbaren Hilfsmittel für optimalen Liege- und Sitzkomfort. Entdecken Sie die Vielseitigkeit und den Mehrwert der Teqler Halbrolle.",
+  "shortDescription": "Ergonomische Teqler Halbrolle (40x15x7.5cm) mit pflegeleichtem Kunstlederbezug für optimalen Lagerungskomfort.",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Teqler",
   "seo": {
-    "title": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm",
-    "description": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm - Quality Product",
+    "title": "Teqler Halbrolle Lagerungshilfe | Ergonomischer Liegekomfort mit Kunstleder",
+    "description": "Ergonomische Teqler Halbrolle (40x15x7.5cm) mit pflegeleichtem Kunstlederbezug für optimalen Lagerungskomfort.",
     "keywords": [
-      "teqler halbrolle lagerungshilfe mit kunstlederbezug, 40 x 15 x 7,5 cm",
+      "teqler halbrolle lagerungshilfe | ergonomischer liegekomfort mit kunstleder",
       "lagerungsrollen & halbrollen",
       "marke: teqler"
     ],
-    "ogTitle": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm",
-    "ogDescription": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm - Quality Product"
+    "ogTitle": "Teqler Halbrolle Lagerungshilfe | Ergonomischer Liegekomfort mit Kunstleder",
+    "ogDescription": "Ergonomische Teqler Halbrolle (40x15x7.5cm) mit pflegeleichtem Kunstlederbezug für optimalen Lagerungskomfort."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -50,16 +50,27 @@
     }
   },
   "specifications": {
-    "Quality": "High",
-    "Warranty": "2 years"
+    "basic": "Form: Halbrolle, Maße: 40 x 15 x 7,5 cm, Bezugsmaterial: Hochwertiges Kunstleder, Farbe: [Hier Farbe einfügen, falls bekannt, ansonsten Platzhalter lassen oder 'Schwarz' als Standard annehmen], Anwendungsbereiche: Lagerung, Entlastung, Komfortsteigerung, Medizinische Anwendungen, Homeoffice"
   },
   "faq": [
     {
-      "q": "Is it good quality?",
-      "a": "Yes, high quality product."
+      "q": "Wofür kann die Teqler Halbrolle Lagerungshilfe eingesetzt werden?",
+      "a": "Die Teqler Halbrolle eignet sich hervorragend zur ergonomischen Lagerung von Körperteilen, zur Entlastung bei bestimmten Beschwerden (z.B. Rücken, Beine) und zur Verbesserung des allgemeinen Liege- und Sitzkomforts. Sie findet Anwendung in medizinischen Einrichtungen, in der Physiotherapie, im Homeoffice oder auch zur Entspannung zu Hause."
+    },
+    {
+      "q": "Ist der Kunstlederbezug pflegeleicht?",
+      "a": "Ja, das hochwertige Kunstleder ist sehr strapazierfähig und lässt sich einfach mit einem feuchten Tuch und mildem Reinigungsmittel säubern. Dies gewährleistet eine hohe Hygiene und Langlebigkeit des Produkts."
+    },
+    {
+      "q": "Welche Vorteile bietet die Halbform gegenüber einer Vollrolle?",
+      "a": "Die Halbform ermöglicht eine gezielte und anatomisch angepasste Lagerung. Sie kann präziser unter bestimmten Körperbereichen platziert werden, um spezifische Druckpunkte zu entlasten oder eine bestimmte Körperhaltung zu unterstützen, ohne dabei den gesamten Körper zu umschließen."
+    },
+    {
+      "q": "Welche Maße hat die Lagerungshilfe?",
+      "a": "Die Teqler Halbrolle Lagerungshilfe hat die Maße 40 cm (Länge) x 15 cm (Breite) x 7,5 cm (Höhe)."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:24.312126",
   "originalName": "Teqler Halbrolle Lagerungshilfe mit Kunstlederbezug, 40 x 15 x 7,5 cm",
+  "enhancedAt": "2025-10-10T23:35:42.342751",
   "enhanced": true
 }

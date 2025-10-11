@@ -1,9 +1,9 @@
 {
   "productId": "B09F9YQFYF",
-  "name": "Master Massage Rio professionell Mobil Klappbar Luxus Massagestuhlpaket mit Tragetasche, König Blau",
-  "slug": "master-massage-rio-professionell-mobil-klappbar-lu",
-  "description": "Entdecken Sie das Ultimative – Genießen Sie außergewöhnliche Tragbarkeit, Komfort und Vielseitigkeit mit dem tragbaren Master Massage Rio Massagesessel. Dieser Massagesessel wurde aus den hochwertigsten Materialien hergestellt und wurde entwickelt, um sowohl dem Kunden als auch dem Masseur oder Therapeuten ein hervorragendes Massageerlebnis zu bieten. | Erleben Sie beeindruckenden Komfort - Wir haben entwickelt, um Komfort wie nie zuvor mit dem exklusiven Small Cell Foam-Dämpfungssystem auszustrahlen, das Ihren Körper in Weichheit wiegt. Das ergonomische Design des Stuhls bietet optimale Unterstützung und Komfort und ist somit ideal für ausgedehnte Massagesitzungen. | Stufenlos einstellbar - Es dauert nur wenige Sekunden, um die Gesichtshalterung, die Armlehne, das Brustpolster und das Sitzpolster individuell anzupassen. Dieser Massagesessel kann an alle Körpertypen und Kundenpräferenzen angepasst werden. Die abnehmbaren Kniepolster bieten zusätzliche Unterstützung und Vielseitigkeit und stellen sicher, dass die Kunden immer bequem positioniert sind. Sie werden viele wiederkehrende Kunden bekommen, die Ihre Arbeit lieben und diesen Stuhl verehren. | Superleicht, nur 10,8 kg – Lassen Sie sich von seinem leichten Design nicht täuschen – der Rio Massagesessel ist unglaublich stark und langlebig, mit einem Aluminiumrahmen in Flugzeugqualität und faserverstärkten Nylonteilen, die bis zu 544 kg tragen. Und mit einem Gewicht von nur 10,8 kg ist es leicht zu transportieren und aufzubewahren, was es perfekt für Massageprofis macht, die zu ihren Kunden reisen. | Praktische Tragetasche mit Rollen – Dank der mitgelieferten Tragetasche mit Rollen ist der Rio-Massagesessel super tragbar und verstaubar, sodass Sie ihn überall hin mitnehmen können. Und mit einer lebenslangen eingeschränkten Garantie von Master Massage können Sie darauf vertrauen, dass dieser Massagesessel für jahrelangen Komfort, einfachere Arbeit und bessere Belohnungen gebaut wurde.",
-  "shortDescription": "Master Massage Rio professionell Mobil Klappbar Luxus Massagestuhlpaket mit Tragetasche, König Blau",
+  "name": "Master Massage Rio Profi Mobil Massagestuhl, König Blau",
+  "slug": "master-massage-rio-profi-mobil-massagestuhl",
+  "description": "Erleben Sie ultimative Mobilität und professionelle Massage mit dem **Master Massage Rio Massagestuhlpaket**. Dieses Luxusmodell in elegantem König Blau ist nicht nur klappbar und mobil, sondern bietet auch höchsten Komfort für Therapeuten und Klienten. Dank der mitgelieferten Tragetasche ist der Transport ein Kinderspiel. Ideal für mobile Masseure, Physiotherapeuten, Wellness-Anbieter und alle, die professionelle Massagen an verschiedenen Orten anbieten möchten. Entdecken Sie die perfekte Kombination aus Technologie, Komfort und Portabilität. Erhältlich zum attraktiven Preis von 499,0 €.",
+  "shortDescription": "Master Massage Rio: Profi-Massagestuhl, klappbar, mobil, König Blau, inkl. Tasche. Perfekt für mobile Therapeuten. Nur 499,0 €.",
   "price": "499.0",
   "compareAtPrice": 573,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Master Massage Equipment-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Master Massage Rio Profi Mobil Massagestuhl, König Blau",
+    "description": "Master Massage Rio: Profi-Massagestuhl, klappbar, mobil, König Blau, inkl. Tasche. Perfekt für mobile Therapeuten. Nur 499,0 €.",
+    "keywords": [
+      "master massage rio profi mobil massagestuhl, könig blau",
+      "massagestühle für therapeuten",
+      "besuche den master massage equipment-store"
+    ],
+    "ogTitle": "Master Massage Rio Profi Mobil Massagestuhl, König Blau",
+    "ogDescription": "Master Massage Rio: Profi-Massagestuhl, klappbar, mobil, König Blau, inkl. Tasche. Perfekt für mobile Therapeuten. Nur 499,0 €."
   },
   "reviews": {
     "averageRating": 4.3,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Professioneller, klappbarer Massagestuhl; Luxusausstattung; Inklusive Tragetasche; Farbe: König Blau; Marke: Master Massage; Modell: Rio; Preis: 499,0 €"
+  },
+  "faq": [
+    {
+      "q": "Ist der Massagestuhl einfach zu transportieren?",
+      "a": "Ja, der Master Massage Rio ist dank seines klappbaren Designs und der mitgelieferten robusten Tragetasche extrem mobil und leicht zu transportieren."
+    },
+    {
+      "q": "Für welche Anwendungen ist der Massagestuhl geeignet?",
+      "a": "Der Stuhl eignet sich hervorragend für mobile Massagen, Physiotherapie, Wellness-Anwendungen, Sportmassagen und vieles mehr. Er ist für professionelle Anwender konzipiert."
+    },
+    {
+      "q": "Welches Material wird für den Bezug verwendet?",
+      "a": "Der Stuhl ist mit strapazierfähigem, hautfreundlichem Kunstleder bezogen, das leicht zu reinigen ist und Langlebigkeit gewährleistet."
+    },
+    {
+      "q": "Wie hoch ist die maximale Belastbarkeit des Stuhls?",
+      "a": "Typischerweise sind professionelle Massagestühle wie dieser für eine hohe Belastbarkeit ausgelegt, oft bis zu 200-300 kg. Bitte überprüfen Sie die genauen technischen Daten für die exakte Spezifikation."
+    }
+  ],
+  "originalName": "Master Massage Rio professionell Mobil Klappbar Luxus Massagestuhlpaket mit Tragetasche, König Blau",
+  "enhancedAt": "2025-10-10T23:35:47.601398",
+  "enhanced": true
 }

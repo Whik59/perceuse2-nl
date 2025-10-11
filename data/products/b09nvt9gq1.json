@@ -1,9 +1,9 @@
 {
   "productId": "B09NVT9GQ1",
-  "name": "BURNNOVE Massagepistole Pro Tiefenmassage",
-  "slug": "pro-burnnove-massagepistole-tiefenmassage",
-  "description": "<div>\n  <h2>BURNNOVE Massagepistole: Ihr Kraftpaket für Tiefenentspannung und Regeneration</h2>\n  <p>Erleben Sie mit der BURNNOVE Massagepistole ein neues Level an Muskelentspannung und Erholung. Entwickelt für anspruchsvolle Anwender, kombiniert dieses Hightech-Gerät fortschrittliche Technologie mit intuitiver Bedienung. Mit beeindruckenden 99 Geschwindigkeitsstufen und 8 spezialisierten Massageköpfen passt sich die BURNNOVE Massagepistole präzise an Ihre individuellen Bedürfnisse an. Egal ob Nackenverspannungen, Schulterschmerzen oder tiefe Muskelknoten – diese Pistole liefert gezielte und effektive Linderung.</p>\n  <p>Die leistungsstarke 2550mAh Batterie sorgt für ausgedehnte Nutzungssitzungen, während die klare LED-Anzeige und der reaktionsschnelle Touchscreen eine mühelose Steuerung ermöglichen. Die BURNNOVE Massagepistole ist Ihr perfekter Begleiter – ob zu Hause nach einem langen Tag, im Fitnessstudio zur Muskelregeneration oder im Büro zur Linderung von Sitzbeschwerden. Investieren Sie in Ihr Wohlbefinden und spüren Sie den Unterschied.</p>\n  <h3>Hauptmerkmale:</h3>\n  <p>\n    Leistungsstarke 99 Geschwindigkeitsstufen für personalisierte Massage.<br>\n    8 austauschbare Massageköpfe für gezielte Muskelbehandlung.<br>\n    Hohe Akkukapazität (2550mAh) für langanhaltende Nutzung.<br>\n    Intuitive Bedienung dank LED-Anzeige und Touchscreen.<br>\n    Kompaktes und ergonomisches Design für einfache Handhabung.<br>\n    Ideal für Nacken-, Schulter-, Rücken- und Ganzkörpermassage.<br>\n    Perfekt für Sportler, Büroangestellte und den Heimgebrauch.\n  </p>\n  <p><strong>Sichern Sie sich Ihre BURNNOVE Massagepistole noch heute und erleben Sie professionelle Tiefenmassage für nur 23.0€!</strong></p>\n</div>",
-  "shortDescription": "BURNNOVE Massagepistole: 99 Geschw., 8 Köpfe, Tiefenmassage für Nacken/Schulter. 2550mAh Akku, LED Touchscreen. Ideal für Haus, Studio, Büro.",
+  "name": "BURNNOVE Massagepistole Pro: Tiefenmassage & Regeneration",
+  "slug": "burnnove-massagepistole-pro-tiefenmassage-regeneration",
+  "description": "Erleben Sie professionelle Tiefenmassage und schnelle Regeneration mit der BURNNOVE Massagepistole Pro. Entwickelt für Sportler und alle, die unter Muskelverspannungen leiden, bietet dieses hochmoderne Gerät gezielte Linderung und fördert die Durchblutung. Mit ihrer leistungsstarken Technologie und intuitiven Bedienung ist die BURNNOVE Massagepistole Pro Ihr idealer Partner für Muskelpflege und Erholung – ganz bequem zu Hause.",
+  "shortDescription": "Professionelle Tiefenmassage und schnelle Regeneration zu Hause mit der BURNNOVE Massagepistole Pro.",
   "price": "23.0",
   "compareAtPrice": 26,
   "images": [
@@ -24,11 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den BURNNOVE-Store",
   "seo": {
-    "title": "BURNNOVE Massagepistole Pro Tiefenmassage",
-    "description": "BURNNOVE Massagepistole: 99 Geschw., 8 Köpfe, Tiefenmassage für Nacken/Schulter. 2550mAh Akku, LED Touchscreen. Ideal für Haus, Studio, Büro.",
-    "keywords": "BURNNOVE Massagepistole Pro, Tiefenmassage Pistole, Mini Massagepistole Reisen, BURNNOVE Pro Massagegerät, Muskelentspannung Pistole, Tragbare Massagepistole, Sport Massagegerät Pro, BURNNOVE Tiefenmassage, Beste Mini Massagepistole, BURNNOVE Massagepistole Test",
-    "ogTitle": "BURNNOVE Massagepistole Pro Tiefenmassage",
-    "ogDescription": "BURNNOVE Massagepistole: 99 Geschw., 8 Köpfe, Tiefenmassage für Nacken/Schulter. 2550mAh Akku, LED Touchscreen. Ideal für Haus, Studio, Büro."
+    "title": "BURNNOVE Massagepistole Pro: Tiefenmassage & Regeneration",
+    "description": "Professionelle Tiefenmassage und schnelle Regeneration zu Hause mit der BURNNOVE Massagepistole Pro.",
+    "keywords": [
+      "burnnove massagepistole pro: tiefenmassage & regeneration",
+      "mini-massagepistolen für reisen",
+      "besuche den burnnove-store"
+    ],
+    "ogTitle": "BURNNOVE Massagepistole Pro: Tiefenmassage & Regeneration",
+    "ogDescription": "Professionelle Tiefenmassage und schnelle Regeneration zu Hause mit der BURNNOVE Massagepistole Pro."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,46 +46,23 @@
     }
   },
   "specifications": {
-    "Produktname": "BURNNOVE Massagepistole",
-    "Modellbezeichnung": "BURNNOVE Massage Gun",
-    "Technologie": "Tiefenmassage-Technologie (Percussion Therapy)",
-    "Motor": "Leistungsstarker, geräuscharmer bürstenloser Motor",
-    "Geschwindigkeitsstufen": "99 einstellbare Geschwindigkeitsstufen",
-    "Massageköpfe": "8 austauschbare Massageköpfe für gezielte Anwendung",
-    "Anwendungsbereiche": "Nacken, Schulter, Rücken, Beinmuskulatur",
-    "Akkukapazität": "2550mAh Lithium-Ionen-Akku",
-    "Akkulaufzeit": "Bis zu 6 Stunden (abhängig von Intensität)",
-    "Ladezeit": "Ca. 2-3 Stunden",
-    "Steuerung": "Intuitive Touchscreen-Bedienung",
-    "Anzeige": "Integrierte LED-Anzeige für Geschwindigkeit und Akku-Status",
-    "Frequenzbereich": "1200-3200 U/min (Impulse pro Minute)",
-    "Amplitude": "10-12 mm ( Tiefenhub für effektive Muskelentspannung)",
-    "Lautstärke": "< 45 dB (Flüsterleise für ungestörte Anwendung)",
-    "Material": "Hochwertiges ABS-Gehäuse mit rutschfesten Gummigriffen",
-    "Abmessungen": "Kompakt und ergonomisch (spezifische Maße bitte prüfen)",
-    "Gewicht": "Ca. 1-1.5 kg (leicht und handlich)",
-    "Zubehör": "8 Massageköpfe, Ladekabel, Bedienungsanleitung, Transportkoffer",
-    "Einsatzort": "Ideal für Zuhause, Fitnessstudio, Büro und unterwegs",
-    "Besonderheiten": "Intelligente Drucksensoren zur Anpassung der Intensität, Überhitzungsschutz, lange Akkulaufzeit, vielfältige Anwendungsmöglichkeiten",
-    "Stromversorgung": "Wiederaufladbar über USB-C (oder spezifisches Netzteil)",
-    "Garantie": "2 Jahre Herstellergarantie (bitte genaue Garantiebedingungen prüfen)",
-    "Versand": "Kostenloser Versand (sofern im Angebot angegeben)"
+    "basic": "Leistungsstarke Tiefenmassage, zur Linderung von Muskelverspannungen, Förderung der Durchblutung, einfache Bedienung, kompaktes Design."
   },
   "faq": [
     {
-      "question": "Wie intelligent ist die BURNNOVE Massagepistole in Bezug auf die Anpassung des Massageerlebnisses?",
-      "answer": "Die BURNNOVE Massagepistole nutzt eine fortschrittliche Touchscreen-Technologie und bietet 99 einstellbare Geschwindigkeitsstufen. Dies ermöglicht eine hochgradig personalisierte Tiefenmassage, die sich präzise an Ihre individuellen Bedürfnisse und die jeweilige Körperpartie anpasst, ähnlich einer intelligent gesteuerten, robotischen Behandlung."
+      "q": "Was sind die Hauptvorteile der BURNNOVE Massagepistole Pro?",
+      "a": "Die BURNNOVE Massagepistole Pro bietet professionelle Tiefenmassage zur Linderung von Muskelverspannungen, zur Förderung der Durchblutung und zur Beschleunigung der Regeneration. Sie ist ideal zur Entspannung und zur Vorbeugung von Muskelkater."
     },
     {
-      "question": "Welche technologischen Vorteile bietet das LED-Display der BURNNOVE Massagepistole?",
-      "answer": "Das integrierte LED-Display der BURNNOVE Massagepistole bietet eine klare und intuitive Benutzeroberfläche. Sie können jederzeit die aktuelle Geschwindigkeit, den Batteriestatus (2550mAh Kapazität) und den ausgewählten Massagekopf auf einen Blick erfassen. Dies maximiert die Benutzerfreundlichkeit und Kontrolle, ähnlich einem modernen technologischen Interface."
+      "q": "Für wen ist die BURNNOVE Massagepistole Pro geeignet?",
+      "a": "Sie ist für Sportler, Fitnessbegeisterte, Menschen mit sitzender Tätigkeit und alle, die unter Muskelverspannungen oder Schmerzen leiden, bestens geeignet. Ihre einfache Bedienung macht sie für jeden zugänglich."
     },
     {
-      "question": "Ist die BURNNOVE Massagepistole mit verschiedenen 'intelligenten' Massageköpfen ausgestattet, um unterschiedliche Körperzonen präzise zu behandeln?",
-      "answer": "Ja, die BURNNOVE Massagepistole wird mit 8 verschiedenen Massageköpfen geliefert. Jeder dieser Köpfe ist speziell dafür konzipiert, bestimmte Muskelgruppen wie Nacken, Schultern oder tiefere Gewebeschichten optimal zu erreichen und zu stimulieren. Dies ermöglicht eine gezielte und effektive Behandlung, vergleichbar mit spezialisierten robotischen Anwendungen für verschiedene Körperbereiche."
+      "q": "Wie funktioniert die Technologie der Massagepistole?",
+      "a": "Die BURNNOVE Massagepistole Pro nutzt Perkussionsmassage (Schlagmassage), um tief in die Muskulatur einzudringen. Dies hilft, Verklebungen zu lösen, die Durchblutung zu verbessern und die Erholung der Muskeln zu beschleunigen."
     }
   ],
-  "enhancedAt": "2025-10-10T22:18:56.165972",
-  "originalName": "BURNNOVE Massagepistole Massage Gun 99 Geschwindigkeit 8 Massage Kopf Nacken Schulter Tiefenmassage Pistole 2550mAh mit LED-Anzeige Touchscreen geeignet für Haus Fitnessstudio Büro",
+  "originalName": "BURNNOVE Massagepistole Pro Tiefenmassage",
+  "enhancedAt": "2025-10-10T23:35:53.555918",
   "enhanced": true
 }

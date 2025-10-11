@@ -1,9 +1,9 @@
 {
   "productId": "B0CHYWL6SM",
-  "name": "KESSER® Massageliege Premium Klappbar",
-  "slug": "premium-kesser-massageliege-klappbar",
-  "description": "<div>\n\n<div>\n    <h2>KESSER® Massageliege 3 Zonen – Ihr mobiles Wohlfühl-Kraftwerk für Profis & Privat</h2>\n    <p>Entdecken Sie die KESSER® Massageliege, die ultimative Lösung für professionelle Massagen, Kosmetikbehandlungen und Therapiesitzungen – egal wo Sie sind. Mit ihrer robusten 3-Zonen-Konstruktion und einer beeindruckenden Tragkraft von bis zu 250 kg bietet diese klappbare Massageliege Stabilität und Komfort auf höchstem Niveau. Das leichte Aluminiumgestell und die integrierte Tragegriff-Funktion verwandeln sie in einen portablen Koffer, ideal für Therapeuten, die unterwegs sind, oder für den Einsatz zu Hause. Die höhenverstellbare Liegefläche ermöglicht eine ergonomische Anpassung für jede Behandlung und jeden Klienten, während die gepolsterte Kunstleder-Oberfläche Langlebigkeit und einfache Reinigung garantiert. Inklusive ergonomischer Alu-Kopfstütze, praktischer Armlehne und einer stabilen Tragetasche ist diese Massageliege sofort einsatzbereit.</p>\n    <h3>Innovative Features für maximale Leistung</h3>\n    <ul>\n        <li>3-Zonen-Design für optimale Anpassung</li>\n        <li>Extra hohe Tragkraft bis 250 kg</li>\n        <li>Leichtgewicht & klappbar mit Tragekoffer-Funktion</li>\n        <li>Höhenverstellbar für ergonomisches Arbeiten</li>\n        <li>Hochwertige, pflegeleichte Kunstleder-Polsterung (61 cm Breite)</li>\n        <li>Inklusive Alu-Kopfstütze, Armlehne & Tragetasche</li>\n        <li>Rutschfeste Füße für maximale Sicherheit</li>\n    </ul>\n    <p>Investieren Sie jetzt in die KESSER® Massageliege und bieten Sie Ihren Kunden ein unvergleichliches Behandlungserlebnis. <a href=\"#shop-link\">Bestellen Sie noch heute und profitieren Sie von kostenlosem Versand!</a></p>\n</div>\n\n</div>",
-  "shortDescription": "KESSER® Massageliege 3 Zonen (bis 250kg) klappbar, verstellbar. Alu-Kopfstütze, Armlehne, Tragetasche. Sicher & portabel. 61cm, Schwarz.",
+  "name": "KESSER® Massageliege Premium – Klappbar & Tragbar",
+  "slug": "premium-kesser-massageliege-klappbar-tragbar",
+  "description": "Entdecken Sie die KESSER® Massageliege Premium, die ultimative Lösung für professionelle Massagen zu Hause oder unterwegs. Diese klappbare Liege kombiniert höchsten Komfort mit robuster Bauweise und intuitiver Handhabung. Dank ihres intelligenten Klappmechanismus ist sie im Handumdrehen einsatzbereit und ebenso schnell verstaut. Perfekt für Physiotherapeuten, Masseure und Wellness-Enthusiasten, die Wert auf Qualität, Mobilität und Langlebigkeit legen. Die Premium-Polsterung sorgt für ein unvergleichliches Liegeerlebnis, während das stabile Gestell höchste Sicherheit garantiert. Optimieren Sie Ihre Behandlungsmethoden und bieten Sie Ihren Klienten maximalen Komfort – mit der KESSER® Massageliege Premium.",
+  "shortDescription": "KESSER® Massageliege Premium: Klappbar, tragbar, robust & komfortabel. Perfekt für mobile Profis & Wellness zu Hause. Inkl. Tragetasche.",
   "price": "104.0",
   "compareAtPrice": 119,
   "images": [
@@ -24,15 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den KESSER-Store",
   "seo": {
-    "title": "KESSER® Massageliege Premium Klappbar",
-    "description": "KESSER® Massageliege 3 Zonen (bis 250kg) klappbar, verstellbar. Alu-Kopfstütze, Armlehne, Tragetasche. Sicher & portabel. 61cm, Schwarz.",
+    "title": "KESSER® Massageliege Premium – Klappbar & Tragbar",
+    "description": "KESSER® Massageliege Premium: Klappbar, tragbar, robust & komfortabel. Perfekt für mobile Profis & Wellness zu Hause. Inkl. Tragetasche.",
     "keywords": [
-      "kesser® massageliege premium klappbar",
+      "kesser® massageliege premium – klappbar & tragbar",
       "klappbare massageliegen",
       "besuche den kesser-store"
     ],
-    "ogTitle": "KESSER® Massageliege Premium Klappbar",
-    "ogDescription": "KESSER® Massageliege 3 Zonen (bis 250kg) klappbar, verstellbar. Alu-Kopfstütze, Armlehne, Tragetasche. Sicher & portabel. 61cm, Schwarz."
+    "ogTitle": "KESSER® Massageliege Premium – Klappbar & Tragbar",
+    "ogDescription": "KESSER® Massageliege Premium: Klappbar, tragbar, robust & komfortabel. Perfekt für mobile Profis & Wellness zu Hause. Inkl. Tragetasche."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -46,65 +46,27 @@
     }
   },
   "specifications": {
-    "Produktname": "KESSER® Massageliege 3 Zonen",
-    "Modell": "KM-ML3Z250-SW",
-    "Hersteller": "KESSER®",
-    "Kategorie": "Massageliegen & Therapieliegen",
-    "Belastbarkeit_max": "250 kg",
-    "Zonen": "3-Zonen-Verstellung",
-    "Funktionen": [
-      "Klappbar",
-      "Verstellbar",
-      "Tragbarer Koffer integriert",
-      "Tragetasche inklusive",
-      "Anti-Rutsch-Füße"
-    ],
-    "Material_Rahmen": "Hochwertiges Aluminium",
-    "Material_Polsterung": "Öl- und wasserabweisendes PU-Leder",
-    "Material_Füllung": "Hochdichter Schaumstoff",
-    "Kopfstütze": {
-      "Typ": "Verstellbar",
-      "Material": "Aluminium",
-      "Inklusive": true
-    },
-    "Armlehne": {
-      "Typ": "Abnehmbar",
-      "Inklusive": true
-    },
-    "Arbeitsfläche_Breite": "61 cm",
-    "Farbe": "Schwarz",
-    "Transport": "Leicht und portabel dank klappbarem Design und Tragetasche",
-    "Anwendungsbereiche": [
-      "Massage",
-      "Kosmetik",
-      "Therapie",
-      "Wellness",
-      "Mobiler Einsatz"
-    ],
-    "Technologie_Design": "Intuitive Verstellmechanismen für schnelle Anpassung, robuste Konstruktion für Langlebigkeit",
-    "Wartung": "Leicht zu reinigen dank PU-Oberfläche",
-    "Zubehör_inklusive": [
-      "Alu-Kopfstütze",
-      "Armlehne",
-      "Tragetasche"
-    ],
-    "Sicherheit": "Rutschfeste Füße für stabilen Stand"
+    "basic": "Robustes Gestell, hochwertige Polsterung, klappbar, tragbar, verstellbare Höhe, integrierte Kopfstütze, mit Tragetasche"
   },
   "faq": [
     {
-      "question": "Wie intelligent ist die KESSER® Massageliege 3 Zonen in Bezug auf ihre Anpassungsfähigkeit und Ergonomie?",
-      "answer": "Die KESSER® Massageliege 3 Zonen zeichnet sich durch eine intelligente, manuelle Verstellbarkeit aus, die eine optimale ergonomische Anpassung an verschiedene Körpergrößen und Behandlungsarten ermöglicht. Mit ihrer 3-Zonen-Konstruktion und der leicht verstellbaren Kopfstütze sowie Armlehnen unterstützt sie präzise und komfortable Positionierungen, was für professionelle Anwendungen in Kosmetik und Therapie unerlässlich ist. Die Höhenverstellung ist präzise und ermöglicht eine individuelle Anpassung an den Therapeuten."
+      "q": "Ist die KESSER® Massageliege Premium einfach zu transportieren?",
+      "a": "Ja, dank ihres intelligenten Klappmechanismus und der mitgelieferten Tragetasche lässt sich die KESSER® Massageliege Premium mühelos transportieren und verstauen. Sie ist Ihr idealer Begleiter für mobile Einsätze."
     },
     {
-      "question": "Bietet die KESSER® Massageliege 3 Zonen technologische oder robotik-bezogene Features zur Verbesserung der Massageerfahrung?",
-      "answer": "Während die KESSER® Massageliege 3 Zonen primär auf manueller Ergonomie und Qualität beruht, sind ihre technologischen Vorteile in der robusten Konstruktion und der durchdachten Materialwahl zu finden. Die Verwendung von Aluminium für die Kopfstütze steht für Langlebigkeit und Hygiene. Die Anti-Rutsch-Füße und die stabile Rahmenkonstruktion gewährleisten eine sichere und zuverlässige Basis, vergleichbar mit der Stabilität und Präzision, die man von hochwertigen Geräten erwartet. Das klappbare Design ist ein technologischer Fortschritt für maximale Portabilität."
+      "q": "Wie belastbar ist die KESSER® Massageliege Premium?",
+      "a": "Die KESSER® Massageliege Premium verfügt über ein äußerst stabiles Gestell, das eine hohe Belastbarkeit gewährleistet und somit maximale Sicherheit für Anwender und Klienten bietet."
     },
     {
-      "question": "Welche technologischen Aspekte machen die KESSER® Massageliege 3 Zonen besonders praktisch für mobile Therapeuten oder Kosmetiker?",
-      "answer": "Die KESSER® Massageliege 3 Zonen wurde mit Blick auf maximale Mobilität und Benutzerfreundlichkeit konzipiert. Ihr 'klappbares' Design verwandelt die Liege in einen tragbaren Koffer, was den Transport durch integrierte Mechanismen extrem vereinfacht. Die Leichtigkeit dank des Aluminiumrahmens und die mitgelieferte Tragetasche sind klare technologische Vorteile, die den Auf- und Abbau beschleunigen und eine effiziente mobile Praxis ermöglichen, ohne Kompromisse bei Stabilität und Komfort einzugehen."
+      "q": "Ist die Liegehöhe verstellbar?",
+      "a": "Ja, die Höhe der KESSER® Massageliege Premium ist verstellbar, um sie optimal an Ihre Bedürfnisse und die des Klienten anpassen zu können. Dies ermöglicht eine ergonomische Arbeitsposition."
+    },
+    {
+      "q": "Welches Material wird für die Polsterung verwendet?",
+      "a": "Die KESSER® Massageliege Premium ist mit einer hochwertigen und komfortablen Polsterung versehen, die ein angenehmes Liegegefühl für langanhaltende Massagesitzungen garantiert."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:44.103173",
-  "originalName": "KESSER® Massageliege 3 Zonen, Bis 250kg, Massagetisch klappbar, verstellbar, tragbarer Koffer, Kosmetikliege, Therapieliege, Zubehör, Alu-Kopfstütze, Armlehne, Tragetasche, Anti Rutsch, 61cm, Schwarz",
+  "originalName": "KESSER® Massageliege Premium Klappbar",
+  "enhancedAt": "2025-10-10T23:36:00.966378",
   "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0FJFH2XJS",
-  "name": "LIFTSHA Relaxsessel Premium Drehbar",
-  "slug": "premium-liftsha-relaxsessel-drehbar",
-  "description": "<div>\n\n<div>\n    <h2>LIFTSHA Relaxsessel: Ihr neues Wohlfühl-Zentrum im Wohnzimmer</h2>\n    <p>Entdecken Sie den LIFTSHA Relaxsessel in elegantem Schwarz – die perfekte Kombination aus Komfort und moderner Technologie für Ihr Zuhause. Dieser vielseitige Sessel bietet nicht nur eine <strong>bequeme Liegefunktion</strong>, ideal zum Entspannen nach einem langen Tag, sondern auch eine integrierte <strong>Wärmefunktion</strong>, die Verspannungen löst und wohlige Wärme spendet. Dank der <strong>360° Drehfunktion</strong> genießen Sie maximale Flexibilität und können Ihren Blick mühelos auf den Fernseher oder in jede Richtung des Raumes richten. Ob Sie relaxen, lesen oder fernsehen möchten, dieser Sessel passt sich Ihren Bedürfnissen an.</p>\n    <h3>Hochwertige Verarbeitung und durchdachte Details</h3>\n    <p>Der LIFTSHA Relaxsessel ist mehr als nur ein Möbelstück; er ist ein technologisches Highlight für Ihren Wohnkomfort. Ausgestattet mit einem komfortablen <strong>Schaukelstuhl-Mechanismus</strong>, einem zusätzlichen <strong>Kissen</strong> für optimalen Halt und praktischen <strong>Seitentaschen</strong> für Ihre Utensilien, bleiben keine Wünsche offen. Der integrierte <strong>Getränkehalter</strong> sorgt dafür, dass Ihr Lieblingsgetränk stets griffbereit ist. Der Sessel vereint zeitloses Design mit Funktionalität und ist ein echter Blickfang in jedem Wohnzimmer. Genießen Sie den Luxus und die Entspannung, die nur der LIFTSHA Relaxsessel bieten kann. Erleben Sie Technologie, die Ihr Leben leichter macht – zum unschlagbaren Preis von nur <strong>279,0 €</strong>.</p>\n    <p><strong>Holen Sie sich jetzt Ihren LIFTSHA Relaxsessel und verwandeln Sie Ihr Wohnzimmer in eine Oase der Ruhe und Entspannung!</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "LIFTSHA Relaxsessel: Liegefunktion, Massage/Wärme, 360° drehbar, Schaukelstuhl. Mit Kissen, Taschen, Getränkehalter. Schwarz. Ihr Komfort.",
+  "name": "LIFTSHA Relaxsessel Premium Drehbar – Ihr Komfort-Upgrade",
+  "slug": "premium-liftsha-relaxsessel-drehbar-ihr-komfort-upgrade",
+  "description": "Erleben Sie ultimative Entspannung und stilvolle Funktionalität mit dem LIFTSHA Relaxsessel Premium Drehbar. Dieser Sessel ist die perfekte Symbiose aus modernster Technologie und luxuriösem Komfort. Gefertigt aus hochwertigen Materialien und ausgestattet mit einem sanften 360-Grad-Drehmechanismus, passt er sich flexibel Ihren Bedürfnissen an. Ob im Wohnzimmer, Lesezimmer oder Büro – dieser Sessel wird zum zentralen Punkt Ihrer Wohlfühloase. Die ergonomische Formgebung unterstützt Ihren Körper optimal, während das elegante Design jeden Raum aufwertet. Mit einem attraktiven Preis von nur 279,00 € ist dieser Premium-Sessel eine lohnende Investition in Ihr tägliches Wohlbefinden und die Ästhetik Ihres Zuhauses. Entdecken Sie die Zukunft der Entspannung – smart, komfortabel und stilvoll.",
+  "shortDescription": "Luxuriöser LIFTSHA Relaxsessel Premium mit 360-Grad-Drehfunktion. Ergonomisch, stilvoll und preiswert für Ihr Zuhause. Nur 279,0 €.",
   "price": "279.0",
   "compareAtPrice": 320,
   "images": [
@@ -28,11 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: LIFTSHA",
   "seo": {
-    "title": "LIFTSHA Relaxsessel Premium Drehbar",
-    "description": "LIFTSHA Relaxsessel: Liegefunktion, Massage/Wärme, 360° drehbar, Schaukelstuhl. Mit Kissen, Taschen, Getränkehalter. Schwarz. Ihr Komfort.",
-    "keywords": "LIFTSHA Relaxsessel, LIFTSHA Massagesessel, Drehsessel mit Massagefunktion, Massagesessel mit Wärmefunktion, LIFTSHA Sessel drehbar, Premium Massagesessel, Komfortsessel mit Heizung, Massagestuhl drehbar, beste Relaxsessel mit Massage, LIFTSHA Sessel Angebote",
-    "ogTitle": "LIFTSHA Relaxsessel Premium Drehbar",
-    "ogDescription": "LIFTSHA Relaxsessel: Liegefunktion, Massage/Wärme, 360° drehbar, Schaukelstuhl. Mit Kissen, Taschen, Getränkehalter. Schwarz. Ihr Komfort."
+    "title": "LIFTSHA Relaxsessel Premium Drehbar – Ihr Komfort-Upgrade",
+    "description": "Luxuriöser LIFTSHA Relaxsessel Premium mit 360-Grad-Drehfunktion. Ergonomisch, stilvoll und preiswert für Ihr Zuhause. Nur 279,0 €.",
+    "keywords": [
+      "liftsha relaxsessel premium drehbar – ihr komfort-upgrade",
+      "massagesessel mit wärmefunktion",
+      "marke: liftsha"
+    ],
+    "ogTitle": "LIFTSHA Relaxsessel Premium Drehbar – Ihr Komfort-Upgrade",
+    "ogDescription": "Luxuriöser LIFTSHA Relaxsessel Premium mit 360-Grad-Drehfunktion. Ergonomisch, stilvoll und preiswert für Ihr Zuhause. Nur 279,0 €."
   },
   "reviews": {
     "averageRating": 4.8,
@@ -46,89 +50,27 @@
     }
   },
   "specifications": {
-    "Produktname": "LIFTSHA Relaxsessel mit Liegefunktion",
-    "Hauptfunktionen": [
-      "Elektrische Liegefunktion (Liftsessel-Technologie)",
-      "Integrierte Wärmefunktion",
-      "360° Drehfunktion",
-      "Schaukelstuhl-Funktion",
-      "Massagefunktionen (Details in 'Technologie' spezifiziert)"
-    ],
-    "Technologie": {
-      "Antriebssystem_Liegefunktion": "Leiser, robuster Elektromotor mit sanfter Anhebung und Absenkung",
-      "Wärmeübertragung": "Gleichmäßige Infrarot-Wärmestrahlung im Rückenbereich für Tiefenentspannung",
-      "Rotationsmechanismus": "Präzisionsgelagerter 360° Drehteller für flüssige und stabile Rotation",
-      "Massageart": "Shiatsu-, Knet-, Klopf- und Rollmassagetechnik mit einstellbarer Intensität und Zonenwahl",
-      "Steuerung": "Intuitive Fernbedienung mit beleuchteten Tasten und digitaler Anzeige für Programme und Intensität",
-      "Energieeffizienz": "Energiesparender Standby-Modus, automatische Abschaltung bei Nichtgebrauch"
-    },
-    "Materialien": {
-      "Bezug": "Atmungsaktives, pflegeleichtes Kunstleder (PU-Leder) in Carbon-Optik",
-      "Polsterung": "Hochdichter Kaltschaum und Memory Foam für optimalen Komfort und Langlebigkeit",
-      "Rahmenkonstruktion": "Stabiles Stahlrahmen-Grundgerüst für maximale Belastbarkeit und Stabilität",
-      "Füße": "Rutschfeste Gummifüße zur Schonung des Bodens"
-    },
-    "Komfortmerkmale": [
-      "Ergonomisch geformte Rückenlehne und Kopfstütze",
-      "Verstellbare Lordosenstütze (manuell)",
-      "Integrierte Kopfkissen",
-      "Praktische Seitentaschen für Fernbedienung und Magazin",
-      "Integrierter Getränkehalter im Armlehnenbereich"
-    ],
-    "Abmessungen": {
-      "Breite": "Ca. 75 cm",
-      "Tiefe_aufrecht": "Ca. 90 cm",
-      "Tiefe_liegend": "Ca. 160 cm",
-      "Höhe": "Ca. 105 cm",
-      "Sitzbreite": "Ca. 50 cm",
-      "Sitztiefe": "Ca. 55 cm",
-      "Max_Belastbarkeit": "150 kg"
-    },
-    "Farbe": "Schwarz (Carbon-Optik)",
-    "Garantie": "2 Jahre (Herstellergarantie auf Elektrik und Mechanik)",
-    "Versand": "Kostenloser Versand (Deutschlandweit)",
-    "Lieferumfang": [
-      "LIFTSHA Relaxsessel",
-      "Fernbedienung",
-      "Bedienungsanleitung",
-      "Montagewerkzeug"
-    ],
-    "SEO_Keywords": [
-      "Relaxsessel elektrisch",
-      "Massagesessel mit Wärmefunktion",
-      "Fernsehsessel drehbar",
-      "Schaukelstuhl Wohnzimmer",
-      "Liftsessel Komfort",
-      "Sessel mit Liegefunktion",
-      "360 Grad Sessel",
-      "Wärmesessel",
-      "Shiatsu Sessel",
-      "Ergonomischer Sessel",
-      "Hochwertiger Relaxsessel",
-      "LIFTSHA Sessel",
-      "Sessel mit Getränkehalter",
-      "Sessel mit Seitentaschen",
-      "Schwarzer Ledersessel",
-      "Moderne Sessel",
-      "Sessel für Senioren",
-      "Entspannungssessel"
-    ]
+    "basic": "360-Grad-Drehfunktion, ergonomische Polsterung, Premium-Materialien, stilvolles Design, Preis: 279,0 €"
   },
   "faq": [
     {
-      "question": "Welche Art von Technologie wird für die Liegefunktion im LIFTSHA Relaxsessel verwendet?",
-      "answer": "Der LIFTSHA Relaxsessel nutzt eine fortschrittliche elektrische Verstellmechanik, die durch einen leisen und energieeffizienten Elektromotor angetrieben wird. Über eine intuitive Fernbedienung können Sie stufenlos aus verschiedenen Liegepositionen wählen, von aufrechter Sitzposition bis hin zur fast vollständigen Liegeposition, um Ihren maximalen Komfort zu erreichen."
+      "q": "Welche Vorteile bietet die Drehfunktion des LIFTSHA Relaxsessels?",
+      "a": "Die 360-Grad-Drehfunktion ermöglicht Ihnen maximale Flexibilität und erleichtert die Interaktion mit Ihrer Umgebung, ohne den Sessel verschieben zu müssen. Perfekt für flexible Raumgestaltung und ein entspanntes Erlebnis."
     },
     {
-      "question": "Wie funktioniert die Wärmefunktion in diesem Massagesessel?",
-      "answer": "Die integrierte Wärmefunktion im LIFTSHA Relaxsessel arbeitet mit schonender Infrarotwärme. Spezielle Heizelemente sind strategisch im Rückenbereich des Sessels platziert. Diese Technologie fördert die Durchblutung, lockert verspannte Muskeln und verstärkt das Massageerlebnis für ein Höchstmaß an Entspannung. Die Wärme ist individuell regelbar."
+      "q": "Ist der LIFTSHA Relaxsessel Premium für lange Sitzperioden geeignet?",
+      "a": "Ja, absolut. Die ergonomische Polsterung und die durchdachte Formgebung sind darauf ausgelegt, Ihren Körper optimal zu unterstützen und auch bei längeren Sitzzeiten höchsten Komfort zu bieten. So wird jeder Moment zur puren Entspannung."
     },
     {
-      "question": "Kann die 360° Drehfunktion des Fernsehsessels automatisiert werden?",
-      "answer": "Die 360° Drehfunktion des LIFTSHA Relaxsessels ist eine manuelle Mechanik, die eine sanfte und mühelose Drehung ermöglicht. Dieses Design wurde gewählt, um maximale Benutzerfreundlichkeit und Langlebigkeit zu gewährleisten, ohne anfällige elektronische Bauteile. Sie können den Sessel jederzeit und mit minimalem Kraftaufwand in die gewünschte Richtung drehen, ideal für das Ausrichten zum Fernseher oder zur Unterhaltung."
+      "q": "Welche Materialien werden für den LIFTSHA Relaxsessel verwendet?",
+      "a": "Der LIFTSHA Relaxsessel Premium Drehbar wird aus ausgewählten, hochwertigen Materialien gefertigt, die Langlebigkeit, angenehme Haptik und ein exklusives Erscheinungsbild garantieren. Details zu den spezifischen Bezügen und Rahmenmaterialien finden Sie in der Produktübersicht."
+    },
+    {
+      "q": "Passt der Sessel in moderne Wohnkonzepte?",
+      "a": "Definitiv. Das zeitlose und elegante Design des LIFTSHA Relaxsessels fügt sich nahtlos in moderne sowie klassische Wohnkonzepte ein und setzt stilvolle Akzente."
     }
   ],
-  "enhancedAt": "2025-10-10T22:18:56.300538",
-  "originalName": "LIFTSHA Relaxsessel mit Liegefunktion, Massagesessel mit Wärmefunktion, 360° Drehbarer Fernsehsessel Wohnzimmer, Schaukelstuhl mit Kissen/Seitentaschen/Getränkehalter (Schwarz)",
+  "originalName": "LIFTSHA Relaxsessel Premium Drehbar",
+  "enhancedAt": "2025-10-10T23:36:28.439855",
   "enhanced": true
 }

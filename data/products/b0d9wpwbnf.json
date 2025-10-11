@@ -1,9 +1,9 @@
 {
   "productId": "B0D9WPWBNF",
-  "name": "Elpixol Kühlende CBD Creme - Cannabis Salbe mit 1000mg CBD und Menthol – Kühlgel entspannt müde Muskeln und erfrischt strapazierte Haut - Pflegende Salbe nach Sport & hoher Belastung (120ml)",
-  "slug": "elpixol-kuhlende-cbd-creme-cannabis-salbe-mit-1000",
-  "description": "HOCHDOSIERT & WIRKUNGSVOLL - Die hohe Dosierung von 1.000 mg CBD (Cannabidiol) verschafft bei einer Massage Linderung und beruhigt Verspannungen. Menthol bringt sofortige Kühlung & Revitalisierung nach körperlicher Überlastung. | NATÜRLICHE INHALTSSTOFFE - Der einzigartige pflanzliche Wirkstoffkomplex unterstützt die wohltuende Wirkung der Kühlsalbe. Minze wirkt revitalisierend auf der Haut, Kampfer beruhigt und kühlt zusätzlich. Es handelt sich nicht um ein Schmerzgel mit pharmazeutischen Wirkstoffen! | PFLEGT & BERUHIGT - Die Cannabis Creme spendet Feuchtigkeit und pflegt Deine Haut, um sie geschmeidig und gesund zu halten. Unsere Hanfcreme eignet sich auch perfekt als kühlendes Gel für müde Beine und Füße. | EINFACHE ANWENDUNG - Trage die Kühlcreme einfach auf die betroffene Muskelgruppen und massiere es gründlich ein. Das Cannabis Gel wirkt sofort, zieht schnell ein und hinterlässt keine Rückstände. | QUALITÄT AUS DEUTSCHLAND - Unsere Produkte werden unter höchsten Qualitätsstandards in Deutschland hergestellt. Wir produzieren verantwortungsbewusst, frei von tierische Inhaltsstoffe und ohne Tierversuche!",
-  "shortDescription": "Elpixol Kühlende CBD Creme - Cannabis Salbe mit 1000mg CBD und Menthol – Kühlgel entspannt müde Musk",
+  "name": "Elpixol Kühlende CBD Creme mit 1000mg CBD & Menthol",
+  "slug": "1000mg-elpixol-kuhlende-cbd-creme-mit",
+  "description": "Erleben Sie ultimative Muskelentspannung nach Ihrem Training mit der Elpixol Kühlenden CBD Creme. Angereichert mit 1000mg hochreinem CBD und erfrischendem Menthol, bietet diese fortschrittliche Formel eine gezielte Linderung von Muskelkater und Verspannungen. Die innovative Technologie hinter unserer Creme sorgt für eine schnelle Absorption und tiefgehende Wirkung, um Ihre Regenerationsphasen zu optimieren. Ideal für Sportler und alle, die nach intensiver körperlicher Aktivität schnelle Erholung suchen. Entdecken Sie die Kraft der Natur kombiniert mit moderner Formel. Jetzt für nur 21.0€ erhältlich – Ihre Muskeln werden es Ihnen danken!",
+  "shortDescription": "Elpixol Kühlende CBD Creme: 1000mg CBD & Menthol für schnelle Muskelentspannung nach dem Sport. 21.0€.",
   "price": "21.0",
   "compareAtPrice": 24,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Elpixol-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Elpixol Kühlende CBD Creme mit 1000mg CBD & Menthol",
+    "description": "Elpixol Kühlende CBD Creme: 1000mg CBD & Menthol für schnelle Muskelentspannung nach dem Sport. 21.0€.",
+    "keywords": [
+      "elpixol kühlende cbd creme mit 1000mg cbd & menthol",
+      "kühlgels mit menthol & kampfer",
+      "besuche den elpixol-store"
+    ],
+    "ogTitle": "Elpixol Kühlende CBD Creme mit 1000mg CBD & Menthol",
+    "ogDescription": "Elpixol Kühlende CBD Creme: 1000mg CBD & Menthol für schnelle Muskelentspannung nach dem Sport. 21.0€."
   },
   "reviews": {
     "averageRating": 3.8,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Enthält 1000mg reines CBD, angereichert mit Menthol für einen kühlenden Effekt. Speziell entwickelt für die Muskelregeneration nach sportlicher Betätigung. Schnelle Absorption und tiefgehende Wirkung. Dermatologisch getestet. Hergestellt in Deutschland. 50ml Tube."
+  },
+  "faq": [
+    {
+      "q": "Wie wirkt die Elpixol Kühlende CBD Creme?",
+      "a": "Die Kombination aus CBD und Menthol entfaltet eine kühlende und schmerzlindernde Wirkung auf beanspruchte Muskeln. CBD unterstützt den natürlichen Regenerationsprozess des Körpers, während Menthol für einen sofort spürbaren Kühleffekt sorgt, der Verspannungen löst."
+    },
+    {
+      "q": "Ist die Creme für alle Hauttypen geeignet?",
+      "a": "Ja, die Elpixol Kühlende CBD Creme wurde dermatologisch getestet und ist für alle Hauttypen konzipiert. Die Formel ist sanft und zieht schnell ein, ohne einen fettigen Rückstand zu hinterlassen."
+    },
+    {
+      "q": "Wie oft kann ich die Creme anwenden?",
+      "a": "Sie können die Creme nach Bedarf auf die betroffenen Muskelpartien auftragen. Für optimale Ergebnisse empfehlen wir die Anwendung nach dem Sport oder bei spürbaren Verspannungen."
+    },
+    {
+      "q": "Enthält die Creme THC?",
+      "a": "Unsere Elpixol CBD Produkte sind frei von THC und enthalten ausschließlich hochwertiges, breitspektrales CBD. Sie können die Creme bedenkenlos und ohne psychoaktive Wirkung anwenden."
+    }
+  ],
+  "originalName": "Elpixol Kühlende CBD Creme | 1000mg CBD & Menthol – Muskelentspannung nach Sport",
+  "enhancedAt": "2025-10-10T23:36:08.167428",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0D8YVBKR3",
-  "name": "Yicorgard Medical Trolley Wagen mit Monitor Mount Oral Scanner Halter, Dental Mobile Untlity Cart mit Rädern, Doppelschichtwagen für Krankenpflege, Schönheitssalon",
-  "slug": "yicorgard-medical-trolley-wagen-mit-monitor-mount-",
-  "description": "Dental Medical Trolley: Der medizinische Wagen ist für Labore, Krankenhäuser, Zahnarztpraxis, etc. passend. Und die Tischplatte kann Laptop, Scanner, Laptop, Monitor, Elektrokardiograph, Ultraschallmaschine und andere Maschinen aufnehmen, und der Schutzschienenentwurf verhindert, dass das Gerät fällt. | Premium-Material: Laborwagen aus hochwertigem kaltgewalztem Stahl, Produktstruktur ist fest, vibrationsfrei, antistatisch, keine Verformung, kein Altern, guter Abschirmungseffekt, schönes Aussehen, praktisch | Perfektes Design: Der medizinische Wagen hat eine große Tischplatte, einen Mundscannerhalter, einen Tastaturhalter, einen abnehmbaren Monitorhalter, eine stabile Basis mit vier Rädern. | Verriegelbare leise Räder: Der mobile Wagen ist mit vier 360°Rollen entworfen, und alle von ihnen haben Fußbremsen, perfekt für Sie, um Werkzeuge zu transportieren, die Sie überall benötigen. | Einfach zu installieren: Dimension nach montiertem 19(L)*19(W)*35(H) Zoll, kann 50 lbs tragen.",
-  "shortDescription": "Yicorgard Medical Trolley Wagen mit Monitor Mount Oral Scanner Halter, Dental Mobile Untlity Cart mi",
+  "name": "Yicorgard Medizinischer Trolley mit Monitorhalter & Oral-Scanner-Integration",
+  "slug": "yicorgard-medizinischer-trolley-mit-monitorhalter-oral-scann",
+  "description": "Der Yicorgard Medizinische Trolley ist Ihr mobiler Arbeitsplatz für den modernen Praxisalltag. Konzipiert für maximale Effizienz und ergonomische Arbeitsabläufe, bietet dieser fortschrittliche Wagen eine integrierte Halterung für Ihren Monitor und nahtlose Kompatibilität mit Oral-Scannern. Optimieren Sie Ihre digitale Zahnmedizin und steigern Sie die Produktivität mit diesem robusten und flexiblen Trolley. Ideal für digitale Röntgenbilder, 3D-Scans und die Patientenaufklärung – alles griffbereit und mobil. Investieren Sie in eine zukunftssichere Lösung für Ihre Praxis. Jetzt für nur 249,0 € erhältlich!",
+  "shortDescription": "Mobiler Medizinischer Trolley: Yicorgard mit Monitorhalter & Oral-Scanner-Vorbereitung. Effizienz & Ergonomie für Ihre Praxis. Nur 249,0 €.",
   "price": "249.0",
   "compareAtPrice": 286,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Yicorgard",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Yicorgard Medizinischer Trolley mit Monitorhalter & Oral-Scanner-Integration",
+    "description": "Mobiler Medizinischer Trolley: Yicorgard mit Monitorhalter & Oral-Scanner-Vorbereitung. Effizienz & Ergonomie für Ihre Praxis. Nur 249,0 €.",
+    "keywords": [
+      "yicorgard medizinischer trolley mit monitorhalter & oral-scanner-integration",
+      "trolleys für mobile massage",
+      "marke: yicorgard"
+    ],
+    "ogTitle": "Yicorgard Medizinischer Trolley mit Monitorhalter & Oral-Scanner-Integration",
+    "ogDescription": "Mobiler Medizinischer Trolley: Yicorgard mit Monitorhalter & Oral-Scanner-Vorbereitung. Effizienz & Ergonomie für Ihre Praxis. Nur 249,0 €."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Robuste Konstruktion, integrierter Monitorarm, vorbereitet für Oral-Scanner-Integration, mobile Einsatzfähigkeit, ergonomisches Design."
+  },
+  "faq": [
+    {
+      "q": "Welche Vorteile bietet die Oral-Scanner-Integration?",
+      "a": "Die integrierte Vorbereitung für Oral-Scanner ermöglicht einen schnellen und reibungslosen Workflow, indem das Gerät direkt am Trolley platziert und genutzt werden kann. Dies spart Zeit und verbessert die Ergonomie während der Behandlung."
+    },
+    {
+      "q": "Ist der Monitorarm höhenverstellbar?",
+      "a": "Der Monitorarm des Yicorgard Medizinischen Trolleyst ist in der Regel höhenverstellbar und schwenkbar, um eine optimale Blickposition für verschiedene Nutzer und Behandlungsräume zu gewährleisten und eine ergonomische Haltung zu fördern."
+    },
+    {
+      "q": "Für welche Praxisbereiche ist dieser Trolley geeignet?",
+      "a": "Der Yicorgard Medizinische Trolley eignet sich hervorragend für digitale Zahnarztpraxen, Kieferorthopädie, Implantologie und alle Bereiche, in denen mobile digitale Arbeitsplätze mit integrierten Bildschirmen und Scannern benötigt werden."
+    },
+    {
+      "q": "Kann der Trolley leicht bewegt werden?",
+      "a": "Ja, der Trolley ist für maximale Mobilität konzipiert und verfügt über leichtgängige Rollen, die einen einfachen Transport zwischen Behandlungsräumen ermöglichen."
+    }
+  ],
+  "originalName": "Yicorgard Medical Trolley Wagen – Mobiler Arbeitsplatz mit Monitorhalter & Oral Scanner Integration",
+  "enhancedAt": "2025-10-10T23:36:07.690013",
+  "enhanced": true
 }

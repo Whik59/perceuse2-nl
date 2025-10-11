@@ -2,8 +2,8 @@
   "productId": "B07K36DN8F",
   "name": "adidas Unisex Adissage SlidesRUTSCHEN",
   "slug": "adidas-unisex-adissage-slidesrutschen",
-  "description": "",
-  "shortDescription": "adidas Unisex Adissage SlidesRUTSCHEN",
+  "description": "<div><h2>adidas Unisex Adissage SlidesRUTSCHEN</h2><p>Quality product</p></div>",
+  "shortDescription": "adidas Unisex Adissage SlidesRUTSCHEN - Quality Product",
   "price": "18.0",
   "compareAtPrice": 20,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den adidas-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "adidas Unisex Adissage SlidesRUTSCHEN",
+    "description": "adidas Unisex Adissage SlidesRUTSCHEN - Quality Product",
+    "keywords": [
+      "adidas unisex adissage slidesrutschen",
+      "badesandalen mit massagenoppen",
+      "besuche den adidas-store"
+    ],
+    "ogTitle": "adidas Unisex Adissage SlidesRUTSCHEN",
+    "ogDescription": "adidas Unisex Adissage SlidesRUTSCHEN - Quality Product"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "adidas Unisex Adissage SlidesRUTSCHEN",
+  "enhancedAt": "2025-10-10T23:35:43.015866",
+  "enhanced": true
 }

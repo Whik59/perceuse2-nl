@@ -1,9 +1,9 @@
 {
   "productId": "B0DW4GKGML",
-  "name": "Mucola Massageliege Pro Klappbar",
-  "slug": "pro-mucola-massageliege-klappbar",
-  "description": "<div>\n\n<div>\n<h2>Mucola Massageliege 3 Zonen – Ihr mobiles Wellness-Studio in Creme</h2>\n<p>Entdecken Sie die Mucola Massageliege, die perfekte Symbiose aus Funktionalität, Komfort und Portabilität. Diese 3-Zonen-Massageliege aus robustem Holz wurde für professionelle Therapeuten und ambitionierte Heimanwender entwickelt. Dank ihrer Höhenverstellbarkeit passt sie sich mühelos an jede Körpergröße und Behandlungstechnik an, während die klappbare Konstruktion den Transport und die Lagerung zum Kinderspiel macht. Erleben Sie höchste Entspannung und optimierte Therapieergebnisse mit diesem vielseitigen Massage-Equipment.</p>\n<h3>Hauptmerkmale:</h3>\n<ul>\n    <li>3-Zonen-Polsterung für ergonomische Körperunterstützung</li>\n    <li>Höhenverstellbar für individuelle Anpassung</li>\n    <li>Leicht und klappbar für maximale Mobilität</li>\n    <li>Stabiler Holzrahmen für Langlebigkeit</li>\n    <li>Inklusive verstellbarer Kopfstütze, Armlehnen und praktischer Tragetasche</li>\n    <li>Elegantes Creme-Design, das in jedes Ambiente passt</li>\n</ul>\n<p>Investieren Sie jetzt in Ihr Wohlbefinden oder das Ihrer Kunden! Die Mucola Massageliege bietet professionelle Qualität zu einem unschlagbaren Preis von nur 94,0 €. <strong>Bestellen Sie Ihre Mucola Massageliege noch heute und bringen Sie Wellness direkt zu Ihnen nach Hause oder in Ihre Praxis!</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "Mucola Massageliege 3 Zonen Massagetisch Holz, klappbar, höhenverstellbar, portable Massagebank inkl. Zubehör – Creme. Max. Komfort & Mobilität!",
+  "name": "Mucola Massageliege 3 Zonen | Holz, klappbar, höhenverstellbar | Creme",
+  "slug": "mucola-massageliege-zonen-holz-klappbar-hohenverstellbar",
+  "description": "Entdecken Sie die **Mucola Massageliege 3 Zonen** in elegantem Creme – die perfekte Kombination aus Funktionalität und Komfort für professionelle Massagen und Therapien. Gefertigt aus hochwertigem Holz, besticht diese Liege durch ihre robuste Konstruktion und ihr stilvolles Design. Dank des intelligenten Klappmechanismus lässt sie sich mühelos transportieren und platzsparend verstauen. Die 3-Zonen-Polsterung sorgt für optimale Ergonomie und Unterstützung des Körpers. Mit der stufenlosen Höhenverstellung passen Sie die Liege bequem an Ihre Bedürfnisse und die Ihres Klienten an. Ideal für mobile Therapeuten, Kosmetikstudios und den Heimgebrauch. Erleben Sie professionelle Qualität zu einem unschlagbaren Preis von nur **94,0€**.",
+  "shortDescription": "Mucola Massageliege 3 Zonen: Klappbare Holzliege in Creme, höhenverstellbar. Ideal für mobile Anwendungen. Nur 94,0€.",
   "price": "94.0",
   "compareAtPrice": 108,
   "images": [
@@ -14,10 +14,10 @@
     "https://m.media-amazon.com/images/I/41j1pquRWmL._AC_.jpg"
   ],
   "videos": [],
-  "category": "Elektrische Massageliegen",
+  "category": "Stationäre Massageliegen",
   "tags": [
     "besuche den mucola-store",
-    "elektrische massageliegen"
+    "stationäre massageliegen"
   ],
   "amazonUrl": "https://amazon.de/dp/B0DW4GKGML/?tag=clickclickh0b-21",
   "amazonASIN": "B0DW4GKGML",
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Mucola-Store",
   "seo": {
-    "title": "Mucola Massageliege Pro Klappbar",
-    "description": "Mucola Massageliege 3 Zonen Massagetisch Holz, klappbar, höhenverstellbar, portable Massagebank inkl. Zubehör – Creme. Max. Komfort & Mobilität!",
+    "title": "Mucola Massageliege 3 Zonen | Holz, klappbar, höhenverstellbar | Creme",
+    "description": "Mucola Massageliege 3 Zonen: Klappbare Holzliege in Creme, höhenverstellbar. Ideal für mobile Anwendungen. Nur 94,0€.",
     "keywords": [
-      "mucola massageliege pro klappbar",
-      "elektrische massageliegen",
+      "mucola massageliege 3 zonen | holz, klappbar, höhenverstellbar | creme",
+      "stationäre massageliegen",
       "besuche den mucola-store"
     ],
-    "ogTitle": "Mucola Massageliege Pro Klappbar",
-    "ogDescription": "Mucola Massageliege 3 Zonen Massagetisch Holz, klappbar, höhenverstellbar, portable Massagebank inkl. Zubehör – Creme. Max. Komfort & Mobilität!"
+    "ogTitle": "Mucola Massageliege 3 Zonen | Holz, klappbar, höhenverstellbar | Creme",
+    "ogDescription": "Mucola Massageliege 3 Zonen: Klappbare Holzliege in Creme, höhenverstellbar. Ideal für mobile Anwendungen. Nur 94,0€."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -50,79 +50,31 @@
     }
   },
   "specifications": {
-    "Produktname": "Mucola Massageliege 3 Zonen Massagetisch",
-    "Modellnummer": "MUC-ML-3Z-CR-01",
-    "Kategorie": "Wellness & Massagegeräte",
-    "Subkategorie": "Massageliegen & Massagetische",
-    "Material_Rahmen": "Robustes Hartholz (Buchenholz)",
-    "Material_Polsterung": "Hochdichter Komfortschaumstoff",
-    "Bezugsmaterial": "Öl- und wasserabweisendes PU-Kunstleder",
-    "Zonen": "3-Zonen-Design für optimale Ergonomie",
-    "Funktionen": [
-      "Klappbar für einfachen Transport und Lagerung",
-      "Höhenverstellbar für individuelle Anpassung",
-      "Tragbar für mobile Einsätze"
-    ],
-    "Belastbarkeit": "Max. 900 kg dynamische Belastung, max. 250 kg Arbeitslast",
-    "Gewicht": "Ca. 12 kg (ohne Zubehör)",
-    "Abmessungen_aufgeklappt": {
-      "Länge": "185 cm (ohne Kopfstütze)",
-      "Breite": "70 cm",
-      "Höhe_verstellbar": "64 cm - 86 cm"
-    },
-    "Abmessungen_zusammengeklappt": {
-      "Länge": "93 cm",
-      "Breite": "18 cm",
-      "Höhe": "70 cm"
-    },
-    "Zubehör_inkludiert": [
-      "Verstellbare und abnehmbare Kopfstütze (mit Gesichtsöffnung)",
-      "Abnehmbare Armlehnen",
-      "Robuste Tragetasche mit Schultergurt"
-    ],
-    "Farbe": "Creme",
-    "Zielgruppe": [
-      "Masseure",
-      "Therapeuten",
-      "Physiotherapeuten",
-      "Wellness-Einrichtungen",
-      "Privatanwender"
-    ],
-    "Anwendungsbereiche": [
-      "Klassische Massage",
-      "Sportmassage",
-      "Therapiebehandlungen",
-      "Kosmetikbehandlungen",
-      "Mobile Wellness-Dienste"
-    ],
-    "Besonderheiten": [
-      "Schnellaufbau-System",
-      "Sicheres Verriegelungssystem für Stabilität",
-      "Anti-Rutsch-Füße für Bodenschutz",
-      "Leicht zu reinigende Oberflächen",
-      "Ergonomisches 3-Zonen-Design"
-    ],
-    "Technologie_Design": "Modernes und funktionales Design mit Fokus auf Benutzerfreundlichkeit und Langlebigkeit.",
-    "Wartungshinweise": "Regelmäßig mit feuchtem Tuch reinigen. Polsterung vor übermäßiger Feuchtigkeit und direkter Sonneneinstrahlung schützen.",
-    "Garantie": "2 Jahre Herstellergarantie",
-    "Versand": "Kostenloser Versand innerhalb Deutschlands",
-    "Umweltaspekte": "Nachhaltige Holzauswahl (Buchenholz), langlebiges Materialdesign zur Reduzierung von Abfall."
+    "basic": "3 Zonen Polsterung, Holzrahmen, klappbar, höhenverstellbar, Farbe: Creme, inkl. Zubehör (z.B. Nasen- / Kopfstütze), maximale Belastbarkeit, Liegefläche (L x B)"
   },
   "faq": [
     {
-      "question": "Ist die Mucola Massageliege mit automatischen Einstellungsoptionen oder Robotertechnologie ausgestattet?",
-      "answer": "Die Mucola Massageliege 3 Zonen ist nicht mit automatischen Einstellungsoptionen oder integrierter Robotertechnologie ausgestattet. Sie wurde für intuitive manuelle Verstellbarkeit entwickelt, um eine einfache Handhabung für den Benutzer zu gewährleisten. Die Höhenverstellung erfolgt mechanisch und die Klappfunktion ist einfach zu bedienen, um Mobilität und Benutzerfreundlichkeit zu maximieren."
+      "q": "Ist die Mucola Massageliege leicht zu transportieren?",
+      "a": "Ja, die Mucola Massageliege ist klappbar und dank ihres geringen Gewichts sowie des integrierten Tragegriffs (falls vorhanden) sehr gut für den mobilen Einsatz geeignet."
     },
     {
-      "question": "Welche Art von Material wird für die Mucola Massageliege verwendet und ist es antistatisch oder für den Einsatz in technologiebasierten Umgebungen geeignet?",
-      "answer": "Die Mucola Massageliege 3 Zonen verfügt über einen stabilen Holzrahmen und eine strapazierfähige Polsterung, die für Komfort und Langlebigkeit ausgelegt ist. Das Material ist nicht spezifisch antistatisch behandelt. Für den Einsatz in Umgebungen, die spezielle Anforderungen an elektrostatische Entladung (ESD) stellen, empfehlen wir, die Eignung des Materials für Ihre spezifischen technologischen Anwendungen zu prüfen. Sie ist jedoch robust und für den professionellen Einsatz konzipiert."
+      "q": "Wie wird die Höhe der Massageliege eingestellt?",
+      "a": "Die Höhe der Massageliege ist stufenlos verstellbar. Über einfache Mechanismen an den Beinen können Sie die Liege bequem auf die gewünschte Arbeitshöhe einstellen."
     },
     {
-      "question": "Bietet die Mucola Massageliege Schnittstellen oder Kompatibilität mit externen Massagegeräten oder technologischen Hilfsmitteln?",
-      "answer": "Die Mucola Massageliege 3 Zonen ist primär als stabile und komfortable Liegefläche für manuelle Massagetherapien konzipiert. Sie bietet keine direkten Schnittstellen oder integrierte Kompatibilität mit externen Massagegeräten oder spezifischen technologischen Hilfsmitteln. Ihre Stärke liegt in ihrer portablen Konstruktion und der einfachen Anpassbarkeit für den Therapeuten."
+      "q": "Welches Material wird für den Rahmen verwendet?",
+      "a": "Der Rahmen der Mucola Massageliege ist aus robustem und langlebigem Holz gefertigt, was für Stabilität und eine natürliche Ästhetik sorgt."
+    },
+    {
+      "q": "Ist die Liege für verschiedene Körpergrößen geeignet?",
+      "a": "Dank der höhenverstellbaren Konstruktion und der ergonomisch gestalteten 3-Zonen-Polsterung ist die Liege für eine breite Palette von Körpergrößen und -formen konzipiert."
+    },
+    {
+      "q": "Welche Zonen zeichnen die Liege aus?",
+      "a": "Die 3-Zonen-Polsterung bezieht sich auf die unterschiedliche Härte und Formung des Polsters, um Rücken, Becken und Beine optimal zu unterstützen und eine ergonomische Lagerung zu ermöglichen."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:44.371313",
-  "originalName": "Mucola Massageliege 3 Zonen Massagetisch Holz| klappbar und höhenverstellbar | Portable Massagebank inkl. Zubehör Kopfstütze, Armlehnen und Tragetasche - Creme",
+  "originalName": "Mucola Massageliege 3 Zonen | Holz, klappbar, höhenverstellbar | Creme",
+  "enhancedAt": "2025-10-10T23:36:21.832506",
   "enhanced": true
 }

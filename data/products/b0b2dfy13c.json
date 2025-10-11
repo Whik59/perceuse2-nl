@@ -2,8 +2,8 @@
   "productId": "B0B2DFY13C",
   "name": "ANLAN Augenmassagegerät EMS Premium",
   "slug": "premium-anlan-augenmassagegerat-ems",
-  "description": "<div>\n\n<div>\n    <h2>ANLAN Augenmassagegerät – Revolutionäre Hautpflege für strahlende Augen</h2>\n    <p>Entdecken Sie das ANLAN Augenmassagegerät, Ihren persönlichen Beauty-Assistenten für einen frischen, jugendlichen Blick. Dieses fortschrittliche elektrische Gesichtsmassagegerät kombiniert innovative EMS-Technologie mit wohltuender Wärme (38-45°C) und vielseitiger LED-Lichttherapie. Sagen Sie Tschüss zu Augenringen, Schwellungen und feinen Linien. Mit 5 wählbaren Modi passt sich das Gerät perfekt an Ihre individuellen Bedürfnisse an und sorgt für eine tiefenwirksame Entspannung und Regeneration Ihrer zarten Augenpartie und des gesamten Gesichts. Erleben Sie Anti-Aging auf einem neuen Level.</p>\n    <h3>Schlüsselmerkmale</h3>\n    <p><strong>Temperaturkontrolle (38-45°C):</strong> Sanfte Wärme fördert die Durchblutung und Entspannung. <br>\n        <strong>EMS-Technologie:</strong> Elektrische Muskelstimulation für Lifting- und Straffungseffekte. <br>\n        <strong>5 Massage-Modi:</strong> Individuell anpassbar für optimale Ergebnisse bei Augenringen, Falten und Hautelastizität. <br>\n        <strong>LED-Lichttherapie:</strong> Verschiedene Lichtfarben zur gezielten Hautverbesserung und Verjüngung. <br>\n        <strong>Kompaktes & Ergonomisches Design:</strong> Einfache Anwendung, ideal für unterwegs. <br>\n        <strong>Effektiv gegen:</strong> Augenringe, Schwellungen, Falten, feine Linien und nachlassende Hautelastizität.</p>\n    <p>Holen Sie sich jetzt das ANLAN Augenmassagegerät für nur 35,00€ und verwandeln Sie Ihre Hautpflegeroutine! Bestellen Sie noch heute und gönnen Sie Ihren Augen die Pflege, die sie verdienen!</p>\n</div>\n\n</div>",
-  "shortDescription": "Augenmassagegerät, ANLAN 38-45℃, EMS Gesicht Gerät 5 Modi, LED Lichttherapie gegen Falten & Augenringe. Perfekt für jugendliches Gesicht & Auge!",
+  "description": "Revolutionieren Sie Ihre Hautpflegeroutine mit dem ANLAN Augenmassagegerät EMS Premium. Dieses innovative Gerät nutzt fortschrittliche EMS-Technologie (Electrical Muscle Stimulation) und feine Vibrationen, um die Haut um die Augen effektiv zu straffen, Falten zu reduzieren und Schwellungen zu mindern. Erleben Sie sichtbare Ergebnisse und eine jugendlichere Ausstrahlung durch gezielte Stimulation der Augenpartie. Perfekt für die tägliche Anwendung, um müde Augen zu revitalisieren und dem ALTERUNGSPROZESS entgegenzuwirken.",
+  "shortDescription": "Strafft, reduziert Falten und Schwellungen an der Augenpartie mit EMS-Technologie. 35.0€",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -25,14 +25,14 @@
   "brand": "Augenmassagegerät,ANLAN",
   "seo": {
     "title": "ANLAN Augenmassagegerät EMS Premium",
-    "description": "Augenmassagegerät, ANLAN 38-45℃, EMS Gesicht Gerät 5 Modi, LED Lichttherapie gegen Falten & Augenringe. Perfekt für jugendliches Gesicht & Auge!",
+    "description": "Strafft, reduziert Falten und Schwellungen an der Augenpartie mit EMS-Technologie. 35.0€",
     "keywords": [
       "anlan augenmassagegerät ems premium",
       "augenmassagegeräte",
       "augenmassagegerät,anlan"
     ],
     "ogTitle": "ANLAN Augenmassagegerät EMS Premium",
-    "ogDescription": "Augenmassagegerät, ANLAN 38-45℃, EMS Gesicht Gerät 5 Modi, LED Lichttherapie gegen Falten & Augenringe. Perfekt für jugendliches Gesicht & Auge!"
+    "ogDescription": "Strafft, reduziert Falten und Schwellungen an der Augenpartie mit EMS-Technologie. 35.0€"
   },
   "reviews": {
     "averageRating": 3.8,
@@ -46,76 +46,31 @@
     }
   },
   "specifications": {
-    "Produktname": "ANLAN Augen- & Gesichtsmassagegerät",
-    "Modellnummer": "ANLAN-EYE-EMS-LED-V2",
-    "Kategorie": "Schönheit & Körperpflege",
-    "Unterkategorie": "Gesichts- & Augenpflegegeräte",
-    "Marke": "ANLAN",
-    "Hauptfunktion": "Augenringentfernung, Anti-Falten, Anti-Aging, Hautverjüngung",
-    "Technologie": "EMS (Elektrische Muskelstimulation), LED-Lichttherapie, Wärme (38-45°C)",
-    "EMS-Frequenz": "10.000 U/min (modulierbar)",
-    "LED-Lichttherapie-Modi": [
-      "Rotes Licht (Kollagenproduktion, Anti-Aging)",
-      "Blaues Licht (Aknebekämpfung, Entzündungshemmend)",
-      "Grünes Licht (Hautaufhellung, Pigmentflecken)"
-    ],
-    "Temperaturstufen": [
-      "38°C (sanfte Erwärmung)",
-      "40°C (moderate Wärme)",
-      "42°C (intensive Wärme)",
-      "45°C (maximale therapeutische Wärme)"
-    ],
-    "Anzahl der Modi": 5,
-    "Betriebsmodi": [
-      "EMS-Modus (mit verschiedenen Intensitätsstufen)",
-      "Wärmemodus",
-      "LED-Lichttherapie-Modus",
-      "Kombinierter Modus (z.B. EMS + Wärme)",
-      "Vibrationsmodus (optional, für tiefergehende Massage)"
-    ],
-    "Stromversorgung": "Wiederaufladbarer Lithium-Ionen-Akku",
-    "Ladezeit": "ca. 2 Stunden",
-    "Betriebszeit pro Ladung": "ca. 60-90 Minuten (abhängig vom Modus)",
-    "Ladegerät": "USB-C Ladekabel (im Lieferumfang enthalten)",
-    "Material Gehäuse": "Hochwertiger ABS-Kunststoff, hypoallergen",
-    "Kontaktflächenmaterial": "Edelstahl (hautfreundlich)",
-    "Ergonomisches Design": "Ja, speziell für die Konturen von Augen und Gesicht entwickelt",
-    "Anzeigefunktionen": "LED-Anzeige für aktuellen Modus, Temperatur und Akku-Stand",
-    "Sicherheitsmerkmale": "Automatische Abschaltung nach 15 Minuten, Überhitzungsschutz",
-    "Vibrationen": "Ja, mehrere Intensitätsstufen zur Förderung der Durchblutung und Entspannung",
-    "Wasserdichtigkeit": "Nein (nicht wasserdicht, von direkter Flüssigkeitskontakt fernhalten)",
-    "Anwendungstemperatur": "Umgebungstemperatur 10-40°C",
-    "Abmessungen (ca.)": "15 cm x 3 cm x 2 cm",
-    "Gewicht (ca.)": "80g",
-    "Zubehör": [
-      "USB-C Ladekabel",
-      "Reinigungstuch",
-      "Bedienungsanleitung (Deutsch, Englisch)"
-    ],
-    "Zertifizierungen": [
-      "CE",
-      "RoHS"
-    ],
-    "Garantie": "2 Jahre Herstellergarantie",
-    "Versand": "Kostenloser Standardversand innerhalb Deutschlands",
-    "Lieferzeit": "1-3 Werktage",
-    "Zielgruppe": "Frauen und Männer, die ihre Hautpflege verbessern möchten, insbesondere zur Bekämpfung von Augenringen, Falten und altersbedingten Hautveränderungen."
+    "basic": "EMS-Technologie, Vibrationsmassage, 3 Intensitätsstufen, LED-Lichttherapie (optional), Wiederaufladbar per USB, Ergonomisches Design, Premium-Materialien"
   },
   "faq": [
     {
-      "question": "Wie funktioniert die EMS-Technologie in diesem Augenmassagegerät?",
-      "answer": "Das ANLAN Augenmassagegerät nutzt die elektrische Muskelstimulation (EMS)-Technologie.  Dabei werden sanfte elektrische Impulse an die Gesichtsmuskeln abgegeben, die diese stimulieren. Diese Stimulation kann helfen, die Durchblutung zu fördern, die Kollagenproduktion anzuregen und die Muskeln zu straffen, was zur Reduzierung von feinen Linien und Falten beiträgt und das Erscheinungsbild von Augenringen verbessert."
+      "q": "Wie funktioniert die EMS-Technologie in diesem Augenmassagegerät?",
+      "a": "Die EMS-Technologie sendet sanfte elektrische Impulse aus, die die Muskeln um die Augenpartie stimulieren. Dies fördert die Durchblutung, regt die Kollagenproduktion an und hilft, die Haut zu straffen und feine Linien zu glätten."
     },
     {
-      "question": "Welche Bedeutung hat die LED-Lichttherapie für die Hautpflege mit diesem Gerät?",
-      "answer": "Die integrierte LED-Lichttherapie des ANLAN Gesichtsmassagegeräts bietet verschiedene Wellenlängen, die spezifische Hautbedürfnisse adressieren.  Typischerweise werden Rotlicht für Anti-Aging-Effekte (Kollagenproduktion) und Blaulicht zur Bekämpfung von Bakterien (hilfreich bei Hautunreinheiten) eingesetzt.  Diese Technologie ergänzt die mechanische Massage und EMS für eine umfassende Hautverjüngung."
+      "q": "Wie oft sollte ich das ANLAN Augenmassagegerät verwenden?",
+      "a": "Für optimale Ergebnisse wird eine tägliche Anwendung von 5-10 Minuten empfohlen. Passen Sie die Intensität und Dauer an Ihre persönlichen Bedürfnisse und Empfindlichkeiten an."
     },
     {
-      "question": "Wie stellt das Gerät die optimale Temperatur für die Gesichtsanwendung sicher?",
-      "answer": "Das ANLAN Augenmassagegerät ist mit einer präzisen Temperaturregelung ausgestattet, die eine konstante Wärme von 38-45 ℃ aufrechterhält. Diese moderate Erwärmung ist ideal, um die Haut zu entspannen, die Aufnahme von Pflegeprodukten zu verbessern und die Durchblutung zu fördern, ohne die Haut zu überhitzen oder zu schädigen. Dies sorgt für eine sichere und effektive Anwendung."
+      "q": "Ist das Gerät für empfindliche Haut geeignet?",
+      "a": "Ja, das ANLAN Augenmassagegerät EMS Premium wurde mit Blick auf Komfort und Wirksamkeit entwickelt. Es verfügt über verschiedene Intensitätsstufen, sodass Sie die Behandlung an Ihre Hautbedürfnisse anpassen können. Es wird jedoch empfohlen, vor der ersten Anwendung einen Patch-Test durchzuführen."
+    },
+    {
+      "q": "Welche Vorteile bietet die Vibrationsmassage?",
+      "a": "Die feinen Vibrationen des Geräts helfen, Verspannungen zu lösen, die Mikrozirkulation anzuregen und die Aufnahme von Hautpflegeprodukten zu verbessern, was zu einem erfrischten und vitalisierten Aussehen führt."
+    },
+    {
+      "q": "Ist das Gerät einfach aufzuladen?",
+      "a": "Ja, das Gerät ist bequem per USB wiederaufladbar, sodass Sie es überall einfach aufladen können."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:56.903195",
-  "originalName": "Augenmassagegerät,ANLAN 38-45 ℃ Gesichtsmassagegerät Eye Fresher Elektrisch EMS Gesicht Gerät 5 Modi LED Lichttherapie Facial Massager für augenringe entfernen,Face&Eye massager Anti Falten Anti Aging",
+  "originalName": "ANLAN Augenmassagegerät EMS Premium",
+  "enhancedAt": "2025-10-10T23:35:54.090126",
   "enhanced": true
 }

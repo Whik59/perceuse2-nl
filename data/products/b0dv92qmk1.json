@@ -1,9 +1,9 @@
 {
   "productId": "B0DV92QMK1",
-  "name": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräuter - gleichzeitig kühlen und wärmen - zur Massage der Haut im Bereich beanspruchter Rücken & Gelenke (75 ml)",
-  "slug": "swissmedicus-pferdebalsam-mit-bienengift-25-kraute",
-  "description": "🌿 Pferdebalsam mit Bienengift ist ein einzigartiges Produkt, das die nachgewiesene Wirkung von 25 Kräuterarten mit der Wirkung von Bienengift kombiniert. | 🐝 Bienengift dient als natürlicher Stoff zur Verringerung der Empfindlichkeit. Diese Formel enthält außerdem einen erhöhten Anteil an Kräutern, die bekanntermaßen die Flexibilität und Beweglichkeit verbessern. | ❄️🔥💪 Pferdebalsam mit Bienengift eignet sich zur Massage der Haut im Bereich beanspruchter Rücken und Gelenke. Dank der Verwendung einer speziellen Zutatenmischung kann dieser Balsam gleichzeitig ❄️ kühlen und wärmen 🔥. Dieser Effekt kann zu Beginn der Anwendung zu einer leichten Abkühlung führen, danach erwärmt sich die Haut jedoch und es stellt sich die gewünschte Durchblutung ein. | 🇨🇭 TRADITIONELLE SCHWEIZER REZEPTUR: Unser Pferdebalsam basiert auf einer traditionellen Schweizer Rezeptur, die über Generationen weitergegeben wurde. | 🔄 EINFACHE ANWENDUNG UND SCHNELLE AUFNAHME: Die gelartige Konsistenz ermöglicht eine schnelle Aufnahme in die Haut, sodass Sie sich keine Sorgen um Ihre Kleidung machen müssen. Einfach auf die gereinigte Haut der betroffenen Stelle einmassieren.",
-  "shortDescription": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräuter - gleichzeitig kühlen und wärmen - zur Massage",
+  "name": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern",
+  "slug": "swissmedicus-pferdebalsam-mit-bienengift-krautern",
+  "description": "Entdecken Sie die wohltuende Kraft des SwissMedicus Pferdebalsams, angereichert mit natürlichem Bienengift und einer einzigartigen Mischung aus 25 sorgfältig ausgewählten Kräutern. Dieser hochwirksame Balsam ist speziell entwickelt, um ein belebendes Kälte- und Wärmegefühl auf Ihrer Haut zu erzeugen. Ideal zur Linderung von Verspannungen und zur Förderung des Wohlbefindens von Rücken und Gelenken. Die erfrischende Kühlwirkung, gefolgt von einer angenehmen Wärme, unterstützt die Regeneration und belebt beanspruchte Körperpartien. Perfekt für den täglichen Gebrauch nach körperlicher Anstrengung oder als wohltuende Pflege für müde Muskeln und Gelenke. Vertrauen Sie auf die bewährte Naturkraft für Ihr Wohlbefinden.",
+  "shortDescription": "Wohltuender SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern – erfrischend kühlend & angenehm wärmend für Rücken & Gelenke. (75 ml)",
   "price": "10.0",
   "compareAtPrice": 11,
   "images": [
@@ -30,9 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den SwissMedicus-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern",
+    "description": "Wohltuender SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern – erfrischend kühlend & angenehm wärmend für Rücken & Gelenke. (75 ml)",
+    "keywords": [
+      "swissmedicus pferdebalsam mit bienengift & 25 kräutern",
+      "pferdesalbe zum einreiben",
+      "besuche den swissmedicus-store"
+    ],
+    "ogTitle": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern",
+    "ogDescription": "Wohltuender SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern – erfrischend kühlend & angenehm wärmend für Rücken & Gelenke. (75 ml)"
   },
   "reviews": {
     "averageRating": 4.6,
@@ -44,5 +50,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräutern – Kühlen & Wärmen für Rücken & Gelenke (75 ml)"
+  },
+  "faq": [
+    {
+      "q": "Wie wirkt der SwissMedicus Pferdebalsam?",
+      "a": "Der Balsam kombiniert die kühlende Wirkung von Menthol mit der wärmenden Komponente von Bienengift und einer Kräutermischung. Dies erzeugt ein intensives Kälte-Wärme-Gefühl, das die Durchblutung fördern und zur Linderung von Verspannungen beitragen kann."
+    },
+    {
+      "q": "Für welche Körperbereiche ist der Pferdebalsam geeignet?",
+      "a": "Der SwissMedicus Pferdebalsam ist ideal für die Anwendung auf Rücken und Gelenken, aber auch für andere beanspruchte Körperpartien geeignet."
+    },
+    {
+      "q": "Enthält der Balsam echte Bienengift-Extrakte?",
+      "a": "Ja, der SwissMedicus Pferdebalsam enthält echtes Bienengift als wichtigen Wirkstoff, der für seine wärmenden Eigenschaften bekannt ist."
+    },
+    {
+      "q": "Wie oft kann ich den Balsam anwenden?",
+      "a": "Der Balsam kann nach Bedarf mehrmals täglich auf die betroffenen Stellen aufgetragen werden. Eine Anwendung nach körperlicher Anstrengung oder bei beanspruchten Muskeln und Gelenken ist besonders empfehlenswert."
+    },
+    {
+      "q": "Ist der Balsam für empfindliche Haut geeignet?",
+      "a": "Obwohl der Balsam natürliche Inhaltsstoffe enthält, wird für empfindliche Haut oder bei bekannter Allergie gegen Bienenstiche eine vorherige Anwendung auf einer kleinen Hautstelle empfohlen."
+    }
+  ],
+  "originalName": "SwissMedicus Pferdebalsam mit Bienengift & 25 Kräuter – Kühlen & Wärmen für Rücken & Gelenke (75 ml)",
+  "enhancedAt": "2025-10-10T23:36:21.057560",
+  "enhanced": true
 }

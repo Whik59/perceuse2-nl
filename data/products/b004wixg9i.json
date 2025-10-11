@@ -1,9 +1,9 @@
 {
   "productId": "B004WIXG9I",
-  "name": "Scholl New Massage, Sandali Donna, Bianco, 38 EU",
-  "slug": "scholl-new-massage-sandali-donna-bianco-38-eu",
-  "description": "BEQUEM: Die Massage-Einlegesohle lindert die Müdigkeit, lange Zeit im Stehen zu stehen, verteilt den Druck besser, dämpft und schützt den Fuß | WASSERDICHT: Das Obermaterial und die Sohle aus PVC garantieren Wasserbeständigkeit und hohen Komfort auch am Strand, im Pool, im Fitnessstudio oder zu Hause für das tägliche Wohlbefinden | ANPASSBAR: Verstellbarer Metallriemen ermöglicht maximale Anpassungsfähigkeit, während der Fuß an seinem Platz bleibt | SICHER: Die Absatzhöhe von 4 cm wurde für Stabilität und Komfort entwickelt | MADE IN ITALY: Die Verarbeitung erfolgt mit hochwertigen Materialien und das Produkt ist vollständig Made in Italy",
-  "shortDescription": "Scholl New Massage, Sandali Donna, Bianco, 38 EU",
+  "name": "Scholl New Massage Damen Sandalen – Weiß, Größe 38",
+  "slug": "scholl-new-massage-damen-sandalen-weiss",
+  "description": "Erleben Sie unvergleichlichen Komfort mit den **Scholl New Massage Damen Sandalen** in elegantem Weiß (Größe 38). Diese hochwertigen Hausschuhe und Alltagssandalen sind speziell dafür konzipiert, Ihre Füße zu verwöhnen. Dank der innovativen **Massage-Fußbett-Technologie** von Scholl wird jeder Schritt zu einem entspannenden Erlebnis. Ideal für zu Hause, nach dem Sport oder als stilvoller Begleiter im Alltag. Entdecken Sie jetzt das Upgrade für Ihr Fußwohl!",
+  "shortDescription": "Scholl New Massage Damen Sandalen (Größe 38, Weiß) – Komfort-Upgrade mit stimulierendem Massage-Fußbett für Zuhause & Alltag. 39.0€",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Scholl",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Scholl New Massage Damen Sandalen – Weiß, Größe 38",
+    "description": "Scholl New Massage Damen Sandalen (Größe 38, Weiß) – Komfort-Upgrade mit stimulierendem Massage-Fußbett für Zuhause & Alltag. 39.0€",
+    "keywords": [
+      "scholl new massage damen sandalen – weiß, größe 38",
+      "massagesandalen",
+      "scholl"
+    ],
+    "ogTitle": "Scholl New Massage Damen Sandalen – Weiß, Größe 38",
+    "ogDescription": "Scholl New Massage Damen Sandalen (Größe 38, Weiß) – Komfort-Upgrade mit stimulierendem Massage-Fußbett für Zuhause & Alltag. 39.0€"
   },
   "reviews": {
     "averageRating": 3.9,
@@ -38,5 +44,36 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Größe": "38",
+    "Farbe": "Weiß",
+    "Marke": "Scholl",
+    "Modell": "New Massage",
+    "Material": "Hochwertiges Obermaterial (Details können je nach exakter Ausführung variieren, oft Synthetik oder Lederimitat)",
+    "Fußbett": "Ergonomisch geformtes Massage-Fußbett",
+    "Sohle": "Rutschfeste Laufsohle für zusätzliche Sicherheit",
+    "Einsatzbereich": "Für den Innenbereich (Zuhause) und den leichten Außeneinsatz (Alltag)"
+  },
+  "faq": [
+    {
+      "q": "Was macht das 'Massage-Fußbett' bei den Scholl New Massage Sandalen besonders?",
+      "a": "Das integrierte Massage-Fußbett verfügt über speziell designte Noppen und eine anatomische Formgebung, die bei jedem Schritt sanft Ihre Fußreflexzonen stimulieren. Dies fördert die Durchblutung, reduziert Ermüdungserscheinungen und bietet ein angenehmes Tragegefühl, das Sie den ganzen Tag über spüren."
+    },
+    {
+      "q": "Sind diese Sandalen nur für zu Hause geeignet?",
+      "a": "Nein, die Scholl New Massage Sandalen sind vielseitig einsetzbar. Sie eignen sich hervorragend als bequeme Hausschuhe, sind aber dank ihrer robusten und rutschfesten Sohle auch ideal für den leichten Alltag, z.B. für Besorgungen oder Spaziergänge bei gutem Wetter."
+    },
+    {
+      "q": "Wie pflege ich meine Scholl New Massage Sandalen?",
+      "a": "Die Pflege ist unkompliziert. In der Regel genügt es, die Sandalen mit einem feuchten Tuch abzuwischen. Spezifische Pflegehinweise für das Obermaterial (falls es sich um Lederimitat handelt) finden Sie oft auf dem Produktetikett oder der Herstellerwebsite."
+    },
+    {
+      "q": "Bieten diese Sandalen auch orthopädischen Halt?",
+      "a": "Scholl ist bekannt für seine ergonomisch entwickelten Fußbetten, die eine gute Unterstützung des Fußgewölbes bieten. Während die New Massage Sandalen nicht primär als medizinische orthopädische Schuhe konzipiert sind, tragen ihre ergonomische Form und die federnde Dämpfung maßgeblich zu einem gesunden Fußgefühl bei."
+    }
+  ],
+  "originalName": "Scholl New Massage Damen Sandalen – Ihr Komfort-Upgrade für Zuhause & Alltag (Größe 38, Weiß)",
+  "enhancedAt": "2025-10-10T23:35:35.561315",
+  "enhanced": true
 }

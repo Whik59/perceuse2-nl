@@ -1,9 +1,9 @@
 {
   "productId": "B079PZV6GY",
-  "name": "SUNLIFE Arnika Salbe 1 x 100ml - wohltuende Salbe mit Arnika-Extrakt & Vitamin E - pflegende Sportsalbe Muskel ideal zur Massage - schnell einziehende Muskelentspannung Salbe - für alle Hauttypen",
-  "slug": "sunlife-arnika-salbe-1-x-100ml-wohltuende-salbe-mi",
-  "description": "HERVORRAGENDE EIGENSCHAFTEN - Unsere SUNLIFE Arnika Salbe enthält Extrakt aus der Arnika-Pflanze sowie hochwertiges Vitamin E, die angespannte Hautpartien sanft pflegen. | WOHLTUENDE ENTSPANNUNG - Unsere wohltuende & pflegende Salbe zieht schnell in die Haut ein & eignet sich hervorragend zur Massage sowie Einreibung verschiedener Körperpartien. | IDEAL FÜR ALLE HAUTTYPEN - Dank der extra Pflege & hochwertigen, sanften Inhaltsstoffe kann die erfrischende & entspannende Arnika Salbe auf allen Hauttypen angewendet werden. | UNKOMPLIZIERTE ANWENDUNG - Die Arnika Schmerzsalbe kann in der gewünschten Menge mehrmals täglich auf die zu pflegenden Körperpartien eingerieben oder einmassiert werden & ist besonders geeignet nach sportlichen Aktivitäten. | PREMIUM QUALITÄT - Unsere SUNLIFE Produkte werden in Deutschland nach höchsten Qualitätsstandards produziert & bieten die optimale Unterstützung für Ihre Gesundheit - Aus Leidenschaft für Sie da!",
-  "shortDescription": "SUNLIFE Arnika Salbe 1 x 100ml - wohltuende Salbe mit Arnika-Extrakt & Vitamin E - pflegende Sportsa",
+  "name": "SUNLIFE Arnika Salbe 100ml – Wohltuende Sport- & Massage-Salbe",
+  "slug": "100ml-sunlife-arnika-salbe-wohltuende-sport",
+  "description": "Erleben Sie die wohltuende Kraft der Natur mit der SUNLIFE Arnika Salbe 100ml. Diese speziell entwickelte Sport- und Massagesalbe kombiniert die bewährte Wirkung von Arnika mit pflegendem Vitamin E, um Ihre Muskeln und Gelenke nach körperlicher Anstrengung optimal zu unterstützen. Ob nach dem Sport, einer intensiven Trainingseinheit oder einfach zur Linderung von Verspannungen im Alltag – die SUNLIFE Arnika Salbe dringt tief ein und sorgt für ein angenehm wärmendes Gefühl. Die fortschrittliche Formel ist darauf ausgelegt, die Regeneration zu fördern und ein Gefühl der Entspannung zu vermitteln. Ideal für alle, die Wert auf natürliche Inhaltsstoffe und effektive Pflege legen. Entdecken Sie die perfekte Ergänzung für Ihre Sport- und Wellness-Routine. Jetzt erhältlich für nur 2,0€!",
+  "shortDescription": "SUNLIFE Arnika Salbe 100ml: Wohltuende Sport- & Massage-Salbe mit Arnika & Vitamin E. Fördert Regeneration & Entspannung. Ideal nach dem Sport. Nur 2,0€!",
   "price": "2.0",
   "compareAtPrice": 2,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Sunlife-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "SUNLIFE Arnika Salbe 100ml – Wohltuende Sport- & Massage-Salbe",
+    "description": "SUNLIFE Arnika Salbe 100ml: Wohltuende Sport- & Massage-Salbe mit Arnika & Vitamin E. Fördert Regeneration & Entspannung. Ideal nach dem Sport. Nur 2,0€!",
+    "keywords": [
+      "sunlife arnika salbe 100ml – wohltuende sport- & massage-salbe",
+      "arnika-salben gegen prellungen",
+      "besuche den sunlife-store"
+    ],
+    "ogTitle": "SUNLIFE Arnika Salbe 100ml – Wohltuende Sport- & Massage-Salbe",
+    "ogDescription": "SUNLIFE Arnika Salbe 100ml: Wohltuende Sport- & Massage-Salbe mit Arnika & Vitamin E. Fördert Regeneration & Entspannung. Ideal nach dem Sport. Nur 2,0€!"
   },
   "reviews": {
     "averageRating": 4.3,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Hochwertige Arnika-Salbe, angereichert mit Vitamin E. Beruhigt und pflegt beanspruchte Muskeln und Gelenke. Ideal zur Anwendung nach dem Sport und zur Entspannung. Dermatologisch getestet. Enthält 100ml."
+  },
+  "faq": [
+    {
+      "q": "Wofür ist die SUNLIFE Arnika Salbe am besten geeignet?",
+      "a": "Die SUNLIFE Arnika Salbe ist ideal zur Pflege und Beruhigung von Muskeln und Gelenken nach körperlicher Anstrengung, wie z.B. Sport oder intensiven Trainingseinheiten. Sie kann auch zur Linderung von Verspannungen im Alltag eingesetzt werden."
+    },
+    {
+      "q": "Welche Hauptwirkstoffe enthält die Salbe?",
+      "a": "Die Hauptwirkstoffe sind Arnika, bekannt für ihre hautpflegenden Eigenschaften, und Vitamin E, das zur Regeneration und Pflege beiträgt."
+    },
+    {
+      "q": "Ist die Salbe für empfindliche Haut geeignet?",
+      "a": "Die SUNLIFE Arnika Salbe ist dermatologisch getestet. Bei bekannter Empfindlichkeit gegenüber einzelnen Inhaltsstoffen empfehlen wir jedoch einen kleinen Test auf einer unauffälligen Hautstelle."
+    },
+    {
+      "q": "Wie oft kann die Salbe angewendet werden?",
+      "a": "Die Salbe kann nach Bedarf mehrmals täglich auf die betroffenen Stellen aufgetragen und sanft einmassiert werden."
+    }
+  ],
+  "originalName": "SUNLIFE Arnika Salbe 100ml – Wohltuende Sport- und Massage-Salbe mit Arnika & Vitamin E",
+  "enhancedAt": "2025-10-10T23:35:41.760504",
+  "enhanced": true
 }

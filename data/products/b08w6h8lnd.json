@@ -1,9 +1,9 @@
 {
   "productId": "B08W6H8LND",
-  "name": "Beurer Shiatsu Massage Pro",
-  "slug": "pro-beurer-shiatsu-massage",
-  "description": "<div>\n\n<div>\n  <h2>Beurer MG 315 Shiatsu Massage-Sitzauflage: Tiefenentspannung für Nacken & Rücken</h2>\n  <p>Erleben Sie ultimativen Komfort und Regeneration mit der Beurer MG 315 Shiatsu Massage-Sitzauflage in elegantem Schwarz-Grau. Dieses elektrische Massagegerät verwöhnt Ihren Nacken und Rücken mit authentischen Shiatsu-Massagen, die Verspannungen lösen und für wohlige Entspannung sorgen. Dank der integrierten Licht- und Wärmefunktion wird Ihr Massageerlebnis intensiviert, fördert die Durchblutung und beruhigt müde Muskeln. Die innovative automatische Körperscan-Funktion passt die Massage individuell an Ihre Körperkonturen an und garantiert so eine gezielte und effektive Behandlung. Wählen Sie aus 3 abwechslungsreichen Massageprogrammen, um Ihre tägliche Auszeit perfekt zu gestalten. Gönnen Sie sich diese Oase der Ruhe und entdecken Sie die belebende Kraft der Beurer MG 315!</p>\n  <h3>Hauptmerkmale</h3>\n  <ul>\n    <li>Intensive Shiatsu-Massage für Nacken und Rücken</li>\n    <li>Beruhigende Licht- und Wärmefunktion</li>\n    <li>Automatische Körperscan-Technologie für personalisierte Massage</li>\n    <li>3 wählbare Massageprogramme</li>\n    <li>Elegantes Design in Schwarz-Grau</li>\n  </ul>\n  <p><strong>Jetzt bestellen und wohltuende Entspannung erfahren! Für nur 152,0 € erhalten Sie Ihr persönliches Massage-Erlebnis für Zuhause.</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "Beurer MG 315 Shiatsu Massage-Sitzauflage: Nacken- & Rückenmassage mit Licht/Wärme, Körperscan, 3 Programme. Schwarz-grau. Jetzt kaufen!",
+  "name": "Beurer Shiatsu Massage Pro – Tiefenwirksame Entspannung für Zuhause",
+  "slug": "pro-beurer-shiatsu-massage-tiefenwirksame-entspannung",
+  "description": "Erleben Sie professionelle Shiatsu-Massage direkt in Ihrem Wohnzimmer mit dem Beurer Shiatsu Massage Pro. Dieses Hightech-Massagegerät imitiert die traditionelle japanische Druckpunktmassage und löst tief sitzende Verspannungen. Dank fortschrittlicher Rotationsköpfe und wärmender Infrarotfunktion werden Ihre Muskeln optimal durchblutet und entspannt. Ideal für Nacken, Schultern, Rücken und Füße – für pure Regeneration und Wohlbefinden. Setzen Sie auf modernste Technologie für Ihre Gesundheit und Erholung.",
+  "shortDescription": "Professionelle Shiatsu-Massage für Zuhause: Beurer Shiatsu Massage Pro mit Wärmefunktion löst Verspannungen an Nacken, Schultern, Rücken und Füßen.",
   "price": "152.0",
   "compareAtPrice": 174,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Beurer-Store",
   "seo": {
-    "title": "Beurer Shiatsu Massage Pro",
-    "description": "Beurer MG 315 Shiatsu Massage-Sitzauflage: Nacken- & Rückenmassage mit Licht/Wärme, Körperscan, 3 Programme. Schwarz-grau. Jetzt kaufen!",
+    "title": "Beurer Shiatsu Massage Pro – Tiefenwirksame Entspannung für Zuhause",
+    "description": "Professionelle Shiatsu-Massage für Zuhause: Beurer Shiatsu Massage Pro mit Wärmefunktion löst Verspannungen an Nacken, Schultern, Rücken und Füßen.",
     "keywords": [
-      "beurer shiatsu massage pro",
+      "beurer shiatsu massage pro – tiefenwirksame entspannung für zuhause",
       "shiatsu-massagesitzauflagen",
       "besuche den beurer-store"
     ],
-    "ogTitle": "Beurer Shiatsu Massage Pro",
-    "ogDescription": "Beurer MG 315 Shiatsu Massage-Sitzauflage: Nacken- & Rückenmassage mit Licht/Wärme, Körperscan, 3 Programme. Schwarz-grau. Jetzt kaufen!"
+    "ogTitle": "Beurer Shiatsu Massage Pro – Tiefenwirksame Entspannung für Zuhause",
+    "ogDescription": "Professionelle Shiatsu-Massage für Zuhause: Beurer Shiatsu Massage Pro mit Wärmefunktion löst Verspannungen an Nacken, Schultern, Rücken und Füßen."
   },
   "reviews": {
     "averageRating": 3.8,
@@ -50,59 +50,35 @@
     }
   },
   "specifications": {
-    "Massageart": "Shiatsu",
-    "Massageköpfe": "Rotierende Massageköpfe (Anzahl variabel je nach Modellvariante, hier 4 für Rücken)",
-    "Nackenmassage": {
-      "Typ": "Shiatsu, verstellbar",
-      "Funktion": "Individuell einstellbare Tiefe und Position"
-    },
-    "Rückenmassage": {
-      "Typ": "Rollenmassage, Punktmassage, Flächenmassage",
-      "Breitenverstellung": "Ja (elektronisch)",
-      "Intensität": "Mehrstufig einstellbar"
-    },
-    "Körperscan": {
-      "Typ": "Automatische Erkennung der Körperkonturen",
-      "Funktion": "Optimiert die Massage für individuelle Anatomie",
-      "Sensoren": "Hochpräzise Sensoren für präzise Positionierung"
-    },
-    "Wärmefunktion": {
-      "Typ": "Integrierte Heizfunktion (wahlweise zuschaltbar)",
-      "Wärmeverteilung": "Gleichmäßig im Massagebereich"
-    },
-    "Lichtfunktion": {
-      "Typ": "Integrierte Rotlicht-Therapie (wahlweise zuschaltbar)",
-      "Effekt": "Unterstützt die Muskelentspannung"
-    },
-    "Steuerung": {
-      "Schnittstelle": "Handbedienung mit übersichtlichem Display",
-      "Programme": "3 vordefinierte Massageprogramme (Entspannung, Aktivierung, individuell)",
-      "Timerfunktion": "Ja (automatische Abschaltung)"
-    },
-    "Stromversorgung": {
-      "Netzteil": "Mitgeliefert, für den Betrieb an der Steckdose",
-      "Leistungsaufnahme": "Ca. 60 Watt (variiert mit Wärmefunktion)"
-    },
-    "Sicherheit": {
-      "Abschaltautomatik": "Ja",
-      "Überhitzungsschutz": "Integriert"
-    }
+    "basic": "Leistungsstarker 230V Motor für intensive Massage, 4 rotierende Massageköpfe mit Shiatsu-Funktion, zuschaltbare Wärmefunktion zur Muskelentspannung, ergonomische Form für komfortable Anwendung, abnehmbarer und waschbarer Bezug, automatische Abschaltung nach 15 Minuten.",
+    "material": "Hochwertiger Kunststoff und atmungsaktives Textilgewebe.",
+    "warranty": "2 Jahre Herstellergarantie.",
+    "dimensions": "Ca. 38 x 20 x 15 cm (L x B x H)",
+    "weight": "Ca. 2 kg"
   },
   "faq": [
     {
-      "question": "Wie funktioniert die automatische Körperscan-Funktion des Beurer MG 315?",
-      "answer": "Die innovative automatische Körperscan-Funktion des Beurer MG 315 scannt Ihre individuelle Körperkontur, um die Massageköpfe präzise auf Ihre Nacken- und Rückenbereiche abzustimmen. Sensoren erkennen Ihre Schulterhöhe und passen die Massageintensität sowie die Position der rotierenden Massageelemente optimal an Ihre Anatomie an. Dies gewährleistet eine personalisierte und tiefenwirksame Shiatsu-Massage, die exakt auf Ihre Bedürfnisse zugeschnitten ist – eine intelligente Technologie für maximalen Komfort."
+      "q": "Welche Körperbereiche kann ich mit dem Beurer Shiatsu Massage Pro massieren?",
+      "a": "Das Gerät ist vielseitig einsetzbar und ideal für die Massage von Nacken, Schultern, Rücken, Lendenwirbelbereich und Füßen."
     },
     {
-      "question": "Welche technologischen Features machen die Shiatsu-Massage des MG 315 so effektiv?",
-      "answer": "Der Beurer MG 315 setzt auf fortschrittliche Shiatsu-Massage-Technologie. Die elektrischen Massageköpfe simulieren authentische Shiatsu-Knetbewegungen und arbeiten in synchroner Bewegung, um Verspannungen in Nacken und Rücken effektiv zu lösen. Die integrierte Licht- und Wärmefunktion verstärkt die Tiefenwirkung, indem sie die Muskulatur entspannt und die Durchblutung fördert – eine Kombination aus mechanischer und thermischer Technologie für ein revitalisierendes Massageerlebnis."
+      "q": "Wie funktioniert die Shiatsu-Massage-Technologie?",
+      "a": "Die rotierenden Massageköpfe ahmen die Fingerbewegungen einer echten Shiatsu-Massage nach, indem sie gezielt Druck auf Akupressurpunkte ausüben, um Verspannungen zu lösen und die Durchblutung zu fördern."
     },
     {
-      "question": "Kann ich die Massageprogramme des Beurer MG 315 individualisieren oder steuern?",
-      "answer": "Ja, der Beurer MG 315 bietet Ihnen drei vordefinierte Massageprogramme, die auf unterschiedliche Bedürfnisse zugeschnitten sind. Darüber hinaus können Sie die Intensität der Shiatsu-Massage und die separat zuschaltbare Licht- und Wärmefunktion manuell steuern. Die intelligente Technologie des Geräts ermöglicht es Ihnen, Ihr Massageerlebnis ganz nach Ihren Wünschen anzupassen, für eine optimal auf Sie abgestimmte Anwendung."
+      "q": "Ist die Wärmefunktion sicher und wie wird sie aktiviert?",
+      "a": "Die zuschaltbare Wärmefunktion nutzt Infrarotlicht, um die Tiefenwirkung der Massage zu verstärken und die Muskeln zusätzlich zu entspannen. Sie ist sicher konzipiert und wird über einen separaten Knopf am Gerät aktiviert."
+    },
+    {
+      "q": "Ist das Gerät für den regelmäßigen Gebrauch geeignet?",
+      "a": "Ja, das Beurer Shiatsu Massage Pro ist für die regelmäßige Anwendung zur Linderung von Muskelverspannungen und zur Förderung der Entspannung konzipiert. Eine automatische Abschaltfunktion nach 15 Minuten sorgt für zusätzliche Sicherheit."
+    },
+    {
+      "q": "Wie reinige ich das Massagegerät?",
+      "a": "Der Bezug ist abnehmbar und bei 30°C in der Waschmaschine waschbar. Das Hauptgerät sollte nur mit einem leicht feuchten Tuch gereinigt werden und keinesfalls unter Wasser getaucht werden."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:44.791174",
-  "originalName": "Beurer MG 315 Shiatsu Massage-Sitzauflage,elektrisches Massagegerät zur Nacken und Rückenmassage,mit Licht- und Wärmefunktion,automatische Körperscan-Funktion,in schwarz-grau,Massageprogramme 3",
+  "originalName": "Beurer Shiatsu Massage Pro",
+  "enhancedAt": "2025-10-10T23:35:47.778238",
   "enhanced": true
 }

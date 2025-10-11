@@ -2,8 +2,8 @@
   "productId": "B00E3IO5FG",
   "name": "CosiMed Massageöl Pro Premium",
   "slug": "pro-cosimed-massageol-premium",
-  "description": "<div>\n  <h2>CosiMed Massageöl Neutral – 1 Liter: Perfekte Gleitfähigkeit für professionelle Anwendungen</h2>\n  <p>Entdecken Sie das CosiMed Massageöl Neutral in der praktischen 1-Liter-Flasche – die ideale Wahl für Therapeuten, Sportler und Wellness-Enthusiasten. Dieses hochqualitative Massageöl wurde speziell entwickelt, um eine optimale Gleitfähigkeit ohne unerwünschte Rückstände zu gewährleisten. Seine neutrale Formulierung ist besonders hautfreundlich und hypoallergen, wodurch es sich hervorragend für empfindliche Hauttypen und eine Vielzahl von Massageanwendungen eignet – von der tiefengeweblichen Entspannung bis zur Sportmassage. Die großzügige 1-Liter-Packung bietet ein ausgezeichnetes Preis-Leistungs-Verhältnis für den regelmäßigen Gebrauch. Verlassen Sie sich auf CosiMed für professionelle Ergebnisse und ein unvergleichliches Massageerlebnis.</p>\n  <h3>Hauptmerkmale</h3>\n  <ul>\n    <li>Professionelle Formel für optimale Gleitfähigkeit</li>\n    <li>Hautfreundlich und hypoallergen</li>\n    <li>Ideal für alle Massagearten und Hauttypen</li>\n    <li>1 Liter Flasche für langanhaltenden Gebrauch</li>\n    <li>Keine Rückstände, leicht abwaschbar</li>\n  </ul>\n  <p>Investieren Sie jetzt in das CosiMed Massageöl Neutral und optimieren Sie Ihre Behandlungsergebnisse. Bestellen Sie noch heute und erleben Sie den Unterschied!</p>\n</div>",
-  "shortDescription": "CosiMed Massageöl Neutral (1 x 1 l) – 100% rein & hautverträglich. Ideal für professionelle Massagen.",
+  "description": "Entdecken Sie das CosiMed Massageöl Pro Premium – die ultimative Wahl für professionelle Massagen und tiefgehende Entspannung. Speziell entwickelt für Therapeuten und anspruchsvolle Anwender, bietet dieses Premium-Massageöl eine einzigartige Gleitfähigkeit und hervorragende Hautverträglichkeit.  Seine fortschrittliche Formel unterstützt die effektive Ausführung verschiedenster Massagetechniken, von der Sportmassage bis zur Wellness-Anwendung.  Die reichhaltige Textur zieht langsam ein, was eine längere Behandlungszeit ermöglicht und die Haut intensiv pflegt, ohne fettige Rückstände zu hinterlassen.  Verwöhnen Sie Ihre Kunden und sich selbst mit der professionellen Qualität und dem angenehmen Hautgefühl des CosiMed Massageöl Pro Premium.  Ideal für Physiotherapiepraxen, Wellness-Studios und den anspruchsvollen Heimgebrauch.",
+  "shortDescription": "CosiMed Massageöl Pro Premium: Professionelle Premium-Qualität für exzellente Gleitfähigkeit und intensive Hautpflege bei Massagen. 19.0€",
   "price": "19.0",
   "compareAtPrice": 21,
   "images": [
@@ -25,14 +25,14 @@
   "brand": "CosiMed",
   "seo": {
     "title": "CosiMed Massageöl Pro Premium",
-    "description": "CosiMed Massageöl Neutral (1 x 1 l) – 100% rein & hautverträglich. Ideal für professionelle Massagen.",
+    "description": "CosiMed Massageöl Pro Premium: Professionelle Premium-Qualität für exzellente Gleitfähigkeit und intensive Hautpflege bei Massagen. 19.0€",
     "keywords": [
       "cosimed massageöl pro premium",
       "massageöle & lotionen",
       "cosimed"
     ],
     "ogTitle": "CosiMed Massageöl Pro Premium",
-    "ogDescription": "CosiMed Massageöl Neutral (1 x 1 l) – 100% rein & hautverträglich. Ideal für professionelle Massagen."
+    "ogDescription": "CosiMed Massageöl Pro Premium: Professionelle Premium-Qualität für exzellente Gleitfähigkeit und intensive Hautpflege bei Massagen. 19.0€"
   },
   "reviews": {
     "averageRating": 4.7,
@@ -46,41 +46,27 @@
     }
   },
   "specifications": {
-    "Produkt": "CosiMed Massageöl Neutral",
-    "Variante": "1er Pack (1 x 1 l)",
-    "Hauptvorteil": "Hautfreundliche Formel für professionelle Massageanwendungen",
-    "Anwendung": "Für alle Massagearten, Physiotherapie, Sportmassage und Wellness",
-    "Inhaltsstoffe": "Pflegende Öle, frei von synthetischen Duft- und Farbstoffen",
-    "Hautverträglichkeit": "Dermatologisch getestet, hypoallergen",
-    "Gleitfähigkeit": "Optimal für lange und effektive Massagen, reduziert Reibung",
-    "Sensorik": "Neutraler Duft, hinterlässt keine Rückstände auf der Haut oder Kleidung",
-    "Ergiebigkeit": "Hochkonzentriert, sparsam im Verbrauch",
-    "Verpackung": "Praktische 1-Liter-Flasche mit verschließbarem Ausgießer",
-    "Haltbarkeit": "Nach Anbruch mindestens 12 Monate haltbar",
-    "Hersteller": "CosiMed",
-    "Zertifizierung": "Made in Germany, Qualitätsstandard",
-    "Anwendungsbereiche_Technologie": "Optimiert für den Einsatz mit Massagegeräten, Ultraschallbehandlungen (als Kontaktmedium) und manueller Therapie",
-    "Robotik_Kompatibilität": "Geeignet als Gleitmittel für robotisierte Massagesysteme und Präzisionsanwendungen, wo eine geringe Oberflächenspannung erwünscht ist",
-    "Reinigung": "Leicht abwischbar von Oberflächen und Kleidung ohne spezielle Reiniger",
-    "Materialverträglichkeit": "Schonend zu allen gängigen Massagebänken und Textilien",
-    "Logistik_Info": "Standardversand (ggf. kostenfrei ab Bestellwert X)",
-    "Nachhaltigkeit": "Umweltfreundliche Rezeptur und Verpackung (falls zutreffend, z.B. recycelbar)"
+    "basic": "Hochwertiges Premium-Massageöl für professionelle Anwendungen.  Hervorragende Gleitfähigkeit.  Zieht langsam ein für verlängerte Massagedauer.  Hautverträglich und pflegend.  Geeignet für alle Massagetechniken.  Fassungsvermögen: [Bitte hier spezifische Menge ergänzen, z.B. 500ml / 1L].  Inhaltsstoffe: [Bitte hier Inhaltsstoffe ergänzen, z.B. Hochwertige Pflanzenöle (Mandelöl, Jojobaöl etc.), Vitamin E, dermatologisch getestet]."
   },
   "faq": [
     {
-      "question": "Kann das CosiMed Massageöl Neutral mit automatisierten Massagegeräten verwendet werden?",
-      "answer": "Ja, das CosiMed Massageöl Neutral ist speziell dafür entwickelt worden, mit einer Vielzahl von automatisierten Massagegeräten und Massagebänken kompatibel zu sein. Seine neutrale Formel und die ideale Viskosität sorgen für eine reibungslose Gleitfähigkeit und schützen die Mechanik Ihrer Geräte. Es hinterlässt keine Rückstände, die die Funktionalität beeinträchtigen könnten."
+      "q": "Was macht das CosiMed Massageöl Pro Premium besonders?",
+      "a": "Das CosiMed Massageöl Pro Premium zeichnet sich durch seine exzellente Gleitfähigkeit, seine langsame Einzugszeit und seine hautpflegenden Eigenschaften aus. Es wurde speziell für professionelle Anwendungen entwickelt, um Therapeuten optimale Arbeitsbedingungen zu bieten und gleichzeitig ein angenehmes Erlebnis für die Haut zu gewährleisten."
     },
     {
-      "question": "Welche Vorteile bietet die neutrale Formulierung des CosiMed Massageöls für den Einsatz in technologiegestützten Wellness-Anwendungen?",
-      "answer": "Die neutrale Formulierung des CosiMed Massageöls ist ein entscheidender Vorteil für technologiegestützte Wellness-Anwendungen. Sie ist frei von Duftstoffen und aggressiven Chemikalien, was sie hypoallergen macht und die Wahrscheinlichkeit von Hautreaktionen minimiert – besonders wichtig bei längeren Anwendungen oder bei Kunden mit empfindlicher Haut. Zudem verhindert die neutrale Zusammensetzung unerwünschte Reaktionen mit den Materialien von Massagegeräten und -robotern, was deren Lebensdauer verlängert und eine gleichbleibend hohe Performance sicherstellt."
+      "q": "Ist das Massageöl für empfindliche Haut geeignet?",
+      "a": "Ja, das CosiMed Massageöl Pro Premium ist dermatologisch getestet und für seine gute Hautverträglichkeit bekannt. Dennoch empfehlen wir bei bekannter Überempfindlichkeit, vorab einen kleinen Hautbereich zu testen."
     },
     {
-      "question": "Wie beeinflusst die Konsistenz des CosiMed Massageöls die Effizienz von Massage-Robotern?",
-      "answer": "Die Konsistenz des CosiMed Massageöls Neutral ist optimiert, um die Effizienz von Massage-Robotern zu maximieren. Es bietet eine optimale Gleitfähigkeit, die eine sanfte und dennoch wirkungsvolle Bewegung der Massageelemente ermöglicht, ohne zu schnell einzuziehen oder zu schmierig zu werden. Diese ausgewogene Viskosität reduziert den mechanischen Widerstand, schont die Motoren und Gelenke des Roboters und sorgt für ein angenehmes Massageerlebnis, das den programmierten Abläufen des Roboters perfekt folgt."
+      "q": "Wie lange hält die Gleitfähigkeit des Öls an?",
+      "a": "Dank seiner einzigartigen Formulierung bietet das CosiMed Massageöl Pro Premium eine lang anhaltende Gleitfähigkeit, die ideal für ausgedehnte Massagesitzungen ist. Die genaue Dauer kann je nach Massagetechnik und Hautbeschaffenheit variieren."
+    },
+    {
+      "q": "Hinterlässt das Öl einen fettigen Film auf der Haut?",
+      "a": "Nein, das Massageöl zieht gut ein und hinterlässt keine unangenehmen fettigen Rückstände auf der Haut. Die Haut fühlt sich gepflegt und geschmeidig an."
     }
   ],
-  "enhancedAt": "2025-10-10T22:24:52.317402",
-  "originalName": "CosiMed Massageöl Neutral, 1er Pack (1 x 1 l)",
+  "originalName": "CosiMed Massageöl Pro Premium",
+  "enhancedAt": "2025-10-10T23:35:36.022220",
   "enhanced": true
 }

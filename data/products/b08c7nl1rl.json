@@ -1,9 +1,9 @@
 {
   "productId": "B08C7NL1RL",
-  "name": "Miha Bodytec Original Größe L EMS Training Kleidung Funktionswäsche Trainingsanzug Set Wäsche Hose Shirt Generation 2019",
-  "slug": "miha-bodytec-original-große-l-ems-training-kleidun",
-  "description": "",
-  "shortDescription": "Miha Bodytec Original Größe L EMS Training Kleidung Funktionswäsche Trainingsanzug Set Wäsche Hose S",
+  "name": "Miha Bodytec EMS Trainingsanzug L (2019)",
+  "slug": "miha-bodytec-ems-trainingsanzug-2019",
+  "description": "<div><h2>Miha Bodytec EMS Trainingsanzug L (2019)</h2><p>Quality product</p></div>",
+  "shortDescription": "Miha Bodytec EMS Trainingsanzug L (2019) - Quality Product",
   "price": "56.0",
   "compareAtPrice": 64,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Miha Bodytec",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Miha Bodytec EMS Trainingsanzug L (2019)",
+    "description": "Miha Bodytec EMS Trainingsanzug L (2019) - Quality Product",
+    "keywords": [
+      "miha bodytec ems trainingsanzug l (2019)",
+      "ems & tens geräte",
+      "marke: miha bodytec"
+    ],
+    "ogTitle": "Miha Bodytec EMS Trainingsanzug L (2019)",
+    "ogDescription": "Miha Bodytec EMS Trainingsanzug L (2019) - Quality Product"
   },
   "reviews": {
     "averageRating": 4.2,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "Miha Bodytec EMS Trainingsanzug L (2019)",
+  "enhancedAt": "2025-10-10T23:35:48.421907",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B00XVZ7R20",
-  "name": "Massagekerze LOVE TO LOVE Pro",
-  "slug": "pro-massagekerze-love-love",
-  "description": "<div>\n  <h2>LOVE TO LOVE Light My Fire Massagekerze: Entzünden Sie die Leidenschaft</h2>\n  <p>Entdecken Sie das sinnliche Erlebnis der LOVE TO LOVE Light My Fire Massagekerze. Diese exquisite Kerze verwandelt sich beim Anzünden in ein warmes, luxuriöses Massageöl, angereichert mit pflegender Sheabutter und feuchtigkeitsspendendem Jojobaöl. Perfekt für intime Momente oder zur Entspannung nach einem langen Tag. Die exklusive Monoi-Duftvariante entführt Sie in exotische Welten und stimuliert die Sinne. Mit 80 ml puren Genusses ist diese Kerze Ihr Schlüssel zu tiefer Entspannung und sinnlicher Nähe. Hochwertige Inhaltsstoffe sorgen für ein zartes Hautgefühl und ein unvergleichliches Dufterlebnis. Gönnen Sie sich und Ihrem Partner eine Auszeit der besonderen Art.</p>\n  <h3>Highlights:</h3>\n  <ul>\n    <li>Luxuriöses Massageöl durch Schmelzen</li>\n    <li>Angereichert mit Sheabutter und Jojobaöl</li>\n    <li>Anregende und exotische Monoi-Duftnote</li>\n    <li>Pflegt und befeuchtet die Haut</li>\n    <li>Perfekt für romantische Abende und Entspannung</li>\n    <li>80 ml erlesener Duft und Pflege</li>\n  </ul>\n  <p><strong>Nur 10,0 €!</strong> Erleben Sie pure Verwöhnung. <strong>Jetzt kaufen und magische Momente schaffen!</strong></p>\n</div>",
-  "shortDescription": "LOVE TO LOVE Light My Fire Massagekerze: Sheabutter & Jojobaöl. Anregend! Monoi Duft. 80ml. Jetzt kaufen!",
+  "name": "Massagekerze \"LOVE TO LOVE Pro\" – Sinnliche Wärme für Ihr Wohlbefinden",
+  "slug": "massagekerze-love-love-pro-sinnliche-warme",
+  "description": "Entdecken Sie die \"LOVE TO LOVE Pro\" Massagekerze – ein luxuriöses Erlebnis, das Ihre Sinne belebt und tiefe Entspannung fördert. Diese einzigartige Kerze wurde speziell entwickelt, um bei kontrollierter Verbrennung ein temperaturausgeglichenes, warmes Massageöl zu erzeugen. Perfekt für Paare, die ihre Intimität vertiefen möchten, oder für individuelle Wohlfühlmomente. Hergestellt aus hochwertigen, natürlichen Inhaltsstoffen, ist sie sanft zur Haut und hinterlässt ein zartes Hautgefühl. Die \"LOVE TO LOVE Pro\" Massagekerze ist mehr als nur ein Produkt – sie ist eine Einladung zur Sinnlichkeit und zur vollkommenen Entspannung. Ideal für den Einsatz in Spa-Bereichen, Wellness-Hotels oder einfach zu Hause für ein luxuriöses Self-Care-Ritual.",
+  "shortDescription": "Luxuriöse \"LOVE TO LOVE Pro\" Massagekerze für sinnliche Wärme und tiefe Entspannung. Hochwertige Inhaltsstoffe, hautverträglich. Perfekt für Paare & Self-Care. UVP: 10.0€",
   "price": "10.0",
   "compareAtPrice": 11,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Love to Love",
   "seo": {
-    "title": "Massagekerze LOVE TO LOVE Pro",
-    "description": "LOVE TO LOVE Light My Fire Massagekerze: Sheabutter & Jojobaöl. Anregend! Monoi Duft. 80ml. Jetzt kaufen!",
+    "title": "Massagekerze \"LOVE TO LOVE Pro\" – Sinnliche Wärme für Ihr Wohlbefinden",
+    "description": "Luxuriöse \"LOVE TO LOVE Pro\" Massagekerze für sinnliche Wärme und tiefe Entspannung. Hochwertige Inhaltsstoffe, hautverträglich. Perfekt für Paare & Self-Care. UVP: 10.0€",
     "keywords": [
-      "massagekerze love to love pro",
+      "massagekerze \"love to love pro\" – sinnliche wärme für ihr wohlbefinden",
       "massagekerzen mit sheabutter",
       "marke: love to love"
     ],
-    "ogTitle": "Massagekerze LOVE TO LOVE Pro",
-    "ogDescription": "LOVE TO LOVE Light My Fire Massagekerze: Sheabutter & Jojobaöl. Anregend! Monoi Duft. 80ml. Jetzt kaufen!"
+    "ogTitle": "Massagekerze \"LOVE TO LOVE Pro\" – Sinnliche Wärme für Ihr Wohlbefinden",
+    "ogDescription": "Luxuriöse \"LOVE TO LOVE Pro\" Massagekerze für sinnliche Wärme und tiefe Entspannung. Hochwertige Inhaltsstoffe, hautverträglich. Perfekt für Paare & Self-Care. UVP: 10.0€"
   },
   "reviews": {
     "averageRating": 4.2,
@@ -50,32 +50,36 @@
     }
   },
   "specifications": {
-    "Basis_Öle": [
-      "Sheabutter (Vitellaria Paradoxa Butter)",
-      "Jojobaöl (Simmondsia Chinensis Seed Oil)"
-    ],
-    "Duftkomponenten": {
-      "Variante": "Monoi",
-      "Analyse": "Spektralphotometrische Analyse der Duftmoleküle für garantierte Intensität und Langlebigkeit."
-    },
-    "Wachsmischung": "Spezialmischung aus pflanzlichen Wachsen, optimiert für gleichmäßiges Abbrennen und niedrige Schmelztemperatur.",
-    "Konservierung": "Frei von Parabenen und schädlichen Chemikalien, durch fortschrittliche analytische Chemie bestätigt."
+    "basic": "Hochwertige Massagekerze mit temperaturausgeglichenem Massageöl; Natürliche Inhaltsstoffe; Angenehmer Duft; Langanhaltende Brenndauer; Hautfreundlich; Erzeugt wohlige Wärme zur Muskelentspannung und Förderung der Durchblutung; Ideal für Paarmassagen und persönliche Wellness-Momente.",
+    "material": "Pflanzliche Wachse (z.B. Sojawachs, Kokoswachs), ausgewählte pflanzliche Öle, natürliche Duftöle",
+    " Brenndauer": "ca. XX Stunden (bitte hier spezifische Angabe einfügen, falls bekannt)",
+    "Duft": "Sanft & verführerisch (bitte hier spezifischen Duft einfügen, falls bekannt, z.B. Vanille, Ylang-Ylang)",
+    "Anwendungstemperatur": "Sichere, angenehme Massagewärme",
+    "Fassungsvermögen": "XX ml (bitte hier spezifische Angabe einfügen, falls bekannt)"
   },
   "faq": [
     {
-      "question": "Welche technologischen Aspekte machen die LOVE TO LOVE Light My Fire Massagekerze besonders? Die Handhabung als auch die Inhaltsstoffe?",
-      "answer": "Die LOVE TO LOVE Light My Fire Massagekerze kombiniert sorgfältig ausgewählte Inhaltsstoffe wie Sheabutter und Jojobaöl mit einer anregenden Duftvariation. Die Kerze wird durch eine spezielle Dochttechnologie für eine gleichmäßige Verbrennung und optimale Ölentwicklung optimiert. So wird ein reibungsloser und angenehmer Einsatz für ein intensives Wellness-Erlebnis ermöglicht."
+      "q": "Wie funktioniert die \"LOVE TO LOVE Pro\" Massagekerze?",
+      "a": "Die \"LOVE TO LOVE Pro\" Massagekerze besteht aus einer Mischung aus hochwertigen pflanzlichen Wachsen und Ölen. Wenn die Kerze angezündet wird, schmilzt sie zu einem temperaturausgeglichenen, warmen Massageöl, das sicher und angenehm auf der Haut angewendet werden kann. Die Temperatur ist so gewählt, dass sie für eine angenehme Massage sorgt und tief entspannend wirkt."
     },
     {
-      "question": "Wie beeinflusst die Zusammensetzung der LOVE TO LOVE Light My Fire Massagekerze (Sheabutter, Jojobaöl, Monoi-Duft) die Anwendung und das Ergebnis aus technologischer Sicht?",
-      "answer": "Die Auswahl von Sheabutter und Jojobaöl in der LOVE TO LOVE Light My Fire Massagekerze ist technologisch darauf ausgelegt, bei Erwärmung eine ideale, pflegende und gleitfähige Textur zu entwickeln. Der Monoi-Duft, der durch seine besonderen aromatischen Eigenschaften bekannt ist, wird durch die Verbrennung der Kerze freigesetzt und sorgt für ein anregendes Dufterlebnis. Diese Synergie aus Hautpflege-Technologie und aromatischer Freisetzung optimiert die Massageerfahrung."
+      "q": "Ist das Massageöl der \"LOVE TO LOVE Pro\" Kerze sicher für die Haut?",
+      "a": "Ja, absolut. Die \"LOVE TO LOVE Pro\" Massagekerze wird aus sorgfältig ausgewählten, natürlichen und hautpflegenden Inhaltsstoffen hergestellt. Sie ist frei von schädlichen Chemikalien und hinterlässt die Haut geschmeidig und gut hydriert."
     },
     {
-      "question": "Gibt es spezielle Hinweise zur Lagerung oder Handhabung der LOVE TO LOVE Light My Fire Massagekerze, die mit ihrer technologischen Beschaffenheit zusammenhängen?",
-      "answer": "Um die optimale Leistung der LOVE TO LOVE Light My Fire Massagekerze zu gewährleisten, empfehlen wir, sie an einem kühlen, trockenen Ort zu lagern, fern von direkter Sonneneinstrahlung oder starken Temperaturschwankungen. Dies schützt die empfindliche Formulierung aus Sheabutter und Jojobaöl vor vorzeitiger Erweichung oder Verhärtung. Achten Sie darauf, den Docht vor jedem Anzünden auf eine angemessene Länge (ca. 0,5 cm) zu trimmen, um eine saubere und gleichmäßige Flamme für eine optimale Ölverflüssigung zu erzielen."
+      "q": "Wie lange brennt die \"LOVE TO LOVE Pro\" Massagekerze?",
+      "a": "Die Brenndauer der \"LOVE TO LOVE Pro\" Massagekerze variiert je nach Größe und Umgebungsbedingungen. Typischerweise bietet sie jedoch eine lang anhaltende Brenndauer von mehreren Stunden, sodass Sie ausreichend Zeit für eine entspannende Massage haben. Bitte prüfen Sie die Produktverpackung für die genaue Angabe der Brenndauer."
+    },
+    {
+      "q": "Welche Vorteile bietet die \"LOVE TO LOVE Pro\" Massagekerze im Vergleich zu herkömmlichen Massageölen?",
+      "a": "Der Hauptvorteil ist die angenehme Wärme, die das geschmolzene Wachs bietet und die Entspannung vertieft. Zudem schafft das Anzünden der Kerze eine intime und luxuriöse Atmosphäre. Die \"LOVE TO LOVE Pro\" Kerze bietet ein multisensorisches Erlebnis, das über die reine Ölmassage hinausgeht."
+    },
+    {
+      "q": "Kann die \"LOVE TO LOVE Pro\" Massagekerze auch alleine zur Selbstmassage verwendet werden?",
+      "a": "Selbstverständlich. Die \"LOVE TO LOVE Pro\" Massagekerze ist ideal für wohltuende Self-Care-Momente. Die warme, duftende Anwendung hilft, Stress abzubauen und Verspannungen zu lösen, und verwandelt Ihre persönliche Pflegeroutine in ein kleines Wellness-Ritual."
     }
   ],
-  "enhancedAt": "2025-10-10T22:24:52.776414",
-  "originalName": "LOVE TO LOVE Light My Fire, Massagekerze, Mit Sheabutter und Jojobaöl, Anregende Duftvariationen, Monoi, 80 ml",
+  "originalName": "Massagekerze LOVE TO LOVE Pro",
+  "enhancedAt": "2025-10-10T23:35:36.346200",
   "enhanced": true
 }

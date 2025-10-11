@@ -1,9 +1,9 @@
 {
   "productId": "B0BVMKFKJN",
-  "name": "Beurer Shiatsu Pro Nackenmassage",
-  "slug": "pro-beurer-shiatsu-nackenmassage",
-  "description": "<div>\n\n<div>\n  <h2>Beurer MG 330 Shiatsu-Massagesitzauflage: Tiefenentspannung für Ihren Rücken</h2>\n  <p>Erleben Sie wohltuende Shiatsu-Massagen bequem zu Hause mit der Beurer MG 330 Massagesitzauflage. Diese innovative Auflage bietet Ihnen drei wählbare Massagebereiche und zwei Intensitätsstufen, um Verspannungen gezielt zu lösen. Genießen Sie eine tiefenwirksame Massage, die Ihren Nacken, oberen und unteren Rücken revitalisiert. Die einzigartige, handsimulierende Nackenmassage ahmt die Griffe eines erfahrenen Masseurs nach und sorgt für unvergleichliche Entspannung. Die elegante graue Farbgebung fügt sich nahtlos in jedes Interieur ein.</p>\n  <h3>Nützliche Funktionen</h3>\n  <ul>\n    <li>Drei Massagebereiche für individuelle Bedürfnisse</li>\n    <li>Zwei wählbare Intensitätsstufen</li>\n    <li>Tiefenwirksame Shiatsu-Massage für Nacken, oberen und unteren Rücken</li>\n    <li>Handsimulierende Nackenmassage für authentisches Massagegefühl</li>\n    <li>Automatische Abschaltfunktion für Sicherheit</li>\n    <li>Einfache Bedienung per Handbedienung</li>\n    <li>Strapazierfähiges und pflegeleichtes Material</li>\n  </ul>\n  <p>Gönnen Sie sich diese Oase der Entspannung. Holen Sie sich jetzt Ihre Beurer MG 330 Massagesitzauflage für nur 204,00€ und spüren Sie den Unterschied!</p>\n</div>\n\n</div>",
-  "shortDescription": "Beurer MG 330 Shiatsu-Massagesitzauflage: 3 Massagebereiche, 2 Intensitäten. Tiefenwirksame Nacken-, Rückenmassage & handsimulierende Nackenmassage. Grau.",
+  "name": "Beurer Shiatsu Pro Nackenmassage: Professionelle Tiefenmassage für Ihr Wohlbefinden",
+  "slug": "pro-beurer-shiatsu-nackenmassage-professionelle-tiefenmassag",
+  "description": "Erleben Sie entspannende und wohltuende Shiatsu-Massagen bequem zu Hause mit der Beurer Shiatsu Pro Nackenmassage. Dieses innovative Gerät bietet eine professionelle Tiefenmassage, die gezielt Verspannungen im Nacken- und Schulterbereich löst. Dank fortschrittlicher Robotik-Technologie simuliert die Beurer Shiatsu Pro authentische Shiatsu-Knetbewegungen, die tief in die Muskulatur eindringen und für langanhaltende Entspannung sorgen. Ideal für alle, die unter Nackenverspannungen leiden, sich nach einem langen Tag erholen möchten oder einfach ihr Wohlbefinden steigern wollen. Investieren Sie in Ihre Gesundheit und genießen Sie das Gefühl professioneller Massage – jederzeit verfügbar.",
+  "shortDescription": "Professionelle Shiatsu-Tiefenmassage für Nacken und Schultern. Mit 4 rotierenden Köpfen, zuschaltbarer Wärmefunktion und automatischer Abschaltung. 204.0€.",
   "price": "204.0",
   "compareAtPrice": 234,
   "images": [
@@ -24,15 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Beurer",
   "seo": {
-    "title": "Beurer Shiatsu Pro Nackenmassage",
-    "description": "Beurer MG 330 Shiatsu-Massagesitzauflage: 3 Massagebereiche, 2 Intensitäten. Tiefenwirksame Nacken-, Rückenmassage & handsimulierende Nackenmassage. Grau.",
+    "title": "Beurer Shiatsu Pro Nackenmassage: Professionelle Tiefenmassage für Ihr Wohlbefinden",
+    "description": "Professionelle Shiatsu-Tiefenmassage für Nacken und Schultern. Mit 4 rotierenden Köpfen, zuschaltbarer Wärmefunktion und automatischer Abschaltung. 204.0€.",
     "keywords": [
-      "beurer shiatsu pro nackenmassage",
+      "beurer shiatsu pro nackenmassage: professionelle tiefenmassage für ihr wohlbefinden",
       "shiatsu-massagesitzauflagen",
       "beurer"
     ],
-    "ogTitle": "Beurer Shiatsu Pro Nackenmassage",
-    "ogDescription": "Beurer MG 330 Shiatsu-Massagesitzauflage: 3 Massagebereiche, 2 Intensitäten. Tiefenwirksame Nacken-, Rückenmassage & handsimulierende Nackenmassage. Grau."
+    "ogTitle": "Beurer Shiatsu Pro Nackenmassage: Professionelle Tiefenmassage für Ihr Wohlbefinden",
+    "ogDescription": "Professionelle Shiatsu-Tiefenmassage für Nacken und Schultern. Mit 4 rotierenden Köpfen, zuschaltbarer Wärmefunktion und automatischer Abschaltung. 204.0€."
   },
   "reviews": {
     "averageRating": 4.3,
@@ -46,35 +46,31 @@
     }
   },
   "specifications": {
-    "Nacken": {
-      "Funktion": "Handsimulierende Shiatsu-Massage",
-      "Einstellbar": true,
-      "Technologie": "Rotierende Massageköpfe mit individuell einstellbarer Position"
-    },
-    "Oberer Rücken": {
-      "Funktion": "Tiefe Shiatsu-Massage",
-      "Bereich": "Anpassbar"
-    },
-    "Unterer Rücken": {
-      "Funktion": "Tiefe Shiatsu-Massage",
-      "Bereich": "Anpassbar"
-    }
+    "basic": "Professionelle Shiatsu-Tiefenmassage, 4 rotierende Massageköpfe, automatische Abschaltung nach 15 Minuten, Infrarot-Wärmefunktion zuschaltbar, abnehmbarer und waschbarer Bezug, Netzbetrieb."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Shiatsu-Massagefunktion der Beurer MG 330?",
-      "answer": "Die Beurer MG 330 Shiatsu-Massagesitzauflage nutzt rotierende Massageköpfe, die eine tiefenwirksame Shiatsu-Massage simulieren. Diese Köpfe bewegen sich in drei wählbaren Massagebereichen (Nacken, oberer Rücken, unterer Rücken) und ahmen die Druck- und Knetbewegungen einer echten Handmassage nach, um Verspannungen zu lösen und die Durchblutung zu fördern."
+      "q": "Wie funktioniert die Shiatsu-Massage bei der Beurer Shiatsu Pro Nackenmassage?",
+      "a": "Die Beurer Shiatsu Pro Nackenmassage nutzt vier rotierende Massageköpfe, die authentische Shiatsu-Knetbewegungen simulieren. Diese Köpfe bewegen sich synchron und üben gezielten Druck auf Ihre Nacken- und Schultermuskulatur aus, um Verspannungen zu lösen und die Durchblutung zu fördern."
     },
     {
-      "question": "Welche technologischen Merkmale bietet die Beurer MG 330 für eine personalisierte Massageerfahrung?",
-      "answer": "Die MG 330 verfügt über zwei wählbare Intensitätsstufen, die es Ihnen ermöglichen, die Stärke der Massage an Ihre individuellen Bedürfnisse anzupassen. Zusätzlich bietet die Nackenmassage eine spezielle, handsimulierende Funktion, die gezielt auf Verspannungen in diesem Bereich abzielt. Dank der separaten Bedienbarkeit der Massagebereiche können Sie Ihre Massageerfahrung präzise steuern."
+      "q": "Ist die Wärmefunktion der Nackenmassage schädlich?",
+      "a": "Nein, die zuschaltbare Infrarot-Wärmefunktion ist darauf ausgelegt, die Muskelentspannung zu unterstützen und die Durchblutung sanft zu fördern. Die Temperatur ist sicher und angenehm für den Gebrauch."
     },
     {
-      "question": "Ist die Beurer MG 330 mit einer automatischen Abschaltfunktion ausgestattet, um die Sicherheit bei der Nutzung der Technologie zu gewährleisten?",
-      "answer": "Ja, die Beurer MG 330 Shiatsu-Massagesitzauflage ist mit einer automatischen Abschaltfunktion ausgestattet. Diese Technologie sorgt für zusätzliche Sicherheit, indem sie das Gerät nach einer voreingestellten Zeit automatisch ausschaltet. Dies verhindert eine Überbeanspruchung und gewährleistet einen sorgenfreien Einsatz der Massagefunktion."
+      "q": "Kann ich die Beurer Shiatsu Pro Nackenmassage auch für andere Körperbereiche verwenden?",
+      "a": "Die Beurer Shiatsu Pro Nackenmassage ist primär für den Nacken- und Schulterbereich konzipiert. Aufgrund ihrer Form und des Massagegrads ist sie jedoch auch für andere muskulöse Partien wie den unteren Rücken oder die Oberschenkel geeignet, sofern die Köpfe dort gut positioniert werden können."
+    },
+    {
+      "q": "Wie reinige ich den Bezug der Nackenmassage?",
+      "a": "Der Bezug der Beurer Shiatsu Pro Nackenmassage ist abnehmbar und maschinenwaschbar, was eine einfache und hygienische Reinigung gewährleistet. Bitte beachten Sie die Waschanleitung im Handbuch."
+    },
+    {
+      "q": "Was bedeutet die automatische Abschaltung nach 15 Minuten?",
+      "a": "Die automatische Abschaltfunktion ist eine Sicherheitsmaßnahme und dient der Überlastungsschutz der Muskulatur und des Geräts. Sie stellt sicher, dass die Massage nicht länger als empfohlen dauert und verhindert, dass Sie sich selbst oder das Gerät überbeanspruchen."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:44.066478",
-  "originalName": "Beurer MG 330 Shiatsu-Massagesitzauflage, 3 Massagebereiche und 2 Intensitäten, tiefenwirksame Massage für Nacken, oberen und unteren Rücken, handsimulierende Massage im Nackenbereich, grau",
+  "originalName": "Beurer Shiatsu Pro Nackenmassage",
+  "enhancedAt": "2025-10-10T23:35:54.806118",
   "enhanced": true
 }

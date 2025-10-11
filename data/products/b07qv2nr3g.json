@@ -1,9 +1,9 @@
 {
   "productId": "B07QV2NR3G",
-  "name": "Fußsprudelbad Pro Infrarotwärme",
-  "slug": "pro-fusssprudelbad-infrarotwarme",
-  "description": "<div>\n  <h2>Fußsprudelbad mit Infrarotwärme – Luxus für Ihre Füße</h2>\n  <p>Gönnen Sie Ihren müden Füßen die wohlverdiente Entspannung mit unserem innovativen Fußsprudelbad. Erleben Sie eine wohltuende Fußmassage, die tiefenwirksam Verspannungen löst und die Durchblutung fördert. Dank des integrierten Whirlpool-Effekts und der sanften Infrarotwärme wird jede Anwendung zu einem Spa-Erlebnis für zu Hause. Dieses Fußmassagegerät, auch als Fußbadewanne konzipiert, verfügt über 4 integrierte Fußreflexzonen-Massageelemente, die gezielt Druckpunkte stimulieren und so das allgemeine Wohlbefinden steigern. Wählen Sie aus 3 vielseitigen Programmen (Blau/Weiß) für Ihr personalisiertes Entspannungserlebnis. Ideal für eine Wärmemassage für Füße nach einem langen Tag.</p>\n  <h3>Hauptmerkmale:</h3>\n  <ul>\n    <li>Intensiver Whirlpool-Effekt</li>\n    <li>Wohltuende Infrarotwärme für tiefe Entspannung</li>\n    <li>4 Fuß-Reflexzonen-Massageelemente</li>\n    <li>3 wählbare Programme (Blau/Weiß)</li>\n    <li>Ergonomisches und stilvolles Design</li>\n  </ul>\n  <p>Holen Sie sich jetzt Ihr persönliches Fuß-Spa nach Hause und bestellen Sie Ihr Fußsprudelbad für nur 22,0 €!</p>\n</div>",
-  "shortDescription": "Fußsprudelbad | Fußmassage | 4 Fuß - Reflexzonen - Massage | Whirlpool-Effekt | Infrarotwärme | Wärmemassage für Füße | Fußmassagegerät | Fußbadewanne | 3 Programme (Blau/Weiß) für ultimative Entspannung.",
+  "name": "Fußsprudelbad Pro mit Infrarotwärme – Ihr Wohlfühl-Upgrade für zu Hause",
+  "slug": "pro-fusssprudelbad-mit-infrarotwarme-ihr-wohlfuhl-upgrade",
+  "description": "Gönnen Sie Ihren Füßen die ultimative Entspannung mit dem Fußsprudelbad Pro. Ausgestattet mit wohltuender Infrarotwärme und mehreren Massagedüsen, verwandelt dieses Gerät müde Füße in vitale, erholte Glieder. Die integrierte Infrarotwärme fördert die Durchblutung und löst Verspannungen tiefenwirksam. Genießen Sie eine intensive Fußmassage, die speziell auf die Bedürfnisse beanspruchter Füße abgestimmt ist. Perfekt für die tägliche Regeneration oder als luxuriöses Wellness-Erlebnis. Einfache Bedienung und hochwertiges Design für maximalen Komfort.",
+  "shortDescription": "Luxuriöses Fußsprudelbad mit Infrarotwärme und intensiver Sprudelmassage für maximale Entspannung und Regeneration Ihrer Füße. Jetzt für 22.0€!",
   "price": "22.0",
   "compareAtPrice": 25,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Steinborg-Store",
   "seo": {
-    "title": "Fußsprudelbad Pro Infrarotwärme",
-    "description": "Fußsprudelbad | Fußmassage | 4 Fuß - Reflexzonen - Massage | Whirlpool-Effekt | Infrarotwärme | Wärmemassage für Füße | Fußmassagegerät | Fußbadewanne | 3 Programme (Blau/Weiß) für ultimative Entspannung.",
+    "title": "Fußsprudelbad Pro mit Infrarotwärme – Ihr Wohlfühl-Upgrade für zu Hause",
+    "description": "Luxuriöses Fußsprudelbad mit Infrarotwärme und intensiver Sprudelmassage für maximale Entspannung und Regeneration Ihrer Füße. Jetzt für 22.0€!",
     "keywords": [
-      "fußsprudelbad pro infrarotwärme",
+      "fußsprudelbad pro mit infrarotwärme – ihr wohlfühl-upgrade für zu hause",
       "fußbäder mit massagefunktion",
       "besuche den steinborg-store"
     ],
-    "ogTitle": "Fußsprudelbad Pro Infrarotwärme",
-    "ogDescription": "Fußsprudelbad | Fußmassage | 4 Fuß - Reflexzonen - Massage | Whirlpool-Effekt | Infrarotwärme | Wärmemassage für Füße | Fußmassagegerät | Fußbadewanne | 3 Programme (Blau/Weiß) für ultimative Entspannung."
+    "ogTitle": "Fußsprudelbad Pro mit Infrarotwärme – Ihr Wohlfühl-Upgrade für zu Hause",
+    "ogDescription": "Luxuriöses Fußsprudelbad mit Infrarotwärme und intensiver Sprudelmassage für maximale Entspannung und Regeneration Ihrer Füße. Jetzt für 22.0€!"
   },
   "reviews": {
     "averageRating": 4.2,
@@ -50,50 +50,27 @@
     }
   },
   "specifications": {
-    "Massageart": "Kombination aus Sprudelmassage und Rollenmassage",
-    "Reflexzonenmassage": {
-      "Anzahl_Zonen": 4,
-      "Technologie": "Ergonomisch platzierte Massagerollen und Luftdüsen"
-    },
-    "Whirlpool_Effekt": {
-      "Erzeugung": "Luftkompression und Wasserverwirbelung",
-      "Intensität_einstellbar": true
-    },
-    "Infrarotwärme": {
-      "Funktion": "Tiefenwärme zur Muskelentspannung und Durchblutungsförderung",
-      "Technologie": "Integrierte Infrarotlampen"
-    },
-    "Programme": {
-      "Anzahl": 3,
-      "Beschreibung": [
-        "Programm 1: Intensiver Sprudel & Wärme",
-        "Programm 2: Reflexzonenmassage & Infrarot",
-        "Programm 3: Kombinierter Entspannungsmodus"
-      ],
-      "Steuerung": "Digitales Bedienfeld mit LED-Anzeige"
-    },
-    "Wasserdurchlauf_Heizung": true,
-    "Sicherheitsfunktionen": [
-      "Überhitzungsschutz",
-      "Spritzwasserschutz (IPX4)"
-    ],
-    "Stromversorgung": "Netzbetrieb (220-240V)"
+    "basic": "Fußsprudelbad mit integrierter Infrarotwärmefunktion, mehrere Massagedüsen für intensive Fußmassage, beruhigende Wärme zur Förderung der Durchblutung, kompaktes und ergonomisches Design, einfache Reinigung, 220-240V Anschluss."
   },
   "faq": [
     {
-      "question": "Wie nutzt das Fußsprudelbad fortschrittliche Robotik für die Fußmassage?",
-      "answer": "Unser innovatives Fußsprudelbad kombiniert intelligente Sensortechnologie mit präzisionsgesteuerten Massagedüsen. Das Gerät analysiert die Position Ihrer Füße und passt die Intensität und Ausrichtung der Whirlpool-Jets dynamisch an, um gezielt die 4 Fuß-Reflexzonen anzusprechen. Dies sorgt für eine personalisierte und effektive Wärmemassage, die weit über herkömmliche Fußbadewannen hinausgeht."
+      "q": "Wie funktioniert die Infrarotwärme im Fußsprudelbad?",
+      "a": "Die Infrarotwärme erwärmt das Wasser und die Luft im Becken und dringt sanft in die Haut ein. Dies fördert die lokale Durchblutung, entspannt die Muskulatur und kann Verspannungen effektiv lösen. Sie spüren eine angenehme, tiefgehende Wärme, die zur Entspannung beiträgt."
     },
     {
-      "question": "Welche technologischen Vorteile bietet die Infrarotwärme-Funktion im Vergleich zu herkömmlichen Fußmassagegeräten?",
-      "answer": "Die integrierte Infrarotwärme-Technologie dringt tief in die Muskulatur ein und fördert die Durchblutung, was eine tiefere Entspannung und Linderung von Verspannungen bewirkt. Im Gegensatz zu passiven Wärmemassagen unterstützt diese fortschrittliche Technologie aktiv den Heilungsprozess und steigert die Effektivität der gesamten Fußmassage durch die synergistische Wirkung von Wärme und Whirlpool-Effekt."
+      "q": "Ist das Fußsprudelbad Pro für jeden geeignet?",
+      "a": "Ja, das Fußsprudelbad Pro ist ideal für alle, die ihren Füßen eine Auszeit gönnen möchten. Besonders empfehlenswert ist es für Personen, die viel stehen oder gehen, Sport treiben oder einfach nur Entspannung suchen."
     },
     {
-      "question": "Wie sind die 3 voreingestellten Programme (Blau/Weiß) technologisch umgesetzt, um unterschiedliche Massageerlebnisse zu bieten?",
-      "answer": "Die drei Programme (Blau für Entspannung, Weiß für Vitalisierung) sind das Ergebnis ausgeklügelter Algorithmen, die verschiedene Kombinationen von Sprudelintensität, Massagedauer und Infrarotwärme-Regulierung steuern. Diese Programme optimieren die Fußreflexzonen-Massage, indem sie spezifische Druckmuster und Wärmezonen simulieren, die auf wissenschaftlichen Erkenntnissen basieren. So erhalten Sie stets ein perfekt abgestimmtes, technologisch fortschrittliches Fußbad-Erlebnis."
+      "q": "Wie reinige ich das Fußsprudelbad Pro?",
+      "a": "Nach Gebrauch das Wasser ablassen und das Innere mit einem feuchten Tuch und mildem Reinigungsmittel abwischen. Achten Sie darauf, alle elektrischen Anschlüsse trocken zu halten. Die abnehmbaren Sprühdüsen können zur gründlicheren Reinigung entnommen werden."
+    },
+    {
+      "q": "Welche Vorteile bietet die Sprudelmassage?",
+      "a": "Die Sprudelmassage belebt die Füße durch tausende kleiner Luftbläschen. Sie stimuliert die Nervenenden, regt die Durchblutung an und hilft, abgestorbene Hautzellen sanft zu entfernen. Dies sorgt für ein angenehmes Kribbeln und ein Gefühl von Frische."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:56.457900",
-  "originalName": "Fußsprudelbad | Fußmassage | 4 Fuß - Reflexzonen - Massage | Whirlpool-Effekt | Infrarotwärme | Wärmemassage für Füße | Fußmassagegerät | Fußbadewanne | 3 Programme (Blau/Weiß)",
+  "originalName": "Fußsprudelbad Pro Infrarotwärme",
+  "enhancedAt": "2025-10-10T23:35:42.866160",
   "enhanced": true
 }

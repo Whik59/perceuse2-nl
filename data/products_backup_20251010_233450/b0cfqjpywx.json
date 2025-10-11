@@ -1,0 +1,65 @@
+{
+  "productId": "B0CFQJPYWX",
+  "name": "Bestseller",
+  "slug": "bestseller",
+  "description": "<div><h2>Bestseller</h2><p>Quality product</p></div>",
+  "shortDescription": "Bestseller - Quality Product",
+  "price": "5.0",
+  "compareAtPrice": 5,
+  "images": [
+    "https://m.media-amazon.com/images/I/71PGExO1KcL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/51BLQSyXwUL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/717s4OY-VoL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71MNaB+4nXL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61YvoGwDW5L._AC_SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "Desinfektionstücher & Reiniger",
+  "tags": [
+    "besuche den by amazon-store",
+    "desinfektionstücher & reiniger"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B0CFQJPYWX/?tag=clickclickh0b-21",
+  "amazonASIN": "B0CFQJPYWX",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Bestseller",
+  "amazonPrice": "5.0€",
+  "amazonRating": 4.2,
+  "amazonReviewCount": 0,
+  "brand": "Besuche den by Amazon-Store",
+  "seo": {
+    "title": "Bestseller",
+    "description": "Bestseller - Quality Product",
+    "keywords": [
+      "bestseller",
+      "desinfektionstücher & reiniger",
+      "besuche den by amazon-store"
+    ],
+    "ogTitle": "Bestseller",
+    "ogDescription": "Bestseller - Quality Product"
+  },
+  "reviews": {
+    "averageRating": 4.2,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-10T23:32:42.018822",
+  "originalName": "Bestseller",
+  "enhanced": true
+}

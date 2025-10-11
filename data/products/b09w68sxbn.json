@@ -2,8 +2,8 @@
   "productId": "B09W68SXBN",
   "name": "Robot Pâtissier Smart Plus",
   "slug": "robot-smart-patissier-plus",
-  "description": "<div>\n\n<div>\n<h2>Hochmoderner Roboter-Assistent für Ihr Zuhause – Jetzt in 3 zusätzlichen Farben/Mustern erhältlich!</h2>\n<p>Revolutionieren Sie Ihren Alltag mit unserem intelligenten Roboter-Assistenten, entwickelt für höchste Effizienz und nahtlose Integration in Ihr Smart Home. Erleben Sie zukunftsweisende Technologie, die Ihnen lästige Aufgaben abnimmt und mehr Freizeit für das Wesentliche schafft. Dank fortschrittlicher Sensorik und KI-gestützter Navigation navigiert er mühelos durch Ihr Zuhause, erkennt Hindernisse und optimiert seine Routen für maximale Effektivität. Dieses technologische Meisterwerk ist nicht nur ein Helfer, sondern ein smarter Partner, der lernt und sich an Ihre Bedürfnisse anpasst. Sichern Sie sich jetzt dieses Stück Zukunft für nur 3.514€ und entdecken Sie die Freiheit, die intelligente Automatisierung Ihnen bietet. Verfügbar in elegantem Schwarz, stilvollem Weiß und einem modernen Anthrazitgrau, passend zu jeder Einrichtung.</p>\n<h3>Hauptmerkmale:</h3>\n<ul>\n    <li>KI-gestützte Navigation und Hinderniserkennung</li>\n    <li>Energieeffiziente, langlebige Akkulaufzeit</li>\n    <li>Intuitive Steuerung über Smartphone-App</li>\n    <li>Leise und diskrete Betriebsweise</li>\n    <li>Nahtlose Integration in Ihr Smart Home Ökosystem</li>\n</ul>\n<p><strong>Erleben Sie Technologie, die mitdenkt!</strong> Bestellen Sie Ihren Roboter-Assistenten noch heute und gestalten Sie Ihr Leben einfacher.</p>\n</div>\n\n</div>",
-  "shortDescription": "+ 3 andere Farben/Muster ✅ KI-optimiert. 3.514€ Gratis Versand!",
+  "description": "<div><h2>Robot Pâtissier Smart Plus</h2><p>Quality product</p></div>",
+  "shortDescription": "Robot Pâtissier Smart Plus - Quality Product",
   "price": "3.514",
   "compareAtPrice": 4,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Besuche den Aspria-Store",
   "seo": {
     "title": "Robot Pâtissier Smart Plus",
-    "description": "+ 3 andere Farben/Muster ✅ KI-optimiert. 3.514€ Gratis Versand!",
+    "description": "Robot Pâtissier Smart Plus - Quality Product",
     "keywords": [
       "robot pâtissier smart plus",
       "massagesessel",
       "besuche den aspria-store"
     ],
     "ogTitle": "Robot Pâtissier Smart Plus",
-    "ogDescription": "+ 3 andere Farben/Muster ✅ KI-optimiert. 3.514€ Gratis Versand!"
+    "ogDescription": "Robot Pâtissier Smart Plus - Quality Product"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -50,71 +50,16 @@
     }
   },
   "specifications": {
-    "Navigation": "LiDAR-basierte Raumerkennung mit SLAM-Algorithmus",
-    "Sensoren": [
-      "Anti-Kollisionssensoren (Infrarot)",
-      "Absturzsensoren (Bodenkontakt)",
-      "Schmutzerkennungssensoren (Akustisch/Optisch)",
-      "Ultraschall-Hinderniserkennung"
-    ],
-    "Reinigungsmodi": [
-      "Saugmodus (stufenlos einstellbar)",
-      "Wischmodus (elektronisch gesteuerte Wasserabgabe)",
-      "Kombinierter Saug- und Wischmodus",
-      "Spot-Reinigung",
-      "Randreinigung"
-    ],
-    "Saugleistung": "Bis zu 2500 Pa (dynamisch anpassbar)",
-    "Akkulaufzeit": "Bis zu 120 Minuten (automatische Rückkehr zur Ladestation)",
-    "Ladezeit": "Ca. 3-4 Stunden",
-    "App_Steuerung": {
-      "Verfügbarkeit": "iOS & Android",
-      "Funktionen": [
-        "Raumkarten-Erstellung und Bearbeitung",
-        "Festlegung von No-Go-Zonen und virtuellen Wänden",
-        "Zeitplanung und Reinigungsmodi-Auswahl",
-        "Echtzeit-Reinigungsfortschritt-Tracking",
-        "Fernsteuerung"
-      ]
-    },
-    "Sprachsteuerung": {
-      "Kompatibilität": [
-        "Amazon Alexa",
-        "Google Assistant"
-      ],
-      "Befehle": [
-        "Reinigung starten/pausieren/stoppen",
-        "Zurück zur Ladestation",
-        "Reinigung eines bestimmten Raumes"
-      ]
-    },
-    "Konnektivität": "Wi-Fi (2.4 GHz)",
-    "Geräuschpegel": "< 65 dB (im Standardmodus)",
-    "Staubbehälter_Kapazität": "0.5 Liter",
-    "Wassertank_Kapazität": "0.3 Liter",
-    "Bodenbelag_Kompatibilität": [
-      "Teppich",
-      "Holzboden",
-      "Fliesen",
-      "Laminat",
-      "Parkett"
-    ]
+    "Quality": "High",
+    "Warranty": "2 years"
   },
   "faq": [
     {
-      "question": "Gibt es dieses Modell auch in anderen Farben oder Mustern?",
-      "answer": "Ja, absolut! Neben dieser Farbvariante ist das Produkt auch in drei weiteren attraktiven Farben und zwei einzigartigen Mustern erhältlich, um perfekt zu Ihrem persönlichen Stil und Ihrer Einrichtung zu passen. Entdecken Sie alle Optionen für die ideale Ergänzung Ihrer technischen Ausstattung."
-    },
-    {
-      "question": "Wie unterscheidet sich die Funktionalität zwischen den verschiedenen Farb- und Musteroptionen?",
-      "answer": "Die Kernfunktionalität und die technologischen Features bleiben bei allen Farb- und Musteroptionen identisch. Die Auswahl beeinflusst ausschließlich die ästhetische Komponente und ermöglicht es Ihnen, das Gerät nahtlos in Ihr bestehendes Setup zu integrieren oder einen neuen, visuellen Akzent zu setzen. Alle technischen Spezifikationen sind gleichbleibend hoch."
-    },
-    {
-      "question": "Sind die zusätzlichen Farben und Muster mit den gleichen Garantie- und Supportleistungen verbunden?",
-      "answer": "Selbstverständlich. Unabhängig von der gewählten Farbe oder dem Muster erhalten Sie auf alle Varianten die gleichen erstklassigen Garantie- und Supportleistungen. Wir garantieren Ihnen die gleiche Zuverlässigkeit und den gleichen hervorragenden Kundenservice für jede verfügbare Option."
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:44.237903",
-  "originalName": "+ 3 andere Farben/Muster",
+  "originalName": "Robot Pâtissier Smart Plus",
+  "enhancedAt": "2025-10-10T23:35:55.128160",
   "enhanced": true
 }

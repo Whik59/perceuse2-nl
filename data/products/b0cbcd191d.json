@@ -1,9 +1,9 @@
 {
   "productId": "B0CBCD191D",
-  "name": "RENPHO Eyeris Pro Wärme",
-  "slug": "pro-renpho-eyeris-warme",
-  "description": "<div>\n\n<div>\n<h2>RENPHO Eyeris 2 - Ihr Premium Augenmassagegerät für Tiefenentspannung</h2>\n<p>Erleben Sie ultimative Entspannung und effektive Linderung von Augenbelastung mit dem RENPHO Eyeris 2. Dieses fortschrittliche Augenmassagegerät kombiniert sanfte Wärme und gezielte Vibrationen, um müde Augen zu revitalisieren und Trockenheit zu bekämpfen. Ideal für alle, die stundenlang vor Bildschirmen arbeiten oder unter Schlafstörungen leiden. Die intelligente Technologie des Eyeris 2 ahmt menschliche Massagetechniken nach, um Akupressurpunkte rund um Ihre Augen sanft zu stimulieren. Dies fördert die Durchblutung, reduziert Schwellungen und hilft, Spannungskopfschmerzen zu lindern. Genießen Sie eine tiefere, erholsamere Nachtruhe und wachen Sie erfrischter auf. Das ergonomische Design passt sich jeder Gesichtsform an und die hochwertige Verarbeitung garantiert Langlebigkeit und Komfort. Investieren Sie in Ihre Augengesundheit und Ihr Wohlbefinden!</p>\n<h3>Hauptmerkmale:</h3>\n<ul>\n<li>Thermotherapie mit wählbarer Wärmeintensität</li>\n<li>Multi-Frequenz-Vibrationsmassage für tiefenwirksame Entspannung</li>\n<li>180° faltbares Design für einfache Mitnahme</li>\n<li>Integrierter wiederaufladbarer Akku für bis zu 7 Tage Nutzung</li>\n<li>Leicht bedienbar mit intuitiven Tasten</li>\n<li>Hochwertige, hautfreundliche Materialien</li>\n<li>Verbessert den Schlaf und reduziert Augenringe</li>\n</ul>\n<p>Gönnen Sie Ihren Augen die Pflege, die sie verdienen! <strong>Bestellen Sie Ihren RENPHO Eyeris 2 jetzt und fühlen Sie den Unterschied.</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "RENPHO Eyeris 2 - Extended Augenmassagegerät: Wärme, Vibration, Entspannung. Ideal bei Augenbelastung, trockenen Augen. Verbessert Schlaf.",
+  "name": "RENPHO Eyeris Pro Augenmassagegerät mit Wärmefunktion",
+  "slug": "pro-renpho-eyeris-augenmassagegerat-mit-warmefunktion",
+  "description": "Das RENPHO Eyeris Pro Augenmassagegerät mit integrierter Wärmefunktion bietet eine fortschrittliche Lösung zur Entspannung und Linderung von Augenermüdung. Entwickelt mit modernster Robotik- und Sensortechnologie, simuliert es professionelle Massagetechniken, um Druckpunkte rund um die Augen gezielt zu stimulieren. Die sanfte Wärme fördert die Durchblutung und hilft, Verspannungen sowie Trockenheit effektiv zu reduzieren. Ideal für lange Bildschirmzeiten, Stress und Schlafprobleme. Erleben Sie erholsame Momente und revitalisieren Sie Ihre Augenpartie.",
+  "shortDescription": "RENPHO Eyeris Pro: Revolutionäre Augenmassage mit intelligenter Wärmefunktion. Linderung von Ermüdung, Stress und trockenen Augen durch fortschrittliche Technologie. Erholsame Momente für Ihre Augen.",
   "price": "65.0",
   "compareAtPrice": 74,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den RENPHO-Store",
   "seo": {
-    "title": "RENPHO Eyeris Pro Wärme",
-    "description": "RENPHO Eyeris 2 - Extended Augenmassagegerät: Wärme, Vibration, Entspannung. Ideal bei Augenbelastung, trockenen Augen. Verbessert Schlaf.",
+    "title": "RENPHO Eyeris Pro Augenmassagegerät mit Wärmefunktion",
+    "description": "RENPHO Eyeris Pro: Revolutionäre Augenmassage mit intelligenter Wärmefunktion. Linderung von Ermüdung, Stress und trockenen Augen durch fortschrittliche Technologie. Erholsame Momente für Ihre Augen.",
     "keywords": [
-      "renpho eyeris pro wärme",
+      "renpho eyeris pro augenmassagegerät mit wärmefunktion",
       "augenmassagegeräte mit wärme",
       "besuche den renpho-store"
     ],
-    "ogTitle": "RENPHO Eyeris Pro Wärme",
-    "ogDescription": "RENPHO Eyeris 2 - Extended Augenmassagegerät: Wärme, Vibration, Entspannung. Ideal bei Augenbelastung, trockenen Augen. Verbessert Schlaf."
+    "ogTitle": "RENPHO Eyeris Pro Augenmassagegerät mit Wärmefunktion",
+    "ogDescription": "RENPHO Eyeris Pro: Revolutionäre Augenmassage mit intelligenter Wärmefunktion. Linderung von Ermüdung, Stress und trockenen Augen durch fortschrittliche Technologie. Erholsame Momente für Ihre Augen."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -50,57 +50,31 @@
     }
   },
   "specifications": {
-    "Produktname": "RENPHO Eyeris 2 - Extended Augenmassagegerät",
-    "Marke": "RENPHO",
-    "Modellnummer": "Eyeris 2 - Extended",
-    "Kategorie": "Augenmassagegeräte",
-    "Hauptfunktion": "Entspannung, Augenpflege, Linderung von Augenbelastung und trockenen Augen, Verbesserung des Schlafs",
-    "Technologie_Massage": "Intelligente Luftdruckmassage mit 5 Modi (Integriert, Vitalität, Entspannung, Schlaf, Kinder)",
-    "Technologie_Wärme": "Konstante Temperatur-Wärmefunktion (ca. 40°C)",
-    "Technologie_Vibration": "Integrierte Vibrationsmassage (2 Stufen)",
-    "Bedienung": "Intuitive Tastensteuerung, 3 Intensitätsstufen",
-    "Konnektivität": "Bluetooth 5.0 für Musikwiedergabe über integrierte Lautsprecher",
-    "Akku": "Wiederaufladbarer Lithium-Ionen-Akku",
-    "Akkulaufzeit": "Bis zu 90 Minuten (bei voller Ladung)",
-    "Ladezeit": "Ca. 2-3 Stunden",
-    "Ladeanschluss": "USB-C",
-    "Material_Innenseite": "Hautfreundliches PU-Leder",
-    "Material_Gehäuse": "Robustes ABS-Kunststoff",
-    "Design_Faltbarkeit": "180° faltbares Design für einfache Lagerung und Transport",
-    "Größe_verstellbar": "Elastisches Kopfband für individuelle Anpassung",
-    "Sicherheit": "Automatische Abschaltfunktion nach 15 Minuten",
-    "Anwendung_Zielgruppe": "Personen mit Augenbelastung (z.B. durch Computerarbeit, Lesen), trockenen Augen, Schlafproblemen, Stress",
-    "Zertifizierungen": "CE, RoHS",
-    "Garantie": "2 Jahre Herstellergarantie",
-    "Versand": "Kostenloser Standardversand innerhalb Deutschlands",
-    "Lieferumfang": [
-      "RENPHO Eyeris 2 Augenmassagegerät",
-      "USB-C Ladekabel",
-      "Bedienungsanleitung (DE)",
-      "Aufbewahrungstasche"
-    ],
-    "Besondere_Merkmale": [
-      "Erweiterter Massagebereich für umfassendere Abdeckung",
-      "Personalisierbare Massageerlebnisse durch verschiedene Modi und Intensitätsstufen",
-      "Förderung der Blutzirkulation um die Augenpartie",
-      "Geräuscharm im Betrieb"
-    ]
+    "basic": "Modell: RENPHO Eyeris Pro. Farbe: (Bitte Farbe angeben, falls spezifisch. Ansonsten: Universell). Stromversorgung: Wiederaufladbarer Akku (USB-C). Material: Hautfreundliches Silikon, ABS-Kunststoff. Funktionen: Vibrationsmassage, Kompressionsmassage, Wärmefunktion (einstellbare Temperatur), 4 Massagemodi, Musikwiedergabe (Bluetooth). Ergonomisches Design: Faltbar für einfache Lagerung und Transport."
   },
   "faq": [
     {
-      "question": "Welche Art von Technologie nutzt das RENPHO Eyeris 2 Augenmassagegerät?",
-      "answer": "Das RENPHO Eyeris 2 kombiniert fortschrittliche Technologien für eine optimale Augenentlastung. Es nutzt präzise steuerbare Wärme- und Vibrationsmodule, die durch intelligente Algorithmen für eine tiefe Entspannung sorgen. Zusätzlich integriert es eine sanfte Kompressionsmassage, die durch kleine, integrierte Luftkissen realisiert wird und die Blutzirkulation im Augenbereich fördert. Diese technologische Synergie zielt darauf ab, Verspannungen effektiv zu lösen und trockene Augen zu lindern."
+      "q": "Wie oft sollte ich das RENPHO Eyeris Pro verwenden?",
+      "a": "Für optimale Ergebnisse empfehlen wir die Anwendung einmal täglich für 15-20 Minuten. Sie können die Häufigkeit je nach Bedarf anpassen, besonders nach langen Tagen vor dem Computer oder bei starker Augenermüdung."
     },
     {
-      "question": "Wie wird die Wärme- und Vibrationsfunktion des RENPHO Eyeris 2 gesteuert und wie wirkt sie sich auf die Augen aus?",
-      "answer": "Die Wärme- und Vibrationsfunktionen des RENPHO Eyeris 2 sind präzise und individuell einstellbar. Über intuitive Bedienelemente am Gerät oder optional über die RENPHO App können Sie die Intensität und den Modus der Wärme (konstant, pulsierend) sowie die Vibrationsmuster (sanft, intensiv, wellenförmig) wählen. Die wohltuende Wärme fördert die Durchblutung und hilft, verhärtete Drüsen zu öffnen, während die sanften Vibrationen Nervenenden stimulieren und Muskelverspannungen im Augenbereich reduzieren. Diese synergistische Anwendung beruhigt die Augen und kann effektiv bei Augenermüdung und trockenen Augen helfen."
+      "q": "Ist die Wärmefunktion sicher für die Augen?",
+      "a": "Ja, die Wärmefunktion ist so konzipiert, dass sie eine angenehme und sichere Temperatur für die Augenpartie bietet. Die Temperatur ist in mehreren Stufen einstellbar und überhitzt nicht, um Irritationen zu vermeiden."
     },
     {
-      "question": "Ist das RENPHO Eyeris 2 mit einer App oder intelligenter Steuerung verbunden?",
-      "answer": "Ja, das RENPHO Eyeris 2 ist für eine nahtlose Benutzererfahrung mit moderner Technologie ausgestattet. Es verfügt über intuitive, integrierte Bedienelemente für die direkte Steuerung der Massage-, Wärme- und Vibrationsmodi. Für erweiterte Personalisierung und Bequemlichkeit kann das Gerät über eine dedizierte RENPHO App (verfügbar für iOS und Android) gesteuert werden. Diese intelligente Konnektivität ermöglicht es Ihnen, individuelle Massageprogramme zu erstellen, Wärme- und Intensitätseinstellungen zu speichern und auf weitere Funktionen zuzugreifen, um Ihr Entspannungserlebnis zu optimieren."
+      "q": "Kann das Gerät bei trockenen Augen helfen?",
+      "a": "Absolut. Die Kombination aus sanfter Massage und Wärmefunktion fördert die Durchblutung und kann die Sekretion der Tränendrüsen anregen, was zur Linderung von trockenen Augen beitragen kann."
+    },
+    {
+      "q": "Ist das Gerät für Brillenträger geeignet?",
+      "a": "Das RENPHO Eyeris Pro ist so konzipiert, dass es bequem über den Augen getragen werden kann, auch mit leichten Brillen oder Kontaktlinsen. Es ist jedoch ratsam, bei starken oder speziellen Brillengestellen dies zu berücksichtigen."
+    },
+    {
+      "q": "Wie reinige ich das Augenmassagegerät?",
+      "a": "Zur Reinigung die abnehmbare Stoffabdeckung vorsichtig abnehmen und von Hand mit einem feuchten Tuch und mildem Reinigungsmittel reinigen. Anschließend vollständig trocknen lassen, bevor sie wieder am Gerät angebracht wird. Das Hauptgerät selbst sollte nicht unter Wasser getaucht werden."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:57.067424",
-  "originalName": "RENPHO Eyeris 2 - Extended Augenmassagegerät mit Wärme und Vibration, Eye Massager zur Entspannung, Augenpflege, für Augenbelastung, Trockene Augen, Verbessert den Schlaf",
+  "originalName": "RENPHO Eyeris Pro Wärme",
+  "enhancedAt": "2025-10-10T23:36:01.726989",
   "enhanced": true
 }

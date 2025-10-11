@@ -1,9 +1,9 @@
 {
   "productId": "B0B4BP5T9D",
-  "name": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm",
-  "slug": "friesenmoor-moorkissen",
-  "description": "<div><h2>FRIESENMOOR MOORKISSEN 53 cm x 20 cm</h2><p>Quality product</p></div>",
-  "shortDescription": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm - Quality Product",
+  "name": "FRIESENMOOR® Therapeutisches Moorkissen (53x20 cm)",
+  "slug": "friesenmoor-therapeutisches-moorkissen-53x20-cm",
+  "description": "Erleben Sie wohltuende Wärme und natürliche Entspannung mit dem original FRIESENMOOR® therapeutischen Moorkissen. Mit seinen großzügigen Abmessungen von 53 cm x 20 cm passt sich dieses hochwertige Moorkissen optimal an Ihren Körper an und entfaltet seine tiefenwirksame Wärmetherapie. Ideal zur Linderung von Muskelverspannungen, Gelenkbeschwerden und zur Förderung der Durchblutung. Die reine Naturmoorfüllung speichert Wärme langanhaltend und gibt sie gleichmäßig ab. Ein unverzichtbares Hilfsmittel für Ihr Wohlbefinden, direkt aus der Natur. Bestellen Sie jetzt Ihr FRIESENMOOR® Moorkissen zum attraktiven Preis von nur 17,0€ und gönnen Sie sich eine Auszeit der besonderen Art.",
+  "shortDescription": "FRIESENMOOR® Moorkissen (53x20 cm) – Natürliche Wärmetherapie zur Entspannung und Linderung von Beschwerden. Nur 17,0€.",
   "price": "17.0",
   "compareAtPrice": 19,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: FRIESENMOOR",
   "seo": {
-    "title": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm",
-    "description": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm - Quality Product",
+    "title": "FRIESENMOOR® Therapeutisches Moorkissen (53x20 cm)",
+    "description": "FRIESENMOOR® Moorkissen (53x20 cm) – Natürliche Wärmetherapie zur Entspannung und Linderung von Beschwerden. Nur 17,0€.",
     "keywords": [
-      "friesenmoor moorkissen 53 cm x 20 cm",
+      "friesenmoor® therapeutisches moorkissen (53x20 cm)",
       "moorgel-wärmekissen",
       "marke: friesenmoor"
     ],
-    "ogTitle": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm",
-    "ogDescription": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm - Quality Product"
+    "ogTitle": "FRIESENMOOR® Therapeutisches Moorkissen (53x20 cm)",
+    "ogDescription": "FRIESENMOOR® Moorkissen (53x20 cm) – Natürliche Wärmetherapie zur Entspannung und Linderung von Beschwerden. Nur 17,0€."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -50,16 +50,27 @@
     }
   },
   "specifications": {
-    "Quality": "High",
-    "Warranty": "2 years"
+    "basic": "FRIESENMOOR® Moorkissen, 53 cm x 20 cm, natürliche Moorfüllung, temperaturausgleichend, wiederverwendbar, ca. 17,0€"
   },
   "faq": [
     {
-      "q": "Is it good quality?",
-      "a": "Yes, high quality product."
+      "q": "Wie wärme ich das FRIESENMOOR® Moorkissen auf?",
+      "a": "Das FRIESENMOOR® Moorkissen kann einfach im Wasserbad (ca. 80°C) erwärmt werden. Achten Sie darauf, dass das Kissen vollständig mit Wasser bedeckt ist und nicht direkt mit der Heizquelle in Berührung kommt. Alternativ ist auch eine Erwärmung in der Mikrowelle bei niedriger Leistung möglich, hierbei empfehlen wir, das Kissen in einem feuchten Tuch einzuwickeln und die Temperatur regelmäßig zu prüfen."
+    },
+    {
+      "q": "Ist das Moorkissen auch zur Kälteanwendung geeignet?",
+      "a": "Ja, das FRIESENMOOR® Moorkissen kann auch zur Kälteanwendung genutzt werden. Legen Sie es dazu gut verpackt in den Kühlschrank oder Gefrierschrank. Die Kälte wirkt entzündungshemmend und schmerzlindernd, ideal bei akuten Entzündungen oder Prellungen."
+    },
+    {
+      "q": "Wie reinige ich das Moorkissen?",
+      "a": "Da das FRIESENMOOR® Moorkissen eine reine Naturmoorfüllung enthält, ist eine direkte Maschinenwäsche nicht möglich. Die äußere Hülle (falls vorhanden) kann entsprechend den Pflegehinweisen gereinigt werden. Die Moorfüllung selbst bedarf keiner speziellen Reinigung."
+    },
+    {
+      "q": "Welche Vorteile bietet die Moortherapie?",
+      "a": "Die Moortherapie bietet vielfältige Vorteile. Die Wärme des Moors fördert die Durchblutung, entspannt die Muskulatur und lindert Schmerzen. Kälteanwendungen wirken entzündungshemmend und abschwellend. Die natürlichen Inhaltsstoffe des Moors können zudem positiv auf die Haut wirken."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:31.454304",
   "originalName": "FRIESENMOOR MOORKISSEN 53 cm x 20 cm",
+  "enhancedAt": "2025-10-10T23:35:54.637838",
   "enhanced": true
 }

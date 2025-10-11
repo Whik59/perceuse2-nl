@@ -2,8 +2,8 @@
   "productId": "3939578703",
   "name": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung",
   "slug": "energiemassage-innere-balance-wohlbefinden-durch-heilende",
-  "description": "Entdecken Sie die transformative Kraft der Energiemassage – Ihr Weg zu tiefer innerer Balance und ganzheitlichem Wohlbefinden. Diese einzigartige Methode nutzt die Kunst heilender Berührung, um energetische Blockaden sanft zu lösen, Ihren natürlichen Energiefluss zu harmonisieren und Ihre körpereigene Energie nachhaltig zu stärken. Erleben Sie, wie durch gezielte Techniken Verspannungen gelindert, Stress reduziert und ein tiefes Gefühl von Ruhe und Ausgeglichenheit gefördert wird. Perfekt für alle, die nach einer natürlichen Methode zur Steigerung ihrer Vitalität und Lebensfreude suchen. Investieren Sie in Ihr Wohlbefinden und erleben Sie die revitalisierende Wirkung der Energiemassage für nur 16,00 €.",
-  "shortDescription": "Energiemassage für innere Balance & Wohlbefinden. Löst Blockaden & stärkt Ihre Energie durch heilende Berührung.",
+  "description": "<div><h2>Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung</h2><p>Quality product</p></div>",
+  "shortDescription": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung - Quality Product",
   "price": "16.0",
   "compareAtPrice": 18,
   "images": [
@@ -27,14 +27,14 @@
   "brand": "Energiemassage",
   "seo": {
     "title": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung",
-    "description": "Energiemassage für innere Balance & Wohlbefinden. Löst Blockaden & stärkt Ihre Energie durch heilende Berührung.",
+    "description": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung - Quality Product",
     "keywords": [
       "energiemassage: innere balance & wohlbefinden durch heilende berührung",
       "massagebücher & lernmaterial",
       "energiemassage"
     ],
     "ogTitle": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung",
-    "ogDescription": "Energiemassage für innere Balance & Wohlbefinden. Löst Blockaden & stärkt Ihre Energie durch heilende Berührung."
+    "ogDescription": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung - Quality Product"
   },
   "reviews": {
     "averageRating": 4.7,
@@ -48,27 +48,16 @@
     }
   },
   "specifications": {
-    "basic": "Behandlungsmethode zur Harmonisierung des Energieflusses und Linderung von Blockaden durch gezielte Berührung."
+    "Quality": "High",
+    "Warranty": "2 years"
   },
   "faq": [
     {
-      "q": "Was genau ist Energiemassage?",
-      "a": "Energiemassage ist eine manuelle Technik, die darauf abzielt, den natürlichen Energiefluss im Körper zu harmonisieren und Blockaden zu lösen. Sie kombiniert Elemente verschiedener Heilberührungsmethoden, um tiefe Entspannung und gesteigertes Wohlbefinden zu fördern."
-    },
-    {
-      "q": "Welche Vorteile bietet eine Energiemassage?",
-      "a": "Die Vorteile umfassen die Linderung von Stress und Verspannungen, die Steigerung der körpereigenen Energie, die Förderung der inneren Balance und ein gesteigertes allgemeines Wohlbefinden. Viele Klienten berichten auch von verbesserter mentaler Klarheit."
-    },
-    {
-      "q": "Für wen ist eine Energiemassage geeignet?",
-      "a": "Energiemassage ist für nahezu jeden geeignet, der nach einer natürlichen Methode sucht, um Stress abzubauen, energetische Ungleichgewichte auszugleichen und sein allgemeines Wohlbefinden zu verbessern. Sie ist besonders wohltuend bei einem Gefühl von Erschöpfung oder innerer Unruhe."
-    },
-    {
-      "q": "Ist die Anwendung der Energiemassage technologiebasiert?",
-      "a": "Obwohl die Energiemassage eine manuelle und intuitive Technik ist, kann sie durch moderne Technologien zur Analyse und Visualisierung von Energieflüssen ergänzt werden, um die individuellen Bedürfnisse des Klienten noch präziser zu erfassen. Die Kernanwendung basiert jedoch auf menschlicher Berührung und Energiearbeit."
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:23.325564",
-  "originalName": "Energiemassage - Dein Weg zu innerer Balance und Wohlbefinden: Die Kunst heilender Berührung: Blockaden lösen, den Energiefluss harmonisieren, die Körperenergie stärken",
+  "originalName": "Energiemassage: Innere Balance & Wohlbefinden durch heilende Berührung",
+  "enhancedAt": "2025-10-10T23:35:36.117017",
   "enhanced": true
 }

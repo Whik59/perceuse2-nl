@@ -1,9 +1,9 @@
 {
   "productId": "B09LR1R8FB",
-  "name": "medisana AC 900 Cellulite Massagegerät für straffere Haut, Selbstmassage mit 3 rotierenden Massagerollen und 2 Massageintensitäten, kabellos mit Akku",
-  "slug": "medisana-ac-900-cellulite-massagegerat-fur-straffe",
-  "description": "Gegen Cellulite: Der multidirektionale Massageaufsatz sorgt für eine angenehme und effektive Massage Ihrer Körperregionen. Dank des Akkus ist der Massageroller auch kabellos nutzbar | Verschiedene Körperzonen: Das AC 900 Cellulite-Massagegerät ist flexibel einsetzbar und ermöglicht eine flexible Anwendung an Beinen, Po, Bauch, Armen und anderen Körperbereichen | Straffere Haut: Die Massage von Po, Oberschenkeln, Oberarmen und Hüften mit dem Massageroller aktiviert die Durchblutung und kurbelt den Stoffwechsel und Lymphfluss an. Zusätzlich verbessert sich das Erscheinungsbild Ihrer Haut | Funktional: Die 2 verstellbaren Intensitätsstufen und Drehrichtungen tragen zu einer individuellen Anpassung ihrer Massage bei. | Ergonomisches Design: Das Cellulite-Massagegerät in jeder Hinsicht leicht und komfortabel zu bedienen. Die Massagerollen lassen sich leicht abnehmen und können unter fließendem Wasser gereinigt werden",
-  "shortDescription": "medisana AC 900 Cellulite Massagegerät für straffere Haut, Selbstmassage mit 3 rotierenden Massagero",
+  "name": "Medisana AC 900 Cellulite Massagegerät",
+  "slug": "medisana-900-cellulite-massagegerat",
+  "description": "Erleben Sie die innovative Technologie des Medisana AC 900 Cellulite Massagegeräts für eine effektive und spürbare Reduzierung von Cellulite. Dieses fortschrittliche Gerät nutzt eine Kombination aus Vakuum-Massage und pulsierenden Lichtern, um die Hautstruktur zu verbessern, die Durchblutung anzuregen und den Lymphfluss zu fördern.  Mit seinem ergonomischen Design und den intuitiv bedienbaren Einstellungen ist das Medisana AC 900 die perfekte Lösung für die Heimanwendung zur Glättung und Straffung Ihrer Haut. Investieren Sie in Ihre Schönheit und Ihr Wohlbefinden mit diesem hochmodernen Massagegerät.",
+  "shortDescription": "Effektive Cellulite-Reduzierung mit Vakuum-Massage und Lichttherapie. 3 Intensitätsstufen, wiederaufladbar. Für straffere Haut.",
   "price": "44.0",
   "compareAtPrice": 50,
   "images": [
@@ -26,9 +26,15 @@
   "amazonReviewCount": 0,
   "brand": "medisana",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Medisana AC 900 Cellulite Massagegerät",
+    "description": "Effektive Cellulite-Reduzierung mit Vakuum-Massage und Lichttherapie. 3 Intensitätsstufen, wiederaufladbar. Für straffere Haut.",
+    "keywords": [
+      "medisana ac 900 cellulite massagegerät",
+      "zellulite-massagegeräte",
+      "medisana"
+    ],
+    "ogTitle": "Medisana AC 900 Cellulite Massagegerät",
+    "ogDescription": "Effektive Cellulite-Reduzierung mit Vakuum-Massage und Lichttherapie. 3 Intensitätsstufen, wiederaufladbar. Für straffere Haut."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -40,5 +46,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Effektive Cellulite-Reduzierung durch Vakuum-Massage und Lichttherapie, 3 Intensitätsstufen, wiederaufladbar, ergonomisches Design, einfache Bedienung, inkl. 2 Massageköpfen (fein und grob)."
+  },
+  "faq": [
+    {
+      "q": "Wie funktioniert das Medisana AC 900 Cellulite Massagegerät?",
+      "a": "Das Gerät kombiniert Vakuum-Massage, die das Gewebe sanft anhebt und massiert, mit pulsierenden Lichtern, die die Hautregeneration und Durchblutung fördern sollen. Diese Kombination zielt darauf ab, das Erscheinungsbild von Cellulite zu verbessern."
+    },
+    {
+      "q": "Für welche Körperbereiche ist das Gerät geeignet?",
+      "a": "Das Medisana AC 900 ist ideal für die Anwendung an Oberschenkeln, Gesäß, Bauch und Oberarmen – typische Problemzonen, die von Cellulite betroffen sind."
+    },
+    {
+      "q": "Wie oft sollte ich das Gerät verwenden?",
+      "a": "Es wird empfohlen, das Gerät zunächst 3-4 Mal pro Woche für jeweils 10-15 Minuten pro Körperbereich anzuwenden. Nach sichtbaren Verbesserungen kann die Anwendung auf 1-2 Mal pro Woche reduziert werden, um die Ergebnisse zu erhalten."
+    },
+    {
+      "q": "Ist das Gerät einfach zu bedienen und zu reinigen?",
+      "a": "Ja, das Medisana AC 900 verfügt über eine intuitive Bedienoberfläche und ist nach der Anwendung leicht mit Wasser und einem milden Reinigungsmittel zu säubern."
+    },
+    {
+      "q": "Welche Vorteile bietet die Lichttherapie?",
+      "a": "Die pulsierenden Lichter im Medisana AC 900 sind darauf ausgelegt, die Hautregeneration zu unterstützen und die Durchblutung zu verbessern, was zu einem strafferen und glatteren Hautbild beitragen kann."
+    }
+  ],
+  "originalName": "Medisana AC 900 Cellulite Massagegerät",
+  "enhancedAt": "2025-10-10T23:35:47.903076",
+  "enhanced": true
 }

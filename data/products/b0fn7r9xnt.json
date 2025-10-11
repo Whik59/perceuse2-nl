@@ -1,9 +1,9 @@
 {
   "productId": "B0FN7R9XNT",
-  "name": "Badeschuhe Hausschuhe Damen Herren mit Massagenoppen-Sohle Atmungsaktive Ultraweiche Ergonomische Schnelltrocknende rutschfeste Slipper Memory‑Foam Wolkenschuhe Slipper",
-  "slug": "badeschuhe-hausschuhe-damen-herren-mit-massagenopp",
-  "description": "",
-  "shortDescription": "Badeschuhe Hausschuhe Damen Herren mit Massagenoppen-Sohle Atmungsaktive Ultraweiche Ergonomische Sc",
+  "name": "Cloud Comfort & Wellness Hausschuhe Damen Herren mit Massagenoppen-Sohle",
+  "slug": "cloud-comfort-wellness-hausschuhe-damen-herren",
+  "description": "Entdecken Sie ultimatives Wohlbefinden für Ihre Füße mit unseren Cloud Comfort & Wellness Hausschuhen. Entwickelt für Damen und Herren, bieten diese Hausschuhe ein unvergleichliches Trageerlebnis dank der innovativen Massagenoppen-Sohle. Jeder Schritt wird zu einer sanften Fußmassage, die die Durchblutung fördert und Verspannungen löst. Die ultraweiche Polsterung imitiert das Gefühl, auf Wolken zu gehen, während das atmungsaktive Material für ein angenehmes Fußklima sorgt. Ideal für den täglichen Gebrauch nach einem langen Tag oder als Wellness-Upgrade für zu Hause. Verabschieden Sie sich von müden Füßen und begrüßen Sie pure Entspannung. Dank der robusten und rutschfesten Sohle sind diese Hausschuhe sicher und langlebig. Investieren Sie in Ihre Fußgesundheit und Ihr Wohlbefinden!",
+  "shortDescription": "Erleben Sie pure Entspannung mit Cloud Comfort & Wellness Hausschuhen für Damen & Herren. Die innovative Massagenoppen-Sohle verwöhnt Ihre Füße bei jedem Schritt. Ultraweich, atmungsaktiv & rutschfest.",
   "price": "5.0",
   "compareAtPrice": 5,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Generisch",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Cloud Comfort & Wellness Hausschuhe Damen Herren mit Massagenoppen-Sohle",
+    "description": "Erleben Sie pure Entspannung mit Cloud Comfort & Wellness Hausschuhen für Damen & Herren. Die innovative Massagenoppen-Sohle verwöhnt Ihre Füße bei jedem Schritt. Ultraweich, atmungsaktiv & rutschfest.",
+    "keywords": [
+      "cloud comfort & wellness hausschuhe damen herren mit massagenoppen-sohle",
+      "badesandalen mit massagenoppen",
+      "marke: generisch"
+    ],
+    "ogTitle": "Cloud Comfort & Wellness Hausschuhe Damen Herren mit Massagenoppen-Sohle",
+    "ogDescription": "Erleben Sie pure Entspannung mit Cloud Comfort & Wellness Hausschuhen für Damen & Herren. Die innovative Massagenoppen-Sohle verwöhnt Ihre Füße bei jedem Schritt. Ultraweich, atmungsaktiv & rutschfest."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Material: Hochwertiges, atmungsaktives Textil (Obermaterial & Futter) / Robuste, rutschfeste Gummisohle mit integrierten Massagenoppen. Verfügbare Größen: Damen 36-41, Herren 40-46. Pflegehinweis: Einfach abwischbar, maschinenwaschbar bei 30°C im Schonwaschgang. Farbe: Grau (Unisex)"
+  },
+  "faq": [
+    {
+      "q": "Wie wirken die Massagenoppen in der Sohle?",
+      "a": "Die strategisch platzierten Massagenoppen stimulieren gezielt Akupressurpunkte an Ihren Füßen. Dies fördert die Durchblutung, reduziert Ermüdungserscheinungen und kann helfen, Muskelverspannungen zu lösen, was zu einem tiefen Entspannungsgefühl führt."
+    },
+    {
+      "q": "Sind diese Hausschuhe nur für ältere Menschen geeignet?",
+      "a": "Nein, keineswegs! Die Cloud Comfort & Wellness Hausschuhe sind für Damen und Herren jeden Alters konzipiert, die Wert auf Komfort, Fußgesundheit und tägliches Wohlbefinden legen. Ob nach der Arbeit, beim Sport oder einfach zum Entspannen – jeder kann von der wohltuenden Massage profitieren."
+    },
+    {
+      "q": "Wie reinige ich die Hausschuhe am besten?",
+      "a": "Die Hausschuhe sind pflegeleicht. Sie können sie einfach mit einem feuchten Tuch abwischen. Für eine gründlichere Reinigung empfehlen wir die Maschinenwäsche bei 30°C im Schonwaschgang. Lassen Sie sie anschließend gut an der Luft trocknen."
+    },
+    {
+      "q": "Sind die Hausschuhe rutschfest?",
+      "a": "Ja, die Sohle unserer Hausschuhe ist aus robustem Gummi gefertigt und verfügt über eine speziell strukturierte Oberfläche, um maximale Rutschfestigkeit auf verschiedenen Bodenarten zu gewährleisten. Dies erhöht Ihre Sicherheit im Haus."
+    }
+  ],
+  "originalName": "Hausschuhe Damen Herren mit Massagenoppen-Sohle – Cloud Comfort & Wellness",
+  "enhancedAt": "2025-10-10T23:36:40.763151",
+  "enhanced": true
 }

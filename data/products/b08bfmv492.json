@@ -1,9 +1,9 @@
 {
   "productId": "B08BFMV492",
-  "name": "Medi Partners Kirschkernkissen - Groß & Vielseitig (20x25cm, 500g)",
-  "slug": "20x25cm-medi-partners-kirschkernkissen-gross-vielseitig",
-  "description": "Entdecken Sie das vielseitige Kirschkernkissen von Medi Partners – Ihr idealer Begleiter für Wärme- und Kältetherapie. Gefertigt aus 100% reiner Bio-Baumwolle, bietet dieses große Körnerkissen mit den Maßen 20x25cm und einem Gewicht von 500g wohltuende Linderung bei Verspannungen, Bauchschmerzen und Kälteempfindlichkeit. Ob als Wärmekissen erwärmt in der Mikrowelle oder im Backofen, oder als Kältekissen gekühlt im Gefrierschrank – die natürlichen Kirschkerne passen sich optimal an jede Körperkontur an und ermöglichen eine effektive Massagetherapie. Das ansprechende Design mit weißen Sternen auf grauem Grund macht es zudem zu einem stilvollen Accessoire. Erleben Sie natürliche Heilkraft und Entspannung zum attraktiven Preis von nur 9,0€.",
-  "shortDescription": "Großes Kirschkernkissen (500g, 20x25cm) von Medi Partners aus 100% Bio-Baumwolle. Ideal für Wärme- & Kältetherapie und Massagetherapie. Design: Weiße Sterne/Grau. Nur 9,0€.",
+  "name": "Medi Partners Kirschkernkissen – Ihr vielseitiger Wärmespender",
+  "slug": "medi-partners-kirschkernkissen-ihr-vielseitiger-warmespender",
+  "description": "Entdecken Sie das **Medi Partners Kirschkernkissen** in der großzügigen Größe von 20x25 cm und einem Füllgewicht von 500g. Dieses hochwertige Kirschkernkissen ist Ihr idealer Begleiter für wohltuende Wärme und Entspannung. Dank der natürlichen Füllung aus sorgfältig ausgewählten Kirschkernen passt sich das Kissen optimal Ihren Körperkonturen an und speichert Wärme langanhaltend. Ob zur Linderung von Verspannungen, Menstruationsbeschwerden oder einfach zum Kuscheln – dieses vielseitige Kissen bietet effektive und natürliche Linderung. Einfach in der Mikrowelle oder im Backofen erwärmen und die wohlige Wärme genießen. Entdecken Sie die Vorteile natürlicher Wärme mit dem Medi Partners Kirschkernkissen – ein unverzichtbarer Helfer für Ihr Wohlbefinden. **Jetzt für nur 9,0€ erhältlich!**",
+  "shortDescription": "Medi Partners Kirschkernkissen: Groß (20x25cm, 500g) & vielseitig für Wärme & Entspannung. Jetzt für nur 9,0€!",
   "price": "9.0",
   "compareAtPrice": 10,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Medi Partners-Store",
   "seo": {
-    "title": "Medi Partners Kirschkernkissen - Groß & Vielseitig (20x25cm, 500g)",
-    "description": "Großes Kirschkernkissen (500g, 20x25cm) von Medi Partners aus 100% Bio-Baumwolle. Ideal für Wärme- & Kältetherapie und Massagetherapie. Design: Weiße Sterne/Grau. Nur 9,0€.",
+    "title": "Medi Partners Kirschkernkissen – Ihr vielseitiger Wärmespender",
+    "description": "Medi Partners Kirschkernkissen: Groß (20x25cm, 500g) & vielseitig für Wärme & Entspannung. Jetzt für nur 9,0€!",
     "keywords": [
-      "medi partners kirschkernkissen - groß & vielseitig (20x25cm, 500g)",
+      "medi partners kirschkernkissen – ihr vielseitiger wärmespender",
       "wärmekissen",
       "besuche den medi partners-store"
     ],
-    "ogTitle": "Medi Partners Kirschkernkissen - Groß & Vielseitig (20x25cm, 500g)",
-    "ogDescription": "Großes Kirschkernkissen (500g, 20x25cm) von Medi Partners aus 100% Bio-Baumwolle. Ideal für Wärme- & Kältetherapie und Massagetherapie. Design: Weiße Sterne/Grau. Nur 9,0€."
+    "ogTitle": "Medi Partners Kirschkernkissen – Ihr vielseitiger Wärmespender",
+    "ogDescription": "Medi Partners Kirschkernkissen: Groß (20x25cm, 500g) & vielseitig für Wärme & Entspannung. Jetzt für nur 9,0€!"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -50,31 +50,38 @@
     }
   },
   "specifications": {
-    "basic": "Typ: Kirschkernkissen / Körnerkissen, Marke: Medi Partners, Größe: Groß (20x25cm), Gewicht: 500g, Material Hülle: 100% Baumwolle (Öko-Natur), Füllung: Natürliche Kirschkerne, Anwendungsbereiche: Wärme- und Kältetherapie, Massagetherapie, Linderung bei Verspannungen, Bauchschmerzen, Kälteempfindlichkeit, Pflegehinweise: Hülle bei Bedarf waschbar (gemäß Etikett), Design: Weiße Sterne auf grauem Grund"
+    "Grundmerkmale": "Kirschkernkissen von Medi Partners",
+    "Größe": "Groß: 20x25 cm",
+    "Füllgewicht": "500g reine Kirschkerne",
+    "Anwendung": "Wärmeanwendung (Mikrowelle, Backofen), Kälteanwendung (Gefrierschrank)",
+    "Material (Füllung)": "100% natürliche Kirschkerne",
+    "Vielseitigkeit": "Geeignet für Nacken, Schultern, Rücken, Bauch, Gelenke",
+    "Pflege": "Obermaterial separat waschbar (je nach Modell prüfen)",
+    "Preis": "9,0€"
   },
   "faq": [
     {
-      "q": "Wie erwärme ich das Kirschkernkissen?",
-      "a": "Sie können das Kirschkernkissen einfach und schnell in der Mikrowelle (ca. 1-2 Minuten bei 600 Watt) oder im Backofen (ca. 8-10 Minuten bei 120°C Ober-/Unterhitze) erwärmen. Achten Sie darauf, dass das Kissen nicht überhitzt und immer auf die richtige Temperatur prüfen, bevor Sie es anwenden."
+      "q": "Wie erwärme ich das Medi Partners Kirschkernkissen am besten?",
+      "a": "Sie können das Kirschkernkissen bequem in der Mikrowelle (ca. 1-2 Minuten bei 600 Watt, zwischendurch wenden) oder im Backofen (ca. 10-15 Minuten bei 120°C, auf einem Backblech mit Backpapier) erwärmen. Achten Sie darauf, das Kissen nicht zu überhitzen und prüfen Sie die Temperatur vor der Anwendung."
     },
     {
-      "q": "Kann das Kirschkernkissen auch zur Kältetherapie verwendet werden?",
-      "a": "Ja, das Kirschkernkissen eignet sich hervorragend für die Kältetherapie. Legen Sie es dazu für mindestens 1-2 Stunden in den Gefrierschrank. Ideal zur Linderung von Entzündungen oder Schwellungen."
+      "q": "Kann das Kirschkernkissen auch zur Kühlung verwendet werden?",
+      "a": "Ja, das Medi Partners Kirschkernkissen eignet sich auch hervorragend für die Kälteanwendung. Legen Sie es dafür einfach für ca. 1-2 Stunden in den Gefrierschrank. Die Kälte kann bei Entzündungen, Schwellungen oder zur Erfrischung wohltuend wirken."
     },
     {
-      "q": "Ist die Hülle des Kissens abnehmbar und waschbar?",
-      "a": "Die Hülle des Medi Partners Kirschkernkissens besteht aus 100% Baumwolle und ist in der Regel waschbar. Bitte beachten Sie die genauen Pflegehinweise auf dem eingenähten Etikett des Kissens, um die Langlebigkeit zu gewährleisten."
+      "q": "Für welche Körperbereiche ist das Kissen besonders gut geeignet?",
+      "a": "Dank seiner großzügigen Größe von 20x25 cm ist das Kissen ideal für die Anwendung am Nacken, den Schultern, dem unteren Rücken, dem Bauch und auch an Gelenken. Seine flexible Beschaffenheit passt sich jeder Körperregion optimal an."
     },
     {
-      "q": "Für welche Beschwerden ist das Kirschkernkissen besonders geeignet?",
-      "a": "Das Kissen ist ideal zur Linderung von Muskelverspannungen, Nackenschmerzen, Rückenschmerzen, Bauchkrämpfen (besonders bei Babys), Menstruationsbeschwerden und zur allgemeinen Entspannung. Die Massagetherapie durch die Kirschkerne fördert zudem die Durchblutung."
+      "q": "Sind die Kirschkerne einseitig oder beidseitig verarbeitet?",
+      "a": "Die Kirschkerne sind sorgfältig in hochwertige Bezüge gefüllt, um eine gleichmäßige Wärmeverteilung zu gewährleisten. Die genaue Verarbeitung des Bezugs (z.B. Doppelnaht) unterstützt die Langlebigkeit."
     },
     {
-      "q": "Ist das Kirschkernkissen für Kinder geeignet?",
-      "a": "Ja, das Kissen ist generell für alle Altersgruppen geeignet, auch für Kinder. Bei der Anwendung an Kleinkindern ist jedoch besondere Vorsicht geboten, und die Temperatur muss stets sorgfältig geprüft werden. Achten Sie auf eine sichere Anwendung und beaufsichtigen Sie die Anwendung bei Kindern."
+      "q": "Wie reinige ich das Kirschkernkissen?",
+      "a": "Bitte beachten Sie die spezifischen Pflegehinweise des Herstellers für Ihr Modell. In der Regel ist das Innenkissen mit den Kirschkernen nicht waschbar. Oftmals kann jedoch der äußere Bezug separat im Schonwaschgang gereinigt werden."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:23.936376",
-  "originalName": "Medi Partners Kirschkernkissen Körnerkissen groß Wärmekissen 500g Rechteck 20x25cm Öko Natur 100% Baumwolle Wärme + Kältetherapie Massagetherapie (Weiße Sterne mit Graue)",
+  "originalName": "Medi Partners Kirschkernkissen - Groß & Vielseitig (20x25cm, 500g)",
+  "enhancedAt": "2025-10-10T23:35:48.470557",
   "enhanced": true
 }

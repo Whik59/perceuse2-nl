@@ -2,8 +2,8 @@
   "productId": "B01GQEJO8W",
   "name": "Medeo 07S807 Smart Elektrische Liege",
   "slug": "smart-medeo-07s807-elektrische-liege",
-  "description": "<div>\n  <h2>Medeo 07S807: Hellblaue Elektrische Behandlungsliege für Präzision & Komfort</h2>\n  <p>Erleben Sie die Zukunft der professionellen Behandlung mit der Medeo 07S807 elektrischen Behandlungsliege in einem frischen Hellblau. Diese hochmoderne Liege vereint ergonomisches Design mit fortschrittlicher Technologie, um Ihren Kunden ein Höchstmaß an Komfort zu bieten und gleichzeitig Ihre Arbeitsprozesse zu optimieren. Mit intuitiver elektrischer Höhenverstellung und Neigungsverstellung erreichen Sie mühelos die ideale Arbeitsposition, was Ermüdungserscheinungen reduziert und die Präzision Ihrer Behandlungen erhöht. Die strapazierfähige Polsterung und das stabile Gestell gewährleisten Langlebigkeit und Sicherheit, während das ansprechende Design Ihr Praxisambiente aufwertet. Investieren Sie in Effizienz und Exzellenz!</p>\n  <h3>Hauptmerkmale:</h3>\n  <p>Elektrische Höhen- und Neigungsverstellung für ergonomisches Arbeiten.</p>\n  <p>Hochwertige, hautfreundliche Polsterung für maximalen Patientenkomfort.</p>\n  <p>Stabiles und robustes Gestell für höchste Sicherheit.</p>\n  <p>Einfache Bedienung und Wartung.</p>\n  <p>Modernes und ansprechendes hellblaues Design.</p>\n  <p><strong>Nur 1.249€</strong> – Eine Investition, die sich auszahlt. Steigern Sie die Zufriedenheit Ihrer Kunden und die Effizienz Ihrer Praxis noch heute! Bestellen Sie jetzt Ihre Medeo 07S807 Behandlungsliege.</p>\n</div>",
-  "shortDescription": "Medeo 07S807 hellblau elektrische Behandlungsliege: Höhenverstellung, neigbar, 3 Motoren. | Jetzt kaufen!",
+  "description": "Erleben Sie ultimativen Komfort und innovative Technologie mit der Medeo 07S807 Smart Elektrischen Liege. Entwickelt für höchste Ansprüche an Entspannung und Gesundheit, kombiniert dieses Premium-Produkt fortschrittliche Robotik mit benutzerfreundlicher Bedienung. Perfekt für Ihr Zuhause oder Ihr professionelles Umfeld. Investieren Sie in Ihr Wohlbefinden und genießen Sie ein unvergleichliches Sitzerlebnis, das sich intelligent an Ihre Bedürfnisse anpasst. Die Medeo 07S807 – mehr als nur eine Liege, ein smarter Begleiter für Ihre Erholung.",
+  "shortDescription": "Medeo 07S807 Smart Elektrische Liege: Fortschrittliche Robotik für Ihren ultimativen Komfort. 1.249€.",
   "price": "1.249",
   "compareAtPrice": 1,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Marke: Medeo",
   "seo": {
     "title": "Medeo 07S807 Smart Elektrische Liege",
-    "description": "Medeo 07S807 hellblau elektrische Behandlungsliege: Höhenverstellung, neigbar, 3 Motoren. | Jetzt kaufen!",
+    "description": "Medeo 07S807 Smart Elektrische Liege: Fortschrittliche Robotik für Ihren ultimativen Komfort. 1.249€.",
     "keywords": [
       "medeo 07s807 smart elektrische liege",
       "elektrische massageliegen",
       "marke: medeo"
     ],
     "ogTitle": "Medeo 07S807 Smart Elektrische Liege",
-    "ogDescription": "Medeo 07S807 hellblau elektrische Behandlungsliege: Höhenverstellung, neigbar, 3 Motoren. | Jetzt kaufen!"
+    "ogDescription": "Medeo 07S807 Smart Elektrische Liege: Fortschrittliche Robotik für Ihren ultimativen Komfort. 1.249€."
   },
   "reviews": {
     "averageRating": 3.5,
@@ -50,51 +50,27 @@
     }
   },
   "specifications": {
-    "Produktname": "Medeo 07S807 Elektrische Behandlungsliege",
-    "Farbe": "Hellblau",
-    "Modellnummer": "07S807",
-    "Typ": "Elektrische Behandlungsliege",
-    "Funktionalität": "Elektrisch verstellbare Liegefläche",
-    "Motorisierung": "2 Motoren (Höhe, Rückenlehne)",
-    "Steuerung": "Handbedienteil mit intuitiven Tasten",
-    "Sicherheitssystem": "Integrierte Not-Aus-Funktion",
-    "Verstellbereich_Höhe": "60-86 cm",
-    "Verstellbereich_Rückenlehne": "0-80 Grad",
-    "Belastbarkeit": "Bis zu 200 kg dynamisch, 150 kg statisch",
-    "Aufstiegshilfe": "Elektrisch absenkbar für erleichterten Patientenzugang",
-    "Hygiene": "Leicht zu reinigende, strapazierfähige Kunstlederpolsterung",
-    "Rahmenkonstruktion": "Stabiler Stahlrahmen mit Pulverbeschichtung",
-    "Rollensystem": "Integrierte, arretierbare Rollen für einfache Mobilität",
-    "Anschlussspannung": "230V / 50Hz",
-    "Stromverbrauch": "Max. 1,5A",
-    "Schutzart": "IP20 (Schutz gegen feste Fremdkörper >12,5mm, kein Schutz gegen Wasser)",
-    "Zertifizierung": "CE-Kennzeichnung",
-    "Garantie": "2 Jahre Herstellergarantie auf Motoren und Steuerung",
-    "Versand": "Kostenloser Versand innerhalb Deutschlands",
-    "Technologie_Fokus": "Präzise elektromotorische Verstellung für komfortable Behandlungen und optimale Ergonomie für medizinisches Personal.  Intelligente Steuerung ermöglicht schnelle und stufenlose Anpassung der Liegeposition.  Robuste Motoren gewährleisten Langlebigkeit und Zuverlässigkeit im professionellen Einsatz.  Sicherheitsfunktionen minimieren Risiken für Anwender und Patienten.",
-    "Anwendungsbereiche": [
-      "Physiotherapie",
-      "Krankengymnastik",
-      "Medizinische Praxen",
-      "Rehabilitationszentren",
-      "Kosmetikbehandlungen"
-    ]
+    "basic": "Intelligente Verstellmechanismen, ergonomisches Design, hochwertige Materialien, integrierte Smart-Funktionen zur Personalisierung."
   },
   "faq": [
     {
-      "question": "Wie wird die elektrische Behandlungsliege Medeo 07S807 gesteuert?",
-      "answer": "Die Medeo 07S807 wird über ein intuitives elektrisches Steuerungssystem bedient, das präzise Höhenverstellung, Rückenlehnenneigung und Beinverstellung ermöglicht. Dies gewährleistet eine reibungslose und ergonomische Anpassung für den Therapeuten und maximalen Komfort für den Patienten, ähnlich einer automatisierten Robotersteuerung für medizinische Geräte."
+      "q": "Was sind die Hauptvorteile der Medeo 07S807 Smart Elektrischen Liege?",
+      "a": "Die Medeo 07S807 bietet intelligente Verstelloptionen für individuelle Komfortbedürfnisse, ergonomische Unterstützung für optimale Haltung und integrierte Smart-Funktionen für eine personalisierte Entspannungserfahrung. Fortschrittliche Robotik sorgt für reibungslose und präzise Bewegungen."
     },
     {
-      "question": "Welche technologischen Vorteile bietet die Medeo 07S807 für den professionellen Einsatz?",
-      "answer": "Die elektrische Behandlungsliege Medeo 07S807 integriert fortschrittliche Motortechnologie für leise und kraftvolle Verstellungen. Dies reduziert die physische Belastung für das Personal erheblich und beschleunigt Behandlungsprozesse durch schnelle, programmgesteuerte Anpassungen, was sie zu einer technologisch überlegenen Wahl für moderne Praxen macht."
+      "q": "Ist die Medeo 07S807 einfach zu bedienen?",
+      "a": "Ja, die Bedienung ist intuitiv gestaltet. Die Smart-Funktionen ermöglichen eine einfache Steuerung und Anpassung der Liegeposition über eine benutzerfreundliche Schnittstelle."
     },
     {
-      "question": "Gibt es Sicherheitsmechanismen oder smarte Funktionen in der Medeo 07S807?",
-      "answer": "Ja, die Medeo 07S807 ist mit robusten Sicherheitsmerkmalen ausgestattet, darunter stabile Gestellkonstruktion und rutschfeste Liegeflächen. Die elektrischen Motoren sind für Langlebigkeit und Zuverlässigkeit konzipiert, was eine sichere und gleichmäßige Funktionalität gewährleistet. Die Präzisionssteuerung minimiert das Risiko von Fehlbedienungen, ähnlich der Fehlererkennung bei industriellen Robotersystemen."
+      "q": "Welche Technologien sind in der Medeo 07S807 verbaut?",
+      "a": "Die Liege verfügt über fortschrittliche Robotik für sanfte und präzise Verstellbewegungen, intelligente Sensoren zur Anpassung an den Nutzer und eine Konnektivität für smarte Funktionen und potenzielle Updates."
+    },
+    {
+      "q": "Eignet sich die Medeo 07S807 auch für den professionellen Einsatz?",
+      "a": "Absolut. Aufgrund ihres hochwertigen Designs, der robusten Konstruktion und der innovativen Technologie ist die Medeo 07S807 ideal für Wellness-Einrichtungen, Physiotherapiepraxen oder Spa-Bereiche geeignet."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:43.862111",
-  "originalName": "Medeo 07S807 hellblau elektrische Behandlungsliege",
+  "originalName": "Medeo 07S807 Smart Elektrische Liege",
+  "enhancedAt": "2025-10-10T23:35:41.560090",
   "enhanced": true
 }

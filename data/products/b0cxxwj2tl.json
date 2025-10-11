@@ -1,9 +1,9 @@
 {
   "productId": "B0CXXWJ2TL",
-  "name": "2x Kalt Warm Kompressen - MADE IN GERMANY - Kühlpads Set 29x12 cm - Vielseitige Kühl- und Warmkissen, Gelkissen",
-  "slug": "2x-kalt-warm-kompressen-made-in-germany-kuhlpads-s",
-  "description": "FLEXIBLE ANWENDUNG - Diese Kühlpads sind vielseitig einsetzbar, sowohl als Kalt- als auch als Warmkompresse. Sie können leicht von einem Zustand in den anderen gewechselt werden, je nach Bedarf, was sie zu einem unverzichtbaren Bestandteil jeder Hausapotheke macht. | OPTIMALE GRÖßE - Mit den Maßen 29x12 cm decken diese Gelkissen eine ausreichende Fläche ab, um größere Körperbereiche wie Rücken, Nacken oder Bauch effektiv zu behandeln. Dies macht sie ideal für die Anwendung bei verschiedenen körperlichen Beschwerden. | MIKROWELLEN GEEIGNET: Als Kaltkompresse genutzt, bieten diese Pads sofortige Linderung bei Verletzungen, Schwellungen, Prellungen oder nach dem Sport. Sie helfen, Entzündungen zu reduzieren und Schmerzen zu lindern. | THERAPEUTISCHE WÄRME Verwendet als Warmkompresse, fördern diese Kissen die Durchblutung und sind hilfreich bei der Entspannung verspannter Muskeln sowie bei der Linderung von Muskelkater und steifen Gelenken. | WIEDERVERWENDBAR UND HALTBAR! Diese Gelkissen sind für den langfristigen Gebrauch konzipiert. Sie können immer wieder verwendet werden, sowohl in warmem als auch in kaltem Zustand, was sie zu einer ökonomischen Option für regelmäßige Anwendungen macht.",
-  "shortDescription": "2x Kalt Warm Kompressen - MADE IN GERMANY - Kühlpads Set 29x12 cm - Vielseitige Kühl- und Warmkissen",
+  "name": "2x Kalt-Warm Kompressen \"Made in Germany\" | Premium Gelkissen 29x12 cm",
+  "slug": "premium-kalt-warm-kompressen-made-germany-gelkissen",
+  "description": "Erleben Sie erholsame Linderung mit unseren hochwertigen Kalt-Warm Kompressen, \"Made in Germany\". Dieses Set aus 2 Premium Gelkissen (29x12 cm) bietet flexible und langanhaltende Therapie für Wärme- und Kälteanwendungen. Perfekt zur Schmerzlinderung, Regeneration nach dem Sport, oder zur Entspannung. Dank des innovativen Gels behält die Kompresse ihre Temperatur über lange Zeit bei und passt sich optimal Ihren Körperkonturen an. Setzen Sie auf Qualität und Nachhaltigkeit mit einem Produkt, das für seine Langlebigkeit und Effektivität bekannt ist.",
+  "shortDescription": "2x Premium Kalt-Warm Kompressen \"Made in Germany\" | 29x12 cm Gelkissen für effektive Schmerzlinderung & Regeneration. Flexibel, langanhaltend, hochwertig.",
   "price": "9.0",
   "compareAtPrice": 10,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den HaushaltO-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "2x Kalt-Warm Kompressen \"Made in Germany\" | Premium Gelkissen 29x12 cm",
+    "description": "2x Premium Kalt-Warm Kompressen \"Made in Germany\" | 29x12 cm Gelkissen für effektive Schmerzlinderung & Regeneration. Flexibel, langanhaltend, hochwertig.",
+    "keywords": [
+      "2x kalt-warm kompressen \"made in germany\" | premium gelkissen 29x12 cm",
+      "kühlgels & sport-salben",
+      "besuche den haushalto-store"
+    ],
+    "ogTitle": "2x Kalt-Warm Kompressen \"Made in Germany\" | Premium Gelkissen 29x12 cm",
+    "ogDescription": "2x Premium Kalt-Warm Kompressen \"Made in Germany\" | 29x12 cm Gelkissen für effektive Schmerzlinderung & Regeneration. Flexibel, langanhaltend, hochwertig."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Hochwertiges Gelkissen \"Made in Germany\". 2 Stück im Set. Maße: 29x12 cm. Flexibel einsetzbar für Kalt- und Warmtherapie. Langanhaltende Temperaturhaltung. Ergonomische Anpassung an den Körper. Wiederverwendbar und langlebig."
+  },
+  "faq": [
+    {
+      "q": "Wie werden die Kalt-Warm Kompressen angewendet?",
+      "a": "Zur Kälteanwendung die Kompresse für mindestens 2 Stunden im Gefrierschrank lagern. Für die Wärmeanwendung die Kompresse für ca. 5 Minuten in heißes (nicht kochendes) Wasser legen oder für ca. 30 Sekunden in der Mikrowelle erwärmen (Vorsicht: Hitze gleichmäßig verteilen und zwischendurch prüfen)."
+    },
+    {
+      "q": "Sind die Kompressen sicher in der Anwendung?",
+      "a": "Ja, unsere Kompressen sind aus schadstofffreiem Material gefertigt und \"Made in Germany\" auf höchste Qualitäts- und Sicherheitsstandards geprüft. Bitte die Anwendungshinweise zur Hitze-/Kälteeinwirkung beachten, um Hautirritationen zu vermeiden."
+    },
+    {
+      "q": "Wie reinige ich die Kompressen?",
+      "a": "Die Kompressen können einfach mit lauwarmem Wasser und milder Seife gereinigt und an der Luft getrocknet werden."
+    },
+    {
+      "q": "Wie lange behält die Kompresse ihre Temperatur?",
+      "a": "Die Dauer der Temperaturhaltung hängt von äußeren Bedingungen ab, aber dank des Premium-Gels ist eine langanhaltende Wirkung für gezielte therapeutische Anwendungen gewährleistet."
+    }
+  ],
+  "originalName": "2x Kalt-Warm Kompressen \"Made in Germany\" | Premium Gelkissen 29x12 cm",
+  "enhancedAt": "2025-10-10T23:36:01.811333",
+  "enhanced": true
 }

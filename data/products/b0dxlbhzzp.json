@@ -1,9 +1,9 @@
 {
   "productId": "B0DXLBHZZP",
-  "name": "WOTTE Badeschlappen Damen Herren rutschfeste Badelatschen Schnell Trocknende Duschhausschuhe Badeschuhe Sommersandalen Unisex Gr. 36-44",
-  "slug": "wotte-badeschlappen-damen-herren-rutschfeste-badel",
-  "description": "",
-  "shortDescription": "WOTTE Badeschlappen Damen Herren rutschfeste Badelatschen Schnell Trocknende Duschhausschuhe Badesch",
+  "name": "WOTTE Badeschlappen – Rutschfest & Schnell Trocknend für Damen und Herren",
+  "slug": "wotte-badeschlappen-rutschfest-schnell-trocknend-fur",
+  "description": "Entdecken Sie die innovativen WOTTE Badeschlappen – die perfekte Kombination aus Komfort, Sicherheit und Funktionalität für Damen und Herren. Gefertigt aus hochwertigem EVA-Material, bieten diese extrem leichten und strapazierfähigen Badeschuhe unschlagbare Vorteile. Dank der speziell entwickelten rutschfesten Sohle mit tiefen Profilen genießen Sie maximalen Halt auf nassen und glatten Oberflächen, sei es im Schwimmbad, in der Sauna, am Strand oder zu Hause. Das schnell trocknende Material sorgt für ein angenehmes Tragegefühl auch nach dem Wasserkontakt und verhindert effektiv die Bildung unangenehmer Gerüche. Das ergonomische Design mit sanft gepolstertem Riemen passt sich Ihrer Fußform perfekt an und bietet den ganzen Tag über optimalen Komfort. Erhältlich in verschiedenen Größen für Damen und Herren, sind die WOTTE Badeschlappen Ihre idealen Begleiter für alle Wasseraktivitäten und entspannte Momente.",
+  "shortDescription": "WOTTE Badeschlappen: Rutschfest & Schnell Trocknend. Ideal für Damen & Herren. Komfortables EVA-Material für Pool, Strand & Sauna.",
   "price": "16.0",
   "compareAtPrice": 18,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: WOTTE",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "WOTTE Badeschlappen – Rutschfest & Schnell Trocknend für Damen und Herren",
+    "description": "WOTTE Badeschlappen: Rutschfest & Schnell Trocknend. Ideal für Damen & Herren. Komfortables EVA-Material für Pool, Strand & Sauna.",
+    "keywords": [
+      "wotte badeschlappen – rutschfest & schnell trocknend für damen und herren",
+      "badesandalen mit massagenoppen",
+      "marke: wotte"
+    ],
+    "ogTitle": "WOTTE Badeschlappen – Rutschfest & Schnell Trocknend für Damen und Herren",
+    "ogDescription": "WOTTE Badeschlappen: Rutschfest & Schnell Trocknend. Ideal für Damen & Herren. Komfortables EVA-Material für Pool, Strand & Sauna."
   },
   "reviews": {
     "averageRating": 3.8,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Material: Hochwertiges EVA (Ethylen-Vinylacetat), Sohle: Rutschfestes Profil, Trocknungszeit: Schnell trocknend, Zielgruppe: Damen und Herren, Besonderheiten: Leicht, strapazierfähig, ergonomisch, geruchsneutral"
+  },
+  "faq": [
+    {
+      "q": "Sind die WOTTE Badeschlappen wirklich rutschfest?",
+      "a": "Ja, die WOTTE Badeschlappen verfügen über eine speziell entwickelte Sohle mit einem tiefen Profil, die für maximalen Halt auf nassen und rutschigen Oberflächen sorgt und somit die Rutschgefahr deutlich reduziert."
+    },
+    {
+      "q": "Wie schnell trocknen die Badeschlappen?",
+      "a": "Das verwendete EVA-Material ist bekannt für seine schnellen Trocknungseigenschaften. Nach dem Kontakt mit Wasser trocknen die WOTTE Badeschlappen sehr schnell und sind schnell wieder einsatzbereit."
+    },
+    {
+      "q": "Welche Größen sind verfügbar?",
+      "a": "Die WOTTE Badeschlappen sind in einer breiten Palette von Größen für Damen und Herren erhältlich, um eine optimale Passform für jeden Fuß zu gewährleisten. Bitte beachten Sie die beigefügte Größentabelle."
+    },
+    {
+      "q": "Sind die Badeschlappen für den Dauereinsatz geeignet?",
+      "a": "Ja, die hohe Strapazierfähigkeit des EVA-Materials und das robuste Design machen die WOTTE Badeschlappen ideal für den regelmäßigen und auch intensiven Gebrauch, sei es im Alltag oder bei Outdoor-Aktivitäten."
+    },
+    {
+      "q": "Wie reinige ich die WOTTE Badeschlappen am besten?",
+      "a": "Die Reinigung ist denkbar einfach. Sie können die Badeschlappen unter fließendem Wasser abspülen und mit einem milden Reinigungsmittel bei Bedarf säubern. Anschließend lassen Sie sie an der Luft trocknen."
+    }
+  ],
+  "originalName": "WOTTE Badeschlappen – Rutschfest & Schnell Trocknend für Damen und Herren",
+  "enhancedAt": "2025-10-10T23:36:21.983192",
+  "enhanced": true
 }

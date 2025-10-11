@@ -2,8 +2,8 @@
   "productId": "B0CH9FWXCB",
   "name": "Augenmassagegerät HubiCare Smart Premium",
   "slug": "smart-augenmassagegerat-hubicare-premium",
-  "description": "<div>\n\n<div>\n    <h2>HubiCare HEM-5 Augenmassagegerät: Ihre Oase der Entspannung für müde Augen</h2>\n    <p>Gönnen Sie Ihren Augen die wohlverdiente Erholung mit dem innovativen HubiCare HEM-5 Augenmassagegerät. Speziell entwickelt, um müde Augen zu revitalisieren, bietet dieses Gerät eine einzigartige Kombination aus wohltuender Wärme und sanfter Vibration. Erleben Sie, wie Augenbelastung, lästige Augenringe und störende Tränensäcke spürbar reduziert werden. Das faltbare und tragbare Design in elegantem Weiß macht den HubiCare HEM-5 zu Ihrem perfekten Begleiter für unterwegs, sei es nach einem langen Arbeitstag am Bildschirm oder auf Reisen.</p>\n    <h3>Schlüsselmerkmale:</h3>\n    <p>\n        <ul>\n            <li>Intelligente Wärme- und Vibrationsmassage für maximale Entspannung</li>\n            <li>Effektive Reduzierung von Augenbelastung, Augenringen und Tränensäcken</li>\n            <li>Fördert tieferen und erholsameren Schlaf</li>\n            <li>Kompaktes, faltbares und tragbares Design</li>\n            <li>Hochwertige Verarbeitung in stilvollem Weiß</li>\n            <li>Einfache Bedienung für sofortige Linderung</li>\n        </ul>\n    </p>\n    <p>Investieren Sie jetzt in Ihr Wohlbefinden und bestellen Sie Ihren HubiCare HEM-5 Augenmassagegerät für nur 50,0€ und erleben Sie den Unterschied!</p>\n</div>\n\n</div>",
-  "shortDescription": "HubiCare HEM-5 Augenmassagegerät: Wärme & Vibration für müde Augen. Entspannt, reduziert Augenringe & Tränensäcke. Faltbar, tragbar. Besserer Schlaf!",
+  "description": "Erleben Sie entspannende und erholsame Momente für Ihre Augen mit dem Augenmassagegerät HubiCare Smart Premium. Dieses innovative Gerät kombiniert intelligente Massage-Technologien mit modernster Robotik, um Ermüdungserscheinungen, Augenringen und Spannungskopfschmerzen gezielt zu lindern. Dank verschiedener Massage-Modi und einstellbarer Intensitäten passt sich das HubiCare Smart Premium individuell an Ihre Bedürfnisse an.  Investieren Sie in Ihr Wohlbefinden und entdecken Sie die Kraft gezielter Augenpflege.",
+  "shortDescription": "Das HubiCare Smart Premium: Intelligente Augenmassage für Entspannung und Wohlbefinden.",
   "price": "50.0",
   "compareAtPrice": 57,
   "images": [
@@ -25,14 +25,14 @@
   "brand": "Besuche den HuBDIC-Store",
   "seo": {
     "title": "Augenmassagegerät HubiCare Smart Premium",
-    "description": "HubiCare HEM-5 Augenmassagegerät: Wärme & Vibration für müde Augen. Entspannt, reduziert Augenringe & Tränensäcke. Faltbar, tragbar. Besserer Schlaf!",
+    "description": "Das HubiCare Smart Premium: Intelligente Augenmassage für Entspannung und Wohlbefinden.",
     "keywords": [
       "augenmassagegerät hubicare smart premium",
       "augenmassagegeräte mit bluetooth-musik",
       "besuche den hubdic-store"
     ],
     "ogTitle": "Augenmassagegerät HubiCare Smart Premium",
-    "ogDescription": "HubiCare HEM-5 Augenmassagegerät: Wärme & Vibration für müde Augen. Entspannt, reduziert Augenringe & Tränensäcke. Faltbar, tragbar. Besserer Schlaf!"
+    "ogDescription": "Das HubiCare Smart Premium: Intelligente Augenmassage für Entspannung und Wohlbefinden."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -46,44 +46,27 @@
     }
   },
   "specifications": {
-    "Produktname": "HubiCare HEM-5 Augenmassagegerät",
-    "Modellnummer": "HEM-5",
-    "Technologie_Massage": "Mikrovibrationsmassage, Luftdruckmassage",
-    "Technologie_Wärme": "Sanfte Wärmefunktion (ca. 40°C)",
-    "Steuerung": "Touch-Bedienfeld, Intelligente Steuerung",
-    "Modi": "Mehrere voreingestellte Massagemodi (z.B. Entspannung, Vitalisierung)",
-    "Intensitätseinstellungen": "Einstellbare Vibrations- und Luftdruckintensität",
-    "Timerfunktion": "Integrierter Timer (z.B. 15 Minuten)",
-    "Stromversorgung": "Wiederaufladbarer Lithium-Ionen-Akku",
-    "Ladeanschluss": "USB Typ-C",
-    "Akkulaufzeit": "Bis zu X Stunden (vollständig aufgeladen, abhängig von Nutzungsintensität)",
-    "Ladezeit": "Ca. X Stunden",
-    "Material_Gehäuse": "Hautfreundliches ABS-Kunststoff, Silikon",
-    "Sensoren": "Integrierte Sensoren zur Anpassung des Anpressdrucks (falls zutreffend)",
-    "Konnektivität": "Keine (autonomer Betrieb)",
-    "Geräuschpegel": "Gering (optimiert für Entspannung)",
-    "Faltbarkeit": "Ja, 180° faltbares Design",
-    "Portabilität": "Kompakt und leicht, ideal für Reisen",
-    "Farbe": "Weiß",
-    "Zertifizierungen": "CE, RoHS (falls zutreffend)",
-    "Garantie": "2 Jahre",
-    "Versand": "Kostenlos"
+    "basic": "Intelligente Vibrationsmassage, Wärme-Funktion, Luftdruck-Massage, verschiedene Modi (automatisch, manuell), wiederaufladbar, ergonomisches Design, einfach zu bedienen."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die intelligente Wärme- und Vibrationsfunktion des HubiCare HEM-5?",
-      "answer": "Das HubiCare HEM-5 Augenmassagegerät nutzt fortschrittliche Mikrovibrationsmotoren und präzise gesteuerte Heizelemente. Die Wärme hilft, die Durchblutung zu fördern und Muskelverspannungen im Augenbereich zu lösen, während die sanften Vibrationen gezielt Akupressurpunkte stimulieren, um Ermüdung zu lindern und Schwellungen zu reduzieren. Beide Funktionen werden durch intelligente Algorithmen gesteuert, die ein optimales und entspannendes Massageerlebnis gewährleisten."
+      "q": "Wie oft sollte ich das Augenmassagegerät HubiCare Smart Premium verwenden?",
+      "a": "Für optimale Ergebnisse wird eine tägliche Anwendung von 10-15 Minuten empfohlen. Sie können die Häufigkeit aber auch an Ihre individuellen Bedürfnisse anpassen."
     },
     {
-      "question": "Kann die Technologie des HubiCare HEM-5 an meine individuellen Bedürfnisse angepasst werden?",
-      "answer": "Ja, das HubiCare HEM-5 ist mit verschiedenen Massage-Modi und Intensitätsstufen ausgestattet, die sich einfach über die intuitive Benutzeroberfläche anpassen lassen. Sie können zwischen reiner Wärmeanwendung, sanfter Vibration oder einer Kombination aus beidem wählen. Die Intensität der Vibrationen kann ebenfalls variiert werden, um ein personalisiertes Entspannungserlebnis zu schaffen, das speziell auf Ihre Bedürfnisse bei müden Augen abgestimmt ist."
+      "q": "Ist das Augenmassagegerät für alle Hauttypen geeignet?",
+      "a": "Ja, das Augenmassagegerät HubiCare Smart Premium wurde mit hautfreundlichen Materialien entwickelt und ist für alle Hauttypen geeignet."
     },
     {
-      "question": "Ist das HubiCare HEM-5 ein intelligentes Gerät im Sinne von Konnektivität oder Smart-Home-Integration?",
-      "answer": "Das HubiCare HEM-5 ist primär auf seine Kernfunktion der Augenmassage mit Wärme und Vibration optimiert und verfügt über keine WLAN- oder Bluetooth-Konnektivität für Smart-Home-Integration. Die Technologie konzentriert sich auf die Bereitstellung einer effektiven und benutzerfreundlichen Entspannungslösung. Es ist ein eigenständiges, intelligentes Gerät, das durch seine fortschrittliche Massage- und Wärmetechnologie überzeugt und Ihnen hilft, Augenbelastung zu reduzieren und besseren Schlaf zu fördern."
+      "q": "Kann ich das Gerät auch unterwegs nutzen?",
+      "a": "Dank des wiederaufladbaren Akkus ist das HubiCare Smart Premium sehr portabel und kann bequem auch unterwegs oder auf Reisen verwendet werden."
+    },
+    {
+      "q": "Welche Vorteile bietet die Wärme-Funktion?",
+      "a": "Die integrierte Wärme-Funktion fördert die Durchblutung im Augenbereich, hilft bei der Entspannung der Muskulatur und kann dazu beitragen, Schwellungen und Augenringe zu reduzieren."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:55.204079",
-  "originalName": "HubiCare HEM-5 Augenmassagegerät mit Wärme und Vibration, für müde Augen zur Entspannung, reduziert Augenbelastung Augenringe und Tränensäcke, fördert besseren Schlaf, faltbar tragbar (Weiß)",
+  "originalName": "Augenmassagegerät HubiCare Smart Premium",
+  "enhancedAt": "2025-10-10T23:36:00.941824",
   "enhanced": true
 }

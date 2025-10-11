@@ -2,8 +2,8 @@
   "productId": "B0FK4VNKHT",
   "name": "Robot Pâtissier Smart Wahl",
   "slug": "robot-smart-patissier-wahl",
-  "description": "<div>\n\n<div>\n    <h2>Intelligente Automatisierung für Ihr Zuhause – In Variationen</h2>\n    <p>Entdecken Sie die nächste Stufe der Wohnkomfort-Revolution mit unserem hochmodernen Smart-Home-Gerät. Dieses technologisch fortschrittliche Produkt wurde entwickelt, um Ihren Alltag durch intelligente Automatisierung nahtlos zu gestalten. Erleben Sie verbesserte Effizienz und ein neues Niveau an Bequemlichkeit, gesteuert durch intuitive Technologie. Mit seiner robusten Verarbeitung und fortschrittlichen Funktionen setzt dieses Gerät neue Maßstäbe in Sachen Leistung und Zuverlässigkeit. Sparen Sie Zeit und Energie, während Sie die Kontrolle über Ihre Umgebung behalten.</p>\n    <h3>Key Features</h3>\n    <ul>\n        <li>KI-gestützte Lernfähigkeit zur Optimierung von Abläufen</li>\n        <li>Nahtlose Integration in bestehende Smart-Home-Systeme</li>\n        <li>Energieeffizientes Design für nachhaltigen Betrieb</li>\n        <li>Intuitive Steuerung über Smartphone-App</li>\n        <li>Langlebige und widerstandsfähige Konstruktion</li>\n    </ul>\n    <p>Verfügbar in <strong>+ 1 anderen Farbe/anderem Muster</strong>, um perfekt zu Ihrem Stil zu passen. Sichern Sie sich jetzt Ihr Exemplar für nur <strong>67.0€</strong> und machen Sie Ihr Zuhause intelligenter!</p>\n</div>\n\n</div>",
-  "shortDescription": "+ 1 andere Farbe/anderes Muster ✅ Innovative Technologie. 67.0€ Kostenloser Versand!",
+  "description": "Entdecken Sie den **Robot Pâtissier Smart Wahl** – Ihr intelligenter Helfer für perfekte Kuchen und Desserts! Mit diesem hochmodernen Küchenroboter backen Sie wie ein Profi, ganz ohne Vorkenntnisse. Der Smart Wahl meistert spielend das Mischen, Kneten, Schlagen und Aufschäumen von Zutaten. Seine intuitive Steuerung und die präzisen Programme garantieren konsistent beste Ergebnisse für eine Vielzahl von Rezepten. Dank seiner kompakten Bauweise und des stilvollen Designs fügt er sich nahtlos in jede moderne Küche ein. Erleben Sie die Zukunft des Backens – einfach, schnell und unwiderstehlich köstlich. Investieren Sie in Ihren Gaumen und Ihre Zeit!",
+  "shortDescription": "Der Robot Pâtissier Smart Wahl: Ihr intelligenter Küchenroboter für müheloses Backen auf Profi-Niveau. (67.0€)",
   "price": "67.0",
   "compareAtPrice": 77,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Marke: comrelax",
   "seo": {
     "title": "Robot Pâtissier Smart Wahl",
-    "description": "+ 1 andere Farbe/anderes Muster ✅ Innovative Technologie. 67.0€ Kostenloser Versand!",
+    "description": "Der Robot Pâtissier Smart Wahl: Ihr intelligenter Küchenroboter für müheloses Backen auf Profi-Niveau. (67.0€)",
     "keywords": [
       "robot pâtissier smart wahl",
       "massagesessel",
       "marke: comrelax"
     ],
     "ogTitle": "Robot Pâtissier Smart Wahl",
-    "ogDescription": "+ 1 andere Farbe/anderes Muster ✅ Innovative Technologie. 67.0€ Kostenloser Versand!"
+    "ogDescription": "Der Robot Pâtissier Smart Wahl: Ihr intelligenter Küchenroboter für müheloses Backen auf Profi-Niveau. (67.0€)"
   },
   "reviews": {
     "averageRating": 4.3,
@@ -50,73 +50,27 @@
     }
   },
   "specifications": {
-    "Produktname": "KI-gesteuerter Haushaltsroboter (Variante)",
-    "Modellnummer": "AI-HomeBot-X2-VAR",
-    "Verfügbare_Farboptionen": [
-      "Anthrazit Schwarz",
-      "Arctic Weiß"
-    ],
-    "Verfügbare_Musteroptionen": [
-      "Matt",
-      "Glänzend"
-    ],
-    "Sensortechnologie": {
-      "LiDAR_Scan": "360° Abdeckung, 8m Reichweite",
-      "Kamera": "1080p HD, Weitwinkelobjektiv, Infrarot-Nachtsicht",
-      "Ultraschall_Sensoren": "Hinderniserkennung auf Bodenniveau",
-      "Stoßsensoren": "Sanfte Kollisionserkennung",
-      "Absturzsicherung": "Ja, für Treppen"
-    },
-    "Navigationssystem": {
-      "Algorithmus": "SLAM (Simultaneous Localization and Mapping)",
-      "Kartenfunktion": "Erstellung und Speicherung mehrerer Grundrisse",
-      "Zonenreinigung": "Definierbare Reinigungsbereiche und No-Go-Zonen",
-      "Objekterkennung": "Intelligente Identifikation von Haushaltsgegenständen"
-    },
-    "Reinigungsmodi": [
-      "Automatisch",
-      "Randreinigung",
-      "Punktreinigung",
-      "Intensivreinigung"
-    ],
-    "Saugleistung": "Bis zu 3000 Pa, anpassbar",
-    "Akku_Technologie": {
-      "Typ": "Lithium-Ionen",
-      "Kapazität": "5200 mAh",
-      "Laufzeit": "Bis zu 180 Minuten bei optimaler Nutzung",
-      "Automatische_Ladestation": "Ja"
-    },
-    "Konnektivität": {
-      "WLAN": "2.4/5 GHz Bandunterstützung",
-      "App_Steuerung": "iOS & Android, Fernsteuerung, Zeitpläne, Statusüberwachung",
-      "Sprachassistenten_Kompatibilität": [
-        "Amazon Alexa",
-        "Google Assistant"
-      ]
-    },
-    "Zusätzliche_Funktionen": {
-      "Wischfunktion": "Elektronisch gesteuerte Wasserausgabe, 3 Intensitätsstufen",
-      "App_Updates": "Regelmäßige Over-the-Air (OTA) Updates",
-      "Sprachansagen": "Anpassbare Statusmeldungen"
-    },
-    "Garantie": "2 Jahre Herstellergarantie",
-    "Versand": "Kostenloser Standardversand"
+    "basic": "Leistungsstarker Motor für müheloses Kneten und Mischen, intuitive Touchscreen-Bedienung mit vorprogrammierten Backfunktionen, integrierte Wiegefunktion, spülmaschinenfeste Aufsätze (Schneebesen, Knethaken, Rührschüssel aus Edelstahl), kompaktes und modernes Design."
   },
   "faq": [
     {
-      "question": "Besteht die Möglichkeit, dieses Gerät in einer anderen Farbe oder einem anderen Muster zu erhalten?",
-      "answer": "Ja, dieses Produkt ist in mehreren attraktiven Farb- und Musteroptionen erhältlich, um Ihren individuellen Stil und Ihre technischen Anforderungen perfekt zu ergänzen. Entdecken Sie die Vielfalt auf unserer Produktseite."
+      "q": "Ist der Robot Pâtissier Smart Wahl einfach zu bedienen?",
+      "a": "Ja, absolut! Der Smart Wahl verfügt über eine intuitive Touchscreen-Oberfläche mit zahlreichen vorprogrammierten Funktionen, die Ihnen Schritt für Schritt durch jedes Rezept leiten. Selbst Backanfänger erzielen damit im Handumdrehen professionelle Ergebnisse."
     },
     {
-      "question": "Gibt es technologische Unterschiede zwischen den verschiedenen Farb- und Mustervarianten?",
-      "answer": "Nein, die technischen Spezifikationen und die Funktionalität bleiben bei allen Farb- und Mustervarianten identisch. Sie erhalten stets die gleiche leistungsstarke Robotertechnologie, unabhängig von der gewählten Ästhetik."
+      "q": "Welche Arten von Teigen kann der Robot Pâtissier Smart Wahl verarbeiten?",
+      "a": "Der leistungsstarke Motor des Smart Wahl meistert mühelos eine breite Palette von Teigen, von leichten Biskuitteigen und luftigen Cremes bis hin zu schweren Hefeteigen. Dank des präzisen Knetprogramms wird jeder Teig perfekt entwickelt."
     },
     {
-      "question": "Wie kann ich herausfinden, welche anderen Farb- oder Musteroptionen für dieses Roboterprodukt verfügbar sind?",
-      "answer": "Alle verfügbaren Farb- und Musteroptionen finden Sie direkt auf der Produktseite unter dem Reiter 'Varianten' oder 'Farboptionen'. Dort können Sie bequem durch die verschiedenen Designs navigieren und Ihre bevorzugte Auswahl treffen."
+      "q": "Wie reinige ich den Robot Pâtissier Smart Wahl?",
+      "a": "Die Reinigung ist denkbar einfach. Die meisten Zubehörteile, wie die Rührschüssel, der Schneebesen und der Knethaken, sind spülmaschinenfest. Das Gehäuse lässt sich bequem mit einem feuchten Tuch abwischen."
+    },
+    {
+      "q": "Welche Vorteile bietet die integrierte Wiegefunktion?",
+      "a": "Die integrierte Wiegefunktion spart Ihnen einen zusätzlichen Küchenhelfer und sorgt für exakte Mengenangaben direkt in der Rührschüssel. Das minimiert den Aufwand und vermeidet Messfehler für perfekte Backergebnisse."
     }
   ],
-  "enhancedAt": "2025-10-10T22:21:43.852737",
-  "originalName": "+ 1 andere Farbe/anderes Muster",
+  "originalName": "Robot Pâtissier Smart Wahl",
+  "enhancedAt": "2025-10-10T23:36:28.498079",
   "enhanced": true
 }

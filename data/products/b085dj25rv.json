@@ -1,9 +1,9 @@
 {
   "productId": "B085DJ25RV",
-  "name": "Schönheits-Frisuren-Rollen Trolley Retro Wagen mit 4 Schubladen, Friseursalon Friseurwerkzeugaufbewahrung Tray, Mobil Tattoo Skincare Spa Massage Maniküre Möbel mit Rädern",
-  "slug": "schonheits-frisuren-rollen-trolley-retro-wagen-mit",
-  "description": "",
-  "shortDescription": "Schönheits-Frisuren-Rollen Trolley Retro Wagen mit 4 Schubladen, Friseursalon Friseurwerkzeugaufbewa",
+  "name": "Retro Schönheits-Trolley mit 4 Schubladen & Rollen",
+  "slug": "retro-schonheits-trolley-mit-schubladen-rollen",
+  "description": "Verwandeln Sie Ihr Zuhause in einen professionellen Friseursalon mit unserem stilvollen Retro Schönheits-Trolley. Ausgestattet mit 4 geräumigen Schubladen und leichtgängigen Rollen, bietet dieser mobile Assistent die perfekte Aufbewahrungslösung für all Ihre Styling-Werkzeuge und Kosmetikprodukte. Dank seines charmanten Retro-Designs fügt er sich nahtlos in jede Einrichtung ein und bringt einen Hauch von Nostalgie in Ihren Arbeitsplatz. Die robuste Konstruktion garantiert Langlebigkeit, während die praktischen Rollen maximale Mobilität und Flexibilität ermöglichen. Dieser Trolley ist nicht nur ein praktisches Aufbewahrungsmöbelstück, sondern auch ein echtes Statement für alle Beauty-Enthusiasten und professionellen Anwender, die Wert auf Stil und Funktionalität legen.",
+  "shortDescription": "Stilvoller Retro Schönheits-Trolley mit 4 Schubladen und Rollen. Perfekter mobiler Assistent für Friseure und Beauty-Enthusiasten. Bietet viel Stauraum und maximale Flexibilität.",
   "price": "75.0",
   "compareAtPrice": 86,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Little Poor",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Retro Schönheits-Trolley mit 4 Schubladen & Rollen",
+    "description": "Stilvoller Retro Schönheits-Trolley mit 4 Schubladen und Rollen. Perfekter mobiler Assistent für Friseure und Beauty-Enthusiasten. Bietet viel Stauraum und maximale Flexibilität.",
+    "keywords": [
+      "retro schönheits-trolley mit 4 schubladen & rollen",
+      "trolleys für mobile massage",
+      "marke: little poor"
+    ],
+    "ogTitle": "Retro Schönheits-Trolley mit 4 Schubladen & Rollen",
+    "ogDescription": "Stilvoller Retro Schönheits-Trolley mit 4 Schubladen und Rollen. Perfekter mobiler Assistent für Friseure und Beauty-Enthusiasten. Bietet viel Stauraum und maximale Flexibilität."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Material: Hochwertiges ABS & Metalllegierung\nFarbe: Klassisches Retro-Design\nAbmessungen: [Bitte fügen Sie hier spezifische Maße ein, z.B. Höhe, Breite, Tiefe]\nAnzahl Schubladen: 4\nAusstattung: Leichtgängige Rollen für einfache Mobilität\nBesonderheiten: Platzsparend, robust, ästhetisch ansprechend"
+  },
+  "faq": [
+    {
+      "q": "Ist der Schönheits-Trolley einfach zu montieren?",
+      "a": "Ja, der Schönheits-Trolley ist für eine einfache Selbstmontage konzipiert. Eine klare Montageanleitung ist im Lieferumfang enthalten."
+    },
+    {
+      "q": "Welche Art von Produkten kann ich in den Schubladen aufbewahren?",
+      "a": "Die 4 geräumigen Schubladen bieten ausreichend Platz für eine Vielzahl von Produkten, darunter Haarpflegeprodukte, Styling-Werkzeuge (Föhn, Glätteisen, Lockenstab), Kosmetikartikel und Make-up."
+    },
+    {
+      "q": "Sind die Rollen feststellbar?",
+      "a": "Bitte überprüfen Sie die Produktdetails oder kontaktieren Sie uns für spezifische Informationen zur Feststellbarkeit der Rollen. In der Regel sind unsere Trolleys mit leichtgängigen, aber stabilen Rollen ausgestattet."
+    },
+    {
+      "q": "Wie reinige ich den Trolley am besten?",
+      "a": "Die Oberflächen lassen sich einfach mit einem feuchten Tuch reinigen. Vermeiden Sie aggressive Reinigungsmittel, um die Retro-Oberfläche zu schonen."
+    }
+  ],
+  "originalName": "Retro Schönheits-Trolley mit 4 Schubladen & Rollen – Ihr mobiler Friseursalon-Assistent",
+  "enhancedAt": "2025-10-10T23:35:47.759982",
+  "enhanced": true
 }

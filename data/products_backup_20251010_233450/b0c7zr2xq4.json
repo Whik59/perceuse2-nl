@@ -1,0 +1,65 @@
+{
+  "productId": "B0C7ZR2XQ4",
+  "name": "Bestseller",
+  "slug": "bestseller",
+  "description": "<div><h2>Bestseller</h2><p>Quality product</p></div>",
+  "shortDescription": "Bestseller - Quality Product",
+  "price": "11.0",
+  "compareAtPrice": 12,
+  "images": [
+    "https://m.media-amazon.com/images/I/818G-rwwiBL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/8107QpIBjBL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81x4BooaEkL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71qh7xN7OjL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81192TKCzKL._AC_SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "Ätherische Öle für Massage",
+  "tags": [
+    "besuche den aeshory-store",
+    "ätherische öle für massage"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B0C7ZR2XQ4/?tag=clickclickh0b-21",
+  "amazonASIN": "B0C7ZR2XQ4",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Bestseller",
+  "amazonPrice": "11.0€",
+  "amazonRating": 4.2,
+  "amazonReviewCount": 0,
+  "brand": "Besuche den Aeshory-Store",
+  "seo": {
+    "title": "Bestseller",
+    "description": "Bestseller - Quality Product",
+    "keywords": [
+      "bestseller",
+      "ätherische öle für massage",
+      "besuche den aeshory-store"
+    ],
+    "ogTitle": "Bestseller",
+    "ogDescription": "Bestseller - Quality Product"
+  },
+  "reviews": {
+    "averageRating": 4.2,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-10T22:49:31.786282",
+  "originalName": "Bestseller",
+  "enhanced": true
+}

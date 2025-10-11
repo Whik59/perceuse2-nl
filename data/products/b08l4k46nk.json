@@ -1,9 +1,9 @@
 {
   "productId": "B08L4K46NK",
-  "name": "EIS Massagekerze Kokos Pro",
-  "slug": "pro-eis-massagekerze-kokos",
-  "description": "<div>\n\n<div>\n    <h2>Entdecken Sie die EIS Massagekerze mit Kokosduft – Ihr Tor zu sinnlichen Momenten</h2>\n    <p>Verwandeln Sie jede Berührung in ein luxuriöses Erlebnis mit unserer exquisiten EIS Massagekerze. Angereichert mit dem unwiderstehlich exotischen Duft von Kokosnuss, lädt diese Kerze zu tiefenentspannenden und sinnlichen Massagen ein, die Ihre Sinne beleben und eine intime Atmosphäre schaffen. Speziell entwickelt mit einer pflegenden Rezeptur aus natürlichen Inhaltsstoffen, schmilzt die Kerze zu einem warmen, seidigen Öl, das die Haut sanft umhüllt und sie intensiv mit Feuchtigkeit versorgt. Ideal für romantische Abende, als besonderes Geschenk für Ihren Partner oder einfach, um sich selbst eine Auszeit der besonderen Art zu gönnen.</p>\n    <h3>Einzigartige Merkmale für Ihr Wohlbefinden:</h3>\n    <ul>\n        <li>Verführerischer Kokosduft für entspannende Massagen</li>\n        <li>Hochwertige, natürliche Inhaltsstoffe</li>\n        <li>Pflegende Formel für samtweiche Haut</li>\n        <li>Perfekt als liebevolles Geschenk für Partner</li>\n        <li>Kompakte 15 ml Größe für unterwegs</li>\n        <li>Luxuriöses Massageöl mit warmem Schmelzpunkt</li>\n    </ul>\n    <p>Gönnen Sie sich und Ihrem Liebsten diese besondere Form der Entspannung. <strong>Bestellen Sie Ihre EIS Massagekerze mit Kokosduft noch heute und erleben Sie pure Sinnlichkeit für nur 3,0 €!</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "EIS Massagekerze Kokosduft: Sinnliche Massagen, nat. Inhaltsstoffe, pflegende Rezeptur. Perfektes Geschenk für Partner. 15ml. Jetzt entdecken!",
+  "name": "EIS Massagekerze Kokos Pro: Luxuriöse Entspannung für Ihre Haut",
+  "slug": "eis-massagekerze-kokos-pro-luxuriose-entspannung",
+  "description": "Erleben Sie ultimative Hautpflege und Entspannung mit der EIS Massagekerze Kokos Pro. Diese einzigartige Kerze verwandelt sich bei Erwärmung in ein luxuriöses Körperöl mit intensivem Kokosaroma. Angereichert mit natürlichen Ölen nährt und pflegt sie Ihre Haut tiefgehend, hinterlässt sie geschmeidig und duftend. Perfekt für Massagen oder als reichhaltige Körperpflege nach dem Bad. Entdecken Sie die wohltuende Wirkung von Kokosnussöl, kombiniert mit der Wärme und dem sinnlichen Duft der EIS Massagekerze Kokos Pro.",
+  "shortDescription": "EIS Massagekerze Kokos Pro: Luxuriöses Körperöl aus schmelzendem Wachs mit Kokosaroma zur Hautpflege und Entspannung.",
   "price": "3.0",
   "compareAtPrice": 3,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den EIS-Store",
   "seo": {
-    "title": "EIS Massagekerze Kokos Pro",
-    "description": "EIS Massagekerze Kokosduft: Sinnliche Massagen, nat. Inhaltsstoffe, pflegende Rezeptur. Perfektes Geschenk für Partner. 15ml. Jetzt entdecken!",
+    "title": "EIS Massagekerze Kokos Pro: Luxuriöse Entspannung für Ihre Haut",
+    "description": "EIS Massagekerze Kokos Pro: Luxuriöses Körperöl aus schmelzendem Wachs mit Kokosaroma zur Hautpflege und Entspannung.",
     "keywords": [
-      "eis massagekerze kokos pro",
+      "eis massagekerze kokos pro: luxuriöse entspannung für ihre haut",
       "massagekerzen mit sheabutter",
       "besuche den eis-store"
     ],
-    "ogTitle": "EIS Massagekerze Kokos Pro",
-    "ogDescription": "EIS Massagekerze Kokosduft: Sinnliche Massagen, nat. Inhaltsstoffe, pflegende Rezeptur. Perfektes Geschenk für Partner. 15ml. Jetzt entdecken!"
+    "ogTitle": "EIS Massagekerze Kokos Pro: Luxuriöse Entspannung für Ihre Haut",
+    "ogDescription": "EIS Massagekerze Kokos Pro: Luxuriöses Körperöl aus schmelzendem Wachs mit Kokosaroma zur Hautpflege und Entspannung."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -50,41 +50,27 @@
     }
   },
   "specifications": {
-    "Produktname": "EIS Massagekerze mit Kokosduft",
-    "Artikelnummer": "EIS-MC-KOK15",
-    "Kategorie": "Beauty & Wellness",
-    "Unterkategorie": "Massage & Körperpflege",
-    "Duft": "Kokosnuss",
-    "Volumen": "15 ml",
-    "Anwendung": "Sinnliche Massagen, Körperpflege",
-    "Inhaltsstoffe": "Natürlich, pflegend",
-    "Zielgruppe": "Paare, Geschenksuchende",
-    "Besonderheit": "Wärmende Massagekerze",
-    "Technologie_Merkmale": {
-      "Schmelzpunkt_optimiert": "Ja, für sanfte Wärme",
-      "Verdampfungsrate_kontrolliert": "Ja, für langanhaltenden Duft",
-      "Viskosität_angepasst": "Ja, für optimale Gleitfähigkeit",
-      "Oberflächenspannung_optimiert": "Ja, für einfache Anwendung"
-    },
-    "Nachhaltigkeit": "Umweltfreundliche Verpackung (optional, bitte hinzufügen, falls zutreffend)",
-    "Garantie": "Nicht zutreffend",
-    "Versand": "Standardversand, Expressversand (Details im Checkout)"
+    "basic": "Hochwertiges Kokosöl als Basis, natürlicher Duft, schmilzt bei geringer Temperatur zu pflegendem Körperöl, ideal für Massagen und Hautpflege, ca. 100g."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Technologie hinter der EIS Massagekerze?",
-      "answer": "Die EIS Massagekerze nutzt eine innovative Formel aus natürlichen Ölen und Wachsen, die bereits bei einer angenehmen Körpertemperatur schmilzt. Spezielle Inhaltsstoffe sorgen für eine optimale Viskosität, die sich wie ein warmes, seidiges Massageöl anfühlt. Keine komplizierte Technologie, nur pure Natur für Ihr Wohlbefinden."
+      "q": "Wie funktioniert die EIS Massagekerze Kokos Pro?",
+      "a": "Die Kerze besteht aus einer speziellen Wachsmischung auf Basis natürlicher Öle. Wenn Sie die Kerze anzünden, schmilzt das Wachs bei einer angenehm niedrigen Temperatur zu einem warmen, pflegenden Massageöl, das direkt auf die Haut aufgetragen werden kann."
     },
     {
-      "question": "Welche Sicherheitsmechanismen sind in der Kerze integriert, um Überhitzung zu verhindern?",
-      "answer": "Unsere Massagekerze ist so konzipiert, dass sie sich auf eine sichere und angenehme Massagemitteltemperatur erhitzt, die weit unterhalb kritischer Grenzwerte liegt. Die Kombination aus niedrigschmelzenden natürlichen Ölen und Wachsen verhindert eine Überhitzung, was eine gefahrlose Anwendung auf der Haut garantiert."
+      "q": "Welche Vorteile hat die Anwendung von Massageöl aus Kerzenwachs?",
+      "a": "Die Wärme des Öls fördert die Entspannung der Muskulatur und verbessert die Durchblutung. Die enthaltenen natürlichen Öle, wie hier Kokosöl, spenden intensive Feuchtigkeit, machen die Haut geschmeidig und hinterlassen einen zarten Duft. Ideal zur Linderung von Verspannungen und für ein luxuriöses Hautgefühl."
     },
     {
-      "question": "Kann die EIS Massagekerze mit anderen Massagegeräten oder -technologien kombiniert werden?",
-      "answer": "Ja, die warme, pflegende Textur der EIS Massagekerze lässt sich hervorragend mit verschiedenen Massagegeräten oder -techniken ergänzen. Die geschmeidige Ölbasis erleichtert das Gleiten von Händen oder Geräten und intensiviert das sensorische Erlebnis. Denken Sie an sanfte Vibrationen oder Gua Sha Steine für eine noch tiefere Entspannung."
+      "q": "Ist die EIS Massagekerze Kokos Pro für alle Hauttypen geeignet?",
+      "a": "Ja, dank der natürlichen und pflegenden Inhaltsstoffe, insbesondere dem reinen Kokosöl, ist die Massagekerze für die meisten Hauttypen gut verträglich. Bei bekannter Allergie gegen Kokosnussöl empfehlen wir jedoch Vorsicht oder einen Test an einer kleinen Hautstelle."
+    },
+    {
+      "q": "Wie lange brennt die EIS Massagekerze Kokos Pro?",
+      "a": "Die Brenndauer variiert je nach Umgebungsbedingungen und Brenndauer. Bei normaler Nutzung kann eine Brenndauer von ca. 20-30 Stunden erwartet werden, was für zahlreiche Anwendungen ausreicht."
     }
   ],
-  "enhancedAt": "2025-10-10T22:24:51.487538",
-  "originalName": "EIS Massagekerze mit Kokosduft | Sinnliche Massagen | Natürliche Inhaltsstoffe | Pflegende Rezeptur | Geschenk für den Partner | 15 ml",
+  "originalName": "EIS Massagekerze Kokos Pro",
+  "enhancedAt": "2025-10-10T23:35:47.810700",
   "enhanced": true
 }

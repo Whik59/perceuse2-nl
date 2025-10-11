@@ -1,9 +1,9 @@
 {
   "productId": "B0FV6V4XCX",
-  "name": "WOFASHPURET Holzgriff Massage roller für Rücken und Beine Manueller Tiefengewebe massageroller mit Ergonomischem Design Stacheliger Zellulite stick zur Muskelentspannung für Zuhause und",
-  "slug": "wofashpuret-holzgriff-massage-roller-fur-rucken-un",
-  "description": "Cellulite-stick: einfach zu verwenden und liegt angenehm in der hand, rückenrolle aus holz | Muskelrolle: es ist praktisch für sie, dieses manuelle massagegerät zu verwenden, wenn sie müde sind. holz-rückenrolle | Holz-körperrolle: muskelkater schnell und ohne massagetherapeuten loswerden!,holz-rückenrolle | Rückenmassagegerät: rollendesign, spart kraft, passt ergonomisches design, holz-rückenrolle | Rückenrolle aus holz: einzigartig gestaltete rollenspitzen entspannen die gliedmaßen und machen die haut straff und elastisch. rückenmassagegerät",
-  "shortDescription": "WOFASHPURET Holzgriff Massage roller für Rücken und Beine Manueller Tiefengewebe massageroller mit E",
+  "name": "WOFASHPURET Massage-Roller mit Holzgriff – Tiefengewebsmassage für Rücken & Beine",
+  "slug": "wofashpuret-massage-roller-mit-holzgriff-tiefengewebsmassage",
+  "description": "Erleben Sie erholsame Tiefengewebsmassagen und spüren Sie den Unterschied mit dem WOFASHPURET Massage-Roller. Entwickelt für effektive Linderung von Muskelverspannungen im Rücken und an den Beinen, kombiniert dieser Roller hochwertiges Material mit einem ergonomischen Holzgriff für optimale Handhabung. Perfekt für die Regeneration nach dem Sport, zur Linderung von alltäglichen Verspannungen oder einfach zur Förderung des Wohlbefindens. Dank seines robusten Designs und der präzisen Rollen ist er ein unverzichtbares Werkzeug für jeden, der Wert auf seine körperliche Gesundheit legt. Entdecken Sie die Kraft der gezielten Muskelentspannung – einfach, effektiv und jederzeit verfügbar.",
+  "shortDescription": "Effektiver Massage-Roller mit Holzgriff zur Tiefengewebsmassage von Rücken & Beinen. Löst Verspannungen & fördert die Regeneration.",
   "price": "9.0",
   "compareAtPrice": 10,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: WOFASHPURET",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "WOFASHPURET Massage-Roller mit Holzgriff – Tiefengewebsmassage für Rücken & Beine",
+    "description": "Effektiver Massage-Roller mit Holzgriff zur Tiefengewebsmassage von Rücken & Beinen. Löst Verspannungen & fördert die Regeneration.",
+    "keywords": [
+      "wofashpuret massage-roller mit holzgriff – tiefengewebsmassage für rücken & beine",
+      "manuelle zellulite-massageroller",
+      "marke: wofashpuret"
+    ],
+    "ogTitle": "WOFASHPURET Massage-Roller mit Holzgriff – Tiefengewebsmassage für Rücken & Beine",
+    "ogDescription": "Effektiver Massage-Roller mit Holzgriff zur Tiefengewebsmassage von Rücken & Beinen. Löst Verspannungen & fördert die Regeneration."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Professioneller Massage-Roller zur Tiefengewebsmassage, ideal für Rücken und Beine. Ausgestattet mit einem ergonomischen und griffigen Holzgriff für einfache und präzise Anwendung. Robuste Konstruktion für langlebige Nutzung. Fördert die Durchblutung und löst Muskelverspannungen."
+  },
+  "faq": [
+    {
+      "q": "Für wen ist der WOFASHPURET Massage-Roller geeignet?",
+      "a": "Der Roller ist ideal für Sportler, Personen mit sitzender Tätigkeit, Menschen, die unter Muskelverspannungen leiden, oder jeden, der sein Wohlbefinden steigern möchte. Er ist sowohl für den Heimgebrauch als auch für professionelle Anwendungen konzipiert."
+    },
+    {
+      "q": "Wie wird der Massage-Roller angewendet?",
+      "a": "Platzieren Sie den Roller auf der zu massierenden Körperpartie (z.B. Rücken oder Beine) und rollen Sie ihn langsam und gleichmäßig mit leichtem Druck auf und ab. Sie können die Intensität durch den ausgeübten Druck anpassen. Es wird empfohlen, dies für einige Minuten pro Körperpartie zu wiederholen."
+    },
+    {
+      "q": "Welche Vorteile bietet die Tiefengewebsmassage mit diesem Roller?",
+      "a": "Die Tiefengewebsmassage kann helfen, Muskelverspannungen zu lösen, die Durchblutung zu fördern, die Flexibilität zu verbessern und die Regeneration nach körperlicher Anstrengung zu beschleunigen. Sie kann auch zur Linderung von Schmerzen beitragen, die durch Stress oder Überbeanspruchung entstehen."
+    },
+    {
+      "q": "Ist der Holzgriff rutschfest?",
+      "a": "Ja, der Holzgriff ist so gestaltet, dass er auch bei leicht feuchten Händen einen sicheren und bequemen Halt bietet. Dies ermöglicht eine präzise Steuerung und schont Ihre Hände während der Anwendung."
+    }
+  ],
+  "originalName": "WOFASHPURET Massage-Roller mit Holzgriff – Tiefengewebsmassage für Rücken & Beine",
+  "enhancedAt": "2025-10-10T23:36:39.324785",
+  "enhanced": true
 }

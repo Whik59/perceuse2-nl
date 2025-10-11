@@ -1,9 +1,9 @@
 {
   "productId": "B0BWNGMGST",
-  "name": "Relaxdays Kühlpads, 4er Set, Kalt-Warm-Kompressen, 9 x 15 cm, Erste Hilfe, wiederverwendbare Gelkühlkompressen, blau",
-  "slug": "relaxdays-kuhlpads-4er-set-kalt-warm-kompressen-9-",
-  "description": "Set: Mehrfachkompressen mit Gelfüllung im 4er Pack - Warm-Kalt-Kompressen zur Ganzkörperanwendung | Kaltanwendung: Kühlpads zur effektiven Schmerzlinderung bei Kopf- und Zahnschmerzen, Prellungen uvm. | Wärmetherapie: Wärmepack in Wasserbad o. Mikrowelle erwärmen - Ideal bei Bauch- und Rückenschmerzen | Qualität: Gelkühlpads mit dichter Versiegelung gegen Auslaufen - Formbare Kühlkompressen bis -18 °C | Detail: Handliche Gelkompressen HBT: ca. 1 x 9 x 15 cm - Mit Anwendungshinweisen auf dem Kühlpack",
-  "shortDescription": "Relaxdays Kühlpads, 4er Set, Kalt-Warm-Kompressen, 9 x 15 cm, Erste Hilfe, wiederverwendbare Gelkühl",
+  "name": "Relaxdays Kühlpads im 4er Set – Ihre flexible Lösung für Kälte & Wärme",
+  "slug": "relaxdays-kuhlpads-4er-set-ihre-flexible",
+  "description": "Sichern Sie sich das 4er Set Kühlpads von Relaxdays und erleben Sie vielseitige Anwendungsmöglichkeiten! Diese wiederverwendbaren Gelkühlkompressen im praktischen Format von 9 x 15 cm sind Ihr idealer Begleiter für Erste Hilfe bei Schwellungen, Prellungen oder zur Entspannung. Ob als Kältepack zur Linderung akuter Beschwerden oder als Wärmepack für wohltuende Muskelentspannung – diese flexiblen Pads passen sich jeder Körperpartie optimal an. Dank des robusten Materials und der einfachen Handhabung sind sie langlebig und umweltfreundlich. Setzen Sie auf bewährte Qualität für Ihr Wohlbefinden. Jetzt zugreifen und das 4er Set zum attraktiven Preis von nur 8,00 € sichern!",
+  "shortDescription": "4er Set Relaxdays Kühlpads (9x15 cm) – flexible Kalt-/Warmkompressen für Erste Hilfe & Entspannung. Wiederverwendbar. Nur 8,00 €.",
   "price": "8.0",
   "compareAtPrice": 9,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Relaxdays-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Relaxdays Kühlpads im 4er Set – Ihre flexible Lösung für Kälte & Wärme",
+    "description": "4er Set Relaxdays Kühlpads (9x15 cm) – flexible Kalt-/Warmkompressen für Erste Hilfe & Entspannung. Wiederverwendbar. Nur 8,00 €.",
+    "keywords": [
+      "relaxdays kühlpads im 4er set – ihre flexible lösung für kälte & wärme",
+      "kühlgels & sport-salben",
+      "besuche den relaxdays-store"
+    ],
+    "ogTitle": "Relaxdays Kühlpads im 4er Set – Ihre flexible Lösung für Kälte & Wärme",
+    "ogDescription": "4er Set Relaxdays Kühlpads (9x15 cm) – flexible Kalt-/Warmkompressen für Erste Hilfe & Entspannung. Wiederverwendbar. Nur 8,00 €."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "4er Set Kühlpads von Relaxdays, Größe 9 x 15 cm, wiederverwendbare Gelkühlkompressen, geeignet für Kälte- und Wärmeanwendung, ideal für Erste Hilfe und Entspannung."
+  },
+  "faq": [
+    {
+      "q": "Wie werden die Relaxdays Kühlpads angewendet?",
+      "a": "Für die Kälteanwendung legen Sie die Kühlpads für ca. 2 Stunden in das Gefrierfach. Für die Wärmeanwendung können Sie sie kurzzeitig in warmes Wasser legen (nicht kochend) oder für wenige Sekunden in der Mikrowelle erwärmen (bei niedriger Leistung und unter Beobachtung). Testen Sie immer die Temperatur, bevor Sie das Pad auf die Haut auflegen."
+    },
+    {
+      "q": "Sind die Kühlpads wiederverwendbar?",
+      "a": "Ja, die Gelkühlkompressen sind mehrfach verwendbar und somit eine umweltfreundliche und kostengünstige Alternative zu Einwegprodukten."
+    },
+    {
+      "q": "Für welche Anwendungsbereiche sind die Kühlpads geeignet?",
+      "a": "Die Kühlpads eignen sich hervorragend für Erste Hilfe bei Prellungen, Verstauchungen, Schwellungen, Insektenstichen oder nach sportlichen Aktivitäten. Ebenso können sie zur Muskelentspannung nach Anstrengung oder bei Verspannungen angewendet werden."
+    },
+    {
+      "q": "Aus welchem Material bestehen die Kühlpads?",
+      "a": "Die Kühlpads bestehen aus einem strapazierfähigen Kunststoffmaterial, das mit einem flexiblen Gel gefüllt ist, um eine optimale Anpassung an die Körperkontur zu gewährleisten."
+    }
+  ],
+  "originalName": "Relaxdays Kühlpads, 4er Set, Kalt-Warm-Kompressen, 9 x 15 cm, Erste Hilfe, wiederverwendbare Gelkühlkompressen, blau",
+  "enhancedAt": "2025-10-10T23:35:54.606195",
+  "enhanced": true
 }

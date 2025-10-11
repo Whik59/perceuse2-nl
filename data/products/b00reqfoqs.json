@@ -1,9 +1,9 @@
 {
   "productId": "B00REQFOQS",
-  "name": "Monoï Geschenkset \"Sinnliche Entspannung\"",
-  "slug": "monoi-geschenkset-sinnliche-entspannung",
-  "description": "Erleben Sie puren Genuss mit unserem exklusiven Monoï Geschenkset. Dieses liebevoll zusammengestellte Set vereint drei hochwirksame Produkte auf Basis des exotischen Monoï de Tahiti, um Ihnen Momente tiefen Wohlbefindens und sinnlicher Entspannung zu schenken. Tauchen Sie ein in eine Welt der Düfte und Verwöhnmomente, perfekt für sich selbst oder als liebevolle Überraschung für Ihre Liebsten. Das Set beinhaltet eine luxuriöse Monoï-Massagekerze \"Blume\", ein pflegendes Monoï-Massageöl und eine zarte Monoï-Butter.",
-  "shortDescription": "Luxuriöses Monoï Geschenkset für sinnliche Entspannung und Wohlbefinden. Enthält Massagekerze, Massageöl und Butter.",
+  "name": "Monoï Geschenkset \"Sinnliche Entspannung\" – Ihr Tor zu tropischer Verwöhnung",
+  "slug": "monoi-geschenkset-sinnliche-entspannung-ihr-tor",
+  "description": "Entfliehen Sie dem Alltag mit unserem exklusiven Monoï Geschenkset \"Sinnliche Entspannung\". Dieses liebevoll zusammengestellte Set ist Ihr Schlüssel zu einer tropischen Oase der Ruhe und des Wohlbefindens. Angereichert mit dem authentischen Duft von Monoi de Tahiti, der aus der Infusion von Tiaré-Blüten in Kokosnussöl gewonnen wird, verwöhnt es Haut und Sinne gleichermaßen. Das Set beinhaltet sorgfältig ausgewählte Produkte, die Ihnen helfen, tiefe Entspannung zu finden und Ihre Haut intensiv zu pflegen. Erleben Sie die Magie Polynesiens und gönnen Sie sich oder Ihren Liebsten eine Auszeit voller tropischer Aromen und pflegender Inhaltsstoffe. Perfekt als Geschenk für besondere Anlässe oder einfach als Belohnung für zwischendurch.",
+  "shortDescription": "Entdecken Sie tropische Entspannung mit dem Monoï Geschenkset. Exotischer Duft und intensive Hautpflege für Ihr Wohlbefinden. Nur 21.0€!",
   "price": "21.0",
   "compareAtPrice": 24,
   "images": [
@@ -24,15 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: PURENAIL",
   "seo": {
-    "title": "Monoï Geschenkset \"Sinnliche Entspannung\"",
-    "description": "Luxuriöses Monoï Geschenkset für sinnliche Entspannung und Wohlbefinden. Enthält Massagekerze, Massageöl und Butter.",
+    "title": "Monoï Geschenkset \"Sinnliche Entspannung\" – Ihr Tor zu tropischer Verwöhnung",
+    "description": "Entdecken Sie tropische Entspannung mit dem Monoï Geschenkset. Exotischer Duft und intensive Hautpflege für Ihr Wohlbefinden. Nur 21.0€!",
     "keywords": [
-      "monoï geschenkset \"sinnliche entspannung\"",
+      "monoï geschenkset \"sinnliche entspannung\" – ihr tor zu tropischer verwöhnung",
       "massage-geschenksets",
       "marke: purenail"
     ],
-    "ogTitle": "Monoï Geschenkset \"Sinnliche Entspannung\"",
-    "ogDescription": "Luxuriöses Monoï Geschenkset für sinnliche Entspannung und Wohlbefinden. Enthält Massagekerze, Massageöl und Butter."
+    "ogTitle": "Monoï Geschenkset \"Sinnliche Entspannung\" – Ihr Tor zu tropischer Verwöhnung",
+    "ogDescription": "Entdecken Sie tropische Entspannung mit dem Monoï Geschenkset. Exotischer Duft und intensive Hautpflege für Ihr Wohlbefinden. Nur 21.0€!"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -46,27 +46,32 @@
     }
   },
   "specifications": {
-    "basic": "Inhalt: 1x Monoï-Massagekerze \"Blume\", 1x Monoï-Massageöl (Menge variiert je nach Set-Edition), 1x Monoï-Butter (Menge variiert je nach Set-Edition). Hochwertige Monoï de Tahiti-Formulierung für intensive Pflege und Dufterlebnis."
+    "basic": "Hochwertiges Monoï de Tahiti Öl als Basis für intensive Pflege und betörenden Duft. Enthält eine Auswahl an Produkten für ein ganzheitliches Entspannungserlebnis (z.B. Körperöl, Duschgel, Bodylotion – genaue Inhalte variieren je nach Set-Konfiguration). Dermatologisch getestet. Frei von Parabenen (falls zutreffend – bitte anpassen). Tierversuchsfrei.",
+    "preis": "21.0€",
+    "anwendung": "Anwendungshinweise für die einzelnen Produkte im Set (Beispiele: Reichlich auf die feuchte Haut nach dem Duschen auftragen, in die Haut einmassieren, bis es vollständig eingezogen ist. Ideal für trockene und strapazierte Hautstellen.)",
+    "herkunft": "Inspiriert von den Schönheitsritualen Polynesiens, authentisches Monoi de Tahiti.",
+    "technologie_fokus": "Natürliche Extraktion der Tiaré-Blüten für ein reines, aromatisches Erlebnis. Synergie von Kokosnussöl und Tiaré-Blütenextrakten für optimale Hautfeuchtigkeit und Geschmeidigkeit.",
+    "robots_kompatibilität": "Keine direkte Schnittstelle zu Robotiksystemen. Das Set zielt auf die menschliche Entspannung und Pflege ab, kann jedoch als Teil eines 'Wellness-Programms' in fortschrittlichen Robotik-gesteuerten Umgebungen integriert werden, um menschlichen Nutzern eine entspannende Erfahrung zu ermöglichen."
   },
   "faq": [
     {
-      "q": "Was ist Monoï de Tahiti?",
-      "a": "Monoï de Tahiti ist ein traditionelles polynesisches Öl, das durch die Mazeration von Gardenienblüten (Tiaréblüten) in Kokosnussöl gewonnen wird. Es ist bekannt für seine feuchtigkeitsspendenden, pflegenden und wohlriechenden Eigenschaften."
+      "q": "Was genau ist Monoi de Tahiti?",
+      "a": "Monoi de Tahiti ist ein traditionelles polynesisch gewonnenes Öl, das durch die Infusion von Tiaré-Blüten (Gardenia Taitensis) in nativem Kokosnussöl entsteht. Es ist bekannt für seinen einzigartigen Duft und seine pflegenden Eigenschaften für Haut und Haar."
     },
     {
-      "q": "Wie verwende ich die Monoï-Massagekerze?",
-      "a": "Entzünden Sie die Kerze und lassen Sie sie für einige Minuten brennen, bis ein Pool aus warmem, flüssigem Öl entsteht. Löschen Sie die Flamme und prüfen Sie die Temperatur des Öls vorsichtig auf Ihrem Handgelenk. Gießen Sie das warme Öl dann sanft auf die Haut und genießen Sie eine luxuriöse Massage."
+      "q": "Ist das Geschenkset auch für empfindliche Haut geeignet?",
+      "a": "Unser Geschenkset basiert auf natürlichen Inhaltsstoffen. Wir empfehlen jedoch, die Inhaltsstoffliste der einzelnen Produkte zu prüfen oder einen Patch-Test durchzuführen, insbesondere bei sehr empfindlicher Haut. (Bitte konkrete Angaben zu 'dermatologisch getestet' und 'frei von' hier ergänzen, falls zutreffend)."
     },
     {
-      "q": "Ist das Geschenkset für alle Hauttypen geeignet?",
-      "a": "Die Produkte im Monoï Geschenkset sind in der Regel gut verträglich und für die meisten Hauttypen geeignet. Aufgrund der natürlichen Inhaltsstoffe empfehlen wir bei sehr empfindlicher Haut zunächst einen kleinen Verträglichkeitstest."
+      "q": "Wie lange ist das Geschenkset haltbar?",
+      "a": "Die Haltbarkeit der einzelnen Produkte entnehmen Sie bitte dem jeweiligen Mindesthaltbarkeitsdatum (MHD) auf der Verpackung. Bei richtiger Lagerung (kühl und trocken) behalten die Produkte ihre Qualität über lange Zeit."
     },
     {
-      "q": "Was bedeutet \"sinnliche Entspannung\" in Bezug auf dieses Set?",
-      "a": "Der Begriff \"sinnliche Entspannung\" bezieht sich auf die ganzheitliche Erfahrung, die das Set bietet: der betörende Duft von Monoï, die wärmenden und pflegenden Eigenschaften der Öle und Butters, die die Haut streicheln, und die Möglichkeit, sich und seinen Liebsten durch Massagen und Pflege eine Auszeit zu gönnen, die alle Sinne anspricht."
+      "q": "Kann ich die Produkte auch einzeln kaufen?",
+      "a": "Die Produkte im Geschenkset sind in der Regel speziell für diese Zusammenstellung kuratiert. Einige der enthaltenen Produkte könnten auch separat erhältlich sein. Bitte prüfen Sie unseren Shop für weitere Angebote."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:23.638246",
-  "originalName": "Monoï-Set Geschenkset Massage sinnlich Wohlbefinden mit 1 Massagekerze Monoï-Blume, 1 Monoï-Massageöl, 1 Monoï-Butter",
+  "originalName": "Monoï Geschenkset \"Sinnliche Entspannung\"",
+  "enhancedAt": "2025-10-10T23:35:36.602049",
   "enhanced": true
 }

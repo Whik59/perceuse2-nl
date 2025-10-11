@@ -1,9 +1,9 @@
 {
   "productId": "B0BLSSKW2S",
-  "name": "Shiatsu Nacken Schulter Massagegerät Pro",
-  "slug": "pro-shiatsu-nacken-schulter-massagegerat",
-  "description": "<div>\n  <h2>Entspannung pur: Shiatsu Massagegerät für Nacken, Schulter & Rücken</h2>\n  <p>Gönnen Sie Ihrem Körper die wohlverdiente Auszeit mit unserem Shiatsu Massagegerät. Speziell entwickelt, um Verspannungen im Nacken, den Schultern und im Rücken gezielt zu lösen, verwandelt dieses Massagekissen Ihr Zuhause oder Büro in eine persönliche Wellness-Oase. Erleben Sie tiefgehende, rotierende Massageköpfe, die eine authentische Shiatsu-Massage simulieren und tief sitzende Knoten effektiv lockern. Die integrierte Wärmefunktion intensiviert das Wohlgefühl und fördert die Durchblutung, was zu einer spürbaren Entspannung und Linderung von Schmerzen führt. Dank des ergonomischen Designs passt sich das Kissen perfekt Ihren Körperkonturen an und ermöglicht eine individuelle Anwendung, wo immer Sie sie benötigen.</p>\n  <h3>Hauptmerkmale</h3>\n  <ul>\n    <li>Intensive Shiatsu-Massage für Nacken, Schulter und Rücken</li>\n    <li>Rotierende Massageköpfe für tiefe Gewebemassage</li>\n    <li>Sanfte, zuschaltbare Wärmefunktion zur Muskelentspannung</li>\n    <li>Ergonomisches Design für optimalen Komfort</li>\n    <li>Ideal für Zuhause und Büro</li>\n  </ul>\n  <p>Investieren Sie jetzt in Ihr Wohlbefinden für nur 35,00€ und spüren Sie den Unterschied. Holen Sie sich Ihr Shiatsu Massagegerät noch heute und erleben Sie unübertroffene Entspannung!</p>\n</div>",
-  "shortDescription": "Shiatsu Massagegerät, Massagekissen für Nacken Schulter Rücken, Rückenmassagegerät mit rotierenden Massageköpfen mit Wärmefunktion für Büro Zuhause. Tiefenwirksam & entspannend!",
+  "name": "Shiatsu Massagekissen mit Wärmefunktion – Nacken, Schulter, Rücken",
+  "slug": "shiatsu-massagekissen-mit-warmefunktion-nacken-schulter",
+  "description": "Erleben Sie tiefgehende Entspannung und wohltuende Wärme mit unserem Shiatsu Massagekissen. Entwickelt für Nacken, Schultern und Rücken, simuliert es die authentische Shiatsu-Massage, um Verspannungen zu lösen und Muskelkater effektiv zu lindern. Ausgestattet mit leistungsstarken Massageköpfen und einer integrierten Wärmefunktion, fördert dieses Kissen die Durchblutung und sorgt für ein unvergleichliches Wohlbefinden. Ideal für den Einsatz zu Hause oder im Büro – ein Muss für alle, die sich nach Erholung sehnen. **Jetzt bestellen für nur 35,0€!**",
+  "shortDescription": "Entspannendes Shiatsu Massagekissen mit integrierter Wärmefunktion. Lindert Nacken-, Schulter- und Rückenschmerzen für nur 35,0€.",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -14,10 +14,10 @@
     "https://m.media-amazon.com/images/I/815Go1REzzL._AC_SL1500_.jpg"
   ],
   "videos": [],
-  "category": "Nackenmassagekissen",
+  "category": "Shiatsu-Massagegeräte",
   "tags": [
     "besuche den brelley-store",
-    "nackenmassagekissen"
+    "shiatsu-massagegeräte"
   ],
   "amazonUrl": "https://amazon.de/dp/B0BLSSKW2S/?tag=clickclickh0b-21",
   "amazonASIN": "B0BLSSKW2S",
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Brelley-Store",
   "seo": {
-    "title": "Shiatsu Nacken Schulter Massagegerät Pro",
-    "description": "Shiatsu Massagegerät, Massagekissen für Nacken Schulter Rücken, Rückenmassagegerät mit rotierenden Massageköpfen mit Wärmefunktion für Büro Zuhause. Tiefenwirksam & entspannend!",
+    "title": "Shiatsu Massagekissen mit Wärmefunktion – Nacken, Schulter, Rücken",
+    "description": "Entspannendes Shiatsu Massagekissen mit integrierter Wärmefunktion. Lindert Nacken-, Schulter- und Rückenschmerzen für nur 35,0€.",
     "keywords": [
-      "shiatsu nacken schulter massagegerät pro",
-      "nackenmassagekissen",
+      "shiatsu massagekissen mit wärmefunktion – nacken, schulter, rücken",
+      "shiatsu-massagegeräte",
       "besuche den brelley-store"
     ],
-    "ogTitle": "Shiatsu Nacken Schulter Massagegerät Pro",
-    "ogDescription": "Shiatsu Massagegerät, Massagekissen für Nacken Schulter Rücken, Rückenmassagegerät mit rotierenden Massageköpfen mit Wärmefunktion für Büro Zuhause. Tiefenwirksam & entspannend!"
+    "ogTitle": "Shiatsu Massagekissen mit Wärmefunktion – Nacken, Schulter, Rücken",
+    "ogDescription": "Entspannendes Shiatsu Massagekissen mit integrierter Wärmefunktion. Lindert Nacken-, Schulter- und Rückenschmerzen für nur 35,0€."
   },
   "reviews": {
     "averageRating": 4.3,
@@ -50,54 +50,27 @@
     }
   },
   "specifications": {
-    "Motortyp": "DC-Motor (geräuscharm & langlebig)",
-    "Massageköpfe": {
-      "Anzahl": 8,
-      "Art": "Rotierende Shiatsu-Knoten",
-      "Bewegung": "3D-Simulation menschlicher Hände",
-      "Material": "Hautfreundliches Silikon"
-    },
-    "Wärmefunktion": {
-      "Art": "Infrarot-Wärme",
-      "Temperaturbereich": "ca. 40-50°C",
-      "Steuerung": "Integriert, separat zuschaltbar"
-    },
-    "Stromversorgung": {
-      "Netzteil": "AC 100-240V, 50/60Hz",
-      "Auto-Adapter": "DC 12V (inklusive)",
-      "Leistungsaufnahme": "25W",
-      "Kabellänge": "2 Meter"
-    },
-    "Materialien": {
-      "Bezug": "PU-Leder & atmungsaktives Mesh",
-      "Innenpolsterung": "Hochdichter Schaumstoff",
-      "Gehäuse": "ABS-Kunststoff (strapazierfähig)"
-    },
-    "Abmessungen": {
-      "Produkt": "ca. 40 x 30 x 15 cm",
-      "Gewicht": "ca. 1.5 kg"
-    },
-    "Sicherheit": {
-      "Zertifizierung": "CE, RoHS",
-      "Schutzklasse": "IP20",
-      "Überhitzungsschutz": "Automatische Abschaltung"
-    }
+    "basic": "Innovatives Shiatsu Massagekissen mit 8 rotierenden Massageknoten. Integrierte zuschaltbare Wärmefunktion. Ergonomisches Design, passend für Nacken, Schultern und Rücken. Hochelastisches und atmungsaktives Material. Überhitzungsschutz für sichere Anwendung. Einfache Bedienung per Netzteil. Kompakt und tragbar."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Shiatsu-Massage-Technologie in diesem Gerät?",
-      "answer": "Dieses Shiatsu-Massagegerät nutzt fortschrittliche Robotik-Technologie, um tiefenwirksame Knetbewegungen zu simulieren, die an die Fingerbewegungen eines professionellen Masseurs erinnern. Die rotierenden Massageköpfe ahmen die traditionelle Shiatsu-Technik nach, um Verspannungen im Nacken, in den Schultern und im Rücken gezielt zu lösen.  Die Technologie ist so konzipiert, dass sie präzise auf Triggerpunkte wirkt und so für maximale Entspannung sorgt."
+      "q": "Wie funktioniert die Wärmefunktion?",
+      "a": "Die Wärmefunktion erwärmt die Massageköpfe sanft auf eine angenehme Temperatur, um die Muskelentspannung zu intensivieren und die Durchblutung zu fördern. Die Wärme ist optional zuschaltbar."
     },
     {
-      "question": "Welche technischen Vorteile bietet die integrierte Wärmefunktion?",
-      "answer": "Die integrierte Wärmefunktion nutzt eine sicher gesteuerte Heiztechnologie, um die tiefenwirksame Wirkung der Shiatsu-Massage zu ergänzen.  Die Wärme fördert die Durchblutung der Muskulatur, entspannt verhärtete Stellen und intensiviert das Massageerlebnis. Dies ist besonders vorteilhaft nach langen Arbeitsphasen am Schreibtisch oder bei sitzender Tätigkeit, um Muskelkater und Steifheit effektiv entgegenzuwirken."
+      "q": "Ist das Massagekissen für alle Körperbereiche geeignet?",
+      "a": "Das Kissen ist primär für Nacken, Schultern und den Rücken konzipiert. Dank seines flexiblen Designs kann es aber auch für andere Körperpartien wie Oberschenkel oder Waden verwendet werden."
     },
     {
-      "question": "Ist das Massagegerät automatisiert und benutzerfreundlich für den täglichen Einsatz?",
-      "answer": "Ja, das Shiatsu-Massagegerät ist für eine intuitive und automatisierte Bedienung konzipiert.  Es verfügt über voreingestellte Massageprogramme, die per Knopfdruck aktiviert werden können.  Die intelligente Technologie passt die Intensität und Geschwindigkeit der Massageköpfe automatisch an, um ein optimales Ergebnis zu erzielen. Dies macht es perfekt für den Einsatz zu Hause oder im Büro, ohne dass technisches Fachwissen erforderlich ist.  Ein integrierter Timer sorgt zudem für automatische Abschaltung."
+      "q": "Wie reinige ich das Massagekissen?",
+      "a": "Die abnehmbare Hülle des Kissens ist in der Regel bei 30 Grad im Schonwaschgang maschinenwaschbar. Bitte beachten Sie die genauen Pflegehinweise in der Produktanleitung."
+    },
+    {
+      "q": "Wie lange sollte eine Massage-Sitzung dauern?",
+      "a": "Wir empfehlen, eine Massage-Sitzung auf 15-20 Minuten zu beschränken, um Überstimulation zu vermeiden. Das Kissen verfügt über eine automatische Abschaltfunktion nach ca. 15 Minuten."
     }
   ],
-  "enhancedAt": "2025-10-10T22:24:52.541539",
-  "originalName": "Shiatsu Massagegerät, Massagekissen für Nacken Schulter Rücken, Rückenmassagegerät mit rotierenden Massageköpfen mit Wärmefunktion für Büro Zuhause",
+  "originalName": "Shiatsu Massagekissen mit Wärmefunktion – Nacken, Schulter, Rücken",
+  "enhancedAt": "2025-10-10T23:35:53.902982",
   "enhanced": true
 }

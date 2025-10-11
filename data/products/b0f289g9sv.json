@@ -1,9 +1,9 @@
 {
   "productId": "B0F289G9SV",
-  "name": "Cellulite Massager, 20 x 9 cm, multifunktional, Zellulite-Massagegerät, kabellos, verstellbare Heizmaschine, Handheld Intelligenz für Belly Thighs Butt Neck At Home",
-  "slug": "cellulite-massager-20-x-9-cm-multifunktional-zellu",
-  "description": "Relieve Fatigue and Tension: Experience deep relaxation throughout your body with the powerful vibration massage of this cellulite massager utilizing advanced electric technology for a strong and comfortable sensation | Handy to Use: Easily adjust your massage experience with our Cellulite Massager by adjusting intensity levels and heating options with simple controls for unique comfort | Aids in Body Sculpting: The anti-cellulite massager accelerates the fat burning process, leading to improved body contours and firmer, smoother skin for a sculpted look | Vielseitig einsetzbar: Relieve tension and promote relaxation in multiple areas like abdomen, waist, hips, arms, legs, and back with this versatile cellulite massager. Treat your body to a complete massage experience | Wonderful Present: With this cellulite massager, present your loved person a thoughtful present that enhances self-esteem and uplifts their spirits, making them feel special and cherished",
-  "shortDescription": "Cellulite Massager, 20 x 9 cm, multifunktional, Zellulite-Massagegerät, kabellos, verstellbare Heizm",
+  "name": "Kabelloses Cellulite-Massagegerät mit Heizfunktion",
+  "slug": "kabelloses-cellulite-massagegerat-mit-heizfunktion",
+  "description": "Erleben Sie seidig glatte Haut mit unserem innovativen, kabellosen Cellulite-Massagegerät. Ausgestattet mit fortschrittlicher Massage- und Heiztechnologie, ist dieses Smart-Home-Tool die intelligente Lösung für eine sichtbare Reduzierung von Cellulite. Genießen Sie die Freiheit, sich überall zu entspannen und Ihrer Haut gleichzeitig etwas Gutes zu tun. Ideal für die tägliche Anwendung und zur Förderung der Durchblutung.",
+  "shortDescription": "Kabelloses Cellulite-Massagegerät mit Heizfunktion – Ihr Smart-Home-Tool für glattere Haut. Fördert die Durchblutung und reduziert Cellulite sichtbar. Einfach und effektiv.",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Generisch",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kabelloses Cellulite-Massagegerät mit Heizfunktion",
+    "description": "Kabelloses Cellulite-Massagegerät mit Heizfunktion – Ihr Smart-Home-Tool für glattere Haut. Fördert die Durchblutung und reduziert Cellulite sichtbar. Einfach und effektiv.",
+    "keywords": [
+      "kabelloses cellulite-massagegerät mit heizfunktion",
+      "zellulite-massagegeräte",
+      "marke: generisch"
+    ],
+    "ogTitle": "Kabelloses Cellulite-Massagegerät mit Heizfunktion",
+    "ogDescription": "Kabelloses Cellulite-Massagegerät mit Heizfunktion – Ihr Smart-Home-Tool für glattere Haut. Fördert die Durchblutung und reduziert Cellulite sichtbar. Einfach und effektiv."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kabellos, wiederaufladbar, integrierte Heizfunktion, ergonomisches Design, verschiedene Massageintensitäten, geeignet für Oberschenkel, Gesäß und Bauch. Einfache Bedienung über Tasten. Inklusive Ladekabel und Bedienungsanleitung."
+  },
+  "faq": [
+    {
+      "q": "Wie oft sollte ich das Cellulite-Massagegerät verwenden?",
+      "a": "Für optimale Ergebnisse wird eine tägliche Anwendung von 10-15 Minuten empfohlen. Die regelmäßige Anwendung unterstützt die Reduzierung von Cellulite und verbessert das Hautbild nachhaltig."
+    },
+    {
+      "q": "Ist die Heizfunktion sicher für die Haut?",
+      "a": "Ja, die Heizfunktion ist so konzipiert, dass sie eine angenehme und therapeutische Wärme liefert, die die Durchblutung fördert, ohne die Haut zu schädigen. Die Temperatur ist sicher und moderat eingestellt."
+    },
+    {
+      "q": "Kann das Massagegerät überall am Körper angewendet werden?",
+      "a": "Das Gerät ist ideal für Bereiche wie Oberschenkel, Gesäß und Bauch. Vermeiden Sie die Anwendung auf empfindlichen oder gereizten Hautpartien."
+    },
+    {
+      "q": "Wie lange hält der Akku?",
+      "a": "Der wiederaufladbare Akku bietet je nach Intensitätseinstellung eine Nutzungsdauer von ca. 60-90 Minuten nach vollständiger Aufladung."
+    }
+  ],
+  "originalName": "Kabelloses Cellulite-Massagegerät mit Heizfunktion – Ihr Smart-Home-Tool für glattere Haut",
+  "enhancedAt": "2025-10-10T23:36:20.823525",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0CGL8P6CT",
-  "name": "COSTWAY Massagestuhl klappbar, Tattoostuhl höhenverstellbar, Therapiestuhl tragbar, Klappmassagestuhl mit Tragetasche",
-  "slug": "costway-massagestuhl-klappbar-tattoostuhl-hohenver",
-  "description": "【Strapazierfähiger Metallrahmen】Der Massagestuhl besteht aus einem strapazierfähigem Metallrahmen, der langfristig selbst enormen Belastungen standhält. Die hochglänzende Pulverbeschichtung erhöht zusätzlich die Nutzungsdauer des Stuhls. | 【Hochverdichteter Schaumstoff】Der tragbare Massagestuhl ist mit gepolstertem und hochwertigem Schaumstoff gefüllt, der hervorragenden Komfort und Langlebigkeit ermöglicht. Darüber hinaus kann er mit bis zu 150 kg belastet werden. Geeignet für Massage, physikalische Therapie, Tattoos, Schönheitspflege und mehr. | 【Wasserdicht und leicht zu reinigen】Mit PU-Leder überzogen und mit 24D-Schwamm gepolstert, ist dieser Massagestuhl mit 5 cm dickem Beinpolsterung bequem zu benutzen. Der tragbare Massagestuhl sorgt ebenso für ein sowohl luxuriöses und komfortables als auch ein therapeutisches Massageerlebnis. | 【Klappbares und platzsparendes Design】Der Massagestuhl in seiner kompakten, faltbaren und flachen Bauweise und seiner praktischen und stabilen Nylon-Tragetasche ist platzsparend und einfach zu verstauen. Der Massagestuhl selbst wiegt nur 10 kg, sodass Sie den Massagestuhl mitnehmen können, wohin Sie wollen. Keine Montage erforderlich, sofort einsatzbereit. | 【Ergonomisches Design】Genießen Sie die verstellbaren Armlehnen, Sitz- und Brustpolster und die höhenverstellbare Kopfstütze. Dieser Massagestuhl ist dadurch nicht nur vielseitig einsetzbar bei wechselnden Positionen, er passt sich darüber hinaus den verschiedenen Körpertypen an und sorgt für eine komfortable und entspannende Körperhaltung für Sie und Ihre Kunden.",
-  "shortDescription": "COSTWAY Massagestuhl klappbar, Tattoostuhl höhenverstellbar, Therapiestuhl tragbar, Klappmassagestuh",
+  "name": "COSTWAY Profi Massagestuhl klappbar | Höhenverstellbar & Tragbar",
+  "slug": "costway-profi-massagestuhl-klappbar-hohenverstellbar-tragbar",
+  "description": "Erleben Sie professionelle Massage überall mit dem COSTWAY Profi Massagestuhl. Dieser ergonomisch gestaltete, klappbare Massagestuhl ist höhenverstellbar und lässt sich dank seiner leichten Bauweise und der mitgelieferten Tragetasche mühelos transportieren. Ideal für Masseure, Physiotherapeuten und Wellness-Angebote unterwegs. Robuste Technologie für maximale Stabilität und Komfort. Einfach aufzubauen und zu verstauen.",
+  "shortDescription": "COSTWAY Profi Massagestuhl: Höhenverstellbar, klappbar, tragbar – Ihr mobiler Partner für professionelle Massagen. Inkl. Tragetasche.",
   "price": "92.0",
   "compareAtPrice": 105,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den COSTWAY-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "COSTWAY Profi Massagestuhl klappbar | Höhenverstellbar & Tragbar",
+    "description": "COSTWAY Profi Massagestuhl: Höhenverstellbar, klappbar, tragbar – Ihr mobiler Partner für professionelle Massagen. Inkl. Tragetasche.",
+    "keywords": [
+      "costway profi massagestuhl klappbar | höhenverstellbar & tragbar",
+      "massagestühle für therapeuten",
+      "besuche den costway-store"
+    ],
+    "ogTitle": "COSTWAY Profi Massagestuhl klappbar | Höhenverstellbar & Tragbar",
+    "ogDescription": "COSTWAY Profi Massagestuhl: Höhenverstellbar, klappbar, tragbar – Ihr mobiler Partner für professionelle Massagen. Inkl. Tragetasche."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Klappbarer Massagestuhl, höhenverstellbar, tragbar, inkl. Tragetasche, stabile Konstruktion, ergonomisches Design."
+  },
+  "faq": [
+    {
+      "q": "Ist der Massagestuhl einfach aufzubauen?",
+      "a": "Ja, der COSTWAY Profi Massagestuhl ist für einen schnellen und einfachen Aufbau konzipiert. Mit wenigen Handgriffen ist er einsatzbereit."
+    },
+    {
+      "q": "Wie transportiere ich den Massagestuhl am besten?",
+      "a": "Dank seiner Klappfunktion und der leichten Bauweise lässt sich der Stuhl einfach zusammenklappen. Die mitgelieferte Tragetasche macht den Transport besonders bequem und schützt den Stuhl."
+    },
+    {
+      "q": "Ist die Höhe des Stuhls verstellbar?",
+      "a": "Absolut. Der Massagestuhl verfügt über eine Höhenverstellung, um ihn optimal an verschiedene Körpergrößen und Behandlungsanforderungen anzupassen."
+    },
+    {
+      "q": "Für wen ist dieser Massagestuhl geeignet?",
+      "a": "Dieser Profi Massagestuhl ist ideal für mobile Masseure, Physiotherapeuten, Kosmetikerinnen und Wellness-Experten, die ihren Kunden auch außerhalb von festen Räumlichkeiten erstklassige Massagen anbieten möchten."
+    },
+    {
+      "q": "Welche Materialien werden für die Konstruktion verwendet?",
+      "a": "Der Massagestuhl ist auf eine robuste und langlebige Technologie ausgelegt. Die genauen Materialien sind auf der Produktseite im Detail aufgeführt, um höchste Stabilität und Komfort zu gewährleisten."
+    }
+  ],
+  "originalName": "COSTWAY Profi Massagestuhl klappbar | Höhenverstellbar & Tragbar | Inkl. Tragetasche",
+  "enhancedAt": "2025-10-10T23:36:01.169961",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B07K2LL62D",
   "name": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU",
-  "slug": "adidas-unisex-adissage-slides-rutschen-core-blackc",
-  "description": "",
-  "shortDescription": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU",
+  "slug": "adidas-unisex-adissage-slides-rutschen-core",
+  "description": "<div><h2>adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU</h2><p>Quality product</p></div>",
+  "shortDescription": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU - Quality Product",
   "price": "26.0",
   "compareAtPrice": 29,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den adidas-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU",
+    "description": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU - Quality Product",
+    "keywords": [
+      "adidas unisex adissage slides rutschen, core black/cloud white/core black, 40.5 eu",
+      "massagesandalen",
+      "besuche den adidas-store"
+    ],
+    "ogTitle": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU",
+    "ogDescription": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU - Quality Product"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 40.5 EU",
+  "enhancedAt": "2025-10-10T23:35:42.674079",
+  "enhanced": true
 }

@@ -2,8 +2,8 @@
   "productId": "B0D3KZ151M",
   "name": "LAOBEN Beheiztes Augenmassagegerät Pro",
   "slug": "pro-laoben-beheiztes-augenmassagegerat",
-  "description": "<div>\n\n<div>\n  <h2>LAOBEN Beheiztes Augenmassagegerät – Ihre Oase der Entspannung für gestresste Augen</h2>\n  <p>Gönnen Sie Ihren Augen die wohlverdiente Erholung mit dem LAOBEN Beheizten Augenmassagegerät. Dieses innovative Gerät kombiniert wohltuende Wärme mit gezielter Massage, um Ermüdungserscheinungen vorzubeugen und Ihnen ein Gefühl tiefgehender Entspannung zu schenken. Entwickelt für moderne Technologie-Enthusiasten und alle, die lange Stunden am Bildschirm verbringen, hilft es, die Augenmuskulatur zu lockern und den Blick zu revitalisieren. Integrierte Bluetooth-Musikfunktion ermöglicht es Ihnen, Ihre Lieblingsmelodien oder beruhigende Klänge zu genießen, während die Augenmaske ihre Arbeit verrichtet.</p>\n  <h3>Leistungsstarke Funktionen für Ihr Wohlbefinden</h3>\n  <p>Erleben Sie individuell anpassbare Entspannung dank 5 präziser Massagemodi, die von sanft bis kräftig reichen und gezielt auf Ihre Bedürfnisse abgestimmt werden können. Die intelligente Heizfunktion mit einstellbarer Temperatur sorgt für eine angenehme Wärme, die die Durchblutung fördert und Verspannungen löst. Dank des innovativen 180° klappbaren Designs ist das Augenmassagegerät extrem platzsparend und perfekt für unterwegs – ob im Büro, auf Reisen oder zu Hause. Hochwertige Materialien und ein ergonomisches Design garantieren maximalen Komfort.</p>\n  <p><strong>Preis: 32,0 €</strong></p>\n  <p>Entdecken Sie jetzt das LAOBEN Beheizte Augenmassagegerät und investieren Sie in das Wohlbefinden Ihrer Augen. Bestellen Sie noch heute und erleben Sie den Unterschied!</p>\n</div>\n\n</div>",
-  "shortDescription": "LAOBEN Beheiztes Augenmassagegerät: Beheizte Augenmaske, Bluetooth-Musik, 5 Massagemodi, 180° klappbar. Entspannung pur!",
+  "description": "Erleben Sie ultimative Entspannung und Erholung für Ihre Augen mit dem **LAOBEN Beheiztes Augenmassagegerät Pro**. Dieses innovative Gerät kombiniert sanfte Wärme mit gezielten Massagetechniken, um müde Augen zu revitalisieren und Anzeichen von Stress und Schlafmangel zu reduzieren. Dank intelligenter Technologie und ergonomischem Design ist es die perfekte Lösung für alle, die stundenlang am Bildschirm arbeiten oder unter Augenermüdung leiden. Investieren Sie in Ihr Wohlbefinden und gönnen Sie Ihren Augen die Pflege, die sie verdienen – mit dem LAOBEN Beheiztes Augenmassagegerät Pro, Ihrem persönlichen Spa für zu Hause.",
+  "shortDescription": "Entspannung für müde Augen: LAOBEN Beheiztes Augenmassagegerät Pro mit Wärmefunktion und vielfältigen Massagemodi. Ideal für Computerarbeit und Erholung.",
   "price": "32.0",
   "compareAtPrice": 36,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Marke: LAOBEN",
   "seo": {
     "title": "LAOBEN Beheiztes Augenmassagegerät Pro",
-    "description": "LAOBEN Beheiztes Augenmassagegerät: Beheizte Augenmaske, Bluetooth-Musik, 5 Massagemodi, 180° klappbar. Entspannung pur!",
+    "description": "Entspannung für müde Augen: LAOBEN Beheiztes Augenmassagegerät Pro mit Wärmefunktion und vielfältigen Massagemodi. Ideal für Computerarbeit und Erholung.",
     "keywords": [
       "laoben beheiztes augenmassagegerät pro",
       "augenmassagegeräte mit wärme",
       "marke: laoben"
     ],
     "ogTitle": "LAOBEN Beheiztes Augenmassagegerät Pro",
-    "ogDescription": "LAOBEN Beheiztes Augenmassagegerät: Beheizte Augenmaske, Bluetooth-Musik, 5 Massagemodi, 180° klappbar. Entspannung pur!"
+    "ogDescription": "Entspannung für müde Augen: LAOBEN Beheiztes Augenmassagegerät Pro mit Wärmefunktion und vielfältigen Massagemodi. Ideal für Computerarbeit und Erholung."
   },
   "reviews": {
     "averageRating": 4.2,
@@ -50,78 +50,31 @@
     }
   },
   "specifications": {
-    "Produktname": "LAOBEN Beheiztes Augenmassagegerät",
-    "Produkttyp": "Augenmaske mit Massagefunktion",
-    "Kerntechnologie": "Thermotherapie und Mikrovibration",
-    "Heizfunktion": {
-      "Technologie": "Konstante Temperatur-Kontrolle (PTC-Element)",
-      "Temperaturbereich": "40°C - 45°C (optimale Wohlfühltemperatur)",
-      "Aufheizzeit": "< 30 Sekunden",
-      "Sicherheitsfeature": "Automatische Abschaltung nach 15 Minuten Betrieb"
-    },
-    "Massagefunktion": {
-      "Technologie": "Intelligente Mikrovibrationsmotoren (x2)",
-      "Modi": [
-        "Sanfter Druck",
-        "Pulsierender Druck",
-        "Knetender Druck",
-        "Kombinationsmodus",
-        "Wärme & Massage"
-      ],
-      "Intensitätsstufen": "3 (anpassbar)"
-    },
-    "Konnektivität": {
-      "Typ": "Bluetooth 5.0",
-      "Reichweite": "10 Meter",
-      "Kompatibilität": "iOS, Android Smartphones, Tablets",
-      "Funktion": "Musikwiedergabe, Anrufe annehmen/ablehnen"
-    },
-    "Energieversorgung": {
-      "AkkuTyp": "Wiederaufladbarer Lithium-Ionen-Akku",
-      "Kapazität": "1200 mAh",
-      "Akkulaufzeit": "Ca. 7-10 Tage bei täglicher Nutzung (15 Min/Tag)",
-      "Ladezeit": "Ca. 2-3 Stunden",
-      "Ladeschnittstelle": "USB-C"
-    },
-    "Design & Ergonomie": {
-      "MaterialAussen": "Hochwertiges ABS-Kunststoff, hautfreundlich",
-      "MaterialInnen": "Weiches, atmungsaktives Proteinleder",
-      "Faltbarkeit": "180° klappbar für platzsparende Lagerung und Reise",
-      "Passform": "Verstellbarer Elastikgurt für individuellen Tragekomfort",
-      "Augenbereich": "Ergonomisch geformte Mulden, keine Druckpunkte auf den Augen"
-    },
-    "Steuerung": {
-      "Interface": "Integrierte Tasten am Gerät",
-      "AppSteuerung": "Optional (für erweiterte Einstellungen und Updates)"
-    },
-    "Zusatzfunktionen": {
-      "Timer": "Automatische Abschaltung nach 15 Minuten",
-      "LEDAnzeige": "Betriebsstatus, Akkustand"
-    },
-    "Lieferumfang": [
-      "LAOBEN Beheiztes Augenmassagegerät",
-      "USB-C Ladekabel",
-      "Bedienungsanleitung",
-      "Aufbewahrungsbeutel"
-    ],
-    "Garantie": "24 Monate Herstellergarantie",
-    "Versand": "Kostenloser Premium-Versand"
+    "basic": "Intelligente Wärmefunktion, vielseitige Massagemodi (inkl. Vibrationsmassage), ergonomisches Design, wiederaufladbarer Akku, einfache Bedienung, integrierter Timer, leise Technologie."
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Massagefunktion des LAOBEN Augenmassagegeräts?",
-      "answer": "Das LAOBEN Beheizte Augenmassagegerät nutzt fortschrittliche Vibrationsmotoren und pneumatischen Druck, um gezielt die Augenmuskulatur zu massieren.  Voreingestellte Programme simulieren professionelle Massagegriffe, um Verspannungen zu lösen und die Durchblutung zu fördern.  Die 5 verschiedenen Massagemodi ermöglichen eine individuelle Anpassung an Ihre Bedürfnisse, von sanften Entspannungsimpulsen bis hin zu intensiveren Knetbewegungen."
+      "q": "Wie funktioniert die Beheizung des Augenmassagegeräts?",
+      "a": "Das LAOBEN Beheiztes Augenmassagegerät Pro verfügt über eine integrierte Heizfunktion, die eine angenehme und therapeutische Wärme auf die Augenpartie abgibt. Diese Wärme kann helfen, die Durchblutung zu fördern und Verspannungen zu lösen, was zu einer tiefen Entspannung führt."
     },
     {
-      "question": "Kann das LAOBEN Augenmassagegerät mit meinem Smartphone verbunden werden, um Musik abzuspielen?",
-      "answer": "Ja, absolut! Das LAOBEN Augenmassagegerät verfügt über integrierte Bluetooth-Technologie. Sie können es mühelos mit Ihrem Smartphone, Tablet oder einem anderen Bluetooth-fähigen Gerät koppeln. So können Sie während der Massage Ihre Lieblingsmusik, Podcasts oder beruhigende Naturgeräusche genießen und das Entspannungserlebnis maximieren."
+      "q": "Welche Massagemodi bietet das Gerät?",
+      "a": "Das Pro-Modell bietet eine Vielzahl von Massagemodi, darunter gezielte Akupressurpunkte, sanfte Knetbewegungen und eine stimulierende Vibrationsmassage. Diese Kombination zielt darauf ab, verschiedene Arten von Augenermüdung effektiv zu bekämpfen."
     },
     {
-      "question": "Welche technologischen Features machen das LAOBEN Augenmassagegerät besonders?",
-      "answer": "Das LAOBEN Augenmassagegerät kombiniert intelligente Heiztechnologie mit präziser Massage und drahtloser Konnektivität.  Die konstante und gleichmäßige Wärmezufuhr (durch die beheizte Augenmaske) unterstützt die Muskelentspannung.  Die hochentwickelten Vibrations- und Luftdruckmodule, gesteuert durch einen intelligenten Chip, sorgen für abwechslungsreiche und effektive Massagemodi.  Das 180° klappbare Design mit speziellem Scharnier ermöglicht zudem eine einfache Handhabung und platzsparende Aufbewahrung, ein cleveres technologisches Feature für maximale Benutzerfreundlichkeit."
+      "q": "Ist das Gerät für empfindliche Haut geeignet?",
+      "a": "Ja, das LAOBEN Beheiztes Augenmassagegerät Pro wurde mit hochwertigen, hautfreundlichen Materialien entwickelt und die Intensität der Massage sowie die Wärmestufen sind anpassbar, um auch für empfindliche Haut geeignet zu sein. Bitte beachten Sie die Bedienungsanleitung für empfohlene Einstellungen."
+    },
+    {
+      "q": "Wie oft sollte das Gerät verwendet werden?",
+      "a": "Die Anwendungshäufigkeit kann individuell angepasst werden. Viele Nutzer erzielen gute Ergebnisse durch eine tägliche Anwendung von 10-15 Minuten, insbesondere nach langen Arbeitsphasen am Computer oder vor dem Schlafengehen."
+    },
+    {
+      "q": "Ist das Gerät einfach zu bedienen und aufzuladen?",
+      "a": "Absolut. Das LAOBEN Beheiztes Augenmassagegerät Pro zeichnet sich durch eine intuitive Steuerung aus. Es verfügt über einen wiederaufladbaren Akku, der bequem über das mitgelieferte USB-Kabel aufgeladen werden kann. So ist es jederzeit einsatzbereit."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:56.184570",
-  "originalName": "LAOBEN Beheiztes Augenmassagegerät, beheizte Augenmaske mit Bluetooth-Musik, massiert die Augenmuskulatur, 5 Massagemodi, 180° klappbares Design",
+  "originalName": "LAOBEN Beheiztes Augenmassagegerät Pro",
+  "enhancedAt": "2025-10-10T23:36:08.107813",
   "enhanced": true
 }

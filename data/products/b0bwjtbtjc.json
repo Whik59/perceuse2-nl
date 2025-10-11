@@ -1,9 +1,9 @@
 {
   "productId": "B0BWJTBTJC",
-  "name": "Bio Arnika & Pferdesalbe Gel, Hochkonzentriert: Linderung bei 𝗦𝗰𝗵𝗺𝗲𝗿𝘇𝗲𝗻, Prellungen & Schwellungen, Entzündungen - Natürlich & Effektiv (Vegan, Tierversuchsfrei)",
-  "slug": "bio-arnika-pferdesalbe-gel-hochkonzentriert-linder",
-  "description": "Innovative Kombination: Erleben Sie die Kraft der ersten Bio Arnika- und Pferdesalbe-Kombination auf dem Markt - eine revolutionäre natürliche Lösung gegen Schmerzen und Entzündungen. | Schnelle Linderung: Unser einzigartiges Gel bietet sofortige Erleichterung bei Prellungen, Schwellungen und Entzündungen, unterstützt durch die bewährten Eigenschaften von Arnika und Pferdesalbe. | Für Aktive & Familien: Perfekt für Sportler, aktive Menschen und Familien. Unterstützt die Muskelregeneration und bietet schnelle Hilfe bei alltäglichen Verletzungen und Beschwerden. | 100% Natürlich & Sicher: Bio, vegan und tierversuchsfrei – unser Gel ist frei von schädlichen Chemikalien und sicher für alle Hauttypen und Altersgruppen. | Unser Arnika & Pferdesalbe Gel wird nach höchsten Standards hergestellt und dermatologisch getestet.",
-  "shortDescription": "Bio Arnika & Pferdesalbe Gel, Hochkonzentriert: Linderung bei 𝗦𝗰𝗵𝗺𝗲𝗿𝘇𝗲𝗻, Prellungen & Schwellungen, ",
+  "name": "Bio Arnika & Pferdesalbe Gel | Hochkonzentriert zur Linderung",
+  "slug": "bio-arnika-pferdesalbe-gel-hochkonzentriert-zur",
+  "description": "Entdecken Sie die Kraft der Natur mit unserem hochkonzentrierten Bio Arnika & Pferdesalbe Gel. Speziell formuliert für maximale Linderung bei Beanspruchung von Muskeln und Gelenken. Die einzigartige Kombination aus biologisch angebauter Arnika und bewährter Pferdesalbe, angereichert mit kühlenden Menthol- und Eukalyptus-Extrakten, bietet eine tiefenwirksame und erfrischende Pflege. Ideal zur Anwendung nach körperlicher Anstrengung, Sport oder bei alltäglichen Beschwerden. Profitieren Sie von der schnellen Absorption und dem angenehmen Duft. Unser Gel zieht schnell ein, hinterlässt keine klebrigen Rückstände und ist frei von Parabenen und Silikonen. Für Ihr Wohlbefinden – natürlich und effektiv.",
+  "shortDescription": "Hochkonzentriertes Bio Arnika & Pferdesalbe Gel für schnelle Linderung bei Muskel- und Gelenkbeschwerden. Erfrischt und belebt.",
   "price": "22.0",
   "compareAtPrice": 25,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Hemp Help HEMP COSMETIC-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Bio Arnika & Pferdesalbe Gel | Hochkonzentriert zur Linderung",
+    "description": "Hochkonzentriertes Bio Arnika & Pferdesalbe Gel für schnelle Linderung bei Muskel- und Gelenkbeschwerden. Erfrischt und belebt.",
+    "keywords": [
+      "bio arnika & pferdesalbe gel | hochkonzentriert zur linderung",
+      "arnika-salben gegen prellungen",
+      "besuche den hemp help hemp cosmetic-store"
+    ],
+    "ogTitle": "Bio Arnika & Pferdesalbe Gel | Hochkonzentriert zur Linderung",
+    "ogDescription": "Hochkonzentriertes Bio Arnika & Pferdesalbe Gel für schnelle Linderung bei Muskel- und Gelenkbeschwerden. Erfrischt und belebt."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Hochkonzentriertes Gel mit Bio Arnika und Pferdesalbe, angereichert mit Menthol und Eukalyptus. Zieht schnell ein, nicht fettend. Für Muskeln & Gelenke. 200ml."
+  },
+  "faq": [
+    {
+      "q": "Für welche Beschwerden ist das Bio Arnika & Pferdesalbe Gel geeignet?",
+      "a": "Unser Gel ist ideal zur Linderung von Beschwerden, die durch Überanstrengung von Muskeln und Gelenken entstehen, beispielsweise nach dem Sport, körperlicher Arbeit oder bei alltäglichen Verspannungen."
+    },
+    {
+      "q": "Was sind die Hauptwirkstoffe des Gels?",
+      "a": "Die Hauptwirkstoffe sind hochkonzentrierte Bio Arnika-Extrakte und bewährte Pferdesalbe. Zusätzliche kühlende Extrakte aus Menthol und Eukalyptus unterstützen die wohltuende Wirkung."
+    },
+    {
+      "q": "Wie wird das Gel angewendet?",
+      "a": "Tragen Sie das Gel mehrmals täglich nach Bedarf auf die betroffenen Stellen auf und massieren Sie es sanft ein, bis es vollständig eingezogen ist. Vermeiden Sie den Kontakt mit Augen und Schleimhäuten."
+    },
+    {
+      "q": "Ist das Gel für empfindliche Haut geeignet?",
+      "a": "Unser Gel ist frei von Parabenen und Silikonen und zieht schnell ein, ohne zu fetten. Bei bekannter Überempfindlichkeit gegenüber einem der Inhaltsstoffe sollte jedoch Vorsicht geboten sein."
+    }
+  ],
+  "originalName": "Bio Arnika & Pferdesalbe Gel | Hochkonzentriert für Linderung",
+  "enhancedAt": "2025-10-10T23:35:54.946079",
+  "enhanced": true
 }

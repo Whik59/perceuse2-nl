@@ -1,9 +1,9 @@
 {
   "productId": "B00YZ6RHME",
-  "name": "Alumobile.com Massagetisch -Transportwagen (Trolley) für Profis – Qualitäts-Aluminiumrahmen – leicht, stabil, langlebig, sehr beweglich – 3 Jahre Garantie",
-  "slug": "alumobilecom-massagetisch-transportwagen-trolley-f",
-  "description": "Leichter Aluminiumrahmen – Trolleygewicht weniger als 2,7 kg. | 4 Räder mit leisen und langlebigen Gummidichtungskugellagern | Teleskopfuß und ausziehbare Gurte | Passend für tragbare Massageliegen aller Größen und Marken. (Maximale Tischmaße: 110 x 87 x 25 cm) | Beste auf dem Markt, 3 Jahre Garantie.",
-  "shortDescription": "Alumobile.com Massagetisch -Transportwagen (Trolley) für Profis – Qualitäts-Aluminiumrahmen – leicht",
+  "name": "Alumobile.com Massagetisch Transportwagen – Profi-Trolley",
+  "slug": "alumobile-com-massagetisch-transportwagen-profi-trolley",
+  "description": "Optimieren Sie Ihren Arbeitsablauf mit dem Alumobile.com Massagetisch Transportwagen, dem Profi-Trolley, der für höchste Effizienz und Mobilität konzipiert ist. Entwickelt für professionelle Anwender, erleichtert dieser robuste und dennoch leichte Trolley den Transport Ihres Massagetisches mühelos. Dank intelligenter Konstruktion und hochwertiger Materialien ist er die ideale Lösung für Physiotherapeuten, Masseure und mobile Wellnessexperten. Investieren Sie in Qualität, sparen Sie Zeit und schonen Sie Ihren Rücken. Perfekt für den Einsatz in Praxen, zu Hause oder bei mobilen Behandlungen. Jetzt entdecken und Ihre Logistik revolutionieren!",
+  "shortDescription": "Professioneller Transportwagen für Massagetische. Leicht, robust & mobil. Optimiert Ihre Arbeitsabläufe.",
   "price": "189.0",
   "compareAtPrice": 217,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: AluMobile",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Alumobile.com Massagetisch Transportwagen – Profi-Trolley",
+    "description": "Professioneller Transportwagen für Massagetische. Leicht, robust & mobil. Optimiert Ihre Arbeitsabläufe.",
+    "keywords": [
+      "alumobile.com massagetisch transportwagen – profi-trolley",
+      "trolleys für mobile massage",
+      "marke: alumobile"
+    ],
+    "ogTitle": "Alumobile.com Massagetisch Transportwagen – Profi-Trolley",
+    "ogDescription": "Professioneller Transportwagen für Massagetische. Leicht, robust & mobil. Optimiert Ihre Arbeitsabläufe."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -38,5 +44,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Robuster und leichter Transportwagen für Massagetische, ideal für professionelle Anwendungen. Erleichtert den Transport und schont den Rücken. Hochwertige Materialien, langlebige Konstruktion."
+  },
+  "faq": [
+    {
+      "q": "Welche Vorteile bietet der Alumobile.com Massagetisch Transportwagen?",
+      "a": "Der Transportwagen optimiert Ihren Arbeitsablauf durch mühelosen Transport Ihres Massagetisches. Er spart Zeit, schont Ihren Rücken und ist aus langlebigen, hochwertigen Materialien gefertigt, was ihn zur perfekten Lösung für mobile Therapeuten macht."
+    },
+    {
+      "q": "Ist der Transportwagen auch für schwerere Massagetische geeignet?",
+      "a": "Ja, der Alumobile.com Transportwagen ist robust konstruiert und für den professionellen Einsatz konzipiert, was ihn für eine Vielzahl von Massagetischen, auch mit höherem Gewicht, geeignet macht. Die genauen Belastungsgrenzen entnehmen Sie bitte der Produktbeschreibung auf Alumobile.com."
+    },
+    {
+      "q": "Wie einfach ist der Transportwagen zu bedienen und zu lagern?",
+      "a": "Der Trolley ist für einfache Handhabung konzipiert. Er lässt sich schnell auf- und abbauen und ist nach Gebrauch platzsparend zu verstauen. Spezifische Details zur Bedienung und Lagerung finden Sie in der detaillierten Produktinformation."
+    }
+  ],
+  "originalName": "Alumobile.com Massagetisch Transportwagen (Profi-Trolley)",
+  "enhancedAt": "2025-10-10T23:35:35.225111",
+  "enhanced": true
 }

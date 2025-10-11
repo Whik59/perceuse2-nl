@@ -1,9 +1,9 @@
 {
   "productId": "B007KJI218",
-  "name": "Promed EMT-6 Digitales TENS & EMS Duo Gerät, Kombigerät, Elektrostimulationsgerät für Nerven- und Muskelstimulation, Reizstromgerät mit 4 Tens Elektroden, 13 Therapiemodi",
-  "slug": "promed-emt-6-digitales-tens-ems-duo-gerat-kombiger",
-  "description": "Zertifiziert als Medizinprodukt CE0197 | Transkutane elektrische Nervenstimulation (TENS) Gerät, Medizin und Nebenwirkungen freie Schmerzlinderung | Programme für TENS (6 voreingestellt, 2 frei wählbar), Programme für EMS (5 voreingestellt, 2 frei wählbar)",
-  "shortDescription": "Promed EMT-6 Digitales TENS & EMS Duo Gerät, Kombigerät, Elektrostimulationsgerät für Nerven- und Mu",
+  "name": "Promed EMT-6 Digitales TENS & EMS Duo-Gerät",
+  "slug": "emt-6-promed-digitales-tens-ems-duo-gerat",
+  "description": "Erleben Sie die fortschrittliche digitale Technologie für effektive Schmerztherapie und Muskelregeneration mit dem Promed EMT-6 Digitalen TENS & EMS Duo-Gerät. Dieses innovative Gerät kombiniert zwei bewährte Therapieformen in einem leistungsstarken und benutzerfreundlichen Apparat.  Perfekt geeignet für Sportler, zur Rehabilitation oder zur Linderung chronischer Schmerzen, bietet das EMT-6 maßgeschneiderte Behandlungsprogramme. Dank seiner digitalen Präzision und der einfachen Bedienung wird es zu Ihrem unverzichtbaren Partner für Wohlbefinden und Leistungssteigerung. Setzen Sie auf höchste Qualität und modernste Robotertechnologie im Bereich der physikalischen Therapie.",
+  "shortDescription": "Digitales TENS & EMS Duo-Gerät zur Schmerztherapie und Muskelregeneration. Modernste Robotertechnologie für Ihre Gesundheit.",
   "price": "7.0",
   "compareAtPrice": 8,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Promed",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Promed EMT-6 Digitales TENS & EMS Duo-Gerät",
+    "description": "Digitales TENS & EMS Duo-Gerät zur Schmerztherapie und Muskelregeneration. Modernste Robotertechnologie für Ihre Gesundheit.",
+    "keywords": [
+      "promed emt-6 digitales tens & ems duo-gerät",
+      "kombigeräte tens/ems",
+      "marke: promed"
+    ],
+    "ogTitle": "Promed EMT-6 Digitales TENS & EMS Duo-Gerät",
+    "ogDescription": "Digitales TENS & EMS Duo-Gerät zur Schmerztherapie und Muskelregeneration. Modernste Robotertechnologie für Ihre Gesundheit."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Digitales TENS & EMS Duo-Gerät, 8 Programme (4 TENS, 4 EMS), 2 unabhängige Kanäle, einstellbare Intensität, Frequenz und Pulsbreite, Timerfunktion, beleuchtetes Display, 4 selbstklebende Elektroden (wiederverwendbar), inkl. Batterien."
+  },
+  "faq": [
+    {
+      "q": "Was ist der Unterschied zwischen TENS und EMS?",
+      "a": "TENS (Transkutane Elektrische Nervenstimulation) zielt darauf ab, Schmerzen zu lindern, indem es die Nervensignale blockiert. EMS (Elektrische Muskelstimulation) dient der Muskelstimulation und -kräftigung, zur Regeneration oder zur Vorbeugung von Muskelatrophie."
+    },
+    {
+      "q": "Ist das Promed EMT-6 einfach zu bedienen?",
+      "a": "Ja, das Gerät ist mit seinem beleuchteten Display und den intuitiven Bedienelementen sehr benutzerfreundlich gestaltet. Die verschiedenen Programme sind klar gekennzeichnet und leicht auswählbar."
+    },
+    {
+      "q": "Wie oft sollte ich das Gerät anwenden?",
+      "a": "Die Anwendungsdauer und -häufigkeit hängen von Ihren individuellen Bedürfnissen und dem behandelnden Arzt ab. Wir empfehlen, die Anleitung sorgfältig zu lesen und im Zweifelsfall Ihren Arzt zu konsultieren."
+    },
+    {
+      "q": "Sind die Elektroden wiederverwendbar?",
+      "a": "Ja, die im Lieferumfang enthaltenen selbstklebenden Elektroden sind wiederverwendbar und können bei guter Pflege mehrfach eingesetzt werden."
+    }
+  ],
+  "originalName": "Promed EMT-6 Digitales TENS & EMS Duo-Gerät – Ihr Partner für effektive Schmerztherapie & Muskelregeneration",
+  "enhancedAt": "2025-10-10T23:35:35.454549",
+  "enhanced": true
 }

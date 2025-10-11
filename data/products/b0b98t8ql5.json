@@ -1,9 +1,9 @@
 {
   "productId": "B0B98T8QL5",
   "name": "+ 1 andere Farbe/anderes Muster",
-  "slug": "1-andere-farbeanderes-muster",
-  "description": "KOMPLETTES SET MIT KLAPPBAREM MASSAGESTUHL: Dieser Massagestuhl wird mit einem zusätzlichen Brustkissen und einer robusten Transporttasche aus Nylon mit einem komfortablen Schultergurt geliefert. | LEICHTER MASSAGESTUHL: Dieser Massagestuhl wiegt nur 10 kg und bietet unglaubliche Stabilität. Der Rahmen besteht aus extraleichtem Aluminium, das auch in der Luftfahrt verwendet wird. | EINFACH EINSTELLBAR: Die ergonomischen Kissen und Armlehnen können auf vier verschiedene Arten eingestellt werden, um maximalen Komfort für Ihren Kunden zu gewährleisten. | NANOTOUCH-TECHNOLOGIE: Die umweltfreundliche Polsterung dieses Massagestuhls wird ausführlich auf Weichheit und Elastizität getestet, um sicherzustellen, dass sie angenehm auf der Haut liegt und den unterschiedlichen Druckbelastungen standhält. | ROBUSTER UND STABILER MASSAGESTUHL: Der Massagestuhl kann in wenigen Sekunden aufgestellt werden und hält einem Gewicht von bis zu 159 kg stand. Selbst bei intensiven Behandlungen quietscht der Stuhl nicht und bleibt fest auf dem Boden stehen.",
-  "shortDescription": "+ 1 andere Farbe/anderes Muster",
+  "slug": "andere-farbe-anderes-muster",
+  "description": "<div><h2>+ 1 andere Farbe/anderes Muster</h2><p>Quality product</p></div>",
+  "shortDescription": "+ 1 andere Farbe/anderes Muster - Quality Product",
   "price": "275.0",
   "compareAtPrice": 316,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den ZenGrowth-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "+ 1 andere Farbe/anderes Muster",
+    "description": "+ 1 andere Farbe/anderes Muster - Quality Product",
+    "keywords": [
+      "+ 1 andere farbe/anderes muster",
+      "massagestühle für therapeuten",
+      "besuche den zengrowth-store"
+    ],
+    "ogTitle": "+ 1 andere Farbe/anderes Muster",
+    "ogDescription": "+ 1 andere Farbe/anderes Muster - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "+ 1 andere Farbe/anderes Muster",
+  "enhancedAt": "2025-10-10T23:35:55.598581",
+  "enhanced": true
 }

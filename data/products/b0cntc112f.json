@@ -1,9 +1,9 @@
 {
   "productId": "B0CNTC112F",
-  "name": "ArnikaMassageöl FITOATTIVI Muskelentspannung Pro",
-  "slug": "pro-arnikamassageol-fitoattivi-muskelentspannung",
-  "description": "<div>\n\n<div>\n    <h2>Arnika-Massageöl: Entspannung für Muskeln und Wohlbefinden</h2>\n    <p>Entdecken Sie das FITOATTIVI Arnika-Massageöl, Ihre natürliche Lösung für Muskelentspannung und tiefes Wohlbefinden. Mit einem hohen Anteil an natürlichem Arnika-Extrakt ist dieses Öl ideal zur Linderung von Muskel- und Sportspannungen. Die einzigartige Formel kombiniert die entzündungshemmenden Eigenschaften der Arnika mit der wärmenden Kraft von Kampfer, beruhigendem Lavendel und erfrischendem Eukalyptusöl. Erleben Sie, wie dieses hochwertige Öl Ihre Haut nährt und Ihre Muskeln nach körperlicher Anstrengung revitalisiert.</p>\n    <h3>Ihre Vorteile im Überblick:</h3>\n    <p><b>Natürliche Inhaltsstoffe:</b> Reiner Arnika-Extrakt für maximale Wirksamkeit.</p>\n    <p><b>Gezielte Muskelentspannung:</b> Lindert effektiv Verspannungen und fördert die Regeneration.</p>\n    <p><b>Wärmender Effekt:</b> Kampfer sorgt für angenehme Wärme und Durchblutung.</p>\n    <p><b>Aromatherapeutische Wirkung:</b> Lavendel und Eukalyptus für zusätzliche Entspannung und Frische.</p>\n    <p><b>Pflegende Formel:</b> Hinterlässt die Haut geschmeidig und gut durchfeuchtet.</p>\n    <p><b>Größe:</b> 250 ml – Perfekt für die regelmäßige Anwendung.</p>\n    <p><b>Preis:</b> Nur 14,0 €</p>\n    <p><b>Gönnen Sie sich Erholung! Bestellen Sie jetzt Ihr FITOATTIVI Arnika-Massageöl und spüren Sie den Unterschied!</b></p>\n</div>\n\n</div>",
-  "shortDescription": "Arnika-Massageöl für Muskelentspannung. Natürlicher Arnika-Extrakt & wärmender Kampfer. Für Sport & Wohlbefinden. 250ml.",
+  "name": "ArnikaMassageöl FITOATTIVI: Muskelentspannung & Regeneration",
+  "slug": "arnikamassageol-fitoattivi-muskelentspannung-regeneration",
+  "description": "Entdecken Sie das ArnikaMassageöl FITOATTIVI – Ihr ultimativer Partner für tiefe Muskelentspannung und effektive Regeneration. Speziell entwickelt mit hochkonzentrierten FITOATTIVI (pflanzlichen Wirkstoffen), zielt dieses Massageöl gezielt auf beanspruchte Muskelpartien ab, lindert Verspannungen und fördert spürbar die Erholung nach sportlichen Aktivitäten oder einem langen Tag.  Die innovative Formel unterstützt die Durchblutung, beruhigt strapazierte Muskeln und hinterlässt ein angenehm vitales Hautgefühl.  Perfekt für Sportler, Fitness-Enthusiasten und alle, die Wert auf aktive Erholung legen.  Erleben Sie die Kraft der Natur für Ihre Muskelgesundheit – zu einem attraktiven Preis von 14,0€.",
+  "shortDescription": "ArnikaMassageöl FITOATTIVI: Tiefe Muskelentspannung & Regeneration. Mit hochkonzentrierten Pflanzenwirkstoffen. 14,0€",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den FITOATTIVI NATURA E BENESSERE-Store",
   "seo": {
-    "title": "ArnikaMassageöl FITOATTIVI Muskelentspannung Pro",
-    "description": "Arnika-Massageöl für Muskelentspannung. Natürlicher Arnika-Extrakt & wärmender Kampfer. Für Sport & Wohlbefinden. 250ml.",
+    "title": "ArnikaMassageöl FITOATTIVI: Muskelentspannung & Regeneration",
+    "description": "ArnikaMassageöl FITOATTIVI: Tiefe Muskelentspannung & Regeneration. Mit hochkonzentrierten Pflanzenwirkstoffen. 14,0€",
     "keywords": [
-      "arnikamassageöl fitoattivi muskelentspannung pro",
+      "arnikamassageöl fitoattivi: muskelentspannung & regeneration",
       "massageöle mit arnika",
       "besuche den fitoattivi natura e benessere-store"
     ],
-    "ogTitle": "ArnikaMassageöl FITOATTIVI Muskelentspannung Pro",
-    "ogDescription": "Arnika-Massageöl für Muskelentspannung. Natürlicher Arnika-Extrakt & wärmender Kampfer. Für Sport & Wohlbefinden. 250ml."
+    "ogTitle": "ArnikaMassageöl FITOATTIVI: Muskelentspannung & Regeneration",
+    "ogDescription": "ArnikaMassageöl FITOATTIVI: Tiefe Muskelentspannung & Regeneration. Mit hochkonzentrierten Pflanzenwirkstoffen. 14,0€"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -50,38 +50,27 @@
     }
   },
   "specifications": {
-    "ArnikaExtrakt": {
-      "funktion": "Entzündungshemmend, schmerzlindernd, fördert die Durchblutung",
-      "spezifikation": "Hochkonzentrierter natürlicher Extrakt"
-    },
-    "Kampfer": {
-      "funktion": "Wärmende Wirkung, lindert Muskelschmerzen, verbessert die lokale Durchblutung",
-      "spezifikation": "Natürliches ätherisches Öl mit thermischem Effekt"
-    },
-    "Lavendelöl": {
-      "funktion": "Beruhigend, entspannend, stressreduzierend",
-      "spezifikation": "Reines ätherisches Öl aus kontrolliert biologischem Anbau"
-    },
-    "Eukalyptusöl": {
-      "funktion": "Belebend, kühlend, löst Verspannungen, atemerleichternd",
-      "spezifikation": "Reines ätherisches Öl mit aktivierenden Eigenschaften"
-    }
+    "basic": "Hochkonzentriertes Arnika-Massageöl mit FITOATTIVI für Muskelentspannung und Regeneration. Unterstützt die Durchblutung, lindert Verspannungen. Ideal für Sport und Erholung. Inhalt: [Bitte hier Produktgröße/ml einfügen, falls verfügbar]."
   },
   "faq": [
     {
-      "question": "Kann dieses Arnika-Massageöl mit Roboterarmen oder automatisierten Massagegeräten verwendet werden?",
-      "answer": "Ja, die Formulierung des FITOATTIVI Arnika-Massageöls ist darauf ausgelegt, eine gleichmäßige Verteilung zu ermöglichen. Es eignet sich hervorragend für die Anwendung durch manuelle Massage oder auch in Kombination mit fortschrittlichen Massagegeräten und Roboterarmen, die für gezielte Muskelentspannung entwickelt wurden. Die leichte Textur sorgt für ein angenehmes Gleiten ohne Rückstände."
+      "q": "Wann sollte ich das ArnikaMassageöl FITOATTIVI anwenden?",
+      "a": "Das ArnikaMassageöl FITOATTIVI eignet sich hervorragend zur Anwendung vor und nach dem Sport, nach körperlicher Anstrengung oder bei alltäglichen Muskelverspannungen. Massieren Sie es einfach sanft in die betroffenen Bereiche ein."
     },
     {
-      "question": "Wie wirkt die Infrarot- oder Wärmetechnologie von Massagegeräten in Kombination mit dem Arnika-Massageöl?",
-      "answer": "Die Kombination unseres Arnika-Massageöls mit Wärmetechnologien von Massagegeräten kann die Entspannung der Muskulatur potenziell verstärken. Der natürliche Arnika-Extrakt, in Verbindung mit Kampfer und ätherischen Ölen wie Lavendel und Eukalyptus, profitiert von der erhöhten Durchblutung, die durch die Wärmeinduktion gefördert wird. Dies kann zu einer noch effektiveren Linderung von Muskel- und Sportspannungen führen."
+      "q": "Was bedeutet 'FITOATTIVI'?",
+      "a": "'FITOATTIVI' ist ein Begriff, der hochkonzentrierte pflanzliche Wirkstoffe bezeichnet. Bei diesem Massageöl bedeutet dies, dass es eine besonders hohe Konzentration an Arnika-Extrakten und anderen natürlichen Wirkstoffen für eine maximale Effektivität enthält."
     },
     {
-      "question": "Gibt es Kompatibilitätsprobleme des Arnika-Massageöls mit technischen Geräten, die zur Regeneration eingesetzt werden?",
-      "answer": "Das FITOATTIVI Arnika-Massageöl wurde mit Blick auf Hautverträglichkeit und Produktlanglebigkeit entwickelt. Es hinterlässt in der Regel keine übermäßigen Rückstände, die die Funktionsweise von technischen Regenerationsgeräten beeinträchtigen könnten. Dennoch empfehlen wir, nach der Anwendung eventuelle Produktreste von den Kontaktflächen der Geräte gemäß deren Bedienungsanleitung zu reinigen, um eine optimale Leistung sicherzustellen."
+      "q": "Ist das Massageöl auch für empfindliche Haut geeignet?",
+      "a": "Das ArnikaMassageöl FITOATTIVI ist in der Regel gut verträglich. Es wird jedoch empfohlen, bei bekannter Empfindlichkeit zunächst eine kleine Stelle zu testen. Die Formulierung ist auf natürliche Inhaltsstoffe ausgerichtet."
+    },
+    {
+      "q": "Wie lagere ich das Arnika Massageöl am besten?",
+      "a": "Lagern Sie das Arnika Massageöl FITOATTIVI kühl und trocken, geschützt vor direkter Sonneneinstrahlung. So stellen Sie die optimale Qualität und Wirksamkeit sicher."
     }
   ],
-  "enhancedAt": "2025-10-10T22:24:53.163661",
-  "originalName": "Arnika-Massageöl,Öl für Muskelentspannung und Wohlbefinden mit Natürlichem Arnika-Extrakt, Ideal für Muskel und Sportspannungen mit Wärmendem Kampfer und Lavendel und Eukalyptusöl, 250 ml - FITOATTIVI",
+  "originalName": "ArnikaMassageöl FITOATTIVI Muskelentspannung Pro",
+  "enhancedAt": "2025-10-10T23:36:01.506751",
   "enhanced": true
 }

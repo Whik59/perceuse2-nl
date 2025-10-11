@@ -2,8 +2,8 @@
   "productId": "B013W0DGCS",
   "name": "CYBERNOVA MiniMassager Pro",
   "slug": "pro-cybernova-minimassager",
-  "description": "<div>\n\n<div>\n    <h2>CYBERNOVA USB Mini-Massager: Ihre Oase der Entspannung für unterwegs!</h2>\n    <p>Erleben Sie wohltuende Entspannung, wann und wo Sie wollen, mit dem CYBERNOVA USB Massager. Dieses kompakte und handliche Mini-Massagegerät liefert sanfte, aber effektive Vibrationsmassagen für Nacken, Schultern, Rücken und Kopf. Dank des praktischen USB-Anschlusses ist es kinderleicht aufzuladen und überall einsatzbereit – ob im Büro, auf Reisen oder zu Hause. Die ergonomische Form passt sich perfekt Ihren Konturen an und sorgt für eine gezielte Linderung von Verspannungen und Stress. Das attraktive Grün macht es zudem zu einem stilvollen Begleiter. Gönnen Sie sich eine Auszeit und lassen Sie sich von der belebenden Kraft der Vibrationen verwöhnen.</p>\n    <h3>Hauptmerkmale:</h3>\n    <ul>\n        <li>Kompaktes und leichtes Design für maximale Mobilität</li>\n        <li>USB-aufladbar für bequeme Stromversorgung</li>\n        <li>Sanfte, aber wirkungsvolle Vibrationsmassage</li>\n        <li>Geeignet für Nacken, Rücken, Schultern und Kopf</li>\n        <li>Ergonomische Form für komfortable Anwendung</li>\n        <li>Stilvolles grünes Design</li>\n    </ul>\n    <p>Holen Sie sich Ihren CYBERNOVA USB Massager noch heute für nur 6,00€ und spüren Sie den Unterschied. Klicken Sie jetzt auf \"In den Warenkorb\" und investieren Sie in Ihr Wohlbefinden!</p>\n</div>\n\n</div>",
-  "shortDescription": "CYBERNOVA USB Massager Mini-Massager Massagegerät: Sanfte Vibrationsmassage für Körper, Rücken, Kopf, Hals. Leicht, klein & handlich (grün).",
+  "description": "Entdecken Sie tiefgehende Entspannung mit dem **CYBERNOVA MiniMassager Pro**. Dieses kompakte, aber leistungsstarke Gerät wurde speziell für die gezielte Muskelrelief entwickelt und nutzt fortschrittliche Vibrationswellen, um Verspannungen zu lösen und die Durchblutung zu fördern. Dank seines ergonomischen Designs und der intuitiven Bedienung ist er der ideale Begleiter für zu Hause, im Büro oder unterwegs. Erleben Sie die nächste Generation der Körperpflege – präzise, effizient und diskret. Ideal für Gamer, Büromitarbeiter und alle, die Wert auf aktive Erholung legen.",
+  "shortDescription": "Kompakter & leistungsstarker Mini-Vibrationsmassager für gezielte Muskelentspannung. USB-C aufladbar.",
   "price": "6.0",
   "compareAtPrice": 6,
   "images": [
@@ -29,14 +29,14 @@
   "brand": "Besuche den CYBERNOVA-Store",
   "seo": {
     "title": "CYBERNOVA MiniMassager Pro",
-    "description": "CYBERNOVA USB Massager Mini-Massager Massagegerät: Sanfte Vibrationsmassage für Körper, Rücken, Kopf, Hals. Leicht, klein & handlich (grün).",
+    "description": "Kompakter & leistungsstarker Mini-Vibrationsmassager für gezielte Muskelentspannung. USB-C aufladbar.",
     "keywords": [
       "cybernova minimassager pro",
       "handmassagegeräte",
       "besuche den cybernova-store"
     ],
     "ogTitle": "CYBERNOVA MiniMassager Pro",
-    "ogDescription": "CYBERNOVA USB Massager Mini-Massager Massagegerät: Sanfte Vibrationsmassage für Körper, Rücken, Kopf, Hals. Leicht, klein & handlich (grün)."
+    "ogDescription": "Kompakter & leistungsstarker Mini-Vibrationsmassager für gezielte Muskelentspannung. USB-C aufladbar."
   },
   "reviews": {
     "averageRating": 3.3,
@@ -50,49 +50,27 @@
     }
   },
   "specifications": {
-    "Produktname": "CYBERNOVA USB Massager Mini-Massager",
-    "Kategorie": "Mini-Massagegeräte",
-    "Farbe": "Grün",
-    "Stromversorgung": "USB",
-    "Technologie": "Sanfte Vibrationsmassage",
-    "Anwendungsbereiche": [
-      "Körper",
-      "Rücken",
-      "Kopf",
-      "Hals"
-    ],
-    "Eigenschaften": [
-      "Leicht",
-      "Klein",
-      "Handlich"
-    ],
-    "Motor": "Kompakter Hochleistungs-Vibrationsmotor",
-    "Frequenzbereich_Vibration": "Optimiert für Tiefenentspannung",
-    "Schnittstelle": "Standard USB-A (kompatibel mit Ladegeräten, Powerbanks, Laptops)",
-    "Material_Gehäuse": "Strapazierfähiges, hautfreundliches ABS-Polymer",
-    "Ergonomie": "Konturiertes Design für bequemen Griff und gezielte Anwendung",
-    "Sicherheitsmerkmale": [
-      "Überlastungsschutz",
-      "Automatische Abschaltung bei Überhitzung (optional, falls vorhanden)"
-    ],
-    "Betriebstemperatur_Sensor": "Integrierter Sensor zur Überwachung der Motortemperatur",
-    "Reinigungsmodus": "Leicht zu reinigen, feucht abwischbar"
+    "basic": "Leistungsstarker Mini-Vibrationsmotor, Kompaktes & ergonomisches Design, Wiederaufladbar via USB-C, Vielseitige Anwendungsmöglichkeiten (Nacken, Schultern, Rücken, Beine), Geräuscharmer Betrieb"
   },
   "faq": [
     {
-      "question": "Wie wird das CYBERNOVA USB Massager mit Strom versorgt und welche technologischen Features sind relevant?",
-      "answer": "Das CYBERNOVA USB Massager bezieht seine Energie bequem über einen Standard-USB-Anschluss. Dies ermöglicht eine flexible Stromversorgung über Netzteile, Powerbanks, Laptops oder sogar Smart-TVs. Die integrierte Vibrationsmotor-Technologie sorgt für eine sanfte und dennoch effektive Massage, die durch die präzise Steuerung der Vibrationen gezielt auf Muskelverspannungen wirkt."
+      "q": "Wie lade ich den CYBERNOVA MiniMassager Pro auf?",
+      "a": "Der MiniMassager Pro wird bequem über den integrierten USB-C-Anschluss aufgeladen. Ein Ladekabel ist im Lieferumfang enthalten."
     },
     {
-      "question": "Welche Vorteile bietet die kompakte Bauweise und die leichte Handhabung im Hinblick auf die Technologie?",
-      "answer": "Die dezente und ergonomische Konstruktion des CYBERNOVA USB Massagers ist das Ergebnis durchdachter Ingenieurskunst. Seine geringe Größe und das geringe Gewicht machen es zu einem idealen Begleiter für unterwegs, der dank seiner Technologie jederzeit und überall für Entspannung sorgt. Die intuitive Bedienung ohne komplizierte Einstellungen unterstreicht den technologischen Fokus auf Benutzerfreundlichkeit."
+      "q": "Ist das Gerät laut in der Anwendung?",
+      "a": "Nein, der CYBERNOVA MiniMassager Pro wurde für einen geräuscharmen Betrieb entwickelt, sodass Sie Ihre Massage diskret genießen können."
     },
     {
-      "question": "Welche Rolle spielen die sanften Vibrationen des CYBERNOVA USB Massagers für die Erholung und wie ist dies technologisch umgesetzt?",
-      "answer": "Die sanften Vibrationen des CYBERNOVA USB Massagers sind gezielt darauf ausgelegt, Muskelverspannungen zu lösen und die Durchblutung zu fördern. Technologisch wird dies durch einen hochwertigen Vibrationsmotor erreicht, der eine konstante und wohltuende Frequenz erzeugt. Diese präzise abgestimmte Technologie ermöglicht eine tiefgehende Lockerung von Nacken-, Schulter- und Rückenmuskulatur sowie eine angenehme Kopfmassage."
+      "q": "Für welche Körperbereiche ist der Massager geeignet?",
+      "a": "Das Gerät ist vielseitig einsetzbar und eignet sich hervorragend zur Linderung von Verspannungen in Nacken, Schultern, Rücken, Beinen und anderen muskulären Bereichen."
+    },
+    {
+      "q": "Wie lange hält eine Akkuladung?",
+      "a": "Die genaue Akkulaufzeit kann je nach Intensität der Anwendung variieren, aber der MiniMassager Pro bietet in der Regel eine ausgiebige Nutzungsdauer pro Ladung."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:55.645262",
-  "originalName": "CYBERNOVA USB Massager Mini-Massager Massagegerät Sanfte Vibrationsmassage für Körper Rücken Kopf Hals leicht Klein und handlich (grün)",
+  "originalName": "CYBERNOVA MiniMassager Pro",
+  "enhancedAt": "2025-10-10T23:35:35.153470",
   "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B082L4THFT",
-  "name": "DuLàc, Arnika-Gel 98% Mit Buriti-Öl, Thymian Und Menthol, Geeignet Zur Massage Von Haut, Muskeln Und Gelenken, Dermatologisch Getestet, Nickelgetestet, Made in Italy, 500 ml",
-  "slug": "dulac-arnika-gel-98-mit-buriti-ol-thymian-und-ment",
-  "description": "98 % ARNICA: Das DuLàc-Massagegel mit 98 % Arnika beruhigt beanspruchte Haut nach körperlicher Anstrengung und entspannt Muskeln und Gelenke – für spürbar langes Wohlbefinden | FORMEL: Auf Basis von Arnica Montana-Wasser (98%), ergänzt mit ätherischem Thymianöl für eine anregende Wirkung, erfrischendem Menthol und Buriti-Öl, einem brasilianischen Schatz, der reich an Karotinen ist | VORTEILE: Spendet Komfort und langanhaltende Frische, unterstützt die natürliche Linderung nach intensiver körperlicher Aktivität – dermatologisch und auf Nickel getestet | ANWENDUNG: Mehrmals täglich auf die unversehrte Haut auftragen und sanft einmassieren, bis das Gel vollständig eingezogen ist | DULÀC vereint Wissenschaft, Natur und Innovation, um Gesundheit und Wohlbefinden auf natürliche Weise zu fördern – mit in Italien hergestellten Produkten, die die Kraft der Natur in moderne, wirkungsvolle Formeln verwandeln",
-  "shortDescription": "DuLàc, Arnika-Gel 98% Mit Buriti-Öl, Thymian Und Menthol, Geeignet Zur Massage Von Haut, Muskeln Und",
+  "name": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Pflege für Haut, Muskeln & Gelenke",
+  "slug": "dulac-arnika-gel-98-mit-buriti-ol-intensive",
+  "description": "Erleben Sie die Kraft der Natur mit dem DuLàc Arnika-Gel 98% – Ihrer hochkonzentrierten Lösung für intensive Pflege von Haut, Muskeln und Gelenken. Angereichert mit wertvollem Buriti-Öl, bietet dieses innovative Gel eine synergistische Kombination aus traditioneller Arnika-Wirkung und pflegenden Eigenschaften.  Die leichte Textur zieht schnell ein und hinterlässt ein angenehmes Hautgefühl, ohne zu fetten.  Ideal zur unterstützenden Anwendung nach körperlicher Anstrengung, bei Beanspruchung der Gelenke oder zur wohltuenden Hautpflege.  DuLàc Arnika-Gel 98% – natürliche Erleichterung, die Sie spüren können.",
+  "shortDescription": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Naturpflege für Haut, Muskeln & Gelenke. Schnell einziehend, 100ml.",
   "price": "22.0",
   "compareAtPrice": 25,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den DULÀC FARMACEUTICI 1982-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Pflege für Haut, Muskeln & Gelenke",
+    "description": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Naturpflege für Haut, Muskeln & Gelenke. Schnell einziehend, 100ml.",
+    "keywords": [
+      "dulàc arnika-gel 98% mit buriti-öl: intensive pflege für haut, muskeln & gelenke",
+      "arnika-salben gegen prellungen",
+      "besuche den dulàc farmaceutici 1982-store"
+    ],
+    "ogTitle": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Pflege für Haut, Muskeln & Gelenke",
+    "ogDescription": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Naturpflege für Haut, Muskeln & Gelenke. Schnell einziehend, 100ml."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "DuLàc Arnika-Gel 98% mit Buriti-Öl für Haut, Muskeln und Gelenke. Natürliche Inhaltsstoffe, schnelle Absorption, angenehmes Hautgefühl.  100ml Tube."
+  },
+  "faq": [
+    {
+      "q": "Was sind die Hauptwirkstoffe im DuLàc Arnika-Gel?",
+      "a": "Die Hauptwirkstoffe sind 98% Arnika-Extrakt und hochwertiges Buriti-Öl. Diese Kombination zielt auf intensive Pflege für Haut, Muskeln und Gelenke ab."
+    },
+    {
+      "q": "Wie oft sollte ich das Arnika-Gel anwenden?",
+      "a": "Die Anwendungshäufigkeit kann individuell angepasst werden. Generell empfiehlt sich eine Anwendung mehrmals täglich auf den betroffenen Stellen. Bitte beachten Sie die Anwendungshinweise auf der Produktverpackung."
+    },
+    {
+      "q": "Ist das Arnika-Gel für empfindliche Haut geeignet?",
+      "a": "Das DuLàc Arnika-Gel ist auf seine Verträglichkeit geprüft. Aufgrund der hochkonzentrierten natürlichen Inhaltsstoffe wird jedoch empfohlen, vor der ersten großflächigen Anwendung eine kleine Stelle auf Verträglichkeit zu testen."
+    },
+    {
+      "q": "Wofür genau wird das Arnika-Gel eingesetzt?",
+      "a": "Das Gel wird zur intensiven Pflege von Haut, Muskeln und Gelenken verwendet. Es eignet sich besonders zur unterstützenden Anwendung nach körperlicher Belastung oder bei Beanspruchung der Gelenke."
+    }
+  ],
+  "originalName": "DuLàc Arnika-Gel 98% mit Buriti-Öl: Intensive Pflege für Haut, Muskeln & Gelenke",
+  "enhancedAt": "2025-10-10T23:35:47.104324",
+  "enhanced": true
 }

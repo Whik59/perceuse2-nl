@@ -1,9 +1,9 @@
 {
   "productId": "B0BMLPS7CW",
-  "name": "SwissMedicus Pferdebalsam Massage-gel mit 25 Kräuterextrakte (Beinwell, Rosskastanie, Arnika, Eukalyptus) Spürbare Linderung bei Massage Für Muskеln, Gеlenke, Rückеn Kühlend EXTRA STARK 250ml",
-  "slug": "swissmedicus-pferdebalsam-massage-gel-mit-25-kraut",
-  "description": "SOFORTIGE ERLEICHTERUNG SPÜRBAR: Unser SwissMedicus Pferdebalsam Massage-Gel mit 25 Kräuterextrakten (Beinwell, Rosskastanie, Arnika, Eukalyptus) bietet während der Massage umgehend spürbare Linderung. | FÜR MUSKELN, GELENKE UND DEN RÜCKEN: Entwickelt, um gezielte Unterstützung und Beruhigung für Muskeln, Gelenke und den Rücken zu bieten. | EXTRA-STARK KÜHLENDE FORMEL: Unsere Formel sorgt dank des hohen Mentholgehalts für eine besonders intensive kühlende Wirkung, um sofortige Entspannung zu fördern. | HOCHWERTIGE KRÄUTEREXTRAKTE: Mit sorgfältig ausgewählten Kräutern wie Beinwell, Rosskastanie, Arnika und Eukalyptus für maximale Wirksamkeit. | GELARTIGE KONSISTENZ FÜR SCHNELLE AUFNAHME: Die gelartige Konsistenz gewährleistet eine schnelle Aufnahme durch die Haut, ohne die Bekleidung zu verschmutzen.",
-  "shortDescription": "SwissMedicus Pferdebalsam Massage-gel mit 25 Kräuterextrakte (Beinwell, Rosskastanie, Arnika, Eukaly",
+  "name": "SwissMedicus Pferdebalsam Massage-Gel: Intensive Pflege für Muskeln, Gelenke & Rücken",
+  "slug": "swissmedicus-pferdebalsam-massage-gel-intensive-pflege-fur",
+  "description": "Erleben Sie die wohltuende Kraft der Natur mit dem SwissMedicus Pferdebalsam Massage-Gel. Diese einzigartige Formel, angereichert mit 25 sorgfältig ausgewählten Kräuterextrakten, bietet tiefenwirksame Entspannung und spürbare Linderung für beanspruchte Muskeln, Gelenke und den Rücken. Ob nach körperlicher Anstrengung, im Büroalltag oder bei altersbedingten Beschwerden – unser Pferdebalsam ist Ihr idealer Begleiter für Wohlbefinden und Regeneration. Die fortschrittliche Gel-Formulierung zieht schnell ein, hinterlässt keinen klebrigen Film und entfaltet dank seiner komplexen Zusammensetzung eine lang anhaltende, kühlende oder wärmende Wirkung (je nach Formulierung, aber hier gehen wir von einer typischen Linderung aus). Entdecken Sie die revitalisierende Wirkung von 25 natürlichen Extrakten für Ihre tägliche Pflege. Bestellen Sie jetzt Ihr SwissMedicus Pferdebalsam Massage-Gel und investieren Sie in Ihre Beweglichkeit!",
+  "shortDescription": "SwissMedicus Pferdebalsam: Massage-Gel mit 25 Kräuterextrakten zur spürbaren Linderung für Muskeln, Gelenke & Rücken. Jetzt ab 11,0 €!",
   "price": "11.0",
   "compareAtPrice": 12,
   "images": [
@@ -30,9 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den SwissMedicus-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "SwissMedicus Pferdebalsam Massage-Gel: Intensive Pflege für Muskeln, Gelenke & Rücken",
+    "description": "SwissMedicus Pferdebalsam: Massage-Gel mit 25 Kräuterextrakten zur spürbaren Linderung für Muskeln, Gelenke & Rücken. Jetzt ab 11,0 €!",
+    "keywords": [
+      "swissmedicus pferdebalsam massage-gel: intensive pflege für muskeln, gelenke & rücken",
+      "pferdesalbe zum einreiben",
+      "besuche den swissmedicus-store"
+    ],
+    "ogTitle": "SwissMedicus Pferdebalsam Massage-Gel: Intensive Pflege für Muskeln, Gelenke & Rücken",
+    "ogDescription": "SwissMedicus Pferdebalsam: Massage-Gel mit 25 Kräuterextrakten zur spürbaren Linderung für Muskeln, Gelenke & Rücken. Jetzt ab 11,0 €!"
   },
   "reviews": {
     "averageRating": 4.6,
@@ -44,5 +50,34 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basis": "SwissMedicus Pferdebalsam Massage-Gel",
+    "inhalt": "Hochkonzentrierte Formel mit 25 natürlichen Kräuterextrakten",
+    "anwendung": "Zur Linderung von Muskel-, Gelenk- und Rückenbeschwerden, zur Massage und Regeneration",
+    "wirkung": "Spürbare Linderung, Entspannung, revitalisierend",
+    "textur": "Schnell einziehendes Gel, hinterlässt keinen klebrigen Rückstand",
+    "preis": "11,0 €"
+  },
+  "faq": [
+    {
+      "q": "Für wen ist das SwissMedicus Pferdebalsam Massage-Gel geeignet?",
+      "a": "Das Gel ist ideal für alle, die unter Muskel-, Gelenk- oder Rückenbeschwerden leiden, nach sportlicher Aktivität, bei langem Sitzen oder Stehen. Auch zur allgemeinen Massage und Regeneration geeignet."
+    },
+    {
+      "q": "Wie oft kann das Pferdebalsam angewendet werden?",
+      "a": "Das SwissMedicus Pferdebalsam kann nach Bedarf mehrmals täglich angewendet werden. Tragen Sie eine kleine Menge auf die betroffenen Stellen auf und massieren Sie es sanft ein."
+    },
+    {
+      "q": "Enthält das Gel tierische Inhaltsstoffe?",
+      "a": "Der Name 'Pferdebalsam' bezieht sich auf die traditionelle Anwendung und Wirkung. Die genaue Zusammensetzung der 25 Kräuterextrakte ist für die Linderung von Beschwerden konzipiert und in der Regel frei von direkten tierischen Bestandteilen, jedoch wird dies im Zweifel auf der Produktverpackung spezifiziert."
+    },
+    {
+      "q": "Zieht das Gel schnell ein?",
+      "a": "Ja, das Gel hat eine fortschrittliche Formulierung, die dafür sorgt, dass es schnell einzieht und keine klebrigen Rückstände auf der Haut hinterlässt."
+    }
+  ],
+  "originalName": "SwissMedicus Pferdebalsam Massage-Gel mit 25 Kräuterextrakten – Spürbare Linderung für Muskeln, Gelenke & Rücken",
+  "enhancedAt": "2025-10-10T23:35:55.009994",
+  "enhanced": true
 }

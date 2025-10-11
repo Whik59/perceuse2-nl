@@ -1,9 +1,9 @@
 {
   "productId": "B0DZXCG274",
-  "name": "Rosenquarz Gua Sha Stein für Gesichtsmassage",
-  "slug": "rosenquarz-gua-sha-stein-fur-gesichtsmassage",
-  "description": "Erleben Sie die Kraft der Natur mit unserem Rosenquarz Gua Sha Stein, speziell entwickelt für eine revitalisierende Gesichtsmassage. Dieser traditionelle Massagestein aus echtem Rosenquarz unterstützt gezielt die Reduzierung von Augenschwellungen, fördert die Hautstraffung und optimiert die Lymphdrainage im Gesicht. Gönnen Sie Ihrer Haut eine natürliche Verjüngungskur und genießen Sie ein strahlenderes, jugendlicheres Aussehen. Ideal als Face Massager für Ihre tägliche Pflegeroutine. Der sanfte rosa Farbton des Rosenquarzes unterstreicht die beruhigende und heilende Wirkung des Steins.",
-  "shortDescription": "Revitalisierender Rosenquarz Gua Sha Stein: Reduziert Augenschwellungen, strafft die Haut und fördert die Lymphdrainage für ein jugendliches Gesicht. Inklusive sanfter Massageanleitung.",
+  "name": "Rosenquarz Gua Sha Stein – Natürliche Gesichtsmassage für jugendliche Haut",
+  "slug": "rosenquarz-gua-sha-stein-naturliche-gesichtsmassage",
+  "description": "Entdecken Sie die Kraft der Natur mit unserem authentischen Rosenquarz Gua Sha Stein. Dieser exquisite Stein, handgefertigt aus 100% natürlichem Rosenquarz, ist Ihr Schlüssel zu einer strafferen, jugendlicheren und strahlenderen Haut. Die traditionelle Gua Sha Technik, kombiniert mit der heilenden Energie des Rosenquarzes, fördert die Durchblutung, reduziert Schwellungen und feine Linien und unterstützt den natürlichen Lymphfluss Ihres Gesichts. Erleben Sie ein entspannendes Ritual, das nicht nur Ihrer Haut guttut, sondern auch Ihrem Wohlbefinden. Perfekt für die tägliche Hautpflege-Routine. Gönnen Sie sich Luxus und natürliche Schönheit für nur 3,00€.",
+  "shortDescription": "Natürlicher Rosenquarz Gua Sha Stein für jugendliche Haut. Fördert Durchblutung, reduziert Schwellungen & feine Linien. Nur 3,00€.",
   "price": "3.0",
   "compareAtPrice": 3,
   "images": [
@@ -28,15 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: YANKUIRUI",
   "seo": {
-    "title": "Rosenquarz Gua Sha Stein für Gesichtsmassage",
-    "description": "Revitalisierender Rosenquarz Gua Sha Stein: Reduziert Augenschwellungen, strafft die Haut und fördert die Lymphdrainage für ein jugendliches Gesicht. Inklusive sanfter Massageanleitung.",
+    "title": "Rosenquarz Gua Sha Stein – Natürliche Gesichtsmassage für jugendliche Haut",
+    "description": "Natürlicher Rosenquarz Gua Sha Stein für jugendliche Haut. Fördert Durchblutung, reduziert Schwellungen & feine Linien. Nur 3,00€.",
     "keywords": [
-      "rosenquarz gua sha stein für gesichtsmassage",
+      "rosenquarz gua sha stein – natürliche gesichtsmassage für jugendliche haut",
       "guasha-steine",
       "marke: yankuirui"
     ],
-    "ogTitle": "Rosenquarz Gua Sha Stein für Gesichtsmassage",
-    "ogDescription": "Revitalisierender Rosenquarz Gua Sha Stein: Reduziert Augenschwellungen, strafft die Haut und fördert die Lymphdrainage für ein jugendliches Gesicht. Inklusive sanfter Massageanleitung."
+    "ogTitle": "Rosenquarz Gua Sha Stein – Natürliche Gesichtsmassage für jugendliche Haut",
+    "ogDescription": "Natürlicher Rosenquarz Gua Sha Stein für jugendliche Haut. Fördert Durchblutung, reduziert Schwellungen & feine Linien. Nur 3,00€."
   },
   "reviews": {
     "averageRating": 4.6,
@@ -50,27 +50,40 @@
     }
   },
   "specifications": {
-    "basic": "Hochwertiger Rosenquarz, Ergonomische Form für einfache Handhabung, Ideal zur Lymphdrainage, Hautstraffung und Reduzierung von Schwellungen (insbesondere Augenpartie), Kühlende Wirkung für erfrischte Haut, Natürliche Schönheitspflege, Rosa Farbe"
+    "basic": "Material: 100% natürlicher Rosenquarz",
+    "additional": [
+      "Handgefertigt, einzigartige Form",
+      "Förderung der Blutzirkulation",
+      "Reduzierung von Schwellungen und feinen Linien",
+      "Unterstützung des Lymphabflusses",
+      "Natürliche Kühlung für die Haut",
+      "Verbessert die Aufnahme von Hautpflegeprodukten",
+      "Abmessungen: ca. 7-9 cm (kann variieren, da Naturprodukt)"
+    ]
   },
   "faq": [
     {
-      "q": "Wie wende ich den Rosenquarz Gua Sha Stein an?",
-      "a": "Reinigen Sie Ihr Gesicht und den Gua Sha Stein. Tragen Sie ein Gesichtsöl oder Serum auf. Streichen Sie mit sanftem Druck von der Mitte des Gesichts nach außen und von unten nach oben entlang der Konturen. Besonders im Bereich der Augen sanft vorgehen."
+      "q": "Wie wende ich den Rosenquarz Gua Sha Stein richtig an?",
+      "a": "Reinigen Sie Ihr Gesicht und den Gua Sha Stein. Tragen Sie ein Gesichtsöl oder Serum auf. Führen Sie den Stein mit sanftem Druck und langen Strichen von der Mitte des Gesichts nach außen und von unten nach oben."
     },
     {
-      "q": "Welche Vorteile bietet die Gesichtsmassage mit Gua Sha?",
-      "a": "Die Gua Sha Massage fördert die Durchblutung, unterstützt die Lymphdrainage zur Entschlackung, kann Schwellungen reduzieren, die Haut straffen und zur Entspannung beitragen."
+      "q": "Welche Vorteile hat die Gua Sha Massage mit Rosenquarz?",
+      "a": "Die Gua Sha Massage mit Rosenquarz verbessert die Durchblutung, reduziert Entzündungen und Schwellungen, mildert feine Linien, entspannt die Gesichtsmuskeln und fördert die Aufnahme von Hautpflegeprodukten. Der Rosenquarz selbst wird für seine beruhigenden und liebevollen Eigenschaften geschätzt."
     },
     {
-      "q": "Ist Rosenquarz gut für die Haut?",
-      "a": "Ja, Rosenquarz wird seit Jahrhunderten für seine heilenden und beruhigenden Eigenschaften geschätzt. Er soll positive Emotionen fördern und eine kühlende Wirkung haben, die bei Schwellungen Linderung verschafft."
+      "q": "Ist der Stein kühlend?",
+      "a": "Ja, natürliche Steine wie Rosenquarz haben eine intrinsische Kühle, die bei der Anwendung auf der Haut sehr erfrischend und wohltuend wirkt, besonders bei Schwellungen."
     },
     {
       "q": "Wie reinige ich meinen Gua Sha Stein?",
-      "a": "Spülen Sie den Stein nach jeder Anwendung unter lauwarmem Wasser ab und trocknen Sie ihn sanft. Gelegentlich können Sie ihn auch mit einer milden Seife reinigen."
+      "a": "Reinigen Sie Ihren Rosenquarz Gua Sha Stein nach jeder Anwendung mit lauwarmem Wasser und milder Seife. Trocknen Sie ihn anschließend gut ab. Sie können ihn auch gelegentlich mit einem feuchten Tuch abwischen."
+    },
+    {
+      "q": "Ist jeder Stein gleich?",
+      "a": "Da jeder Stein aus 100% natürlichem Rosenquarz gefertigt ist, können leichte Abweichungen in Farbe, Form und Maserung auftreten. Dies macht jeden Gua Sha Stein zu einem einzigartigen Unikat."
     }
   ],
-  "enhancedAt": "2025-10-10T22:49:31.045610",
-  "originalName": "Rosenquarz Gua Sha Stein - Guasha Gesichtsmassage für Augenschwellungen, Hautstraffung, Lymphdrainage Gesicht - Face Massager (Rosa)",
+  "originalName": "Rosenquarz Gua Sha Stein für Gesichtsmassage",
+  "enhancedAt": "2025-10-10T23:36:21.713127",
   "enhanced": true
 }

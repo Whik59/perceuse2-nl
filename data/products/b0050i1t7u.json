@@ -1,9 +1,9 @@
 {
   "productId": "B0050I1T7U",
-  "name": "Scholl Damen New Massage Slipper",
-  "slug": "scholl-damen-new-massage-slipper",
-  "description": "",
-  "shortDescription": "Scholl Damen New Massage Slipper",
+  "name": "Scholl Damen New Massage Slipper – Wellness für Ihre Füße",
+  "slug": "scholl-damen-new-massage-slipper-wellness",
+  "description": "Gönnen Sie Ihren Füßen nach einem langen Tag wohlverdiente Entspannung mit den Scholl Damen New Massage Slippern. Diese innovativen Hausschuhe wurden speziell entwickelt, um maximalen Komfort und wohltuende Fußmassage zu bieten. Die ergonomisch geformte Innensohle massiert gezielt wichtige Akupressurpunkte, fördert die Durchblutung und hilft, Ermüdungserscheinungen zu reduzieren. Hochwertige Materialien sorgen für ein angenehmes Tragegefühl und Langlebigkeit. Ideal für alle, die Wert auf Gesundheit und Komfort legen – jeden Tag aufs Neue. Entdecken Sie das Gefühl von purem Wohlbefinden mit Scholl.",
+  "shortDescription": "Erleben Sie pure Entspannung mit den Scholl Damen New Massage Slippern. Wohltuende Fußmassage und höchster Komfort für jeden Tag.",
   "price": "40.0",
   "compareAtPrice": 46,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Scholl",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Scholl Damen New Massage Slipper – Wellness für Ihre Füße",
+    "description": "Erleben Sie pure Entspannung mit den Scholl Damen New Massage Slippern. Wohltuende Fußmassage und höchster Komfort für jeden Tag.",
+    "keywords": [
+      "scholl damen new massage slipper – wellness für ihre füße",
+      "massagesandalen",
+      "scholl"
+    ],
+    "ogTitle": "Scholl Damen New Massage Slipper – Wellness für Ihre Füße",
+    "ogDescription": "Erleben Sie pure Entspannung mit den Scholl Damen New Massage Slippern. Wohltuende Fußmassage und höchster Komfort für jeden Tag."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Typ: Damen Hausschuh. Marke: Scholl. Modell: New Massage Slipper. Material Innensohle: Spezielles Massageprofil. Material Obermaterial: Hochwertiges Textil. Sohlenmaterial: Rutschfestes Gummi. Farbe: [Bitte spezifische Farben ergänzen, z.B. Grau, Blau]. Größe: [Bitte verfügbare Größen ergänzen, z.B. 37-41]. Besonderheit: Integriertes Fußmassage-System zur Förderung der Durchblutung und Entspannung."
+  },
+  "faq": [
+    {
+      "q": "Wie funktioniert die Fußmassage in den Scholl New Massage Slippern?",
+      "a": "Die Innensohle der Scholl New Massage Slipper ist mit speziell geformten Noppen und Erhebungen ausgestattet. Beim Gehen massieren diese gezielt verschiedene Druckpunkte auf der Fußsohle, was die Durchblutung anregt, Verspannungen löst und ein entspannendes Gefühl vermittelt."
+    },
+    {
+      "q": "Sind die Scholl Damen New Massage Slipper für den täglichen Gebrauch geeignet?",
+      "a": "Ja, absolut! Die Scholl Damen New Massage Slipper sind für den täglichen Gebrauch konzipiert. Ihr hoher Komfort und die wohltuende Massagefunktion machen sie zum idealen Begleiter für zu Hause, um Ihre Füße nach einem anstrengenden Tag zu verwöhnen."
+    },
+    {
+      "q": "Welches Material wird für die Innensohle verwendet?",
+      "a": "Die Innensohle besteht aus einem weichen und dennoch formstabilen Material mit einem integrierten, patentierten Massageprofil, das für die wohltuende Wirkung sorgt."
+    },
+    {
+      "q": "Sind die Slipper maschinenwaschbar?",
+      "a": "Die Reinigungsempfehlung für die Scholl Damen New Massage Slipper ist in der Regel das Abwischen mit einem feuchten Tuch. Eine Maschinenwäsche wird meist nicht empfohlen, um die Langlebigkeit des Materials und des Massageprofils zu gewährleisten. Bitte beachten Sie die spezifischen Pflegehinweise des Herstellers."
+    }
+  ],
+  "originalName": "Scholl Damen New Massage Slipper – Ihr Komfort nach dem Tag",
+  "enhancedAt": "2025-10-10T23:35:35.483916",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B07K35XDTN",
-  "name": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 42 EU",
-  "slug": "adidas-unisex-adissage-slides-rutschen-core-blackc",
-  "description": "",
-  "shortDescription": "adidas Unisex Adissage Slides RUTSCHEN, Core Black/Cloud White/Core Black, 42 EU",
+  "name": "adidas Adissage Badeschuhe Herren/Damen (42 EU) - CORE BLACK/CLOUD WHITE",
+  "slug": "adidas-adissage-badeschuhe-herren-damen-42-eu",
+  "description": "Erleben Sie ultimativen Komfort und Performance nach dem Training mit den **adidas Adissage Badeschuhen**. Entwickelt für Damen und Herren in Größe 42 EU, präsentieren sich diese Slides im zeitlosen Design 'CORE BLACK/CLOUD WHITE'. Die integrierten Massage-Noppen auf der Innensohle stimulieren gezielt Ihre Füße und fördern die Durchblutung, was sie zur perfekten Wahl für die Regeneration macht. Gefertigt aus strapazierfähigem Material, bieten sie Langlebigkeit und sind ideal für den Einsatz im Fitnessstudio, Schwimmbad oder einfach zur Entspannung zu Hause. Holen Sie sich jetzt Ihren persönlichen Komfort-Booster!",
+  "shortDescription": "Komfortable adidas Adissage Badeschuhe (42 EU) in Schwarz/Weiß für Damen & Herren mit regenerierenden Massage-Noppen.",
   "price": "26.0",
   "compareAtPrice": 29,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den adidas-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "adidas Adissage Badeschuhe Herren/Damen (42 EU) - CORE BLACK/CLOUD WHITE",
+    "description": "Komfortable adidas Adissage Badeschuhe (42 EU) in Schwarz/Weiß für Damen & Herren mit regenerierenden Massage-Noppen.",
+    "keywords": [
+      "adidas adissage badeschuhe herren/damen (42 eu) - core black/cloud white",
+      "massagesandalen",
+      "besuche den adidas-store"
+    ],
+    "ogTitle": "adidas Adissage Badeschuhe Herren/Damen (42 EU) - CORE BLACK/CLOUD WHITE",
+    "ogDescription": "Komfortable adidas Adissage Badeschuhe (42 EU) in Schwarz/Weiß für Damen & Herren mit regenerierenden Massage-Noppen."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Größe: 42 EU | Geschlecht: Herren/Damen | Farbe: CORE BLACK/CLOUD WHITE | Marke: adidas | Modell: Adissage | Material: Synthetik | Sohle: Ergonomische Außensohle mit Massage-Noppen | Verschluss: Slip-On | Einsatzbereich: Regeneration, Freizeit, Schwimmbad, Fitnessstudio"
+  },
+  "faq": [
+    {
+      "q": "Sind die adidas Adissage Badeschuhe für Herren und Damen gleichermaßen geeignet?",
+      "a": "Ja, die adidas Adissage Badeschuhe sind als Unisex-Modell konzipiert und passen sowohl Herren als auch Damen bei der angegebenen Größe (hier 42 EU)."
+    },
+    {
+      "q": "Welchen Vorteil bieten die Massage-Noppen auf der Innensohle?",
+      "a": "Die integrierten Massage-Noppen üben gezielten Druck auf die Fußreflexzonen aus, was die Durchblutung fördern und zur Regeneration der Füße nach sportlichen Aktivitäten beitragen kann."
+    },
+    {
+      "q": "Für welche Anwendungsbereiche sind die Adissage Slides am besten geeignet?",
+      "a": "Die Adissage Slides eignen sich hervorragend zur Erholung nach dem Sport, für den Besuch im Schwimmbad, in der Sauna, im Fitnessstudio oder einfach als bequeme Hausschuhe."
+    },
+    {
+      "q": "Wie reinige ich die adidas Adissage Badeschuhe am besten?",
+      "a": "Die Badeschuhe lassen sich einfach mit Wasser und milder Seife reinigen. Lassen Sie sie anschließend gut an der Luft trocknen."
+    }
+  ],
+  "originalName": "adidas Adissage Slides Herren/Damen (42 EU) - CORE BLACK/CLOUD WHITE",
+  "enhancedAt": "2025-10-10T23:35:42.094775",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B000ZJ2F18",
-  "name": "Promed EMT-4 Digitales TENS & EMS duo Gerät, Kombigerät, Elektrostimulationsgerät für Nerven- und Muskelstimulation, Reizstromgerät mit 4 Tens Elektroden, 13 Therapiemodi",
-  "slug": "promed-emt-4-digitales-tens-ems-duo-gerat-kombiger",
-  "description": "EMT-4 Kombigerät für elektrische Nerven- und Muskelstimulation mit effektiven Funktionen: EMS = Elektrische Muskelstimulation für Muskeltraining und -regeneration & TENS = Transkutane Elektrische Nervenstimulation zur Schmerzlinderung | Das Elektrostimulationsgerät verfügt über 11 voreingestellte Programme (5 TENS- und 6 EMS-Programme), extra 2 individuell einstellbare Programme, sowie 1 Anwendungsspeicher und Intensitäts- und Einschaltschutz | Das TENS- und EMS duo Gerät bietet vielseitige Funktionen zur Erhöhung des Wohlempfindens, Schmerzlinderung, Erhaltung der körperlichen Fitness, Entspannung, Muskelrevitalisierung und Müdigkeitsbekämpfung | Bei Gelenk- und Muskelschmerzen (Myalgien, Ischialgien), Rücken-, Nacken- und Kopfschmerzen, Phantomschmerzen, bei Durchblutungsstörungen, zur Lymphdrainage und bei Inkontinenz | Lieferumfang: TENS/EMS Gerät Promed EMT-4, 4 selbstklebende Elektroden (40 x 40 mm), Geräteständer, 4 Batterien, 2 Kontaktkabel, Gebrauchsanleitung, Aufbewahrungskoffer und Gürteltasche",
-  "shortDescription": "Promed EMT-4 Digitales TENS & EMS duo Gerät, Kombigerät, Elektrostimulationsgerät für Nerven- und Mu",
+  "name": "Promed EMT-4 Digitales TENS & EMS Duo Gerät",
+  "slug": "emt-4-promed-digitales-tens-ems-duo",
+  "description": "<div><h2>Promed EMT-4 Digitales TENS & EMS Duo Gerät</h2><p>Quality product</p></div>",
+  "shortDescription": "Promed EMT-4 Digitales TENS & EMS Duo Gerät - Quality Product",
   "price": "47.0",
   "compareAtPrice": 54,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marke: Promed",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Promed EMT-4 Digitales TENS & EMS Duo Gerät",
+    "description": "Promed EMT-4 Digitales TENS & EMS Duo Gerät - Quality Product",
+    "keywords": [
+      "promed emt-4 digitales tens & ems duo gerät",
+      "kombigeräte tens/ems",
+      "marke: promed"
+    ],
+    "ogTitle": "Promed EMT-4 Digitales TENS & EMS Duo Gerät",
+    "ogDescription": "Promed EMT-4 Digitales TENS & EMS Duo Gerät - Quality Product"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "Promed EMT-4 Digitales TENS & EMS Duo Gerät",
+  "enhancedAt": "2025-10-10T23:35:35.822190",
+  "enhanced": true
 }

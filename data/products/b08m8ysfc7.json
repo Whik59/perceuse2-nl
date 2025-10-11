@@ -1,9 +1,9 @@
 {
   "productId": "B08M8YSFC7",
-  "name": "Bob & Brad Q2 MiniMassagepistole",
-  "slug": "bob-brad-minimassagepistole",
-  "description": "<div>\n  <h2>Bob und Brad Q2 Mini-Massagepistole – Ihr tragbarer Muskel-Entspannungs-Experte</h2>\n  <p>Erleben Sie tiefgreifende Muskelentspannung, wo immer Sie sind, mit der ultrakompakten Bob und Brad Q2 Mini-Massagepistole. Dieses taschenformatige Tiefengewebe-Percussion-Massagegerät ist Ihr idealer Begleiter für unterwegs und liefert kraftvolle, gezielte Linderung für beanspruchte Muskeln. Dank ihrer flüsterleisen Technologie stören Sie weder sich noch Ihre Umgebung. Die Q2 Mini ist nicht nur extrem klein und leicht, sondern auch leistungsstark genug, um Knoten zu lösen und die Durchblutung zu fördern. Ob nach dem Training, einem langen Arbeitstag oder auf Reisen – diese Massagepistole ist die perfekte Lösung für schnelle Muskelregeneration und Wohlbefinden. Geliefert in einer praktischen Tragetasche, ist sie sofort einsatzbereit.</p>\n  <h3>Schlüsselmerkmale:</h3>\n  <ul>\n    <li>Taschenformat und ultrakompakt</li>\n    <li>Flüsterleise Betriebsgeräusche</li>\n    <li>Effektive Tiefengewebe-Percussion</li>\n    <li>Förderung der Muskelentspannung und Regeneration</li>\n    <li>Inklusive praktischer Tragetasche</li>\n  </ul>\n  <p>Sichern Sie sich jetzt Ihre Bob und Brad Q2 Mini-Massagepistole für nur 64,0 € und genießen Sie jederzeit und überall professionelle Muskelpflege!</p>\n</div>",
-  "shortDescription": "Bob and Brad Q2 Mini-Massagepistole: ultrakleine, tragbare Tiefengewebe-Massage mit Tragetasche. Leise Muskelentspannung. Schwarz.",
+  "name": "Bob & Brad Q2 Mini Massagepistole – Ultimative Erholung für unterwegs",
+  "slug": "bob-brad-mini-massagepistole-ultimative-erholung",
+  "description": "Entdecken Sie die Bob & Brad Q2 Mini Massagepistole, Ihre kompakte Lösung für tiefgehende Muskelentspannung und Regeneration, wann und wo immer Sie sie brauchen. Mit ihrer leistungsstarken Technologie und dem ergonomischen Design ist die Q2 Mini der ideale Begleiter für Sportler, Fitness-Enthusiasten und alle, die unter Muskelverspannungen leiden.  Spüren Sie den Unterschied durch gezielte perkussive Therapie, die Verspannungen löst, die Durchblutung fördert und Ihre Erholungszeit signifikant verkürzt.  Dank fortschrittlicher Robotik und präziser Ingenieurskunst liefert diese Mini Massagepistole professionelle Ergebnisse in einem handlichen Format.  Investieren Sie in Ihr Wohlbefinden – für nur 64.0€.",
+  "shortDescription": "Kompakte, leistungsstarke Bob & Brad Q2 Mini Massagepistole für gezielte Muskelentspannung und schnelle Erholung. Ideal für unterwegs.",
   "price": "64.0",
   "compareAtPrice": 73,
   "images": [
@@ -26,11 +26,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den BOB AND BRAD-Store",
   "seo": {
-    "title": "Bob & Brad Q2 MiniMassagepistole",
-    "description": "Bob and Brad Q2 Mini-Massagepistole: ultrakleine, tragbare Tiefengewebe-Massage mit Tragetasche. Leise Muskelentspannung. Schwarz.",
-    "keywords": "Bob & Brad Q2 MiniMassagepistole, Bob & Brad Massagepistole, Q2 Massagepistole, leichte Mini-Massagepistole, tragbare Massagepistole, kleine Massagepistole, Mini Faszienpistole, BOB AND BRAD Massagepistole, Bob & Brad Q2 Test, Bob & Brad Q2 Bewertung, beste Mini-Massagepistole, Top Mini-Massagepistole, günstige Mini-Massagepistole, Bob & Brad Q2 Preis, Bob & Brad Q2 kaufen, Mini-Massagepistole für Muskeln, Faszientraining Mini-Massagepistole, Nackenmassagegerät Bob & Brad, Schultermassagegerät Bob & Brad, Sportmassagepistole leicht, Massagegerät für unterwegs, Bob & Brad Q2 Erfahrungen, Mini-Percussion-Therapiepistole, Muskelentspannung Mini-Massagepistole, Recovery Tool Bob & Brad, vibrationsmassagepistole leicht, Bob & Brad Q2 Handheld Massagegerät",
-    "ogTitle": "Bob & Brad Q2 MiniMassagepistole",
-    "ogDescription": "Bob and Brad Q2 Mini-Massagepistole: ultrakleine, tragbare Tiefengewebe-Massage mit Tragetasche. Leise Muskelentspannung. Schwarz."
+    "title": "Bob & Brad Q2 Mini Massagepistole – Ultimative Erholung für unterwegs",
+    "description": "Kompakte, leistungsstarke Bob & Brad Q2 Mini Massagepistole für gezielte Muskelentspannung und schnelle Erholung. Ideal für unterwegs.",
+    "keywords": [
+      "bob & brad q2 mini massagepistole – ultimative erholung für unterwegs",
+      "leichte mini-massagepistolen",
+      "besuche den bob and brad-store"
+    ],
+    "ogTitle": "Bob & Brad Q2 Mini Massagepistole – Ultimative Erholung für unterwegs",
+    "ogDescription": "Kompakte, leistungsstarke Bob & Brad Q2 Mini Massagepistole für gezielte Muskelentspannung und schnelle Erholung. Ideal für unterwegs."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -44,52 +48,31 @@
     }
   },
   "specifications": {
-    "Modell": "Q2 Mini",
-    "Typ": "Percussion Massagegerät (Tiefengewebe)",
-    "Motor": "Leiser, bürstenloser Hochleistungsmotor",
-    "Technologie": "Fortschrittliche Vibrations- und Schlagtechnologie für gezielte Muskelstimulation",
-    "Geschwindigkeitsstufen": "3 einstellbare Geschwindigkeitsstufen (z.B. 1800, 2500, 3200 U/min)",
-    "Hubtiefe": "Ca. 8-10 mm für effektives Tiefengewebsarbeiten",
-    "Akku": {
-      "Typ": "Wiederaufladbarer Lithium-Ionen-Akku",
-      "Kapazität": "Bis zu 4 Stunden Laufzeit pro Ladung (modellabhängig)",
-      "Ladezeit": "Schnellladefunktion (ca. 2-3 Stunden)"
-    },
-    "Lautstärke": "Ultra-leiser Betrieb (< 45 dB)",
-    "Größe": "Kompakt, Taschenformat (z.B. Länge ca. 14 cm)",
-    "Gewicht": "Extrem leicht (z.B. unter 400g)",
-    "Material Gehäuse": "Hochwertiger ABS-Kunststoff mit rutschfester Beschichtung",
-    "Aufsteckköpfe": "3-4 austauschbare Massageköpfe (z.B. Kugel, flach, Gabel, U-förmig) für verschiedene Muskelgruppen",
-    "Bedienung": "Intuitive Ein-Knopf-Bedienung",
-    "Sicherheitsfunktionen": "Automatisches Abschalten nach definierter Nutzungsdauer (z.B. 10 Minuten)",
-    "Lieferumfang": [
-      "Bob and Brad Q2 Mini-Massagepistole",
-      "3-4 Aufsteckköpfe",
-      "USB-Ladekabel",
-      "Stilvolle Tragetasche",
-      "Bedienungsanleitung"
-    ],
-    "Farbe": "Schwarz",
-    "Zertifizierungen": [
-      "CE",
-      "RoHS"
-    ]
+    "basic": "Leistungsstarker bürstenloser Motor für präzise und leise Anwendung, 4 Massageköpfe für gezielte Behandlung verschiedener Muskelgruppen, Kompaktes und leichtes Design für einfache Handhabung und Transport, Lange Akkulaufzeit für multiple Anwendungen, 3 Geschwindigkeitsstufen für individuelle Intensität, Inklusive praktischer Aufbewahrungstasche"
   },
   "faq": [
     {
-      "question": "Wie funktioniert die Bob and Brad Q2 Mini-Massagepistole technisch gesehen?",
-      "answer": "Die Bob and Brad Q2 Mini-Massagepistole nutzt fortschrittliche Percussion-Massage-Technologie. Ein leistungsstarker, bürstenloser Motor treibt einen Schlagmechanismus an, der schnelle, wiederholte Stöße auf die Muskulatur ausübt. Diese Tiefenmassage hilft, Muskelverspannungen zu lösen, die Durchblutung zu fördern und die Erholung zu beschleunigen, ähnlich wie professionelle Therapeuten, jedoch in einem kompakten und automatisierten Roboterformat."
+      "q": "Was sind die Hauptvorteile der Bob & Brad Q2 Mini Massagepistole?",
+      "a": "Die Q2 Mini Massagepistole hilft, Muskelverspannungen zu lösen, die Durchblutung zu fördern, die Erholungszeit nach dem Training zu verkürzen und das allgemeine Wohlbefinden zu steigern. Ihre kompakte Größe macht sie ideal für unterwegs."
     },
     {
-      "question": "Ist die Bob and Brad Q2 Mini-Massagepistole leise genug für den Einsatz in der Nähe von empfindlichen Technologien oder in ruhigen Umgebungen?",
-      "answer": "Ja, die Bob and Brad Q2 Mini-Massagepistole wurde mit einem Fokus auf geräuscharmen Betrieb entwickelt. Dank der integrierten Geräuschreduzierungstechnologie arbeitet sie bemerkenswert leise. Dies ermöglicht den Einsatz zur Muskelentspannung auch in Büros, während Sie arbeiten oder in ruhigen Wohnbereichen, ohne störende Geräuschentwicklung."
+      "q": "Ist die Bob & Brad Q2 Mini Massagepistole laut?",
+      "a": "Nein, dank ihres fortschrittlichen bürstenlosen Motors arbeitet die Q2 Mini Massagepistole sehr leise, was eine angenehme Anwendung auch in ruhigen Umgebungen ermöglicht."
     },
     {
-      "question": "Welche Art von Akku-Technologie nutzt die Bob and Brad Q2 Mini-Massagepistole und wie lange hält sie?",
-      "answer": "Die Bob and Brad Q2 Mini-Massagepistole ist mit einem leistungsstarken Lithium-Ionen-Akku ausgestattet. Diese moderne Akku-Technologie gewährleistet eine effiziente Energieversorgung für eine lange Nutzungsdauer pro Ladevorgang. Sie bietet Ihnen ausreichend Energie für mehrere Trainingseinheiten oder Erholungsphasen, bevor eine Aufladung notwendig ist, was die Portabilität und Benutzerfreundlichkeit weiter erhöht."
+      "q": "Wie viele Massageköpfe sind im Lieferumfang enthalten und wofür sind sie geeignet?",
+      "a": "Die Q2 Mini wird mit 4 verschiedenen Massageköpfen geliefert, die speziell für die Behandlung unterschiedlicher Muskelgruppen und Verspannungsarten entwickelt wurden. So können Sie jede Körperpartie optimal erreichen."
+    },
+    {
+      "q": "Wie lange hält der Akku?",
+      "a": "Die genaue Akkulaufzeit variiert je nach Nutzung, aber die Bob & Brad Q2 Mini Massagepistole bietet eine lange Akkulaufzeit, die für mehrere Anwendungen pro Ladung ausreicht."
+    },
+    {
+      "q": "Für wen ist die Bob & Brad Q2 Mini Massagepistole geeignet?",
+      "a": "Sie ist ideal für Sportler, Fitness-Enthusiasten, Personen mit sitzenden Tätigkeiten und jeden, der unter Muskelkater, Steifheit oder Verspannungen leidet und eine effektive Lösung zur Muskelregeneration sucht."
     }
   ],
-  "enhancedAt": "2025-10-10T22:18:57.168246",
-  "originalName": "Bob and Brad Q2 Mini-Massagepistole, Taschenformatiges Tiefengewebe-Percussion-Massagegerät, Ultrakleine & Tragbare Leise Massagepistole mit Tragetasche zur Muskelentspannung, Schwarz",
+  "originalName": "Bob & Brad Q2 MiniMassagepistole",
+  "enhancedAt": "2025-10-10T23:35:48.081467",
   "enhanced": true
 }

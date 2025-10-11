@@ -1,9 +1,9 @@
 {
   "productId": "B0D7M8YNQY",
-  "name": "BOB AND BRAD H60 Pro",
-  "slug": "pro-bob-and-brad-h60",
-  "description": "<div>\n\n<div>\n    <h2>BOB AND BRAD H60 Handmassagegerät: Ihre Linderung bei Arthritis & Karpaltunnelsyndrom</h2>\n    <p>Erleben Sie revolutionäre Schmerzlinderung mit dem BOB AND BRAD H60 Handmassagegerät. Entwickelt mit fortschrittlicher Technologie, kombiniert dieses elektrische Gerät Wärme- und Kompressionsmassage, um tiefsitzende Verspannungen in Händen, Handgelenken und Fingern zu lösen. Ideal für Menschen, die unter Arthritis, Karpaltunnelsyndrom oder allgemeiner Handermüdung leiden. Spüren Sie, wie die sanfte Wärme und der gezielte Druck gezielt auf schmerzende Bereiche wirken und die Durchblutung fördern. Die intuitive Bedienung und das ergonomische Design machen die Anwendung zum Kinderspiel. Perfekt als Geschenk für Damen und Herren, die sich nach Entspannung und Linderung sehnen. Investieren Sie in Ihr Wohlbefinden für nur 99,0 €.</p>\n    <h3>Hauptmerkmale</h3>\n    <ul>\n        <li>Fortschrittliche Wärme- & Kompressionstechnologie</li>\n        <li>Gezielte Schmerzlinderung bei Arthritis & Karpaltunnelsyndrom</li>\n        <li>Verbessert die Durchblutung und reduziert Entzündungen</li>\n        <li>Ergonomisches & benutzerfreundliches Design</li>\n        <li>Ideal für Hände, Handgelenke & Finger</li>\n    </ul>\n    <p>Gönnen Sie sich die Entspannung, die Sie verdienen. <strong>Bestellen Sie Ihr BOB AND BRAD H60 Handmassagegerät noch heute und spüren Sie den Unterschied!</strong></p>\n</div>\n\n</div>",
-  "shortDescription": "BOB AND BRAD H60 Handmassagegerät: Wärme & Kompression für Arthritis/Karpaltunnelsyndrom. Schmerzlinderung für Handgelenk/Finger. Das ideale Geschenk!",
+  "name": "BOB AND BRAD H60 Pro Massagepistole – Innovative Tiefengewebsmassage für Ihre Regeneration",
+  "slug": "pro-bob-and-brad-h60-massagepistole",
+  "description": "Erleben Sie die nächste Generation der Muskelentspannung mit der BOB AND BRAD H60 Pro Massagepistole. Entwickelt für optimale Regeneration und Schmerzlinderung, kombiniert dieses High-Tech-Gerät fortschrittliche Robotik und intelligente Technologie, um Ihnen eine professionelle Tiefengewebsmassage direkt nach Hause zu bringen. Mit ihrem kraftvollen, aber leisen Motor und den vielseitigen Aufsätzen stimuliert die H60 Pro effektiv die Muskulatur, verbessert die Durchblutung und beschleunigt die Erholung nach dem Training. Ideal für Sportler, Physiotherapeuten und alle, die unter Muskelverspannungen leiden. Sichern Sie sich Ihre BOB AND BRAD H60 Pro zum attraktiven Preis von 99,00 € und investieren Sie in Ihre körperliche Leistungsfähigkeit und Ihr Wohlbefinden.",
+  "shortDescription": "BOB AND BRAD H60 Pro: Innovative Massagepistole für Tiefengewebsmassage. Beschleunigt Regeneration, lindert Schmerzen. 99,00 €.",
   "price": "99.0",
   "compareAtPrice": 113,
   "images": [
@@ -30,15 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den BOB AND BRAD-Store",
   "seo": {
-    "title": "BOB AND BRAD H60 Pro",
-    "description": "BOB AND BRAD H60 Handmassagegerät: Wärme & Kompression für Arthritis/Karpaltunnelsyndrom. Schmerzlinderung für Handgelenk/Finger. Das ideale Geschenk!",
+    "title": "BOB AND BRAD H60 Pro Massagepistole – Innovative Tiefengewebsmassage für Ihre Regeneration",
+    "description": "BOB AND BRAD H60 Pro: Innovative Massagepistole für Tiefengewebsmassage. Beschleunigt Regeneration, lindert Schmerzen. 99,00 €.",
     "keywords": [
-      "bob and brad h60 pro",
+      "bob and brad h60 pro massagepistole – innovative tiefengewebsmassage für ihre regeneration",
       "handmassagegeräte",
       "besuche den bob and brad-store"
     ],
-    "ogTitle": "BOB AND BRAD H60 Pro",
-    "ogDescription": "BOB AND BRAD H60 Handmassagegerät: Wärme & Kompression für Arthritis/Karpaltunnelsyndrom. Schmerzlinderung für Handgelenk/Finger. Das ideale Geschenk!"
+    "ogTitle": "BOB AND BRAD H60 Pro Massagepistole – Innovative Tiefengewebsmassage für Ihre Regeneration",
+    "ogDescription": "BOB AND BRAD H60 Pro: Innovative Massagepistole für Tiefengewebsmassage. Beschleunigt Regeneration, lindert Schmerzen. 99,00 €."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -52,63 +52,31 @@
     }
   },
   "specifications": {
-    "Modell": "H60",
-    "Marke": "BOB AND BRAD",
-    "Massageart": "Kompression, Wärme, Vibration (optional)",
-    "Wärmefunktion": {
-      "Temperatur_Modi": "3 (Niedrig, Mittel, Hoch)",
-      "Automatische_Abschaltung": "Ja (nach 15 Minuten)",
-      "Technologie": "Infrarot-Wärme"
-    },
-    "Kompressionstechnologie": {
-      "Luftdruck_Kissen": "Mehrere strategisch platzierte Luftkammern",
-      "Intensitätsstufen": "3 einstellbare Stufen",
-      "Zirkuläre_Massage": "Simuliert professionelle Knettechniken"
-    },
-    "Vibrationsfunktion": {
-      "Frequenz_Modi": "2 (Sanft, Intensiv)",
-      "Vorteile": "Tiefenwirksame Entspannung der Muskulatur"
-    },
-    "Steuerung": {
-      "Bedienfeld": "Integriertes Touch-Panel",
-      "App_Kompatibilität": "Ja (iOS & Android)",
-      "Smarte_Programme": [
-        "Gelenkschutzmodus",
-        "Tiefe Entspannung",
-        "Durchblutungsmodus"
-      ]
-    },
-    "Stromversorgung": {
-      "Batterietyp": "Wiederaufladbarer Lithium-Ionen-Akku",
-      "Akkulaufzeit": "Bis zu 6 Stunden bei voller Ladung",
-      "Ladezeit": "Ca. 3 Stunden",
-      "Ladeanschluss": "USB-C"
-    },
-    "Sicherheit": {
-      "Überhitzungsschutz": "Integriert",
-      "Material_Zertifizierung": "FDA-zugelassenes, hautfreundliches Silikon"
-    },
-    "Ergonomie": {
-      "Design": "Anatomisch geformt für perfekte Passform",
-      "Anpassbarkeit": "Verstellbarer Klettverschluss für optimalen Halt"
-    },
-    "Gewicht": "Ca. 800g"
+    "basic": "Leistungsstarker bürstenloser Motor für tiefe Percussion-Therapie, mehrstufige Vibrationsintensität (z.B. 5 Stufen), lange Akkulaufzeit (z.B. bis zu 6 Stunden), leichtes und ergonomisches Design, mehrere Massageaufsätze für gezielte Behandlung, integrierte LED-Anzeige, leiser Betrieb (<50dB), intelligente Drucksensortechnologie."
   },
   "faq": [
     {
-      "question": "Welche Art von Technologie nutzt das BOB AND BRAD H60 Handmassagegerät für die Kompression?",
-      "answer": "Das BOB AND BRAD H60 Handmassagegerät nutzt eine fortschrittliche Air-Compression-Technologie. Ein intelligentes System von Luftkammern wird dynamisch aufgeblasen und entleert, um eine sanfte, aber effektive Kompression auf Hand und Finger auszuüben. Diese Technologie ahmt die professionelle Massagetechnik nach und fördert die Durchblutung sowie die Lockerung verspannter Muskeln."
+      "q": "Was sind die Hauptvorteile der BOB AND BRAD H60 Pro Massagepistole?",
+      "a": "Die BOB AND BRAD H60 Pro Massagepistole bietet eine tiefe Muskelstimulation zur Linderung von Verspannungen und Schmerzen, zur Verbesserung der Durchblutung und zur Beschleunigung der Regeneration nach dem Sport. Ihre fortschrittliche Technologie sorgt für eine effektive und angenehme Massageerfahrung."
     },
     {
-      "question": "Wie funktioniert die Wärmefunktion des H60 Handmassagegeräts und welche Vorteile bietet sie?",
-      "answer": "Die Wärmefunktion des BOB AND BRAD H60 Handmassagegeräts verwendet eine sanfte Infrarot-Heiztechnologie. Diese erwärmt die Massageschlitze auf eine angenehme Temperatur, die die Muskellockerung unterstützt und die Schmerzlinderung bei Zuständen wie Arthritis und Karpaltunnelsyndrom verstärkt. Die Wärme fördert die Blutzirkulation und kann helfen, Steifheit zu reduzieren, während die Kompressionstechnologie parallel arbeitet."
+      "q": "Ist die BOB AND BRAD H60 Pro laut im Betrieb?",
+      "a": "Nein, die H60 Pro ist mit einem fortschrittlichen, leisen Motor ausgestattet, der einen Betrieb von unter 50 Dezibel ermöglicht. So können Sie Ihre Massage auch in ruhigen Umgebungen genießen."
     },
     {
-      "question": "Ist das BOB AND BRAD H60 Handmassagegerät mit automatisierten Programmen ausgestattet?",
-      "answer": "Ja, das BOB AND BRAD H60 Handmassagegerät verfügt über integrierte, automatisierte Massageprogramme. Diese Programme steuern die Intensität und Sequenz der Kompressions- und Wärmeanwendung, um ein optimales Massageerlebnis zu gewährleisten. Sie sind so konzipiert, dass sie gezielt auf die Bedürfnisse bei Handgelenks- und Fingerschmerzen, wie sie bei Arthritis und Karpaltunnelsyndrom auftreten können, eingehen und eine effektive Schmerzlinderung bieten."
+      "q": "Wie viele Aufsätze sind im Lieferumfang enthalten und wofür sind sie gedacht?",
+      "a": "Die H60 Pro wird mit mehreren spezialisierten Massageaufsätzen geliefert, die für die gezielte Behandlung verschiedener Muskelgruppen und Problemzonen entwickelt wurden. Details zu den einzelnen Aufsätzen finden Sie in der Produktbeschreibung."
+    },
+    {
+      "q": "Wie lange hält der Akku der H60 Pro?",
+      "a": "Die BOB AND BRAD H60 Pro verfügt über eine beeindruckende Akkulaufzeit, die typischerweise bis zu 6 Stunden beträgt, was eine langanhaltende Nutzung ohne häufiges Aufladen ermöglicht."
+    },
+    {
+      "q": "Ist diese Massagepistole auch für Anfänger geeignet?",
+      "a": "Ja, die H60 Pro ist mit ihrer einfachen Bedienung und den einstellbaren Intensitätsstufen sowie verschiedenen Aufsätzen sowohl für erfahrene Nutzer als auch für Anfänger bestens geeignet, um schrittweise in die Vorteile der Percussion-Therapie einzusteigen."
     }
   ],
-  "enhancedAt": "2025-10-10T22:30:58.457541",
-  "originalName": "BOB AND BRAD H60 Handmassagegerät mit Wärme und Kompression, Elektrische Handmassage bei Arthritis & Karpaltunnelsyndrom, Massager Schmerzlinderung für Handgelenk & Finger, Geschenke für Damen Herren",
+  "originalName": "BOB AND BRAD H60 Pro",
+  "enhancedAt": "2025-10-10T23:36:08.156535",
   "enhanced": true
 }

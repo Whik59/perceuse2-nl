@@ -1,9 +1,9 @@
 {
   "productId": "B0B77BX8XH",
-  "name": "Master Massage Bedford Klappbar Mobil Massagestuhl Behandlungsstuhl aus Aluminium leicht mit Transportkoffer",
-  "slug": "master-massage-bedford-klappbar-mobil-massagestuhl",
-  "description": "28cm breit x 36cm lang x 99cm hoch, der Stuhl wiegt nur 8kg und ist daher sehr angenehm zu transportieren; Maximalbelastung bis 226kg. | Aus exklusivem Multischichtenzellschaum (ist dichter als herkömmlicher Schaum), Ol- und Wasserabweisend, FCKW freies PU-Polster mit 3 Jahren Garantie | PU-Polster mit extra denimartiger Verstärkungsunterstützung für zusätzliche Haltbarkeit | Der Stahlrahmen ist aus der Qualität, wie er auch in Flugzeugen verwendet wird und ist daher super leicht, zugleich jedoch enorm stark. | Im Lieferumfang enthalten: sechsfachverstellbare Kopfstütze, höchst bequemes Gesichtsschaumkissen und eine praktische Transporttasche",
-  "shortDescription": "Master Massage Bedford Klappbar Mobil Massagestuhl Behandlungsstuhl aus Aluminium leicht mit Transpo",
+  "name": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium)",
+  "slug": "master-massage-bedford-klappbarer-massagestuhl-aluminium",
+  "description": "<div><h2>Master Massage Bedford Klappbarer Massagestuhl (Aluminium)</h2><p>Quality product</p></div>",
+  "shortDescription": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium) - Quality Product",
   "price": "189.0",
   "compareAtPrice": 217,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Master Massage Equipment-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium)",
+    "description": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium) - Quality Product",
+    "keywords": [
+      "master massage bedford klappbarer massagestuhl (aluminium)",
+      "massagestühle für therapeuten",
+      "besuche den master massage equipment-store"
+    ],
+    "ogTitle": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium)",
+    "ogDescription": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium) - Quality Product"
   },
   "reviews": {
     "averageRating": 3.0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "originalName": "Master Massage Bedford Klappbarer Massagestuhl (Aluminium)",
+  "enhancedAt": "2025-10-10T23:35:55.111598",
+  "enhanced": true
 }

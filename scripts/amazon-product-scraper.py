@@ -96,7 +96,7 @@ class AmazonScraper:
         
         # Session rotation system - optimized for better performance
         self.request_count = 0
-        self.max_requests_per_session = 200  # Rotate session every 200 requests (increased for efficiency)
+        self.max_requests_per_session = 10  # Reduced from 20 to be more conservative
         self.session_rotation_lock = threading.Lock()
         self.last_rotation_time = time.time()
         
@@ -200,16 +200,16 @@ class AmazonScraper:
         return self.request_count >= self.max_requests_per_session
     
     def simulate_human_behavior(self):
-        """Simulate human-like browsing behavior"""
-        # Random pause like a human reading
-        if random.random() < 0.3:  # 30% chance
-            pause = random.uniform(1, 3)
+        """Simulate human-like browsing behavior - MORE REALISTIC"""
+        # Random pause like a human reading - MORE FREQUENT
+        if random.random() < 0.7:  # 70% chance (was 30%)
+            pause = random.uniform(3, 8)  # Longer pauses (was 1-3)
             safe_print(f"  [HUMAN] Reading pause: {pause:.1f}s")
             time.sleep(pause)
         
-        # Occasionally longer pause (like checking phone)
-        if random.random() < 0.1:  # 10% chance
-            pause = random.uniform(5, 10)
+        # Occasionally longer pause (like checking phone) - MORE FREQUENT
+        if random.random() < 0.3:  # 30% chance (was 10%)
+            pause = random.uniform(10, 20)  # Much longer pauses (was 5-10)
             safe_print(f"  [HUMAN] Extended pause: {pause:.1f}s")
             time.sleep(pause)
     
@@ -326,8 +326,8 @@ class AmazonScraper:
             self.consecutive_503_errors += 1
             safe_print(f"[RATE_LIMIT] Consecutive 503 errors: {self.consecutive_503_errors}")
             
-            # Force session rotation after 8 consecutive 503s
-            if self.consecutive_503_errors >= 8:
+            # Force session rotation after 3 consecutive 503s (reduced from 8)
+            if self.consecutive_503_errors >= 3:
                 safe_print(f"[RATE_LIMIT] Forcing session rotation after {self.consecutive_503_errors} consecutive 503s")
                 self.rotate_session()
         else:
@@ -356,20 +356,25 @@ class AmazonScraper:
             
         return headers
     
-    def make_request(self, url, retries=5):
+    def make_request(self, url, retries=2):
         """Make HTTP request with adaptive retry logic and CAPTCHA detection"""
+        # Global delay before any request to be respectful to Amazon
+        global_delay = random.uniform(2, 5)
+        safe_print(f"  [GLOBAL] Pre-request delay: {global_delay:.1f}s")
+        time.sleep(global_delay)
+        
         for attempt in range(retries):
             try:
                 # Check if we need to rotate session
                 if self.should_rotate_session():
                     self.rotate_session()
                 
-                # Adaptive delays based on attempt number
+                # Adaptive delays based on attempt number - MORE RESPECTFUL TO AMAZON
                 if attempt == 0:
-                    delay = random.uniform(1, 2)  # Normal delay for first attempt
+                    delay = random.uniform(5, 10)  # Longer delay for first attempt
                 else:
-                    # Exponential backoff for retries
-                    delay = random.uniform(2 ** attempt, 2 ** (attempt + 1))
+                    # Much longer delays for retries to avoid detection
+                    delay = random.uniform(15, 30) + (attempt * 10)
                 
                 safe_print(f"  [DELAY] Attempt {attempt + 1}/{retries}: Waiting {delay:.1f}s before request...")
                 time.sleep(delay)
@@ -531,7 +536,7 @@ class AmazonScraper:
         
         safe_print(f"[SEARCH] Page {page}: {search_url}")
         
-        response = self.make_request(search_url, retries=5)
+        response = self.make_request(search_url, retries=2)
         if not response:
             safe_print("[ERROR] Failed to get search results")
             return []

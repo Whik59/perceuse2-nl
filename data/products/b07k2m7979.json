@@ -1,9 +1,9 @@
 {
   "productId": "B07K2M7979",
-  "name": "adidas Unisex Adissage SlidesRUTSCHEN",
-  "slug": "adidas-unisex-adissage-slidesrutschen",
-  "description": "",
-  "shortDescription": "adidas Unisex Adissage SlidesRUTSCHEN",
+  "name": "Adidas Adissage Slides für Damen & Herren – Maximale Regeneration",
+  "slug": "adidas-adissage-slides-fur-damen-herren",
+  "description": "Erlebe ultimative Erholung mit den Adidas Adissage Slides für Damen und Herren. Entwickelt für maximale Entspannung nach jedem Training, bieten diese Slides eine revolutionäre Komfortzone für deine Füße. Die integrierten Massage-Noppen auf der Innensohle stimulieren gezielt die Fußreflexzonen, fördern die Durchblutung und beschleunigen die Regeneration. Perfekt für den Gang zum Fitnessstudio, Schwimmbad oder einfach für den wohlverdienten Feierabend. Entdecke die Verbindung von Technologie und Komfort, die deine Füße lieben werden. Verabschiede dich von müden Füßen und begrüße pure Erholung mit Adidas Adissage.",
+  "shortDescription": "Adidas Adissage Slides: Maximale Regeneration & Komfort für Damen & Herren nach dem Training. Mit integrierten Massage-Noppen für Fußreflexzonen-Stimulation. Preis: 18.0€",
   "price": "18.0",
   "compareAtPrice": 20,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den adidas-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Adidas Adissage Slides für Damen & Herren – Maximale Regeneration",
+    "description": "Adidas Adissage Slides: Maximale Regeneration & Komfort für Damen & Herren nach dem Training. Mit integrierten Massage-Noppen für Fußreflexzonen-Stimulation. Preis: 18.0€",
+    "keywords": [
+      "adidas adissage slides für damen & herren – maximale regeneration",
+      "massagesandalen",
+      "besuche den adidas-store"
+    ],
+    "ogTitle": "Adidas Adissage Slides für Damen & Herren – Maximale Regeneration",
+    "ogDescription": "Adidas Adissage Slides: Maximale Regeneration & Komfort für Damen & Herren nach dem Training. Mit integrierten Massage-Noppen für Fußreflexzonen-Stimulation. Preis: 18.0€"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,36 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Marke": "Adidas",
+    "Modell": "Adissage",
+    "Zielgruppe": "Damen und Herren",
+    "Hauptmaterial": "Synthetik (Obermaterial & Sohle)",
+    "Besonderheit": "Integrierte Massage-Noppen für Fußreflexzonen-Stimulation",
+    "Einsatzbereich": "Nach dem Sport, im Wellnessbereich, Freizeit",
+    "Verschlussart": "Schnell an- und auszuziehen (Schlupf)",
+    "Design": "Sportlich, modern, ikonisch"
+  },
+  "faq": [
+    {
+      "q": "Wie funktionieren die Massage-Noppen der Adidas Adissage Slides?",
+      "a": "Die strategisch platzierten Massage-Noppen auf der Innensohle üben sanften Druck auf die Fußreflexzonen aus. Dies fördert die Durchblutung, hilft bei der Entspannung der Muskulatur und unterstützt den Regenerationsprozess deiner Füße nach körperlicher Anstrengung."
+    },
+    {
+      "q": "Sind die Adissage Slides wasserfest?",
+      "a": "Ja, die Adidas Adissage Slides sind aus wasserabweisenden Materialien gefertigt und eignen sich daher ideal für den Einsatz im Schwimmbad, in der Sauna oder am Strand. Sie trocknen schnell und sind leicht zu reinigen."
+    },
+    {
+      "q": "Welche Größen sind verfügbar und fallen sie normal aus?",
+      "a": "Die Adidas Adissage Slides sind in einer breiten Palette von Größen für Damen und Herren erhältlich. Wir empfehlen, die gängige Schuhgröße zu wählen, da die Passform in der Regel als normal ausfällt. Eine detaillierte Größentabelle findest du auf unserer Website."
+    },
+    {
+      "q": "Was ist der Hauptvorteil der Adissage Slides gegenüber herkömmlichen Badeschlappen?",
+      "a": "Der entscheidende Vorteil liegt in der integrierten Massagetechnologie. Während normale Badeschlappen primär Schutz und Bequemlichkeit bieten, fördern die Adissage Slides durch ihre Massage-Noppen aktiv die Regeneration und das Wohlbefinden deiner Füße."
+    }
+  ],
+  "originalName": "Adidas Adissage Slides für Damen und Herren – Dein Komfort nach dem Training",
+  "enhancedAt": "2025-10-10T23:35:41.947635",
+  "enhanced": true
 }

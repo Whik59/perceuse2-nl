@@ -1,9 +1,9 @@
 {
   "productId": "B005MW8H8S",
-  "name": "prorelax TENS/EMS Duo | Elektrostimulationsgerät | 2 Therapien mit einem Gerät | Natürliche Therapie gegen chronische Schmerzen und zum Muskelaufbau | 1er Pack",
-  "slug": "prorelax-tensems-duo-elektrostimulationsgerat-2-th",
-  "description": "Tens- / Ems-Gerät: Das Gerät hat 8 voreingestellte Programme zur Auswahl, 2 Kanäle, die in der Intensität separat regelbar sind und wird mit 4 selbstklebenden Elektroden-Pads geliefert | Schmerztherapie: Mit der TENS-Funktion lassen sich gezielt Schmerzen behandeln. Durch die elektrischen Reizströme werden die Durchblutung gefördert und die Produktion von Endorphinen angeregt | Muskelstimulation: Der elektrische Muskelstimulator spricht ganz gezielt einzelne Muskeln an, die z.B. wieder aufgebaut oder zusätzlich gestärkt werden sollen | Massage: Das Kombi-Gerät eignet sich hervorragend für die Schmerzlinderung und ebenfalls als Massagegerät zur Lockerung hartnäckiger Verspannungen",
-  "shortDescription": "prorelax TENS/EMS Duo | Elektrostimulationsgerät | 2 Therapien mit einem Gerät | Natürliche Therapie",
+  "name": "ProRelax TENS/EMS Duo – Elektrostimulationsgerät für Muskelentspannung und -aufbau",
+  "slug": "prorelax-tens-ems-duo-elektrostimulationsgerat-fur-muskelent",
+  "description": "Entdecken Sie das ProRelax TENS/EMS Duo Elektrostimulationsgerät, die innovative Lösung für gezielte Muskelentspannung und effektiven Muskelaufbau. Dieses fortschrittliche Gerät kombiniert die bewährten TENS-Technologien (Transkutane Elektrische Nervenstimulation) zur Schmerzlinderung und die EMS-Technologien (Elektrische Muskelstimulation) für gezieltes Muskeltraining. Mit 30 Programmen und 20 Intensitätsstufen passt sich das ProRelax TENS/EMS Duo flexibel Ihren individuellen Bedürfnissen an, sei es zur Linderung chronischer Schmerzen, zur Regeneration nach dem Sport oder zur Stärkung beanspruchter Muskelpartien. Die einfach zu bedienende Oberfläche und die detaillierte Anleitung machen die Anwendung intuitiv und sicher. Investieren Sie in Ihr Wohlbefinden und erleben Sie die Vorteile modernster Elektrostimulationstechnologie für zu Hause.",
+  "shortDescription": "ProRelax TENS/EMS Duo: Elektrostimulationsgerät für Schmerzlinderung und Muskelaufbau. 30 Programme, 20 Intensitätsstufen. Einfache Anwendung für zu Hause. Nur 31.0€.",
   "price": "31.0",
   "compareAtPrice": 35,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Besuche den Prorelax-Store",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "ProRelax TENS/EMS Duo – Elektrostimulationsgerät für Muskelentspannung und -aufbau",
+    "description": "ProRelax TENS/EMS Duo: Elektrostimulationsgerät für Schmerzlinderung und Muskelaufbau. 30 Programme, 20 Intensitätsstufen. Einfache Anwendung für zu Hause. Nur 31.0€.",
+    "keywords": [
+      "prorelax tens/ems duo – elektrostimulationsgerät für muskelentspannung und -aufbau",
+      "kombigeräte tens/ems",
+      "besuche den prorelax-store"
+    ],
+    "ogTitle": "ProRelax TENS/EMS Duo – Elektrostimulationsgerät für Muskelentspannung und -aufbau",
+    "ogDescription": "ProRelax TENS/EMS Duo: Elektrostimulationsgerät für Schmerzlinderung und Muskelaufbau. 30 Programme, 20 Intensitätsstufen. Einfache Anwendung für zu Hause. Nur 31.0€."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kombination aus TENS (Schmerzlinderung) und EMS (Muskelaufbau), 30 Programme, 20 Intensitätsstufen, 2 unabhängige Kanäle, LCD-Display, automatische Abschaltung, inkl. Elektroden und Batterien."
+  },
+  "faq": [
+    {
+      "q": "Was ist der Unterschied zwischen TENS und EMS?",
+      "a": "TENS (Transkutane Elektrische Nervenstimulation) wird primär zur Linderung von Schmerzen eingesetzt, indem es die Nervensignale maskiert. EMS (Elektrische Muskelstimulation) hingegen stimuliert gezielt die Muskeln, um diese zu entspannen, zu kräftigen oder aufzubauen."
+    },
+    {
+      "q": "Für welche Körperbereiche ist das Gerät geeignet?",
+      "a": "Das ProRelax TENS/EMS Duo ist vielseitig einsetzbar für nahezu alle Körperpartien, wie z.B. Rücken, Nacken, Schultern, Beine, Arme und Bauch. Bitte beachten Sie die Anwendungsbereiche in der Bedienungsanleitung."
+    },
+    {
+      "q": "Wie oft sollte ich das Gerät anwenden?",
+      "a": "Die Anwendungsfrequenz und -dauer hängen von Ihren individuellen Zielen ab. Für eine Schmerzlinderung kann eine tägliche Anwendung sinnvoll sein, während für den Muskelaufbau eine regelmäßige, aber nicht übermäßig häufige Anwendung empfohlen wird. Konsultieren Sie im Zweifelsfall Ihren Arzt oder Therapeuten."
+    },
+    {
+      "q": "Ist die Anwendung des Geräts sicher?",
+      "a": "Das ProRelax TENS/EMS Duo ist ein zertifiziertes Medizinprodukt und bei sachgemäßer Anwendung sicher. Es ist wichtig, die Bedienungsanleitung genau zu befolgen und die Contraindikationen (z.B. bei Herzschrittmachern oder Schwangerschaft) zu beachten."
+    }
+  ],
+  "originalName": "prorelax TENS/EMS Duo Elektrostimulationsgerät",
+  "enhancedAt": "2025-10-10T23:35:35.495442",
+  "enhanced": true
 }
