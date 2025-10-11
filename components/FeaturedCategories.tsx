@@ -234,9 +234,9 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
                                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                 />
                               ) : (
-                                <div className={`w-full h-full bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical)} flex items-center justify-center transition-all duration-700 group-hover:scale-110`}>
+                                <div className={`w-full h-full bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical || category.name || 'default')} flex items-center justify-center transition-all duration-700 group-hover:scale-110`}>
                                   <div className="scale-75 sm:scale-100">
-                                    {getCategoryIcon(category.categoryNameCanonical)}
+                                    {getCategoryIcon(category.categoryNameCanonical || category.name || 'default')}
                                   </div>
                                 </div>
                               )}
