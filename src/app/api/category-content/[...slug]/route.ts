@@ -17,14 +17,14 @@ export async function GET(
     const categoriesData = JSON.parse(fs.readFileSync(categoriesPath, 'utf8'));
     
     // Flatten categories to find the matching one
-    const allCategories = [];
-    categoriesData.forEach(cat => {
+    const allCategories: any[] = [];
+    categoriesData.forEach((cat: any) => {
       allCategories.push({
         ...cat,
         categoryNameCanonical: cat.name
       });
       if (cat.subcategories) {
-        cat.subcategories.forEach(sub => {
+        cat.subcategories.forEach((sub: any) => {
           allCategories.push({
             ...sub,
             categoryNameCanonical: sub.name
@@ -34,7 +34,7 @@ export async function GET(
     });
     
     // Find the category first
-    let category = allCategories.find(cat => {
+    let category = allCategories.find((cat: any) => {
       // Try exact slug match first
       if (cat.slug === fullSlug) {
         console.log('API: Found exact slug match:', cat.slug);

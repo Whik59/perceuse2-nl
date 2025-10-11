@@ -57,12 +57,12 @@ export const getProductsByCategory = async (
     
     if (fs.existsSync(categoryIndexPath)) {
       const categoryIndex: Record<number, string[]> = JSON.parse(fs.readFileSync(categoryIndexPath, 'utf8'));
-      const productSlugs: string[] = categoryIndex[category.categoryId] || [];
+      const productSlugs: string[] = categoryIndex[category.categoryId || 0] || [];
       
       // Include products from subcategories
-      const subcategories = getSubcategories(category.categoryId);
+      const subcategories = getSubcategories(category.categoryId || 0);
       for (const subcategory of subcategories) {
-        const subcategoryProducts: string[] = categoryIndex[subcategory.categoryId] || [];
+        const subcategoryProducts: string[] = categoryIndex[subcategory.categoryId || 0] || [];
         productSlugs.push(...subcategoryProducts);
       }
       
@@ -90,13 +90,13 @@ export const getProductsByCategory = async (
     
     for (const slug of allSlugs) {
       const product = await getProductBySlug(slug);
-      if (product && product.categoryIds.includes(category.categoryId)) {
+      if (product && product.categoryIds.includes(category.categoryId || 0)) {
         categoryProducts.push(product);
       }
     }
     
     // Include products from subcategories
-    const subcategories = getSubcategories(category.categoryId);
+    const subcategories = getSubcategories(category.categoryId || 0);
     const subcategoryIds = subcategories.map(sub => sub.categoryId);
     
     for (const slug of allSlugs) {
@@ -166,7 +166,7 @@ export const getCategoryPath = (categoryId: number): Category[] => {
 export const getAllCategorySlugs = (): string[] => {
   try {
     const categories = getAllCategories();
-    return categories.map(category => category.categoryNameCanonical);
+    return categories.map(category => category.categoryNameCanonical || category.name || '');
   } catch (error) {
     console.error('Error getting category slugs:', error);
     return [];
@@ -187,7 +187,7 @@ export const buildCategoryIndex = async (): Promise<void> => {
     // Initialize all categories
     const categories = getAllCategories();
     for (const category of categories) {
-      categoryProductIndex[category.categoryId] = [];
+      categoryProductIndex[category.categoryId || 0] = [];
     }
     
     // Map products to categories

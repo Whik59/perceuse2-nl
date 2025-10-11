@@ -178,7 +178,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                                   {subcategory.hasImage && subcategory.imageUrl ? (
                                     <Image
                                       src={subcategory.imageUrl}
-                                      alt={subcategory.categoryNameCanonical}
+                                      alt={subcategory.categoryNameCanonical || subcategory.name || 'Subcategory image'}
                                       width={80}
                                       height={80}
                                       className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"

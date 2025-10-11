@@ -366,14 +366,14 @@ const Header: React.FC<HeaderProps> = ({
         {/* Navigation - Desktop Luxury Design */}
         <nav className="hidden md:flex items-center justify-center space-x-3 pb-4 pt-4 border-t border-gray-50">
             {parentCategories.map((category) => {
-              const subcategories = getSubcategories(category.categoryId);
+              const subcategories = getSubcategories(category.categoryId || 0);
               const hasSubcategories = subcategories.length > 0;
               
               return (
                 <div
-                  key={category.categoryId}
+                  key={category.categoryId || 0}
                   className="relative group"
-                  onMouseEnter={() => hasSubcategories && handleDropdownEnter(category.categoryId)}
+                  onMouseEnter={() => hasSubcategories && handleDropdownEnter(category.categoryId || 0)}
                   onMouseLeave={handleDropdownLeave}
                 >
             <Link
@@ -398,10 +398,10 @@ const Header: React.FC<HeaderProps> = ({
                   </Link>
                   
                   {/* Luxury Dropdown Menu */}
-                  {hasSubcategories && activeDropdown === category.categoryId && (
+                  {hasSubcategories && activeDropdown === (category.categoryId || 0) && (
                     <div 
                       className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-80 z-50"
-                      onMouseEnter={() => handleDropdownEnter(category.categoryId)}
+                      onMouseEnter={() => handleDropdownEnter(category.categoryId || 0)}
                       onMouseLeave={handleDropdownLeave}
                     >
                       {/* Invisible bridge */}
@@ -466,9 +466,9 @@ const Header: React.FC<HeaderProps> = ({
             {/* Mobile Navigation - Luxury */}
               <nav className="flex flex-col space-y-0.5 px-2">
                 {parentCategories.map((category) => {
-                  const subcategories = getSubcategories(category.categoryId);
+                  const subcategories = getSubcategories(category.categoryId || 0);
                   const hasSubcategories = subcategories.length > 0;
-                  const isExpanded = expandedMobileCategories.has(category.categoryId);
+                  const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
                   
                   return (
                     <div key={category.categoryId} className="space-y-1">
@@ -482,7 +482,7 @@ const Header: React.FC<HeaderProps> = ({
                         </Link>
                         {hasSubcategories && (
                           <button
-                            onClick={() => toggleMobileCategory(category.categoryId)}
+                            onClick={() => toggleMobileCategory(category.categoryId || 0)}
                             className="p-3 text-gray-400 hover:text-gray-600 transition-all duration-300 hover:bg-gray-50/50"
                           >
                             <svg

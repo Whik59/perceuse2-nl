@@ -75,13 +75,13 @@ class SmartProductLinker {
         
         // Use case-insensitive regex to find all occurrences
         const regex = new RegExp(this.escapeRegex(pattern), 'gi');
-        let match;
+        let match: RegExpExecArray | null;
         
         while ((match = regex.exec(text)) !== null) {
           // Check if this match is already covered by a longer match
           const isOverlapped = matches.some(existingMatch => 
-            match.index >= existingMatch.startIndex && 
-            match.index < existingMatch.endIndex
+            match!.index >= existingMatch.startIndex && 
+            match!.index < existingMatch.endIndex
           );
           
           if (!isOverlapped) {
@@ -254,4 +254,5 @@ class SmartProductLinker {
 const smartLinker = new SmartProductLinker();
 
 export default smartLinker;
-export { SmartProductLinker, ProductData, ProductMatch };
+export { SmartProductLinker };
+export type { ProductData, ProductMatch };

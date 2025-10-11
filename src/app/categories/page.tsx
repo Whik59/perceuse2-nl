@@ -110,9 +110,9 @@ const CategoryCard: React.FC<{
                 ))}
               </div>
             ) : (
-              <div className={`w-24 h-24 bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical)} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300`}>
-                <div className={getCategoryIcon(category.categoryNameCanonical).props.className.replace('w-8 h-8', `w-12 h-12 ${getIconColor(category.categoryNameCanonical)}`)}>
-                  {getCategoryIcon(category.categoryNameCanonical)}
+              <div className={`w-24 h-24 bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical || category.name || 'default')} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300`}>
+                <div className={getCategoryIcon(category.categoryNameCanonical || category.name || 'default').props.className.replace('w-8 h-8', `w-12 h-12 ${getIconColor(category.categoryNameCanonical || category.name || 'default')}`)}>
+                  {getCategoryIcon(category.categoryNameCanonical || category.name || 'default')}
                 </div>
               </div>
             )}
@@ -218,7 +218,7 @@ const CategoriesPage: React.FC = async () => {
             {/* Categories Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
               {parentCategories.map((category) => {
-                const subcategories = getSubcategories(category.categoryId);
+                const subcategories = getSubcategories(category.categoryId || 0);
                 
                 return (
                   <CategoryCard
@@ -288,8 +288,8 @@ const CategoriesPage: React.FC = async () => {
                       >
                         <div className="bg-white rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-slate-200/60 hover:border-slate-300/60 hover:-translate-y-1">
                           <div className="text-center space-y-2">
-                            <div className={`w-12 h-12 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical)} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-sm`}>
-                              {getSubcategoryIcon(subcategory.categoryNameCanonical)}
+                            <div className={`w-12 h-12 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical || subcategory.name || 'default')} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-sm`}>
+                              {getSubcategoryIcon(subcategory.categoryNameCanonical || subcategory.name || 'default')}
                                   </div>
                             <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
                                       {subcategory.categoryNameCanonical}
