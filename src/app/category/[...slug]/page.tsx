@@ -498,7 +498,7 @@ const CategoryPage: React.FC = () => {
             {categoryContent.faq && categoryContent.faq.length > 0 && (
               <div className="mt-16">
                 <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-                  Questions Fréquentes
+                  {getString('support.faq.categoryTitle')}
                 </h2>
                 <div className="space-y-6">
                   {categoryContent.faq.map((faq, index) => (
@@ -510,25 +510,6 @@ const CategoryPage: React.FC = () => {
                         <SmartLinkedText text={faq.answer} />
                       </p>
                     </div>
-                  ))}
-                </div>
-              </div>
-            )}
-            
-            {/* SEO Keywords */}
-            {categoryContent.keywords && categoryContent.keywords.length > 0 && (
-              <div className="mt-16 bg-white rounded-lg shadow-sm border border-gray-200 p-6">
-                <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                  Mots-clés SEO
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {categoryContent.keywords.map((keyword, index) => (
-                    <span 
-                      key={index}
-                      className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-100 text-blue-800"
-                    >
-                      {keyword}
-                    </span>
                   ))}
                 </div>
               </div>

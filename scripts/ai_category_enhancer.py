@@ -495,7 +495,7 @@ REQUIREMENTS:
 - Include actual product names, prices, and key features
 - Rank by value/quality, not just price
 - Use <h3>Top 5 {category_name}</h3> as title
-- Each item should be <li><strong>[Actual Product Name]</strong> - [Key benefit/feature] - Prix: [Actual Price]€</li>
+- Each item should be <li><strong>[Actual Product Name]</strong> - [Key benefit/feature] - Price: [Actual Price]€</li>
 - Add brief explanations for each choice based on actual product data
 - Focus on helping users make informed decisions
 

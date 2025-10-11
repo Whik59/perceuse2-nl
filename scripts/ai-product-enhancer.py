@@ -95,22 +95,7 @@ class AIProductEnhancer:
             safe_print(f"[WARNING] Could not load AI config: {e}")
         
         # Default fallback config
-        return {
-            "keywords": [
-                "products",
-                "best price",
-                "offer",
-                "free shipping",
-                "warranty",
-                "quality",
-                "easy use",
-                "premium"
-            ],
-            "seo_settings": {
-                "default_price": "from 19€",
-                "store_name": "Your Store"
-            }
-        }
+        return {}
     
     def get_product_keywords(self):
         """Get product-specific keywords from config"""
