@@ -228,7 +228,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
                               {category.hasImage && category.imageUrl ? (
                                 <Image
                                   src={category.imageUrl}
-                                  alt={category.categoryNameCanonical}
+                                  alt={category.categoryNameCanonical || category.name || 'Category image'}
                                   width={128}
                                   height={128}
                                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
