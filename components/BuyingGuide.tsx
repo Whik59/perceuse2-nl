@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { CheckCircle, Lightbulb, Target, Shield, TrendingUp } from 'lucide-react';
-import SmartLinkedText from './SmartLinkedText';
+import { getString } from '../lib/utils';
 
 interface BuyingGuideSection {
   heading: string;
@@ -51,10 +51,10 @@ const BuyingGuide: React.FC<BuyingGuideProps> = ({ title, sections }) => {
                 {/* Content */}
                 <div className="flex-1 min-w-0">
                   <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                    <SmartLinkedText text={section.heading} />
+                    {section.heading}
                   </h3>
                   <p className="text-gray-700 leading-relaxed">
-                    <SmartLinkedText text={section.content} />
+                    {section.content}
                   </p>
                 </div>
               </div>
@@ -67,7 +67,7 @@ const BuyingGuide: React.FC<BuyingGuideProps> = ({ title, sections }) => {
       <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
         <div className="flex items-center justify-center space-x-2 text-sm text-gray-600">
           <Lightbulb className="w-4 h-4" />
-          <span>Conseils d'experts pour vous aider à faire le bon choix</span>
+          <span>{getString('buyingGuide.footer')}</span>
         </div>
       </div>
     </div>

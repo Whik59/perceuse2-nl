@@ -498,9 +498,38 @@
         "warranty": "Garantie 2 Jahre",
         "limitedWarranty": "Begrenzte Garantie",
         "support": "Spezialisierter Support",
-        "basicSupport": "Grundlegender Support"
+        "basicSupport": "Grundlegender Support",
+        "tableFooter": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt zu sehen. Preise können variieren."
       },
       "cta": "Schließe dich unseren über 15.000 zufriedenen Kunden an"
+    }
+  },
+  "internalLinks": {
+    "title": "Entdecken Sie auch",
+    "footer": "Entdecken Sie unsere anderen Kategorien, um genau das zu finden, was Sie brauchen"
+  },
+  "buyingGuide": {
+    "footer": "Experten-Tipps, um Ihnen bei der richtigen Wahl zu helfen"
+  },
+  "subcategoryCards": {
+    "title": "Unterkategorien erkunden",
+    "loading": "Unterkategorien werden geladen...",
+    "noSubcategories": "Keine Unterkategorien verfügbar"
+  },
+  "categoryPage": {
+    "notFound": {
+      "title": "Kategorie nicht gefunden",
+      "description": "Die gesuchte Kategorie existiert nicht."
+    },
+    "exploreCategories": "Erkunden Sie {categoryName} Kategorien",
+    "faq": "Häufig gestellte Fragen",
+    "priceRange": {
+      "min": "Min",
+      "max": "Max"
+    },
+    "comparisonTable": {
+      "title": "Produktvergleich",
+      "incentive": "Klicken Sie auf die Top 3 Produkte für detaillierte Informationen und Bewertungen"
     }
   },
   "footer": {

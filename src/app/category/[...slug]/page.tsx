@@ -210,8 +210,8 @@ const CategoryPage: React.FC = () => {
       <Layout>
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
-            <h1 className="text-2xl font-bold text-gray-900 mb-4">Category Not Found</h1>
-            <p className="text-gray-600 mb-8">The category you're looking for doesn't exist.</p>
+            <h1 className="text-2xl font-bold text-gray-900 mb-4">{getString('categoryPage.notFound.title')}</h1>
+            <p className="text-gray-600 mb-8">{getString('categoryPage.notFound.description')}</p>
             <Link href="/">
               <Button variant="primary">
                 {getString('navigation.home')}
@@ -258,12 +258,34 @@ const CategoryPage: React.FC = () => {
         </div>
       </div>
 
+      {/* Comparison Table Section - Top */}
+      {categoryContent?.comparisonTable && (
+        <div className="py-8 bg-white border-b border-gray-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                {getString('categoryPage.comparisonTable.title')}
+              </h2>
+              <p className="text-gray-600">
+                {getString('categoryPage.comparisonTable.incentive')}
+              </p>
+            </div>
+            
+            <ComparisonTable
+              title={categoryContent.comparisonTable.title}
+              columns={categoryContent.comparisonTable.columns}
+              products={categoryContent.comparisonTable.products}
+            />
+          </div>
+        </div>
+      )}
+
       {/* Subcategory Cards Section */}
       {category.categoryId && (
         <SubcategoryCards 
           categories={categories} 
           parentCategoryId={category.categoryId}
-          title={`Explore ${category.name} Categories`}
+          title={getString('categoryPage.exploreCategories').replace('{categoryName}', category.name)}
         />
       )}
 
@@ -336,7 +358,7 @@ const CategoryPage: React.FC = () => {
                         priceRange: [parseInt(e.target.value), filters.priceRange[1]] 
                       })}
                       className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                      placeholder="Min"
+                      placeholder={getString('categoryPage.priceRange.min')}
                     />
                     <span className="text-gray-500">-</span>
                     <input
@@ -346,7 +368,7 @@ const CategoryPage: React.FC = () => {
                         priceRange: [filters.priceRange[0], parseInt(e.target.value)] 
                       })}
                       className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                      placeholder="Max"
+                      placeholder={getString('categoryPage.priceRange.max')}
                     />
                   </div>
                 </div>
@@ -424,18 +446,6 @@ const CategoryPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Comparison Table Section */}
-      {categoryContent?.comparisonTable && (
-        <div className="py-16 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <ComparisonTable
-              title={categoryContent.comparisonTable.title}
-              columns={categoryContent.comparisonTable.columns}
-              products={categoryContent.comparisonTable.products}
-            />
-          </div>
-        </div>
-      )}
 
       {/* Buying Guide Section */}
       {categoryContent?.buyingGuide && (
@@ -464,7 +474,7 @@ const CategoryPage: React.FC = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-light text-slate-900 mb-4">
-                Preguntas Frecuentes
+                {getString('categoryPage.faq')}
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto rounded-full"></div>
             </div>
@@ -504,10 +514,10 @@ const CategoryPage: React.FC = () => {
                   {categoryContent.faq.map((faq, index) => (
                     <div key={index} className="bg-white rounded-lg shadow-sm border border-gray-200 p-6">
                       <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                        <SmartLinkedText text={faq.question} />
+                        {faq.question}
                       </h3>
                       <p className="text-gray-700 leading-relaxed">
-                        <SmartLinkedText text={faq.answer} />
+                        {faq.answer}
                       </p>
                     </div>
                   ))}

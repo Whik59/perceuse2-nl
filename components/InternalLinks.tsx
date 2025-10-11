@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight, Link as LinkIcon } from 'lucide-react';
+import { getString } from '../lib/utils';
 
 interface InternalLink {
   text: string;
@@ -14,7 +15,7 @@ interface InternalLinksProps {
   title?: string;
 }
 
-const InternalLinks: React.FC<InternalLinksProps> = ({ links, title = "Découvrez aussi" }) => {
+const InternalLinks: React.FC<InternalLinksProps> = ({ links, title = getString('internalLinks.title') }) => {
   if (!links || links.length === 0) {
     return null;
   }
@@ -48,7 +49,7 @@ const InternalLinks: React.FC<InternalLinksProps> = ({ links, title = "Découvre
       {/* Footer */}
       <div className="mt-4 pt-4 border-t border-gray-200">
         <p className="text-sm text-gray-500 text-center">
-          Explorez nos autres catégories pour trouver exactement ce dont vous avez besoin
+          {getString('internalLinks.footer')}
         </p>
       </div>
     </div>

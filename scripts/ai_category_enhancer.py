@@ -56,21 +56,6 @@ class AICategoryEnhancer:
         self.batch_size = 200  # Process 200 categories at once
         self.max_concurrent = 100  # Maximum concurrency - MEGA-FAST
         
-        # Template system for massive cost savings
-        self.category_templates = {
-            'massage': {
-                'title': '{category} - Best Massage Quality',
-                'description': '{category} ✅ Premium Quality. Livraison Gratuite!',
-                'keywords': ['{category}', 'massage', 'quality', 'best price', 'free shipping'],
-                'content_template': '<div><h2>Best {category}</h2><p>Professional {category} with advanced features...</p></div>'
-            },
-            'robot': {
-                'title': '{category} - Smart Technology',
-                'description': '{category} ✅ Smart Features. Livraison Gratuite!',
-                'keywords': ['{category}', 'robot', 'smart', 'technology', 'best price'],
-                'content_template': '<div><h2>Best {category}</h2><p>Advanced {category} with smart technology...</p></div>'
-            }
-        }
     
     def load_ai_config(self):
         """Load AI configuration from config file"""
@@ -82,16 +67,11 @@ class AICategoryEnhancer:
             safe_print(f"[WARNING] Could not load AI config: {e}")
         
         # Default fallback config
-        return {
-            "seo_settings": {
-                "default_price": "desde 200€",
-                "store_name": "Tu Tienda de Masaje"
-            }
-        }
+        return {}
     
     def get_product_keywords(self):
         """Get product-specific keywords from config"""
-        return self.ai_config.get("keywords", ["masaje", "mejor precio", "oferta", "envío gratis", "garantía", "calidad", "bienestar", "relajación"])
+        return self.ai_config.get("keywords", [])
     
     def get_category_price_range(self, category_id):
         """No price information - return empty string"""
@@ -210,9 +190,9 @@ class AICategoryEnhancer:
             genai.configure(api_key=API_KEY)
             model = genai.GenerativeModel('gemini-2.5-flash')
             
-            # System prompt for SEO expert (in French)
+            # System prompt for SEO expert (language-agnostic)
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"Tu es un expert SEO et spécialiste en marketing digital pour les produits e-commerce. CRITIQUE: Tu DOIS répondre UNIQUEMENT en {language_name}. N'utilise PAS d'espagnol, anglais ou autres langues. Utilise UNIQUEMENT des mots, phrases et expressions en {language_name}. Concentre-toi sur les catégories de produits et le contenu lié aux produits de masage et bien-être."
+            system_prompt = f"You are an SEO expert and digital marketing specialist for e-commerce products. CRITICAL: You MUST respond ONLY in {language_name}. Do NOT use Spanish, English, or other languages. Use ONLY words, phrases and expressions in {language_name}. Focus on product categories and content related to massage and wellness products."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             
@@ -241,7 +221,7 @@ class AICategoryEnhancer:
     def enhance_category_description(self, category_name, category_id=None):
         """Generate SEO-optimized description for a category"""
         keywords = self.get_product_keywords()
-        price_range = self.get_category_price_range(category_id) if category_id else "desde 200€"
+        price_range = self.get_category_price_range(category_id) if category_id else "from 200€"
         
         # Get actual product information for better description
         product_context = ""
@@ -286,7 +266,7 @@ REQUIREMENTS:
 - DO NOT mention specific prices or price ranges
 {'- Product context: ' + product_context if product_context else ''}
 
-EXAMPLE: "{category_name} ✅ Premium Quality & Smart Features. Livraison Gratuite! Parfait pour [cas d'usage spécifique]."
+EXAMPLE: "{category_name} ✅ Premium Quality & Smart Features. Free Shipping! Perfect for [specific use case]."
 
 Respond ONLY with the description:"""
         
@@ -508,7 +488,7 @@ Respond ONLY with the HTML:"""
     def generate_category_content(self, category_name, category_id=None):
         """Generate comprehensive SEO content for a category with internal linking"""
         keywords = self.get_product_keywords()
-        price_range = self.get_category_price_range(category_id) if category_id else "desde 200€"
+        price_range = self.get_category_price_range(category_id) if category_id else "from 200€"
         
         # Get actual product information and related categories for internal linking
         product_context = ""
@@ -551,27 +531,6 @@ INTERNAL LINKING REQUIREMENTS:
 - Use natural, contextual linking within the content
 """
                 
-                # Get related categories/subcategories for cross-linking
-                categories_path = os.path.join("data", "categories.json")
-                if os.path.exists(categories_path):
-                    with open(categories_path, 'r', encoding='utf-8') as f:
-                        all_categories = json.load(f)
-                    
-                    # Find related categories (same parent or similar type)
-                    related_categories = []
-                    for cat in all_categories:
-                        if cat.get('name') != category_name:
-                            # Check if it's a related category (same parent or similar keywords)
-                            if any(keyword in cat.get('name', '').lower() for keyword in ['massage', 'masaje', 'bienestar', 'relajación', 'shiatsu', 'acupression']):
-                                related_categories.append({
-                                    'name': cat.get('name', ''),
-                                    'slug': cat.get('slug', '')
-                                })
-                    
-                    if related_categories:
-                        internal_links_context += f"""
-- Mention related categories: {', '.join([f'<a href="/category/{cat["slug"]}">{cat["name"]}</a>' for cat in related_categories[:2]])}
-"""
                         
             except Exception:
                 pass
@@ -608,7 +567,7 @@ STRUCTURE:
 <p>Specific use cases and scenarios... [Mention related category if relevant]</p>
 <h3>Why Choose Our {category_name.title()}</h3>
 <p>Quality, warranty, support benefits... [Include another product link]</p>
-<p>Livraison gratuite. Trouvez le modèle parfait pour vos besoins!</p>
+<p>Free shipping. Find the perfect model for your needs!</p>
 </div>
 
 Respond ONLY with the HTML:"""
@@ -622,25 +581,8 @@ Respond ONLY with the HTML:"""
         if '```' in response:
             response = re.sub(r'```.*$', '', response, flags=re.DOTALL)
         
-        # Generate Top 5 list and comparison table
-        top5_content = ""
-        comparison_content = ""
-        
-        if category_id:
-            try:
-                top5_content = self.generate_top5_products(category_name, category_id)
-                comparison_content = self.generate_comparison_table(category_name, category_id)
-            except Exception as e:
-                safe_print(f"[WARNING] Could not generate Top 5/Comparison for {category_name}: {e}")
-        
-        # Combine all content
+        # Don't add Top 5 list to content - it's handled separately in comparison table
         full_content = response
-        
-        if top5_content:
-            full_content += f"\n\n{top5_content}"
-        
-        if comparison_content:
-            full_content += f"\n\n{comparison_content}"
         
         # Ensure proper HTML structure
         if not full_content.startswith('<div'):
@@ -732,32 +674,27 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
                 safe_print(f"[ERROR] AI generation failed for {category_name}: {e}")
                 raise Exception(f"Failed to generate AI content for {category_name}: {e}")
             
-            # Generate Top 5 list and comparison table
+            # Generate Top 5 list and comparison table separately
             top5_content = ""
-            comparison_content = ""
+            comparison_table = None
+            buying_guide = None
             
             try:
                 top5_content = self.generate_top5_products(category_name, category_id)
-                comparison_content = self.generate_comparison_table(category_name, category_id)
+                comparison_table = self.generate_comparison_table(category_name, category_id)
+                buying_guide = self.generate_buying_guide(category_name, category_id)
             except Exception as e:
-                safe_print(f"[WARNING] Could not generate Top 5/Comparison for {category_name}: {e}")
+                safe_print(f"[WARNING] Could not generate Top 5/Comparison/Buying Guide for {category_name}: {e}")
             
-            # Combine all content
-            full_content = content["content"]
-            if top5_content:
-                full_content += f"\n\n{top5_content}"
-            if comparison_content:
-                full_content += f"\n\n{comparison_content}"
-            
-            # Create enhanced category data
+            # Create enhanced category data with separate fields
             enhanced_category = {
                 "categoryId": category_id,
                 "categoryNameCanonical": category_name,
-                "slug": self.create_category_slug(category_name),
+                "slug": category.get('slug', self.create_category_slug(category_name)),
                 "parentCategoryId": category.get('parentCategoryId'),
                 "level": category.get('level', 0),
                 "description": content["description"],
-                "content": full_content,
+                "content": content["content"],
                 "seo": {
                     "title": content["title"],
                     "description": content["description"],
@@ -768,6 +705,12 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
                 "productCount": category.get('productCount', 0),
                 "enhancedAt": datetime.now().isoformat()
             }
+            
+            # Add separate fields for comparison table and buying guide
+            if comparison_table:
+                enhanced_category["comparisonTable"] = comparison_table
+            if buying_guide:
+                enhanced_category["buyingGuide"] = buying_guide
             
             # Save individual category file
             category_filename = f"{category_id}.json"
@@ -869,7 +812,11 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         try:
             # Use the comprehensive enhancement method that includes comparison tables and buying guides
             safe_print("[AI] Generating comprehensive content with comparison tables and buying guides...")
-            enhanced_category = self.enhance_category_minimal(test_category)
+            enhanced_category = self.enhance_category_comprehensive(test_category)
+            
+            if enhanced_category is None:
+                safe_print("[ERROR] Failed to enhance category - no data returned")
+                return
             
             # Add additional fields for compatibility
             enhanced_category.update({
@@ -992,7 +939,7 @@ IMPORTANT: Respond ONLY with valid JSON, no additional text."""
         with concurrent.futures.ThreadPoolExecutor(max_workers=self.max_concurrent) as executor:
             # Submit all enhancement tasks
             future_to_category = {
-                executor.submit(self.enhance_category_minimal, category): category 
+                executor.submit(self.enhance_category_comprehensive, category): category 
                 for category in categories
             }
             
@@ -1083,7 +1030,7 @@ JSON only:
             safe_print(f"[ERROR] Batch parsing failed: {e}")
             return self.enhance_category_fallback(category_name, category_id)
             
-            # Try to generate comparison table and buying guide
+            # Generate comparison table and buying guide separately
             try:
                 safe_print(f"[DEBUG] Generating comparison table for {category_name} with category_id: {category_id}")
                 comparison_table = self.generate_comparison_table(category_name, category_id)
@@ -1158,14 +1105,18 @@ JSON only:
             'categoryNameCanonical': category_name,
             'slug': self.create_category_slug(category_name),
             'description': self.enhance_category_description(category_name, category_id),
+            'content': self.generate_category_content(category_name, category_id),
             'seo': {
                 'title': self.enhance_category_title(category_name),
                 'description': self.enhance_category_description(category_name, category_id),
-                'keywords': self.enhance_category_keywords(category_name)
+                'keywords': self.enhance_category_keywords(category_name),
+                'enhancedAt': datetime.now().isoformat()
             },
+            'faq': self.generate_category_faq(category_name, category_id),
             'comparisonTable': self.generate_comparison_table(category_name, category_id),
             'buyingGuide': self.generate_buying_guide(category_name, category_id),
             'internalLinks': self.generate_internal_links(category_name, category_id),
+            'productCount': category.get('productCount', 0),
             'enhancedAt': datetime.now().isoformat()
         }
         
@@ -1188,6 +1139,11 @@ JSON only:
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         
         prompt = f"""Complete SEO data for: "{category_name}" in {language_name}
+
+IMPORTANT: 
+- Use {language_name} language - use appropriate terms for the target language
+- Generate UNIQUE products only - no duplicates
+- Return ONLY valid JSON format
 
 JSON only:
 {{
@@ -1218,32 +1174,6 @@ JSON only:
             safe_print(f"[ERROR] Batch parsing failed: {e}")
             return self.enhance_category_fallback(category_name, category_id)
 
-    def enhance_category_with_template(self, category_name, category_id=None):
-        """Use templates for common categories - 95% cost reduction"""
-        category_lower = category_name.lower()
-        
-        # Find matching template
-        template = None
-        for key, template_data in self.category_templates.items():
-            if key in category_lower:
-                template = template_data
-                break
-        
-        if template:
-            # Use template - no AI call needed!
-            return {
-                'title': template['title'].format(category=category_name),
-                'description': template['description'].format(category=category_name),
-                'keywords': [kw.format(category=category_name.lower()) for kw in template['keywords']],
-                'faq': [
-                    {"q": f"What is the best {category_name}?", "a": f"The best {category_name} combines quality and value."},
-                    {"q": f"How to choose {category_name}?", "a": f"Consider your needs and budget when choosing {category_name}."}
-                ],
-                'content': template['content_template'].format(category=category_name)
-            }
-        else:
-            # Fall back to AI batch processing
-            return self.enhance_category_batch_ai(category_name, category_id)
 
     def generate_category_faq_fast(self, category_name, category_id=None):
         """Generate FAQ focused ONLY on the specific category"""
@@ -1332,7 +1262,7 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
 
     def generate_category_content_fast(self, category_name, category_id=None):
         """Generate content focused ONLY on the specific category with internal linking"""
-        price_range = self.get_category_price_range(category_id) if category_id else "desde 200€"
+        price_range = self.get_category_price_range(category_id) if category_id else "from 200€"
         
         # No internal links in content generation
         
@@ -1361,7 +1291,7 @@ EXAMPLE for "{category_name.lower()}":
 <li><b>Easy to Use</b>: Simple and intuitive operation</li>
 <li><b>Effective Results</b>: Proven effectiveness and reliability</li>
 </ul>
-<p>Livraison gratuite et garantie qualité.</p>
+<p>Free shipping and quality guarantee.</p>
 </div>
 
 Respond ONLY with HTML without ```html:"""
@@ -1570,37 +1500,64 @@ PRODUCTS DATA (ONLY USE THESE {len(products_data)} PRODUCTS - DO NOT INVENT ANY 
     'rating': p.get('amazonRating', 0),
     'description': p.get('description', ''),
     'slug': p.get('slug', ''),
-    'images': p.get('images', [])
+    'images': p.get('images', []),
+    'brand': p.get('brand', ''),
+    'originalName': p.get('originalName', ''),
+    'specifications': p.get('specifications', {})
 } for p in products_data], ensure_ascii=False, indent=2)}
 
 REQUIREMENTS:
 - Write in {self.language_map.get(self.output_language, self.output_language.title())}
-- Create a comparison table with columns relevant to {category_name}
-- Include ONLY the {len(products_data)} products provided above - DO NOT INVENT OR ADD ANY OTHER PRODUCTS
+- Create a comparison table with ONLY columns that have meaningful data for ALL products
+- Include ALL {len(products_data)} products provided above - DO NOT INVENT OR ADD ANY OTHER PRODUCTS
+- Each product must be UNIQUE - do not repeat the same product multiple times
 - Rank the provided products by value/quality (rank 1 to {len(products_data)})
-- Extract ALL specifications from product descriptions - NEVER use "N/A" or "Non spécifié"
-- If a specification is not explicitly mentioned, infer it from the product name and description
-- Use realistic specifications based on product names and descriptions
+- Extract ALL specifications from product descriptions, names, and specifications field - NEVER use "N/A" or "Nicht angegeben"
+- If a specification is not explicitly mentioned, infer it from the product name, description, and context
+- Use realistic specifications based on product names, descriptions, and category context
 - Use the actual product images from the images array (first image)
 - Use internal product page URLs (/product/[slug]) instead of Amazon URLs
 - CRITICAL: Return ONLY valid JSON format - no markdown, no explanations
-- CRITICAL: Only include the {len(products_data)} products provided - do not invent additional products
+- CRITICAL: Include ALL {len(products_data)} products provided - do not skip any products
+- CRITICAL: Each product must be different - no duplicates allowed
+- CRITICAL: NEVER use "N/A", "Nicht angegeben", or empty values - always infer realistic specifications
+- CRITICAL: Include "Rang" column with numbers 1, 2, 3, etc. for ranking
+- CRITICAL: Format prices with € symbol (e.g., "190.0€" not "190.0")
+- CRITICAL: Do NOT include "Modell" column - product names are shown in the table rows
+- CRITICAL: Only include columns where ALL products have meaningful, non-empty values
+- CRITICAL: If a column would have "N/A" or empty values for any product, DO NOT include that column
+- CRITICAL: Include product images in the ranking display (show image next to rank number)
 
 EXAMPLE STRUCTURE:
 {{
-  "title": "Comparatif des {len(products_data)} Meilleurs {category_name}",
-  "columns": ["Modèle", "Puissance", "Autonomie", "Connectivité", "Prix", "Note"],
+  "title": "Vergleich der {len(products_data)} besten {category_name}",
+  "columns": ["Rang", "Preis", "Bewertung", "Material", "Anwendungsbereich", "Besondere Eigenschaft"],
   "products": [
     {{
       "rank": 1,
-      "name": "Product Name",
-      "power": "Extracted or inferred specification",
-      "autonomy": "Extracted or inferred specification", 
-      "connectivity": "Extracted or inferred specification",
-      "price": "Price without € symbol",
-      "rating": "X.X/5",
-      "productUrl": "/product/product-slug",
+      "rang": "1",
+      "rangWithImage": "1 [IMAGE: https://actual-product-image-url.jpg]",
+      "name": "Actual Product Name from data",
+      "preis": "6.0€",
+      "bewertung": "4.5/5",
+      "material": "Rosenquarz (inferred from product name/description)",
+      "anwendungsbereich": "Gesichtspflege (inferred from category context)",
+      "besondere_eigenschaft": "Hohe Qualität (inferred from brand/description)",
+      "productUrl": "/product/actual-product-slug",
       "image": "https://actual-product-image-url.jpg"
+    }},
+    {{
+      "rank": 2,
+      "rang": "2",
+      "rangWithImage": "2 [IMAGE: https://second-product-image-url.jpg]",
+      "name": "Second Product Name from data",
+      "preis": "12.99€",
+      "bewertung": "4.2/5",
+      "material": "Jade (inferred from product name/description)",
+      "anwendungsbereich": "Körperpflege (inferred from category context)",
+      "besondere_eigenschaft": "Langlebig (inferred from brand/description)",
+      "productUrl": "/product/second-product-slug",
+      "image": "https://second-product-image-url.jpg"
     }}
   ]
 }}
@@ -1608,11 +1565,16 @@ EXAMPLE STRUCTURE:
 IMPORTANT RULES:
 - NEVER include "URL Produit" or "Image" in the columns array
 - ALWAYS include rank as a number (1, 2, 3, etc.) - never "N/A"
-- Price should be just the number without € symbol (e.g., "299.99" not "299.99€")
+- Price should include € symbol (e.g., "6.0€" not "6.0")
 - Rating should be in X.X/5 format
 - Include productUrl and image in each product object but NOT in columns
+- ALWAYS infer realistic specifications from product names, descriptions, and category context
+- NEVER use "N/A", "Nicht angegeben", "Non spécifié", or empty values
+- ONLY include columns where ALL products have meaningful, non-empty values
+- If any product would have "N/A" for a column, DO NOT include that column at all
+- Include "rangWithImage" field showing rank number with image URL for frontend display
 
-CRITICAL: Extract specifications from descriptions. If not explicit, infer from context. NEVER use "N/A" or "Non spécifié".
+CRITICAL: Extract specifications from descriptions, names, and specifications field. If not explicit, infer realistic values from context. NEVER use "N/A" or empty values.
 
 RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
             
@@ -1687,14 +1649,14 @@ REQUIREMENTS:
 
 STRICT JSON FORMAT REQUIRED:
 {{
-  "title": "Guide d'Achat : Comment Choisir son {category_name} ?",
+  "title": "Buying Guide: How to Choose the Best {category_name}?",
   "sections": [
     {{
-      "heading": "1. Feature/Characteristic",
-      "content": "Detailed explanation and recommendation for this feature..."
+      "heading": "1. Function/Feature",
+      "content": "Detailed explanation and recommendation for this function..."
     }},
     {{
-      "heading": "2. Another Important Aspect", 
+      "heading": "2. Important Aspect", 
       "content": "Practical advice and tips for this aspect..."
     }},
     {{
@@ -1747,7 +1709,7 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
                 for category in categories:
                     if category.get('slug') != category_name.lower().replace(' ', '-'):
                         related_links.append({
-                            "text": f"Voir tous les {category.get('name', '').lower()}",
+                            "text": f"View all {category.get('name', '').lower()}",
                             "url": f"/category/{category.get('slug', '')}"
                         })
                 
@@ -1757,7 +1719,7 @@ RESPOND WITH ONLY THE JSON OBJECT - NO OTHER TEXT:"""
                         subcategories = category.get('subcategories', [])
                         for subcat in subcategories[:2]:  # Limit to 2 subcategories
                             related_links.append({
-                                "text": f"Découvrir les {subcat.get('name', '').lower()}",
+                                "text": f"Discover {subcat.get('name', '').lower()}",
                                 "url": f"/category/{subcat.get('slug', '')}"
                             })
                         break

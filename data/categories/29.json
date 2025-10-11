@@ -2,41 +2,175 @@
   "categoryId": 29,
   "categoryNameCanonical": "Massagekerzen",
   "slug": "massagekerzen",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Erleben Sie Wellness mit unseren Massagekerzen. Ideal für Entspannung & Hautpflege. Top Angebot!",
-  "content": "<div><h2>Entdecken Sie die Welt der Massagekerzen für Ihr Wohlbefinden</h2><p>Tauchen Sie ein in eine Oase der Ruhe und Entspannung mit unseren exquisiten Massagekerzen. Speziell entwickelt, um Körper und Geist zu verwöhnen, vereinen diese Kerzen die wohltuende Wärme eines Massageöls mit den sinnlichen Düften der Aromatherapie. Jede Massagekerze verwandelt sich beim Schmelzen in ein luxuriöses, hautfreundliches Öl, das sich ideal für eine sanfte und pflegende Massage eignet.</p><h2>Warum unsere Massagekerzen die perfekte Wahl sind</h2><p>Unsere sorgfältig ausgewählten Massagekerzen werden aus natürlichen Inhaltsstoffen wie Sojawachs, Sheabutter und wertvollen Pflanzenölen hergestellt. Diese Kombination versorgt Ihre Haut nicht nur mit intensiver Feuchtigkeit, sondern hinterlässt sie auch seidig glatt und geschmeidig. Die dezenten, aber wirkungsvollen Aromen ätherischer Öle fördern zudem tiefe Entspannung und können Stress abbauen. Erleben Sie das Gefühl von Wellness direkt in Ihrem Zuhause.</p><h2>Anwendung und Wirkung Ihrer Massagekerze</h2><p>Die Anwendung ist denkbar einfach: Zünden Sie die Massagekerze an und lassen Sie sie für etwa 10-15 Minuten brennen, bis sich ein kleiner Pool flüssigen Öls gebildet hat. Löschen Sie dann die Flamme und gießen Sie das warme, niemals zu heiße Öl direkt auf die Haut. Massieren Sie es sanft ein und genießen Sie die Wärme, den Duft und die pflegende Wirkung. Perfekt für eine Partner-Massage oder als luxuriöses Self-Care-Ritual.</p><h2>Massagekerzen zum besten Preis finden – Ihr exklusives Angebot</h2><p>Wir möchten, dass Sie das Beste für Ihr Wohlbefinden erhalten, ohne Ihr Budget zu sprengen. Deshalb finden Sie bei uns hochwertige Massagekerzen zum besten Preis. Halten Sie Ausschau nach unseren speziellen Angeboten und sichern Sie sich Ihre Lieblingskerze zum Vorzugspreis. Erleben Sie die Verbindung von Pflege, Entspannung und Genuss – jetzt kaufen und sparen!</p></div>\n\n<h3>Top 5 Massagekerzen</h3>\n<ul>\n    <li><strong>Rituals Jing Massagekerze Premium – Dein Ticket zur Tiefenentspannung</strong> - Diese luxuriöse Kerze ist perfekt für alle, die tiefe Entspannung suchen. Ihre spezielle Formel mit Sheabutter sorgt für eine besonders wohltuende Massage und hinterlässt ein seidig-zartes Hautgefühl. Ein Premium-Produkt für wahre Wellness-Momente. - Prix: 29.0€</li>\n    <li><strong>GREENDOOR Premium Massagekerzen Set – Luxus für Ihre Sinne</strong> - Das GREENDOOR Set bietet ein umfassendes Luxuserlebnis dank seiner natürlichen Öle. Es ist ideal, um die Sinne zu verwöhnen und die Haut geschmeidig zu pflegen. Dieses Set steht für Qualität und ein ganzheitliches Wohlfühlerlebnis. - Prix: 26.0€</li>\n    <li><strong>Taboom BDSM Tropfkerze Premium - Luxuriöse BDSM-Erfahrung</strong> - Für Liebhaber prickelnder Erlebnisse ist diese Premium-Tropfkerze die erste Wahl. Das speziell formulierte, hautverträgliche Wachs ermöglicht intensive, luxuriöse BDSM-Momente und garantiert Sicherheit und Vergnügen. - Prix: 15.0€</li>\n    <li><strong>PLAISIR SECRET Pro Leidenschaft</strong> - Diese Kerze ist darauf ausgelegt, Momente der Leidenschaft und Intimität zu verstärken. Als Qualitätsprodukt schafft sie eine sinnliche Atmosphäre und ist ideal für Paare, die besondere Stunden zu zweit genießen möchten. - Prix: 12.0€</li>\n    <li><strong>Green Idea Massagekerze Premium</strong> - Die Green Idea Massagekerze bietet exzellente Qualität zu einem unschlagbaren Preis. Sie ist eine hervorragende Wahl für den preisbewussten Käufer, der dennoch nicht auf ein gutes Produkt für entspannende Massagen verzichten möchte. - Prix: 5.0€</li>\n</ul>\n\n{'title': 'Vergleich der 2 besten Massagekerzen', 'columns': ['Modell', 'Preis', 'Bewertung', 'Produktart', 'Inhaltsstoffe/Qualität', 'Anwendung', 'Lieferumfang'], 'products': [{'rank': 1, 'name': 'GREENDOOR Premium Massagekerzen Set – Luxus für Ihre Sinne', 'price': '26.0', 'rating': '4.5/5', 'Produktart': 'Massagekerzen Set', 'Inhaltsstoffe/Qualität': 'Hochwertige, natürliche Öle und Buttern', 'Anwendung': 'Sinnliche Entspannung, Hautpflege, Wohlbefinden, Für Paare, Wellness-Abende', 'Lieferumfang': 'Mehrere Kerzen im Set', 'productUrl': '/product/premium-greendoor-massagekerzen-set-luxus-fur', 'image': 'https://m.media-amazon.com/images/I/71cwUw2TnIL._AC_SL1500_.jpg'}, {'rank': 2, 'name': 'PLAISIR SECRET Pro Leidenschaft', 'price': '12.0', 'rating': '4.3/5', 'Produktart': 'Einzelne Massagekerze', 'Inhaltsstoffe/Qualität': 'Hochwertige Qualität', 'Anwendung': 'Sinnliche Entspannung, Leidenschaftliche Momente', 'Lieferumfang': 'Einzelne Kerze', 'productUrl': '/product/pro-plaisir-secret-leidenschaft', 'image': 'https://m.media-amazon.com/images/I/61PHC5sPboL._AC_SL1000_.jpg'}]}",
+  "description": "Massagekerzen: Luxus für Haut & Seele. Gratis Versand! Ideal für sinnliche Stunden & Tiefenentspannung. Jetzt sichern!",
+  "content": "<div>\n<h2>Die besten Massagekerzen – Ihr kompletter Leitfaden für Entspannung und Pflege</h2>\n<p>Tauchen Sie ein in die sinnliche Welt der <a href=\"/category/massagekerzen\">Massagekerzen</a>, die weit mehr als nur Kerzen sind. Sie sind ein Erlebnis für Körper und Seele, eine harmonische Kombination aus aromatischer Atmosphäre, wärmender Ölmassage und nährender Hautpflege. Entdecken Sie Produkte, die speziell dafür entwickelt wurden, Ihre Sinne zu verzaubern und ein Gefühl tiefster Entspannung zu vermitteln. Ideal für romantische Abende oder eine wohltuende Auszeit, wie die verführerische <a href=\"/product/pro-plaisir-secret-leidenschaft\">PLAISIR SECRET Pro Leidenschaft</a>, die besondere Momente schafft.</p>\n\n<h3>Hauptmerkmale & Vorteile</h3>\n<ul>\n<li><strong>Wärmendes Massageöl:</strong> Sobald angezündet, schmilzt die Kerze zu einem warmen, pflegenden Öl, das sich perfekt für eine sanfte und effektive Massage eignet und die Haut intensiv mit Feuchtigkeit versorgt.</li>\n<li><strong>Intensive Hautpflege:</strong> Angereichert mit hochwertigen, natürlichen Ölen und Buttern, macht das warme Öl die Haut geschmeidig, zart und hinterlässt ein seidiges Gefühl ohne zu kleben.</li>\n<li><strong>Entspannende Aromen:</strong> Spezielle Duftkompositionen fördern die mentale Entspannung und schaffen eine beruhigende, belebende oder anregende Atmosphäre, ideal für Ihr persönliches Wellness-Ritual zu Hause.</li>\n<li><strong>Sinnliches Ambiente:</strong> Das sanfte Kerzenlicht und der angenehme Duft schaffen eine einladende und intime Stimmung, perfekt für persönliche Rituale oder gemeinsame, unvergessliche Stunden.</li>\n</ul>\n\n<h3>Perfekt für</h3>\n<p>Massagekerzen sind die ideale Wahl für alle, die nach einer einzigartigen Methode zur Stressreduktion und Körperpflege suchen. Sie eignen sich hervorragend für Paare, die ihre Intimität vertiefen und gemeinsame, sinnliche Momente erleben möchten, oder für Einzelpersonen, die sich eine luxuriöse Selbstpflege-Auszeit gönnen wollen. Überraschen Sie Ihre Liebsten mit einem außergewöhnlichen Geschenk aus der Kategorie der <a href=\"/category/wellnessprodukte\">Wellnessprodukte</a> und schenken Sie puren Genuss und Wohlbefinden.</p>\n\n<h3>Warum unsere Massagekerzen wählen?</h3>\n<p>Wir legen Wert auf höchste Qualität und sorgfältig ausgewählte Inhaltsstoffe, um Ihnen ein unvergleichliches Erlebnis zu garantieren. Unsere Massagekerzen sind auf Reinheit und Wirksamkeit geprüft und frei von schädlichen Zusätzen, um Ihre Haut sicher zu verwöhnen und Ihre Sinne zu beleben. Jedes Produkt ist darauf ausgelegt, Ihnen Momente der Ruhe und Regeneration zu schenken. Unser Sortiment umfasst exquisite Optionen, wie das luxuriöse <a href=\"/product/premium-greendoor-massagekerzen-set-luxus-fur\">GREENDOOR Premium Massagekerzen Set – Luxus für Ih</a>, das für unvergessliche Verwöhnmomente sorgt.</p>\n\n<p>Profitieren Sie von kostenlosem Versand und finden Sie das perfekte Modell für Ihre individuellen Bedürfnisse und Vorlieben. Entdecken Sie jetzt Ihre neue Quelle der Entspannung und des Wohlbefindens!</p>\n</div>\n\n</div>",
   "seo": {
-    "title": "Massagekerzen: Tiefe Entspannung & Hautpflege genießen",
-    "description": "Erleben Sie Wellness mit unseren Massagekerzen. Ideal für Entspannung & Hautpflege. Top Angebot!",
+    "title": "Massagekerzen | Entspannung & Hautpflege",
+    "description": "Top-Qualität Massagekerzen: Sinnliche Entspannung & Pflege. Kostenloser Versand! Ideal für Wellness & Romantik.",
     "keywords": [
-      "Massagekerzen",
-      "Massage",
-      "Entspannung",
-      "Wohlbefinden",
-      "Hautpflege",
-      "Aromatherapie",
-      "bester Preis",
-      "Angebot",
-      "Wellness-Produkte",
-      "Körperpflege"
+      "Massagekerzen Entspannung günstig kaufen Deutschland",
+      "Sinnliche Massagekerzen für Paare Angebot Deutschland online",
+      "Aromatherapie Massagekerzen mit natürlichen Ölen Deutschland",
+      "Wellness Massagekerzen zur Hautpflege bestellen Deutschland",
+      "Günstige Massagekerzen Set für Wohlbefinden Deutschland"
     ],
-    "enhancedAt": "2025-10-11T19:52:43.253553"
+    "enhancedAt": "2025-10-11T22:42:01.900260"
   },
   "faq": [
     {
-      "question": "Was sind Massagekerzen und wie funktionieren sie?",
-      "answer": "Massagekerzen sind spezielle Kerzen, die aus natürlichen Wachsen und Ölen wie Sojawachs oder Sheabutter bestehen. Beim Anzünden schmelzen sie zu einem warmen, pflegenden Massageöl, das ideal für die Haut ist und Entspannung fördert."
+      "question": "Was ist eine Massagekerze und wie wird sie verwendet?",
+      "answer": "Eine Massagekerze schmilzt zu einem warmen, pflegenden Öl. Nach dem Löschen der Flamme wird das lauwarme Öl sanft auf die Haut gegossen und einmassiert. Es dient zur Entspannung und Hautpflege, ideal für eine wohltuende Erfahrung."
     },
     {
-      "question": "Wie verwendet man eine Massagekerze richtig für optimale Entspannung?",
-      "answer": "Zünden Sie die Kerze an und lassen Sie sie für 10-15 Minuten brennen, bis sich ein Pool flüssigen Öls gebildet hat. Löschen Sie die Flamme, gießen Sie das angenehm warme Öl direkt auf die Haut oder in Ihre Hand und massieren Sie es sanft ein. Prüfen Sie stets die Temperatur vor der Anwendung."
+      "question": "Welche Vorteile bieten Massagekerzen für die Hautpflege?",
+      "answer": "Sie spenden intensive Feuchtigkeit und nähren die Haut mit wertvollen Ölen wie Soja- oder Kokoswachs. Die Wärme öffnet die Poren, fördert die Aufnahme der Wirkstoffe und hinterlässt ein geschmeidiges, zartes Hautgefühl mit einem angenehmen Duft."
     },
     {
-      "question": "Welche Vorteile bieten Massagekerzen für die Haut und das Wohlbefinden?",
-      "answer": "Massagekerzen spenden der Haut intensive Feuchtigkeit und wertvolle Nährstoffe, machen sie geschmeidig und zart. Die wohlriechenden Aromen ätherischer Öle tragen zudem zur Entspannung bei, reduzieren Stress und fördern ein ganzheitliches Gefühl des Wohlbefindens."
+      "question": "Ist die Temperatur des Massageöls sicher für die Haut?",
+      "answer": "Ja, das schmelzende Öl einer Qualitäts-Massagekerze erreicht eine angenehme, hautfreundliche Temperatur, die nur leicht über der Körpertemperatur liegt. Es ist so konzipiert, dass es sicher und wohltuend für die Anwendung ist, ohne zu heiß zu sein."
+    },
+    {
+      "question": "Kann eine Massagekerze auch für romantische Anlässe genutzt werden?",
+      "answer": "Absolut! Das sanfte Licht und der verführerische Duft schaffen eine intime Atmosphäre. Das warme Öl ist perfekt für sinnliche Partnermassagen und kann Nähe und Leidenschaft fördern, um besondere und unvergessliche Momente zu erleben."
+    },
+    {
+      "question": "Worauf sollte ich bei der Auswahl einer hochwertigen Massagewachs-Kerze achten?",
+      "answer": "Achten Sie auf natürliche Inhaltsstoffe wie pflanzliche Wachse und ätherische Öle, die Ihre Haut pflegen und einen angenehmen Duft verströmen. Vermeiden Sie Produkte mit Paraffin oder künstlichen Zusätzen, um das beste Wellness-Erlebnis zu gewährleisten."
+    },
+    {
+      "question": "Wie lagere ich meine Massagekerze am besten, um die Qualität zu erhalten?",
+      "answer": "Lagern Sie Ihre Kerze an einem kühlen, trockenen Ort, fern von direkter Sonneneinstrahlung und Hitze, um ein Schmelzen oder Verformen zu verhindern. Achten Sie darauf, den Docht vor jeder Benutzung zu kürzen, um eine saubere Verbrennung zu sichern."
+    }
+  ],
+  "comparisonTable": {
+    "title": "Vergleich der 5 besten Massagekerzen",
+    "columns": [
+      "Rang",
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Hauptinhaltsstoffe",
+      "Duftnote",
+      "Besonderheit",
+      "Anwendungsbereich"
+    ],
+    "products": [
+      {
+        "rank": 1,
+        "rang": "1",
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71cwUw2TnIL._AC_SL1500_.jpg]",
+        "name": "GREENDOOR Premium Massagekerzen Set – Luxus für Ihre Sinne",
+        "preis": "26.0€",
+        "bewertung": "4.5/5",
+        "marke": "GREENDOOR",
+        "hauptinhaltsstoffe": "Natürliche Öle und Buttern (z.B. Sojaöl, Sheabutter, Kakaobutter)",
+        "duftnote": "Verschiedene, dezente Duftkompositionen",
+        "besonderheit": "Luxuriöses Set, Hautpflege, Multisensorisches Erlebnis",
+        "anwendungsbereich": "Paar-Massagen, Wellness-Abende",
+        "productUrl": "/product/premium-greendoor-massagekerzen-set-luxus-fur",
+        "image": "https://m.media-amazon.com/images/I/71cwUw2TnIL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 2,
+        "rang": "2",
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61GRkwJLM0L._AC_SL1500_.jpg]",
+        "name": "Vibratissimo Massagekerze Vanille Premium: Sinnliche Entspannung",
+        "preis": "10.0€",
+        "bewertung": "4.4/5",
+        "marke": "Vibratissimo",
+        "hauptinhaltsstoffe": "Hochwertige Öle und Wachse (z.B. Soja-Wachs)",
+        "duftnote": "Zartes Vanillearoma",
+        "besonderheit": "Handgefertigt, Premium-Qualität, Sinnliche Entspannung",
+        "anwendungsbereich": "Intime Paarmassagen, Persönliche Verwöhnmomente",
+        "productUrl": "/product/vibratissimo-massagekerze-vanille-premium-sinnliche-entspann",
+        "image": "https://m.media-amazon.com/images/I/61GRkwJLM0L._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 3,
+        "rang": "3",
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/715J5ccxS8L._AC_UL320_.jpg]",
+        "name": "GREENDOOR Massagekerzen Pro Natur",
+        "preis": "45.0€",
+        "bewertung": "4.4/5",
+        "marke": "GREENDOOR",
+        "hauptinhaltsstoffe": "Natürliche Öle und Wachse",
+        "duftnote": "Naturrein, dezent",
+        "besonderheit": "Fokus auf Natürlichkeit, Hohe Qualität",
+        "anwendungsbereich": "Entspannende Ganzkörpermassagen",
+        "productUrl": "/product/pro-greendoor-massagekerzen-natur",
+        "image": "https://m.media-amazon.com/images/I/715J5ccxS8L._AC_UL320_.jpg"
+      },
+      {
+        "rank": 4,
+        "rang": "4",
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61PHC5sPboL._AC_SL1000_.jpg]",
+        "name": "PLAISIR SECRET Pro Leidenschaft",
+        "preis": "12.0€",
+        "bewertung": "4.3/5",
+        "marke": "Plaisirs Secrets",
+        "hauptinhaltsstoffe": "Natürliche Öle und Wachse",
+        "duftnote": "Sinnlich, für besondere Momente",
+        "besonderheit": "Fördert Leidenschaft, Hohe Qualität",
+        "anwendungsbereich": "Romantische und intime Massagen",
+        "productUrl": "/product/pro-plaisir-secret-leidenschaft",
+        "image": "https://m.media-amazon.com/images/I/61PHC5sPboL._AC_SL1000_.jpg"
+      },
+      {
+        "rank": 5,
+        "rang": "5",
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/91Wmqk9sZbL._AC_SL1500_.jpg]",
+        "name": "Greendoor Bio Premium Massagekerze",
+        "preis": "1.0€",
+        "bewertung": "4.1/5",
+        "marke": "GREENDOOR",
+        "hauptinhaltsstoffe": "Bio-Soja-Wachs, Bio-Sheabutter, Bio-Mandelöl",
+        "duftnote": "Natürliche ätherische Öle (je nach Variante)",
+        "besonderheit": "Bio-zertifiziert, Vegan, Tierversuchsfrei, Dermatologisch getestet",
+        "anwendungsbereich": "Self-Care-Rituale, Muskelentspannung, Alle Hauttypen",
+        "productUrl": "/product/premium-greendoor-bio-massagekerze",
+        "image": "https://m.media-amazon.com/images/I/91Wmqk9sZbL._AC_SL1500_.jpg"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "title": "Kaufberatung: Die beste Massagekerze auswählen",
+    "sections": [
+      {
+        "heading": "1. Funktion und vielseitige Anwendung",
+        "content": "Massagekerzen sind mehr als nur Duftkerzen. Sie schmelzen zu einem warmen, pflegenden Massageöl. Achten Sie auf hochwertige Inhaltsstoffe, die Haut mit Feuchtigkeit versorgen und entspannen. Ideal für sinnliche Momente und wohltuende Massagen. Das Produkt PLAISIR SECRET bietet oft eine solche duale Funktion für Ihr Wellness-Erlebnis."
+      },
+      {
+        "heading": "2. Inhaltsstoffe und Hautverträglichkeit",
+        "content": "Überprüfen Sie die Zusammensetzung. Natürliche Öle wie Sojaöl, Kokosöl oder Sheabutter sind vorteilhaft. Vermeiden Sie Parabene oder synthetische Zusätze, besonders bei empfindlicher Haut. Eine gute Massagekerze sollte nährend und nicht reizend sein, um ein angenehmes Erlebnis zu gewährleisten. Qualität der Inhaltsstoffe ist entscheidend."
+      },
+      {
+        "heading": "3. Duft und stimmungsaufhellendes Aroma",
+        "content": "Der Duft spielt eine zentrale Rolle für das Wellness-Erlebnis. Wählen Sie Aromen, die entspannen (z.B. Lavendel, Sandelholz) oder anregen (z.B. Zitrus, Ingwer). Natürliche ätherische Öle sind synthetischen vorzuziehen. Ein passender Duft verstärkt die Wirkung der Massagekerze erheblich und trägt zur Atmosphäre bei."
+      },
+      {
+        "heading": "4. Schmelzpunkt und sichere Handhabung",
+        "content": "Ein niedriger Schmelzpunkt ist entscheidend, damit das Öl angenehm warm, aber nicht zu heiß wird. Testen Sie die Temperatur immer zuerst auf dem Handrücken. Die Kerze sollte einen Ausgießer für eine einfache und saubere Anwendung des Öls haben. Sicherheit geht vor, um Verbrennungen zu vermeiden und den Komfort zu sichern."
+      },
+      {
+        "heading": "5. Preis-Leistungs-Verhältnis und Pflege",
+        "content": "Vergleichen Sie Preise wie den für PLAISIR SECRET (12.0€) mit der Qualität und Menge. Eine gute Massagekerze sollte ergiebig sein und ein exzellentes Massageerlebnis bieten. Lagern Sie die Kerze kühl und trocken, um die Qualität der Inhaltsstoffe und Düfte zu bewahren. So haben Sie lange Freude an Ihrem Wellness-Produkt."
+      }
+    ]
+  },
+  "internalLinks": [
+    {
+      "text": "View all massagepistolen",
+      "url": "/category/massagepistolen"
+    },
+    {
+      "text": "View all mini-massagepistolen",
+      "url": "/category/mini-massagepistolen"
+    },
+    {
+      "text": "View all massagesessel",
+      "url": "/category/massagesessel"
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-11T19:52:43.253571"
+  "enhancedAt": "2025-10-11T22:43:07.614354"
 }

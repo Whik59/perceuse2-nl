@@ -84,7 +84,10 @@ class SmartProductLinker {
             match!.index < existingMatch.endIndex
           );
           
-          if (!isOverlapped) {
+          // Check if the match is contextually appropriate
+          const isContextuallyAppropriate = this.isContextuallyAppropriate(text, match.index, match[0].length);
+          
+          if (!isOverlapped && isContextuallyAppropriate) {
             matches.push({
               product,
               matchedText: match[0],
@@ -144,6 +147,45 @@ class SmartProductLinker {
   }
 
   /**
+   * Check if a product mention is contextually appropriate for linking
+   */
+  private isContextuallyAppropriate(text: string, startIndex: number, length: number): boolean {
+    // Get context around the match (50 characters before and after)
+    const contextStart = Math.max(0, startIndex - 50);
+    const contextEnd = Math.min(text.length, startIndex + length + 50);
+    const context = text.slice(contextStart, contextEnd).toLowerCase();
+    
+    // Skip if the match appears to be in a list of random products or unrelated context
+    const inappropriateContexts = [
+      'deluxe', 'premium', 'luxetique', 'wellness-set', 'reis', 'fit king',
+      'spa', 'massageölen', 'premiumnessstudio', 'büro', 'das weibliche becken'
+    ];
+    
+    // If context contains inappropriate product names, skip this match
+    for (const inappropriate of inappropriateContexts) {
+      if (context.includes(inappropriate)) {
+        return false;
+      }
+    }
+    
+    // Only link if the context seems to be about the actual product or related topics
+    const appropriateContexts = [
+      'massage', 'pistole', 'gerät', 'produkt', 'modell', 'geräte',
+      'massagepistole', 'mini', 'leichte', 'kompakte', 'tragbare'
+    ];
+    
+    // Check if any appropriate context words are nearby
+    for (const appropriate of appropriateContexts) {
+      if (context.includes(appropriate)) {
+        return true;
+      }
+    }
+    
+    // Default to false for safety - only link when context is clearly appropriate
+    return false;
+  }
+
+  /**
    * Escape special regex characters
    */
   private escapeRegex(string: string): string {
@@ -162,8 +204,8 @@ class SmartProductLinker {
     const matches = this.findProductMentions(text);
     if (matches.length === 0) return text;
     
-    // Limit the number of links to avoid over-linking (max 3 per paragraph)
-    const limitedMatches = this.limitLinksPerParagraph(text, matches, 3);
+    // Limit the number of links to avoid over-linking (max 1 per paragraph)
+    const limitedMatches = this.limitLinksPerParagraph(text, matches, 1);
     
     let result = '';
     let lastIndex = 0;
@@ -223,9 +265,10 @@ class SmartProductLinker {
     const productName = product.name;
     const words = productName.split(' ');
     
-    // Take first 2-3 words for a good anchor
+    // Take first 2-3 words for a good anchor, but make it more natural
     if (words.length >= 3) {
-      return words.slice(0, 3).join(' ');
+      // Use first 2 words + "model" or similar contextual word
+      return `${words.slice(0, 2).join(' ')} model`;
     } else if (words.length >= 2) {
       return words.slice(0, 2).join(' ');
     } else {

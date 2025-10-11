@@ -210,7 +210,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       {/* Footer */}
       <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
         <p className="text-sm text-gray-600 text-center">
-          Comparaison des {limitedProducts.length} meilleurs produits basée sur les spécifications et avis clients. Cliquez sur une ligne pour voir le produit. Les prix peuvent varier.
+          Vergleich der {limitedProducts.length} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt zu sehen. Preise können variieren.
         </p>
       </div>
     </div>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Category } from '../lib/types';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { getString } from '../lib/utils';
 
 interface SubcategoryWithImage extends Category {
   imageUrl?: string;
@@ -20,7 +21,7 @@ interface SubcategoryCardsProps {
 const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({ 
   categories, 
   parentCategoryId, 
-  title = "Explore Subcategories" 
+  title = getString('subcategoryCards.title') 
 }) => {
   const [subcategoriesWithImages, setSubcategoriesWithImages] = useState<SubcategoryWithImage[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -156,7 +157,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                     ))}
                   </div>
                 </div>
-                <p className="text-gray-500 mt-4">Loading subcategories...</p>
+                <p className="text-gray-500 mt-4">{getString('subcategoryCards.loading')}</p>
               </div>
             ) : subcategoriesWithImages.length > 0 ? (
               <div 
@@ -212,7 +213,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
               </div>
             ) : (
               <div className="text-center py-8">
-                <p className="text-gray-500">No subcategories available</p>
+                <p className="text-gray-500">{getString('subcategoryCards.noSubcategories')}</p>
               </div>
             )}
           </div>
