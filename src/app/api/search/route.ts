@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getProducts } from '../../../lib/getProducts';
-import { getCategories } from '../../../lib/getCategories';
+import { getProducts } from '../../../../lib/getProducts';
+import { getCategories } from '../../../../lib/getCategories';
 
 export async function GET(request: NextRequest) {
   try {
@@ -43,15 +43,13 @@ export async function GET(request: NextRequest) {
 
     // Search products
     const matchingProducts = products.filter(product => {
-      const name = product.name.toLowerCase();
-      const description = product.description?.toLowerCase() || '';
+      const title = product.title.toLowerCase();
+      const description = product.longDescription?.toLowerCase() || '';
       const slug = product.slug.toLowerCase();
-      const categoryName = product.category?.name?.toLowerCase() || '';
       
-      return name.includes(searchTerm) || 
+      return title.includes(searchTerm) || 
              description.includes(searchTerm) ||
-             slug.includes(searchTerm) ||
-             categoryName.includes(searchTerm);
+             slug.includes(searchTerm);
     });
 
     // Generate suggestions based on search term
@@ -96,10 +94,10 @@ function generateSuggestions(searchTerm: string, categories: any[], products: an
     }
   });
 
-  // Add product names that start with search term
+  // Add product titles that start with search term
   products.forEach(product => {
-    if (product.name.toLowerCase().startsWith(searchTerm)) {
-      suggestions.add(product.name);
+    if (product.title.toLowerCase().startsWith(searchTerm)) {
+      suggestions.add(product.title);
     }
   });
 

@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -15,7 +15,7 @@ interface SearchResult {
   suggestions: string[];
 }
 
-const SearchPage: React.FC = () => {
+const SearchContent: React.FC = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
   const query = searchParams.get('q') || '';
@@ -221,15 +221,15 @@ const SearchPage: React.FC = () => {
                       >
                         <div className="aspect-square relative overflow-hidden">
                           <Image
-                            src={product.imageUrl}
-                            alt={product.name}
+                            src={product.imagePaths[0] || '/placeholder.jpg'}
+                            alt={product.title}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
                         <div className="p-4">
                           <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
-                            {product.name}
+                            {product.title}
                           </h3>
                           <div className="flex items-center justify-between mb-2">
                             <span className="text-lg font-bold text-gray-900">
@@ -238,7 +238,7 @@ const SearchPage: React.FC = () => {
                             {renderStars(product.reviews.averageRating)}
                           </div>
                           <p className="text-sm text-gray-600 line-clamp-2">
-                            {product.description}
+                            {product.shortDescription}
                           </p>
                         </div>
                       </Link>
@@ -271,6 +271,25 @@ const SearchPage: React.FC = () => {
         </div>
       </div>
     </Layout>
+  );
+};
+
+const SearchPage: React.FC = () => {
+  return (
+    <Suspense fallback={
+      <Layout>
+        <div className="min-h-screen bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="text-center py-12">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
+              <p className="mt-4 text-gray-600">Chargement...</p>
+            </div>
+          </div>
+        </div>
+      </Layout>
+    }>
+      <SearchContent />
+    </Suspense>
   );
 };
 
