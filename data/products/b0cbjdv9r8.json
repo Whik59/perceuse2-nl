@@ -1,9 +1,9 @@
 {
   "productId": "B0CBJDV9R8",
-  "name": "i9 Drone Enfant Jouet,Cadeau pour Garçons et Filles,Helicoptere Télécommandé avec Lumières Colorées,RC Quadricoptère avec Maintien d'Altitude et Mode Sans Tête,2 Batteries Incluses",
-  "slug": "i9-drone-enfant-jouetcadeau-pour-garcons-et-filles",
-  "description": "【Lumières LED Colorées】Drone est équipé de LED néon ultra-lumineuses et de trois modes d’affichage lumineux différents, qui attirent grandement l’attention des enfants et augmente le plaisir de voler la nuit. Parfait pour la soirée de la famille, Noël, partie d'anniversaire. | 【Facile à Piloter】Appuyez simplement sur le bouton de décollage à une touche pour commencer à voler. La fonction de maintien en hauteur permet à votre drone de planer automatiquement dans les airs même lorsque vous ne faites rien avec le contrôleur.En mode sans tête, il n’est pas nécessaire d’identifier la direction de la tête du drone pendant le vol et la direction de vol est soumise à la télécommande. Il est très facile à contrôler même pour les enfants, les débutants. | 【Profitez de plus de Temps de Plaisir】Flip à 360 ° cool, vol en cercle, auto-rotation et autres fonctions de cascade pour enrichir votre expérience de vol. Trois modes de vitesse, adaptés à différents environnements de vol. Vitesses faibles et moyennes conviennent les enfants et les débutants, vitesses élevées conviennent les adultes et les joueurs qualifiés. | 【Doublez Le Temps de Vol】Livré avec 2 batteries rechargeables et 2 câbles de charge USB pour un temps de vol prolongé, vous permettre de jouer avec ce drone télécommandé plus de temps en faisant ce que vous voulez. | 【Sûr et Durable】Le drone jouet est conçu avec quatre protecteurs d’hélice robustes qui protègent les enfants du corps causé par l’hélice rotative et protègent l’hélice des collisions.Cadeau d'anniversaire et de vacances parfait pour les enfants et amis.",
-  "shortDescription": "i9 Drone Enfant Jouet,Cadeau pour Garçons et Filles,Helicoptere Télécommandé avec Lumières Colorées,",
+  "name": "Drone Enfant i9 avec Lumières Colorées - Cadeau Idéal 37€",
+  "slug": "drone-enfant-avec-lumieres-colorees-cadeau",
+  "description": "Découvrez le **Drone Enfant i9**, le cadeau parfait pour éveiller la passion de la robotique chez les petits ! Ce jouet télécommandé, aussi appelé hélicoptère télécommandé, est conçu pour offrir des heures d'amusement aux garçons et filles. Équipé de **lumières LED colorées** vibrantes, il est idéal pour des vols ludiques de jour comme de nuit. Le drone quadricoptère i9 intègre des technologies avancées pour une expérience de vol simplifiée et sécurisée : le **maintien d'altitude** automatique assure une stabilité parfaite, même pour les débutants, tandis que le **mode sans tête** élimine le souci de l'orientation du drone. Doté de **2 batteries incluses**, le plaisir de voler est prolongé. Un cadeau technologique innovant et facile à prendre en main, parfait pour initier les enfants au monde fascinant des drones.",
+  "shortDescription": "Drone Enfant i9 : Cadeau ludique et technologique pour garçons et filles. Maintien d'altitude, mode sans tête, lumières colorées. 2 batteries incluses. Facile à piloter !",
   "price": "37.0",
   "compareAtPrice": 42,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : LEAPRCSTORE",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Enfant i9 avec Lumières Colorées - Cadeau Idéal 37€",
+    "description": "Drone Enfant i9 : Cadeau ludique et technologique pour garçons et filles. Maintien d'altitude, mode sans tête, lumières colorées. 2 batteries incluses. Facile à piloter !",
+    "keywords": [
+      "drone enfant i9 avec lumières colorées - cadeau idéal 37€",
+      "drones avec maintien d'altitude",
+      "marque : leaprcstore"
+    ],
+    "ogTitle": "Drone Enfant i9 avec Lumières Colorées - Cadeau Idéal 37€",
+    "ogDescription": "Drone Enfant i9 : Cadeau ludique et technologique pour garçons et filles. Maintien d'altitude, mode sans tête, lumières colorées. 2 batteries incluses. Facile à piloter !"
   },
   "reviews": {
     "averageRating": 4.1,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone enfant RC quadricoptère, lumières colorées LED, fonction maintien d'altitude, mode sans tête, télécommande incluse, 2 batteries rechargeables incluses. Facile à piloter pour les enfants. Matériaux résistants."
+  },
+  "faq": [
+    {
+      "q": "Quel est l'âge recommandé pour ce drone enfant ?",
+      "a": "Ce drone est idéal pour les enfants à partir de 8 ans, grâce à sa facilité de pilotage et ses fonctions sécuritaires comme le maintien d'altitude et le mode sans tête."
+    },
+    {
+      "q": "Combien de temps dure le vol avec une batterie ?",
+      "a": "Chaque batterie offre une autonomie de vol d'environ X minutes (veuillez vérifier les spécifications exactes du produit pour le temps de vol précis). Avec 2 batteries incluses, le temps de jeu est doublé."
+    },
+    {
+      "q": "Le drone est-il résistant aux chutes ?",
+      "a": "Oui, le Drone Enfant i9 est conçu avec des matériaux robustes pour résister aux petits chocs et chutes inévitables lors des premières utilisations par les enfants."
+    },
+    {
+      "q": "Est-il facile à assembler et à faire fonctionner ?",
+      "a": "Absolument ! Ce drone est prêt à voler rapidement. L'assemblage est minimal et l'utilisation de la télécommande est intuitive, parfaite pour les débutants."
+    },
+    {
+      "q": "Les lumières colorées sont-elles seulement esthétiques ?",
+      "a": "Les lumières colorées ajoutent un attrait visuel pour le jeu, mais elles aident également à la visibilité du drone, surtout par faible luminosité ou lors de vols de nuit."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:31.060478",
+  "originalName": "i9 Drone Enfant Jouet,Cadeau pour Garçons et Filles,Helicoptere Télécommandé avec Lumières Colorées,RC Quadricoptère avec Maintien d'Altitude et Mode Sans Tête,2 Batteries Incluses",
+  "enhanced": true
 }

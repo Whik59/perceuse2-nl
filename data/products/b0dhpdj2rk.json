@@ -1,9 +1,9 @@
 {
   "productId": "B0DHPDJ2RK",
-  "name": "Lot de 16 hélices de rechange pour drone RC, hélices d'avion RC, accessoires de pales d'hélice, hélices en plastique, pour tous les types de drones (noir, rouge)",
-  "slug": "lot-de-16-helices-de-rechange-pour-drone-rc-helice",
-  "description": "Informations sur l'emballage : vous recevrez 16 pales d'hélice. L'hélice est disponible en noir et rouge, ce qui est non seulement élégant, mais assure également une meilleure visibilité et une meilleure direction lors du vol | Matériaux de haute qualité : nos hélices de 16 pièces sont fabriquées à partir de matériaux robustes et durables qui garantissent une durée de vie plus longue et une meilleure stabilité de vol | Compatible : l'hélice est compatible avec une variété de drones. Elle donne à votre avion une bonne vitesse de vol et vous apporte une meilleure expérience | Haute efficacité : les lames en plastique de haute qualité assurent une expérience d'utilisation durable et stable, optimisent les performances du bateau et assurent une vitesse plus élevée, une maniabilité et une efficacité de carburant plus élevées | Si vous avez des questions, veuillez nous contacter, nous ferons de notre mieux pour résoudre tous les problèmes pour vous",
-  "shortDescription": "Lot de 16 hélices de rechange pour drone RC, hélices d'avion RC, accessoires de pales d'hélice, héli",
+  "name": "Lot de 16 Hélices de Rechange pour Drone RC - Noir & Rouge",
+  "slug": "lot-helices-rechange-pour-drone-noir",
+  "description": "Optimisez les performances et la durée de vie de votre drone RC avec ce lot essentiel de 16 hélices de rechange. Conçues en plastique résistant et léger, ces hélices assurent une stabilité et une maniabilité accrues pour tous types de drones RC. Idéales pour remplacer les hélices endommagées ou usées, elles garantissent un vol sécurisé et efficace. Ce pack inclut 8 hélices noires et 8 hélices rouges, facilitant l'identification de la direction de rotation et la maintenance de votre appareil volant. Un accessoire technologique indispensable pour tout passionné de modélisme aérien.",
+  "shortDescription": "Lot de 16 hélices RC en plastique (8 noires, 8 rouges) pour tous drones. Stabilité et performance optimisées.",
   "price": "6.0",
   "compareAtPrice": 6,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : YUGUOLAN",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lot de 16 Hélices de Rechange pour Drone RC - Noir & Rouge",
+    "description": "Lot de 16 hélices RC en plastique (8 noires, 8 rouges) pour tous drones. Stabilité et performance optimisées.",
+    "keywords": [
+      "lot de 16 hélices de rechange pour drone rc - noir & rouge",
+      "hélices et protections pour drones",
+      "marque : yuguolan"
+    ],
+    "ogTitle": "Lot de 16 Hélices de Rechange pour Drone RC - Noir & Rouge",
+    "ogDescription": "Lot de 16 hélices RC en plastique (8 noires, 8 rouges) pour tous drones. Stabilité et performance optimisées."
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 16 hélices de rechange pour drones RC. Matériau : plastique résistant. Couleurs : 8 noires, 8 rouges. Compatibilité universelle tous types de drones RC. Accessoires d'avion RC, pales d'hélice."
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec tous les drones RC ?",
+      "a": "Oui, ce lot de 16 hélices est conçu pour être universellement compatible avec la grande majorité des drones RC, grâce à leur conception standardisée."
+    },
+    {
+      "q": "Quelle est la matière de ces hélices ?",
+      "a": "Les hélices sont fabriquées en plastique résistant et léger, garantissant à la fois durabilité et performance aérodynamique pour votre drone."
+    },
+    {
+      "q": "Pourquoi y a-t-il deux couleurs d'hélices ?",
+      "a": "Les deux couleurs (noir et rouge) permettent de distinguer facilement les hélices qui tournent dans un sens de celles qui tournent dans l'autre, simplifiant ainsi l'installation et la maintenance de votre drone RC."
+    },
+    {
+      "q": "Combien d'hélices y a-t-il dans le lot ?",
+      "a": "Le lot contient un total de 16 hélices de rechange."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:41.992739",
+  "originalName": "Lot de 16 hélices de rechange pour drone RC, hélices d'avion RC, accessoires de pales d'hélice, hélices en plastique, pour tous les types de drones (noir, rouge)",
+  "enhanced": true
 }

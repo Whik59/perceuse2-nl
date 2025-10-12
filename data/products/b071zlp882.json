@@ -1,9 +1,9 @@
 {
   "productId": "B071ZLP882",
-  "name": "PowerVision PowerRay Explorer Drone sous-Marin 12.4 mpix Blanc",
-  "slug": "powervision-powerray-explorer-drone-sous-marin-124",
-  "description": "À l'aide de l'application mobile PowerVision, les utilisateurs peuvent visualiser en temps réel les photos et vidéos transmises par le PowerRay directement sur un smartphone iOS ou Android. | Contrôlez votre drone du bout des doigts grce à l'App Vision+: changez les paramètres de prises de vue, contrôlez précisément la vitesse et la profondeur, et explorez le monde sous-marin! | Caméra 4K spécialement conçue pour la prise de vue sous-marine | PowerVision Power Ray Explorer Drone sous-marin | À l'aide de l'application mobile PowerVision, les utilisateurs peuvent visualiser en temps réel les photos et vidéos transmises par le PowerRay directement sur un smartphone iOS ou Android.",
-  "shortDescription": "PowerVision PowerRay Explorer Drone sous-Marin 12.4 mpix Blanc",
+  "name": "Drone sous-marin PowerVision PowerRay Explorer",
+  "slug": "drone-sous-marin-powervision-powerray-explorer",
+  "description": "Découvrez les profondeurs comme jamais auparavant avec le drone sous-marin PowerVision PowerRay Explorer. Équipé d'un capteur photo de 12.4 mégapixels, il capture des images d'une clarté exceptionnelle pour documenter vos explorations sous-marines. Sa conception intelligente et sa technologie de pointe vous offrent une expérience immersive et simplifiée. Idéal pour les passionnés de plongée, les chercheurs aquatiques et les amateurs de photographie sous-marine. Profitez de sa maniabilité et de sa fiabilité pour explorer les fonds marins en toute confiance.",
+  "shortDescription": "Drone sous-marin PowerVision PowerRay Explorer 12.4 Mpx Blanc, pour des explorations aquatiques immersives.",
   "price": "84.0",
   "compareAtPrice": 96,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : PowerVision",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone sous-marin PowerVision PowerRay Explorer",
+    "description": "Drone sous-marin PowerVision PowerRay Explorer 12.4 Mpx Blanc, pour des explorations aquatiques immersives.",
+    "keywords": [
+      "drone sous-marin powervision powerray explorer",
+      "drones sous-marins (rov)",
+      "marque : powervision"
+    ],
+    "ogTitle": "Drone sous-marin PowerVision PowerRay Explorer",
+    "ogDescription": "Drone sous-marin PowerVision PowerRay Explorer 12.4 Mpx Blanc, pour des explorations aquatiques immersives."
   },
   "reviews": {
     "averageRating": 2.1,
@@ -42,5 +48,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Résolution photo: 12.4 Mpx, Couleur: Blanc, Marque: PowerVision, Modèle: PowerRay Explorer"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution photo du drone sous-marin PowerRay Explorer ?",
+      "a": "Le drone sous-marin PowerVision PowerRay Explorer est équipé d'un capteur photo de 12.4 mégapixels, vous permettant de capturer des images détaillées de vos explorations sous-marines."
+    },
+    {
+      "q": "Le drone PowerRay Explorer est-il facile à utiliser ?",
+      "a": "Oui, le PowerVision PowerRay Explorer a été conçu pour offrir une expérience utilisateur intuitive. Sa technologie avancée simplifie le contrôle et la navigation sous l'eau."
+    },
+    {
+      "q": "Quels types d'utilisations sont recommandés pour ce drone ?",
+      "a": "Ce drone est idéal pour la photographie et la vidéographie sous-marines, l'exploration des fonds marins, la plongée, ainsi que pour les applications de recherche aquatique."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:11.929671",
+  "originalName": "PowerVision PowerRay Explorer Drone sous-Marin 12.4 mpix Blanc",
+  "enhanced": true
 }

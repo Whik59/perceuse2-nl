@@ -1,9 +1,9 @@
 {
   "productId": "B09BMYYWJG",
-  "name": "Chasing F1 Rov Drone de pêche sous-Marine sans Fil jusqu'à 28 m Compatible Streaming en Direct GPS Jaune",
-  "slug": "chasing-f1-rov-drone-de-peche-sous-marine-sans-fil",
-  "description": "Détecte les terrains sous-marins et les obstacles, recherche des groupes de poissons et identifie les espèces de poissons. | Prend en charge le montage de bateau d'appât, jette les appâts dans l'eau en un seul clic. | Permet d'observer les bancs de poissons, même la nuit avec vision nocturne infrarouge | Prend en charge le support de boule sonar et d'autres accessoires. | Prend en charge le streaming en direct, le partage à une touche.",
-  "shortDescription": "Chasing F1 Rov Drone de pêche sous-Marine sans Fil jusqu'à 28 m Compatible Streaming en Direct GPS J",
+  "name": "Drone de pêche sous-marine Chasing F1 Rov, Jaune",
+  "slug": "drone-peche-sous-marine-chasing-rov-jaune",
+  "description": "Explorez les profondeurs avec le drone de pêche sous-marine sans fil Chasing F1 Rov. Équipé d'une caméra haute définition, il vous permet de streamer vos expéditions en direct jusqu'à 28 mètres de profondeur. Idéal pour les pêcheurs passionnés et les amateurs de technologie sous-marine, ce drone vous offre une vision claire et précise de l'environnement aquatique grâce à son système de positionnement GPS intégré. Sa couleur jaune vive assure une excellente visibilité sous l'eau. Un outil révolutionnaire pour vos aventures sous-marines.",
+  "shortDescription": "Drone de pêche sous-marine Chasing F1 Rov (Jaune). Sans fil, 28m, Streaming Live, GPS. Révolutionnez votre pêche !",
   "price": "82.0",
   "compareAtPrice": 94,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Chasing",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone de pêche sous-marine Chasing F1 Rov, Jaune",
+    "description": "Drone de pêche sous-marine Chasing F1 Rov (Jaune). Sans fil, 28m, Streaming Live, GPS. Révolutionnez votre pêche !",
+    "keywords": [
+      "drone de pêche sous-marine chasing f1 rov, jaune",
+      "drones sous-marins (rov)",
+      "marque : chasing"
+    ],
+    "ogTitle": "Drone de pêche sous-marine Chasing F1 Rov, Jaune",
+    "ogDescription": "Drone de pêche sous-marine Chasing F1 Rov (Jaune). Sans fil, 28m, Streaming Live, GPS. Révolutionnez votre pêche !"
   },
   "reviews": {
     "averageRating": 3.0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Chasing F1 Rov Drone de pêche sous-Marine sans Fil, Portée jusqu'à 28 m, Compatible Streaming en Direct, GPS, Couleur Jaune. Prix : 82.0€."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la profondeur maximale d'immersion du drone Chasing F1 Rov ?",
+      "a": "Le drone Chasing F1 Rov peut explorer les fonds marins jusqu'à une profondeur maximale de 28 mètres."
+    },
+    {
+      "q": "Le drone Chasing F1 Rov est-il compatible avec le streaming en direct ?",
+      "a": "Oui, le drone Chasing F1 Rov est entièrement compatible avec le streaming en direct, vous permettant de partager vos découvertes en temps réel."
+    },
+    {
+      "q": "Quelle est la fonction du GPS sur ce drone sous-marin ?",
+      "a": "La fonction GPS intégré au drone Chasing F1 Rov vous permet de le localiser et de retracer vos parcours sous-marins, offrant ainsi une meilleure gestion de vos expéditions."
+    },
+    {
+      "q": "Pourquoi le drone est-il de couleur jaune ?",
+      "a": "La couleur jaune vive du drone Chasing F1 Rov est choisie pour optimiser sa visibilité dans les environnements aquatiques, facilitant ainsi son suivi et sa récupération."
+    },
+    {
+      "q": "Ce drone est-il adapté à la pêche ?",
+      "a": "Absolument ! Le Chasing F1 Rov est spécifiquement conçu comme un drone de pêche sous-marine, vous offrant une nouvelle perspective pour repérer et identifier les zones de pêche potentielles."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:18.639291",
+  "originalName": "Chasing F1 Rov Drone de pêche sous-Marine sans Fil jusqu'à 28 m Compatible Streaming en Direct GPS Jaune",
+  "enhanced": true
 }

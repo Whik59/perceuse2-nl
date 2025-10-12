@@ -1,9 +1,9 @@
 {
   "productId": "B0F45Q987P",
-  "name": "Drone 4810 Système de pulvérisation agricole de buse centrifuge avec un grand rayon de pulvérisation et même l'atomisation pour l'usine d'avion modèle [Performance]",
-  "slug": "drone-4810-systeme-de-pulverisation-agricole-de-bu",
-  "description": "[Matériau premium] Fait d'alliage en plastique, en caoutchouc et en aluminium de haute qualité pour la durabilité et l'efficacité à long terme. | [Rayon de pulvérisation plus grand] offre plus de couverture et une efficacité plus élevée à 20 000 tr / min par rapport aux buses standard. | [Même l'atomisation] assure une atomisation uniforme de la médecine liquide pour une distribution et une efficacité optimales du pulvérisation. | [Taille du produit] dispose d'une longueur de câble de 133 cm, d'une connexion de tuyau d'eau de 6 mm et d'une longueur de produit de 30 cm pour une utilisation polyvalente. | [Modèle applicable] spécialement conçu pour les machines à usines d'avion de modèle, l'offre et les performances cohérentes.",
-  "shortDescription": "Drone 4810 Système de pulvérisation agricole de buse centrifuge avec un grand rayon de pulvérisation",
+  "name": "Drone Agricole 4810 : Pulvérisateur Centrifuge Haute Performance",
+  "slug": "drone-agricole-4810-pulverisateur-centrifuge-haute",
+  "description": "Optimisez vos opérations agricoles avec le Drone 4810, équipé d'un système de pulvérisation centrifuge avancé. Sa buse innovante garantit un large rayon d'action et une atomisation uniforme, assurant une couverture parfaite de vos cultures. Idéal pour les exploitants agricoles et les passionnés d'aéronefs modèles recherchant performance et précision.  Ce drone agricole est conçu pour maximiser l'efficacité de vos traitements phytosanitaires, réduire le gaspillage de produit et améliorer la santé de vos plantes.",
+  "shortDescription": "Drone agricole 4810 : pulvérisation centrifuge performante avec large rayon et atomisation uniforme. Idéal pour cultures et modélisme.",
   "price": "137.0",
   "compareAtPrice": 157,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique EVTSCAN",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Agricole 4810 : Pulvérisateur Centrifuge Haute Performance",
+    "description": "Drone agricole 4810 : pulvérisation centrifuge performante avec large rayon et atomisation uniforme. Idéal pour cultures et modélisme.",
+    "keywords": [
+      "drone agricole 4810 : pulvérisateur centrifuge haute performance",
+      "drones de pulvérisation agricole",
+      "visiter la boutique evtscan"
+    ],
+    "ogTitle": "Drone Agricole 4810 : Pulvérisateur Centrifuge Haute Performance",
+    "ogDescription": "Drone agricole 4810 : pulvérisation centrifuge performante avec large rayon et atomisation uniforme. Idéal pour cultures et modélisme."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Système de pulvérisation : Buse centrifuge \nRayon de pulvérisation : Grand \nAtomisation : Uniforme \nApplication : Agriculture, usine d'avion modèle (performance)"
+  },
+  "faq": [
+    {
+      "q": "Quel est l'avantage principal de la buse centrifuge sur ce drone ?",
+      "a": "La buse centrifuge du Drone 4810 assure une atomisation très fine et uniforme des produits de traitement, couvrant une large surface de manière homogène, ce qui optimise l'efficacité et réduit les zones non traitées."
+    },
+    {
+      "q": "Ce drone est-il adapté aux grandes exploitations agricoles ?",
+      "a": "Absolument. Le grand rayon de pulvérisation et l'atomisation précise du Drone 4810 le rendent particulièrement adapté aux grandes parcelles agricoles, permettant des traitements rapides et efficaces."
+    },
+    {
+      "q": "Peut-on utiliser ce drone pour des applications autres que l'agriculture ?",
+      "a": "Oui, le descriptif mentionne une utilisation pour l'usine d'avion modèle, suggérant sa polyvalence et sa capacité à intégrer des systèmes de pulvérisation précis pour diverses applications nécessitant une haute performance."
+    },
+    {
+      "q": "Quel type de produits ce drone peut-il pulvériser ?",
+      "a": "Le drone est conçu pour la pulvérisation agricole, ce qui inclut généralement les pesticides, herbicides, fongicides, engrais liquides, et autres traitements phytosanitaires. Il est recommandé de vérifier la compatibilité spécifique avec les produits que vous prévoyez d'utiliser."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:51.345241",
+  "originalName": "Drone 4810 Système de pulvérisation agricole de buse centrifuge avec un grand rayon de pulvérisation et même l'atomisation pour l'usine d'avion modèle [Performance]",
+  "enhanced": true
 }

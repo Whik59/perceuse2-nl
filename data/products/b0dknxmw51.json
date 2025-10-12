@@ -1,9 +1,9 @@
 {
   "productId": "B0DKNXMW51",
-  "name": "Potensic Sac de Transport pour Drone de la série Atom",
-  "slug": "potensic-sac-de-transport-pour-drone-de-la-serie-a",
-  "description": "Compatibilité : sac de transport original du drone Potensic ATOM 2 et plus d'espace pour la nouvelle télécommande ATOM 2. | Protection complète : offre une protection complète pour ATOM 2/ATOM 1/ATOM SE/ATOM LT et d'autres accessoires.",
-  "shortDescription": "Potensic Sac de Transport pour Drone de la série Atom",
+  "name": "Sac de Transport Potensic pour Drone Atom",
+  "slug": "sac-transport-potensic-pour-drone-atom",
+  "description": "Optimisez votre expérience de vol avec le Sac de Transport Potensic, spécialement conçu pour les drones de la série Atom. Ce sac robuste et intelligent offre une protection supérieure pour votre équipement, assurant ainsi sa longévité et sa performance. Idéal pour les passionnés de drones et les professionnels recherchant une solution de rangement et de transport fiable et pratique. Transportez votre drone Atom en toute sécurité grâce à une conception pensée pour l'aventure et la mobilité. Un investissement indispensable pour préserver votre drone des chocs et des éléments extérieurs, garantissant ainsi des prises de vue aériennes sans souci.",
+  "shortDescription": "Sac de transport premium pour drone Potensic Atom. Protection robuste, organisation optimisée. Idéal pour le voyage et le stockage.",
   "price": "59.0",
   "compareAtPrice": 67,
   "images": [
@@ -25,9 +25,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Potensic",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Sac de Transport Potensic pour Drone Atom",
+    "description": "Sac de transport premium pour drone Potensic Atom. Protection robuste, organisation optimisée. Idéal pour le voyage et le stockage.",
+    "keywords": [
+      "sac de transport potensic pour drone atom",
+      "sacs de transport et étuis pour drones",
+      "visiter la boutique potensic"
+    ],
+    "ogTitle": "Sac de Transport Potensic pour Drone Atom",
+    "ogDescription": "Sac de transport premium pour drone Potensic Atom. Protection robuste, organisation optimisée. Idéal pour le voyage et le stockage."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -39,5 +45,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Conçu spécifiquement pour les drones Potensic de la série Atom. Matériaux de haute qualité pour une protection maximale. Compartiments internes personnalisables pour une organisation optimale. Fermeture éclair robuste et poignée de transport confortable. Design compact et léger pour une portabilité aisée."
+  },
+  "faq": [
+    {
+      "q": "Ce sac est-il compatible avec tous les drones Potensic Atom ?",
+      "a": "Oui, ce sac de transport est exclusivement conçu pour s'adapter parfaitement aux drones de la série Potensic Atom, garantissant un ajustement sûr et une protection optimale."
+    },
+    {
+      "q": "Quels accessoires supplémentaires puis-je ranger dans ce sac ?",
+      "a": "Le sac dispose de compartiments internes modulables qui peuvent accueillir des batteries supplémentaires, des hélices de rechange, une télécommande, et d'autres petits accessoires essentiels pour vos sessions de vol."
+    },
+    {
+      "q": "Le sac est-il résistant aux intempéries ?",
+      "a": "Bien que conçu pour offrir une excellente protection, le sac est fabriqué à partir de matériaux résistants pour protéger votre drone des conditions normales d'utilisation. Pour une exposition prolongée à des intempéries extrêmes, une protection supplémentaire peut être envisagée."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.386700",
+  "originalName": "Potensic Sac de Transport pour Drone de la série Atom",
+  "enhanced": true
 }

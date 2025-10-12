@@ -1,9 +1,9 @@
 {
   "productId": "B0DZ28BF2J",
-  "name": "OBEST Drone GPS avec Caméra 4K, Quadricoptère RC WiFi avec Moteur Sans Balais, Moins de 249 g, Durabilité, évitement d'obstacles à 360°, 2 Piles, Convient aux Débutants",
-  "slug": "obest-drone-gps-avec-camera-4k-quadricoptere-rc-wi",
-  "description": "❤Nouveau Moteur Brushless: comparé au moteur traditionnel, le moteur brushless n'est pas facile à endommager, a moins de bruit, des performances plus élevées et une durée de vie plus longue. Les deux batteries intelligentes 3.7v 2000mah prolongent le temps de vol jusqu'à 44 - 50 minutes, ce qui les rend idéales pour les amateurs de photographie en plein air | ❤Double Objectif Clair et Stable: l'objectif avant de ce drone est équipé d'un grand angle 4K HD wifi, l'objectif HD inférieur a un flux lumineux qui peut changer l'angle de la caméra. La transmission fpv en temps réel peut vous aider à capturer chaque moment précieux avec une grande qualité. La PTZ servo a été conçue pour améliorer la stabilité et a ajouté la fonction anti - tremblement électronique EIS pour rendre les photos plus nettes | ❤Mode GPS +Suivi du Flux Lumineux: Profitez d'une expérience de vol sans soucis grâce à la technologie de positionnement GPS avancée. Le drone revient automatiquement en cas de perte de signal ou de batterie faible et peut planer plus régulièrement grâce à un capteur de flux lumineux équipé. Également équipé d'une tête d'évitement d'obstacles, il peut s'arrêter d'urgence lorsqu'il rencontre des obstacles sans entrer en collision avec eux, de sorte que vous n'avez pas à vous soucier de perdre votre drone | ❤Polyvalent: le drone pliable xt505 dispose de plusieurs modes de vol automatiques amusants, notamment haut et Bas, avant et arrière, tourner à gauche / droite, vol latéral, itinéraire personnalisé, mode sans tête, photographie gestuelle, fpv wifi et localisation cartographique en temps réel du drone. Ces fonctionnalités offrent un large éventail de possibilités créatives et de divertissement tout en contrôlant le drone | ❤Convivial pour les Débutants: Comme le drone pèse moins de 184 grammes, vous n'avez pas besoin de vous inscrire pour voler. Il est également livré avec un sac à main pour un stockage et un transport faciles. Le drone est facile à utiliser et même si vous êtes un débutant, les trois fonctions one touch START, auto Hover et One touch Back vous aideront à apprendre à voler rapidement",
-  "shortDescription": "OBEST Drone GPS avec Caméra 4K, Quadricoptère RC WiFi avec Moteur Sans Balais, Moins de 249 g, Durab",
+  "name": "Drone OBEST GPS 4K - Stabilité, Puissance & Facilité pour Débutants",
+  "slug": "drone-obest-gps-stabilite-puissance-facilite",
+  "description": "Découvrez le drone OBEST GPS avec caméra 4K, un quadricoptère RC WiFi conçu pour l'exploration aérienne sans effort. Doté d'un moteur sans balais puissant et silencieux, il offre une durabilité exceptionnelle et une stabilité de vol inégalée. Son poids inférieur à 249g le rend idéal pour une utilisation sans contrainte. Grâce à son système d'évitement d'obstacles à 360°, vos vols sont sécurisés, même en environnement complexe. Profitez de longues sessions de vol grâce aux 2 batteries incluses. Parfait pour les débutants souhaitant capturer des images aériennes spectaculaires en résolution 4K, ce drone combine technologie de pointe et simplicité d'utilisation. Obtenez le vôtre dès maintenant pour seulement 119.0€ et envolez-vous vers de nouvelles perspectives !",
+  "shortDescription": "Drone OBEST GPS 4K <249g, moteur brushless, évitement 360°, 2 batteries. Idéal débutant, 119.0€.",
   "price": "119.0",
   "compareAtPrice": 136,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : OBEST",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone OBEST GPS 4K - Stabilité, Puissance & Facilité pour Débutants",
+    "description": "Drone OBEST GPS 4K <249g, moteur brushless, évitement 360°, 2 batteries. Idéal débutant, 119.0€.",
+    "keywords": [
+      "drone obest gps 4k - stabilité, puissance & facilité pour débutants",
+      "drones avec suivi de parcours (waypoint)",
+      "marque : obest"
+    ],
+    "ogTitle": "Drone OBEST GPS 4K - Stabilité, Puissance & Facilité pour Débutants",
+    "ogDescription": "Drone OBEST GPS 4K <249g, moteur brushless, évitement 360°, 2 batteries. Idéal débutant, 119.0€."
   },
   "reviews": {
     "averageRating": 3.1,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K haute résolution, GPS intégré, Moteur sans balais, Autonomie prolongée (2 batteries), Évitement d'obstacles 360°, Poids < 249g, Connectivité WiFi, Idéal débutants, Télécommande RC."
+  },
+  "faq": [
+    {
+      "q": "Ce drone OBEST est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le drone OBEST GPS 4K est spécialement conçu pour les débutants. Son système GPS assure un vol stable et le mode retour à la maison facilite son contrôle. De plus, son poids inférieur à 249g le rend plus accessible et sa prise en main est intuitive."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra 4K de ce drone ?",
+      "a": "La caméra 4K de ce drone OBEST capture des images d'une netteté incroyable et de couleurs vives, vous permettant de réaliser des vidéos et des photos aériennes de qualité professionnelle. Redécouvrez le monde sous un nouvel angle avec une résolution exceptionnelle."
+    },
+    {
+      "q": "Combien de temps puis-je voler avec ce drone ?",
+      "a": "Grâce aux 2 batteries incluses, vous bénéficiez d'une autonomie de vol prolongée. Chaque batterie offre un temps de vol significatif, vous permettant de profiter pleinement de vos sessions de photographie et de vidéographie aériennes sans interruption fréquente."
+    },
+    {
+      "q": "Comment fonctionne le système d'évitement d'obstacles à 360° ?",
+      "a": "Le système d'évitement d'obstacles à 360° utilise des capteurs avancés pour détecter les obstacles dans toutes les directions autour du drone. Il ajuste automatiquement sa trajectoire pour éviter les collisions, rendant ainsi le vol plus sûr et plus serein, surtout dans des environnements complexes."
+    },
+    {
+      "q": "Est-ce que ce drone nécessite une immatriculation ou une licence ?",
+      "a": "Grâce à son poids inférieur à 249g, ce drone OBEST est considéré comme un drone de loisir léger dans de nombreuses réglementations. Il est donc généralement dispensé d'immatriculation ou de licence. Il est cependant toujours recommandé de vérifier la réglementation locale en vigueur avant de voler."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:51.332049",
+  "originalName": "OBEST Drone GPS avec Caméra 4K, Quadricoptère RC WiFi avec Moteur Sans Balais, Moins de 249 g, Durabilité, évitement d'obstacles à 360°, 2 Piles, Convient aux Débutants",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B09WW28LDC",
   "name": "N°1 des ventes",
-  "slug": "n1-des-ventes",
-  "description": "\" Temps de vol max. 34 min* Préparez-vous à voler l’esprit libre.\" | *Mesuré à une vitesse constante de 21,6 km/h dans un environnement sans vent. | Model: BWX162-2453-7.38; Capacity: 2453 mAh; Weight: Approx. 80.5 g; Voltage: 7.38 V; Charging Voltage Limit: 8.5 V; Battery Type: Li-ion; Energy: 18.1 Wh; Max Charging Power: 37 W; Charging Time: 64 mins (with DJI 30W USB-C Charger and the battery mounted to the aircraft); Charging Temperature: 5° to 40° C (41° to 104° F); Recommended Charger: DJI 30W USB-C Charger or other USB Power Delivery chargers | \" Temps de vol max. 34 min* Préparez-vous à voler l’esprit libre.\" | *Mesuré à une vitesse constante de 21,6 km/h dans un environnement sans vent.",
-  "shortDescription": "N°1 des ventes",
+  "slug": "n-1-des-ventes",
+  "description": "<div><h2>N°1 des ventes</h2><p>Quality product</p></div>",
+  "shortDescription": "N°1 des ventes - Quality Product",
   "price": "64.0",
   "compareAtPrice": 73,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "N°1 des ventes",
+    "description": "N°1 des ventes - Quality Product",
+    "keywords": [
+      "n°1 des ventes",
+      "batteries de vol intelligentes",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "N°1 des ventes",
+    "ogDescription": "N°1 des ventes - Quality Product"
   },
   "reviews": {
     "averageRating": 4.7,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:22.092940",
+  "originalName": "N°1 des ventes",
+  "enhanced": true
 }

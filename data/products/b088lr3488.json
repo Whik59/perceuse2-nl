@@ -1,0 +1,76 @@
+{
+  "productId": "B088LR3488",
+  "name": "Module GPS GY-NEO6MV2 NEO-6M avec Antenne Céramique pour Arduino",
+  "slug": "gy-neo6mv2-module-gps-neo-6m-avec-antenne",
+  "description": "Optimisez vos projets de robotique et de drone avec le module GPS GY-NEO6MV2 NEO-6M. Doté d'une antenne en céramique super puissante, il garantit une réception de signal GPS exceptionnelle pour une précision de localisation inégalée. Compatible avec Arduino, APM 2.5 et toute carte de commande de vol nécessitant des données de position précises. Idéal pour les applications nécessitant une navigation fiable, le suivi de flotte, ou la géolocalisation de vos créations technologiques. Son faible encombrement et sa faible consommation d'énergie (3V-5V) en font la solution parfaite pour les plateformes embarquées. Intègre une mémoire EEPROM pour un stockage des paramètres et une configuration rapide. Un choix stratégique pour les développeurs et les passionnés de technologie souhaitant intégrer une fonction GPS performante à leurs systèmes robotiques et électroniques.",
+  "shortDescription": "Module GPS haute précision NEO-6M pour Arduino/APM. Antenne céramique puissante, 3V-5V, EEPROM. Idéal pour robots et drones.",
+  "price": "9.0",
+  "compareAtPrice": 10,
+  "images": [
+    "https://m.media-amazon.com/images/I/512x4cPF9cL._AC_SL1315_.jpg",
+    "https://m.media-amazon.com/images/I/61P1uevHe-L._AC_SL1485_.jpg",
+    "https://m.media-amazon.com/images/I/61lA6z7qBRL._AC_SL1377_.jpg",
+    "https://m.media-amazon.com/images/I/61kEE2dlcVL._AC_SL1448_.jpg",
+    "https://m.media-amazon.com/images/I/61fgfPeoiWL._AC_SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "Modules GPS et Contrôleurs de Vol",
+  "tags": [
+    "marque : icquanzx",
+    "modules gps et contrôleurs de vol"
+  ],
+  "amazonUrl": "https://amazon.fr/dp/B088LR3488/?tag=clickclickh01-21",
+  "amazonASIN": "B088LR3488",
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "ICQUANZX GY-NEO6MV2 NEO-6M Module de commande de vol GPS 3 V-5 V avec antenne en céramique super puissante pour Arduino EEPROM APM 2.5",
+  "amazonPrice": "9.0€",
+  "amazonRating": 3.7,
+  "amazonReviewCount": 0,
+  "brand": "Marque : ICQUANZX",
+  "seo": {
+    "title": "Module GPS GY-NEO6MV2 NEO-6M avec Antenne Céramique pour Arduino",
+    "description": "Module GPS haute précision NEO-6M pour Arduino/APM. Antenne céramique puissante, 3V-5V, EEPROM. Idéal pour robots et drones.",
+    "keywords": [
+      "module gps gy-neo6mv2 neo-6m avec antenne céramique pour arduino",
+      "modules gps et contrôleurs de vol",
+      "marque : icquanzx"
+    ],
+    "ogTitle": "Module GPS GY-NEO6MV2 NEO-6M avec Antenne Céramique pour Arduino",
+    "ogDescription": "Module GPS haute précision NEO-6M pour Arduino/APM. Antenne céramique puissante, 3V-5V, EEPROM. Idéal pour robots et drones."
+  },
+  "reviews": {
+    "averageRating": 3.7,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "basic": "Module GPS GY-NEO6MV2 NEO-6M, tension 3V-5V, avec antenne céramique super puissante, EEPROM intégrée, compatible Arduino, APM 2.5."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la principale utilité de ce module GPS pour les projets robotiques ?",
+      "a": "Ce module GPS est essentiel pour la navigation précise, la géolocalisation, le suivi de position en temps réel, et l'implémentation de fonctions de retour à la maison (Return-to-Home) pour les drones et robots."
+    },
+    {
+      "q": "Est-il facile d'intégrer ce module avec une carte Arduino ou APM 2.5 ?",
+      "a": "Oui, le module GY-NEO6MV2 est conçu pour être facilement compatible avec les plateformes Arduino et APM 2.5 grâce à ses connexions standard et aux librairies disponibles."
+    },
+    {
+      "q": "Pourquoi l'antenne en céramique est-elle considérée comme 'super puissante' ?",
+      "a": "L'antenne en céramique offre une meilleure réception des signaux satellites GPS, même dans des environnements difficiles (urbains, sous un feuillage dense), assurant une position plus stable et précise."
+    },
+    {
+      "q": "Quel est l'avantage de la mémoire EEPROM intégrée ?",
+      "a": "L'EEPROM permet de sauvegarder les paramètres de configuration du module GPS (comme la fréquence des mises à jour de position, les baud rates) entre les sessions, ce qui accélère la configuration et assure la cohérence des performances."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:15.748868",
+  "originalName": "ICQUANZX GY-NEO6MV2 NEO-6M Module de commande de vol GPS 3 V-5 V avec antenne en céramique super puissante pour Arduino EEPROM APM 2.5",
+  "enhanced": true
+}

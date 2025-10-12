@@ -1,9 +1,9 @@
 {
   "productId": "B0CP98VN8R",
-  "name": "Radiolink M435 Drone Heavy Lift 3 kg avec vitesse de vol de 120 km/h, prise en charge de la planification d'itinéraire et pilote automatique, démarrage ou atterrissage autonome, 4 km longue portée",
-  "slug": "radiolink-m435-drone-heavy-lift-3-kg-avec-vitesse-",
-  "description": "Vol automatique par suivi des waypoints : avec la commande de vol et le GPS TS100, les itinéraires de vol peuvent être prédéfinis pour effectuer des tâches telles que le décollage ou l'atterrissage autonomes et la livraison automatique des colis. | Distance de contrôle de 4000 mètres : AT9S Pro fonctionne avec R12DSM et a une longue portée. Ils sont faciles à contrôler, même dans un environnement urbain compliqué avec une longue distance de 4000 mètres. Longue durée de vol : le temps de vol est jusqu'à 28 minutes sans charge. | Plusieurs types de modes de charge utile : grâce à différents modes de transport, tels que par exemple un crochet ou un coffre de chargement vissé, il peut réagir de manière flexible à différents scénarios de transport. | Radiolink CrossRace : le nouveau contrôleur de vol CrossRace intégré Radiolink, le premier contrôleur de vol entièrement équipé compatible avec les ESC 4 en 1. Avec une taille micro de 38 x 38 mm, il prend en charge 12 canaux de sortie PWM, toutes les interfaces sont directement branchées sans soudure, et l'installation est terminée en un seul glissement | Charge utile de 3 kg : la configuration de l'entraînement peut facilement être équipée de 3 kg de colis tels que des aliments, des fournitures médicales ou d'autres équipements, et il reste toujours une grande réserve de puissance, même si vous portez le contrepoids.",
-  "shortDescription": "Radiolink M435 Drone Heavy Lift 3 kg avec vitesse de vol de 120 km/h, prise en charge de la planific",
+  "name": "Drone Radioline M435 - Lourd Porteur 3kg",
+  "slug": "m435-drone-radioline-lourd-porteur-3kg",
+  "description": "Découvrez le drone Radioline M435, votre solution ultime pour les missions de **levage lourd** ! Avec une capacité de charge impressionnante de **3 kg**, ce drone professionnel est conçu pour transporter vos équipements avec une **stabilité inégalée**. Atteignez des vitesses de vol fulgurantes allant jusqu'à **120 km/h**, vous permettant d'optimiser vos interventions et de gagner un temps précieux. Que ce soit pour des applications industrielles, de sécurité, ou de logistique, le M435 est l'outil idéal. Sa **longue portée de 4 km** assure une couverture étendue, tandis que ses fonctions avancées de **planification d'itinéraire** et de **pilote automatique** simplifient grandement son utilisation. Profitez d'un **démarrage et atterrissage autonomes** pour une sécurité accrue et une prise en main facilitée. Le drone Radioline M435 représente le summum de la **technologie drone** pour les professionnels exigeants.",
+  "shortDescription": "Drone professionnel Radioline M435 : Lourd porteur (3kg), 120km/h, planification d'itinéraire, pilote auto, 4km portée.",
   "price": "299.0",
   "compareAtPrice": 343,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Radiolink",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Radioline M435 - Lourd Porteur 3kg",
+    "description": "Drone professionnel Radioline M435 : Lourd porteur (3kg), 120km/h, planification d'itinéraire, pilote auto, 4km portée.",
+    "keywords": [
+      "drone radioline m435 - lourd porteur 3kg",
+      "drones portée supérieure à 10 km",
+      "visiter la boutique radiolink"
+    ],
+    "ogTitle": "Drone Radioline M435 - Lourd Porteur 3kg",
+    "ogDescription": "Drone professionnel Radioline M435 : Lourd porteur (3kg), 120km/h, planification d'itinéraire, pilote auto, 4km portée."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Capacité de charge : 3 kg, Vitesse de vol max : 120 km/h, Portée : 4 km, Fonctions : Planification d'itinéraire, Pilote automatique, Démarrage/Atterrissage autonome."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la capacité de charge maximale du drone Radioline M435 ?",
+      "a": "Le drone Radioline M435 peut supporter une charge utile allant jusqu'à 3 kg."
+    },
+    {
+      "q": "Quelle est la portée de vol du drone M435 ?",
+      "a": "Ce drone offre une portée de vol impressionnante de 4 kilomètres."
+    },
+    {
+      "q": "Le drone Radioline M435 est-il équipé d'un pilote automatique ?",
+      "a": "Oui, le Radioline M435 intègre un système de pilote automatique avancé pour des vols plus stables et autonomes."
+    },
+    {
+      "q": "Est-il possible de planifier des trajets avec ce drone ?",
+      "a": "Absolument. Le drone est doté de la fonction de planification d'itinéraire pour des missions précises."
+    },
+    {
+      "q": "Le drone peut-il décoller et atterrir seul ?",
+      "a": "Oui, le Radioline M435 propose des fonctions de démarrage et d'atterrissage autonomes pour plus de sécurité et de simplicité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.659744",
+  "originalName": "Radiolink M435 Drone Heavy Lift 3 kg avec vitesse de vol de 120 km/h, prise en charge de la planification d'itinéraire et pilote automatique, démarrage ou atterrissage autonome, 4 km longue portée",
+  "enhanced": true
 }

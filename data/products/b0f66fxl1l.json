@@ -1,9 +1,9 @@
 {
   "productId": "B0F66FXL1L",
-  "name": "Station de Charge USB Balabaxer, 20 Ports 100W/20A, Chargeur Multi-Ports USB pour Smartphones, tablettes et Autres appareils",
-  "slug": "station-de-charge-usb-balabaxer-20-ports-100w20a-c",
-  "description": "[Chargeur USB 20 ports max] - Équipé de 20 ports de charge, permet de charger simultanément plusieurs appareils. Idéal pour répondre aux besoins de toute la famille sans chercher de prise disponible, rendant vos déplacements plus pratiques que jamais. | [Charge sécurisée] - Puce intelligente intégrée offrant une triple protection contre les surtensions, surintensités et surcharges. Conception ventilée optimisée pour un refroidissement efficace. Protection contre la surcharge - bascule automatiquement en charge d'entretien puis coupe le courant à 100%. | [Compact et performant] - Design compact gain de place, facile à transporter. Boîtier en matériau PC ignifuge + ABS retardateur de flamme pour une durabilité optimale. | [Efficacité de charge] - Charge standard avec sortie max 2.4A par port (entrée 5V). Compatible avec iPhone, iPad Pro/Air 2/Mini, Galaxy, Note, LG, Nexus, HTC et autres appareils. | [Applications Polyvalentes]Convient non seulement aux smartphones et tablettes, mais aussi aux liseuses électroniques, iPad, écouteurs Bluetooth, enceintes portables et tout autre appareil équipé d'un port USB. Balabaxer offre une garantie limitée d'1 an et un service client réactif 24h/24 pour cette station de charge.",
-  "shortDescription": "Station de Charge USB Balabaxer, 20 Ports 100W/20A, Chargeur Multi-Ports USB pour Smartphones, table",
+  "name": "Station de Charge USB Balabaxer 20 Ports - Puissance 100W",
+  "slug": "100w-station-charge-usb-balabaxer-ports",
+  "description": "Optimisez votre espace et vos appareils avec la station de charge USB Balabaxer 20 ports. Offrant une puissance totale de 100W et 20A, ce chargeur multi-ports USB intelligent est la solution idéale pour alimenter simultanément smartphones, tablettes, liseuses, consoles portables et tout autre appareil compatible USB. Sa technologie de charge rapide et intelligente optimise la distribution du courant pour chaque appareil, garantissant une charge efficace et sécurisée. Dites adieu à la multitude de chargeurs et aux prises murales encombrées. La Balabaxer 100W est conçue pour simplifier votre vie numérique et protéger vos précieux gadgets. Un indispensable pour la maison, le bureau ou les professionnels en déplacement.",
+  "shortDescription": "Station de charge USB Balabaxer 20 ports, 100W, charge multi-appareils intelligente pour smartphones, tablettes et plus.",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Balabaxer",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Station de Charge USB Balabaxer 20 Ports - Puissance 100W",
+    "description": "Station de charge USB Balabaxer 20 ports, 100W, charge multi-appareils intelligente pour smartphones, tablettes et plus.",
+    "keywords": [
+      "station de charge usb balabaxer 20 ports - puissance 100w",
+      "chargeurs multiples et hubs",
+      "marque : balabaxer"
+    ],
+    "ogTitle": "Station de Charge USB Balabaxer 20 Ports - Puissance 100W",
+    "ogDescription": "Station de charge USB Balabaxer 20 ports, 100W, charge multi-appareils intelligente pour smartphones, tablettes et plus."
   },
   "reviews": {
     "averageRating": 4.9,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "20 ports USB, Puissance totale : 100W, Intensité totale : 20A, Technologie de charge intelligente, Compatible tous appareils USB."
+  },
+  "faq": [
+    {
+      "q": "Combien d'appareils puis-je charger simultanément avec cette station ?",
+      "a": "Vous pouvez charger jusqu'à 20 appareils compatibles USB simultanément grâce aux 20 ports disponibles."
+    },
+    {
+      "q": "Cette station est-elle compatible avec mon smartphone/tablette ?",
+      "a": "Oui, la station de charge Balabaxer est compatible avec tous les smartphones, tablettes et autres appareils rechargeables via USB."
+    },
+    {
+      "q": "La charge est-elle rapide ?",
+      "a": "Absolument. La station dispose d'une technologie de charge intelligente qui optimise la puissance délivrée à chaque appareil pour une charge rapide et efficace."
+    },
+    {
+      "q": "Est-ce sûr pour mes appareils ?",
+      "a": "Oui, la station intègre des protections contre les surintensités, surtensions et courts-circuits pour garantir une charge sécurisée de vos appareils."
+    },
+    {
+      "q": "Quelle est la puissance maximale par port ?",
+      "a": "La station délivre une puissance totale de 100W répartie intelligemment sur les 20 ports, assurant une optimisation dynamique du courant pour chaque connexion."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:54.175033",
+  "originalName": "Station de Charge USB Balabaxer, 20 Ports 100W/20A, Chargeur Multi-Ports USB pour Smartphones, tablettes et Autres appareils",
+  "enhanced": true
 }

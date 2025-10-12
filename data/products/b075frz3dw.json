@@ -1,9 +1,9 @@
 {
   "productId": "B075FRZ3DW",
-  "name": "DJI - Mavic Pro Platinum (Version UE) | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 30-Min de Vol |Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
-  "slug": "dji-mavic-pro-platinum-version-ue-drone-quadricopt",
-  "description": "PLIABLE & PORTABLE: Le Mavic Pro Platinum est un drone petit mais puissant qui transforme le ciel en terrain de jeu accessible et sans danger; Son format compact vous permet de l'emmener partout. Vidéo: MP4, MOV (MPEG-4 AVC / H.264) | VOLER PLUS LONGTEMPS: Il a une dur?e de vol maximale de 30 mins, ce qui permet des périodes de vol prolongées grâce à ses moteurs puissants et à haut rendement | CAMERA 4K: Le DJI Mavic Pro Platinum dispose d'une camera 4K stabilisée par une nacelle 3 axes, ce qui vous permet de prendre des photos et des vidéos d'une clarté cristalline, même à grande vitesse | SYSTEMES AUTOMATISES: Le DJI Mavic Pro utilise la technologie FlightAutonomy pour réduire les risques d'accident ; FlightAutonomy est utilisé en combinaison avec d'autres systèmes pour des vols fiable | A PROPOS DE DJI: En tant qu'entreprise technologique chinoise basée à Shenzhen, DJI est un leader dans le domaine des drones pour la photographie aérienne et la vidéographie",
-  "shortDescription": "DJI - Mavic Pro Platinum (Version UE) | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 3",
+  "name": "DJI Mavic Pro Platinum (UE) : Drone 4K Pliable & Portable",
+  "slug": "pro-dji-mavic-platinum-ue-drone",
+  "description": "Découvrez le DJI Mavic Pro Platinum (Version UE), un drone quadricoptère portable et pliable offrant une expérience de vol exceptionnelle. Capturez des photos et vidéos en haute résolution grâce à sa caméra 4K stabilisée par un gimbal 3 axes. Profitez d'une autonomie de vol impressionnante de 30 minutes. Son design élégant et sa technologie de pointe en font le compagnon idéal pour tous vos projets aériens. Idéal pour les créateurs de contenu, les photographes et les amateurs de technologie.",
+  "shortDescription": "Drone DJI Mavic Pro Platinum (UE) : 4K, 30 min vol, pliable. Idéal pour photo/vidéo pro. Design élégant & portable.",
   "price": "979.0",
   "compareAtPrice": 1125,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "DJI Mavic Pro Platinum (UE) : Drone 4K Pliable & Portable",
+    "description": "Drone DJI Mavic Pro Platinum (UE) : 4K, 30 min vol, pliable. Idéal pour photo/vidéo pro. Design élégant & portable.",
+    "keywords": [
+      "dji mavic pro platinum (ue) : drone 4k pliable & portable",
+      "drones pliables et portables",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "DJI Mavic Pro Platinum (UE) : Drone 4K Pliable & Portable",
+    "ogDescription": "Drone DJI Mavic Pro Platinum (UE) : 4K, 30 min vol, pliable. Idéal pour photo/vidéo pro. Design élégant & portable."
   },
   "reviews": {
     "averageRating": 4.2,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone quadricoptère portable et pliable, caméra 4K, gimbal 3 axes, autonomie de vol 30 min, version UE."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la principale différence entre le Mavic Pro et le Mavic Pro Platinum ?",
+      "a": "Le Mavic Pro Platinum se distingue par son autonomie de vol accrue (30 minutes contre 27 pour le Mavic Pro standard) et son design plus silencieux grâce à ses hélices optimisées et son système de contrôle électronique de la vitesse (ESC) amélioré."
+    },
+    {
+      "q": "Le DJI Mavic Pro Platinum est-il facile à transporter ?",
+      "a": "Oui, absolument ! Sa conception pliable et compacte en fait un drone extrêmement portable, facile à glisser dans un sac à dos ou une mallette pour vous accompagner partout."
+    },
+    {
+      "q": "Quelle est la qualité vidéo et photo proposée par le Mavic Pro Platinum ?",
+      "a": "Le drone est équipé d'une caméra 4K capable de capturer des vidéos d'une qualité exceptionnelle et des photos haute résolution. Le gimbal 3 axes assure une stabilisation parfaite pour des images fluides et professionnelles, même en mouvement."
+    },
+    {
+      "q": "Est-ce que ce drone est adapté aux débutants ?",
+      "a": "Le DJI Mavic Pro Platinum intègre de nombreuses fonctions intelligentes d'assistance au vol qui le rendent accessible aux débutants, tout en offrant des performances et des capacités qui satisferont les pilotes expérimentés."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.193662",
+  "originalName": "DJI - Mavic Pro Platinum (Version UE) | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 30-Min de Vol |Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
+  "enhanced": true
 }

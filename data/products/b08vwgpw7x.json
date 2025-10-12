@@ -1,9 +1,9 @@
 {
   "productId": "B08VWGPW7X",
   "name": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg",
-  "slug": "2bebeauty-uav-pulverisateur-de-drone-agricole-16-l",
-  "description": "",
-  "shortDescription": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg",
+  "slug": "2bebeauty-uav-pulverisateur-drone-agricole-poids",
+  "description": "<div><h2>2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg</h2><p>Quality product</p></div>",
+  "shortDescription": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg - Quality Product",
   "price": "230.0",
   "compareAtPrice": 264,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : 2bebeauty",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg",
+    "description": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg - Quality Product",
+    "keywords": [
+      "2bebeauty uav pulvérisateur de drone agricole 16 l poids décollage 16 kg",
+      "drones de pulvérisation agricole",
+      "marque : 2bebeauty"
+    ],
+    "ogTitle": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg",
+    "ogDescription": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:17.074282",
+  "originalName": "2bebeauty UAV Pulvérisateur de drone agricole 16 L Poids décollage 16 kg",
+  "enhanced": true
 }

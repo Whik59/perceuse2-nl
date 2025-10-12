@@ -1,9 +1,9 @@
 {
   "productId": "B0D6646N3W",
-  "name": "T18S GPS Drone avec Caméra 4K UHD pour Adultes,Moteur Sans Balais,RC Quadricoptère Pliable 5G WIFI FPV,Flux Optique,Retour Automatique, Follow Me,Vol Circulaire,Points de Repère,Noir",
-  "slug": "t18s-gps-drone-avec-camera-4k-uhd-pour-adultesmote",
-  "description": "Caméra 4K avec position de flux optique : Équipé de caméras 4K Ultra Clear grand angle de 110° et réglables à 90°, le drone T18S peut vous aider à capturer chaque merveilleux moment vu du ciel. Notre positionnement Optical Flow rend votre vidéo encore plus fluide et stable. | Mis à jour avec un emplacement pour carte SD + transmission FPV 5G : Le nouveau design ajoute désormais un emplacement pour carte SD, ce qui permet de mieux stocker les vidéos et les photos et de réduire la probabilité de perte de données. La distance de transmission d'image 5G du drone FPV T18S est de 984ft et la distance de contrôle est de 1640ft. | GPS Auto Return et modes de vol avancés : le module GPS du drone enregistre la position de départ exacte. Si la puissance de la batterie est faible ou si le signal est perdu, tu peux appuyer sur le bouton « One Key Return » et ce drone GPS reviendra automatiquement. Les modes de vol intelligents permettent au drone de voler automatiquement, y compris le mode Follow-Me, le mode Wrap-Around et le vol trajectographique. | Moteur sans balais à haute performance : les puissants moteurs sans balais et une autonomie maximale de 44 minutes assurent une meilleure performance et une meilleure résistance au vent. L'efficacité de travail du moteur brushless est un multiple des moteurs ordinaires, ce qui offre une expérience de vol silencieuse pour vous et vos amis. | Grand campeur de voyage : la conception du fuselage pliable rend le drone T18S avec caméra pour adultes enfants compact et portable. Ce drone FPV est livré avec un sac de transport, de sorte que vous pouvez prendre le drone à l'extérieur pour les voyages plus confortablement.",
-  "shortDescription": "T18S GPS Drone avec Caméra 4K UHD pour Adultes,Moteur Sans Balais,RC Quadricoptère Pliable 5G WIFI F",
+  "name": "Drone T18S GPS 4K UHD - Moteur Brushless, FPV 5G WiFi",
+  "slug": "drone-t18s-gps-uhd-moteur-brushless",
+  "description": "Découvrez le Drone T18S GPS 4K UHD, l'allié parfait pour les passionnés de photographie aérienne et les aventuriers technophiles. Doté d'un puissant moteur sans balais pour une performance et une durabilité accrues, ce quadricoptère pliable est conçu pour une expérience de vol exceptionnelle. Capturez des moments inoubliables en qualité Ultra Haute Définition grâce à sa caméra 4K UHD. La technologie avancée de transmission FPV 5G WiFi vous offre une vue en temps réel immersive, tandis que le flux optique assure une stabilité de vol remarquable, même en environnement intérieur. Facile à piloter grâce à sa télécommande intuitive, le T18S intègre des fonctionnalités intelligentes telles que le retour automatique au point de décollage, le mode 'Follow Me' pour vous suivre sans effort, le vol circulaire et la sélection de points de repère pour des prises de vue créatives. Sa conception pliable le rend facile à transporter et à ranger. Idéal pour les adultes novices comme expérimentés, ce drone noir combine technologie de pointe et design élégant. Prix : 169.0€.",
+  "shortDescription": "Drone T18S GPS 4K UHD pliable avec moteur brushless, FPV 5G WiFi, fonctions intelligentes (Follow Me, retour auto, vol circulaire). Idéal pour adultes. Noir. 169.0€.",
   "price": "169.0",
   "compareAtPrice": 194,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique TEEROK",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone T18S GPS 4K UHD - Moteur Brushless, FPV 5G WiFi",
+    "description": "Drone T18S GPS 4K UHD pliable avec moteur brushless, FPV 5G WiFi, fonctions intelligentes (Follow Me, retour auto, vol circulaire). Idéal pour adultes. Noir. 169.0€.",
+    "keywords": [
+      "drone t18s gps 4k uhd - moteur brushless, fpv 5g wifi",
+      "drones d'analyse de cultures (multispectral)",
+      "visiter la boutique teerok"
+    ],
+    "ogTitle": "Drone T18S GPS 4K UHD - Moteur Brushless, FPV 5G WiFi",
+    "ogDescription": "Drone T18S GPS 4K UHD pliable avec moteur brushless, FPV 5G WiFi, fonctions intelligentes (Follow Me, retour auto, vol circulaire). Idéal pour adultes. Noir. 169.0€."
   },
   "reviews": {
     "averageRating": 3.7,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K UHD, Moteur Sans Balais, GPS, FPV 5G WiFi, Flux Optique, Retour Automatique, Follow Me, Vol Circulaire, Points de Repère, Pliable."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone T18S ?",
+      "a": "Le drone T18S est équipé d'une caméra 4K UHD pour des images d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Le drone T18S est-il facile à transporter ?",
+      "a": "Oui, le T18S est un drone pliable, ce qui le rend très pratique à transporter et à ranger."
+    },
+    {
+      "q": "Quelles sont les fonctionnalités intelligentes proposées par ce drone ?",
+      "a": "Le T18S offre plusieurs fonctionnalités intelligentes telles que le retour automatique (Return to Home), le mode 'Follow Me' (suivi du pilote), le vol circulaire et la possibilité de définir des points de repère pour des trajectoires de vol personnalisées."
+    },
+    {
+      "q": "Le drone T18S est-il adapté aux débutants ?",
+      "a": "Absolument. Avec son GPS intégré, son flux optique pour la stabilité et ses fonctions intelligentes, le T18S est idéal pour les adultes, qu'ils soient débutants ou expérimentés."
+    },
+    {
+      "q": "Quelle technologie de transmission FPV est utilisée ?",
+      "a": "Le drone T18S utilise la technologie FPV 5G WiFi pour une transmission vidéo fluide et en temps réel vers votre appareil mobile."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:38.345115",
+  "originalName": "T18S GPS Drone avec Caméra 4K UHD pour Adultes,Moteur Sans Balais,RC Quadricoptère Pliable 5G WIFI FPV,Flux Optique,Retour Automatique, Follow Me,Vol Circulaire,Points de Repère,Noir",
+  "enhanced": true
 }

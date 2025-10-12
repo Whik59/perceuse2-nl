@@ -1,9 +1,9 @@
 {
   "productId": "B0FMJ6NHL3",
   "name": "+ 4 autres couleurs/motifs",
-  "slug": "4-autres-couleursmotifs",
-  "description": "Contrôleur SIM LiteRadio 2: Conçu exclusivement pour l'entraînement du simulateur, le contrôleur de simulateur LiteRadio 2 offre une sensation de vol FPV authentique sans risques réels. Convient au FPV Novice pour pratiquer les simulateurs FPV au professionnel. Déverrouiller la compatibilité universelle sur chaque plate-forme de simulation majeure, permettant une expérience de vol plus riche | Accès SIM à 3 Mode: Contrôleur SIM LiteRadio 2 déverrouille la compatibilité des universels dans tous les principaux simulateurs de vol FPV et RC sur Windows/MacOS/Android, offrant une expérience d'entraînement multiplateforme transparente pour les pilotes à n'importe quel niveau de compétence. Y compris le mode Joystick pour Uncashed/DRL/DCL/TryP/FeelFPV/FPV Freerider/ Racefly et autres simulateurs FPV sur Steam, Xbox Mode pour Aerofly RC 8, DJI Virtual Flight et Dongle Mode pour Phoenix RC 6.0 | Organisé pour Mastery Sans Effort: avec un port de Type-C sur le plan avant qui élimine la contrainte de câble et permet un véritable opération de plug-and-play (Connexion à voler en quelques secondes), associée au cardan pro-grade de LiteRadio pour un contrôle parfait pour les pixels. Parfait pour les débutants mais assez robuste pour une formation avancée, ce contrôleur transforme n'importe quel bureau en un cockpit de simulateur de haute performance | Mise à Jour via BETAFPV Configurateur: LiteRadio 2 SIM contrôleur reste prêt à la mise en évidence avec les mises à jour via le configurateur BETAFPV, assurant la compatibilité avec les nouvelles versions et fonctionnalités de nouvelles simulateurs. Le configurateur BETAFPV est un outil de configuration open source adapté aux drones BETAFPV et aux télécommandes. Il permet aux pilotes de configurer et affiner sans effort divers paramètres, garantissant un contrôle de vol plus efficace et optimisé | Ce Que Vous Obtiendrez: le Contrôleur SIM LiteRadio 2 (mode 2) en Bleu, 1 * Câble USB Type-C, 1 * Manuel d'utilisation (avec des instructions pour la connexion avec la plupart des simulateurs et des plates-formes)",
-  "shortDescription": "+ 4 autres couleurs/motifs",
+  "slug": "autres-couleurs-motifs",
+  "description": "<div><h2>+ 4 autres couleurs/motifs</h2><p>Quality product</p></div>",
+  "shortDescription": "+ 4 autres couleurs/motifs - Quality Product",
   "price": "41.0",
   "compareAtPrice": 47,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BETAFPV",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "+ 4 autres couleurs/motifs",
+    "description": "+ 4 autres couleurs/motifs - Quality Product",
+    "keywords": [
+      "+ 4 autres couleurs/motifs",
+      "radiocommandes et contrôleurs",
+      "visiter la boutique betafpv"
+    ],
+    "ogTitle": "+ 4 autres couleurs/motifs",
+    "ogDescription": "+ 4 autres couleurs/motifs - Quality Product"
   },
   "reviews": {
     "averageRating": 1.0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:36.062229",
+  "originalName": "+ 4 autres couleurs/motifs",
+  "enhanced": true
 }

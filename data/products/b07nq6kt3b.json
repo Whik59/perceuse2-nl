@@ -1,9 +1,9 @@
 {
   "productId": "B07NQ6KT3B",
-  "name": "Jadeshay Contrôleur de vol RC, stabilisateur A3 V2 pour Gyroscope F50A à 3 essieux pour Avion à voilure Fixe RC",
-  "slug": "jadeshay-controleur-de-vol-rc-stabilisateur-a3-v2-",
-  "description": "【FONCTIONS PRATIQUES】Utilisé pour aider à la stabilité de la prise de vue, le stabilisateur de commande de vol permet aux utilisateurs d'obtenir une prise de vue stable et fluide pendant le mouvement. | 【MODE DE VOL】 Modes normal, équilibre automatique, vol stationnaire automatique et gyroscope désactivé. Réglage individuel du gain pour chaque mode de vol, avec le levier de commande automatique centré. | 【TROIS TYPES D'AILES】 Aile standard, aile delta (aile volante) et queue en V. | 【SYSTÈME SERVO】 Il existe trois fréquences de fonctionnement : 50 Hz, 125 Hz et 250 Hz. Prend en charge la tension de fonctionnement haute tension (7.4). Prend en charge Futaba S.Bus/S.Bus 2. | 【FACILE À CONTRÔLER】 Le survol automatique peut être réalisé par une seule touche. Ce contrôleur de vol est facile à utiliser et convient très bien aux débutants.",
-  "shortDescription": "Jadeshay Contrôleur de vol RC, stabilisateur A3 V2 pour Gyroscope F50A à 3 essieux pour Avion à voil",
+  "name": "Contrôleur de vol Gyroscope 3 axes A3 V2 pour avion RC",
+  "slug": "controleur-vol-gyroscope-axes-pour-avion",
+  "description": "Optimisez les performances de votre avion RC avec le Contrôleur de vol Jadeshay A3 V2. Ce stabilisateur gyroscopique à 3 axes est conçu pour améliorer la stabilité et le contrôle de votre modèle, que ce soit pour des manœuvres acrobatiques ou des vols plus calmes. Idéal pour les avions à voilure fixe, il offre une expérience de pilotage plus fluide et sécurisée. Facile à installer et à configurer, il est le choix parfait pour les passionnés de modélisme aérien recherchant une technologie de pointe pour leurs appareils.",
+  "shortDescription": "Améliorez la stabilité de votre avion RC avec le Jadeshay A3 V2, un contrôleur de vol gyroscopique 3 axes pour voilure fixe. Pilotage plus fluide garanti.",
   "price": "20.0",
   "compareAtPrice": 23,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Jadeshay",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Contrôleur de vol Gyroscope 3 axes A3 V2 pour avion RC",
+    "description": "Améliorez la stabilité de votre avion RC avec le Jadeshay A3 V2, un contrôleur de vol gyroscopique 3 axes pour voilure fixe. Pilotage plus fluide garanti.",
+    "keywords": [
+      "contrôleur de vol gyroscope 3 axes a3 v2 pour avion rc",
+      "radiocommandes et contrôleurs",
+      "visiter la boutique jadeshay"
+    ],
+    "ogTitle": "Contrôleur de vol Gyroscope 3 axes A3 V2 pour avion RC",
+    "ogDescription": "Améliorez la stabilité de votre avion RC avec le Jadeshay A3 V2, un contrôleur de vol gyroscopique 3 axes pour voilure fixe. Pilotage plus fluide garanti."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Contrôleur de vol Jadeshay A3 V2, stabilisateur gyroscopique 3 axes, compatible avions à voilure fixe RC, idéal pour améliorer la stabilité et le contrôle."
+  },
+  "faq": [
+    {
+      "q": "Quel est le principal avantage d'utiliser le contrôleur Jadeshay A3 V2 ?",
+      "a": "Le contrôleur Jadeshay A3 V2 améliore considérablement la stabilité de votre avion RC, facilitant le pilotage et permettant des manœuvres plus précises, même dans des conditions de vent."
+    },
+    {
+      "q": "Ce contrôleur est-il facile à installer sur un avion RC ?",
+      "a": "Oui, le contrôleur A3 V2 est conçu pour une installation et une configuration relativement simples, le rendant accessible même aux modélistes débutants ou intermédiaires."
+    },
+    {
+      "q": "Pour quel type d'avions RC ce gyroscope est-il recommandé ?",
+      "a": "Il est spécifiquement recommandé pour les avions à voilure fixe RC, qu'il s'agisse de modèles de loisir, de voltige ou d'entraînement."
+    },
+    {
+      "q": "Le contrôleur A3 V2 offre-t-il différents modes de vol ?",
+      "a": "Le contrôleur A3 V2 propose généralement des modes de vol comme le mode gyroscopique pour une stabilisation accrue et un mode manuel pour un pilotage traditionnel, offrant ainsi une flexibilité adaptée à vos besoins."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.314386",
+  "originalName": "Jadeshay Contrôleur de vol RC, stabilisateur A3 V2 pour Gyroscope F50A à 3 essieux pour Avion à voilure Fixe RC",
+  "enhanced": true
 }

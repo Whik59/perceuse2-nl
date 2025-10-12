@@ -1,9 +1,9 @@
 {
   "productId": "B094VMXQYN",
-  "name": "RUIZHI ESC 320A Contrôleur de Vitesse, 6-12 V ESC Brushed Régulateur pour RC Camion Voiture Bateau Télécommandé",
-  "slug": "ruizhi-esc-320a-controleur-de-vitesse-6-12-v-esc-b",
-  "description": "❃Taille Parfaite: La taille de l'ESC brossé étanche bidirectionnel est de 43 mm x 29 mm x 27 mm, compact et exquis, de petite taille et puissant. | ❃Courant 320A: Fournit un courant de 320A, lorsqu'il est connecté au moteur, il peut fournir un courant de moteur continu jusqu'à 320 ampères (avant) ou 160 ampères (arrière). | ❃Fonction de Réglage Fin: Ajustez automatiquement la position centrale de la pédale d'accélérateur, de sorte que la voiture télécommandée ou le bateau télécommandé puissent être mieux conduits. | ❃Applications: Ce contrôleur de moteur brossé 320A peut être utilisé pour contrôler à distance des voitures / bateaux, ce qui peut bien contrôler les moteurs et protéger la nature de l'utilisation à long terme des voitures télécommandées. | ❃ Rappel: Ce contrôleur de vitesse de moteur à brosse a 3S (12 V), pas plus de 380 moteurs, 2 S (8,4 V), pas plus de 540 moteurs.",
-  "shortDescription": "RUIZHI ESC 320A Contrôleur de Vitesse, 6-12 V ESC Brushed Régulateur pour RC Camion Voiture Bateau T",
+  "name": "Contrôleur de Vitesse RUIZHI ESC 320A pour Véhicules RC",
+  "slug": "controleur-vitesse-ruizhi-esc-320a-pour",
+  "description": "Optimisez les performances de vos véhicules radiocommandés avec le **Contrôleur de Vitesse RUIZHI ESC 320A**. Conçu pour les moteurs brushed (à balais) et compatible avec une tension de 6 à 12V, cet ESC offre une régulation de vitesse précise et fiable pour vos camions, voitures et bateaux télécommandés. Idéal pour remplacer un ESC défectueux ou pour améliorer la maniabilité de votre RC, il garantit une expérience de pilotage fluide et réactive. Facile à installer et durable, le RUIZHI ESC 320A est le choix parfait pour les passionnés de modélisme RC à la recherche de qualité et de performance à un prix abordable de 14.0€.",
+  "shortDescription": "ESC 320A RUIZHI pour moteurs brushed RC (6-12V) - Idéal voitures, camions, bateaux.",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : RUIZHI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Contrôleur de Vitesse RUIZHI ESC 320A pour Véhicules RC",
+    "description": "ESC 320A RUIZHI pour moteurs brushed RC (6-12V) - Idéal voitures, camions, bateaux.",
+    "keywords": [
+      "contrôleur de vitesse ruizhi esc 320a pour véhicules rc",
+      "radiocommandes et contrôleurs",
+      "marque : ruizhi"
+    ],
+    "ogTitle": "Contrôleur de Vitesse RUIZHI ESC 320A pour Véhicules RC",
+    "ogDescription": "ESC 320A RUIZHI pour moteurs brushed RC (6-12V) - Idéal voitures, camions, bateaux."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Contrôleur de Vitesse (ESC) RUIZHI 320A, compatible moteurs brushed, tension 6-12V, idéal pour camions, voitures, bateaux RC."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la tension maximale supportée par cet ESC ?",
+      "a": "Le contrôleur de vitesse RUIZHI ESC 320A supporte une tension allant de 6V à 12V."
+    },
+    {
+      "q": "Ce contrôleur de vitesse est-il compatible avec les moteurs brushless ?",
+      "a": "Non, cet ESC est spécifiquement conçu pour les moteurs brushed (à balais)."
+    },
+    {
+      "q": "Pour quels types de véhicules RC cet ESC est-il recommandé ?",
+      "a": "Il est idéal pour les camions, les voitures et les bateaux radiocommandés utilisant des moteurs brushed."
+    },
+    {
+      "q": "Quelle est la capacité de courant de cet ESC ?",
+      "a": "Cet ESC a une capacité de courant de 320A."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:17.249984",
+  "originalName": "RUIZHI ESC 320A Contrôleur de Vitesse, 6-12 V ESC Brushed Régulateur pour RC Camion Voiture Bateau Télécommandé",
+  "enhanced": true
 }

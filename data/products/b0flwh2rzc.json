@@ -1,9 +1,9 @@
 {
   "productId": "B0FLWH2RZC",
-  "name": "Korffe Mini drone pour enfants de 6 7 8 9 et 10 ans et plus, jouet avion télécommandé pour enfants et débutants avec lumières LED, idéal pour l'intérieur et l'extérieur, idéal pour garçons et filles",
-  "slug": "korffe-mini-drone-pour-enfants-de-6-7-8-9-et-10-an",
-  "description": "LUMIÈRES COLORÉES: Korffe Le mini drone pour enfants dispose de 6 types de lumières colorées réglables, selon vos préférences ou utilisez la scène à tout moment pour passer à différentes lumières, et des amis pour démarrer une course aérienne de drone, dans un retournement à 360 ° en même temps lors de la commutation des lumières, vous récolterez les éloges des amis. Dans l’obscurité de la nuit, la splendeur des lumières est encore plus belle. | CONVIENT AUX ENFANTS ET AUX DÉBUTANTS: facile à utiliser, une touche pour décoller et atterrir, apparence de conception unique, fonction acrobatique à une touche : retournement à 360 degrés, vol en anneau, alarme de batterie faible, réglage de la vitesse à trois vitesses, les enfants peuvent progressivement devenir compétents dans l'opération, apprendre différentes difficultés dans l'utilisation des compétences du drone, pour entraîner les mains des enfants sur la capacité de coordonner la capacité des mains et du cerveau. | AUTONOMIE DE LA BATTERIE: Korffe Le mini drone peut être utilisé en continu pendant 30 minutes, 3 batteries rechargeables pour Korffe mini drone gratuites, chaque batterie peut être utilisée pendant 10 minutes de drone, pas besoin de s'inquiéter d'interrompre le plaisir, de nouvelles batteries de sécurité haute capacité améliorées, accompagnent l'enfant pour passer chaque minute de bonheur, des cadeaux adaptés aux enfants de 6 à 16 ans, il (elle) passera un moment inoubliable ! Des moments heureux. | SÉCURITÉ ET DURABILITÉ: Korffe Le mini drone est récemment mis à niveau, vous n'avez pas à vous soucier des dommages causés par la collision des ailes. Nous vous avons donné 8 ailes, deux couleurs différentes, créez manuellement vos couleurs préférées pour créer votre propre drone. La conception des ailes détachables vous permet de nettoyer les enchevêtrements de cheveux sur les ailes à temps, de sorte que votre drone ne pourra pas voler à cause des enchevêtrements, augmentant considérablement la durée de vie du drone. | SERVICE CLIENT 100% QUALITÉ: À l'intérieur de l'emballage, vous trouverez un manuel d'instructions complet, clair et facile à comprendre. Si vous avez des questions ou des problèmes, veuillez nous contacter. Nous garantissons de résoudre votre problème dans les 24 heures pour garantir que nos clients sont 100% satisfaits de notre service client. Remarque : la télécommande portable nécessite trois piles AAA (non incluses)",
-  "shortDescription": "Korffe Mini drone pour enfants de 6 7 8 9 et 10 ans et plus, jouet avion télécommandé pour enfants e",
+  "name": "Mini Drone Korffe - Le Jouet Tech Idéal pour Enfants dès 6 Ans",
+  "slug": "mini-drone-korffe-jouet-tech-ideal",
+  "description": "Offrez des heures d'aventure et d'apprentissage technologique avec le Mini Drone Korffe ! Conçu spécialement pour les enfants dès 6 ans, ce drone télécommandé est le cadeau parfait pour initier les jeunes esprits au monde fascinant de la robotique et de l'aéronautique. Facile à piloter, même pour les débutants, il est équipé de lumières LED vives pour un vol spectaculaire de jour comme de nuit. Son design compact et résistant le rend parfait pour s'amuser en intérieur comme en extérieur. Un jouet avion télécommandé qui stimule la coordination œil-main et la dextérité, idéal pour les garçons et les filles avides de découvrir les technologies de pointe. **Prix : 39.0€**",
+  "shortDescription": "Mini Drone Korffe : jouet avion télécommandé pour enfants (6+ ans). Facile à piloter, lumières LED, intérieur/extérieur. Idéal garçons & filles. 39.0€",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Korffe",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Korffe - Le Jouet Tech Idéal pour Enfants dès 6 Ans",
+    "description": "Mini Drone Korffe : jouet avion télécommandé pour enfants (6+ ans). Facile à piloter, lumières LED, intérieur/extérieur. Idéal garçons & filles. 39.0€",
+    "keywords": [
+      "mini drone korffe - le jouet tech idéal pour enfants dès 6 ans",
+      "drones avec stabilisateur (nacelle)",
+      "marque : korffe"
+    ],
+    "ogTitle": "Mini Drone Korffe - Le Jouet Tech Idéal pour Enfants dès 6 Ans",
+    "ogDescription": "Mini Drone Korffe : jouet avion télécommandé pour enfants (6+ ans). Facile à piloter, lumières LED, intérieur/extérieur. Idéal garçons & filles. 39.0€"
   },
   "reviews": {
     "averageRating": 4.8,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone télécommandé pour enfants et débutants. Âge recommandé : 6, 7, 8, 9, 10 ans et plus. Lumières LED intégrées. Utilisation intérieure et extérieure. Cadeau idéal pour garçons et filles."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il facile à piloter pour un enfant débutant ?",
+      "a": "Absolument ! Le Mini Drone Korffe est conçu avec une interface de contrôle intuitive, parfaite pour les débutants. Ses modes de vol stabilisés et ses commandes simples permettent aux enfants de prendre rapidement en main le pilotage, même sans expérience préalable."
+    },
+    {
+      "q": "Puis-je faire voler ce drone à l'extérieur ?",
+      "a": "Oui, le Mini Drone Korffe est conçu pour une utilisation polyvalente en intérieur comme en extérieur. Sa robustesse et sa maniabilité lui permettent de s'adapter à différents environnements de jeu. Attention toutefois aux conditions météorologiques (vent fort, pluie)."
+    },
+    {
+      "q": "Les lumières LED sont-elles juste décoratives ?",
+      "a": "Les lumières LED du Mini Drone Korffe ne sont pas seulement décoratives. Elles améliorent la visibilité du drone, rendant le pilotage plus facile et plus sûr, surtout dans des conditions de faible luminosité ou lors de vols nocturnes. Elles ajoutent également une touche de fun et de spectacle !"
+    },
+    {
+      "q": "Quel est l'âge idéal pour utiliser ce drone ?",
+      "a": "Le Mini Drone Korffe est spécifiquement adapté et recommandé pour les enfants dès l'âge de 6 ans et convient aux enfants de 7, 8, 9, 10 ans et plus. C'est un excellent moyen d'introduire les concepts de pilotage et de technologie robotique de manière ludique."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:33.727772",
+  "originalName": "Korffe Mini drone pour enfants de 6 7 8 9 et 10 ans et plus, jouet avion télécommandé pour enfants et débutants avec lumières LED, idéal pour l'intérieur et l'extérieur, idéal pour garçons et filles",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0CWKYJ6QV",
   "name": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b",
-  "slug": "drone-l900-pro-sel900-se-max-camera-gps-5g-temps-d",
-  "description": "Facile à utiliser : les drones avec caméra sont faciles à utiliser et ne nécessitent que de simples compétences de vol pour prendre des photos aériennes. | Haute stabilité : les drones caméra sont équipés de dispositifs de stabilisation qui leur permettent de voler de manière stable et de prendre des photos claires et stables. | Prise de vue à haute altitude : les drones-caméras peuvent voler haut dans les airs pour capturer des scènes et des scènes qui ne peuvent pas être capturées sur un sol plat. | Plusieurs modes de prise de vue : le drone caméra peut effectuer une variété de modes de prise de vue, tels que le mode suivi, le mode surround et le mode de repérage. | Transmission en temps réel : les drones caméra peuvent transmettre les images collectées par la caméra en temps réel, et les utilisateurs peuvent regarder les images en temps réel via des téléphones portables, des tablettes et d'autres appareils.",
-  "shortDescription": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km,",
+  "slug": "pro-l900-drone-se-l900-max-camera",
+  "description": "<div><h2>Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b</h2><p>Quality product</p></div>",
+  "shortDescription": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b - Quality Product",
   "price": "276.0",
   "compareAtPrice": 317,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : YATINMEM",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b",
+    "description": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b - Quality Product",
+    "keywords": [
+      "drone l900 pro se/l900 se max, caméra gps 5g, temps de vol fpv, moteur sans balais, distance 1,2 km, drones professionnels 4k, gris 1080p 2b",
+      "drones cinéma à long temps de vol",
+      "marque : yatinmem"
+    ],
+    "ogTitle": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b",
+    "ogDescription": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b - Quality Product"
   },
   "reviews": {
     "averageRating": 4.0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:37.956028",
+  "originalName": "Drone L900 Pro SE/L900 SE Max, caméra GPS 5G, Temps de vol FPV, Moteur sans balais, Distance 1,2 km, Drones Professionnels 4K, Gris 1080p 2b",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0FCSBDN2C",
-  "name": "Chargeur USB RC 7,4 V LiPo avec fiche SM‑3P, avec protection contre la surcharge, affichage LED, puissance de charge efficace 1 A, câble de charge USB universel pour voitures radiocommandées, drones",
-  "slug": "chargeur-usb-rc-74-v-lipo-avec-fiche-sm3p-avec-pro",
-  "description": "Compatibilité : ce câble de chargeur USB RC est universel et charge les batteries LiPo de 7,4 V pour voitures radiocommandées, drones, quadcoptères et jouets télécommandés, grâce à la prise SM‑3P, sûre et fiable. | Sécurité : équipé d'une protection contre les surcharges, les surintensités et les courts-circuits, ce chargeur assure une charge sûre de vos batteries sans surchauffe ni dommages. | Efficacité : l'entrée est DC 5V 2A, la sortie 7.4V 1A - Le chargeur de batterie USB charge vos batteries RC rapidement et efficacement afin que vous puissiez redémarrer le plus rapidement possible. | Indicateur de charge : le voyant LED indique l'état : la LED rouge s'allume lors de la charge, la LED verte clignote et s'allume en continu à pleine charge, ce qui vous permet de garder un œil sur le niveau de charge de vos batteries RC. | Facile à utiliser : parfait comme câble de chargeur USB RC universel avec fiche SM‑3P, portable et pratique – Idéal pour les déplacements lors du chargement USB sécurisé pour les voitures radiocommandées, il suffit de le connecter à une banque d'alimentation, un bloc d'alimentation USB ou un PC.",
-  "shortDescription": "Chargeur USB RC 7,4 V LiPo avec fiche SM‑3P, avec protection contre la surcharge, affichage LED, pui",
+  "name": "Chargeur USB LiPo 7.4V SM-3P pour Drones et Voitures RC",
+  "slug": "sm-3p-chargeur-usb-lipo-7-4v-pour",
+  "description": "Optimisez la performance de vos véhicules radiocommandés et drones avec notre chargeur USB LiPo 7.4V. Conçu avec une fiche SM-3P standard, il assure une compatibilité étendue. Bénéficiez d'une charge efficace de 1A et d'une sécurité renforcée grâce à la protection contre la surcharge. L'indicateur LED vous tient informé de l'état de charge en temps réel. Ce câble de charge universel est l'accessoire indispensable pour maintenir vos batteries LiPo 7.4V prêtes à l'action.",
+  "shortDescription": "Chargeur USB LiPo 7.4V avec fiche SM-3P. Charge 1A efficace, protection surcharge, LED. Universel pour voitures RC & drones.",
   "price": "7.0",
   "compareAtPrice": 8,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Anrbb",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Chargeur USB LiPo 7.4V SM-3P pour Drones et Voitures RC",
+    "description": "Chargeur USB LiPo 7.4V avec fiche SM-3P. Charge 1A efficace, protection surcharge, LED. Universel pour voitures RC & drones.",
+    "keywords": [
+      "chargeur usb lipo 7.4v sm-3p pour drones et voitures rc",
+      "batteries et chargeurs pour drones",
+      "marque : anrbb"
+    ],
+    "ogTitle": "Chargeur USB LiPo 7.4V SM-3P pour Drones et Voitures RC",
+    "ogDescription": "Chargeur USB LiPo 7.4V avec fiche SM-3P. Charge 1A efficace, protection surcharge, LED. Universel pour voitures RC & drones."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Puissance de charge : 1A, Tension : 7.4V, Type de batterie : LiPo, Connecteur : SM-3P, Sécurité : Protection contre la surcharge, Indicateur : LED, Compatibilité : Voitures RC, Drones"
+  },
+  "faq": [
+    {
+      "q": "Ce chargeur est-il compatible avec toutes les batteries LiPo 7.4V ?",
+      "a": "Oui, tant que votre batterie LiPo 7.4V utilise une fiche de type SM-3P, ce chargeur est parfaitement adapté. Il est idéal pour les voitures radiocommandées et les drones utilisant ce standard."
+    },
+    {
+      "q": "Comment savoir quand la charge est terminée ?",
+      "a": "Le chargeur est équipé d'un indicateur LED qui signale l'état de charge. Il vous suffit de surveiller le changement d'état du LED pour savoir quand votre batterie est pleinement chargée."
+    },
+    {
+      "q": "La protection contre la surcharge est-elle efficace ?",
+      "a": "Absolument. La protection intégrée contre la surcharge garantit que votre batterie LiPo 7.4V ne sera pas endommagée par une charge excessive, prolongeant ainsi sa durée de vie et assurant votre sécurité."
+    },
+    {
+      "q": "Quelle est la puissance de charge de ce chargeur ?",
+      "a": "Ce chargeur USB LiPo offre une puissance de charge efficace de 1 Ampère (1A), assurant une recharge rapide et optimisée pour vos batteries 7.4V."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:57.480086",
+  "originalName": "Chargeur USB RC 7,4 V LiPo avec fiche SM‑3P, avec protection contre la surcharge, affichage LED, puissance de charge efficace 1 A, câble de charge USB universel pour voitures radiocommandées, drones",
+  "enhanced": true
 }

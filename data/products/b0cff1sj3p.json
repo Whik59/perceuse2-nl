@@ -1,9 +1,9 @@
 {
   "productId": "B0CFF1SJ3P",
-  "name": "DJI Mini 4 Pro (DJI RC 2), Mini Drone Pliable avec Caméra 4K pour Adultes, Moins de 0,549 lb/249 g, Temps de Vol 34 min, Transmission Vidéo 20 km, Détection Omnidirectionnelle, C0",
-  "slug": "dji-mini-4-pro-dji-rc-2-mini-drone-pliable-avec-ca",
-  "description": "Moins de 249 g, aucun examen nécessaire[1] - Léger, conforme à la réglementation C0, le drone ne nécessite aucun examen dans la plupart des pays ! Appréciez le plaisir du vol sans les fastidieuses procédures de demande et les délais d’attente. | Des vidéos verticales saisissantes en HDR 4K/60 ips - Capturez les levers et couchers de soleil et les scènes de nuit en toute clarté. Partagez vos vidéos directement, sans retouche. Profitez de séquences de haute qualité dès la sortie de la caméra ! | Détection d’obstacles omnidirectionnelle pour une sécurité accrue - La détection précise dans toutes les directions garantit un vol en toute confiance, le drone étant plus à même de détecter les obstacles ! | Vols continus avec une autonomie de batterie prolongée - Profitez d’une autonomie de batterie prolongée pour des vols plus longs et continus[3]. Fini le stress lié à la batterie. Plus rien ne vous retiendra pour explorer de vastes paysages. | Des images aériennes en temps réel avec une transmission vidéo FHD sur 20 km[2] - Indispensable pour les vols longs et les images de haute qualité. Profitez d’une transmission d’images sans décalage et vivez des vues aériennes en temps réel inédites.",
-  "shortDescription": "DJI Mini 4 Pro (DJI RC 2), Mini Drone Pliable avec Caméra 4K pour Adultes, Moins de 0,549 lb/249 g, ",
+  "name": "DJI Mini 4 Pro (DJI RC 2) : Drone Pliable 4K pour Adultes",
+  "slug": "pro-dji-mini-dji-drone-pliable",
+  "description": "Découvrez le DJI Mini 4 Pro, le drone pliable ultra-léger (<249g) conçu pour les passionnés de photographie aérienne et de vidéographie. Équipé d'une caméra 4K, il offre une liberté de création inégalée. Profitez d'un temps de vol prolongé de 34 minutes et d'une transmission vidéo impressionnante de 20 km grâce à la radiocommande DJI RC 2 incluse. Sa détection omnidirectionnelle des obstacles assure une sécurité maximale, même lors de prises de vues complexes. Idéal pour les adultes recherchant performance, portabilité et technologie de pointe.",
+  "shortDescription": "Drone DJI Mini 4 Pro 4K, <249g, avec DJI RC 2. Portée 20km, 34min vol, détection omnidirectionnelle. Idéal pour adultes.",
   "price": "764.0",
   "compareAtPrice": 878,
   "images": [
@@ -27,9 +27,15 @@
   "amazonReviewCount": 0,
   "brand": "DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "DJI Mini 4 Pro (DJI RC 2) : Drone Pliable 4K pour Adultes",
+    "description": "Drone DJI Mini 4 Pro 4K, <249g, avec DJI RC 2. Portée 20km, 34min vol, détection omnidirectionnelle. Idéal pour adultes.",
+    "keywords": [
+      "dji mini 4 pro (dji rc 2) : drone pliable 4k pour adultes",
+      "drones étanche et tout-terrain",
+      "dji"
+    ],
+    "ogTitle": "DJI Mini 4 Pro (DJI RC 2) : Drone Pliable 4K pour Adultes",
+    "ogDescription": "Drone DJI Mini 4 Pro 4K, <249g, avec DJI RC 2. Portée 20km, 34min vol, détection omnidirectionnelle. Idéal pour adultes."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -41,5 +47,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone pliable avec caméra 4K, radiocommande DJI RC 2, poids <249g, autonomie 34 min, portée vidéo 20 km, détection omnidirectionnelle des obstacles."
+  },
+  "faq": [
+    {
+      "q": "Le DJI Mini 4 Pro nécessite-t-il une licence pour voler ?",
+      "a": "Grâce à son poids inférieur à 249 grammes, le DJI Mini 4 Pro ne nécessite généralement pas de licence ou d'enregistrement dans la plupart des régions, ce qui le rend plus accessible pour les débutants et les amateurs."
+    },
+    {
+      "q": "Quelle est la qualité vidéo enregistrée par le DJI Mini 4 Pro ?",
+      "a": "Le DJI Mini 4 Pro capture des vidéos en résolution 4K, offrant ainsi des images d'une qualité exceptionnelle, riches en détails et en couleurs vives pour des créations professionnelles."
+    },
+    {
+      "q": "Quelle est la portée de la transmission vidéo de ce drone ?",
+      "a": "Le système de transmission vidéo O4 assure une portée allant jusqu'à 20 km, vous permettant de voler plus loin et de garder un contrôle stable sur votre drone et votre flux vidéo en temps réel."
+    },
+    {
+      "q": "La radiocommande DJI RC 2 est-elle incluse dans ce pack ?",
+      "a": "Oui, ce pack comprend la radiocommande DJI RC 2, dotée d'un écran lumineux et de commandes ergonomiques pour une expérience de pilotage intuitive et confortable."
+    },
+    {
+      "q": "Comment fonctionne la détection des obstacles sur le Mini 4 Pro ?",
+      "a": "Le DJI Mini 4 Pro intègre un système de détection omnidirectionnelle des obstacles. Cela signifie qu'il peut détecter les obstacles dans toutes les directions (avant, arrière, gauche, droite, haut et bas), assurant ainsi une sécurité accrue lors du vol et des manœuvres."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.565095",
+  "originalName": "DJI Mini 4 Pro (DJI RC 2), Mini Drone Pliable avec Caméra 4K pour Adultes, Moins de 0,549 lb/249 g, Temps de Vol 34 min, Transmission Vidéo 20 km, Détection Omnidirectionnelle, C0",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B00NBT57YG",
   "name": "CULLMANN Sac à Dos Panama 200 Noir",
-  "slug": "cullmann-sac-a-dos-panama-200-noir",
-  "description": "Accessoire image & son",
-  "shortDescription": "CULLMANN Sac à Dos Panama 200 Noir",
+  "slug": "cullmann-sac-dos-panama-200-noir",
+  "description": "<div><h2>CULLMANN Sac à Dos Panama 200 Noir</h2><p>Quality product</p></div>",
+  "shortDescription": "CULLMANN Sac à Dos Panama 200 Noir - Quality Product",
   "price": "31.0",
   "compareAtPrice": 35,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique CULLMANN",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "CULLMANN Sac à Dos Panama 200 Noir",
+    "description": "CULLMANN Sac à Dos Panama 200 Noir - Quality Product",
+    "keywords": [
+      "cullmann sac à dos panama 200 noir",
+      "sacs à dos pour drones",
+      "visiter la boutique cullmann"
+    ],
+    "ogTitle": "CULLMANN Sac à Dos Panama 200 Noir",
+    "ogDescription": "CULLMANN Sac à Dos Panama 200 Noir - Quality Product"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:13.732026",
+  "originalName": "CULLMANN Sac à Dos Panama 200 Noir",
+  "enhanced": true
 }

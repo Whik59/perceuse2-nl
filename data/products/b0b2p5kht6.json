@@ -1,9 +1,9 @@
 {
   "productId": "B0B2P5KHT6",
-  "name": "BLLRC 4PCS Hélice & 4PCS Housse de Protection pour Hubsan H501S H501A H501C H501M H501S Pro H501S W Photographie Aérienne Quadcopter RC Airplane Pièces de Rechange Housse de Protection d'Hélice -Noir",
-  "slug": "bllrc-4pcs-helice-4pcs-housse-de-protection-pour-h",
-  "description": "Pour Hubsan H501S H501A H501C H501M H501S pro H501S W Photographie Aérienne Quadcopter RC Aircraft Pièces de Rechange Housse de Protection d'Hélice | Matériau : plastique dur durable, haute qualité et finition soignée. | La conception auto-serrante évite que l'hélice ne se desserre pendant le fonctionnement et ne s'envole potentiellement | Léger et bon fonctionnement. | Contenu du coffret:4PCS Hélice & 4PCS Housse de Protection",
-  "shortDescription": "BLLRC 4PCS Hélice & 4PCS Housse de Protection pour Hubsan H501S H501A H501C H501M H501S Pro H501S W ",
+  "name": "Kit Hélice et Protections Noir pour Hubsan H501S H501A H501C H501M H501S Pro",
+  "slug": "pro-h501m-kit-helice-protections-noir",
+  "description": "Optimisez les performances et la sécurité de votre drone Hubsan avec ce kit essentiel de 4 hélices de remplacement et 4 protections d'hélice noirs. Conçu spécifiquement pour les modèles Hubsan H501S, H501A, H501C, H501M et H501S Pro, ce pack de pièces détachées est indispensable pour la photographie aérienne et le vol de loisir. Ces hélices garantissent une stabilité et une efficacité de vol accrues, tandis que les protections d'hélice réduisent considérablement le risque de dommages aux hélices, au drone et à l'environnement lors des manœuvres, particulièrement pour les débutants. Profitez d'une expérience de vol plus sereine et prolongée avec un matériel fiable et adapté. Faciles à installer, ces accessoires de drone sont le choix idéal pour maintenir votre quadcopter RC en parfait état de fonctionnement.",
+  "shortDescription": "Kit 4 hélices noires et 4 protections pour Hubsan H501S/A/C/M H501S Pro. Sécurité et performance pour votre drone de photographie aérienne.",
   "price": "17.0",
   "compareAtPrice": 19,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : BLLRC",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit Hélice et Protections Noir pour Hubsan H501S H501A H501C H501M H501S Pro",
+    "description": "Kit 4 hélices noires et 4 protections pour Hubsan H501S/A/C/M H501S Pro. Sécurité et performance pour votre drone de photographie aérienne.",
+    "keywords": [
+      "kit hélice et protections noir pour hubsan h501s h501a h501c h501m h501s pro",
+      "protections d'hélices",
+      "marque : bllrc"
+    ],
+    "ogTitle": "Kit Hélice et Protections Noir pour Hubsan H501S H501A H501C H501M H501S Pro",
+    "ogDescription": "Kit 4 hélices noires et 4 protections pour Hubsan H501S/A/C/M H501S Pro. Sécurité et performance pour votre drone de photographie aérienne."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatibilité : Hubsan H501S, H501A, H501C, H501M, H501S Pro. Contenu : 4 hélices, 4 protections d'hélice. Couleur : Noir. Matériau : Plastique résistant. Usage : Photographie aérienne, loisir, pièces de rechange."
+  },
+  "faq": [
+    {
+      "q": "Ce kit d'hélices et de protections est-il compatible avec tous les modèles Hubsan ?",
+      "a": "Ce kit est spécifiquement conçu pour les modèles Hubsan H501S, H501A, H501C, H501M et H501S Pro. Veuillez vérifier la compatibilité exacte de votre drone."
+    },
+    {
+      "q": "Les protections d'hélice sont-elles faciles à installer ?",
+      "a": "Oui, les protections d'hélice sont conçues pour un montage et un démontage rapides et simples, sans nécessiter d'outils spécifiques."
+    },
+    {
+      "q": "Quel est l'avantage principal des protections d'hélice pour un quadcopter RC ?",
+      "a": "Les protections d'hélice protègent les hélices des chocs, réduisant ainsi le risque de casse et de dommages au drone, à son environnement et aux personnes. Elles sont idéales pour l'apprentissage et les vols en espace restreint."
+    },
+    {
+      "q": "Ces hélices améliorent-elles les performances de vol du drone ?",
+      "a": "Oui, des hélices bien équilibrées et de qualité contribuent à une meilleure stabilité, une portance optimisée et une efficacité de vol accrue pour votre drone Hubsan."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:21.639808",
+  "originalName": "BLLRC 4PCS Hélice & 4PCS Housse de Protection pour Hubsan H501S H501A H501C H501M H501S Pro H501S W Photographie Aérienne Quadcopter RC Airplane Pièces de Rechange Housse de Protection d'Hélice -Noir",
+  "enhanced": true
 }

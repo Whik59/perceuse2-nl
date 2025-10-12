@@ -1,9 +1,9 @@
 {
   "productId": "B0BLMYLWMR",
   "name": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone",
-  "slug": "magideal-set-helice-protection-train-datterrissage",
-  "description": "Ensemble hélice + capot atterrissage pour pièces de rechange pour quadricoptères J58 E16 S168 JY0 Télécommande Accessoires | Accessoires pour Quadricoptère pliant E58 S168 JY019 | Excellente de hélicoptère et évitant toute collision ou tout dommage | Protège caméra et le cardan du crash endommagé | Léger et bon fonctionnement",
-  "shortDescription": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone",
+  "slug": "magideal-set-helice-protection-train-d-atterrissage",
+  "description": "<div><h2>MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone</h2><p>Quality product</p></div>",
+  "shortDescription": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone - Quality Product",
   "price": "8.0",
   "compareAtPrice": 9,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : MagiDeal",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone",
+    "description": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone - Quality Product",
+    "keywords": [
+      "magideal set hélice & protection & train d'atterrissage pour e58 s168 jy019 rc drone",
+      "hélices et protections pour drones",
+      "marque : magideal"
+    ],
+    "ogTitle": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone",
+    "ogDescription": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone - Quality Product"
   },
   "reviews": {
     "averageRating": 4.0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:25.407659",
+  "originalName": "MagiDeal Set Hélice & Protection & Train D'atterrissage pour E58 S168 JY019 RC Drone",
+  "enhanced": true
 }

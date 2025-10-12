@@ -1,9 +1,9 @@
 {
   "productId": "B09ZV41WTN",
-  "name": "Hoppac Hub USB 3.0,4 en 1 Multiprise USB avec Lumière LED, Port USB Multiple pour PC avec 1USB 3.0 Et 3USB 2.0,USB Multiple Ports pour Le Transfert De Données et La Recharge,Interrupteur Indépendant",
-  "slug": "hoppac-hub-usb-304-en-1-multiprise-usb-avec-lumier",
-  "description": "Hub USB Multi-Ports 4 en 1 : Le hub USB intelligent étend votre ordinateur portable via USB avec 4 ports USB supplémentaires, plug and play, facile à utiliser et pratique pour votre utilisation quotidienne. | Transfert De Données : 3 port USB 2.0 peuvent être utilisés pour connecter des périphériques comme un clavier ou une souris sans décalage. 1 port USB 3.0 transfère des données jusqu'à 5 Gbps, qui peuvent être connectés à des tablettes et des disques durs pour transférer facilement des données. | Interrupteur Indépendant et Voyant Lumineux : L'interrupteur indépendant vous permet de ne pas brancher et débrancher fréquemment, il suffit d'éteindre l'interrupteur individuel lorsqu'il n'est pas utilisé, et il y a un voyant séparé pour indiquer l'état de fonctionnement. | Périphériques Compatibles : Plug and Play, aucun pilote supplémentaire requis ; compatible avec les ordinateurs portables avec différents types de ports USB. | Rendez Votre Bureau Plus Propre : Cette clé USB peut intégrer la souris, la clé USB du clavier et d'autres appareils pour rendre votre bureau plus confortable.",
-  "shortDescription": "Hoppac Hub USB 3.0,4 en 1 Multiprise USB avec Lumière LED, Port USB Multiple pour PC avec 1USB 3.0 E",
+  "name": "Hoppac Hub USB 3.0 4-en-1 avec LED et Interrupteurs Indépendants",
+  "slug": "hoppac-hub-usb-3-0-4-en-1-avec",
+  "description": "Optimisez votre espace de travail avec le **Hoppac Hub USB 3.0 4-en-1**. Ce **multiprise USB** compact et performant est conçu pour révolutionner votre gestion des périphériques. Doté d'un port **USB 3.0 ultra-rapide** et de trois ports **USB 2.0**, il assure un transfert de données fluide et efficace, idéal pour vos transferts de fichiers volumineux, la synchronisation de vos appareils ou la connexion de vos accessoires. Chaque port est équipé d'un **interrupteur indépendant**, vous offrant un contrôle total sur l'alimentation de chaque périphérique, ce qui permet d'économiser de l'énergie et de prolonger la durée de vie de vos appareils. La **lumière LED intégrée** indique discrètement le statut de chaque port, ajoutant une touche de modernité à votre installation. Parfait pour les professionnels et les amateurs de technologie, ce **hub USB multiple** est compatible avec tous les PC, transformant votre port USB unique en une station de travail polyvalente. Simplifiez votre connexion, boostez votre productivité.",
+  "shortDescription": "Hub USB 3.0 4-en-1 (1x USB 3.0, 3x USB 2.0) avec LED et interrupteurs indépendants. Idéal pour PC, transfert de données & recharge. Prix : 7.0€",
   "price": "7.0",
   "compareAtPrice": 8,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Hoppac",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hoppac Hub USB 3.0 4-en-1 avec LED et Interrupteurs Indépendants",
+    "description": "Hub USB 3.0 4-en-1 (1x USB 3.0, 3x USB 2.0) avec LED et interrupteurs indépendants. Idéal pour PC, transfert de données & recharge. Prix : 7.0€",
+    "keywords": [
+      "hoppac hub usb 3.0 4-en-1 avec led et interrupteurs indépendants",
+      "chargeurs multiples et hubs",
+      "visiter la boutique hoppac"
+    ],
+    "ogTitle": "Hoppac Hub USB 3.0 4-en-1 avec LED et Interrupteurs Indépendants",
+    "ogDescription": "Hub USB 3.0 4-en-1 (1x USB 3.0, 3x USB 2.0) avec LED et interrupteurs indépendants. Idéal pour PC, transfert de données & recharge. Prix : 7.0€"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Hub USB 3.0 4-en-1, 1 port USB 3.0, 3 ports USB 2.0, Lumière LED par port, Interrupteurs indépendants pour chaque port, Compatible PC, Transfert de données rapide, Recharge de périphériques"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la vitesse de transfert du port USB 3.0 ?",
+      "a": "Le port USB 3.0 de ce hub Hoppac offre des vitesses de transfert allant jusqu'à 5 Gbps, permettant des transferts de fichiers rapides et efficaces."
+    },
+    {
+      "q": "Les interrupteurs indépendants permettent-ils de contrôler l'alimentation de chaque port ?",
+      "a": "Oui, chaque port USB est doté d'un interrupteur indépendant qui vous permet d'allumer ou d'éteindre individuellement chaque périphérique connecté, offrant ainsi un contrôle total et une gestion optimisée de l'énergie."
+    },
+    {
+      "q": "La lumière LED est-elle gênante ?",
+      "a": "La lumière LED est conçue pour être discrète et indiquer l'état d'activité du port sans être éblouissante, ajoutant une touche esthétique tout en étant fonctionnelle."
+    },
+    {
+      "q": "Ce hub est-il compatible avec les MacBook et autres ordinateurs portables ?",
+      "a": "Absolument. Ce hub USB est conçu pour être compatible avec une large gamme de PC, y compris les ordinateurs portables (MacBook inclus), les ordinateurs de bureau et autres appareils dotés de ports USB."
+    },
+    {
+      "q": "Puis-je utiliser ce hub pour charger mon smartphone ?",
+      "a": "Oui, ce hub USB peut être utilisé pour la recharge de périphériques, y compris les smartphones et autres appareils compatibles USB. La vitesse de recharge dépendra de l'appareil et de la puissance fournie par le port USB de votre ordinateur."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:21.242811",
+  "originalName": "Hoppac Hub USB 3.0,4 en 1 Multiprise USB avec Lumière LED, Port USB Multiple pour PC avec 1USB 3.0 Et 3USB 2.0,USB Multiple Ports pour Le Transfert De Données et La Recharge,Interrupteur Indépendant",
+  "enhanced": true
 }

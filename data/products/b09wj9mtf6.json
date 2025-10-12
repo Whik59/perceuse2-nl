@@ -1,9 +1,9 @@
 {
   "productId": "B09WJ9MTF6",
-  "name": "FLYBOTIC Mini Drone UFO, Contrôle par Gestes, Capteurs de Mouvements, Looping 360°, Jouet Volant pour Enfant, Dès 5 Ans 60113 Rouge",
-  "slug": "flybotic-mini-drone-ufo-controle-par-gestes-capteu",
-  "description": "PILOTAGE FACILE - Utilisation recommandée en intérieur uniquement. Le drone se pilote grâce aux mouvements de la main: pour faire monter le drone, positionnez la main ou un objet à quelques centimètres en dessous de lui, le drone s'élèvera puis se repositionnera en vol stationnaire. Pour le faire avancer, positionnez la main sur le côté du drone, il se déplacera dans la direction opposée offrant à votre enfant une grande jouabilité : en solo ou à plusieurs | DETECTEURS D'OBSTACLES - Grâce à ses détecteurs, le drone se déplacera dans la direction opposée si il rencontre un obstacle | VOL STATIONNAIRE - Uniquement en intérieur, lorsque le drone est allumé, maintenez le dans la main puis lâchez le dans le vide, il se mettra à voler automatiquement en se stabilisant dans les airs en vol stationnaire | LOOPING 360° - Pour activer le mode looping, il suffit de passer les deux mains rapidement de part et d'autre du drone lorsqu'il est en vol. Il se met à clignoter de plusieurs couleurs. Placez ensuite votre ou objet sous le drone et il effectuera des loopings. | PILOTAGE FACILE - Utilisation recommandée en intérieur uniquement. Le drone se pilote grâce aux mouvements de la main: pour faire monter le drone, positionnez la main ou un objet à quelques centimètres en dessous de lui, le drone s'élèvera puis se repositionnera en vol stationnaire. Pour le faire avancer, positionnez la main sur le côté du drone, il se déplacera dans la direction opposée offrant à votre enfant une grande jouabilité : en solo ou à plusieurs",
-  "shortDescription": "FLYBOTIC Mini Drone UFO, Contrôle par Gestes, Capteurs de Mouvements, Looping 360°, Jouet Volant pou",
+  "name": "Mini Drone UFO FLYBOTIC 60113 Rouge - Contrôle par Gestes",
+  "slug": "mini-drone-ufo-flybotic-60113-rouge",
+  "description": "Découvrez le **Mini Drone UFO FLYBOTIC 60113 Rouge**, un jouet volant révolutionnaire conçu pour les jeunes explorateurs dès 5 ans. Grâce à son **contrôle intuitif par gestes** et ses **capteurs de mouvements avancés**, ce drone miniature répondra à tous vos mouvements, offrant une expérience de vol immersive et dynamique.  Parfait pour apprendre les bases du pilotage dans un cadre ludique et sécurisé, le LOOPING 360° intégré ajoute une touche d'adrénaline supplémentaire, garantissant des heures de divertissement. Sa couleur rouge vive le rend facilement repérable pour un maximum de plaisir. Offrez un cadeau technologique et engageant qui stimule la coordination œil-main et la curiosité pour la robotique.",
+  "shortDescription": "Mini Drone UFO FLYBOTIC 60113 Rouge : Contrôle par gestes, Looping 360°, capteurs de mouvements. Jouet volant interactif pour enfants dès 5 ans. Apprentissage ludique de la robotique.",
   "price": "24.0",
   "compareAtPrice": 27,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Silverlit",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone UFO FLYBOTIC 60113 Rouge - Contrôle par Gestes",
+    "description": "Mini Drone UFO FLYBOTIC 60113 Rouge : Contrôle par gestes, Looping 360°, capteurs de mouvements. Jouet volant interactif pour enfants dès 5 ans. Apprentissage ludique de la robotique.",
+    "keywords": [
+      "mini drone ufo flybotic 60113 rouge - contrôle par gestes",
+      "drones avec contrôle par gestes",
+      "visiter la boutique silverlit"
+    ],
+    "ogTitle": "Mini Drone UFO FLYBOTIC 60113 Rouge - Contrôle par Gestes",
+    "ogDescription": "Mini Drone UFO FLYBOTIC 60113 Rouge : Contrôle par gestes, Looping 360°, capteurs de mouvements. Jouet volant interactif pour enfants dès 5 ans. Apprentissage ludique de la robotique."
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Modèle : FLYBOTIC Mini Drone UFO 60113\nCouleur : Rouge\nÂge recommandé : Dès 5 ans\nContrôle : Par gestes, capteurs de mouvements\nFonctionnalités : Looping 360°, vol stationnaire intuitif\nType de produit : Jouet volant, drone pour enfant\nMarque : FLYBOTIC\nPrix : 24.0€"
+  },
+  "faq": [
+    {
+      "q": "Comment fonctionne le contrôle par gestes de ce drone FLYBOTIC ?",
+      "a": "Le Mini Drone UFO FLYBOTIC est équipé de capteurs de mouvements intégrés qui détectent la position de votre main. En levant, abaissant ou en déplacant votre main, vous contrôlez directement la direction et l'altitude du drone, rendant le pilotage très intuitif."
+    },
+    {
+      "q": "Ce drone est-il adapté aux débutants ?",
+      "a": "Absolument ! Conçu dès 5 ans, ce drone est idéal pour les débutants. Son système de contrôle par gestes est très facile à prendre en main, et le drone est conçu pour être résistant aux petits chocs inhérents aux premières utilisations."
+    },
+    {
+      "q": "Quelle est la particularité du \"Looping 360°\" ?",
+      "a": "Le Looping 360° est une manœuvre spectaculaire que le drone peut effectuer. D'une simple commande (souvent un mouvement spécifique de la main), le drone réalise une pirouette complète en l'air, ajoutant un aspect dynamique et impressionnant au vol."
+    },
+    {
+      "q": "Quelle est la durée de vie de la batterie et comment se recharge-t-il ?",
+      "a": "La durée de vol typique pour ce type de mini drone est de quelques minutes (souvent entre 5 et 8 minutes selon l'utilisation). Il se recharge facilement via un câble USB inclus, permettant de le remettre en charge rapidement pour de nouvelles sessions de jeu."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:21.277964",
+  "originalName": "FLYBOTIC Mini Drone UFO, Contrôle par Gestes, Capteurs de Mouvements, Looping 360°, Jouet Volant pour Enfant, Dès 5 Ans 60113 Rouge",
+  "enhanced": true
 }

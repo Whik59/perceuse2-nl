@@ -1,9 +1,9 @@
 {
   "productId": "B0F66MWNF7",
-  "name": "Alonefire SV114 3W Lampe Torche UV LED 365nm Petit Type C USB Rechargeable Lampe Ultraviolet Lumiere Noire Détecteur D'urine pour Resine, Pêche, Scorpion, Minéraux, Ambre avec Batterie Intégrée",
-  "slug": "alonefire-sv114-3w-lampe-torche-uv-led-365nm-petit",
-  "description": "【LED UV 365 nm de qualité】Cette lampe torche UV utilise une LED UV 365 nm de haute qualité comme source lumineuse, avec une consommation électrique impressionnante de 3 W et une puissance lumineuse de 600 mW, ce qui en fait une lampe noire professionnelle pour certaines utilisations professionnelles. | 【Lentille filtrante UV noire】 Cette lampe Woods est équipée d'une lentille optique filtrante noire durcie qui peut filtrer la lumière parasite provenant de l'environnement, ce qui rend la lumière ultraviolette plus pure et plus puissante. | 【Boîtier en alliage d'aluminium de qualité】 Le boîtier de la lampe torche à lumière noire est fabriqué en alliage d'aluminium de haute qualité, ce qui améliore considérablement ses performances de dissipation thermique, prolonge la durée de vie des ampoules et rend la lumière noire plus fiable et durable. | 【Rechargeable par USB C】 Cette lampe UV de 365 nm est conçue avec un port de chargement USB C. Elle peut être insérée dans le port de chargement sans se soucier de l'orientation de la fiche, ce qui rend le chargement plus pratique et plus facile. L'indicateur de charge vous permet de suivre l'état de charge de l'alimentation et rend le processus de chargement plus sûr. Batterie rechargeable haute capacité intégrée | 【Large gamme d'utilisations】La lumière noire pour la détection d'urine d'animaux domestiques est puissante et durable, adaptée à la détection de substances fluorescentes invisibles à l'œil nu, notamment la vérification de l'urine de chat/d'animaux domestiques, la détection de la teigne chez les chats, l'authentification des devises, la détection des scorpions, la détection des minéraux, la détection des punaises de lit et la vérification d'identité.",
-  "shortDescription": "Alonefire SV114 3W Lampe Torche UV LED 365nm Petit Type C USB Rechargeable Lampe Ultraviolet Lumiere",
+  "name": "Lampe Torche UV LED Alonefire SV114 3W - Détecteur Ultime 365nm",
+  "slug": "3w-lampe-torche-led-alonefire-sv114",
+  "description": "Découvrez la **Lampe Torche UV LED Alonefire SV114 3W**, votre nouvel outil indispensable pour une multitude d'applications. Avec sa longueur d'onde puissante de **365nm**, cette lampe ultraviolette (lumière noire) est conçue pour révéler ce qui est invisible à l'œil nu. Compacte et rechargeable via **USB Type-C**, elle offre une portabilité et une commodité exceptionnelles. Idéale pour la **détection d'urine de animaux**, la polymérisation de **résines UV**, la pêche nocturne, la recherche de scorpions, l'identification de minéraux fluorescents ou l'authentification d'ambre. Sa batterie intégrée garantit une utilisation prolongée. Ne manquez plus aucun détail, même dans l'obscurité la plus totale.",
+  "shortDescription": "Lampe UV LED 3W Alonefire SV114 (365nm) - Rechargeable USB-C. Idéale pour détecter l'urine, polymériser la résine UV, chercher scorpions, minéraux, ambre.",
   "price": "8.0",
   "compareAtPrice": 9,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Alonefire",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lampe Torche UV LED Alonefire SV114 3W - Détecteur Ultime 365nm",
+    "description": "Lampe UV LED 3W Alonefire SV114 (365nm) - Rechargeable USB-C. Idéale pour détecter l'urine, polymériser la résine UV, chercher scorpions, minéraux, ambre.",
+    "keywords": [
+      "lampe torche uv led alonefire sv114 3w - détecteur ultime 365nm",
+      "rov pour la pêche",
+      "visiter la boutique alonefire"
+    ],
+    "ogTitle": "Lampe Torche UV LED Alonefire SV114 3W - Détecteur Ultime 365nm",
+    "ogDescription": "Lampe UV LED 3W Alonefire SV114 (365nm) - Rechargeable USB-C. Idéale pour détecter l'urine, polymériser la résine UV, chercher scorpions, minéraux, ambre."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Puissance : 3W | Longueur d'onde : 365nm UV | Rechargeable : USB Type-C | Batterie : Intégrée | Matériaux : Alliage d'aluminium | Dimensions : Compact | Applications : Détection d'urine, résine UV, pêche, scorpions, minéraux, ambre, documents."
+  },
+  "faq": [
+    {
+      "q": "À quoi sert principalement cette lampe torche UV LED?",
+      "a": "Cette lampe torche UV LED 365nm est conçue pour de multiples usages, notamment la détection d'urine d'animaux, la polymérisation de résines UV, la recherche de scorpions, l'examen de minéraux fluorescents, l'authentification d'ambre, et la détection de faux billets ou de traces invisibles."
+    },
+    {
+      "q": "Comment la lampe se recharge-t-elle?",
+      "a": "La lampe torche Alonefire SV114 est équipée d'un port de recharge USB Type-C, offrant une méthode de recharge moderne et rapide."
+    },
+    {
+      "q": "La batterie est-elle remplaçable?",
+      "a": "Non, la batterie est intégrée pour un design plus compact et une meilleure gestion de l'espace. Elle se recharge via USB Type-C."
+    },
+    {
+      "q": "Est-ce une lumière noire standard?",
+      "a": "Oui, c'est une lumière noire UV avec une longueur d'onde spécifique de 365nm, idéale pour révéler la fluorescence de diverses substances, y compris l'urine."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:54.098396",
+  "originalName": "Alonefire SV114 3W Lampe Torche UV LED 365nm Petit Type C USB Rechargeable Lampe Ultraviolet Lumiere Noire Détecteur D'urine pour Resine, Pêche, Scorpion, Minéraux, Ambre avec Batterie Intégrée",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0CFYCQRND",
-  "name": "FIFISH V-EVO 4K Caméra sous-marine AI Vision Lock 360° Mouvement omnidirectionnel ROV sous-marin avec maintien en profondeur, robot ROV avec contrôle VR, verrouillage posture (Standard + bras",
-  "slug": "fifish-v-evo-4k-camera-sous-marine-ai-vision-lock-",
-  "description": "",
-  "shortDescription": "FIFISH V-EVO 4K Caméra sous-marine AI Vision Lock 360° Mouvement omnidirectionnel ROV sous-marin ave",
+  "name": "Caméra Sous-Marine FIFISH V-EVO 4K - Vision IA 360° et ROV Intelligent",
+  "slug": "intelligent-camera-sous-marine-fifish-v-evo-vision",
+  "description": "Plongez au cœur de l'océan avec le FIFISH V-EVO, un drone sous-marin (ROV) révolutionnaire doté d'une caméra 4K et de l'intelligence artificielle. Explorez les profondeurs avec une précision inégalée grâce à la vision IA, le verrouillage de mouvement 360° omnidirectionnel, et le maintien automatique en profondeur. Ce ROV de pointe, idéal pour la photographie, la vidéographie, l'inspection et le loisir, offre une expérience immersive grâce à son contrôle VR et son bras optionnel pour une polyvalence accrue. Laissez-vous guider par la technologie pour des découvertes sous-marines exceptionnelles.",
+  "shortDescription": "ROV intelligent FIFISH V-EVO 4K : Vision IA, mouvement 360°, maintien profondeur, contrôle VR. Idéal exploration sous-marine. 699.0€.",
   "price": "699.0",
   "compareAtPrice": 803,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : FIFISH",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Caméra Sous-Marine FIFISH V-EVO 4K - Vision IA 360° et ROV Intelligent",
+    "description": "ROV intelligent FIFISH V-EVO 4K : Vision IA, mouvement 360°, maintien profondeur, contrôle VR. Idéal exploration sous-marine. 699.0€.",
+    "keywords": [
+      "caméra sous-marine fifish v-evo 4k - vision ia 360° et rov intelligent",
+      "rov avec caméra 4k",
+      "marque : fifish"
+    ],
+    "ogTitle": "Caméra Sous-Marine FIFISH V-EVO 4K - Vision IA 360° et ROV Intelligent",
+    "ogDescription": "ROV intelligent FIFISH V-EVO 4K : Vision IA, mouvement 360°, maintien profondeur, contrôle VR. Idéal exploration sous-marine. 699.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,37 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "ROV sous-marin intelligent avec caméra 4K, vision IA, mouvement omnidirectionnel 360°, maintien en profondeur, contrôle VR, et bras optionnel. Prix : 699.0€."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo du FIFISH V-EVO ?",
+      "a": "Le FIFISH V-EVO est équipé d'une caméra capable d'enregistrer en résolution 4K, offrant des images d'une clarté exceptionnelle pour toutes vos explorations sous-marines."
+    },
+    {
+      "q": "Qu'est-ce que la 'Vision IA' sur ce ROV ?",
+      "a": "La 'Vision IA' (Intelligence Artificielle) permet au FIFISH V-EVO de reconnaître et de suivre des objets, d'optimiser la mise au point et d'améliorer la qualité globale de l'image en temps réel, pour des prises de vue professionnelles sans effort."
+    },
+    {
+      "q": "Le mouvement omnidirectionnel 360° offre-t-il une grande liberté de mouvement ?",
+      "a": "Absolument. Le mouvement omnidirectionnel 360° confère au FIFISH V-EVO une agilité remarquable, lui permettant de se déplacer librement dans toutes les directions et de naviguer dans des environnements complexes avec une aisance totale."
+    },
+    {
+      "q": "Comment fonctionne le 'verrouillage posture' et le maintien en profondeur ?",
+      "a": "Ces fonctionnalités intelligentes permettent au ROV de maintenir sa position et son orientation stables, même dans des conditions de courant. Le maintien en profondeur assure une altitude constante, vous permettant de vous concentrer sur la capture d'images magnifiques sans vous soucier de la gestion manuelle de la profondeur."
+    },
+    {
+      "q": "Le contrôle VR est-il inclus dans le prix de 699.0€ ?",
+      "a": "Le prix de 699.0€ correspond à la configuration Standard du FIFISH V-EVO. L'expérience de contrôle VR est généralement un accessoire ou une fonctionnalité avancée qui peut être proposée en option, selon la configuration exacte du produit."
+    },
+    {
+      "q": "Le bras optionnel est-il compatible avec le modèle standard à 699.0€ ?",
+      "a": "Oui, le bras optionnel est conçu pour être ajouté à la configuration Standard du FIFISH V-EVO, augmentant ainsi ses capacités pour des tâches spécifiques comme la manipulation d'objets ou l'installation d'outils supplémentaires."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:31.267526",
+  "originalName": "FIFISH V-EVO 4K Caméra sous-marine AI Vision Lock 360° Mouvement omnidirectionnel ROV sous-marin avec maintien en profondeur, robot ROV avec contrôle VR, verrouillage posture (Standard + bras",
+  "enhanced": true
 }

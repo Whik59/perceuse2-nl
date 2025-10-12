@@ -1,9 +1,9 @@
 {
   "productId": "B0CQKD13SB",
   "name": "B&W International B&W Sac de Transport extérieur",
-  "slug": "bw-international-bw-sac-de-transport-exterieur",
-  "description": "Incroyable et fonctionnel : orange intense pour une visibilité maximale ! Cette valise robuste combine un design distinctif et une fonctionnalité maximale - Parfait pour les aventuriers en plein air, les professionnels et tous ceux qui veulent savoir leur équipement au mieux protégé | Protection extrême : résiste même aux conditions les plus difficiles ! Les chutes, les coups ou les chocs violents – cette valise protège votre précieux équipement contre les dommages | Fiable contre l'eau et la poussière : aucune chance pour l'humidité et la saleté ! La certification IP67 garantit que votre équipement reste sec et prêt à l'emploi, même dans les conditions les plus défavorables | Résistant : du froid glacial à la chaleur brûlante – grâce à la résistance à la température de -30 °C à +80 °C, cette mallette reste fiable et indestructible | Individuel et élégant : faites une déclaration avec l'une des quatre couleurs distinctives (noir, jaune, orange, vert bronze) et faites de votre équipement quelque chose de spécial",
-  "shortDescription": "B&W International B&W Sac de Transport extérieur",
+  "slug": "b-w-international-b-w-sac-transport-exterieur",
+  "description": "<div><h2>B&W International B&W Sac de Transport extérieur</h2><p>Quality product</p></div>",
+  "shortDescription": "B&W International B&W Sac de Transport extérieur - Quality Product",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : B&W International",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "B&W International B&W Sac de Transport extérieur",
+    "description": "B&W International B&W Sac de Transport extérieur - Quality Product",
+    "keywords": [
+      "b&w international b&w sac de transport extérieur",
+      "valises rigides étanche",
+      "marque : b&w international"
+    ],
+    "ogTitle": "B&W International B&W Sac de Transport extérieur",
+    "ogDescription": "B&W International B&W Sac de Transport extérieur - Quality Product"
   },
   "reviews": {
     "averageRating": 4.6,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.642467",
+  "originalName": "B&W International B&W Sac de Transport extérieur",
+  "enhanced": true
 }

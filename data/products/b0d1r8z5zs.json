@@ -1,9 +1,9 @@
 {
   "productId": "B0D1R8Z5ZS",
-  "name": "Bewinner Mini Drone Pliable KY905 avec Caméra HD 4K, Transmission WiFi HD, Photographie Gestuelle, Vol de Trajectoire, Contrôle de la gravité, Maintien D'altitude, pour Adultes et Enfants",
-  "slug": "bewinner-mini-drone-pliable-ky905-avec-camera-hd-4",
-  "description": "[Évitement d'obstacles multidirectionnel] : profitez d' vol sans obstacle avec des capteurs avant, arrière, gauche et droit qui empêchent les collisions pour une expérience plus sûre. | [Vol de trajectoire précis] : définissez des itinéraires de vol sur l'application mobile pour une photographie aérienne précise, le zoom 50x garantit des prises de vue détaillées à distance. | [Photographie gestuelle amusante] : prenez facilement des photos et des vidéos en faisant geste vers l'appareil photo pendant le vol, avec plusieurs filtres et effets de beauté pour des images personnalisées. | [Caméra immersive 4K Hd] : capturez de superbes images aériennes avec une résolution 4K, la technologie HDR et objectif grand angle pour des photos claires et vives. | [Transmission sans soudure Wifi Hd]: Connectez-vous via une application mobile pour la transmission d'images en temps réel, la photographie et la vidéographie, améliorant ainsi votre expérience de photographie aérienne.",
-  "shortDescription": "Bewinner Mini Drone Pliable KY905 avec Caméra HD 4K, Transmission WiFi HD, Photographie Gestuelle, V",
+  "name": "Mini Drone Pliable Bewinner KY905 4K HD WiFi",
+  "slug": "mini-drone-pliable-bewinner-ky905-wifi",
+  "description": "Découvrez le **Mini Drone Pliable Bewinner KY905**, votre compagnon aérien idéal pour capturer le monde en **qualité 4K HD**. Doté d'une **transmission WiFi HD fluide**, ce drone compact est parfait pour les passionnés de technologie, adultes et enfants. Explorez des fonctionnalités innovantes telles que la **photographie gestuelle** intuitive, le **vol de trajectoire** précis et le **contrôle par gravité** pour une expérience de pilotage immersive. Le **maintien d'altitude automatique** assure des prises de vue stables et professionnelles, même pour les débutants. Facile à transporter grâce à son design pliable, le KY905 est prêt à vous accompagner dans toutes vos aventures. Idéal pour l'initiation à la photographie et vidéographie aérienne, il offre un excellent rapport qualité-prix pour une technologie de pointe.",
+  "shortDescription": "Mini Drone Pliable Bewinner KY905 4K HD WiFi, Photographie Gestuelle, Contrôle Gravité, Maintien Altitude. Parfait pour adultes & enfants.",
   "price": "62.0",
   "compareAtPrice": 71,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Bewinner",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Pliable Bewinner KY905 4K HD WiFi",
+    "description": "Mini Drone Pliable Bewinner KY905 4K HD WiFi, Photographie Gestuelle, Contrôle Gravité, Maintien Altitude. Parfait pour adultes & enfants.",
+    "keywords": [
+      "mini drone pliable bewinner ky905 4k hd wifi",
+      "mini drones pliables",
+      "visiter la boutique bewinner"
+    ],
+    "ogTitle": "Mini Drone Pliable Bewinner KY905 4K HD WiFi",
+    "ogDescription": "Mini Drone Pliable Bewinner KY905 4K HD WiFi, Photographie Gestuelle, Contrôle Gravité, Maintien Altitude. Parfait pour adultes & enfants."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K HD, Transmission WiFi HD, Photographie Gestuelle, Vol de Trajectoire, Contrôle Gravité, Maintien d'Altitude, Design Pliable, Pour Adultes & Enfants."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone Bewinner KY905 ?",
+      "a": "Le drone Bewinner KY905 est équipé d'une caméra **HD 4K** pour des images et vidéos d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Comment se fait la transmission des images du drone ?",
+      "a": "La transmission des images s'effectue via **WiFi HD**, permettant de visualiser en temps réel ce que filme le drone sur votre smartphone."
+    },
+    {
+      "q": "Est-ce que ce drone est facile à piloter pour un débutant ?",
+      "a": "Oui, le Bewinner KY905 est conçu pour être accessible. Le **maintien d'altitude automatique** et le **contrôle par gravité** facilitent grandement le pilotage, le rendant idéal pour les adultes et les enfants débutants."
+    },
+    {
+      "q": "Quelles sont les fonctionnalités intelligentes proposées par ce drone ?",
+      "a": "Ce mini drone propose des fonctionnalités avancées comme la **photographie gestuelle** (déclenchement de photos par gestes), le **vol de trajectoire** (programmation de parcours) et le **contrôle par gravité**."
+    },
+    {
+      "q": "Le drone est-il portable et facile à ranger ?",
+      "a": "Absolument. Son **design pliable** le rend très compact et facile à transporter dans un sac, idéal pour emmener partout avec vous."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:36.942653",
+  "originalName": "Bewinner Mini Drone Pliable KY905 avec Caméra HD 4K, Transmission WiFi HD, Photographie Gestuelle, Vol de Trajectoire, Contrôle de la gravité, Maintien D'altitude, pour Adultes et Enfants",
+  "enhanced": true
 }

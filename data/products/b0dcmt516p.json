@@ -1,9 +1,9 @@
 {
   "productId": "B0DCMT516P",
-  "name": "Batterie de Vol Intelligente, pour Batterie de Remplacement pour Drone Mavic Air, 2375 MAh, Temps de Vol de 21 Minutes, Batterie de Rechange de Vol Haute capacité (1 Paquet)",
-  "slug": "batterie-de-vol-intelligente-pour-batterie-de-remp",
-  "description": "Longue durée de vol : la batterie prendra en charge une durée de vol maximale de 21 minutes. La durée réelle dépendra de la vitesse de vol, des conditions météorologiques et d'autres facteurs. La batterie est conçue avec 4 voyants LED qui vous permettent de vérifier facilement le niveau restant de la batterie et l'état de charge. | Spécifications : tension nominale de 11,55 V, capacité de 2375 mAh au lithium polymère, 27,43 Wh. La batterie de vol haute capacité améliore votre expérience de photographie aérienne pour les drones de la série Mavic 2, rendant le vol plus agréable et vous permettant de capturer des photos époustouflantes. | Parfaitement compatible avec le drone Mavic Air : la batterie de vol intelligente de remplacement est compatible avec le drone Mavic Air. Veuillez utiliser le chargeur désigné pour charger la batterie. | Rappel amical : veuillez charger complètement la batterie et effectuer un vol d'essai avant la première utilisation. La batterie a une capacité d’autodécharge, veuillez donc la charger régulièrement. | protective de sécurité multiple : la batterie de vol intelligente a subi plusieurs tests et certifications. Il est équipé de plusieurs protections telles que la surcharge, la surtension, la surchauffe et les courts-circuits pour garantir qu'aucun problème ne se produise pendant l'utilisation.",
-  "shortDescription": "Batterie de Vol Intelligente, pour Batterie de Remplacement pour Drone Mavic Air, 2375 MAh, Temps de",
+  "name": "Batterie de Vol Intelligente pour Drone Mavic Air - Haute Capacité 2375 mAh",
+  "slug": "batterie-vol-intelligente-pour-drone-mavic",
+  "description": "Prolongez vos aventures aériennes avec notre Batterie de Vol Intelligente de haute capacité (2375 mAh) conçue spécifiquement pour votre drone DJI Mavic Air. Profitez d'un temps de vol optimisé de 21 minutes par batterie, vous offrant plus de temps pour capturer des images époustouflantes et explorer de nouveaux horizons. Cette batterie de remplacement est votre alliée pour des sessions de vol prolongées et sans interruption. Idéale pour les passionnés de photographie et de vidéographie aérienne, elle garantit une performance fiable et durable. Investissez dans la qualité et la tranquillité d'esprit pour vos vols.",
+  "shortDescription": "Batterie intelligente 2375 mAh pour Mavic Air, offrant jusqu'à 21 min de vol. Haute capacité pour une expérience prolongée.",
   "price": "77.0",
   "compareAtPrice": 88,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique ciciglow",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Batterie de Vol Intelligente pour Drone Mavic Air - Haute Capacité 2375 mAh",
+    "description": "Batterie intelligente 2375 mAh pour Mavic Air, offrant jusqu'à 21 min de vol. Haute capacité pour une expérience prolongée.",
+    "keywords": [
+      "batterie de vol intelligente pour drone mavic air - haute capacité 2375 mah",
+      "batteries de vol intelligentes",
+      "visiter la boutique ciciglow"
+    ],
+    "ogTitle": "Batterie de Vol Intelligente pour Drone Mavic Air - Haute Capacité 2375 mAh",
+    "ogDescription": "Batterie intelligente 2375 mAh pour Mavic Air, offrant jusqu'à 21 min de vol. Haute capacité pour une expérience prolongée."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Capacité : 2375 mAh, Autonomie : Jusqu'à 21 minutes par batterie, Compatibilité : Drone DJI Mavic Air, Type : Batterie de vol intelligente, Poids : Légère pour un impact minimal sur le vol, Protection : Intégrée pour une sécurité accrue."
+  },
+  "faq": [
+    {
+      "q": "Cette batterie est-elle compatible avec tous les modèles de Mavic Air ?",
+      "a": "Oui, cette batterie de vol intelligente est spécifiquement conçue pour être entièrement compatible avec le drone DJI Mavic Air."
+    },
+    {
+      "q": "Quel est le temps de vol moyen que je peux attendre avec cette batterie ?",
+      "a": "Vous pouvez vous attendre à un temps de vol d'environ 21 minutes par batterie, bien que cela puisse varier en fonction des conditions de vol et de l'utilisation."
+    },
+    {
+      "q": "La batterie dispose-t-elle de fonctions de sécurité intégrées ?",
+      "a": "Absolument. Cette batterie de vol intelligente intègre des systèmes de protection pour une utilisation sûre et pour prolonger la durée de vie de la batterie."
+    },
+    {
+      "q": "Est-il possible d'acheter plusieurs batteries pour un temps de vol plus long ?",
+      "a": "Oui, l'achat de plusieurs batteries est la solution idéale pour maximiser votre temps de vol et profiter davantage de vos sessions avec le Mavic Air."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:39.603528",
+  "originalName": "Batterie de Vol Intelligente, pour Batterie de Remplacement pour Drone Mavic Air, 2375 MAh, Temps de Vol de 21 Minutes, Batterie de Rechange de Vol Haute capacité (1 Paquet)",
+  "enhanced": true
 }

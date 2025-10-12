@@ -1,9 +1,9 @@
 {
   "productId": "B0DJ78KBL7",
-  "name": "Drone système Airdrop Système de transport payant pour Mini 4 Pro pour 2 3 Air 3 Accessoires pour appât de pêche Mariage Fête Drone Besoins de sauvetage et appareil de",
-  "slug": "drone-systeme-airdrop-systeme-de-transport-payant-",
-  "description": "Modèles compatibles : le système de libération de utile du drone convient pour Mini 3 Pro, pour Mini 4 Pro, pour 3, pour 3 Pro, pour Air 3, F11, et la plupart des autres modèles. | Paramètres importants : la utile maximale du drone est de 1 kg, veuillez noter la utile maximale de votre drone. Batterie intégrée de 300 mAh, interface de de type C. Déclenchement rapide avec 1 bouton de commande du contrôleur. | Portée à distance de 500 mètres : le drone RC airdropper peut laisser tomber des objets à une distance contrôlée de 500 m. Testé dans des zones ouvertes sans interférence, la portée réelle peut varier en fonction des conditions environnementales. | Léger et sûr : le système de livraison de drones est fabriqué en matériau ABS, léger, robuste et N'augmente pas la sur le drone et ne cause aucun dommage. Facile à installer et à retirer. | Largement utilisé : vous pouvez envoyer des alliances, des cadeaux, des fleurs à vos amis, votre famille et vos amoureux lors de chaque jour inoubliable comme les mariages, Halloween, Noël, la Saint-Valentin. Il peut également être utilisé pour lancer des appâts dans la mer, jeter des confettis lors de fêtes sur la plage, lancer des ballons, etc., ce qui apporte un plaisir illimité à votre vie.",
-  "shortDescription": "Drone système Airdrop Système de transport payant pour Mini 4 Pro pour 2 3 Air 3 Accessoires pour ap",
+  "name": "Système Airdrop Drone pour DJI Mini 4 Pro / Air 3",
+  "slug": "pro-systeme-airdrop-drone-pour-dji",
+  "description": "Optimisez vos largages aériens avec notre système Airdrop révolutionnaire, conçu spécifiquement pour les drones DJI Mini 4 Pro, DJI Mini 3 et DJI Air 3. Ce système de largage innovant est l'accessoire indispensable pour transformer votre drone en un outil polyvalent. Idéal pour la pêche (transport d'appâts), les mariages (lâcher de pétales ou de confettis), les fêtes, mais aussi pour des missions de sauvetage critiques ou toute autre application nécessitant un transport et un largage précis de charges légères.  Facile à installer et à utiliser, ce système de transport payant améliore considérablement les capacités de votre drone, ouvrant la voie à des utilisations professionnelles et récréatives inédites.  Fabriqué avec des matériaux durables et intégrant une technologie fiable, il garantit des performances optimales pour vos besoins de largage. Commandez dès maintenant et explorez le potentiel illimité de votre drone !",
+  "shortDescription": "Système Airdrop pour DJI Mini 4 Pro / Air 3. Idéal pour pêche, mariages, fêtes et sauvetage. Transport & largage de charges légères.",
   "price": "42.0",
   "compareAtPrice": 48,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : ZEMBSOYA",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Système Airdrop Drone pour DJI Mini 4 Pro / Air 3",
+    "description": "Système Airdrop pour DJI Mini 4 Pro / Air 3. Idéal pour pêche, mariages, fêtes et sauvetage. Transport & largage de charges légères.",
+    "keywords": [
+      "système airdrop drone pour dji mini 4 pro / air 3",
+      "drones pour la pêche (largage d'appât)",
+      "marque : zembsoya"
+    ],
+    "ogTitle": "Système Airdrop Drone pour DJI Mini 4 Pro / Air 3",
+    "ogDescription": "Système Airdrop pour DJI Mini 4 Pro / Air 3. Idéal pour pêche, mariages, fêtes et sauvetage. Transport & largage de charges légères."
   },
   "reviews": {
     "averageRating": 4.8,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatible avec DJI Mini 4 Pro, DJI Mini 3, DJI Air 3. Conception légère et robuste. Installation facile. Contrôle de largage précis. Adapté pour divers usages : pêche, événements, sauvetage."
+  },
+  "faq": [
+    {
+      "q": "Ce système Airdrop est-il compatible avec mon drone DJI ?",
+      "a": "Oui, ce système Airdrop est spécifiquement conçu pour être compatible avec les drones DJI Mini 4 Pro, DJI Mini 3 et DJI Air 3."
+    },
+    {
+      "q": "Quel type de charge ce système peut-il transporter ?",
+      "a": "Le système est idéal pour transporter et larguer des charges légères et de petite taille, telles que des appâts de pêche, des pétales de fleurs, des confettis, des petits médicaments pour des missions de sauvetage, etc."
+    },
+    {
+      "q": "L'installation de ce système Airdrop est-elle compliquée ?",
+      "a": "Non, l'installation est conçue pour être simple et rapide, sans nécessiter d'outils spéciaux. Les instructions claires vous guideront."
+    },
+    {
+      "q": "Comment le largage est-il contrôlé ?",
+      "a": "Le système de largage est contrôlé électroniquement via la télécommande de votre drone, offrant un contrôle précis du moment du largage."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.731040",
+  "originalName": "Drone système Airdrop Système de transport payant pour Mini 4 Pro pour 2 3 Air 3 Accessoires pour appât de pêche Mariage Fête Drone Besoins de sauvetage et appareil de",
+  "enhanced": true
 }

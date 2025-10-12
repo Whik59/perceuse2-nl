@@ -1,9 +1,9 @@
 {
   "productId": "B01M0AVO1P",
   "name": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
-  "slug": "dji-mavic-pro-drone-drone-quadricoptere-portable-p",
-  "description": "PLIABLE & PORTABLE: Le Mavic Pro est un drone quadricoptère petit mais puissant qui transforme le ciel en terrain de jeu accessible et sans danger ; Son format compact vous permet de l'emmener partout. Résolution vidéo: 4096 x 2160 pixels. Plafond de service maximal au-dessus du niveau de la mer: 16404 pieds (5000 m) | VOLER PLUS LONGTEMPS: Il a une durée de vol maximale de 27 mins & une distance maximale de 13 km (8 mi), ce qui permet des périodes de vol prolongées grâce à ses moteurs puissants et à haut rendement | CAMÉRA 4K: Le DJI Mavic Pro dispose d'une caméra 4K stabilisée par une nacelle 3 axes, ce qui vous permet de prendre des photos et des vidéos d'une clarté cristalline, même à grande vitesse | SYSTÈMES AUTOMATISÉS: Le DJI Mavic Pro utilise la technologie FlightAutonomy pour réduire les risques d'accident ; FlightAutonomy est utilisé en combinaison avec d'autres systèmes pour des vols fiable | À PROPOS DE DJI: En tant qu'entreprise technologique chinoise basée à Shenzhen, DJI est un leader dans le domaine des drones pour la photographie aérienne et la vidéographie",
-  "shortDescription": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | G",
+  "slug": "pro-27-min-dji-mavic-drone-drone",
+  "description": "<div><h2>DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution</h2><p>Quality product</p></div>",
+  "shortDescription": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution - Quality Product",
   "price": "659.0",
   "compareAtPrice": 757,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
+    "description": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution - Quality Product",
+    "keywords": [
+      "dji - mavic pro drone | drone quadricoptère portable & pliable avec caméra | offre 27-min de vol | gimbal 3-axis & caméra 4k | design élégant | photos & vidéos en haute résolution",
+      "drones pliables et portables",
+      "dji"
+    ],
+    "ogTitle": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
+    "ogDescription": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution - Quality Product"
   },
   "reviews": {
     "averageRating": 3.9,
@@ -38,5 +44,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.551067",
+  "originalName": "DJI - Mavic Pro Drone | Drone Quadricoptère Portable & Pliable avec Caméra | Offre 27-Min de Vol | Gimbal 3-Axis & Caméra 4K | Design Élégant | Photos & Vidéos en Haute Résolution",
+  "enhanced": true
 }

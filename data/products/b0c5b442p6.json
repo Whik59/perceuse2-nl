@@ -1,9 +1,9 @@
 {
   "productId": "B0C5B442P6",
-  "name": "S65 Mini Drone RC Pliable pour Enfants Débutants, Quadricoptère de Poche Portable WiFi avec Double Caméra HD 4K, Maintien D'altitude, Retournements 3D, Retour d'une clé, Vol de",
-  "slug": "s65-mini-drone-rc-pliable-pour-enfants-debutants-q",
-  "description": "Contrôle du téléphone portable : avec la fonction WiFi, le mini drone RC peut être connecté à l'application, via l'image de la caméra du téléphone portable pour la photographie, la vidéo, la transmission en temps réel. | Prise de vue beauté : l'application de téléphone pliable Quadcopter intégrée dans une variété d'effets de filtre, une technologie de traitement d'image puissante et intelligente, peut changer le filtre du paysage aérien à tout moment. | Double caméra 4K : le mini drone avec caméra est équipé d'une caméra super HD 4K à l'avant et en bas, qui prend en la commutation libre des angles, une plus large gamme de prise de vue aérienne. | Vol stationnaire intelligent : une nouvelle génération de système de vol stationnaire intelligent, maintient toujours l'altitude pendant le vol, le petit drone RC pliable est facile à contrôler et facile à tirer, facile à démarrer pour les débutants. | Fonctionnement à un bouton : sans contrôle compliqué, un bouton peut réaliser des opérations de décollage, d'atterrissage, de retour ou d'arrêt d'urgence, Pocket RC Quadcopter est facile à utiliser, tout le monde peut voler.",
-  "shortDescription": "S65 Mini Drone RC Pliable pour Enfants Débutants, Quadricoptère de Poche Portable WiFi avec Double C",
+  "name": "Mini Drone S65 - Le Gadget Technologique Idéal pour Débutants",
+  "slug": "mini-drone-s65-gadget-technologique-ideal",
+  "description": "Découvrez le Mini Drone S65, le quadricoptère pliable et portable parfait pour les enfants et les débutants. Doté d'une double caméra HD 4K, ce drone RC offre une expérience de vol immersive grâce à sa connectivité WiFi. Profitez de fonctionnalités avancées comme le maintien d'altitude, les retournements 3D spectaculaires et un retour automatique en cas de perte de signal, le tout pour un prix abordable de 36.0€. Idéal pour s'initier à la photographie aérienne et aux plaisirs du pilotage.",
+  "shortDescription": "Mini Drone S65 Pliable RC pour Enfants Débutants - Double Caméra HD 4K WiFi, Maintien D'altitude, Retour 1 Clé. 36.0€.",
   "price": "36.0",
   "compareAtPrice": 41,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Cuifati",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone S65 - Le Gadget Technologique Idéal pour Débutants",
+    "description": "Mini Drone S65 Pliable RC pour Enfants Débutants - Double Caméra HD 4K WiFi, Maintien D'altitude, Retour 1 Clé. 36.0€.",
+    "keywords": [
+      "mini drone s65 - le gadget technologique idéal pour débutants",
+      "drones pliables et portables",
+      "visiter la boutique cuifati"
+    ],
+    "ogTitle": "Mini Drone S65 - Le Gadget Technologique Idéal pour Débutants",
+    "ogDescription": "Mini Drone S65 Pliable RC pour Enfants Débutants - Double Caméra HD 4K WiFi, Maintien D'altitude, Retour 1 Clé. 36.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Quadricoptère pliable et portable, WiFi, Double caméra HD 4K, Maintien d'altitude, Retournements 3D, Retour d'une clé, Convient aux enfants et débutants. Prix : 36.0€."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone S65 est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le Mini Drone S65 est conçu spécifiquement pour les débutants, avec des fonctions intuitives comme le maintien d'altitude et le retour d'une clé qui simplifient grandement le pilotage."
+    },
+    {
+      "q": "Quelle est la qualité des caméras sur ce drone ?",
+      "a": "Le drone S65 est équipé de deux caméras HD 4K, vous permettant de capturer des photos et des vidéos aériennes avec une excellente résolution pour cette gamme de prix."
+    },
+    {
+      "q": "La connectivité WiFi est-elle nécessaire pour utiliser ce drone ?",
+      "a": "La connectivité WiFi permet de transmettre en direct les images des caméras sur votre smartphone (contrôle via application) et d'accéder à certaines fonctions avancées. Le pilotage de base peut souvent se faire avec la télécommande incluse."
+    },
+    {
+      "q": "Le drone est-il livré avec une télécommande ?",
+      "a": "Oui, le Mini Drone S65 est généralement livré avec une télécommande pour un pilotage direct, en plus de la possibilité de le contrôler via une application smartphone grâce à sa connectivité WiFi."
+    },
+    {
+      "q": "Est-ce un bon cadeau pour un enfant ?",
+      "a": "Oui, c'est un excellent cadeau technologique pour les enfants. Il offre une introduction ludique et éducative au monde des drones et de la robotique, tout en étant facile à prendre en main."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.935997",
+  "originalName": "S65 Mini Drone RC Pliable pour Enfants Débutants, Quadricoptère de Poche Portable WiFi avec Double Caméra HD 4K, Maintien D'altitude, Retournements 3D, Retour d'une clé, Vol de",
+  "enhanced": true
 }

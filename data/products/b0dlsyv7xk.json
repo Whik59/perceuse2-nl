@@ -1,9 +1,9 @@
 {
   "productId": "B0DLSYV7XK",
-  "name": "UFO Mini drone – Balle volante, jouet volant, balle rotative à 360 ° avec lumière LED, cadeaux d'intérieur et d'extérieur pour enfants, garçons, filles de 6, 7, 8, 9, 10 ans et plus",
-  "slug": "ufo-mini-drone-balle-volante-jouet-volant-balle-ro",
-  "description": "👍【Gesture contrôlée】Le drone peut voler dans la direction opposée lorsque vos mains sont à proximité. Vous pouvez utiliser vos mains pour le contrôler dans l'air pour un jeu interactif, super cool et super amusant à utiliser ! | 🔥【Volant rotatif à 360°】L'avion OVNI dispose de 4 puissants moteurs rotatifs pour assurer les performances du vol rotatif à 360°. Il y a également un vol élevé lorsque vous volez à une certaine hauteur. Si vous ne l'utilisez pas pendant 1 à 3 secondes, l'avion coule un peu et flottera à nouveau. | 💪【Technologie de capteur infrarouge Hover】La balle volante utilise la technologie avancée de capteur infrarouge LED Hover, suspension inductive et protection contre les collisions. Le gyroscope intégré peut contrôler la précision et la sensibilité pour établir l'équilibre. Il vous suffit de jeter doucement le jouet de balle volante, il peut commencer à voler immédiatement. | ✨【Lumières LED brillantes】Batterie rechargeable intégrée, le mini drone volant n'a besoin que de 40 minutes pour charger complètement. Il dispose également de 3 modèles de vitesse de vol, d'une lumière verte pour le mode de vitesse moyenne et d'une lumière bleue pour le mode haute vitesse. Le mini drone brillera une lumière vive et colorée lorsqu'il vole la nuit. | 🎁【Corps d'avion solide】Ce jouet volant OVNI est fabriqué en matériau PP, léger et flexible et a une forte résistance aux collisions. La conception du matériau rebondissant peut résister aux dommages en cas de chute. Et l'avion volant peut également se déplacer intelligemment lorsqu'il détecte des objets fixes.",
-  "shortDescription": "UFO Mini drone – Balle volante, jouet volant, balle rotative à 360 ° avec lumière LED, cadeaux d'int",
+  "name": "Drone Mini UFO - Balle Volante Magique Lumineuse",
+  "slug": "drone-mini-ufo-balle-volante-magique",
+  "description": "Découvrez le Drone Mini UFO, une balle volante révolutionnaire qui défie la gravité ! Ce jouet interactif pour enfants et adultes offre un divertissement sans fin, à l'intérieur comme à l'extérieur. Grâce à sa technologie avancée, le UFO Mini drone réalise des rotations à 360° et est équipé de lumières LED captivantes pour des vols spectaculaires de jour comme de nuit. Facile à piloter, il détecte les obstacles et s'ajuste automatiquement pour un jeu sûr et amusant. C'est le cadeau idéal pour stimuler la motricité, la coordination et l'imagination des enfants dès 6 ans. Offrez une expérience de jeu unique avec ce drone volant, une véritable merveille de technologie ludique.",
+  "shortDescription": "Drone Mini UFO : Balle volante magique 360° avec LED. Jouet interactif et sûr pour enfants (6+ ans).",
   "price": "16.0",
   "compareAtPrice": 18,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Jognee",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Mini UFO - Balle Volante Magique Lumineuse",
+    "description": "Drone Mini UFO : Balle volante magique 360° avec LED. Jouet interactif et sûr pour enfants (6+ ans).",
+    "keywords": [
+      "drone mini ufo - balle volante magique lumineuse",
+      "mini drones et drones d'intérieur",
+      "marque : jognee"
+    ],
+    "ogTitle": "Drone Mini UFO - Balle Volante Magique Lumineuse",
+    "ogDescription": "Drone Mini UFO : Balle volante magique 360° avec LED. Jouet interactif et sûr pour enfants (6+ ans)."
   },
   "reviews": {
     "averageRating": 3.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Balle volante rotative à 360°, Lumières LED, Détection d'obstacles, Utilisation intérieure/extérieure, Recommandé dès 6 ans, Matériaux résistants et sûrs."
+  },
+  "faq": [
+    {
+      "q": "Comment fonctionne le Drone Mini UFO ?",
+      "a": "Le Drone Mini UFO utilise des capteurs infrarouges pour détecter les obstacles et ajuster sa trajectoire. Il suffit de le lancer en l'air pour qu'il commence à voler et à réagir à vos mouvements."
+    },
+    {
+      "q": "Est-il sûr pour les enfants ?",
+      "a": "Oui, le Drone Mini UFO est conçu avec des matériaux légers et résistants, et ses hélices sont protégées. Il est idéal pour un jeu en intérieur sans risque de casser des objets ou de blesser."
+    },
+    {
+      "q": "Quelle est l'autonomie de la batterie ?",
+      "a": "La durée de vol varie en fonction de l'utilisation, mais elle est optimisée pour offrir des sessions de jeu prolongées. Il se recharge rapidement via USB."
+    },
+    {
+      "q": "À partir de quel âge peut-on jouer avec le Drone Mini UFO ?",
+      "a": "Ce drone volant est recommandé pour les enfants à partir de 6 ans, mais il amusera également les adolescents et les adultes grâce à son concept innovant."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.575678",
+  "originalName": "UFO Mini drone – Balle volante, jouet volant, balle rotative à 360 ° avec lumière LED, cadeaux d'intérieur et d'extérieur pour enfants, garçons, filles de 6, 7, 8, 9, 10 ans et plus",
+  "enhanced": true
 }

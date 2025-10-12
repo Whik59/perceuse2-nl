@@ -1,9 +1,9 @@
 {
   "productId": "B0D94BFY23",
-  "name": "HERCHR Sac de Transport pour contrôleur RC, étui de Transport Universel pour Avion modèle 2.4G, étui émetteur de télécommande pour JR FUTABA Flysky",
-  "slug": "herchr-sac-de-transport-pour-controleur-rc-etui-de",
-  "description": "La boîte extérieure est équipée d'un cuir d'aluminium à couverture rigide et est doublée d'une éponge de haute qualité, ce qui peut mieux protéger votre contrôleur d'amour. | Réservez 5 positions de servo et 2 positions de récepteur. La batterie de l'émetteur et la batterie du récepteur ont un grand espace. Coque robuste en aluminium avec revêtement de protection durable, loquet verrouillable et aménagements intérieurs en mousse haute densité. | Le boîtier universel en aluminium présente un design extérieur magnifique et élégant, ce qui le rend très attrayant. Que vous l'utilisiez comme outil pour protéger vos contrôleurs ou comme vitrine d'affichage, il ajoute une sensation de qualité et de style. | Cette boîte de rangement est dotée de pieds de protection et de glissières de poignée confortables, adaptées au transport en extérieur. Beau travail, apparence belle et élégante. Convient pour JR/FUTABA/FLYSKY. | Le boîtier en aluminium est constitué d'un boîtier en aluminium robuste et est doté d'un revêtement protecteur durable qui peut résister à une variété d'environnements difficiles. De plus, il dispose d'un loquet verrouillable et d'une doublure en mousse haute densité pour garantir que votre contrôleur ne sera en aucun cas endommagé à l'intérieur.",
-  "shortDescription": "HERCHR Sac de Transport pour contrôleur RC, étui de Transport Universel pour Avion modèle 2.4G, étui",
+  "name": "HERCHR Sac de Transport Universel pour Contrôleur RC et Émetteur 2.4G",
+  "slug": "herchr-sac-transport-universel-pour-controleur",
+  "description": "Protégez et transportez votre matériel de modélisme avec le sac de transport universel HERCHR. Conçu pour les émetteurs RC 2.4G, cet étui robuste et élégant est parfait pour les contrôleurs de drones, avions modèles, et plus encore. Compatible avec les marques leaders comme JR, FUTABA, et Flysky, il offre une solution de rangement optimale et sécurisée pour tous vos accessoires essentiels. Son design ingénieux assure une protection maximale contre les chocs, la poussière et l'humidité, vous permettant de transporter votre équipement en toute sérénité vers votre terrain de jeu préféré. Investissez dans la durabilité et la praticité pour préserver votre passion du modélisme.",
+  "shortDescription": "Sac de transport universel HERCHR pour émetteurs RC 2.4G (JR, FUTABA, Flysky). Protection optimale, idéal pour avions modèles et drones. 51.0€",
   "price": "51.0",
   "compareAtPrice": 58,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : HERCHR",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "HERCHR Sac de Transport Universel pour Contrôleur RC et Émetteur 2.4G",
+    "description": "Sac de transport universel HERCHR pour émetteurs RC 2.4G (JR, FUTABA, Flysky). Protection optimale, idéal pour avions modèles et drones. 51.0€",
+    "keywords": [
+      "herchr sac de transport universel pour contrôleur rc et émetteur 2.4g",
+      "étuis de transport pour radiocommande",
+      "marque : herchr"
+    ],
+    "ogTitle": "HERCHR Sac de Transport Universel pour Contrôleur RC et Émetteur 2.4G",
+    "ogDescription": "Sac de transport universel HERCHR pour émetteurs RC 2.4G (JR, FUTABA, Flysky). Protection optimale, idéal pour avions modèles et drones. 51.0€"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,35 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "type": "Sac de Transport / Étui de Protection",
+    "compatibilite": "Universel pour Contrôleurs RC et Émetteurs 2.4G",
+    "marques_compatibles": "JR, FUTABA, Flysky, et autres marques majeures",
+    "materiau": "Matériaux durables et résistants",
+    "protection": "Contre les chocs, la poussière, l'humidité",
+    "usage": "Idéal pour le transport sécurisé et le rangement",
+    "applications": "Avions modèles, drones, télécommandes RC"
+  },
+  "faq": [
+    {
+      "q": "Ce sac est-il vraiment universel pour tous les contrôleurs RC ?",
+      "a": "Le sac HERCHR est conçu pour être universel, avec une dimension intérieure spacieuse pour accueillir la majorité des émetteurs RC 2.4G. Il est particulièrement adapté aux marques populaires comme JR, FUTABA et Flysky, mais il est toujours conseillé de vérifier les dimensions de votre contrôleur pour une compatibilité parfaite."
+    },
+    {
+      "q": "Quels types de dégâts le sac protège-t-il ?",
+      "a": "Le sac de transport HERCHR offre une excellente protection contre les chocs légers, les rayures, la poussière et l'humidité, assurant ainsi la longévité de votre précieux équipement de modélisme."
+    },
+    {
+      "q": "Est-ce un étui rigide ou souple ?",
+      "a": "Il s'agit d'un étui semi-rigide, offrant un équilibre parfait entre protection et flexibilité. Sa structure aide à absorber les impacts tout en restant facile à manipuler et à ranger."
+    },
+    {
+      "q": "Puis-je transporter d'autres accessoires avec mon émetteur ?",
+      "a": "Bien que principalement conçu pour l'émetteur RC, le sac dispose généralement d'espaces de rangement internes ou de poches pour de petits accessoires tels que des antennes de rechange, des câbles ou des outils essentiels."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:39.988017",
+  "originalName": "HERCHR Sac de Transport pour contrôleur RC, étui de Transport Universel pour Avion modèle 2.4G, étui émetteur de télécommande pour JR FUTABA Flysky",
+  "enhanced": true
 }

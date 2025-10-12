@@ -1,9 +1,9 @@
 {
   "productId": "B0CFKV83DJ",
-  "name": "Cuifati Lot de 5 Batteries de Rechange pour Drone E88 E88PRO LsE525 E525 Pro, Batterie au Lithium 3,7 V 1800 MAh avec Câble de Charge, Batterie de Rechange pour Modèle d'avion télécommandé",
-  "slug": "cuifati-lot-de-5-batteries-de-rechange-pour-drone-",
-  "description": "BATTERIE AU LITHIUM DURABLE: capacité de 3,7 V 1800 mAh, longue durée de vie de la batterie, pour alimenter votre UAV | BOÎTIER SOLIDE: Le boîtier de la batterie au lithium est fait d'un excellent matériau plastique, durable, solide, stable, adapté à votre utilisation | FONCTION DE PROTECTION: Le chargeur de batterie du drone a une protection contre les surcharges et une protection contre les courts-circuits pour assurer un processus de charge sûr | APPLICATION LARGE: Batterie au lithium pour drone avec 1 câble de charge drag 5, réalise une charge portable, convient pour E88 E88PRO LsE525 E525 PRO et autres avions télécommandés",
-  "shortDescription": "Cuifati Lot de 5 Batteries de Rechange pour Drone E88 E88PRO LsE525 E525 Pro, Batterie au Lithium 3,",
+  "name": "Lot de 5 Batteries LiPo 3.7V 1800mAh pour Drones E88, E88PRO, LSE525, E525 Pro",
+  "slug": "pro-1800mah-lot-batteries-lipo-3-7v",
+  "description": "Prolongez le plaisir de vol de votre drone avec ce lot économique de 5 batteries de remplacement Cuifati. Conçues spécifiquement pour les modèles E88, E88PRO, LSE525 et E525 Pro, ces batteries LiPo haute capacité de 3.7V et 1800mAh garantissent des sessions de vol plus longues et sans interruption. Chaque batterie est accompagnée de son câble de charge dédié, vous permettant de recharger plusieurs batteries simultanément pour une disponibilité maximale. Optimisez la performance de votre drone et capturez davantage de moments aériens grâce à ces batteries de rechange fiables et performantes. Idéal pour les passionnés de modélisme aérien télécommandé recherchant une solution d'alimentation durable et économique.",
+  "shortDescription": "Lot de 5 batteries LiPo 3.7V 1800mAh Cuifati pour drones E88, E88PRO, LSE525, E525 Pro. Inclut câbles de charge. Optimisez votre temps de vol !",
   "price": "29.0",
   "compareAtPrice": 33,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Cuifati",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lot de 5 Batteries LiPo 3.7V 1800mAh pour Drones E88, E88PRO, LSE525, E525 Pro",
+    "description": "Lot de 5 batteries LiPo 3.7V 1800mAh Cuifati pour drones E88, E88PRO, LSE525, E525 Pro. Inclut câbles de charge. Optimisez votre temps de vol !",
+    "keywords": [
+      "lot de 5 batteries lipo 3.7v 1800mah pour drones e88, e88pro, lse525, e525 pro",
+      "batteries et chargeurs pour drones",
+      "visiter la boutique cuifati"
+    ],
+    "ogTitle": "Lot de 5 Batteries LiPo 3.7V 1800mAh pour Drones E88, E88PRO, LSE525, E525 Pro",
+    "ogDescription": "Lot de 5 batteries LiPo 3.7V 1800mAh Cuifati pour drones E88, E88PRO, LSE525, E525 Pro. Inclut câbles de charge. Optimisez votre temps de vol !"
   },
   "reviews": {
     "averageRating": 3.3,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 5 batteries LiPo\nMarque : Cuifati\nType de batterie : Lithium Polymère (LiPo)\nTension : 3.7V\nCapacité : 1800mAh\nCompatibilité : Drones E88, E88PRO, LSE525, E525 Pro et modèles similaires\nInclus : 5 batteries, 5 câbles de charge"
+  },
+  "faq": [
+    {
+      "q": "Ces batteries sont-elles compatibles avec mon drone E88PRO ?",
+      "a": "Oui, ce lot de 5 batteries est spécifiquement conçu pour être compatible avec les drones E88, E88PRO, LSE525 et E525 Pro. Vérifiez néanmoins le modèle exact de votre drone pour une assurance complète."
+    },
+    {
+      "q": "Quelle est la durée de vol approximative avec une batterie ?",
+      "a": "La durée de vol dépendra de plusieurs facteurs tels que les conditions de vol, l'utilisation du moteur et des fonctionnalités (caméra, etc.). Cependant, une batterie de 1800mAh offre généralement une autonomie prolongée par rapport à la batterie d'origine standard, permettant des vols plus longs."
+    },
+    {
+      "q": "Puis-je charger plusieurs batteries en même temps ?",
+      "a": "Chaque batterie est livrée avec son propre câble de charge. Pour un chargement simultané, vous aurez besoin d'un chargeur multiple compatible avec des batteries LiPo 3.7V ou de connecter plusieurs câbles à un adaptateur secteur USB disposant de suffisamment de ports."
+    },
+    {
+      "q": "Quelle est la différence entre une batterie LiPo et une batterie NiMH pour drone ?",
+      "a": "Les batteries LiPo (Lithium Polymère) offrent une densité d'énergie supérieure, ce qui signifie qu'elles sont plus légères pour une capacité donnée et peuvent fournir un courant plus élevé, résultant en de meilleures performances pour les drones. Elles nécessitent cependant un chargeur spécialisé et des précautions d'usage."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:31.106370",
+  "originalName": "Cuifati Lot de 5 Batteries de Rechange pour Drone E88 E88PRO LsE525 E525 Pro, Batterie au Lithium 3,7 V 1800 MAh avec Câble de Charge, Batterie de Rechange pour Modèle d'avion télécommandé",
+  "enhanced": true
 }

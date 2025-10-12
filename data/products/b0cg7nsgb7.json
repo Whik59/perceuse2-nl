@@ -1,9 +1,9 @@
 {
   "productId": "B0CG7NSGB7",
-  "name": "Airshi Quadricoptère RC Pliable, Longue Durée de Vie de la Batterie Facile à Ranger Drone Volant Stable 4K HD Anti-interférence Portable avec Support de Protection pour Prise de Vue en",
-  "slug": "airshi-quadricoptere-rc-pliable-longue-duree-de-vi",
-  "description": "Matériau de fabrication : fabriqué en plastique et composants électroniques, il est solide et durable, ce qui prolonge aucun doute sa durée de vie. | Anti-interférence : équipé d'une télécommande 2.4G, il n'est pas facile d'être dérangé, ce qui peut aucun doute améliorer efficacement sa progression de prise de vue. | Double caméra 4K HD : adoptez la double caméra 4K HD, changez de prise de vue plus librement. | Longue durée de vie de la batterie : en utilisant plusieurs batteries, il ne fait aucun doute qu'il peut profiter d'une plus longue durée de vie de la batterie. | Portable et facile à ranger : avec un fuselage pliable, il est facile à ranger et à transporter.",
-  "shortDescription": "Airshi Quadricoptère RC Pliable, Longue Durée de Vie de la Batterie Facile à Ranger Drone Volant Sta",
+  "name": "Drone Pliable 4K HD Airshi - Performances Stables et Prises de Vue Aériennes Époustouflantes",
+  "slug": "drone-pliable-airshi-performances-stables-prises",
+  "description": "Découvrez le Drone Pliable 4K HD Airshi, votre compagnon idéal pour des prises de vue aériennes de qualité professionnelle. Doté d'une technologie anti-interférence avancée et d'une longue durée de vie de batterie, ce quadricoptère RC offre une stabilité de vol exceptionnelle. Son design pliable et portable, associé à son support de protection, le rend facile à transporter et à ranger, tout en assurant une sécurité optimale lors de vos explorations photographiques et vidéo. Idéal pour les amateurs de technologie et les créateurs de contenu en quête de nouvelles perspectives.",
+  "shortDescription": "Drone pliable 4K HD Airshi : Stabilisez vos vols, capturez des images spectaculaires. Portable, longue autonomie, anti-interférence.",
   "price": "42.0",
   "compareAtPrice": 48,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Airshi",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Pliable 4K HD Airshi - Performances Stables et Prises de Vue Aériennes Époustouflantes",
+    "description": "Drone pliable 4K HD Airshi : Stabilisez vos vols, capturez des images spectaculaires. Portable, longue autonomie, anti-interférence.",
+    "keywords": [
+      "drone pliable 4k hd airshi - performances stables et prises de vue aériennes époustouflantes",
+      "drones pliables et portables",
+      "marque : airshi"
+    ],
+    "ogTitle": "Drone Pliable 4K HD Airshi - Performances Stables et Prises de Vue Aériennes Époustouflantes",
+    "ogDescription": "Drone pliable 4K HD Airshi : Stabilisez vos vols, capturez des images spectaculaires. Portable, longue autonomie, anti-interférence."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Quadricoptère RC pliable 4K HD, longue durée de vie de batterie, vol stable, anti-interférence, portable, avec support de protection."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo du drone Airshi ?",
+      "a": "Le drone Airshi est équipé d'une caméra 4K HD pour des enregistrements d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Le drone est-il facile à transporter ?",
+      "a": "Oui, son design pliable le rend très portable et facile à ranger dans un sac ou une poche."
+    },
+    {
+      "q": "La batterie offre-t-elle une bonne autonomie ?",
+      "a": "Absolument, ce drone est conçu pour une longue durée de vie de batterie, vous permettant de prolonger vos sessions de vol."
+    },
+    {
+      "q": "Est-il adapté aux débutants ?",
+      "a": "Grâce à son vol stable et à sa facilité d'utilisation, il est tout à fait adapté aux pilotes débutants comme aux plus expérimentés."
+    },
+    {
+      "q": "Le drone est-il résistant aux interférences ?",
+      "a": "Oui, il intègre une technologie anti-interférence performante pour un contrôle fiable, même dans des environnements complexes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.213317",
+  "originalName": "Airshi Quadricoptère RC Pliable, Longue Durée de Vie de la Batterie Facile à Ranger Drone Volant Stable 4K HD Anti-interférence Portable avec Support de Protection pour Prise de Vue en",
+  "enhanced": true
 }

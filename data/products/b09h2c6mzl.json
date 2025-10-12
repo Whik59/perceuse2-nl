@@ -1,9 +1,9 @@
 {
   "productId": "B09H2C6MZL",
-  "name": "Sharplace 10 Paires D'hélices en Fibre de Carbone 5030 5x3 CW/CCW pour Quadrotor",
-  "slug": "sharplace-10-paires-dhelices-en-fibre-de-carbone-5",
-  "description": ". Matériau du produit: Plastique | . Couleur orange | . 10 paires de 5030 hélices Pour 250mm Quadcopter Prop, etc | . Durée: env. 5 pouces | . Pitch: env. 3inches",
-  "shortDescription": "Sharplace 10 Paires D'hélices en Fibre de Carbone 5030 5x3 CW/CCW pour Quadrotor",
+  "name": "Sharplace 10 Paires Hélices Fibre Carbone 5030 pour Quadricoptère FPV",
+  "slug": "sharplace-paires-helices-fibre-carbone-5030",
+  "description": "Optimisez les performances de votre drone quadricoptère avec ces 10 paires d'hélices Sharplace 5030 en fibre de carbone. Conçues pour une efficacité maximale, ces hélices CW/CCW (sens horaire/antihoraire) offrent une stabilité accrue et une réactivité exceptionnelle pour une expérience de vol FPV immersive. Idéales pour les drones de course et les modèles avancés, leur construction en fibre de carbone garantit légèreté, rigidité et durabilité. Bénéficiez d'une propulsion optimisée et d'un contrôle précis à un prix compétitif de 11.0€.",
+  "shortDescription": "10 paires d'hélices 5030 en fibre de carbone pour quadricoptère FPV. Maximisez la stabilité et la réactivité de votre drone avec ces composants de haute performance. CW/CCW inclus. Prix : 11.0€.",
   "price": "11.0",
   "compareAtPrice": 12,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Sharplace",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Sharplace 10 Paires Hélices Fibre Carbone 5030 pour Quadricoptère FPV",
+    "description": "10 paires d'hélices 5030 en fibre de carbone pour quadricoptère FPV. Maximisez la stabilité et la réactivité de votre drone avec ces composants de haute performance. CW/CCW inclus. Prix : 11.0€.",
+    "keywords": [
+      "sharplace 10 paires hélices fibre carbone 5030 pour quadricoptère fpv",
+      "hélices en fibre de carbone",
+      "marque : sharplace"
+    ],
+    "ogTitle": "Sharplace 10 Paires Hélices Fibre Carbone 5030 pour Quadricoptère FPV",
+    "ogDescription": "10 paires d'hélices 5030 en fibre de carbone pour quadricoptère FPV. Maximisez la stabilité et la réactivité de votre drone avec ces composants de haute performance. CW/CCW inclus. Prix : 11.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Matériau : Fibre de carbone\nModèle : 5030 (5 pouces de diamètre, 3 pouces de pas)\nQuantité : 10 paires (20 hélices au total)\nCompatibilité : Quadricoptères, drones FPV, modèles RC\nType : CW/CCW (sens horaire et antihoraire)\nOptimisé pour : Stabilité, performance, réactivité"
+  },
+  "faq": [
+    {
+      "q": "Quel est le matériau principal de ces hélices Sharplace ?",
+      "a": "Ces hélices sont fabriquées en fibre de carbone de haute qualité, garantissant ainsi légèreté, rigidité et durabilité pour des performances optimales de votre quadricoptère."
+    },
+    {
+      "q": "Que signifie CW/CCW pour ces hélices ?",
+      "a": "CW signifie 'Clockwise' (sens horaire) et CCW signifie 'Counter-Clockwise' (sens antihoraire). Pour un quadricoptère, il est essentiel d'avoir un mélange d'hélices CW et CCW pour assurer une rotation et une stabilité correctes."
+    },
+    {
+      "q": "Ces hélices sont-elles adaptées aux débutants ?",
+      "a": "Oui, bien que la fibre de carbone offre des performances supérieures, leur installation est standard. Elles sont parfaites pour les pilotes cherchant à améliorer leur drone, y compris ceux qui débutent en FPV et souhaitent une meilleure maniabilité."
+    },
+    {
+      "q": "Quelle est la taille de ces hélices ?",
+      "a": "Le modèle 5030 indique un diamètre de 5 pouces et un pas de 3 pouces. Cette taille est courante pour de nombreux drones quadricoptères FPV de petite à moyenne taille."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:19.039653",
+  "originalName": "Sharplace 10 Paires D'hélices en Fibre de Carbone 5030 5x3 CW/CCW pour Quadrotor",
+  "enhanced": true
 }

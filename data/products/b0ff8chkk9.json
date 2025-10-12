@@ -1,9 +1,9 @@
 {
   "productId": "B0FF8CHKK9",
-  "name": "WYMYY Drone caméra avec caméra 4K pour Adultes, quadrirotor à cardan 2 Axes, Longue portée de 1 km, Temps de vol de 30 Minutes, Moteur sans balais 5G FPV vidéo, Retour Automatique GPS à",
-  "slug": "wymyy-drone-camera-avec-camera-4k-pour-adultes-qua",
-  "description": "Autonomie de 30 minutes : conception de batterie modulaire, tension de 11,1 V, capacité de batterie de 2500 mAh, autonomie d'environ 30 minutes. Achetez plus de batteries et profitez d'un temps de vol plus long. | 4K pixels + plate-forme biaxiale auto-stabilisante : 4K est 4 fois celle des pixels HD 1080p, prend en charge l'angle de prise de vue à 90° et l'ultra grand angle de 120°, faites de la photographie aérienne plus librement. | Cardan auto-stabilisant à deux axes : le cardan auto-stabilisant innovant à deux axes auto-développé résout efficacement le problème commun du tremblement de l'écran dans la photographie aérienne ordinaire dans le passé, peu importe comment vous contrôlez le drone avec l'appareil photo et l'appareil photo. maintient automatiquement un état de niveau. | Système d'alimentation sans balais : toute la machine utilise 4 puissants moteurs sans balais, puissants et plus économes en énergie, bonne résistance au vent. Transmission d'image 5G et télécommande, transmission d'image à distance de 1000 m. | Fonction: caméra ESC 4K, plate-forme biaxiale auto-stabilisante, positionnement GPS, vol stationnaire, alimentation sans balai, retour multifonction GPS, contrôle du téléphone, pass wifi 5G figure, suivi intelligent, vol de point de cheminement, survol, photo gestuelle, sortie MV, zoom , positionnement du flux optique, contrôle de la vitesse.",
-  "shortDescription": "WYMYY Drone caméra avec caméra 4K pour Adultes, quadrirotor à cardan 2 Axes, Longue portée de 1 km, ",
+  "name": "Drone Caméra 4K WYMYY avec Gimbal 2 Axes - Portée 1km, Autonomie 30min",
+  "slug": "1km-drone-camera-wymyy-avec-gimbal",
+  "description": "Découvrez le drone caméra WYMYY, l'outil parfait pour les passionnés d'aéromodélisme et de photographie aérienne. Doté d'une caméra 4K époustouflante et d'un cardan 2 axes stabilisé, ce quadrirotor offre des prises de vue d'une netteté incroyable. Profitez d'une longue portée de 1 km et d'un temps de vol généreux de 30 minutes grâce à son moteur sans balais performant. La technologie 5G FPV (First Person View) vous assure une transmission vidéo fluide et en temps réel, tandis que le retour automatique GPS garantit une sécurité maximale en cas de perte de signal ou de batterie faible. Idéal pour les adultes recherchant performance et fiabilité.",
+  "shortDescription": "Drone caméra 4K WYMYY avec gimbal 2 axes, portée 1km, 30 min de vol, moteur brushless, 5G FPV et retour GPS automatique. Parfait pour adultes.",
   "price": "402.0",
   "compareAtPrice": 462,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : WYMYY",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Caméra 4K WYMYY avec Gimbal 2 Axes - Portée 1km, Autonomie 30min",
+    "description": "Drone caméra 4K WYMYY avec gimbal 2 axes, portée 1km, 30 min de vol, moteur brushless, 5G FPV et retour GPS automatique. Parfait pour adultes.",
+    "keywords": [
+      "drone caméra 4k wymyy avec gimbal 2 axes - portée 1km, autonomie 30min",
+      "drones portée 5 à 10 km",
+      "marque : wymyy"
+    ],
+    "ogTitle": "Drone Caméra 4K WYMYY avec Gimbal 2 Axes - Portée 1km, Autonomie 30min",
+    "ogDescription": "Drone caméra 4K WYMYY avec gimbal 2 axes, portée 1km, 30 min de vol, moteur brushless, 5G FPV et retour GPS automatique. Parfait pour adultes."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K | Cardan 2 Axes | Portée 1 km | Autonomie 30 min | Moteur sans balais | 5G FPV | Retour GPS automatique"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo du drone WYMYY ?",
+      "a": "Le drone WYMYY est équipé d'une caméra capable d'enregistrer des vidéos en résolution 4K pour une qualité d'image exceptionnelle."
+    },
+    {
+      "q": "Quelle est la portée maximale de ce drone ?",
+      "a": "Ce modèle offre une portée de contrôle impressionnante allant jusqu'à 1 kilomètre, vous permettant d'explorer de vastes zones."
+    },
+    {
+      "q": "Combien de temps le drone peut-il voler sur une seule charge ?",
+      "a": "Grâce à sa batterie performante, le drone WYMYY propose un temps de vol d'environ 30 minutes, idéal pour vos sessions de prise de vue."
+    },
+    {
+      "q": "Qu'est-ce que le retour automatique GPS et comment fonctionne-t-il ?",
+      "a": "Le retour automatique GPS est une fonction de sécurité essentielle. En cas de perte de signal avec la télécommande ou de batterie faible, le drone utilisera les données GPS pour revenir automatiquement à son point de départ."
+    },
+    {
+      "q": "Le drone est-il facile à piloter pour un débutant adulte ?",
+      "a": "Oui, bien que doté de fonctionnalités avancées, ce drone est conçu pour être intuitif. L'autonomie et les systèmes de stabilisation intégrés facilitent le pilotage pour les utilisateurs adultes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:59.848314",
+  "originalName": "WYMYY Drone caméra avec caméra 4K pour Adultes, quadrirotor à cardan 2 Axes, Longue portée de 1 km, Temps de vol de 30 Minutes, Moteur sans balais 5G FPV vidéo, Retour Automatique GPS à",
+  "enhanced": true
 }

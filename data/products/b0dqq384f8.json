@@ -1,9 +1,9 @@
 {
   "productId": "B0DQQ384F8",
-  "name": "BETAFPV Air75 Brushless Whoop Quadcopter, Ultralight 1S 75mm Micro Whoop Drone with G473 5IN1 Air Flight Controller ELRS Receiver, 0802SE 23000KV Motor, C03 FPV Camera, for FPV Drone Racing Freestyle",
-  "slug": "betafpv-air75-brushless-whoop-quadcopter-ultraligh",
-  "description": "Ultralight 75mm Drone: Experience a new level of lightweight flying with our 1S 75mm indoor whoop. Weighing in at just 21g, equipped with Air canopy, Air75 brushless whoop frame, 5IN1 Air brushless flight controller, 0802SE 23000KV motor and GF 40mm 2-blade props, ultra-lightweight feature | Update 5IN1 Air Brushless FC: The first 1S brushless FC that uses the G473 processor which has superior computing power, and is equipped with ICM42688P gyroscope, this all-in-one solution seamlessly integrates FC, ESC, OSD, RX and Onboard 5.8 25~400 VTX, weighing only 3.6g | Propulsion Systems: For a smooth and elegant free flight experience, the Air75 features the Gemfan 40mm 2-Blade Props, a larger pitch tip of the props, quick response, and crisp action, and 0802SE | 23000KV Motor, allowing for timely responses and precise follow-up actions for incredible speed bursts and agile steering | C03 Camera&Canapy: Experience high-quality images with the lightweight C03 FPV Micro Camera(1.45g). Redesigned Air Canopy for flexibility, impact resistance. Enhanced bending reduces breakage, improves explosion resistance. Supports Micro/Nano analog cameras, angle adjustable (25°-50°). With it, Air75 can chase the limit of racing victory worry less | Recommended Lipo Battery: Recommended with the ultralight LAVA 1S 450mAh 75C battery that features the groundbreaking Z-Folding Process for the Air75 more concentrated center gravity, crisper response, greater acceleration, and enhanced maneuverability",
-  "shortDescription": "BETAFPV Air75 Brushless Whoop Quadcopter, Ultralight 1S 75mm Micro Whoop Drone with G473 5IN1 Air Fl",
+  "name": "Drone Quadricoptère Brushless BETAFPV Air75",
+  "slug": "drone-quadricoptere-brushless-betafpv-air75",
+  "description": "Découvrez le BETAFPV Air75, un quadricoptère brushless ultraléger de 75mm conçu pour l'exploration FPV. Avec son contrôleur de vol 5IN1 G473 et récepteur ELRS intégré, ses moteurs 0802SE 23000KV puissants et sa caméra FPV C03 de haute qualité, cet aéronef miniature offre une expérience de vol dynamique pour le racing et le freestyle FPV. Optimisé pour la performance et la maniabilité, le Air75 est l'outil idéal pour les passionnés de drones à la recherche d'une technologie de pointe dans un format compact.",
+  "shortDescription": "Drone FPV Ultraléger 75mm | Brushless 1S | Contrôleur G473 ELRS | Moteurs 0802SE | Caméra C03 | Racing & Freestyle",
   "price": "123.0",
   "compareAtPrice": 141,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BETAFPV",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Quadricoptère Brushless BETAFPV Air75",
+    "description": "Drone FPV Ultraléger 75mm | Brushless 1S | Contrôleur G473 ELRS | Moteurs 0802SE | Caméra C03 | Racing & Freestyle",
+    "keywords": [
+      "drone quadricoptère brushless betafpv air75",
+      "drones de course et fpv",
+      "visiter la boutique betafpv"
+    ],
+    "ogTitle": "Drone Quadricoptère Brushless BETAFPV Air75",
+    "ogDescription": "Drone FPV Ultraléger 75mm | Brushless 1S | Contrôleur G473 ELRS | Moteurs 0802SE | Caméra C03 | Racing & Freestyle"
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Taille : 75mm | Contrôleur de vol : G473 5IN1 avec récepteur ELRS | Moteurs : 0802SE 23000KV | Caméra FPV : C03 | Alimentation : 1S LiPo"
+  },
+  "faq": [
+    {
+      "q": "Quel est l'avantage d'un drone brushless pour le FPV ?",
+      "a": "Les drones brushless offrent une puissance accrue, une meilleure efficacité énergétique et une durée de vie plus longue par rapport aux drones à balais, garantissant des performances supérieures pour le racing et le freestyle FPV."
+    },
+    {
+      "q": "Qu'est-ce que le récepteur ELRS et pourquoi est-il important ?",
+      "a": "ELRS (ExpressLRS) est un système de radio-commande open-source réputé pour sa portée étendue, sa faible latence et sa fiabilité. Il assure une connexion stable entre votre radiocommande et le drone, crucial pour un contrôle précis en vol."
+    },
+    {
+      "q": "Ce drone est-il adapté aux débutants en FPV ?",
+      "a": "Le BETAFPV Air75, grâce à sa petite taille et sa maniabilité, peut être une excellente plateforme d'apprentissage pour les débutants en FPV, une fois familiarisés avec les bases du pilotage."
+    },
+    {
+      "q": "Quelle est la différence entre un drone 'micro whoop' et un drone FPV plus grand ?",
+      "a": "Les micro whoops comme l'Air75 sont conçus pour être très compacts et légers, idéaux pour voler en intérieur ou dans des espaces restreints. Ils sont souvent plus tolérants aux chocs et plus abordables, tandis que les drones plus grands sont optimisés pour les vols extérieurs et les acrobaties plus extrêmes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.681744",
+  "originalName": "BETAFPV Air75 Brushless Whoop Quadcopter, Ultralight 1S 75mm Micro Whoop Drone with G473 5IN1 Air Flight Controller ELRS Receiver, 0802SE 23000KV Motor, C03 FPV Camera, for FPV Drone Racing Freestyle",
+  "enhanced": true
 }

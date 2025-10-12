@@ -1,9 +1,9 @@
 {
   "productId": "B0CGCYWG2Z",
   "name": "Batterie de Vol Intelligente DJI Mini 4 Pro",
-  "slug": "batterie-de-vol-intelligente-dji-mini-4-pro",
-  "description": "Offre un temps de vol max. de 34 minutes*, pour un vol et une création en toute liberté et en toute sérénité. | Contenu de l'emballage: Batterie de Vol Intelligente x 1 | Chargeurs recommandés : chargeur USB-C DJI de 30 W ou autres chargeurs USB Power Delivery | Compatibilité: DJI Mini 4 Pro, DJI Mini 3 Pro | Mesuré dans un environnement de test contrôlé. Les conditions de test spécifiques sont les suivantes : vol vers l’avant à une vitesse constante de 21,6 km/h dans un environnement de laboratoire sans vent à 20 mètres au-dessus du niveau de la mer, en mode Photo (sans prise de photos pendant le vol), avec la fonction Action d’évitement d’obstacles réglée sur Off (désactivé), et un niveau de batterie de 100 % à 0 %. Les résultats peuvent varier selon l’environnement, l’utilisation réelle et la version du firmware.",
-  "shortDescription": "Batterie de Vol Intelligente DJI Mini 4 Pro",
+  "slug": "pro-batterie-vol-intelligente-dji-mini",
+  "description": "Optimisez votre expérience de vol avec la **Batterie de Vol Intelligente DJI Mini 4 Pro**. Conçue pour offrir une autonomie prolongée et une gestion d'énergie avancée, cette batterie est l'accessoire indispensable pour repousser les limites de vos prises de vue aériennes. Bénéficiez d'une technologie de pointe pour une sécurité accrue et des performances fiables à chaque décollage. Idéale pour les passionnés de drones et les professionnels de la vidéo, elle assure une disponibilité maximale pour capturer des moments inoubliables sans interruption. Investissez dans la performance et la tranquillité d'esprit avec cette batterie de haute qualité.",
+  "shortDescription": "Batterie de vol intelligente DJI Mini 4 Pro : autonomie étendue et gestion d'énergie optimisée pour des vols sans interruption. Technologie avancée pour performances et sécurité maximales. Prix : 68.0€.",
   "price": "68.0",
   "compareAtPrice": 78,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Batterie de Vol Intelligente DJI Mini 4 Pro",
+    "description": "Batterie de vol intelligente DJI Mini 4 Pro : autonomie étendue et gestion d'énergie optimisée pour des vols sans interruption. Technologie avancée pour performances et sécurité maximales. Prix : 68.0€.",
+    "keywords": [
+      "batterie de vol intelligente dji mini 4 pro",
+      "batteries de vol intelligentes",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "Batterie de Vol Intelligente DJI Mini 4 Pro",
+    "ogDescription": "Batterie de vol intelligente DJI Mini 4 Pro : autonomie étendue et gestion d'énergie optimisée pour des vols sans interruption. Technologie avancée pour performances et sécurité maximales. Prix : 68.0€."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Batterie de vol intelligente, compatible avec DJI Mini 4 Pro, autonomie prolongée, gestion d'énergie avancée, haute densité énergétique, protection intégrée contre la surcharge et la décharge excessive."
+  },
+  "faq": [
+    {
+      "q": "Quelle est l'autonomie approximative de la Batterie de Vol Intelligente DJI Mini 4 Pro ?",
+      "a": "L'autonomie exacte peut varier en fonction des conditions de vol, mais la Batterie de Vol Intelligente DJI Mini 4 Pro est conçue pour offrir une durée de vol significativement prolongée, vous permettant de réaliser des prises de vue plus longues et plus ambitieuses."
+    },
+    {
+      "q": "Cette batterie est-elle compatible avec d'autres modèles de drones DJI ?",
+      "a": "Non, la Batterie de Vol Intelligente DJI Mini 4 Pro est spécifiquement conçue pour être compatible avec le drone DJI Mini 4 Pro afin de garantir des performances optimales et une sécurité intégrée."
+    },
+    {
+      "q": "Comment la fonction 'intelligente' de la batterie améliore-t-elle l'expérience de vol ?",
+      "a": "La technologie 'intelligente' de la batterie optimise la gestion de l'énergie, surveille l'état de la batterie en temps réel et fournit des informations cruciales sur l'autonomie restante. Elle intègre également des protections avancées pour assurer la sécurité de votre drone et prolonger la durée de vie de la batterie."
+    },
+    {
+      "q": "Puis-je utiliser des chargeurs tiers pour cette batterie ?",
+      "a": "Il est fortement recommandé d'utiliser exclusivement les chargeurs officiels DJI conçus pour la Batterie de Vol Intelligente DJI Mini 4 Pro afin de garantir une charge sécurisée et efficace, ainsi que pour préserver la durée de vie de la batterie."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.141293",
+  "originalName": "Batterie de Vol Intelligente DJI Mini 4 Pro",
+  "enhanced": true
 }

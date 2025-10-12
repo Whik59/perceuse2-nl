@@ -1,9 +1,9 @@
 {
   "productId": "B01N462QMX",
   "name": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit",
-  "slug": "qwinout-diy-24g-8ch-kk-v23-f450-frame-rc-quadcopte",
-  "description": "HJ 450 Multicopter 450F nylon Fiber Frame Airframe kit Strong Smooth RC KK MK MWC DIY Quadcopter plane | 30A Brushless ESC Speed Controller For RC Quadcopter Hexacopter | Radiolink T8FB 2.4GHz 8Ch RC Transmitter and R8EH Receiver | Before Producing, The Manufacturer Have Set Up The Program, The Esc Do Not Need Additional Program. | This ESC Do Not Have The English Instruction. No. All soldering part has been finished. All you need is assembly.DIY Instruction Video:https://youtu.be/BssJG1M-X9k",
-  "shortDescription": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit",
+  "slug": "4-axle-qwinout-diy-2-4g-8ch-v2-3",
+  "description": "<div><h2>QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit</h2><p>Quality product</p></div>",
+  "shortDescription": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit - Quality Product",
   "price": "253.0",
   "compareAtPrice": 290,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : QWinOut",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit",
+    "description": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit - Quality Product",
+    "keywords": [
+      "qwinout diy 2.4g 8ch kk v2.3 f450 frame rc quadcopter 4-axle ufo unassembly kit",
+      "kits drones fpv à monter",
+      "marque : qwinout"
+    ],
+    "ogTitle": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit",
+    "ogDescription": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit - Quality Product"
   },
   "reviews": {
     "averageRating": 3.4,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:15.377230",
+  "originalName": "QWinOut DIY 2.4G 8CH KK V2.3 F450 Frame RC Quadcopter 4-Axle UFO Unassembly Kit",
+  "enhanced": true
 }

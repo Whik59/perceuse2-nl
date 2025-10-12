@@ -1,9 +1,9 @@
 {
   "productId": "B0DQPCJY8P",
-  "name": "Système de Largage de Drone pour DJI Mini 4 Pro, Dispositif de Largage de Charge Aérienne, Lanceur de Largage d'Air pour Scène de Mariage, Appât de Pêche",
-  "slug": "systeme-de-largage-de-drone-pour-dji-mini-4-pro-di",
-  "description": "Le lanceur lui-même pèse 47 grammes. La charge maximale est d'environ 100 grammes. Il est facile à transporter et n'affecte pas les performances de vol. Le chargement de type C ne prend que 60 minutes pour une charge complète | Peut être utilisé pour la publicité, le lancer d'appâts, le lancer de cadeaux, la Saint-Valentin, les fêtes d'anniversaire, les fêtes de plage et bien d'autres scénarios, ajoutant un plaisir illimité à la vie | Le rembourrage en mousse souple évite les rayures et préserve l'intégrité du drone | Équipé d'une technologie intelligente qui utilise le signal de la télécommande du drone pour contrôler la lumière de remplissage au bas du drone, permettant au lanceur d'air d'obtenir un effet de lancer à longue distance, assurant un atterrissage en douceur et en toute sécurité | Remarque : la « lumière rouge est toujours allumée » pendant la charge, la « lumière verte est toujours allumée » lorsque la charge est complète. La parabole clignote quelques fois en rouge lorsqu'elle est ouverte pour une utilisation normale, puis la « lumière rouge est toujours allumée »",
-  "shortDescription": "Système de Largage de Drone pour DJI Mini 4 Pro, Dispositif de Largage de Charge Aérienne, Lanceur d",
+  "name": "Système de Largage Drone DJI Mini 4 Pro - Innovations Aériennes",
+  "slug": "pro-systeme-largage-drone-dji-mini",
+  "description": "Optimisez vos prises de vue et vos applications avec notre système de largage révolutionnaire pour le DJI Mini 4 Pro. Conçu pour une intégration parfaite, ce dispositif de largage aérien vous permet de transporter et de libérer des charges utiles légères avec une précision inégalée. Idéal pour les scènes de mariage spectaculaires, la diffusion d'appâts de pêche innovante, ou toute application créative nécessitant un lâcher contrôlé. Bénéficiez d'une technologie de pointe pour des performances accrues et une expérience de drone inégalée. Le prix est de 37.0€.",
+  "shortDescription": "Système de largage aérien innovant pour DJI Mini 4 Pro. Parfait pour mariages et pêche. Technologie de pointe à 37.0€.",
   "price": "37.0",
   "compareAtPrice": 42,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Zhixteu",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Système de Largage Drone DJI Mini 4 Pro - Innovations Aériennes",
+    "description": "Système de largage aérien innovant pour DJI Mini 4 Pro. Parfait pour mariages et pêche. Technologie de pointe à 37.0€.",
+    "keywords": [
+      "système de largage drone dji mini 4 pro - innovations aériennes",
+      "drones pour la pêche (largage d'appât)",
+      "marque : zhixteu"
+    ],
+    "ogTitle": "Système de Largage Drone DJI Mini 4 Pro - Innovations Aériennes",
+    "ogDescription": "Système de largage aérien innovant pour DJI Mini 4 Pro. Parfait pour mariages et pêche. Technologie de pointe à 37.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatible DJI Mini 4 Pro, Technologie de largage aérien avancée, Idéal pour mariages et pêche, Matériaux légers et résistants."
+  },
+  "faq": [
+    {
+      "q": "Ce système de largage est-il facile à installer sur mon DJI Mini 4 Pro ?",
+      "a": "Oui, notre système est conçu pour une installation rapide et intuitive, sans nécessiter d'outils spécifiques. Les instructions détaillées vous guideront à chaque étape pour une mise en œuvre immédiate."
+    },
+    {
+      "q": "Quel type de charge puis-je larguer avec ce dispositif ?",
+      "a": "Le système est optimisé pour des charges légères telles que des confettis, des pétales de fleurs, des petits cadeaux pour des événements spéciaux, ou des appâts de pêche. Les limites de poids sont clairement indiquées dans la documentation technique pour garantir une utilisation sécuritaire."
+    },
+    {
+      "q": "Comment le largage est-il déclenché ?",
+      "a": "Le déclenchement du largage est généralement contrôlé via l'application de votre drone ou par une commande dédiée, assurant une précision et une synchronisation parfaites avec votre vol."
+    },
+    {
+      "q": "Ce système affecte-t-il la performance ou l'autonomie du DJI Mini 4 Pro ?",
+      "a": "Le design léger et aérodynamique de notre système minimise l'impact sur la performance et l'autonomie de votre DJI Mini 4 Pro, vous permettant de profiter de vols prolongés."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.539017",
+  "originalName": "Système de Largage de Drone pour DJI Mini 4 Pro, Dispositif de Largage de Charge Aérienne, Lanceur de Largage d'Air pour Scène de Mariage, Appât de Pêche",
+  "enhanced": true
 }

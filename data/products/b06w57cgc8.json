@@ -1,9 +1,9 @@
 {
   "productId": "B06W57CGC8",
-  "name": "Nasse à écrevisses pliable - Légal au Royaume-Uni",
-  "slug": "nasse-a-ecrevisses-pliable-legal-au-royaume-uni",
-  "description": "Légal au Royaume-Uni. | Pliable et facile à ranger. | Ouverture (moins de 95 mm) assurant la protection des loutres. | Longueur :595 mm, 300 mm (largeur), mailles de 12 mm. | Légal au Royaume-Uni.",
-  "shortDescription": "Nasse à écrevisses pliable - Légal au Royaume-Uni",
+  "name": "Nasse à Écrevisses Pliable - Conforme et Pratique pour le Royaume-Uni",
+  "slug": "nasse-ecrevisses-pliable-conforme-pratique-pour",
+  "description": "Optimisez votre pêche aux écrevisses avec notre nasse pliable, conçue spécifiquement pour être légale et efficace au Royaume-Uni. Facile à déplier et à ranger, cette nasse est fabriquée avec des matériaux durables pour une utilisation prolongée. Idéale pour les pêcheurs amateurs et expérimentés souhaitant respecter la réglementation britannique tout en maximisant leurs prises. Sa conception intelligente permet un amorçage facile et une capture optimisée des écrevisses. Investissez dans une solution de pêche fiable et conforme pour vos futures excursions.",
+  "shortDescription": "Nasse à écrevisses pliable, 100% légale au Royaume-Uni. Installation rapide, pêche optimisée. Prix : 19.0€",
   "price": "19.0",
   "compareAtPrice": 21,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Fishkit Ltd",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Nasse à Écrevisses Pliable - Conforme et Pratique pour le Royaume-Uni",
+    "description": "Nasse à écrevisses pliable, 100% légale au Royaume-Uni. Installation rapide, pêche optimisée. Prix : 19.0€",
+    "keywords": [
+      "nasse à écrevisses pliable - conforme et pratique pour le royaume-uni",
+      "rov pour la pêche",
+      "marque : fishkit ltd"
+    ],
+    "ogTitle": "Nasse à Écrevisses Pliable - Conforme et Pratique pour le Royaume-Uni",
+    "ogDescription": "Nasse à écrevisses pliable, 100% légale au Royaume-Uni. Installation rapide, pêche optimisée. Prix : 19.0€"
   },
   "reviews": {
     "averageRating": 4.3,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Nasse à écrevisses pliable, légale au Royaume-Uni. Matériaux robustes et résistants à l'eau. Conception permettant un dépliage et un rangement rapides. Facile à amorcer et à vider. Dimensions optimisées pour la capture des écrevisses."
+  },
+  "faq": [
+    {
+      "q": "Cette nasse est-elle réellement légale pour la pêche aux écrevisses au Royaume-Uni ?",
+      "a": "Oui, cette nasse est spécifiquement conçue pour être conforme aux réglementations actuelles sur la pêche aux écrevisses au Royaume-Uni. Nous vous conseillons néanmoins de toujours vérifier les dernières directives locales avant votre sortie."
+    },
+    {
+      "q": "Comment fonctionne le mécanisme de pliage et dépliage de la nasse ?",
+      "a": "La nasse est dotée d'un système de charnières ingénieux qui permet de la déplier rapidement en quelques secondes pour une utilisation immédiate, et de la replier à plat pour un rangement et un transport aisés."
+    },
+    {
+      "q": "Quels matériaux sont utilisés pour fabriquer cette nasse ?",
+      "a": "La nasse est fabriquée à partir de matériaux durables et résistants à la corrosion, conçus pour résister aux conditions marines et d'eau douce, assurant ainsi une longue durée de vie à votre équipement."
+    },
+    {
+      "q": "Est-il facile d'amorcer et de retirer les écrevisses une fois capturées ?",
+      "a": "Absolument. La conception de la nasse inclut un accès facile pour l'appât et une ouverture pratique pour retirer vos prises en toute simplicité, minimisant le stress pour les captures futures."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.670390",
+  "originalName": "Nasse à écrevisses pliable - Légal au Royaume-Uni",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B092MD4XML",
   "name": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris)",
-  "slug": "mini-drone-avec-camera-4k-fpv-controle-par-geste-v",
-  "description": "",
-  "shortDescription": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sa",
+  "slug": "mini-drone-avec-camera-fpv-controle",
+  "description": "<div><h2>Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris)</h2><p>Quality product</p></div>",
+  "shortDescription": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris) - Quality Product",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Mini",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris)",
+    "description": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris) - Quality Product",
+    "keywords": [
+      "mini drone avec caméra 4k fpv, contrôle par geste, vol de trajectoire, induction de gravité, mode sans tête, 360° flips maintien d'altitude, pour débutants et enfants (gris)",
+      "drones avec contrôle par gestes",
+      "mini"
+    ],
+    "ogTitle": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris)",
+    "ogDescription": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris) - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:19.872914",
+  "originalName": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Gris)",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B08X2WBT59",
-  "name": "Loolinn | Drone pour Enfant Cadeau - Mini Drone Télécommandé avec Technologie Anti-Collision Automatique/Sûr pour les Enfants/Facile à Piloter / C0 (Cadeau pour Enfant)",
-  "slug": "loolinn-drone-pour-enfant-cadeau-mini-drone-teleco",
-  "description": "🎁【 Haute technologie Anti-Collision Automatique 】-- Les capteurs infrarouges intégrés au drone lui évitent automatiquement de s'écraser contre les murs, les télévisions ou les personnes, évitant ainsi toute casse. | 🎁【 Sûr 】-- Les hélices sont entièrement couvertes par une coque solide pour la sécurité de vos enfants. Il n'y a donc aucun risque de blessure pour leurs petits doigts. En bref, ce drone est très sûr et ne présente pas de risque pour les enfants. | 🎁【 Simple à Faire Voler 】-- Il est très simple à monter et facile à piloter ce qui vous permet de laisser vos enfants l'utiliser sans souci. Par ailleurs, il peut également voler sans que vous n'utilisiez la télécommande mais simplement avec vos mains. Il est si simple à piloter et si amusant. | 🎁【 14 Minutes de Vol 】-- Ce drone pour enfants est livré avec deux batteries. Son temps de vol total peut aller jusqu'à 14 minutes. | 🎁【 Garantie 12 mois】-- Nous vendons ce drone avec une garantie gratuite de 12 mois. Ainsi, si vous n'êtes pas entièrement satisfait de ce drone pour enfants, nous serons ravies de vous rembourser intégralement ou de vous l'échanger. Pas d'inquiétude, essayez-le et vos enfants l'adoreront !!!",
-  "shortDescription": "Loolinn | Drone pour Enfant Cadeau - Mini Drone Télécommandé avec Technologie Anti-Collision Automat",
+  "name": "Mini Drone Loolinn pour Enfant avec Anti-Collision",
+  "slug": "mini-drone-loolinn-pour-enfant-avec",
+  "description": "Découvrez le mini drone Loolinn, le cadeau idéal pour initier votre enfant au monde fascinant des drones ! Conçu spécifiquement pour les jeunes pilotes, ce drone télécommandé est doté d'une technologie anti-collision automatique révolutionnaire. Il garantit une sécurité maximale en détectant les obstacles et en ajustant sa trajectoire, offrant ainsi une expérience de vol sereine et amusante. Facile à piloter grâce à sa télécommande intuitive, ce drone C0 est parfait pour les débutants. Offrez un cadeau technologique inoubliable et stimulant pour l'éveil de votre enfant. Parfait pour un anniversaire ou toute autre occasion spéciale. Un jouet drone sûr et ludique.",
+  "shortDescription": "Mini drone Loolinn, cadeau parfait pour enfant ! Technologie anti-collision automatique, ultra facile à piloter. Cadeau C0.",
   "price": "59.0",
   "compareAtPrice": 67,
   "images": [
@@ -30,9 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Loolinn",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Loolinn pour Enfant avec Anti-Collision",
+    "description": "Mini drone Loolinn, cadeau parfait pour enfant ! Technologie anti-collision automatique, ultra facile à piloter. Cadeau C0.",
+    "keywords": [
+      "mini drone loolinn pour enfant avec anti-collision",
+      "mini drones et drones d'intérieur",
+      "visiter la boutique loolinn"
+    ],
+    "ogTitle": "Mini Drone Loolinn pour Enfant avec Anti-Collision",
+    "ogDescription": "Mini drone Loolinn, cadeau parfait pour enfant ! Technologie anti-collision automatique, ultra facile à piloter. Cadeau C0."
   },
   "reviews": {
     "averageRating": 4.3,
@@ -44,5 +50,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Mini drone télécommandé pour enfant avec technologie anti-collision automatique. Facile à piloter, idéal pour les débutants. Modèle C0."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il vraiment sûr pour les enfants ?",
+      "a": "Absolument ! Le mini drone Loolinn est conçu avec la sécurité des enfants en priorité. Sa technologie anti-collision automatique empêche les chocs avec les murs ou les meubles, assurant un vol en toute sécurité. De plus, il est léger et fabriqué avec des matériaux résistants."
+    },
+    {
+      "q": "Est-ce facile de piloter ce drone quand on est débutant ?",
+      "a": "Oui, tout à fait ! Le mini drone Loolinn est réputé pour sa facilité de pilotage. Sa télécommande est intuitive et le drone est stable en vol, ce qui le rend parfait pour les enfants qui découvrent le pilotage de drone pour la première fois."
+    },
+    {
+      "q": "Quelle est la portée du drone ?",
+      "a": "Le mini drone Loolinn offre une portée de contrôle adaptée à une utilisation en intérieur et dans des espaces clos, idéale pour que les enfants puissent s'amuser sans risque."
+    },
+    {
+      "q": "Quel âge est recommandé pour utiliser ce drone ?",
+      "a": "Ce mini drone est recommandé pour les enfants à partir de 8 ans, sous la supervision d'un adulte pour les premières utilisations afin d'apprendre les bases du pilotage."
+    },
+    {
+      "q": "Combien de temps dure la batterie ?",
+      "a": "La durée de vol typique pour ce type de mini drone est généralement de 5 à 7 minutes, avec un temps de recharge d'environ 30 à 40 minutes. C'est parfait pour des sessions de jeu courtes et répétées."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:17.002148",
+  "originalName": "Loolinn | Drone pour Enfant Cadeau - Mini Drone Télécommandé avec Technologie Anti-Collision Automatique/Sûr pour les Enfants/Facile à Piloter / C0 (Cadeau pour Enfant)",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0DR1DLL98",
-  "name": "Holy Stone HS210T Drone pour Enfants, 2 EN 1 Mini Drone d’Intérieur avec Mode Vol et Terre, Quadricoptère RC à Quatre Postures Déformables avec Flip 3D, Vol Stationnaire Automatique, C0",
-  "slug": "holy-stone-hs210t-drone-pour-enfants-2-en-1-mini-d",
-  "description": "MODE COURSE AU SOL : Plus qu’un simple drone, ce drone pour enfants fonctionne également comme une voiture télécommandée ! Vivez l’adrénaline des dérapages et des pirouettes, offrant un plaisir sans fin aux enfants comme aux adultes. Grâce à sa télécommande 2,4 GHz, vous pouvez faire des courses ou des batailles avec plusieurs drones en même temps. | MODE VOL DANS LES AIRS : Découvrez des flips 3D incroyables, des vols circulaires et quatre déformations de posture en appuyant simplement sur un bouton. Ce petit drone d’intérieur permet d’exécuter facilement des figures aériennes spectaculaires, pour le plaisir et l’excitation des petits et des grands. | Un jouet drone facile et amusant pour les enfants : Le décollage/atterrissage automatique et le maintien de l’altitude permettent à ce drone Holy Stone HS210T de décoller facilement et de rester stable en vol ; trois vitesses, du plus lent au plus rapide, pour s’adapter à tous les niveaux de joueurs. | Sécurité et durabilité : Le drone est équipé de protections complètes pour les hélices, fabriquées en plastique ABS en nylon durable, garantissant une protection totale pour le drone et son environnement, tout en réduisant les risques d’accidents. Le bouton d’arrêt d’urgence permet de réagir rapidement à toutes les situations. | Amusement sans fin : Ce mini drone est alimenté par une batterie modulaire avancée, à la fois sûre et facile à recharger, avec une protection contre la surcharge. Le kit comprend deux batteries rechargeables, offrant jusqu’à 16 minutes de vol pour des aventures palpitantes.",
-  "shortDescription": "Holy Stone HS210T Drone pour Enfants, 2 EN 1 Mini Drone d’Intérieur avec Mode Vol et Terre, Quadrico",
+  "name": "Drone 2-en-1 Holy Stone HS210T pour Enfants : Voilure & Roues",
+  "slug": "drone-2-en-1-holy-stone-hs210t-pour",
+  "description": "Plongez dans le monde fascinant de la robotique et du vol avec le Drone 2-en-1 Holy Stone HS210T, spécialement conçu pour les jeunes explorateurs ! Ce quadricoptère RC révolutionnaire offre une double expérience ludique : volez dans les airs avec ses modes vol stationnaire et flip 3D, ou transformez-le en véhicule terrestre pour des courses dynamiques. Parfait pour l'initiation à la technologie et au pilotage, le HS210T est votre porte d'entrée vers l'aventure robotique en intérieur.",
+  "shortDescription": "Découvrez le Drone Holy Stone HS210T, un robot 2-en-1 pour enfants ! Vol stationnaire, Flip 3D et mode terrestre pour une double aventure robotique à 39.0€.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Holy Stone",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone 2-en-1 Holy Stone HS210T pour Enfants : Voilure & Roues",
+    "description": "Découvrez le Drone Holy Stone HS210T, un robot 2-en-1 pour enfants ! Vol stationnaire, Flip 3D et mode terrestre pour une double aventure robotique à 39.0€.",
+    "keywords": [
+      "drone 2-en-1 holy stone hs210t pour enfants : voilure & roues",
+      "mini drones et drones d'intérieur",
+      "visiter la boutique holy stone"
+    ],
+    "ogTitle": "Drone 2-en-1 Holy Stone HS210T pour Enfants : Voilure & Roues",
+    "ogDescription": "Découvrez le Drone Holy Stone HS210T, un robot 2-en-1 pour enfants ! Vol stationnaire, Flip 3D et mode terrestre pour une double aventure robotique à 39.0€."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone 2-en-1 : Mode vol et mode terre. Quadricoptère RC déformable. Fonctions : Vol stationnaire automatique, Flip 3D. Idéal pour les enfants. Marque : Holy Stone. Modèle : HS210T. Prix : 39.0€."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un enfant ?",
+      "a": "Absolument ! Le Holy Stone HS210T est conçu pour être intuitif. Son vol stationnaire automatique stabilise l'appareil, le rendant très accessible aux débutants, y compris les enfants, pour une première expérience réussie en drone et robotique."
+    },
+    {
+      "q": "Qu'est-ce que la fonction 2-en-1 (mode vol et terre) ?",
+      "a": "Le HS210T peut se transformer ! Il fonctionne comme un drone volant classique, mais peut également se poser sur ses roues intégrées pour se déplacer comme un petit véhicule terrestre. C'est une double dose de plaisir robotique !"
+    },
+    {
+      "q": "Le drone peut-il faire des figures ?",
+      "a": "Oui, le HS210T est capable d'effectuer des flips 3D spectaculaires d'une simple pression sur un bouton, ajoutant une dimension supplémentaire d'excitation à son pilotage."
+    },
+    {
+      "q": "Est-il adapté à une utilisation en intérieur ?",
+      "a": "Ce mini drone est parfaitement optimisé pour le jeu en intérieur. Sa taille compacte et ses protections d'hélice le rendent sûr et maniable dans la plupart des espaces intérieurs."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:48.054305",
+  "originalName": "Holy Stone HS210T Drone pour Enfants, 2 EN 1 Mini Drone d’Intérieur avec Mode Vol et Terre, Quadricoptère RC à Quatre Postures Déformables avec Flip 3D, Vol Stationnaire Automatique, C0",
+  "enhanced": true
 }

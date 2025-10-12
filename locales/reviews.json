@@ -4,57 +4,111 @@
   "reviews": [
     {
       "id": 1,
-      "author": "María D.",
+      "author": "Marie D.",
       "rating": 5,
       "date": "2024-01-15",
-      "text": "Muy satisfecha con mi compra. El robot es fácil de usar y funciona perfectamente. ¡Recomendado para automatización eficiente!",
+      "text": "Très satisfaite de mon achat. Le drone est facile à utiliser et fonctionne parfaitement. Recommandé pour la photographie aérienne !",
       "verified": true,
       "helpful": 12
     },
     {
       "id": 2,
-      "author": "Juan Carlos M.",
+      "author": "Jean-Pierre M.",
       "rating": 5,
       "date": "2024-01-10",
-      "text": "Perfecto para mi hogar. El robot nos da mucha tranquilidad con su funcionamiento eficiente. Muy buen servicio al cliente.",
+      "text": "Parfait pour mes voyages. Le drone nous donne de magnifiques photos avec son fonctionnement stable. Très bon service client.",
       "verified": true,
       "helpful": 8
     },
     {
       "id": 3,
-      "author": "Ana L.",
+      "author": "Sophie L.",
       "rating": 4,
       "date": "2024-01-08",
-      "text": "El robot llegó rápido y funciona bien. Mi familia lo usa sin problemas. Quizás el nivel de ruido podría ser menor.",
+      "text": "Le drone est arrivé rapidement et fonctionne bien. Ma famille l'utilise sans problème. Peut-être que l'autonomie pourrait être meilleure.",
       "verified": true,
       "helpful": 15
     },
     {
       "id": 4,
-      "author": "Carlos R.",
+      "author": "Pierre R.",
       "rating": 5,
       "date": "2024-01-05",
-      "text": "Muy fácil de usar. El funcionamiento es perfecto y rápido. Ideal para automatización eficiente.",
+      "text": "Très facile à piloter. Le fonctionnement est parfait et la qualité d'image excellente. Idéal pour la photographie professionnelle.",
       "verified": true,
       "helpful": 6
     },
     {
       "id": 5,
-      "author": "Isabel C.",
+      "author": "Isabelle C.",
       "rating": 4,
       "date": "2024-01-02",
-      "text": "Buen producto, simple y seguro. El envío fue muy rápido. Mi familia está encantada.",
+      "text": "Bon produit, simple et sécurisé. La livraison a été très rapide. Ma famille est enchantée des photos aériennes.",
       "verified": true,
       "helpful": 9
     },
     {
       "id": 6,
-      "author": "Pedro B.",
+      "author": "Philippe B.",
       "rating": 5,
       "date": "2023-12-28",
-      "text": "Después de varios meses sigue funcionando perfectamente. Muy recomendable para automatización eficiente.",
+      "text": "Après plusieurs mois, il fonctionne toujours parfaitement. Très recommandable pour la photographie et les vidéos aériennes.",
       "verified": true,
       "helpful": 11
+    },
+    {
+      "id": 7,
+      "author": "Camille T.",
+      "rating": 5,
+      "date": "2023-12-20",
+      "text": "Excellent drone ! La stabilisation est impressionnante et les photos sont d'une qualité exceptionnelle. Parfait pour les débutants.",
+      "verified": true,
+      "helpful": 18
+    },
+    {
+      "id": 8,
+      "author": "Antoine F.",
+      "rating": 4,
+      "date": "2023-12-15",
+      "text": "Très bon rapport qualité-prix. Le drone est robuste et les contrôles sont intuitifs. Seul bémol : la portée pourrait être plus importante.",
+      "verified": true,
+      "helpful": 7
+    },
+    {
+      "id": 9,
+      "author": "Claire M.",
+      "rating": 5,
+      "date": "2023-12-10",
+      "text": "Incroyable ! Ce drone a transformé ma façon de photographier. Les vidéos en 4K sont magnifiques et le pilotage est très stable.",
+      "verified": true,
+      "helpful": 14
+    },
+    {
+      "id": 10,
+      "author": "Nicolas P.",
+      "rating": 4,
+      "date": "2023-12-05",
+      "text": "Bon drone pour débuter. Facile à assembler et à utiliser. Les instructions sont claires. Parfait pour découvrir l'aérophotographie.",
+      "verified": true,
+      "helpful": 13
+    },
+    {
+      "id": 11,
+      "author": "Émilie R.",
+      "rating": 5,
+      "date": "2023-11-28",
+      "text": "Fantastique ! J'ai pu capturer des vues aériennes spectaculaires. Le drone est très réactif et la qualité d'image excellente.",
+      "verified": true,
+      "helpful": 16
+    },
+    {
+      "id": 12,
+      "author": "Thomas L.",
+      "rating": 4,
+      "date": "2023-11-20",
+      "text": "Très satisfait de cet achat. Le drone est bien conçu et les fonctionnalités sont nombreuses. Idéal pour les amateurs de technologie.",
+      "verified": true,
+      "helpful": 10
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B09539LJHQ",
-  "name": "Tiardey Hélices Mavic Mini 2,accessoire d'origine pour lames de rechange à faible bruit et à dégagement rapide Mini 2 (bord orange)",
-  "slug": "tiardey-helices-mavic-mini-2accessoire-dorigine-po",
-  "description": "Ces hélices d'origine Mini 2 sont spécialement con?ues pour Mavic Mini, ces hélices fournissent un vol plus silencieux et une poussée puissante pour l'avion. | Hélice 4726F, compatibilité uniquement avec Mini 2. | CARACT RISTIQUES - Conception à dégagement rapide, facile à installer et à retirer;?Conception pliable, pratique à transporter;?Nouveau design aérodynamique, excellentes performances de réduction du bruit, durée d'endurance plus longue. | Ces hélices d'origine Mini 2 sont spécialement con?ues pour Mavic Mini, ces hélices fournissent un vol plus silencieux et une poussée puissante pour l'avion. | Hélice 4726F, compatibilité uniquement avec Mini 2.",
-  "shortDescription": "Tiardey Hélices Mavic Mini 2,accessoire d'origine pour lames de rechange à faible bruit et à dégagem",
+  "name": "Hélices Tiardey pour Mavic Mini 2 (Bord Orange)",
+  "slug": "helices-tiardey-pour-mavic-mini-bord",
+  "description": "Optimisez les performances de votre drone DJI Mavic Mini 2 avec ces hélices Tiardey d'origine, conçues pour un fonctionnement à faible bruit et un dégagement rapide. Leur bordure orange distinctive assure une excellente visibilité en vol. Fabriquées avec des matériaux de haute qualité pour une durabilité et une fiabilité maximales, ces hélices de rechange sont l'accessoire indispensable pour prolonger vos sessions de prise de vue aérienne. Installation et remplacement simplifiés, garantissant un retour au vol rapide et en toute sécurité. Parfaites pour les amateurs et les professionnels souhaitant maintenir leur drone en parfait état de fonctionnement.",
+  "shortDescription": "Hélices Tiardey d'origine pour Mavic Mini 2, faible bruit, dégagement rapide, bord orange pour meilleure visibilité. Accessoire essentiel pour performances optimales et vol sécurisé.",
   "price": "6.0",
   "compareAtPrice": 6,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Tiardey",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hélices Tiardey pour Mavic Mini 2 (Bord Orange)",
+    "description": "Hélices Tiardey d'origine pour Mavic Mini 2, faible bruit, dégagement rapide, bord orange pour meilleure visibilité. Accessoire essentiel pour performances optimales et vol sécurisé.",
+    "keywords": [
+      "hélices tiardey pour mavic mini 2 (bord orange)",
+      "hélices silencieuses (low-noise)",
+      "marque : tiardey"
+    ],
+    "ogTitle": "Hélices Tiardey pour Mavic Mini 2 (Bord Orange)",
+    "ogDescription": "Hélices Tiardey d'origine pour Mavic Mini 2, faible bruit, dégagement rapide, bord orange pour meilleure visibilité. Accessoire essentiel pour performances optimales et vol sécurisé."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Accessoire d'origine Tiardey, Compatible DJI Mavic Mini 2, Faible bruit, Dégagement rapide, Bordure de couleur orange pour visibilité accrue, Matériaux haute qualité, Durabilité et fiabilité."
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec d'autres modèles de drones DJI ?",
+      "a": "Ces hélices sont spécifiquement conçues pour le DJI Mavic Mini 2. Pour d'autres modèles, veuillez consulter nos autres références de produits."
+    },
+    {
+      "q": "Comment identifier le sens de montage des hélices ?",
+      "a": "Chaque hélice est marquée. Les hélices sans marquage se montent sur les moteurs sans marquage (souvent gris ou argent), et les hélices avec marquage (souvent une bande de couleur) se montent sur les moteurs correspondants."
+    },
+    {
+      "q": "Le remplacement des hélices est-il compliqué ?",
+      "a": "Non, le système de dégagement rapide permet un remplacement très simple et intuitif. Il suffit de dévisser l'ancienne hélice et de clipser la nouvelle."
+    },
+    {
+      "q": "Pourquoi la bordure orange est-elle importante ?",
+      "a": "La bordure orange améliore considérablement la visibilité du drone en vol, particulièrement dans des conditions de faible luminosité ou face à des arrière-plans complexes, ce qui contribue à la sécurité et à la facilité de suivi."
+    },
+    {
+      "q": "Quel est le bénéfice du faible bruit ?",
+      "a": "Les hélices à faible bruit réduisent l'empreinte sonore de votre drone, ce qui est idéal pour filmer dans des environnements sensibles au bruit, comme les parcs, les zones résidentielles ou lors d'événements."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:18.337672",
+  "originalName": "Tiardey Hélices Mavic Mini 2,accessoire d'origine pour lames de rechange à faible bruit et à dégagement rapide Mini 2 (bord orange)",
+  "enhanced": true
 }

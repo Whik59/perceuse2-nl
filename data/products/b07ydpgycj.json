@@ -1,9 +1,9 @@
 {
   "productId": "B07YDPGYCJ",
-  "name": "Hélices à Dégagement Rapide De Lames à Serrage Automatique, Lame D'hélice en Fibre De Carbone pour Accessoire quadricoptère DJI Phantom 3",
-  "slug": "helices-a-degagement-rapide-de-lames-a-serrage-aut",
-  "description": "Conçu pour le drone 3. | Adopter des matériaux haut de gamme, durables et solides, difficiles à rompre. | Excellentes performances de réduction du bruit et temps de vol plus long. | 2 paires dans paquet, très pratique et facile à installer. | Bon choix pour que vous profitiez de plus de joies volantes.",
-  "shortDescription": "Hélices à Dégagement Rapide De Lames à Serrage Automatique, Lame D'hélice en Fibre De Carbone pour A",
+  "name": "Hélices Carbone DJI Phantom 3 - Dégagement Rapide",
+  "slug": "helices-carbone-dji-phantom-degagement-rapide",
+  "description": "Améliorez les performances de votre drone DJI Phantom 3 avec ces hélices premium en fibre de carbone. Conçues pour un dégagement rapide et un serrage automatique, elles garantissent une installation aisée et sécurisée, optimisant ainsi votre temps de vol. Leur fabrication en fibre de carbone assure une légèreté et une résistance exceptionnelles, contribuant à une stabilité accrue et une efficacité énergétique supérieure pour votre quadricoptère. Parfaites pour les pilotes exigeants recherchant une fiabilité maximale et des performances aérodynamiques de pointe. Compatibles avec tous les modèles DJI Phantom 3.",
+  "shortDescription": "Hélices en fibre de carbone pour DJI Phantom 3 avec système de dégagement rapide et serrage automatique. Performances et fiabilité accrues.",
   "price": "10.0",
   "compareAtPrice": 11,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Lazmin",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hélices Carbone DJI Phantom 3 - Dégagement Rapide",
+    "description": "Hélices en fibre de carbone pour DJI Phantom 3 avec système de dégagement rapide et serrage automatique. Performances et fiabilité accrues.",
+    "keywords": [
+      "hélices carbone dji phantom 3 - dégagement rapide",
+      "hélices en fibre de carbone",
+      "marque : lazmin"
+    ],
+    "ogTitle": "Hélices Carbone DJI Phantom 3 - Dégagement Rapide",
+    "ogDescription": "Hélices en fibre de carbone pour DJI Phantom 3 avec système de dégagement rapide et serrage automatique. Performances et fiabilité accrues."
   },
   "reviews": {
     "averageRating": 3.2,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Matériau : Fibre de Carbone\nType : Dégagement Rapide / Serrage Automatique\nCompatibilité : DJI Phantom 3 (tous modèles)\nCouleur : Noir (généralement)\nQuantité : Vendu par paire ou lot de 4 hélices"
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec le DJI Phantom 4 ?",
+      "a": "Non, ces hélices sont spécifiquement conçues pour les modèles DJI Phantom 3. Pour le Phantom 4, veuillez rechercher des hélices adaptées à ce modèle."
+    },
+    {
+      "q": "Comment fonctionne le système de dégagement rapide et de serrage automatique ?",
+      "a": "Le système de dégagement rapide permet d'installer et de retirer les hélices sans outils, simplement en les vissant ou en les déclipsant. Le serrage automatique assure que l'hélice reste solidement fixée pendant le vol grâce à un mécanisme intégré, garantissant la sécurité."
+    },
+    {
+      "q": "Quels sont les avantages d'utiliser des hélices en fibre de carbone ?",
+      "a": "Les hélices en fibre de carbone offrent un excellent rapport poids-résistance. Elles sont plus légères et plus rigides que les hélices en plastique standard, ce qui se traduit par une meilleure efficacité, une plus grande stabilité en vol, une réduction des vibrations et une durée de vie accrue."
+    },
+    {
+      "q": "Le prix est-il pour un jeu complet d'hélices (4 pièces) ?",
+      "a": "Veuillez vérifier la description du produit spécifique, car elles peuvent être vendues par paires (2 hélices) ou par lot de 4 hélices. La description mentionne 10.0€, ce qui suggère un prix pour un article individuel ou un lot de base."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:15.056336",
+  "originalName": "Hélices à Dégagement Rapide De Lames à Serrage Automatique, Lame D'hélice en Fibre De Carbone pour Accessoire quadricoptère DJI Phantom 3",
+  "enhanced": true
 }

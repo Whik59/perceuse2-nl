@@ -1,9 +1,9 @@
 {
   "productId": "B0CZTKHL37",
-  "name": "Mxming Chargeur 5 en 1 avec batteries Li-Po 3,7 V 550 mAh et câble USB pour SYMA Q11 H99W Chargeur 5 en 1 avec 550 mAh Pack Drone Pièces",
-  "slug": "mxming-chargeur-5-en-1-avec-batteries-li-po-37-v-5",
-  "description": "✿ Protection IC intégrée, avec protection contre les sur-circuits, protège les batteries contre les dommages et les batteries seront plus longues. | ✿ 3. Le lithium-polymère 7 V 550 mAh offre plus de puissance, sans vous soucier de la mise hors tension pendant le vol. | ✿ Kit d'alimentation pour drone, y compris 5 pcs Li-Po Pack, chargeur 5 en 1 et câble de charge USB. | ✿ Remplacement compatible avec les pièces de quadricoptère H99W modèle d'avion. | ✿ Spécialement conçu pour les loisirs de performance, les audiophiles d'avions quadricoptères.",
-  "shortDescription": "Mxming Chargeur 5 en 1 avec batteries Li-Po 3,7 V 550 mAh et câble USB pour SYMA Q11 H99W Chargeur 5",
+  "name": "Chargeur 5 en 1 Intelligent Li-Po 3.7V 550mAh pour Drones SYMA",
+  "slug": "intelligent-550mah-chargeur-li-po-3-7v-pour",
+  "description": "Optimisez l'autonomie de votre drone SYMA avec ce chargeur 5 en 1 révolutionnaire. Conçu spécifiquement pour les modèles SYMA Q11 et H99W, il intègre 5 ports indépendants pour charger simultanément jusqu'à 5 batteries Li-Po 3.7V 550mAh. Sa technologie de charge avancée assure une alimentation rapide et sécurisée, protégeant vos batteries de la surcharge et de la surchauffe. Le câble USB inclus vous offre une flexibilité de chargement maximale, vous permettant de brancher le chargeur sur une alimentation USB standard (ordinateur, adaptateur mural, power bank). Idéal pour prolonger vos sessions de vol et minimiser les temps d'arrêt, ce chargeur est une pièce maîtresse indispensable pour tout pilote de drone sérieux. La qualité des matériaux et la fiabilité du système garantissent une utilisation durable et performante. Obtenez le meilleur de votre drone SYMA avec cette solution de chargement tout-en-un.",
+  "shortDescription": "Chargeur 5 en 1 pour drones SYMA Q11/H99W. Charge 5 batteries Li-Po 3.7V 550mAh simultanément via USB. Sécurisé et rapide.",
   "price": "14.0",
   "compareAtPrice": 16,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Mxming",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Chargeur 5 en 1 Intelligent Li-Po 3.7V 550mAh pour Drones SYMA",
+    "description": "Chargeur 5 en 1 pour drones SYMA Q11/H99W. Charge 5 batteries Li-Po 3.7V 550mAh simultanément via USB. Sécurisé et rapide.",
+    "keywords": [
+      "chargeur 5 en 1 intelligent li-po 3.7v 550mah pour drones syma",
+      "batteries et chargeurs pour drones",
+      "marque : mxming"
+    ],
+    "ogTitle": "Chargeur 5 en 1 Intelligent Li-Po 3.7V 550mAh pour Drones SYMA",
+    "ogDescription": "Chargeur 5 en 1 pour drones SYMA Q11/H99W. Charge 5 batteries Li-Po 3.7V 550mAh simultanément via USB. Sécurisé et rapide."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Chargeur 5 en 1 compatible SYMA Q11 et H99W. Supporte 5 batteries Li-Po 3.7V 550mAh. Câble USB inclus pour une alimentation polyvalente. Protection contre la surcharge et la surchauffe. Charge rapide et sécurisée."
+  },
+  "faq": [
+    {
+      "q": "Quels modèles de drones SYMA sont compatibles avec ce chargeur ?",
+      "a": "Ce chargeur est spécifiquement conçu pour les drones SYMA Q11 et H99W."
+    },
+    {
+      "q": "Combien de batteries puis-je charger en même temps ?",
+      "a": "Vous pouvez charger jusqu'à 5 batteries Li-Po 3.7V 550mAh simultanément grâce aux 5 ports indépendants."
+    },
+    {
+      "q": "Quel type de batteries ce chargeur prend-il en charge ?",
+      "a": "Il prend en charge les batteries Li-Po de type 3.7V avec une capacité de 550mAh."
+    },
+    {
+      "q": "Comment le chargeur est-il alimenté ?",
+      "a": "Le chargeur est alimenté via un câble USB standard inclus. Vous pouvez le brancher sur une prise USB d'ordinateur, un adaptateur secteur USB ou une batterie externe (power bank)."
+    },
+    {
+      "q": "Ce chargeur offre-t-il des protections de sécurité ?",
+      "a": "Oui, ce chargeur intègre des protections essentielles contre la surcharge et la surchauffe pour garantir la sécurité de vos batteries et une utilisation sereine."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:36.844922",
+  "originalName": "Mxming Chargeur 5 en 1 avec batteries Li-Po 3,7 V 550 mAh et câble USB pour SYMA Q11 H99W Chargeur 5 en 1 avec 550 mAh Pack Drone Pièces",
+  "enhanced": true
 }

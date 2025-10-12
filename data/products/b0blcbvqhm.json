@@ -1,9 +1,9 @@
 {
   "productId": "B0BLCBVQHM",
-  "name": "EMAX EZ Pilot FPV Drone RTF Kit, Mini Drone avec Caméra 600TVL CMOS, Transmission Vidéo 25mw, Lunettes et Émetteur pour Enfants Adultes et Débutants, blanc",
-  "slug": "emax-ez-pilot-fpv-drone-rtf-kit-mini-drone-avec-ca",
-  "description": "✈【ULTRA HAUTE PERFORMANCE】 Le drone a une fréquence réglable de 25mw 37CH, une caméra CMOS 600TVL, la résolution des lunettes VR est de 480*272. Système de transmission vidéo FPV de qualité passe-temps en temps réel. Le modèle de drone à vue à la première personne, vous offrant la première expérience visuelle de vol. | ✈【VITESSE SUPER RAPIDE】Pour l'émetteur, vous n'obtiendrez jamais d'interférence radio avec ce drone RC. La vitesse atteint jusqu'à 50 KM/H, ce qui fait que le drone vole plus vite que les autres. | ✈【VUE RÉELLE À LA PREMIÈRE PERSONNE】La vue FPV vous permet d'avoir l'expérience pilote COMPLÈTE ! L'EZ Pilot est livré avec une caméra FPV ! Vous verrez ce que le drone voit avec les lunettes incluses ! Ce drone n'a pas besoin de SMARTPHONE. AUCUN WIFI NÉCESSAIRE. | ✈【SUPER FACILE À VOLER】Le drone EZ Pilot est programmé avec 3 niveaux de difficulté. LEVEL EZ 1 STICK est destiné aux débutants, a ce niveau, vous pourrez piloter l'EZ Pilot avec 1 stick! Le niveau 2 vous permettra d'avoir plus de LIBERTÉ en utilisant les deux sticks, à ce niveau vous aurez l'aide de notre fonction d'auto-nivellement qui vous aidera avec une session de vol facile et stable. Le niveau 3 vous permettra de faire des flips. | ✈【LONG TEMPS DE VOL】L'EZ Pilot Drone peut voler jusqu'à 4 minutes sans s'arrêter!",
-  "shortDescription": "EMAX EZ Pilot FPV Drone RTF Kit, Mini Drone avec Caméra 600TVL CMOS, Transmission Vidéo 25mw, Lunett",
+  "name": "Drone FPV EMAX EZ Pilot RTF Kit",
+  "slug": "drone-fpv-emax-pilot-rtf-kit",
+  "description": "Plongez dans le monde passionnant du pilotage FPV avec le kit EMAX EZ Pilot. Ce drone RTF (Ready-To-Fly) est conçu pour offrir une expérience immersive aux débutants, enfants et adultes. Équipé d'une caméra FPV haute définition 600TVL CMOS et d'une transmission vidéo 25mW, vous profiterez d'une image nette et réactive directement dans les lunettes incluses. Idéal pour vos premiers vols en intérieur comme en extérieur, l'EZ Pilot combine facilité d'utilisation et performances pour des sensations fortes garanties.  Découvrez une nouvelle dimension du vol RC !",
+  "shortDescription": "Drone FPV EMAX EZ Pilot RTF Kit avec caméra 600TVL, lunettes et émetteur. Idéal pour débutants, enfants et adultes. Prêt à voler !",
   "price": "185.0",
   "compareAtPrice": 212,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Tiny Hawk",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV EMAX EZ Pilot RTF Kit",
+    "description": "Drone FPV EMAX EZ Pilot RTF Kit avec caméra 600TVL, lunettes et émetteur. Idéal pour débutants, enfants et adultes. Prêt à voler !",
+    "keywords": [
+      "drone fpv emax ez pilot rtf kit",
+      "kits drones fpv à monter",
+      "visiter la boutique tiny hawk"
+    ],
+    "ogTitle": "Drone FPV EMAX EZ Pilot RTF Kit",
+    "ogDescription": "Drone FPV EMAX EZ Pilot RTF Kit avec caméra 600TVL, lunettes et émetteur. Idéal pour débutants, enfants et adultes. Prêt à voler !"
   },
   "reviews": {
     "averageRating": 3.4,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kit RTF complet : Drone, lunettes FPV, télécommande inclus. Caméra FPV 600TVL CMOS pour une image claire. Transmission vidéo 25mW pour une connexion stable. Conçu pour débutants, enfants et adultes. Facile à piloter. Idéal pour vol intérieur/extérieur."
+  },
+  "faq": [
+    {
+      "q": "Ce drone EMAX EZ Pilot est-il adapté aux débutants complets ?",
+      "a": "Absolument ! Le kit EMAX EZ Pilot RTF est spécifiquement conçu pour les débutants. Son système de contrôle intuitif et sa facilité de prise en main vous permettront de voler en toute confiance dès vos premiers essais."
+    },
+    {
+      "q": "Quelle est la portée de la transmission vidéo de ce drone FPV ?",
+      "a": "Le drone EMAX EZ Pilot est équipé d'une transmission vidéo 25mW, offrant une connexion stable et fiable pour une expérience FPV immersive sur une distance adaptée aux vols d'initiation, notamment en intérieur ou dans des espaces dégagés."
+    },
+    {
+      "q": "Le kit comprend-il tout le nécessaire pour voler immédiatement ?",
+      "a": "Oui, le kit EMAX EZ Pilot RTF est un ensemble complet 'Ready-To-Fly'. Il inclut le drone, les lunettes FPV et la télécommande, vous permettant de commencer à voler dès que vous recevez le colis."
+    },
+    {
+      "q": "Quelle est la différence entre un drone FPV et un drone classique ?",
+      "a": "Un drone FPV (First Person View) vous permet de voir le monde à travers les yeux du drone en temps réel grâce à une caméra et des lunettes, offrant une sensation de pilotage plus immersive et dynamique comparé à un pilotage visuel classique."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:23.377426",
+  "originalName": "EMAX EZ Pilot FPV Drone RTF Kit, Mini Drone avec Caméra 600TVL CMOS, Transmission Vidéo 25mw, Lunettes et Émetteur pour Enfants Adultes et Débutants, blanc",
+  "enhanced": true
 }

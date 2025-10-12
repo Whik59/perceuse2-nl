@@ -1,9 +1,9 @@
 {
   "productId": "B0DGGZ13Z2",
-  "name": "Drone Pliable à Moteur sans Balais avec Double Caméra 8K, évitement D'obstacles, Gyroscope 6 Axes, Veilleuse LED pour des Actions de Vol Flexibles et Stables, Transmission en",
-  "slug": "drone-pliable-a-moteur-sans-balais-avec-double-cam",
-  "description": "[Technologie de caméra avancée] Comprend trois caméras avec réglage électrique de l'angle et deux caméras haute résolution 8k, permettant une complète de scènes pendant les séances de photographie aérienne. | [Options de vol flexibles] Avec un gyroscope à 6 axes, un mode sans tête réglable et un équipement de vitesse commutable, ce drone offre polyvalence et adaptabilité dans différents scénarios, tandis que les lumières de vol de nuit à LED assurent la visibilité dans des conditions de faible luminosité. | [Moteur sans balais puissant] Équipé d'un moteur sans balais et d'un positionnement du flux lumineux, ce drone offre des actions de vol flexibles et une stabilité améliorée pour une expérience de vol fluide. | [Fonctionnalités de contrôle intelligentes] Se connectant au wifi, ce drone peut prendre des photos, enregistrer des vidéos et transmettre des images en temps réel. il prend également en charge les modes d'arrêt d'urgence, de vol de trajectoire et de suivi intelligent pour plus de commodité. | [Portable et pratique] La conception pliable du drone, ainsi que sa taille compacte, le rendent facile à transporter et à transporter, pour les amateurs de photographie aérienne en déplacement.",
-  "shortDescription": "Drone Pliable à Moteur sans Balais avec Double Caméra 8K, évitement D'obstacles, Gyroscope 6 Axes, V",
+  "name": "Drone Pliable 8K - Moteur Brushless, Double Caméra &évitement d'obstacles",
+  "slug": "drone-pliable-moteur-brushless-double-camera",
+  "description": "Découvrez une nouvelle dimension du ciel avec notre Drone Pliable 8K, équipé d'un puissant moteur sans balais pour une performance inégalée et une durabilité accrue. Capturez des moments spectaculaires en résolution 8K grâce à sa double caméra haute définition, offrant des prises de vue d'une clarté époustouflante. Son système avancé d'évitement d'obstacles garantit des vols en toute sécurité, même pour les pilotes débutants. Grâce à son gyroscope 6 axes et sa veilleuse LED, bénéficiez d'une stabilité de vol exceptionnelle et d'une maniabilité surprenante, vous permettant des actions de vol flexibles et précises dans toutes les conditions.",
+  "shortDescription": "Drone 8K pliable avec moteur brushless, double caméra, évitement d'obstacles et gyroscope 6 axes pour des vols stables et flexibles.",
   "price": "13.0",
   "compareAtPrice": 14,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Cuifati",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Pliable 8K - Moteur Brushless, Double Caméra &évitement d'obstacles",
+    "description": "Drone 8K pliable avec moteur brushless, double caméra, évitement d'obstacles et gyroscope 6 axes pour des vols stables et flexibles.",
+    "keywords": [
+      "drone pliable 8k - moteur brushless, double caméra &évitement d'obstacles",
+      "drones avec caméra",
+      "visiter la boutique cuifati"
+    ],
+    "ogTitle": "Drone Pliable 8K - Moteur Brushless, Double Caméra &évitement d'obstacles",
+    "ogDescription": "Drone 8K pliable avec moteur brushless, double caméra, évitement d'obstacles et gyroscope 6 axes pour des vols stables et flexibles."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Moteur sans balais, Double caméra 8K, Évitement d'obstacles intelligent, Gyroscope 6 axes, Veilleuse LED, Pliable, Transmission en temps réel."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo principale de ce drone ?",
+      "a": "Le drone est équipé d'une double caméra offrant une résolution vidéo principale de 8K, garantissant des images d'une qualité exceptionnelle."
+    },
+    {
+      "q": "Le drone est-il adapté aux débutants grâce à son système d'évitement d'obstacles ?",
+      "a": "Absolument. Le système d'évitement d'obstacles rend le pilotage plus sûr et plus facile, idéal pour les débutants qui souhaitent apprendre à voler en toute confiance."
+    },
+    {
+      "q": "Comment le gyroscope 6 axes améliore-t-il le vol ?",
+      "a": "Le gyroscope 6 axes offre une stabilité de vol remarquable, permettant au drone de rester stable même par vent léger et de réaliser des manœuvres précises."
+    },
+    {
+      "q": "La fonction pliable est-elle pratique pour le transport ?",
+      "a": "Oui, le design pliable rend ce drone extrêmement pratique à transporter et à ranger, parfait pour les voyages et les aventures en extérieur."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:41.374821",
+  "originalName": "Drone Pliable à Moteur sans Balais avec Double Caméra 8K, évitement D'obstacles, Gyroscope 6 Axes, Veilleuse LED pour des Actions de Vol Flexibles et Stables, Transmission en",
+  "enhanced": true
 }

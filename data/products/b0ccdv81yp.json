@@ -1,9 +1,9 @@
 {
   "productId": "B0CCDV81YP",
-  "name": "Drone de course,HUIOP FPV Racing Drone ECOII 2004 Moteur Brushless 5 Pouces BNF Runcam Nano HD Zero Drone 720p Caméra,Drone de course FPV",
-  "slug": "drone-de-coursehuiop-fpv-racing-drone-ecoii-2004-m",
-  "description": "Matériau en fibre de carbone : avec de la fibre de carbone de qualité aérospatiale, le drone de course est léger, solide, durable et fiable, ce qui répond à tous les besoins de course. | Hélice Avia 5030 : la conception de la courbe de couple non linéaire rend l'hélice excellente sur le plan aérodynamique. | Transmission en temps réel : le système de transmission graphique haute définition HD Zero peut réaliser un effet de transmission d'image haute définition, et ce que vous voyez dans les lunettes de vol est la photo prise par le drone en temps réel, apportant une expérience de vol plus fluide pour le utilisateur. | Moteur sans balais ECOII : Avec le moteur sans balais ECOII, le drone est plus stable dans la manipulation et plus rapide dans la réponse de l'accélérateur. | Matériau en fibre de carbone : avec de la fibre de carbone de qualité aérospatiale, le drone de course est léger, solide, durable et fiable, ce qui répond à tous les besoins de course.",
-  "shortDescription": "Drone de course,HUIOP FPV Racing Drone ECOII 2004 Moteur Brushless 5 Pouces BNF Runcam Nano HD Zero ",
+  "name": "Drone de Course FPV HUIOP ECOII 2004 - 5 Pouces BNF (HD Zero)",
+  "slug": "drone-course-fpv-huiop-ecoii-2004",
+  "description": "Dominez les cieux avec le drone de course FPV HUIOP ECOII 2004. Conçu pour la vitesse et la précision, ce drone BNF (Bind-N-Fly) embarque un puissant moteur brushless 2004 et une caméra HD Zero 720p pour une immersion FPV inégalée. Préparez-vous à des courses explosives et des manœuvres acrobatiques grâce à sa configuration optimisée et sa technologie de pointe. Idéal pour les pilotes FPV expérimentés cherchant performance et fiabilité.",
+  "shortDescription": "Drone FPV HUIOP ECOII 2004 5\" BNF - Moteur Brushless, Caméra HD Zero 720p. Vitesse et précision pour le pilotage FPV.",
   "price": "179.0",
   "compareAtPrice": 205,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : HUIOP",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone de Course FPV HUIOP ECOII 2004 - 5 Pouces BNF (HD Zero)",
+    "description": "Drone FPV HUIOP ECOII 2004 5\" BNF - Moteur Brushless, Caméra HD Zero 720p. Vitesse et précision pour le pilotage FPV.",
+    "keywords": [
+      "drone de course fpv huiop ecoii 2004 - 5 pouces bnf (hd zero)",
+      "drones de course et fpv",
+      "marque : huiop"
+    ],
+    "ogTitle": "Drone de Course FPV HUIOP ECOII 2004 - 5 Pouces BNF (HD Zero)",
+    "ogDescription": "Drone FPV HUIOP ECOII 2004 5\" BNF - Moteur Brushless, Caméra HD Zero 720p. Vitesse et précision pour le pilotage FPV."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Type : Drone de course FPV\nModèle : HUIOP ECOII 2004\nMoteur : Brushless 2004\nTaille d'hélice : 5 pouces\nFormat : BNF (Bind-N-Fly)\nCaméra : HD Zero 720p\nRésolution Vidéo : 720p\nTechnologie FPV : Transmission HD Zero\nChâssis : Robuste et léger pour des performances optimales"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il adapté aux débutants ?",
+      "a": "Le HUIOP ECOII 2004 est un drone de course FPV performant, idéal pour les pilotes ayant déjà une expérience en FPV. Pour les débutants complets, nous recommandons de commencer par un simulateur ou un modèle moins axé sur la performance pure."
+    },
+    {
+      "q": "Qu'est-ce que le format BNF ?",
+      "a": "BNF signifie 'Bind-N-Fly'. Cela signifie que le drone est pré-assemblé et configuré, prêt à être lié à votre propre émetteur radio compatible (télécommande). Vous n'avez pas besoin de souder ou de monter des composants."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra HD Zero ?",
+      "a": "La caméra HD Zero intégrée offre une résolution de 720p et une transmission FPV en haute définition, garantissant une image nette et réactive pour une immersion totale lors de vos vols."
+    },
+    {
+      "q": "Est-il possible de mettre à niveau les composants ?",
+      "a": "Oui, bien que le drone soit déjà très performant, de nombreux composants sont remplaçables ou améliorables pour personnaliser davantage votre expérience de course FPV."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.834583",
+  "originalName": "Drone de course,HUIOP FPV Racing Drone ECOII 2004 Moteur Brushless 5 Pouces BNF Runcam Nano HD Zero Drone 720p Caméra,Drone de course FPV",
+  "enhanced": true
 }

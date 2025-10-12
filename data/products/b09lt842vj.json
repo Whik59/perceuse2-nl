@@ -1,9 +1,9 @@
 {
   "productId": "B09LT842VJ",
-  "name": "Torvol – Drone Day Backpack, Sac à dos drone FPV loisirs – Compartiment drone, sangle extérieure, PC 13 pouces, poches mesh, tissu résistant à l’eau – Bleu – 20L",
-  "slug": "torvol-drone-day-backpack-sac-a-dos-drone-fpv-lois",
-  "description": "",
-  "shortDescription": "Torvol – Drone Day Backpack, Sac à dos drone FPV loisirs – Compartiment drone, sangle extérieure, PC",
+  "name": "Torvol Drone Day Backpack - Sac à dos FPV Bleu 20L",
+  "slug": "20l-torvol-drone-day-backpack-sac",
+  "description": "Optimisez vos sorties FPV avec le **Torvol Drone Day Backpack** ! Conçu pour les passionnés de drones de loisirs, ce sac à dos bleu élégant et fonctionnel est le compagnon idéal pour transporter votre équipement en toute sécurité. Son compartiment principal est spécialement aménagé pour accueillir votre drone FPV, tandis que la **sangle extérieure** offre une solution pratique pour fixer votre drone ou d'autres accessoires volumineux. Idéal pour les déplacements, il dispose d'un espace dédié pour un **PC portable de 13 pouces**, et de **poches en mesh** pour un accès rapide à vos batteries, hélices et outils. Fabriqué avec un **tissu résistant à l'eau**, il protège votre précieux matériel des intempéries. Avec une capacité de **20L**, ce sac à dos Torvol combine style, performance et protection pour toutes vos aventures aériennes. Prix : **39.0€**.",
+  "shortDescription": "Sac à dos drone FPV Torvol 20L bleu : compartiment drone, sangle extérieure, pochette 13\", poches mesh, tissu résistant à l'eau. Idéal pour vos sorties loisirs. 39.0€.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Torvol",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Torvol Drone Day Backpack - Sac à dos FPV Bleu 20L",
+    "description": "Sac à dos drone FPV Torvol 20L bleu : compartiment drone, sangle extérieure, pochette 13\", poches mesh, tissu résistant à l'eau. Idéal pour vos sorties loisirs. 39.0€.",
+    "keywords": [
+      "torvol drone day backpack - sac à dos fpv bleu 20l",
+      "sacs à dos pour drones",
+      "visiter la boutique torvol"
+    ],
+    "ogTitle": "Torvol Drone Day Backpack - Sac à dos FPV Bleu 20L",
+    "ogDescription": "Sac à dos drone FPV Torvol 20L bleu : compartiment drone, sangle extérieure, pochette 13\", poches mesh, tissu résistant à l'eau. Idéal pour vos sorties loisirs. 39.0€."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Marque: Torvol, Type: Sac à dos drone FPV, Usage: Loisirs, Couleur: Bleu, Capacité: 20L, Compartiment drone: Oui, Sangle extérieure: Oui, Pochette PC: 13 pouces, Poches mesh: Oui, Matière: Tissu résistant à l’eau"
+  },
+  "faq": [
+    {
+      "q": "Ce sac à dos est-il adapté aux drones FPV de grande taille ?",
+      "a": "Le Torvol Drone Day Backpack est conçu pour les drones FPV de loisirs. La taille exacte du drone compatible dépendra de ses dimensions, mais le compartiment est optimisé pour une configuration courante. N'hésitez pas à vérifier les dimensions de votre drone par rapport à celles du compartiment si possible."
+    },
+    {
+      "q": "Quelle est la résistance à l'eau du sac à dos ?",
+      "a": "Le sac est fabriqué avec un tissu résistant à l'eau, ce qui signifie qu'il protégera votre équipement contre les averses légères ou une humidité modérée. Il n'est cependant pas conçu pour être immergé ou pour résister à une pluie battante prolongée."
+    },
+    {
+      "q": "Puis-je transporter un ordinateur portable autre qu'un PC de 13 pouces ?",
+      "a": "Le sac dispose d'un compartiment spécifiquement conçu pour un PC portable allant jusqu'à 13 pouces. Pour des tailles supérieures, le transport pourrait être plus difficile voire impossible sans compromettre la sécurité ou la fermeture du sac."
+    },
+    {
+      "q": "Le sac est-il confortable pour de longues randonnées ?",
+      "a": "Le design du sac à dos Torvol vise à offrir un confort raisonnable pour le transport de votre équipement lors de sorties et de randonnées courtes à moyennes. Les bretelles ajustables et le dos rembourré contribuent à une meilleure répartition du poids."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:20.485019",
+  "originalName": "Torvol – Drone Day Backpack, Sac à dos drone FPV loisirs – Compartiment drone, sangle extérieure, PC 13 pouces, poches mesh, tissu résistant à l’eau – Bleu – 20L",
+  "enhanced": true
 }

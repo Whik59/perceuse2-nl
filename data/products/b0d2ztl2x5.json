@@ -1,9 +1,9 @@
 {
   "productId": "B0D2ZTL2X5",
-  "name": "LEEQBCR 8 hélices de Drone, 12 vis + 1 Tournevis, Jeu d'hélices pour vol Silencieux, pales remplaçables pour hélices de Drone (Noir avec Bordure argentée)",
-  "slug": "leeqbcr-8-helices-de-drone-12-vis-1-tournevis-jeu-",
-  "description": "✅️ [MATÉRIAUX DE QUALITÉ]:Le matériau composite en fibre de carbone est résistant, dur, respectueux de l'environnement, non toxique et durable, offrant une grande flottabilité pour un vol rapide et stable, même dans des environnements difficiles. | ✅️[Design aérodynamique]:Les hélices de remplacement pour la dernière génération de drones présentent un nouveau design aérodynamique pour des vols plus fluides, plus efficaces et plus longs ! | ✅️[Fiabilité et stabilité]:Les pales du drone ont une faible traînée pour assurer la fiabilité et la stabilité pendant le vol, en particulier dans des conditions venteuses, assurant un vol plus doux et une forte poussée. | ✅️ [Set Includes] : 8pcs Drone Replacement Propellers + 12pcs Screws + 1pc Screwdriver. Taille : 1,5 × 5,7 cm, Poids net : 0,7 g (pièce unique). Accessoires pour hélices Pales de remplacement à faible bruit à dégagement rapide pliables Conçu pour les accessoires de drones. | ✅️ [MATÉRIAUX DE QUALITÉ]:Le matériau composite en fibre de carbone est résistant, dur, respectueux de l'environnement, non toxique et durable, offrant une grande flottabilité pour un vol rapide et stable, même dans des environnements difficiles.",
-  "shortDescription": "LEEQBCR 8 hélices de Drone, 12 vis + 1 Tournevis, Jeu d'hélices pour vol Silencieux, pales remplaçab",
+  "name": "Lot de 8 Hélices Drone LEEQBCR Noir/Argent - Vol Silencieux et Performances Optimisées",
+  "slug": "lot-helices-drone-leeqbcr-noir-argent-vol",
+  "description": "Améliorez votre expérience de vol avec ce lot de 8 hélices pour drone LEEQBCR, spécialement conçues pour un vol silencieux et des performances accrues. Fabriquées avec des matériaux de haute qualité, ces pales remplaçables en noir avec une élégante bordure argentée garantissent stabilité et durabilité. Ce kit complet inclut également 12 vis et un tournevis dédié, vous assurant une installation rapide et aisée. Parfait pour remplacer vos hélices usées ou pour améliorer votre drone avec des composants optimisés pour la technologie aérienne. Investissez dans la qualité pour des vols plus longs et plus sereins. Prix attractif de 9.0€ pour une qualité professionnelle.",
+  "shortDescription": "Lot de 8 hélices LEEQBCR noir/argent avec vis et tournevis. Vol silencieux, haute performance, 9.0€.",
   "price": "9.0",
   "compareAtPrice": 10,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : LEEQBCR",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lot de 8 Hélices Drone LEEQBCR Noir/Argent - Vol Silencieux et Performances Optimisées",
+    "description": "Lot de 8 hélices LEEQBCR noir/argent avec vis et tournevis. Vol silencieux, haute performance, 9.0€.",
+    "keywords": [
+      "lot de 8 hélices drone leeqbcr noir/argent - vol silencieux et performances optimisées",
+      "hélices et protections pour drones",
+      "marque : leeqbcr"
+    ],
+    "ogTitle": "Lot de 8 Hélices Drone LEEQBCR Noir/Argent - Vol Silencieux et Performances Optimisées",
+    "ogDescription": "Lot de 8 hélices LEEQBCR noir/argent avec vis et tournevis. Vol silencieux, haute performance, 9.0€."
   },
   "reviews": {
     "averageRating": 3.7,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 8 hélices remplaçables, 12 vis, 1 tournevis. Couleur : Noir avec bordure argentée. Compatibilité : Hélices de drone LEEQBCR. Caractéristique : Vol silencieux, haute durabilité. Idéal pour la maintenance et l'amélioration de drones."
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec tous les drones LEEQBCR ?",
+      "a": "Ce lot est spécifiquement conçu pour les drones LEEQBCR. Veuillez vérifier la compatibilité avec votre modèle exact pour une performance optimale."
+    },
+    {
+      "q": "Le vol est-il vraiment plus silencieux avec ces hélices ?",
+      "a": "Oui, la conception de ces hélices a été optimisée pour réduire le bruit du vent et améliorer le profil sonore du drone, offrant ainsi un vol plus silencieux."
+    },
+    {
+      "q": "Le kit comprend-il tout le nécessaire pour le remplacement ?",
+      "a": "Absolument ! Le kit comprend 8 hélices, 12 vis de fixation et un tournevis adapté, vous permettant de remplacer vos hélices sans avoir besoin d'outils supplémentaires."
+    },
+    {
+      "q": "Quel est le matériau de ces hélices ?",
+      "a": "Les hélices sont fabriquées à partir de matériaux robustes et légers, conçus pour offrir une excellente durabilité et résister aux contraintes du vol."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:36.833329",
+  "originalName": "LEEQBCR 8 hélices de Drone, 12 vis + 1 Tournevis, Jeu d'hélices pour vol Silencieux, pales remplaçables pour hélices de Drone (Noir avec Bordure argentée)",
+  "enhanced": true
 }

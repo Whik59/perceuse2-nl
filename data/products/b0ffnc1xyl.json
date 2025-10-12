@@ -1,9 +1,9 @@
 {
   "productId": "B0FFNC1XYL",
-  "name": "NMM Sky Surfer RC Drone pour enfants et débutants – EPP hautement élastique, quadricoptère 4 canaux avec vol flottant à 360°, spectacle de lumière LED, 2 batteries durables et boîte de présentation",
-  "slug": "nmm-sky-surfer-rc-drone-pour-enfants-et-debutants-",
-  "description": "【Sans danger pour les enfants et robuste】Fabriqué en matériau EPP hautement élastique​ : notre drone dispose d'une coque en polypropylène robuste et hautement élastique ​ - idéal pour les cascades sauvages sans risque de fissuration ! Les hélices à 4 canaux sont optimisées de manière aérodynamique pour assurer une stabilité maximale, tandis que la construction compacte peut absorber facilement les chocs et les collisions, parfait pour les débutants qui veulent profiter des premières expériences de vol en toute sécurité | 【Vol flottant à 360° et spectacle de lumière LED】Profitez de manœuvres époustouflantes : flips à 360°, démarrage et atterrissage verticaux, fonction de flottement stable et spectacle de lumière LED unique (8 LED colorées) – accrocheur pendant la journée, magique la nuit ! L'assistance intégrée à une touche Takeoff/Landing et l'assistance au vol de retour assurent un vol sans stress, même pour les débutants absolus | Vol ultra longue durée et télécommande sans interférence 2,4 GHz : vol jusqu'à 18 minutes et plus sans arrêt avec de puissantes batteries de 450 mAh. Le téléviseur 2,4 GHz surmonte jusqu'à 100 m de distance sans interférence, idéal pour les parcs, les cours ou les espaces ouverts. Le mode multi-drones permet jusqu'à 3 unités simultanément sans interférence - parfait pour les jeux frères et sœurs ou les soirées entre amis ! | 【Technologie professionnelle pour tous les niveaux : stable, précis, durable】Profitez de notre contrôle avancé de la hauteur de la pression atmosphérique et de notre contrôle de l'agitation stabilisée - le drone reste stable dans l'air même en cas de vent fort, le mode sans tête et les paramètres à 3 vitesses (lent/moyen/rapide) assurent une utilisation personnalisable | 【Coffret cadeau inclus : prêt à offrir et entièrement équipé ! ​​】Livré avec une boîte cadeau de haute qualité, 8× hélices de rechange, des outils et un manuel complet - plus besoin d'acheter des accessoires ! La construction robuste résiste aux sollicitations quotidiennes - Le choix parfait pour Noël, les anniversaires ou comme récompense pour les enfants qui travaillent dur",
-  "shortDescription": "NMM Sky Surfer RC Drone pour enfants et débutants – EPP hautement élastique, quadricoptère 4 canaux ",
+  "name": "Drone RC NMM Sky Surfer : L'Aventure Aérienne Facile",
+  "slug": "drone-nmm-sky-surfer-l-aventure-aerienne",
+  "description": "Découvrez le plaisir du vol avec le Drone RC NMM Sky Surfer, le quadricoptère parfait pour les enfants et les débutants. Conçu en EPP hautement élastique pour une robustesse exceptionnelle, ce drone 4 canaux offre une expérience de pilotage intuitive. Profitez d'un vol flottant stable à 360°, de spectacles lumineux LED captivants et de deux batteries durables pour prolonger le plaisir. Idéal pour s'initier à la robotique volante, il est livré dans une magnifique boîte de présentation, prêt à offrir.",
+  "shortDescription": "Drone RC NMM Sky Surfer : Idéal enfants/débutants. EPP résistant, vol 360°, LED, 2 batteries. Prêt à voler !",
   "price": "32.0",
   "compareAtPrice": 36,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : NMM",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone RC NMM Sky Surfer : L'Aventure Aérienne Facile",
+    "description": "Drone RC NMM Sky Surfer : Idéal enfants/débutants. EPP résistant, vol 360°, LED, 2 batteries. Prêt à voler !",
+    "keywords": [
+      "drone rc nmm sky surfer : l'aventure aérienne facile",
+      "drones pour débutants",
+      "marque : nmm"
+    ],
+    "ogTitle": "Drone RC NMM Sky Surfer : L'Aventure Aérienne Facile",
+    "ogDescription": "Drone RC NMM Sky Surfer : Idéal enfants/débutants. EPP résistant, vol 360°, LED, 2 batteries. Prêt à voler !"
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone RC 4 canaux, EPP hautement élastique, vol flottant à 360°, éclairage LED, 2 batteries incluses, boîte de présentation."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il adapté aux enfants ?",
+      "a": "Absolument ! Le Drone RC NMM Sky Surfer est spécialement conçu pour les enfants et les débutants, avec une prise en main simplifiée et une construction résistante."
+    },
+    {
+      "q": "Quelle est la matière du drone ?",
+      "a": "Il est fabriqué en EPP (polypropylène expansé) hautement élastique, ce qui le rend très résistant aux chocs et aux chutes, idéal pour les premières expériences de vol."
+    },
+    {
+      "q": "Combien de temps puis-je voler avec ce drone ?",
+      "a": "Le drone est livré avec 2 batteries durables, vous permettant de doubler votre temps de jeu et d'explorer les airs plus longtemps."
+    },
+    {
+      "q": "Est-il difficile à piloter ?",
+      "a": "Grâce à ses 4 canaux et sa fonction de vol flottant, le pilotage est intuitif et stable, parfait pour apprendre rapidement les bases du contrôle de drone."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:59.678547",
+  "originalName": "NMM Sky Surfer RC Drone pour enfants et débutants – EPP hautement élastique, quadricoptère 4 canaux avec vol flottant à 360°, spectacle de lumière LED, 2 batteries durables et boîte de présentation",
+  "enhanced": true
 }

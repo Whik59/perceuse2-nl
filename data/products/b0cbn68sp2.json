@@ -1,9 +1,9 @@
 {
   "productId": "B0CBN68SP2",
-  "name": "Drone KY905 avec Caméra 4K pour Adultes et Enfants, Quadrirotor télécommandé FPV Pliable, Contrôle APP, Gestes Selfie, Maintien de L'altitude, Démarrage à Une Touche, Détection",
-  "slug": "drone-ky905-avec-camera-4k-pour-adultes-et-enfants",
-  "description": "CAMÉRA 4K HD: Avec une résolution 4K et la technologie HDR, notre drone obtient des images aériennes vives et claires et offre un contrôle à distance de la caméra pour de meilleurs angles. Son objectif réglable électriquement à 75° et son objectif grand angle à 120° offrent un champ de vision plus large et plus immersif. | ÉVITER LES OBSTACLES MULTIDIRECTIONNELS : Équipé de capteurs infrarouges avant, arrière, gauche et droit, notre drone peut détecter les obstacles et éviter les collisions, ce qui rend le vol plus facile et plus sûr. | VOL DE TRAJECTOIRE : Définissez l'itinéraire de vol du drone à l'aide de l'application mobile et regardez-le suivre en toute transparence pour une photographie aérienne précise. Avec un zoom 50x, le drone capture facilement des objets distants, vous permettant d'obtenir des détails complexes de loin. | CONTRÔLE DE LA GRAVITɠ: utilisez la fonction de contrôle de la gravité de l'application mobile pour diriger le drone dans différentes directions en inclinant votre téléphone, ce qui se traduit par une expérience de vol plus captivante et immersive. Impressionnez vos amis et votre famille avec le programme de retournement intégré du drone pour les acrobaties aériennes et les effets d'éclairage LED. | MAINTIEN D'ALTITUDE : Notre drone utilise des capteurs de positionnement de pression d'air pour maintenir son altitude et sa stabilité, garantissant des prises de vue aériennes stables et sans flou.",
-  "shortDescription": "Drone KY905 avec Caméra 4K pour Adultes et Enfants, Quadrirotor télécommandé FPV Pliable, Contrôle A",
+  "name": "Drone KY905 4K FPV Pliable avec Contrôle APP",
+  "slug": "drone-ky905-fpv-pliable-avec-controle",
+  "description": "Découvrez le **Drone KY905**, votre nouveau compagnon aérien idéal pour adultes et enfants ! Capturez des moments inoubliables avec sa **caméra 4K** époustouflante, transmettant des images en temps réel grâce à la technologie **FPV (First Person View)** directement sur votre smartphone via le **contrôle APP**. Ce **quadrirotor télécommandé** est conçu pour être facile à piloter grâce à des fonctionnalités intelligentes comme le **maintien de l'altitude** et le **démarrage à une touche**. Sa conception **pliable** le rend ultra-portable pour emporter l'aventure partout. Prenez des selfies aériens spectaculaires sans effort avec la fonction **Gestes Selfie**. De plus, la **détection** intégrée ajoute une couche de sécurité et de facilité d'utilisation. Un concentré de technologie pour des heures de divertissement et de création vidéo !",
+  "shortDescription": "Drone 4K FPV pliable, contrôle APP, selfies gestuels, parfait pour adultes & enfants. Facile à piloter.",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Jectse",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone KY905 4K FPV Pliable avec Contrôle APP",
+    "description": "Drone 4K FPV pliable, contrôle APP, selfies gestuels, parfait pour adultes & enfants. Facile à piloter.",
+    "keywords": [
+      "drone ky905 4k fpv pliable avec contrôle app",
+      "drones avec contrôle par gestes",
+      "visiter la boutique jectse"
+    ],
+    "ogTitle": "Drone KY905 4K FPV Pliable avec Contrôle APP",
+    "ogDescription": "Drone 4K FPV pliable, contrôle APP, selfies gestuels, parfait pour adultes & enfants. Facile à piloter."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K, FPV, Pliable, Contrôle APP, Gestes Selfie, Maintien de L'altitude, Démarrage à Une Touche, Détection"
+  },
+  "faq": [
+    {
+      "q": "Le Drone KY905 est-il adapté aux débutants ?",
+      "a": "Oui, absolument ! Avec son **démarrage à une touche**, son **maintien de l'altitude** et son **contrôle APP** intuitif, le Drone KY905 est parfait pour les adultes et les enfants débutants."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra ?",
+      "a": "Le Drone KY905 est équipé d'une **caméra 4K** de haute résolution, vous permettant de capturer des photos et des vidéos d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Puis-je voir ce que filme le drone en direct ?",
+      "a": "Oui, grâce à la technologie **FPV (First Person View)** et à l'application mobile, vous pouvez voir en temps réel ce que filme le drone sur votre smartphone."
+    },
+    {
+      "q": "Comment puis-je le transporter facilement ?",
+      "a": "Le Drone KY905 est **pliable**, ce qui le rend compact et facile à ranger dans un sac, idéal pour les voyages et les sorties."
+    },
+    {
+      "q": "Comment prendre des selfies avec ce drone ?",
+      "a": "Le drone dispose d'une fonction **Gestes Selfie** pratique. Vous pouvez déclencher la prise de vue de photos ou de vidéos simplement en faisant un geste avec votre main."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:31.047185",
+  "originalName": "Drone KY905 avec Caméra 4K pour Adultes et Enfants, Quadrirotor télécommandé FPV Pliable, Contrôle APP, Gestes Selfie, Maintien de L'altitude, Démarrage à Une Touche, Détection",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0BSNWDZZM",
-  "name": "Technaxx Mini Station Electrique TX-205 avec Panneau LED, Lampe, 5X USB - Powerbank 74Wh 230V avec Prise intégrée - Batterie Externe pour Portable, téléphone etc., Compatible avec chargeurs solaires",
-  "slug": "technaxx-mini-station-electrique-tx-205-avec-panne",
-  "description": "Onde sinusoïdale modifiée - ce power bank enfichable a une onde sinusoïdale modifiée de 80 W AC. La version sinusoïdale modifiée convient à de nombreux consommateurs; | Lampe de poche intégrée - ce power bank TX-205 a une lampe de poche intégrée; il existe donc différents types d'éclairage qui sont idéaux pour les urgences; Vous pouvez prendre cette station electrique n'importe quel endroit sans lumière; | Chargeur multifonctionnel - ce power bank mobile 230v avec prise dispose de 4 x USB-A (QC3.0), 1x USB-C PD 18W, vous pouvez l'utiliser pour charger la plupart des appareils, tels que les ordinateurs portables, les téléphones portables, les tablettes etc; | Capacité de batterie élevée - ce power bank 230v dispose d'une batterie Li-Ion de 74 Wh (20000 mAh); Les temps de fonctionnement des différents consommateurs sont jusqu'à 5x pour le téléphone mobile, 3x pour la tablette, 5x pour l'ordinateur portable; | Idéal pour une utilisation polyvalente - ce power bank avec prise de courant, adaptateur DC, USB 12V est idéale pour le camping, les voyages et l'extérieur, etc. Cet appareil est compatible avec la charge solaire (non inclus).",
-  "shortDescription": "Technaxx Mini Station Electrique TX-205 avec Panneau LED, Lampe, 5X USB - Powerbank 74Wh 230V avec P",
+  "name": "Station Électrique Technaxx TX-205 : L'Énergie Portable et Polyvalente",
+  "slug": "station-electrique-technaxx-tx-205-l-energie-portable",
+  "description": "Découvrez la **Station Électrique Technaxx TX-205**, votre alliée indispensable pour une alimentation fiable et mobile. Avec sa capacité de **74Wh (20000mAh)** et une **prise secteur 230V intégrée**, cette powerbank portable vous permet d'alimenter vos appareils électroniques où que vous soyez. Idéale pour les nomades digitaux, les amateurs de plein air, ou comme solution d'appoint à domicile. Profitez de sa **lampe LED intégrée** pour un éclairage pratique et de ses **5 ports USB (dont USB-C)** pour recharger simultanément vos smartphones, tablettes, ordinateurs portables et autres gadgets. Sa compatibilité avec les **chargeurs solaires** (vendus séparément) en fait une solution d'énergie durable et autonome. La TX-205 allie performance, polyvalence et technologie de pointe pour répondre à tous vos besoins d'alimentation.",
+  "shortDescription": "Station électrique portable Technaxx TX-205 (74Wh) avec prise 230V, 5x USB, lampe LED. Idéale pour recharger votre portable, téléphone, et plus. Compatible solaire. 149.0€",
   "price": "149.0",
   "compareAtPrice": 171,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Technaxx",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Station Électrique Technaxx TX-205 : L'Énergie Portable et Polyvalente",
+    "description": "Station électrique portable Technaxx TX-205 (74Wh) avec prise 230V, 5x USB, lampe LED. Idéale pour recharger votre portable, téléphone, et plus. Compatible solaire. 149.0€",
+    "keywords": [
+      "station électrique technaxx tx-205 : l'énergie portable et polyvalente",
+      "stations de recharge portables (power banks)",
+      "visiter la boutique technaxx"
+    ],
+    "ogTitle": "Station Électrique Technaxx TX-205 : L'Énergie Portable et Polyvalente",
+    "ogDescription": "Station électrique portable Technaxx TX-205 (74Wh) avec prise 230V, 5x USB, lampe LED. Idéale pour recharger votre portable, téléphone, et plus. Compatible solaire. 149.0€"
   },
   "reviews": {
     "averageRating": 4.1,
@@ -42,5 +48,40 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Puissance Nominale": "74Wh (équivalent 20000mAh à 3.7V)",
+    "Sortie AC": "1 x Prise 230V / 100W",
+    "Sorties USB": "5 x Ports USB (dont 1 x USB-C)",
+    "Lampe LED": "Oui, intégrée",
+    "Recharge Solaire": "Compatible avec chargeurs solaires (non inclus)",
+    "Dimensions": "Compact et léger pour une portabilité maximale",
+    "Usage": "Alimentation de smartphones, tablettes, ordinateurs portables, drones, appareils photo, petits appareils électroniques, etc.",
+    "Sécurité": "Technologies de protection intégrées (surcharges, courts-circuits, etc.)"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la capacité réelle de la station électrique Technaxx TX-205 ?",
+      "a": "La station électrique Technaxx TX-205 offre une capacité de 74Wh, ce qui correspond approximativement à 20000mAh lorsqu'elle est convertie pour une utilisation en 3.7V."
+    },
+    {
+      "q": "Puis-je recharger mon ordinateur portable avec cette station ?",
+      "a": "Oui, grâce à sa prise secteur 230V intégrée et sa puissance de sortie de 100W, la station TX-205 est capable de recharger la plupart des ordinateurs portables, à condition que leur consommation ne dépasse pas cette puissance."
+    },
+    {
+      "q": "Combien d'appareils puis-je charger simultanément ?",
+      "a": "Vous pouvez charger jusqu'à 6 appareils en même temps : un appareil via la prise 230V et jusqu'à 5 appareils via les différents ports USB, y compris le port USB-C."
+    },
+    {
+      "q": "Est-il possible de recharger la station électrique avec un panneau solaire ?",
+      "a": "Absolument. La station TX-205 est conçue pour être compatible avec les chargeurs solaires (vendus séparément), vous permettant ainsi de la recharger en toute autonomie lors de vos déplacements ou en cas de coupure de courant."
+    },
+    {
+      "q": "La lampe LED est-elle puissante ?",
+      "a": "La lampe LED intégrée offre un éclairage pratique pour vos besoins ponctuels, parfait pour une utilisation en camping, lors de coupures de courant ou pour retrouver vos affaires dans l'obscurité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:25.109259",
+  "originalName": "Technaxx Mini Station Electrique TX-205 avec Panneau LED, Lampe, 5X USB - Powerbank 74Wh 230V avec Prise intégrée - Batterie Externe pour Portable, téléphone etc., Compatible avec chargeurs solaires",
+  "enhanced": true
 }

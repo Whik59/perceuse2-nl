@@ -1,9 +1,9 @@
 {
   "productId": "B0DX26LXVJ",
-  "name": "Master Airscrew Hélices Stealth pour DJI Neo - Vert, 4 pièces",
-  "slug": "master-airscrew-helices-stealth-pour-dji-neo-vert-",
-  "description": "FAIBLE NIVEAU DE BRUIT - Grâce aux pales en forme de cimeterre, les hélices offrent une réduction de la puissance sonore de -2dB, minimisant ainsi les distractions tout en améliorant l'expérience de vol globale. | EFFICACITÉ AMÉLIORÉE - L'aérodynamique améliorée, obtenue grâce à une géométrie conçue avec précision, permet d'augmenter jusqu'à 6 % l'autonomie de vol par batterie. | ACCÉLÉRATION ET VITESSE PLUS RAPIDES - Une puissante augmentation des performances avec une réserve de puissance accrue, offrant une accélération de 200 % plus rapide de 20 à 40 mph et une vitesse d'avancement jusqu'à 15 % plus élevée en mode Acro. | STABILITÉ ET RÉACTIVITÉ AMÉLIORÉES - Manœuvre plus douce et mieux contrôlée dans toutes les conditions, assurant une navigation précise et une dynamique de vol améliorée. Une plus grande réactivité pour des virages plus serrés, des manœuvres plus fluides et un vol globalement plus exaltant. | ASPECT PLUS FRAIS ET DURABILITÉ ACCRUE - Fabriquées à partir de matériaux durables de haute qualité, les hélices offrent une résistance et une longévité exceptionnelles pour une utilisation prolongée. Disponibles dans une gamme de couleurs vives, elles améliorent non seulement la visibilité, mais aussi la sécurité.",
-  "shortDescription": "Master Airscrew Hélices Stealth pour DJI Neo - Vert, 4 pièces",
+  "name": "Hélices Stealth Master Airscrew pour DJI Neo - Vert (x4)",
+  "slug": "helices-stealth-master-airscrew-pour-dji",
+  "description": "Optimisez les performances de votre drone DJI Neo avec les hélices Stealth Master Airscrew en coloris vert. Conçues pour une efficacité aérodynamique maximale, ces hélices garantissent un vol plus silencieux et une stabilité accrue, essentielles pour des prises de vues professionnelles et une expérience de pilotage améliorée. Fabriquées avec des matériaux composites de haute qualité, elles offrent une durabilité exceptionnelle tout en minimisant la consommation d'énergie. L'installation est rapide et simple pour une reprise de vol immédiate. Améliorez votre équipement grâce à cette technologie de pointe.",
+  "shortDescription": "Hélices Stealth Master Airscrew Vertes (x4) pour DJI Neo : silence, stabilité et performance accrue. Optimisez votre drone dès maintenant !",
   "price": "16.0",
   "compareAtPrice": 18,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Master Airscrew",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hélices Stealth Master Airscrew pour DJI Neo - Vert (x4)",
+    "description": "Hélices Stealth Master Airscrew Vertes (x4) pour DJI Neo : silence, stabilité et performance accrue. Optimisez votre drone dès maintenant !",
+    "keywords": [
+      "hélices stealth master airscrew pour dji neo - vert (x4)",
+      "hélices silencieuses (low-noise)",
+      "visiter la boutique master airscrew"
+    ],
+    "ogTitle": "Hélices Stealth Master Airscrew pour DJI Neo - Vert (x4)",
+    "ogDescription": "Hélices Stealth Master Airscrew Vertes (x4) pour DJI Neo : silence, stabilité et performance accrue. Optimisez votre drone dès maintenant !"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kit de 4 hélices Master Airscrew Stealth, compatibles DJI Neo, couleur vert, conception aérodynamique pour réduction du bruit et amélioration de la stabilité, matériaux composites durables."
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec d'autres modèles DJI ?",
+      "a": "Ce modèle est spécifiquement conçu pour le DJI Neo. Il est recommandé de vérifier la compatibilité exacte pour d'autres modèles sur notre site ou auprès du fabricant."
+    },
+    {
+      "q": "Quel est le principal avantage de la technologie Stealth ?",
+      "a": "La technologie Stealth permet une réduction significative du bruit généré par les hélices, rendant votre drone plus discret et l'expérience de vol plus agréable, tout en améliorant l'efficacité énergétique."
+    },
+    {
+      "q": "Comment installer ces hélices sur mon DJI Neo ?",
+      "a": "L'installation est similaire à celle des hélices d'origine. Assurez-vous de bien aligner chaque hélice avec son moteur et de la fixer fermement. Il est conseillé de suivre les instructions de montage du manuel de votre DJI Neo."
+    },
+    {
+      "q": "La couleur verte offre-t-elle un avantage particulier ?",
+      "a": "La couleur verte est principalement esthétique et peut améliorer la visibilité de votre drone en vol, facilitant le suivi visuel."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:50.457975",
+  "originalName": "Master Airscrew Hélices Stealth pour DJI Neo - Vert, 4 pièces",
+  "enhanced": true
 }

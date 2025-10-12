@@ -1,9 +1,9 @@
 {
   "productId": "B0CJ87539D",
-  "name": "MANGRY Kit de Cadre 5 Pouces 250mm 5 \", Moteur 2206 2300KV 45A 4 en 1 ESC et F4 V3S Plus for Drone de Course Apex DC HD FPV Freestyle RC (Color : with Transmiter)",
-  "slug": "mangry-kit-de-cadre-5-pouces-250mm-5-moteur-2206-2",
-  "description": "Ajustement : for drone de course Apex DC HD FPV Freestyle RC. | Matériaux sélectionnés : notre kit de quadcoptère à bras de cadre de drone freestyle est fabriqué en fibre de carbone 3K, il a une surface lisse, une forme précise et une bonne symétrie. | Performance supérieure: il y aura un effet d'amortissement des vibrations pendant le vol de l'avion, ce kit de cadre de drone whoop de drone volant peut améliorer efficacement la stabilité de vol et le temps de vol. | Apparence attrayante : ces cadres de drones de course sont recouverts d'une sérigraphie aux couleurs vives, des éléments à la mode sont ajoutés pour améliorer l'effet visuel du cadre du quadricoptère. | Ajustement : for drone de course Apex DC HD FPV Freestyle RC.",
-  "shortDescription": "MANGRY Kit de Cadre 5 Pouces 250mm 5 \", Moteur 2206 2300KV 45A 4 en 1 ESC et F4 V3S Plus for Drone d",
+  "name": "Kit Cadre Drone FPV MANGRY 5\" Apex DC HD",
+  "slug": "kit-cadre-drone-fpv-mangry-apex",
+  "description": "Optimisez votre expérience de vol FPV avec le kit cadre MANGRY 5 pouces, conçu pour les drones de course et de freestyle les plus exigeants. Ce kit complet inclut un cadre robuste de 250 mm, des moteurs puissants 2206 2300KV, un ESC 4 en 1 45A, et une carte de vol F4 V3S Plus. Idéal pour le montage de systèmes HD et prêt à embarquer votre système de transmission (avec transmetteur inclus) pour des performances inégalées en FPV. Parfait pour les passionnés de drone de course, DC, et de freestyle FPV RC.",
+  "shortDescription": "Kit cadre FPV MANGRY 5\" (250mm) pour drone de course et freestyle, avec moteurs 2206 2300KV, ESC 45A 4-en-1, F4 V3S Plus, et transmetteur. Idéal pour configurations HD FPV RC.",
   "price": "257.0",
   "compareAtPrice": 295,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : MANGRY",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit Cadre Drone FPV MANGRY 5\" Apex DC HD",
+    "description": "Kit cadre FPV MANGRY 5\" (250mm) pour drone de course et freestyle, avec moteurs 2206 2300KV, ESC 45A 4-en-1, F4 V3S Plus, et transmetteur. Idéal pour configurations HD FPV RC.",
+    "keywords": [
+      "kit cadre drone fpv mangry 5\" apex dc hd",
+      "drones de course et fpv",
+      "marque : mangry"
+    ],
+    "ogTitle": "Kit Cadre Drone FPV MANGRY 5\" Apex DC HD",
+    "ogDescription": "Kit cadre FPV MANGRY 5\" (250mm) pour drone de course et freestyle, avec moteurs 2206 2300KV, ESC 45A 4-en-1, F4 V3S Plus, et transmetteur. Idéal pour configurations HD FPV RC."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kit cadre 5 pouces (250mm), Moteurs 2206 2300KV, ESC 4 en 1 45A, Carte de vol F4 V3S Plus, Compatibilité Apex DC HD FPV Freestyle RC, Livré avec transmetteur."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la taille de ce kit cadre drone FPV ?",
+      "a": "Ce kit cadre MANGRY est conçu pour des hélices de 5 pouces, avec une empattement de châssis de 250 mm."
+    },
+    {
+      "q": "Les moteurs inclus sont-ils adaptés à la course FPV ?",
+      "a": "Oui, les moteurs 2206 2300KV offrent un excellent rapport puissance/poids, idéal pour les performances dynamiques requises en drone de course et freestyle FPV."
+    },
+    {
+      "q": "L'ESC est-il capable de gérer des configurations HD ?",
+      "a": "Absolument. L'ESC 4 en 1 de 45A est suffisamment puissant pour alimenter les composants gourmands en énergie, y compris les systèmes FPV HD."
+    },
+    {
+      "q": "Ce kit est-il prêt à l'emploi pour le FPV Freestyle ?",
+      "a": "Oui, le kit est optimisé pour le FPV Freestyle et inclut un transmetteur pour une configuration rapide et efficace de votre système de transmission vidéo."
+    },
+    {
+      "q": "Quelle est la principale application de ce kit MANGRY ?",
+      "a": "Ce kit est idéal pour la construction de drones de course FPV, de drones Freestyle FPV, et est particulièrement adapté aux configurations Apex DC HD FPV RC."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.592758",
+  "originalName": "MANGRY Kit de Cadre 5 Pouces 250mm 5 \", Moteur 2206 2300KV 45A 4 en 1 ESC et F4 V3S Plus for Drone de Course Apex DC HD FPV Freestyle RC (Color : with Transmiter)",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0D2QDXR3W",
-  "name": "K&F CONCEPT Sac à dos étanche pour appareil photo Canon Nikon Sony DSLR drone, objectif, ordinateur portable, trépied et accessoires",
-  "slug": "kf-concept-sac-a-dos-etanche-pour-appareil-photo-c",
-  "description": "Trois compartiments séparés : 30 x 24 x 44 cm, environ 25 litres. Le compartiment supérieur convient pour un objectif de 200 mm ou un drone Mavic Air 2. Compartiment central pour un appareil photo, 2 objectifs standard ou 2 caméras. Compartiment inférieur pour 3 objectifs standard ou un appareil photo, un objectif. | Accès rapide : ouverture latérale pour un accès rapide à l'appareil photo et aux accessoires pendant le transport – pour être rapidement à portée de main dans les moments cruciaux. | Autres poches de rangement : nombreuses poches fonctionnelles pour ranger téléphone portable, filtre, câble de données, chargeurs, porte-monnaie, cartes mémoire, clés, lunettes, iPad, etc. | Compartiment pour ordinateur portable de 15,6 pouces : le compartiment supérieur rembourré offre de la place, spécialement conçu pour les ordinateurs portables, MacBook et tablettes, jusqu'à 15,6\". | Support de trépied : comprend un compartiment latéral spécial, avec sangle de maintien et boucle pour transporter le trépied en toute sécurité. Ce produit ne comprend pas de sangle thoracique.",
-  "shortDescription": "K&F CONCEPT Sac à dos étanche pour appareil photo Canon Nikon Sony DSLR drone, objectif, ordinateur ",
+  "name": "Sac Photo Étanche K&F CONCEPT : Protection Ultime pour votre Équipement",
+  "slug": "sac-photo-etanche-k-f-concept-protection",
+  "description": "Découvrez le sac à dos étanche K&F CONCEPT, le compagnon idéal pour les photographes et vidéastes nomades. Conçu pour protéger votre précieux équipement photo (appareils Canon, Nikon, Sony DSLR, drones, objectifs) ainsi que votre ordinateur portable et trépied, ce sac allie robustesse, fonctionnalité et sécurité. Sa conception étanche garantit une protection optimale contre les intempéries, vous permettant de capturer vos moments, peu importe les conditions. Idéal pour l'aventure, les voyages ou les sorties professionnelles.",
+  "shortDescription": "Sac photo étanche K&F CONCEPT : Protégez vos appareils (DSLR, drone, ordi) et accessoires. Idéal pour l'aventure.",
   "price": "59.0",
   "compareAtPrice": 67,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique K&F Concept",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Sac Photo Étanche K&F CONCEPT : Protection Ultime pour votre Équipement",
+    "description": "Sac photo étanche K&F CONCEPT : Protégez vos appareils (DSLR, drone, ordi) et accessoires. Idéal pour l'aventure.",
+    "keywords": [
+      "sac photo étanche k&f concept : protection ultime pour votre équipement",
+      "sacs à dos pour drones",
+      "visiter la boutique k&f concept"
+    ],
+    "ogTitle": "Sac Photo Étanche K&F CONCEPT : Protection Ultime pour votre Équipement",
+    "ogDescription": "Sac photo étanche K&F CONCEPT : Protégez vos appareils (DSLR, drone, ordi) et accessoires. Idéal pour l'aventure."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Sac à dos étanche K&F CONCEPT pour matériel photo et électronique. Capacité pour appareil photo DSLR (Canon, Nikon, Sony), drones, objectifs multiples, ordinateur portable, trépied et accessoires. Conception robuste et protectrice, matériaux de haute qualité résistant aux intempéries."
+  },
+  "faq": [
+    {
+      "q": "Ce sac à dos est-il réellement étanche ?",
+      "a": "Oui, le sac à dos K&F CONCEPT est conçu avec des matériaux étanches et des fermetures zippées résistantes à l'eau pour assurer une protection maximale contre la pluie et l'humidité. Il est idéal pour les sorties en extérieur dans des conditions difficiles."
+    },
+    {
+      "q": "Quelle est la capacité de ce sac pour le matériel ?",
+      "a": "Ce sac peut accueillir un appareil photo reflex numérique (DSLR) de marques comme Canon, Nikon ou Sony, plusieurs objectifs, un drone, un ordinateur portable, un trépied et divers accessoires photo. Ses compartiments modulables permettent une organisation personnalisée."
+    },
+    {
+      "q": "Est-ce que le sac protège bien les appareils électroniques sensibles comme un ordinateur portable ?",
+      "a": "Absolument. Le sac dispose d'un compartiment dédié et rembourré pour ordinateur portable, offrant une protection contre les chocs et les rayures. La conception globale du sac garantit la sécurité de tout votre équipement électronique."
+    },
+    {
+      "q": "Ce sac est-il confortable à porter sur de longues distances ?",
+      "a": "Oui, le sac à dos K&F CONCEPT est conçu pour le confort avec des bretelles rembourrées et ajustables, ainsi qu'un panneau arrière respirant. Il est pensé pour être porté pendant de longues périodes, que ce soit lors de randonnées ou de voyages."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:36.986152",
+  "originalName": "K&F CONCEPT Sac à dos étanche pour appareil photo Canon Nikon Sony DSLR drone, objectif, ordinateur portable, trépied et accessoires",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0FMPRN95C",
-  "name": "SG109 Pro Max Drone 4k GPS 8K HD Double caméra Photographie aérienne Professionnelle UAV Moteur sans balais Quadricoptère Jouets Avion UAV,Sg109pro Black",
-  "slug": "sg109-pro-max-drone-4k-gps-8k-hd-double-camera-pho",
-  "description": "À l'aide d'un moteur magnétique puissant, une force magnétique puissante rend le couple plus grand et une puissance de sortie plus stable pour réduire la perte d'énergie. . | Le noyau interne libère une forte puissance pour un fonctionnement stable et un faible bruit pour une durée de vie plus longue. | La technologie de cartographie des nuages permet une transmission longue distance. | Transmission d'image stable et sans décalage, le paysage peut être vu à tout moment. | Étendez l'autonomie de vol et améliorez la vitesse de charge.",
-  "shortDescription": "SG109 Pro Max Drone 4k GPS 8K HD Double caméra Photographie aérienne Professionnelle UAV Moteur sans",
+  "name": "Drone SG109 Pro Max 4K GPS - Photographie Aérienne Professionnelle",
+  "slug": "pro-drone-sg109-max-gps-photographie",
+  "description": "Découvrez le **SG109 Pro Max Drone 4K GPS**, votre nouvel allié pour la **photographie aérienne professionnelle**. Équipé d'une **double caméra 8K HD** et d'un **moteur sans balais** ultra performant, ce quadricoptère offre des images d'une qualité exceptionnelle. Idéal pour les passionnés de **technologie UAV** et les créateurs de contenu, il combine maniabilité, stabilité et fonctionnalités avancées pour des prises de vues époustouflantes. Ne manquez pas cette opportunité d'acquérir un **avion UAV** haut de gamme, parfait pour des **jouets avion** de nouvelle génération et une exploration créative. Disponible en noir.",
+  "shortDescription": "Drone SG109 Pro Max 4K GPS avec double caméra 8K HD, moteur sans balais. Idéal pour la photographie aérienne professionnelle. Technologie UAV avancée.",
   "price": "64.0",
   "compareAtPrice": 73,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Generic",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone SG109 Pro Max 4K GPS - Photographie Aérienne Professionnelle",
+    "description": "Drone SG109 Pro Max 4K GPS avec double caméra 8K HD, moteur sans balais. Idéal pour la photographie aérienne professionnelle. Technologie UAV avancée.",
+    "keywords": [
+      "drone sg109 pro max 4k gps - photographie aérienne professionnelle",
+      "drones pour photographie aérienne pro",
+      "marque : generic"
+    ],
+    "ogTitle": "Drone SG109 Pro Max 4K GPS - Photographie Aérienne Professionnelle",
+    "ogDescription": "Drone SG109 Pro Max 4K GPS avec double caméra 8K HD, moteur sans balais. Idéal pour la photographie aérienne professionnelle. Technologie UAV avancée."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra double 8K HD, GPS intégré, Moteur sans balais, Autonomie prolongée, Contrôle via application mobile, Retour vidéo en temps réel, Mode suiveur intelligent."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo maximale du SG109 Pro Max Drone ?",
+      "a": "Le drone SG109 Pro Max est équipé de caméras avec une résolution **8K HD**, vous permettant de capturer des vidéos d'une qualité exceptionnelle pour des perspectives aériennes professionnelles."
+    },
+    {
+      "q": "Le drone SG109 Pro Max est-il adapté aux débutants ?",
+      "a": "Oui, bien qu'offrant des fonctionnalités professionnelles, le SG109 Pro Max est conçu pour être intuitif. Son système **GPS** assure une stabilité de vol remarquable, le rendant accessible même aux pilotes novices souhaitant explorer la **technologie UAV**."
+    },
+    {
+      "q": "Quelle est la technologie du moteur utilisée par ce drone ?",
+      "a": "Le SG109 Pro Max est doté d'un **moteur sans balais** (brushless). Cette technologie garantit une puissance accrue, une meilleure efficacité énergétique, une durée de vie plus longue et un fonctionnement plus silencieux par rapport aux moteurs traditionnels."
+    },
+    {
+      "q": "Peut-on voir les images filmées en direct avec ce drone ?",
+      "a": "Absolument ! Le SG109 Pro Max offre une fonction de **retour vidéo en temps réel** (FPV). Vous pouvez visualiser sur votre smartphone ou tablette les images capturées par le drone pendant son vol, ce qui est essentiel pour une **photographie aérienne professionnelle** précise."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:34.492017",
+  "originalName": "SG109 Pro Max Drone 4k GPS 8K HD Double caméra Photographie aérienne Professionnelle UAV Moteur sans balais Quadricoptère Jouets Avion UAV,Sg109pro Black",
+  "enhanced": true
 }

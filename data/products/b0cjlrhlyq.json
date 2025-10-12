@@ -1,9 +1,9 @@
 {
   "productId": "B0CJLRHLYQ",
-  "name": "EMAX Tinyhawk II Freestyle RTF FPV Racing Drone avec Moteur Sans Balais 7000 KV, Caméra RunCam Nano 2 700TVL, 0-25-100-200 VTX Power, Drone avec Lunettes et Contrôleur pour Enfants Adultes Débutants",
-  "slug": "emax-tinyhawk-ii-freestyle-rtf-fpv-racing-drone-av",
-  "description": "✈【Système d'alimentation optimisé】 Doté d'un système d'alimentation axé sur le contrôle et le temps de vol, le drone EMAX Tinyhawk II Freestyle utilise un moteur 1103 7000KV afin d'atteindre le régime optimal nécessaire pour maximiser le temps de vol et l'efficacité. En utilisant l'hélice AVAN Rush de 2.5 pouces, l'adhérence et la poussée sont optimisées pour une variété de situations que le pilote peut rencontrer. | ✈【Vidéo améliorée】 En repensant le cadre pour accepter une caméra de meilleure qualité, l'expérience FPV est améliorée, permettant une nouvelle clarté lors de la navigation dans l'environnement. Associé à un système de transmission vidéo 8 plus puissant que son prédécesseur, le signal vidéo n'entravera plus l'expérience utilisateur. | ✈【Conception durable】 Conçu à partir de fibre de carbone tissée 3K de qualité aérospatiale, la durabilité est maximisée, permettant au drone de résister à des degrés d'impact élevés, un motif imprimé sur le cadre donne au drone un attrait pas comme les autres. | ✈【Nouvelle expérience】 Le drone EMAX Tinyhawk II Freestyle offre des performances inégalées et une expérience FPV contrairement à tout autre drone extérieur de sa catégorie. Une vitesse élevée de 120 km/h vous offre une expérience de course merveilleuse et unique. | ✈【Système d'alimentation optimisé】 Doté d'un système d'alimentation axé sur le contrôle et le temps de vol, le drone EMAX Tinyhawk II Freestyle utilise un moteur 1103 7000KV afin d'atteindre le régime optimal nécessaire pour maximiser le temps de vol et l'efficacité. En utilisant l'hélice AVAN Rush de 2.5 pouces, l'adhérence et la poussée sont optimisées pour une variété de situations que le pilote peut rencontrer.",
-  "shortDescription": "EMAX Tinyhawk II Freestyle RTF FPV Racing Drone avec Moteur Sans Balais 7000 KV, Caméra RunCam Nano ",
+  "name": "Drone FPV EMAX Tinyhawk II Freestyle RTF - Prêt à Voler pour Racing & Freestyle",
+  "slug": "drone-fpv-emax-tinyhawk-freestyle-rtf",
+  "description": "Plongez dans l'univers palpitant du FPV racing et du freestyle avec le drone EMAX Tinyhawk II Freestyle RTF. Conçu pour offrir une expérience de vol immersive dès la sortie de la boîte, ce drone RTF (Ready-To-Fly) est le choix parfait pour les débutants comme pour les pilotes expérimentés.  Équipé d'un moteur **sans balais de 7000 KV** ultra-performant, il garantit une puissance et une réactivité exceptionnelles pour des manœuvres acrobatiques et des courses intenses. La **caméra RunCam Nano 2 700TVL** offre une qualité d'image nette et vive, essentielle pour une perception précise de votre environnement en vol.  Son système VTX (Vidéo Transmitter) puissant avec des options de puissance de **0-25-100-200mW** vous assure une transmission vidéo fiable et de longue portée. Le kit complet inclut **lunettes FPV et contrôleur**, vous fournissant tout le nécessaire pour commencer à voler immédiatement.  Idéal pour les **enfants et les adultes débutants** désireux d'apprendre et de progresser dans le monde des drones FPV de course et de freestyle.  **Optimisé pour la performance et l'accessibilité**, le Tinyhawk II Freestyle est votre portail vers une nouvelle dimension du pilotage.",
+  "shortDescription": "Drone FPV EMAX Tinyhawk II Freestyle RTF : Moteur 7000 KV, Caméra RunCam Nano 2, VTX 200mW. Kit complet avec lunettes et contrôleur. Idéal débutants adultes & enfants pour courses et freestyle.",
   "price": "299.0",
   "compareAtPrice": 343,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Tiny Hawk",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV EMAX Tinyhawk II Freestyle RTF - Prêt à Voler pour Racing & Freestyle",
+    "description": "Drone FPV EMAX Tinyhawk II Freestyle RTF : Moteur 7000 KV, Caméra RunCam Nano 2, VTX 200mW. Kit complet avec lunettes et contrôleur. Idéal débutants adultes & enfants pour courses et freestyle.",
+    "keywords": [
+      "drone fpv emax tinyhawk ii freestyle rtf - prêt à voler pour racing & freestyle",
+      "drones freestyle acrobatique",
+      "visiter la boutique tiny hawk"
+    ],
+    "ogTitle": "Drone FPV EMAX Tinyhawk II Freestyle RTF - Prêt à Voler pour Racing & Freestyle",
+    "ogDescription": "Drone FPV EMAX Tinyhawk II Freestyle RTF : Moteur 7000 KV, Caméra RunCam Nano 2, VTX 200mW. Kit complet avec lunettes et contrôleur. Idéal débutants adultes & enfants pour courses et freestyle."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone FPV de course et freestyle RTF (Ready-To-Fly)\nMoteur : Sans balais 7000 KV\nCaméra : RunCam Nano 2 700TVL\nVTX : Puissance ajustable 0-25-100-200mW\nInclus : Lunettes FPV et Contrôleur\nIdéal pour : Enfants, adultes, débutants"
+  },
+  "faq": [
+    {
+      "q": "Qu'est-ce que signifie 'RTF' pour ce drone FPV ?",
+      "a": "'RTF' signifie 'Ready-To-Fly' (Prêt à Voler). Cela implique que le kit EMAX Tinyhawk II Freestyle est livré avec tout le matériel nécessaire pour commencer à voler immédiatement : le drone, les lunettes FPV et le contrôleur."
+    },
+    {
+      "q": "Ce drone est-il adapté aux débutants ?",
+      "a": "Absolument ! Le EMAX Tinyhawk II Freestyle RTF est spécifiquement conçu pour être accessible aux débutants, tout en offrant des performances suffisantes pour les pilotes plus expérimentés. Son apprentissage est facilité par son format compact et sa réactivité."
+    },
+    {
+      "q": "Quelle est la particularité du moteur 7000 KV ?",
+      "a": "Un moteur de 7000 KV (kilovolts) indique une vitesse de rotation très élevée, ce qui se traduit par une puissance et une réactivité accrues pour le drone. Cela est idéal pour les manœuvres rapides en FPV racing et en freestyle."
+    },
+    {
+      "q": "La caméra RunCam Nano 2 est-elle de bonne qualité pour le FPV ?",
+      "a": "Oui, la caméra RunCam Nano 2 est réputée pour sa qualité d'image nette et sa faible latence, ce qui est crucial pour une expérience FPV immersive et réactive. Sa résolution de 700TVL assure une bonne clarté."
+    },
+    {
+      "q": "Que permet l'option de puissance VTX de 0-25-100-200mW ?",
+      "a": "L'ajustement de la puissance du VTX (Video Transmitter) vous permet de contrôler la portée de la transmission vidéo. Les faibles puissances (0-25mW) sont idéales pour voler à l'intérieur ou à courte portée, tandis que les puissances plus élevées (100-200mW) permettent de voler plus loin et de traverser des obstacles avec une meilleure réception vidéo."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.800936",
+  "originalName": "EMAX Tinyhawk II Freestyle RTF FPV Racing Drone avec Moteur Sans Balais 7000 KV, Caméra RunCam Nano 2 700TVL, 0-25-100-200 VTX Power, Drone avec Lunettes et Contrôleur pour Enfants Adultes Débutants",
+  "enhanced": true
 }

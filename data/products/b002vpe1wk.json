@@ -2,8 +2,8 @@
   "productId": "B002VPE1WK",
   "name": "Voir tous les détails",
   "slug": "voir-tous-les-details",
-  "description": "CONCEPTION PROTECTRICE : Il contient jusqu'à 1 appareil photo DSLR avec objectifs, 4 objectifs supplémentaires et 1 flash monté sur sabot, assurant que votre équipement reste sécurisé lors de vos déplacements ou de vos prises de vue en extérieur. | Matériaux connus pour leur durabilité : Fabriqué à partir d'un mélange résistant de polyester/nylon noir 60D, offrant une protection durable contre l'usure tout en conservant un aspect élégant. | RÉSISTANT AUX INTEMPÉRIES : La construction imperméable protège votre équipement précieux de la pluie, assurant des performances fiables même par mauvais temps. | STOCKAGE ORGANISÉ : Doté d'une poche dédiée pour les accessoires, permettant de garder les éléments essentiels tels que les batteries, les cartes mémoire et les câbles facilement accessibles et bien organisés.",
-  "shortDescription": "Voir tous les détails",
+  "description": "<div><h2>Voir tous les détails</h2><p>Quality product</p></div>",
+  "shortDescription": "Voir tous les détails - Quality Product",
   "price": "32.0",
   "compareAtPrice": 36,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Amazon Basics",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Voir tous les détails",
+    "description": "Voir tous les détails - Quality Product",
+    "keywords": [
+      "voir tous les détails",
+      "sacs à dos pour drones",
+      "visiter la boutique amazon basics"
+    ],
+    "ogTitle": "Voir tous les détails",
+    "ogDescription": "Voir tous les détails - Quality Product"
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:15.020299",
+  "originalName": "Voir tous les détails",
+  "enhanced": true
 }

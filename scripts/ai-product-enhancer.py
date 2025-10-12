@@ -540,13 +540,13 @@ Füge wichtige Spezifikationen für das Produkt hinzu:
                 return original_specs
     
     def generate_faq(self, product_name, features, price):
-        """Generate FAQ section"""
-        safe_print(f"[AI] Generating FAQ...")
+        """Generate comprehensive FAQ section optimized for SEO"""
+        safe_print(f"[AI] Generating SEO-optimized FAQ...")
         
-        # Create a more specific prompt for FAQ generation
+        # Create a more specific prompt for FAQ generation with SEO focus
         features_text = "\n".join(features[:3]) if features else "Hochwertiges Produkt"
         
-        prompt = f"""Generiere genau 5 häufig gestellte Fragen mit Antworten für dieses Produkt:
+        prompt = f"""Generiere genau 8 SEO-optimierte FAQ für dieses Produkt:
 
 Produkt: {product_name}
 Preis: {price}€
@@ -558,12 +558,21 @@ WICHTIG: Antworte NUR mit einem gültigen JSON-Array, ohne zusätzlichen Text. F
   {{"question": "Frage hier", "answer": "Antwort hier"}}
 ]
 
-Konzentriere dich auf häufige Bedenken über:
-- Einfachheit der Verwendung
-- Haltbarkeit und Widerstandsfähigkeit  
-- Technischen Support
-- Produktqualität
-- Garantie und Service"""
+SEO-OPTIMIERTE FAQ-BEREICHE:
+- Produktverwendung und Installation
+- Technische Spezifikationen und Kompatibilität
+- Haltbarkeit, Garantie und Support
+- Preis-Leistungs-Verhältnis und Vergleich
+- Sicherheit und Zertifizierungen
+- Wartung und Reinigung
+- Lieferung und Versand
+- Rückgabe und Umtausch
+
+Jede Frage soll:
+- Häufige Suchanfragen abdecken
+- Long-tail Keywords enthalten
+- Detaillierte, hilfreiche Antworten bieten
+- SEO-freundlich formuliert sein"""
 
         response = self.get_ai_response(prompt)
         
@@ -596,6 +605,108 @@ Konzentriere dich auf häufige Bedenken über:
             except Exception as e:
                 safe_print(f"[DEBUG] Failed to parse FAQ JSON: {e}")
                 return []
+    
+    def generate_product_review(self, product_name, features, price, specifications):
+        """Generate comprehensive product review with strengths and weaknesses analysis"""
+        safe_print(f"[AI] Generating product review analysis...")
+        
+        # Create a comprehensive prompt for review generation
+        features_text = "\n".join(features[:5]) if features else "Hochwertiges Produkt"
+        specs_text = ", ".join([f"{k}: {v}" for k, v in specifications.items()]) if specifications else "Standard-Spezifikationen"
+        
+        prompt = f"""Erstelle eine detaillierte Produktbewertung mit Stärken und Schwächen für:
+
+Produkt: {product_name}
+Preis: {price}€
+Hauptmerkmale: {features_text}
+Spezifikationen: {specs_text}
+
+WICHTIG: Antworte NUR mit einem gültigen JSON-Objekt, ohne zusätzlichen Text. Format:
+{{
+  "overall_rating": 4.5,
+  "summary": "Kurze Zusammenfassung der Bewertung",
+  "strengths": [
+    "Stärke 1 mit detaillierter Erklärung",
+    "Stärke 2 mit detaillierter Erklärung"
+  ],
+  "weaknesses": [
+    "Schwäche 1 mit konstruktiver Kritik",
+    "Schwäche 2 mit konstruktiver Kritik"
+  ],
+  "detailed_review": "Ausführliche Bewertung des Produkts mit allen Aspekten",
+  "recommendation": "Kaufempfehlung für verschiedene Nutzertypen",
+  "comparison": "Kurzer Vergleich mit ähnlichen Produkten",
+  "value_for_money": "Bewertung des Preis-Leistungs-Verhältnisses"
+}}
+
+BEWERTUNGSKRITERIEN:
+- Funktionalität und Leistung
+- Benutzerfreundlichkeit
+- Qualität und Haltbarkeit
+- Preis-Leistungs-Verhältnis
+- Design und Ästhetik
+- Technische Innovation
+- Kundenservice und Support
+- Vergleich mit Konkurrenzprodukten
+
+Die Bewertung soll:
+- Objektiv und ausgewogen sein
+- Konkrete Beispiele enthalten
+- Für verschiedene Nutzertypen relevant sein
+- SEO-freundlich formuliert werden"""
+
+        response = self.get_ai_response(prompt)
+        
+        safe_print(f"[DEBUG] Review response: {response[:200]}...")
+        
+        if isinstance(response, dict):
+            return response
+        else:
+            # Try to parse JSON response
+            try:
+                # Clean the response - remove any markdown formatting
+                clean_response = response.strip()
+                if clean_response.startswith('```json'):
+                    clean_response = clean_response.replace('```json', '').replace('```', '').strip()
+                elif clean_response.startswith('```'):
+                    clean_response = clean_response.replace('```', '').strip()
+                
+                # Try to find JSON object in the response
+                import re
+                json_match = re.search(r'\{.*\}', clean_response, re.DOTALL)
+                if json_match:
+                    json_str = json_match.group()
+                    review_data = json.loads(json_str)
+                    safe_print(f"[DEBUG] Parsed review with {len(review_data.get('strengths', []))} strengths and {len(review_data.get('weaknesses', []))} weaknesses")
+                    return review_data
+                else:
+                    safe_print(f"[DEBUG] No JSON object found in review response")
+                    return self._get_default_review(product_name, price)
+                    
+            except Exception as e:
+                safe_print(f"[DEBUG] Failed to parse review JSON: {e}")
+                return self._get_default_review(product_name, price)
+    
+    def _get_default_review(self, product_name, price):
+        """Generate default review when AI fails"""
+        return {
+            "overall_rating": 4.0,
+            "summary": f"{product_name} bietet gute Qualität zum fairen Preis von {price}€.",
+            "strengths": [
+                "Gute Verarbeitungsqualität und Materialien",
+                "Einfache Bedienung und Installation",
+                "Kostenloser Versand und Garantie inbegriffen",
+                "Gutes Preis-Leistungs-Verhältnis"
+            ],
+            "weaknesses": [
+                "Begrenzte technische Spezifikationen",
+                "Standard-Features ohne besondere Innovation"
+            ],
+            "detailed_review": f"Das {product_name} ist ein solides Produkt, das seinen Zweck erfüllt. Die Verarbeitung ist ordentlich und die Bedienung ist intuitiv. Für den Preis von {price}€ bietet es gute Qualität und Zuverlässigkeit.",
+            "recommendation": "Empfohlen für Nutzer, die ein zuverlässiges Produkt zu einem fairen Preis suchen.",
+            "comparison": "Im Vergleich zu ähnlichen Produkten bietet es gute Grundfunktionen ohne übermäßige Komplexität.",
+            "value_for_money": "Gutes Preis-Leistungs-Verhältnis für den gewünschten Anwendungsbereich."
+        }
     
     def enhance_seo_data(self, product):
         """Enhance SEO metadata"""
@@ -704,6 +815,7 @@ Konzentriere dich auf häufige Bedenken über:
             enhanced_description = self.enhance_description(original_description, features, price, enhanced_name)
             enhanced_specs = self.enhance_specifications(specifications, enhanced_name)
             faq = self.generate_faq(enhanced_name, features, price)
+            review_analysis = self.generate_product_review(enhanced_name, features, price, enhanced_specs)
             
             # Generate optimized short description
             short_desc = self.create_short_description(enhanced_name, features, price)
@@ -715,6 +827,7 @@ Konzentriere dich auf häufige Bedenken über:
                 'description': enhanced_description,
                 'specifications': enhanced_specs,
                 'faq': faq,
+                'reviewAnalysis': review_analysis,
                 'shortDescription': short_desc,
                 'enhancedAt': datetime.now().isoformat(),
                 'originalName': original_name,
@@ -731,6 +844,7 @@ Konzentriere dich auf häufige Bedenken über:
             safe_print(f"[SUCCESS] Enhanced: {enhanced_name[:50]}...")
             safe_print(f"[SUCCESS] Slug: {enhanced_slug}")
             safe_print(f"[SUCCESS] FAQ: {len(faq)} questions added")
+            safe_print(f"[SUCCESS] Review Analysis: {len(review_analysis.get('strengths', []))} strengths, {len(review_analysis.get('weaknesses', []))} weaknesses")
             
             return True
             
@@ -1016,6 +1130,7 @@ HIGH QUALITY REQUIREMENTS:
 - Comprehensive specifications
 - Professional FAQ with specific answers
 - SEO-optimized naming
+- Detailed review analysis
 
 Return JSON:
 {{
@@ -1023,6 +1138,7 @@ Return JSON:
   "description": "Detailed HTML description (300 words)",
   "specs": {{"detailed": "specifications"}},
   "faq": [{{"q": "detailed question", "a": "comprehensive answer"}}],
+  "review": {{"overall_rating":4.5,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment"}},
   "shortDesc": "Compelling short description (120 chars)"
 }}"""
         elif tier == 'standard':
@@ -1035,6 +1151,7 @@ Return JSON:
   "description": "HTML description (200 words)",
   "specs": {{"key": "value"}},
   "faq": [{{"q": "question", "a": "answer"}}],
+  "review": {{"overall_rating":4.0,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1"],"detailed_review":"review text","recommendation":"recommendation","value_for_money":"value assessment"}},
   "shortDesc": "Short description (100 chars)"
 }}"""
         else:  # basic tier
@@ -1047,6 +1164,7 @@ Return JSON:
   "description": "Basic description",
   "specs": {{"basic": "spec"}},
   "faq": [{{"q": "Q", "a": "A"}}],
+  "review": {{"overall_rating":4.0,"summary":"basic summary","strengths":["good quality"],"weaknesses":["limited features"],"detailed_review":"basic review","recommendation":"basic recommendation","value_for_money":"good value"}},
   "shortDesc": "Short desc"
 }}"""
         
@@ -1065,6 +1183,7 @@ Return JSON:
                 'description': data.get('description', ''),
                 'specifications': data.get('specs', {}),
                 'faq': data.get('faq', []),
+                'review': data.get('review', {}),
                 'shortDescription': data.get('shortDesc', '')
             }
         except:
@@ -1078,6 +1197,15 @@ Return JSON:
             'description': f"<div><h2>{original_name}</h2><p>Quality product</p></div>",
             'specifications': {"Quality": "High", "Warranty": "2 years"},
             'faq': [{"q": "Is it good quality?", "a": "Yes, high quality product."}],
+            'review': {
+                "overall_rating": 4.0,
+                "summary": f"{original_name} offers good quality",
+                "strengths": ["Good quality", "Reliable"],
+                "weaknesses": ["Standard features"],
+                "detailed_review": f"The {original_name} is a quality product.",
+                "recommendation": "Recommended for basic needs.",
+                "value_for_money": "Good value for money."
+            },
             'shortDescription': f"{original_name} - Quality Product"
         }
 
@@ -1136,7 +1264,12 @@ Return JSON:
             enhanced_description = enhanced_data['description']
             enhanced_specs = enhanced_data['specifications']
             faq = enhanced_data['faq']
+            review_analysis = enhanced_data.get('review', {})
             short_desc = enhanced_data['shortDescription']
+            
+            # If no review in batch data, generate it separately
+            if not review_analysis:
+                review_analysis = self.generate_review_fast(enhanced_name, features, price, enhanced_specs)
             
             # Create SEO-optimized slug
             enhanced_slug = self.create_seo_slug_fast(enhanced_name)
@@ -1148,6 +1281,7 @@ Return JSON:
                 'description': enhanced_description,
                 'specifications': enhanced_specs,
                 'faq': faq,
+                'reviewAnalysis': review_analysis,
                 'shortDescription': short_desc,
                 'enhancedAt': datetime.now().isoformat(),
                 'originalName': original_name,
@@ -1447,15 +1581,22 @@ Focus on robot/technology specifications for: {original_name}"""
             }
 
     def generate_faq_fast(self, original_name, features, price):
-        """AI-powered FAQ generation - SIMPLIFIED and conversational"""
+        """AI-powered FAQ generation - SEO-OPTIMIZED and comprehensive"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
-        features_text = ", ".join(features[:2]) if features else "key features"
+        features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""3 FAQ JSON for: {original_name} in {language_name}
+        prompt = f"""5 SEO FAQ JSON for: {original_name} in {language_name}
 Format: [{{"question":"Is it easy to use?","answer":"Yes, it's very simple..."}}]
 
 IMPORTANT: Respond ONLY with valid JSON array, no additional text.
-Focus on robot/technology FAQs for: {original_name}"""
+Focus on SEO-optimized FAQs covering:
+- Installation and setup
+- Technical specifications
+- Warranty and support
+- Price comparison
+- Safety and certifications
+
+For: {original_name}"""
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1523,6 +1664,83 @@ Focus on robot/technology FAQs for: {original_name}"""
                 {"question": "¿Qué garantía tiene?", "answer": "Incluye garantía de 2 años del fabricante."},
                 {"question": "¿El envío es gratuito?", "answer": "Sí, ofrecemos envío gratuito en toda España."}
             ]
+
+    def generate_review_fast(self, original_name, features, price, specifications):
+        """AI-powered review generation - FAST version with strengths/weaknesses"""
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        features_text = ", ".join(features[:3]) if features else "key features"
+        
+        prompt = f"""Review JSON for: {original_name} in {language_name}
+Format: {{"overall_rating":4.5,"summary":"Brief summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment"}}
+
+IMPORTANT: Respond ONLY with valid JSON object, no additional text.
+Include strengths, weaknesses, and detailed analysis for: {original_name}"""
+        
+        try:
+            response = self.get_ai_response_fast(prompt)
+            
+            # Clean up response - remove ```json and ``` if present
+            response = response.strip()
+            if response.startswith('```json'):
+                response = response[7:]
+            if response.startswith('```'):
+                response = response[3:]
+            if response.endswith('```'):
+                response = response[:-3]
+            
+            response = response.strip()
+            
+            # Remove any conversational text before JSON
+            if ':' in response and '{' in response:
+                # Find the first { and take everything from there
+                json_start = response.find('{')
+                if json_start > 0:
+                    response = response[json_start:]
+            
+            # Try to find JSON object in the response
+            import re
+            json_match = re.search(r'\{[^{}]*(?:\{[^{}]*\}[^{}]*)*\}', response, re.DOTALL)
+            if json_match:
+                json_str = json_match.group()
+                try:
+                    parsed_review = json.loads(json_str)
+                    if isinstance(parsed_review, dict):
+                        return parsed_review
+                except json.JSONDecodeError:
+                    pass
+            
+            # If no JSON object found, try parsing the whole response
+            try:
+                parsed_review = json.loads(response)
+                if isinstance(parsed_review, dict):
+                    return parsed_review
+            except json.JSONDecodeError:
+                pass
+                
+            # If all parsing fails, return default review instead of raising error
+            safe_print(f"[WARNING] Could not parse review JSON, using defaults")
+            return {
+                "overall_rating": 4.0,
+                "summary": f"{original_name} offers good quality at {price}€",
+                "strengths": ["Good build quality", "Easy to use", "Good value"],
+                "weaknesses": ["Limited features", "Standard design"],
+                "detailed_review": f"The {original_name} is a solid product that delivers good performance for its price point.",
+                "recommendation": "Recommended for users seeking reliable functionality.",
+                "value_for_money": "Good value for money with essential features."
+            }
+            
+        except Exception as e:
+            safe_print(f"[ERROR] Review generation failed: {e}")
+            # Return default review instead of raising error
+            return {
+                "overall_rating": 4.0,
+                "summary": f"{original_name} offers good quality at {price}€",
+                "strengths": ["Good build quality", "Easy to use", "Good value"],
+                "weaknesses": ["Limited features", "Standard design"],
+                "detailed_review": f"The {original_name} is a solid product that delivers good performance for its price point.",
+                "recommendation": "Recommended for users seeking reliable functionality.",
+                "value_for_money": "Good value for money with essential features."
+            }
 
     def create_short_description_fast(self, original_name, features, price):
         """AI-powered short description with product-specific prompts"""

@@ -1,9 +1,9 @@
 {
   "productId": "B0BWDWT7NK",
-  "name": "S98 Drones Pliables avec Double Caméra 1080P HD FPV, Mini Drone WiFi RC Quadcopter Support APP Control, Maintien de L'Altitude, Évitement d'obstacles, pour Enfants Adultes",
-  "slug": "s98-drones-pliables-avec-double-camera-1080p-hd-fp",
-  "description": "Commutateur de caméra double : drone RC à 4 essieux avec double caméra, vous permet de changer librement l'angle de prise de vue du drone, et le champ de vision n'est plus limité. | FONCTIONNEMENT FACILE: Un déploiement stable permet au drone de garder un vol stationnaire élevé à tout moment, sans avoir besoin de maintenir l'accélérateur, ce qui est facile à jouer pour les débutants. | TRANSMISSION WIFI: Les avions RC à 4 essieux fournissent une connexion APP, vous permettent de prendre des photos, des vidéos et une transmission en temps réel via l'appareil photo du téléphone. | Évitement des obstacles : le drone RC a adopté une conception de détection infrarouge à 360 degrés, évite automatiquement les obstacles rencontrés, ce qui peut effectivement refuser de s'écraser. | MODE D'ÉCLAIRAGE COOL: quadcopter RC Drone équipé d'une lumière LED brillante, qui peut être commutée librement après le démarrage, ce qui rend la nuit plus excitante.",
-  "shortDescription": "S98 Drones Pliables avec Double Caméra 1080P HD FPV, Mini Drone WiFi RC Quadcopter Support APP Contr",
+  "name": "Drone S98 Pliable : Double Caméra 1080P HD FPV pour des Vues Immersives",
+  "slug": "drone-s98-pliable-double-camera-1080p",
+  "description": "Découvrez le drone S98, le compagnon aérien parfait pour les amateurs de photographie et de vidéographie. Doté de deux caméras 1080P HD, ce drone pliable vous offre des prises de vue époustouflantes en temps réel grâce à sa technologie FPV (First Person View) via WiFi. Contrôlez-le facilement avec la télécommande RC ou directement depuis votre smartphone via l'application dédiée. Son système de maintien de l'altitude assure des vols stables et des images nettes, tandis que la fonction d'évitement d'obstacles intelligent garantit une sécurité accrue, même pour les débutants. Idéal pour les enfants et les adultes, le S98 combine technologie de pointe et facilité d'utilisation pour des expériences de vol inoubliables. Obtenez le vôtre dès aujourd'hui pour explorer le ciel comme jamais auparavant !",
+  "shortDescription": "Drone pliable S98 avec double caméra 1080P HD FPV, contrôle WiFi RC/APP, maintien d'altitude et évitement d'obstacles. Parfait pour tous les âges. Seulement 24.0€.",
   "price": "24.0",
   "compareAtPrice": 27,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Goshyda",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone S98 Pliable : Double Caméra 1080P HD FPV pour des Vues Immersives",
+    "description": "Drone pliable S98 avec double caméra 1080P HD FPV, contrôle WiFi RC/APP, maintien d'altitude et évitement d'obstacles. Parfait pour tous les âges. Seulement 24.0€.",
+    "keywords": [
+      "drone s98 pliable : double caméra 1080p hd fpv pour des vues immersives",
+      "mini drones pliables",
+      "visiter la boutique goshyda"
+    ],
+    "ogTitle": "Drone S98 Pliable : Double Caméra 1080P HD FPV pour des Vues Immersives",
+    "ogDescription": "Drone pliable S98 avec double caméra 1080P HD FPV, contrôle WiFi RC/APP, maintien d'altitude et évitement d'obstacles. Parfait pour tous les âges. Seulement 24.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Modèle : S98\nType : Drone pliable\nCaméras : Double caméra 1080P HD\nConnectivité : WiFi FPV\nContrôle : Télécommande RC / Application Smartphone\nFonctionnalités : Maintien de l'altitude, Évitement d'obstacles\nCible : Enfants et Adultes\nPrix : 24.0€"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras du drone S98 ?",
+      "a": "Le drone S98 est équipé de deux caméras avec une résolution de 1080P HD pour des images et vidéos de haute qualité."
+    },
+    {
+      "q": "Est-il facile de contrôler ce drone, même pour un débutant ?",
+      "a": "Absolument ! Le drone S98 est conçu pour être intuitif. Son maintien de l'altitude automatique et sa fonction d'évitement d'obstacles le rendent très accessible, même pour les enfants et les adultes qui n'ont jamais piloté de drone auparavant."
+    },
+    {
+      "q": "Comment puis-je voir ce que filme le drone en temps réel ?",
+      "a": "Grâce à la technologie FPV (First Person View) WiFi, vous pouvez voir le flux vidéo de la caméra directement sur votre smartphone via l'application dédiée, vous offrant une expérience de vol immersive."
+    },
+    {
+      "q": "Le drone S98 est-il adapté pour être transporté facilement ?",
+      "a": "Oui, le S98 est un drone pliable, ce qui le rend extrêmement portable et facile à ranger dans un sac, idéal pour l'emporter partout avec vous."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:24.161281",
+  "originalName": "S98 Drones Pliables avec Double Caméra 1080P HD FPV, Mini Drone WiFi RC Quadcopter Support APP Control, Maintien de L'Altitude, Évitement d'obstacles, pour Enfants Adultes",
+  "enhanced": true
 }

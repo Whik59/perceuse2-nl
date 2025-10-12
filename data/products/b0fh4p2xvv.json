@@ -1,9 +1,9 @@
 {
   "productId": "B0FH4P2XVV",
-  "name": "RDVXI Scooter sous-Marin, Équipement Robotique sous-Marin Moteur sans Balais Drone sous-Marin Intelligent Moteur sans Balais",
-  "slug": "rdvxi-scooter-sous-marin-equipement-robotique-sous",
-  "description": "Vitesse nominale: 360KV (tr/min) | Couple nominal : 1 (NM) | Champ d'application: équipement d'eau de robot sous-marin | Efficacité: 90 (%) | Plage de tension nominale 3C: inférieure à 36V CC",
-  "shortDescription": "RDVXI Scooter sous-Marin, Équipement Robotique sous-Marin Moteur sans Balais Drone sous-Marin Intell",
+  "name": "Drone Sous-Marin Intelligent RDVXI - Moteur Sans Balais Révolutionnaire",
+  "slug": "intelligent-drone-sous-marin-rdvxi-moteur-sans",
+  "description": "Découvrez le RDVXI Scooter Sous-Marin, un robot aquatique intelligent révolutionnaire équipé d'un moteur sans balais de pointe. Idéal pour l'exploration sous-marine, la photographie et le divertissement, ce drone sous-marin offre une expérience inégalée grâce à sa technologie robotique avancée. Plongez dans les profondeurs avec puissance, précision et efficacité. Parfait pour les passionnés de technologie et les aventuriers sous-marins.",
+  "shortDescription": "Drone sous-marin intelligent RDVXI avec moteur sans balais pour une exploration aquatique révolutionnaire.",
   "price": "105.0",
   "compareAtPrice": 120,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : RDVXI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Sous-Marin Intelligent RDVXI - Moteur Sans Balais Révolutionnaire",
+    "description": "Drone sous-marin intelligent RDVXI avec moteur sans balais pour une exploration aquatique révolutionnaire.",
+    "keywords": [
+      "drone sous-marin intelligent rdvxi - moteur sans balais révolutionnaire",
+      "drones sous-marins (rov)",
+      "marque : rdvxi"
+    ],
+    "ogTitle": "Drone Sous-Marin Intelligent RDVXI - Moteur Sans Balais Révolutionnaire",
+    "ogDescription": "Drone sous-marin intelligent RDVXI avec moteur sans balais pour une exploration aquatique révolutionnaire."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Moteur sans balais (Brushless Motor) pour une performance optimale et une durabilité accrue. Conception robotique intelligente pour une navigation intuitive. Scooter sous-marin propulsé par un moteur performant. Idéal pour la découverte et la photographie sous-marine."
+  },
+  "faq": [
+    {
+      "q": "Qu'est-ce qui rend ce drone sous-marin intelligent ?",
+      "a": "Son système robotique intégré lui permet une navigation autonome et réactive, optimisée par un moteur sans balais pour une efficacité maximale."
+    },
+    {
+      "q": "Quel est l'avantage d'un moteur sans balais pour un scooter sous-marin ?",
+      "a": "Les moteurs sans balais offrent une puissance accrue, une meilleure efficacité énergétique, une plus grande fiabilité et une durée de vie prolongée par rapport aux moteurs traditionnels, ce qui est crucial pour les environnements sous-marins."
+    },
+    {
+      "q": "À qui s'adresse ce scooter sous-marin RDVXI ?",
+      "a": "Il est conçu pour les amateurs de technologie, les plongeurs, les photographes sous-marins, les éducateurs et tous ceux qui souhaitent explorer le monde sous-marin de manière innovante et amusante."
+    },
+    {
+      "q": "Quel est le prix du RDVXI Scooter Sous-Marin ?",
+      "a": "Le RDVXI Scooter Sous-Marin est disponible au prix de 105.0€."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:30.362508",
+  "originalName": "RDVXI Scooter sous-Marin, Équipement Robotique sous-Marin Moteur sans Balais Drone sous-Marin Intelligent Moteur sans Balais",
+  "enhanced": true
 }

@@ -1,0 +1,72 @@
+{
+  "productId": "B0D9K2ZKBS",
+  "name": "Lot de 3 Modules GPS NEO-6M GY-NEO6MV2 pour Arduino",
+  "slug": "neo-6m-lot-modules-gps-gy-neo6mv2-pour",
+  "description": "Optimisez vos projets robotiques et vos systèmes embarqués avec ce lot de 3 modules GPS GY-NEO6MV2 NEO-6M. Conçus pour une précision maximale et une intégration aisée avec Arduino, Raspberry Pi et APM 2.5, ces modules offrent une réception GPS stable grâce à leurs antennes céramiques haute performance. Alimentation 3V-5V, compatibilité EEPROM pour sauvegarde des configurations. Idéal pour le suivi de drones, la navigation de robots autonomes, et les applications de géolocalisation précises.",
+  "shortDescription": "Lot de 3 modules GPS NEO-6M GY-NEO6MV2 avec antenne céramique, 3V-5V, pour Arduino et projets robotiques.",
+  "price": "13.0",
+  "compareAtPrice": 14,
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+  ],
+  "videos": [],
+  "category": "Modules GPS et Contrôleurs de Vol",
+  "tags": [
+    "marque : gerui",
+    "modules gps et contrôleurs de vol"
+  ],
+  "amazonUrl": "https://amazon.fr/dp/B0D9K2ZKBS/?tag=clickclickh01-21",
+  "amazonASIN": "B0D9K2ZKBS",
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "GY-NEO6MV2 NEO-6M Lot de 3 modules de commande de vol GPS 3 V-5 V avec antenne en céramique super puissante pour Arduino EEPROM APM 2.5",
+  "amazonPrice": "13.0€",
+  "amazonRating": 4.2,
+  "amazonReviewCount": 0,
+  "brand": "Marque : GERUI",
+  "seo": {
+    "title": "Lot de 3 Modules GPS NEO-6M GY-NEO6MV2 pour Arduino",
+    "description": "Lot de 3 modules GPS NEO-6M GY-NEO6MV2 avec antenne céramique, 3V-5V, pour Arduino et projets robotiques.",
+    "keywords": [
+      "lot de 3 modules gps neo-6m gy-neo6mv2 pour arduino",
+      "modules gps et contrôleurs de vol",
+      "marque : gerui"
+    ],
+    "ogTitle": "Lot de 3 Modules GPS NEO-6M GY-NEO6MV2 pour Arduino",
+    "ogDescription": "Lot de 3 modules GPS NEO-6M GY-NEO6MV2 avec antenne céramique, 3V-5V, pour Arduino et projets robotiques."
+  },
+  "reviews": {
+    "averageRating": 4.2,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "basic": "Lot de 3 modules GPS NEO-6M GY-NEO6MV2, alimentation 3V-5V, antenne céramique intégrée, EEPROM pour sauvegarde, compatible Arduino, Raspberry Pi, APM 2.5."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la précision de localisation de ce module GPS NEO-6M ?",
+      "a": "Le module GY-NEO6MV2 NEO-6M offre une excellente précision de localisation, typiquement de l'ordre de 2 à 5 mètres en conditions optimales. La qualité de l'antenne céramique intégrée contribue grandement à cette performance."
+    },
+    {
+      "q": "Ce module GPS est-il compatible avec mon Arduino ?",
+      "a": "Oui, absolument ! Le module GY-NEO6MV2 NEO-6M est spécialement conçu pour une intégration facile avec les plateformes Arduino, ainsi qu'avec Raspberry Pi et les contrôleurs de vol APM 2.5. Il communique généralement via le protocole série (UART)."
+    },
+    {
+      "q": "Quelle est la différence entre le GY-NEO6MV2 et d'autres modules GPS ?",
+      "a": "Le GY-NEO6MV2 se distingue par son antenne céramique 'super puissante' qui assure une meilleure réception du signal GPS, même dans des environnements difficiles. La présence d'EEPROM permet de sauvegarder les paramètres de configuration, évitant ainsi de devoir les reconfigurer à chaque démarrage."
+    },
+    {
+      "q": "Puis-je utiliser ce module pour un drone ?",
+      "a": "Tout à fait. Ce module GPS est un choix populaire pour les projets de drones, de véhicules autonomes et d'autres applications robotiques nécessitant une localisation précise. Il est parfaitement adapté aux contrôleurs de vol comme l'APM 2.5."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:40.153191",
+  "originalName": "GY-NEO6MV2 NEO-6M Lot de 3 modules de commande de vol GPS 3 V-5 V avec antenne en céramique super puissante pour Arduino EEPROM APM 2.5",
+  "enhanced": true
+}

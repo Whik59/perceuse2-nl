@@ -1,9 +1,9 @@
 {
   "productId": "B0CJYCLTTP",
-  "name": "STARTRC Protection d'hélice accessoires pour DJI Mini 4 Pro, support d'hélice pour DJI Mini 4 Pro Accessoires d'hélice",
-  "slug": "startrc-protection-dhelice-accessoires-pour-dji-mi",
-  "description": "Support d'hélice pour mini 4 Pro : conçu pour DJI Mini 4 Pro drone , gardez les hélices en place pendant le stockage. Il aide à protéger les hélices de drone Mini 4 Pro contre les dommages pendant le stockage ou le transport. Durable, confortable et portable. | Matériaux de qualité : TPU souple, forte ténacité, utilisé pour protéger parfaitement l'hélice et ne rayera pas la surface du pour DJI Mini 4 Pro. Moulage haute résistance, offre un ajustement parfait pour la cellule de drone Mini 4 Pro et réduit le mouvement de propulsion pendant le transport. | Design unique de boucle : facile à installer et à enlever. Design unique de boucle qui est beaucoup plus facile et plus rapide à installer lorsque vous êtes en déplacement ou lorsque vous devez transporter votre drone Mini 4 Pro en toute sécurité. | Facile à ranger et à transporter : après avoir plié le drone Mini 4 Pro, les sangles sécurisent les hélices avant et arrière, ce qui le rend plus facile à ranger dans un autre sac de rangement, comme le sac souple OEM, le sac souple, la mallette de rangement DIY, le boîtier EVA. étui rigide étanche et ainsi de suite. | Contenu de la livraison : 1 support d'hélice Mini 4 Pro - Remarque : le paquet ne contient pas de drone. Si vous avez des questions, n'hésitez pas à nous contacter!",
-  "shortDescription": "STARTRC Protection d'hélice accessoires pour DJI Mini 4 Pro, support d'hélice pour DJI Mini 4 Pro Ac",
+  "name": "STARTRC Protection d'Hélice DJI Mini 4 Pro",
+  "slug": "pro-startrc-protection-d-helice-dji-mini",
+  "description": "Optimisez la sécurité et la durabilité de votre drone DJI Mini 4 Pro avec la protection d'hélice STARTRC. Conçue spécifiquement pour ce modèle, cette solution ingénieuse évite les pliages accidentels et les chocs lors du transport ou du stockage. Fabriquée avec des matériaux robustes et légers, elle garantit une protection fiable sans compromettre les performances de vol. Un accessoire indispensable pour tout propriétaire de DJI Mini 4 Pro soucieux de préserver son matériel technologique de pointe. Installation et retrait ultra-rapides pour une utilisation sans contrainte. Investissez dans la tranquillité d'esprit pour vos aventures aériennes.",
+  "shortDescription": "Protection d'hélice STARTRC pour DJI Mini 4 Pro. Sécurise et préserve vos hélices et votre drone pendant le transport. Accessoire essentiel.",
   "price": "11.0",
   "compareAtPrice": 12,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : STARTRC",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "STARTRC Protection d'Hélice DJI Mini 4 Pro",
+    "description": "Protection d'hélice STARTRC pour DJI Mini 4 Pro. Sécurise et préserve vos hélices et votre drone pendant le transport. Accessoire essentiel.",
+    "keywords": [
+      "startrc protection d'hélice dji mini 4 pro",
+      "protections d'hélices",
+      "marque : startrc"
+    ],
+    "ogTitle": "STARTRC Protection d'Hélice DJI Mini 4 Pro",
+    "ogDescription": "Protection d'hélice STARTRC pour DJI Mini 4 Pro. Sécurise et préserve vos hélices et votre drone pendant le transport. Accessoire essentiel."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,34 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatible avec DJI Mini 4 Pro",
+    "matériau": "Plastique ABS haute résistance",
+    "couleur": "Noir (ou spécifier si plusieurs options)",
+    "poids": "Léger, conçu pour ne pas affecter l'autonomie",
+    "installation": "Clip-on rapide et sécurisé",
+    "fonctionnalité": "Prévient les dommages aux hélices et au drone pendant le transport et le stockage"
+  },
+  "faq": [
+    {
+      "q": "Cette protection d'hélice est-elle compatible avec d'autres modèles de drones DJI ?",
+      "a": "Non, la protection STARTRC est spécifiquement conçue pour le DJI Mini 4 Pro afin d'assurer un ajustement parfait et une protection optimale."
+    },
+    {
+      "q": "La protection d'hélice affecte-t-elle le poids ou l'autonomie du drone ?",
+      "a": "La conception de la protection STARTRC est optimisée pour être aussi légère que possible, minimisant ainsi tout impact sur le poids total du drone et son autonomie de vol."
+    },
+    {
+      "q": "Comment installe-t-on la protection d'hélice ?",
+      "a": "L'installation est très simple et intuitive. La protection se clipse facilement sur les hélices et le châssis du drone, sans nécessiter d'outils. Le retrait est tout aussi rapide."
+    },
+    {
+      "q": "Quels sont les avantages principaux de l'utilisation de cette protection ?",
+      "a": "Les avantages majeurs sont la prévention des dommages aux hélices et au drone lors du transport et du stockage, l'évitement des pliages accidentels des hélices, et par conséquent une durée de vie prolongée de votre équipement technologique."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.496348",
+  "originalName": "STARTRC Protection d'hélice accessoires pour DJI Mini 4 Pro, support d'hélice pour DJI Mini 4 Pro Accessoires d'hélice",
+  "enhanced": true
 }

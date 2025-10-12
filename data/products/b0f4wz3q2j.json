@@ -1,9 +1,9 @@
 {
   "productId": "B0F4WZ3Q2J",
-  "name": "Bundle Drones Caméra Mini 4K, Drone Caméra 4K UHD pour Adultes, < 249 g, Stabilisation de la Nacelle à 3 Axes, Transmission Vidéo sur 10 km, Deux Batteries pour un Temps de Vol max. de 62 min",
-  "slug": "bundle-drones-camera-mini-4k-drone-camera-4k-uhd-p",
-  "description": "Vidéos 4K ultra-HD et nacelle à 3 axes pour des images cinématographiques - Capturez des moments saisissants dans toutes les conditions de luminosité, des levers de soleil aux scènes de nuit. La nacelle à 3 axes garantit une stabilité parfaite pour des séquences dignes du grand écran. | Résistance au vent de 38 km/h (niveau 5) - Les moteurs sans balais améliorent la puissance et permettent un décollage à des altitudes allant jusqu’à 4 000 mètres. En outre, la portée de transmission peut atteindre jusqu’à 10 km[2]. | Création continue grâce à une autonomie prolongée - Choisissez parmi trois packs : une batterie (31 min), deux batteries (62 min) ou trois batteries (93 min)[3]. Dites adieu à l’anxiété liée à la batterie. | Simple d’utilisation et sûr - DJI Mini 4K prend en charge le décollage/atterrissage en un clic, le retour au point de départ (RTH) automatique par GPS, le vol stationnaire stable et un pilotage simplifié idéal pour les débutants. Des ressources d’apprentissage supplémentaires intégrées à l’application facilitent la maîtrise rapide du vol. | Boostez votre créativité avec des QuickShots intelligents - En quelques clics, Mini 4K réalise automatiquement des vidéos de niveau professionnel grâce aux modes Spirale, Dronie, Fusée, Cercle et Boomerang.",
-  "shortDescription": "Bundle Drones Caméra Mini 4K, Drone Caméra 4K UHD pour Adultes, < 249 g, Stabilisation de la Nacelle",
+  "name": "Bundle Drone Mini 4K Pro : Volez Sans Limite",
+  "slug": "pro-bundle-drone-mini-volez-sans",
+  "description": "Découvrez le **Bundle Drone Mini 4K Pro**, votre compagnon idéal pour des prises de vue aériennes époustouflantes. Doté d'une **caméra Mini 4K UHD** haute résolution, ce drone est conçu pour les adultes explorateurs et les créateurs de contenu exigeants. Pesant **moins de 249g**, il est exempt de nombreuses réglementations, vous offrant une liberté de vol maximale. Profitez d'une stabilité vidéo inégalée grâce à sa **stabilisation de nacelle à 3 axes**, capturant des images fluides et professionnelles même en mouvement. La **transmission vidéo sur 10 km** vous permet de garder le contrôle et de voir le monde sous un nouvel angle, sans interruption. Avec **deux batteries incluses**, profitez d'un **temps de vol maximum de 62 minutes**, prolongeant ainsi vos aventures aériennes. Ce drone allie technologie de pointe, compacité et performance pour une expérience de pilotage inoubliable. Idéal pour la photographie, la vidéographie ou simplement pour le plaisir de voler.",
+  "shortDescription": "Drone Mini 4K UHD <249g, Stabilisation 3 Axes, Portée 10km, 62min Vol (2 batteries). Idéal adultes & pros.",
   "price": "329.0",
   "compareAtPrice": 378,
   "images": [
@@ -27,9 +27,15 @@
   "amazonReviewCount": 0,
   "brand": "Bundle",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Bundle Drone Mini 4K Pro : Volez Sans Limite",
+    "description": "Drone Mini 4K UHD <249g, Stabilisation 3 Axes, Portée 10km, 62min Vol (2 batteries). Idéal adultes & pros.",
+    "keywords": [
+      "bundle drone mini 4k pro : volez sans limite",
+      "drones avec suivi automatique",
+      "bundle"
+    ],
+    "ogTitle": "Bundle Drone Mini 4K Pro : Volez Sans Limite",
+    "ogDescription": "Drone Mini 4K UHD <249g, Stabilisation 3 Axes, Portée 10km, 62min Vol (2 batteries). Idéal adultes & pros."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -41,5 +47,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra Mini 4K UHD, Poids < 249g, Stabilisation Nacelle 3 Axes, Portée Vidéo 10 km, 2 Batteries (62 min vol max.)"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Bien que doté de fonctionnalités professionnelles, le Bundle Drone Mini 4K Pro est conçu pour être intuitif. Ses systèmes de stabilisation avancés et ses modes de vol intelligents facilitent grandement la prise en main, même pour les pilotes novices. Nous recommandons toutefois de consulter le manuel d'utilisation et de commencer dans un espace ouvert."
+    },
+    {
+      "q": "Quelle est la différence entre une caméra 4K et 4K UHD ?",
+      "a": "La résolution 4K UHD (Ultra High Definition) offre une qualité d'image supérieure avec une netteté et des détails accrus par rapport à une 4K standard. Cela signifie des vidéos plus riches, des couleurs plus vives et une clarté exceptionnelle pour vos enregistrements aériens."
+    },
+    {
+      "q": "Dois-je avoir une licence pour utiliser ce drone ?",
+      "a": "Grâce à son poids inférieur à 249g, ce drone ne requiert généralement pas de licence de pilote de drone spécifique dans la plupart des régions. Cependant, il est toujours conseillé de vérifier la réglementation locale en vigueur concernant l'utilisation des drones de moins de 250g."
+    },
+    {
+      "q": "Que signifie la stabilisation de nacelle à 3 axes ?",
+      "a": "La stabilisation de nacelle à 3 axes compense les mouvements du drone sur trois axes (tangage, roulis et lacet). Cela permet d'obtenir des vidéos incroyablement stables et fluides, éliminant les tremblements et les secousses, même lors de vols rapides ou par vent léger."
+    },
+    {
+      "q": "Comment puis-je optimiser le temps de vol maximal de 62 minutes ?",
+      "a": "Le temps de vol maximal de 62 minutes est obtenu en utilisant les deux batteries incluses de manière consécutive. Pour une utilisation optimale, assurez-vous que les batteries sont complètement chargées avant chaque vol et évitez les manœuvres trop agressives qui consomment plus d'énergie."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:54.044694",
+  "originalName": "Bundle Drones Caméra Mini 4K, Drone Caméra 4K UHD pour Adultes, < 249 g, Stabilisation de la Nacelle à 3 Axes, Transmission Vidéo sur 10 km, Deux Batteries pour un Temps de Vol max. de 62 min",
+  "enhanced": true
 }

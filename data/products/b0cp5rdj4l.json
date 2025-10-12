@@ -1,9 +1,9 @@
 {
   "productId": "B0CP5RDJ4L",
-  "name": "BuyWeek Mini Drone avec Caméra 4K, L500 Pro MAX GPS Drone 360 ​​Degrés Évitement d'Obstacles Drones Télécommandé Sans Brosse 4K HD Photographie Aérienne Quadcopter Pliable",
-  "slug": "buyweek-mini-drone-avec-camera-4k-l500-pro-max-gps",
-  "description": "Évitement d'obstacles à 360 degrés: Les 360 degrés avant, arrière, gauche et droit du drone sont équipés de fonctions intelligentes d'évitement automatique d'obstacles, et les obstacles détectés pendant le vol éviteront automatiquement les obstacles, offrant ainsi une protection | Excellentes performances: La plage dynamique élevée, la haute résolution, la bonne reproduction des couleurs et l'expression de la lumière et des ombres rendent la scène nocturne sous l'objectif limpide et émouvante | Autonomie de 25 minutes: Le drone RC a une autonomie d'environ 25 minutes, vous permettant de prendre des photos de vos endroits préférés d'un coup, de décoller avec plaisir et de profiter de votre voyage de retour | Résistance au vent et plus de puissance: Le drone GPS L500 Pro MAX a un niveau de résistance au vent de 7 et une puissance plus abondante, ce qui permet de voler facilement n'importe où, que ce soit sur le plateau ou au bord de la mer | Double mode GPS et flux optique: Le double mode GPS et flux optique atteint avec précision le mode vol stationnaire pour l'altitude et la position, obtenant ainsi la résistance au vent et la stabilité de la photographie aérienne",
-  "shortDescription": "BuyWeek Mini Drone avec Caméra 4K, L500 Pro MAX GPS Drone 360 ​​Degrés Évitement d'Obstacles Drones ",
+  "name": "Drone L500 Pro MAX 4K avec GPS et Caméra HD",
+  "slug": "pro-l500-drone-max-avec-gps",
+  "description": "Découvrez le **BuyWeek Mini Drone L500 Pro MAX**, votre partenaire idéal pour une **photographie aérienne 4K HD époustouflante**. Équipé d'un **GPS précis** pour un vol stable et d'une **caméra 4K HD** haute résolution, ce drone capture des images et vidéos d'une qualité exceptionnelle. Sa technologie d'**évitement d'obstacles à 360 degrés** garantit une sécurité maximale, même pour les débutants. Le **moteur sans balais** assure puissance et durabilité pour des performances optimales. Compact et **pliable**, il se transporte facilement pour capturer vos aventures où que vous soyez. Offrez-vous une perspective unique et des souvenirs inoubliables avec ce **drone télécommandé de pointe**.",
+  "shortDescription": "Drone 4K HD L500 Pro MAX avec GPS, évitement d'obstacles 360°, moteur sans balais et design pliable. Idéal pour la photographie aérienne. Prix : 99.0€",
   "price": "99.0",
   "compareAtPrice": 113,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BuyWeek",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone L500 Pro MAX 4K avec GPS et Caméra HD",
+    "description": "Drone 4K HD L500 Pro MAX avec GPS, évitement d'obstacles 360°, moteur sans balais et design pliable. Idéal pour la photographie aérienne. Prix : 99.0€",
+    "keywords": [
+      "drone l500 pro max 4k avec gps et caméra hd",
+      "drones pour photographie aérienne pro",
+      "visiter la boutique buyweek"
+    ],
+    "ogTitle": "Drone L500 Pro MAX 4K avec GPS et Caméra HD",
+    "ogDescription": "Drone 4K HD L500 Pro MAX avec GPS, évitement d'obstacles 360°, moteur sans balais et design pliable. Idéal pour la photographie aérienne. Prix : 99.0€"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Type : Drone télécommandé avec GPS et caméra 4K HD. Caractéristiques : Évitement d'obstacles 360°, moteur sans balais, pliable. Résolution Vidéo : 4K HD. Autonomie : [À compléter si information disponible]. Portée : [À compléter si information disponible]."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Oui, le L500 Pro MAX est conçu pour être intuitif. Son système GPS assure un vol stationnaire stable, et la fonction d'évitement d'obstacles à 360 degrés offre une sécurité accrue, le rendant idéal pour les pilotes débutants et expérimentés."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra ?",
+      "a": "Le drone est équipé d'une caméra 4K HD, offrant des images et vidéos d'une netteté et d'une clarté remarquables pour une photographie et une vidéographie aériennes de haute qualité."
+    },
+    {
+      "q": "Comment fonctionne l'évitement d'obstacles ?",
+      "a": "Le système d'évitement d'obstacles à 360 degrés utilise des capteurs avancés pour détecter les obstacles environnants et ajuster automatiquement la trajectoire du drone, prévenant ainsi les collisions."
+    },
+    {
+      "q": "Est-ce un drone pliable et facile à transporter ?",
+      "a": "Absolument ! Sa conception pliable le rend compact et pratique à ranger et à transporter, parfait pour emmener vos aventures photographiques partout avec vous."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.002800",
+  "originalName": "BuyWeek Mini Drone avec Caméra 4K, L500 Pro MAX GPS Drone 360 ​​Degrés Évitement d'Obstacles Drones Télécommandé Sans Brosse 4K HD Photographie Aérienne Quadcopter Pliable",
+  "enhanced": true
 }

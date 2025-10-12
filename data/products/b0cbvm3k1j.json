@@ -1,9 +1,9 @@
 {
   "productId": "B0CBVM3K1J",
-  "name": "Mini Drone avec Caméra, Drone Pliable 4K HD, Drone D'évitement d'obstacles à Quatre Voies, Drone Quadricoptère à Double Caméra, Jouets Cadeaux pour Enfants, Adultes, Débutants",
-  "slug": "mini-drone-avec-camera-drone-pliable-4k-hd-drone-d",
-  "description": "Prise de vue avec zoom 50x et double caméra HD 4K : cadrage avec zoom de 1 à 50x via l'application, prise de vue plus humaine, plus de liberté de cadrage. Double caméra 4K HD, commutation gratuite, doublement du champ de vision, voir plus. | Télécommande améliorée : signal haute fréquence 2,4 G, stabilité du signal, longue distance, prise en de plusieurs lectures simultanées sans interférence. | Fonction de filtre Beauty Plus : prise de vue et post-production en une seule fois, vous offrant une expérience photographique encore plus excellente. | Évitement d'obstacles omnidirectionnel : avec une capacité de détection infrarouge d'évitement d'obstacles à quatre côtés, peut détecter la distance d'évitement d'obstacles, arrêtera immédiatement de voler en cas d'obstacles, un contrôle plus facile et plus sûr. | Hauteur de survol intelligente : hauteur fixe de la pression de l'air, de sorte que vous pouvez voler facilement et de manière stable, où que vous soyez, à l'intérieur ou à l'extérieur, pour maintenir l'équilibre et la stabilité pour mieux voler, mieux tirer.",
-  "shortDescription": "Mini Drone avec Caméra, Drone Pliable 4K HD, Drone D'évitement d'obstacles à Quatre Voies, Drone Qua",
+  "name": "Mini Drone Pliable 4K HD avec Évitement d'Obstacles",
+  "slug": "mini-drone-pliable-avec-evitement-d-obstacles",
+  "description": "Découvrez le frisson du vol avec notre **Mini Drone Pliable 4K HD** ! Conçu pour les passionnés de technologie et les amateurs de photographie aérienne, ce drone quadricoptère combine **technologie avancée d'évitement d'obstacles** et **double caméra HD 4K** pour des prises de vue spectaculaires et des vols en toute sécurité. Son design pliable le rend ultra-portable, idéal pour emporter partout avec vous. Parfait comme **jouet cadeau innovant** pour enfants, adultes et débutants en quête d'une expérience drone facile et immersive. Profitez d'une **qualité d'image exceptionnelle** et d'une **manœuvrabilité intuitive** pour capturer vos moments préférés sous un nouvel angle.",
+  "shortDescription": "Mini drone pliable 4K HD avec évitement d'obstacles. Idéal comme cadeau tech pour tous âges.",
   "price": "67.0",
   "compareAtPrice": 77,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Bewinner",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Pliable 4K HD avec Évitement d'Obstacles",
+    "description": "Mini drone pliable 4K HD avec évitement d'obstacles. Idéal comme cadeau tech pour tous âges.",
+    "keywords": [
+      "mini drone pliable 4k hd avec évitement d'obstacles",
+      "mini drones pliables",
+      "visiter la boutique bewinner"
+    ],
+    "ogTitle": "Mini Drone Pliable 4K HD avec Évitement d'Obstacles",
+    "ogDescription": "Mini drone pliable 4K HD avec évitement d'obstacles. Idéal comme cadeau tech pour tous âges."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra : Double caméra 4K HD. Fonctionnalités : Évitement d'obstacles à quatre voies, vol pliable, contrôle facile. Idéal pour : Cadeaux enfants, adultes, débutants."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce drone est spécialement conçu avec des fonctionnalités intuitives et un système d'évitement d'obstacles pour garantir une expérience de vol simple et sécurisée, même pour les pilotes novices."
+    },
+    {
+      "q": "Quelle est la qualité d'image des caméras ?",
+      "a": "Le drone est équipé d'une double caméra 4K HD, offrant des photos et vidéos d'une netteté et d'une clarté impressionnantes pour capturer vos aventures aériennes."
+    },
+    {
+      "q": "Le drone est-il résistant aux chocs ?",
+      "a": "Grâce à son système d'évitement d'obstacles à quatre voies, le drone peut détecter et éviter les obstacles, réduisant ainsi considérablement le risque de collisions et de dommages."
+    },
+    {
+      "q": "Comment puis-je transporter ce mini drone ?",
+      "a": "Son design pliable le rend extrêmement compact et facile à transporter. Glissez-le dans votre sac à dos ou même dans votre poche pour des sessions de vol improvisées."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.364559",
+  "originalName": "Mini Drone avec Caméra, Drone Pliable 4K HD, Drone D'évitement d'obstacles à Quatre Voies, Drone Quadricoptère à Double Caméra, Jouets Cadeaux pour Enfants, Adultes, Débutants",
+  "enhanced": true
 }

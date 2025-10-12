@@ -1,9 +1,9 @@
 {
   "productId": "B0FDL8BGLR",
-  "name": "ASHATA Drone FPV avec Double Caméra, Gyroscope 6 Axes, WiFi, Quadricoptère RC, Flux Optique, Maintien D'altitude, 2,4 GHz, Anti-interférence, Lumière LED pour Débutants (White)",
-  "slug": "ashata-drone-fpv-avec-double-camera-gyroscope-6-ax",
-  "description": "[Stabilité et contrôle de vol] Avec la technologie du gyroscope à 6 axes et le mode de maintien de l'altitude de flux optique, ce drone offre une stabilité de vol exceptionnelle. Profitez d'un contrôle précis lors des manœuvres régulières de planant et de dynamique, ce qui le rend pour les débutants et les pilotes expérimentés. La technologie avancée assure des vols lisses et stables à chaque fois. | [Télécommande conviviale] La télécommande dispose d'un écran pour les visuels de vol en temps réel et le décollage et l'atterrissage en une touche, simplifiant les opérations pour les débutants. Avec des contrôles faciles à utiliser et une interface réactive, même les utilisateurs pour la première fois peuvent maîtriser ce drone rapidement. Profitez expérience de vol sans tracas avec cette télécommande pleine de fonctionnalités. | [Smart WiFi Connectivity] Connectez votre smartphone via le WiFi pour accéder aux opérations intelligentes comme le tournage geste, le contrôle de détection de gravité et la photographie automatique. Avec jusqu'à 50x zoom, vous pouvez améliorer votre expérience de vol et capturer des prises de vue détaillées à distance. L'application intuitive facilite le contrôle et la personnalisation des paramètres de votre drone. | [Technologie anti-interférence] En utilisant une technologie anti-ingérence 2,4 GHz, ce drone assure un vol flexible multicanal. La lumière LED constante permet des transitions transparentes du jour à la nuit, ce qui le rend adapté à divers scénarios. Que vous volez à l'intérieur ou à l'extérieur, ce drone offre des performances fiables. | [Système à double caméra] Ce drone RC est équipé d'un système à double caméra qui de superbes photos et vidéos aériennes. Le champ de plus large vous permet d'enregistrer sans effort des moments passionnants sous plusieurs angles. Que vous capturiez des paysages ou des plans d'action, ce drone assure facilement des images de haute qualité.",
-  "shortDescription": "ASHATA Drone FPV avec Double Caméra, Gyroscope 6 Axes, WiFi, Quadricoptère RC, Flux Optique, Maintie",
+  "name": "Drone FPV ASHATA 4K avec Double Caméra, Flux Optique et Maintien d'Altitude",
+  "slug": "drone-fpv-ashata-avec-double-camera",
+  "description": "Découvrez le monde vu du ciel avec le Drone FPV ASHATA, votre compagnon idéal pour des prises de vue aériennes époustouflantes. Équipé de deux caméras haute définition, d'un gyroscope 6 axes pour une stabilité accrue et de la technologie de flux optique, ce quadricoptère RC offre une expérience de vol immersive et simplifiée, même pour les débutants. Son système de maintien d'altitude intelligent assure des vols stables et des enregistrements fluides, tandis que la connectivité WiFi vous permet de visualiser en temps réel sur votre smartphone. La technologie 2.4 GHz anti-interférence garantit un contrôle précis et fiable. Doté de lumières LED intégrées pour des vols de nuit ou par faible luminosité, et d'un design élégant en blanc, ce drone est le cadeau parfait pour explorer votre environnement sous un nouvel angle. Prix attractif de 38.0€ pour une technologie de pointe accessible.",
+  "shortDescription": "Drone FPV ASHATA 4K, double caméra, flux optique, maintien d'altitude. Idéal débutants. WiFi, 2.4GHz, anti-interférence, LED. 38.0€.",
   "price": "38.0",
   "compareAtPrice": 43,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique ASHATA",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV ASHATA 4K avec Double Caméra, Flux Optique et Maintien d'Altitude",
+    "description": "Drone FPV ASHATA 4K, double caméra, flux optique, maintien d'altitude. Idéal débutants. WiFi, 2.4GHz, anti-interférence, LED. 38.0€.",
+    "keywords": [
+      "drone fpv ashata 4k avec double caméra, flux optique et maintien d'altitude",
+      "drones de course et fpv",
+      "visiter la boutique ashata"
+    ],
+    "ogTitle": "Drone FPV ASHATA 4K avec Double Caméra, Flux Optique et Maintien d'Altitude",
+    "ogDescription": "Drone FPV ASHATA 4K, double caméra, flux optique, maintien d'altitude. Idéal débutants. WiFi, 2.4GHz, anti-interférence, LED. 38.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone FPV ASHATA, Double Caméra, Gyroscope 6 Axes, WiFi, Quadricoptère RC, Flux Optique, Maintien d'Altitude, 2.4 GHz, Anti-interférence, Lumière LED, Blanc. Idéal pour débutants."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce drone FPV ASHATA est spécialement conçu pour les débutants. Son gyroscope 6 axes assure une stabilité remarquable, et la fonction de maintien d'altitude vous permet de vous concentrer sur la prise de vue plutôt que sur le contrôle complexe."
+    },
+    {
+      "q": "Quelle est la qualité des caméras ?",
+      "a": "Le drone est équipé de deux caméras, permettant des prises de vue sous différents angles. Vous obtiendrez des images et vidéos claires pour immortaliser vos aventures aériennes."
+    },
+    {
+      "q": "Comment puis-je voir les images en direct du drone ?",
+      "a": "Grâce à sa connectivité WiFi, vous pouvez facilement connecter le drone à votre smartphone ou tablette via une application dédiée et ainsi voir en temps réel ce que la caméra du drone filme."
+    },
+    {
+      "q": "La technologie anti-interférence est-elle efficace ?",
+      "a": "Oui, la technologie 2.4 GHz anti-interférence assure une connexion stable et fiable entre la télécommande et le drone, minimisant les risques de perturbations et garantissant un contrôle précis de votre appareil."
+    },
+    {
+      "q": "Peut-on voler avec ce drone la nuit ?",
+      "a": "Oui, les lumières LED intégrées permettent une meilleure visibilité du drone, facilitant ainsi le vol par faible luminosité ou même pendant la nuit."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:59.266752",
+  "originalName": "ASHATA Drone FPV avec Double Caméra, Gyroscope 6 Axes, WiFi, Quadricoptère RC, Flux Optique, Maintien D'altitude, 2,4 GHz, Anti-interférence, Lumière LED pour Débutants (White)",
+  "enhanced": true
 }

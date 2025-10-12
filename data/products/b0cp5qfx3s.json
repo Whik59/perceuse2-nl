@@ -1,9 +1,9 @@
 {
   "productId": "B0CP5QFX3S",
-  "name": "BuyWeek Mini Drone avec Caméra HD 8K, Drone RC à Grille Aérienne Portable Drone de Poche 4 Axes Drones Télécommandés pour Garçons Filles Débutants",
-  "slug": "buyweek-mini-drone-avec-camera-hd-8k-drone-rc-a-gr",
-  "description": "【Prise de vue HD 8K】Le mini drone est équipé d'une caméra HD, vous pouvez filmer en vol, avec une qualité d'image claire qui facilite la prise de belles photos. | 【Contrôle WIFI à un bouton】Grâce au Wifi, équipé d'une application pour téléphone portable, vous pouvez contrôler entièrement le drone et regarder les images aériennes instantanément. Conçu pour les débutants avec un seul bouton, un seul bouton peut facilement réaliser le décollage d'un bouton. | 【Survol stable et cascades cool】Pendant le vol, le drone RC maintiendra automatiquement un vol stationnaire stable en temps réel, et grâce à la télécommande, vous pouvez également réaliser des cascades cool à 360 degrés dans les airs avec une seule touche. | 【Réglage de la vitesse】Drones avec deux réglages de vitesse, vous pouvez choisir en fonction de vos compétences de vol personnelles, il est recommandé de voler en extérieur pour utiliser une vitesse élevée et une meilleure résistance au vent. | 【Entièrement enveloppé】Conception du corps de petite taille, plus facile à transporter, à tout moment et en tout lieu hors utilisation, conception de protection du corps enveloppante, non seulement peut protéger efficacement les parties du corps, mais plus efficace pour éviter les rayures.",
-  "shortDescription": "BuyWeek Mini Drone avec Caméra HD 8K, Drone RC à Grille Aérienne Portable Drone de Poche 4 Axes Dron",
+  "name": "Mini Drone BuyWeek : Capturez le Monde en 8K",
+  "slug": "mini-drone-buyweek-capturez-monde",
+  "description": "Découvrez le Mini Drone BuyWeek avec caméra HD 8K, le compagnon idéal pour explorer le ciel ! Ce drone RC portable, doté d'une grille aérienne et d'un système 4 axes, offre une stabilité et une maniabilité exceptionnelles. Parfait pour les débutants, garçons et filles, ce drone de poche télécommandé permet de capturer des vidéos et photos époustouflantes en haute résolution. Facile à piloter et à transporter, il est conçu pour l'aventure. Achetez dès maintenant le drone parfait pour des vols inoubliables et des perspectives aériennes inédites.",
+  "shortDescription": "Mini Drone BuyWeek avec Caméra HD 8K. Portable, 4 axes, idéal pour débutants. Capturez des vues aériennes spectaculaires.",
   "price": "37.0",
   "compareAtPrice": 42,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BuyWeek",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone BuyWeek : Capturez le Monde en 8K",
+    "description": "Mini Drone BuyWeek avec Caméra HD 8K. Portable, 4 axes, idéal pour débutants. Capturez des vues aériennes spectaculaires.",
+    "keywords": [
+      "mini drone buyweek : capturez le monde en 8k",
+      "mini drones avec caméra",
+      "visiter la boutique buyweek"
+    ],
+    "ogTitle": "Mini Drone BuyWeek : Capturez le Monde en 8K",
+    "ogDescription": "Mini Drone BuyWeek avec Caméra HD 8K. Portable, 4 axes, idéal pour débutants. Capturez des vues aériennes spectaculaires."
   },
   "reviews": {
     "averageRating": 3.7,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra HD 8K, drone RC portable, grille aérienne, 4 axes, idéal pour débutants, télécommandé, format de poche."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra de ce mini drone ?",
+      "a": "Le Mini Drone BuyWeek est équipé d'une caméra HD capable de filmer et de prendre des photos en résolution 8K, vous offrant une qualité d'image exceptionnelle pour vos prises de vue aériennes."
+    },
+    {
+      "q": "Est-ce que ce drone est facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce drone a été conçu pour être très intuitif et facile à piloter, ce qui en fait le choix parfait pour les garçons, les filles et tous les débutants souhaitant s'initier au pilotage de drone."
+    },
+    {
+      "q": "Quelle est la particularité de sa conception portable ?",
+      "a": "Sa conception légère et compacte, de type drone de poche, ainsi que sa grille aérienne intégrée, le rendent extrêmement portable et facile à transporter partout où vous allez. Il est prêt à voler en un instant !"
+    },
+    {
+      "q": "Quel type de technologie de stabilisation utilise le drone ?",
+      "a": "Ce drone RC intègre un système de stabilisation à 4 axes, garantissant des vols stables et fluides, même en conditions de vent léger, et permettant des prises de vue aériennes de haute qualité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.664742",
+  "originalName": "BuyWeek Mini Drone avec Caméra HD 8K, Drone RC à Grille Aérienne Portable Drone de Poche 4 Axes Drones Télécommandés pour Garçons Filles Débutants",
+  "enhanced": true
 }

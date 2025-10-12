@@ -1,9 +1,9 @@
 {
   "productId": "B0D317WTTT",
-  "name": "Wipkviey drone avec camera 1080P HD - T26 drones adulte, Avec vidéo en direct WiFi, Flip 3D, Capteur de gravité, Maintien de l'altitude, Mode sans tête, Pour les enfants ou les débutants",
-  "slug": "wipkviey-drone-avec-camera-1080p-hd-t26-drones-adu",
-  "description": "Rotation à 360° : Appuyez sur le bouton de retournement et contrôlez le joystick droit, le drone tournera à 360° dans les airs. Appuyez sur le bouton \"One Key Start/Landing\", et le drone décollera ou atterrira automatiquement. Le drone contient un total de 3 modes de vitesse de vol, basse vitesse pour les enfants et les débutants. | Facile à contrôler : Les multiples méthodes de télécommande et les fonctions de fonctionnement à une touche sont exclusivement conçues pour les débutants. Vous pouvez basculer entre la commande par bouton, la commande par application mobile, la commande par gravité, la commande vocale et d'autres modes utiles en fonction des différentes situations. | Maintien de l'altitude : Lorsque le vent est moins affecté, ce drone peut se mettre en vol stationnaire automatiquement, ce mode peut assurer un vol stationnaire stable à une certaine hauteur dans l'air. Si le drone s'incline vers la gauche ou la droite dans l'air, vous devez utiliser le bouton trim pour aider au vol stationnaire. | Alerte intelligente: Si la batterie de l'émetteur ou du drone est faible, les lumières de l'émetteur et du drone clignoteront pour déclencher l'alarme. La distance maximale de contrôle à distance du drone est de 80 mètres, veuillez ne pas voler sur la distance maximale de contrôle à distance, sinon le drone perdra le contrôle. | Vol de longue durée : En mode de vol normal, 2 batteries rechargeables permettent de voler 12 minutes chacune, soit un total de 24 minutes. La batterie peut être remplacée simplement en la branchant et en la débranchant. Le bloc-piles est doté d'un dispositif de protection contre la sur-expansion de la charge et est plus sûr à charger.",
-  "shortDescription": "Wipkviey drone avec camera 1080P HD - T26 drones adulte, Avec vidéo en direct WiFi, Flip 3D, Capteur",
+  "name": "Drone Wipkviey T26 avec Caméra HD 1080P et Wi-Fi",
+  "slug": "drone-wipkviey-t26-avec-camera-1080p",
+  "description": "Découvrez le drone Wipkviey T26, l'appareil parfait pour explorer le ciel ! Doté d'une caméra HD 1080P, ce drone offre des images et vidéos d'une clarté remarquable. Transmettez vos exploits en direct grâce à la connexion Wi-Fi et visualisez le retour vidéo sur votre smartphone. Idéal pour adultes et enfants, même débutants, il intègre des fonctionnalités intelligentes comme le Flip 3D pour des manœuvres spectaculaires, le capteur de gravité pour un pilotage intuitif, le maintien d'altitude pour des vols stables, et le mode sans tête qui simplifie grandement le contrôle. Avec son prix abordable de 44.0€, c'est le cadeau technologique parfait pour les amateurs de drones !",
+  "shortDescription": "Drone Wipkviey T26 : Caméra HD 1080P, Wi-Fi, retour vidéo en direct, Flip 3D, capteur de gravité, maintien d'altitude. Idéal débutants & enfants. 44.0€",
   "price": "44.0",
   "compareAtPrice": 50,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Wipkviey",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Wipkviey T26 avec Caméra HD 1080P et Wi-Fi",
+    "description": "Drone Wipkviey T26 : Caméra HD 1080P, Wi-Fi, retour vidéo en direct, Flip 3D, capteur de gravité, maintien d'altitude. Idéal débutants & enfants. 44.0€",
+    "keywords": [
+      "drone wipkviey t26 avec caméra hd 1080p et wi-fi",
+      "drones d'analyse de cultures (multispectral)",
+      "marque : wipkviey"
+    ],
+    "ogTitle": "Drone Wipkviey T26 avec Caméra HD 1080P et Wi-Fi",
+    "ogDescription": "Drone Wipkviey T26 : Caméra HD 1080P, Wi-Fi, retour vidéo en direct, Flip 3D, capteur de gravité, maintien d'altitude. Idéal débutants & enfants. 44.0€"
   },
   "reviews": {
     "averageRating": 3.1,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra HD 1080P, retour vidéo Wi-Fi en direct, Flip 3D, capteur de gravité, maintien d'altitude, mode sans tête, adapté aux enfants et débutants."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone Wipkviey T26 ?",
+      "a": "Le drone Wipkviey T26 est équipé d'une caméra d'une résolution de 1080 pixels (Full HD) pour des images et vidéos de haute qualité."
+    },
+    {
+      "q": "Est-il facile de piloter ce drone pour un débutant ?",
+      "a": "Absolument ! Le drone T26 est conçu pour les débutants avec son mode sans tête, son maintien d'altitude automatique et son capteur de gravité pour une prise en main intuitive."
+    },
+    {
+      "q": "Puis-je voir ce que filme le drone en temps réel ?",
+      "a": "Oui, grâce à la technologie Wi-Fi intégrée, vous pouvez profiter du retour vidéo en direct sur votre smartphone et voir exactement ce que filme votre drone."
+    },
+    {
+      "q": "Que signifie le 'Flip 3D' ?",
+      "a": "Le Flip 3D est une fonctionnalité qui permet au drone d'effectuer des rotations acrobatiques à 360 degrés, ajoutant un élément de spectacle à vos vols."
+    },
+    {
+      "q": "Ce drone est-il adapté pour les enfants ?",
+      "a": "Oui, le drone Wipkviey T26 est conçu pour être utilisé par les enfants et les adultes, offrant une expérience de vol ludique et sécurisée grâce à ses fonctions d'assistance au pilotage."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:37.251819",
+  "originalName": "Wipkviey drone avec camera 1080P HD - T26 drones adulte, Avec vidéo en direct WiFi, Flip 3D, Capteur de gravité, Maintien de l'altitude, Mode sans tête, Pour les enfants ou les débutants",
+  "enhanced": true
 }

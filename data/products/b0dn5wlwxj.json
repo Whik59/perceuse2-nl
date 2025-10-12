@@ -1,9 +1,9 @@
 {
   "productId": "B0DN5WLWXJ",
-  "name": "500W Chargeur USB C,8 Ports Multiple GaN Chargeur Secteur avec 6 USB-C et 2 USB-A,Chargeur Rapide Station de Charge Adaptateur Compatible avec MacBook Pro/Air Laptop,iPhone,iPad Pro,Galaxy,SteamDeck",
-  "slug": "500w-chargeur-usb-c8-ports-multiple-gan-chargeur-s",
-  "description": "【Chargeur USB C 8 en 1】 Ce bloc de chargeur USB C offre 8 options de puissance de charge avec 6 ports USB-C et 2 ports USB-A. Un tel chargeur multiport USB C peut gérer tous vos appareils à grande vitesse. Ce qui est cool, c’est que vous pouvez charger un ordinateur portable avec les meilleurs ports USB C de 100 W et également compatible avec la charge rapide PPS 45 W. | 【Dernière technologie de puce GAN III】 Le chargeur USB C a adopté la technologie de puce de génération GaN III, un système de multiprotection intégré et des micropuces haut de gamme. Avec une efficacité énergétique plus élevée, une plus grande résistance aux rayonnements et une dissipation thermique améliorée, le nitrure de gallium (GaN) rend nos chargeurs plus petits et plus sûrs sans sacrifier une goutte de puissance. | 【Chargeur GaN à charge rapide】 La station de charge USB C fournit la puissance de sortie optimale pour charger différents appareils à pleine vitesse. Il est possible de charger rapidement votre ordinateur portable et votre iPhone en même temps. En chargeant le MacBook Pro 14\" à 38% en une demi-heure, en chargeant l’iPhone à 50% en une demi-heure, le chipset GaN augmente l’efficacité de charge jusqu’à 90%. | 【Compatibilité universelle】chargez presque tous les téléphones portables et tablettes à vitesse maximale via les entrées USB-C et USB-A standard. Compatible avec MacBook Pro, MacBook Air et Dell XPS 15\"/13\", tous les Airpods d'iPhone, iPad et plus encore | 【Contenu 】1 adaptateur de chargeur USB, 1 câble d'alimentation amovible de 4,9 m, 1 support de bureau plus pratique à démonter et à transporter, et il n'y a pas de courte restriction de câble.",
-  "shortDescription": "500W Chargeur USB C,8 Ports Multiple GaN Chargeur Secteur avec 6 USB-C et 2 USB-A,Chargeur Rapide St",
+  "name": "Station de Charge USB-C GaN 500W 8 Ports",
+  "slug": "500w-station-charge-usb-c-gan-ports",
+  "description": "Boostez votre efficacité avec notre **station de charge USB C 500W GaN de pointe**. Dotée de **8 ports polyvalents** (6 USB-C et 2 USB-A), cette **station de charge rapide** est l'adaptateur ultime pour tous vos appareils. Rechargez simultanément vos **MacBook Pro/Air, laptops, iPhone, iPad Pro, Samsung Galaxy, SteamDeck** et bien plus encore avec une puissance maximale et une technologie GaN avancée pour une performance et une sécurité accrues. Un investissement essentiel pour les professionnels et les technophiles cherchant une solution de charge unifiée et performante.",
+  "shortDescription": "Station de charge USB-C GaN 500W avec 8 ports (6 USB-C, 2 USB-A). Recharge rapide et universelle pour MacBook, iPhone, iPad, Galaxy, SteamDeck et laptops.",
   "price": "30.0",
   "compareAtPrice": 34,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : ZHITING",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Station de Charge USB-C GaN 500W 8 Ports",
+    "description": "Station de charge USB-C GaN 500W avec 8 ports (6 USB-C, 2 USB-A). Recharge rapide et universelle pour MacBook, iPhone, iPad, Galaxy, SteamDeck et laptops.",
+    "keywords": [
+      "station de charge usb-c gan 500w 8 ports",
+      "chargeurs multiples et hubs",
+      "marque : zhiting"
+    ],
+    "ogTitle": "Station de Charge USB-C GaN 500W 8 Ports",
+    "ogDescription": "Station de charge USB-C GaN 500W avec 8 ports (6 USB-C, 2 USB-A). Recharge rapide et universelle pour MacBook, iPhone, iPad, Galaxy, SteamDeck et laptops."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -38,5 +44,35 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Puissance Totale": "500W",
+    "Nombre de Ports": "8",
+    "Ports USB-C": "6",
+    "Ports USB-A": "2",
+    "Technologie": "GaN (Nitrure de Gallium)",
+    "Charge Rapide": "Oui",
+    "Compatibilité": "MacBook Pro/Air, Laptops, iPhone, iPad Pro, Samsung Galaxy, SteamDeck, et autres appareils USB"
+  },
+  "faq": [
+    {
+      "q": "Quels appareils puis-je charger avec ce chargeur 500W ?",
+      "a": "Ce chargeur est compatible avec une large gamme d'appareils nécessitant une charge via USB-C ou USB-A, incluant les MacBook Pro/Air, la plupart des laptops, les iPhone, les iPad Pro, les appareils Samsung Galaxy, le SteamDeck, et bien d'autres."
+    },
+    {
+      "q": "Quelle est la technologie GaN et pourquoi est-elle importante ?",
+      "a": "La technologie GaN (Nitrure de Gallium) permet de fabriquer des chargeurs plus petits, plus légers et plus efficaces, tout en offrant une puissance de charge plus élevée et une meilleure dissipation de la chaleur. Cela se traduit par une charge plus rapide et plus sûre pour vos appareils."
+    },
+    {
+      "q": "Puis-je charger mon MacBook Pro et mon iPhone en même temps ?",
+      "a": "Absolument ! Grâce à ses 8 ports et sa puissance totale de 500W, vous pouvez charger plusieurs appareils simultanément, y compris des laptops gourmands en énergie comme le MacBook Pro et des smartphones comme l'iPhone."
+    },
+    {
+      "q": "Ce chargeur est-il idéal pour les voyages ?",
+      "a": "Oui, sa compacité relative pour une telle puissance et sa capacité à charger plusieurs appareils en font un compagnon de voyage idéal, réduisant le besoin d'emporter plusieurs adaptateurs."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.531515",
+  "originalName": "500W Chargeur USB C,8 Ports Multiple GaN Chargeur Secteur avec 6 USB-C et 2 USB-A,Chargeur Rapide Station de Charge Adaptateur Compatible avec MacBook Pro/Air Laptop,iPhone,iPad Pro,Galaxy,SteamDeck",
+  "enhanced": true
 }

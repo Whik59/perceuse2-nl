@@ -1,9 +1,9 @@
 {
   "productId": "B0FQZT62WQ",
-  "name": "Drone avec Caméra 1080P, Écran FPV, Transmission, Drone Pliable, Moteur sans Balais, Auto Suivi & Carte SD, pour Adultes/Enfants/Débutants Lunettes VR, Lumières LED, Quadricoptère(Black, 22.5x19cm)",
-  "slug": "drone-avec-camera-1080p-ecran-fpv-transmission-dro",
-  "description": "Équipé de lunettes vr : les lunettes vr ont des écrans intégrés et peuvent être connectées via wifi pour une expérience de vol à la première personne. | Éclairage led élégant : l'éclairage led élégant de notre drone améliore votre expérience de vol de nuit et votre haute visibilité. | Moteur brushless haute performance et caméra esc : notre drone est équipé de moteurs brushless, offrant une vitesse élevée et une grande stabilité. le système de maintien d'altitude intégré et la fonction de détection du sol offrent une forte résistance vent pour un vol stable. la caméra esc peut enregistrer et filmer pour une expérience visuelle exceptionnelle. | Fonctionnalités multifonctionnelles pour améliorer l'expérience de vol : notre drone est équipé d'une variété de fonctionnalités pour améliorer votre expérience de vol, notamment une caméra 1080p, 18 de vol, une prise de surround, un suivi intelligent, une rotation à grande vitesse, un mode sans tête, un décollage/atterrissage à un bouton, un maintien d'altitude, un retournement à 360°, une conception de et de la musique. | Forte portabilité, équipé d'un système de transport et d'accessoires : conçu pour être pratique et équipé d'un système de transport pour les déplacements en extérieur, notre drone comprend une télécommande, une carte mémoire, un lecteur de carte et un ventilateur de rechange, ce qui en fait un appareil idéal pour les passionnés de drones. polyvalent, facile à , il est idéal pour les activités de plein air.",
-  "shortDescription": "Drone avec Caméra 1080P, Écran FPV, Transmission, Drone Pliable, Moteur sans Balais, Auto Suivi & Ca",
+  "name": "Drone FPV Pliable 1080P avec Caméra, Moteur Sans Balais et Auto Suivi",
+  "slug": "drone-fpv-pliable-1080p-avec-camera",
+  "description": "Découvrez le monde sous un nouvel angle avec notre Drone FPV Pliable 1080P, l'appareil idéal pour adultes, enfants et débutants. Doté d'une transmission vidéo en temps réel sur écran FPV, ce quadricoptère offre une expérience immersive inégalée. Son moteur sans balais garantit puissance et durabilité, tandis que la fonction d'auto suivi vous permet de capturer des images spectaculaires sans effort. Léger, pliable et facile à transporter (22.5x19cm), il est prêt à vous accompagner dans toutes vos aventures. Compatible avec les lunettes VR pour une immersion totale et équipé de lumières LED pour des vols nocturnes. Inclut une carte SD pour stocker vos plus beaux moments. Un concentré de technologie pour des prises de vue aériennes professionnelles, le tout pour 104.0€.",
+  "shortDescription": "Drone FPV 1080P pliable avec caméra, moteur sans balais et auto suivi. Idéal débutants/adultes/enfants. Compatible VR. 104.0€.",
   "price": "104.0",
   "compareAtPrice": 119,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Générique",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV Pliable 1080P avec Caméra, Moteur Sans Balais et Auto Suivi",
+    "description": "Drone FPV 1080P pliable avec caméra, moteur sans balais et auto suivi. Idéal débutants/adultes/enfants. Compatible VR. 104.0€.",
+    "keywords": [
+      "drone fpv pliable 1080p avec caméra, moteur sans balais et auto suivi",
+      "drones avec caméra",
+      "marque : générique"
+    ],
+    "ogTitle": "Drone FPV Pliable 1080P avec Caméra, Moteur Sans Balais et Auto Suivi",
+    "ogDescription": "Drone FPV 1080P pliable avec caméra, moteur sans balais et auto suivi. Idéal débutants/adultes/enfants. Compatible VR. 104.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 1080P, Écran FPV, Transmission Vidéo, Drone Pliable, Moteur Sans Balais, Auto Suivi, Compatible Lunettes VR, Lumières LED, Quadricoptère, Carte SD incluse. Dimensions : 22.5x19cm. Couleur : Noir."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce drone a été conçu pour être intuitif et facile à prendre en main, même pour les débutants. Ses fonctions comme l'auto suivi simplifient grandement le pilotage."
+    },
+    {
+      "q": "La fonction auto suivi est-elle efficace ?",
+      "a": "Oui, la fonction d'auto suivi utilise une technologie avancée pour maintenir le drone centré sur sa cible, vous permettant de filmer des sujets en mouvement sans perdre la mise au point."
+    },
+    {
+      "q": "Puis-je utiliser ce drone avec des lunettes VR ?",
+      "a": "Oui, ce drone est entièrement compatible avec les lunettes VR (vendues séparément ou parfois incluses selon les packs), pour une expérience de vol immersive à la première personne."
+    },
+    {
+      "q": "Quelle est la résolution de la caméra ?",
+      "a": "La caméra intégrée filme en haute définition 1080P, garantissant des images et des vidéos d'une excellente qualité."
+    },
+    {
+      "q": "Le drone est-il livré avec une carte mémoire ?",
+      "a": "Oui, ce drone est fourni avec une carte SD, vous permettant de commencer à enregistrer vos vols dès sa réception."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:37.556845",
+  "originalName": "Drone avec Caméra 1080P, Écran FPV, Transmission, Drone Pliable, Moteur sans Balais, Auto Suivi & Carte SD, pour Adultes/Enfants/Débutants Lunettes VR, Lumières LED, Quadricoptère(Black, 22.5x19cm)",
+  "enhanced": true
 }

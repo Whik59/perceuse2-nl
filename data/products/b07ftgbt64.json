@@ -1,9 +1,9 @@
 {
   "productId": "B07FTGBT64",
-  "name": "DJI O4 Air Unit pour drone FPV, transmission numérique, faible latence 20 ms, portée maximale 10 km, vidéo 4K/60 ips, vue en direct 1080p/100 ips, corps léger de 8,2 g, capteur CMOS 1/2 pouce",
-  "slug": "dji-o4-air-unit-pour-drone-fpv-transmission-numeri",
-  "description": "Qualité max. de transmission vidéo H.265 1 080p/100 ips - DJI O4 Air Unit offre une qualité max. de transmission de 1 080p/100 ips, proposant aux utilisateurs une qualité de flux de transmission cristalline pour un vol hyper-immersif. | Plage de transmission vidéo optimale maximale de 10 km - Profitez d’un flux de transmission claire à des distances allant jusqu’à 10 km [3], vous permettant de voler plus loin et de capturer plus avec n’importe quelle configuration. | Latence de transmission vidéo la plus faible de 20 ms - Bénéficiez d’une plus grande réactivité avec la latence ultra-faible de 20 ms [5] de DJI O4 Air Unit, garantissant un contrôle fluide et précis. | Capteur CMOS 1/2 pouce - DJI O4 Air Unit est doté d’un capteur 1/2 pouce, procurant une qualité d’image exceptionnelle et offrant aux créateurs une flexibilité accrue en post-production. | Vidéo 4K/60 ips - Capturez des séquences en 4K/60 ips de haute qualité, garantissant des enregistrements clairs et fluides pour vos projets.",
-  "shortDescription": "DJI O4 Air Unit pour drone FPV, transmission numérique, faible latence 20 ms, portée maximale 10 km,",
+  "name": "DJI O4 Air Unit : Transmission FPV Haute Performance",
+  "slug": "dji-air-unit-transmission-fpv-haute",
+  "description": "Révolutionnez votre expérience de pilotage FPV avec le DJI O4 Air Unit. Conçu pour les passionnés de drones de course et de freestyle, ce système de transmission numérique offre une latence ultra-faible de 20 ms, une portée impressionnante de 10 km et une qualité vidéo époustouflante. Capté en 4K/60 ips et diffusé en direct en 1080p/100 ips, vous ne manquerez plus jamais un détail, même à haute vitesse. Son corps léger de seulement 8,2 g et son capteur CMOS 1/2 pouce garantissent des performances optimales et des images d'une clarté exceptionnelle. Le DJI O4 Air Unit est l'équipement indispensable pour repousser les limites de vos vols FPV. Prix : 115.0€.",
+  "shortDescription": "DJI O4 Air Unit : Transmission FPV numérique, faible latence 20ms, portée 10km, vidéo 4K/60ips, léger 8.2g. Idéal pour drones FPV haute performance. 115.0€.",
   "price": "115.0",
   "compareAtPrice": 132,
   "images": [
@@ -31,9 +31,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "DJI O4 Air Unit : Transmission FPV Haute Performance",
+    "description": "DJI O4 Air Unit : Transmission FPV numérique, faible latence 20ms, portée 10km, vidéo 4K/60ips, léger 8.2g. Idéal pour drones FPV haute performance. 115.0€.",
+    "keywords": [
+      "dji o4 air unit : transmission fpv haute performance",
+      "drones portée 1 à 5 km",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "DJI O4 Air Unit : Transmission FPV Haute Performance",
+    "ogDescription": "DJI O4 Air Unit : Transmission FPV numérique, faible latence 20ms, portée 10km, vidéo 4K/60ips, léger 8.2g. Idéal pour drones FPV haute performance. 115.0€."
   },
   "reviews": {
     "averageRating": 4.3,
@@ -45,5 +51,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Transmission numérique FPV, Latence 20 ms, Portée 10 km, Vidéo 4K/60 ips, Vue en direct 1080p/100 ips, Capteur CMOS 1/2 pouce, Poids 8,2 g"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la principale caractéristique du DJI O4 Air Unit ?",
+      "a": "La principale caractéristique du DJI O4 Air Unit est sa transmission numérique FPV avancée, offrant une latence incroyablement faible de 20 ms pour un contrôle en temps réel et précis de votre drone."
+    },
+    {
+      "q": "Quelle est la portée maximale de la transmission du DJI O4 Air Unit ?",
+      "a": "Le DJI O4 Air Unit offre une portée de transmission maximale impressionnante de 10 km, vous permettant d'explorer de vastes zones sans interruption de signal."
+    },
+    {
+      "q": "Quelle est la résolution vidéo prise en charge par le DJI O4 Air Unit ?",
+      "a": "Le DJI O4 Air Unit supporte l'enregistrement vidéo en 4K à 60 ips pour une qualité d'image exceptionnelle, et offre une vue en direct en 1080p à 100 ips pour un retour vidéo fluide et réactif."
+    },
+    {
+      "q": "Le DJI O4 Air Unit est-il compatible avec d'autres systèmes FPV ?",
+      "a": "Oui, le DJI O4 Air Unit est conçu pour une intégration optimale avec une large gamme de drones FPV, offrant une compatibilité étendue pour une flexibilité maximale."
+    },
+    {
+      "q": "Quel est le poids du DJI O4 Air Unit ?",
+      "a": "Le DJI O4 Air Unit est remarquablement léger, avec un corps pesant seulement 8,2 g, ce qui est idéal pour ne pas alourdir votre drone FPV et maintenir des performances de vol optimales."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.819521",
+  "originalName": "DJI O4 Air Unit pour drone FPV, transmission numérique, faible latence 20 ms, portée maximale 10 km, vidéo 4K/60 ips, vue en direct 1080p/100 ips, corps léger de 8,2 g, capteur CMOS 1/2 pouce",
+  "enhanced": true
 }

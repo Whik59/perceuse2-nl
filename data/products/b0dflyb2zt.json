@@ -1,9 +1,9 @@
 {
   "productId": "B0DFLYB2ZT",
-  "name": "MINGPINHUIUS Drone GPS avec Caméra 4K HD, Quadricoptère RC avec Retour Automatique, Transmission d'image 5G WiFi, 50 Min. Long Temps de Vol, avec Moteur Sans Brosse, Mode Sans Tête et Altitude Mainten",
-  "slug": "mingpinhuius-drone-gps-avec-camera-4k-hd-quadricop",
-  "description": "Drone GPS intelligent avec fonction de retour automatique : Grâce au système GPS de haute précision offrant des données de localisation en temps réel pour le drone 4K, vous pouvez toujours garder un œil sur votre drone. Le capteur de pression d'air assure un vol stable et facile. La fonction intelligente de retour automatique fait en sorte que votre drone 4K avec caméra ne se perd jamais – même en cas de faible niveau de batterie ou de perte de signal. | Drone de haute qualité avec caméra 4K : Expérimentez des prises de vue aériennes époustouflantes en qualité professionnelle grâce à la caméra ultra-claire 4K du drone, avec une inclinaison de 150° et un grand angle de 120°. Le zoom 50x vous permet de capturer des détails de loin et de les sauvegarder directement sur votre smartphone. | Transmission d'image avancée par WiFi 5G : Profitez d'une portée de transmission élevée jusqu'à 600 mètres avec des canaux à haute vitesse 5G. Toutes les actions sur la télécommande sont rapidement exécutées par le drone avec caméra. La télécommande du drone prend en charge une portée allant jusqu'à 1000 mètres. Ne manquez aucun détail avec la transmission d'image instantanée directement sur votre smartphone compatible WiFi 5G. | Expérience de vol améliorée avec une longue durée de vol : Profitez d'un temps de vol étendu jusqu'à 50 minutes avec deux batteries 3,7 V 2000 mAh incluses. Des fonctionnalités supplémentaires comme le maintien d'altitude et le mode sans tête, le décollage/atterrissage à une touche et l'ajustement de la vitesse assurent une utilisation facile et sécurisée du drone avec caméra 4K. | Plusieurs options de contrôle et application conviviale : Contrôlez votre drone GPS soit avec la télécommande de charge USB fournie, soit avec votre smartphone à l'aide d'une application conviviale qui offre des fonctions supplémentaires telles que 'Suivez-moi' et 'Vol en cercle'.",
-  "shortDescription": "MINGPINHUIUS Drone GPS avec Caméra 4K HD, Quadricoptère RC avec Retour Automatique, Transmission d'i",
+  "name": "Drone MINGPINHUIUS GPS 4K HD | 50 Min Vol | Moteur Brushless",
+  "slug": "drone-mingpinhuius-gps-min-vol-moteur",
+  "description": "Découvrez le drone MINGPINHUIUS, votre compagnon de vol idéal pour des prises de vue aériennes époustouflantes. Doté d'une **caméra 4K HD**, ce quadricoptère RC capture des images et vidéos d'une clarté exceptionnelle. Profitez d'une liberté de mouvement grâce à la **transmission d'image 5G WiFi** en temps réel et d'une autonomie impressionnante de **50 minutes de vol** grâce à ses batteries longue durée. Le **moteur sans brosse** assure performance et durabilité, tandis que le **GPS intégré** garantit un retour automatique précis et sécurisé. Le **mode sans tête** simplifie le pilotage pour les débutants, et la fonction de **maintien d'altitude** permet de stabiliser le drone pour des prises de vue parfaites. Un investissement technologique à un prix exceptionnel de 127.0€.",
+  "shortDescription": "Drone MINGPINHUIUS 4K HD GPS | 50 min autonomie | 5G WiFi | Moteur Brushless | Retour Auto",
   "price": "127.0",
   "compareAtPrice": 146,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : MINGPINHUIUS",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone MINGPINHUIUS GPS 4K HD | 50 Min Vol | Moteur Brushless",
+    "description": "Drone MINGPINHUIUS 4K HD GPS | 50 min autonomie | 5G WiFi | Moteur Brushless | Retour Auto",
+    "keywords": [
+      "drone mingpinhuius gps 4k hd | 50 min vol | moteur brushless",
+      "drones cinéma à long temps de vol",
+      "marque : mingpinhuius"
+    ],
+    "ogTitle": "Drone MINGPINHUIUS GPS 4K HD | 50 Min Vol | Moteur Brushless",
+    "ogDescription": "Drone MINGPINHUIUS 4K HD GPS | 50 min autonomie | 5G WiFi | Moteur Brushless | Retour Auto"
   },
   "reviews": {
     "averageRating": 3.0,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone MINGPINHUIUS avec GPS et caméra 4K HD. Quadricoptère RC avec retour automatique, transmission d'image 5G WiFi, autonomie de 50 minutes, moteur sans brosse, mode sans tête et maintien d'altitude."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone MINGPINHUIUS ?",
+      "a": "Le drone MINGPINHUIUS est équipé d'une caméra haute définition 4K HD pour des images et vidéos d'une qualité remarquable."
+    },
+    {
+      "q": "Quelle est la durée de vol maximale de ce drone ?",
+      "a": "Ce quadricoptère RC offre une autonomie de vol impressionnante de 50 minutes, vous permettant de profiter pleinement de vos sessions de pilotage."
+    },
+    {
+      "q": "Le drone MINGPINHUIUS est-il adapté aux débutants ?",
+      "a": "Oui, grâce au mode sans tête et à la fonction de maintien d'altitude, le drone MINGPINHUIUS est très facile à piloter, même pour les personnes débutantes en modélisme aérien."
+    },
+    {
+      "q": "Comment fonctionne le retour automatique ?",
+      "a": "Le système GPS intégré permet au drone de revenir automatiquement à son point de départ en cas de perte de signal ou de batterie faible, assurant ainsi sa sécurité."
+    },
+    {
+      "q": "Quel type de moteur équipe ce drone ?",
+      "a": "Le drone MINGPINHUIUS est équipé d'un moteur sans brosse (brushless), reconnu pour sa puissance, son efficacité et sa longévité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:40.621105",
+  "originalName": "MINGPINHUIUS Drone GPS avec Caméra 4K HD, Quadricoptère RC avec Retour Automatique, Transmission d'image 5G WiFi, 50 Min. Long Temps de Vol, avec Moteur Sans Brosse, Mode Sans Tête et Altitude Mainten",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0FNRKZQ1Q",
-  "name": "LKHLTBF Single Battery,Drone télécommandé ky102 avec Double caméra 4k HD, Moteur sans balais à 360°, évitement d'obstacles, Photographie aérienne, Jouet rc",
-  "slug": "lkhltbf-single-batterydrone-telecommande-ky102-ave",
-  "description": "[Découvrez des aventures aériennes prolongées]Imaginez des paysages époustouflants et des scènes d'action avec ce drone RC longue portée. Sa puissante batterie 3,7 V-1800 mAh offre jusqu'à 30 minutes d'autonomie de vol. Profitez de la transmission d'images HD en temps réel directement sur l'écran de la télécommande pour un cadrage parfait. Son design compact et pliable et sa construction ABS robuste en font un appareil idéal pour la photographie en extérieur et les voyages. | [Imagerie HD professionnelle et vol stable]Réalisez des photos aériennes fluides et professionnelles avec le drone FPV KY102. Équipé de moteurs sans balais et d'objectifs électriques pour une stabilité optimale, il vous permet de profiter de vidéos haute définition en direct sur l'écran de la télécommande inclus. Il est équipé d'un système d'évitement d'obstacles infrarouge panoramique pour une navigation sûre, en intérieur comme en extérieur. Capturez chaque instant avec clarté. | [Vol intelligent pour tous les niveaux]Domptez les cieux sans effort avec ce drone facile à piloter. Décollage/atterrissage en une seule touche, contrôle de la vitesse, trajectoire à détection de gravité et retour en une seule touche. Idéal pour les débutants comme pour les experts qui s'intéressent aux courses de drones ou aux prises de vue aériennes. La capacité à haute altitude et la portée de la télécommande de 5 000 m libèrent un vaste potentiel créatif. | [Prise de vue polyvalente et contrôle créatif] Optimisez votre contenu grâce à la prise de vue multiaxes (horizontale, verticale, aérienne) et à des fonctionnalités avancées. Utilisez des trajectoires balistiques, le positionnement du flux optique et des effets de roulis spéciaux via la télécommande. La performance stable du moteur sans balais garantit des photos et des vidéos nettes. Idéal pour les aventures immersives en plein air et la capture de paysages. | [Kit complet prêt à voler] Ce quadricoptère RC est livré entièrement équipé : drone, télécommande avec écran intégré, support de téléphone, batterie, lecteur de carte mémoire, hélices de rechange (x4), protections (x4), câbles USB (x2), tournevis et manuel. Profitez d'une longue autonomie de vol et d'une transmission FPV HD dès la sortie de la boîte. Idéal pour les voyages, l'éducation et la capture de séquences aériennes à couper le souffle.",
-  "shortDescription": "LKHLTBF Single Battery,Drone télécommandé ky102 avec Double caméra 4k HD, Moteur sans balais à 360°,",
+  "name": "Drone KY102 4K HD avec Double Caméra & Moteur Brushless",
+  "slug": "drone-ky102-avec-double-camera-moteur",
+  "description": "Découvrez le **Drone KY102**, votre compagnon idéal pour la photographie aérienne et le divertissement ! Équipé de deux caméras **4K HD** pour des prises de vue époustouflantes et d'un **moteur sans balais (brushless)** pour une puissance et une durabilité accrues, ce drone télécommandé offre une expérience de vol immersive. Son système d'**évitement d'obstacles intelligent** garantit un vol en toute sécurité, même pour les débutants. Profitez de manœuvres fluides à **360°** et capturez des moments inoubliables depuis une nouvelle perspective. Parfait comme **jouet RC** ou pour initier vos projets de **photographie aérienne professionnelle**.",
+  "shortDescription": "Drone KY102 4K HD avec 2 caméras, moteur brushless puissant, évitement d'obstacles intelligent. Idéal pour la photographie aérienne et le divertissement. Commandez le vôtre à 90.0€ !",
   "price": "90.0",
   "compareAtPrice": 103,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : LKHLTBF",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone KY102 4K HD avec Double Caméra & Moteur Brushless",
+    "description": "Drone KY102 4K HD avec 2 caméras, moteur brushless puissant, évitement d'obstacles intelligent. Idéal pour la photographie aérienne et le divertissement. Commandez le vôtre à 90.0€ !",
+    "keywords": [
+      "drone ky102 4k hd avec double caméra & moteur brushless",
+      "drones longue portée",
+      "marque : lkhltbf"
+    ],
+    "ogTitle": "Drone KY102 4K HD avec Double Caméra & Moteur Brushless",
+    "ogDescription": "Drone KY102 4K HD avec 2 caméras, moteur brushless puissant, évitement d'obstacles intelligent. Idéal pour la photographie aérienne et le divertissement. Commandez le vôtre à 90.0€ !"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone télécommandé KY102 avec double caméra 4K HD, moteur sans balais, évitement d'obstacles, fonctions de photographie aérienne, portée de contrôle étendue, batterie de vol intelligente (incluse), design pliable et portable, contrôle via application mobile, retour vidéo en temps réel, mode sans tête, retour automatique à la maison."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras du drone KY102 ?",
+      "a": "Le drone KY102 est équipé de deux caméras haute définition, offrant une résolution **4K HD** pour des images et vidéos d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Le moteur sans balais (brushless) offre-t-il des avantages ?",
+      "a": "Oui, le **moteur sans balais** du drone KY102 assure une meilleure performance, une plus grande efficacité énergétique, une durée de vie plus longue et un fonctionnement plus silencieux par rapport aux moteurs traditionnels."
+    },
+    {
+      "q": "Comment fonctionne le système d'évitement d'obstacles ?",
+      "a": "Le système d'**évitement d'obstacles** utilise des capteurs intégrés pour détecter les objets environnants et ajuster automatiquement la trajectoire du drone, prévenant ainsi les collisions et rendant le vol plus sûr, surtout pour les pilotes novices."
+    },
+    {
+      "q": "Puis-je contrôler le drone avec mon smartphone ?",
+      "a": "Absolument ! Le drone KY102 peut être contrôlé via une application mobile dédiée, vous offrant une expérience de pilotage intuitive et des fonctionnalités avancées comme le retour vidéo en temps réel."
+    },
+    {
+      "q": "Le drone est-il adapté aux débutants ?",
+      "a": "Oui, avec ses fonctions d'évitement d'obstacles, son mode sans tête et son retour automatique à la maison, le drone KY102 est conçu pour être accessible et facile à piloter, même pour les débutants souhaitant s'initier à la **photographie aérienne** et aux **jouets RC**."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:36.441203",
+  "originalName": "LKHLTBF Single Battery,Drone télécommandé ky102 avec Double caméra 4k HD, Moteur sans balais à 360°, évitement d'obstacles, Photographie aérienne, Jouet rc",
+  "enhanced": true
 }

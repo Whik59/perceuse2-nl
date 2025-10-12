@@ -1,9 +1,9 @@
 {
   "productId": "B0FG1F4RL1",
-  "name": "Épuisette de pêche avec structure de filet de pêche pliable, poignée antidérapante, filet de pêche en nylon, portable, diamètre net 30 x 30 cm, profondeur nette 20 cm pour la pêche",
-  "slug": "epuisette-de-peche-avec-structure-de-filet-de-pech",
-  "description": "Design pliable : longueur totale d'environ 51 cm (manche et épuisette). Le cadre de l'épuisette est pliable et mesure environ 30cm / 11.5 Facile à transporter et à ranger. Pour enfants et adultes. | Matériau de haute qualité : l'épuisette est fabriquée en tissu de nylon robuste avec une excellente résistance au crochet. La poignée est fabriquée en alliage d'aluminium renforcé et en caoutchouc, qui est durable, résistant à la rouille et antidérapant. | Rangement facile : il se range facilement dans un casier ou une boîte de pêche, un sac à dos ou une voiture et ne prend pas de place supplémentaire. | Facile à utiliser : convient pour la pêche de petits poissons en eau salée et en eau douce. Il suffit de tourner la poignée pour ouvrir et verrouiller l'épuisette. | Multifonction : cette épuisette convient non seulement pour la pêche, mais aussi pour ramasser les déchets marins ou d'autres objets qui pourraient être emportés par le vent.",
-  "shortDescription": "Épuisette de pêche avec structure de filet de pêche pliable, poignée antidérapante, filet de pêche e",
+  "name": "Épuisette de pêche pliable - Le compagnon indispensable du pêcheur moderne",
+  "slug": "epuisette-peche-pliable-compagnon-indispensable-pecheur",
+  "description": "Optimisez votre expérience de pêche avec notre épuisette de pêche pliable, conçue pour la performance et la praticité. Dotée d'une structure de filet robuste et pliable, elle se range facilement pour un transport sans effort. Sa poignée antidérapante assure une prise en main ferme, même dans des conditions humides, vous permettant de maîtriser chaque prise avec confiance. Le filet en nylon de haute qualité, d'un diamètre de 30 x 30 cm et d'une profondeur de 20 cm, est idéal pour une variété de poissons, minimisant les risques de décrochage. Cette épuisette portable est l'outil technologique discret qui améliorera significativement votre succès au bord de l'eau. Un investissement intelligent pour tous les pêcheurs souhaitant allier efficacité et simplicité.",
+  "shortDescription": "Épuisette de pêche pliable, compacte et légère avec poignée antidérapante. Filet nylon (30x30cm, prof. 20cm). Idéale pour pêcheurs mobiles. Prix : 10.0€.",
   "price": "10.0",
   "compareAtPrice": 11,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : WLICCHS",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Épuisette de pêche pliable - Le compagnon indispensable du pêcheur moderne",
+    "description": "Épuisette de pêche pliable, compacte et légère avec poignée antidérapante. Filet nylon (30x30cm, prof. 20cm). Idéale pour pêcheurs mobiles. Prix : 10.0€.",
+    "keywords": [
+      "épuisette de pêche pliable - le compagnon indispensable du pêcheur moderne",
+      "rov pour la pêche",
+      "marque : wlicchs"
+    ],
+    "ogTitle": "Épuisette de pêche pliable - Le compagnon indispensable du pêcheur moderne",
+    "ogDescription": "Épuisette de pêche pliable, compacte et légère avec poignée antidérapante. Filet nylon (30x30cm, prof. 20cm). Idéale pour pêcheurs mobiles. Prix : 10.0€."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Épuisette de pêche avec structure pliable, poignée antidérapante, filet en nylon, portable. Diamètre du filet : 30 x 30 cm. Profondeur du filet : 20 cm. Matériaux durables pour une utilisation intensive."
+  },
+  "faq": [
+    {
+      "q": "Comment le filet de pêche est-il pliable pour un transport facile ?",
+      "a": "La structure de l'épuisette est conçue avec des articulations intelligentes qui permettent au filet de se replier sur lui-même de manière compacte. Cela la rend idéale pour le transport dans un sac de pêche ou même dans un coffre de voiture."
+    },
+    {
+      "q": "La poignée antidérapante est-elle efficace même si elle est mouillée ?",
+      "a": "Absolument. La technologie de la poignée antidérapante a été spécifiquement développée pour offrir une adhérence maximale même lorsque le manche est mouillé, garantissant un contrôle total lors de la manipulation de l'épuisette et de vos prises."
+    },
+    {
+      "q": "Quel type de poisson puis-je capturer avec cette épuisette ?",
+      "a": "Avec un diamètre de 30 x 30 cm et une profondeur de 20 cm, cette épuisette est polyvalente et adaptée à la plupart des poissons d'eau douce et d'eau salée de taille moyenne. Le filet en nylon de qualité est conçu pour être doux pour le poisson et résistant."
+    },
+    {
+      "q": "Cette épuisette est-elle résistante à la corrosion de l'eau salée ?",
+      "a": "Bien que le filet soit en nylon, les matériaux de la structure et de la poignée sont sélectionnés pour leur durabilité et leur résistance à l'environnement extérieur. Pour une longévité maximale en eau salée, un rinçage à l'eau douce après utilisation est recommandé."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:31.090530",
+  "originalName": "Épuisette de pêche avec structure de filet de pêche pliable, poignée antidérapante, filet de pêche en nylon, portable, diamètre net 30 x 30 cm, profondeur nette 20 cm pour la pêche",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0DWDM1BQ6",
-  "name": "LEGO Technic Véhicule Lunaire Lunar Outpost - Jouet Interactif STEM - Engin Spatial - Bras Rotatif & Panneaux Solaires - Maquette de Robot - Cadeau d'Anniversaire pour Garçon ou Fille dès 10 ans 42211",
-  "slug": "lego-technic-vehicule-lunaire-lunar-outpost-jouet-",
-  "description": "Jouet de construction sur le thème de l'espace pour garçon ou fille dès 10 ans – Incitez les enfants à en apprendre davantage sur la Lune en imaginant des aventures passionnantes avec ce set LEGO Technic | Véhicules & fonctionnalités – Rover lunaire tout-terrain doté de suspensions oscillantes, de 4 roues motrices & de panneaux solaires déployables et petit rover d’extraction, un conteneur à échantillons & un rover MAPP | Accessoires réalistes – Le bras rotatif du rover principal soulève le rover d’extraction & le conteneur à échantillons : envoyez-les en mission pour recueillir des pierres lunaires | Des roches lunaires à extraire – Utilisez la pelle dynamique du rover d’extraction pour saisir les éléments de roche lunaire et les déposer dans le conteneur à échantillons | Idée cadeau pour les passionnés d'astronomie dès 10 ans – Ce jeu LEGO fera le bonheur des garçons et des filles, fans d'engins spaciaux et de robots, ainsi que de tous les passionnés de voyages dans l'espace",
-  "shortDescription": "LEGO Technic Véhicule Lunaire Lunar Outpost - Jouet Interactif STEM - Engin Spatial - Bras Rotatif &",
+  "name": "LEGO Technic Véhicule Lunaire Lunar Outpost - 42211",
+  "slug": "lego-technic-vehicule-lunaire-lunar-outpost",
+  "description": "Plongez dans l'exploration spatiale avec le LEGO Technic Véhicule Lunaire Lunar Outpost (42211), un jouet interactif STEM conçu pour les jeunes passionnés de technologie et d'espace. Cet engin spatial révolutionnaire, doté d'un bras rotatif articulé et de panneaux solaires réalistes, stimule la créativité et l'apprentissage. Parfait pour construire une maquette de robot avancée et imaginer des missions sur la Lune. C'est le cadeau d'anniversaire idéal pour garçons et filles dès 10 ans, offrant des heures de jeu éducatif et stimulant.",
+  "shortDescription": "LEGO Technic Véhicule Lunaire Lunar Outpost (42211) : Jouet STEM interactif avec bras rotatif et panneaux solaires. Maquette de robot spatial pour enfants dès 10 ans. Idéal pour l'apprentissage et le jeu.",
   "price": "74.0",
   "compareAtPrice": 85,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique LEGO",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "LEGO Technic Véhicule Lunaire Lunar Outpost - 42211",
+    "description": "LEGO Technic Véhicule Lunaire Lunar Outpost (42211) : Jouet STEM interactif avec bras rotatif et panneaux solaires. Maquette de robot spatial pour enfants dès 10 ans. Idéal pour l'apprentissage et le jeu.",
+    "keywords": [
+      "lego technic véhicule lunaire lunar outpost - 42211",
+      "rov avec bras robotique",
+      "visiter la boutique lego"
+    ],
+    "ogTitle": "LEGO Technic Véhicule Lunaire Lunar Outpost - 42211",
+    "ogDescription": "LEGO Technic Véhicule Lunaire Lunar Outpost (42211) : Jouet STEM interactif avec bras rotatif et panneaux solaires. Maquette de robot spatial pour enfants dès 10 ans. Idéal pour l'apprentissage et le jeu."
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Ensemble de construction LEGO Technic, référence 42211. Modèle Véhicule Lunaire Lunar Outpost. Inclut un bras rotatif fonctionnel et des panneaux solaires. Conçu pour encourager l'apprentissage STEM. Recommandé pour les enfants dès 10 ans. 74.0€."
+  },
+  "faq": [
+    {
+      "q": "Quel âge est recommandé pour ce set LEGO Technic ?",
+      "a": "Cet ensemble LEGO Technic Véhicule Lunaire Lunar Outpost (42211) est recommandé pour les enfants dès 10 ans."
+    },
+    {
+      "q": "Quelles sont les fonctionnalités interactives de ce jouet ?",
+      "a": "Le Véhicule Lunaire Lunar Outpost (42211) dispose d'un bras rotatif articulé et de panneaux solaires, offrant une expérience de jeu interactive et réaliste qui simule le fonctionnement d'un engin spatial."
+    },
+    {
+      "q": "Ce jouet est-il éducatif ?",
+      "a": "Absolument ! Ce set est conçu pour être un jouet STEM interactif, aidant les enfants à développer leur compréhension des principes de la robotique, de l'ingénierie et de l'exploration spatiale à travers le jeu."
+    },
+    {
+      "q": "Est-ce un bon cadeau pour un enfant intéressé par les robots et l'espace ?",
+      "a": "Oui, c'est un cadeau exceptionnel pour tout enfant dès 10 ans fasciné par les robots, les engins spatiaux, la technologie et l'espace. La maquette de robot et les fonctions du véhicule en font un choix parfait."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:49.953428",
+  "originalName": "LEGO Technic Véhicule Lunaire Lunar Outpost - Jouet Interactif STEM - Engin Spatial - Bras Rotatif & Panneaux Solaires - Maquette de Robot - Cadeau d'Anniversaire pour Garçon ou Fille dès 10 ans 42211",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0D7ZMCQ37",
-  "name": "XBERSTAR Mavic Mini 2 Sac de transport rigide pour drone DJI Mavic Mini 2/Mini 2 SE/Mini 4K, accessoire de drone Mavic Mini 2, gris, 20.5*19*10cm, Sac de transport",
-  "slug": "xberstar-mavic-mini-2-sac-de-transport-rigide-pour",
-  "description": "Compatibilité : convient pour DJI Mavic Mini 2/Mini 2 SE/Mini 4K. | Haute qualité : l'étui de transport est fabriqué en tissu Oxford EVA+ de haute qualité résistant aux chocs, qui offre une excellente protection contre la poussière et les déchirures contre les rayures et les dommages. | Ajustement sûr : le sac de rangement utilise une doublure EVA moulée monobloc, une pour chaque machine, des interruptions complémentaires, anti-choc et anti-pression, ce qui peut mieux protéger la machine. | Grande capacité : peut contenir le drone, la télécommande et les piles de rechange. Il y a une poche en maille zippée sur le dessus pour d'autres petits accessoires, tels que : câble de données, adaptateur USB, joystick, etc. | Facile à transporter : compact et léger, résistant aux chutes et aux chocs, facile à transporter et à photographier. Il est léger et robuste pour protéger votre drone de la poussière et des rayures.",
-  "shortDescription": "XBERSTAR Mavic Mini 2 Sac de transport rigide pour drone DJI Mavic Mini 2/Mini 2 SE/Mini 4K, accesso",
+  "name": "XBERSTAR Sac de Transport Rigide pour DJI Mavic Mini 2 / Mini 2 SE / Mini 4K - Gris (20.5x19x10cm)",
+  "slug": "20-5x19x10cm-xberstar-sac-transport-rigide-pour",
+  "description": "Optimisez le transport et la protection de votre drone DJI Mavic Mini 2, Mini 2 SE ou Mini 4K avec ce sac de transport rigide XBERSTAR. Conçu spécifiquement pour ces modèles compacts, ce boîtier offre une sécurité maximale contre les chocs, les rayures et les intempéries. Idéal pour les pilotes de drone nomades, son design intelligent maximise l'espace intérieur pour ranger votre drone, vos batteries, votre télécommande et d'autres accessoires essentiels. Sa construction robuste en matériaux de haute qualité garantit une durabilité exceptionnelle pour accompagner toutes vos aventures aériennes. Ne laissez plus le hasard mettre en péril votre équipement technologique de pointe.",
+  "shortDescription": "Sac de transport rigide XBERSTAR pour DJI Mavic Mini 2/2 SE/4K. Protection optimale, gris, 20.5x19x10cm. Idéal pour aventures technologiques.",
   "price": "20.0",
   "compareAtPrice": 23,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : XBERSTAR",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "XBERSTAR Sac de Transport Rigide pour DJI Mavic Mini 2 / Mini 2 SE / Mini 4K - Gris (20.5x19x10cm)",
+    "description": "Sac de transport rigide XBERSTAR pour DJI Mavic Mini 2/2 SE/4K. Protection optimale, gris, 20.5x19x10cm. Idéal pour aventures technologiques.",
+    "keywords": [
+      "xberstar sac de transport rigide pour dji mavic mini 2 / mini 2 se / mini 4k - gris (20.5x19x10cm)",
+      "sacs de transport et étuis pour drones",
+      "marque : xberstar"
+    ],
+    "ogTitle": "XBERSTAR Sac de Transport Rigide pour DJI Mavic Mini 2 / Mini 2 SE / Mini 4K - Gris (20.5x19x10cm)",
+    "ogDescription": "Sac de transport rigide XBERSTAR pour DJI Mavic Mini 2/2 SE/4K. Protection optimale, gris, 20.5x19x10cm. Idéal pour aventures technologiques."
   },
   "reviews": {
     "averageRating": 4.8,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatibilité : DJI Mavic Mini 2, DJI Mavic Mini 2 SE, DJI Mini 4K. Matériau : Coque rigide protectrice. Couleur : Gris. Dimensions : 20.5 x 19 x 10 cm. Type : Sac de transport / Mallette de protection."
+  },
+  "faq": [
+    {
+      "q": "Ce sac est-il compatible avec le DJI Mini 3 Pro ?",
+      "a": "Non, ce sac de transport XBERSTAR est spécifiquement conçu pour les modèles DJI Mavic Mini 2, Mini 2 SE et Mini 4K. Pour le DJI Mini 3 Pro, nous recommandons de consulter nos autres solutions de transport dédiées."
+    },
+    {
+      "q": "Quels accessoires puis-je ranger dans ce sac avec mon drone ?",
+      "a": "Le sac offre un espace optimisé pour votre drone, sa télécommande, plusieurs batteries intelligentes, le câble de chargement, et d'autres petits accessoires comme les hélices de rechange ou une carte mémoire."
+    },
+    {
+      "q": "Le sac est-il résistant à l'eau ?",
+      "a": "Le sac de transport XBERSTAR est conçu pour offrir une protection robuste contre les chocs et les éraflures. Bien qu'il ne soit pas étanche, sa coque rigide offre une excellente résistance aux éclaboussures et à une pluie légère, protégeant ainsi efficacement votre drone des éléments."
+    },
+    {
+      "q": "Quels sont les avantages d'un sac de transport rigide pour mon drone ?",
+      "a": "Un sac de transport rigide offre une protection supérieure contre les impacts lors des déplacements, prévient les dommages dus aux objets pointus ou lourds, et maintient vos accessoires organisés et sécurisés, prolongeant ainsi la durée de vie de votre drone et de ses composants."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:39.876265",
+  "originalName": "XBERSTAR Mavic Mini 2 Sac de transport rigide pour drone DJI Mavic Mini 2/Mini 2 SE/Mini 4K, accessoire de drone Mavic Mini 2, gris, 20.5*19*10cm, Sac de transport",
+  "enhanced": true
 }

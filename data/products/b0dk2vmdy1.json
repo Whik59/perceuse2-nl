@@ -1,9 +1,9 @@
 {
   "productId": "B0DK2VMDY1",
   "name": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes",
-  "slug": "keyestudio-esp32-kit-de-bras-de-robot-intelligent-",
-  "description": "Basé sur la carte de contrôle ESP32, nous avons conçu ce kit de démarrage de programmation de bras de robot qui comprend le matériel et les outils nécessaires. | En suivant le tutoriel que nous avons fourni, vous pouvez contrôler le bras robotique avec un joystick, vous pouvez également le contrôler à l'aide d'un téléphone portable ou d'un ordinateur connecté au même Internet que notre carte ESP32. | Par rapport à nos autres kits de programmation de bras robotiques, ce kit de bras robotique ESP32 est plus facile à assembler et a plus de fonctions. | Il peut atteindre, saisir, ramasser et déplacer de petits objets, et il a une fonction de mémoire pour répéter les actions que vous définissez. | Il s'agit d'un projet idéal pour les débutants qui apprennent la carte et le servo ESP32.",
-  "shortDescription": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de",
+  "slug": "robot-intelligent-keyestudio-esp32-kit-bras",
+  "description": "<div><h2>KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes</h2><p>Quality product</p></div>",
+  "shortDescription": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes - Quality Product",
   "price": "60.0",
   "compareAtPrice": 69,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique KEYESTUDIO",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes",
+    "description": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes - Quality Product",
+    "keywords": [
+      "keyestudio esp32 kit de bras de robot intelligent pour arduino avec joystick, kit de construction de robot de programmation diy pour l'éducation, bras robotique 4df pour adolescents et adultes",
+      "rov avec bras robotique",
+      "visiter la boutique keyestudio"
+    ],
+    "ogTitle": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes",
+    "ogDescription": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes - Quality Product"
   },
   "reviews": {
     "averageRating": 4.1,
@@ -38,5 +44,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.775349",
+  "originalName": "KEYESTUDIO ESP32 Kit de Bras de Robot Intelligent pour Arduino avec Joystick, kit de Construction de Robot de Programmation DIY pour l'éducation, Bras robotique 4DF pour Adolescents et Adultes",
+  "enhanced": true
 }

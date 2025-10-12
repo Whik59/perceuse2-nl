@@ -1,9 +1,9 @@
 {
   "productId": "B0C6TS2DMG",
-  "name": "Mini Drone avec Double Caméra HD pour Adultes Enfants Débutants, S165 Pliable Petits Hélicoptères Télécommandés Quadricoptère, Drone D'évitement d'obstacles à 4 Côtés",
-  "slug": "mini-drone-avec-double-camera-hd-pour-adultes-enfa",
-  "description": "Matériau fiable : ce produit est fabriqué à partir de composants en plastique et électroniques durables, qui ne sont pas facilement endommagés ; Il peut éviter les obstacles de tous les côtés et a une longue durée de vie. | Fonction appareil photo : le drone prend en la photographie aérienne haute définition à double objectif ; L'appareil photo peut effectuer une photographie et un enregistrement vidéo automatiques ; Il peut facilement prendre des photos avec un zoom 50x. | Caractéristiques du produit : le drone a une pression d'air constante et est équipé d'un gyroscope, qui peut librement monter et descendre, avancer et reculer ; Il prend en le vol à gauche et à droite, la direction, le décollage et l'atterrissage en un clic, etc. Il a également des engrenages rapides et lents et un mode sans tête. | Autonomie de la batterie : le temps de d'une seule batterie de ce produit est d'environ 120 minutes et le temps de vol d'une seule batterie est d'environ 15 minutes. | Applicable à : ce produit est de petite taille et léger, avec une technologie anti-interférence 2,4 GHz et un gyroscope à six axes pour rendre le vol plus stable ; Il peut être utilisé pour tourner des documentaires, enregistrer la vie, etc. Il convient également aux cadeaux d'anniversaire et de vacances pour les parents et amis.",
-  "shortDescription": "Mini Drone avec Double Caméra HD pour Adultes Enfants Débutants, S165 Pliable Petits Hélicoptères Té",
+  "name": "Mini Drone S165 avec Double Caméra HD",
+  "slug": "mini-drone-s165-avec-double-camera",
+  "description": "Découvrez le **Mini Drone S165**, l'hélicoptère télécommandé idéal pour adultes, enfants et débutants. Avec ses **deux caméras HD**, capturez des moments inoubliables sous des angles multiples. Son design pliable et compact le rend facilement transportable. Doté d'une technologie d'**évitement d'obstacles à 4 côtés**, ce quadricoptère garantit une expérience de vol sécurisée et sans stress, parfaite pour explorer votre environnement avec confiance. Un excellent choix pour s'initier au pilotage de drones.",
+  "shortDescription": "Mini Drone S165 pliable avec Double Caméra HD, Évitement d'obstacles 4 côtés. Parfait pour débutants, enfants et adultes. Pilotage facile et sécurisé. Prix : 65.0€",
   "price": "65.0",
   "compareAtPrice": 74,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Dpofirs",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone S165 avec Double Caméra HD",
+    "description": "Mini Drone S165 pliable avec Double Caméra HD, Évitement d'obstacles 4 côtés. Parfait pour débutants, enfants et adultes. Pilotage facile et sécurisé. Prix : 65.0€",
+    "keywords": [
+      "mini drone s165 avec double caméra hd",
+      "drones pliables et portables",
+      "visiter la boutique dpofirs"
+    ],
+    "ogTitle": "Mini Drone S165 avec Double Caméra HD",
+    "ogDescription": "Mini Drone S165 pliable avec Double Caméra HD, Évitement d'obstacles 4 côtés. Parfait pour débutants, enfants et adultes. Pilotage facile et sécurisé. Prix : 65.0€"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Modèle : S165<br>Double Caméra HD<br>Évitement d'obstacles à 4 côtés<br>Pliable et portable<br>Idéal pour débutants, enfants et adultes<br>Quadricoptère télécommandé"
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le Mini Drone S165 est conçu pour être intuitif et facile à prendre en main, même pour les novices. Son système d'évitement d'obstacles à 4 côtés aide à prévenir les collisions, rendant le pilotage plus sûr et plus agréable pour tous les âges."
+    },
+    {
+      "q": "Quelle est la qualité des caméras HD ?",
+      "a": "Le drone est équipé de deux caméras HD, vous permettant de capturer des photos et des vidéos avec une bonne clarté. Vous pourrez ainsi immortaliser vos vols et découvrir le monde vu du ciel."
+    },
+    {
+      "q": "Le drone est-il robuste et résistant aux chocs ?",
+      "a": "Grâce à sa conception avec évitement d'obstacles à 4 côtés, le drone est mieux protégé contre les petits heurts accidentels, ce qui le rend plus durable pour une utilisation régulière, notamment par les enfants."
+    },
+    {
+      "q": "Quelle est la portée de la télécommande ?",
+      "a": "La portée de la télécommande est optimisée pour une utilisation récréative en intérieur et extérieur, permettant un contrôle stable dans un rayon raisonnable pour une expérience de vol divertissante."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.431108",
+  "originalName": "Mini Drone avec Double Caméra HD pour Adultes Enfants Débutants, S165 Pliable Petits Hélicoptères Télécommandés Quadricoptère, Drone D'évitement d'obstacles à 4 Côtés",
+  "enhanced": true
 }

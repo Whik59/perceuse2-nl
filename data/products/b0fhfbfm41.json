@@ -1,9 +1,9 @@
 {
   "productId": "B0FHFBFM41",
-  "name": "SPYMINNPOO Drone avec Caméra, Quadcoptère RC Pliable à Double Caméra FPV avec Altitude de Moteur sans Balais Maintient Un Contrôle de L'application de Retour de clé (3 Piles)",
-  "slug": "spyminnpoo-drone-avec-camera-quadcoptere-rc-pliabl",
-  "description": "Caractéristiques principales: Ce quadcopter RC possède une variété de fonctionnalités, y compris l'évitement intelligent des obstacles, la stabilisation de la double caméra ESC et un affichage intégré. Les fonctionnalités supplémentaires consistent en un faible retour de batterie, un retour de déconnexion, un décollage clé, un atterrissage, une photographie surround, un contrôle du téléphone, un indicateur de batterie du corps. | Caméra haute définition: ce drone RC dispose des caméras haute définition intégrées à double intégration avec EIS (stabilisation électronique de l'image), améliorant la stabilité et produisant de belles images sans effort. Le cristallin avant permet des réglages multi-angles via la télécommande, un cadrage complet. | Remote Contrôle: La télécommande est livrée avec une fonction de synchronisation automatique qui se connecte au flux en direct du drone lors du démarrage. Les utilisateurs peuvent utiliser la télécommande pour enregistrer facilement leurs vols directement. L'affichage haute définition améliore la visibilité lors du pilotage, ce qui rend vos aventures aériennes agréables. | Six canal, gyroscope: Le drone RC peut facilement monter, descendre, avancer, arrière, tourner à gauche, droite, voler à gauche, voler à droite, en permettant des ajustements fins dans n'importe quelle direction. Le drone avec une caméra est convivial, s'adressant aux pilotes de drones novices et expérimentés. Le bras peut être plié, facile à transporter et à stocker. | Un retour de clé: conçu pour la commodité des utilisateurs, RC Quadcopter prend en charge une fonction de retour de clé puissante. Retourne automatiquement dans des situations de batterie faible ou lorsque le contrôle est perdu. Le système à double caméra équipé de flux optiques Le mode de maintien de hauteur ajoute une couche supplémentaire de contrôle et de sécurité pendant les vols.",
-  "shortDescription": "SPYMINNPOO Drone avec Caméra, Quadcoptère RC Pliable à Double Caméra FPV avec Altitude de Moteur san",
+  "name": "Drone SPYMINNPOO avec Double Caméra FPV - Idéal pour Débutants et Experts",
+  "slug": "drone-spyminnpoo-avec-double-camera-fpv",
+  "description": "Découvrez le **Drone SPYMINNPOO**, le quadcoptère RC pliable et innovant, conçu pour offrir une expérience de vol immersive grâce à sa **double caméra FPV**. Doté d'un **moteur sans balais** pour une performance accrue et une durabilité exceptionnelle, ce drone garantit des vols stables et puissants. La fonction **Maintien d'Altitude** simplifie le pilotage, rendant le SPYMINNPOO parfait pour les débutants tout en offrant des possibilités créatives aux plus expérimentés. Contrôlez votre drone facilement via l'application mobile intuitive avec la **fonction de retour en un clic**. Livré avec **3 batteries** pour un temps de vol prolongé, ce modèle est le compagnon idéal pour explorer le ciel et capturer des images spectaculaires. Un concentré de technologie à un prix abordable : seulement 57.0€.",
+  "shortDescription": "Drone SPYMINNPOO pliable : Double caméra FPV, moteur sans balais, maintien d'altitude, 3 batteries. Contrôle via application. 57.0€.",
   "price": "57.0",
   "compareAtPrice": 65,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : SPYMINNPOO",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone SPYMINNPOO avec Double Caméra FPV - Idéal pour Débutants et Experts",
+    "description": "Drone SPYMINNPOO pliable : Double caméra FPV, moteur sans balais, maintien d'altitude, 3 batteries. Contrôle via application. 57.0€.",
+    "keywords": [
+      "drone spyminnpoo avec double caméra fpv - idéal pour débutants et experts",
+      "drones avec retour automatique (rth)",
+      "marque : spyminnpoo"
+    ],
+    "ogTitle": "Drone SPYMINNPOO avec Double Caméra FPV - Idéal pour Débutants et Experts",
+    "ogDescription": "Drone SPYMINNPOO pliable : Double caméra FPV, moteur sans balais, maintien d'altitude, 3 batteries. Contrôle via application. 57.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Type : Quadcoptère RC pliable avec double caméra FPV. Moteur : Sans balais (Brushless). Fonctions : Maintien d'altitude, Retour en un clic via application. Piles incluses : 3. Technologie : FPV (First Person View)."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Grâce à sa fonction de maintien d'altitude et à son contrôle intuitif via l'application, le Drone SPYMINNPOO est très accessible pour les pilotes débutants."
+    },
+    {
+      "q": "Quelle est la différence entre les deux caméras ?",
+      "a": "Le drone est équipé d'une double caméra FPV. Cela vous permet d'avoir une vue en temps réel de ce que le drone filme, directement sur votre smartphone, pour une immersion totale."
+    },
+    {
+      "q": "Combien de temps puis-je voler avec ce drone ?",
+      "a": "Avec les 3 batteries incluses, vous bénéficiez d'un temps de vol significativement prolongé, vous permettant de profiter pleinement de chaque session de vol."
+    },
+    {
+      "q": "Le moteur sans balais offre-t-il un avantage ?",
+      "a": "Oui, les moteurs sans balais sont plus efficaces, plus puissants et ont une durée de vie plus longue que les moteurs traditionnels, garantissant ainsi une meilleure performance et fiabilité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:30.992278",
+  "originalName": "SPYMINNPOO Drone avec Caméra, Quadcoptère RC Pliable à Double Caméra FPV avec Altitude de Moteur sans Balais Maintient Un Contrôle de L'application de Retour de clé (3 Piles)",
+  "enhanced": true
 }

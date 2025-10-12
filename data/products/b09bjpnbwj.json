@@ -1,9 +1,9 @@
 {
   "productId": "B09BJPNBWJ",
-  "name": "BETAFPV Kit de Drone Cetus Pro FPV RTF Avec Maintien D'altitude Autoprotection Atterrissage D'urgence 3 Modes de Vol Fonction Tortue Drone Prêt à Voler pour Débutants Adolescents, Télécommande",
-  "slug": "betafpv-kit-de-drone-cetus-pro-fpv-rtf-avec-mainti",
-  "description": "【Fonction de maintien d'altitude】 La fonction de maintien d'altitude permet au quadcopter sans balais Cetus Pro de survoler automatiquement. Le quadricoptère peut rester à une hauteur actuelle lorsque les mains des pilotes ne sont pas sur l'émetteur. Le baromètre/laser permet un positionnement précis et stable, ce qui rend le quad planant à l'intérieur très stable. (La fonction de maintien d'altitude n'est disponible qu'en mode N) | 【Fonction d'auto-protection】 Le quadcopter Cetus a une excellente fonction d'auto-protection. Ce qui peut faire un atterrissage d'urgence lorsqu'il perd le contrôle ou en batterie faible. Il se désarmera également automatiquement et tombera au sol une fois qu'il aura une forte collision avec l'objet. Ne vous inquiétez plus de la perte et du crash | 【3 modes de vol】Normal/Sport/Manuel sont disponibles, ce qui peut satisfaire les différents besoins des pilotes et s'adapter à divers environnements de vol. Pendant ce temps, ces 3 modes prennent tous en charge 3 vitesses différentes en SLOW/MID/FAST | 【Mode Tortue】 Le quadcopter sans balais Cetus Pro est livré avec le mode tortue. Lorsque le quadcopter sans balais Cetus Pro tombe au sol à l'envers, activez simplement le mode tortue avec votre émetteur pour le retourner. Pas de marche dans les champs pour ça | 【Kit Cetus Pro FPV】BETAFPV Le kit Cetus Pro FPV est un drone sans balais conçu dès le départ pour les débutants en FPV. La fonction de vol auxiliaire est disponible pour les novices, réduisant considérablement le seuil de fonctionnement. Le quadcopter sans balais Cetus Pro est robuste et puissant, vous permettant de voler plus vite, de faire la course et même de faire du vol libre. Vous emmène de ZÉRO à HÉROS dans un seul kit",
-  "shortDescription": "BETAFPV Kit de Drone Cetus Pro FPV RTF Avec Maintien D'altitude Autoprotection Atterrissage D'urgenc",
+  "name": "Drone FPV Cetus Pro RTF - BETAFPV",
+  "slug": "pro-drone-fpv-cetus-rtf-betafpv",
+  "description": "Plongez dans l'univers fascinant du pilotage FPV avec le **Kit Drone Cetus Pro RTF** de BETAFPV. Conçu spécialement pour les **débutants et adolescents**, ce drone prêt-à-voler (RTF) offre une expérience immersive et sécurisée. Bénéficiez du **maintien d'altitude automatique** pour des vols stables, de la **fonction d'atterrissage d'urgence** et de la **protection anti-choc** pour une tranquillité d'esprit inégalée. Explorez trois modes de vol adaptés à votre progression et redécouvrez la liberté de voler grâce à la **fonction Tortue** pour un redressement facile en cas de retournement. La **télécommande incluse** est ergonomique et intuitive, parfaite pour appréhender les commandes du bout des doigts. Un choix idéal pour débuter en FPV sans compromis sur la qualité et la sécurité.",
+  "shortDescription": "Drone FPV Cetus Pro RTF BETAFPV pour débutants et adolescents. Maintien d'altitude, atterrissage d'urgence, fonction Tortue, télécommande incluse. Idéal pour débuter en FPV.",
   "price": "289.0",
   "compareAtPrice": 332,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BETAFPV",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV Cetus Pro RTF - BETAFPV",
+    "description": "Drone FPV Cetus Pro RTF BETAFPV pour débutants et adolescents. Maintien d'altitude, atterrissage d'urgence, fonction Tortue, télécommande incluse. Idéal pour débuter en FPV.",
+    "keywords": [
+      "drone fpv cetus pro rtf - betafpv",
+      "kits drones fpv à monter",
+      "visiter la boutique betafpv"
+    ],
+    "ogTitle": "Drone FPV Cetus Pro RTF - BETAFPV",
+    "ogDescription": "Drone FPV Cetus Pro RTF BETAFPV pour débutants et adolescents. Maintien d'altitude, atterrissage d'urgence, fonction Tortue, télécommande incluse. Idéal pour débuter en FPV."
   },
   "reviews": {
     "averageRating": 3.8,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kit Drone FPV Cetus Pro RTF, Maintien d'altitude, Atterrissage d'urgence, 3 modes de vol, Fonction Tortue, Télécommande incluse, Idéal pour débutants et adolescents, Marque BETAFPV."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il vraiment adapté aux débutants ?",
+      "a": "Absolument ! Le Kit Drone Cetus Pro RTF est spécifiquement conçu pour les débutants grâce à son maintien d'altitude automatique, ses modes de vol progressifs et sa télécommande intuitive. Il est parfait pour les adolescents découvrant le pilotage FPV."
+    },
+    {
+      "q": "Qu'est-ce que la fonction Tortue ?",
+      "a": "La fonction Tortue permet de redresser le drone facilement s'il se retourne lors d'un atterrissage ou d'un crash. C'est un atout majeur pour reprendre rapidement le contrôle et prolonger votre session de vol."
+    },
+    {
+      "q": "Le drone est-il résistant aux chocs ?",
+      "a": "Oui, le Cetus Pro RTF intègre des protections et une conception pensée pour minimiser les dommages en cas de chocs légers, ce qui est essentiel pour les premiers vols d'un débutant."
+    },
+    {
+      "q": "La télécommande est-elle facile à utiliser ?",
+      "a": "La télécommande fournie avec le kit est conçue pour être ergonomique et simple d'utilisation, même pour ceux qui n'ont jamais piloté de drone auparavant."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:18.680114",
+  "originalName": "BETAFPV Kit de Drone Cetus Pro FPV RTF Avec Maintien D'altitude Autoprotection Atterrissage D'urgence 3 Modes de Vol Fonction Tortue Drone Prêt à Voler pour Débutants Adolescents, Télécommande",
+  "enhanced": true
 }

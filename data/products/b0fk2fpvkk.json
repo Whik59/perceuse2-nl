@@ -1,9 +1,9 @@
 {
   "productId": "B0FK2FPVKK",
-  "name": "JLANDA Drones GT3 8K HD Professionnels, Double caméra 180°, 5G, WiFi, Moteurs sans balais, évitement d'obstacles, FPV, quadricoptère Pliable, Jouets(GT3 MAX-4K-1B)",
-  "slug": "jlanda-drones-gt3-8k-hd-professionnels-double-came",
-  "description": "- Produit de haute qualité. | - La conception raisonnable le rend facile et pratique à utiliser. | - Assure une longue durée de vie et de meilleures performances. | - Accessoires de jouets quadricoptères pliables pour drones, garantissant de meilleures performances. | - Une expérience d'utilisation professionnelle est recommandée.",
-  "shortDescription": "JLANDA Drones GT3 8K HD Professionnels, Double caméra 180°, 5G, WiFi, Moteurs sans balais, évitement",
+  "name": "Drone JLANDA GT3 MAX 8K HD Professionnel avec Double Caméra 180°",
+  "slug": "professionnel-drone-jlanda-gt3-max-avec",
+  "description": "Découvrez le Drone JLANDA GT3 MAX, l'outil parfait pour les professionnels et les passionnés de photographie aérienne. Doté d'une résolution **8K HD époustouflante** et d'une **double caméra rotative à 180°**, ce quadricoptère capture des images et vidéos d'une qualité exceptionnelle sous tous les angles. Sa **technologie 5G et WiFi** assure une transmission fluide et en temps réel de vos prises de vue, tandis que les **moteurs sans balais** garantissent puissance, durabilité et silence. L' **évitement intelligent d'obstacles** vous permet de voler en toute sécurité, même dans des environnements complexes. Compact et **pliable**, le JLANDA GT3 MAX est facile à transporter. Offrez-vous une expérience FPV immersive et repoussez les limites de votre créativité avec ce drone de pointe.",
+  "shortDescription": "Drone JLANDA GT3 MAX 8K HD, double caméra 180°, 5G, WiFi, moteurs sans balais, évitement d'obstacles, FPV, pliable.",
   "price": "211.0",
   "compareAtPrice": 242,
   "images": [
@@ -25,9 +25,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : JLANDA",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone JLANDA GT3 MAX 8K HD Professionnel avec Double Caméra 180°",
+    "description": "Drone JLANDA GT3 MAX 8K HD, double caméra 180°, 5G, WiFi, moteurs sans balais, évitement d'obstacles, FPV, pliable.",
+    "keywords": [
+      "drone jlanda gt3 max 8k hd professionnel avec double caméra 180°",
+      "drones pliables 4k",
+      "marque : jlanda"
+    ],
+    "ogTitle": "Drone JLANDA GT3 MAX 8K HD Professionnel avec Double Caméra 180°",
+    "ogDescription": "Drone JLANDA GT3 MAX 8K HD, double caméra 180°, 5G, WiFi, moteurs sans balais, évitement d'obstacles, FPV, pliable."
   },
   "reviews": {
     "averageRating": 0,
@@ -39,5 +45,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Résolution vidéo : 8K HD (principale), Double caméra 180°, Connectivité : 5G, WiFi, Moteurs : Sans balais, Fonctionnalités : Évitement d'obstacles, FPV (First Person View), Pliable, Alimentation : Batterie rechargeable (incluse), Télécommande : Incluse, Autonomie : [À spécifier si disponible], Portée : [À spécifier si disponible], Couleur : [À spécifier si disponible], Matériaux : [À spécifier si disponible], Poids : [À spécifier si disponible]"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo du drone JLANDA GT3 MAX ?",
+      "a": "Le drone JLANDA GT3 MAX offre une résolution vidéo principale époustouflante de **8K HD**, garantissant des images d'une clarté et d'une précision inégalées."
+    },
+    {
+      "q": "Quels sont les avantages des moteurs sans balais ?",
+      "a": "Les **moteurs sans balais** des drones JLANDA GT3 MAX offrent une plus grande efficacité énergétique, une durée de vie prolongée, une puissance accrue et un fonctionnement plus silencieux par rapport aux moteurs traditionnels."
+    },
+    {
+      "q": "La fonction d'évitement d'obstacles est-elle efficace ?",
+      "a": "Oui, le drone JLANDA GT3 MAX est équipé d'un système avancé d'**évitement d'obstacles**, lui permettant de détecter et d'éviter les obstacles dans plusieurs directions pour un vol plus sûr et plus serein."
+    },
+    {
+      "q": "Est-ce un drone adapté aux débutants ?",
+      "a": "Grâce à ses fonctionnalités comme l'évitement d'obstacles et sa conception pliable, le JLANDA GT3 MAX est un excellent choix pour les amateurs et les professionnels cherchant une expérience de vol intuitive et de haute qualité."
+    },
+    {
+      "q": "Quelle est la particularité de la double caméra ?",
+      "a": "La **double caméra avec rotation à 180°** permet une couverture visuelle étendue et la capture de perspectives uniques, améliorant considérablement vos possibilités de photographie et de vidéographie aériennes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:31.643775",
+  "originalName": "JLANDA Drones GT3 8K HD Professionnels, Double caméra 180°, 5G, WiFi, Moteurs sans balais, évitement d'obstacles, FPV, quadricoptère Pliable, Jouets(GT3 MAX-4K-1B)",
+  "enhanced": true
 }

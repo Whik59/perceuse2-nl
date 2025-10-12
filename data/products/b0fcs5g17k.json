@@ -1,9 +1,9 @@
 {
   "productId": "B0FCS5G17K",
-  "name": "GPS Drone avec Caméra 4,5 Pouces LCD Télécommande GPS Retour Automatique Gestuelle Vol Modulaire Batterie 32G Carte SD Moteur Brushless Flux Lumineux Adulte/Débutant 3 Vitesses",
-  "slug": "gps-drone-avec-camera-45-pouces-lcd-telecommande-g",
-  "description": "Télécommande d'écran HD de 4,5 pouces: la télécommande de drone 1080P dispose d'un écran HD de 4,5 pouces pour la transmission POV de drone d'écran en temps réel. Prévisualisez instantanément le vol du drone et capturez chaque instant. Contrôlez le drone en toute confiance avec une caméra 1080P sans latence. | Stockage sur carte SD: capturez des photos / vidéos 1080P directement sur la carte SD du drone sans transfert compliqué. Stockez tous les drones pour les débutants Obtenez instantanément les données de la caméra pour une prise de vue efficace. Accès aux fichiers à tout moment sans connexion téléphonique. « le | Détails de la caméra 1080P HD: les drones équipés de caméras 1080P HD sont capables de capturer des couleurs vives et des détails nets. Enregistrez facilement des paysages ou des portraits époustouflants. Ce drone avec caméra crée des visuels cinématographiques pour les professionnels. | Retour automatique GPS et stabilité: le drone GPS utilise un positionnement de haute précision pour le retour automatique. Gardez le drone stable dans le vent lors de vos aventures en plein air. Suivez l'emplacement avec précision pour assurer la sécurité des prises de vue professionnelles. | Portée de 400 mètres: contrôlez le drone GPS jusqu'à 400 mètres avec une caméra adulte grâce à une cartographie étendue (couverture de 250 mètres). Pilotez librement un drone résistant au vent dans le ciel ouvert. Explorez une zone plus large sans frontières perdues de signal.",
-  "shortDescription": "GPS Drone avec Caméra 4,5 Pouces LCD Télécommande GPS Retour Automatique Gestuelle Vol Modulaire Bat",
+  "name": "Drone GPS Avancé avec Caméra 4.5\" LCD - Liberté de Vol pour Tous",
+  "slug": "drone-gps-avance-avec-camera-4-5",
+  "description": "Découvrez une nouvelle dimension de la photographie aérienne avec notre Drone GPS Avancé. Doté d'une caméra haute résolution et d'un écran LCD de 4,5 pouces intégré à la télécommande, capturez des images époustouflantes avec une facilité déconcertante. Sa fonction de retour automatique GPS assure une récupération sécurisée, même en cas de perte de signal. Le contrôle gestuel intuitif et le vol modulaire offrent une flexibilité sans précédent. Équipé d'une batterie longue durée et livré avec une carte SD de 32 Go, ce drone est prêt à l'action. Ses moteurs brushless garantissent une puissance et une fiabilité optimales. Idéal pour les adultes et les débutants, avec 3 vitesses de vol pour s'adapter à tous les niveaux. Le flux lumineux intégré améliore la visibilité pour des vols nocturnes ou en conditions de faible luminosité. Un investissement technologique de 149,0 € pour des perspectives aériennes inédites.",
+  "shortDescription": "Drone GPS performant avec caméra HD, écran LCD 4.5\", retour auto, contrôle gestuel, moteurs Brushless. Idéal Adultes/Débutants. 149,0 €",
   "price": "149.0",
   "compareAtPrice": 171,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique karuisrc",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone GPS Avancé avec Caméra 4.5\" LCD - Liberté de Vol pour Tous",
+    "description": "Drone GPS performant avec caméra HD, écran LCD 4.5\", retour auto, contrôle gestuel, moteurs Brushless. Idéal Adultes/Débutants. 149,0 €",
+    "keywords": [
+      "drone gps avancé avec caméra 4.5\" lcd - liberté de vol pour tous",
+      "drones avec suivi automatique",
+      "visiter la boutique karuisrc"
+    ],
+    "ogTitle": "Drone GPS Avancé avec Caméra 4.5\" LCD - Liberté de Vol pour Tous",
+    "ogDescription": "Drone GPS performant avec caméra HD, écran LCD 4.5\", retour auto, contrôle gestuel, moteurs Brushless. Idéal Adultes/Débutants. 149,0 €"
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "• Drone GPS avec retour automatique\n• Caméra intégrée\n• Écran LCD 4,5 pouces sur la télécommande\n• Contrôle gestuel intuitif\n• Vol modulaire\n• Batterie haute performance\n• Carte SD 32 Go incluse\n• Moteurs Brushless pour une performance accrue\n• Adapté aux adultes et débutants\n• 3 vitesses de vol réglables\n• Flux lumineux pour vols nocturnes"
+  },
+  "faq": [
+    {
+      "q": "Comment fonctionne le retour automatique GPS ?",
+      "a": "Le drone enregistre sa position de départ grâce au GPS. En cas de perte de connexion ou d'une batterie faible, il utilise ces informations pour revenir automatiquement à son point d'origine."
+    },
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Avec ses modes de vol intuitifs, son contrôle gestuel et ses 3 vitesses ajustables, il est conçu pour permettre aux débutants de prendre leur envol en toute confiance et d'apprendre rapidement."
+    },
+    {
+      "q": "Quelle est la qualité des images capturées par la caméra ?",
+      "a": "Le drone est équipé d'une caméra qui capture des images de haute qualité, vous permettant d'immortaliser vos vols avec précision. L'écran LCD de 4,5 pouces sur la télécommande vous offre un aperçu en direct de ce que la caméra voit."
+    },
+    {
+      "q": "La carte SD est-elle incluse dans le prix ?",
+      "a": "Oui, une carte SD de 32 Go est fournie avec le drone, vous permettant de commencer à enregistrer vos vidéos et photos dès votre premier vol."
+    },
+    {
+      "q": "Que signifie 'moteurs Brushless' ?",
+      "a": "Les moteurs Brushless (sans balais) sont plus efficaces, plus durables et plus puissants que les moteurs traditionnels. Ils offrent une meilleure performance, une plus grande fiabilité et une durée de vie prolongée pour votre drone."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:58.645510",
+  "originalName": "GPS Drone avec Caméra 4,5 Pouces LCD Télécommande GPS Retour Automatique Gestuelle Vol Modulaire Batterie 32G Carte SD Moteur Brushless Flux Lumineux Adulte/Débutant 3 Vitesses",
+  "enhanced": true
 }

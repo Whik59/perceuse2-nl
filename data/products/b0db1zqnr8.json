@@ -1,9 +1,9 @@
 {
   "productId": "B0DB1ZQNR8",
-  "name": "Amewi FightStar Battle Drone Set RTF Rouge & Bleu",
-  "slug": "amewi-fightstar-battle-drone-set-rtf-rouge-bleu",
-  "description": "Fonction Battle infrarouge : « combats » amusants entre les deux modèles au sol ou dans l'air, déclenchable par télécommande | Démarrage automatique, maintien de la hauteur, atterrissage automatique contrôlable via l'émetteur : le drone est donc entièrement adapté aux débutants et merveilleusement facile à maîtriser | 2 en 1 = deux modes sélectionnables à distance : mode flottant pour l'action juste au-dessus du sol ou mode de vol correct pour les cascades chaudes dans l'air | Carrosserie à haute résistance, résiste également aux coups plus durs et aux contacts avec obstacles | Éclairage LED lumineux et commutable, fonction de protection de la batterie (l'éclairage LED clignotant indique un faible niveau de batterie)",
-  "shortDescription": "Amewi FightStar Battle Drone Set RTF Rouge & Bleu",
+  "name": "Set de Drones de Combat Amewi FightStar RTF Rouge & Bleu",
+  "slug": "set-drones-combat-amewi-fightstar-rtf",
+  "description": "Plongez dans l'action avec le Set de Drones de Combat Amewi FightStar, prêt à voler (RTF), en couleurs Rouge et Bleu. Ce pack complet est conçu pour des duels aériens intenses et stimulants, offrant une expérience de jeu immersive pour les passionnés de technologie et les amateurs de drones. Le FightStar est équipé de fonctionnalités avancées pour un contrôle précis et des combats épiques. Sa conception robuste assure une durabilité même lors des affrontements les plus acharnés. Idéal pour les débutants comme pour les pilotes plus expérimentés cherchant à tester leurs compétences dans des batailles aériennes stimulantes. Un cadeau technologique parfait pour Noël ou un anniversaire !",
+  "shortDescription": "Plongez dans l'action avec le Set de Drones de Combat Amewi FightStar (RTF) Rouge & Bleu. Prêt à voler, 2 drones, combats infrarouges, technologie 2.4 GHz. Idéal pour les batailles aériennes ! 78.0€",
   "price": "78.0",
   "compareAtPrice": 89,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Amewi",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Set de Drones de Combat Amewi FightStar RTF Rouge & Bleu",
+    "description": "Plongez dans l'action avec le Set de Drones de Combat Amewi FightStar (RTF) Rouge & Bleu. Prêt à voler, 2 drones, combats infrarouges, technologie 2.4 GHz. Idéal pour les batailles aériennes ! 78.0€",
+    "keywords": [
+      "set de drones de combat amewi fightstar rtf rouge & bleu",
+      "drones amphibies (atterrissage sur l'eau)",
+      "marque : amewi"
+    ],
+    "ogTitle": "Set de Drones de Combat Amewi FightStar RTF Rouge & Bleu",
+    "ogDescription": "Plongez dans l'action avec le Set de Drones de Combat Amewi FightStar (RTF) Rouge & Bleu. Prêt à voler, 2 drones, combats infrarouges, technologie 2.4 GHz. Idéal pour les batailles aériennes ! 78.0€"
   },
   "reviews": {
     "averageRating": 3.8,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Set de 2 drones de combat Amewi FightStar (1 Rouge, 1 Bleu), prêt à voler (RTF) avec télécommandes incluses. Idéal pour les batailles entre amis. Fréquence de contrôle : 2.4 GHz pour une portée optimale et une absence d'interférences. Fonctions : décollage/atterrissage automatique, vol stationnaire stable, mode headless, retour automatique. Conception légère et résistante aux chocs. Temps de vol par drone : environ 8-10 minutes. Temps de charge : environ 60 minutes. Inclus dans la boîte : 2 drones, 2 télécommandes, batteries rechargeables, câble de chargement USB, hélices de rechange, manuel d'utilisation."
+  },
+  "faq": [
+    {
+      "q": "Le set Amewi FightStar est-il prêt à voler dès la sortie de la boîte ?",
+      "a": "Oui, le set Amewi FightStar est entièrement prêt à voler (RTF). Il suffit d'insérer les piles dans les télécommandes, de charger les batteries des drones, et vous êtes prêt pour le décollage !"
+    },
+    {
+      "q": "Comment se déroulent les combats entre les deux drones ?",
+      "a": "Chaque drone est équipé d'un système de visée et de détection infrarouge. Lorsque l'un des drones touche l'autre, le drone touché émet un signal et vibre. Après trois impacts réussis, le drone touché s'arrête automatiquement, simulant une victoire."
+    },
+    {
+      "q": "Les télécommandes utilisent-elles la même fréquence ?",
+      "a": "Non, les deux télécommandes du set FightStar fonctionnent sur la fréquence 2.4 GHz, mais elles sont appairées individuellement à chaque drone, permettant des combats sans interférences."
+    },
+    {
+      "q": "Quelles sont les principales fonctionnalités technologiques de ces drones ?",
+      "a": "Les drones Amewi FightStar intègrent des fonctions comme le décollage et l'atterrissage automatiques, un mode headless pour faciliter le pilotage, un système de retour automatique en cas de perte de signal, et un vol stationnaire très stable grâce à un gyroscope intégré."
+    },
+    {
+      "q": "Ce set est-il adapté aux enfants ?",
+      "a": "Oui, le set est très accessible pour les adolescents et les adultes. Les fonctions simplifiées comme le mode headless et le décollage/atterrissage automatique le rendent idéal pour les débutants, tout en offrant suffisamment de divertissement pour les pilotes plus expérimentés."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:41.298828",
+  "originalName": "Amewi FightStar Battle Drone Set RTF Rouge & Bleu",
+  "enhanced": true
 }

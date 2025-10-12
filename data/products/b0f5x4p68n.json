@@ -1,9 +1,9 @@
 {
   "productId": "B0F5X4P68N",
-  "name": "Drone pour Enfants, Mini Drone avec 3 Batteries pour Débutants, Hélice Entièrement Protégée, Télécommande 2.4GHz, Maintien de L'altitude, 360 Flips, Drone Enfants avec Lumières LED",
-  "slug": "drone-pour-enfants-mini-drone-avec-3-batteries-pou",
-  "description": "Protection Complète des Pales du Ventilateur: Ce mini drone pour enfants est équipé de quatre protections d'hélice robustes pour empêcher votre enfant de toucher les pales du ventilateur par le haut, ce qui augmente la sécurité et la durabilité et protège votre enfant des blessures physiques causées par les hélices en rotation. Le matériau ABS de haute qualité peut résister à d'innombrables chocs ou chutes, très durable et fiable, adapté aux enfants et aux débutants. | Modes de fonctionnement multiples: Le drone peut être tourné à 360 degrés, un seul bouton permet de tourner vers le haut, vers le bas, vers la gauche et la droite, vers le côté gauche et le côté droit, vers l'avant et vers l'arrière, vers les vitesses rapides et lentes, la fonction de maintien de l'altitude permet au drone de rester en vol stationnaire à l'altitude définie, et le mode sans tête permet au drone jouet d'être facilement orienté afin d'enrichir l'expérience de vol pour les enfants. | Durée de Vol Prolongée Grâce aux 3 Batteries Rechargeables : Avec les 3 batteries rechargeables incluses dans le drone, l'autonomie de vol totale est de 30 minutes. Plus de déception due à des batteries déchargées ou à l'attente de la recharge, ce qui rend le vol plus excitant et plus amusant. La fonction d'alarme de batterie faible permet d'éviter les pertes ou les dommages dus à une batterie faible. | MINI Portable : Ce drone pour enfants permet aux joueurs de s'amuser partout, comme à la fête, à l'école, à la pêche, à la randonnée, aux voyages de longue durée, etc. Le drone pour enfants comprend 1*drone, 4*hélices de rechange, 3*batteries, 1*câble de chargement de batterie USB, 1*instructions, 1*télécommande radio (3 piles AAA sont nécessaires, non incluses), c'est un cadeau d'anniversaire, de Noël ou de vacances pour vos enfants ou vos amis ! | Drone LED Énergique Disponible en 2 Vitesses: De jour comme de nuit, en intérieur comme en extérieur, vous pouvez faire voler ce drone avec des lumières LED ultra lumineuses de couleur néon ; ce petit drone peut être piloté à basse ou haute vitesse pour s'adapter aux préférences de vol des débutants, des pilotes intermédiaires et des pilotes de drone expérimentés.",
-  "shortDescription": "Drone pour Enfants, Mini Drone avec 3 Batteries pour Débutants, Hélice Entièrement Protégée, Télécom",
+  "name": "Mini Drone pour Enfants : Facile à Piloter, 3 Batteries Incluses",
+  "slug": "mini-drone-pour-enfants-facile-piloter",
+  "description": "Offrez une expérience de vol inoubliable avec ce mini drone spécialement conçu pour les enfants et les débutants ! À seulement 43.0€, ce drone est le cadeau parfait pour éveiller la passion de la technologie et de l'aéronautique chez les plus jeunes. Son design innovant, avec des hélices entièrement protégées, assure une sécurité maximale pendant le vol, le rendant idéal pour une utilisation en intérieur comme en extérieur.  Grâce à sa télécommande 2.4GHz simple d'utilisation et à sa fonction de maintien d'altitude intelligente, même les pilotes les plus novices maîtriseront rapidement les commandes.  Surprenez vos enfants avec des figures acrobatiques spectaculaires grâce aux '360 Flips' et amusez-vous jusqu'au bout de la nuit avec ses lumières LED vives.  Avec 3 batteries incluses, le plaisir de voler dure 3 fois plus longtemps ! Ce drone est le compagnon idéal pour développer la motricité fine, la coordination œil-main et la compréhension des principes technologiques de base, le tout en s'amusant.",
+  "shortDescription": "Mini drone pour enfants et débutants, sécurité maximale avec hélices protégées, 3 batteries incluses pour un vol prolongé. Facile à piloter (maintien d'altitude, 360 Flips). Prix : 43.0€.",
   "price": "43.0",
   "compareAtPrice": 49,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Sheewey",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone pour Enfants : Facile à Piloter, 3 Batteries Incluses",
+    "description": "Mini drone pour enfants et débutants, sécurité maximale avec hélices protégées, 3 batteries incluses pour un vol prolongé. Facile à piloter (maintien d'altitude, 360 Flips). Prix : 43.0€.",
+    "keywords": [
+      "mini drone pour enfants : facile à piloter, 3 batteries incluses",
+      "drones avec maintien d'altitude",
+      "marque : sheewey"
+    ],
+    "ogTitle": "Mini Drone pour Enfants : Facile à Piloter, 3 Batteries Incluses",
+    "ogDescription": "Mini drone pour enfants et débutants, sécurité maximale avec hélices protégées, 3 batteries incluses pour un vol prolongé. Facile à piloter (maintien d'altitude, 360 Flips). Prix : 43.0€."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -42,5 +48,39 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "hélices_protégées": "Oui, conception entièrement protégée pour une sécurité accrue",
+    "batteries": "3 batteries incluses pour un temps de vol prolongé",
+    "fréquence_télécommande": "2.4GHz pour une connexion stable et sans interférences",
+    "fonctionnalités": "Maintien d'altitude, Boucles à 360° (360 Flips)",
+    "éclairage": "Lumières LED intégrées pour un vol nocturne ou en basse lumière",
+    "cible": "Enfants, Débutants en pilotage de drone",
+    "prix": "43.0€"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il vraiment sûr pour les enfants ?",
+      "a": "Absolument ! Le point fort de ce drone est la protection complète de ses hélices, minimisant ainsi les risques de blessures et protégeant les hélices des chocs. Il est conçu pour la tranquillité d'esprit des parents."
+    },
+    {
+      "q": "Est-il difficile de faire voler ce drone pour un enfant ?",
+      "a": "Non, pas du tout ! Ce mini drone est optimisé pour les débutants. La fonction de maintien d'altitude permet au drone de rester stable dans l'air, et la télécommande 2.4GHz est intuitive et facile à prendre en main. Même un enfant découvrant le pilotage s'amusera rapidement."
+    },
+    {
+      "q": "Combien de temps dure le vol avec une seule batterie ?",
+      "a": "L'autonomie de vol varie en fonction de l'utilisation, mais chaque batterie offre généralement entre 6 et 10 minutes de vol. Avec les 3 batteries fournies, vous bénéficiez d'un temps de jeu prolongé, jusqu'à 18-30 minutes au total, en alternant les batteries."
+    },
+    {
+      "q": "Puis-je faire des figures impressionnantes avec ce drone ?",
+      "a": "Oui ! Ce mini drone est équipé de la fonction '360 Flips' qui permet de réaliser des boucles impressionnantes et de divertir petits et grands. C'est un excellent moyen d'explorer les capacités des drones."
+    },
+    {
+      "q": "Ce drone est-il adapté pour jouer dehors ou à l'intérieur ?",
+      "a": "Grâce à sa petite taille, sa légèreté et ses hélices protégées, ce drone est parfait pour s'amuser à l'intérieur, dans un salon ou une chambre. Il peut également être utilisé à l'extérieur par temps calme pour des vols d'initiation."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:54.944644",
+  "originalName": "Drone pour Enfants, Mini Drone avec 3 Batteries pour Débutants, Hélice Entièrement Protégée, Télécommande 2.4GHz, Maintien de L'altitude, 360 Flips, Drone Enfants avec Lumières LED",
+  "enhanced": true
 }

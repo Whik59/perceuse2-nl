@@ -1,9 +1,9 @@
 {
   "productId": "B0D8VR5VKW",
-  "name": "Holy Stone HS360E Drone GPS, Caméra 4K EIS, Transmission d'Image de 6 km, Capteur 1200W, 30 Mins de Vol, Quadricoptère Pliable avec Suivez-Moi, Retour Automatique, Léger de 249 g pour Adultes, C0",
-  "slug": "holy-stone-hs360e-drone-gps-camera-4k-eis-transmis",
-  "description": "𝟒𝐊 𝐄𝐈𝐒 𝐂𝐚𝐦é𝐫𝐚 avec 𝐒𝐞𝐧𝐬𝐞𝐮𝐫 𝟏𝟐𝟎𝟎𝐖 Capturez des vidéos de qualité professionnelle et des photos de 12MP grâce à la caméra 4K du drone, équipée de la Stabilisation Électronique d’Image (EIS) et d’un puissant capteur 1200W, garantissant des prises de vue d’une clarté cristalline pour toutes vos aventures. | 𝟔𝐊𝐌 de Transmission Longue Distance Profitez d’un contrôle longue portée et d’une transmission vidéo en temps réel grâce à une portée remarquable de 6KM/20 000 pieds, idéale pour capturer des paysages vastes et explorer plus loin avec facilité. | Conforme à la réglementation C0 HS360E, drone adulte avec caméra, présente le dernier design Holy Stone et pèse moins de 250 grammes. Ce drone GPS est la solution de vol parfaite et répond aux normes C0. Parfait pour capturer de superbes images en déplacement. | Retour Automatique GPS et Modes de Vol Multiples Le drone HS360E 4K retourne automatiquement à son point de départ lorsque la batterie est faible ou que le signal est perdu, offrant un contrôle facile pour tous les niveaux. Découvrez également des fonctionnalités amusantes comme Follow Me, Waypoint Flight et Circle Flight. | 30 Minutes d’Autonomie Une seule batterie offre un temps de vol allant jusqu’à 30 minutes, surpassant de nombreux produits similaires. Alimenté par des moteurs brushless durables 1503, le HS360E garantit une expérience de vol plus stable et silencieuse.",
-  "shortDescription": "Holy Stone HS360E Drone GPS, Caméra 4K EIS, Transmission d'Image de 6 km, Capteur 1200W, 30 Mins de ",
+  "name": "Drone Holy Stone HS360E : Capturez le Monde en 4K avec Technologie de Pointe",
+  "slug": "drone-holy-stone-hs360e-capturez-monde",
+  "description": "Découvrez le **drone Holy Stone HS360E**, votre compagnon idéal pour l'exploration aérienne et la photographie professionnelle. Doté d'une **caméra 4K EIS** de 1200W pixels, il offre des images d'une netteté époustouflante. Sa **transmission d'image de 6 km** vous permet de capturer des vues lointaines sans compromis. Profitez de **30 minutes de vol** par batterie grâce à sa conception légère de 249g, le rendant facile à transporter et conforme aux réglementations. Les fonctionnalités intelligentes comme **Suivez-Moi** et le **Retour Automatique** simplifient chaque vol, le rendant accessible aux débutants comme aux passionnés de technologie. Ce quadricoptère pliable est une merveille d'ingénierie **robotique et technologique**.",
+  "shortDescription": "Drone Holy Stone HS360E 4K EIS : Transmission 6km, 30 min vol, 249g. Technologie robotique pour adultes.",
   "price": "239.0",
   "compareAtPrice": 274,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Holy Stone",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Holy Stone HS360E : Capturez le Monde en 4K avec Technologie de Pointe",
+    "description": "Drone Holy Stone HS360E 4K EIS : Transmission 6km, 30 min vol, 249g. Technologie robotique pour adultes.",
+    "keywords": [
+      "drone holy stone hs360e : capturez le monde en 4k avec technologie de pointe",
+      "drones professionnels",
+      "visiter la boutique holy stone"
+    ],
+    "ogTitle": "Drone Holy Stone HS360E : Capturez le Monde en 4K avec Technologie de Pointe",
+    "ogDescription": "Drone Holy Stone HS360E 4K EIS : Transmission 6km, 30 min vol, 249g. Technologie robotique pour adultes."
   },
   "reviews": {
     "averageRating": 4.1,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone Holy Stone HS360E avec Caméra 4K EIS, Transmission 6km, 249g, 30 min de vol, Suivez-Moi, Retour Auto. Idéal pour adultes."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone Holy Stone HS360E ?",
+      "a": "Le drone Holy Stone HS360E est équipé d'une caméra 4K EIS (Stabilisation Électronique de l'Image) de 1200W pixels, garantissant des vidéos et des photos d'une qualité exceptionnelle."
+    },
+    {
+      "q": "Quelle est la portée de la transmission d'image de ce drone ?",
+      "a": "Ce drone offre une portée de transmission d'image impressionnante de 6 km, vous permettant de voir ce que votre drone voit à de grandes distances."
+    },
+    {
+      "q": "Quelle est l'autonomie de vol du Holy Stone HS360E ?",
+      "a": "Chaque batterie offre jusqu'à 30 minutes de temps de vol, vous donnant amplement le temps d'explorer et de capturer vos moments préférés."
+    },
+    {
+      "q": "Est-ce que ce drone est facile à piloter pour les débutants ?",
+      "a": "Absolument ! Le drone HS360E est conçu avec des fonctionnalités intelligentes comme 'Suivez-Moi' et le 'Retour Automatique', rendant le pilotage accessible et agréable même pour les débutants."
+    },
+    {
+      "q": "Quel est le poids du drone et quelles sont les implications réglementaires ?",
+      "a": "Avec un poids de seulement 249g, ce drone est léger et facile à transporter. Son poids le positionne également avantageusement par rapport à certaines réglementations aériennes pour les drones de loisir."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:39.695712",
+  "originalName": "Holy Stone HS360E Drone GPS, Caméra 4K EIS, Transmission d'Image de 6 km, Capteur 1200W, 30 Mins de Vol, Quadricoptère Pliable avec Suivez-Moi, Retour Automatique, Léger de 249 g pour Adultes, C0",
+  "enhanced": true
 }

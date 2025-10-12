@@ -1,9 +1,9 @@
 {
   "productId": "B0CQQMBQY2",
-  "name": "BuyWeek Mini Drone avec Double Caméra, E99 Drone RC 4K HD Drones Aérien WiFi Intelligent Pour Éviter les Obstacles Avion Télécommandé Quadricoptère RC pour Enfant Adulte Débutant",
-  "slug": "buyweek-mini-drone-avec-double-camera-e99-drone-rc",
-  "description": "【Drone pliable】Quatre bras de machine peuvent être pliés, de petite taille, faciles à transporter. Le mini drone utilise la conception classique à trois volets, la zone pliée de l'avion est comparable à celle d'un téléphone portable, vous permettant de le saisir facilement d'une seule main. | 【Mode sans tête et vol autonome】En mode sans tête, le vol n'est pas nécessaire pour identifier la direction du fuselage. Grâce à la fonction de retour à une touche, le drone peut facilement retrouver son chemin. Une trajectoire de vol est dessinée sur l'écran et le drone volera de manière autonome le long de la trajectoire spécifiée. | 【Veilleuse LED】Le drone télécommandé est équipé d'une veilleuse LED et la barre lumineuse LED peut être allumée et éteinte avec une seule touche, ce qui rend le drone facile à voler la nuit et à identifier la direction, adapté au vol de nuit. | 【Double caméra 4K】Mini Drone ave double caméra HD 4K intégrée avec angle d'objectif librement réglable pour capturer de superbes images et vidéos depuis le ciel. | 【Excellente fonction】Drones avec la fonction WiFi, vous pouvez connecter l'application, le système APK, prendre des photos, des vidéos, des photos gestuelles, la détection de la gravité, des photos automatiques, un zoom 50 fois, une transmission en temps réel via l'image de la caméra du téléphone.",
-  "shortDescription": "BuyWeek Mini Drone avec Double Caméra, E99 Drone RC 4K HD Drones Aérien WiFi Intelligent Pour Éviter",
+  "name": "Mini Drone E99 4K HD avec Évitement d'Obstacles - Parfait pour Débutants",
+  "slug": "mini-drone-e99-avec-evitement-d-obstacles",
+  "description": "Découvrez le **BuyWeek Mini Drone E99**, le quadricoptère RC idéal pour les **débutants adultes et enfants**. Équipé de **double caméra 4K HD** et d'une technologie **WiFi intelligent pour éviter les obstacles**, ce drone aérien télécommandé offre une expérience de vol immersive et sécurisée. Capturez des **vidéos et photos aériennes de haute qualité** avec facilité. Sa conception compacte et sa facilité d'utilisation en font le cadeau parfait pour explorer le monde de la photographie et de la vidéographie drone. Profitez d'un vol stable grâce à sa fonction de maintien d'altitude. Ne manquez pas cette opportunité d'acquérir un drone RC performant à un prix abordable de seulement 21.0€.",
+  "shortDescription": "Mini Drone E99 4K HD WiFi avec double caméra et évitement d'obstacles. Idéal pour débutants (enfants/adultes). Facile à piloter. 21.0€.",
   "price": "21.0",
   "compareAtPrice": 24,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BuyWeek",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone E99 4K HD avec Évitement d'Obstacles - Parfait pour Débutants",
+    "description": "Mini Drone E99 4K HD WiFi avec double caméra et évitement d'obstacles. Idéal pour débutants (enfants/adultes). Facile à piloter. 21.0€.",
+    "keywords": [
+      "mini drone e99 4k hd avec évitement d'obstacles - parfait pour débutants",
+      "drones avec évitement d'obstacles",
+      "visiter la boutique buyweek"
+    ],
+    "ogTitle": "Mini Drone E99 4K HD avec Évitement d'Obstacles - Parfait pour Débutants",
+    "ogDescription": "Mini Drone E99 4K HD WiFi avec double caméra et évitement d'obstacles. Idéal pour débutants (enfants/adultes). Facile à piloter. 21.0€."
   },
   "reviews": {
     "averageRating": 3.3,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Double caméra 4K HD, WiFi, Évitement d'obstacles intelligent, Quadricoptère RC, Idéal pour débutants (enfants et adultes), Fonction maintien d'altitude, Facile à piloter, Design compact."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le BuyWeek Mini Drone E99 est spécialement conçu pour les débutants. Sa technologie de maintien d'altitude et ses commandes intuitives le rendent très facile à piloter, même sans expérience préalable."
+    },
+    {
+      "q": "Quelle est la résolution des caméras ?",
+      "a": "Le drone est équipé d'une double caméra 4K HD, vous permettant de capturer des photos et des vidéos aériennes d'une excellente qualité."
+    },
+    {
+      "q": "Le drone peut-il éviter les obstacles de manière autonome ?",
+      "a": "Oui, le drone dispose d'une fonction d'évitement d'obstacles intelligente qui l'aide à naviguer en toute sécurité autour des objets pour minimiser les risques de collision."
+    },
+    {
+      "q": "À quel public ce drone est-il destiné ?",
+      "a": "Ce mini drone est parfait pour les enfants et les adultes débutants qui souhaitent s'initier au pilotage de drones et à la photographie aérienne."
+    },
+    {
+      "q": "Quel est le prix de ce drone ?",
+      "a": "Le BuyWeek Mini Drone E99 est proposé au prix attractif de 21.0€."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.939217",
+  "originalName": "BuyWeek Mini Drone avec Double Caméra, E99 Drone RC 4K HD Drones Aérien WiFi Intelligent Pour Éviter les Obstacles Avion Télécommandé Quadricoptère RC pour Enfant Adulte Débutant",
+  "enhanced": true
 }

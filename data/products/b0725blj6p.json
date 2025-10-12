@@ -1,9 +1,9 @@
 {
   "productId": "B0725BLJ6P",
-  "name": "VOLOHAS 4 Ports Chargeur Hub pour DJI Mavic Pro/Mavic Pro Platinum Drone Multi-Batterie Parallèle Adapteur avec Affichage Numérique",
-  "slug": "volohas-4-ports-chargeur-hub-pour-dji-mavic-promav",
-  "description": "MAVIC PRO Chargeur de batterie – Hub de charge 4 en 1 pour batterie de vol intelligente DJI Mavic. Entrée : 13,05-13,2 V 8 A (max) ; sortie : 13,05-13,2 V (modules de protection de charge intelligents intégrés). Longue durée de vie, qualité fiable, longue durée de fonctionnement et autres caractéristiques, c'est un compagnon idéal pour les batteries DJI | Protection multiple, durable : contrôle intelligent, la charge est contrôlée par micro-ordinateur MCU, détecte automatiquement la tension de la batterie et effectue une charge intelligente pour éviter la surcharge, avec fonctions d'activation de la batterie au lithium 0 V, prolongeant efficacement la durée de vie de la batterie | Chargeur à 4 emplacements, charge plus rapide : doit être utilisé avec le chargeur d'origine, peut charger 4 batteries en même temps ou charger une batterie séparément. Compatible avec les batteries d'origine, l'utilisation à haute fréquence a toujours une cohérence interne pour garantir la durée de vie générale de la batterie | Détection intelligente de tension : chargez de haut en bas en fonction de la puissance restante, l'écran numérique affiche le processus de charge, et l'état de charge est clair en un coup d'œil (Remarque : la batterie et le chargeur ne sont pas inclus) | Qualité fiable : il dispose d'un circuit intelligent de protection de la batterie avec plusieurs fonctions de protection telles que la surcharge, la surcharge, la surintensité (court-circuit) et la surchauffe. Tous les produits ont passé les certifications CE, RoHS et FC",
-  "shortDescription": "VOLOHAS 4 Ports Chargeur Hub pour DJI Mavic Pro/Mavic Pro Platinum Drone Multi-Batterie Parallèle Ad",
+  "name": "Hub de Charge 4 Ports VOLOHAS pour DJI Mavic Pro / Platinum",
+  "slug": "pro-hub-charge-ports-volohas-pour",
+  "description": "Optimisez votre temps de vol avec le Hub de Charge Multi-Batterie Parallèle VOLOHAS. Conçu spécifiquement pour les drones DJI Mavic Pro et Mavic Pro Platinum, cet adaptateur intelligent vous permet de charger jusqu'à 4 batteries simultanément. Son affichage numérique clair vous offre un suivi précis du processus de charge pour chaque batterie, assurant une efficacité maximale et une préparation rapide de votre drone pour de nouvelles aventures. Ne laissez plus jamais une batterie déchargée vous arrêter !",
+  "shortDescription": "Hub de charge 4 batteries VOLOHAS pour DJI Mavic Pro/Platinum avec affichage numérique.",
   "price": "23.0",
   "compareAtPrice": 26,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : VOLOHAS",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hub de Charge 4 Ports VOLOHAS pour DJI Mavic Pro / Platinum",
+    "description": "Hub de charge 4 batteries VOLOHAS pour DJI Mavic Pro/Platinum avec affichage numérique.",
+    "keywords": [
+      "hub de charge 4 ports volohas pour dji mavic pro / platinum",
+      "batteries et chargeurs pour drones",
+      "marque : volohas"
+    ],
+    "ogTitle": "Hub de Charge 4 Ports VOLOHAS pour DJI Mavic Pro / Platinum",
+    "ogDescription": "Hub de charge 4 batteries VOLOHAS pour DJI Mavic Pro/Platinum avec affichage numérique."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Hub de charge 4 ports pour DJI Mavic Pro / Mavic Pro Platinum, adaptateur parallèle multi-batterie, affichage numérique."
+  },
+  "faq": [
+    {
+      "q": "Quels drones DJI ce hub de charge est-il compatible ?",
+      "a": "Ce hub de charge VOLOHAS est spécifiquement conçu pour les drones DJI Mavic Pro et DJI Mavic Pro Platinum."
+    },
+    {
+      "q": "Combien de batteries ce hub peut-il charger en même temps ?",
+      "a": "Le hub de charge VOLOHAS peut charger jusqu'à 4 batteries de drone simultanément, offrant une solution de recharge parallèle très pratique."
+    },
+    {
+      "q": "Que signifie l'affichage numérique sur le hub ?",
+      "a": "L'affichage numérique fournit des informations en temps réel sur l'état de charge de chaque batterie connectée, vous permettant de suivre le processus et de savoir quand elles seront prêtes."
+    },
+    {
+      "q": "Est-ce un chargeur officiel DJI ?",
+      "a": "Ce produit est un accessoire tiers de la marque VOLOHAS, conçu pour être compatible avec les batteries des drones DJI Mavic Pro et Mavic Pro Platinum. Il n'est pas un produit officiel de la marque DJI."
+    },
+    {
+      "q": "Le hub est-il compact et facile à transporter ?",
+      "a": "Oui, le design du hub est pensé pour la praticité. Il est relativement compact, ce qui facilite son transport lors de vos déplacements avec votre drone."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.253268",
+  "originalName": "VOLOHAS 4 Ports Chargeur Hub pour DJI Mavic Pro/Mavic Pro Platinum Drone Multi-Batterie Parallèle Adapteur avec Affichage Numérique",
+  "enhanced": true
 }

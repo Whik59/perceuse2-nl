@@ -1,9 +1,9 @@
 {
   "productId": "B0CQTFRWBV",
-  "name": "FIFISH V6E Drone sous-marin Boîtier industriel Mini Rov avec caméra 4K VR plongée sous-marine 14400 mAh Robot ROV sous-marin (ensemble standard M100)",
-  "slug": "fifish-v6e-drone-sous-marin-boitier-industriel-min",
-  "description": "Extensions multi-outils, possibilités illimitées : FIFISH V6 Expert est un robot sous-marin de classe professionnelle et un outil multifonction pour améliorer vos missions et opérations sous-marines. Le V6 EXPERT peut être équipé d'un système d'alimentation à terre qui offre des performances de plongée et une durée de fonctionnement optimales. L'interface FIFISH V6 Expert permet l'intégration efficace d'une large gamme d'outils de niveau professionnel et spécifiques à l'industrie pour s'attaquer à différents scénarios et tâches. | Véritable construction et performance améliorées à 360° : 1) Protection contre la corrosion et le sable, 2) Liberté totale de mouvement dans le monde aquatique, 3) Des séquences ultra-fluides et stables partout où les missions vous mènent, 4) Contre le flux de courants d'eau de 1 m/s, le ROV peut toujours maintenir un temps de plongée d'environ 1,5 heure. Design épuré, robuste et fiable : protection à 360° des composants principaux. Câble Kevlar robuste et flexible pour un déploiement et une récupération rapides. | Suivi intelligent de la tête VR : FIFISH V6 Expert applique des commandes sensorielles uniques qui offrent à l'utilisateur une expérience sous-marine vraiment immersive du point de vue de la première personne du ROV. Grâce aux lunettes de réalité virtuelle intelligentes, prenez le contrôle complet de la direction et de la posture à 360° breveté QYSEA du V6 Expert simplement en tournant la tête. Cette fonction intelligente est précise, facile à utiliser, et une percée dans l'exploration sous-marine. | Prise de vue 4K à faible bruit pour une clarté cinématographique : le FIFISH V6 Expert est équipé d'un objectif de caméra sous-marine UHD 4K, avec un champ de vision ultra large de 166°, une résolution de 12 mégapixels, des capacités de tournage au ralenti de 240 fps et bien plus encore. Les algorithmes d'amélioration de la vision de V6 Expert font ressortir l'éclat de l'environnement sous-marin, afin que vous puissiez capturer tous les détails nécessaires dans vos opérations et missions aquatiques. | Puissance longue durée, haute performance et fiabilité : déploiement rapide et rapide des blocs d'énergie pour des sessions de plongée fluides, longues et ininterrompues. Le V6 EXPERT dispose d'une batterie super capacité de 14400 mAh qui offre une longue durée de vie, des capacités de charge rapide, ainsi que de multiples mécanismes de sécurité et de sécurité. Q-Charge : 90 % de capacité en 1 heure.",
-  "shortDescription": "FIFISH V6E Drone sous-marin Boîtier industriel Mini Rov avec caméra 4K VR plongée sous-marine 14400 ",
+  "name": "FIFISH V6E Drone Sous-Marin Industriel ROV avec Caméra 4K VR",
+  "slug": "fifish-v6e-drone-sous-marin-industriel-rov",
+  "description": "Plongez dans des profondeurs inégalées avec le FIFISH V6E, un drone sous-marin (ROV) industriel compact et puissant conçu pour l'exploration et l'inspection. Doté d'une caméra 4K immersive compatible VR, ce robot ROV miniature offre une clarté visuelle exceptionnelle pour toutes vos missions sous-marines. Son autonomie impressionnante de 14400 mAh assure de longues sessions d'exploration, faisant du FIFISH V6E l'outil idéal pour les professionnels et les passionnés de technologie sous-marine. L'ensemble standard M100 comprend tout le nécessaire pour une mise en service immédiate.",
+  "shortDescription": "ROV industriel FIFISH V6E avec caméra 4K VR. Exploration sous-marine avancée, autonomie 14400 mAh. Prix : 999.0€",
   "price": "999.0",
   "compareAtPrice": 1148,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : FIFISH",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "FIFISH V6E Drone Sous-Marin Industriel ROV avec Caméra 4K VR",
+    "description": "ROV industriel FIFISH V6E avec caméra 4K VR. Exploration sous-marine avancée, autonomie 14400 mAh. Prix : 999.0€",
+    "keywords": [
+      "fifish v6e drone sous-marin industriel rov avec caméra 4k vr",
+      "drones sous-marins (rov)",
+      "marque : fifish"
+    ],
+    "ogTitle": "FIFISH V6E Drone Sous-Marin Industriel ROV avec Caméra 4K VR",
+    "ogDescription": "ROV industriel FIFISH V6E avec caméra 4K VR. Exploration sous-marine avancée, autonomie 14400 mAh. Prix : 999.0€"
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K avec support VR, autonomie 14400 mAh, compact et industriel, idéal pour plongée et inspection."
+  },
+  "faq": [
+    {
+      "q": "Quel est l'avantage principal du FIFISH V6E pour un usage industriel ?",
+      "a": "Le FIFISH V6E offre une solution ROV compacte et performante pour les inspections sous-marines professionnelles, avec une résolution 4K pour une clarté d'image optimale et un support VR pour une immersion accrue, facilitant l'analyse détaillée des structures et de l'environnement."
+    },
+    {
+      "q": "Quelle est la durée d'autonomie de la batterie du drone sous-marin FIFISH V6E ?",
+      "a": "Le FIFISH V6E est équipé d'une batterie haute capacité de 14400 mAh, lui permettant de fonctionner pendant une durée prolongée pour des missions d'exploration ou d'inspection sous-marines étendues."
+    },
+    {
+      "q": "Le FIFISH V6E est-il adapté aux débutants en plongée sous-marine assistée par technologie ?",
+      "a": "Bien que conçu pour des applications industrielles, l'interface intuitive et la facilité de pilotage du FIFISH V6E, couplées à la technologie VR, peuvent rendre l'expérience d'exploration sous-marine accessible à des utilisateurs ayant une certaine affinité avec la technologie et souhaitant explorer ce domaine."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.718686",
+  "originalName": "FIFISH V6E Drone sous-marin Boîtier industriel Mini Rov avec caméra 4K VR plongée sous-marine 14400 mAh Robot ROV sous-marin (ensemble standard M100)",
+  "enhanced": true
 }

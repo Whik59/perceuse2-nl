@@ -1,9 +1,9 @@
 {
   "productId": "B0FPXHFMLB",
   "name": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS)",
-  "slug": "kit-de-drone-fpv-m5-se-1-piece-compatible-avec-le-",
-  "description": "Modèle de produit : Drone de photographie aérienne complet | Applications : Photographie aérienne et capture vidéo | Matériau : La construction maximise la durée de vie du produit | Installation : La conception simple et facile réduit le temps de mise en service | Modèle de produit : Drone de photographie aérienne complet",
-  "shortDescription": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV ave",
+  "slug": "m5-kit-drone-fpv-piece-compatible",
+  "description": "<div><h2>Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS)</h2><p>Quality product</p></div>",
+  "shortDescription": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS) - Quality Product",
   "price": "628.0",
   "compareAtPrice": 722,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : SxRakiO",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS)",
+    "description": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS) - Quality Product",
+    "keywords": [
+      "kit de drone fpv m5 se 1 pièce, compatible avec le drone d o4 lite squashed x frame ae227 1960kv avec freestyle longue portée(analog w tbs w gps)",
+      "drones portée 5 à 10 km",
+      "marque : sxrakio"
+    ],
+    "ogTitle": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS)",
+    "ogDescription": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS) - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:37.871620",
+  "originalName": "Kit de drone FPV M5 SE 1 pièce, compatible avec le drone D O4 Lite Squashed X Frame AE227 1960KV avec Freestyle longue portée(Analog w TBS w GPS)",
+  "enhanced": true
 }

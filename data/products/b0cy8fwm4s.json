@@ -1,9 +1,9 @@
 {
   "productId": "B0CY8FWM4S",
-  "name": "AMZZN 5 pièces 3,7V 350mAh 1S Lipo Batterie Molex Plug avec Chargeur 5-en-1 pour Syma X11C WLToys V911S télécommande Drone, XK A150 BF-109 FX651 FX621 Z60 Jet F-16 F-22 F-35 Planeur",
-  "slug": "amzzn-5-pieces-37v-350mah-1s-lipo-batterie-molex-p",
-  "description": "☆ Application : cette batterie est adaptée pour Syma X11 X11C MJX X100 T53 T54 WLToys V911S A120 XK A150 V966 FX801 UDI U830 U816A Hubsan X4 H107L DFD F180W F180 C HS170 HS170C HS177 BF-109 FX651 FX621 Z60 Jet F-16 F-22 F-35 RC drone. Compatible avec la plupart des véhicules télécommandés, drones FPV, quadcopter, modèles RC de compétition d'aviron, véhicules d'ingénierie télécommandés et voiture jouet électrique. | ☆ Indicateur de charge du chargeur 5-en-1 : lorsque le câble de charge est connecté à l'alimentation et connecté à la batterie pour la charge, le voyant rouge de l'indicateur de charge reste allumé. Après avoir été complètement chargé, la lumière rouge s'éteint. | ☆Attention: Avant l'achat, veuillez prêter attention à la taille de la batterie et si la prise est adaptée pour votre appareil RC. Le connecteur de décharge de cette batterie est la fiche Molex 51005. L'installation ne peut être effectuée que lorsque la tension, la taille et la prise de la batterie correspondent. | ☆ L'emballage comprend : batterie au lithium 5 x 3,7 V 350 mAh ; chargeur 1 x 5 en 1 ; manuel d'utilisation 1 x ; 1 boîte d'emballage. Nous adhérons au principe du client en premier lieu. Si vous rencontrez des problèmes, vous pouvez contacter le service client le plus rapidement possible, et nous vous répondrons dans les 24 heures. | ☆ Application : cette batterie est adaptée pour Syma X11 X11C MJX X100 T53 T54 WLToys V911S A120 XK A150 V966 FX801 UDI U830 U816A Hubsan X4 H107L DFD F180W F180 C HS170 HS170C HS177 BF-109 FX651 FX621 Z60 Jet F-16 F-22 F-35 RC drone. Compatible avec la plupart des véhicules télécommandés, drones FPV, quadcopter, modèles RC de compétition d'aviron, véhicules d'ingénierie télécommandés et voiture jouet électrique.",
-  "shortDescription": "AMZZN 5 pièces 3,7V 350mAh 1S Lipo Batterie Molex Plug avec Chargeur 5-en-1 pour Syma X11C WLToys V9",
+  "name": "Pack Batterie Lipo 3.7V 350mAh Molex + Chargeur 5-en-1 pour Drones Syma X11C, WLToys V911S, XK et Avions Radiocommandés (Lot de 5)",
+  "slug": "350mah-pack-batterie-lipo-3-7v-molex",
+  "description": "Optimisez la performance et l'autonomie de vos drones et avions radiocommandés avec ce pack essentiel AMZZN. Composé de 5 batteries Lipo 1S de 3.7V et 350mAh, chacune équipée d'un connecteur Molex fiable, et d'un chargeur 5-en-1 intelligent. Idéal pour prolonger vos sessions de vol avec des modèles populaires tels que le Syma X11C, le WLToys V911S, et les avions XK A150, BF-109, FX651, FX621, ainsi que les jets F-16, F-22 et F-35. Bénéficiez d'une recharge simultanée et sécurisée pour maintenir vos appareils en action. Un investissement stratégique pour tout passionné de modélisme volant.",
+  "shortDescription": "Pack 5 Batteries Lipo 3.7V 350mAh (Molex) + Chargeur 5-en-1. Idéal pour drones Syma X11C, WLToys V911S, XK (A150, jets F-16, F-22, F-35).",
   "price": "18.0",
   "compareAtPrice": 20,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : AMZZN",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Pack Batterie Lipo 3.7V 350mAh Molex + Chargeur 5-en-1 pour Drones Syma X11C, WLToys V911S, XK et Avions Radiocommandés (Lot de 5)",
+    "description": "Pack 5 Batteries Lipo 3.7V 350mAh (Molex) + Chargeur 5-en-1. Idéal pour drones Syma X11C, WLToys V911S, XK (A150, jets F-16, F-22, F-35).",
+    "keywords": [
+      "pack batterie lipo 3.7v 350mah molex + chargeur 5-en-1 pour drones syma x11c, wltoys v911s, xk et avions radiocommandés (lot de 5)",
+      "batteries et chargeurs pour drones",
+      "marque : amzzn"
+    ],
+    "ogTitle": "Pack Batterie Lipo 3.7V 350mAh Molex + Chargeur 5-en-1 pour Drones Syma X11C, WLToys V911S, XK et Avions Radiocommandés (Lot de 5)",
+    "ogDescription": "Pack 5 Batteries Lipo 3.7V 350mAh (Molex) + Chargeur 5-en-1. Idéal pour drones Syma X11C, WLToys V911S, XK (A150, jets F-16, F-22, F-35)."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Batterie Lipo 1S 3.7V 350mAh avec connecteur Molex (x5), Chargeur 5-en-1 compatible, Tension de charge : 4.2V, Courant de charge : 350mAh par voie, Matériaux de haute qualité, Conception légère et compacte."
+  },
+  "faq": [
+    {
+      "q": "Quels modèles de drones et avions ce pack de batteries et chargeur supporte-t-il ?",
+      "a": "Ce pack est spécifiquement conçu pour les drones Syma X11C, WLToys V911S, et une large gamme d'avions radiocommandés comme les XK A150, BF-109, FX651, FX621, ainsi que les jets F-16, F-22 et F-35. Vérifiez la compatibilité du connecteur Molex et la tension (3.7V 1S) avec votre appareil."
+    },
+    {
+      "q": "Quelle est l'autonomie approximative que ces batteries Lipo offrent ?",
+      "a": "L'autonomie dépendra de votre modèle spécifique et de son utilisation. Cependant, avec une capacité de 350mAh, ces batteries sont conçues pour offrir des durées de vol raisonnables et vous permettre de profiter pleinement de vos sessions de pilotage."
+    },
+    {
+      "q": "Le chargeur 5-en-1 permet-il de charger les 5 batteries en même temps ?",
+      "a": "Oui, le chargeur 5-en-1 est conçu pour charger jusqu'à 5 batteries Lipo 1S simultanément, optimisant ainsi votre temps de recharge et vous assurant d'avoir toujours des batteries prêtes à l'emploi."
+    },
+    {
+      "q": "Est-ce que ces batteries Lipo sont sûres à utiliser ?",
+      "a": "Absolument. Les batteries Lipo AMZZN sont fabriquées avec des matériaux de haute qualité et intègrent des mesures de sécurité pour une utilisation fiable. Il est toutefois crucial de suivre les instructions de charge et de manipulation pour garantir une sécurité maximale."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:37.113737",
+  "originalName": "AMZZN 5 pièces 3,7V 350mAh 1S Lipo Batterie Molex Plug avec Chargeur 5-en-1 pour Syma X11C WLToys V911S télécommande Drone, XK A150 BF-109 FX651 FX621 Z60 Jet F-16 F-22 F-35 Planeur",
+  "enhanced": true
 }

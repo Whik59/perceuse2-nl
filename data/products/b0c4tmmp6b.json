@@ -1,9 +1,9 @@
 {
   "productId": "B0C4TMMP6B",
-  "name": "Drones avec Caméra pour Adultes Débutants, Quadrirotor RC Pliable avec évitement d'obstacles sur 3 Côtés, Quadrirotor WiFi Portable HD 4k Aérien, Télécommande pour la Photographie",
-  "slug": "drones-avec-camera-pour-adultes-debutants-quadriro",
-  "description": "Zoom 50X : le tournage avec un zoom 50x peut être réalisé via le téléphone mobile, sans crainte de vues à haute altitude. Application intégrée dans une variété d'effets de filtre, une technologie de traitement d'image puissante et intelligente, de belles photos en une seule fois. | Double caméra HD : double caméra 4K, commutation à double angle de vue, l'angle de tournage du drone peut être commuté librement, le champ de vision n'est plus limité, plus ouvert. | Télécommande : avec la fonction Wi-Fi, vous pouvez connecter l'application pour contrôler le vol et prendre des photos, des vidéos et une transmission en temps réel via l'image capturée par le téléphone mobile. | Vol amusant multiple : vous pouvez dessiner un itinéraire sur l'écran de l'application et le drone en vol stationnaire volera en suivant le chemin en conséquence. Le système de vol stationnaire intelligent maintient l'altitude à tout moment pendant le vol, est facile à contrôler et à tirer, et est facile pour les débutants. | Évitement d'obstacles à 3 côtés : avec des capacités de perception infrarouge environnementale avant, gauche, droite et 3 voies, vous pouvez percevoir la distance des obstacles. Contrôlez le drone en faisant pivoter le téléphone vers l'avant, l'arrière, la gauche et la droite, sans avoir besoin de boutons.",
-  "shortDescription": "Drones avec Caméra pour Adultes Débutants, Quadrirotor RC Pliable avec évitement d'obstacles sur 3 C",
+  "name": "Drone HD 4K Pliable avec Caméra pour Débutants et Adultes",
+  "slug": "drone-pliable-avec-camera-pour-debutants",
+  "description": "Découvrez une nouvelle perspective avec ce drone pliable haute définition 4K, conçu spécifiquement pour les adultes débutants. Doté d'une technologie d'évitement d'obstacles sur 3 côtés, il assure un vol sécurisé et intuitif. Capturez des images aériennes spectaculaires grâce à sa caméra WiFi HD 4K et sa télécommande facile à utiliser. Sa conception portable et pliable en fait le compagnon idéal pour toutes vos aventures photographiques et vidéographiques.",
+  "shortDescription": "Drone pliable 4K pour débutants avec évitement d'obstacles 3 côtés. Idéal pour la photographie aérienne HD et la vidéographie WiFi.",
   "price": "40.0",
   "compareAtPrice": 46,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Tonysa",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone HD 4K Pliable avec Caméra pour Débutants et Adultes",
+    "description": "Drone pliable 4K pour débutants avec évitement d'obstacles 3 côtés. Idéal pour la photographie aérienne HD et la vidéographie WiFi.",
+    "keywords": [
+      "drone hd 4k pliable avec caméra pour débutants et adultes",
+      "drones pliables et portables",
+      "visiter la boutique tonysa"
+    ],
+    "ogTitle": "Drone HD 4K Pliable avec Caméra pour Débutants et Adultes",
+    "ogDescription": "Drone pliable 4K pour débutants avec évitement d'obstacles 3 côtés. Idéal pour la photographie aérienne HD et la vidéographie WiFi."
   },
   "reviews": {
     "averageRating": 2.4,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Type : Quadrirotor RC Pliable\nRésolution Caméra : HD 4K\nConnectivité : WiFi\nFonctionnalités : Évitement d'obstacles (3 côtés), Photographie aérienne, Vidéo haute définition\nCible : Adultes débutants\nBatterie : Non spécifiée (à vérifier)\nAutonomie : Non spécifiée (à vérifier)\nDistance de contrôle : Non spécifiée (à vérifier)\nMatériau : Plastique ABS résistant\nDimensions : Pliable (à vérifier)\nPoids : Léger et portable (à vérifier)"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce drone a été conçu avec les débutants en tête, intégrant des fonctionnalités intuitives comme l'évitement d'obstacles sur 3 côtés pour un vol plus serein et une télécommande simple d'utilisation."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra ?",
+      "a": "La caméra intégrée capture des images et des vidéos en haute définition 4K, vous permettant d'obtenir des prises de vue aériennes incroyablement nettes et détaillées."
+    },
+    {
+      "q": "Le drone est-il portable et facile à transporter ?",
+      "a": "Oui, ce modèle est pliable, ce qui le rend extrêmement portable et facile à ranger dans votre sac pour l'emporter partout avec vous."
+    },
+    {
+      "q": "L'évitement d'obstacles est-il efficace ?",
+      "a": "Grâce à son système d'évitement d'obstacles sur 3 côtés, le drone peut détecter et réagir aux obstacles environnants, réduisant ainsi le risque de collision et rendant le vol plus sûr."
+    },
+    {
+      "q": "Est-il possible de voir les images en direct depuis le drone ?",
+      "a": "Oui, grâce à sa connectivité WiFi, vous pouvez diffuser les images de la caméra en temps réel sur votre smartphone ou tablette via l'application dédiée, parfait pour la photographie et la vidéographie aérienne."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.544113",
+  "originalName": "Drones avec Caméra pour Adultes Débutants, Quadrirotor RC Pliable avec évitement d'obstacles sur 3 Côtés, Quadrirotor WiFi Portable HD 4k Aérien, Télécommande pour la Photographie",
+  "enhanced": true
 }

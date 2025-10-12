@@ -1,9 +1,9 @@
 {
   "productId": "B0DRWLPN6V",
-  "name": "DEERC D12 Drone Volant à Main pour Enfants, Mini UFO avec Lumières LED, 5 Capteurs de Mouvement, 2 Vitesses, Flips 360°, Anti-Collision, Jouet d’Intérieur pour Garçons et Filles",
-  "slug": "deerc-d12-drone-volant-a-main-pour-enfants-mini-uf",
-  "description": "【Drone Volant à Main Avancé】Le jouet volant idéal pour enfants, ados et adultes ! Doté de 5 capteurs infrarouges améliorés, il détecte les obstacles et réagit aux mouvements des mains pour des heures de jeu interactif en famille. | 【Facile à Piloter】Lancez doucement le drone en l’air : il plane automatiquement. Approchez la main, il vole dans la direction souhaitée. Avec 2 vitesses réglables, il est simple à utiliser dès 6 ans. Parfait pour les débutants ! | 【Design Sûr et Résistant】Fabriqué en ABS léger et flexible, ce drone est équipé d’une protection intégrale pour éviter les blessures par hélice. Le port USB permet une recharge simple et rapide. | 【Capteurs Ultra-Réactifs】Avec ses 5 capteurs latéraux améliorés, ce mini drone détecte avec précision et vole en douceur. Il effectue des vols stationnaires spectaculaires et des flips à 360° pour un maximum de fun. | 【Mini et Portable】Idéal pour jouer en intérieur (salon, bureau, chambre étudiante) ou en extérieur. Un cadeau parfait pour un anniversaire, Noël ou une fête — pour filles, garçons et fans de drones de tout âge.",
-  "shortDescription": "DEERC D12 Drone Volant à Main pour Enfants, Mini UFO avec Lumières LED, 5 Capteurs de Mouvement, 2 V",
+  "name": "Drone DEERC D12 : Le UFO Volant Magique pour Enfants",
+  "slug": "drone-deerc-d12-ufo-volant-magique",
+  "description": "Découvrez le DEERC D12, un drone volant à main révolutionnaire conçu pour émerveiller les enfants et stimuler leur imagination. Ce mini UFO, bardé de lumières LED scintillantes, intègre 5 capteurs de mouvement intelligents pour une expérience de jeu interactive et sans accroc. Contrôlez-le d'un simple geste de la main ! Idéal pour l'intérieur, il offre 2 vitesses pour s'adapter à tous les niveaux, des figures acrobatiques en flips 360°, et un système anti-collision avancé pour garantir sécurité et durabilité. Un jouet technologique incontournable pour garçons et filles, alliant divertissement et initiation à la robotique.",
+  "shortDescription": "Drone DEERC D12 UFO volant à main avec capteurs, LED, anti-collision. Jouet tech interactif pour enfants.",
   "price": "25.0",
   "compareAtPrice": 28,
   "images": [
@@ -26,9 +26,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DEERC",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone DEERC D12 : Le UFO Volant Magique pour Enfants",
+    "description": "Drone DEERC D12 UFO volant à main avec capteurs, LED, anti-collision. Jouet tech interactif pour enfants.",
+    "keywords": [
+      "drone deerc d12 : le ufo volant magique pour enfants",
+      "drones avec protections d'hélices",
+      "visiter la boutique deerc"
+    ],
+    "ogTitle": "Drone DEERC D12 : Le UFO Volant Magique pour Enfants",
+    "ogDescription": "Drone DEERC D12 UFO volant à main avec capteurs, LED, anti-collision. Jouet tech interactif pour enfants."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -40,5 +46,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Mini drone volant à main, lumières LED, 5 capteurs de mouvement, 2 vitesses, flips 360°, système anti-collision, jouet d'intérieur, idéal dès 8 ans."
+  },
+  "faq": [
+    {
+      "q": "Comment fonctionne le contrôle du drone DEERC D12 ?",
+      "a": "Le drone DEERC D12 est contrôlé par des gestes de la main grâce à ses 5 capteurs de mouvement. Approchez simplement votre main pour le diriger vers le haut, le bas, la gauche ou la droite. Il est conçu pour être intuitif et amusant à manipuler."
+    },
+    {
+      "q": "Ce drone est-il sûr pour les enfants et les meubles ?",
+      "a": "Absolument. Le DEERC D12 est équipé d'un système anti-collision performant qui détecte les obstacles et ajuste automatiquement sa trajectoire. Ses hélices sont également protégées pour minimiser tout risque de dommage aux objets environnants ou à l'utilisateur."
+    },
+    {
+      "q": "Quels sont les avantages éducatifs de ce drone ?",
+      "a": "Ce drone offre une excellente introduction au monde de la robotique et de la technologie. Il développe la motricité fine, la coordination œil-main, la compréhension spatiale et encourage la pensée logique tout en s'amusant."
+    },
+    {
+      "q": "Le drone est-il adapté pour jouer en extérieur ?",
+      "a": "Le DEERC D12 est principalement conçu pour un usage en intérieur. Ses capteurs de mouvement et sa légèreté le rendent idéal pour les espaces clos où les courants d'air sont contrôlés, garantissant une meilleure expérience de jeu."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:47.858389",
+  "originalName": "DEERC D12 Drone Volant à Main pour Enfants, Mini UFO avec Lumières LED, 5 Capteurs de Mouvement, 2 Vitesses, Flips 360°, Anti-Collision, Jouet d’Intérieur pour Garçons et Filles",
+  "enhanced": true
 }

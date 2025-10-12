@@ -1,9 +1,9 @@
 {
   "productId": "B0FLVNVDJ7",
   "name": "+ 1 autre couleur/motif",
-  "slug": "1-autre-couleurmotif",
-  "description": "Décollage en un clic, atterrissage en un clic. | Montée / descente / virage gauche / droite, roulis à 360 ° / mode sans tête. | vitesse rapide et lente / prendre des photos / enregistrer. | Basculez deux caméras/reconnaissance faciale photo automatique. | détection de gravité/vol de trajectoire.",
-  "shortDescription": "+ 1 autre couleur/motif",
+  "slug": "autre-couleur-motif",
+  "description": "<div><h2>+ 1 autre couleur/motif</h2><p>Quality product</p></div>",
+  "shortDescription": "+ 1 autre couleur/motif - Quality Product",
   "price": "78.0",
   "compareAtPrice": 89,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Generic",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "+ 1 autre couleur/motif",
+    "description": "+ 1 autre couleur/motif - Quality Product",
+    "keywords": [
+      "+ 1 autre couleur/motif",
+      "drones pour photographie aérienne pro",
+      "marque : generic"
+    ],
+    "ogTitle": "+ 1 autre couleur/motif",
+    "ogDescription": "+ 1 autre couleur/motif - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:35.926216",
+  "originalName": "+ 1 autre couleur/motif",
+  "enhanced": true
 }

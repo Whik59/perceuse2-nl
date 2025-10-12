@@ -1,9 +1,9 @@
 {
   "productId": "B0FNPSD2L3",
-  "name": "Pyhodi Drone quadricoptère portable avec appareil photo, EIS, retour clé, contrôle des applications, 6 canaux, écran LCD, bras pliants, évitement d'obstacles, photographie",
-  "slug": "pyhodi-drone-quadricoptere-portable-avec-appareil-",
-  "description": "Caméra HD intégrée avec EIS: Catch Images et vidéos époustouflantes avec la caméra haute définition intégrée avec une stabilisation électronique d'image (EIS) pour une stabilisation et des images améliorées. L'angle de la caméra avant est réglable via la télécommande, offrant une perspective complète pour vos photos. | Fonction Retour à la maison puissante: Ne vous inquiétez jamais de perdre votre drone! La fonction de retour à une clé, associée à un retour automatique sur une batterie faible ou une perte de signal, garantit que votre drone vous revient en toute sécurité sans tracas. | Contrôle de 6 canaux avec gyroscope: naviguez sans effort avec 6 commandes de canaux qui permettent des ajustements précis dans toutes les directions: monter ou descendre, avancer ou vers l'arrière, tourner à gauche ou à droite, et voler à gauche ou à droite. Découvrez un vol stable facile à gérer. | Remote LCD avec fonction d'enregistrement: la télécommande est équipée d'un écran LCD qui affiche les images de vol. Vous pouvez enregistrer directement en insérant une petite carte de stockage de 8 Go (incluse), et il comprend une batterie rechargeable avec des lumières LED pour les vols de nuit. De plus, les bras sont pliables pour un stockage compact et un transport facile. | Connectivité WiFi et contrôle des applications: prendre en charge le contrôle du téléphone portable de l'application, voler autour du point, personnaliser le vol d'itinéraire, prendre des photos, une vidéo et un transfert en temps réel, un arrêt d'urgence, un surround de clé, un suivi intelligent, ajouter de la musique, une rotation d'écran, afficher l'emplacement de l'avion.",
-  "shortDescription": "Pyhodi Drone quadricoptère portable avec appareil photo, EIS, retour clé, contrôle des applications,",
+  "name": "Drone Pyhodi Portable avec Caméra EIS et Évitement d'Obstacles",
+  "slug": "drone-pyhodi-portable-avec-camera-eis",
+  "description": "Découvrez le drone quadricoptère portable Pyhodi, votre nouvel allié pour des prises de vue aériennes époustouflantes. Doté d'une technologie EIS (Stabilisation Électronique de l'Image) de pointe, ce drone garantit des vidéos fluides et professionnelles, même en mouvement. Son évitement d'obstacles intelligent assure une sécurité maximale de vol, tandis que son design pliable le rend incroyablement facile à transporter et à ranger. Contrôlez-le intuitivement via l'application dédiée et profitez de fonctionnalités avancées comme le retour clé et un écran LCD pour un suivi en temps réel. Parfait pour les amateurs de photographie et de technologie, le drone Pyhodi offre 6 canaux pour une manœuvrabilité précise. Capturez le monde sous un nouvel angle avec ce drone compact et performant. Prix : 63.0€",
+  "shortDescription": "Drone Pyhodi portable et pliable avec caméra EIS, évitement d'obstacles et contrôle par application. Idéal pour la photographie aérienne.",
   "price": "63.0",
   "compareAtPrice": 72,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Pyhodi",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Pyhodi Portable avec Caméra EIS et Évitement d'Obstacles",
+    "description": "Drone Pyhodi portable et pliable avec caméra EIS, évitement d'obstacles et contrôle par application. Idéal pour la photographie aérienne.",
+    "keywords": [
+      "drone pyhodi portable avec caméra eis et évitement d'obstacles",
+      "drones pliables et portables",
+      "marque : pyhodi"
+    ],
+    "ogTitle": "Drone Pyhodi Portable avec Caméra EIS et Évitement d'Obstacles",
+    "ogDescription": "Drone Pyhodi portable et pliable avec caméra EIS, évitement d'obstacles et contrôle par application. Idéal pour la photographie aérienne."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone quadricoptère portable Pyhodi avec caméra, technologie EIS, retour clé, contrôle via application mobile, 6 canaux, écran LCD intégré, bras pliants pour un transport facile, système d'évitement d'obstacles, idéal pour la photographie aérienne."
+  },
+  "faq": [
+    {
+      "q": "Qu'est-ce que la technologie EIS sur ce drone ?",
+      "a": "EIS signifie Stabilisation Électronique de l'Image. Elle permet de réduire les tremblements et de produire des vidéos plus stables et fluides, même lorsque le drone est en mouvement ou soumis à des turbulences."
+    },
+    {
+      "q": "Le drone Pyhodi est-il facile à transporter ?",
+      "a": "Oui, ce drone est conçu pour être portable. Ses bras sont pliants, ce qui réduit considérablement son encombrement et le rend idéal pour être emporté partout."
+    },
+    {
+      "q": "Comment puis-je contrôler le drone ?",
+      "a": "Vous pouvez contrôler le drone Pyhodi de deux manières principales : soit via la télécommande (souvent incluse ou disponible séparément selon le pack), soit, plus intuitivement, via une application mobile dédiée que vous pouvez télécharger sur votre smartphone."
+    },
+    {
+      "q": "Que signifie l'évitement d'obstacles ?",
+      "a": "Le système d'évitement d'obstacles utilise des capteurs pour détecter les objets environnants (murs, arbres, etc.) et aide le drone à éviter automatiquement les collisions, offrant ainsi une plus grande sécurité de vol, surtout pour les débutants."
+    },
+    {
+      "q": "Le drone dispose-t-il d'une caméra intégrée ?",
+      "a": "Oui, ce modèle est équipé d'une caméra pour capturer des photos et des vidéos aériennes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:36.104874",
+  "originalName": "Pyhodi Drone quadricoptère portable avec appareil photo, EIS, retour clé, contrôle des applications, 6 canaux, écran LCD, bras pliants, évitement d'obstacles, photographie",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0CQ4SGNK1",
-  "name": "TOMZON Lot de 2 mini drones A24 pour enfants avec mode combat, avion télécommandé RC Quadrocopter pour débutants, 4 batteries, protection des hélices à 360°, lancer Go/3D Flip/vol circulaire, mini dro",
-  "slug": "tomzon-lot-de-2-mini-drones-a24-pour-enfants-avec-",
-  "description": "【Drone de combat nouvellement amélioré】 Le mini drone nouvellement amélioré de Tomzon offre un gameplay plus spécial que jamais ; ce drone peut non seulement être utilisé pour jouer en solo, mais il permet également à deux drones de s'associer pour combattre dans les airs. Avec ses effets sonores spéciaux, il est parfait pour s'amuser en famille. | 【Drone de combat nouvellement amélioré】 Le mini drone nouvellement amélioré de Tomzon offre un gameplay plus spécial que jamais ; ce drone peut non seulement être utilisé pour jouer en solo, mais il permet également à deux drones de s'associer pour combattre dans les airs. Avec ses effets sonores spéciaux, il est parfait pour s'amuser en famille.",
-  "shortDescription": "TOMZON Lot de 2 mini drones A24 pour enfants avec mode combat, avion télécommandé RC Quadrocopter po",
+  "name": "Lot 2 Mini Drones TOMZON A24 Combat pour Enfants",
+  "slug": "lot-mini-drones-tomzon-a24-combat",
+  "description": "Plongez dans l'action avec le Lot de 2 Mini Drones TOMZON A24, la solution parfaite pour initier les enfants au pilotage de drones et les faire s'affronter dans des combats aériens passionnants ! Conçus pour les débutants, ces mini quadricoptères RC combinent maniabilité, sécurité et un mode combat innovant. Avec 4 batteries incluses pour un temps de jeu prolongé, une protection d'hélice intégrale à 360° pour une sécurité maximale, et des fonctions de vol acrobatique comme le lancer pour décoller, les flips 3D et le vol circulaire, ces drones garantissent des heures de divertissement interactif. Offrez une expérience technologique inoubliable avec ces mini drones TOMZON, l'idée cadeau idéale pour les jeunes explorateurs technophiles.",
+  "shortDescription": "Lot 2 Mini Drones TOMZON A24 avec Mode Combat. Idéal pour débutants, 4 batteries, protection 360°, flips 3D. Technologie RC ludique pour enfants.",
   "price": "75.0",
   "compareAtPrice": 86,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Tomzon",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lot 2 Mini Drones TOMZON A24 Combat pour Enfants",
+    "description": "Lot 2 Mini Drones TOMZON A24 avec Mode Combat. Idéal pour débutants, 4 batteries, protection 360°, flips 3D. Technologie RC ludique pour enfants.",
+    "keywords": [
+      "lot 2 mini drones tomzon a24 combat pour enfants",
+      "drones avec protections d'hélices",
+      "visiter la boutique tomzon"
+    ],
+    "ogTitle": "Lot 2 Mini Drones TOMZON A24 Combat pour Enfants",
+    "ogDescription": "Lot 2 Mini Drones TOMZON A24 avec Mode Combat. Idéal pour débutants, 4 batteries, protection 360°, flips 3D. Technologie RC ludique pour enfants."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 2 mini drones TOMZON A24, Mode Combat, Avion télécommandé RC Quadricoptère, Idéal pour débutants, 4 batteries incluses, Protection d'hélice 360°, Fonctions : Lancer pour décoller (Go), Flip 3D, Vol circulaire. Prix : 75.0€"
+  },
+  "faq": [
+    {
+      "q": "Ce lot est-il adapté pour des enfants débutants en pilotage de drones ?",
+      "a": "Absolument ! Les mini drones TOMZON A24 sont spécialement conçus pour les débutants. Leur pilotage est intuitif et les fonctions intégrées facilitent la prise en main, rendant l'apprentissage du pilotage de drone ludique et sécurisé."
+    },
+    {
+      "q": "Quel est l'avantage principal du mode combat ?",
+      "a": "Le mode combat permet à deux drones de s'affronter. Lorsque l'un des drones touche l'autre, des indicateurs lumineux s'activent. C'est une fonctionnalité ludique qui ajoute une dimension interactive et compétitive au jeu, idéale pour des sessions de jeu à deux."
+    },
+    {
+      "q": "La sécurité est-elle une priorité avec ces drones ?",
+      "a": "Oui, la sécurité est primordiale. Chaque drone est équipé d'une protection d'hélice intégrale à 360°, enveloppant les hélices pour minimiser les risques de casse ou de blessure. Cela rend les drones TOMZON A24 particulièrement sûrs pour les enfants."
+    },
+    {
+      "q": "Combien de temps peut-on jouer avec ce lot de drones ?",
+      "a": "Ce lot inclut 4 batteries. Chaque batterie offre une autonomie de vol substantielle. En alternant les batteries, vos enfants pourront profiter de sessions de jeu prolongées sans interruption."
+    },
+    {
+      "q": "Quelles sont les fonctions de vol spéciales disponibles ?",
+      "a": "Les mini drones TOMZON A24 proposent plusieurs fonctions amusantes pour des vols dynamiques : le mode 'Lancer pour décoller' (Go) qui permet un démarrage facile, les 'Flips 3D' pour réaliser des acrobaties impressionnantes, et le 'Vol circulaire' pour des manœuvres aériennes originales."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.856194",
+  "originalName": "TOMZON Lot de 2 mini drones A24 pour enfants avec mode combat, avion télécommandé RC Quadrocopter pour débutants, 4 batteries, protection des hélices à 360°, lancer Go/3D Flip/vol circulaire, mini dro",
+  "enhanced": true
 }

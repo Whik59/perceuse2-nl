@@ -1,9 +1,9 @@
 {
   "productId": "B0FFGV2F5T",
-  "name": "Morlyrctooy M17 Quadricoptère RC pour Débutants Mini Drone avec Coque de Protection Double Mode Terre-Air Drone Volant d'Intérieur Facile Fonction Retournement 3D Mode sans Tête Opération à Une Touche",
-  "slug": "morlyrctooy-m17-quadricoptere-rc-pour-debutants-mi",
-  "description": "【Le cadeau qui vole vraiment】: Surprenez les nouveaux pilotes avec cette machine volante magique ! Spécialement conçu pour une prise en main facile, les commandes intuitives à un bouton et le mode sans tête garantissent chaque vol réussi. Idéal comme cadeau de vacances ou récompense - rien ne vaut la joie de voir leur premier atterrissage parfait ! | 【Fun Anti-Choc】: Dites adieu aux drones cassés et aux meubles rayés ! Le bouclier innovant à couverture totale protège à la fois le drone et votre intérieur. Regardez les débutants s'extasier lorsque le drone rebondit en sécurité pendant des sessions d'entraînement palpitantes. Un cadeau sans souci pour toutes occasions ! | 【Magie de contrôle de vitesse】: Choisissez parmi trois niveaux de vitesse passionnants adaptés à votre niveau ! Réalisez des cascades aériennes époustouflantes avec la fonction de retournement 3D. La batterie à changement rapide permet des sessions de vol de 6 minutes - idéal pour des démonstrations techniques ou des aventures en extérieur ! | 【Rouler, Voler, Recommencer】: Regardez la créativité des utilisateurs s'envoler avec cette merveille à double mode ! Le design robuste permet à la fois des manœuvres terrestres rapides et des vols gracieux. Parfait pour s'entraîner à l'intérieur comme à l'extérieur - deux modes innovants en un seul ensemble performant ! | 【Nous sommes là pour vous】: Un problème avec votre drone M17 ? Nos spécialistes du support dédiés sont à un message de vous ! Que ce soit pour du dépannage ou des conseils de vol, nous fournissons une assistance rapide et professionnelle pour maintenir vos expériences de vol en l'air. Votre satisfaction alimente notre passion.",
-  "shortDescription": "Morlyrctooy M17 Quadricoptère RC pour Débutants Mini Drone avec Coque de Protection Double Mode Terr",
+  "name": "Mini Drone Morlyrctooy M17 pour Débutants",
+  "slug": "m17-mini-drone-morlyrctooy-pour-debutants",
+  "description": "Découvrez le Morlyrctooy M17, le mini drone RC idéal pour les apprentis pilotes ! Facile à piloter en intérieur grâce à sa coque de protection intégrée, ce drone offre une expérience de vol sécurisée et divertissante. Maîtrisez le vol avec le mode sans tête et le retournement 3D, le tout activable d'une seule touche. Parfait pour débuter dans le monde fascinant des drones volants.",
+  "shortDescription": "Mini drone RC Morlyrctooy M17 pour débutants. Vol intérieur facile, coque de protection, mode sans tête, retournement 3D. 59.0€",
   "price": "59.0",
   "compareAtPrice": 67,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique morlyrctooy",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Morlyrctooy M17 pour Débutants",
+    "description": "Mini drone RC Morlyrctooy M17 pour débutants. Vol intérieur facile, coque de protection, mode sans tête, retournement 3D. 59.0€",
+    "keywords": [
+      "mini drone morlyrctooy m17 pour débutants",
+      "drones pour débutants",
+      "visiter la boutique morlyrctooy"
+    ],
+    "ogTitle": "Mini Drone Morlyrctooy M17 pour Débutants",
+    "ogDescription": "Mini drone RC Morlyrctooy M17 pour débutants. Vol intérieur facile, coque de protection, mode sans tête, retournement 3D. 59.0€"
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Modèle : Morlyrctooy M17, Type : Quadricoptère RC, Cible : Débutants, Usage : Intérieur, Caractéristiques : Coque de protection, Double mode Terre-Air, Retournement 3D, Mode sans tête, Opération à une touche, Prix : 59.0€"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il adapté aux débutants complets ?",
+      "a": "Absolument ! Le Morlyrctooy M17 est spécialement conçu pour les débutants avec son mode sans tête et son opération simplifiée à une touche, rendant l'apprentissage du pilotage très intuitif."
+    },
+    {
+      "q": "Puis-je faire voler ce drone à l'extérieur ?",
+      "a": "Le drone est optimisé pour le vol en intérieur grâce à sa coque de protection. Il est conçu pour des environnements contrôlés afin d'assurer une sécurité maximale."
+    },
+    {
+      "q": "Qu'est-ce que le 'Mode sans tête' ?",
+      "a": "Le mode sans tête permet au drone de se diriger par rapport à la position du télécommandeur, et non par rapport à l'avant du drone. Cela élimine la confusion de l'orientation et simplifie grandement le pilotage, surtout pour les débutants."
+    },
+    {
+      "q": "Le drone est-il livré avec une protection ?",
+      "a": "Oui, le Morlyrctooy M17 est livré avec une coque de protection intégrale, protégeant les hélices et le drone lui-même lors des premiers vols et des éventuels chocs."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:59.594793",
+  "originalName": "Morlyrctooy M17 Quadricoptère RC pour Débutants Mini Drone avec Coque de Protection Double Mode Terre-Air Drone Volant d'Intérieur Facile Fonction Retournement 3D Mode sans Tête Opération à Une Touche",
+  "enhanced": true
 }

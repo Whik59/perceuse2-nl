@@ -1,9 +1,9 @@
 {
   "productId": "B0C4VBRQHN",
-  "name": "Bizak Vector Acrobatico Sky Viper 63348601 Drone à corps en mousse rapide, stable avec télécommande longue portée pour enfants et adultes en mode débutant ou pro",
-  "slug": "bizak-vector-acrobatico-sky-viper-63348601-drone-a",
-  "description": "Vivez le frisson de voler à la limite. Attachez deux puissants moteurs à hélice à une carrosserie de chasse légère de 5e génération et vous aurez la recette parfaite pour profiter de l'excitation et des performances sans limites. | Un incroyable drone pour piloter et commencer à apprendre. Ses deux modes de jeu permettent de commencer au niveau débutant puis de passer au mode pro. | Il dispose d'un stabilisateur intégré qui corrige automatiquement toute déviation involontaire. Gyroscope à 4 canaux et 6 axes. | Il vole à plus de 50 km/h et peut faire des cascades de manière simple, en appuyant sur la télécommande ou manuellement. | Son design attrayant est fabriqué avec un corps en mousse pour le rendre indestructible.",
-  "shortDescription": "Bizak Vector Acrobatico Sky Viper 63348601 Drone à corps en mousse rapide, stable avec télécommande ",
+  "name": "Drone Acrobatique Bizak Vector Sky Viper 63348601",
+  "slug": "drone-acrobatique-bizak-vector-sky-viper",
+  "description": "Découvrez le **Drone Acrobatique Bizak Vector Sky Viper 63348601**, votre passeport pour des vols aériens captivants ! Conçu pour l'agilité et la stabilité, ce drone est équipé d'un corps en mousse résistant et léger, idéal pour des figures acrobatiques audacieuses. Sa **télécommande longue portée** vous assure un contrôle précis, que vous soyez un pilote novice ou un expert chevronné. Grâce à ses modes **débutant et professionnel**, le Sky Viper s'adapte à votre niveau d'expérience, offrant une expérience de vol exceptionnelle pour les **enfants et les adultes**. Parcourez le ciel avec confiance grâce à ses performances optimisées et sa facilité d'utilisation. Parfait pour s'initier au monde fascinant des drones ou pour perfectionner vos techniques de pilotage.",
+  "shortDescription": "Drone Acrobatique Bizak Vector Sky Viper 63348601 : Rapide, stable, longue portée. Modes débutant/pro. Parfait pour enfants et adultes. Corps en mousse robuste.",
   "price": "119.0",
   "compareAtPrice": 136,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Bizak",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Acrobatique Bizak Vector Sky Viper 63348601",
+    "description": "Drone Acrobatique Bizak Vector Sky Viper 63348601 : Rapide, stable, longue portée. Modes débutant/pro. Parfait pour enfants et adultes. Corps en mousse robuste.",
+    "keywords": [
+      "drone acrobatique bizak vector sky viper 63348601",
+      "drones freestyle acrobatique",
+      "marque : bizak"
+    ],
+    "ogTitle": "Drone Acrobatique Bizak Vector Sky Viper 63348601",
+    "ogDescription": "Drone Acrobatique Bizak Vector Sky Viper 63348601 : Rapide, stable, longue portée. Modes débutant/pro. Parfait pour enfants et adultes. Corps en mousse robuste."
   },
   "reviews": {
     "averageRating": 3.3,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone à corps en mousse rapide, stable avec télécommande longue portée. Modes débutant et pro. Idéal pour enfants et adultes. Modèle : Sky Viper 63348601 de Bizak."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la portée de la télécommande du drone Bizak Vector Sky Viper 63348601 ?",
+      "a": "Le drone Bizak Vector Sky Viper 63348601 est équipé d'une télécommande offrant une **longue portée**, vous permettant de contrôler votre drone sur une distance considérable pour des vols immersifs."
+    },
+    {
+      "q": "Ce drone est-il adapté aux débutants ?",
+      "a": "Absolument ! Le Sky Viper 63348601 dispose de modes **débutant et professionnel**. Le mode débutant facilite l'apprentissage du pilotage, le rendant parfait pour les enfants et les adultes qui découvrent le monde des drones."
+    },
+    {
+      "q": "Quel type de matériau compose le corps du drone ?",
+      "a": "Le corps du drone est fabriqué en **mousse résistante et légère**, ce qui le rend capable d'encaisser les chocs et idéal pour des manœuvres acrobatiques rapides et stables."
+    },
+    {
+      "q": "Quel âge est recommandé pour utiliser ce drone ?",
+      "a": "Ce drone est conçu pour être utilisé par les **enfants et les adultes**. Ses modes de vol adaptatifs le rendent accessible et amusant pour un large public."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.378799",
+  "originalName": "Bizak Vector Acrobatico Sky Viper 63348601 Drone à corps en mousse rapide, stable avec télécommande longue portée pour enfants et adultes en mode débutant ou pro",
+  "enhanced": true
 }

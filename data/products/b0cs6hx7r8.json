@@ -1,9 +1,9 @@
 {
   "productId": "B0CS6HX7R8",
   "name": "Batterie de Vol Intelligente DJI Avata 2",
-  "slug": "batterie-de-vol-intelligente-dji-avata-2",
-  "description": "Fournit environ Temps de vol : 23 minutes. Préparez-vous à un vol immersif pour créer des séquences FPV plus librement et en toute confiance. | Compatibilité : DJI Avata 2 | Contenu de la livraison : 1 batterie de vol intelligente DJI Avata 2 | Fournit environ Temps de vol : 23 minutes. Préparez-vous à un vol immersif pour créer des séquences FPV plus librement et en toute confiance. | Compatibilité : DJI Avata 2",
-  "shortDescription": "Batterie de Vol Intelligente DJI Avata 2",
+  "slug": "batterie-vol-intelligente-dji-avata",
+  "description": "Optimisez votre expérience de vol avec la Batterie de Vol Intelligente DJI Avata 2, conçue pour offrir des performances exceptionnelles et une autonomie prolongée. Profitez d'une puissance fiable et d'une technologie de pointe pour repousser les limites de votre drone Avata 2. Idéale pour les professionnels et les passionnés de photographie aérienne recherchant la meilleure technologie pour leurs prises de vue.",
+  "shortDescription": "Maximisez votre autonomie de vol avec la batterie intelligente DJI Avata 2. Technologie de pointe pour des performances accrues. Prix : 113.0€",
   "price": "113.0",
   "compareAtPrice": 129,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Batterie de Vol Intelligente DJI Avata 2",
+    "description": "Maximisez votre autonomie de vol avec la batterie intelligente DJI Avata 2. Technologie de pointe pour des performances accrues. Prix : 113.0€",
+    "keywords": [
+      "batterie de vol intelligente dji avata 2",
+      "batteries de vol intelligentes",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "Batterie de Vol Intelligente DJI Avata 2",
+    "ogDescription": "Maximisez votre autonomie de vol avec la batterie intelligente DJI Avata 2. Technologie de pointe pour des performances accrues. Prix : 113.0€"
   },
   "reviews": {
     "averageRating": 4.8,
@@ -42,5 +48,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Capacité de batterie optimisée pour le DJI Avata 2, technologie de gestion intelligente, sécurité avancée, charge rapide."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la durée de vol approximative avec une batterie DJI Avata 2 ?",
+      "a": "La durée de vol peut varier en fonction des conditions d'utilisation, mais la batterie intelligente DJI Avata 2 est conçue pour maximiser chaque minute de vol."
+    },
+    {
+      "q": "Cette batterie est-elle compatible avec d'autres drones DJI ?",
+      "a": "Non, la Batterie de Vol Intelligente DJI Avata 2 est spécifiquement conçue pour le drone DJI Avata 2 et optimise ses performances."
+    },
+    {
+      "q": "Quels sont les avantages de la technologie de batterie intelligente ?",
+      "a": "La technologie intelligente assure une gestion optimale de l'énergie, une sécurité accrue pendant le vol et une meilleure durée de vie de la batterie, vous permettant de vous concentrer sur la capture de vos meilleurs moments."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.093811",
+  "originalName": "Batterie de Vol Intelligente DJI Avata 2",
+  "enhanced": true
 }

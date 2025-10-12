@@ -1,9 +1,9 @@
 {
   "productId": "B0CP5QWTF8",
-  "name": "BuyWeek Mini Drone avec Double Caméra, H16 Drone Pliable Flux Optique Hover Flip Mode Sans Tête Détection de Gravité Quadcopter RC Décollage et Atterrissage à une Touche Drones RC",
-  "slug": "buyweek-mini-drone-avec-double-camera-h16-drone-pl",
-  "description": "Conception pliable: Avec une conception pliable et un moteur sans balais, le drone est léger, portable et offre des performances de vol stables. Il est parfait pour les pilotes débutants et expérimentés | Double caméra HD: Équipé de 2 caméras et d'un survol à flux optique, ce drone RC prend des images et des vidéos claires. Le système de flux optique permet un vol stationnaire précis et stable, tandis que les deux caméras offrent un champ de vision plus large | Facile à contrôler: Ce drone télécommandé dispose d'une touche de décollage et d'atterrissage, de maintien de l'altitude, de trois réglages de vitesse et d'un retournement à 360 degrés. Il prend également en charge le contrôle gestuel, la détection de la gravité et le vol sur trajectoire, ce qui facilite le contrôle et l'exécution de divers vols | Longue durée de vie de la batterie: ce drone pliable est livré avec une batterie amovible et facile à installer. Il ne faut que 45 minutes pour une charge complète et offre jusqu'à 8 minutes de temps de vol. La durée de vie plus longue de la batterie permet des photographies aériennes plus ininterrompues | Sûr et fiable: Les drones disposent d'un mode sans tête, d'un arrêt d'urgence et d'un contrôle facile. Il est conçu dans un souci de sécurité, offrant une expérience de vol sans souci aux pilotes de tous niveaux",
-  "shortDescription": "BuyWeek Mini Drone avec Double Caméra, H16 Drone Pliable Flux Optique Hover Flip Mode Sans Tête Déte",
+  "name": "Mini Drone BuyWeek H16 : Double Caméra & Flux Optique",
+  "slug": "mini-drone-buyweek-h16-double-camera",
+  "description": "Découvrez le **Mini Drone BuyWeek H16**, votre compagnon aérien idéal pour des prises de vue exceptionnelles et un divertissement sans fin. Équipé d'une **double caméra** haute définition, ce **drone pliable** vous permet de capturer des vidéos et des photos sous des angles inédits. Grâce à la technologie de **flux optique (Optical Flow)**, le drone maintient une position stable, facilitant le vol stationnaire ( **Hover** ) même pour les débutants. Son mode **sans tête (Headless Mode)** élimine la confusion liée à l'orientation du drone, rendant le pilotage intuitif. Le contrôle par **détection de gravité** ajoute une dimension interactive à votre expérience. Avec le **décollage et atterrissage à une touche**, ce **quadcopter RC** est accessible à tous. Achetez le Mini Drone BuyWeek H16 dès maintenant pour une expérience de vol immersive et des images époustouflantes, le tout pour seulement 33.0€ !",
+  "shortDescription": "Mini Drone BuyWeek H16 : Pliable, double caméra, flux optique, mode sans tête, détection gravité. Vol intuitif à 33.0€.",
   "price": "33.0",
   "compareAtPrice": 37,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BuyWeek",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone BuyWeek H16 : Double Caméra & Flux Optique",
+    "description": "Mini Drone BuyWeek H16 : Pliable, double caméra, flux optique, mode sans tête, détection gravité. Vol intuitif à 33.0€.",
+    "keywords": [
+      "mini drone buyweek h16 : double caméra & flux optique",
+      "mini drones pliables",
+      "visiter la boutique buyweek"
+    ],
+    "ogTitle": "Mini Drone BuyWeek H16 : Double Caméra & Flux Optique",
+    "ogDescription": "Mini Drone BuyWeek H16 : Pliable, double caméra, flux optique, mode sans tête, détection gravité. Vol intuitif à 33.0€."
   },
   "reviews": {
     "averageRating": 2.1,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Mini drone pliable, double caméra HD, flux optique pour vol stable, mode sans tête, détection de gravité, décollage/atterrissage 1 touche."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Oui, absolument ! Le Mini Drone BuyWeek H16 est conçu pour être facile à utiliser. Le mode sans tête, le flux optique pour un vol stationnaire stable et le décollage/atterrissage à une touche le rendent parfait pour les pilotes novices."
+    },
+    {
+      "q": "Quelle est la qualité des caméras ?",
+      "a": "Ce mini drone est équipé d'une double caméra qui vous permet de capturer des photos et des vidéos avec une bonne résolution pour sa catégorie, idéal pour des prises de vue aériennes ludiques ou pour découvrir votre environnement sous un nouvel angle."
+    },
+    {
+      "q": "Le drone peut-il être transporté facilement ?",
+      "a": "Oui, le Mini Drone BuyWeek H16 est un drone pliable. Sa conception compacte le rend très facile à ranger et à transporter dans son sac, vous permettant de l'emporter partout avec vous."
+    },
+    {
+      "q": "Comment fonctionne la détection de gravité ?",
+      "a": "La détection de gravité permet de contrôler le mouvement du drone en inclinant simplement votre smartphone. C'est une fonctionnalité innovante qui rend le pilotage plus interactif et ludique."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.101646",
+  "originalName": "BuyWeek Mini Drone avec Double Caméra, H16 Drone Pliable Flux Optique Hover Flip Mode Sans Tête Détection de Gravité Quadcopter RC Décollage et Atterrissage à une Touche Drones RC",
+  "enhanced": true
 }

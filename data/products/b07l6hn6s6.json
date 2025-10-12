@@ -1,9 +1,9 @@
 {
   "productId": "B07L6HN6S6",
-  "name": "Fenteer Kit Hélice, Hélices Protecteurs, Train d'Atterrissage Pièces Détachées pour Drone SYMA X5SC X5SW",
-  "slug": "fenteer-kit-helice-helices-protecteurs-train-datte",
-  "description": "* Disponible pour quadricoptère X5SC X5SW | * Ensemble hélices + trains d'atterrissage + protège-hélices pour pièces de rechange ou besoins de remplacement | * neuf et haute qualité | * Matériel: plastique | * Disponible pour quadricoptère X5SC X5SW",
-  "shortDescription": "Fenteer Kit Hélice, Hélices Protecteurs, Train d'Atterrissage Pièces Détachées pour Drone SYMA X5SC ",
+  "name": "Kit Hélice & Protecteurs pour Drone SYMA X5SC X5SW",
+  "slug": "x5sw-kit-helice-protecteurs-pour-drone",
+  "description": "Optimisez les performances de votre drone SYMA X5SC ou X5SW avec ce kit essentiel de pièces détachées. Conçu pour les passionnés de modélisme et les professionnels de l'image aérienne, ce pack comprend des hélices de rechange de haute qualité et des protecteurs d'hélice robustes. Améliorez la stabilité, prolongez la durée de vie de vos moteurs et assurez des vols plus sûrs. Idéal pour remplacer les pièces endommagées ou pour avoir un kit de secours performant. Installation facile pour une reprise rapide de vos prises de vue ou de vos sessions de vol. Obtenez le meilleur de votre drone SYMA avec cet accessoire indispensable.",
+  "shortDescription": "Kit essentiel : 4 hélices (2CW/2CCW) + 4 protecteurs pour drones SYMA X5SC/X5SW. Améliorez stabilité et sécurité pour 6.0€.",
   "price": "6.0",
   "compareAtPrice": 6,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Fenteer",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit Hélice & Protecteurs pour Drone SYMA X5SC X5SW",
+    "description": "Kit essentiel : 4 hélices (2CW/2CCW) + 4 protecteurs pour drones SYMA X5SC/X5SW. Améliorez stabilité et sécurité pour 6.0€.",
+    "keywords": [
+      "kit hélice & protecteurs pour drone syma x5sc x5sw",
+      "hélices et protections pour drones",
+      "marque : fenteer"
+    ],
+    "ogTitle": "Kit Hélice & Protecteurs pour Drone SYMA X5SC X5SW",
+    "ogDescription": "Kit essentiel : 4 hélices (2CW/2CCW) + 4 protecteurs pour drones SYMA X5SC/X5SW. Améliorez stabilité et sécurité pour 6.0€."
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Kit comprenant : 4 hélices (2 CW, 2 CCW) et 4 protecteurs d'hélice. Compatibilité : Drone SYMA X5SC, SYMA X5SW. Matériau : Plastique résistant. Couleur : Noir (hélices), Blanc (protecteurs). Prix : 6.0€"
+  },
+  "faq": [
+    {
+      "q": "Ce kit est-il compatible avec d'autres modèles de drones SYMA ?",
+      "a": "Ce kit est spécifiquement conçu pour les modèles SYMA X5SC et SYMA X5SW. Vérifiez attentivement la compatibilité avec votre drone avant l'achat."
+    },
+    {
+      "q": "Les hélices sont-elles faciles à installer ?",
+      "a": "Oui, les hélices sont conçues pour un remplacement simple et rapide. Un tournevis adapté peut être nécessaire pour retirer les anciennes hélices."
+    },
+    {
+      "q": "Les protecteurs d'hélice améliorent-ils la sécurité des vols ?",
+      "a": "Absolument. Les protecteurs d'hélice réduisent considérablement le risque de dommages aux hélices, au drone et à l'environnement immédiat en cas de collision légère. Ils sont essentiels pour les pilotes débutants ou lors de vols en intérieur."
+    },
+    {
+      "q": "Quel est le matériau des hélices et des protecteurs ?",
+      "a": "Les hélices sont fabriquées en plastique ABS durable pour une meilleure résistance et efficacité. Les protecteurs sont également en plastique résistant, conçus pour absorber les chocs."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.420334",
+  "originalName": "Fenteer Kit Hélice, Hélices Protecteurs, Train d'Atterrissage Pièces Détachées pour Drone SYMA X5SC X5SW",
+  "enhanced": true
 }

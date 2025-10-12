@@ -1,9 +1,9 @@
 {
   "productId": "B0F7XX6FL9",
-  "name": "Contrôleur de vitesse de moteur ESC de refroidissement amélioré avec ventilateur pour voiture télécommandée bateau",
-  "slug": "controleur-de-vitesse-de-moteur-esc-de-refroidisse",
-  "description": "【Système de refroidissement amélioré】Équipé d'un dissipateur de chaleur et d'un ventilateur, contrôleur de vitesse dissipe efficament la chaleur pour assurer des performans optimales. | 【Compatibilité】Parfaitement compatible avec les modèles réduits de voitures et de bateaux RC, prenant en charge les moteurs 8T 550, 560 ou | 【Fonction UBEC externe】Comprend un UBEC externe avec un courant 6V 3A et une fonction de commutation, améliorant la stabilité et la fiabilité de l'alimentation. | 【Large plage d'entrée de tension】Prend en charge une plage d'entrée de tension de 6-16V, offrant des options d'alimentation et une compatibilité avec diverses configurations. | 【Performans puissantes】Offre une puissan et une réactivité exptionnelles avec un courant ESC de 600A et un courant arrière de 300A. Le BEC intégré fournit une alimentation de secours de 2 A dans une plage de tension de 6 à 16 V.",
-  "shortDescription": "Contrôleur de vitesse de moteur ESC de refroidissement amélioré avec ventilateur pour voiture téléco",
+  "name": "Contrôleur Vitesse Moteur ESC Refroidi par Ventilateur - Haute Performance RC",
+  "slug": "controleur-vitesse-moteur-esc-refroidi-par",
+  "description": "Optimisez la performance et la fiabilité de votre voiture télécommandée (RC) ou de votre bateau avec ce contrôleur de vitesse moteur (ESC) de pointe. Doté d'un système de refroidissement amélioré avec ventilateur intégré, cet ESC garantit une dissipation thermique efficace, prolongeant la durée de vie de votre moteur et permettant des sessions de jeu plus longues sans surchauffe.  Conçu pour les passionnés de modélisme et de technologie, cet appareil offre une réponse rapide et précise, une gestion de puissance optimisée et une compatibilité étendue avec les batteries LiPo et NiMH.  Idéal pour les courses RC intenses et les applications exigeant une puissance constante et une stabilité de contrôle exceptionnelles.  Investissez dans la technologie avancée pour des performances sans compromis sur vos véhicules RC.",
+  "shortDescription": "ESC haute performance avec ventilateur pour RC. Refroidissement amélioré, contrôle précis, 67.0€.",
   "price": "67.0",
   "compareAtPrice": 77,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : HpLive",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Contrôleur Vitesse Moteur ESC Refroidi par Ventilateur - Haute Performance RC",
+    "description": "ESC haute performance avec ventilateur pour RC. Refroidissement amélioré, contrôle précis, 67.0€.",
+    "keywords": [
+      "contrôleur vitesse moteur esc refroidi par ventilateur - haute performance rc",
+      "radiocommandes et contrôleurs",
+      "marque : hplive"
+    ],
+    "ogTitle": "Contrôleur Vitesse Moteur ESC Refroidi par Ventilateur - Haute Performance RC",
+    "ogDescription": "ESC haute performance avec ventilateur pour RC. Refroidissement amélioré, contrôle précis, 67.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Contrôleur de vitesse moteur ESC avec système de refroidissement actif par ventilateur. Compatible avec voitures RC et bateaux télécommandés. Gestion avancée de la puissance. Facile à installer et à configurer."
+  },
+  "faq": [
+    {
+      "q": "Quel type de batteries ce contrôleur ESC prend-il en charge ?",
+      "a": "Ce contrôleur de vitesse moteur ESC est compatible avec une large gamme de batteries, y compris les batteries LiPo (Lithium Polymère) et NiMH (Nickel Métal Hydrure), offrant une flexibilité maximale pour vos besoins en modélisme."
+    },
+    {
+      "q": "Comment le système de refroidissement par ventilateur améliore-t-il les performances ?",
+      "a": "Le ventilateur intégré assure une dissipation thermique active et continue. Cela empêche le contrôleur ESC et le moteur de surchauffer pendant une utilisation intensive, garantissant ainsi des performances stables, une réponse plus rapide et une durée de vie prolongée des composants."
+    },
+    {
+      "q": "Est-ce que cet ESC est adapté pour les véhicules RC rapides ?",
+      "a": "Absolument ! Ce contrôleur ESC est conçu pour offrir une gestion de puissance précise et une réponse réactive, ce qui le rend idéal pour les voitures télécommandées et les bateaux RC qui exigent des accélérations rapides et un contrôle fin, même dans des conditions exigeantes."
+    },
+    {
+      "q": "Quelle est la tension d'alimentation maximale recommandée pour cet ESC ?",
+      "a": "La documentation technique spécifique de ce modèle précis devrait être consultée pour la tension maximale recommandée. Cependant, la plupart des ESC de cette catégorie supportent couramment les configurations jusqu'à 2S, 3S ou même 4S LiPo, en fonction de l'intensité nominale."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:55.137530",
+  "originalName": "Contrôleur de vitesse de moteur ESC de refroidissement amélioré avec ventilateur pour voiture télécommandée bateau",
+  "enhanced": true
 }

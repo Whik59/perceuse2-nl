@@ -1,9 +1,9 @@
 {
   "productId": "B0927S2343",
-  "name": "Loolinn | Drone avec Caméra comme Cadeau pour Enfants – Mini Drone Télécommandé, Drone avec Vidéo et Photos / 21 Minutes de Temps de Vol/Trois Piles / C0 (Cadeaux pour Garçons et Filles)",
-  "slug": "loolinn-drone-avec-camera-comme-cadeau-pour-enfant",
-  "description": "🔥【 Excellent Drone Pour les Enfants Débutants 】-- Spécialement conçu pour les enfants pilotant un drone. Ce drone vidéo est idéal pour que les enfants apprennent à piloter un drone, et fera aussi un excellent cadeau pour leur anniversaire ou pour Noël. | 🔥【 Caméra De Bonne Qualité 】-- Ce drone pour enfants a une caméra réglable. Elle peut être orientée manuellement et vous permet de capturer facilement des photos et des vidéos. | 🔥【 Vol Sécuritaire 】-- Le drone inclut un garde de sécurité sur les hélices ce qui empêche les blessures causées par les pales en rotation. C’est un drone sécuritaire pour les enfants. | 🔥【 Livré avec Trois Batteries 】-- Trois batteries sont incluses avec ce petit drone caméra. Son temps de vol total est d'environ 21 minutes (7 minutes par batterie), ce qui est plus que suffisant pour s'amuser pleinement | 🔥【 Garantie de 24 Mois 】-- Nous offrons une garantie complète de 24 mois. Si vos enfants ne sont pas satisfaits de ce drone, nous serons heureux de vous rembourser intégralement ou de prévoir un échange. Nous vous assurons que vos enfants vont adorer!!!",
-  "shortDescription": "Loolinn | Drone avec Caméra comme Cadeau pour Enfants – Mini Drone Télécommandé, Drone avec Vidéo et",
+  "name": "Mini Drone Loolinn avec Caméra | Cadeau Idéal pour Enfants",
+  "slug": "mini-drone-loolinn-avec-camera-cadeau",
+  "description": "Offrez une expérience volante inoubliable avec le Mini Drone Loolinn ! Conçu comme un cadeau parfait pour les enfants (garçons et filles), ce drone télécommandé est équipé d'une caméra haute définition pour capturer des vidéos et des photos aériennes époustouflantes. Son autonomie exceptionnelle de 21 minutes, grâce à ses trois batteries incluses, garantit des heures de jeu et de découverte. Facile à piloter avec sa technologie C0, il est idéal pour les débutants. Un jouet technologique fascinant qui stimule la curiosité et l'imagination.",
+  "shortDescription": "Drone Loolinn avec caméra pour enfants, 21 min de vol (3 batteries), facile à piloter (C0). Cadeau technologique ludique.",
   "price": "84.0",
   "compareAtPrice": 96,
   "images": [
@@ -26,9 +26,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Loolinn",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Loolinn avec Caméra | Cadeau Idéal pour Enfants",
+    "description": "Drone Loolinn avec caméra pour enfants, 21 min de vol (3 batteries), facile à piloter (C0). Cadeau technologique ludique.",
+    "keywords": [
+      "mini drone loolinn avec caméra | cadeau idéal pour enfants",
+      "mini drones et drones d'intérieur",
+      "visiter la boutique loolinn"
+    ],
+    "ogTitle": "Mini Drone Loolinn avec Caméra | Cadeau Idéal pour Enfants",
+    "ogDescription": "Drone Loolinn avec caméra pour enfants, 21 min de vol (3 batteries), facile à piloter (C0). Cadeau technologique ludique."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -40,5 +46,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone télécommandé avec caméra, idéal pour enfants, autonomie 21 minutes (3 batteries), technologie C0, enregistrement vidéo et photos."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il facile à piloter pour un enfant ?",
+      "a": "Absolument ! Le Mini Drone Loolinn est conçu avec la technologie C0, le rendant très intuitif et stable, parfait pour les jeunes pilotes débutants."
+    },
+    {
+      "q": "Quelle est l'autonomie de vol de ce drone ?",
+      "a": "Grâce à ses trois batteries incluses, vous bénéficiez d'un temps de vol total allant jusqu'à 21 minutes, offrant une expérience de jeu prolongée."
+    },
+    {
+      "q": "La caméra permet-elle de prendre des photos et des vidéos ?",
+      "a": "Oui, le drone est équipé d'une caméra capable d'enregistrer des vidéos et de capturer des photos aériennes. Parfait pour immortaliser les aventures !"
+    },
+    {
+      "q": "Ce drone est-il un bon cadeau pour un anniversaire ?",
+      "a": "C'est un cadeau exceptionnel ! Son caractère innovant et ludique en fait un cadeau idéal pour les garçons et les filles, stimulant leur intérêt pour la technologie."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:17.010842",
+  "originalName": "Loolinn | Drone avec Caméra comme Cadeau pour Enfants – Mini Drone Télécommandé, Drone avec Vidéo et Photos / 21 Minutes de Temps de Vol/Trois Piles / C0 (Cadeaux pour Garçons et Filles)",
+  "enhanced": true
 }

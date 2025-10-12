@@ -1,9 +1,9 @@
 {
   "productId": "B0FR4WPKNZ",
-  "name": "LKHLTBF Single Battery,Drone xt808 avec écran contrôlé GPS WiFi Professionnel 8k HD Double caméra évitement d'obstacles quadricoptère Pliable sans balais",
-  "slug": "lkhltbf-single-batterydrone-xt808-avec-ecran-contr",
-  "description": "Envolez-vous vers les cieux avec le drone GPS XT808. Son système double caméra HD 8K avec stabilisation EIS capture des photos et des vidéos d'une netteté époustouflante. La télécommande intégrée avec écran de 4,5 pouces offre une transmission en temps réel sans perte. Profitez d'une autonomie de vol de 25 minutes et de fonctionnalités telles que le positionnement par flux optique, les moteurs sans balais et le retour automatique au point de décollage pour une expérience de vol professionnelle. | Révélez le pilote qui sommeille en vous avec ce quadricoptère pliable professionnel. Pesant seulement 227 g, il échappe aux réglementations strictes. Le GPS et le positionnement par flux optique assurent un vol stationnaire précis et un retour facile d'une simple pression sur une touche. Le capteur d'évitement d'obstacles protège votre investissement. Ses moteurs sans balais offrent des performances puissantes, silencieuses et durables pour des aventures inoubliables. | Imaginez le monde vu du ciel. Ce drone est équipé d'un objectif grand angle Wi-Fi frontal et d'un objectif à flux optique inférieur pour des images HD 8K époustouflantes, stabilisées par une nacelle servo. Planifiez votre trajectoire de vol en dessinant un itinéraire personnalisé sur l'application. Le suivi intelligent et le contrôle gestuel rendent la capture de contenu de qualité professionnelle simple et amusante. | Découvrez un vol intelligent. Ce drone aux nombreuses fonctionnalités offre un contrôle via application pour des fonctions telles que le mode « follow-me », le vol panoramique et le positionnement cartographique en temps réel. Sa batterie longue durée de 1 300 mAh offre jusqu'à 25 minutes d'autonomie. Son design pliable le rend incroyablement portable, parfait pour les voyages et les aventures en plein air. | Envolez-vous vers les cieux avec le drone GPS XT808. Son système double caméra HD 8K avec stabilisation EIS capture des photos et des vidéos d'une netteté époustouflante. La télécommande intégrée avec écran de 4,5 pouces offre une transmission en temps réel sans perte. Profitez d'une autonomie de vol de 25 minutes et de fonctionnalités telles que le positionnement par flux optique, les moteurs sans balais et le retour automatique au point de décollage pour une expérience de vol professionnelle.",
-  "shortDescription": "LKHLTBF Single Battery,Drone xt808 avec écran contrôlé GPS WiFi Professionnel 8k HD Double caméra év",
+  "name": "Drone Professionnel XT808 8K HD avec GPS, WiFi et Caméra Double",
+  "slug": "professionnel-drone-xt808-avec-gps-wifi",
+  "description": "Découvrez le drone professionnel LKHLTBF XT808, une merveille technologique conçue pour l'excellence en photographie et vidéographie aérienne. Doté de deux caméras 8K HD, ce quadricoptère pliable embarque un système GPS avancé, une connexion WiFi pour un contrôle intuitif via votre smartphone, et une technologie d'évitement d'obstacles intelligente pour des vols sécurisés et sans stress. Son moteur sans balais assure des performances optimales et une longévité accrue. Idéal pour les passionnés de technologie et les créateurs de contenu à la recherche d'un équipement performant et facile à transporter. Transformez votre vision en réalité avec une qualité d'image époustouflante et une stabilité inégalée.",
+  "shortDescription": "Drone professionnel XT808 8K HD avec GPS, WiFi, double caméra et évitement d'obstacles. Pliable, moteur sans balais, écran inclus. 167.0€.",
   "price": "167.0",
   "compareAtPrice": 192,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : LKHLTBF",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Professionnel XT808 8K HD avec GPS, WiFi et Caméra Double",
+    "description": "Drone professionnel XT808 8K HD avec GPS, WiFi, double caméra et évitement d'obstacles. Pliable, moteur sans balais, écran inclus. 167.0€.",
+    "keywords": [
+      "drone professionnel xt808 8k hd avec gps, wifi et caméra double",
+      "radiocommandes avec écran intégré",
+      "marque : lkhltbf"
+    ],
+    "ogTitle": "Drone Professionnel XT808 8K HD avec GPS, WiFi et Caméra Double",
+    "ogDescription": "Drone professionnel XT808 8K HD avec GPS, WiFi, double caméra et évitement d'obstacles. Pliable, moteur sans balais, écran inclus. 167.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone professionnel LKHLTBF XT808, écran contrôlé, GPS WiFi, double caméra 8K HD, évitement d'obstacles, moteur sans balais, pliable, une batterie incluse. Prix : 167.0€"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo maximale du drone XT808 ?",
+      "a": "Le drone XT808 est équipé de caméras 8K HD pour une qualité d'image exceptionnelle."
+    },
+    {
+      "q": "Le drone dispose-t-il d'une fonction d'évitement d'obstacles ?",
+      "a": "Oui, le XT808 intègre une technologie avancée d'évitement d'obstacles pour un vol en toute sécurité."
+    },
+    {
+      "q": "Est-ce que ce drone est facile à transporter ?",
+      "a": "Absolument, ce quadricoptère est conçu pour être pliable, ce qui le rend très pratique pour le transport."
+    },
+    {
+      "q": "Quel type de moteur utilise ce drone ?",
+      "a": "Le drone XT808 est équipé d'un moteur sans balais, garantissant performance et durabilité."
+    },
+    {
+      "q": "Le drone est-il contrôlable via une application mobile ?",
+      "a": "Oui, le drone peut être contrôlé via WiFi avec une application mobile, vous offrant une expérience de pilotage intuitive."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:37.929878",
+  "originalName": "LKHLTBF Single Battery,Drone xt808 avec écran contrôlé GPS WiFi Professionnel 8k HD Double caméra évitement d'obstacles quadricoptère Pliable sans balais",
+  "enhanced": true
 }

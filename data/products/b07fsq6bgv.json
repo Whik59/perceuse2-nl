@@ -1,9 +1,9 @@
 {
   "productId": "B07FSQ6BGV",
-  "name": "DJI Mini 2 - Ultraléger et Pliable Drone Quadcopter, 3 Axes Gimbal avec Caméra 4K, Photo 12MP, 31 Minutes de Vol, OcuSync 2.0 HD Transmission Vidéo, Mavic Mini, QuickShots avec DJI Fly App",
-  "slug": "dji-mini-2-ultraleger-et-pliable-drone-quadcopter-",
-  "description": "PACK LÉGER, VOLANT LIBRE : Avec moins de 249 g, il pèse autant qu'une pomme et tient dans la paume de la main. Compact et pratique, Mini 2 est votre compagnon de voyage idéal, transformant la façon dont vous capturez vos souvenirs préférés | 3 AXES GIMBAL AVEC CAMÉRA 4K : Un appareil photo de 12 mégapixels dans le ciel fournit un contenu qui ne manquera pas d'impressionner. En plus de la vidéo 4K/30fps et d'un cardan motorisé à 3 axes, le Mini 2 garantit une qualité d'image étonnante qui est toujours fluide, quelle que soit l'aventure de votre pilotage | OCUSYNC 2.0 TRANSMISSION VIDÉO : Le Mini 2 supporte jusqu'à 10 km de transmission vidéo HD et possède d'excellentes capacités anti-interférences, ce qui vous permet de voler plus loin et de voir plus clairement | UNE PERFORMANCE PUISSANTE : Avec une autonomie maximale de 31 minutes, DJI Mini 2 offre plus qu'assez de temps pour composer le plan parfait. Le Mini 2 peut résister à des vents de niveau 5 et décoller à une altitude maximale de 4 000 mètres. Vos images sont donc stables, même lorsque vous volez le long d'une côte venteuse ou au-dessus d'une forêt alpine | 4X ZOOM : Il n'est pas nécessaire d'être si près pour le cliché de vos rêves. Le zoom numérique 4x rend la transition plus sûre et plus pratique entre des prises de vue de distance et de composition différentes",
-  "shortDescription": "DJI Mini 2 - Ultraléger et Pliable Drone Quadcopter, 3 Axes Gimbal avec Caméra 4K, Photo 12MP, 31 Mi",
+  "name": "Drone DJI Mini 2 : Capturez le monde en 4K, ultraléger et pliable",
+  "slug": "drone-dji-mini-capturez-monde-4k",
+  "description": "Découvrez le **DJI Mini 2**, le drone quadricoptère parfait pour explorer votre créativité où que vous alliez. Avec son design **ultraléger et pliable**, il se glisse facilement dans votre sac. Capturez des images époustouflantes avec sa **caméra 4K** intégrée sur un **stabilisateur 3 axes** pour des vidéos d'une fluidité professionnelle. Prenez des **photos de 12MP** saisissant chaque détail. Profitez de **31 minutes de vol** continu grâce à sa batterie performante et bénéficiez d'une transmission vidéo **OcuSync 2.0 HD** pour une portée et une stabilité exceptionnelles. Contrôlez-le intuitivement via l'application **DJI Fly**, et réalisez des prises de vue cinématographiques avec les fonctions **QuickShots**. Le DJI Mini 2, héritier du Mavic Mini, est votre compagnon idéal pour des aventures aériennes inoubliables. **Prix : 269.0€**.",
+  "shortDescription": "Drone DJI Mini 2 : L'aventure aérienne en 4K. Ultraléger, pliable, 31 min de vol, OcuSync 2.0 HD. Idéal pour photos et vidéos professionnelles. Prix : 269.0€.",
   "price": "269.0",
   "compareAtPrice": 309,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone DJI Mini 2 : Capturez le monde en 4K, ultraléger et pliable",
+    "description": "Drone DJI Mini 2 : L'aventure aérienne en 4K. Ultraléger, pliable, 31 min de vol, OcuSync 2.0 HD. Idéal pour photos et vidéos professionnelles. Prix : 269.0€.",
+    "keywords": [
+      "drone dji mini 2 : capturez le monde en 4k, ultraléger et pliable",
+      "drones pliables et portables",
+      "dji"
+    ],
+    "ogTitle": "Drone DJI Mini 2 : Capturez le monde en 4K, ultraléger et pliable",
+    "ogDescription": "Drone DJI Mini 2 : L'aventure aérienne en 4K. Ultraléger, pliable, 31 min de vol, OcuSync 2.0 HD. Idéal pour photos et vidéos professionnelles. Prix : 269.0€."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -38,5 +44,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K, Stabilisateur 3 axes, Photo 12MP, Autonomie 31 min, OcuSync 2.0 HD, Pliable, Ultraléger, Application DJI Fly, QuickShots."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo maximale du DJI Mini 2 ?",
+      "a": "Le DJI Mini 2 peut filmer en résolution **4K à 30 images par seconde**."
+    },
+    {
+      "q": "Quelle est l'autonomie de la batterie du drone DJI Mini 2 ?",
+      "a": "Chaque batterie du DJI Mini 2 offre jusqu'à **31 minutes de temps de vol**."
+    },
+    {
+      "q": "Le DJI Mini 2 est-il facile à transporter ?",
+      "a": "Oui, le DJI Mini 2 est **ultraléger et pliable**, ce qui le rend extrêmement facile à transporter et à ranger."
+    },
+    {
+      "q": "Quelle technologie de transmission vidéo utilise le DJI Mini 2 ?",
+      "a": "Il utilise la technologie **OcuSync 2.0 HD** pour une transmission vidéo fiable et de haute qualité."
+    },
+    {
+      "q": "Ai-je besoin d'une application pour piloter le DJI Mini 2 ?",
+      "a": "Oui, vous contrôlez le DJI Mini 2 via l'application **DJI Fly**, qui offre une interface intuitive et des fonctionnalités intelligentes."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.686127",
+  "originalName": "DJI Mini 2 - Ultraléger et Pliable Drone Quadcopter, 3 Axes Gimbal avec Caméra 4K, Photo 12MP, 31 Minutes de Vol, OcuSync 2.0 HD Transmission Vidéo, Mavic Mini, QuickShots avec DJI Fly App",
+  "enhanced": true
 }

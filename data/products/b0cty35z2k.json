@@ -1,9 +1,9 @@
 {
   "productId": "B0CTY35Z2K",
-  "name": "NCONCO Contrôleur de vitesse sans balais ESC BEC (contrôleur de vitesse brushless 20 A, 30 A, 40 A, 50 A, 50 A, 60 A, 80 A) pour avion radiocommandé, hélicoptère RC",
-  "slug": "nconco-controleur-de-vitesse-sans-balais-esc-bec-c",
-  "description": "Fonction d'alimentation sûre : notre ESC BEC sans balais pour avion RC dispose d'une fonction d'alimentation sûre, assurant que le moteur ne démarre pas immédiatement lorsque l'alimentation est allumée. Ce design empêche toute injection potentielle du personnel et offre une expérience de démarrage sûre. | Fonction d'ajustement de l'accélérateur : avec notre contrôleur de vitesse sans balais, vous pouvez facilement ajuster le trip de l'accélérateur pour accommoder différentes distances de contrôle à distance. Cette caractéristique améliore la linéarité de réponse accélérée, offre un contrôle précis et des performances améliorées. | Fonction de protection complète : nous avons intégré une gamme de fonctions de protection complètes dans notre ESC BEC sans balais. Celles-ci incluent une protection contre la tension, ce qui permet aux utilisateurs de définir une protection pour réduire automatiquement la puissance de sortie lorsque la tension de la batterie est trop faible. Il dispose également d'une protection contre la surchauffe, où le tube MOS s'éteint automatiquement si la température est trop élevée. | Performance fiable pour les avions RC : notre ESC BEC sans balais est spécialement conçu pour les avions radiocommandés, assurant des performances fiables et efficaces. Il est équipé d'un circuit BEC intégré (élimination de la batterie) qui fournit une alimentation stable pour vos composants électroniques d'avion. Avec ses fonctionnalités avancées et ses fonctions de protection robustes, notre ESC est le choix idéal pour améliorer les performances et la sécurité de votre avion radiocommandé.",
-  "shortDescription": "NCONCO Contrôleur de vitesse sans balais ESC BEC (contrôleur de vitesse brushless 20 A, 30 A, 40 A, ",
+  "name": "Contrôleur de Vitesse Brushless NCONCO ESC BEC",
+  "slug": "controleur-vitesse-brushless-nconco-esc-bec",
+  "description": "Optimisez les performances de vos modèles radiocommandés avec le contrôleur de vitesse sans balais NCONCO ESC BEC. Conçu pour les passionnés d'avions RC et d'hélicoptères RC, ce contrôleur de vitesse électronique (ESC) haute performance offre une régulation de puissance précise et fiable. Disponible en plusieurs ampérages (20A, 30A, 40A, 50A, 60A, 80A) pour s'adapter à une large gamme de configurations, il intègre également une fonction BEC (Battery Eliminator Circuit) pour alimenter vos récepteurs et servos sans nécessiter de batterie séparée. Améliorez la réactivité, l'efficacité et la durée de vie de votre système de propulsion grâce à cette technologie de pointe.",
+  "shortDescription": "Contrôleur de vitesse brushless NCONCO ESC BEC, idéal pour avions & hélicoptères RC. Plusieurs ampérages (20A-80A) & fonction BEC intégrée pour une performance optimale. Prix : 32.0€",
   "price": "32.0",
   "compareAtPrice": 36,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique NCONCO",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Contrôleur de Vitesse Brushless NCONCO ESC BEC",
+    "description": "Contrôleur de vitesse brushless NCONCO ESC BEC, idéal pour avions & hélicoptères RC. Plusieurs ampérages (20A-80A) & fonction BEC intégrée pour une performance optimale. Prix : 32.0€",
+    "keywords": [
+      "contrôleur de vitesse brushless nconco esc bec",
+      "radiocommandes et contrôleurs",
+      "visiter la boutique nconco"
+    ],
+    "ogTitle": "Contrôleur de Vitesse Brushless NCONCO ESC BEC",
+    "ogDescription": "Contrôleur de vitesse brushless NCONCO ESC BEC, idéal pour avions & hélicoptères RC. Plusieurs ampérages (20A-80A) & fonction BEC intégrée pour une performance optimale. Prix : 32.0€"
   },
   "reviews": {
     "averageRating": 3.9,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Contrôleur de vitesse électronique (ESC) sans balais avec BEC intégré. Marques : NCONCO. Applications : Avion radiocommandé, hélicoptère RC. Gamme d'ampérage : 20A, 30A, 40A, 50A, 60A, 80A. Tension d'alimentation : Variable selon modèle (à vérifier). Fonctions : Contrôle de vitesse moteur brushless, alimentation BEC pour récepteur et servos."
+  },
+  "faq": [
+    {
+      "q": "Qu'est-ce qu'un contrôleur de vitesse sans balais (ESC) et pourquoi est-il important pour mon modèle RC ?",
+      "a": "Un ESC (Electronic Speed Controller) est le cerveau de votre système de propulsion sans balais. Il régule la puissance envoyée du moteur, permettant ainsi de contrôler la vitesse et la direction de votre modèle RC. Pour les moteurs brushless, un ESC dédié est indispensable pour leur bon fonctionnement et leur protection."
+    },
+    {
+      "q": "À quoi sert la fonction BEC sur ce contrôleur NCONCO ?",
+      "a": "La fonction BEC (Battery Eliminator Circuit) intégrée au contrôleur NCONCO permet d'alimenter directement votre récepteur et vos servos à partir de la batterie principale de votre modèle. Cela élimine le besoin d'une batterie séparée pour l'électronique de bord, simplifiant le câblage et réduisant le poids."
+    },
+    {
+      "q": "Comment choisir le bon ampérage pour mon modèle RC ?",
+      "a": "Le choix de l'ampérage (20A, 30A, 40A, 50A, 60A, 80A) dépend de la puissance consommée par votre moteur et votre batterie. Il est recommandé de choisir un ESC dont l'ampérage nominal est supérieur de 20% à la consommation maximale de votre moteur pour assurer une marge de sécurité et une meilleure durabilité."
+    },
+    {
+      "q": "Ce contrôleur NCONCO est-il compatible avec tous les moteurs brushless et toutes les batteries LiPo ?",
+      "a": "Le contrôleur NCONCO est conçu pour fonctionner avec les moteurs brushless. La compatibilité avec les batteries LiPo dépendra de la plage de tension supportée par l'ESC (généralement indiquée dans les spécifications détaillées du produit) et du type de connecteur. Il est conseillé de vérifier les spécifications de chaque modèle d'ESC pour confirmer la compatibilité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:36.832465",
+  "originalName": "NCONCO Contrôleur de vitesse sans balais ESC BEC (contrôleur de vitesse brushless 20 A, 30 A, 40 A, 50 A, 50 A, 60 A, 80 A) pour avion radiocommandé, hélicoptère RC",
+  "enhanced": true
 }

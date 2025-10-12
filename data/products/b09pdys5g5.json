@@ -1,9 +1,9 @@
 {
   "productId": "B09PDYS5G5",
-  "name": "OVERMAX X BEE 9.5 FOLD RC Drone Caméra 4K Télécommandée, FPV WiFi Live, Classe C0, GPS, Portée 600m, Batterie 1820 mAh, Temps de vol jusqu'à 22 min, Vitesse jusqu'à 40 km/h, LED",
-  "slug": "overmax-x-bee-95-fold-rc-drone-camera-4k-telecomma",
-  "description": "OVERMAX X-BEE DRONE 9.5 FOLD: Un drone de classe C0 qui ne nécessite pas de certification particulière pour voler. L'appareil se distingue par : une portée très large jusqu'à 600 mètres, un GPS, une caméra 4K FPV Live avec WiFi 5 GHz, moteurs sans balais, vitesses jusqu'à 40 km / h, offre également jusqu'à 22 minutes de vol sur une seule charge | CAMÉRA 4K: Grâce au module Wi-Fi, vous pouvez suivre l'image enregistrée par la caméra sur l'écran de n'importe quel appareil mobile. La résolution 4K, un capteur de zoom optique avancé, des caoutchoucs stabilisateurs spéciaux et une plage de rotation de 90 degrés de la caméra garantissent la meilleure qualité d'image dans toutes les conditions | MODULE GPS AVANCÉ: Grâce à la fonction Follow Me, l'appareil suivra automatiquement la caméra face à l'opérateur. La fonction Tap to Fly vous permet de marquer des points sur la carte vers lesquels le drone se rendra automatiquement. Grâce au Point of Interest , l'appareil commencera à tourner autour du point marqué, l'enregistrant à la distance que vous choisirez | ENSEMBLE RICHE: En plus du drone Overmax X Bee Dron 9.5 Fold moderne, l'ensemble comprend également des accessoires supplémentaires : 4 hélices de rechange, étui pratique, câble de chargement USB, caméra, tournevis, support pour smartphone et batterie",
-  "shortDescription": "OVERMAX X BEE 9.5 FOLD RC Drone Caméra 4K Télécommandée, FPV WiFi Live, Classe C0, GPS, Portée 600m,",
+  "name": "Drone RC Overmax X Bee 9.5 Fold : Caméra 4K, GPS, FPV WiFi",
+  "slug": "drone-overmax-bee-9-5-fold-camera",
+  "description": "Découvrez le **Drone RC Overmax X Bee 9.5 Fold**, l'outil idéal pour des prises de vue aériennes époustouflantes et des vols immersifs. Équipé d'une **caméra 4K** de haute résolution et d'une technologie **FPV WiFi Live**, ce drone vous offre une expérience de vol en temps réel incomparable. Sa conception **pliable** le rend facile à transporter, tandis que le **GPS intégré** assure une navigation précise et sécurisée. Avec une **portée impressionnante de 600m**, une **batterie longue durée de 1820 mAh** offrant jusqu'à **22 minutes de vol**, et une **vitesse maximale de 40 km/h**, le X Bee 9.5 Fold est conçu pour les amateurs de technologie et de photographie aérienne exigeants. Ses **LEDs intégrées** garantissent une visibilité optimale, même en basse lumière. Idéal pour les débutants et les passionnés, ce drone de **Classe C0** est un concentré de technologie et de performances.",
+  "shortDescription": "Drone RC Overmax X Bee 9.5 Fold : Vol immersif et prises de vues 4K. GPS, FPV WiFi, portée 600m, autonomie 22 min.",
   "price": "258.0",
   "compareAtPrice": 296,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Overmax",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone RC Overmax X Bee 9.5 Fold : Caméra 4K, GPS, FPV WiFi",
+    "description": "Drone RC Overmax X Bee 9.5 Fold : Vol immersif et prises de vues 4K. GPS, FPV WiFi, portée 600m, autonomie 22 min.",
+    "keywords": [
+      "drone rc overmax x bee 9.5 fold : caméra 4k, gps, fpv wifi",
+      "drones portée 5 à 10 km",
+      "marque : overmax"
+    ],
+    "ogTitle": "Drone RC Overmax X Bee 9.5 Fold : Caméra 4K, GPS, FPV WiFi",
+    "ogDescription": "Drone RC Overmax X Bee 9.5 Fold : Vol immersif et prises de vues 4K. GPS, FPV WiFi, portée 600m, autonomie 22 min."
   },
   "reviews": {
     "averageRating": 3.1,
@@ -38,5 +44,37 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K, FPV WiFi Live, GPS, Portée 600m, Batterie 1820 mAh, Autonomie 22 min, Vitesse 40 km/h, LED, Pliable, Classe C0"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone Overmax X Bee 9.5 Fold ?",
+      "a": "La caméra du drone Overmax X Bee 9.5 Fold capture des vidéos en résolution 4K pour des images d'une qualité exceptionnelle."
+    },
+    {
+      "q": "Puis-je voir en temps réel ce que filme le drone ?",
+      "a": "Oui, grâce à la technologie FPV WiFi Live, vous pouvez visualiser en temps réel les images capturées par le drone sur votre smartphone ou tablette."
+    },
+    {
+      "q": "Quelle est la portée maximale du drone ?",
+      "a": "Le drone Overmax X Bee 9.5 Fold offre une portée de contrôle impressionnante allant jusqu'à 600 mètres."
+    },
+    {
+      "q": "Combien de temps le drone peut-il voler avec une seule batterie ?",
+      "a": "La batterie de 1820 mAh permet une autonomie de vol allant jusqu'à 22 minutes."
+    },
+    {
+      "q": "Le drone est-il facile à transporter ?",
+      "a": "Absolument. Le design pliable du drone Overmax X Bee 9.5 Fold le rend très pratique à transporter dans tous vos déplacements."
+    },
+    {
+      "q": "Le GPS est-il utile pour le vol de ce drone ?",
+      "a": "Oui, le GPS intégré assure une navigation plus stable, un retour automatique au point de départ et facilite le maintien de position pour des vols sécurisés et précis."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:20.229927",
+  "originalName": "OVERMAX X BEE 9.5 FOLD RC Drone Caméra 4K Télécommandée, FPV WiFi Live, Classe C0, GPS, Portée 600m, Batterie 1820 mAh, Temps de vol jusqu'à 22 min, Vitesse jusqu'à 40 km/h, LED",
+  "enhanced": true
 }

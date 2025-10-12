@@ -1,9 +1,9 @@
 {
   "productId": "B0C65SM3ML",
-  "name": "Drone sous-Marin, Détecteur de Poisson sous-Marin de plongée, ROV Caméra 4K UHD à Mouvement omnidirectionnel, Verrouillage de la Posture, Contrôle en Temps réel du Casque VR, Ultra Grand Angle",
-  "slug": "drone-sous-marin-detecteur-de-poisson-sous-marin-d",
-  "description": "☀ Liberté à 360°. Le 1er ROV omnidirectionnel de taille compacte au monde avec caméra 4K UHD. Explorez le monde sous-marin sans limites --- Latéral, rotation de l'arc, 90° haut/bas, tangage/lacet/roulis à 360°, verrouillage de la posture. Gros plan ciblé. | ☀Le plus petit de sa catégorie pour accéder aux terrains et structures difficiles. Les lunettes Smart VR ont activé une vue en temps réel qui vous offre une expérience immersive dans le monde sous-marin. | ☀Casque VR que nous avons conçu pour vous permettre de faire pivoter le drone de manière transparente et intuitive. La conception ergonomique du contrôleur intelligent offre un confort et un contrôle précis. | ☀Avec la fonction de suivi de la tête, placez-vous dans la vue à la première personne du drone et contrôlez où vous voulez aller simplement en tournant la tête. | ☀Filmage sous-marin, exploration océanique, loisirs, aquaculture, opération sous-marine, sécurité publique et application de la loi, et plus encore.",
-  "shortDescription": "Drone sous-Marin, Détecteur de Poisson sous-Marin de plongée, ROV Caméra 4K UHD à Mouvement omnidire",
+  "name": "Drone Sous-Marin ROV 4K UHD avec Caméra Panoramique et Contrôle VR",
+  "slug": "drone-sous-marin-rov-uhd-avec-camera",
+  "description": "Explorez les profondeurs comme jamais auparavant avec notre drone sous-marin ROV révolutionnaire. Doté d'une caméra 4K UHD ultra haute définition et d'un mouvement omnidirectionnel à 360°, capturez des images époustouflantes du monde sous-marin. Son système de verrouillage de posture assure une stabilité inégalée, tandis que le contrôle en temps réel via casque VR immersif vous plonge au cœur de l'action. Idéal pour la détection de poissons, l'inspection sous-marine, la photographie et la vidéographie, ce drone est votre œil expert sous la surface. Son ultra grand angle vous offre une perspective incomparable pour découvrir les secrets des océans, des lacs et des rivières.",
+  "shortDescription": "Drone sous-marin ROV 4K UHD avec contrôle VR, mouvement 360°, détection de poisson et stabilisation avancée. Exploration ultime à 82.0€.",
   "price": "82.0",
   "compareAtPrice": 94,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : AZAARA",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Sous-Marin ROV 4K UHD avec Caméra Panoramique et Contrôle VR",
+    "description": "Drone sous-marin ROV 4K UHD avec contrôle VR, mouvement 360°, détection de poisson et stabilisation avancée. Exploration ultime à 82.0€.",
+    "keywords": [
+      "drone sous-marin rov 4k uhd avec caméra panoramique et contrôle vr",
+      "drones sous-marins (rov)",
+      "marque : azaara"
+    ],
+    "ogTitle": "Drone Sous-Marin ROV 4K UHD avec Caméra Panoramique et Contrôle VR",
+    "ogDescription": "Drone sous-marin ROV 4K UHD avec contrôle VR, mouvement 360°, détection de poisson et stabilisation avancée. Exploration ultime à 82.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K UHD, Mouvement omnidirectionnel 360°, Verrouillage de posture, Contrôle VR en temps réel, Ultra grand angle, Détecteur de poisson intégré, Prix : 82.0€"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra de ce drone sous-marin ?",
+      "a": "La caméra de ce drone sous-marin enregistre en résolution 4K UHD, offrant des images d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Comment puis-je contrôler ce drone sous-marin ?",
+      "a": "Vous pouvez contrôler ce drone sous-marin en temps réel via un casque VR immersif, offrant une expérience de pilotage intuitive et totalement inédite."
+    },
+    {
+      "q": "Le drone peut-il se déplacer dans toutes les directions ?",
+      "a": "Oui, ce drone est équipé d'un mouvement omnidirectionnel, lui permettant de se déplacer librement à 360° dans toutes les directions pour une exploration complète."
+    },
+    {
+      "q": "Qu'est-ce que le 'verrouillage de posture' ?",
+      "a": "Le verrouillage de posture est une technologie avancée qui maintient le drone stable et dans une position fixe, même dans des conditions d'eau agitée, garantissant des prises de vue stables."
+    },
+    {
+      "q": "Est-il adapté à la recherche de poissons ?",
+      "a": "Absolument ! Ce drone intègre un détecteur de poisson sous-marin, le rendant parfait pour les pêcheurs, les plongeurs et les passionnés de vie marine qui souhaitent observer et localiser les poissons."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.465580",
+  "originalName": "Drone sous-Marin, Détecteur de Poisson sous-Marin de plongée, ROV Caméra 4K UHD à Mouvement omnidirectionnel, Verrouillage de la Posture, Contrôle en Temps réel du Casque VR, Ultra Grand Angle",
+  "enhanced": true
 }

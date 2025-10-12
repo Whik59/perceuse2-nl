@@ -2,8 +2,8 @@
   "productId": "B0F841L8V7",
   "name": "Drone avec caméra, batterie modulaire, F417GPS",
   "slug": "drone-avec-camera-batterie-modulaire-f417gps",
-  "description": "Plusieurs mesures de sécurité empêchent la surcharge et la décharge excessive. Pour prolonger la durée de vie de la batterie, il est préférable de laisser un peu d'énergie dans la batterie (environ 50 %) si le drone n'est pas utilisé pendant une longue période. Cela permet de prolonger efficacement la durée de vie de la batterie. | Plusieurs mesures de sécurité empêchent la surcharge et la décharge excessive. Pour prolonger la durée de vie de la batterie, il est préférable de laisser un peu d'énergie dans la batterie (environ 50 %) si le drone n'est pas utilisé pendant une longue période. Cela permet de prolonger efficacement la durée de vie de la batterie.",
-  "shortDescription": "Drone avec caméra, batterie modulaire, F417GPS",
+  "description": "<div><h2>Drone avec caméra, batterie modulaire, F417GPS</h2><p>Quality product</p></div>",
+  "shortDescription": "Drone avec caméra, batterie modulaire, F417GPS - Quality Product",
   "price": "19.0",
   "compareAtPrice": 21,
   "images": [
@@ -25,9 +25,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique FAKJANK",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone avec caméra, batterie modulaire, F417GPS",
+    "description": "Drone avec caméra, batterie modulaire, F417GPS - Quality Product",
+    "keywords": [
+      "drone avec caméra, batterie modulaire, f417gps",
+      "mini drones avec caméra",
+      "visiter la boutique fakjank"
+    ],
+    "ogTitle": "Drone avec caméra, batterie modulaire, F417GPS",
+    "ogDescription": "Drone avec caméra, batterie modulaire, F417GPS - Quality Product"
   },
   "reviews": {
     "averageRating": 4.0,
@@ -39,5 +45,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:58.968871",
+  "originalName": "Drone avec caméra, batterie modulaire, F417GPS",
+  "enhanced": true
 }

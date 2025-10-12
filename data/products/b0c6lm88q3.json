@@ -1,9 +1,9 @@
 {
   "productId": "B0C6LM88Q3",
-  "name": "Sxhlseller Mini Drone avec Double Caméra 4K HD pour Adultes Enfants Débutants, Drone RC Pliable avec Contrôle de Téléphone Portable WiFi, Fonctionnement Intelligent à Bouton",
-  "slug": "sxhlseller-mini-drone-avec-double-camera-4k-hd-pou",
-  "description": "Conception à double poubelle sombre: conception de poubelle sombre de stockage électrique à télécommande, les deux côtés peuvent être installés avec deux batteries de drone, de sorte que vous pouvez toujours être pratique pour épargner deux batteries, facile à installer. | Vol stationnaire intelligent : une nouvelle génération de système de vol stationnaire intelligent, maintient toujours l'altitude pendant le vol, facile à contrôler et facile à tirer, facile à démarrer pour les débutants. | Vol de pointage de trajectoire : ouvrez la fonction de pointage de trajectoire sur APP, dessinez la trajectoire de vol que vous voulez, et le drone peut voler automatiquement selon la trajectoire de vol que vous dessinez, sans opération de contrôle à distance, intelligent et intéressant. | Caméra double 4K : équipée d'une caméra super HD 4K à l'avant et en bas, qui prend en la commutation libre des angles, une plus large gamme de prise de vue aérienne. | Fonctionnement à bouton : sans contrôle compliqué, bouton peut réaliser des opérations de décollage, d'atterrissage, de retour ou d'arrêt d'urgence, facile à utiliser, tout le monde peut voler.",
-  "shortDescription": "Sxhlseller Mini Drone avec Double Caméra 4K HD pour Adultes Enfants Débutants, Drone RC Pliable avec",
+  "name": "Mini Drone Sxhlseller Double Caméra 4K HD",
+  "slug": "mini-drone-sxhlseller-double-camera",
+  "description": "Découvrez le ciel avec le **Mini Drone Sxhlseller**, votre compagnon aérien idéal pour adultes et enfants débutants. Doté d'une **double caméra 4K HD**, ce drone RC pliable capture des images et des vidéos d'une qualité époustouflante. Contrôlez-le facilement via votre smartphone grâce à la connexion WiFi et profitez de fonctionnalités intelligentes comme le décollage/atterrissage à un bouton. Parfait pour débuter dans le monde de la photographie et de la vidéo aériennes avec un drone performant et accessible.",
+  "shortDescription": "Mini Drone Sxhlseller 4K HD avec double caméra, contrôle WiFi par smartphone. Idéal débutants. Pliable.",
   "price": "37.0",
   "compareAtPrice": 42,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Sxhlseller",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Sxhlseller Double Caméra 4K HD",
+    "description": "Mini Drone Sxhlseller 4K HD avec double caméra, contrôle WiFi par smartphone. Idéal débutants. Pliable.",
+    "keywords": [
+      "mini drone sxhlseller double caméra 4k hd",
+      "drones pliables et portables",
+      "visiter la boutique sxhlseller"
+    ],
+    "ogTitle": "Mini Drone Sxhlseller Double Caméra 4K HD",
+    "ogDescription": "Mini Drone Sxhlseller 4K HD avec double caméra, contrôle WiFi par smartphone. Idéal débutants. Pliable."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Modèle : Sxhlseller Mini Drone\nRésolution Caméra : Double 4K HD\nFonctionnalités : Contrôle par Téléphone Portable WiFi, Fonctionnement Intelligent à Bouton, Pliable\nPublic Cible : Adultes, Enfants, Débutants\nPrix : 37.0€"
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le Mini Drone Sxhlseller est conçu pour les débutants. Ses fonctions intelligentes, comme le décollage et l'atterrissage à un bouton, ainsi que le contrôle intuitif via smartphone, rendent le pilotage très accessible."
+    },
+    {
+      "q": "Quelle est la qualité des caméras ?",
+      "a": "Ce drone est équipé d'une double caméra offrant une résolution 4K HD. Vous obtiendrez des images et des vidéos aériennes d'une clarté remarquable pour capturer tous vos moments."
+    },
+    {
+      "q": "Puis-je contrôler le drone avec mon téléphone ?",
+      "a": "Oui, le drone Sxhlseller se connecte à votre téléphone portable via WiFi, vous permettant de le contrôler directement depuis votre smartphone et de voir le flux vidéo en direct."
+    },
+    {
+      "q": "Est-il facile à transporter ?",
+      "a": "Tout à fait ! Sa conception pliable le rend extrêmement portable et facile à ranger dans un sac, idéal pour l'emporter partout avec vous."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:30.492997",
+  "originalName": "Sxhlseller Mini Drone avec Double Caméra 4K HD pour Adultes Enfants Débutants, Drone RC Pliable avec Contrôle de Téléphone Portable WiFi, Fonctionnement Intelligent à Bouton",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0CRB37JPL",
-  "name": "Cococam 4K POE Kit de Surveillance Extérieure, 8CH 2TB HDD NVR, 4PCS 8MP POE Caméra IP de Surveillance avec Enregistrement 24/7, AI Détection de Personnes et de Véhicules, Vision Nocturne en Couleur",
-  "slug": "cococam-4k-poe-kit-de-surveillance-exterieure-8ch-",
-  "description": "4K 8MP ULTRA HD : Ce système de surveillance Cococam POE offre presque 4 fois la netteté du 1080p et une netteté incroyable de 20 images (réglables) par seconde pour une résolution 4K 8MP (3840*2160), garantissant le plus haut niveau de détail dans votre zone de surveillance à tout moment. | Détection humaine AI : Grâce à l'algorithme d'intelligence artificielle (IA), ce système de surveillance par caméra Cococam peut identifier avec précision les personnes et déclencher la sirène et les projecteurs intégrés pour faire fuir l'intrus. Vous recevrez des notifications push en temps réel et des alertes par e-mail afin de pouvoir agir immédiatement et dissuader les indésirables grâce à un système audio bidirectionnel. | ENREGISTREMENT ININTERROMPU 24 HEURES SUR 24, 7 JOURS SUR 7 : Le disque dur de 2 To préinstallé permet à l'utilisateur de bénéficier d'un enregistrement fiable 24 heures sur 24, 7 jours sur 7. Les vidéos peuvent être sauvegardées sur la carte TF (jusqu'à 128 Go, non inclus) ou sur le serveur Cococam NVR.Support ordinateur, web, téléphone mobile (iOS & Android), client tablette, visualiser plus commodément. | Installation POE facile : Cette caméra IP Cococam POE utilise un seul câble Ethernet (distance de transmission maximale de 250 mètres) pour transmettre les données et l'alimentation. Le câblage simplifié signifie une installation plus facile et plus propre. Connexion plug-and-play fiable pour les amateurs de bricolage. | Matériau métallique et résistance aux intempéries IP66 : Fabriquée dans un boîtier métallique certifié IP66, cette caméra réseau IP peut résister à une température ambiante de -10°C à 60°C et protéger l'installation extérieure contre les dommages causés par l'eau ou les températures élevées.",
-  "shortDescription": "Cococam 4K POE Kit de Surveillance Extérieure, 8CH 2TB HDD NVR, 4PCS 8MP POE Caméra IP de Surveillan",
+  "name": "Kit de Surveillance Extérieure Cococam 4K POE - 8 Canaux, 2TB, 4 Caméras IA",
+  "slug": "kit-surveillance-exterieure-cococam-poe-canaux",
+  "description": "Sécurisez votre propriété avec le Kit de Surveillance Extérieure Cococam 4K POE. Ce système complet inclut un enregistreur NVR 8 canaux avec 2TB de stockage, et 4 caméras IP de surveillance 8MP (4K UHD). Profitez d'un enregistrement continu 24/7, d'une détection intelligente des personnes et véhicules grâce à l'IA, et d'une vision nocturne en couleur exceptionnelle. L'alimentation POE simplifie l'installation. Idéal pour une surveillance extérieure fiable et performante.",
+  "shortDescription": "Kit de surveillance Cococam 4K POE: 4 caméras 8MP, NVR 8CH 2TB, IA détection personnes/véhicules, vision nocturne couleur. Surveillance extérieure 24/7.",
   "price": "299.0",
   "compareAtPrice": 343,
   "images": [
@@ -30,9 +30,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique COCOCAM",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit de Surveillance Extérieure Cococam 4K POE - 8 Canaux, 2TB, 4 Caméras IA",
+    "description": "Kit de surveillance Cococam 4K POE: 4 caméras 8MP, NVR 8CH 2TB, IA détection personnes/véhicules, vision nocturne couleur. Surveillance extérieure 24/7.",
+    "keywords": [
+      "kit de surveillance extérieure cococam 4k poe - 8 canaux, 2tb, 4 caméras ia",
+      "rov avec caméra 4k",
+      "visiter la boutique cococam"
+    ],
+    "ogTitle": "Kit de Surveillance Extérieure Cococam 4K POE - 8 Canaux, 2TB, 4 Caméras IA",
+    "ogDescription": "Kit de surveillance Cococam 4K POE: 4 caméras 8MP, NVR 8CH 2TB, IA détection personnes/véhicules, vision nocturne couleur. Surveillance extérieure 24/7."
   },
   "reviews": {
     "averageRating": 3.5,
@@ -44,5 +50,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Résolution : 4K UHD (8MP) par caméra. Canaux NVR : 8. Stockage : 2TB HDD inclus. Connexion : POE (Power over Ethernet). Détection : IA (Personnes, Véhicules). Vision Nocturne : Couleur. Enregistrement : 24/7. Usage : Extérieur. Marque : Cococam."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras dans ce kit ?",
+      "a": "Chaque caméra de ce kit Cococam offre une résolution Ultra Haute Définition 4K UHD (8MP), garantissant des images d'une clarté exceptionnelle, de jour comme de nuit."
+    },
+    {
+      "q": "L'enregistrement est-il continu ?",
+      "a": "Oui, ce kit est conçu pour un enregistrement 24/7. Le disque dur NVR de 2TB vous permet de stocker une grande quantité de vidéos pour une surveillance ininterrompue."
+    },
+    {
+      "q": "La technologie POE simplifie-t-elle l'installation ?",
+      "a": "Absolument. La technologie POE (Power over Ethernet) permet à un seul câble Ethernet d'alimenter la caméra et de transmettre les données vidéo, simplifiant grandement le câblage et l'installation."
+    },
+    {
+      "q": "Comment fonctionne la détection IA ?",
+      "a": "La détection IA intégrée dans les caméras Cococam distingue intelligemment les personnes et les véhicules des autres mouvements, réduisant ainsi les fausses alertes et vous informant uniquement des événements pertinents."
+    },
+    {
+      "q": "La vision nocturne est-elle en couleur ?",
+      "a": "Oui, ce kit de surveillance Cococam dispose d'une vision nocturne en couleur avancée, vous offrant une visibilité claire et détaillée même dans l'obscurité la plus totale."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.417373",
+  "originalName": "Cococam 4K POE Kit de Surveillance Extérieure, 8CH 2TB HDD NVR, 4PCS 8MP POE Caméra IP de Surveillance avec Enregistrement 24/7, AI Détection de Personnes et de Véhicules, Vision Nocturne en Couleur",
+  "enhanced": true
 }

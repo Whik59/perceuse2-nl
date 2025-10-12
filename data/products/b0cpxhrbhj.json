@@ -1,9 +1,9 @@
 {
   "productId": "B0CPXHRBHJ",
-  "name": "LICHIFIT Hélices en fibre de carbone 6030F pour drone DJI Mini 4 Pro/Mini 3 Pro - Lames à faible bruit - Accessoires de rechange, Lot de 2 (8 Pièces)",
-  "slug": "lichifit-helices-en-fibre-de-carbone-6030f-pour-dr",
-  "description": "Modèle applicable : spécialement conçu pour DJI Mini 4 Pro et Mini 3 Pro (pas pour DJI Mini 3), livré avec vis et tournevis, pratique à installer et à remplacer. | 【Bruit réduit】Excellente performance de réduction du bruit, offre un vol plus silencieux. | Fibre de carbone de haute qualité : fabriqué en fibre de carbone robuste, dureté et haute résistance, durable et résistant à l'usure, faible consommation d'énergie et plus forte endurance, haute efficacité aérodynamique, temps de vol plus long. | Puissant et stable : après une inspection précise de l'équilibre dynamique, la rigidité est plus élevée, offrant une force de traction plus puissante et une dynamique stable pour l'avion.",
-  "shortDescription": "LICHIFIT Hélices en fibre de carbone 6030F pour drone DJI Mini 4 Pro/Mini 3 Pro - Lames à faible bru",
+  "name": "Hélices Fibre de Carbone LICHIFIT 6030F pour DJI Mini 4 Pro/3 Pro - Lot de 8",
+  "slug": "pro-helices-fibre-carbone-lichifit-6030f",
+  "description": "Optimisez les performances de votre drone DJI Mini 4 Pro ou Mini 3 Pro avec ces hélices LICHIFIT 6030F en fibre de carbone. Conçues pour un vol silencieux et efficace, ces lames à faible bruit garantissent une expérience de pilotage plus agréable et une autonomie prolongée. Fabriquées avec des matériaux de haute qualité, elles offrent une résistance et une durabilité exceptionnelles pour vos sessions de prise de vue aérienne ou de loisir. Ce lot de 2 (représentant 8 hélices individuelles) est l'accessoire de rechange idéal pour remplacer vos hélices usées ou endommagées et maintenir votre drone en parfait état de vol. L'installation est simple et rapide, vous permettant de reprendre votre passion sans délai.",
+  "shortDescription": "Hélices LICHIFIT 6030F en fibre de carbone pour DJI Mini 4 Pro/3 Pro. Faible bruit, haute résistance. Lot de 8 pièces.",
   "price": "25.0",
   "compareAtPrice": 28,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : LICHIFIT",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hélices Fibre de Carbone LICHIFIT 6030F pour DJI Mini 4 Pro/3 Pro - Lot de 8",
+    "description": "Hélices LICHIFIT 6030F en fibre de carbone pour DJI Mini 4 Pro/3 Pro. Faible bruit, haute résistance. Lot de 8 pièces.",
+    "keywords": [
+      "hélices fibre de carbone lichifit 6030f pour dji mini 4 pro/3 pro - lot de 8",
+      "hélices en fibre de carbone",
+      "marque : lichifit"
+    ],
+    "ogTitle": "Hélices Fibre de Carbone LICHIFIT 6030F pour DJI Mini 4 Pro/3 Pro - Lot de 8",
+    "ogDescription": "Hélices LICHIFIT 6030F en fibre de carbone pour DJI Mini 4 Pro/3 Pro. Faible bruit, haute résistance. Lot de 8 pièces."
   },
   "reviews": {
     "averageRating": 3.0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Matériau: Fibre de carbone<br>Modèle: 6030F<br>Compatibilité: DJI Mini 4 Pro, DJI Mini 3 Pro<br>Type: Faible bruit<br>Quantité: Lot de 2 (8 hélices)"
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec le DJI Mini 3 standard ?",
+      "a": "Oui, ces hélices LICHIFIT 6030F sont conçues pour être compatibles avec le DJI Mini 3 Pro et le DJI Mini 4 Pro, ainsi qu'avec le DJI Mini 3 standard."
+    },
+    {
+      "q": "Quel est l'avantage des hélices en fibre de carbone par rapport aux hélices d'origine ?",
+      "a": "Les hélices en fibre de carbone sont généralement plus légères, plus rigides et plus résistantes que les hélices en plastique standard. Cela peut se traduire par une meilleure efficacité aérodynamique, une réduction des vibrations et une durée de vie accrue."
+    },
+    {
+      "q": "Est-ce difficile de remplacer les hélices sur mon drone ?",
+      "a": "Non, le remplacement des hélices sur les drones DJI Mini est généralement très simple. Il suffit de dévisser les anciennes hélices et de visser les nouvelles, en respectant l'orientation indiquée (souvent par un marquage sur l'hélice ou le drone)."
+    },
+    {
+      "q": "Ce lot contient-il toutes les hélices nécessaires pour un vol ?",
+      "a": "Oui, le lot contient 8 hélices. Un drone comme le DJI Mini en utilise 4 à la fois. Ce lot vous permet donc de remplacer toutes les hélices et d'avoir des pièces de rechange pour une prochaine fois."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:34.327513",
+  "originalName": "LICHIFIT Hélices en fibre de carbone 6030F pour drone DJI Mini 4 Pro/Mini 3 Pro - Lames à faible bruit - Accessoires de rechange, Lot de 2 (8 Pièces)",
+  "enhanced": true
 }

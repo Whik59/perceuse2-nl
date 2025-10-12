@@ -1,9 +1,9 @@
 {
   "productId": "B0DYDVFCT2",
-  "name": "108W Chargeur USB C Multiple, 6 Ports GaN III Tech Chargeur Rapide Prise Station de Charge avec 3 PD & 3 QC Multiprise USB Station pour iPhone 16/15 Airpod iPad Huawei Sumsung Switch etc",
-  "slug": "108w-chargeur-usb-c-multiple-6-ports-gan-iii-tech-",
-  "description": "【Chargeur USB C 108W 6Ports】: Avec une puissance de sortie totale allant jusqu'à 108W, secteur adaptateur USB C est équipé de 3 sources secteur adaptateur USB C et de 3 sources secteur adaptateur USB A, pour charger jusqu'à 6 appareils simultanément. Si vous avez besoin de charger rapidement plusieurs appareils, utilisez une combinaison d'USB-A et d'USB-C pour profiter d'une charge simultanée sans compromettre la vitesse de charge. | 【Chargeur Rapide USB C et Chargeur USB】: Multiprise USB C prend en charge les fonctions power delivery et Quick charge 3.0 pour une puissance totale allant jusqu'à 108W. Il ne faut que 30 minutes pour charger votre iPhone de 15% à 60%. Un seul port USB-C 1/ USB-C 2 peut produire jusqu'à 20W de puissance et charger votre MacBook Pro 16 \"de 0 à 50% en seulement 40 minutes. | 【Compatibilité universelle la station de charge USB】Rechargez pratiquement tous vos appareils mobiles et vos tablettes d'ordinateur portable à une vitesse maximale grâce au port USB-C et à l'entrée USB-A standard. Le port 20W peut servir de chargeur USB C pour alimenter vos Phone portables. Compatible avec tous les iPhone, iPad, Galaxy, Airpods, Steam Deck,tablette ou ordinateur portable et appareils électroniques. | 【Sûr et Durable Chargeur Rapide GaN】: Equipé d'une puce intelligente Gan de pointe, Le chargeur USB - C est équipé de fonctions de protection avancées: Protège l'appareil contre les courts - circuits, les surtensions, la surchauffe et les surintensités. Arrêt automatique de la charge lorsque l'appareil est plein pour assurer la sécurité et la longue durée de vie de l'appareil. | 【Ce Que Vous Recevez】1 x 108W Chargeur USB C(6-IN-1), 1 x Câble d'alimentation 1,5M, 1 x Instruction. Avec ce chargeur USB, plus besoin de chercher des prises ou de trimballer un tas de chargeurs n'importe où et n'importe quand, vous pouvez dire adieu aux câbles emmêlés et à l'encombrement, en obtenant un bureau organisé et propre. Simplifiez-vous la vie !",
-  "shortDescription": "108W Chargeur USB C Multiple, 6 Ports GaN III Tech Chargeur Rapide Prise Station de Charge avec 3 PD",
+  "name": "Chargeur USB-C GaN III 108W Multifonction - Station de Charge Rapide 6 Ports",
+  "slug": "108w-chargeur-usb-c-gan-iii-multifonction",
+  "description": "Optimisez votre espace de travail et de vie avec notre **chargeur USB-C multifonction 108W**, équipé de la technologie GaN III de pointe. Cette **station de charge rapide** polyvalente dispose de 6 ports, comprenant 3 ports USB-C Power Delivery (PD) et 3 ports USB-A Quick Charge (QC), vous permettant de charger simultanément jusqu'à 6 appareils. Idéal pour iPhone 16/15, AirPod, iPad, Huawei, Samsung, Nintendo Switch, et bien plus encore. Profitez d'une **recharge ultra-rapide** et sécurisée grâce à sa conception intelligente et à ses protections intégrées. Un indispensable pour les professionnels et les passionnés de technologie.",
+  "shortDescription": "Chargeur USB-C 108W GaN III, 6 ports (3 PD + 3 QC) pour une recharge rapide et universelle de vos appareils (iPhone, iPad, Samsung, Switch, etc.).",
   "price": "17.0",
   "compareAtPrice": 19,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Pxwaxpy",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Chargeur USB-C GaN III 108W Multifonction - Station de Charge Rapide 6 Ports",
+    "description": "Chargeur USB-C 108W GaN III, 6 ports (3 PD + 3 QC) pour une recharge rapide et universelle de vos appareils (iPhone, iPad, Samsung, Switch, etc.).",
+    "keywords": [
+      "chargeur usb-c gan iii 108w multifonction - station de charge rapide 6 ports",
+      "chargeurs multiples et hubs",
+      "marque : pxwaxpy"
+    ],
+    "ogTitle": "Chargeur USB-C GaN III 108W Multifonction - Station de Charge Rapide 6 Ports",
+    "ogDescription": "Chargeur USB-C 108W GaN III, 6 ports (3 PD + 3 QC) pour une recharge rapide et universelle de vos appareils (iPhone, iPad, Samsung, Switch, etc.)."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,36 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Puissance Totale": "108W",
+    "Technologie": "GaN III",
+    "Nombre de Ports": "6",
+    "Ports USB-C (PD)": "3",
+    "Ports USB-A (QC)": "3",
+    "Compatibilité": "iPhone 16/15, AirPod, iPad, Huawei, Samsung, Nintendo Switch, et autres appareils compatibles USB-C/USB-A.",
+    "Sécurité": "Protections contre les surtensions, surintensités, courts-circuits et surchauffes.",
+    "Design": "Compact et élégant, idéal pour la maison et le bureau."
+  },
+  "faq": [
+    {
+      "q": "Quels appareils sont compatibles avec ce chargeur ?",
+      "a": "Ce chargeur est conçu pour être universellement compatible avec tous les appareils rechargeables via USB-C et USB-A, y compris les smartphones (iPhone 16/15, Samsung, Huawei), tablettes (iPad, Galaxy Tab), écouteurs sans fil (AirPods, Galaxy Buds), consoles de jeux portables (Nintendo Switch), et ordinateurs portables compatibles USB-C."
+    },
+    {
+      "q": "Quelle est la technologie GaN III ?",
+      "a": "La technologie GaN III (Nitruure de Gallium de troisième génération) permet des chargeurs plus petits, plus légers et plus efficaces, avec une meilleure dissipation de la chaleur et des performances de charge plus rapides par rapport aux technologies précédentes."
+    },
+    {
+      "q": "Les ports PD et QC peuvent-ils être utilisés simultanément ?",
+      "a": "Oui, tous les ports peuvent être utilisés simultanément. La puissance totale de 108W est répartie intelligemment entre les ports pour optimiser la vitesse de charge de chaque appareil connecté."
+    },
+    {
+      "q": "Le chargeur est-il sûr pour mes appareils ?",
+      "a": "Absolument. Ce chargeur est équipé de multiples protections de sécurité (surtensions, surintensités, courts-circuits, surchauffes) pour garantir une charge sûre et fiable de tous vos appareils électroniques."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:50.947963",
+  "originalName": "108W Chargeur USB C Multiple, 6 Ports GaN III Tech Chargeur Rapide Prise Station de Charge avec 3 PD & 3 QC Multiprise USB Station pour iPhone 16/15 Airpod iPad Huawei Sumsung Switch etc",
+  "enhanced": true
 }

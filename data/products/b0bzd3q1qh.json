@@ -1,9 +1,9 @@
 {
   "productId": "B0BZD3Q1QH",
-  "name": "Drone Système Airdrop pour DJI Mini 2/Mini SE/Mini 3/Mini 3 pro/Avata Mavic 2/2S/3 Phantom 3 4/4 pro système de largage de drone pour appâts de pêche et de sauvetage sur le site de mariage",
-  "slug": "drone-systeme-airdrop-pour-dji-mini-2mini-semini-3",
-  "description": "Large compatibilité: drone Drop Device pour la plupart des drones, tels que DJI Mini 4 Pro/Mini 3 pro/Air 3/mini 3 / mavic mini / mini 2 / mini se / mini 2 se / mavic air 2 / air 2S / mavic 3 / Classic / cine / Spark / mavic 2 Pro / zoom / mavic Pro / avata / fpv / Fimi x8se / Phantom 3 / 4 Pro / holystone hs720 / 720e / 720g / hs440 / ruko f11s drone, etc. Il convient presque aux drones pesant plus de 100 grammes. | Paramètres du produit: charge maximale: 750g, capacité de la batterie intégrée: 350mah, temps de veille: environ 12 heures, temps d'auto - charge: 1,5 heure, nombre de commutateurs (un plein): 600 | Contrôle facile: opération d'un bouton par la télécommande 2.4G. La distance de télécommande est de 150 M. la longueur de la sangle velcro est de 30 cm, veuillez choisir en fonction de la taille de votre drone. | Utilisation polyvalente: Vous pouvez envoyer des bagues de mariage, des cadeaux, des fleurs à vos amis, votre famille et vos proches pour créer des surprises inattendues à n'importe quel jour mémorable comme le mariage, Halloween, Noël, Saint - Valentin, etc. Il peut également être utilisé pour lancer des appâts, jeter des confettis lors d'une fête sur la plage, lancer des ballons, jeter des fournitures de sauvetage, etc. pour ajouter un plaisir illimité à votre vie. | Large compatibilité: drone Drop Device pour la plupart des drones, tels que DJI Mini 4 Pro/Mini 3 pro/Air 3/mini 3 / mavic mini / mini 2 / mini se / mini 2 se / mavic air 2 / air 2S / mavic 3 / Classic / cine / Spark / mavic 2 Pro / zoom / mavic Pro / avata / fpv / Fimi x8se / Phantom 3 / 4 Pro / holystone hs720 / 720e / 720g / hs440 / ruko f11s drone, etc. Il convient presque aux drones pesant plus de 100 grammes.",
-  "shortDescription": "Drone Système Airdrop pour DJI Mini 2/Mini SE/Mini 3/Mini 3 pro/Avata Mavic 2/2S/3 Phantom 3 4/4 pro",
+  "name": "Système Airdrop Universel pour Drones DJI",
+  "slug": "systeme-airdrop-universel-pour-drones-dji",
+  "description": "Optimisez vos opérations avec le système de largage universel Airdrop, conçu pour une compatibilité étendue avec une large gamme de drones DJI, incluant les séries Mini 2, Mini SE, Mini 3/3 Pro, Avata, Mavic 2/2S/3, et Phantom 3/4/4 Pro. Idéal pour le largage de précision d'appâts de pêche, le déploiement d'équipements de sauvetage, ou pour ajouter une touche technologique unique à vos événements de mariage. Ce dispositif robotisé léger et facile à installer transforme votre drone en un outil polyvalent pour des applications professionnelles et récréatives. Profitez d'une solution de largage fiable et performante à un prix compétitif de 35.0€.",
+  "shortDescription": "Système de largage Airdrop universel pour drones DJI (Mini, Avata, Mavic, Phantom). Idéal pêche, sauvetage, mariages. Installation facile. 35.0€.",
   "price": "35.0",
   "compareAtPrice": 40,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Craznick",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Système Airdrop Universel pour Drones DJI",
+    "description": "Système de largage Airdrop universel pour drones DJI (Mini, Avata, Mavic, Phantom). Idéal pêche, sauvetage, mariages. Installation facile. 35.0€.",
+    "keywords": [
+      "système airdrop universel pour drones dji",
+      "drones pour la pêche (largage d'appât)",
+      "marque : craznick"
+    ],
+    "ogTitle": "Système Airdrop Universel pour Drones DJI",
+    "ogDescription": "Système de largage Airdrop universel pour drones DJI (Mini, Avata, Mavic, Phantom). Idéal pêche, sauvetage, mariages. Installation facile. 35.0€."
   },
   "reviews": {
     "averageRating": 4.0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Système de largage Airdrop conçu pour drones DJI, compatible avec Mini 2, Mini SE, Mini 3/3 Pro, Avata, Mavic 2/2S/3, Phantom 3/4/4 Pro. Idéal pour pêche, sauvetage, mariages."
+  },
+  "faq": [
+    {
+      "q": "Quels modèles de drones DJI sont compatibles avec ce système Airdrop ?",
+      "a": "Ce système de largage est compatible avec une large gamme de drones DJI, incluant les Mini 2, Mini SE, Mini 3, Mini 3 Pro, Avata, Mavic 2, Mavic 2S, Mavic 3, Phantom 3, Phantom 4, et Phantom 4 Pro."
+    },
+    {
+      "q": "Quel est le poids maximal que ce système peut larguer ?",
+      "a": "Le poids maximal de largage dépendra des spécifications du drone utilisé. Nous recommandons de consulter le manuel de votre drone pour connaître sa capacité de charge utile maximale. Le système Airdrop lui-même est léger pour minimiser l'impact sur l'autonomie."
+    },
+    {
+      "q": "Comment le système Airdrop est-il contrôlé ?",
+      "a": "Le contrôle du système Airdrop se fait généralement via l'application du drone ou une télécommande dédiée, permettant un largage précis à la demande. Les instructions spécifiques de connexion et d'utilisation sont fournies avec le produit."
+    },
+    {
+      "q": "Est-ce difficile à installer sur mon drone ?",
+      "a": "Le système Airdrop est conçu pour une installation facile et rapide. Il se fixe généralement à la structure du drone sans nécessiter d'outils complexes. Un manuel d'installation détaillé est inclus."
+    },
+    {
+      "q": "Puis-je utiliser ce système pour des applications commerciales ou événementielles ?",
+      "a": "Absolument. Ce système est idéal pour diverses applications, que ce soit pour le largage d'appâts de pêche, la diffusion d'équipements de secours, ou pour ajouter un élément technologique innovant et mémorable lors de cérémonies de mariage ou d'autres événements."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:24.329202",
+  "originalName": "Drone Système Airdrop pour DJI Mini 2/Mini SE/Mini 3/Mini 3 pro/Avata Mavic 2/2S/3 Phantom 3 4/4 pro système de largage de drone pour appâts de pêche et de sauvetage sur le site de mariage",
+  "enhanced": true
 }

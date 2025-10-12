@@ -1,9 +1,9 @@
 {
   "productId": "B0DYJX7G8L",
-  "name": "Sujurio E88 WiFi FPV Drone avec Grand Angle 4K HD Double CaméRa Pliable Altitude Maintenue TéLéCommande Quadrirotor Drones Professionnels",
-  "slug": "sujurio-e88-wifi-fpv-drone-avec-grand-angle-4k-hd-",
-  "description": "Vol de trajectoire. Dessinez une voie de vol sur l'écran, et le drone effectuerait un vol autonome le long de la voie désignée. Technologie 2,4 GHz adoptée pour l'anti-interférence. 4 canaux qui peuvent monter, descendre, avancer, reculer, voler latéralement gauche, voler latéralement droit et rouler à 360 degrés. | Avec bras pliables, petite taille, facile à transporter. Avec la fonction de mode de maintien d'altitude, le vol est stable. Avec la fonction wifi peut être connecté APP, système APK pour prendre des photos, vidéo, transmission en temps réel à travers de la caméra du téléphone. | Il y a 2 caméras peuvent être choisies. Avec la caméra grand angle 4K, donnez des images et des vidéos haute définition (30 W pixels de la caméra au bas du fuselage). Avec le mode sans tête, pas besoin d'ajuster la position de l'avion de voler. Avec une touche pour retourner la fonction, il est facile de trouver le chemin du retour. | 6-a-xis g- qui peut avoir un vol plus stable et être facile à contrôler. Il a une vitesse de vol à 3 niveaux pour basculer qui peut être plus amusant avec le vol. Le fuselage du quadricoptère est fait de plastiques techniques de haute résistance et résistants, d'une résistance et .",
-  "shortDescription": "Sujurio E88 WiFi FPV Drone avec Grand Angle 4K HD Double CaméRa Pliable Altitude Maintenue TéLéComma",
+  "name": "Drone Sujurio E88 4K HD WiFi FPV Pliable",
+  "slug": "drone-sujurio-e88-wifi-fpv-pliable",
+  "description": "Découvrez le drone Sujurio E88, votre compagnon aérien idéal pour des prises de vue époustouflantes. Équipé d'une double caméra grand angle 4K HD, profitez de vidéos et photos de qualité professionnelle. Sa fonction WiFi FPV vous permet de diffuser en direct sur votre smartphone, tandis que le maintien d'altitude garantit des vols stables et fluides, même pour les débutants. Facile à transporter grâce à son design pliable, ce quadrirotor intelligent est le choix parfait pour explorer le monde sous un nouvel angle. Idéal pour les passionnés de technologie et les créateurs de contenu.",
+  "shortDescription": "Drone Sujurio E88 4K HD WiFi FPV pliable avec double caméra et maintien d'altitude. Idéal pour photos/vidéos professionnelles et vols intuitifs.",
   "price": "20.0",
   "compareAtPrice": 23,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Sujurio",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Sujurio E88 4K HD WiFi FPV Pliable",
+    "description": "Drone Sujurio E88 4K HD WiFi FPV pliable avec double caméra et maintien d'altitude. Idéal pour photos/vidéos professionnelles et vols intuitifs.",
+    "keywords": [
+      "drone sujurio e88 4k hd wifi fpv pliable",
+      "drones pour semis et reforestation",
+      "marque : sujurio"
+    ],
+    "ogTitle": "Drone Sujurio E88 4K HD WiFi FPV Pliable",
+    "ogDescription": "Drone Sujurio E88 4K HD WiFi FPV pliable avec double caméra et maintien d'altitude. Idéal pour photos/vidéos professionnelles et vols intuitifs."
   },
   "reviews": {
     "averageRating": 3.4,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Double caméra 4K HD grand angle, WiFi FPV, maintien d'altitude, pliable, télécommande incluse."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras du drone Sujurio E88 ?",
+      "a": "Le drone Sujurio E88 est équipé de deux caméras grand angle avec une résolution de 4K HD pour des images et vidéos d'une grande clarté."
+    },
+    {
+      "q": "Est-il facile de piloter ce drone ?",
+      "a": "Oui, le drone Sujurio E88 est conçu pour être facile à piloter grâce à sa fonction de maintien d'altitude automatique et à sa télécommande intuitive, le rendant accessible aux débutants."
+    },
+    {
+      "q": "Puis-je voir ce que filme le drone en temps réel ?",
+      "a": "Absolument ! Grâce à la technologie WiFi FPV (First Person View), vous pouvez diffuser en direct les images de la caméra sur votre smartphone et vivre l'expérience de vol à la première personne."
+    },
+    {
+      "q": "Le drone est-il facile à transporter ?",
+      "a": "Oui, le drone Sujurio E88 possède un design pliable, ce qui le rend très compact et facile à transporter dans son sac ou sa poche, idéal pour les voyages et les sorties."
+    },
+    {
+      "q": "Quel est le public cible de ce drone ?",
+      "a": "Ce drone est parfait pour les amateurs de photographie et de vidéographie aérienne, les passionnés de technologie, les hobbyistes cherchant un drone performant et facile d'utilisation, ainsi que pour ceux qui souhaitent explorer les possibilités créatives offertes par les drones professionnels abordables."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:50.583391",
+  "originalName": "Sujurio E88 WiFi FPV Drone avec Grand Angle 4K HD Double CaméRa Pliable Altitude Maintenue TéLéCommande Quadrirotor Drones Professionnels",
+  "enhanced": true
 }

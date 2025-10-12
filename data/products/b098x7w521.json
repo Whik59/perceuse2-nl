@@ -1,9 +1,9 @@
 {
   "productId": "B098X7W521",
-  "name": "Drone à main pour enfants et adultes, jouets volants, mini drone rotatif à 360° et lumières LED brillantes, petit hélicoptère OVNI intérieur extérieur",
-  "slug": "drone-a-main-pour-enfants-et-adultes-jouets-volant",
-  "description": "🚀 【Conception de sécurité】 Balle volante comme le boomerang. Il est durable et peut résister aux chocs. Le boîtier extérieur scellé signifie qu'il est complètement sûr à saisir avec vos mains | Augmente la joie de vivre : le mini drone est plus amusant avec des amis. Le design portable permet aux enfants de profiter des drones volants à tout moment et n'importe où. Il est très approprié pour l'interaction multijoueur! | Amusant à explorer : c'est comme contrôler la puissance d'un météore à travers le ciel étoilé, illuminez le ciel. Déverrouillez et explorez des possibilités infinies. Peut satisfaire les fantasmes d'aventure spatiale des enfants! | 🚀 【Plusieurs façons de jouer】Une balle volante qui peut être jouée sous de nombreuses formes, amusante et peut soulager le stress, il est maintenant temps pour vous de montrer vos compétences | 🚀 【Cadeau unique】Le design portable des mini drones permet aux enfants de profiter de drones volants à tout moment et n'importe où. Il est très approprié pour l'interaction multijoueur!",
-  "shortDescription": "Drone à main pour enfants et adultes, jouets volants, mini drone rotatif à 360° et lumières LED bril",
+  "name": "Mini Drone Gyroscopique Lumineux 360° pour Enfants et Adultes",
+  "slug": "mini-drone-gyroscopique-lumineux-360-pour",
+  "description": "Découvrez le **Mini Drone Gyroscopique Lumineux 360°**, le jouet volant interactif parfait pour les enfants et les adultes ! Ce petit hélicoptère OVNI, facile à manipuler, offre des heures de divertissement grâce à sa technologie de vol intuitif et ses lumières LED éblouissantes. Conçu pour une utilisation intérieure et extérieure, ce drone à main est le cadeau idéal pour stimuler la coordination et l'imagination. Son système de rotation à 360° assure des manœuvres spectaculaires. Robuste et sécurisé, il est prêt à défier la gravité ! Parfait pour les débutants, ce drone est une introduction fascinante au monde de la robotique et de l'aéromodélisme. Ne manquez pas cette expérience de vol unique à un prix exceptionnel de 22.0€.",
+  "shortDescription": "Mini drone à main interactif 360° avec lumières LED. Idéal pour enfants et adultes, intérieur/extérieur. Fascination robotique garantie !",
   "price": "22.0",
   "compareAtPrice": 25,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : suroper",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone Gyroscopique Lumineux 360° pour Enfants et Adultes",
+    "description": "Mini drone à main interactif 360° avec lumières LED. Idéal pour enfants et adultes, intérieur/extérieur. Fascination robotique garantie !",
+    "keywords": [
+      "mini drone gyroscopique lumineux 360° pour enfants et adultes",
+      "drones jouets pour intérieur",
+      "marque : suroper"
+    ],
+    "ogTitle": "Mini Drone Gyroscopique Lumineux 360° pour Enfants et Adultes",
+    "ogDescription": "Mini drone à main interactif 360° avec lumières LED. Idéal pour enfants et adultes, intérieur/extérieur. Fascination robotique garantie !"
   },
   "reviews": {
     "averageRating": 3.6,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Mini drone rotatif à 360°, lumières LED brillantes, technologie à main, usage intérieur/extérieur, jouet volant interactif."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Ce mini drone est conçu pour être très intuitif. Grâce à sa technologie gyroscopique et son contrôle à main, il est facile à prendre en main même pour les plus jeunes ou les novices en pilotage de drone."
+    },
+    {
+      "q": "Quelle est la durée de vie de la batterie ?",
+      "a": "La durée de vol peut varier en fonction de l'utilisation, mais il offre généralement une autonomie suffisante pour des sessions de jeu divertissantes. Il se recharge facilement via USB."
+    },
+    {
+      "q": "Peut-on jouer avec ce drone à l'extérieur ?",
+      "a": "Oui, ce mini drone est adapté pour une utilisation intérieure et extérieure. Cependant, nous recommandons de l'utiliser dans des conditions météorologiques calmes pour une meilleure expérience de vol."
+    },
+    {
+      "q": "Quelles sont les caractéristiques de sécurité de ce drone ?",
+      "a": "Ce jouet volant est conçu avec la sécurité à l'esprit. Il est léger, ses hélices sont protégées, et sa technologie de vol évite les chutes brutales, le rendant sûr pour les enfants sous supervision."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:18.091917",
+  "originalName": "Drone à main pour enfants et adultes, jouets volants, mini drone rotatif à 360° et lumières LED brillantes, petit hélicoptère OVNI intérieur extérieur",
+  "enhanced": true
 }

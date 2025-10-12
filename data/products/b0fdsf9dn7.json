@@ -1,9 +1,9 @@
 {
   "productId": "B0FDSF9DN7",
-  "name": "Drone Double Caméra UHD avec Télécommande LCD à Écran Intégré, WIFI 5G, Moteurs Brushless, Carte SD, Évitement d’Obstacles, Vol Inteligent et Fonctions Avancées, Vol +/- 36 min, Portée 1km",
-  "slug": "drone-double-camera-uhd-avec-telecommande-lcd-a-ec",
-  "description": "Double Caméra 4K UHD intégrées et réglables: Profitez d’une qualité d’image exceptionnelle grâce aux caméras 4K ultra haute définition intégrées, qui vous permetent de capturer des vidéos et des photos aériennes précises et vibrantes. La caméra peut être orientée selon vos envies pour des prises de vue uniques et des perspectives créatives, idéales pour immortaliser vos aventures ou partager vos souvenirs sur les réseaux sociaux. | Pilotage intuitif et fonctions automatiques : Ce Drone est conçu pour être facile à utiliser, avec un mode sans tête (headless) qui permet de contrôler le drone indépendamment de son orientation, ainsi qu’un décollage et un atterrissage automatiques d’un simple clic. Ces fonctions facilitent la prise en main, même pour ceux qui n’ont jamais piloté de drone auparavant. | Portée de vol jusqu’à 1000 mètres. Moteurs brushless (sans balais) : robustesse et durabilité accrues. Positionnement par flux optique pour un vol stationnaire précis (intérieur/extérieur). Évitement d’obstacles à quatre voies par infrarouge Maintien d’altitude automatique. | Évitement d’obstacles intelligent à quatre côtés : Grâce à un système de détection intelligent, le drone repère et évite automatiquement les obstacles sur trois côtés jusqu’à 1,5 mètre, assurant ainsi des vols plus sûrs et plus confiants, même dans des environnements encombrés ou à proximité d’obstacles naturels. | Télécommande avec écran intégré pour une visualisation en direct : Contrôlez votre drone et admirez vos prises de vue en temps réel directement sur l’écran LCD de la télécommande, sans avoir besoin de connecter votre smartphone. Cette fonctionnalité rend le pilotage plus pratique, fluide et agréable, tout en offrant une expérience immersive, même pour les débutants qui découvrent la photographie aérienne.",
-  "shortDescription": "Drone Double Caméra UHD avec Télécommande LCD à Écran Intégré, WIFI 5G, Moteurs Brushless, Carte SD,",
+  "name": "Drone Pro 4K : Double Caméra UHD, Écran LCD, Évitement d'Obstacles & 36min de Vol",
+  "slug": "pro-36min-drone-double-camera-uhd",
+  "description": "Découvrez le **Drone Pro 4K**, votre allié aérien pour des prises de vues spectaculaires et une expérience de vol inégalée. Équipé de **deux caméras UHD** (une avant et une inférieure), profitez d'une perspective inédite pour capturer chaque détail avec une clarté époustouflante. Sa **télécommande intuitive avec écran LCD intégré** offre un retour vidéo en temps réel, rendant le pilotage aussi simple qu'un jeu. Grâce à la technologie **WIFI 5G**, bénéficiez d'une connexion stable et rapide pour un streaming vidéo fluide. Les **moteurs brushless** garantissent une puissance accrue, une fiabilité à toute épreuve et un fonctionnement silencieux, tandis que la fonction d'**évitement d’obstacles** protège votre drone des imprévus. Le **vol intelligent** et les fonctions avancées (retour automatique, suivi GPS, etc.) simplifient vos manœuvres, même pour les débutants. Avec une autonomie exceptionnelle de **+/- 36 minutes** par batterie et une **portée de 1 km**, explorez de nouveaux horizons sans contrainte. Livré avec une **carte SD** pour sauvegarder vos plus belles réalisations. Le Drone Pro 4K, c'est la technologie de pointe à portée de main pour des créations aériennes mémorables. Un rapport qualité-prix exceptionnel à **79.0€**.",
+  "shortDescription": "Drone Pro 4K avec double caméra UHD, écran LCD, WIFI 5G, évitement d'obstacles et 36 min de vol. Idéal pour des prises de vues aériennes spectaculaires. Portée 1km. Prix : 79.0€.",
   "price": "79.0",
   "compareAtPrice": 90,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Générique",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Pro 4K : Double Caméra UHD, Écran LCD, Évitement d'Obstacles & 36min de Vol",
+    "description": "Drone Pro 4K avec double caméra UHD, écran LCD, WIFI 5G, évitement d'obstacles et 36 min de vol. Idéal pour des prises de vues aériennes spectaculaires. Portée 1km. Prix : 79.0€.",
+    "keywords": [
+      "drone pro 4k : double caméra uhd, écran lcd, évitement d'obstacles & 36min de vol",
+      "drones avec caméra",
+      "marque : générique"
+    ],
+    "ogTitle": "Drone Pro 4K : Double Caméra UHD, Écran LCD, Évitement d'Obstacles & 36min de Vol",
+    "ogDescription": "Drone Pro 4K avec double caméra UHD, écran LCD, WIFI 5G, évitement d'obstacles et 36 min de vol. Idéal pour des prises de vues aériennes spectaculaires. Portée 1km. Prix : 79.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone Double Caméra UHD (avant + inférieure), Télécommande LCD intégrée, WIFI 5G, Moteurs Brushless, Carte SD incluse, Évitement d’Obstacles, Vol Intelligent, Autonomie +/- 36 min, Portée 1 km, Prix : 79.0€"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras UHD ?",
+      "a": "Les caméras du Drone Pro 4K offrent une résolution Ultra Haute Définition (UHD) pour des images et vidéos d'une grande netteté."
+    },
+    {
+      "q": "Le drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument. Le Drone Pro 4K est conçu pour être intuitif grâce à sa télécommande LCD, ses fonctions de vol intelligentes et son système d'évitement d'obstacles, le rendant idéal pour les pilotes de tous niveaux."
+    },
+    {
+      "q": "Quelle est la durée de vol maximale et la portée du drone ?",
+      "a": "Vous bénéficiez d'une autonomie impressionnante de +/- 36 minutes par batterie et d'une portée de vol allant jusqu'à 1 km, vous permettant d'explorer de vastes zones."
+    },
+    {
+      "q": "Faut-il acheter une carte mémoire séparément ?",
+      "a": "Non, une carte SD est incluse avec le drone pour que vous puissiez commencer à filmer et photographier dès sa réception."
+    },
+    {
+      "q": "Que signifie 'Moteurs Brushless' ?",
+      "a": "Les moteurs Brushless (sans balais) sont plus efficaces, plus puissants, plus silencieux et plus durables que les moteurs traditionnels, garantissant des performances optimales à votre drone."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:59.268506",
+  "originalName": "Drone Double Caméra UHD avec Télécommande LCD à Écran Intégré, WIFI 5G, Moteurs Brushless, Carte SD, Évitement d’Obstacles, Vol Inteligent et Fonctions Avancées, Vol +/- 36 min, Portée 1km",
+  "enhanced": true
 }

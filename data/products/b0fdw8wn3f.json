@@ -1,9 +1,9 @@
 {
   "productId": "B0FDW8WN3F",
-  "name": "WYMYY Drones avec caméra à cardan 4K 2 Axes, Temps de vol de 90 Minutes GPS 5G WiFi FPV Drones pour Adultes, Longue portée de 1 km, Drones sans balais pour Adultes, RC Quadcopter, Rit",
-  "slug": "wymyy-drones-avec-camera-a-cardan-4k-2-axes-temps-",
-  "description": "Autonomie 90 minutes : batterie de conception modulaire, tension 11.1V l capacité de la batterie 2500mAh, autonomie environ 30 minutes.Le pack contient 3 batteries pour un total de 90 minutes de vol. | Cardan auto-stabilisant à deux axes : le cardan auto-stabilisant innovant à deux axes auto-développé résout efficacement le problème commun du tremblement de l'écran dans la photographie aérienne ordinaire dans le passé, quelle que soit la façon dont vous contrôlez le drone, et l'appareil photo maintient automatiquement un état de niveau. | Plate-forme auto-stabilisante Pixel 4K + biaxiale : 4K est 4 fois celle des pixels HD 1080p, prend en charge l'angle de prise de vue à 90° et l'ultra grand angle de 120°, rend la photographie aérienne plus libre. | Système d'alimentation sans balais: L'ensemble de la machine utilise 4 puissants moteurs électriques sans balais, puissants et plus économes en énergie, bonne résistance au vent!Transmission d'image 5G et télécommande, transmission d'image à distance de 1000 m. | Retour intelligent GPS: Enregistrez automatiquement l'emplacement du point de départ avant le décollage, lorsque vous devez rentrer chez vous automatiquement, retour automatique chez vous par télécommande.",
-  "shortDescription": "WYMYY Drones avec caméra à cardan 4K 2 Axes, Temps de vol de 90 Minutes GPS 5G WiFi FPV Drones pour ",
+  "name": "Drone WYMYY 4K Pro avec Cardan 2 Axes et GPS",
+  "slug": "pro-drone-wymyy-avec-cardan-axes",
+  "description": "Découvrez le drone WYMYY 4K Pro, l'outil idéal pour les passionnés de photographie aérienne et de technologie. Doté d'une **caméra 4K stabilisée sur un cardan 2 axes**, il capture des images et des vidéos d'une netteté époustouflante, même en mouvement. Profitez d'une **autonomie record de 90 minutes** grâce à ses batteries intelligentes et d'une **portée de 1 km** pour explorer le ciel sans limites. La **technologie GPS avancée** assure un vol stable et précis, tandis que le **WiFi 5G FPV** vous offre une transmission vidéo en temps réel immersive sur votre smartphone. Équipé de **moteurs sans balais** pour une performance accrue et une durabilité exceptionnelle, ce quadcopter RC est conçu pour les adultes à la recherche d'une expérience de pilotage haut de gamme. Idéal pour les créateurs de contenu, les photographes et les amateurs de drones de pointe. Prix : 500.0€",
+  "shortDescription": "Drone WYMYY 4K Pro : 90 min de vol, GPS, 1km portée, Cardan 2 axes, Moteurs brushless. Parfait pour adultes.",
   "price": "500.0",
   "compareAtPrice": 575,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : WYMYY",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone WYMYY 4K Pro avec Cardan 2 Axes et GPS",
+    "description": "Drone WYMYY 4K Pro : 90 min de vol, GPS, 1km portée, Cardan 2 axes, Moteurs brushless. Parfait pour adultes.",
+    "keywords": [
+      "drone wymyy 4k pro avec cardan 2 axes et gps",
+      "drones portée 5 à 10 km",
+      "marque : wymyy"
+    ],
+    "ogTitle": "Drone WYMYY 4K Pro avec Cardan 2 Axes et GPS",
+    "ogDescription": "Drone WYMYY 4K Pro : 90 min de vol, GPS, 1km portée, Cardan 2 axes, Moteurs brushless. Parfait pour adultes."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,37 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K stabilisée sur cardan 2 axes, Autonomie 90 minutes, GPS, WiFi 5G FPV, Portée 1 km, Moteurs sans balais, Quadcopter RC, Pour adultes."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra de ce drone ?",
+      "a": "La caméra du drone WYMYY est capable de filmer en résolution 4K, offrant des images d'une grande clarté et précision."
+    },
+    {
+      "q": "Combien de temps le drone peut-il voler avec une seule charge ?",
+      "a": "Ce drone offre une autonomie impressionnante de 90 minutes de vol, vous permettant de capturer plus de contenu."
+    },
+    {
+      "q": "Quelle est la portée maximale du drone ?",
+      "a": "Vous pouvez piloter le drone WYMYY jusqu'à une portée de 1 kilomètre, vous donnant une grande liberté d'exploration."
+    },
+    {
+      "q": "Le drone est-il stable en vol grâce au GPS ?",
+      "a": "Oui, la technologie GPS intégrée assure un vol stable et précis, avec des fonctions comme le retour automatique au point de départ."
+    },
+    {
+      "q": "Qu'est-ce que la technologie 5G WiFi FPV signifie ?",
+      "a": "Le 5G WiFi FPV (First Person View) permet de recevoir en temps réel la vidéo filmée par le drone directement sur votre appareil mobile, offrant une expérience de pilotage immersive."
+    },
+    {
+      "q": "Les moteurs sans balais sont-ils un avantage ?",
+      "a": "Absolument. Les moteurs sans balais offrent une meilleure efficacité, une durée de vie plus longue et un fonctionnement plus silencieux par rapport aux moteurs traditionnels."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:58.779491",
+  "originalName": "WYMYY Drones avec caméra à cardan 4K 2 Axes, Temps de vol de 90 Minutes GPS 5G WiFi FPV Drones pour Adultes, Longue portée de 1 km, Drones sans balais pour Adultes, RC Quadcopter, Rit",
+  "enhanced": true
 }

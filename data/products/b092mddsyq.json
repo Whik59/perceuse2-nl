@@ -1,9 +1,9 @@
 {
   "productId": "B092MDDSYQ",
-  "name": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Blsnc)",
-  "slug": "mini-drone-avec-camera-4k-fpv-controle-par-geste-v",
-  "description": "",
-  "shortDescription": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sa",
+  "name": "Mini Drone 4K FPV avec Contrôle Gestuel - Idéal Débutants",
+  "slug": "mini-drone-fpv-avec-controle-gestuel",
+  "description": "Découvrez le monde de la photographie aérienne et du pilotage avec notre **Mini Drone 4K FPV (Blsnc)**. Doté d'une caméra haute résolution 4K et de la technologie First Person View (FPV), ce drone offre une expérience immersive inégalée. Son **contrôle par geste** intuitif le rend parfait pour les **débutants et les enfants**, tandis que des fonctions avancées comme le **vol de trajectoire**, l'**induction de gravité**, le **mode sans tête** et les **flips à 360°** garantissent un plaisir de vol optimal. Le **maintien d'altitude** assure une stabilité parfaite pour des prises de vue époustouflantes. Un jouet technologique éducatif et ludique à prix abordable.",
+  "shortDescription": "Mini Drone 4K FPV Blsnc : Pilotage gestuel facile, vol de trajectoire, maintien d'altitude, flips 360°. Parfait pour débutants & enfants. Prix : 39,0€.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Mini",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Mini Drone 4K FPV avec Contrôle Gestuel - Idéal Débutants",
+    "description": "Mini Drone 4K FPV Blsnc : Pilotage gestuel facile, vol de trajectoire, maintien d'altitude, flips 360°. Parfait pour débutants & enfants. Prix : 39,0€.",
+    "keywords": [
+      "mini drone 4k fpv avec contrôle gestuel - idéal débutants",
+      "drones avec contrôle par gestes",
+      "mini"
+    ],
+    "ogTitle": "Mini Drone 4K FPV avec Contrôle Gestuel - Idéal Débutants",
+    "ogDescription": "Mini Drone 4K FPV Blsnc : Pilotage gestuel facile, vol de trajectoire, maintien d'altitude, flips 360°. Parfait pour débutants & enfants. Prix : 39,0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Résolution Caméra : 4K FPV, Contrôle : Gestuel, Induction Gravité, Vol Trajectoire, Maintien d'altitude, Mode sans Tête, Flips 360°, Idéal : Débutants, Enfants. Marque : Blsnc."
+  },
+  "faq": [
+    {
+      "q": "Ce mini drone est-il adapté aux débutants ?",
+      "a": "Absolument ! Ce mini drone est spécialement conçu pour les débutants grâce à son contrôle gestuel intuitif, son maintien d'altitude automatique et son mode sans tête qui simplifient grandement le pilotage."
+    },
+    {
+      "q": "Quelle est la résolution de la caméra ?",
+      "a": "Le drone est équipé d'une caméra haute résolution de 4K, offrant des images et des vidéos aériennes d'une clarté impressionnante en vue FPV (First Person View)."
+    },
+    {
+      "q": "Quelles sont les fonctions de vol spéciales proposées ?",
+      "a": "Il offre plusieurs fonctionnalités ludiques et pratiques : contrôle par geste, vol de trajectoire (vous tracez le chemin à l'écran), induction de gravité (il suit les mouvements de votre main), maintien d'altitude, mode sans tête et des flips à 360° pour des manœuvres spectaculaires."
+    },
+    {
+      "q": "Quelle est la plage de prix de ce drone ?",
+      "a": "Ce mini drone 4K FPV est proposé au prix très compétitif de 39,0€."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:18.000003",
+  "originalName": "Mini Drone avec Caméra 4K FPV, Contrôle par Geste, Vol de Trajectoire, Induction de Gravité, Mode sans Tête, 360° Flips Maintien d'altitude, pour Débutants et Enfants (Blsnc)",
+  "enhanced": true
 }

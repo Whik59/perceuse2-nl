@@ -1,9 +1,9 @@
 {
   "productId": "B09QSMKYR4",
-  "name": "QYSEA Drone sous-marin FIFISH V6 Expert M100, ROV professionnel amélioré, avec caméra 4K UHD, suivi de la tête VR, LED 6000lm, câble de 100 m, étui en EPP, mouvement omnidirectionnel",
-  "slug": "qysea-drone-sous-marin-fifish-v6-expert-m100-rov-p",
-  "description": "ROV de niveau professionnel avec construction et performance améliorées : 1) mobilité omnidirectionnelle brevetée à 360°. 2) Design épuré et robuste offrant une protection contre la corrosion et les dommages causés par le sable. 3) Le dernier système de stabilisation FIFISH offre des séquences fluides et stables. 4) Temps de plongée jusqu'à 1,5 h contre les courants de 1 m/s et 6 heures en eaux calmes. | ROV multi-capacité compatible avec plusieurs outils : l'interface FIFISH V6 EXPERT permet l'intégration d'une large gamme d'outils d'extension de niveau professionnel et spécifiques à l'industrie, y compris des outils d'observation, des outils de mesure, des outils de manipulation, des outils d'échantillonnage, etc. Il améliore efficacement vos missions et opérations sous-marines. | Caméra 4K UHD et lumière LED ultra lumineuse de 6000 lm : V6 Expert est équipé d'un objectif de caméra 4K UHD, d'un champ de vision de 166 °, d'une résolution de 12 mégapixels, de capacités de tournage au ralenti de 240 fps et plus encore. En plus des lumières LED ultra-lumineuses de 6000 lumens et des algorithmes d'amélioration de la vision, le drone offre des séquences brillantes et vives, même dans les espaces sombres. | Suivi intelligent de la tête VR : grâce aux lunettes de réalité virtuelle intelligentes, prenez le contrôle complet de la direction et de la posture du V6 Expert breveté par QYSEA en tournant simplement la tête. Cette fonctionnalité est une percée dans l'exploration sous-marine et offre à l'utilisateur des expériences vraiment immersives. | Comprend : V6 EXPERT ROV, étui EPP portable et léger, sangle et bobine de 100 m, lunettes VR, télécommande, chargeur ROV, chargeur de télécommande. FIFISH V6 EXPERT dispose d'une batterie super capacité de 14400 mAh qui offre une longue durée de vie de la batterie et des capacités de charge rapide, assurant des sessions de plongée ininterrompues.",
-  "shortDescription": "QYSEA Drone sous-marin FIFISH V6 Expert M100, ROV professionnel amélioré, avec caméra 4K UHD, suivi ",
+  "name": "Drone Sous-Marin FIFISH V6 Expert M100 de QYSEA : L'Excellence Robotique pour l'Exploration Subaquatique",
+  "slug": "m100-drone-sous-marin-fifish-expert-qysea",
+  "description": "Découvrez le QYSEA FIFISH V6 Expert M100, le drone sous-marin professionnel redéfini. Conçu pour les passionnés de technologie et les explorateurs des profondeurs, ce ROV (Remotely Operated Vehicle) vous offre une expérience immersive inégalée. Capturez des images époustouflantes en 4K UHD grâce à sa caméra haute résolution et suivez vos sujets avec une précision révolutionnaire grâce au suivi de tête VR. Équipé de LEDs d'une puissance de 6000 lumens, il illumine les environnements les plus sombres. Son câble de 100 mètres vous permet d'explorer de vastes zones, tandis que sa structure omnidirectionnelle garantit une mobilité sans précédent. Livré avec un étui en EPP robuste pour un transport et un stockage sécurisés. Le FIFISH V6 Expert M100 est l'outil ultime pour la photographie, l'inspection, et la découverte sous-marine. Investissez dans la technologie de pointe pour repousser les limites de l'exploration.",
+  "shortDescription": "Découvrez le QYSEA FIFISH V6 Expert M100 : ROV professionnel 4K UHD, suivi VR, LEDs 6000lm, câble 100m. Exploration sous-marine de pointe à 999.0€.",
   "price": "999.0",
   "compareAtPrice": 1148,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : QYSEA",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Sous-Marin FIFISH V6 Expert M100 de QYSEA : L'Excellence Robotique pour l'Exploration Subaquatique",
+    "description": "Découvrez le QYSEA FIFISH V6 Expert M100 : ROV professionnel 4K UHD, suivi VR, LEDs 6000lm, câble 100m. Exploration sous-marine de pointe à 999.0€.",
+    "keywords": [
+      "drone sous-marin fifish v6 expert m100 de qysea : l'excellence robotique pour l'exploration subaquatique",
+      "rov avec caméra 4k",
+      "marque : qysea"
+    ],
+    "ogTitle": "Drone Sous-Marin FIFISH V6 Expert M100 de QYSEA : L'Excellence Robotique pour l'Exploration Subaquatique",
+    "ogDescription": "Découvrez le QYSEA FIFISH V6 Expert M100 : ROV professionnel 4K UHD, suivi VR, LEDs 6000lm, câble 100m. Exploration sous-marine de pointe à 999.0€."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "QYSEA Drone Sous-Marin FIFISH V6 Expert M100, ROV professionnel amélioré, caméra 4K UHD, suivi de tête VR, LEDs 6000lm, câble 100m, étui EPP, mouvement omnidirectionnel, prix : 999.0€"
+  },
+  "faq": [
+    {
+      "q": "Qu'est-ce qui rend le FIFISH V6 Expert M100 unique ?",
+      "a": "Le FIFISH V6 Expert M100 se distingue par son suivi de tête VR immersif, sa caméra 4K UHD de haute qualité, ses puissantes LEDs de 6000 lumens pour un éclairage optimal, sa mobilité omnidirectionnelle et sa conception ROV professionnelle améliorée, le tout offrant une expérience d'exploration sous-marine inégalée."
+    },
+    {
+      "q": "Quelle est la portée maximale du câble pour ce drone sous-marin ?",
+      "a": "Le drone sous-marin FIFISH V6 Expert M100 est équipé d'un câble de 100 mètres, vous permettant d'explorer une vaste zone sous l'eau en toute liberté."
+    },
+    {
+      "q": "Le suivi de tête VR est-il facile à utiliser ?",
+      "a": "Oui, le système de suivi de tête VR est conçu pour être intuitif. Il vous permet de diriger le drone en bougeant simplement la tête, offrant ainsi une immersion et un contrôle des plus naturels."
+    },
+    {
+      "q": "Quel type d'usage est recommandé pour ce drone ?",
+      "a": "Ce ROV professionnel est idéal pour la photographie et vidéographie sous-marine en haute résolution, l'inspection d'infrastructures, la recherche, la plongée récréative, ainsi que pour les professionnels souhaitant explorer et documenter les fonds marins avec une technologie de pointe."
+    },
+    {
+      "q": "L'étui inclus est-il pratique pour le transport ?",
+      "a": "Absolument. L'étui en EPP (polypropylène expansé) fourni avec le FIFISH V6 Expert M100 est léger, résistant et conçu pour protéger efficacement votre équipement lors de vos déplacements."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:20.550760",
+  "originalName": "QYSEA Drone sous-marin FIFISH V6 Expert M100, ROV professionnel amélioré, avec caméra 4K UHD, suivi de la tête VR, LED 6000lm, câble de 100 m, étui en EPP, mouvement omnidirectionnel",
+  "enhanced": true
 }

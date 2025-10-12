@@ -1,9 +1,9 @@
 {
   "productId": "B0DFT35PMB",
-  "name": "Teeggi KF110 Drone avec caméra 4K pour débutants, ne pèse que 230 g, 360° pour éviter les obstacles, GPS Positioning, 22 min de vol, RC Drone professionnel avec moteur Brushless, 3 batteries",
-  "slug": "teeggi-kf110-drone-avec-camera-4k-pour-debutants-n",
-  "description": "【Cardan auto-stabilisant + EIS Lens】 Équipé de doubles caméras haute résolution, qui peuvent être commutées librement. Gimbal de stabilisation mécanique, puce électronique anti-vibration EIS intégrée, tant que l'objectif reste stable, éliminant efficacement le tremblement de l'image causé par le vol, pour une prise de vue plus claire et plus stable. | 【Forte performance】 Le drone adopte une forte puissance sans balais, volant plus silencieusement dans l'air, mais plus puissant, vitesse de vol jusqu'à 15 m/s. Le centre d'application offre une variété de fonctionnalités de divertissement riches, telles que le retour GPS intelligent, la spirale à une touche, le vol surround à 360°, la planification d'itinéraires, la photo/vidéo gestuelle, le mode de suivi et ainsi de suite. Volez à vos larges, changez de point de vue comme vous le souhaitez ! | 【GPS+ Optical Flow Dual Positioning】Positionnement GPS, retour multifonction, suivi automatique, 360° de prise de vue surround haute altitude. Avec plus de caméras, la caméra inférieure vous permet de capturer des images inattendues, puis d'utiliser la technologie de flux optique pour améliorer la fluidité du vol, le vol en intérieur peut également être flotté avec précision, excellente stabilité pour les débutants qui volent offre suffisamment de confiance. | 【360° laser pour éviter les obstacles + distance de cartographie】Détection intelligente des obstacles pour éviter les collisions en vol. Il peut activement éviter les obstacles dans les scènes plus compliquées et les vols de nuit. La distance de contrôle à distance et la distance de transmission d'image sont toutes deux de 600 mètres. Équipé d'une batterie intelligente haute capacité 7,4 V 1 320 mAh, 22 minutes d'autonomie de la batterie. Permet même aux débutants de démarrer rapidement avec le drone. | Compact et portable, aussi léger qu'un smartphone : le KF110 pèse moins de 250 grammes, ce qui équivaut au poids d'une pomme et peut être volé dans certains pays et régions sans avoir besoin d'enregistrement. Taille de la paume de la main, vous pouvez facilement le mettre dans votre poche ou votre sac à dos, facile à transporter, pas besoin d'hésiter.",
-  "shortDescription": "Teeggi KF110 Drone avec caméra 4K pour débutants, ne pèse que 230 g, 360° pour éviter les obstacles,",
+  "name": "Drone Teeggi KF110 4K avec GPS et Évitement d'Obstacles pour Débutants",
+  "slug": "drone-teeggi-kf110-avec-gps-evitement",
+  "description": "Découvrez le **Teeggi KF110**, le drone idéal pour les **débutants** souhaitant capturer des moments inoubliables en **qualité 4K**. Avec son poids plume de seulement **230g**, sa **technologie d'évitement d'obstacles à 360°** et son **GPS de précision**, ce drone **professionnel** offre une expérience de vol intuitive et sécurisée. Profitez d'une autonomie de **22 minutes par batterie** et de **3 batteries incluses** pour des sessions de vol prolongées. Doté d'un **moteur Brushless** puissant et fiable, le Teeggi KF110 est votre compagnon parfait pour l'exploration aérienne.",
+  "shortDescription": "Drone Teeggi KF110 4K pour débutants : Léger (230g), GPS, évitement obstacles 360°, 22 min/batterie (3 incl.), moteur Brushless. Idéal pour l'exploration aérienne à 199.0€.",
   "price": "199.0",
   "compareAtPrice": 228,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Teeggi",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Teeggi KF110 4K avec GPS et Évitement d'Obstacles pour Débutants",
+    "description": "Drone Teeggi KF110 4K pour débutants : Léger (230g), GPS, évitement obstacles 360°, 22 min/batterie (3 incl.), moteur Brushless. Idéal pour l'exploration aérienne à 199.0€.",
+    "keywords": [
+      "drone teeggi kf110 4k avec gps et évitement d'obstacles pour débutants",
+      "drones cinéma à long temps de vol",
+      "marque : teeggi"
+    ],
+    "ogTitle": "Drone Teeggi KF110 4K avec GPS et Évitement d'Obstacles pour Débutants",
+    "ogDescription": "Drone Teeggi KF110 4K pour débutants : Léger (230g), GPS, évitement obstacles 360°, 22 min/batterie (3 incl.), moteur Brushless. Idéal pour l'exploration aérienne à 199.0€."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Drone **Teeggi KF110** avec caméra **4K**, poids **230g**, **évitement d'obstacles 360°**, **GPS Positioning**, autonomie **22 min**, **moteur Brushless**, **3 batteries incluses**. Prix : **199.0€**."
+  },
+  "faq": [
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le Teeggi KF110 est spécialement conçu pour les débutants avec ses fonctions intelligentes comme l'évitement d'obstacles et le GPS qui facilitent grandement le pilotage."
+    },
+    {
+      "q": "Quelle est la qualité de la caméra ?",
+      "a": "Le drone est équipé d'une caméra haute résolution **4K**, vous permettant de capturer des images et des vidéos d'une qualité exceptionnelle depuis les airs."
+    },
+    {
+      "q": "Combien de temps puis-je voler avec ce drone ?",
+      "a": "Grâce aux **3 batteries incluses**, vous bénéficiez d'une autonomie totale de **66 minutes de vol** (22 minutes par batterie), vous offrant ainsi une liberté d'exploration prolongée."
+    },
+    {
+      "q": "Que signifie 'évitement d'obstacles à 360°' ?",
+      "a": "Cette technologie permet au drone de détecter et d'éviter automatiquement les obstacles dans toutes les directions, assurant un vol plus sûr et évitant les collisions."
+    },
+    {
+      "q": "Le moteur Brushless est-il un avantage ?",
+      "a": "Oui, le **moteur Brushless** est plus performant, plus durable et plus silencieux que les moteurs traditionnels. Il assure une meilleure fiabilité et une expérience de vol plus fluide."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:40.580184",
+  "originalName": "Teeggi KF110 Drone avec caméra 4K pour débutants, ne pèse que 230 g, 360° pour éviter les obstacles, GPS Positioning, 22 min de vol, RC Drone professionnel avec moteur Brushless, 3 batteries",
+  "enhanced": true
 }

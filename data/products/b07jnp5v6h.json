@@ -1,9 +1,9 @@
 {
   "productId": "B07JNP5V6H",
-  "name": "Dilwe 4pcs hélices, hélices en Fibre de Carbone améliorée Accessoire pour quadricoptère Drone de Phantom 3(Bord Jaune)",
-  "slug": "dilwe-4pcs-helices-helices-en-fibre-de-carbone-ame",
-  "description": "4pcs hélicesConçu pour le drone Phantom 3. | Adopter des matériaux haut de gamme, durables et solides, difficiles à rompreAccessoires pour outils électriques | Excellentes performances de réduction du bruit et temps de vol plus long.Outils industriels | 2 paires dans paquet, très pratique et facile à installer. | Bon choix pour que vous profitiez de plus de joies volantes.",
-  "shortDescription": "Dilwe 4pcs hélices, hélices en Fibre de Carbone améliorée Accessoire pour quadricoptère Drone de Pha",
+  "name": "Hélices Fibre de Carbone pour Drone Phantom 3 (Lot de 4, Bord Jaune)",
+  "slug": "helices-fibre-carbone-pour-drone-phantom",
+  "description": "Améliorez les performances de votre drone Phantom 3 avec ce lot de 4 hélices en fibre de carbone haute résistance. Conçues pour une durabilité et une efficacité accrues, ces hélices sont l'accessoire idéal pour des vols plus stables et plus performants. Leur structure en fibre de carbone offre une légèreté exceptionnelle, réduisant la consommation d'énergie et prolongeant ainsi la durée de votre vol. La finition avec bord jaune améliore la visibilité de votre drone dans les airs, un atout sécurité majeur pour les passionnés de photographie aérienne et de pilotage de loisir.  Ces hélices sont spécifiquement conçues comme accessoire de remplacement ou de mise à niveau pour les drones DJI Phantom 3, garantissant une compatibilité parfaite et une installation aisée. Optez pour la qualité et la technologie de pointe avec Dilwe, et redécouvrez votre drone sous un nouvel angle.",
+  "shortDescription": "Lot de 4 hélices en fibre de carbone Dilwe pour DJI Phantom 3. Améliorez stabilité, efficacité et visibilité avec ces accessoires haute performance.",
   "price": "19.0",
   "compareAtPrice": 21,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique Dilwe",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Hélices Fibre de Carbone pour Drone Phantom 3 (Lot de 4, Bord Jaune)",
+    "description": "Lot de 4 hélices en fibre de carbone Dilwe pour DJI Phantom 3. Améliorez stabilité, efficacité et visibilité avec ces accessoires haute performance.",
+    "keywords": [
+      "hélices fibre de carbone pour drone phantom 3 (lot de 4, bord jaune)",
+      "hélices en fibre de carbone",
+      "visiter la boutique dilwe"
+    ],
+    "ogTitle": "Hélices Fibre de Carbone pour Drone Phantom 3 (Lot de 4, Bord Jaune)",
+    "ogDescription": "Lot de 4 hélices en fibre de carbone Dilwe pour DJI Phantom 3. Améliorez stabilité, efficacité et visibilité avec ces accessoires haute performance."
   },
   "reviews": {
     "averageRating": 3.4,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 4 hélices, matériau : fibre de carbone, couleur du bord : jaune, compatible avec : Drone DJI Phantom 3"
+  },
+  "faq": [
+    {
+      "q": "Ces hélices sont-elles compatibles avec d'autres modèles de drones DJI ?",
+      "a": "Ce lot spécifique est conçu pour les drones DJI Phantom 3. Il est conseillé de vérifier la compatibilité exacte avec votre modèle avant l'achat si vous possédez un drone différent."
+    },
+    {
+      "q": "Quel est l'avantage d'utiliser des hélices en fibre de carbone ?",
+      "a": "Les hélices en fibre de carbone sont plus légères, plus rigides et plus résistantes que les hélices en plastique traditionnelles. Cela se traduit par une meilleure efficacité énergétique, une durée de vol prolongée, une réponse de contrôle plus précise et une réduction des vibrations."
+    },
+    {
+      "q": "L'installation de ces hélices est-elle compliquée ?",
+      "a": "L'installation est généralement simple et similaire à celle des hélices d'origine de votre Phantom 3. Il s'agit d'un remplacement direct de vos hélices actuelles."
+    },
+    {
+      "q": "La couleur jaune sur le bord a-t-elle une fonction ?",
+      "a": "Oui, la couleur jaune sur le bord des hélices améliore significativement la visibilité de votre drone dans différentes conditions d'éclairage et contre divers arrière-plans. C'est un avantage important pour la sécurité et le suivi de votre appareil en vol."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:12.538457",
+  "originalName": "Dilwe 4pcs hélices, hélices en Fibre de Carbone améliorée Accessoire pour quadricoptère Drone de Phantom 3(Bord Jaune)",
+  "enhanced": true
 }

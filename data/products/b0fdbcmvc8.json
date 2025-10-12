@@ -1,9 +1,9 @@
 {
   "productId": "B0FDBCMVC8",
-  "name": "H11 GPS Drones avec Caméra Professionnel 4K pour Adultes (Radiocommande avec Écran) 5GHz RC Drones FPV Pliable avec Moteur sans Balais, QuickShots, Temps de Vol de 45 min, Moins de 249g, C0",
-  "slug": "h11-gps-drones-avec-camera-professionnel-4k-pour-a",
-  "description": "Drone FPV avec Écran LCD 4.5 Pouces : Ce drone photographique intègre une télécommande avec écran LCD intégré de 4.5\". Allumez simplement le drone et la télécommande - c'est parti pour le vol ! Aucune connexion smartphone nécessaire, pour des décollages instantanés. La transmission sans fil 2,4 GHz assure un flux vidéo en temps réel, une stabilité accrue et une résistance optimale aux interférences(Écran non tactile) | Moins de 249 g, aucun examen nécessaire: H11 drone adulte avec caméra, moins de 249 g. Ce drone GPS est la solution de vol parfaite et répond aux normes C0. Parfait pour capturer de superbes images en déplacement. | Caméra UHD 4K: H11 drones avec caméra pour adultes 4K équipés d'une caméra 4K grand angle 120° ajustée à 90° par la télécommande ou l'appli, capture des photos 3840x2160P et des vidéos 4K époustouflantes. Libérez votre créativité sous une toute nouvelle perspective.(Carte SD incluse) | Fonction GPS puissante : Le H11 dispose d'un positionnement GPS précis, permettant non seulement un vol stable mais aussi un retour à la maison en toute sécurité. Ce drone GPS peut exécuter la fonction de retour à la maison pour retrouver son chemin vers vous lorsque la batterie est faible ou que la connexion est interrompue. Tutoriels vidéo inclus pour apprendre à piloter en quelques minutes ! | Plusieurs fonctions étonnantes:Le H11 facilite les prises de vue aériennes ; grâce à des modes d'enregistrement intelligents tels que \"Follow Me\", \"Waypoint Flight\" , \"Point of Interestet\" et \"1-Tap Ascension\", il vous suffit d'appuyer une fois sur le bouton pour que ce drone se charge de voler et de filmer à votre place !",
-  "shortDescription": "H11 GPS Drones avec Caméra Professionnel 4K pour Adultes (Radiocommande avec Écran) 5GHz RC Drones F",
+  "name": "Drone GPS H11 4K Pro avec Écran RC, 45 min, Moins de 249g",
+  "slug": "pro-drone-gps-h11-avec-ecran",
+  "description": "Découvrez le drone GPS H11, votre compagnon idéal pour des prises de vue aériennes professionnelles et immersives. Équipé d'une caméra 4K UHD et d'une transmission FPV 5GHz en temps réel, ce drone radiocommandé avec écran intégré vous offre une expérience de pilotage sans précédent. Son design pliable et son poids inférieur à 249g le rendent facile à transporter et conforme aux réglementations. Profitez de plus de 45 minutes de temps de vol grâce à sa batterie haute performance et à son moteur brushless puissant et fiable. Capturez des moments inoubliables avec les fonctions intelligentes QuickShots et explorez le monde sous un nouvel angle. Le drone H11 est la fusion parfaite entre technologie de pointe et facilité d'utilisation pour les amateurs de photographie et de vidéographie aériennes.",
+  "shortDescription": "Drone GPS H11 4K Pro : cam. 4K, écran RC, 45 min vol, < 249g, FPV 5GHz, Moteur Brushless. Idéal adultes.",
   "price": "199.0",
   "compareAtPrice": 228,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : TOPBLASTERBOX",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone GPS H11 4K Pro avec Écran RC, 45 min, Moins de 249g",
+    "description": "Drone GPS H11 4K Pro : cam. 4K, écran RC, 45 min vol, < 249g, FPV 5GHz, Moteur Brushless. Idéal adultes.",
+    "keywords": [
+      "drone gps h11 4k pro avec écran rc, 45 min, moins de 249g",
+      "drones avec activetrack",
+      "marque : topblasterbox"
+    ],
+    "ogTitle": "Drone GPS H11 4K Pro avec Écran RC, 45 min, Moins de 249g",
+    "ogDescription": "Drone GPS H11 4K Pro : cam. 4K, écran RC, 45 min vol, < 249g, FPV 5GHz, Moteur Brushless. Idéal adultes."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K UHD, GPS, Écran RC intégré, Transmission FPV 5GHz, Moteur Brushless, QuickShots, Autonomie 45 min, Poids < 249g, Pliable, Contrôleur avec écran"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution de la caméra du drone H11 ?",
+      "a": "Le drone H11 est équipé d'une caméra professionnelle 4K UHD, offrant des images et des vidéos d'une qualité exceptionnelle pour des prises de vue aériennes saisissantes."
+    },
+    {
+      "q": "Quel est le temps de vol maximal du drone H11 ?",
+      "a": "Grâce à sa batterie optimisée, le drone H11 offre un temps de vol impressionnant de 45 minutes, vous permettant d'explorer et de capturer plus longtemps."
+    },
+    {
+      "q": "Le drone H11 est-il facile à transporter ?",
+      "a": "Absolument ! Sa conception pliable et son poids inférieur à 249g en font un drone extrêmement portable et pratique à emporter partout avec vous, tout en respectant les réglementations pour les drones légers."
+    },
+    {
+      "q": "Que signifie FPV 5GHz sur ce drone ?",
+      "a": "FPV signifie 'First Person View' (Vue à la Première Personne). La transmission 5GHz assure une connexion vidéo sans fil fluide et de haute qualité entre le drone et l'écran de votre radiocommande, vous offrant une expérience immersive en temps réel."
+    },
+    {
+      "q": "Qu'est-ce que la fonction QuickShots ?",
+      "a": "Les QuickShots sont des modes de vol automatisés qui permettent au drone de réaliser des manœuvres cinématographiques prédéfinies, comme des cercles ou des suivis de sujet, afin de créer facilement des vidéos spectaculaires."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:58.067334",
+  "originalName": "H11 GPS Drones avec Caméra Professionnel 4K pour Adultes (Radiocommande avec Écran) 5GHz RC Drones FPV Pliable avec Moteur sans Balais, QuickShots, Temps de Vol de 45 min, Moins de 249g, C0",
+  "enhanced": true
 }

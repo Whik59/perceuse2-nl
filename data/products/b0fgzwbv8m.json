@@ -1,9 +1,9 @@
 {
   "productId": "B0FGZWBV8M",
-  "name": "Pour DJI Mavic 4 Pro Système de Largage de Cadeaux, Distributeur de Cadeaux, Drone Mavic4Pro pour Mariage, Pêche, Appâts et Accessoires de Largage de Sauvetage.",
-  "slug": "pour-dji-mavic-4-pro-systeme-de-largage-de-cadeaux",
-  "description": "Conception légère, seulement 73,4 g, impact réduit sur la portée et n’affecte pas les performances de vol. | Batterie de 150 mAh, rechargeable au moins 300 fois, facile et pratique à utiliser. | Charge maximale de 500 g, convient à une grande variété de situations : publicité, lancer d’appâts, lancer de cadeaux, Saint-Valentin, anniversaire, fête sur la plage et bien d’autres, pour une expérience infinie de plaisir. | Chargement via le port TYPE-C : environ 60 minutes suffisent pour une charge complète. | Utilisation du signal de la télécommande pour contrôler le voyant lumineux situé sous le drone et permettre au lanceur d’air de voler sur de longues distances.",
-  "shortDescription": "Pour DJI Mavic 4 Pro Système de Largage de Cadeaux, Distributeur de Cadeaux, Drone Mavic4Pro pour Ma",
+  "name": "Système de Largage et Distributeur de Cadeaux pour DJI Mavic 4 Pro",
+  "slug": "pro-systeme-largage-distributeur-cadeaux-pour",
+  "description": "Optimisez vos lâchers avec le Système de Largage de Cadeaux pour DJI Mavic 4 Pro. Conçu pour une intégration parfaite avec votre drone Mavic 4 Pro, cet accessoire innovant transforme votre appareil en un outil polyvalent pour les mariages, la pêche (appâts), et même les opérations de sauvetage. Facile à installer et à utiliser, il vous permet de diffuser des objets de manière précise et contrôlée. Idéal pour ajouter une touche unique à vos événements ou pour une assistance rapide. Ce distributeur de cadeaux robotisé élève la fonctionnalité de votre drone.",
+  "shortDescription": "Système de largage et distributeur pour DJI Mavic 4 Pro. Idéal pour mariages, pêche, appâts et sauvetage. Technologie de précision pour lâchers contrôlés.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Générique",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Système de Largage et Distributeur de Cadeaux pour DJI Mavic 4 Pro",
+    "description": "Système de largage et distributeur pour DJI Mavic 4 Pro. Idéal pour mariages, pêche, appâts et sauvetage. Technologie de précision pour lâchers contrôlés.",
+    "keywords": [
+      "système de largage et distributeur de cadeaux pour dji mavic 4 pro",
+      "drones pour la pêche (largage d'appât)",
+      "marque : générique"
+    ],
+    "ogTitle": "Système de Largage et Distributeur de Cadeaux pour DJI Mavic 4 Pro",
+    "ogDescription": "Système de largage et distributeur pour DJI Mavic 4 Pro. Idéal pour mariages, pêche, appâts et sauvetage. Technologie de précision pour lâchers contrôlés."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatible avec DJI Mavic 4 Pro. Matériaux robustes et légers. Installation simple. Contrôle de largage précis. Idéal pour accessoires de largage, appâts de pêche, petits cadeaux."
+  },
+  "faq": [
+    {
+      "q": "Ce système est-il facile à installer sur mon DJI Mavic 4 Pro ?",
+      "a": "Oui, le système est conçu pour une installation rapide et intuitive sur le DJI Mavic 4 Pro, sans nécessiter d'outils complexes. Les instructions détaillées sont fournies pour une intégration sans effort."
+    },
+    {
+      "q": "Quels types d'objets puis-je larguer avec ce système ?",
+      "a": "Ce système est idéal pour larguer une variété d'objets légers tels que des petits cadeaux, des pétales de fleurs pour les mariages, des appâts de pêche, ou même du matériel de secours léger pour des opérations ciblées."
+    },
+    {
+      "q": "Comment le largage est-il contrôlé ?",
+      "a": "Le largage est généralement contrôlé via l'application ou la télécommande de votre DJI Mavic 4 Pro, vous permettant de déclencher le lâcher au moment précis souhaité. La technologie intégrée assure un contrôle précis."
+    },
+    {
+      "q": "Le système de largage affecte-t-il les performances du drone ?",
+      "a": "Le système est conçu pour être léger et aérodynamique afin de minimiser l'impact sur les performances et l'autonomie de vol du DJI Mavic 4 Pro. Son poids est optimisé pour une efficacité maximale."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:30.900927",
+  "originalName": "Pour DJI Mavic 4 Pro Système de Largage de Cadeaux, Distributeur de Cadeaux, Drone Mavic4Pro pour Mariage, Pêche, Appâts et Accessoires de Largage de Sauvetage.",
+  "enhanced": true
 }

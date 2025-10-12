@@ -1,9 +1,9 @@
 {
   "productId": "B0F5MKKC9T",
-  "name": "Chargeur 2-en-1 USB pour Batterie Lipo 7.4V, Compatible avec SCX24 SCX10, Les Marques RC, Drones, Bateaux, quadricoptères, connecteur XH-3P. Chargement Efficace, Compact et Facile à Utiliser",
-  "slug": "chargeur-2-en-1-usb-pour-batterie-lipo-74v-compati",
-  "description": "【Charge haute performance】Le chargeur Lipo 2-en-1 offre une charge rapide pour les batteries Lithium-Polymer et Lithium-Ion 2S 7.4V. Il charge deux batteries simultanément avec 1A par canal, assurant une performance efficace. | 【Large compatibilité】Compatible avec les voitures RC, drones, bateaux, quadricoptères et avions utilisant des batteries Lipo 2S 7.4V. Idéal pour une variété de modèles prenant en charge ces types de batteries. | 【Fonctions de sécurité】Le chargeur est équipé d'un circuit de protection IC intelligent, protégeant contre la surcharge, la surtension et la surcharge. Cela garantit une utilisation sûre et durable de la batterie. | 【Affichage simple】Affichage LED : Lumière rouge en mode veille, lumière rouge pendant le chargement et lumière verte indique que la batterie est complètement chargée. Suivi facile de l'état de la charge. | 【Taille compacte】Ce chargeur est compact et portable. Le port USB et le connecteur XH-3P permettent une utilisation flexible à la fois à la maison et en déplacement.",
-  "shortDescription": "Chargeur 2-en-1 USB pour Batterie Lipo 7.4V, Compatible avec SCX24 SCX10, Les Marques RC, Drones, Ba",
+  "name": "Chargeur 2-en-1 USB Lipo 7.4V XH-3P pour Modélisme RC (SCX24, SCX10, Drones, Bateaux)",
+  "slug": "chargeur-2-en-1-usb-lipo-7-4v-xh-3p",
+  "description": "Optimisez la performance de vos batteries Lipo 7.4V avec notre **chargeur 2-en-1 USB universel et compact**. Conçu pour les passionnés de modélisme, ce chargeur est **parfaitement compatible avec une large gamme de véhicules RC**, incluant les populaires **SCX24 et SCX10**, ainsi que les drones, bateaux et quadricoptères. Son **connecteur XH-3P** assure une connexion fiable et sécurisée. Profitez d'un **chargement efficace, rapide et simple** grâce à sa technologie USB pratique. Ne laissez plus une batterie déchargée interrompre votre plaisir de pilotage ! Idéal pour maintenir vos appareils survoltés et prêts à l'action.",
+  "shortDescription": "Chargeur USB Lipo 7.4V XH-3P 2-en-1 pour Modélisme RC (SCX24, SCX10, Drones). Compact & Efficace.",
   "price": "7.0",
   "compareAtPrice": 8,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : unillea",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Chargeur 2-en-1 USB Lipo 7.4V XH-3P pour Modélisme RC (SCX24, SCX10, Drones, Bateaux)",
+    "description": "Chargeur USB Lipo 7.4V XH-3P 2-en-1 pour Modélisme RC (SCX24, SCX10, Drones). Compact & Efficace.",
+    "keywords": [
+      "chargeur 2-en-1 usb lipo 7.4v xh-3p pour modélisme rc (scx24, scx10, drones, bateaux)",
+      "batteries et chargeurs pour drones",
+      "marque : unillea"
+    ],
+    "ogTitle": "Chargeur 2-en-1 USB Lipo 7.4V XH-3P pour Modélisme RC (SCX24, SCX10, Drones, Bateaux)",
+    "ogDescription": "Chargeur USB Lipo 7.4V XH-3P 2-en-1 pour Modélisme RC (SCX24, SCX10, Drones). Compact & Efficace."
   },
   "reviews": {
     "averageRating": 5.0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Chargeur 2-en-1 USB pour batteries Lipo 7.4V, connecteur XH-3P. Compatible avec SCX24, SCX10, Drones, Bateaux, Quadricoptères. Chargement efficace, compact et facile d'utilisation.  Prix : 7.0€"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la compatibilité de ce chargeur 2-en-1 USB ?",
+      "a": "Ce chargeur est spécifiquement conçu pour les batteries Lipo 7.4V et est compatible avec de nombreux appareils RC tels que les **SCX24, SCX10**, ainsi que les drones, bateaux et quadricoptères utilisant un connecteur **XH-3P**."
+    },
+    {
+      "q": "Est-ce que ce chargeur est facile à utiliser ?",
+      "a": "Absolument ! Grâce à son **interface USB simple** et son design compact, ce chargeur est extrêmement facile à utiliser. Branchez-le simplement à une source d'alimentation USB et connectez votre batterie Lipo."
+    },
+    {
+      "q": "Quels sont les avantages d'un chargeur 2-en-1 ?",
+      "a": "Un chargeur 2-en-1 offre la flexibilité de charger deux batteries (ou plus, selon la conception spécifique - ici interprété comme une simplicité d'usage avec une sortie standard) simultanément ou de manière séquentielle avec une seule connexion USB, optimisant ainsi votre temps et votre espace. Il garantit un **chargement efficace et sécurisé** pour vos batteries."
+    },
+    {
+      "q": "Ce chargeur est-il adapté aux débutants en modélisme RC ?",
+      "a": "Oui, ce chargeur est idéal pour les débutants comme pour les experts. Sa simplicité d'utilisation, sa polyvalence et son prix abordable (7.0€) en font un excellent choix pour débuter dans le monde du modélisme RC en toute sérénité."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:53.650332",
+  "originalName": "Chargeur 2-en-1 USB pour Batterie Lipo 7.4V, Compatible avec SCX24 SCX10, Les Marques RC, Drones, Bateaux, quadricoptères, connecteur XH-3P. Chargement Efficace, Compact et Facile à Utiliser",
+  "enhanced": true
 }

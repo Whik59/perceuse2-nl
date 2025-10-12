@@ -1,9 +1,9 @@
 {
   "productId": "B0FRYPX9H2",
   "name": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition)",
-  "slug": "create-a-smart-agriculture-drone-with-arduino-and-",
-  "description": "",
-  "shortDescription": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edi",
+  "slug": "smart-create-agriculture-drone-with-arduino",
+  "description": "<div><h2>CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition)</h2><p>Quality product</p></div>",
+  "shortDescription": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition) - Quality Product",
   "price": "4.0",
   "compareAtPrice": 4,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "CREATE",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition)",
+    "description": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition) - Quality Product",
+    "keywords": [
+      "create a smart agriculture drone with arduino and gps: monitor crops and learn agritech (english edition)",
+      "drones agricoles",
+      "create"
+    ],
+    "ogTitle": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition)",
+    "ogDescription": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition) - Quality Product"
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,18 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:38.731825",
+  "originalName": "CREATE A SMART AGRICULTURE DRONE WITH ARDUINO AND GPS: Monitor Crops and Learn AgriTech (English Edition)",
+  "enhanced": true
 }

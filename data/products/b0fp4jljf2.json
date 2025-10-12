@@ -1,9 +1,9 @@
 {
   "productId": "B0FP4JLJF2",
-  "name": "Lyzrc L900 Pro Drone sans pinceau L900 Pro RC Pliable RC Quadcopter avec des pièces de rechange compatibles, y compris les bras et les hémorragies pour moteurs(Front Rear Arm Set)",
-  "slug": "lyzrc-l900-pro-drone-sans-pinceau-l900-pro-rc-plia",
-  "description": "Le Drone Lyzrc L900 Pro dispose d'un puissant moteur sans balais pour des performances et une durabilité améliorées | Ce quadcoptère pliable est conçu avec un système pour un positionnement précis et un contrôle de vol stable | Équipé de pièces de rechange, y compris des bras et des hélices de moteur pour une maintenance facile et une utilisation prolongée | Le modèle L900 Pro offre un design compact et portable idéal pour les voyages et les aventures en plein air | Les moteurs du moteur s'assurent lisses et efficaces pendant le vol",
-  "shortDescription": "Lyzrc L900 Pro Drone sans pinceau L900 Pro RC Pliable RC Quadcopter avec des pièces de rechange comp",
+  "name": "Kit de Bras Avant et Arrière pour Drone Lyzrc L900 Pro",
+  "slug": "pro-l900-kit-bras-avant-arriere",
+  "description": "Réinventez la durabilité de votre drone Lyzrc L900 Pro avec ce kit de bras avant et arrière de haute qualité. Conçu spécifiquement pour le modèle L900 Pro, ce set de pièces de rechange garantit une compatibilité parfaite et une intégration sans faille. Idéal pour les passionnés de photographie aérienne et de pilotage de drones, ce kit vous permet de remplacer rapidement les bras endommagés, assurant ainsi une reprise de vol rapide et sécurisée. Fabriqué avec des matériaux robustes pour résister aux conditions les plus exigeantes, il est un incontournable pour prolonger la vie de votre appareil et maintenir ses performances optimales. Profitez d'un vol stable et performant grâce à des composants fiables et précisément ajustés.",
+  "shortDescription": "Kit de bras avant et arrière pour Drone Lyzrc L900 Pro. Pièce de rechange essentielle pour la durabilité et la performance.",
   "price": "115.0",
   "compareAtPrice": 132,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Forgekael",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Kit de Bras Avant et Arrière pour Drone Lyzrc L900 Pro",
+    "description": "Kit de bras avant et arrière pour Drone Lyzrc L900 Pro. Pièce de rechange essentielle pour la durabilité et la performance.",
+    "keywords": [
+      "kit de bras avant et arrière pour drone lyzrc l900 pro",
+      "drones pour photographie aérienne pro",
+      "marque : forgekael"
+    ],
+    "ogTitle": "Kit de Bras Avant et Arrière pour Drone Lyzrc L900 Pro",
+    "ogDescription": "Kit de bras avant et arrière pour Drone Lyzrc L900 Pro. Pièce de rechange essentielle pour la durabilité et la performance."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,25 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Compatible avec Lyzrc L900 Pro Drone, incluant bras avant et arrière pour moteurs sans balais."
+  },
+  "faq": [
+    {
+      "q": "Ce kit de bras est-il compatible avec d'autres modèles de drones Lyzrc ?",
+      "a": "Ce kit de bras est spécifiquement conçu pour le Lyzrc L900 Pro. Veuillez vérifier la compatibilité pour d'autres modèles."
+    },
+    {
+      "q": "Les bras sont-ils faciles à installer ?",
+      "a": "Oui, les bras sont conçus pour un remplacement direct. Des tutoriels peuvent être disponibles en ligne pour vous guider."
+    },
+    {
+      "q": "Qu'est-ce qui est inclus dans le set de bras avant et arrière ?",
+      "a": "Le set comprend les bras avant et arrière nécessaires pour remplacer les composants de votre drone Lyzrc L900 Pro."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:36.057979",
+  "originalName": "Lyzrc L900 Pro Drone sans pinceau L900 Pro RC Pliable RC Quadcopter avec des pièces de rechange compatibles, y compris les bras et les hémorragies pour moteurs(Front Rear Arm Set)",
+  "enhanced": true
 }

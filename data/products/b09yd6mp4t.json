@@ -1,0 +1,76 @@
+{
+  "productId": "B09YD6MP4T",
+  "name": "Module GPS NEO-6M APM2.5 avec Antenne Céramique Passive",
+  "slug": "neo-6m-module-gps-apm2-5-avec-antenne",
+  "description": "Optimisez votre drone ou projet robotique avec notre module GPS NEO-6M APM2.5 haute performance. Doté d'une antenne céramique passive, il assure une réception de signal GPS précise et fiable pour un contrôle de vol stable et une navigation intelligente.  Compatible avec les contrôleurs de vol APM2.5 et autres systèmes, ce composant électronique essentiel offre une plage de tension de 3.3V à 5.5V et une connexion Micro USB pratique pour une intégration aisée.  Idéal pour les passionnés de robotique, les développeurs de drones FPV et les amateurs d'électronique embarquée.  Améliorez votre précision de positionnement et la fiabilité de vos systèmes avec ce module GPS de pointe.",
+  "shortDescription": "Module GPS NEO-6M haute précision avec antenne céramique pour contrôleurs de vol APM2.5 et projets robotiques. Plage 3.3-5.5V, Micro USB. Prix : 9.0€",
+  "price": "9.0",
+  "compareAtPrice": 10,
+  "images": [
+    "https://m.media-amazon.com/images/I/71JT++4gxHL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71vGKJAGbJL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71pwFGcpVvL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71E7BjoeEYL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/718Ri-uZ5lL._AC_SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "Modules GPS et Contrôleurs de Vol",
+  "tags": [
+    "marque : boroco",
+    "modules gps et contrôleurs de vol"
+  ],
+  "amazonUrl": "https://amazon.fr/dp/B09YD6MP4T/?tag=clickclickh01-21",
+  "amazonASIN": "B09YD6MP4T",
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "BOROCO Composants électroniques,antenne céramique Passive NEO-6M APM2.5 contrôleur de vol de Module GPS avec EEPROM 3.3-5.5V Micro USB",
+  "amazonPrice": "9.0€",
+  "amazonRating": 4.0,
+  "amazonReviewCount": 0,
+  "brand": "Marque : BOROCO",
+  "seo": {
+    "title": "Module GPS NEO-6M APM2.5 avec Antenne Céramique Passive",
+    "description": "Module GPS NEO-6M haute précision avec antenne céramique pour contrôleurs de vol APM2.5 et projets robotiques. Plage 3.3-5.5V, Micro USB. Prix : 9.0€",
+    "keywords": [
+      "module gps neo-6m apm2.5 avec antenne céramique passive",
+      "modules gps et contrôleurs de vol",
+      "marque : boroco"
+    ],
+    "ogTitle": "Module GPS NEO-6M APM2.5 avec Antenne Céramique Passive",
+    "ogDescription": "Module GPS NEO-6M haute précision avec antenne céramique pour contrôleurs de vol APM2.5 et projets robotiques. Plage 3.3-5.5V, Micro USB. Prix : 9.0€"
+  },
+  "reviews": {
+    "averageRating": 4.0,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "basic": "Module GPS NEO-6M APM2.5, Antenne céramique passive, Plage de tension : 3.3V-5.5V, Interface : Micro USB, Compatible : APM2.5 et autres contrôleurs de vol, Fonctions : Positionnement GPS, Navigation, Contrôle de vol,  Haute précision, Fiabilité améliorée, Faible consommation d'énergie."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la précision de localisation de ce module GPS NEO-6M ?",
+      "a": "Le module GPS NEO-6M APM2.5 offre une précision de localisation typique de 2.5 mètres. Les performances peuvent varier en fonction des conditions de réception du signal satellite."
+    },
+    {
+      "q": "Ce module GPS est-il compatible avec d'autres contrôleurs de vol que l'APM2.5 ?",
+      "a": "Oui, ce module GPS NEO-6M est conçu pour être compatible avec une large gamme de contrôleurs de vol et de systèmes robotiques qui acceptent une interface GPS standard, y compris ceux utilisant des protocoles comme Ublox."
+    },
+    {
+      "q": "Quelle est la différence entre une antenne céramique passive et une antenne active ?",
+      "a": "Une antenne céramique passive, comme celle intégrée à ce module, reçoit le signal GPS sans amplificateur intégré. Elle est plus simple et consomme moins, mais peut être légèrement moins sensible dans des environnements très difficiles par rapport à une antenne active. Pour la plupart des applications de drones et de robotique standard, elle est largement suffisante."
+    },
+    {
+      "q": "Quelle est la consommation électrique de ce module GPS ?",
+      "a": "Le module GPS NEO-6M APM2.5 a une faible consommation d'énergie, typiquement autour de 50-60 mA en fonctionnement actif.  La plage de tension de fonctionnement est de 3.3V à 5.5V, ce qui le rend très flexible pour l'intégration dans divers projets électroniques."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:20.361039",
+  "originalName": "BOROCO Composants électroniques,antenne céramique Passive NEO-6M APM2.5 contrôleur de vol de Module GPS avec EEPROM 3.3-5.5V Micro USB",
+  "enhanced": true
+}

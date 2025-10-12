@@ -1,9 +1,9 @@
 {
   "productId": "B0FHQCVFYJ",
-  "name": "BETAFPV Lot de 2 cadres Air65 II 65 mm sans balais pour bricolage ultra léger 1S Micro Racing FPV Quadcopter compatible avec Matrix 1S FC, hélices 31 mm/1219S moteurs série 07xx 08xx",
-  "slug": "betafpv-lot-de-2-cadres-air65-ii-65-mm-sans-balais",
-  "description": "Le cadre Air65 II de 2,65 g : co-développé avec pilotes, redéfinit l'agilité légère. R&D Streamlined 6 bras braces to 4, optimised ducts, and boosted thrust by 5% while improving PID response. La matrice en polypropylène résistante absorbe les impacts de crash et les détails raffinés comme la protection des vis et les trous FC élargis garantissent une performance durable, dominante pour un vol sans souci | Réinitialisation du cadre : + 5 % de thrust ; en réduisant stratégiquement les brins de bras de 6 à 4 et en améliorant l'aérodynamique du duc, l'Air65 II atteint 5 % plus de résistance par rapport à la génération 1 – offre une réponse instantanée à l'accélération et une puissance durable pour le quadricoptère | Ailette fiable : suivie de nombreux ajustements structurels, notre conception de bras de connexion finale réduit efficacement les vibrations du cadre. Paired with Feedforward tuning, this achieves a near-perfect PID step response with <12ms, translating to crisp manoeuvres and buttery-smooth freestyle flow | Matériau de résistance optimisé : notre polypropylène testé par bataille mélange les coussins en béton et les embouts d'arbre. Survivez vos crashes freestyle les plus violents – et volez à la maison | Détails Mat : les fentes fixes du moteur maintiennent un alignement précis, les nouvelles structures de protection de vis du moteur déflectent les impacts de collision, élargis trous FC de 1,2 mm s'adaptent facilement aux vis de 1,4 mm et nos embouts inférieurs de 12,4 mm (-0,6 mm) plus profil mince de 3,8 mm court transparent pour les moteurs où les priorités du pilote et engineering obsession",
-  "shortDescription": "BETAFPV Lot de 2 cadres Air65 II 65 mm sans balais pour bricolage ultra léger 1S Micro Racing FPV Qu",
+  "name": "Lot de 2 Cadres BETAFPV Air65 II 65mm FPV Ultra Légers",
+  "slug": "65mm-lot-cadres-betafpv-air65-fpv",
+  "description": "Optimisez vos vols FPV avec ce lot de 2 cadres BETAFPV Air65 II 65mm, conçus pour le bricolage et le micro racing FPV. Parfaits pour les drones 1S sans balais, ces cadres ultra légers sont compatibles avec la carte de vol Matrix 1S FC, les hélices 31mm/1219S et les moteurs de série 07xx/08xx. Idéals pour construire votre quadricoptère FPV personnalisé et repousser les limites de la performance avec une légèreté exceptionnelle.",
+  "shortDescription": "Lot de 2 cadres FPV 65mm BETAFPV Air65 II ultra légers, parfaits pour drones 1S DIY et micro racing. Compatibles Matrix 1S FC, hélices 31mm/1219S, moteurs 07xx/08xx.",
   "price": "13.0",
   "compareAtPrice": 14,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique BETAFPV",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Lot de 2 Cadres BETAFPV Air65 II 65mm FPV Ultra Légers",
+    "description": "Lot de 2 cadres FPV 65mm BETAFPV Air65 II ultra légers, parfaits pour drones 1S DIY et micro racing. Compatibles Matrix 1S FC, hélices 31mm/1219S, moteurs 07xx/08xx.",
+    "keywords": [
+      "lot de 2 cadres betafpv air65 ii 65mm fpv ultra légers",
+      "drones de course et fpv",
+      "visiter la boutique betafpv"
+    ],
+    "ogTitle": "Lot de 2 Cadres BETAFPV Air65 II 65mm FPV Ultra Légers",
+    "ogDescription": "Lot de 2 cadres FPV 65mm BETAFPV Air65 II ultra légers, parfaits pour drones 1S DIY et micro racing. Compatibles Matrix 1S FC, hélices 31mm/1219S, moteurs 07xx/08xx."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Lot de 2 cadres, taille 65mm, pour drones FPV 1S sans balais, ultra légers, compatibles Matrix 1S FC, hélices 31mm/1219S, moteurs 07xx/08xx."
+  },
+  "faq": [
+    {
+      "q": "Quel est l'avantage d'utiliser des cadres ultra légers pour le FPV ?",
+      "a": "Les cadres ultra légers comme le BETAFPV Air65 II améliorent l'agilité, la maniabilité et l'autonomie de votre drone FPV. Ils sont essentiels pour le micro racing et les vols en intérieur où la réactivité est primordiale."
+    },
+    {
+      "q": "Ce cadre est-il adapté aux débutants en construction FPV ?",
+      "a": "Oui, le BETAFPV Air65 II est conçu pour le bricolage (DIY), le rendant accessible aux passionnés souhaitant assembler leur propre drone FPV. Sa conception simplifiée facilite l'installation des composants."
+    },
+    {
+      "q": "Quels types de composants puis-je monter sur ce cadre ?",
+      "a": "Ce cadre est optimisé pour les cartes de vol 1S comme la Matrix 1S FC, les hélices de 31mm ou 1219S, et les moteurs de la série 07xx ou 08xx. Ces spécifications sont idéales pour des configurations légères et performantes."
+    },
+    {
+      "q": "Pourquoi acheter un lot de 2 cadres ?",
+      "a": "Avoir un lot de 2 cadres vous offre une pièce de rechange immédiate en cas de crash, vous permettant de reprendre le vol plus rapidement. C'est aussi une excellente opportunité pour expérimenter différentes configurations ou construire deux drones identiques."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:31.177573",
+  "originalName": "BETAFPV Lot de 2 cadres Air65 II 65 mm sans balais pour bricolage ultra léger 1S Micro Racing FPV Quadcopter compatible avec Matrix 1S FC, hélices 31 mm/1219S moteurs série 07xx 08xx",
+  "enhanced": true
 }

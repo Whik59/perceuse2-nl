@@ -1,9 +1,9 @@
 {
   "productId": "B0CR5M5BTM",
-  "name": "OBEST Bateau Télécommandé,Jouets Aquatiques avec Caméra HD,Lumière LED,Angle de Caméra Réglable,Transmission d'image en Temps Réel,Vaisseau Grande Vitesse,Fonctionnement de l'application Mobile",
-  "slug": "obest-bateau-telecommandejouets-aquatiques-avec-ca",
-  "description": "🛸Bateau de Caméra Sous Marine: le bateau télécommandé est équipé d'une caméra HD de 300 000 pixels pour une vision claire de la scène sous - marine passionnante; La caméra réglable en angle peut voir différentes images; Equipé de lumières LED, vous pouvez également voir la vue de nuit sous l'eau. | 🛸Contrôle de Téléphone Portable: Télécharger l'installation de l'app, manipuler le bateau photo via la connexion wifi, signal stable et réactif; Il est également possible de passer en mode de contrôle de la gravité pour contrôler le navire en balançant le téléphone; Avec la technologie de correction du Centre de gravité, la conduite est stable et facile à utiliser. | 🛸Transmission en Temps Réel: Vous pouvez voir des images passionnantes en temps réel à partir de votre téléphone, non seulement pour prendre des photos, mais aussi pour les enregistrer dans l'album de votre téléphone pour la lecture et la visualisation. | 🛸Design épuré: le bateau photo a un look cool et excitant, avec des matériaux de haute qualité et un prototype de poisson du diable. Le Profil lisse peut réduire la traînée et améliorer la vitesse de conduite; La conception d'hélice à double hélice fournit une puissance plus puissante. | 🛸Charge USB: peut être rechargée à tout moment en utilisant le câble de charge USB inclus (le temps de charge est d'environ 40 minutes et la durée de vie de la batterie est d'environ 20 minutes); Taille: 14 * 18,5 * 6cm; Le bateau photo peut être utilisé dans n'importe quelle eau, que ce soit un lac calme, un étang, une piscine ou un vent fort et de grandes vagues.",
-  "shortDescription": "OBEST Bateau Télécommandé,Jouets Aquatiques avec Caméra HD,Lumière LED,Angle de Caméra Réglable,Tran",
+  "name": "OBEST Bateau Télécommandé Haute Vitesse avec Caméra HD & App Mobile",
+  "slug": "obest-bateau-telecommande-haute-vitesse-avec",
+  "description": "Explorez les eaux avec le OBEST Bateau Télécommandé, le jouet aquatique ultime pour les passionnés de technologie et d'aventure ! Doté d'une caméra HD intégrée avec angle réglable, ce bateau radiocommandé vous permet de capturer des images spectaculaires et de profiter d'une transmission d'image en temps réel directement sur votre smartphone via son application mobile dédiée. Sa conception de vaisseau grande vitesse et ses lumières LED vous garantissent des performances exceptionnelles et une visibilité optimale, même dans l'obscurité. Plongez dans l'action avec ce jouet nautique innovant, parfait pour les amateurs de drones aquatiques et de technologie embarquée.  Prix : 39.0€",
+  "shortDescription": "Bateau télécommandé OBEST haute vitesse avec caméra HD, transmission temps réel et contrôle par app mobile. Parfait pour l'aventure aquatique technologique.",
   "price": "39.0",
   "compareAtPrice": 44,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : OBEST",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "OBEST Bateau Télécommandé Haute Vitesse avec Caméra HD & App Mobile",
+    "description": "Bateau télécommandé OBEST haute vitesse avec caméra HD, transmission temps réel et contrôle par app mobile. Parfait pour l'aventure aquatique technologique.",
+    "keywords": [
+      "obest bateau télécommandé haute vitesse avec caméra hd & app mobile",
+      "drones sous-marins (rov)",
+      "marque : obest"
+    ],
+    "ogTitle": "OBEST Bateau Télécommandé Haute Vitesse avec Caméra HD & App Mobile",
+    "ogDescription": "Bateau télécommandé OBEST haute vitesse avec caméra HD, transmission temps réel et contrôle par app mobile. Parfait pour l'aventure aquatique technologique."
   },
   "reviews": {
     "averageRating": 3.5,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Bateau télécommandé haute vitesse, caméra HD, angle de caméra réglable, transmission d'image en temps réel, contrôle via application mobile, lumières LED."
+  },
+  "faq": [
+    {
+      "q": "Quelle est la particularité de ce bateau télécommandé ?",
+      "a": "Ce bateau OBEST se distingue par sa caméra HD intégrée, son système de transmission d'image en temps réel et son contrôle via une application mobile, le transformant en un véritable drone aquatique pour des explorations immersives."
+    },
+    {
+      "q": "Puis-je contrôler le bateau avec mon smartphone ?",
+      "a": "Oui, absolument. Ce modèle OBEST est conçu pour être piloté intuitivement via une application mobile dédiée, vous offrant un contrôle précis et une expérience de jeu interactive."
+    },
+    {
+      "q": "La caméra est-elle orientable ?",
+      "a": "Oui, le bateau est équipé d'un angle de caméra réglable, vous permettant de diriger votre objectif et de capturer les meilleurs angles de vos aventures aquatiques."
+    },
+    {
+      "q": "Est-il adapté pour une utilisation de nuit ?",
+      "a": "Grâce à ses lumières LED intégrées, ce bateau télécommandé assure une excellente visibilité et une utilisation possible même dans des conditions de faible luminosité ou la nuit."
+    },
+    {
+      "q": "Quelle est la vitesse de ce bateau ?",
+      "a": "Ce modèle OBEST est conçu comme un vaisseau grande vitesse, offrant des performances dynamiques sur l'eau pour des courses et des manœuvres rapides."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.742546",
+  "originalName": "OBEST Bateau Télécommandé,Jouets Aquatiques avec Caméra HD,Lumière LED,Angle de Caméra Réglable,Transmission d'image en Temps Réel,Vaisseau Grande Vitesse,Fonctionnement de l'application Mobile",
+  "enhanced": true
 }

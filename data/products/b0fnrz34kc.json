@@ -1,9 +1,9 @@
 {
   "productId": "B0FNRZ34KC",
-  "name": "Drone Drone Professionnel 4K Caméra Drones ESC 180 ° FPV UAV avec évitement d'obstacles RC Dron Mini Aerial WiFi Quadricoptère",
-  "slug": "drone-drone-professionnel-4k-camera-drones-esc-180",
-  "description": "-- Caractéristique 1 : Le drone a des fonctions d'évitement d'obstacles dans les directions avant, gauche et droite. | -- Caractéristique 2 : La caméra peut être réglée à 180 ° vers le haut et vers le bas par la télécommande. | -- Caractéristique 3 : La lumière corporelle peut être activée / désactivée. Semble plus cool la nuit. | -- Caractéristique 5 : avec boîte de couleur, bon choix comme cadeau. | -- Caractéristique 1 : Le drone a des fonctions d'évitement d'obstacles dans les directions avant, gauche et droite.",
-  "shortDescription": "Drone Drone Professionnel 4K Caméra Drones ESC 180 ° FPV UAV avec évitement d'obstacles RC Dron Mini",
+  "name": "Drone Professionnel 4K ESC 180° avec Évitement d'Obstacles",
+  "slug": "professionnel-drone-esc-180-avec-evitement",
+  "description": "Découvrez le drone professionnel ultime pour des prises de vue aériennes époustouflantes. Ce quadricoptère compact est équipé d'une caméra 4K haute résolution et d'une stabilisation ESC 180°, capturant des images d'une netteté incomparable. Son système avancé d'évitement d'obstacles vous assure une sécurité de vol optimale, tandis que le FPV en direct via WiFi vous plonge au cœur de l'action. Idéal pour les créateurs de contenu, les photographes et les passionnés de technologie cherchant performance et fiabilité.",
+  "shortDescription": "Drone pro 4K ESC 180°, évitement obstacles, FPV WiFi, RC Quadricoptère.",
   "price": "52.0",
   "compareAtPrice": 59,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Generic",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Professionnel 4K ESC 180° avec Évitement d'Obstacles",
+    "description": "Drone pro 4K ESC 180°, évitement obstacles, FPV WiFi, RC Quadricoptère.",
+    "keywords": [
+      "drone professionnel 4k esc 180° avec évitement d'obstacles",
+      "drones avec évitement d'obstacles",
+      "marque : generic"
+    ],
+    "ogTitle": "Drone Professionnel 4K ESC 180° avec Évitement d'Obstacles",
+    "ogDescription": "Drone pro 4K ESC 180°, évitement obstacles, FPV WiFi, RC Quadricoptère."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Résolution caméra : 4K | Angle caméra : 180° ESC | Fonctionnalités : Évitement d'obstacles, FPV WiFi | Type : Quadricoptère RC | Connectivité : WiFi"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo de ce drone professionnel ?",
+      "a": "Ce drone professionnel capture des vidéos en résolution 4K, offrant une qualité d'image exceptionnelle pour vos projets."
+    },
+    {
+      "q": "Comment fonctionne le système d'évitement d'obstacles ?",
+      "a": "Le drone est équipé de capteurs intelligents qui détectent et évitent les obstacles en temps réel, garantissant un vol sécurisé et sans encombre."
+    },
+    {
+      "q": "Est-il facile de piloter ce drone avec la caméra FPV ?",
+      "a": "Oui, le retour vidéo FPV (First Person View) via WiFi vous permet de voir exactement ce que le drone voit en direct sur votre smartphone ou tablette, rendant le pilotage intuitif et immersif."
+    },
+    {
+      "q": "Ce drone est-il adapté aux débutants ?",
+      "a": "Grâce à son système d'évitement d'obstacles et à son pilotage intuitif via FPV, ce drone est accessible aux débutants tout en offrant des fonctionnalités avancées pour les utilisateurs expérimentés."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:35.984896",
+  "originalName": "Drone Drone Professionnel 4K Caméra Drones ESC 180 ° FPV UAV avec évitement d'obstacles RC Dron Mini Aerial WiFi Quadricoptère",
+  "enhanced": true
 }

@@ -1,9 +1,9 @@
 {
   "productId": "B0BMGL1HQP",
-  "name": "Syfunlv Drone avec caméras Doubles 4K, Drone GPS avec Caméra 4K Professionnel, WiFi FPV Pliable Radiocommandés Quadricoptère, Plusieurs Modes De Vol, Adapté Aux Débutants. (black)",
-  "slug": "syfunlv-drone-avec-cameras-doubles-4k-drone-gps-av",
-  "description": "4K HD Double Caméra & Positionnement Optique du Flux: 4K caméra HD avec un grand angle de 120° et un réglage à distance de 45°, fournit des images haute définition, vous permettant de capturer une prise de vue parfaite ; Built-in optical flow positioning sensor permet à votre drone de faire un vol stationnaire précis à l'intérieur et à l'extérieur. | Puissant Moteur sans Balais: Notre drone est équipé de moteurs sans balais avec hélices d'aviation, qui ont une grande efficacité aérodynamique et sont moins bruyants qu'un moteur à balais, ce qui peut permettre des vols de drones stables et puissants. De plus, ils ont une durée de vie plus longue et vous épargnent la maintenance du moteur. | Vol Intelligent Assisté par GPS: Retour automatique à une touche chaque fois que le drone a perdu le signal, est hors de portée ou a une faible puissance, n'avez jamais besoin de vous inquiéter de perdre le drone. Suivi intelligent par GPS, libérez vos mains pour voler à votre guise. | Conception unique: La conception de la structure à quatre axes rend l'avion plus flexible, le stabilisateur gyroscopique à six axes intégré assure un positionnement précis dans les airs; la portée de la télécommande est jusqu'à 50 mètres, la distance WiFi est jusqu'à 30 mètres et une forte résistance au vent peut être utilisée à l'intérieur et à l'extérieur. | Cadeau sûr et parfait: Équipé de housses de protection pour hélices, l'opération est simplifiée et sûre, ce qui convient très bien aux débutants et aux adolescents pour découvrir la joie de voler des drones ; un excellent cadeau pour les garçons, les filles, les adolescents et un excellent compagnon pour vos voyages et vos aventures.",
-  "shortDescription": "Syfunlv Drone avec caméras Doubles 4K, Drone GPS avec Caméra 4K Professionnel, WiFi FPV Pliable Radi",
+  "name": "Drone Syfunlv 4K avec Doubles Caméras, GPS & FPV - Noir",
+  "slug": "drone-syfunlv-avec-doubles-cameras-gps",
+  "description": "Découvrez le **Syfunlv Drone 4K**, votre allié parfait pour des prises de vue aériennes exceptionnelles. Équipé de **doubles caméras 4K professionnelles**, ce drone offre une qualité d'image époustouflante pour capturer chaque détail de vos aventures. Grâce à son **GPS intégré**, bénéficiez d'un vol stable, d'un retour à la maison automatique et de fonctions intelligentes pour une expérience simplifiée. Le **WiFi FPV** vous permet de voir en direct ce que votre drone filme, directement sur votre smartphone. Sa conception **pliable** et sa **radiocommande intuitive** le rendent idéal pour les débutants comme pour les amateurs éclairés. Explorez de nouveaux horizons avec ce quadricoptère performant et facile à manier. Parfait pour la photographie, la vidéographie et le loisir.",
+  "shortDescription": "Drone Syfunlv 4K pliable avec doubles caméras 4K professionnelles, GPS & WiFi FPV. Idéal pour débutants, avec modes de vol variés. Radiocommandé, noir.",
   "price": "41.0",
   "compareAtPrice": 47,
   "images": [
@@ -26,9 +26,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Syfunlv",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone Syfunlv 4K avec Doubles Caméras, GPS & FPV - Noir",
+    "description": "Drone Syfunlv 4K pliable avec doubles caméras 4K professionnelles, GPS & WiFi FPV. Idéal pour débutants, avec modes de vol variés. Radiocommandé, noir.",
+    "keywords": [
+      "drone syfunlv 4k avec doubles caméras, gps & fpv - noir",
+      "drones pliables avec gps",
+      "marque : syfunlv"
+    ],
+    "ogTitle": "Drone Syfunlv 4K avec Doubles Caméras, GPS & FPV - Noir",
+    "ogDescription": "Drone Syfunlv 4K pliable avec doubles caméras 4K professionnelles, GPS & WiFi FPV. Idéal pour débutants, avec modes de vol variés. Radiocommandé, noir."
   },
   "reviews": {
     "averageRating": 0,
@@ -40,5 +46,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméras Doubles 4K, GPS, WiFi FPV, Pliable, Radiocommandé, Quadricoptère, Plusieurs Modes De Vol, Adapté Aux Débutants, Couleur: Noir"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution des caméras de ce drone Syfunlv ?",
+      "a": "Le drone Syfunlv est équipé de doubles caméras avec une résolution 4K, offrant des images et vidéos d'une clarté exceptionnelle."
+    },
+    {
+      "q": "Ce drone est-il facile à piloter pour un débutant ?",
+      "a": "Absolument ! Le drone Syfunlv est spécifiquement conçu pour être adapté aux débutants, avec des modes de vol intuitifs et des fonctions intelligentes comme le GPS pour un vol stable et sécurisé."
+    },
+    {
+      "q": "Comment puis-je voir en direct ce que filme le drone ?",
+      "a": "Grâce à la technologie WiFi FPV (First Person View), vous pouvez connecter votre smartphone au drone pour visualiser en temps réel les images capturées."
+    },
+    {
+      "q": "Est-il facile à transporter ?",
+      "a": "Oui, sa conception pliable le rend très facile à transporter et à ranger, parfait pour emmener votre drone partout avec vous."
+    },
+    {
+      "q": "Le retour à la maison automatique est-il une fonction disponible ?",
+      "a": "Oui, le GPS intégré permet au drone de bénéficier de la fonction de retour à la maison automatique, garantissant votre drone en cas de perte de signal ou de batterie faible."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:23.577645",
+  "originalName": "Syfunlv Drone avec caméras Doubles 4K, Drone GPS avec Caméra 4K Professionnel, WiFi FPV Pliable Radiocommandés Quadricoptère, Plusieurs Modes De Vol, Adapté Aux Débutants. (black)",
+  "enhanced": true
 }

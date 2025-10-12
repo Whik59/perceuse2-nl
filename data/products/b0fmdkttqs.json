@@ -1,9 +1,9 @@
 {
   "productId": "B0FMDKTTQS",
-  "name": "Compatible Avec Le Réservoir D'eau EFT 10L 10kg, Pulvérisateur Agricole, Épandeur De Drones, Graines, Engrais, Appâts For Poissons, Particules Adaptées Aux Modèles E410S/E410P/E610P/E610(10L barrel)",
-  "slug": "compatible-avec-le-reservoir-deau-eft-10l-10kg-pul",
-  "description": "Grande capacité et adaptabilité: avec une capacité de 10L, il peut transporter 10kilogrammes de matériaux, répondant ainsi aux besoins des opérations sur de grandes surfaces. Spécialement conçu for s'adapter aux drones E410S, E410P, E610P et E610, il est facile à installer et parfaitement intégré. | Fonctions diverses : ce n'est pas seulement un réservoir d'eau, mais peut également être utilisé comme semoir, qui peut répartir uniformément les graines, les engrais, les granulés de nourriture for poissons, etc., répondant aux besoins opérationnels de différents scénarios tels que l'agriculture et la pêche. | Épandage précis et uniforme : Il est équipé d'un système d'épandage précis, qui peut s'étaler uniformément et quantitativement selon les paramètres définis, assurant la distribution uniforme des matériaux, améliorant le taux d'utilisation et réduisant les déchets. | Matériau durable : fabriqué à partir de matériaux, il est résistant à la corrosion et à l'usure, peut s'adapter à des environnements extérieurs complexes et peut être utilisé de manière stable pendant une longue période dans les opérations agricoles. | Fonctionnement simple et pratique : Hautement compatible avec le système de contrôle du drone adapté. Les paramètres tels que la quantité et la vitesse d'épandage peuvent être facilement contrôlés via la plateforme d'exploitation du drone, for une utilisation pratique et efficace.",
-  "shortDescription": "Compatible Avec Le Réservoir D'eau EFT 10L 10kg, Pulvérisateur Agricole, Épandeur De Drones, Graines",
+  "name": "Réservoir d'eau 10L pour drones agricoles EFT (E410S/E410P/E610P/E610)",
+  "slug": "10l-reservoir-d-eau-pour-drones-agricoles",
+  "description": "Optimisez votre agriculture de précision avec ce réservoir d'eau de 10L (10kg) spécialement conçu pour les pulvérisateurs agricoles et épandeurs de drones de la série EFT, modèles E410S, E410P, E610P et E610. Idéal pour la dispersion homogène de graines, d'engrais, d'appâts pour poissons et de particules diverses, ce réservoir robuste assure une capacité optimale pour vos missions. Bénéficiez d'une compatibilité parfaite et d'une installation facilitée pour une efficacité accrue de vos opérations agricoles automatisées. Un accessoire indispensable pour maximiser la productivité de votre drone agricole EFT.",
+  "shortDescription": "Réservoir d'eau 10L / 10kg compatible avec drones agricoles EFT E410S/E410P/E610P/E610. Idéal pour pulvérisation, épandage de graines, engrais, appâts.",
   "price": "234.0",
   "compareAtPrice": 269,
   "images": [
@@ -24,9 +24,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : XUKQCVYC",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Réservoir d'eau 10L pour drones agricoles EFT (E410S/E410P/E610P/E610)",
+    "description": "Réservoir d'eau 10L / 10kg compatible avec drones agricoles EFT E410S/E410P/E610P/E610. Idéal pour pulvérisation, épandage de graines, engrais, appâts.",
+    "keywords": [
+      "réservoir d'eau 10l pour drones agricoles eft (e410s/e410p/e610p/e610)",
+      "drones de pulvérisation agricole",
+      "marque : xukqcvyc"
+    ],
+    "ogTitle": "Réservoir d'eau 10L pour drones agricoles EFT (E410S/E410P/E610P/E610)",
+    "ogDescription": "Réservoir d'eau 10L / 10kg compatible avec drones agricoles EFT E410S/E410P/E610P/E610. Idéal pour pulvérisation, épandage de graines, engrais, appâts."
   },
   "reviews": {
     "averageRating": 0,
@@ -38,5 +44,29 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Capacité : 10 Litres (10kg)\nCompatible avec : Drones agricoles EFT E410S, E410P, E610P, E610\nUtilisations : Pulvérisation d'eau, dispersion de graines, engrais, appâts pour poissons, particules."
+  },
+  "faq": [
+    {
+      "q": "Quel type de drone agricole EFT est compatible avec ce réservoir ?",
+      "a": "Ce réservoir est spécifiquement conçu pour les modèles E410S, E410P, E610P et E610 de drones agricoles EFT."
+    },
+    {
+      "q": "Quelle est la capacité maximale de ce réservoir ?",
+      "a": "Le réservoir a une capacité de 10 litres, équivalant à environ 10 kilogrammes, en fonction de la densité du produit."
+    },
+    {
+      "q": "Puis-je utiliser ce réservoir pour épandre des engrais solides ?",
+      "a": "Oui, ce réservoir est adapté à la dispersion de divers matériaux, y compris les engrais, les graines, les appâts pour poissons et d'autres particules."
+    },
+    {
+      "q": "Est-ce un réservoir original EFT ?",
+      "a": "Il s'agit d'un réservoir compatible, conçu pour offrir une fonctionnalité équivalente et une intégration parfaite avec les drones agricoles EFT mentionnés."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:33.856710",
+  "originalName": "Compatible Avec Le Réservoir D'eau EFT 10L 10kg, Pulvérisateur Agricole, Épandeur De Drones, Graines, Engrais, Appâts For Poissons, Particules Adaptées Aux Modèles E410S/E410P/E610P/E610(10L barrel)",
+  "enhanced": true
 }

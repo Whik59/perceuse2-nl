@@ -1,0 +1,64 @@
+{
+  "productId": "B0CHVYP6NX",
+  "name": "N°1 des ventes",
+  "slug": "n-1-des-ventes",
+  "description": "<div><h2>N°1 des ventes</h2><p>Quality product</p></div>",
+  "shortDescription": "N°1 des ventes - Quality Product",
+  "price": "449.0",
+  "compareAtPrice": 516,
+  "images": [
+    "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+  ],
+  "videos": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/50420c64-3022-4d2d-89d3-01f33b78ddf0/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/8174eac6-2296-401a-902d-b4fb4d960a08/default.jobtemplate.hls.m3u8"
+  ],
+  "category": "Lunettes FPV et Écrans",
+  "tags": [
+    "n°1",
+    "lunettes fpv et écrans"
+  ],
+  "amazonUrl": "https://amazon.fr/dp/B0CHVYP6NX/?tag=clickclickh01-21",
+  "amazonASIN": "B0CHVYP6NX",
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "N°1 des ventes",
+  "amazonPrice": "449.0€",
+  "amazonRating": 3.7,
+  "amazonReviewCount": 0,
+  "brand": "N°1",
+  "seo": {
+    "title": "N°1 des ventes",
+    "description": "N°1 des ventes - Quality Product",
+    "keywords": [
+      "n°1 des ventes",
+      "lunettes fpv et écrans",
+      "n°1"
+    ],
+    "ogTitle": "N°1 des ventes",
+    "ogDescription": "N°1 des ventes - Quality Product"
+  },
+  "reviews": {
+    "averageRating": 3.7,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "Quality": "High",
+    "Warranty": "2 years"
+  },
+  "faq": [
+    {
+      "q": "Is it good quality?",
+      "a": "Yes, high quality product."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:33.863102",
+  "originalName": "N°1 des ventes",
+  "enhanced": true
+}

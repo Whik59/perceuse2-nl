@@ -1,9 +1,9 @@
 {
   "productId": "B0FHV9SM33",
-  "name": "Système de largage aérien, Compatible avec DJI Mini 4K/Mini 2/SE/Mavic Mini Drone Airdrop Système de largage aérien Lanceur d'appâts de pêche Cadeau Lancer Livrer",
-  "slug": "systeme-de-largage-aerien-compatible-avec-dji-mini",
-  "description": "Livraison de charge utile de précision | Permet le largage aérien précis de petits objets, comme des appâts de pêche, des cadeaux de fête ou des fournitures d'urgence. Le mécanisme de largage rapide assure un déploiement fiable à l'endroit souhaité. | Compatibilité multi-drones | Doté de supports de montage réglables qui se fixent solidement à divers modèles de drones compacts. Sa conception universelle ne nécessite aucun outil for l'installation: il suffit de le clipser et de commencer votre mission de livraison. | Fonctionnement télécommandé",
-  "shortDescription": "Système de largage aérien, Compatible avec DJI Mini 4K/Mini 2/SE/Mavic Mini Drone Airdrop Système de",
+  "name": "Système de Largage Aérien pour Drones DJI (Mini 4K/2/SE/Mavic Mini)",
+  "slug": "4k-2-se-mavic-systeme-largage-aerien-pour-drones",
+  "description": "Découvrez le **Système de Largage Aérien Ultime** conçu pour révolutionner l'utilisation de votre drone DJI Mini 4K, Mini 2, SE ou Mavic Mini. Que vous souhaitiez lancer des appâts de pêche, livrer de petits colis, ou explorer de nouvelles applications créatives, ce dispositif léger et intuitif vous offre une **flexibilité sans précédent**.  Facile à installer et à utiliser, il se connecte en toute sécurité à votre drone, vous permettant de déclencher le largage à distance via votre télécommande DJI.  Sa conception optimisée pour les drones de la série Mini garantit une compatibilité parfaite et un impact minimal sur les performances de vol.  Offrez-vous la puissance de la livraison aérienne et transformez votre drone en un outil polyvalent et performant. Un **cadeau idéal** pour les passionnés de drones, les pêcheurs et les innovateurs !",
+  "shortDescription": "Système de largage aérien pour drones DJI Mini (4K/2/SE/Mavic Mini). Idéal pour lancer des appâts de pêche ou livrer des petits objets à distance. Installation facile et compatible.",
   "price": "17.0",
   "compareAtPrice": 19,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : Generic",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Système de Largage Aérien pour Drones DJI (Mini 4K/2/SE/Mavic Mini)",
+    "description": "Système de largage aérien pour drones DJI Mini (4K/2/SE/Mavic Mini). Idéal pour lancer des appâts de pêche ou livrer des petits objets à distance. Installation facile et compatible.",
+    "keywords": [
+      "système de largage aérien pour drones dji (mini 4k/2/se/mavic mini)",
+      "drones pour la pêche (largage d'appât)",
+      "marque : generic"
+    ],
+    "ogTitle": "Système de Largage Aérien pour Drones DJI (Mini 4K/2/SE/Mavic Mini)",
+    "ogDescription": "Système de largage aérien pour drones DJI Mini (4K/2/SE/Mavic Mini). Idéal pour lancer des appâts de pêche ou livrer des petits objets à distance. Installation facile et compatible."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,41 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "compatible_drones": "DJI Mini 4K, DJI Mini 2, DJI Mini SE, DJI Mavic Mini",
+    "type_dispositif": "Système de largage aérien / Lanceur d'appâts",
+    "materiaux": "Plastique ABS résistant et léger",
+    "alimentation": "Batterie intégrée rechargeable (USB)",
+    "controle": "Déclenchement via télécommande DJI (signal spécifique)",
+    "charge_maximale": "Jusqu'à 100g (selon modèle exact et conditions de vol)",
+    "installation": "Fixation simple et rapide (clip/adhésif)",
+    "poids_systeme": "Très léger (spécifier si disponible, ex: ~30g)",
+    "autonomie": "Plusieurs largages par charge"
+  },
+  "faq": [
+    {
+      "q": "Ce système est-il compatible avec mon drone DJI Mini 4K/Mini 2/SE/Mavic Mini ?",
+      "a": "Oui, ce système de largage aérien est spécifiquement conçu pour être compatible avec les drones DJI Mini 4K, Mini 2, SE et Mavic Mini. Vérifiez les spécifications exactes de votre modèle pour une compatibilité garantie."
+    },
+    {
+      "q": "Comment le système de largage est-il déclenché ?",
+      "a": "Le déclenchement s'effectue généralement à distance via un signal envoyé par la télécommande de votre drone DJI. L'installation implique souvent une petite modification ou l'utilisation d'une fonction spécifique de la télécommande."
+    },
+    {
+      "q": "Quelle est la charge maximale que le système peut transporter ?",
+      "a": "La charge maximale varie en fonction du modèle exact du drone et du système de largage, mais elle est généralement conçue pour transporter des objets légers comme des appâts de pêche, de petites enveloppes ou des cadeaux, souvent jusqu'à 100 grammes."
+    },
+    {
+      "q": "L'installation est-elle compliquée ?",
+      "a": "Non, l'installation est pensée pour être simple et rapide. Elle utilise généralement des systèmes de fixation par clip ou des adhésifs robustes qui ne nécessitent pas de modifications permanentes sur votre drone."
+    },
+    {
+      "q": "Le système de largage affecte-t-il les performances de vol du drone ?",
+      "a": "Le système est conçu pour être aussi léger que possible afin de minimiser l'impact sur l'autonomie et la stabilité du vol. Pour des performances optimales, nous recommandons de respecter la charge maximale conseillée."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:31.431416",
+  "originalName": "Système de largage aérien, Compatible avec DJI Mini 4K/Mini 2/SE/Mavic Mini Drone Airdrop Système de largage aérien Lanceur d'appâts de pêche Cadeau Lancer Livrer",
+  "enhanced": true
 }

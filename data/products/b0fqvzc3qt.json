@@ -1,9 +1,9 @@
 {
   "productId": "B0FQVZC3QT",
-  "name": "Lance de pulvérisation for drone agricole, compatible avec DJI T30, avant droit et arrière gauche(1 PCS Right)",
-  "slug": "lance-de-pulverisation-for-drone-agricole-compatib",
-  "description": "Ajustement de position T30 Conçu for les positions avant droite et arrière gauche du T30, garantissant un alignement précis avec la structure du drone. | Compatibilité Correspond aux drones T30, s'intégrant parfaitement à leurs systèmes pertinents for un fonctionnement cohérent. | Fonction Support Aide aux processus opérationnels du drone, contribuant à l'efficacité de ses tâches désignées. | Fiabilité structurelle Conçu for résister à une utilisation régulière, en maintenant la stabilité pendant les mouvements et les opérations du drone. | Installation facile Simple à fixer aux positions spécifiées, permettant un remplacement rapide sans réglages complexes.",
-  "shortDescription": "Lance de pulvérisation for drone agricole, compatible avec DJI T30, avant droit et arrière gauche(1 ",
+  "name": "Buse de Pulvérisation Drone Agricole DJI T30 - Avant Droit / Arrière Gauche (1 Pièce)",
+  "slug": "buse-pulverisation-drone-agricole-dji-t30",
+  "description": "Optimisez vos traitements phytosanitaires avec notre **buse de pulvérisation de haute précision**, conçue spécifiquement pour le **drone agricole DJI T30**. Cette pièce détachée, idéale pour le positionnement **avant droit ou arrière gauche**, assure une diffusion homogène et ciblée de vos agents phytosanitaires, maximisant l'efficacité de vos opérations. Conçue pour une durabilité accrue et une compatibilité parfaite, elle minimise les pertes de produit et les zones non traitées, contribuant ainsi à une agriculture de précision plus performante. Facile à installer, elle est un composant essentiel pour maintenir la performance optimale de votre équipement drone. Investissez dans la qualité pour des résultats agricoles supérieurs.",
+  "shortDescription": "Buse de pulvérisation drone agricole DJI T30 (Avant Droit/Arrière Gauche). Pièce essentielle pour des traitements précis. 36.0€.",
   "price": "36.0",
   "compareAtPrice": 41,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : JINWPXSR",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Buse de Pulvérisation Drone Agricole DJI T30 - Avant Droit / Arrière Gauche (1 Pièce)",
+    "description": "Buse de pulvérisation drone agricole DJI T30 (Avant Droit/Arrière Gauche). Pièce essentielle pour des traitements précis. 36.0€.",
+    "keywords": [
+      "buse de pulvérisation drone agricole dji t30 - avant droit / arrière gauche (1 pièce)",
+      "drones de pulvérisation agricole",
+      "marque : jinwpxsr"
+    ],
+    "ogTitle": "Buse de Pulvérisation Drone Agricole DJI T30 - Avant Droit / Arrière Gauche (1 Pièce)",
+    "ogDescription": "Buse de pulvérisation drone agricole DJI T30 (Avant Droit/Arrière Gauche). Pièce essentielle pour des traitements précis. 36.0€."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "compatibilite": "DJI T30",
+    "position": "Avant Droit / Arrière Gauche",
+    "type_piece": "Buse de pulvérisation",
+    "quantite": "1 pièce",
+    "prix_unitaire": "36.0€"
+  },
+  "faq": [
+    {
+      "q": "Cette buse est-elle compatible avec d'autres modèles de drones DJI ?",
+      "a": "Cette buse est spécifiquement conçue pour une compatibilité optimale avec le drone agricole DJI T30. Pour d'autres modèles, veuillez vérifier la compatibilité avant l'achat."
+    },
+    {
+      "q": "Quel est l'avantage d'une buse de précision pour drone agricole ?",
+      "a": "Une buse de précision assure une distribution uniforme du produit, réduit les dérivations, optimise la couverture des cultures et permet des traitements plus efficaces tout en minimisant l'usage de produits phytosanitaires."
+    },
+    {
+      "q": "Comment identifier le bon côté pour le remplacement de la buse ?",
+      "a": "La description indique clairement 'avant droit et arrière gauche'. Assurez-vous d'identifier la position correcte sur votre drone DJI T30 avant de procéder au remplacement pour garantir une performance optimale."
+    },
+    {
+      "q": "La pièce est-elle facile à installer ?",
+      "a": "Oui, cette buse de pulvérisation est conçue pour une installation facile et rapide sur le système de pulvérisation du drone DJI T30, permettant une reprise rapide de vos opérations."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:38:37.806912",
+  "originalName": "Lance de pulvérisation for drone agricole, compatible avec DJI T30, avant droit et arrière gauche(1 PCS Right)",
+  "enhanced": true
 }

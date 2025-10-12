@@ -1,9 +1,9 @@
 {
   "productId": "B0CS6KY96F",
-  "name": "DJI Avata 2 (Drone seul),Drone FPV avec Caméra 4K, Vol Immersif,Protection d’hélice intégrée,Flip-Tonneau facile, FOV ultra-large 155degré, Compatible avec RC Motion 3,Drone Caméra pour Contenu en POV",
-  "slug": "dji-avata-2-drone-seuldrone-fpv-avec-camera-4k-vol",
-  "description": "Débloquez un pilotage immersif à sensations fortes - Un retour visuel instantané via les Goggles vous propulse au cœur du cockpit, pour une perspective à couper le souffle, un pur frisson et une liberté totale. | Contrôle intuitif du mouvement - Contrôlez sans effort le mouvement du drone avec votre main, sans boutons complexes. Des mouvements naturels et simples permettent même aux débutants de voler en toute confiance et en toute simplicité. | ACRO simplifiée, volez comme un pro, rapidement – Réalisez des flips, des tonneaux, des drifts à 180° et des Power loops spectaculaires sans entraînement intensif. Améliorez vos compétences de pilotage et capturez des images incroyables avec facilité. | Prises de vue rapprochées en 4K ultra-grand-angle - Le FOV de 155° et la vidéo ultra-nette offrent une expérience unique. Le capteur d’image de 1/1,3'' permet de capturer des séquences saisissantes en 4K/60 ips et des vidéos au ralenti en 4K/100 ips. | Compatible avec Goggles 3, Goggles N3, Goggles 2, Goggles Integra, RC Motion 2, RC Motion 3, la radiocommande 2 FPV et la radiocommande 3 FPV. Veuillez consulter la FAQ ci-dessous pour des informations détaillées sur la compatibilité.",
-  "shortDescription": "DJI Avata 2 (Drone seul),Drone FPV avec Caméra 4K, Vol Immersif,Protection d’hélice intégrée,Flip-To",
+  "name": "Drone FPV DJI Avata 2 (Drone seul)",
+  "slug": "drone-fpv-dji-avata-drone-seul",
+  "description": "Plongez au cœur de l'action avec le Drone FPV DJI Avata 2 (Drone seul). Conçu pour les passionnés de vol immersif et de création de contenu spectaculaire, cet appareil révolutionnaire capture des images époustouflantes en **caméra 4K**.  Sa **protection d'hélice intégrée** assure une sécurité maximale, tandis que la fonction **Flip-Tonneau facile** permet des manœuvres aériennes dynamiques. Explorez des perspectives inédites grâce à son **FOV ultra-large de 155 degrés**. Compatible avec le contrôle intuitif RC Motion 3, le DJI Avata 2 transforme vos vols en expériences de **contenu POV** dignes des professionnels. Obtenez des images cinématographiques sans effort et repoussez les limites de votre créativité. Le drone parfait pour les créateurs de contenu et les amateurs de sensations fortes.",
+  "shortDescription": "Drone FPV DJI Avata 2 (Drone seul) avec caméra 4K, vol immersif, protection intégrée et FOV 155°. Idéal pour le contenu POV.",
   "price": "466.0",
   "compareAtPrice": 535,
   "images": [
@@ -31,9 +31,15 @@
   "amazonReviewCount": 0,
   "brand": "Visiter la boutique DJI",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Drone FPV DJI Avata 2 (Drone seul)",
+    "description": "Drone FPV DJI Avata 2 (Drone seul) avec caméra 4K, vol immersif, protection intégrée et FOV 155°. Idéal pour le contenu POV.",
+    "keywords": [
+      "drone fpv dji avata 2 (drone seul)",
+      "drones avec protections d'hélices",
+      "visiter la boutique dji"
+    ],
+    "ogTitle": "Drone FPV DJI Avata 2 (Drone seul)",
+    "ogDescription": "Drone FPV DJI Avata 2 (Drone seul) avec caméra 4K, vol immersif, protection intégrée et FOV 155°. Idéal pour le contenu POV."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -45,5 +51,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra 4K, Vol Immersif, Protection d’hélice intégrée, Flip-Tonneau facile, FOV ultra-large 155 degrés, Compatible avec RC Motion 3, Création de contenu POV."
+  },
+  "faq": [
+    {
+      "q": "Quel type de caméra le DJI Avata 2 intègre-t-il ?",
+      "a": "Le DJI Avata 2 est équipé d'une caméra 4K pour des enregistrements d'une qualité exceptionnelle."
+    },
+    {
+      "q": "Quels sont les avantages de la protection d'hélice intégrée ?",
+      "a": "La protection d'hélice intégrée offre une sécurité accrue lors des vols, réduisant le risque de dommages en cas de contact avec des obstacles."
+    },
+    {
+      "q": "Le DJI Avata 2 est-il facile à piloter pour des manœuvres complexes ?",
+      "a": "Oui, grâce à sa fonction Flip-Tonneau facile et sa compatibilité avec le RC Motion 3, le DJI Avata 2 permet des manœuvres aériennes dynamiques et intuitives."
+    },
+    {
+      "q": "Quelle est la largeur du champ de vision (FOV) du DJI Avata 2 ?",
+      "a": "Le DJI Avata 2 offre un FOV ultra-large de 155 degrés, permettant de capturer des scènes immersives et panoramiques."
+    },
+    {
+      "q": "Quel type de contenu puis-je créer avec ce drone FPV ?",
+      "a": "Ce drone FPV est idéal pour la création de contenu POV (Point of View) époustouflant, parfait pour les vlogs, les séquences d'action et les vidéos immersives."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:35.434635",
+  "originalName": "DJI Avata 2 (Drone seul),Drone FPV avec Caméra 4K, Vol Immersif,Protection d’hélice intégrée,Flip-Tonneau facile, FOV ultra-large 155degré, Compatible avec RC Motion 3,Drone Caméra pour Contenu en POV",
+  "enhanced": true
 }

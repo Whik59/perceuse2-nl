@@ -1,9 +1,9 @@
 {
   "productId": "B0BV2G9V8B",
-  "name": "HYQNG Robot Caméra De Plongée, Drone sous-Marin avec Caméra D’Action 4k Uhd, Robot sous-Marin Rc Rov avec Griffe Vapeur en Temps Réel pour L’Enregistrement De Pêche Adultes (150m)",
-  "slug": "hyqng-robot-camera-de-plongee-drone-sous-marin-ave",
-  "description": "Construit pour plonger : la conception exceptionnelle à six propulseurs permet un contrôle d'attitude à 360 °, résiste aux courants forts. Navigation fluide et précise dans six directions telles que vers le bas, le haut, l'avant, l'arrière, tourner à gauche et à droite avec capteur de posture intégré | Flux vidéo en direct : l'émetteur sans fil utilise une fréquence de 2,4 GHz pour se connecter aux appareils de contrôle. Diffusez en direct votre voyage sous-marin directement sur vos appareils intelligents et permettez de visualiser des moments épiques en temps réel. | Caméra Full Uhd 4k avec objectif grand angle 160° : la caméra d'action capture une superbe vidéo 4K 30 fps et une résolution photo 1080p. Avec un grand angle de 160°, vous pouvez capturer vos moments les plus incroyables. | Facile à utiliser : connectez-vous à son émetteur sans fil fourni, puis connectez-le sans fil à l'aide de l'application Geneinno pour IOS ou Android sur n'importe quel appareil intelligent et contrôlez le droit sur votre écran. | Durable et facile à emporter : étanche de niveau militaire. 1. Pression de 5 MPa, protégez-le des obstacles sous-marins inconnus. La valise à coque rigide vous permet de l'emporter facilement avec votre voyage ainsi que d'une manipulation brutale lors du transport.",
-  "shortDescription": "HYQNG Robot Caméra De Plongée, Drone sous-Marin avec Caméra D’Action 4k Uhd, Robot sous-Marin Rc Rov",
+  "name": "Robot Caméra de Plongée HYQNG 4K UHD - Drone Sous-Marin 150m",
+  "slug": "robot-150m-camera-plongee-hyqng-uhd",
+  "description": "Plongez au cœur de l'exploration sous-marine avec le robot caméra de plongée HYQNG. Ce drone sous-marin révolutionnaire, équipé d'une caméra d'action 4K UHD, vous offre une vision cristalline des profondeurs. Son système RC avancé et sa griffe vapeur en temps réel transforment vos sessions de pêche ou vos explorations en expériences immersives et inédites. Capturez des images spectaculaires jusqu'à 150 mètres de profondeur. Idéal pour les passionnés d'aquariophilie, les pêcheurs experts, les scientifiques marins et tous les adultes curieux de découvrir les mystères de l'océan.",
+  "shortDescription": "Robot caméra de plongée HYQNG 4K UHD, drone sous-marin RC jusqu'à 150m avec griffe vapeur pour pêche et exploration. Idéal adultes.",
   "price": "800.0",
   "compareAtPrice": 919,
   "images": [
@@ -28,9 +28,15 @@
   "amazonReviewCount": 0,
   "brand": "Marque : HYQNG",
   "seo": {
-    "title": "",
-    "description": "",
-    "keywords": []
+    "title": "Robot Caméra de Plongée HYQNG 4K UHD - Drone Sous-Marin 150m",
+    "description": "Robot caméra de plongée HYQNG 4K UHD, drone sous-marin RC jusqu'à 150m avec griffe vapeur pour pêche et exploration. Idéal adultes.",
+    "keywords": [
+      "robot caméra de plongée hyqng 4k uhd - drone sous-marin 150m",
+      "rov avec caméra 4k",
+      "marque : hyqng"
+    ],
+    "ogTitle": "Robot Caméra de Plongée HYQNG 4K UHD - Drone Sous-Marin 150m",
+    "ogDescription": "Robot caméra de plongée HYQNG 4K UHD, drone sous-marin RC jusqu'à 150m avec griffe vapeur pour pêche et exploration. Idéal adultes."
   },
   "reviews": {
     "averageRating": 0,
@@ -42,5 +48,33 @@
       "2": 3,
       "1": 2
     }
-  }
+  },
+  "specifications": {
+    "basic": "Caméra : 4K UHD, Profondeur Maximale : 150 mètres, Contrôle : RC (télécommande), Fonctionnalités : Griffe vapeur en temps réel, Enregistrement Vidéo, Photo, Type : Robot sous-marin / Drone sous-marin (ROV - Remotely Operated Vehicle)"
+  },
+  "faq": [
+    {
+      "q": "Quelle est la résolution vidéo maximale de ce robot de plongée ?",
+      "a": "Le robot caméra de plongée HYQNG est équipé d'une caméra d'action capable d'enregistrer en résolution 4K UHD pour une qualité d'image exceptionnelle."
+    },
+    {
+      "q": "Quelle est la profondeur maximale d'exploration de ce drone sous-marin ?",
+      "a": "Vous pouvez explorer les fonds marins en toute confiance grâce à sa capacité à atteindre une profondeur maximale de 150 mètres."
+    },
+    {
+      "q": "Comment le robot sous-marin est-il contrôlé ?",
+      "a": "Ce robot sous-marin est contrôlé via une télécommande RC (Radio Control) intuitive, vous permettant de naviguer et d'opérer ses fonctions à distance."
+    },
+    {
+      "q": "Que signifie 'Griffe vapeur en temps réel' ?",
+      "a": "La 'Griffe vapeur en temps réel' fait référence à un mécanisme ou une capacité du robot permettant d'interagir ou de manipuler des objets sous l'eau en temps réel, comme une pince ou un bras articulé, potentiellement pour la capture d'échantillons ou la pêche."
+    },
+    {
+      "q": "À qui s'adresse ce robot caméra de plongée ?",
+      "a": "Ce robot est idéal pour les adultes passionnés par la pêche, l'exploration sous-marine, la photographie ou vidéographie aquatique, ainsi que pour les professionnels nécessitant une technologie ROV fiable pour leurs travaux."
+    }
+  ],
+  "enhancedAt": "2025-10-12T15:37:24.097731",
+  "originalName": "HYQNG Robot Caméra De Plongée, Drone sous-Marin avec Caméra D’Action 4k Uhd, Robot sous-Marin Rc Rov avec Griffe Vapeur en Temps Réel pour L’Enregistrement De Pêche Adultes (150m)",
+  "enhanced": true
 }
