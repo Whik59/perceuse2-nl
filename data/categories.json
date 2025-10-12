@@ -1,687 +1,533 @@
 [
   {
-    "slug": "schlafsofas",
-    "name": "Schlafsofas",
-    "categoryNameCanonical": "Schlafsofas",
-    "description": "Multifunktionale Sofas, die sich in ein Bett umwandeln lassen, ideal für Gäste oder kleine Wohnungen. Basierend auf Suchanfragen wie 'sofa als bett mit matratze'.",
+    "slug": "bluetooth-in-ear-kopfhoerer",
+    "name": "Bluetooth In-Ear Kopfhörer",
+    "categoryNameCanonical": "Bluetooth In-Ear Kopfhörer",
+    "description": "Kabellose Ohrhörer für maximale Bewegungsfreiheit, die direkt im Ohr sitzen. Ideal für Smartphones, Sport und den täglichen Gebrauch.",
     "subcategories": [
       {
-        "slug": "schlafsofas-mit-matratze",
-        "name": "Schlafsofas mit Matratze",
-        "categoryNameCanonical": "Schlafsofas mit Matratze",
-        "description": "Sofas mit integrierter, vollwertiger Matratze für maximalen Schlafkomfort."
+        "slug": "true-wireless-ohrhoerer",
+        "name": "True-Wireless-Ohrhörer",
+        "categoryNameCanonical": "True-Wireless-Ohrhörer",
+        "description": "Vollständig kabellose Ohrhörer mit Ladecase für höchste Portabilität."
       },
       {
-        "slug": "schlafsofas-mit-bettkasten",
-        "name": "Schlafsofas mit Bettkasten",
-        "categoryNameCanonical": "Schlafsofas mit Bettkasten",
-        "description": "Praktische Schlafsofas mit integriertem Stauraum für Bettwäsche und Kissen."
+        "slug": "in-ear-kopfhoerer-nackenbuegel",
+        "name": "In-Ear Kopfhörer mit Nackenbügel",
+        "categoryNameCanonical": "In-Ear Kopfhörer mit Nackenbügel",
+        "description": "Durch ein Nackenband verbundene Ohrhörer, ideal für Sport und sicheren Halt."
       },
       {
-        "slug": "ausziehbare-schlafsofas",
-        "name": "Ausziehbare Schlafsofas",
-        "categoryNameCanonical": "Ausziehbare Schlafsofas",
-        "description": "Modelle, die durch einen Ausziehmechanismus schnell zur Liegefläche werden."
-      },
-      {
-        "slug": "klappsofas",
-        "name": "Klappsofas",
-        "categoryNameCanonical": "Klappsofas",
-        "description": "Kompakte Sofas, bei denen die Rückenlehne zum Schlafen umgeklappt wird."
+        "slug": "in-ear-kopfhoerer-lange-akkulaufzeit",
+        "name": "In-Ear Kopfhörer mit langer Akkulaufzeit",
+        "categoryNameCanonical": "In-Ear Kopfhörer mit langer Akkulaufzeit",
+        "description": "Modelle, die für ausgedehnte Hörsessions ohne häufiges Aufladen konzipiert sind."
       }
     ]
   },
   {
-    "slug": "ecksofas",
-    "name": "Ecksofas",
-    "categoryNameCanonical": "Ecksofas",
-    "description": "Raumsparende Sofas für Ecken, oft in L-Form oder U-Form, um den Platz optimal zu nutzen. Reflektiert die Suche nach 'sofa l form'.",
+    "slug": "bluetooth-over-ear-kopfhoerer",
+    "name": "Bluetooth Over-Ear Kopfhörer",
+    "categoryNameCanonical": "Bluetooth Over-Ear Kopfhörer",
+    "description": "Kabellose Kopfhörer, die das Ohr vollständig umschließen und für immersiven Klang und Komfort sorgen. Oft mit Features wie Noise Cancelling.",
     "subcategories": [
       {
-        "slug": "ecksofas-l-form",
-        "name": "Ecksofas L-Form",
-        "categoryNameCanonical": "Ecksofas L-Form",
-        "description": "Klassische Ecksofas mit einer Ottomane auf einer Seite."
+        "slug": "faltbare-bluetooth-over-ear-kopfhoerer",
+        "name": "Faltbare Bluetooth Over-Ear Kopfhörer",
+        "categoryNameCanonical": "Faltbare Bluetooth Over-Ear Kopfhörer",
+        "description": "Kompakte, zusammenklappbare Modelle, perfekt für Reisen und unterwegs."
       },
       {
-        "slug": "ecksofas-u-form",
-        "name": "Ecksofas U-Form",
-        "categoryNameCanonical": "Ecksofas U-Form",
-        "description": "Großzügige Wohnlandschaften mit zwei Ottomanen für maximale Sitzfläche."
+        "slug": "bluetooth-over-ear-multipoint",
+        "name": "Bluetooth Over-Ear mit Multipoint",
+        "categoryNameCanonical": "Bluetooth Over-Ear mit Multipoint",
+        "description": "Ermöglicht die gleichzeitige Verbindung mit zwei Geräten, z. B. Laptop und Handy."
       },
       {
-        "slug": "ecksofas-mit-schlaffunktion",
-        "name": "Ecksofas mit Schlaffunktion",
-        "categoryNameCanonical": "Ecksofas mit Schlaffunktion",
-        "description": "Ecksofas, die zusätzlich eine Schlafmöglichkeit für Gäste bieten."
-      },
-      {
-        "slug": "modulare-ecksofas",
-        "name": "Modulare Ecksofas",
-        "categoryNameCanonical": "Modulare Ecksofas",
-        "description": "Flexible Ecksofas, deren einzelne Elemente frei kombiniert werden können."
+        "slug": "bluetooth-over-ear-noise-cancelling",
+        "name": "Bluetooth Over-Ear mit Noise Cancelling",
+        "categoryNameCanonical": "Bluetooth Over-Ear mit Noise Cancelling",
+        "description": "Reduziert aktiv Umgebungsgeräusche für ungestörten Musikgenuss."
       }
     ]
   },
   {
-    "slug": "sofabeuege-und-schonbezuege",
-    "name": "Sofabezüge & Schonbezüge",
-    "categoryNameCanonical": "Sofabezüge & Schonbezüge",
-    "description": "Schutzbezüge für Sofas, um sie vor Schmutz, Tierhaaren und Abnutzung zu schützen. Basierend auf den häufigen Suchen 'sofa abdeckung', 'sofa abdeckung hund', 'sofa abdeckung wasserdicht'.",
+    "slug": "noise-cancelling-kopfhoerer",
+    "name": "Noise-Cancelling-Kopfhörer",
+    "categoryNameCanonical": "Noise-Cancelling-Kopfhörer",
+    "description": "Kopfhörer mit aktiver Geräuschunterdrückung (ANC) zur Reduzierung von Umgebungsgeräuschen in Flugzeugen, Zügen oder Büros.",
     "subcategories": [
       {
-        "slug": "wasserdichte-sofabezuege",
-        "name": "Wasserdichte Sofabezüge",
-        "categoryNameCanonical": "Wasserdichte Sofabezüge",
-        "description": "Bezüge mit einer wasserdichten Schicht zum Schutz vor Flüssigkeiten."
+        "slug": "anc-over-ear-kopfhoerer",
+        "name": "ANC Over-Ear Kopfhörer",
+        "categoryNameCanonical": "ANC Over-Ear Kopfhörer",
+        "description": "Bieten die beste Geräuschisolierung durch die Kombination von ANC und ohrumschließendem Design."
       },
       {
-        "slug": "sofabezuege-fuer-haustiere",
-        "name": "Sofabezüge für Haustiere",
-        "categoryNameCanonical": "Sofabezüge für Haustiere",
-        "description": "Robuste und waschbare Bezüge, die speziell gegen Tierhaare und Kratzer schützen."
+        "slug": "anc-in-ear-ohrhoerer",
+        "name": "ANC In-Ear Ohrhörer",
+        "categoryNameCanonical": "ANC In-Ear Ohrhörer",
+        "description": "Kompakte Ohrhörer mit aktiver Geräuschunterdrückung für unterwegs."
       },
       {
-        "slug": "sofabezuege-fuer-ecksofas",
-        "name": "Sofabezüge für Ecksofas",
-        "categoryNameCanonical": "Sofabezüge für Ecksofas",
-        "description": "Passgenaue Bezüge für L-Form- und U-Form-Sofas."
-      },
-      {
-        "slug": "elastische-stretch-sofabezuege",
-        "name": "Elastische Stretch-Sofabezüge",
-        "categoryNameCanonical": "Elastische Stretch-Sofabezüge",
-        "description": "Dehnbare Hussen, die sich an verschiedene Sofaformen anpassen."
+        "slug": "noise-cancelling-kopfhoerer-reisen",
+        "name": "Noise-Cancelling-Kopfhörer für Reisen",
+        "categoryNameCanonical": "Noise-Cancelling-Kopfhörer für Reisen",
+        "description": "Leichte, faltbare Modelle mit langer Akkulaufzeit, ideal für lange Flüge."
       }
     ]
   },
   {
-    "slug": "modulsofas",
-    "name": "Modulsofas",
-    "categoryNameCanonical": "Modulsofas",
-    "description": "Flexible Sofasysteme aus einzelnen Modulen, die je nach Bedarf und Raumgröße individuell zusammengestellt werden können.",
+    "slug": "gaming-headsets",
+    "name": "Gaming-Headsets",
+    "categoryNameCanonical": "Gaming-Headsets",
+    "description": "Spezialisierte Kopfhörer mit Mikrofon für Gamer, optimiert für Surround-Sound, Sprachkommunikation und langen Tragekomfort.",
     "subcategories": [
       {
-        "slug": "modulsofas-aus-stoff",
-        "name": "Modulsofas aus Stoff",
-        "categoryNameCanonical": "Modulsofas aus Stoff",
-        "description": "Anpassbare Modulsofas mit strapazierfähigen Stoffbezügen."
+        "slug": "gaming-headsets-pc",
+        "name": "Gaming-Headsets für PC",
+        "categoryNameCanonical": "Gaming-Headsets für PC",
+        "description": "Modelle mit USB- oder Klinkenanschluss, oft mit anpassbarer Software."
       },
       {
-        "slug": "modulsofas-mit-stauraum",
-        "name": "Modulsofas mit Stauraum",
-        "categoryNameCanonical": "Modulsofas mit Stauraum",
-        "description": "Einzelne Module mit integriertem Bettkasten für mehr Ordnung."
+        "slug": "gaming-headsets-ps5",
+        "name": "Gaming-Headsets für PS5",
+        "categoryNameCanonical": "Gaming-Headsets für PS5",
+        "description": "Kompatibel mit PlayStation 5, oft mit 3D-Audio-Unterstützung."
       },
       {
-        "slug": "modulsofas-fuer-outdoor",
-        "name": "Modulsofas für Outdoor",
-        "categoryNameCanonical": "Modulsofas für Outdoor",
-        "description": "Wetterfeste Module für die flexible Gestaltung von Garten- und Terrassenlandschaften."
+        "slug": "gaming-headsets-xbox",
+        "name": "Gaming-Headsets für Xbox",
+        "categoryNameCanonical": "Gaming-Headsets für Xbox",
+        "description": "Speziell für Xbox-Konsolen entwickelte kabellose oder kabelgebundene Headsets."
+      },
+      {
+        "slug": "kabellose-gaming-headsets",
+        "name": "Kabellose Gaming-Headsets",
+        "categoryNameCanonical": "Kabellose Gaming-Headsets",
+        "description": "Bieten maximale Bewegungsfreiheit beim Spielen durch 2,4-GHz-Funk oder Bluetooth."
       }
     ]
   },
   {
-    "slug": "2-sitzer-sofas",
-    "name": "2-Sitzer Sofas",
-    "categoryNameCanonical": "2-Sitzer Sofas",
-    "description": "Kompakte Sofas, ideal für kleine Wohnzimmer, Apartments oder als Ergänzung zu größeren Sitzgruppen.",
+    "slug": "sportkopfhoerer",
+    "name": "Sportkopfhörer",
+    "categoryNameCanonical": "Sportkopfhörer",
+    "description": "Schweiß- und wasserfeste Kopfhörer, die für einen sicheren Halt bei körperlicher Aktivität wie Laufen, Fitness oder Schwimmen konzipiert sind.",
     "subcategories": [
       {
-        "slug": "2-sitzer-sofas-aus-samt",
-        "name": "2-Sitzer Sofas aus Samt",
-        "categoryNameCanonical": "2-Sitzer Sofas aus Samt",
-        "description": "Elegante Zweisitzer mit weichem Samtbezug."
+        "slug": "wasserdichte-kopfhoerer-schwimmen",
+        "name": "Wasserdichte Kopfhörer zum Schwimmen",
+        "categoryNameCanonical": "Wasserdichte Kopfhörer zum Schwimmen",
+        "description": "IPX7/8-zertifizierte Modelle, oft mit integriertem MP3-Player."
       },
       {
-        "slug": "2-sitzer-sofas-aus-leder",
-        "name": "2-Sitzer Sofas aus Leder",
-        "categoryNameCanonical": "2-Sitzer Sofas aus Leder",
-        "description": "Klassische und langlebige Zweisitzer aus Echt- oder Kunstleder."
+        "slug": "sportkopfhoerer-mit-ohrbuegel",
+        "name": "Sportkopfhörer mit Ohrbügel",
+        "categoryNameCanonical": "Sportkopfhörer mit Ohrbügel",
+        "description": "Bieten extra sicheren Halt und verhindern das Herausfallen beim Laufen oder Springen."
       },
       {
-        "slug": "2-sitzer-sofas-mit-relaxfunktion",
-        "name": "2-Sitzer Sofas mit Relaxfunktion",
-        "categoryNameCanonical": "2-Sitzer Sofas mit Relaxfunktion",
-        "description": "Zweisitzer mit verstellbaren Rückenlehnen oder Fußstützen."
+        "slug": "knochenschall-kopfhoerer-sport",
+        "name": "Knochenschall-Kopfhörer für Sport",
+        "categoryNameCanonical": "Knochenschall-Kopfhörer für Sport",
+        "description": "Halten die Ohren frei, um Umgebungsgeräusche wahrzunehmen, ideal für Radfahrer und Läufer."
       }
     ]
   },
   {
-    "slug": "3-sitzer-sofas",
-    "name": "3-Sitzer Sofas",
-    "categoryNameCanonical": "3-Sitzer Sofas",
-    "description": "Der klassische Allrounder für Familien und Wohnzimmer, bietet bequem Platz für drei Personen.",
+    "slug": "kabelgebundene-kopfhoerer",
+    "name": "Kabelgebundene Kopfhörer",
+    "categoryNameCanonical": "Kabelgebundene Kopfhörer",
+    "description": "Klassische Kopfhörer mit Kabelverbindung für verlustfreie Audioqualität und ohne Akku-Sorgen. Ideal für Hi-Fi-Anlagen, PCs und ältere Geräte.",
     "subcategories": [
       {
-        "slug": "3-sitzer-sofas-aus-stoff",
-        "name": "3-Sitzer Sofas aus Stoff",
-        "categoryNameCanonical": "3-Sitzer Sofas aus Stoff",
-        "description": "Vielseitige Dreisitzer in verschiedenen Stoffarten und Farben."
+        "slug": "kopfhoerer-mit-3-5mm-klinke",
+        "name": "Kopfhörer mit 3,5mm-Klinke",
+        "categoryNameCanonical": "Kopfhörer mit 3,5mm-Klinke",
+        "description": "Der universelle Standard für die meisten Audiogeräte."
       },
       {
-        "slug": "3-sitzer-sofas-aus-cord",
-        "name": "3-Sitzer Sofas aus Cord",
-        "categoryNameCanonical": "3-Sitzer Sofas aus Cord",
-        "description": "Trendige Dreisitzer mit robustem und gemütlichem Cordbezug."
+        "slug": "kopfhoerer-mit-usb-c",
+        "name": "Kopfhörer mit USB-C",
+        "categoryNameCanonical": "Kopfhörer mit USB-C",
+        "description": "Für moderne Smartphones und Laptops ohne traditionellen Kopfhöreranschluss."
       },
       {
-        "slug": "3-sitzer-sofas-mit-schlaffunktion",
-        "name": "3-Sitzer Sofas mit Schlaffunktion",
-        "categoryNameCanonical": "3-Sitzer Sofas mit Schlaffunktion",
-        "description": "Klassische Dreisitzer, die sich bei Bedarf in ein Gästebett verwandeln lassen."
+        "slug": "kopfhoerer-mit-lightning-anschluss",
+        "name": "Kopfhörer mit Lightning-Anschluss",
+        "categoryNameCanonical": "Kopfhörer mit Lightning-Anschluss",
+        "description": "Speziell für Apple iPhones und iPads konzipiert."
       }
     ]
   },
   {
-    "slug": "bigsofas-xxl-sofas",
-    "name": "Bigsofas & XXL-Sofas",
-    "categoryNameCanonical": "Bigsofas & XXL-Sofas",
-    "description": "Besonders große und tiefe Sofas für geräumige Wohnzimmer, die maximalen Komfort und Platz für die ganze Familie bieten.",
+    "slug": "kinderkopfhoerer",
+    "name": "Kinderkopfhörer",
+    "categoryNameCanonical": "Kinderkopfhörer",
+    "description": "Robuste und sichere Kopfhörer für Kinder, oft mit integrierter Lautstärkebegrenzung zum Schutz des empfindlichen Gehörs.",
     "subcategories": [
       {
-        "slug": "bigsofas-mit-kissen-sets",
-        "name": "Bigsofas mit Kissen-Sets",
-        "categoryNameCanonical": "Bigsofas mit Kissen-Sets",
-        "description": "XXL-Sofas, die inklusive einer großen Anzahl passender Zier- und Rückenkissen geliefert werden."
+        "slug": "kinderkopfhoerer-mit-lautstaerkebegrenzung",
+        "name": "Kinderkopfhörer mit Lautstärkebegrenzung",
+        "categoryNameCanonical": "Kinderkopfhörer mit Lautstärkebegrenzung",
+        "description": "Schützen das Gehör durch eine maximale Dezibel-Grenze (meist 85dB)."
       },
       {
-        "slug": "bigsofas-aus-strukturstoff",
-        "name": "Bigsofas aus Strukturstoff",
-        "categoryNameCanonical": "Bigsofas aus Strukturstoff",
-        "description": "Großformatige Sofas mit strapazierfähigen und haptisch ansprechenden Stoffbezügen."
+        "slug": "kabellose-kinderkopfhoerer",
+        "name": "Kabellose Kinderkopfhörer",
+        "categoryNameCanonical": "Kabellose Kinderkopfhörer",
+        "description": "Bluetooth-Modelle ohne Kabel, um Verwicklungsgefahr zu vermeiden."
       },
       {
-        "slug": "tiefe-bigsofas",
-        "name": "Tiefe Bigsofas",
-        "categoryNameCanonical": "Tiefe Bigsofas",
-        "description": "Sofas mit extra tiefer Sitzfläche für ein besonders gemütliches Lounge-Gefühl."
+        "slug": "kinderkopfhoerer-fuer-toniebox",
+        "name": "Kinderkopfhörer für Toniebox",
+        "categoryNameCanonical": "Kinderkopfhörer für Toniebox",
+        "description": "Kabelgebundene Modelle, die speziell für die Verwendung mit Hörspielboxen geeignet sind."
       }
     ]
   },
   {
-    "slug": "ledersofas",
-    "name": "Ledersofas",
-    "categoryNameCanonical": "Ledersofas",
-    "description": "Hochwertige und pflegeleichte Sofas aus Echtleder oder Kunstleder, bekannt für ihre Langlebigkeit und klassische Optik.",
+    "slug": "tv-kopfhoerer",
+    "name": "TV-Kopfhörer",
+    "categoryNameCanonical": "TV-Kopfhörer",
+    "description": "Kopfhörer für den Fernseher, oft kabellos (Funk/RF oder Bluetooth mit geringer Latenz), um den Ton zu genießen, ohne andere zu stören.",
     "subcategories": [
       {
-        "slug": "sofas-aus-echtleder",
-        "name": "Sofas aus Echtleder",
-        "categoryNameCanonical": "Sofas aus Echtleder",
-        "description": "Sofas mit Bezügen aus echtem Rinds-, Büffel- oder Nappaleder."
+        "slug": "funk-kopfhoerer-fuer-tv",
+        "name": "Funk-Kopfhörer für TV (RF)",
+        "categoryNameCanonical": "Funk-Kopfhörer für TV (RF)",
+        "description": "Bieten eine stabile Verbindung mit großer Reichweite und ohne Tonverzögerung."
       },
       {
-        "slug": "sofas-aus-kunstleder",
-        "name": "Sofas aus Kunstleder",
-        "categoryNameCanonical": "Sofas aus Kunstleder",
-        "description": "Preisgünstige und pflegeleichte Alternative zu Echtleder."
+        "slug": "bluetooth-kopfhoerer-fuer-tv",
+        "name": "Bluetooth-Kopfhörer für TV",
+        "categoryNameCanonical": "Bluetooth-Kopfhörer für TV",
+        "description": "Modelle mit Low-Latency-Codecs (aptX LL) zur Synchronisation von Bild und Ton."
       },
       {
-        "slug": "ledersofas-mit-relaxfunktion",
-        "name": "Ledersofas mit Relaxfunktion",
-        "categoryNameCanonical": "Ledersofas mit Relaxfunktion",
-        "description": "Komfortable Ledersofas mit manuell oder elektrisch verstellbaren Elementen."
+        "slug": "kinnbuegelhoerer-fuer-senioren",
+        "name": "Kinnbügelhörer für Senioren",
+        "categoryNameCanonical": "Kinnbügelhörer für Senioren",
+        "description": "Leichte Hörsysteme, die unter dem Kinn getragen werden, oft mit Sprachverstärkung."
       }
     ]
   },
   {
-    "slug": "samtsofas",
-    "name": "Samtsofas",
-    "categoryNameCanonical": "Samtsofas",
-    "description": "Elegante Sofas mit weichen, schimmernden Samtbezügen, die jedem Raum eine luxuriöse Note verleihen.",
+    "slug": "on-ear-kopfhoerer",
+    "name": "On-Ear Kopfhörer",
+    "categoryNameCanonical": "On-Ear Kopfhörer",
+    "description": "Kopfhörer, die auf den Ohren aufliegen. Ein Kompromiss aus der Kompaktheit von In-Ears und der Klangqualität von Over-Ears.",
     "subcategories": [
       {
-        "slug": "samtsofas-in-gruen",
-        "name": "Samtsofas in Grün",
-        "categoryNameCanonical": "Samtsofas in Grün",
-        "description": "Besonders beliebte Samtsofas in verschiedenen Grüntönen wie Smaragd oder Salbei."
+        "slug": "leichte-on-ear-kopfhoerer",
+        "name": "Leichte On-Ear Kopfhörer",
+        "categoryNameCanonical": "Leichte On-Ear Kopfhörer",
+        "description": "Besonders leichte Modelle für hohen Tragekomfort über längere Zeit."
       },
       {
-        "slug": "samtsofas-in-blau",
-        "name": "Samtsofas in Blau",
-        "categoryNameCanonical": "Samtsofas in Blau",
-        "description": "Stilvolle Samtsofas in Marine-, Königs- oder Petrolblau."
+        "slug": "faltbare-on-ear-kopfhoerer",
+        "name": "Faltbare On-Ear Kopfhörer",
+        "categoryNameCanonical": "Faltbare On-Ear Kopfhörer",
+        "description": "Kompakt und einfach zu transportieren, ideal für Pendler."
       },
       {
-        "slug": "2-sitzer-samtsofas",
-        "name": "2-Sitzer Samtsofas",
-        "categoryNameCanonical": "2-Sitzer Samtsofas",
-        "description": "Kompakte und elegante Zweisitzer mit edlem Samtbezug."
+        "slug": "bluetooth-on-ear-kopfhoerer",
+        "name": "Bluetooth On-Ear Kopfhörer",
+        "categoryNameCanonical": "Bluetooth On-Ear Kopfhörer",
+        "description": "Kabellose On-Ear-Modelle für den unkomplizierten mobilen Einsatz."
       }
     ]
   },
   {
-    "slug": "sofas-mit-relaxfunktion",
-    "name": "Sofas mit Relaxfunktion",
-    "categoryNameCanonical": "Sofas mit Relaxfunktion",
-    "description": "Komfortsofas mit verstellbaren Rückenlehnen, ausklappbaren Fußstützen oder Massagefunktionen für ultimative Entspannung.",
+    "slug": "buero-call-center-headsets",
+    "name": "Büro & Call-Center-Headsets",
+    "categoryNameCanonical": "Büro & Call-Center-Headsets",
+    "description": "Headsets mit hochwertigen Mikrofonen und Geräuschunterdrückung für klare Kommunikation in Videokonferenzen und Telefonaten.",
     "subcategories": [
       {
-        "slug": "elektrische-relaxsofas",
-        "name": "Elektrische Relaxsofas",
-        "categoryNameCanonical": "Elektrische Relaxsofas",
-        "description": "Sofas, deren Relaxfunktionen bequem per Knopfdruck gesteuert werden."
+        "slug": "usb-headsets-fuer-buero",
+        "name": "USB-Headsets für Büro",
+        "categoryNameCanonical": "USB-Headsets für Büro",
+        "description": "Einfache Plug-and-Play-Installation am PC oder Laptop."
       },
       {
-        "slug": "manuelle-relaxsofas",
-        "name": "Manuelle Relaxsofas",
-        "categoryNameCanonical": "Manuelle Relaxsofas",
-        "description": "Sofas, bei denen die Verstellung durch Körperdruck oder einen seitlichen Hebel erfolgt."
+        "slug": "headsets-mit-noise-cancelling-mikrofon",
+        "name": "Headsets mit Noise-Cancelling-Mikrofon",
+        "categoryNameCanonical": "Headsets mit Noise-Cancelling-Mikrofon",
+        "description": "Filtern Hintergrundgeräusche heraus, damit Ihre Stimme klar verständlich ist."
       },
       {
-        "slug": "relaxsofas-mit-usb-anschluss",
-        "name": "Relaxsofas mit USB-Anschluss",
-        "categoryNameCanonical": "Relaxsofas mit USB-Anschluss",
-        "description": "Moderne Sofas mit integrierten USB-Ports zum Laden von Geräten."
+        "slug": "einohr-headsets-monaural",
+        "name": "Einohr-Headsets (Monaural)",
+        "categoryNameCanonical": "Einohr-Headsets (Monaural)",
+        "description": "Ermöglichen es, mit einem Ohr die Umgebung wahrzunehmen, während man telefoniert."
       }
     ]
   },
   {
-    "slug": "kindersofas",
-    "name": "Kindersofas",
-    "categoryNameCanonical": "Kindersofas",
-    "description": "Kleine, kindgerechte Sofas in bunten Designs und aus robusten Materialien, ideal für das Kinderzimmer.",
+    "slug": "studio-kopfhoerer",
+    "name": "Studio-Kopfhörer",
+    "categoryNameCanonical": "Studio-Kopfhörer",
+    "description": "Professionelle Kopfhörer für Musiker und Produzenten mit neutralem, unverfälschtem Klangbild für Mixing, Mastering und Recording.",
     "subcategories": [
       {
-        "slug": "ausklappbare-kindersofas",
-        "name": "Ausklappbare Kindersofas",
-        "categoryNameCanonical": "Ausklappbare Kindersofas",
-        "description": "Minisofas, die sich zu einer kleinen Liegefläche für Übernachtungsgäste ausklappen lassen."
+        "slug": "offene-studio-kopfhoerer",
+        "name": "Offene Studio-Kopfhörer",
+        "categoryNameCanonical": "Offene Studio-Kopfhörer",
+        "description": "Bieten eine breite, natürliche Klangbühne, ideal für Mixing und Mastering."
       },
       {
-        "slug": "kindersofas-mit-tiermotiven",
-        "name": "Kindersofas mit Tiermotiven",
-        "categoryNameCanonical": "Kindersofas mit Tiermotiven",
-        "description": "Spielerische Sofas in Form von Tieren, basierend auf Suchen wie 'sofa affe'."
+        "slug": "geschlossene-studio-kopfhoerer",
+        "name": "Geschlossene Studio-Kopfhörer",
+        "categoryNameCanonical": "Geschlossene Studio-Kopfhörer",
+        "description": "Isolieren Außengeräusche, perfekt für die Aufnahme (Recording) von Gesang oder Instrumenten."
       },
       {
-        "slug": "kindersofas-aus-schaumstoff",
-        "name": "Kindersofas aus Schaumstoff",
-        "categoryNameCanonical": "Kindersofas aus Schaumstoff",
-        "description": "Leichte und weiche Sofas ohne harten Rahmen zur Minimierung der Verletzungsgefahr."
+        "slug": "studio-kopfhoerer-hohe-impedanz",
+        "name": "Studio-Kopfhörer mit hoher Impedanz",
+        "categoryNameCanonical": "Studio-Kopfhörer mit hoher Impedanz",
+        "description": "Für den Einsatz mit professionellen Kopfhörerverstärkern für höchste Klangtreue."
       }
     ]
   },
   {
-    "slug": "gartensofas",
-    "name": "Gartensofas",
-    "categoryNameCanonical": "Gartensofas",
-    "description": "Wetterfeste und robuste Sofas für den Außenbereich wie Garten, Terrasse oder Balkon, oft aus Polyrattan, Holz oder Metall.",
+    "slug": "knochenschall-kopfhoerer",
+    "name": "Knochenschall-Kopfhörer",
+    "categoryNameCanonical": "Knochenschall-Kopfhörer",
+    "description": "Übertragen den Schall über die Wangenknochen, sodass die Ohren frei bleiben. Ideal für Sportler und Personen mit Hörbeeinträchtigungen.",
     "subcategories": [
       {
-        "slug": "gartensofas-aus-polyrattan",
-        "name": "Gartensofas aus Polyrattan",
-        "categoryNameCanonical": "Gartensofas aus Polyrattan",
-        "description": "Pflegeleichte und witterungsbeständige Sofas in geflochtener Optik."
+        "slug": "knochenschall-kopfhoerer-fuer-radfahrer",
+        "name": "Knochenschall-Kopfhörer für Radfahrer",
+        "categoryNameCanonical": "Knochenschall-Kopfhörer für Radfahrer",
+        "description": "Ermöglichen das Hören von Musik und gleichzeitigem Wahrnehmen des Verkehrs."
       },
       {
-        "slug": "gartensofas-aus-holz",
-        "name": "Gartensofas aus Holz",
-        "categoryNameCanonical": "Gartensofas aus Holz",
-        "description": "Natürliche und robuste Sofas aus Hölzern wie Teak, Akazie oder Eukalyptus."
+        "slug": "wasserdichte-knochenschall-kopfhoerer",
+        "name": "Wasserdichte Knochenschall-Kopfhörer",
+        "categoryNameCanonical": "Wasserdichte Knochenschall-Kopfhörer",
+        "description": "IP68-zertifizierte Modelle, die auch beim Schwimmen getragen werden können."
       },
       {
-        "slug": "gartensofas-mit-wasserabweisenden-polstern",
-        "name": "Gartensofas mit wasserabweisenden Polstern",
-        "categoryNameCanonical": "Gartensofas mit wasserabweisenden Polstern",
-        "description": "Outdoor-Sofas inklusive Kissen mit speziellen Bezügen, die leichten Regen abhalten."
-      },
-      {
-        "slug": "modulare-gartenlounges",
-        "name": "Modulare Gartenlounges",
-        "categoryNameCanonical": "Modulare Gartenlounges",
-        "description": "Flexible Lounge-Sets, deren einzelne Sofa-Elemente frei angeordnet werden können."
+        "slug": "knochenschall-kopfhoerer-mit-mikrofon",
+        "name": "Knochenschall-Kopfhörer mit Mikrofon",
+        "categoryNameCanonical": "Knochenschall-Kopfhörer mit Mikrofon",
+        "description": "Geeignet für Telefonate, ohne die Ohren zu bedecken."
       }
     ]
   },
   {
-    "slug": "chaiselongues-und-recamieren",
-    "name": "Chaiselongues & Récamièren",
-    "categoryNameCanonical": "Chaiselongues & Récamièren",
-    "description": "Elegante Liegesofas mit einer Armlehne, ideal zum Entspannen, Lesen oder als stilvolle Ergänzung im Wohn- oder Schlafzimmer.",
+    "slug": "kopfhoerer-mit-mikrofon",
+    "name": "Kopfhörer mit Mikrofon (Headsets)",
+    "categoryNameCanonical": "Kopfhörer mit Mikrofon (Headsets)",
+    "description": "Allzweck-Kopfhörer mit integriertem Mikrofon für Telefonate, Online-Meetings und einfache Sprachaufnahmen.",
     "subcategories": [
       {
-        "slug": "chaiselongues-mit-samtbezug",
-        "name": "Chaiselongues mit Samtbezug",
-        "categoryNameCanonical": "Chaiselongues mit Samtbezug",
-        "description": "Luxuriöse Liegen mit weichem, schimmerndem Samtstoff."
+        "slug": "kopfhoerer-mit-mikrofon-fuer-handy",
+        "name": "Kopfhörer mit Mikrofon für Handy",
+        "categoryNameCanonical": "Kopfhörer mit Mikrofon für Handy",
+        "description": "Kabelgebundene oder kabellose Modelle für klare Anrufe unterwegs."
       },
       {
-        "slug": "chaiselongues-mit-stauraum",
-        "name": "Chaiselongues mit Stauraum",
-        "categoryNameCanonical": "Chaiselongues mit Stauraum",
-        "description": "Funktionale Modelle mit einem aufklappbaren Sitz für zusätzlichen Stauraum."
+        "slug": "headsets-fuer-videokonferenzen",
+        "name": "Headsets für Videokonferenzen",
+        "categoryNameCanonical": "Headsets für Videokonferenzen",
+        "description": "Optimiert für Sprachverständlichkeit in Programmen wie Zoom, Teams oder Skype."
       },
       {
-        "slug": "moderne-chaiselongues",
-        "name": "Moderne Chaiselongues",
-        "categoryNameCanonical": "Moderne Chaiselongues",
-        "description": "Liegesofas in minimalistischem Design mit klaren Linien und Metallfüßen."
+        "slug": "kopfhoerer-mit-stummschaltung",
+        "name": "Kopfhörer mit Stummschaltung",
+        "categoryNameCanonical": "Kopfhörer mit Stummschaltung",
+        "description": "Verfügen über eine physische Taste oder Funktion zum schnellen Stummschalten des Mikrofons."
       }
     ]
   },
   {
-    "slug": "chesterfield-sofas",
-    "name": "Chesterfield Sofas",
-    "categoryNameCanonical": "Chesterfield Sofas",
-    "description": "Ikonische Sofas im englischen Stil, charakterisiert durch die tiefe Knopfheftung, gerollte Armlehnen und hochwertige Leder- oder Samtbezüge.",
+    "slug": "reisekopfhoerer",
+    "name": "Reisekopfhörer",
+    "categoryNameCanonical": "Reisekopfhörer",
+    "description": "Kompakte, oft faltbare Kopfhörer mit Zubehör wie Transportetuis und Flugzeugadaptern, ideal für Pendler und Reisende.",
     "subcategories": [
       {
-        "slug": "chesterfield-sofas-aus-leder",
-        "name": "Chesterfield Sofas aus Leder",
-        "categoryNameCanonical": "Chesterfield Sofas aus Leder",
-        "description": "Der Klassiker in braunem, schwarzem oder cognacfarbenem Echt- oder Kunstleder."
+        "slug": "faltbare-und-kompakte-kopfhoerer",
+        "name": "Faltbare und kompakte Kopfhörer",
+        "categoryNameCanonical": "Faltbare und kompakte Kopfhörer",
+        "description": "Lassen sich klein zusammenlegen und platzsparend im Gepäck verstauen."
       },
       {
-        "slug": "chesterfield-sofas-aus-samt",
-        "name": "Chesterfield Sofas aus Samt",
-        "categoryNameCanonical": "Chesterfield Sofas aus Samt",
-        "description": "Moderne Interpretationen des Klassikers mit edlem Samtbezug."
+        "slug": "kopfhoerer-mit-transportetui",
+        "name": "Kopfhörer mit Transportetui",
+        "categoryNameCanonical": "Kopfhörer mit Transportetui",
+        "description": "Werden mit einem Hard- oder Softcase zum Schutz auf Reisen geliefert."
       },
       {
-        "slug": "3-sitzer-chesterfield-sofas",
-        "name": "3-Sitzer Chesterfield Sofas",
-        "categoryNameCanonical": "3-Sitzer Chesterfield Sofas",
-        "description": "Die gängigste Größe des Chesterfield Sofas, ideal für klassische Wohnzimmer."
+        "slug": "kopfhoerer-mit-flugzeugadapter",
+        "name": "Kopfhörer mit Flugzeugadapter",
+        "categoryNameCanonical": "Kopfhörer mit Flugzeugadapter",
+        "description": "Ermöglichen den Anschluss an das In-Flight-Entertainment-System im Flugzeug."
       }
     ]
   },
   {
-    "slug": "sofa-ablagen-und-tische",
-    "name": "Sofa-Ablagen & Tische",
-    "categoryNameCanonical": "Sofa-Ablagen & Tische",
-    "description": "Praktisches Zubehör zur Schaffung von Abstellflächen direkt am oder über dem Sofa. Entspricht Suchen wie 'sofa ablage armlehne' und 'sofa abstellbrett'.",
+    "slug": "audiophile-kopfhoerer",
+    "name": "Audiophile Kopfhörer",
+    "categoryNameCanonical": "Audiophile Kopfhörer",
+    "description": "High-End-Kopfhörer für anspruchsvolle Hörer, die Wert auf höchste Klangtreue, Detailreichtum und erstklassige Materialien legen.",
     "subcategories": [
       {
-        "slug": "sofa-ablagen-fuer-armlehne",
-        "name": "Sofa-Ablagen für Armlehne",
-        "categoryNameCanonical": "Sofa-Ablagen für Armlehne",
-        "description": "Flexible Tabletts, meist aus Holz oder Bambus, die über die Armlehne gelegt werden."
+        "slug": "offene-audiophile-kopfhoerer",
+        "name": "Offene audiophile Kopfhörer",
+        "categoryNameCanonical": "Offene audiophile Kopfhörer",
+        "description": "Für eine weite, natürliche Klangbühne und ein luftiges Hörerlebnis."
       },
       {
-        "slug": "sofa-butler-organizer",
-        "name": "Sofa-Butler & Organizer",
-        "categoryNameCanonical": "Sofa-Butler & Organizer",
-        "description": "Hängende Taschen für die Armlehne zur Aufbewahrung von Fernbedienungen, Zeitschriften und Tablets."
+        "slug": "planar-magnetische-kopfhoerer",
+        "name": "Planar-magnetische Kopfhörer",
+        "categoryNameCanonical": "Planar-magnetische Kopfhörer",
+        "description": "Nutzen eine spezielle Treibertechnologie für extrem präzisen und verzerrungsarmen Klang."
       },
       {
-        "slug": "sofatische-zum-unterschieben",
-        "name": "Sofatische zum Unterschieben",
-        "categoryNameCanonical": "Sofatische zum Unterschieben",
-        "description": "C-förmige Beistelltische, deren Fuß unter das Sofa geschoben werden kann."
+        "slug": "high-resolution-audio-kopfhoerer",
+        "name": "High-Resolution-Audio-Kopfhörer",
+        "categoryNameCanonical": "High-Resolution-Audio-Kopfhörer",
+        "description": "Zertifiziert für die Wiedergabe von hochauflösenden Audioformaten."
       }
     ]
   },
   {
-    "slug": "sofas-mit-bettkasten",
-    "name": "Sofas mit Bettkasten",
-    "categoryNameCanonical": "Sofas mit Bettkasten",
-    "description": "Sofas mit integriertem Stauraum unter der Sitzfläche, ideal zur Aufbewahrung von Decken, Kissen oder anderen Gegenständen.",
+    "slug": "dj-kopfhoerer",
+    "name": "DJ-Kopfhörer",
+    "categoryNameCanonical": "DJ-Kopfhörer",
+    "description": "Robuste Kopfhörer für DJs mit hoher Belastbarkeit, guter Geräuschisolierung und oft drehbaren Ohrmuscheln für einseitiges Monitoring.",
     "subcategories": [
       {
-        "slug": "ecksofas-mit-bettkasten",
-        "name": "Ecksofas mit Bettkasten",
-        "categoryNameCanonical": "Ecksofas mit Bettkasten",
-        "description": "Großzügige Ecksofas, die besonders viel versteckten Stauraum bieten."
+        "slug": "dj-kopfhoerer-mit-drehbaren-ohrmuscheln",
+        "name": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
+        "categoryNameCanonical": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
+        "description": "Ermöglichen das einfache Vorhören von Tracks mit einem Ohr."
       },
       {
-        "slug": "3-sitzer-sofas-mit-bettkasten",
-        "name": "3-Sitzer Sofas mit Bettkasten",
-        "categoryNameCanonical": "3-Sitzer Sofas mit Bettkasten",
-        "description": "Klassische Dreisitzer mit praktischem Stauraumfach."
+        "slug": "dj-kopfhoerer-mit-spiralkabel",
+        "name": "DJ-Kopfhörer mit Spiralkabel",
+        "categoryNameCanonical": "DJ-Kopfhörer mit Spiralkabel",
+        "description": "Bieten Flexibilität und verhindern Kabelsalat hinter dem DJ-Pult."
       },
       {
-        "slug": "kleine-sofas-mit-bettkasten",
-        "name": "Kleine Sofas mit Bettkasten",
-        "categoryNameCanonical": "Kleine Sofas mit Bettkasten",
-        "description": "Kompakte 2-Sitzer, die auch in kleinen Räumen für Ordnung sorgen."
+        "slug": "geschlossene-dj-kopfhoerer",
+        "name": "Geschlossene DJ-Kopfhörer",
+        "categoryNameCanonical": "Geschlossene DJ-Kopfhörer",
+        "description": "Bieten eine starke Abschirmung von lauten Umgebungsgeräuschen im Club."
       }
     ]
   },
   {
-    "slug": "buerosofas-und-loungesofas",
-    "name": "Bürosofas & Loungesofas",
-    "categoryNameCanonical": "Bürosofas & Loungesofas",
-    "description": "Repräsentative und komfortable Sofas für Wartebereiche, Empfangshallen, Büros oder moderne Wohnbereiche.",
+    "slug": "in-ear-monitoring-systeme",
+    "name": "In-Ear-Monitoring-Systeme",
+    "categoryNameCanonical": "In-Ear-Monitoring-Systeme",
+    "description": "Professionelle Ohrhörer für Musiker auf der Bühne, die eine präzise und direkte Klangwiedergabe des eigenen Instruments oder der Stimme ermöglichen.",
     "subcategories": [
       {
-        "slug": "2-sitzer-buerosofas",
-        "name": "2-Sitzer Bürosofas",
-        "categoryNameCanonical": "2-Sitzer Bürosofas",
-        "description": "Kompakte und stilvolle Zweisitzer, ideal für kleinere Wartezonen."
+        "slug": "kabelgebundene-in-ear-monitore",
+        "name": "Kabelgebundene In-Ear-Monitore",
+        "categoryNameCanonical": "Kabelgebundene In-Ear-Monitore",
+        "description": "Direkte Verbindung zum Mischpult oder Bodypack für eine latenzfreie Übertragung."
       },
       {
-        "slug": "buerosofas-aus-kunstleder",
-        "name": "Bürosofas aus Kunstleder",
-        "categoryNameCanonical": "Bürosofas aus Kunstleder",
-        "description": "Pflegeleichte und professionell wirkende Sofas für den gewerblichen Einsatz."
+        "slug": "kabellose-in-ear-monitoring-systeme",
+        "name": "Kabellose In-Ear-Monitoring-Systeme",
+        "categoryNameCanonical": "Kabellose In-Ear-Monitoring-Systeme",
+        "description": "Bestehen aus Sender und Bodypack-Empfänger für maximale Bewegungsfreiheit auf der Bühne."
       },
       {
-        "slug": "modulare-loungesysteme",
-        "name": "Modulare Loungesysteme",
-        "categoryNameCanonical": "Modulare Loungesysteme",
-        "description": "Flexible Sitzlandschaften für große Empfangsbereiche oder Kreativzonen."
+        "slug": "in-ear-monitore-mit-mehreren-treibern",
+        "name": "In-Ear-Monitore mit mehreren Treibern",
+        "categoryNameCanonical": "In-Ear-Monitore mit mehreren Treibern",
+        "description": "Nutzen separate Treiber für Bässe, Mitten und Höhen für einen detaillierteren Klang."
       }
     ]
   },
   {
-    "slug": "allergikergeeignete-sofas",
-    "name": "Allergikergeeignete Sofas",
-    "categoryNameCanonical": "Allergikergeeignete Sofas",
-    "description": "Sofas mit speziellen Bezügen und Polsterungen, die für Hausstauballergiker geeignet sind. Basierend auf der Suche 'sofa allergiker'.",
+    "slug": "schlaf-kopfhoerer",
+    "name": "Schlaf-Kopfhörer",
+    "categoryNameCanonical": "Schlaf-Kopfhörer",
+    "description": "Besonders flache und weiche Kopfhörer, die bequem im Liegen getragen werden können, um Hörbücher, Podcasts oder beruhigende Klänge zu hören.",
     "subcategories": [
       {
-        "slug": "sofas-mit-kunstlederbezug",
-        "name": "Sofas mit Kunstlederbezug",
-        "categoryNameCanonical": "Sofas mit Kunstlederbezug",
-        "description": "Glatte, abwischbare Oberflächen, auf denen sich Milben schwer festsetzen können."
+        "slug": "schlaf-kopfhoerer-als-stirnband",
+        "name": "Schlaf-Kopfhörer als Stirnband",
+        "categoryNameCanonical": "Schlaf-Kopfhörer als Stirnband",
+        "description": "Weiche Stoff-Stirnbänder mit integrierten, flachen Lautsprechern."
       },
       {
-        "slug": "sofas-mit-mikrofaserbezug",
-        "name": "Sofas mit Mikrofaserbezug",
-        "categoryNameCanonical": "Sofas mit Mikrofaserbezug",
-        "description": "Sofas mit eng gewebten Stoffen, die das Eindringen von Allergenen reduzieren."
+        "slug": "flache-in-ear-schlaf-ohrhoerer",
+        "name": "Flache In-Ear Schlaf-Ohrhörer",
+        "categoryNameCanonical": "Flache In-Ear Schlaf-Ohrhörer",
+        "description": "Kleine, weiche Ohrstöpsel, die auch für Seitenschläfer geeignet sind."
       },
       {
-        "slug": "sofas-mit-abnehmbaren-waschbaren-bezuegen",
-        "name": "Sofas mit abnehmbaren, waschbaren Bezügen",
-        "categoryNameCanonical": "Sofas mit abnehmbaren, waschbaren Bezügen",
-        "description": "Praktische Sofas, deren Bezüge zur hygienischen Reinigung abgenommen werden können."
+        "slug": "schlaf-kopfhoerer-mit-white-noise",
+        "name": "Schlaf-Kopfhörer mit White Noise",
+        "categoryNameCanonical": "Schlaf-Kopfhörer mit White Noise",
+        "description": "Modelle, die Umgebungsgeräusche maskieren und beim Einschlafen helfen."
       }
     ]
   },
   {
-    "slug": "palettensofas",
-    "name": "Palettensofas",
-    "categoryNameCanonical": "Palettensofas",
-    "description": "Trendige und individuelle Sofas im DIY-Stil, die aus Europaletten gebaut und mit passenden Polstern ausgestattet werden.",
+    "slug": "kopfhoerer-mit-radio",
+    "name": "Kopfhörer mit Radio",
+    "categoryNameCanonical": "Kopfhörer mit Radio",
+    "description": "Kopfhörer mit integriertem FM/AM-Radioempfänger, die das Musikhören ohne verbundenes Abspielgerät ermöglichen.",
     "subcategories": [
       {
-        "slug": "palettensofa-polster-sets",
-        "name": "Palettensofa-Polster & Sets",
-        "categoryNameCanonical": "Palettensofa-Polster & Sets",
-        "description": "Passgenaue Sitz- und Rückenkissen für selbstgebaute Palettenmöbel."
+        "slug": "kopfhoerer-mit-fm-radio",
+        "name": "Kopfhörer mit FM-Radio",
+        "categoryNameCanonical": "Kopfhörer mit FM-Radio",
+        "description": "Zum Empfang von UKW-Radiosendern, ideal für unterwegs oder bei der Arbeit."
       },
       {
-        "slug": "palettensofas-fuer-den-garten",
-        "name": "Palettensofas für den Garten",
-        "categoryNameCanonical": "Palettensofas für den Garten",
-        "description": "Komplette Palettensofas oder Polster mit wetterfesten Bezügen für den Außenbereich."
+        "slug": "gehoerschutz-mit-radio",
+        "name": "Gehörschutz mit Radio",
+        "categoryNameCanonical": "Gehörschutz mit Radio",
+        "description": "Robuster Kapselgehörschutz mit Radiofunktion für laute Arbeitsumgebungen."
       },
       {
-        "slug": "palettensofas-indoor",
-        "name": "Palettensofas Indoor",
-        "categoryNameCanonical": "Palettensofas Indoor",
-        "description": "Behandelte Paletten und gemütliche Polster für den Einsatz im Wohnzimmer."
+        "slug": "bluetooth-kopfhoerer-mit-radio",
+        "name": "Bluetooth-Kopfhörer mit Radiofunktion",
+        "categoryNameCanonical": "Bluetooth-Kopfhörer mit Radiofunktion",
+        "description": "Kombinieren kabellose Konnektivität mit einem integrierten Radioempfänger."
       }
     ]
   },
   {
-    "slug": "cordsofas",
-    "name": "Cordsofas",
-    "categoryNameCanonical": "Cordsofas",
-    "description": "Gemütliche Sofas mit einem Bezug aus Cordstoff, der für seine Langlebigkeit, weiche Haptik und charakteristische Rippenstruktur bekannt ist.",
+    "slug": "kopfhoerer-zubehoer",
+    "name": "Kopfhörer-Zubehör",
+    "categoryNameCanonical": "Kopfhörer-Zubehör",
+    "description": "Alles, was Sie für Ihre Kopfhörer benötigen, von Ersatzteilen wie Ohrpolstern und Kabeln bis hin zu praktischen Ergänzungen wie Ständern und Adaptern.",
     "subcategories": [
       {
-        "slug": "ecksofas-aus-cord",
-        "name": "Ecksofas aus Cord",
-        "categoryNameCanonical": "Ecksofas aus Cord",
-        "description": "Großzügige Ecksofas im Cord-Look für ein modernes und gemütliches Ambiente."
+        "slug": "ersatz-ohrpolster",
+        "name": "Ersatz-Ohrpolster",
+        "categoryNameCanonical": "Ersatz-Ohrpolster",
+        "description": "Ohrpolster aus Schaumstoff, Leder oder Velours zum Austausch bei Verschleiß."
       },
       {
-        "slug": "3-sitzer-cordsofas",
-        "name": "3-Sitzer Cordsofas",
-        "categoryNameCanonical": "3-Sitzer Cordsofas",
-        "description": "Klassische Dreisitzer mit dem trendigen und robusten Cordbezug."
+        "slug": "kopfhoererstaender-und-halterungen",
+        "name": "Kopfhörerständer und Halterungen",
+        "categoryNameCanonical": "Kopfhörerständer und Halterungen",
+        "description": "Zur sicheren und stilvollen Aufbewahrung Ihrer Kopfhörer am Schreibtisch."
       },
       {
-        "slug": "cordsofas-in-beige",
-        "name": "Cordsofas in Beige",
-        "categoryNameCanonical": "Cordsofas in Beige",
-        "description": "Besonders beliebte Cordsofas in hellen, natürlichen Farbtönen."
-      }
-    ]
-  },
-  {
-    "slug": "boxspringsofas",
-    "name": "Boxspringsofas",
-    "categoryNameCanonical": "Boxspringsofas",
-    "description": "Besonders komfortable Sofas mit einem speziellen Federungsaufbau, ähnlich wie bei Boxspringbetten, für ein hohes und bequemes Sitzerlebnis.",
-    "subcategories": [
-      {
-        "slug": "boxspringsofas-mit-schlaffunktion",
-        "name": "Boxspringsofas mit Schlaffunktion",
-        "categoryNameCanonical": "Boxspringsofas mit Schlaffunktion",
-        "description": "Sofas, die den hohen Sitzkomfort mit einer vollwertigen Schlafmöglichkeit kombinieren."
+        "slug": "transportetuis-und-taschen",
+        "name": "Transportetuis und Taschen",
+        "categoryNameCanonical": "Transportetuis und Taschen",
+        "description": "Schutzhüllen für den sicheren Transport Ihrer Kopfhörer auf Reisen."
       },
       {
-        "slug": "ecksofas-mit-boxspringpolsterung",
-        "name": "Ecksofas mit Boxspringpolsterung",
-        "categoryNameCanonical": "Ecksofas mit Boxspringpolsterung",
-        "description": "Große Wohnlandschaften mit dem speziellen Boxspring-Aufbau."
-      },
-      {
-        "slug": "boxspringsofas-mit-topper",
-        "name": "Boxspringsofas mit Topper",
-        "categoryNameCanonical": "Boxspringsofas mit Topper",
-        "description": "Modelle, bei denen ein zusätzlicher Topper den Sitz- und Liegekomfort weiter erhöht."
-      }
-    ]
-  },
-  {
-    "slug": "sofas-mit-verstellbaren-elementen",
-    "name": "Sofas mit verstellbaren Elementen",
-    "categoryNameCanonical": "Sofas mit verstellbaren Elementen",
-    "description": "Flexible Sofas mit anpassbaren Funktionen wie verstellbaren Kopfstützen, Armlehnen oder Sitztiefen. Inspiriert von 'sofa adjustable'.",
-    "subcategories": [
-      {
-        "slug": "sofas-mit-verstellbaren-kopfstuetzen",
-        "name": "Sofas mit verstellbaren Kopfstützen",
-        "categoryNameCanonical": "Sofas mit verstellbaren Kopfstützen",
-        "description": "Sofas, bei denen die Nackenstützen individuell in der Höhe und Neigung angepasst werden können."
-      },
-      {
-        "slug": "sofas-mit-sitztiefenverstellung",
-        "name": "Sofas mit Sitztiefenverstellung",
-        "categoryNameCanonical": "Sofas mit Sitztiefenverstellung",
-        "description": "Modelle, bei denen die Tiefe der Sitzfläche manuell oder elektrisch verändert werden kann."
-      },
-      {
-        "slug": "sofas-mit-klappbaren-armlehnen",
-        "name": "Sofas mit klappbaren Armlehnen",
-        "categoryNameCanonical": "Sofas mit klappbaren Armlehnen",
-        "description": "Sofas, deren Armlehnen in verschiedenen Positionen arretiert werden können."
-      }
-    ]
-  },
-  {
-    "slug": "sofa-zubehoer",
-    "name": "Sofa-Zubehör",
-    "categoryNameCanonical": "Sofa-Zubehör",
-    "description": "Alles, was Sofas komfortabler, funktionaler oder langlebiger macht. Basiert auf Suchen wie 'sofa accessoires' und 'sofa adapter'.",
-    "subcategories": [
-      {
-        "slug": "sofakissen-und-dekokissen",
-        "name": "Sofakissen & Dekokissen",
-        "categoryNameCanonical": "Sofakissen & Dekokissen",
-        "description": "Kissen in verschiedenen Größen, Farben und Materialien zur Dekoration und Komfortsteigerung."
-      },
-      {
-        "slug": "sofafuesse-und-moebelfuesse",
-        "name": "Sofafüße & Möbelfüße",
-        "categoryNameCanonical": "Sofafüße & Möbelfüße",
-        "description": "Ersatz- oder Upgrade-Füße aus Holz, Metall oder Kunststoff, um die Höhe oder den Stil eines Sofas zu ändern."
-      },
-      {
-        "slug": "anti-rutsch-pads-fuer-sofakissen",
-        "name": "Anti-Rutsch-Pads für Sofakissen",
-        "categoryNameCanonical": "Anti-Rutsch-Pads für Sofakissen",
-        "description": "Praktische Unterlagen, die verhindern, dass Sitzkissen ständig verrutschen."
-      },
-      {
-        "slug": "reparatursets-fuer-sofas",
-        "name": "Reparatursets für Sofas",
-        "categoryNameCanonical": "Reparatursets für Sofas",
-        "description": "Sets zur Ausbesserung von Kratzern, Rissen oder Löchern in Leder- oder Stoffbezügen."
-      }
-    ]
-  },
-  {
-    "slug": "stoffsofas",
-    "name": "Stoffsofas",
-    "categoryNameCanonical": "Stoffsofas",
-    "description": "Eine breite Kategorie von Sofas mit textilen Bezügen, die in unzähligen Farben, Mustern und Materialstrukturen erhältlich sind.",
-    "subcategories": [
-      {
-        "slug": "sofas-aus-mikrofaser",
-        "name": "Sofas aus Mikrofaser",
-        "categoryNameCanonical": "Sofas aus Mikrofaser",
-        "description": "Besonders pflegeleichte und strapazierfähige Stoffsofas, ideal für Familien und Haustierbesitzer."
-      },
-      {
-        "slug": "sofas-aus-leinen",
-        "name": "Sofas aus Leinen",
-        "categoryNameCanonical": "Sofas aus Leinen",
-        "description": "Sofas mit einem natürlichen, atmungsaktiven und kühlenden Leinenbezug."
-      },
-      {
-        "slug": "sofas-aus-strukturstoff",
-        "name": "Sofas aus Strukturstoff",
-        "categoryNameCanonical": "Sofas aus Strukturstoff",
-        "description": "Sofas mit robusten, grob gewebten Stoffen, die eine interessante Haptik bieten."
-      },
-      {
-        "slug": "sofas-mit-abnehmbaren-bezuegen",
-        "name": "Sofas mit abnehmbaren Bezügen",
-        "categoryNameCanonical": "Sofas mit abnehmbaren Bezügen",
-        "description": "Praktische Stoffsofas, deren Bezüge komplett abgenommen und gewaschen werden können."
-      }
-    ]
-  },
-  {
-    "slug": "rattansofas",
-    "name": "Rattansofas",
-    "categoryNameCanonical": "Rattansofas",
-    "description": "Sofas mit einem Gestell aus Rattan oder Polyrattan, die ein natürliches und leichtes Flair in den Wohnraum oder Wintergarten bringen.",
-    "subcategories": [
-      {
-        "slug": "2-sitzer-rattansofas",
-        "name": "2-Sitzer Rattansofas",
-        "categoryNameCanonical": "2-Sitzer Rattansofas",
-        "description": "Kompakte Sofas aus Rattan, oft kombiniert mit bequemen Sitzpolstern."
-      },
-      {
-        "slug": "rattan-lounge-sets",
-        "name": "Rattan-Lounge-Sets",
-        "categoryNameCanonical": "Rattan-Lounge-Sets",
-        "description": "Komplette Sitzgruppen aus Rattansofa, Sesseln und Tisch für den Innen- oder geschützten Außenbereich."
-      },
-      {
-        "slug": "haengende-rattansofas",
-        "name": "Hängende Rattansofas",
-        "categoryNameCanonical": "Hängende Rattansofas",
-        "description": "Schwebende Sofas oder 2-Personen-Hängesessel aus Rattan für ein entspanntes Gefühl."
+        "slug": "kopfhoerer-adapter-und-kabel",
+        "name": "Kopfhörer-Adapter und Kabel",
+        "categoryNameCanonical": "Kopfhörer-Adapter und Kabel",
+        "description": "Flugzeugadapter, Verlängerungskabel und Adapter von 6,3mm auf 3,5mm."
       }
     ]
   }

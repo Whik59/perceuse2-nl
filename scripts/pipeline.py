@@ -61,10 +61,58 @@ def main():
     print(f"Language: {args.language}")
     print("=" * 60)
     
-    # Change to scripts directory if we're in root
-    if os.path.basename(os.getcwd()) != 'scripts':
-        os.chdir('scripts')
-        print("📁 Changed to scripts directory")
+    # Ensure we're in the project root directory
+    if os.path.basename(os.getcwd()) == 'scripts':
+        os.chdir('..')
+        print("📁 Changed to project root directory")
+    
+    # Ensure data directory exists
+    if not os.path.exists('data'):
+        os.makedirs('data')
+        print("📁 Created data directory")
+    
+    # Ensure products directory exists
+    if not os.path.exists('data/products'):
+        os.makedirs('data/products')
+        print("📁 Created data/products directory")
+    
+    # Move data files from scripts/data/ to data/ if they exist
+    scripts_data_path = 'scripts/data'
+    if os.path.exists(scripts_data_path):
+        import shutil
+        print("📁 Moving data files from scripts/data/ to data/")
+        
+        # Move categories.json
+        if os.path.exists(f'{scripts_data_path}/categories.json'):
+            shutil.move(f'{scripts_data_path}/categories.json', 'data/categories.json')
+            print("  ✅ Moved categories.json")
+        
+        # Move categories directory
+        if os.path.exists(f'{scripts_data_path}/categories'):
+            if os.path.exists('data/categories'):
+                shutil.rmtree('data/categories')
+            shutil.move(f'{scripts_data_path}/categories', 'data/categories')
+            print("  ✅ Moved categories/ directory")
+        
+        # Move other data files
+        for file in ['category_keywords.txt', 'keyword_structure.json', 'keywords.txt', 'subcategory_keywords.txt']:
+            if os.path.exists(f'{scripts_data_path}/{file}'):
+                shutil.move(f'{scripts_data_path}/{file}', f'data/{file}')
+                print(f"  ✅ Moved {file}")
+        
+        # Move indices directory if it exists
+        if os.path.exists(f'{scripts_data_path}/indices'):
+            if os.path.exists('data/indices'):
+                shutil.rmtree('data/indices')
+            shutil.move(f'{scripts_data_path}/indices', 'data/indices')
+            print("  ✅ Moved indices/ directory")
+        
+        # Remove empty scripts/data directory
+        try:
+            os.rmdir(scripts_data_path)
+            print("  ✅ Removed empty scripts/data/ directory")
+        except OSError:
+            print("  ⚠️  scripts/data/ directory not empty, keeping it")
     
     success_count = 0
     total_steps = 0
@@ -72,7 +120,7 @@ def main():
     # Step 1: Keyword Discovery
     if not args.skip_keywords:
         total_steps += 1
-        command = f'python amazon-keyword-scraper.py "{args.keyword}" --market {market}'
+        command = f'python scripts/amazon-keyword-scraper.py "{args.keyword}" --market {market}'
         if run_command(command, "Step 1: Keyword Discovery"):
             success_count += 1
         else:
@@ -81,7 +129,7 @@ def main():
     # Step 2: Category Generation
     if not args.skip_keywords:
         total_steps += 1
-        command = f'python ai-category-generator.py "{args.keyword}" --language {args.language} --min-categories {args.min_categories} --max-categories {args.max_categories}'
+        command = f'python scripts/ai-category-generator.py "{args.keyword}" --language {args.language} --min-categories {args.min_categories} --max-categories {args.max_categories}'
         if run_command(command, "Step 2: Category Generation"):
             success_count += 1
         else:
@@ -90,7 +138,7 @@ def main():
     # Step 3: Product Scraping
     if not args.skip_products:
         total_steps += 1
-        command = f'python amazon-product-scraper.py --country {args.country}'
+        command = f'python scripts/amazon-product-scraper.py --country {args.country}'
         if run_command(command, "Step 3: Product Scraping"):
             success_count += 1
         else:
@@ -99,7 +147,7 @@ def main():
     # Step 4: Create Category-Products Index
     if not args.skip_products:
         total_steps += 1
-        command = 'python create-category-products-index.py'
+        command = 'python scripts/create-category-products-index.py'
         if run_command(command, "Step 4: Create Category-Products Index"):
             success_count += 1
         else:
@@ -108,7 +156,7 @@ def main():
     # Step 5: AI Product Enhancement
     if not args.skip_enhancement:
         total_steps += 1
-        command = f'python ai-product-enhancer.py --language {args.language} --mode ultra-fast --workers {args.workers}'
+        command = f'python scripts/ai-product-enhancer.py --language {args.language} --mode ultra-fast --workers {args.workers}'
         if run_command(command, "Step 5: AI Product Enhancement"):
             success_count += 1
         else:
@@ -117,11 +165,19 @@ def main():
     # Step 6: AI Category Enhancement
     if not args.skip_categories:
         total_steps += 1
-        command = f'python ai_category_enhancer.py --language {args.language} --all'
+        command = f'python scripts/ai_category_enhancer.py --language {args.language} --all'
         if run_command(command, "Step 6: AI Category Enhancement"):
             success_count += 1
         else:
             print("⚠️  Continuing with next step...")
+    
+    # Step 7: Generate Sitemap
+    total_steps += 1
+    command = 'python scripts/generate_sitemap.py'
+    if run_command(command, "Step 7: Generate Sitemap"):
+        success_count += 1
+    else:
+        print("⚠️  Continuing with next step...")
     
     # Summary
     print("\n" + "=" * 60)

@@ -505,7 +505,7 @@ class AmazonScraper:
                             'parentId': main_cat['categoryId'],
                             'targetKeywords': [subcat['name'], f"{subcat['name']} amazon", f"{main_category['name']} {subcat['name']}"],
                             'needs_products': True,
-                            'recommended_products': random.randint(5, 11),  # 5-11 products for subcategories
+                            'recommended_products': random.randint(8, 13),  # 8-13 products for subcategories
                             'description': subcat['description']
                         }
                         categories.append(subcategory)
@@ -513,7 +513,7 @@ class AmazonScraper:
             
             safe_print(f"[OK] Loaded {len(categories)} categories:")
             safe_print(f"  - {len([c for c in categories if c['level'] == 0])} main categories (15-20 products each)")
-            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories (5-11 products each)")
+            safe_print(f"  - {len([c for c in categories if c['level'] == 1])} subcategories (8-13 products each)")
             return categories
             
         except Exception as e:
@@ -1253,7 +1253,7 @@ class AmazonScraper:
         
         # Use targetKeywords from the category structure
         target_keywords = category.get('targetKeywords', [])
-        recommended_products = category.get('recommended_products', random.randint(5, 8))
+        recommended_products = category.get('recommended_products', random.randint(8, 13))
         
         if not target_keywords:
             safe_print(f"[WARNING] No target keywords for {category_name}")
@@ -1596,7 +1596,7 @@ class AmazonScraper:
             
             if level_categories > 0:
                 level_name = "main_categories" if level == 0 else "subcategories"
-                expected_per_category = "15-20" if level == 0 else "5-11"
+                expected_per_category = "15-20" if level == 0 else "8-13"
                 stats['products_by_level'][level_name] = {
                     'total_products': level_products,
                     'categories': level_categories,
