@@ -81,9 +81,11 @@ class AIProductEnhancer:
         # Calculate product value score
         value_score = (price * 0.4) + (rating * 20) + (review_count * 0.1)
         
-        if value_score > 1000:  # Premium products
-            return 'premium'  # Full AI enhancement
-        elif value_score > 500:  # Standard products  
+        # Ensure all products get comprehensive enhancement
+        # Lowered thresholds to ensure most products get premium treatment
+        if value_score > 200:  # Premium products (lowered from 1000)
+            return 'premium'  # Full AI enhancement with feature_steps and final_verdict
+        elif value_score > 50:  # Standard products (lowered from 500)
             return 'standard'  # Batch AI enhancement
         else:  # Basic products
             return 'basic'  # Template + minimal AI
@@ -372,11 +374,38 @@ Fragen über das tatsächliche Produkt: {product_name}"""
         return clean_desc[:100] if clean_desc else f"{product_name[:50]} - Solo {price}€"
     
     def optimize_product_name(self, original_name):
-        """Optimize product name for SEO and appeal"""
+        """Optimize product name for SEO and appeal - SHORTER and CLEANER"""
         safe_print(f"[AI] Optimizing product name...")
-        prompts = self.get_prompts()
-        prompt = prompts['name_optimization'].format(original_name=original_name)
-        return self.get_ai_response(prompt)
+        
+        prompt = f"""Optimize this product name for SEO (max 50 chars, shorter is better):
+
+Original: "{original_name}"
+
+REQUIREMENTS:
+- Remove redundant words like "avec", "et", "pour", "de la", "du"
+- Keep only essential keywords: brand, product type, key features
+- Make it shorter and more impactful
+- Focus on main product type and brand
+- Remove unnecessary descriptive words
+
+EXAMPLES:
+- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu"
+- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser"
+
+Respond ONLY with the optimized name (no quotes, no explanation)."""
+        
+        response = self.get_ai_response(prompt)
+        
+        # Clean up the response
+        clean_name = response.strip()
+        clean_name = re.sub(r'["\']', '', clean_name)  # Remove quotes
+        clean_name = re.sub(r'[*>#-]', '', clean_name).strip()  # Remove formatting
+        
+        # Ensure it's not too long
+        if len(clean_name) > 60:
+            clean_name = clean_name[:60].rsplit(' ', 1)[0]  # Cut at word boundary
+        
+        return clean_name if clean_name else original_name[:60]
     
     def create_seo_slug(self, product_name):
         """Create SEO-friendly slug"""
@@ -636,7 +665,16 @@ WICHTIG: Antworte NUR mit einem gültigen JSON-Objekt, ohne zusätzlichen Text. 
   "detailed_review": "Ausführliche Bewertung des Produkts mit allen Aspekten",
   "recommendation": "Kaufempfehlung für verschiedene Nutzertypen",
   "comparison": "Kurzer Vergleich mit ähnlichen Produkten",
-  "value_for_money": "Bewertung des Preis-Leistungs-Verhältnisses"
+  "value_for_money": "Bewertung des Preis-Leistungs-Verhältnisses",
+  "final_verdict": "Comprehensive final verdict section that includes: 1) Overall assessment as excellent compromise between quality and accessibility, 2) Key technical specifications and features highlighted, 3) Points to consider with user feedback insights, 4) Final recommendation as judicious investment with quality/price ratio analysis, 5) Target audience identification (families, specific user types). This should be a detailed, professional conclusion similar to expert product reviews.",
+  "feature_steps": [
+    {
+      "step": 1,
+      "title": "Main feature title highlighting key benefit",
+      "description": "Detailed explanation of this feature with technical specifications, materials, and benefits. Include specific details about construction, materials used, and how it improves user experience.",
+      "expanded_content": "Extended detailed content explaining why this feature makes a difference, including technical details, user benefits, and practical advantages. This should be comprehensive and educational."
+    }
+  ]
 }}
 
 BEWERTUNGSKRITERIEN:
@@ -653,7 +691,8 @@ Die Bewertung soll:
 - Objektiv und ausgewogen sein
 - Konkrete Beispiele enthalten
 - Für verschiedene Nutzertypen relevant sein
-- SEO-freundlich formuliert werden"""
+- SEO-freundlich formuliert werden
+- Eine detaillierte finale Einschätzung enthalten, die technische Spezifikationen, Nutzerfeedback und Zielgruppenanalyse umfasst"""
 
         response = self.get_ai_response(prompt)
         
@@ -681,11 +720,50 @@ Die Bewertung soll:
                     return review_data
                 else:
                     safe_print(f"[DEBUG] No JSON object found in review response")
-                    return self._get_default_review(product_name, price)
+                    raise Exception("AI review generation failed - no fallbacks allowed")
                     
             except Exception as e:
                 safe_print(f"[DEBUG] Failed to parse review JSON: {e}")
-                return self._get_default_review(product_name, price)
+                raise Exception("AI review generation failed - no fallbacks allowed")
+    
+    def generate_quick_review(self, product_name, features, price):
+        """Generate a concise 30-second review in the specified language"""
+        safe_print(f"[AI] Generating quick review...")
+        
+        # Create a concise prompt for quick review generation
+        features_text = ", ".join(features[:3]) if features else "Hochwertiges Produkt"
+        
+        # Get language name for better AI understanding
+        language_name = self.language_map.get(self.output_language, 'French')
+        
+        prompt = f"""Create a concise, professional product review in {language_name} for:
+
+Product: {product_name}
+Price: {price}€
+Key Features: {features_text}
+
+IMPORTANT: Respond ONLY with a single paragraph in {language_name}, no additional text. The review should:
+- Be professional and concise (30-40 words max)
+- Highlight the main value proposition
+- Mention key technical specifications
+- Include target audience recommendation
+- Use the style: "Le [Product] mise sur [key benefit] grâce à [specific features]. [Technical details] garantissent [benefits]. [Material/quality details] apportent [advantages]. Idéal si vous cherchez [target audience]."
+
+Example style: "Le Canapé Pivoine mise sur la polyvalence avec intelligence grâce à son angle réversible, sa fonction convertible et son généreux coffre de rangement. Sa structure mixte bois/panneaux et sa mousse haute densité (30kg/m³) garantissent un bon maintien quotidien. Le velours côtelé 100% polyester apporte douceur et élégance. Idéal si vous cherchez un canapé multifonction bien équipé pour optimiser votre salon."
+
+Respond with ONLY the review text in {language_name}:"""
+
+        try:
+            response = self.make_ai_request(prompt)
+            if response and response.strip():
+                return response.strip()
+            else:
+                safe_print(f"[DEBUG] Empty quick review response")
+                raise Exception("AI quick review generation failed - no fallbacks allowed")
+                
+        except Exception as e:
+            safe_print(f"[DEBUG] Failed to generate quick review: {e}")
+            raise Exception("AI quick review generation failed - no fallbacks allowed")
     
     def _get_default_review(self, product_name, price):
         """Generate default review when AI fails"""
@@ -816,6 +894,7 @@ Die Bewertung soll:
             enhanced_specs = self.enhance_specifications(specifications, enhanced_name)
             faq = self.generate_faq(enhanced_name, features, price)
             review_analysis = self.generate_product_review(enhanced_name, features, price, enhanced_specs)
+            quick_review = self.generate_quick_review(enhanced_name, features, price)
             
             # Generate optimized short description
             short_desc = self.create_short_description(enhanced_name, features, price)
@@ -828,6 +907,7 @@ Die Bewertung soll:
                 'specifications': enhanced_specs,
                 'faq': faq,
                 'reviewAnalysis': review_analysis,
+                'quickReview': quick_review,
                 'shortDescription': short_desc,
                 'enhancedAt': datetime.now().isoformat(),
                 'originalName': original_name,
@@ -1126,7 +1206,7 @@ Die Bewertung soll:
 Price: {price}€, Features: {features_text}
 
 HIGH QUALITY REQUIREMENTS:
-- Detailed, persuasive descriptions
+- Detailed, persuasive descriptions (DO NOT repeat short description content)
 - Comprehensive specifications
 - Professional FAQ with specific answers
 - SEO-optimized naming
@@ -1134,11 +1214,12 @@ HIGH QUALITY REQUIREMENTS:
 
 Return JSON:
 {{
-  "name": "Premium SEO name (4-5 words)",
-  "description": "Detailed HTML description (300 words)",
+  "name": "Short SEO name (max 50 chars, remove 'avec', 'et', 'pour')",
+  "description": "Detailed HTML description (300 words) - MUST be different from shortDesc, focus on benefits and features",
   "specs": {{"detailed": "specifications"}},
   "faq": [{{"q": "detailed question", "a": "comprehensive answer"}}],
-  "review": {{"overall_rating":4.5,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment"}},
+  "review": {{"overall_rating":4.5,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment","final_verdict":{{"overall_assessment":"Overall assessment as excellent compromise between quality and accessibility","key_technical_specifications_features":["spec1","spec2","spec3"],"points_to_consider_user_feedback":"Points to consider with user feedback insights","final_recommendation":"Final recommendation as judicious investment with quality/price ratio analysis","target_audience_identification":"Target audience identification (families, specific user types)"}},"feature_steps":[{{"step":1,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":2,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":3,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":4,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":5,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}}]}},
+  "quickReview": "Concise professional review (30-40 words) highlighting main value proposition and target audience",
   "shortDesc": "Compelling short description (120 chars)"
 }}"""
         elif tier == 'standard':
@@ -1147,11 +1228,12 @@ Price: {price}€, Features: {features_text}
 
 Return JSON:
 {{
-  "name": "SEO name (4-5 words)",
-  "description": "HTML description (200 words)",
+  "name": "Short SEO name (max 50 chars, remove 'avec', 'et', 'pour')",
+  "description": "HTML description (200 words) - MUST be different from shortDesc, focus on benefits and features",
   "specs": {{"key": "value"}},
   "faq": [{{"q": "question", "a": "answer"}}],
-  "review": {{"overall_rating":4.0,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1"],"detailed_review":"review text","recommendation":"recommendation","value_for_money":"value assessment"}},
+  "review": {{"overall_rating":4.0,"summary":"summary","strengths":["strength1","strength2"],"weaknesses":["weakness1"],"detailed_review":"review text","recommendation":"recommendation","value_for_money":"value assessment","final_verdict":{{"overall_assessment":"Overall assessment as excellent compromise between quality and accessibility","key_technical_specifications_features":["spec1","spec2","spec3"],"points_to_consider_user_feedback":"Points to consider with user feedback insights","final_recommendation":"Final recommendation as judicious investment with quality/price ratio analysis","target_audience_identification":"Target audience identification (families, specific user types)"}},"feature_steps":[{{"step":1,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":2,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":3,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":4,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":5,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}}]}},
+  "quickReview": "Concise professional review (30-40 words) highlighting main value proposition and target audience",
   "shortDesc": "Short description (100 chars)"
 }}"""
         else:  # basic tier
@@ -1161,10 +1243,11 @@ Price: {price}€
 Return JSON:
 {{
   "name": "Simple name",
-  "description": "Basic description",
+  "description": "Basic description - MUST be different from shortDesc, focus on benefits and features",
   "specs": {{"basic": "spec"}},
   "faq": [{{"q": "Q", "a": "A"}}],
-  "review": {{"overall_rating":4.0,"summary":"basic summary","strengths":["good quality"],"weaknesses":["limited features"],"detailed_review":"basic review","recommendation":"basic recommendation","value_for_money":"good value"}},
+  "review": {{"overall_rating":4.0,"summary":"basic summary","strengths":["good quality"],"weaknesses":["limited features"],"detailed_review":"basic review","recommendation":"basic recommendation","value_for_money":"good value","final_verdict":{{"overall_assessment":"Overall assessment as excellent compromise between quality and accessibility","key_technical_specifications_features":["spec1","spec2","spec3"],"points_to_consider_user_feedback":"Points to consider with user feedback insights","final_recommendation":"Final recommendation as judicious investment with quality/price ratio analysis","target_audience_identification":"Target audience identification (families, specific user types)"}},"feature_steps":[{{"step":1,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":2,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":3,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":4,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}},{{"step":5,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}}]}},
+  "quickReview": "Concise professional review (30-40 words) highlighting main value proposition and target audience",
   "shortDesc": "Short desc"
 }}"""
         
@@ -1184,6 +1267,7 @@ Return JSON:
                 'specifications': data.get('specs', {}),
                 'faq': data.get('faq', []),
                 'review': data.get('review', {}),
+                'quickReview': data.get('quickReview', ''),
                 'shortDescription': data.get('shortDesc', '')
             }
         except:
@@ -1191,23 +1275,45 @@ Return JSON:
             return self.enhance_product_individual_calls(original_name, features, price, specifications)
 
     def enhance_product_individual_calls(self, original_name, features, price, specifications):
-        """Fallback method for individual AI calls"""
-        return {
-            'name': original_name,
-            'description': f"<div><h2>{original_name}</h2><p>Quality product</p></div>",
-            'specifications': {"Quality": "High", "Warranty": "2 years"},
-            'faq': [{"q": "Is it good quality?", "a": "Yes, high quality product."}],
-            'review': {
-                "overall_rating": 4.0,
-                "summary": f"{original_name} offers good quality",
-                "strengths": ["Good quality", "Reliable"],
-                "weaknesses": ["Standard features"],
-                "detailed_review": f"The {original_name} is a quality product.",
-                "recommendation": "Recommended for basic needs.",
-                "value_for_money": "Good value for money."
-            },
-            'shortDescription': f"{original_name} - Quality Product"
-        }
+        """Retry individual AI calls with exponential backoff"""
+        max_retries = 3
+        base_delay = 2
+        
+        for attempt in range(max_retries):
+            try:
+                safe_print(f"[RETRY] Attempt {attempt + 1}/{max_retries} for {original_name[:30]}...")
+                
+                # Generate FAQ
+                faq_data = self.generate_faq_fast(original_name, features, price)
+                
+                # Generate Review Analysis
+                review_data = self.generate_review_fast(original_name, features, price, specifications)
+                
+                # Generate Quick Review
+                quick_review = self.generate_quick_review_fast(original_name, features, price)
+                
+                # Generate short description
+                short_desc = self.create_short_description_fast(original_name, features, price)
+                
+                return {
+                    'name': original_name,
+                    'description': f"<div><h2>{original_name}</h2><p>Découvrez ce produit exceptionnel qui combine qualité et innovation pour répondre à vos besoins. Conçu avec des matériaux de première qualité et une attention particulière aux détails, il offre des performances optimales et une durabilité remarquable. Parfait pour une utilisation quotidienne, ce produit s'intègre parfaitement dans votre mode de vie moderne.</p></div>",
+                    'specifications': specifications,
+                    'faq': faq_data,
+                    'reviewAnalysis': review_data,
+                    'quickReview': quick_review,
+                    'shortDescription': short_desc
+                }
+                
+            except Exception as e:
+                safe_print(f"[RETRY] Attempt {attempt + 1} failed: {str(e)[:100]}")
+                if attempt < max_retries - 1:
+                    delay = base_delay * (2 ** attempt)
+                    safe_print(f"[RETRY] Waiting {delay}s before retry...")
+                    time.sleep(delay)
+                else:
+                    safe_print(f"[ERROR] All {max_retries} attempts failed for {original_name}")
+                    raise Exception(f"AI product enhancement failed after {max_retries} retries")
 
     def validate_enhancement_quality(self, enhanced_data, original_data):
         """Validate enhancement quality and trigger re-generation if needed"""
@@ -1310,69 +1416,35 @@ Return JSON:
             raise Exception(f"Failed to enhance product: {str(e)}")
 
     def optimize_product_name_fast(self, original_name):
-        """AI-powered name optimization with enhanced SEO focus"""
+        """AI-powered name optimization - SHORTER and CLEANER"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
-        prompt = f"""SEO name (4-5 words) for: "{original_name}" in {language_name}. Include brand, key feature, power word. Return only the name."""
+        prompt = f"""Short SEO name (max 50 chars) for: "{original_name}" in {language_name}
+
+REQUIREMENTS:
+- Remove redundant words: "avec", "et", "pour", "de la", "du"
+- Keep only: brand + product type + key feature
+- Make it shorter and impactful
+- Focus on main keywords
+
+EXAMPLES:
+- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu"
+- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser"
+
+Return ONLY the optimized name."""
         
         response = self.get_ai_response_fast(prompt)
         
-        # Clean up the response - remove any conversational text
+        # Clean up the response
         clean_name = response.strip()
+        clean_name = re.sub(r'["\']', '', clean_name)  # Remove quotes
+        clean_name = re.sub(r'[*#-]', '', clean_name).strip()  # Remove formatting
         
-        # Remove common conversational prefixes and patterns
-        conversational_patterns = [
-            r'¡.*?\!.*?(?=\n|$)',
-            r'Aquí tienes.*?(?=\n|$)',
-            r'Como.*?especialista.*?(?=\n|$)',
-            r'Opción.*?(?=\n|$)',
-            r'Nombre SEO.*?(?=\n|$)',
-            r'Título SEO.*?(?=\n|$)',
-            r'Justificación.*?(?=\n|$)',
-            r'Consideraciones.*?(?=\n|$)',
-            r'Análisis.*?(?=\n|$)',
-            r'---.*?(?=\n|$)',
-            r'\*\*.*?\*\*',
-            r'^\d+\.\s*',
-        ]
-        
-        for pattern in conversational_patterns:
-            clean_name = re.sub(pattern, '', clean_name, flags=re.IGNORECASE | re.DOTALL | re.MULTILINE)
-        
-        # Extract just the product name if it's wrapped in quotes or asterisks
-        if '"' in clean_name:
-            match = re.search(r'"([^"]+)"', clean_name)
-            if match:
-                clean_name = match.group(1)
-        
-        # Look for bold text patterns
-        bold_match = re.search(r'\*\*([^*]+)\*\*', clean_name)
-        if bold_match:
-            clean_name = bold_match.group(1)
-        
-        # Remove asterisks and other formatting
-        clean_name = re.sub(r'[*#-]', '', clean_name).strip()
-        
-        # Clean up extra whitespace and newlines
+        # Clean up extra whitespace
         clean_name = re.sub(r'\s+', ' ', clean_name).strip()
         
-        # If still contains conversational text, try to extract the first clean line
-        if any(word in clean_name.lower() for word in ['opción', 'justificación', 'consideraciones', 'análisis', 'como especialista']):
-            lines = clean_name.split('\n')
-            for line in lines:
-                line = line.strip()
-                if line and len(line) > 5 and not any(word in line.lower() for word in ['opción', 'justificación', 'consideraciones', 'análisis', 'como especialista', 'aquí tienes']):
-                    clean_name = line
-                    break
-        
-        # Validate word count - ensure it's 4-5 words maximum
-        words = clean_name.split()
-        if len(words) > 5:
-            # Take only the first 5 words
-            clean_name = ' '.join(words[:5])
-        elif len(words) < 2:
-            # If too short, fall back to original name (truncated)
-            original_words = original_name.split()[:4]
-            clean_name = ' '.join(original_words)
+        # Ensure it's not too long
+        if len(clean_name) > 60:
+            clean_name = clean_name[:60].rsplit(' ', 1)[0]  # Cut at word boundary
         
         return clean_name if clean_name else original_name[:60]
 
@@ -1585,10 +1657,12 @@ Focus on robot/technology specifications for: {original_name}"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""5 SEO FAQ JSON for: {original_name} in {language_name}
+        prompt = f"""Generate 5 SEO-optimized FAQ questions and answers for: {original_name}
+Language: {language_name}
 Format: [{{"question":"Is it easy to use?","answer":"Yes, it's very simple..."}}]
 
 IMPORTANT: Respond ONLY with valid JSON array, no additional text.
+Generate content in {language_name} language.
 Focus on SEO-optimized FAQs covering:
 - Installation and setup
 - Technical specifications
@@ -1670,11 +1744,13 @@ For: {original_name}"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
         features_text = ", ".join(features[:3]) if features else "key features"
         
-        prompt = f"""Review JSON for: {original_name} in {language_name}
-Format: {{"overall_rating":4.5,"summary":"Brief summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment"}}
+        prompt = f"""Generate comprehensive product review analysis for: {original_name}
+Language: {language_name}
+Format: {{"overall_rating":4.5,"summary":"Brief summary","strengths":["strength1","strength2"],"weaknesses":["weakness1","weakness2"],"detailed_review":"detailed text","recommendation":"recommendation","value_for_money":"value assessment","final_verdict":"Comprehensive final verdict section that includes: 1) Overall assessment as excellent compromise between quality and accessibility, 2) Key technical specifications and features highlighted, 3) Points to consider with user feedback insights, 4) Final recommendation as judicious investment with quality/price ratio analysis, 5) Target audience identification (families, specific user types). This should be a detailed, professional conclusion similar to expert product reviews.","feature_steps":[{{"step":1,"title":"Feature title","description":"Brief description","expanded_content":"Detailed explanation"}}]}}
 
 IMPORTANT: Respond ONLY with valid JSON object, no additional text.
-Include strengths, weaknesses, and detailed analysis for: {original_name}"""
+Generate ALL content in {language_name} language.
+Include strengths, weaknesses, detailed analysis, comprehensive final verdict, and 5 feature steps for: {original_name}"""
         
         try:
             response = self.get_ai_response_fast(prompt)
@@ -1717,30 +1793,45 @@ Include strengths, weaknesses, and detailed analysis for: {original_name}"""
             except json.JSONDecodeError:
                 pass
                 
-            # If all parsing fails, return default review instead of raising error
-            safe_print(f"[WARNING] Could not parse review JSON, using defaults")
-            return {
-                "overall_rating": 4.0,
-                "summary": f"{original_name} offers good quality at {price}€",
-                "strengths": ["Good build quality", "Easy to use", "Good value"],
-                "weaknesses": ["Limited features", "Standard design"],
-                "detailed_review": f"The {original_name} is a solid product that delivers good performance for its price point.",
-                "recommendation": "Recommended for users seeking reliable functionality.",
-                "value_for_money": "Good value for money with essential features."
-            }
+            # If all parsing fails, raise error instead of using defaults
+            safe_print(f"[ERROR] Could not parse review JSON")
+            raise Exception("AI review generation failed - no fallbacks allowed")
             
         except Exception as e:
             safe_print(f"[ERROR] Review generation failed: {e}")
-            # Return default review instead of raising error
-            return {
-                "overall_rating": 4.0,
-                "summary": f"{original_name} offers good quality at {price}€",
-                "strengths": ["Good build quality", "Easy to use", "Good value"],
-                "weaknesses": ["Limited features", "Standard design"],
-                "detailed_review": f"The {original_name} is a solid product that delivers good performance for its price point.",
-                "recommendation": "Recommended for users seeking reliable functionality.",
-                "value_for_money": "Good value for money with essential features."
-            }
+            raise Exception("AI review generation failed - no fallbacks allowed")
+
+    def generate_quick_review_fast(self, original_name, features, price):
+        """Generate a concise 30-second review - FAST version"""
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        features_text = ", ".join(features[:3]) if features else "key features"
+        
+        prompt = f"""Create a concise, professional product review in {language_name} for: {original_name}
+Price: {price}€
+Key Features: {features_text}
+
+IMPORTANT: Respond ONLY with a single paragraph in {language_name}, no additional text. The review should:
+- Be professional and concise (30-40 words max)
+- Highlight the main value proposition
+- Mention key technical specifications
+- Include target audience recommendation
+- Use the style: "Le [Product] mise sur [key benefit] grâce à [specific features]. [Technical details] garantissent [benefits]. [Material/quality details] apportent [advantages]. Idéal si vous cherchez [target audience]."
+
+Example style: "Le Canapé Pivoine mise sur la polyvalence avec intelligence grâce à son angle réversible, sa fonction convertible et son généreux coffre de rangement. Sa structure mixte bois/panneaux et sa mousse haute densité (30kg/m³) garantissent un bon maintien quotidien. Le velours côtelé 100% polyester apporte douceur et élégance. Idéal si vous cherchez un canapé multifonction bien équipé pour optimiser votre salon."
+
+Respond with ONLY the review text in {language_name}:"""
+
+        try:
+            response = self.get_ai_response_fast(prompt)
+            if response and response.strip():
+                return response.strip()
+            else:
+                safe_print(f"[DEBUG] Empty quick review response")
+                raise Exception("AI quick review generation failed - no fallbacks allowed")
+                
+        except Exception as e:
+            safe_print(f"[DEBUG] Failed to generate quick review: {e}")
+            raise Exception("AI quick review generation failed - no fallbacks allowed")
 
     def create_short_description_fast(self, original_name, features, price):
         """AI-powered short description with product-specific prompts"""
@@ -1821,24 +1912,8 @@ Respond ONLY with description:"""
                 safe_print(f"[SLOW] Total AI request time: {total_time:.2f}s")
     
     def _get_fallback_response(self, prompt):
-        """Generate fallback response when AI fails"""
-        if "JSON" in prompt or "json" in prompt:
-            if "FAQ" in prompt or "faq" in prompt:
-                return '[{"question":"¿Es fácil de usar?","answer":"Sí, es muy simple y intuitivo."}]'
-            else:
-                return '{"Garantía":"2 años","Envío":"Gratis","Material":"Alta calidad"}'
-        elif "description" in prompt.lower():
-            return f"Producto de alta calidad con tecnología avanzada. Envío gratuito incluido."
-        elif "name" in prompt.lower() or "nombre" in prompt.lower():
-            # Extract key features from the original name for fallback
-            if "tablet" in prompt.lower() or "tableta" in prompt.lower():
-                return "Tableta Android Premium | Alta Calidad | Envío Gratis"
-            elif "robot" in prompt.lower():
-                return "Robot Inteligente | Tecnología Avanzada | Envío Gratis"
-            else:
-                return "Producto Premium | Alta Calidad | Envío Gratis"
-        else:
-            return "Producto optimizado para mejor rendimiento y calidad."
+        """No fallback - raise error when AI fails"""
+        raise Exception("AI generation failed - no fallbacks allowed")
 
     def _raise_ai_error(self, content_type):
         """Raise error when AI fails - no fallbacks allowed"""

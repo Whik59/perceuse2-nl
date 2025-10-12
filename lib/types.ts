@@ -33,6 +33,8 @@ export interface Product {
   
   // AI enhanced fields
   faq?: FAQItem[];
+  reviewAnalysis?: ReviewAnalysis;
+  quickReview?: string;
   
   // Remove inventory and shipping as they're not needed for affiliate
 }
@@ -54,6 +56,34 @@ export interface VariationOption {
 export interface FAQItem {
   question: string;
   answer: string;
+  q?: string;  // Alternative key for question
+  a?: string;  // Alternative key for answer
+}
+
+export interface FeatureStep {
+  step: number;
+  title: string;
+  description: string;
+  expanded_content: string;
+}
+
+export interface ReviewAnalysis {
+  overall_rating: number;
+  summary: string;
+  strengths: string[];
+  weaknesses: string[];
+  detailed_review: string;
+  recommendation: string;
+  comparison?: string;
+  value_for_money: string;
+  final_verdict?: string | {
+    overall_assessment?: string;
+    key_technical_specifications?: string;
+    points_to_consider?: string;
+    final_recommendation?: string;
+    target_audience?: string;
+  };
+  feature_steps?: FeatureStep[];
 }
 
 export interface Category {

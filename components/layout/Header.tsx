@@ -139,6 +139,9 @@ const Header: React.FC<HeaderProps> = ({
   const [expandedMobileCategories, setExpandedMobileCategories] = useState<Set<number>>(new Set());
   const [isSupportOpen, setIsSupportOpen] = useState(false);
   const [dropdownTimeout, setDropdownTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
+  const [showSuggestions, setShowSuggestions] = useState(false);
+  const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout | null>(null);
 
   // Enhanced dropdown hover handlers with delay
   const handleDropdownEnter = (categoryId: number) => {
@@ -200,13 +203,68 @@ const Header: React.FC<HeaderProps> = ({
     }
   }, [])
 
-  const handleSearchSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (onSearchSubmit && searchQuery.trim()) {
-      onSearchSubmit(searchQuery.trim());
-      setSearchQuery('');
+  // Fetch search suggestions
+  const fetchSuggestions = async (query: string) => {
+    if (query.length < 2) {
+      setSearchSuggestions([]);
+      setShowSuggestions(false);
+      return;
+    }
+
+    try {
+      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&type=suggestions`);
+      const data = await response.json();
+      setSearchSuggestions(data.suggestions || []);
+      setShowSuggestions(true);
+    } catch (error) {
+      console.error('Error fetching suggestions:', error);
+      setSearchSuggestions([]);
+      setShowSuggestions(false);
     }
   };
+
+  // Handle search input change with debouncing
+  const handleSearchInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value;
+    setSearchQuery(value);
+
+    // Clear existing timeout
+    if (searchTimeout) {
+      clearTimeout(searchTimeout);
+    }
+
+    // Set new timeout for debounced search
+    const timeout = setTimeout(() => {
+      fetchSuggestions(value);
+    }, 300);
+
+    setSearchTimeout(timeout);
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      // Redirect to search page
+      window.location.href = `/search?q=${encodeURIComponent(searchQuery.trim())}`;
+      setSearchQuery('');
+      setShowSuggestions(false);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion: string) => {
+    setSearchQuery(suggestion);
+    window.location.href = `/search?q=${encodeURIComponent(suggestion)}`;
+    setShowSuggestions(false);
+  };
+
+  // Cleanup timeouts on unmount
+  useEffect(() => {
+    return () => {
+      if (searchTimeout) {
+        clearTimeout(searchTimeout);
+      }
+    };
+  }, [searchTimeout]);
 
   // Get parent categories and sort by number of subcategories (most subcategories first)
   const parentCategories = categories
@@ -296,21 +354,43 @@ const Header: React.FC<HeaderProps> = ({
 
           {/* Search Bar - Desktop */}
           <div className="flex-1 max-w-2xl mx-8 hidden md:block">
-            <form onSubmit={handleSearchSubmit} className="relative">
-              <input
-                type="text"
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder={getString('header.search.placeholder')}
-                className="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all bg-gray-50 hover:bg-white"
-              />
-              <button
-                type="submit"
-                className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors"
-              >
-                <Search className="w-5 h-5" />
-              </button>
-            </form>
+            <div className="relative">
+              <form onSubmit={handleSearchSubmit} className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={handleSearchInputChange}
+                  onFocus={() => searchQuery.length >= 2 && setShowSuggestions(true)}
+                  onBlur={() => setTimeout(() => setShowSuggestions(false), 200)}
+                  placeholder={getString('header.search.placeholder')}
+                  className="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all bg-gray-50 hover:bg-white"
+                />
+                <button
+                  type="submit"
+                  className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors"
+                >
+                  <Search className="w-5 h-5" />
+                </button>
+              </form>
+
+              {/* Search Suggestions Dropdown */}
+              {showSuggestions && searchSuggestions.length > 0 && (
+                <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-60 overflow-y-auto">
+                  {searchSuggestions.map((suggestion, index) => (
+                    <button
+                      key={index}
+                      onClick={() => handleSuggestionClick(suggestion)}
+                      className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0"
+                    >
+                      <div className="flex items-center space-x-3">
+                        <Search className="w-4 h-4 text-gray-400" />
+                        <span className="text-gray-900">{suggestion}</span>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Right Side Actions */}

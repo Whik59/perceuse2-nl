@@ -146,7 +146,8 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
   };
 
   const handleSearch = (query: string) => {
-    console.log('Search:', query);
+    // Redirect to search page
+    window.location.href = `/search?q=${encodeURIComponent(query)}`;
   };
 
    const cartItemCount = cart.items.reduce((total, item) => total + item.quantity, 0);

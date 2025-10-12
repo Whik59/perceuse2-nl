@@ -954,7 +954,7 @@ class AmazonScraper:
         try:
             # Extract hiRes images (highest quality)
             hires_images = re.findall(r'"hiRes":"([^"]+)"', response_text)
-            safe_print(f"  [DEBUG] Found {len(hires_images)} hiRes images")
+            safe_print(f"  [DEBUG] Found {len(hires_images)} hiRes images, using first 5")
             
             for img_url in hires_images[:5]:  # Limit to 5 images
                 clean_url = img_url.replace('\\/', '/')
@@ -964,7 +964,7 @@ class AmazonScraper:
             # If we don't have 5 images yet, get large images
             if len(carousel_images) < 5:
                 large_images = re.findall(r'"large":"([^"]+)"', response_text)
-                safe_print(f"  [DEBUG] Found {len(large_images)} large images")
+                safe_print(f"  [DEBUG] Found {len(large_images)} large images, adding to reach 5 total")
                 
                 for img_url in large_images:
                     if len(carousel_images) >= 5:
@@ -976,7 +976,7 @@ class AmazonScraper:
             # If still not enough, get main images
             if len(carousel_images) < 5:
                 main_images = re.findall(r'"main":"([^"]+)"', response_text)
-                safe_print(f"  [DEBUG] Found {len(main_images)} main images")
+                safe_print(f"  [DEBUG] Found {len(main_images)} main images, adding to reach 5 total")
                 
                 for img_url in main_images:
                     if len(carousel_images) >= 5:
@@ -1018,6 +1018,9 @@ class AmazonScraper:
                     carousel_videos.append(clean_url)
         except Exception as e:
             safe_print(f"  [WARNING] Video extraction failed: {e}")
+        
+        # Log final image count
+        safe_print(f"  [OK] Extracted {len(carousel_images)} carousel images and {len(carousel_videos)} videos")
         
         # Enhance image quality by upgrading Amazon's size parameters
         enhanced_images = []

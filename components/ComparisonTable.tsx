@@ -31,11 +31,33 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
   const limitedProducts = products.slice(0, 5);
 
   const renderCellContent = (product: ComparisonProduct, column: string, index: number) => {
-    // Debug: Log available fields for troubleshooting
-    if (column.toLowerCase() === 'modèle') {
-      console.log('Available product fields:', Object.keys(product));
-    }
     // Handle special cases first
+    if (column.toLowerCase() === 'rang') {
+      return (
+        <div className="flex items-center justify-center space-x-2">
+          <div className="w-8 h-8 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center">
+            <span className="text-white font-bold text-sm">
+              {product.rank || product.rang || index + 1}
+            </span>
+          </div>
+          {product.image && (
+            <div className="w-10 h-10 rounded-lg overflow-hidden">
+              <Image
+                src={product.image}
+                alt={product.name}
+                width={40}
+                height={40}
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+            </div>
+          )}
+        </div>
+      );
+    }
+    
     if (column.toLowerCase() === 'modèle') {
       return (
         <div className="flex items-center space-x-3">
@@ -63,7 +85,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
               {product.name}
             </h3>
             <div className="flex items-center mt-1">
-              <span className="text-xs text-gray-500">#{product.rank || index + 1}</span>
+              <span className="text-xs text-gray-500">#{product.rank || product.rang || index + 1}</span>
             </div>
           </div>
         </div>
@@ -71,8 +93,20 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
     }
     
     if (column.toLowerCase().includes('prix')) {
-      // Clean the price to remove any existing € symbols and format properly
-      const cleanPrice = product.price?.toString().replace(/[€,]/g, '').trim() || '0';
+      // Handle different price formats from the data
+      let priceValue = product.price || product.prix || '0';
+      
+      // If it's already formatted with €, use it as is
+      if (typeof priceValue === 'string' && priceValue.includes('€')) {
+        return (
+          <span className="text-lg font-bold text-green-600">
+            {priceValue}
+          </span>
+        );
+      }
+      
+      // Otherwise, clean and format the price
+      const cleanPrice = priceValue.toString().replace(/[€,]/g, '').trim() || '0';
       const formattedPrice = parseFloat(cleanPrice).toFixed(2);
       return (
         <span className="text-lg font-bold text-green-600">
@@ -81,12 +115,13 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       );
     }
     
-    if (column.toLowerCase().includes('note')) {
+    if (column.toLowerCase().includes('note') || column.toLowerCase().includes('évaluation')) {
+      const ratingValue = product.rating || product.note || product.évaluation || 'N/A';
       return (
         <div className="flex items-center space-x-1">
           <Star className="w-4 h-4 text-yellow-400 fill-current" />
           <span className="text-sm font-semibold text-gray-900">
-            {product.rating}
+            {ratingValue}
           </span>
         </div>
       );
@@ -112,7 +147,14 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
         'seuils': ['seuilsFranchissables', 'seuils', 'hauteur'],
         'hauteur': ['hauteur', 'height', 'épaisseur'],
         'lavage': ['lavage', 'fonctionnalites_lavage', 'wash'],
-        'système': ['systeme_navigation', 'navigation', 'nav']
+        'système': ['systeme_navigation', 'navigation', 'nav'],
+        'matériaux': ['materiaux_principaux', 'matériaux', 'materials'],
+        'couleur': ['couleur_principale', 'couleur', 'color', 'couleurs'],
+        'caractéristiques': ['caracteristique_cle', 'caracteristiques_specifiques', 'caractéristiques', 'features', 'spécifications'],
+        'marque': ['marque', 'brand', 'fabricant'],
+        'catégorie': ['categorie_de_produit', 'catégorie', 'category'],
+        'utilisation': ['utilisation_principale', 'utilisation', 'usage'],
+        'évaluation': ['évaluation', 'note', 'rating', 'score']
       };
       
       // Find matching field
@@ -210,7 +252,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       {/* Footer */}
       <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
         <p className="text-sm text-gray-600 text-center">
-          Vergleich der {limitedProducts.length} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt zu sehen. Preise können variieren.
+          Comparaison des {limitedProducts.length} meilleurs produits basée sur les spécifications et les avis clients. Cliquez sur une ligne pour voir le produit. Les prix peuvent varier.
         </p>
       </div>
     </div>

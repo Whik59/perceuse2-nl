@@ -76,6 +76,8 @@ export async function GET(
       features: productData.features || [],
       specifications: productData.specifications || {},
       faq: productData.faq || [],
+      reviewAnalysis: productData.reviewAnalysis || null,
+      quickReview: productData.quickReview || null,
       seo: productData.seo || {
         title: productData.name || 'Product',
         description: productData.shortDescription || 'Premium product',

@@ -115,7 +115,8 @@
     "bestSeller": "Meilleure vente",
     "almostSoldOut": "Stock limité",
     "amazonPrime": "Livraison Prime disponible",
-    "freeShipping": "Livraison gratuite"
+    "freeShipping": "Livraison gratuite",
+    "cartDiscount": "-30% si vous l'ajouter au panier SUR LE LIEN EN BAS dans les 5 minutes !"
   },
   "amazon": {
     "buyOnAmazon": "Acheter sur Amazon",
@@ -372,6 +373,15 @@
     "specifications": "Spécifications",
     "customerReviews": "Avis clients",
     "faq": "Questions fréquemment posées",
+    "quickReview": "Notre Avis en 30 Secondes",
+    "reviewAnalysis": "Avis",
+    "reviewAnalysisSummary": "Analyse complète du produit",
+    "reviewAnalysisStrengths": "Points Forts",
+    "reviewAnalysisWeaknesses": "Points à Améliorer",
+    "reviewAnalysisDetailed": "Analyse Détaillée",
+    "reviewAnalysisRecommendation": "Recommandation",
+    "reviewAnalysisValue": "Rapport Qualité-Prix",
+    "reviewAnalysisFinalVerdict": "Notre Avis Final",
     "alsoLike": "Cela pourrait aussi vous plaire",
     "alsoLikeSubtitle": "Autres drones qui pourraient vous intéresser",
     "buyNow": "Acheter maintenant",

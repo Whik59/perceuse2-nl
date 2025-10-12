@@ -28,8 +28,63 @@ import {
   ZoomIn,
   ThumbsUp,
   Headphones,
-  CreditCard
+  CreditCard,
+  AlertTriangle
 } from 'lucide-react';
+
+// Feature Step Card Component
+const FeatureStepCard: React.FC<{ step: any }> = ({ step }) => {
+  const [isExpanded, setIsExpanded] = React.useState(false);
+
+  return (
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200">
+      <div className="flex items-center p-6">
+        {/* Step Number */}
+        <div className="w-8 h-8 bg-white border border-gray-300 rounded-full flex items-center justify-center flex-shrink-0 mr-4">
+          <span className="text-sm font-semibold text-gray-900">{step.step}</span>
+        </div>
+        
+        {/* Content */}
+        <div className="flex-1 min-w-0">
+          <h4 className="font-semibold text-gray-900 mb-2 leading-tight">
+            {step.title}
+          </h4>
+          <p className="text-gray-700 text-sm leading-relaxed">
+            {step.description}
+          </p>
+          
+          {/* Expanded Content */}
+          {isExpanded && step.expanded_content && (
+            <div className="mt-4 pt-4 border-t border-gray-100">
+              <div className="text-gray-700 leading-relaxed whitespace-pre-line">
+                {step.expanded_content}
+              </div>
+            </div>
+          )}
+        </div>
+        
+        {/* Expand/Collapse Button */}
+        {step.expanded_content && (
+          <button
+            onClick={() => setIsExpanded(!isExpanded)}
+            className="ml-4 p-2 hover:bg-gray-50 rounded-lg transition-colors flex-shrink-0"
+          >
+            {isExpanded ? (
+              <Minus className="w-5 h-5 text-gray-600" />
+            ) : (
+              <Plus className="w-5 h-5 text-gray-600" />
+            )}
+          </button>
+        )}
+      </div>
+      
+      {/* Connecting Line */}
+      <div className="flex justify-center">
+        <div className="w-px h-4 bg-gray-200"></div>
+      </div>
+    </div>
+  );
+};
 
 const ProductDetailPage: React.FC = () => {
   const params = useParams();
@@ -638,19 +693,21 @@ const ProductDetailPage: React.FC = () => {
                   )}
                 </div>
                 
-                {/* Clean Payment Info */}
-                <div className="flex flex-wrap gap-6 text-sm text-gray-600">
-                  <div className="flex items-center space-x-2">
-                    <CreditCard className="w-4 h-4" />
-                    <span className="font-medium">{getString('product.paymentInstallments')}</span>
+                {/* Compact Trust Signals */}
+                <div className="flex flex-wrap gap-4 mt-6">
+                  <div className="flex items-center space-x-2 bg-blue-50 rounded-lg px-3 py-2 border border-blue-100">
+                    <CreditCard className="w-4 h-4 text-blue-600" />
+                    <span className="text-sm font-medium text-blue-700">{getString('product.paymentInstallments')}</span>
                   </div>
-                  <div className="flex items-center space-x-2">
-                    <Shield className="w-4 h-4" />
-                    <span className="font-medium">{getString('product.secureTransaction')}</span>
+                  
+                  <div className="flex items-center space-x-2 bg-green-50 rounded-lg px-3 py-2 border border-green-100">
+                    <Shield className="w-4 h-4 text-green-600" />
+                    <span className="text-sm font-medium text-green-700">{getString('product.secureTransaction')}</span>
                   </div>
-                  <div className="flex items-center space-x-2">
-                    <Truck className="w-4 h-4" />
-                    <span className="font-medium">{getString('product.delivery48h')}</span>
+                  
+                  <div className="flex items-center space-x-2 bg-purple-50 rounded-lg px-3 py-2 border border-purple-100">
+                    <Truck className="w-4 h-4 text-purple-600" />
+                    <span className="text-sm font-medium text-purple-700">{getString('product.delivery48h')}</span>
                   </div>
                 </div>
               </div>
@@ -693,6 +750,12 @@ const ProductDetailPage: React.FC = () => {
               {/* CTA */}
               {!isOutOfStock && (
                 <div className="space-y-6">
+                  {/* Urgency Text */}
+                  <div className="text-center">
+                    <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-sm animate-pulse shadow-lg">
+                      {getString('urgency.cartDiscount')}
+                    </div>
+                  </div>
 
                   {/* Premium CTA Buttons */}
                   <div className="space-y-6">
@@ -710,43 +773,7 @@ const ProductDetailPage: React.FC = () => {
                 </div>
               )}
 
-              {/* Refined Trust Signals */}
-              <div className="border-t border-neutral-100 pt-8">
-                <div className="grid grid-cols-1 gap-6">
-                  {[
-                    {
-                      icon: Truck,
-                      title: getString('trustSignals.freeShipping'),
-                      subtitle: getString('promotions.freeShipping')
-                    },
-                    {
-                      icon: RefreshCw,
-                      title: getString('trustSignals.freeReturns'),
-                      subtitle: getString('trustSignals.freeReturns')
-                    },
-                    {
-                      icon: Shield,
-                      title: getString('trustSignals.warranty'),
-                      subtitle: getString('trustSignals.warranty')
-                    },
-                    {
-                      icon: Headphones,
-                      title: getString('trustSignals.expertSupport'),
-                      subtitle: getString('trustSignals.customerSupport')
-                    }
-                  ].map((item, index) => (
-                    <div key={index} className="flex items-center space-x-4">
-                      <div className="w-10 h-10 bg-neutral-50 rounded-full flex items-center justify-center">
-                        <item.icon className="w-4 h-4 text-neutral-600" />
-                      </div>
-                      <div>
-                        <p className="font-medium text-neutral-900 text-sm">{item.title}</p>
-                        <p className="text-neutral-600 text-xs">{item.subtitle}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
+              {/* Trust Signals section removed */}
             </div>
           </div>
 
@@ -795,7 +822,7 @@ const ProductDetailPage: React.FC = () => {
                           : 'border-transparent text-neutral-500 hover:text-neutral-700 hover:border-neutral-300'
                       }`}
                     >
-                      {getString('product.faq')}
+                      {getString('product.faq')} ({product.faq.length})
                     </button>
                   )}
                 </nav>
@@ -803,12 +830,31 @@ const ProductDetailPage: React.FC = () => {
 
               {/* Tab Content */}
               <div className="prose prose-neutral prose-lg max-w-none">
-                {activeTab === 'description' && (
-                  <>
-                    <div className="text-neutral-700 leading-relaxed mb-8" 
-                         dangerouslySetInnerHTML={{ __html: productLongDescription }} />
-                    
-                    {/* Key Features */}
+                  {activeTab === 'description' && (
+                    <>
+                     {/* Quick Review Section */}
+                     {product?.quickReview && (
+                       <div className="bg-gray-50 border-l-4 border-teal-600 p-6 mb-8">
+                         <div className="flex items-start space-x-2 mb-4">
+                           <div className="text-gray-400 text-2xl">"</div>
+                           <div className="text-gray-400 text-2xl">"</div>
+                           <h3 className="text-teal-600 font-semibold text-lg uppercase tracking-wide">
+                             {getString('product.quickReview')}
+                           </h3>
+                         </div>
+                         <div className="text-gray-800 leading-relaxed text-base">
+                           {product.quickReview}
+                         </div>
+                       </div>
+                     )}
+                     
+                     {/* Fallback to original description if no quick review */}
+                     {!product?.quickReview && (
+                       <div className="text-neutral-700 leading-relaxed mb-8" 
+                            dangerouslySetInnerHTML={{ __html: productLongDescription }} />
+                     )}
+                     
+                     {/* Key Features */}
                     {productFeatures.length > 0 && (
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
                         {productFeatures.map((feature, index) => (
@@ -848,8 +894,8 @@ const ProductDetailPage: React.FC = () => {
                     <div className="space-y-6">
                       {product.faq.map((item, index) => (
                         <div key={index} className="border-b border-neutral-100 pb-6">
-                          <h4 className="font-medium text-neutral-900 mb-3">{item.question}</h4>
-                          <p className="text-neutral-700 leading-relaxed">{item.answer}</p>
+                          <h4 className="font-medium text-neutral-900 mb-3">{item.question || item.q}</h4>
+                          <p className="text-neutral-700 leading-relaxed">{item.answer || item.a}</p>
                         </div>
                       ))}
                     </div>
@@ -860,6 +906,229 @@ const ProductDetailPage: React.FC = () => {
                   <Reviews />
                 )}
               </div>
+
+              {/* Review Analysis Section */}
+              {product?.reviewAnalysis && (
+                <div className="mt-20">
+                  <div className="text-center mb-16">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-6">
+                      <Star className="w-8 h-8 text-white fill-white" />
+                    </div>
+                    <h2 className="text-4xl font-bold text-neutral-900 mb-6">
+                      {getString('product.reviewAnalysis')} {productTitle}
+                    </h2>
+                    <div className="flex items-center justify-center space-x-6 mb-8">
+                      <div className="text-center">
+                        <span className="text-6xl font-light text-neutral-900 block">
+                          {product?.reviewAnalysis?.overall_rating?.toFixed(1) || '4.0'}
+                        </span>
+                        <div className="flex items-center justify-center mt-2">
+                          {[...Array(5)].map((_, i) => {
+                            const rating = product?.reviewAnalysis?.overall_rating || 4.0;
+                            const starValue = i + 1;
+                            
+                            if (starValue <= Math.floor(rating)) {
+                              return (
+                                <Star
+                                  key={i}
+                                  className="w-6 h-6 text-yellow-400 fill-yellow-400 mx-0.5"
+                                />
+                              );
+                            } else if (starValue === Math.ceil(rating) && rating % 1 !== 0) {
+                              const fillPercentage = (rating % 1) * 100;
+                              return (
+                                <div key={i} className="relative w-6 h-6 mx-0.5">
+                                  <Star className="w-6 h-6 text-gray-300" />
+                                  <div 
+                                    className="absolute top-0 left-0 overflow-hidden"
+                                    style={{ width: `${fillPercentage}%` }}
+                                  >
+                                    <Star className="w-6 h-6 text-yellow-400 fill-yellow-400" />
+                                  </div>
+                                </div>
+                              );
+                            } else {
+                              return (
+                                <Star
+                                  key={i}
+                                  className="w-6 h-6 text-gray-300 mx-0.5"
+                                />
+                              );
+                            }
+                          })}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="max-w-3xl mx-auto">
+                      <p className="text-xl text-neutral-700 font-medium leading-relaxed">
+                        {product.reviewAnalysis.summary || getString('product.reviewAnalysisSummary')}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Strengths and Weaknesses */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    {/* Strengths */}
+                    <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 border border-green-100 shadow-sm">
+                      <div className="flex items-center space-x-3 mb-6">
+                        <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center shadow-lg">
+                          <Check className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-2xl font-bold text-green-800">
+                          {getString('product.reviewAnalysisStrengths')}
+                        </h3>
+                      </div>
+                      <ul className="space-y-4">
+                        {product.reviewAnalysis.strengths?.map((strength, index) => (
+                          <li key={index} className="flex items-start space-x-3">
+                            <div className="w-2 h-2 bg-green-500 rounded-full mt-3 flex-shrink-0"></div>
+                            <span className="text-green-800 font-medium leading-relaxed">{strength}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    {/* Weaknesses */}
+                    <div className="bg-gradient-to-br from-orange-50 to-amber-50 rounded-2xl p-8 border border-orange-100 shadow-sm">
+                      <div className="flex items-center space-x-3 mb-6">
+                        <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
+                          <AlertTriangle className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-2xl font-bold text-orange-800">
+                          {getString('product.reviewAnalysisWeaknesses')}
+                        </h3>
+                      </div>
+                      <ul className="space-y-4">
+                        {product.reviewAnalysis.weaknesses?.map((weakness, index) => (
+                          <li key={index} className="flex items-start space-x-3">
+                            <div className="w-2 h-2 bg-orange-500 rounded-full mt-3 flex-shrink-0"></div>
+                            <span className="text-orange-800 font-medium leading-relaxed">{weakness}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+
+                  {/* Detailed Review */}
+                  {product.reviewAnalysis.detailed_review && (
+                    <div className="bg-gradient-to-br from-neutral-50 to-gray-50 rounded-2xl p-8 mb-12 border border-neutral-200 shadow-sm">
+                      <div className="flex items-center space-x-3 mb-6">
+                        <div className="w-12 h-12 bg-neutral-600 rounded-full flex items-center justify-center shadow-lg">
+                          <Star className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-2xl font-bold text-neutral-900">
+                          {getString('product.reviewAnalysisDetailed')}
+                        </h3>
+                      </div>
+                      <div className="prose prose-lg max-w-none">
+                        <p className="text-neutral-700 leading-relaxed text-lg">
+                          {product.reviewAnalysis.detailed_review}
+                        </p>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Recommendation and Value */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+                    {product.reviewAnalysis.recommendation && (
+                      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 shadow-sm">
+                        <div className="flex items-center space-x-3 mb-4">
+                          <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center shadow-lg">
+                            <Check className="w-5 h-5 text-white" />
+                          </div>
+                          <h3 className="text-xl font-bold text-blue-800">
+                            {getString('product.reviewAnalysisRecommendation')}
+                          </h3>
+                        </div>
+                        <p className="text-blue-800 font-medium leading-relaxed">{product.reviewAnalysis.recommendation}</p>
+                      </div>
+                    )}
+                    {product.reviewAnalysis.value_for_money && (
+                      <div className="bg-gradient-to-br from-purple-50 to-violet-50 rounded-2xl p-8 border border-purple-100 shadow-sm">
+                        <div className="flex items-center space-x-3 mb-4">
+                          <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center shadow-lg">
+                            <Star className="w-5 h-5 text-white" />
+                          </div>
+                          <h3 className="text-xl font-bold text-purple-800">
+                            {getString('product.reviewAnalysisValue')}
+                          </h3>
+                        </div>
+                        <p className="text-purple-800 font-medium leading-relaxed">{product.reviewAnalysis.value_for_money}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Feature Steps */}
+                  {product.reviewAnalysis.feature_steps && product.reviewAnalysis.feature_steps.length > 0 && (
+                    <div className="mb-12">
+                      <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
+                        Pourquoi Choisir {productTitle}
+                      </h3>
+                      <div className="space-y-4">
+                        {product.reviewAnalysis.feature_steps.map((step, index) => (
+                          <FeatureStepCard key={step.step} step={step} />
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Final Verdict */}
+                  {product.reviewAnalysis.final_verdict && (
+                    <div className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-8 border border-emerald-100 shadow-sm">
+                      <div className="flex items-center space-x-3 mb-6">
+                        <div className="w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center shadow-lg">
+                          <Star className="w-6 h-6 text-white" />
+                        </div>
+                        <h3 className="text-2xl font-bold text-emerald-800">
+                          {getString('product.reviewAnalysisFinalVerdict')}
+                        </h3>
+                      </div>
+                      <div className="prose prose-lg max-w-none">
+                        <div className="text-emerald-800 leading-relaxed text-lg">
+                          {typeof product.reviewAnalysis.final_verdict === 'string' ? (
+                            <div className="whitespace-pre-line">
+                              {product.reviewAnalysis.final_verdict}
+                            </div>
+                          ) : (
+                            <div className="space-y-4">
+                              {product.reviewAnalysis.final_verdict?.overall_assessment && (
+                                <div>
+                                  <h4 className="font-semibold mb-2">Évaluation Globale</h4>
+                                  <p>{product.reviewAnalysis.final_verdict.overall_assessment}</p>
+                                </div>
+                              )}
+                              {product.reviewAnalysis.final_verdict?.key_technical_specifications && (
+                                <div>
+                                  <h4 className="font-semibold mb-2">Spécifications Techniques</h4>
+                                  <p>{product.reviewAnalysis.final_verdict.key_technical_specifications}</p>
+                                </div>
+                              )}
+                              {product.reviewAnalysis.final_verdict?.points_to_consider && (
+                                <div>
+                                  <h4 className="font-semibold mb-2">Points à Considérer</h4>
+                                  <p>{product.reviewAnalysis.final_verdict.points_to_consider}</p>
+                                </div>
+                              )}
+                              {product.reviewAnalysis.final_verdict?.final_recommendation && (
+                                <div>
+                                  <h4 className="font-semibold mb-2">Recommandation Finale</h4>
+                                  <p>{product.reviewAnalysis.final_verdict.final_recommendation}</p>
+                                </div>
+                              )}
+                              {product.reviewAnalysis.final_verdict?.target_audience && (
+                                <div>
+                                  <h4 className="font-semibold mb-2">Public Cible</h4>
+                                  <p>{product.reviewAnalysis.final_verdict.target_audience}</p>
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
 
               {/* Reviews Summary */}
               <div className="mt-16 bg-neutral-50 rounded-2xl p-8">
@@ -1111,6 +1380,13 @@ const ProductDetailPage: React.FC = () => {
                 </div>
               </a>
               
+              {/* Urgency Text */}
+              <div className="text-center mb-4">
+                <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-sm animate-pulse shadow-lg">
+                  {getString('urgency.cartDiscount')}
+                </div>
+              </div>
+
               {/* Buy Button with Enhanced Design */}
               <a
                 href={product.amazonUrl}
