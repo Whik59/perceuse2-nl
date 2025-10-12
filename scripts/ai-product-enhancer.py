@@ -19,6 +19,9 @@ import concurrent.futures
 from threading import Lock
 import threading
 
+# Set cache directory to data folder
+os.environ['PYTHONPYCACHEPREFIX'] = os.path.join(os.getcwd(), 'data', '__pycache__')
+
 def safe_print(message):
     """Thread-safe print function that handles encoding issues"""
     try:

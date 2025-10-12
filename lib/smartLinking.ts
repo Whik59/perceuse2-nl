@@ -155,31 +155,7 @@ class SmartProductLinker {
     const contextEnd = Math.min(text.length, startIndex + length + 50);
     const context = text.slice(contextStart, contextEnd).toLowerCase();
     
-    // Skip if the match appears to be in a list of random products or unrelated context
-    const inappropriateContexts = [
-      'deluxe', 'premium', 'luxetique', 'wellness-set', 'reis', 'fit king',
-      'spa', 'massageölen', 'premiumnessstudio', 'büro', 'das weibliche becken'
-    ];
     
-    // If context contains inappropriate product names, skip this match
-    for (const inappropriate of inappropriateContexts) {
-      if (context.includes(inappropriate)) {
-        return false;
-      }
-    }
-    
-    // Only link if the context seems to be about the actual product or related topics
-    const appropriateContexts = [
-      'massage', 'pistole', 'gerät', 'produkt', 'modell', 'geräte',
-      'massagepistole', 'mini', 'leichte', 'kompakte', 'tragbare'
-    ];
-    
-    // Check if any appropriate context words are nearby
-    for (const appropriate of appropriateContexts) {
-      if (context.includes(appropriate)) {
-        return true;
-      }
-    }
     
     // Default to false for safety - only link when context is clearly appropriate
     return false;

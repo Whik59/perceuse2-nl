@@ -14,6 +14,9 @@ from pathlib import Path
 import concurrent.futures
 import threading
 
+# Set cache directory to data folder
+os.environ['PYTHONPYCACHEPREFIX'] = os.path.join(os.getcwd(), 'data', '__pycache__')
+
 def safe_print(message):
     """Thread-safe print function that handles encoding issues"""
     try:
@@ -192,7 +195,7 @@ class AICategoryEnhancer:
             
             # System prompt for SEO expert (language-agnostic)
             language_name = self.language_map.get(self.output_language, self.output_language.title())
-            system_prompt = f"You are an SEO expert and digital marketing specialist for e-commerce products. CRITICAL: You MUST respond ONLY in {language_name}. Do NOT use Spanish, English, or other languages. Use ONLY words, phrases and expressions in {language_name}. Focus on product categories and content related to massage and wellness products."
+            system_prompt = f"You are an SEO expert and digital marketing specialist for e-commerce products. CRITICAL: You MUST respond ONLY in {language_name}. Do NOT use  other languages. Use ONLY words, phrases and expressions in {language_name}. Focus on product categories and content related to products."
             
             full_prompt = f"{system_prompt}\n\n{prompt}"
             

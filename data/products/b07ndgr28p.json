@@ -1,38 +1,36 @@
 {
   "productId": "B07NDGR28P",
-  "name": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher",
-  "slug": "wiltec-universalkoffer-35x29-5x15-wasserdicht-sicher",
-  "description": "<div><h2>Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher</h2><p>Quality product</p></div>",
-  "shortDescription": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher - Quality Product",
-  "price": "32.0",
-  "compareAtPrice": 36,
+  "name": "WilTec Mallette pour Armes – pour Armes de Poing et Pistolets – avec Insert en Mousse – Valise Fusil de Chasse, Carabine, Chasseur",
+  "slug": "wiltec-mallette-pour-armes-pour-armes-de-poing-et-",
+  "description": "[Mallette de transport universelle] – La mallette de Wiltec protège vos outils et équipements fragiles avec sa conception en polypropylène renforcé de fibre de verre, résistante aux chocs et légère. Idéale pour les environnements exigeants, elle garantit un transport sécurisé | [Protection étanche IP67] – Avec son étanchéité IP67, cette mallette protège contre l’eau, la poussière et les chocs, assurant la sécurité de vos équipements dans les conditions les plus difficiles. Parfaite pour une utilisation en extérieur ou sur des chantiers | [Intérieur personnalisable] – Dotée de mousse cube prédécoupée et de mousse alvéolée, cette mallette permet de personnaliser l’espace intérieur pour sécuriser vos équipements, des outils aux appareils électroniques, en les protégeant des mouvements indésirables | [Praticité et légèreté] – Conçue pour être légère et facile à transporter, cette mallette s’adapte aux professionnels techniques, photographes ou amateurs de bricolage, offrant une solution pratique et fiable pour le transport sécurisé de vos équipements | [Solution universelle] – La mallette Wiltec offre une solution universelle pour protéger vos outils ou équipements lors de déplacements. Grâce à sa conception robuste et son intérieur personnalisable, elle s’adapte aux besoins variés des professionnels et bricoleurs",
+  "shortDescription": "WilTec Mallette pour Armes – pour Armes de Poing et Pistolets – avec Insert en Mousse – Valise Fusil",
+  "price": "63.0",
+  "compareAtPrice": 72,
   "images": [
-    "https://m.media-amazon.com/images/I/71mxv+Fz1qL._AC_UL320_.jpg"
+    "https://m.media-amazon.com/images/I/71mxv+Fz1qL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71q0cskOZ8L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71ZQHwEAPBL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61HIqd04yRL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61GNUNjKYsL._AC_SL1500_.jpg"
   ],
   "videos": [],
-  "category": "Koffer für Hot Stones",
+  "category": "Valises Rigides Étanche",
   "tags": [
-    "besuche den wiltec-store",
-    "koffer für hot stones"
+    "visiter la boutique wiltec",
+    "valises rigides étanche"
   ],
-  "amazonUrl": "https://amazon.de/dp/B07NDGR28P/?tag=clickclickh0b-21",
+  "amazonUrl": "https://amazon.fr/dp/B07NDGR28P/?tag=clickclickh01-21",
   "amazonASIN": "B07NDGR28P",
-  "affiliateId": "clickclickh0b-21",
-  "originalAmazonTitle": "Wiltec Universalkoffer 35x29,5x15 cm schwarz, Schutzkoffer wasserdicht mit Druckausgleichsventil & anpassbaren Schaumstoffmatten",
-  "amazonPrice": "32.0€",
+  "affiliateId": "clickclickh01-21",
+  "originalAmazonTitle": "WilTec Mallette pour Armes – pour Armes de Poing et Pistolets – avec Insert en Mousse – Valise Fusil de Chasse, Carabine, Chasseur",
+  "amazonPrice": "63.0€",
   "amazonRating": 4.6,
   "amazonReviewCount": 0,
-  "brand": "Besuche den Wiltec-Store",
+  "brand": "Visiter la boutique WilTec",
   "seo": {
-    "title": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher",
-    "description": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher - Quality Product",
-    "keywords": [
-      "wiltec universalkoffer 35x29,5x15 cm – wasserdicht & sicher",
-      "koffer für hot stones",
-      "besuche den wiltec-store"
-    ],
-    "ogTitle": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher",
-    "ogDescription": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher - Quality Product"
+    "title": "",
+    "description": "",
+    "keywords": []
   },
   "reviews": {
     "averageRating": 4.6,
@@ -44,18 +42,5 @@
       "2": 3,
       "1": 2
     }
-  },
-  "specifications": {
-    "Quality": "High",
-    "Warranty": "2 years"
-  },
-  "faq": [
-    {
-      "q": "Is it good quality?",
-      "a": "Yes, high quality product."
-    }
-  ],
-  "originalName": "Wiltec Universalkoffer 35x29,5x15 cm – Wasserdicht & Sicher",
-  "enhancedAt": "2025-10-10T23:35:42.891015",
-  "enhanced": true
+  }
 }

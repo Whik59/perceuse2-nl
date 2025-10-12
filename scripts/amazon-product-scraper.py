@@ -57,8 +57,8 @@ class AmazonScraper:
         self.market = market
         self.config = self.load_market_config(market)
         
-        # Conservative parallel processing settings (optimized for testing)
-        self.max_workers = 8  # Increased from 2 to 8 for better performance
+        # Optimized parallel processing settings for better performance
+        self.max_workers = 12  # Increased from 8 to 12 for better performance
         
         # MODIFIED: Scrape all categories (flat structure, no subcategories)
         # All categories are main categories and need products
@@ -87,8 +87,8 @@ class AmazonScraper:
         self.cache_hits = 0
         self.cache_misses = 0
         
-        # Rate limiting delays
-        self.current_delay = (1, 2)  # Optimized delays (min, max) in seconds
+        # Rate limiting delays - optimized for better speed
+        self.current_delay = (0.5, 1.5)  # Reduced delays for better performance
         
         
         # Simple rate limiting tracking
@@ -96,7 +96,7 @@ class AmazonScraper:
         
         # Session rotation system - optimized for better performance
         self.request_count = 0
-        self.max_requests_per_session = 10  # Reduced from 20 to be more conservative
+        self.max_requests_per_session = 15  # Increased from 10 for better efficiency
         self.session_rotation_lock = threading.Lock()
         self.last_rotation_time = time.time()
         
@@ -200,16 +200,16 @@ class AmazonScraper:
         return self.request_count >= self.max_requests_per_session
     
     def simulate_human_behavior(self):
-        """Simulate human-like browsing behavior - MORE REALISTIC"""
-        # Random pause like a human reading - MORE FREQUENT
-        if random.random() < 0.7:  # 70% chance (was 30%)
-            pause = random.uniform(3, 8)  # Longer pauses (was 1-3)
+        """Simulate human-like browsing behavior - OPTIMIZED FOR SPEED"""
+        # Random pause like a human reading - REDUCED FREQUENCY FOR SPEED
+        if random.random() < 0.4:  # 40% chance (reduced from 70%)
+            pause = random.uniform(2, 5)  # Shorter pauses (reduced from 3-8)
             safe_print(f"  [HUMAN] Reading pause: {pause:.1f}s")
             time.sleep(pause)
         
-        # Occasionally longer pause (like checking phone) - MORE FREQUENT
-        if random.random() < 0.3:  # 30% chance (was 10%)
-            pause = random.uniform(10, 20)  # Much longer pauses (was 5-10)
+        # Occasionally longer pause (like checking phone) - REDUCED FREQUENCY
+        if random.random() < 0.15:  # 15% chance (reduced from 30%)
+            pause = random.uniform(5, 12)  # Shorter extended pauses (reduced from 10-20)
             safe_print(f"  [HUMAN] Extended pause: {pause:.1f}s")
             time.sleep(pause)
     
@@ -278,16 +278,16 @@ class AmazonScraper:
             elif cache_type == 'search':
                 self.search_cache[cache_key] = data
             
-            # Limit cache size to prevent memory issues
-            if len(self.product_cache) > 1000:
+            # Limit cache size to prevent memory issues - INCREASED FOR BETTER PERFORMANCE
+            if len(self.product_cache) > 2000:  # Increased from 1000
                 # Remove oldest entries
-                oldest_keys = list(self.product_cache.keys())[:100]
+                oldest_keys = list(self.product_cache.keys())[:200]  # Increased from 100
                 for key in oldest_keys:
                     del self.product_cache[key]
             
-            if len(self.search_cache) > 500:
+            if len(self.search_cache) > 1000:  # Increased from 500
                 # Remove oldest entries
-                oldest_keys = list(self.search_cache.keys())[:50]
+                oldest_keys = list(self.search_cache.keys())[:100]  # Increased from 50
                 for key in oldest_keys:
                     del self.search_cache[key]
     
@@ -358,8 +358,8 @@ class AmazonScraper:
     
     def make_request(self, url, retries=2):
         """Make HTTP request with adaptive retry logic and CAPTCHA detection"""
-        # Global delay before any request to be respectful to Amazon
-        global_delay = random.uniform(2, 5)
+        # Global delay before any request - OPTIMIZED FOR SPEED
+        global_delay = random.uniform(1, 3)  # Reduced from 2-5s
         safe_print(f"  [GLOBAL] Pre-request delay: {global_delay:.1f}s")
         time.sleep(global_delay)
         
@@ -369,12 +369,12 @@ class AmazonScraper:
                 if self.should_rotate_session():
                     self.rotate_session()
                 
-                # Adaptive delays based on attempt number - MORE RESPECTFUL TO AMAZON
+                # Adaptive delays based on attempt number - OPTIMIZED FOR SPEED
                 if attempt == 0:
-                    delay = random.uniform(5, 10)  # Longer delay for first attempt
+                    delay = random.uniform(3, 7)  # Reduced delay for first attempt
                 else:
-                    # Much longer delays for retries to avoid detection
-                    delay = random.uniform(15, 30) + (attempt * 10)
+                    # Shorter delays for retries while staying safe
+                    delay = random.uniform(8, 15) + (attempt * 5)
                 
                 safe_print(f"  [DELAY] Attempt {attempt + 1}/{retries}: Waiting {delay:.1f}s before request...")
                 time.sleep(delay)
@@ -1269,8 +1269,8 @@ class AmazonScraper:
                     
                 safe_print(f"[SEARCH] Keyword {keyword_idx + 1}: '{search_term}'")
                 
-                # Search multiple pages for this keyword
-                for page in range(1, 3):  # Max 2 pages per keyword for efficiency
+                # Search multiple pages for this keyword - INCREASED FOR MORE PRODUCTS
+                for page in range(1, 4):  # Increased to 3 pages per keyword for more products
                     if len(all_products) >= recommended_products:
                         break
                         
@@ -1411,8 +1411,8 @@ class AmazonScraper:
         
         total_products = 0
         
-        # Process categories in batches of 4-5 for optimized parallel processing
-        batch_size = 4  # Increased from 3 to 4 for better throughput
+        # Process categories in batches of 6 for optimized parallel processing
+        batch_size = 6  # Increased from 4 to 6 for better throughput
         total_batches = (len(remaining_categories) + batch_size - 1) // batch_size
         
         for batch_num in range(total_batches):
@@ -1423,7 +1423,7 @@ class AmazonScraper:
             safe_print(f"\n--- Batch {batch_num + 1}/{total_batches} (Categories {start_idx + 1}-{end_idx}) ---")
             
             # Process batch in parallel with optimized workers
-            with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+            with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
                 future_to_category = {
                     executor.submit(self.scrape_category_products, category): category 
                     for category in batch_categories
@@ -1444,10 +1444,10 @@ class AmazonScraper:
                 
                 safe_print(f"[BATCH] Completed batch {batch_num + 1}: {batch_products} products")
             
-            # Optimized rest between batches
+            # Optimized rest between batches - REDUCED FOR SPEED
             if batch_num < total_batches - 1:  # Don't rest after last batch
                 safe_print(f"[REST] Resting between batches...")
-                time.sleep(random.uniform(3, 6))  # Reduced rest time for better performance
+                time.sleep(random.uniform(2, 4))  # Further reduced rest time for better performance
         
         safe_print(f"\n[SUCCESS] Full Scraping Complete!")
         safe_print(f"[STATS] Total Products: {total_products}")
@@ -2226,11 +2226,11 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
-    safe_print("[START] Professional Amazon Product Scraper - OPTIMIZED VERSION")
+    safe_print("[START] Professional Amazon Product Scraper - SPEED OPTIMIZED VERSION")
     safe_print("=" * 60)
     safe_print(f"[MARKET] Target country: {args.country.upper()}")
-    safe_print(f"[SPEED] Mode: CONSERVATIVE OPTIMIZED (Workers: 8, Delays: 1-2s, Session: 200 req)")
-    safe_print(f"[PERFORMANCE] Expected: 5-6x faster than original conservative mode")
+    safe_print(f"[SPEED] Mode: SPEED OPTIMIZED (Workers: 12, Delays: 0.5-1.5s, Session: 15 req)")
+    safe_print(f"[PERFORMANCE] Expected: 300-400 products in 15 minutes (20-27 products/min)")
     
     scraper = AmazonScraper(market=args.country)
     

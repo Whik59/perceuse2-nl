@@ -1,1119 +1,573 @@
 [
   {
-    "slug": "massagepistolen",
-    "name": "Massagepistolen",
-    "categoryNameCanonical": "Massagepistolen",
-    "description": "Leistungsstarke perkussive Massagegeräte zur Tiefenmuskelentspannung, ideal für Sportler und zur Linderung von Verspannungen.",
+    "slug": "drones-avec-camera",
+    "name": "Drones avec Caméra",
+    "categoryNameCanonical": "Drones avec Caméra",
+    "description": "Drones équipés d'une caméra pour la prise de vue aérienne, allant des modèles HD pour le loisir aux capteurs 4K et supérieurs pour la vidéographie.",
     "subcategories": [
       {
-        "slug": "massagepistolen-mit-waermefunktion",
-        "name": "Massagepistolen mit Wärmefunktion",
-        "categoryNameCanonical": "Massagepistolen mit Wärmefunktion",
-        "description": "Kombinieren Perkussionstherapie mit wohltuender Wärme zur besseren Durchblutung."
+        "slug": "drones-camera-hd",
+        "name": "Drones avec Caméra HD",
+        "categoryNameCanonical": "Drones avec Caméra HD",
+        "description": "Modèles d'entrée de gamme parfaits pour s'initier à la prise de vue aérienne avec une résolution de 720p ou 1080p."
       },
       {
-        "slug": "leise-massagepistolen",
-        "name": "Leise Massagepistolen",
-        "categoryNameCanonical": "Leise Massagepistolen",
-        "description": "Geräuscharme Modelle für eine entspannte Anwendung ohne störende Geräusche."
+        "slug": "drones-camera-4k",
+        "name": "Drones avec Caméra 4K",
+        "categoryNameCanonical": "Drones avec Caméra 4K",
+        "description": "Drones offrant une qualité d'image ultra haute définition, recherchés par les amateurs et les professionnels pour des vidéos détaillées."
       },
       {
-        "slug": "massagepistolen-mit-mehreren-aufsaetzen",
-        "name": "Massagepistolen mit mehreren Aufsätzen",
-        "categoryNameCanonical": "Massagepistolen mit mehreren Aufsätzen",
-        "description": "Vielseitige Geräte mit austauschbaren Köpfen für verschiedene Muskelgruppen."
+        "slug": "drones-avec-stabilisateur",
+        "name": "Drones avec Stabilisateur (Nacelle)",
+        "categoryNameCanonical": "Drones avec Stabilisateur (Nacelle)",
+        "description": "Équipés d'une nacelle mécanique (gimbal) pour des images fluides et stables, même en conditions venteuses."
       }
     ]
   },
   {
-    "slug": "mini-massagepistolen",
-    "name": "Mini-Massagepistolen",
-    "categoryNameCanonical": "Mini-Massagepistolen",
-    "description": "Kompakte und leichte Massagepistolen, perfekt für unterwegs, auf Reisen oder im Büro.",
+    "slug": "drones-pour-debutants",
+    "name": "Drones pour Débutants",
+    "categoryNameCanonical": "Drones pour Débutants",
+    "description": "Drones faciles à piloter, dotés de fonctionnalités d'assistance comme le maintien d'altitude et le décollage automatique, idéaux pour un premier achat.",
     "subcategories": [
       {
-        "slug": "mini-massagepistolen-fuer-reisen",
-        "name": "Mini-Massagepistolen für Reisen",
-        "categoryNameCanonical": "Mini-Massagepistolen für Reisen",
-        "description": "Besonders kleine Modelle, die problemlos ins Handgepäck passen."
+        "slug": "drones-maintien-altitude",
+        "name": "Drones avec Maintien d'Altitude",
+        "categoryNameCanonical": "Drones avec Maintien d'Altitude",
+        "description": "Modèles qui maintiennent une hauteur de vol stable sans intervention, facilitant grandement l'apprentissage."
       },
       {
-        "slug": "usb-c-aufladbare-mini-massagepistolen",
-        "name": "USB-C aufladbare Mini-Massagepistolen",
-        "categoryNameCanonical": "USB-C aufladbare Mini-Massagepistolen",
-        "description": "Praktische Modelle, die einfach über Standard-USB-C-Kabel geladen werden können."
+        "slug": "drones-decollage-atterrissage-automatique",
+        "name": "Drones avec Décollage/Atterrissage Automatique",
+        "categoryNameCanonical": "Drones avec Décollage/Atterrissage Automatique",
+        "description": "Simplifient les phases de vol les plus critiques grâce à une commande à un seul bouton."
       },
       {
-        "slug": "leichte-mini-massagepistolen",
-        "name": "Leichte Mini-Massagepistolen",
-        "categoryNameCanonical": "Leichte Mini-Massagepistolen",
-        "description": "Geräte mit geringem Gewicht für eine mühelose Handhabung."
+        "slug": "drones-avec-protections-helices",
+        "name": "Drones avec Protections d'Hélices",
+        "categoryNameCanonical": "Drones avec Protections d'Hélices",
+        "description": "Intègrent des protections physiques pour les hélices, augmentant la sécurité et la durabilité lors des premiers vols."
       }
     ]
   },
   {
-    "slug": "massagesessel",
-    "name": "Massagesessel",
-    "categoryNameCanonical": "Massagesessel",
-    "description": "Komfortable Sessel mit integrierten Massagefunktionen für eine Ganzkörpermassage zu Hause.",
+    "slug": "drones-pour-adolescents",
+    "name": "Drones pour Adolescents",
+    "categoryNameCanonical": "Drones pour Adolescents",
+    "description": "Modèles intermédiaires offrant un bon équilibre entre facilité d'utilisation et fonctionnalités avancées comme les figures acrobatiques, adaptés aux 14-16 ans.",
     "subcategories": [
       {
-        "slug": "shiatsu-massagesessel",
-        "name": "Shiatsu-Massagesessel",
-        "categoryNameCanonical": "Shiatsu-Massagesessel",
-        "description": "Sessel, die die japanische Shiatsu-Druckpunktmassage-Technik imitieren."
+        "slug": "drones-acrobatiques-pour-ados",
+        "name": "Drones Acrobatiques pour Adolescents",
+        "categoryNameCanonical": "Drones Acrobatiques pour Adolescents",
+        "description": "Capables de réaliser des flips et des tonneaux préprogrammés pour un pilotage plus ludique."
       },
       {
-        "slug": "massagesessel-mit-waermefunktion",
-        "name": "Massagesessel mit Wärmefunktion",
-        "categoryNameCanonical": "Massagesessel mit Wärmefunktion",
-        "description": "Bieten zusätzliche Wärme im Rücken- oder Lendenbereich zur Tiefenentspannung."
+        "slug": "drones-avec-controle-gestuel",
+        "name": "Drones avec Contrôle par Gestes",
+        "categoryNameCanonical": "Drones avec Contrôle par Gestes",
+        "description": "Permettent de déclencher la prise de photos ou de vidéos par de simples gestes de la main."
       },
       {
-        "slug": "massagesessel-mit-schwerelosigkeits-funktion",
-        "name": "Massagesessel mit Schwerelosigkeits-Funktion",
-        "categoryNameCanonical": "Massagesessel mit Schwerelosigkeits-Funktion",
-        "description": "Sessel mit Zero-Gravity-Position zur optimalen Entlastung der Wirbelsäule."
+        "slug": "drones-robustes-pour-adolescents",
+        "name": "Drones Robustes pour Adolescents",
+        "categoryNameCanonical": "Drones Robustes pour Adolescents",
+        "description": "Conçus avec des matériaux résistants aux chocs pour supporter les erreurs de pilotage des jeunes utilisateurs."
       }
     ]
   },
   {
-    "slug": "massagesitzauflagen",
-    "name": "Massagesitzauflagen",
-    "categoryNameCanonical": "Massagesitzauflagen",
-    "description": "Flexible Auflagen, die jeden Stuhl oder Autositz in einen Massagesitz verwandeln.",
+    "slug": "drones-professionnels",
+    "name": "Drones Professionnels",
+    "categoryNameCanonical": "Drones Professionnels",
+    "description": "Drones haute performance destinés à des usages commerciaux comme la cinématographie, l'inspection, la cartographie et la surveillance.",
     "subcategories": [
       {
-        "slug": "shiatsu-massagesitzauflagen",
-        "name": "Shiatsu-Massagesitzauflagen",
-        "categoryNameCanonical": "Shiatsu-Massagesitzauflagen",
-        "description": "Auflagen mit rotierenden Massageköpfen für eine intensive Shiatsu-Massage."
+        "slug": "drones-photographie-aerienne-pro",
+        "name": "Drones pour Photographie Aérienne Pro",
+        "categoryNameCanonical": "Drones pour Photographie Aérienne Pro",
+        "description": "Dotés de grands capteurs, d'optiques interchangeables et d'un contrôle avancé de l'image."
       },
       {
-        "slug": "massagesitzauflagen-fuer-auto",
-        "name": "Massagesitzauflagen für Auto",
-        "categoryNameCanonical": "Massagesitzauflagen für Auto",
-        "description": "Modelle mit 12V-Adapter für die Nutzung während der Autofahrt."
+        "slug": "drones-inspection-cartographie",
+        "name": "Drones pour Inspection et Cartographie",
+        "categoryNameCanonical": "Drones pour Inspection et Cartographie",
+        "description": "Équipés de caméras zoom ou thermiques pour l'inspection d'infrastructures et la modélisation 3D."
       },
       {
-        "slug": "massagesitzauflagen-mit-waerme-und-vibration",
-        "name": "Massagesitzauflagen mit Wärme & Vibration",
-        "categoryNameCanonical": "Massagesitzauflagen mit Wärme & Vibration",
-        "description": "Kombinieren Wärme, Vibration und Knetmassage für maximale Entspannung."
+        "slug": "drones-cinema-long-temps-vol",
+        "name": "Drones Cinéma à Long Temps de Vol",
+        "categoryNameCanonical": "Drones Cinéma à Long Temps de Vol",
+        "description": "Offrent une autonomie supérieure à 30 minutes et la capacité d'emporter des caméras professionnelles."
       }
     ]
   },
   {
-    "slug": "klappbare-massageliegen",
-    "name": "Klappbare Massageliegen",
-    "categoryNameCanonical": "Klappbare Massageliegen",
-    "description": "Mobile und transportable Massageliegen für Therapeuten und den Heimgebrauch.",
+    "slug": "mini-drones",
+    "name": "Mini Drones et Drones d'Intérieur",
+    "categoryNameCanonical": "Mini Drones et Drones d'Intérieur",
+    "description": "Petits drones légers et sûrs, parfaits pour le vol en intérieur ou pour être emportés partout sans encombrement.",
     "subcategories": [
       {
-        "slug": "klappbare-massageliegen-aus-holz",
-        "name": "Klappbare Massageliegen aus Holz",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Holz",
-        "description": "Stabile und ästhetisch ansprechende Liegen mit Holzrahmen."
+        "slug": "mini-drones-avec-camera",
+        "name": "Mini Drones avec Caméra",
+        "categoryNameCanonical": "Mini Drones avec Caméra",
+        "description": "Modèles de poche équipés d'une caméra pour capturer des images dans des espaces restreints."
       },
       {
-        "slug": "klappbare-massageliegen-aus-aluminium",
-        "name": "Klappbare Massageliegen aus Aluminium",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Aluminium",
-        "description": "Besonders leichte Modelle für den einfachen Transport."
+        "slug": "drones-jouets-pour-interieur",
+        "name": "Drones Jouets pour Intérieur",
+        "categoryNameCanonical": "Drones Jouets pour Intérieur",
+        "description": "Designs ludiques et colorés comme le 'drone abeille', conçus pour l'amusement en toute sécurité à la maison."
       },
       {
-        "slug": "massageliegen-sets-mit-tasche",
-        "name": "Massageliegen-Sets mit Tasche",
-        "categoryNameCanonical": "Massageliegen-Sets mit Tasche",
-        "description": "Komplettpakete inklusive Liege, Zubehör und passender Tragetasche."
+        "slug": "drones-ultra-legers-moins-250g",
+        "name": "Drones Ultra-Légers (Moins de 250g)",
+        "categoryNameCanonical": "Drones Ultra-Légers (Moins de 250g)",
+        "description": "Conformes aux réglementations de nombreux pays pour un usage sans enregistrement, très populaires pour les voyages."
       }
     ]
   },
   {
-    "slug": "elektrische-massageliegen",
-    "name": "Elektrische Massageliegen",
-    "categoryNameCanonical": "Elektrische Massageliegen",
-    "description": "Professionelle, elektrisch höhenverstellbare Liegen für Praxen und Studios.",
+    "slug": "drones-de-course-fpv",
+    "name": "Drones de Course et FPV",
+    "categoryNameCanonical": "Drones de Course et FPV",
+    "description": "Drones rapides et agiles conçus pour la course en immersion (First Person View) via des lunettes FPV, destinés aux pilotes expérimentés.",
     "subcategories": [
       {
-        "slug": "elektrische-massageliegen-mit-heizung",
-        "name": "Elektrische Massageliegen mit Heizung",
-        "categoryNameCanonical": "Elektrische Massageliegen mit Heizung",
-        "description": "Verfügen über eine integrierte Heizmatte für zusätzlichen Komfort."
+        "slug": "drones-fpv-prets-a-voler-rtf",
+        "name": "Drones FPV Prêts à Voler (RTF)",
+        "categoryNameCanonical": "Drones FPV Prêts à Voler (RTF)",
+        "description": "Kits complets incluant le drone, la radiocommande et les lunettes, prêts à l'emploi."
       },
       {
-        "slug": "mehrteilige-elektrische-massageliegen",
-        "name": "Mehrteilige elektrische Massageliegen",
-        "categoryNameCanonical": "Mehrteilige elektrische Massageliegen",
-        "description": "Liegen mit verstellbaren Segmenten für Kopfteil, Rückenteil und Beinteil."
+        "slug": "kits-drones-fpv-a-monter",
+        "name": "Kits Drones FPV à Monter",
+        "categoryNameCanonical": "Kits Drones FPV à Monter",
+        "description": "Ensembles de pièces (châssis, moteurs, contrôleur) pour les passionnés qui souhaitent assembler leur propre drone de course."
       },
       {
-        "slug": "elektrische-massageliegen-mit-radhebesystem",
-        "name": "Elektrische Massageliegen mit Radhebesystem",
-        "categoryNameCanonical": "Elektrische Massageliegen mit Radhebesystem",
-        "description": "Modelle mit Rollen für einfaches Verschieben in der Praxis."
+        "slug": "drones-freestyle-acrobatique",
+        "name": "Drones Freestyle Acrobatique",
+        "categoryNameCanonical": "Drones Freestyle Acrobatique",
+        "description": "Conçus pour la liberté de mouvement et les figures complexes, avec des châssis robustes."
       }
     ]
   },
   {
-    "slug": "massageoele-und-lotionen",
-    "name": "Massageöle & Lotionen",
-    "categoryNameCanonical": "Massageöle & Lotionen",
-    "description": "Gleitmittel für die Massage, die die Haut pflegen und die Sinne anregen.",
+    "slug": "drones-pliables",
+    "name": "Drones Pliables et Portables",
+    "categoryNameCanonical": "Drones Pliables et Portables",
+    "description": "Drones dont les bras se replient pour un format compact, ce qui les rend idéaux pour les voyageurs, les randonneurs et les créateurs de contenu nomades.",
     "subcategories": [
       {
-        "slug": "massageoele-mit-arnika",
-        "name": "Massageöle mit Arnika",
-        "categoryNameCanonical": "Massageöle mit Arnika",
-        "description": "Ideal zur Lockerung der Muskulatur nach dem Sport."
+        "slug": "drones-pliables-4k",
+        "name": "Drones Pliables 4K",
+        "categoryNameCanonical": "Drones Pliables 4K",
+        "description": "Allient la compacité d'un design pliable à une haute résolution vidéo pour des prises de vue de qualité en déplacement."
       },
       {
-        "slug": "entspannungs-massageoele-mit-lavendel",
-        "name": "Entspannungs-Massageöle mit Lavendel",
-        "categoryNameCanonical": "Entspannungs-Massageöle mit Lavendel",
-        "description": "Beruhigende Öle für eine entspannende und schlaffördernde Massage."
+        "slug": "drones-pliables-avec-gps",
+        "name": "Drones Pliables avec GPS",
+        "categoryNameCanonical": "Drones Pliables avec GPS",
+        "description": "Offrent des fonctions de vol intelligentes et une sécurité accrue (retour au point de départ) dans un format portable."
       },
       {
-        "slug": "neutrale-massageoele-fuer-allergiker",
-        "name": "Neutrale Massageöle für Allergiker",
-        "categoryNameCanonical": "Neutrale Massageöle für Allergiker",
-        "description": "Parfüm- und zusatzstofffreie Öle für empfindliche Haut."
+        "slug": "mini-drones-pliables",
+        "name": "Mini Drones Pliables",
+        "categoryNameCanonical": "Mini Drones Pliables",
+        "description": "Les modèles les plus compacts, se glissant facilement dans une poche ou un petit sac."
       }
     ]
   },
   {
-    "slug": "massagekerzen",
-    "name": "Massagekerzen",
-    "categoryNameCanonical": "Massagekerzen",
-    "description": "Kerzen, deren geschmolzenes Wachs als warmes, pflegendes Massageöl verwendet wird.",
+    "slug": "drones-avec-gps",
+    "name": "Drones avec GPS",
+    "categoryNameCanonical": "Drones avec GPS",
+    "description": "Intègrent un module GPS pour un vol stationnaire précis, des fonctions de retour automatique et des modes de vol intelligents.",
     "subcategories": [
       {
-        "slug": "massagekerzen-mit-sheabutter",
-        "name": "Massagekerzen mit Sheabutter",
-        "categoryNameCanonical": "Massagekerzen mit Sheabutter",
-        "description": "Besonders reichhaltige Kerzen für intensive Hautpflege."
+        "slug": "drones-avec-retour-automatique-rth",
+        "name": "Drones avec Retour Automatique (RTH)",
+        "categoryNameCanonical": "Drones avec Retour Automatique (RTH)",
+        "description": "Fonction de sécurité essentielle qui fait revenir le drone à son point de départ en cas de batterie faible ou de perte de signal."
       },
       {
-        "slug": "aphrodisierende-massagekerzen",
-        "name": "Aphrodisierende Massagekerzen",
-        "categoryNameCanonical": "Aphrodisierende Massagekerzen",
-        "description": "Kerzen mit anregenden Düften für sinnliche Partnermassagen."
+        "slug": "drones-avec-suivi-de-parcours-waypoint",
+        "name": "Drones avec Suivi de Parcours (Waypoint)",
+        "categoryNameCanonical": "Drones avec Suivi de Parcours (Waypoint)",
+        "description": "Permettent de programmer un itinéraire de vol sur une carte que le drone suivra de manière autonome."
       },
       {
-        "slug": "massagekerzen-im-geschenkset",
-        "name": "Massagekerzen im Geschenkset",
-        "categoryNameCanonical": "Massagekerzen im Geschenkset",
-        "description": "Sets mit verschiedenen Duftrichtungen, ideal als Geschenk."
+        "slug": "drones-avec-fonction-suis-moi-follow-me",
+        "name": "Drones avec Fonction Suis-Moi (Follow Me)",
+        "categoryNameCanonical": "Drones avec Fonction Suis-Moi (Follow Me)",
+        "description": "Utilisent le GPS du smartphone ou de la manette pour suivre automatiquement un sujet en mouvement."
       }
     ]
   },
   {
-    "slug": "nacken-und-schultermassagegeraete",
-    "name": "Nacken- & Schultermassagegeräte",
-    "categoryNameCanonical": "Nacken- & Schultermassagegeräte",
-    "description": "Geräte speziell zur Linderung von Verspannungen im Nacken- und Schulterbereich.",
+    "slug": "drones-longue-portee",
+    "name": "Drones Longue Portée",
+    "categoryNameCanonical": "Drones Longue Portée",
+    "description": "Drones capables de maintenir une connexion vidéo et de contrôle stable sur plusieurs kilomètres, essentiels pour l'exploration et la cinématographie.",
     "subcategories": [
       {
-        "slug": "shiatsu-nackenmassagegeraete",
-        "name": "Shiatsu-Nackenmassagegeräte",
-        "categoryNameCanonical": "Shiatsu-Nackenmassagegeräte",
-        "description": "U-förmige Geräte mit rotierenden Kugeln, die eine Shiatsu-Massage simulieren."
+        "slug": "drones-portee-1-a-5-km",
+        "name": "Drones Portée 1 à 5 km",
+        "categoryNameCanonical": "Drones Portée 1 à 5 km",
+        "description": "Catégorie standard pour les drones de loisir avancés, offrant une grande liberté de vol."
       },
       {
-        "slug": "nackenmassagekissen",
-        "name": "Nackenmassagekissen",
-        "categoryNameCanonical": "Nackenmassagekissen",
-        "description": "Kompakte Kissen für den Einsatz zu Hause, im Büro oder im Auto."
+        "slug": "drones-portee-5-a-10-km",
+        "name": "Drones Portée 5 à 10 km",
+        "categoryNameCanonical": "Drones Portée 5 à 10 km",
+        "description": "Modèles haut de gamme utilisant des technologies de transmission avancées comme OcuSync pour une portée étendue."
       },
       {
-        "slug": "nackenmassagegeraete-mit-waermefunktion",
-        "name": "Nackenmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Nackenmassagegeräte mit Wärmefunktion",
-        "description": "Bieten zuschaltbare Wärme für eine tiefere Muskelentspannung."
+        "slug": "drones-portee-superieure-a-10-km",
+        "name": "Drones Portée Supérieure à 10 km",
+        "categoryNameCanonical": "Drones Portée Supérieure à 10 km",
+        "description": "Destinés aux professionnels pour des missions spécifiques nécessitant une très longue portée de transmission."
       }
     ]
   },
   {
-    "slug": "rueckenmassagegeraete",
-    "name": "Rückenmassagegeräte",
-    "categoryNameCanonical": "Rückenmassagegeräte",
-    "description": "Spezialisierte Geräte zur Behandlung von Schmerzen und Verspannungen im gesamten Rückenbereich.",
+    "slug": "drones-avec-suivi-automatique",
+    "name": "Drones avec Suivi Automatique",
+    "categoryNameCanonical": "Drones avec Suivi Automatique",
+    "description": "Utilisent la reconnaissance visuelle et l'IA pour suivre et filmer automatiquement un sujet (personne, voiture, animal) sans intervention du pilote.",
     "subcategories": [
       {
-        "slug": "elektrische-rueckenmassagegeraete",
-        "name": "Elektrische Rückenmassagegeräte",
-        "categoryNameCanonical": "Elektrische Rückenmassagegeräte",
-        "description": "Geräte mit Motor für Vibration, Klopf- oder Knetmassage."
+        "slug": "drones-avec-active-track",
+        "name": "Drones avec ActiveTrack",
+        "categoryNameCanonical": "Drones avec ActiveTrack",
+        "description": "Terme souvent associé à la marque DJI, désignant une technologie de suivi de sujet avancée et fiable."
       },
       {
-        "slug": "manuelle-rueckenmassagegeraete",
-        "name": "Manuelle Rückenmassagegeräte",
-        "categoryNameCanonical": "Manuelle Rückenmassagegeräte",
-        "description": "Massagehaken, -roller und -stäbe zur Selbstmassage."
+        "slug": "drones-avec-evitement-obstacles",
+        "name": "Drones avec Évitement d'Obstacles",
+        "categoryNameCanonical": "Drones avec Évitement d'Obstacles",
+        "description": "Combinent le suivi avec des capteurs pour naviguer de manière autonome autour des obstacles tout en filmant."
       },
       {
-        "slug": "rueckenstrecker-und-lordosenstuetzen",
-        "name": "Rückenstrecker & Lordosenstützen",
-        "categoryNameCanonical": "Rückenstrecker & Lordosenstützen",
-        "description": "Geräte zur Dehnung und Entlastung der Wirbelsäule."
+        "slug": "drones-pour-sportifs-autonomes",
+        "name": "Drones pour Sportifs Autonomes",
+        "categoryNameCanonical": "Drones pour Sportifs Autonomes",
+        "description": "Populaires pour filmer des activités comme le VTT, le ski ou le surf sans l'aide d'un pilote."
       }
     ]
   },
   {
-    "slug": "fussmassagegeraete",
-    "name": "Fußmassagegeräte",
-    "categoryNameCanonical": "Fußmassagegeräte",
-    "description": "Geräte zur Entspannung müder Füße und zur Anregung der Fußreflexzonen.",
+    "slug": "drones-agricoles",
+    "name": "Drones Agricoles",
+    "categoryNameCanonical": "Drones Agricoles",
+    "description": "Drones spécialisés et de grande taille utilisés dans l'agriculture de précision pour la pulvérisation de traitements, l'analyse des cultures ou le semis.",
     "subcategories": [
       {
-        "slug": "shiatsu-fussmassagegeraete",
-        "name": "Shiatsu-Fußmassagegeräte",
-        "categoryNameCanonical": "Shiatsu-Fußmassagegeräte",
-        "description": "Elektrische Geräte mit Knet- und Rollenmassage für die Fußsohlen."
+        "slug": "drones-de-pulverisation-agricole",
+        "name": "Drones de Pulvérisation Agricole",
+        "categoryNameCanonical": "Drones de Pulvérisation Agricole",
+        "description": "Équipés de réservoirs (ex: 10L, 20L) pour l'épandage ciblé de pesticides, d'engrais ou d'eau."
       },
       {
-        "slug": "fussbaeder-mit-massagefunktion",
-        "name": "Fußbäder mit Massagefunktion",
-        "categoryNameCanonical": "Fußbäder mit Massagefunktion",
-        "description": "Kombinieren ein warmes Fußbad mit Sprudel- und Vibrationsmassage."
+        "slug": "drones-analyse-cultures-multispectral",
+        "name": "Drones d'Analyse de Cultures (Multispectral)",
+        "categoryNameCanonical": "Drones d'Analyse de Cultures (Multispectral)",
+        "description": "Utilisent des capteurs spécifiques pour évaluer la santé des plantes et optimiser les rendements."
       },
       {
-        "slug": "fussmassageroller-aus-holz",
-        "name": "Fußmassageroller aus Holz",
-        "categoryNameCanonical": "Fußmassageroller aus Holz",
-        "description": "Manuelle Roller zur einfachen und effektiven Selbstmassage."
+        "slug": "drones-pour-semis-et-reforestation",
+        "name": "Drones pour Semis et Reforestation",
+        "categoryNameCanonical": "Drones pour Semis et Reforestation",
+        "description": "Adaptés pour larguer des semences de manière rapide et précise sur de grandes surfaces."
       }
     ]
   },
   {
-    "slug": "bein-und-wadenmassagegeraete",
-    "name": "Bein- & Wadenmassagegeräte",
-    "categoryNameCanonical": "Bein- & Wadenmassagegeräte",
-    "description": "Geräte mit Luftkompression oder Knetfunktion zur Regeneration schwerer Beine.",
+    "slug": "drones-sous-marins-rov",
+    "name": "Drones Sous-Marins (ROV)",
+    "categoryNameCanonical": "Drones Sous-Marins (ROV)",
+    "description": "Véhicules sous-marins télécommandés (ROV) équipés de caméras et de projecteurs pour l'exploration, l'inspection ou la pêche.",
     "subcategories": [
       {
-        "slug": "kompressionsmassagegeraete-fuer-beine",
-        "name": "Kompressionsmassagegeräte für Beine",
-        "categoryNameCanonical": "Kompressionsmassagegeräte für Beine",
-        "description": "Manschetten, die sich mit Luft füllen, um die Durchblutung zu fördern."
+        "slug": "rov-avec-camera-4k",
+        "name": "ROV avec Caméra 4K",
+        "categoryNameCanonical": "ROV avec Caméra 4K",
+        "description": "Permettent de capturer des images sous-marines de très haute qualité."
       },
       {
-        "slug": "wadenmassagegeraete-mit-waerme",
-        "name": "Wadenmassagegeräte mit Wärme",
-        "categoryNameCanonical": "Wadenmassagegeräte mit Wärme",
-        "description": "Kombinieren Knetmassage mit wohltuender Wärme für die Wadenmuskulatur."
+        "slug": "rov-pour-la-peche",
+        "name": "ROV pour la Pêche",
+        "categoryNameCanonical": "ROV pour la Pêche",
+        "description": "Dotés de sonars et de détecteurs de poissons pour repérer les meilleurs spots de pêche."
       },
       {
-        "slug": "manuelle-beinmassageroller",
-        "name": "Manuelle Beinmassageroller",
-        "categoryNameCanonical": "Manuelle Beinmassageroller",
-        "description": "Roller und Stäbe zur Selbstbehandlung von Muskelverspannungen in den Beinen."
+        "slug": "rov-avec-bras-robotique",
+        "name": "ROV avec Bras Robotique",
+        "categoryNameCanonical": "ROV avec Bras Robotique",
+        "description": "Modèles professionnels capables de manipuler des objets ou de prélever des échantillons sous l'eau."
       }
     ]
   },
   {
-    "slug": "handmassagegeraete",
-    "name": "Handmassagegeräte",
-    "categoryNameCanonical": "Handmassagegeräte",
-    "description": "Kompakte, tragbare Geräte zur gezielten Massage verschiedener Körperbereiche.",
+    "slug": "drones-etanches",
+    "name": "Drones Étanche et Tout-Terrain",
+    "categoryNameCanonical": "Drones Étanche et Tout-Terrain",
+    "description": "Drones conçus pour résister aux intempéries (pluie, neige) et pouvant même décoller ou atterrir sur l'eau.",
     "subcategories": [
       {
-        "slug": "infrarot-handmassagegeraete",
-        "name": "Infrarot-Handmassagegeräte",
-        "categoryNameCanonical": "Infrarot-Handmassagegeräte",
-        "description": "Kombinieren Klopfmassage mit tiefenwirksamer Infrarotwärme."
+        "slug": "drones-resistants-a-la-pluie",
+        "name": "Drones Résistants à la Pluie",
+        "categoryNameCanonical": "Drones Résistants à la Pluie",
+        "description": "Permettent de voler dans des conditions humides sans risquer d'endommager l'électronique."
       },
       {
-        "slug": "perkussions-handmassagegeraete",
-        "name": "Perkussions-Handmassagegeräte",
-        "categoryNameCanonical": "Perkussions-Handmassagegeräte",
-        "description": "Kleinere Versionen von Massagepistolen für gezielte Anwendung."
+        "slug": "drones-amphibies-atterrissage-eau",
+        "name": "Drones Amphibies (Atterrissage sur l'Eau)",
+        "categoryNameCanonical": "Drones Amphibies (Atterrissage sur l'Eau)",
+        "description": "Équipés de flotteurs ou d'une coque étanche leur permettant de se poser sur un lac ou en mer."
       },
       {
-        "slug": "manuelle-massageroller",
-        "name": "Manuelle Massageroller",
-        "categoryNameCanonical": "Manuelle Massageroller",
-        "description": "Einfache, aber effektive Werkzeuge zur Selbstmassage."
+        "slug": "drones-pour-la-peche-largage-appat",
+        "name": "Drones pour la Pêche (Largage d'Appât)",
+        "categoryNameCanonical": "Drones pour la Pêche (Largage d'Appât)",
+        "description": "Capables de transporter et de larguer une ligne ou un appât à un endroit précis."
       }
     ]
   },
   {
-    "slug": "augenmassagegeraete",
-    "name": "Augenmassagegeräte",
-    "categoryNameCanonical": "Augenmassagegeräte",
-    "description": "Maskenähnliche Geräte zur Entspannung der Augenpartie durch Luftdruck, Vibration und Wärme.",
+    "slug": "batteries-pour-drones",
+    "name": "Batteries et Chargeurs pour Drones",
+    "categoryNameCanonical": "Batteries et Chargeurs pour Drones",
+    "description": "Accessoires essentiels pour prolonger le temps de vol. Comprend les batteries supplémentaires, les chargeurs rapides et les stations de recharge.",
     "subcategories": [
       {
-        "slug": "augenmassagegeraete-mit-waerme",
-        "name": "Augenmassagegeräte mit Wärme",
-        "categoryNameCanonical": "Augenmassagegeräte mit Wärme",
-        "description": "Lindern trockene und müde Augen durch sanfte Wärmekompressen."
+        "slug": "batteries-de-vol-intelligentes",
+        "name": "Batteries de Vol Intelligentes",
+        "categoryNameCanonical": "Batteries de Vol Intelligentes",
+        "description": "Batteries LiPo avec électronique intégrée pour une gestion optimisée de la charge et de la décharge."
       },
       {
-        "slug": "augenmassagegeraete-mit-bluetooth-musik",
-        "name": "Augenmassagegeräte mit Bluetooth-Musik",
-        "categoryNameCanonical": "Augenmassagegeräte mit Bluetooth-Musik",
-        "description": "Modelle mit integrierten Lautsprechern für zusätzliche Entspannung."
+        "slug": "chargeurs-multiples-hubs",
+        "name": "Chargeurs Multiples et Hubs",
+        "categoryNameCanonical": "Chargeurs Multiples et Hubs",
+        "description": "Permettent de recharger plusieurs batteries simultanément ou séquentiellement, idéal pour les professionnels."
       },
       {
-        "slug": "kuehlende-augenmasken",
-        "name": "Kühlende Augenmasken",
-        "categoryNameCanonical": "Kühlende Augenmasken",
-        "description": "Gel-Masken zur Linderung von Schwellungen und Kopfschmerzen."
+        "slug": "stations-recharge-portables",
+        "name": "Stations de Recharge Portables (Power Banks)",
+        "categoryNameCanonical": "Stations de Recharge Portables (Power Banks)",
+        "description": "Batteries externes de grande capacité pour recharger les batteries de drone sur le terrain."
       }
     ]
   },
   {
-    "slug": "kopfhaut-massagegeraete",
-    "name": "Kopfhaut-Massagegeräte",
-    "categoryNameCanonical": "Kopfhaut-Massagegeräte",
-    "description": "Geräte zur Stimulation der Kopfhaut, Förderung der Durchblutung und Entspannung.",
+    "slug": "helices-pour-drones",
+    "name": "Hélices et Protections pour Drones",
+    "categoryNameCanonical": "Hélices et Protections pour Drones",
+    "description": "Pièces de rechange et améliorations pour les hélices, cruciales pour la performance et la sécurité du drone.",
     "subcategories": [
       {
-        "slug": "elektrische-kopfhaut-massagegeraete",
-        "name": "Elektrische Kopfhaut-Massagegeräte",
-        "categoryNameCanonical": "Elektrische Kopfhaut-Massagegeräte",
-        "description": "Wasserdichte Geräte mit rotierenden Noppen für die Anwendung unter der Dusche."
+        "slug": "helices-silencieuses-low-noise",
+        "name": "Hélices Silencieuses (Low-Noise)",
+        "categoryNameCanonical": "Hélices Silencieuses (Low-Noise)",
+        "description": "Conçues avec un profil aérodynamique qui réduit le bruit en vol."
       },
       {
-        "slug": "manuelle-kopfkrauler",
-        "name": "Manuelle Kopfkrauler",
-        "categoryNameCanonical": "Manuelle Kopfkrauler",
-        "description": "Klassische Massage-Spinnen für ein wohltuendes Kribbeln."
+        "slug": "helices-en-fibre-de-carbone",
+        "name": "Hélices en Fibre de Carbone",
+        "categoryNameCanonical": "Hélices en Fibre de Carbone",
+        "description": "Plus rigides et légères que le plastique, elles améliorent la réactivité du drone."
       },
       {
-        "slug": "massagebuersten-fuer-die-kopfhaut",
-        "name": "Massagebürsten für die Kopfhaut",
-        "categoryNameCanonical": "Massagebürsten für die Kopfhaut",
-        "description": "Bürsten mit weichen Silikonborsten zur Anregung der Kopfhaut beim Haarewaschen."
+        "slug": "protections-d-helices",
+        "name": "Protections d'Hélices",
+        "categoryNameCanonical": "Protections d'Hélices",
+        "description": "Accessoires se fixant autour des hélices pour protéger le drone et les personnes en cas de contact."
       }
     ]
   },
   {
-    "slug": "faszienrollen",
-    "name": "Faszienrollen",
-    "categoryNameCanonical": "Faszienrollen",
-    "description": "Schaumstoffrollen zur Selbstmassage des Bindegewebes, zur Regeneration und Lockerung.",
+    "slug": "sacs-de-transport-drones",
+    "name": "Sacs de Transport et Étuis pour Drones",
+    "categoryNameCanonical": "Sacs de Transport et Étuis pour Drones",
+    "description": "Solutions de transport pour protéger le drone et ses accessoires lors des déplacements.",
     "subcategories": [
       {
-        "slug": "glatte-faszienrollen-fuer-anfaenger",
-        "name": "Glatte Faszienrollen für Anfänger",
-        "categoryNameCanonical": "Glatte Faszienrollen für Anfänger",
-        "description": "Weichere Rollen mit glatter Oberfläche für einen sanften Einstieg."
+        "slug": "sacs-a-dos-pour-drones",
+        "name": "Sacs à Dos pour Drones",
+        "categoryNameCanonical": "Sacs à Dos pour Drones",
+        "description": "Conçus avec des compartiments sur mesure pour le drone, la radiocommande, les batteries et un ordinateur portable."
       },
       {
-        "slug": "strukturierte-faszienrollen",
-        "name": "Strukturierte Faszienrollen",
-        "categoryNameCanonical": "Strukturierte Faszienrollen",
-        "description": "Rollen mit Noppen und Rillen für eine intensivere Tiefenmassage."
+        "slug": "valises-rigides-etanches",
+        "name": "Valises Rigides Étanche",
+        "categoryNameCanonical": "Valises Rigides Étanche",
+        "description": "Offrent une protection maximale contre les chocs, l'eau et la poussière, souvent utilisées par les professionnels."
       },
       {
-        "slug": "faszienrollen-sets",
-        "name": "Faszienrollen-Sets",
-        "categoryNameCanonical": "Faszienrollen-Sets",
-        "description": "Sets bestehend aus Rollen, Bällen und Duobällen für eine umfassende Faszienpflege."
+        "slug": "etuis-de-transport-pour-radiocommande",
+        "name": "Étuis de Transport pour Radiocommande",
+        "categoryNameCanonical": "Étuis de Transport pour Radiocommande",
+        "description": "Protègent spécifiquement la radiocommande et ses joysticks fragiles."
       }
     ]
   },
   {
-    "slug": "massagebaelle",
-    "name": "Massagebälle",
-    "categoryNameCanonical": "Massagebälle",
-    "description": "Kleine Bälle zur punktuellen Massage von Triggerpunkten und schwer erreichbaren Stellen.",
+    "slug": "radiocommandes-pour-drones",
+    "name": "Radiocommandes et Contrôleurs",
+    "categoryNameCanonical": "Radiocommandes et Contrôleurs",
+    "description": "Dispositifs permettant de piloter le drone. Inclut les contrôleurs standards, les modèles avec écran intégré et les accessoires.",
     "subcategories": [
       {
-        "slug": "igelbaelle-zur-reflexzonenmassage",
-        "name": "Igelbälle zur Reflexzonenmassage",
-        "categoryNameCanonical": "Igelbälle zur Reflexzonenmassage",
-        "description": "Bälle mit Noppen zur Stimulation der Nervenenden, ideal für Hände und Füße."
+        "slug": "radiocommandes-avec-ecran-integre",
+        "name": "Radiocommandes avec Écran Intégré",
+        "categoryNameCanonical": "Radiocommandes avec Écran Intégré",
+        "description": "Évitent d'avoir à utiliser son smartphone et offrent une meilleure luminosité en plein soleil."
       },
       {
-        "slug": "faszienbaelle-aus-kork",
-        "name": "Faszienbälle aus Kork",
-        "categoryNameCanonical": "Faszienbälle aus Kork",
-        "description": "Feste, umweltfreundliche Bälle für eine intensive punktuelle Massage."
+        "slug": "supports-smartphone-tablette",
+        "name": "Supports pour Smartphone et Tablette",
+        "categoryNameCanonical": "Supports pour Smartphone et Tablette",
+        "description": "Accessoires pour fixer de manière stable un appareil mobile sur la radiocommande."
       },
       {
-        "slug": "duobaelle-fuer-die-wirbelsaeule",
-        "name": "Duobälle für die Wirbelsäule",
-        "categoryNameCanonical": "Duobälle für die Wirbelsäule",
-        "description": "Doppelbälle zur gezielten Massage der Muskelstränge links und rechts der Wirbelsäule."
+        "slug": "protections-de-joysticks",
+        "name": "Protections de Joysticks",
+        "categoryNameCanonical": "Protections de Joysticks",
+        "description": "Petits accessoires en plastique ou silicone pour éviter d'endommager les joysticks pendant le transport."
       }
     ]
   },
   {
-    "slug": "schroepf-sets",
-    "name": "Schröpf-Sets",
-    "categoryNameCanonical": "Schröpf-Sets",
-    "description": "Sets mit Gläsern oder Cups aus Silikon oder Glas zur Durchführung der Schröpftherapie zu Hause.",
+    "slug": "lunettes-fpv",
+    "name": "Lunettes FPV et Écrans",
+    "categoryNameCanonical": "Lunettes FPV et Écrans",
+    "description": "Équipements de visualisation pour le pilotage en immersion (First Person View), affichant en temps réel le flux vidéo de la caméra du drone.",
     "subcategories": [
       {
-        "slug": "schroepfglaeser-mit-vakuumpumpe",
-        "name": "Schröpfgläser mit Vakuumpumpe",
-        "categoryNameCanonical": "Schröpfgläser mit Vakuumpumpe",
-        "description": "Klassische Sets aus Kunststoff oder Glas mit einer Handpumpe zum Erzeugen des Vakuums."
+        "slug": "lunettes-fpv-numeriques",
+        "name": "Lunettes FPV Numériques",
+        "categoryNameCanonical": "Lunettes FPV Numériques",
+        "description": "Offrent une image haute définition et une faible latence, standard pour le FPV moderne."
       },
       {
-        "slug": "silikon-schroepf-cups",
-        "name": "Silikon-Schröpf-Cups",
-        "categoryNameCanonical": "Silikon-Schröpf-Cups",
-        "description": "Flexible Cups, bei denen das Vakuum durch einfaches Zusammendrücken entsteht."
+        "slug": "lunettes-fpv-analogiques",
+        "name": "Lunettes FPV Analogiques",
+        "categoryNameCanonical": "Lunettes FPV Analogiques",
+        "description": "Option plus abordable, privilégiée par certains coureurs pour sa latence quasi nulle."
       },
       {
-        "slug": "gesichts-schroepf-sets",
-        "name": "Gesichts-Schröpf-Sets",
-        "categoryNameCanonical": "Gesichts-Schröpf-Sets",
-        "description": "Kleinere Cups speziell für die sanfte Anwendung im Gesicht."
+        "slug": "ecrans-fpv-montes-sur-radiocommande",
+        "name": "Écrans FPV Montés sur Radiocommande",
+        "categoryNameCanonical": "Écrans FPV Montés sur Radiocommande",
+        "description": "Alternative aux lunettes, offrant un retour vidéo direct sur un écran dédié."
       }
     ]
   },
   {
-    "slug": "guasha-steine",
-    "name": "Guasha-Steine",
-    "categoryNameCanonical": "Guasha-Steine",
-    "description": "Flache, abgerundete Steine aus Jade, Rosenquarz oder anderen Materialien für die Gua-Sha-Massagetechnik.",
+    "slug": "filtres-camera-drone",
+    "name": "Filtres pour Caméra de Drone",
+    "categoryNameCanonical": "Filtres pour Caméra de Drone",
+    "description": "Accessoires optiques qui se fixent sur l'objectif de la caméra du drone pour améliorer la qualité de l'image en contrôlant la lumière et les reflets.",
     "subcategories": [
       {
-        "slug": "guasha-steine-aus-rosenquarz",
-        "name": "Guasha-Steine aus Rosenquarz",
-        "categoryNameCanonical": "Guasha-Steine aus Rosenquarz",
-        "description": "Besonders beliebte Steine, die für ihre beruhigenden Eigenschaften bekannt sind."
+        "slug": "filtres-nd-densite-neutre",
+        "name": "Filtres ND (Densité Neutre)",
+        "categoryNameCanonical": "Filtres ND (Densité Neutre)",
+        "description": "Réduisent la quantité de lumière pour permettre des vitesses d'obturation plus lentes et un flou de mouvement cinématique."
       },
       {
-        "slug": "guasha-steine-aus-jade",
-        "name": "Guasha-Steine aus Jade",
-        "categoryNameCanonical": "Guasha-Steine aus Jade",
-        "description": "Traditionelle Steine, die kühlend und abschwellend wirken sollen."
+        "slug": "filtres-polarisants-cpl",
+        "name": "Filtres Polarisants (CPL)",
+        "categoryNameCanonical": "Filtres Polarisants (CPL)",
+        "description": "Diminuent les reflets sur des surfaces comme l'eau ou les vitres et saturent les couleurs."
       },
       {
-        "slug": "guasha-sets-mit-gesichtsroller",
-        "name": "Guasha-Sets mit Gesichtsroller",
-        "categoryNameCanonical": "Guasha-Sets mit Gesichtsroller",
-        "description": "Kombinierte Sets für eine umfassende Gesichtsmassage-Routine."
+        "slug": "kits-de-filtres-mixtes",
+        "name": "Kits de Filtres Mixtes (ND/PL)",
+        "categoryNameCanonical": "Kits de Filtres Mixtes (ND/PL)",
+        "description": "Ensembles combinant plusieurs types de filtres pour s'adapter à diverses conditions d'éclairage."
       }
     ]
   },
   {
-    "slug": "hot-stone-sets",
-    "name": "Hot-Stone-Sets",
-    "categoryNameCanonical": "Hot-Stone-Sets",
-    "description": "Sets aus Basaltsteinen, die erhitzt und zur tiefenentspannenden Wärmemassage verwendet werden.",
+    "slug": "trains-atterrissage-drones",
+    "name": "Trains d'Atterrissage pour Drones",
+    "categoryNameCanonical": "Trains d'Atterrissage pour Drones",
+    "description": "Accessoires qui surélèvent le drone pour protéger la caméra et la nacelle lors des décollages et atterrissages sur des terrains difficiles.",
     "subcategories": [
       {
-        "slug": "hot-stone-sets-mit-waermegeraet",
-        "name": "Hot-Stone-Sets mit Wärmegerät",
-        "categoryNameCanonical": "Hot-Stone-Sets mit Wärmegerät",
-        "description": "Komplettsets inklusive professionellem Erwärmer für eine konstante Temperatur."
+        "slug": "extensions-de-train-atterrissage",
+        "name": "Extensions de Train d'Atterrissage",
+        "categoryNameCanonical": "Extensions de Train d'Atterrissage",
+        "description": "Se clipsent sur les pieds d'origine pour augmenter la garde au sol."
       },
       {
-        "slug": "basalt-massagesteine",
-        "name": "Basalt-Massagesteine",
-        "categoryNameCanonical": "Basalt-Massagesteine",
-        "description": "Einzelne oder in Sets erhältliche Steine aus Vulkangestein, das die Wärme gut speichert."
+        "slug": "pistes-atterrissage-pliables",
+        "name": "Pistes d'Atterrissage Pliables",
+        "categoryNameCanonical": "Pistes d'Atterrissage Pliables",
+        "description": "Tapis circulaires qui offrent une surface propre et plane pour le décollage, protégeant le drone de la poussière et de l'herbe."
       },
       {
-        "slug": "kalte-marmorsteine-fuer-massage",
-        "name": "Kalte Marmorsteine für Massage",
-        "categoryNameCanonical": "Kalte Marmorsteine für Massage",
-        "description": "Gegenstück zu Hot Stones, zur Anwendung bei Entzündungen und Schwellungen."
+        "slug": "flotteurs-pour-atterrissage-sur-eau",
+        "name": "Flotteurs pour Atterrissage sur Eau",
+        "categoryNameCanonical": "Flotteurs pour Atterrissage sur Eau",
+        "description": "Kit de flotteurs qui transforment le drone en appareil amphibie, pour des prises de vue au ras de l'eau."
       }
     ]
   },
   {
-    "slug": "massagehilfen-aus-holz",
-    "name": "Massagehilfen aus Holz",
-    "categoryNameCanonical": "Massagehilfen aus Holz",
-    "description": "Manuelle Massagewerkzeuge aus Naturholz für eine traditionelle und effektive Massage.",
+    "slug": "pieces-detachees-drones",
+    "name": "Pièces Détachées pour Drones",
+    "categoryNameCanonical": "Pièces Détachées pour Drones",
+    "description": "Composants de rechange pour la réparation et l'entretien des drones, incluant les moteurs, les bras et les modules électroniques.",
     "subcategories": [
       {
-        "slug": "massageroller-aus-holz",
-        "name": "Massageroller aus Holz",
-        "categoryNameCanonical": "Massageroller aus Holz",
-        "description": "Roller für Rücken, Füße und Beine zur Selbstmassage."
+        "slug": "moteurs-brushless-de-rechange",
+        "name": "Moteurs Brushless de Rechange",
+        "categoryNameCanonical": "Moteurs Brushless de Rechange",
+        "description": "Moteurs de remplacement spécifiques à chaque modèle de drone."
       },
       {
-        "slug": "massagekreuz-aus-holz",
-        "name": "Massagekreuz aus Holz",
-        "categoryNameCanonical": "Massagekreuz aus Holz",
-        "description": "Werkzeug zur gezielten Druckpunktmassage (Triggerpunkttherapie)."
+        "slug": "bras-de-drone-de-remplacement",
+        "name": "Bras de Drone de Remplacement",
+        "categoryNameCanonical": "Bras de Drone de Remplacement",
+        "description": "Pièces de châssis avant ou arrière pour remplacer un bras cassé après un crash."
       },
       {
-        "slug": "maderotherapie-holz-sets",
-        "name": "Maderotherapie-Holz-Sets",
-        "categoryNameCanonical": "Maderotherapie-Holz-Sets",
-        "description": "Spezielle Holzwerkzeug-Sets für die Maderotherapie zur Körperformung."
+        "slug": "modules-gps-et-controleurs-de-vol",
+        "name": "Modules GPS et Contrôleurs de Vol",
+        "categoryNameCanonical": "Modules GPS et Contrôleurs de Vol",
+        "description": "Composants électroniques centraux pour les réparations avancées ou les constructions personnalisées."
       }
     ]
   },
   {
-    "slug": "akupressurmatten",
-    "name": "Akupressurmatten",
-    "categoryNameCanonical": "Akupressurmatten",
-    "description": "Matten mit Tausenden von Kunststoffspitzen, die die Durchblutung anregen und Verspannungen lösen.",
+    "slug": "drones-par-prix",
+    "name": "Drones par Gamme de Prix",
+    "categoryNameCanonical": "Drones par Gamme de Prix",
+    "description": "Sélection de drones classés par budget pour aider les acheteurs à trouver le meilleur rapport qualité-prix selon leurs moyens.",
     "subcategories": [
       {
-        "slug": "akupressurmatten-mit-kissen",
-        "name": "Akupressurmatten mit Kissen",
-        "categoryNameCanonical": "Akupressurmatten mit Kissen",
-        "description": "Sets, die eine Matte für den Rücken und ein Kissen für den Nacken enthalten."
+        "slug": "drones-a-moins-de-100-euros",
+        "name": "Drones à Moins de 100€",
+        "categoryNameCanonical": "Drones à Moins de 100€",
+        "description": "Principalement des drones jouets et des modèles pour débutants, idéaux pour s'initier sans grand investissement."
       },
       {
-        "slug": "akupressurmatten-aus-natuerlichen-materialien",
-        "name": "Akupressurmatten aus natürlichen Materialien",
-        "categoryNameCanonical": "Akupressurmatten aus natürlichen Materialien",
-        "description": "Matten mit Bezügen aus Leinen oder Baumwolle und Füllungen aus Kokosfasern."
+        "slug": "drones-entre-100-et-500-euros",
+        "name": "Drones entre 100€ et 500€",
+        "categoryNameCanonical": "Drones entre 100€ et 500€",
+        "description": "Catégorie la plus populaire, avec des drones pliables, GPS et avec caméra 4K pour les amateurs."
       },
       {
-        "slug": "akupressurmatten-mit-tragetasche",
-        "name": "Akupressurmatten mit Tragetasche",
-        "categoryNameCanonical": "Akupressurmatten mit Tragetasche",
-        "description": "Praktische Sets für den einfachen Transport und die Lagerung."
-      }
-    ]
-  },
-  {
-    "slug": "massageliegenbezuege",
-    "name": "Massageliegenbezüge",
-    "categoryNameCanonical": "Massageliegenbezüge",
-    "description": "Schutzbezüge und Laken für Massageliegen zur Gewährleistung von Hygiene und Komfort.",
-    "subcategories": [
-      {
-        "slug": "spannbezuege-aus-frottee",
-        "name": "Spannbezüge aus Frottee",
-        "categoryNameCanonical": "Spannbezüge aus Frottee",
-        "description": "Weiche, saugfähige und waschbare Bezüge für hohen Komfort."
-      },
-      {
-        "slug": "abwischbare-oelfeste-schutzbezuege",
-        "name": "Abwischbare & ölfeste Schutzbezüge",
-        "categoryNameCanonical": "Abwischbare & ölfeste Schutzbezüge",
-        "description": "Bezüge aus PU-Material zum Schutz der Liege vor Massageöl."
-      },
-      {
-        "slug": "einweg-papierrollen-fuer-massageliegen",
-        "name": "Einweg-Papierrollen für Massageliegen",
-        "categoryNameCanonical": "Einweg-Papierrollen für Massageliegen",
-        "description": "Hygienische Papierauflagen für den professionellen Einsatz."
-      }
-    ]
-  },
-  {
-    "slug": "massageliegenzubehoer",
-    "name": "Massageliegenzubehör",
-    "categoryNameCanonical": "Massageliegenzubehör",
-    "description": "Ergänzungen und Ersatzteile für Massageliegen zur Verbesserung von Funktionalität und Komfort.",
-    "subcategories": [
-      {
-        "slug": "kopfstuetzen-und-gesichtskissen",
-        "name": "Kopfstützen & Gesichtskissen",
-        "categoryNameCanonical": "Kopfstützen & Gesichtskissen",
-        "description": "Ergonomisch geformte Kissen für eine bequeme Bauchlage."
-      },
-      {
-        "slug": "lagerungsrollen-und-halbrollen",
-        "name": "Lagerungsrollen & Halbrollen",
-        "categoryNameCanonical": "Lagerungsrollen & Halbrollen",
-        "description": "Rollen zur Unterstützung von Knien, Nacken oder Knöcheln während der Behandlung."
-      },
-      {
-        "slug": "transporttaschen-fuer-massageliegen",
-        "name": "Transporttaschen für Massageliegen",
-        "categoryNameCanonical": "Transporttaschen für Massageliegen",
-        "description": "Robuste Taschen zum Schutz und einfachen Transport von klappbaren Liegen."
-      }
-    ]
-  },
-  {
-    "slug": "aetherische-oele-fuer-massage",
-    "name": "Ätherische Öle für Massage",
-    "categoryNameCanonical": "Ätherische Öle für Massage",
-    "description": "Hochkonzentrierte Pflanzenextrakte zur Aromatisierung von Trägerölen für die Aromatherapie-Massage.",
-    "subcategories": [
-      {
-        "slug": "lavendeloel-zur-entspannung",
-        "name": "Lavendelöl zur Entspannung",
-        "categoryNameCanonical": "Lavendelöl zur Entspannung",
-        "description": "Beruhigendes Öl, ideal für Abendmassagen und zur Stressreduktion."
-      },
-      {
-        "slug": "eukalyptusoel-fuer-atemwege",
-        "name": "Eukalyptusöl für Atemwege",
-        "categoryNameCanonical": "Eukalyptusöl für Atemwege",
-        "description": "Belebendes Öl, oft bei Erkältungen zur Einreibung der Brust verwendet."
-      },
-      {
-        "slug": "aetherische-oele-sets",
-        "name": "Ätherische Öle Sets",
-        "categoryNameCanonical": "Ätherische Öle Sets",
-        "description": "Sammlungen verschiedener beliebter Öle für Einsteiger und zur Vielfalt."
-      }
-    ]
-  },
-  {
-    "slug": "waermekissen",
-    "name": "Wärmekissen",
-    "categoryNameCanonical": "Wärmekissen",
-    "description": "Kissen gefüllt mit Kirschkernen, Dinkel oder Gel, die in der Mikrowelle oder im Ofen erwärmt werden.",
-    "subcategories": [
-      {
-        "slug": "kirschkernkissen",
-        "name": "Kirschkernkissen",
-        "categoryNameCanonical": "Kirschkernkissen",
-        "description": "Klassische Wärmekissen, die eine trockene, langanhaltende Wärme abgeben."
-      },
-      {
-        "slug": "moorgel-waermekissen",
-        "name": "Moorgel-Wärmekissen",
-        "categoryNameCanonical": "Moorgel-Wärmekissen",
-        "description": "Flexible Kissen, die Wärme sehr gut speichern und sich dem Körper anpassen."
-      },
-      {
-        "slug": "elektrische-heizkissen",
-        "name": "Elektrische Heizkissen",
-        "categoryNameCanonical": "Elektrische Heizkissen",
-        "description": "Kissen mit Stromanschluss für eine konstante, regulierbare Wärme."
-      }
-    ]
-  },
-  {
-    "slug": "massage-geschenksets",
-    "name": "Massage-Geschenksets",
-    "categoryNameCanonical": "Massage-Geschenksets",
-    "description": "Sorgfältig zusammengestellte Sets mit Ölen, Werkzeugen und Zubehör, ideal zum Verschenken.",
-    "subcategories": [
-      {
-        "slug": "paar-massage-sets",
-        "name": "Paar-Massage-Sets",
-        "categoryNameCanonical": "Paar-Massage-Sets",
-        "description": "Sets mit sinnlichen Ölen und Kerzen für romantische Partnermassagen."
-      },
-      {
-        "slug": "wellness-geschenksets",
-        "name": "Wellness-Geschenksets",
-        "categoryNameCanonical": "Wellness-Geschenksets",
-        "description": "Umfassende Sets, die oft auch Badezusätze und Pflegeprodukte enthalten."
-      },
-      {
-        "slug": "sportmassage-geschenksets",
-        "name": "Sportmassage-Geschenksets",
-        "categoryNameCanonical": "Sportmassage-Geschenksets",
-        "description": "Sets mit Arnika-Öl, Faszienbällen und regenerierenden Salben für Sportler."
-      }
-    ]
-  },
-  {
-    "slug": "massagebuecher-und-lernmaterial",
-    "name": "Massagebücher & Lernmaterial",
-    "categoryNameCanonical": "Massagebücher & Lernmaterial",
-    "description": "Anleitungen, Fachbücher und Poster zur Erlernung von Massagetechniken und Anatomie.",
-    "subcategories": [
-      {
-        "slug": "buecher-ueber-massagetechniken",
-        "name": "Bücher über Massagetechniken",
-        "categoryNameCanonical": "Bücher über Massagetechniken",
-        "description": "Anleitungen für klassische Massage, Shiatsu, Thai-Massage und mehr."
-      },
-      {
-        "slug": "anatomie-poster-fuer-therapeuten",
-        "name": "Anatomie-Poster für Therapeuten",
-        "categoryNameCanonical": "Anatomie-Poster für Therapeuten",
-        "description": "Visuelle Darstellungen des menschlichen Muskel- und Skelettsystems."
-      },
-      {
-        "slug": "buecher-ueber-triggerpunkt-therapie",
-        "name": "Bücher über Triggerpunkt-Therapie",
-        "categoryNameCanonical": "Bücher über Triggerpunkt-Therapie",
-        "description": "Fachliteratur zur Selbstbehandlung und professionellen Anwendung."
-      }
-    ]
-  },
-  {
-    "slug": "massagestuehle-fuer-therapeuten",
-    "name": "Massagestühle für Therapeuten",
-    "categoryNameCanonical": "Massagestühle für Therapeuten",
-    "description": "Spezielle, klappbare Stühle für die mobile Massage im Sitzen, z.B. im Büro oder auf Events.",
-    "subcategories": [
-      {
-        "slug": "leichte-aluminium-massagestuehle",
-        "name": "Leichte Aluminium-Massagestühle",
-        "categoryNameCanonical": "Leichte Aluminium-Massagestühle",
-        "description": "Besonders transportfreundliche Modelle für den mobilen Einsatz."
-      },
-      {
-        "slug": "ergonomische-massagestuehle",
-        "name": "Ergonomische Massagestühle",
-        "categoryNameCanonical": "Ergonomische Massagestühle",
-        "description": "Stühle mit vielfältigen Einstellmöglichkeiten für maximalen Kundenkomfort."
-      },
-      {
-        "slug": "massagestuhl-sets-mit-tragetasche",
-        "name": "Massagestuhl-Sets mit Tragetasche",
-        "categoryNameCanonical": "Massagestuhl-Sets mit Tragetasche",
-        "description": "Komplettpakete inklusive Stuhl und passender Tasche."
-      }
-    ]
-  },
-  {
-    "slug": "zellulite-massagegeraete",
-    "name": "Zellulite-Massagegeräte",
-    "categoryNameCanonical": "Zellulite-Massagegeräte",
-    "description": "Geräte zur Stimulation des Bindegewebes und zur Verbesserung des Hautbildes bei Zellulite.",
-    "subcategories": [
-      {
-        "slug": "vakuum-massagegeraete-gegen-zellulite",
-        "name": "Vakuum-Massagegeräte gegen Zellulite",
-        "categoryNameCanonical": "Vakuum-Massagegeräte gegen Zellulite",
-        "description": "Geräte, die durch Unterdruck das Gewebe anheben und massieren."
-      },
-      {
-        "slug": "manuelle-zellulite-massageroller",
-        "name": "Manuelle Zellulite-Massageroller",
-        "categoryNameCanonical": "Manuelle Zellulite-Massageroller",
-        "description": "Roller mit Noppen oder Rillen zur Anregung der Durchblutung."
-      },
-      {
-        "slug": "elektrische-anti-zellulite-massagegeraete",
-        "name": "Elektrische Anti-Zellulite-Massagegeräte",
-        "categoryNameCanonical": "Elektrische Anti-Zellulite-Massagegeräte",
-        "description": "Handgeräte, die Knet- und Vibrationsmassage kombinieren."
-      }
-    ]
-  },
-  {
-    "slug": "ems-und-tens-geraete",
-    "name": "EMS & TENS Geräte",
-    "categoryNameCanonical": "EMS & TENS Geräte",
-    "description": "Elektrostimulationsgeräte zur Schmerzlinderung (TENS) und zum Muskelaufbau (EMS).",
-    "subcategories": [
-      {
-        "slug": "tens-geraete-zur-schmerztherapie",
-        "name": "TENS-Geräte zur Schmerztherapie",
-        "categoryNameCanonical": "TENS-Geräte zur Schmerztherapie",
-        "description": "Geräte, die durch sanfte elektrische Impulse die Schmerzweiterleitung blockieren."
-      },
-      {
-        "slug": "ems-geraete-fuer-muskelstimulation",
-        "name": "EMS-Geräte für Muskelstimulation",
-        "categoryNameCanonical": "EMS-Geräte für Muskelstimulation",
-        "description": "Geräte, die Muskelkontraktionen auslösen und so das Training unterstützen."
-      },
-      {
-        "slug": "kombigeraete-tens-ems",
-        "name": "Kombigeräte TENS/EMS",
-        "categoryNameCanonical": "Kombigeräte TENS/EMS",
-        "description": "Vielseitige Geräte, die beide Funktionen in einem Gerät vereinen."
-      }
-    ]
-  },
-  {
-    "slug": "massagesandalen",
-    "name": "Massagesandalen",
-    "categoryNameCanonical": "Massagesandalen",
-    "description": "Sandalen und Schuhe mit speziell geformtem Fußbett oder Noppen zur Stimulation der Fußreflexzonen.",
-    "subcategories": [
-      {
-        "slug": "akupressur-sandalen-mit-noppen",
-        "name": "Akupressur-Sandalen mit Noppen",
-        "categoryNameCanonical": "Akupressur-Sandalen mit Noppen",
-        "description": "Sandalen mit federgelagerten Noppen für eine intensive Reflexzonenmassage."
-      },
-      {
-        "slug": "badesandalen-mit-massagenoppen",
-        "name": "Badesandalen mit Massagenoppen",
-        "categoryNameCanonical": "Badesandalen mit Massagenoppen",
-        "description": "Wasserfeste Sandalen mit sanften Noppen für den Einsatz in Spa und Dusche."
-      },
-      {
-        "slug": "reflexzonen-hausschuhe",
-        "name": "Reflexzonen-Hausschuhe",
-        "categoryNameCanonical": "Reflexzonen-Hausschuhe",
-        "description": "Bequeme Hausschuhe mit integriertem Massagefußbett."
-      }
-    ]
-  },
-  {
-    "slug": "kuehlgels-und-sport-salben",
-    "name": "Kühlgels & Sport-Salben",
-    "categoryNameCanonical": "Kühlgels & Sport-Salben",
-    "description": "Salben und Gels zur Anwendung nach dem Sport zur Kühlung, Erfrischung und Regeneration der Muskeln.",
-    "subcategories": [
-      {
-        "slug": "kuehlgels-mit-menthol-und-kampfer",
-        "name": "Kühlgels mit Menthol & Kampfer",
-        "categoryNameCanonical": "Kühlgels mit Menthol & Kampfer",
-        "description": "Gels mit stark kühlendem Effekt zur Linderung von Muskelschmerzen."
-      },
-      {
-        "slug": "pferdesalbe-zum-einreiben",
-        "name": "Pferdesalbe zum Einreiben",
-        "categoryNameCanonical": "Pferdesalbe zum Einreiben",
-        "description": "Beliebte Salbe zur Belebung und Regeneration nach körperlicher Anstrengung."
-      },
-      {
-        "slug": "arnika-salben-gegen-prellungen",
-        "name": "Arnika-Salben gegen Prellungen",
-        "categoryNameCanonical": "Arnika-Salben gegen Prellungen",
-        "description": "Salben mit Arnika-Extrakt zur Pflege bei stumpfen Verletzungen."
-      }
-    ]
-  },
-  {
-    "slug": "lagerung-und-transport-fuer-massagezubehoer",
-    "name": "Lagerung & Transport für Massagezubehör",
-    "categoryNameCanonical": "Lagerung & Transport für Massagezubehör",
-    "description": "Taschen, Koffer und Trolleys zur sicheren und organisierten Aufbewahrung von Massage-Equipment.",
-    "subcategories": [
-      {
-        "slug": "oelflaschen-guertel-und-holster",
-        "name": "Ölflaschen-Gürtel und -Holster",
-        "categoryNameCanonical": "Ölflaschen-Gürtel und -Holster",
-        "description": "Praktische Gürtel, um Massageöl während der Behandlung griffbereit zu haben."
-      },
-      {
-        "slug": "koffer-fuer-hot-stones",
-        "name": "Koffer für Hot Stones",
-        "categoryNameCanonical": "Koffer für Hot Stones",
-        "description": "Spezielle Koffer zur sicheren Lagerung und zum Transport von Massagesteinen."
-      },
-      {
-        "slug": "trolleys-fuer-mobile-massage",
-        "name": "Trolleys für mobile Massage",
-        "categoryNameCanonical": "Trolleys für mobile Massage",
-        "description": "Rollwagen, um schweres Equipment wie Massageliegen einfacher zu transportieren."
-      }
-    ]
-  },
-  {
-    "slug": "einwegartikel-fuer-massagestudios",
-    "name": "Einwegartikel für Massagestudios",
-    "categoryNameCanonical": "Einwegartikel für Massagestudios",
-    "description": "Hygieneprodukte für den einmaligen Gebrauch in professionellen Praxen und Studios.",
-    "subcategories": [
-      {
-        "slug": "einweg-nasenschlitztuecher",
-        "name": "Einweg-Nasenschlitztücher",
-        "categoryNameCanonical": "Einweg-Nasenschlitztücher",
-        "description": "Hygienische Auflagen für das Kopfteil von Massageliegen."
-      },
-      {
-        "slug": "einweg-slips-und-tangas",
-        "name": "Einweg-Slips und -Tangas",
-        "categoryNameCanonical": "Einweg-Slips und -Tangas",
-        "description": "Einwegunterwäsche für Kunden während bestimmter Behandlungen."
-      },
-      {
-        "slug": "desinfektionstuecher-und-reiniger",
-        "name": "Desinfektionstücher & Reiniger",
-        "categoryNameCanonical": "Desinfektionstücher & Reiniger",
-        "description": "Produkte zur schnellen und sicheren Reinigung von Oberflächen und Geräten."
-      }
-    ]
-  },
-  {
-    "slug": "massagestaebe-und-haken",
-    "name": "Massagestäbe & Haken",
-    "categoryNameCanonical": "Massagestäbe & Haken",
-    "description": "Manuelle Werkzeuge zur Selbstmassage von schwer erreichbaren Triggerpunkten am Rücken und an den Schultern.",
-    "subcategories": [
-      {
-        "slug": "triggerpunkt-haken",
-        "name": "Triggerpunkt-Haken",
-        "categoryNameCanonical": "Triggerpunkt-Haken",
-        "description": "S-förmige oder hakenförmige Stäbe zur gezielten Druckmassage."
-      },
-      {
-        "slug": "massagestaebe-aus-holz",
-        "name": "Massagestäbe aus Holz",
-        "categoryNameCanonical": "Massagestäbe aus Holz",
-        "description": "Einfache, aber effektive Stäbe zur Ausübung von Druck."
-      },
-      {
-        "slug": "vibrations-massagestaebe",
-        "name": "Vibrations-Massagestäbe",
-        "categoryNameCanonical": "Vibrations-Massagestäbe",
-        "description": "Batteriebetriebene Stäbe, die Druck mit Vibration kombinieren."
-      }
-    ]
-  },
-  {
-    "slug": "professionelle-massagecremes",
-    "name": "Professionelle Massagecremes",
-    "categoryNameCanonical": "Professionelle Massagecremes",
-    "description": "Hochwertige Cremes und Lotionen in Großgebinden für den Einsatz in Physiotherapie und Massagepraxen.",
-    "subcategories": [
-      {
-        "slug": "neutrale-massagelotion-im-grossgebinde",
-        "name": "Neutrale Massagelotion im Großgebinde",
-        "categoryNameCanonical": "Neutrale Massagelotion im Großgebinde",
-        "description": "Parfümfreie und hautfreundliche Lotionen in 1-Liter- oder 5-Liter-Behältern."
-      },
-      {
-        "slug": "waermende-massagecremes",
-        "name": "Wärmende Massagecremes",
-        "categoryNameCanonical": "Wärmende Massagecremes",
-        "description": "Cremes mit durchblutungsfördernden Inhaltsstoffen für die Sportmassage."
-      },
-      {
-        "slug": "massagecremes-mit-hoher-griffigkeit",
-        "name": "Massagecremes mit hoher Griffigkeit",
-        "categoryNameCanonical": "Massagecremes mit hoher Griffigkeit",
-        "description": "Spezialcremes, die weniger Gleitfähigkeit bieten und tiefere Gewebetechniken ermöglichen."
-      }
-    ]
-  },
-  {
-    "slug": "infrarot-waermelampen",
-    "name": "Infrarot-Wärmelampen",
-    "categoryNameCanonical": "Infrarot-Wärmelampen",
-    "description": "Lampen, die tiefenwirksame Infrarotwärme zur Linderung von Muskelschmerzen und zur Vorbereitung auf die Massage abgeben.",
-    "subcategories": [
-      {
-        "slug": "infrarotlampen-mit-standfuss",
-        "name": "Infrarotlampen mit Standfuß",
-        "categoryNameCanonical": "Infrarotlampen mit Standfuß",
-        "description": "Große, verstellbare Lampen zur Behandlung größerer Körperbereiche."
-      },
-      {
-        "slug": "infrarot-handgeraete",
-        "name": "Infrarot-Handgeräte",
-        "categoryNameCanonical": "Infrarot-Handgeräte",
-        "description": "Kompakte Geräte zur gezielten Wärmebehandlung."
-      },
-      {
-        "slug": "infrarot-ersatzgluehbirnen",
-        "name": "Infrarot-Ersatzglühbirnen",
-        "categoryNameCanonical": "Infrarot-Ersatzglühbirnen",
-        "description": "Ersatzleuchtmittel für verschiedene Infrarotlampen-Modelle."
-      }
-    ]
-  },
-  {
-    "slug": "vibrationsplatten",
-    "name": "Vibrationsplatten",
-    "categoryNameCanonical": "Vibrationsplatten",
-    "description": "Trainingsgeräte, die durch Vibrationen Muskelreflexe auslösen und oft zur Lockerung und Durchblutungsförderung genutzt werden.",
-    "subcategories": [
-      {
-        "slug": "vibrationsplatten-mit-seitenalternierender-vibration",
-        "name": "Vibrationsplatten mit seitenalternierender Vibration",
-        "categoryNameCanonical": "Vibrationsplatten mit seitenalternierender Vibration",
-        "description": "Platten mit Wipp-Bewegung, die als besonders gelenkschonend gilt."
-      },
-      {
-        "slug": "vibrationsplatten-mit-trainingsbaendern",
-        "name": "Vibrationsplatten mit Trainingsbändern",
-        "categoryNameCanonical": "Vibrationsplatten mit Trainingsbändern",
-        "description": "Sets inklusive Widerstandsbändern für ein Ganzkörpertraining."
-      },
-      {
-        "slug": "kompakte-vibrationsplatten",
-        "name": "Kompakte Vibrationsplatten",
-        "categoryNameCanonical": "Kompakte Vibrationsplatten",
-        "description": "Kleinere, leicht verstaubare Modelle für den Heimgebrauch."
-      }
-    ]
-  },
-  {
-    "slug": "shiatsu-massagegeraete",
-    "name": "Shiatsu-Massagegeräte",
-    "categoryNameCanonical": "Shiatsu-Massagegeräte",
-    "description": "Geräte, die die japanische Fingerdruck-Massage (Shiatsu) durch rotierende Kugeln und Knetbewegungen nachahmen.",
-    "subcategories": [
-      {
-        "slug": "shiatsu-nackenmassageguertel",
-        "name": "Shiatsu-Nackenmassagegürtel",
-        "categoryNameCanonical": "Shiatsu-Nackenmassagegürtel",
-        "description": "U-förmige Geräte für Nacken, Schultern, Rücken und Beine."
-      },
-      {
-        "slug": "shiatsu-massagekissen",
-        "name": "Shiatsu-Massagekissen",
-        "categoryNameCanonical": "Shiatsu-Massagekissen",
-        "description": "Kompakte Kissen für den gezielten Einsatz an Lenden, Nacken oder Waden."
-      },
-      {
-        "slug": "shiatsu-fussmassagegeraete",
-        "name": "Shiatsu-Fußmassagegeräte",
-        "categoryNameCanonical": "Shiatsu-Fußmassagegeräte",
-        "description": "Geräte, die gezielt die Fußsohlen mit rotierenden Köpfen massieren."
-      }
-    ]
-  },
-  {
-    "slug": "stationaere-massageliegen",
-    "name": "Stationäre Massageliegen",
-    "categoryNameCanonical": "Stationäre Massageliegen",
-    "description": "Besonders robuste und stabile Massageliegen für den dauerhaften Einsatz in Praxen und Spas.",
-    "subcategories": [
-      {
-        "slug": "stationaere-massageliegen-aus-holz",
-        "name": "Stationäre Massageliegen aus Holz",
-        "categoryNameCanonical": "Stationäre Massageliegen aus Holz",
-        "description": "Massive Holzliegen mit edler Optik und hoher Belastbarkeit."
-      },
-      {
-        "slug": "hydraulische-massageliegen",
-        "name": "Hydraulische Massageliegen",
-        "categoryNameCanonical": "Hydraulische Massageliegen",
-        "description": "Höhenverstellbare Liegen mittels Fußpumpe, ohne Stromanschluss."
-      },
-      {
-        "slug": "massageliegen-mit-ablageflaeche",
-        "name": "Massageliegen mit Ablagefläche",
-        "categoryNameCanonical": "Massageliegen mit Ablagefläche",
-        "description": "Modelle mit integriertem Regal unter der Liegefläche für Handtücher und Zubehör."
-      }
-    ]
-  },
-  {
-    "slug": "massage-anatomie",
-    "name": "Massage & Anatomie",
-    "categoryNameCanonical": "Massage & Anatomie",
-    "description": "Lehrmittel wie Bücher, Poster und Modelle, die das anatomische Wissen für Masseure und Therapeuten vertiefen.",
-    "subcategories": [
-      {
-        "slug": "anatomie-buecher-fuer-masseure",
-        "name": "Anatomie-Bücher für Masseure",
-        "categoryNameCanonical": "Anatomie-Bücher für Masseure",
-        "description": "Spezialisierte Fachliteratur über das Muskel- und Skelettsystem."
-      },
-      {
-        "slug": "laminierte-muskel-poster",
-        "name": "Laminierte Muskel-Poster",
-        "categoryNameCanonical": "Laminierte Muskel-Poster",
-        "description": "Übersichtliche Lehrtafeln für die Praxiswand."
-      },
-      {
-        "slug": "anatomische-modelle",
-        "name": "Anatomische Modelle",
-        "categoryNameCanonical": "Anatomische Modelle",
-        "description": "3D-Modelle von Wirbelsäule, Gelenken oder Muskeln zum besseren Verständnis."
-      }
-    ]
-  },
-  {
-    "slug": "massage-ambiente",
-    "name": "Massage-Ambiente",
-    "categoryNameCanonical": "Massage-Ambiente",
-    "description": "Produkte zur Schaffung einer entspannenden und professionellen Atmosphäre im Massageraum.",
-    "subcategories": [
-      {
-        "slug": "aroma-diffusoren",
-        "name": "Aroma-Diffusoren",
-        "categoryNameCanonical": "Aroma-Diffusoren",
-        "description": "Geräte zur Vernebelung von Wasser und ätherischen Ölen zur Raumbeduftung."
-      },
-      {
-        "slug": "entspannungsmusik-cds-und-downloads",
-        "name": "Entspannungsmusik CDs & Downloads",
-        "categoryNameCanonical": "Entspannungsmusik CDs & Downloads",
-        "description": "Musik und Naturgeräusche zur akustischen Untermalung der Massage."
-      },
-      {
-        "slug": "handtuchwaermer",
-        "name": "Handtuchwärmer",
-        "categoryNameCanonical": "Handtuchwärmer",
-        "description": "Geräte zum Erwärmen von Handtüchern und Kompressen für ein luxuriöses Spa-Gefühl."
+        "slug": "drones-a-plus-de-500-euros",
+        "name": "Drones à Plus de 500€",
+        "categoryNameCanonical": "Drones à Plus de 500€",
+        "description": "Drones semi-professionnels et professionnels avec des caméras de haute qualité, une grande autonomie et des fonctions avancées."
       }
     ]
   }

@@ -276,7 +276,7 @@ const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 relative rounded-lg overflow-hidden">
+            <div className="w-12 h-12 relative rounded-lg overflow-hidden flex-shrink-0">
               <Image
                 src="/logo.png"
                 alt={getString('common.siteName')}
@@ -286,11 +286,11 @@ const Header: React.FC<HeaderProps> = ({
                 priority
               />
             </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-2xl text-gray-900 tracking-tight">
+            <div className="flex flex-col min-w-0">
+              <span className="font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 tracking-tight leading-tight">
                 {getString('common.siteName')}
               </span>
-              <span className="text-sm text-gray-500 -mt-1 font-medium tracking-wide">Premium</span>
+              <span className="text-xs sm:text-sm text-gray-500 font-medium tracking-wide leading-tight">Premium</span>
             </div>
           </Link>
 
@@ -314,7 +314,7 @@ const Header: React.FC<HeaderProps> = ({
           </div>
 
           {/* Right Side Actions */}
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-3 sm:space-x-6">
             {/* Customer Support - Desktop */}
             <div className="hidden lg:flex items-center space-x-4">
               <button
@@ -332,9 +332,9 @@ const Header: React.FC<HeaderProps> = ({
               className="relative flex items-center space-x-2 text-gray-700 hover:text-gray-900 transition-colors group"
             >
               <div className="relative">
-                <ShoppingCart className="w-6 h-6 group-hover:scale-110 transition-transform" />
+                <ShoppingCart className="w-5 h-5 sm:w-6 sm:h-6 group-hover:scale-110 transition-transform" />
                 {cartItemCount > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-gray-900 text-white text-xs font-bold rounded-full w-5 h-5 flex items-center justify-center">
+                  <span className="absolute -top-2 -right-2 bg-gray-900 text-white text-xs font-bold rounded-full w-4 h-4 sm:w-5 sm:h-5 flex items-center justify-center">
                     {cartItemCount > 99 ? '99+' : cartItemCount}
                   </span>
                 )}
@@ -348,17 +348,17 @@ const Header: React.FC<HeaderProps> = ({
             {/* Mobile Support Button */}
             <button
               onClick={() => setIsSupportOpen(true)}
-              className="md:hidden text-gray-700 hover:text-gray-900 transition-colors p-2"
+              className="md:hidden text-gray-700 hover:text-gray-900 transition-colors p-1"
             >
-              <MessageCircle className="w-6 h-6" />
+              <MessageCircle className="w-5 h-5" />
             </button>
 
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden text-gray-700 hover:text-gray-900 transition-colors"
+              className="md:hidden text-gray-700 hover:text-gray-900 transition-colors p-1"
             >
-              {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+              {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>
           </div>
         </div>
