@@ -1,17 +1,688 @@
 [
   {
-    "slug": "arbres-a-chat",
-    "name": "Arbres à Chat",
-    "categoryNameCanonical": "Arbres à Chat",
-    "description": "Découvrez notre sélection d'arbres à chat, disponibles en divers matériaux, tailles et configurations pour répondre aux besoins de chaque félin, des chatons aux grands chats comme les Maine Coons.",
+    "slug": "schlafsofas",
+    "name": "Schlafsofas",
+    "categoryNameCanonical": "Schlafsofas",
+    "description": "Multifunktionale Sofas, die sich in ein Bett umwandeln lassen, ideal für Gäste oder kleine Wohnungen. Basierend auf Suchanfragen wie 'sofa als bett mit matratze'.",
     "subcategories": [
       {
-        "slug": "arbres-a-chat-pour-grands-chats",
-        "name": "Arbres à Chat pour Grands Chats",
-        "categoryNameCanonical": "Arbres à Chat pour Grands Chats",
-        "description": "Structures XXL, stables et renforcées, conçues pour les grandes races de chats (ex: Maine Coon) ou les foyers avec plusieurs chats, assurant sécurité et confort."
+        "slug": "schlafsofas-mit-matratze",
+        "name": "Schlafsofas mit Matratze",
+        "categoryNameCanonical": "Schlafsofas mit Matratze",
+        "description": "Sofas mit integrierter, vollwertiger Matratze für maximalen Schlafkomfort."
+      },
+      {
+        "slug": "schlafsofas-mit-bettkasten",
+        "name": "Schlafsofas mit Bettkasten",
+        "categoryNameCanonical": "Schlafsofas mit Bettkasten",
+        "description": "Praktische Schlafsofas mit integriertem Stauraum für Bettwäsche und Kissen."
+      },
+      {
+        "slug": "ausziehbare-schlafsofas",
+        "name": "Ausziehbare Schlafsofas",
+        "categoryNameCanonical": "Ausziehbare Schlafsofas",
+        "description": "Modelle, die durch einen Ausziehmechanismus schnell zur Liegefläche werden."
+      },
+      {
+        "slug": "klappsofas",
+        "name": "Klappsofas",
+        "categoryNameCanonical": "Klappsofas",
+        "description": "Kompakte Sofas, bei denen die Rückenlehne zum Schlafen umgeklappt wird."
       }
-     
+    ]
+  },
+  {
+    "slug": "ecksofas",
+    "name": "Ecksofas",
+    "categoryNameCanonical": "Ecksofas",
+    "description": "Raumsparende Sofas für Ecken, oft in L-Form oder U-Form, um den Platz optimal zu nutzen. Reflektiert die Suche nach 'sofa l form'.",
+    "subcategories": [
+      {
+        "slug": "ecksofas-l-form",
+        "name": "Ecksofas L-Form",
+        "categoryNameCanonical": "Ecksofas L-Form",
+        "description": "Klassische Ecksofas mit einer Ottomane auf einer Seite."
+      },
+      {
+        "slug": "ecksofas-u-form",
+        "name": "Ecksofas U-Form",
+        "categoryNameCanonical": "Ecksofas U-Form",
+        "description": "Großzügige Wohnlandschaften mit zwei Ottomanen für maximale Sitzfläche."
+      },
+      {
+        "slug": "ecksofas-mit-schlaffunktion",
+        "name": "Ecksofas mit Schlaffunktion",
+        "categoryNameCanonical": "Ecksofas mit Schlaffunktion",
+        "description": "Ecksofas, die zusätzlich eine Schlafmöglichkeit für Gäste bieten."
+      },
+      {
+        "slug": "modulare-ecksofas",
+        "name": "Modulare Ecksofas",
+        "categoryNameCanonical": "Modulare Ecksofas",
+        "description": "Flexible Ecksofas, deren einzelne Elemente frei kombiniert werden können."
+      }
+    ]
+  },
+  {
+    "slug": "sofabeuege-und-schonbezuege",
+    "name": "Sofabezüge & Schonbezüge",
+    "categoryNameCanonical": "Sofabezüge & Schonbezüge",
+    "description": "Schutzbezüge für Sofas, um sie vor Schmutz, Tierhaaren und Abnutzung zu schützen. Basierend auf den häufigen Suchen 'sofa abdeckung', 'sofa abdeckung hund', 'sofa abdeckung wasserdicht'.",
+    "subcategories": [
+      {
+        "slug": "wasserdichte-sofabezuege",
+        "name": "Wasserdichte Sofabezüge",
+        "categoryNameCanonical": "Wasserdichte Sofabezüge",
+        "description": "Bezüge mit einer wasserdichten Schicht zum Schutz vor Flüssigkeiten."
+      },
+      {
+        "slug": "sofabezuege-fuer-haustiere",
+        "name": "Sofabezüge für Haustiere",
+        "categoryNameCanonical": "Sofabezüge für Haustiere",
+        "description": "Robuste und waschbare Bezüge, die speziell gegen Tierhaare und Kratzer schützen."
+      },
+      {
+        "slug": "sofabezuege-fuer-ecksofas",
+        "name": "Sofabezüge für Ecksofas",
+        "categoryNameCanonical": "Sofabezüge für Ecksofas",
+        "description": "Passgenaue Bezüge für L-Form- und U-Form-Sofas."
+      },
+      {
+        "slug": "elastische-stretch-sofabezuege",
+        "name": "Elastische Stretch-Sofabezüge",
+        "categoryNameCanonical": "Elastische Stretch-Sofabezüge",
+        "description": "Dehnbare Hussen, die sich an verschiedene Sofaformen anpassen."
+      }
+    ]
+  },
+  {
+    "slug": "modulsofas",
+    "name": "Modulsofas",
+    "categoryNameCanonical": "Modulsofas",
+    "description": "Flexible Sofasysteme aus einzelnen Modulen, die je nach Bedarf und Raumgröße individuell zusammengestellt werden können.",
+    "subcategories": [
+      {
+        "slug": "modulsofas-aus-stoff",
+        "name": "Modulsofas aus Stoff",
+        "categoryNameCanonical": "Modulsofas aus Stoff",
+        "description": "Anpassbare Modulsofas mit strapazierfähigen Stoffbezügen."
+      },
+      {
+        "slug": "modulsofas-mit-stauraum",
+        "name": "Modulsofas mit Stauraum",
+        "categoryNameCanonical": "Modulsofas mit Stauraum",
+        "description": "Einzelne Module mit integriertem Bettkasten für mehr Ordnung."
+      },
+      {
+        "slug": "modulsofas-fuer-outdoor",
+        "name": "Modulsofas für Outdoor",
+        "categoryNameCanonical": "Modulsofas für Outdoor",
+        "description": "Wetterfeste Module für die flexible Gestaltung von Garten- und Terrassenlandschaften."
+      }
+    ]
+  },
+  {
+    "slug": "2-sitzer-sofas",
+    "name": "2-Sitzer Sofas",
+    "categoryNameCanonical": "2-Sitzer Sofas",
+    "description": "Kompakte Sofas, ideal für kleine Wohnzimmer, Apartments oder als Ergänzung zu größeren Sitzgruppen.",
+    "subcategories": [
+      {
+        "slug": "2-sitzer-sofas-aus-samt",
+        "name": "2-Sitzer Sofas aus Samt",
+        "categoryNameCanonical": "2-Sitzer Sofas aus Samt",
+        "description": "Elegante Zweisitzer mit weichem Samtbezug."
+      },
+      {
+        "slug": "2-sitzer-sofas-aus-leder",
+        "name": "2-Sitzer Sofas aus Leder",
+        "categoryNameCanonical": "2-Sitzer Sofas aus Leder",
+        "description": "Klassische und langlebige Zweisitzer aus Echt- oder Kunstleder."
+      },
+      {
+        "slug": "2-sitzer-sofas-mit-relaxfunktion",
+        "name": "2-Sitzer Sofas mit Relaxfunktion",
+        "categoryNameCanonical": "2-Sitzer Sofas mit Relaxfunktion",
+        "description": "Zweisitzer mit verstellbaren Rückenlehnen oder Fußstützen."
+      }
+    ]
+  },
+  {
+    "slug": "3-sitzer-sofas",
+    "name": "3-Sitzer Sofas",
+    "categoryNameCanonical": "3-Sitzer Sofas",
+    "description": "Der klassische Allrounder für Familien und Wohnzimmer, bietet bequem Platz für drei Personen.",
+    "subcategories": [
+      {
+        "slug": "3-sitzer-sofas-aus-stoff",
+        "name": "3-Sitzer Sofas aus Stoff",
+        "categoryNameCanonical": "3-Sitzer Sofas aus Stoff",
+        "description": "Vielseitige Dreisitzer in verschiedenen Stoffarten und Farben."
+      },
+      {
+        "slug": "3-sitzer-sofas-aus-cord",
+        "name": "3-Sitzer Sofas aus Cord",
+        "categoryNameCanonical": "3-Sitzer Sofas aus Cord",
+        "description": "Trendige Dreisitzer mit robustem und gemütlichem Cordbezug."
+      },
+      {
+        "slug": "3-sitzer-sofas-mit-schlaffunktion",
+        "name": "3-Sitzer Sofas mit Schlaffunktion",
+        "categoryNameCanonical": "3-Sitzer Sofas mit Schlaffunktion",
+        "description": "Klassische Dreisitzer, die sich bei Bedarf in ein Gästebett verwandeln lassen."
+      }
+    ]
+  },
+  {
+    "slug": "bigsofas-xxl-sofas",
+    "name": "Bigsofas & XXL-Sofas",
+    "categoryNameCanonical": "Bigsofas & XXL-Sofas",
+    "description": "Besonders große und tiefe Sofas für geräumige Wohnzimmer, die maximalen Komfort und Platz für die ganze Familie bieten.",
+    "subcategories": [
+      {
+        "slug": "bigsofas-mit-kissen-sets",
+        "name": "Bigsofas mit Kissen-Sets",
+        "categoryNameCanonical": "Bigsofas mit Kissen-Sets",
+        "description": "XXL-Sofas, die inklusive einer großen Anzahl passender Zier- und Rückenkissen geliefert werden."
+      },
+      {
+        "slug": "bigsofas-aus-strukturstoff",
+        "name": "Bigsofas aus Strukturstoff",
+        "categoryNameCanonical": "Bigsofas aus Strukturstoff",
+        "description": "Großformatige Sofas mit strapazierfähigen und haptisch ansprechenden Stoffbezügen."
+      },
+      {
+        "slug": "tiefe-bigsofas",
+        "name": "Tiefe Bigsofas",
+        "categoryNameCanonical": "Tiefe Bigsofas",
+        "description": "Sofas mit extra tiefer Sitzfläche für ein besonders gemütliches Lounge-Gefühl."
+      }
+    ]
+  },
+  {
+    "slug": "ledersofas",
+    "name": "Ledersofas",
+    "categoryNameCanonical": "Ledersofas",
+    "description": "Hochwertige und pflegeleichte Sofas aus Echtleder oder Kunstleder, bekannt für ihre Langlebigkeit und klassische Optik.",
+    "subcategories": [
+      {
+        "slug": "sofas-aus-echtleder",
+        "name": "Sofas aus Echtleder",
+        "categoryNameCanonical": "Sofas aus Echtleder",
+        "description": "Sofas mit Bezügen aus echtem Rinds-, Büffel- oder Nappaleder."
+      },
+      {
+        "slug": "sofas-aus-kunstleder",
+        "name": "Sofas aus Kunstleder",
+        "categoryNameCanonical": "Sofas aus Kunstleder",
+        "description": "Preisgünstige und pflegeleichte Alternative zu Echtleder."
+      },
+      {
+        "slug": "ledersofas-mit-relaxfunktion",
+        "name": "Ledersofas mit Relaxfunktion",
+        "categoryNameCanonical": "Ledersofas mit Relaxfunktion",
+        "description": "Komfortable Ledersofas mit manuell oder elektrisch verstellbaren Elementen."
+      }
+    ]
+  },
+  {
+    "slug": "samtsofas",
+    "name": "Samtsofas",
+    "categoryNameCanonical": "Samtsofas",
+    "description": "Elegante Sofas mit weichen, schimmernden Samtbezügen, die jedem Raum eine luxuriöse Note verleihen.",
+    "subcategories": [
+      {
+        "slug": "samtsofas-in-gruen",
+        "name": "Samtsofas in Grün",
+        "categoryNameCanonical": "Samtsofas in Grün",
+        "description": "Besonders beliebte Samtsofas in verschiedenen Grüntönen wie Smaragd oder Salbei."
+      },
+      {
+        "slug": "samtsofas-in-blau",
+        "name": "Samtsofas in Blau",
+        "categoryNameCanonical": "Samtsofas in Blau",
+        "description": "Stilvolle Samtsofas in Marine-, Königs- oder Petrolblau."
+      },
+      {
+        "slug": "2-sitzer-samtsofas",
+        "name": "2-Sitzer Samtsofas",
+        "categoryNameCanonical": "2-Sitzer Samtsofas",
+        "description": "Kompakte und elegante Zweisitzer mit edlem Samtbezug."
+      }
+    ]
+  },
+  {
+    "slug": "sofas-mit-relaxfunktion",
+    "name": "Sofas mit Relaxfunktion",
+    "categoryNameCanonical": "Sofas mit Relaxfunktion",
+    "description": "Komfortsofas mit verstellbaren Rückenlehnen, ausklappbaren Fußstützen oder Massagefunktionen für ultimative Entspannung.",
+    "subcategories": [
+      {
+        "slug": "elektrische-relaxsofas",
+        "name": "Elektrische Relaxsofas",
+        "categoryNameCanonical": "Elektrische Relaxsofas",
+        "description": "Sofas, deren Relaxfunktionen bequem per Knopfdruck gesteuert werden."
+      },
+      {
+        "slug": "manuelle-relaxsofas",
+        "name": "Manuelle Relaxsofas",
+        "categoryNameCanonical": "Manuelle Relaxsofas",
+        "description": "Sofas, bei denen die Verstellung durch Körperdruck oder einen seitlichen Hebel erfolgt."
+      },
+      {
+        "slug": "relaxsofas-mit-usb-anschluss",
+        "name": "Relaxsofas mit USB-Anschluss",
+        "categoryNameCanonical": "Relaxsofas mit USB-Anschluss",
+        "description": "Moderne Sofas mit integrierten USB-Ports zum Laden von Geräten."
+      }
+    ]
+  },
+  {
+    "slug": "kindersofas",
+    "name": "Kindersofas",
+    "categoryNameCanonical": "Kindersofas",
+    "description": "Kleine, kindgerechte Sofas in bunten Designs und aus robusten Materialien, ideal für das Kinderzimmer.",
+    "subcategories": [
+      {
+        "slug": "ausklappbare-kindersofas",
+        "name": "Ausklappbare Kindersofas",
+        "categoryNameCanonical": "Ausklappbare Kindersofas",
+        "description": "Minisofas, die sich zu einer kleinen Liegefläche für Übernachtungsgäste ausklappen lassen."
+      },
+      {
+        "slug": "kindersofas-mit-tiermotiven",
+        "name": "Kindersofas mit Tiermotiven",
+        "categoryNameCanonical": "Kindersofas mit Tiermotiven",
+        "description": "Spielerische Sofas in Form von Tieren, basierend auf Suchen wie 'sofa affe'."
+      },
+      {
+        "slug": "kindersofas-aus-schaumstoff",
+        "name": "Kindersofas aus Schaumstoff",
+        "categoryNameCanonical": "Kindersofas aus Schaumstoff",
+        "description": "Leichte und weiche Sofas ohne harten Rahmen zur Minimierung der Verletzungsgefahr."
+      }
+    ]
+  },
+  {
+    "slug": "gartensofas",
+    "name": "Gartensofas",
+    "categoryNameCanonical": "Gartensofas",
+    "description": "Wetterfeste und robuste Sofas für den Außenbereich wie Garten, Terrasse oder Balkon, oft aus Polyrattan, Holz oder Metall.",
+    "subcategories": [
+      {
+        "slug": "gartensofas-aus-polyrattan",
+        "name": "Gartensofas aus Polyrattan",
+        "categoryNameCanonical": "Gartensofas aus Polyrattan",
+        "description": "Pflegeleichte und witterungsbeständige Sofas in geflochtener Optik."
+      },
+      {
+        "slug": "gartensofas-aus-holz",
+        "name": "Gartensofas aus Holz",
+        "categoryNameCanonical": "Gartensofas aus Holz",
+        "description": "Natürliche und robuste Sofas aus Hölzern wie Teak, Akazie oder Eukalyptus."
+      },
+      {
+        "slug": "gartensofas-mit-wasserabweisenden-polstern",
+        "name": "Gartensofas mit wasserabweisenden Polstern",
+        "categoryNameCanonical": "Gartensofas mit wasserabweisenden Polstern",
+        "description": "Outdoor-Sofas inklusive Kissen mit speziellen Bezügen, die leichten Regen abhalten."
+      },
+      {
+        "slug": "modulare-gartenlounges",
+        "name": "Modulare Gartenlounges",
+        "categoryNameCanonical": "Modulare Gartenlounges",
+        "description": "Flexible Lounge-Sets, deren einzelne Sofa-Elemente frei angeordnet werden können."
+      }
+    ]
+  },
+  {
+    "slug": "chaiselongues-und-recamieren",
+    "name": "Chaiselongues & Récamièren",
+    "categoryNameCanonical": "Chaiselongues & Récamièren",
+    "description": "Elegante Liegesofas mit einer Armlehne, ideal zum Entspannen, Lesen oder als stilvolle Ergänzung im Wohn- oder Schlafzimmer.",
+    "subcategories": [
+      {
+        "slug": "chaiselongues-mit-samtbezug",
+        "name": "Chaiselongues mit Samtbezug",
+        "categoryNameCanonical": "Chaiselongues mit Samtbezug",
+        "description": "Luxuriöse Liegen mit weichem, schimmerndem Samtstoff."
+      },
+      {
+        "slug": "chaiselongues-mit-stauraum",
+        "name": "Chaiselongues mit Stauraum",
+        "categoryNameCanonical": "Chaiselongues mit Stauraum",
+        "description": "Funktionale Modelle mit einem aufklappbaren Sitz für zusätzlichen Stauraum."
+      },
+      {
+        "slug": "moderne-chaiselongues",
+        "name": "Moderne Chaiselongues",
+        "categoryNameCanonical": "Moderne Chaiselongues",
+        "description": "Liegesofas in minimalistischem Design mit klaren Linien und Metallfüßen."
+      }
+    ]
+  },
+  {
+    "slug": "chesterfield-sofas",
+    "name": "Chesterfield Sofas",
+    "categoryNameCanonical": "Chesterfield Sofas",
+    "description": "Ikonische Sofas im englischen Stil, charakterisiert durch die tiefe Knopfheftung, gerollte Armlehnen und hochwertige Leder- oder Samtbezüge.",
+    "subcategories": [
+      {
+        "slug": "chesterfield-sofas-aus-leder",
+        "name": "Chesterfield Sofas aus Leder",
+        "categoryNameCanonical": "Chesterfield Sofas aus Leder",
+        "description": "Der Klassiker in braunem, schwarzem oder cognacfarbenem Echt- oder Kunstleder."
+      },
+      {
+        "slug": "chesterfield-sofas-aus-samt",
+        "name": "Chesterfield Sofas aus Samt",
+        "categoryNameCanonical": "Chesterfield Sofas aus Samt",
+        "description": "Moderne Interpretationen des Klassikers mit edlem Samtbezug."
+      },
+      {
+        "slug": "3-sitzer-chesterfield-sofas",
+        "name": "3-Sitzer Chesterfield Sofas",
+        "categoryNameCanonical": "3-Sitzer Chesterfield Sofas",
+        "description": "Die gängigste Größe des Chesterfield Sofas, ideal für klassische Wohnzimmer."
+      }
+    ]
+  },
+  {
+    "slug": "sofa-ablagen-und-tische",
+    "name": "Sofa-Ablagen & Tische",
+    "categoryNameCanonical": "Sofa-Ablagen & Tische",
+    "description": "Praktisches Zubehör zur Schaffung von Abstellflächen direkt am oder über dem Sofa. Entspricht Suchen wie 'sofa ablage armlehne' und 'sofa abstellbrett'.",
+    "subcategories": [
+      {
+        "slug": "sofa-ablagen-fuer-armlehne",
+        "name": "Sofa-Ablagen für Armlehne",
+        "categoryNameCanonical": "Sofa-Ablagen für Armlehne",
+        "description": "Flexible Tabletts, meist aus Holz oder Bambus, die über die Armlehne gelegt werden."
+      },
+      {
+        "slug": "sofa-butler-organizer",
+        "name": "Sofa-Butler & Organizer",
+        "categoryNameCanonical": "Sofa-Butler & Organizer",
+        "description": "Hängende Taschen für die Armlehne zur Aufbewahrung von Fernbedienungen, Zeitschriften und Tablets."
+      },
+      {
+        "slug": "sofatische-zum-unterschieben",
+        "name": "Sofatische zum Unterschieben",
+        "categoryNameCanonical": "Sofatische zum Unterschieben",
+        "description": "C-förmige Beistelltische, deren Fuß unter das Sofa geschoben werden kann."
+      }
+    ]
+  },
+  {
+    "slug": "sofas-mit-bettkasten",
+    "name": "Sofas mit Bettkasten",
+    "categoryNameCanonical": "Sofas mit Bettkasten",
+    "description": "Sofas mit integriertem Stauraum unter der Sitzfläche, ideal zur Aufbewahrung von Decken, Kissen oder anderen Gegenständen.",
+    "subcategories": [
+      {
+        "slug": "ecksofas-mit-bettkasten",
+        "name": "Ecksofas mit Bettkasten",
+        "categoryNameCanonical": "Ecksofas mit Bettkasten",
+        "description": "Großzügige Ecksofas, die besonders viel versteckten Stauraum bieten."
+      },
+      {
+        "slug": "3-sitzer-sofas-mit-bettkasten",
+        "name": "3-Sitzer Sofas mit Bettkasten",
+        "categoryNameCanonical": "3-Sitzer Sofas mit Bettkasten",
+        "description": "Klassische Dreisitzer mit praktischem Stauraumfach."
+      },
+      {
+        "slug": "kleine-sofas-mit-bettkasten",
+        "name": "Kleine Sofas mit Bettkasten",
+        "categoryNameCanonical": "Kleine Sofas mit Bettkasten",
+        "description": "Kompakte 2-Sitzer, die auch in kleinen Räumen für Ordnung sorgen."
+      }
+    ]
+  },
+  {
+    "slug": "buerosofas-und-loungesofas",
+    "name": "Bürosofas & Loungesofas",
+    "categoryNameCanonical": "Bürosofas & Loungesofas",
+    "description": "Repräsentative und komfortable Sofas für Wartebereiche, Empfangshallen, Büros oder moderne Wohnbereiche.",
+    "subcategories": [
+      {
+        "slug": "2-sitzer-buerosofas",
+        "name": "2-Sitzer Bürosofas",
+        "categoryNameCanonical": "2-Sitzer Bürosofas",
+        "description": "Kompakte und stilvolle Zweisitzer, ideal für kleinere Wartezonen."
+      },
+      {
+        "slug": "buerosofas-aus-kunstleder",
+        "name": "Bürosofas aus Kunstleder",
+        "categoryNameCanonical": "Bürosofas aus Kunstleder",
+        "description": "Pflegeleichte und professionell wirkende Sofas für den gewerblichen Einsatz."
+      },
+      {
+        "slug": "modulare-loungesysteme",
+        "name": "Modulare Loungesysteme",
+        "categoryNameCanonical": "Modulare Loungesysteme",
+        "description": "Flexible Sitzlandschaften für große Empfangsbereiche oder Kreativzonen."
+      }
+    ]
+  },
+  {
+    "slug": "allergikergeeignete-sofas",
+    "name": "Allergikergeeignete Sofas",
+    "categoryNameCanonical": "Allergikergeeignete Sofas",
+    "description": "Sofas mit speziellen Bezügen und Polsterungen, die für Hausstauballergiker geeignet sind. Basierend auf der Suche 'sofa allergiker'.",
+    "subcategories": [
+      {
+        "slug": "sofas-mit-kunstlederbezug",
+        "name": "Sofas mit Kunstlederbezug",
+        "categoryNameCanonical": "Sofas mit Kunstlederbezug",
+        "description": "Glatte, abwischbare Oberflächen, auf denen sich Milben schwer festsetzen können."
+      },
+      {
+        "slug": "sofas-mit-mikrofaserbezug",
+        "name": "Sofas mit Mikrofaserbezug",
+        "categoryNameCanonical": "Sofas mit Mikrofaserbezug",
+        "description": "Sofas mit eng gewebten Stoffen, die das Eindringen von Allergenen reduzieren."
+      },
+      {
+        "slug": "sofas-mit-abnehmbaren-waschbaren-bezuegen",
+        "name": "Sofas mit abnehmbaren, waschbaren Bezügen",
+        "categoryNameCanonical": "Sofas mit abnehmbaren, waschbaren Bezügen",
+        "description": "Praktische Sofas, deren Bezüge zur hygienischen Reinigung abgenommen werden können."
+      }
+    ]
+  },
+  {
+    "slug": "palettensofas",
+    "name": "Palettensofas",
+    "categoryNameCanonical": "Palettensofas",
+    "description": "Trendige und individuelle Sofas im DIY-Stil, die aus Europaletten gebaut und mit passenden Polstern ausgestattet werden.",
+    "subcategories": [
+      {
+        "slug": "palettensofa-polster-sets",
+        "name": "Palettensofa-Polster & Sets",
+        "categoryNameCanonical": "Palettensofa-Polster & Sets",
+        "description": "Passgenaue Sitz- und Rückenkissen für selbstgebaute Palettenmöbel."
+      },
+      {
+        "slug": "palettensofas-fuer-den-garten",
+        "name": "Palettensofas für den Garten",
+        "categoryNameCanonical": "Palettensofas für den Garten",
+        "description": "Komplette Palettensofas oder Polster mit wetterfesten Bezügen für den Außenbereich."
+      },
+      {
+        "slug": "palettensofas-indoor",
+        "name": "Palettensofas Indoor",
+        "categoryNameCanonical": "Palettensofas Indoor",
+        "description": "Behandelte Paletten und gemütliche Polster für den Einsatz im Wohnzimmer."
+      }
+    ]
+  },
+  {
+    "slug": "cordsofas",
+    "name": "Cordsofas",
+    "categoryNameCanonical": "Cordsofas",
+    "description": "Gemütliche Sofas mit einem Bezug aus Cordstoff, der für seine Langlebigkeit, weiche Haptik und charakteristische Rippenstruktur bekannt ist.",
+    "subcategories": [
+      {
+        "slug": "ecksofas-aus-cord",
+        "name": "Ecksofas aus Cord",
+        "categoryNameCanonical": "Ecksofas aus Cord",
+        "description": "Großzügige Ecksofas im Cord-Look für ein modernes und gemütliches Ambiente."
+      },
+      {
+        "slug": "3-sitzer-cordsofas",
+        "name": "3-Sitzer Cordsofas",
+        "categoryNameCanonical": "3-Sitzer Cordsofas",
+        "description": "Klassische Dreisitzer mit dem trendigen und robusten Cordbezug."
+      },
+      {
+        "slug": "cordsofas-in-beige",
+        "name": "Cordsofas in Beige",
+        "categoryNameCanonical": "Cordsofas in Beige",
+        "description": "Besonders beliebte Cordsofas in hellen, natürlichen Farbtönen."
+      }
+    ]
+  },
+  {
+    "slug": "boxspringsofas",
+    "name": "Boxspringsofas",
+    "categoryNameCanonical": "Boxspringsofas",
+    "description": "Besonders komfortable Sofas mit einem speziellen Federungsaufbau, ähnlich wie bei Boxspringbetten, für ein hohes und bequemes Sitzerlebnis.",
+    "subcategories": [
+      {
+        "slug": "boxspringsofas-mit-schlaffunktion",
+        "name": "Boxspringsofas mit Schlaffunktion",
+        "categoryNameCanonical": "Boxspringsofas mit Schlaffunktion",
+        "description": "Sofas, die den hohen Sitzkomfort mit einer vollwertigen Schlafmöglichkeit kombinieren."
+      },
+      {
+        "slug": "ecksofas-mit-boxspringpolsterung",
+        "name": "Ecksofas mit Boxspringpolsterung",
+        "categoryNameCanonical": "Ecksofas mit Boxspringpolsterung",
+        "description": "Große Wohnlandschaften mit dem speziellen Boxspring-Aufbau."
+      },
+      {
+        "slug": "boxspringsofas-mit-topper",
+        "name": "Boxspringsofas mit Topper",
+        "categoryNameCanonical": "Boxspringsofas mit Topper",
+        "description": "Modelle, bei denen ein zusätzlicher Topper den Sitz- und Liegekomfort weiter erhöht."
+      }
+    ]
+  },
+  {
+    "slug": "sofas-mit-verstellbaren-elementen",
+    "name": "Sofas mit verstellbaren Elementen",
+    "categoryNameCanonical": "Sofas mit verstellbaren Elementen",
+    "description": "Flexible Sofas mit anpassbaren Funktionen wie verstellbaren Kopfstützen, Armlehnen oder Sitztiefen. Inspiriert von 'sofa adjustable'.",
+    "subcategories": [
+      {
+        "slug": "sofas-mit-verstellbaren-kopfstuetzen",
+        "name": "Sofas mit verstellbaren Kopfstützen",
+        "categoryNameCanonical": "Sofas mit verstellbaren Kopfstützen",
+        "description": "Sofas, bei denen die Nackenstützen individuell in der Höhe und Neigung angepasst werden können."
+      },
+      {
+        "slug": "sofas-mit-sitztiefenverstellung",
+        "name": "Sofas mit Sitztiefenverstellung",
+        "categoryNameCanonical": "Sofas mit Sitztiefenverstellung",
+        "description": "Modelle, bei denen die Tiefe der Sitzfläche manuell oder elektrisch verändert werden kann."
+      },
+      {
+        "slug": "sofas-mit-klappbaren-armlehnen",
+        "name": "Sofas mit klappbaren Armlehnen",
+        "categoryNameCanonical": "Sofas mit klappbaren Armlehnen",
+        "description": "Sofas, deren Armlehnen in verschiedenen Positionen arretiert werden können."
+      }
+    ]
+  },
+  {
+    "slug": "sofa-zubehoer",
+    "name": "Sofa-Zubehör",
+    "categoryNameCanonical": "Sofa-Zubehör",
+    "description": "Alles, was Sofas komfortabler, funktionaler oder langlebiger macht. Basiert auf Suchen wie 'sofa accessoires' und 'sofa adapter'.",
+    "subcategories": [
+      {
+        "slug": "sofakissen-und-dekokissen",
+        "name": "Sofakissen & Dekokissen",
+        "categoryNameCanonical": "Sofakissen & Dekokissen",
+        "description": "Kissen in verschiedenen Größen, Farben und Materialien zur Dekoration und Komfortsteigerung."
+      },
+      {
+        "slug": "sofafuesse-und-moebelfuesse",
+        "name": "Sofafüße & Möbelfüße",
+        "categoryNameCanonical": "Sofafüße & Möbelfüße",
+        "description": "Ersatz- oder Upgrade-Füße aus Holz, Metall oder Kunststoff, um die Höhe oder den Stil eines Sofas zu ändern."
+      },
+      {
+        "slug": "anti-rutsch-pads-fuer-sofakissen",
+        "name": "Anti-Rutsch-Pads für Sofakissen",
+        "categoryNameCanonical": "Anti-Rutsch-Pads für Sofakissen",
+        "description": "Praktische Unterlagen, die verhindern, dass Sitzkissen ständig verrutschen."
+      },
+      {
+        "slug": "reparatursets-fuer-sofas",
+        "name": "Reparatursets für Sofas",
+        "categoryNameCanonical": "Reparatursets für Sofas",
+        "description": "Sets zur Ausbesserung von Kratzern, Rissen oder Löchern in Leder- oder Stoffbezügen."
+      }
+    ]
+  },
+  {
+    "slug": "stoffsofas",
+    "name": "Stoffsofas",
+    "categoryNameCanonical": "Stoffsofas",
+    "description": "Eine breite Kategorie von Sofas mit textilen Bezügen, die in unzähligen Farben, Mustern und Materialstrukturen erhältlich sind.",
+    "subcategories": [
+      {
+        "slug": "sofas-aus-mikrofaser",
+        "name": "Sofas aus Mikrofaser",
+        "categoryNameCanonical": "Sofas aus Mikrofaser",
+        "description": "Besonders pflegeleichte und strapazierfähige Stoffsofas, ideal für Familien und Haustierbesitzer."
+      },
+      {
+        "slug": "sofas-aus-leinen",
+        "name": "Sofas aus Leinen",
+        "categoryNameCanonical": "Sofas aus Leinen",
+        "description": "Sofas mit einem natürlichen, atmungsaktiven und kühlenden Leinenbezug."
+      },
+      {
+        "slug": "sofas-aus-strukturstoff",
+        "name": "Sofas aus Strukturstoff",
+        "categoryNameCanonical": "Sofas aus Strukturstoff",
+        "description": "Sofas mit robusten, grob gewebten Stoffen, die eine interessante Haptik bieten."
+      },
+      {
+        "slug": "sofas-mit-abnehmbaren-bezuegen",
+        "name": "Sofas mit abnehmbaren Bezügen",
+        "categoryNameCanonical": "Sofas mit abnehmbaren Bezügen",
+        "description": "Praktische Stoffsofas, deren Bezüge komplett abgenommen und gewaschen werden können."
+      }
+    ]
+  },
+  {
+    "slug": "rattansofas",
+    "name": "Rattansofas",
+    "categoryNameCanonical": "Rattansofas",
+    "description": "Sofas mit einem Gestell aus Rattan oder Polyrattan, die ein natürliches und leichtes Flair in den Wohnraum oder Wintergarten bringen.",
+    "subcategories": [
+      {
+        "slug": "2-sitzer-rattansofas",
+        "name": "2-Sitzer Rattansofas",
+        "categoryNameCanonical": "2-Sitzer Rattansofas",
+        "description": "Kompakte Sofas aus Rattan, oft kombiniert mit bequemen Sitzpolstern."
+      },
+      {
+        "slug": "rattan-lounge-sets",
+        "name": "Rattan-Lounge-Sets",
+        "categoryNameCanonical": "Rattan-Lounge-Sets",
+        "description": "Komplette Sitzgruppen aus Rattansofa, Sesseln und Tisch für den Innen- oder geschützten Außenbereich."
+      },
+      {
+        "slug": "haengende-rattansofas",
+        "name": "Hängende Rattansofas",
+        "categoryNameCanonical": "Hängende Rattansofas",
+        "description": "Schwebende Sofas oder 2-Personen-Hängesessel aus Rattan für ein entspanntes Gefühl."
+      }
     ]
   }
 ]

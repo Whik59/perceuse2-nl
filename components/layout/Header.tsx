@@ -274,7 +274,7 @@ const Header: React.FC<HeaderProps> = ({
       subcategoryCount: categories.filter(sub => sub.parentCategoryId === cat.categoryId).length
     }))
     .sort((a, b) => b.subcategoryCount - a.subcategoryCount)
-    .slice(0, 5); // Show only top 5 main categories with most subcategories
+    .slice(0, 8); // Show only top 8 main categories with most subcategories
   
   // Group categories by parent
   const getSubcategories = (parentId: number) => {

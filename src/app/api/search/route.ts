@@ -66,7 +66,7 @@ export async function GET(request: NextRequest) {
       results.suggestions = suggestions;
     } else {
       // Return all results
-      results.categories = matchingCategories.slice(0, 5);
+      results.categories = matchingCategories.slice(0, 8);
       results.products = matchingProducts.slice(0, 15);
       results.suggestions = suggestions.slice(0, 8);
     }

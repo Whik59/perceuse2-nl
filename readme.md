@@ -1,6 +1,6 @@
 # Step 1: Discover keywords for main categories
-python scripts/amazon-keyword-scraper.py "arbre a chat" --market fr 
-python scripts/ai-category-generator.py "arbre a chat" --language french --min-categories 1 --max-categories 1
+python scripts/amazon-keyword-scraper.py "sofa" --market de 
+python scripts/ai-category-generator.py "sofa" --language german --min-categories 25 --max-categories 40
 
 
 

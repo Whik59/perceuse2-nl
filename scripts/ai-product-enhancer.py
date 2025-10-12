@@ -29,6 +29,42 @@ def safe_print(message):
     except UnicodeEncodeError:
         print(message.encode('utf-8', errors='ignore').decode('utf-8'))
 
+def safe_float(value, default=0):
+    """Safely convert value to float, handling string cases"""
+    if isinstance(value, str):
+        if 'not available' in value.lower() or value.strip() == '' or value.lower() == 'n/a':
+            return default
+        # Remove currency symbols and clean the string
+        cleaned = re.sub(r'[€$£¥₹,]', '', value.strip())
+        if cleaned == '':
+            return default
+        try:
+            return float(cleaned)
+        except ValueError:
+            return default
+    try:
+        return float(value)
+    except (ValueError, TypeError):
+        return default
+
+def safe_int(value, default=0):
+    """Safely convert value to int, handling string cases"""
+    if isinstance(value, str):
+        if 'not available' in value.lower() or value.strip() == '' or value.lower() == 'n/a':
+            return default
+        # Remove common non-numeric characters
+        cleaned = re.sub(r'[,\s]', '', value.strip())
+        if cleaned == '':
+            return default
+        try:
+            return int(float(cleaned))  # Convert via float first to handle decimals
+        except ValueError:
+            return default
+    try:
+        return int(value)
+    except (ValueError, TypeError):
+        return default
+
 def thread_safe_print(message, lock):
     """Thread-safe print with lock"""
     with lock:
@@ -74,9 +110,9 @@ class AIProductEnhancer:
         
     def determine_enhancement_tier(self, product_data):
         """Determine enhancement quality tier based on product value"""
-        price = float(product_data.get('price', 0))
-        rating = float(product_data.get('amazonRating', 0))
-        review_count = int(product_data.get('amazonReviewCount', 0))
+        price = safe_float(product_data.get('price', 0))
+        rating = safe_float(product_data.get('amazonRating', 0))
+        review_count = safe_int(product_data.get('amazonReviewCount', 0))
         
         # Calculate product value score
         value_score = (price * 0.4) + (rating * 20) + (review_count * 0.1)
@@ -162,7 +198,7 @@ Respond ONLY with JSON array.
         if prompt_type == 'name_optimization':
             # Cache by product category and price range
             category = product_data.get('category', '').split()[0] if product_data.get('category') else 'general'
-            price_range = f"{int(float(product_data.get('price', 0)) // 10) * 10}-{int(float(product_data.get('price', 0)) // 10) * 10 + 9}"
+            price_range = f"{int(safe_float(product_data.get('price', 0)) // 10) * 10}-{int(safe_float(product_data.get('price', 0)) // 10) * 10 + 9}"
             return f"{prompt_type}_{category}_{price_range}"
         return f"{prompt_type}_{hash(str(product_data)[:100])}"
     

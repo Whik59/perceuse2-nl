@@ -1062,7 +1062,7 @@ const ProductDetailPage: React.FC = () => {
                   {product.reviewAnalysis.feature_steps && product.reviewAnalysis.feature_steps.length > 0 && (
                     <div className="mb-12">
                       <h3 className="text-2xl font-bold text-gray-900 mb-8 text-center">
-                        Pourquoi Choisir {productTitle}
+                        {getString('product.whyChoose').replace('{productTitle}', productTitle)}
                       </h3>
                       <div className="space-y-4">
                         {product.reviewAnalysis.feature_steps.map((step, index) => (
@@ -1093,31 +1093,31 @@ const ProductDetailPage: React.FC = () => {
                             <div className="space-y-4">
                               {product.reviewAnalysis.final_verdict?.overall_assessment && (
                                 <div>
-                                  <h4 className="font-semibold mb-2">Évaluation Globale</h4>
+                                  <h4 className="font-semibold mb-2">{getString('product.overallAssessment')}</h4>
                                   <p>{product.reviewAnalysis.final_verdict.overall_assessment}</p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.key_technical_specifications && (
                                 <div>
-                                  <h4 className="font-semibold mb-2">Spécifications Techniques</h4>
+                                  <h4 className="font-semibold mb-2">{getString('product.technicalSpecifications')}</h4>
                                   <p>{product.reviewAnalysis.final_verdict.key_technical_specifications}</p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.points_to_consider && (
                                 <div>
-                                  <h4 className="font-semibold mb-2">Points à Considérer</h4>
+                                  <h4 className="font-semibold mb-2">{getString('product.pointsToConsider')}</h4>
                                   <p>{product.reviewAnalysis.final_verdict.points_to_consider}</p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.final_recommendation && (
                                 <div>
-                                  <h4 className="font-semibold mb-2">Recommandation Finale</h4>
+                                  <h4 className="font-semibold mb-2">{getString('product.finalRecommendation')}</h4>
                                   <p>{product.reviewAnalysis.final_verdict.final_recommendation}</p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.target_audience && (
                                 <div>
-                                  <h4 className="font-semibold mb-2">Public Cible</h4>
+                                  <h4 className="font-semibold mb-2">{getString('product.targetAudience')}</h4>
                                   <p>{product.reviewAnalysis.final_verdict.target_audience}</p>
                                 </div>
                               )}

@@ -372,7 +372,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                         href={`/product/${product.slug}`}
                         className="mt-4 block w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium text-center transition-colors duration-200"
                       >
-                        Ver
+                        {getString('product.viewProduct')}
                       </Link>
                     </div>
                   </div>

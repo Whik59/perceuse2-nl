@@ -1,0 +1,139 @@
+{
+  "categoryId": 100,
+  "categoryNameCanonical": "Sofas aus Leinen",
+  "slug": "stoffsofas/sofas-aus-leinen",
+  "parentCategoryId": 98,
+  "level": 1,
+  "description": "Entdecken Sie unsere Leinen Sofas. Robust, atmungsaktiv & stilvoll. Jetzt online shoppen!",
+  "content": "<div><h2>Sofas aus Leinen: Natürliche Eleganz & Höchster Komfort</h2><p>Tauchen Sie ein in die Welt der natürlichen Ästhetik und des unvergleichlichen Komforts mit unseren exquisiten Sofas aus Leinen. Leinen ist eine Faser von einzigartiger Qualität, die für ihre Langlebigkeit, ihre hervorragende Atmungsaktivität und ihre charakteristische, edle Textur geschätzt wird. Ein Leinen Sofa verleiht jedem Wohnzimmer eine beruhigende, authentische Atmosphäre und bietet gleichzeitig einen wunderbar bequemen Platz für entspannte Stunden.</p><p>Unsere sorgfältig kuratierte Kollektion umfasst eine vielfältige Auswahl an Stilen und Größen – vom kompakten 2-Sitzer, ideal für kleinere Räume, bis hin zur großzügigen Wohnlandschaft, die zum Mittelpunkt Ihres Familienlebens wird. Jedes Sofa wird mit größter Präzision und Hingabe gefertigt, um höchste Standards in Bezug auf Qualität, Stabilität und Komfort zu gewährleisten. Die natürliche Widerstandsfähigkeit des Leinenstoffs macht Ihr neues Sofa zu einem treuen und langlebigen Begleiter, dessen Charme mit jedem Jahr noch zunimmt.</p><p>Leinen ist nicht nur extrem strapazierfähig und pflegeleicht, sondern auch besonders atmungsaktiv und sanft zur Haut, was es zur idealen Wahl für Allergiker und Haushalte mit Kindern macht. Zudem ist die Entscheidung für ein Leinen Sofa eine umweltbewusste Wahl, da Leinen aus der Flachspflanze gewonnen wird, die im Anbau weniger Wasser und Pestizide benötigt als viele andere Faserpflanzen. Investieren Sie in ein Leinen Sofa und wählen Sie eine Kombination aus zeitlosem Stil, überragendem Komfort und nachhaltigem Bewusstsein.</p><p>Entdecken Sie jetzt unser umfassendes Sortiment an Leinen Sofas und finden Sie das perfekte Möbelstück, das Ihrem Wohnraum einen Hauch von natürlicher Eleganz und Wohlbefinden verleiht.</p></div>",
+  "seo": {
+    "title": "Sofas aus Leinen: Natürlich Schön & Bequem Kaufen",
+    "description": "Entdecken Sie unsere Leinen Sofas. Robust, atmungsaktiv & stilvoll. Jetzt online shoppen!",
+    "keywords": [
+      "Leinen Sofa",
+      "Sofas aus Leinen",
+      "Leinensofa kaufen",
+      "Naturfaser Sofa"
+    ],
+    "enhancedAt": "2025-10-12T21:25:21.032879"
+  },
+  "faq": [
+    {
+      "question": "Wie pflege ich mein Leinen Sofa richtig?",
+      "answer": "Leinen ist sehr robust. Für die tägliche Pflege genügt regelmäßiges Absaugen. Flecken sollten Sie sofort mit einem feuchten Tuch und milder Seife behandeln. Viele Leinenbezüge sind abnehmbar und maschinenwaschbar – beachten Sie hierzu die Pflegehinweise des Herstellers."
+    },
+    {
+      "question": "Welche Vorteile bieten Sofas aus Leinen?",
+      "answer": "Sofas aus Leinen sind äußerst atmungsaktiv, strapazierfähig und hautfreundlich. Sie wirken im Sommer kühlend und im Winter wärmend. Zudem verleihen sie jedem Raum eine zeitlose, natürliche Eleganz und sind eine nachhaltige Wahl."
+    },
+    {
+      "question": "Sind Leinen Sofas langlebig?",
+      "answer": "Ja, Leinen gilt als eine der stärksten Naturfasern. Bei richtiger Pflege sind Leinen Sofas außergewöhnlich langlebig und behalten über viele Jahre hinweg ihre Form und Schönheit. Die Faser wird mit der Zeit sogar noch weicher und charmanter."
+    }
+  ],
+  "productCount": 0,
+  "enhancedAt": "2025-10-12T21:25:21.032894",
+  "comparisonTable": {
+    "title": "Vergleich der 5 Produkte aus Leinen",
+    "columns": [
+      "Rang",
+      "Produkttyp",
+      "Preis",
+      "Bewertung",
+      "Material",
+      "Besondere Eigenschaft"
+    ],
+    "products": [
+      {
+        "rank": 1,
+        "rang": "1",
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81iXaB2p3HL._AC_SL1500_.jpg]",
+        "name": "Chairus Leinen Ohrensessel Beige Retro Loungesessel",
+        "produkttyp": "Ohrensessel / Loungesessel",
+        "preis": "152.0€",
+        "bewertung": "4.4/5",
+        "material": "Leinenstoff",
+        "besondere_eigenschaft": "Retro-Design, hoher Komfort",
+        "productUrl": "/product/chairus-leinen-ohrensessel-beige-retro-loungesessel",
+        "image": "https://m.media-amazon.com/images/I/81iXaB2p3HL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 2,
+        "rang": "2",
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/81WUreKqcwL._AC_SL1500_.jpg]",
+        "name": "Chairus 2-Sitzer Leinensofa Grau Mini",
+        "produkttyp": "2-Sitzer Sofa",
+        "preis": "167.0€",
+        "bewertung": "3.8/5",
+        "material": "Leinen",
+        "besondere_eigenschaft": "Kompakt, für 2 Personen",
+        "productUrl": "/product/chairus-2-sitzer-leinensofa-grau-mini",
+        "image": "https://m.media-amazon.com/images/I/81WUreKqcwL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 3,
+        "rang": "3",
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71nMbpgX1jL._AC_SL1500_.jpg]",
+        "name": "IWMH Drehsessel Beige mit Seitentasche",
+        "produkttyp": "Drehsessel",
+        "preis": "89.0€",
+        "bewertung": "4.4/5",
+        "material": "Leinenstoff (angenommen)",
+        "besondere_eigenschaft": "360° drehbar, mit Seitentasche",
+        "productUrl": "/product/iwmh-drehsessel-beige-mit-seitentasche",
+        "image": "https://m.media-amazon.com/images/I/71nMbpgX1jL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 4,
+        "rang": "4",
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/81BAky-PBFL._AC_SL1500_.jpg]",
+        "name": "L'Emporio Casa Sofaüberwurf 160x280 Leinen Baumwolle",
+        "produkttyp": "Sofaüberwurf",
+        "preis": "38.0€",
+        "bewertung": "4.1/5",
+        "material": "Leinen, Baumwolle",
+        "besondere_eigenschaft": "Schutz & Atmungsaktivität",
+        "productUrl": "/product/l-emporio-casa-sofauberwurf-160x280-leinen-baumwolle",
+        "image": "https://m.media-amazon.com/images/I/81BAky-PBFL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 5,
+        "rang": "5",
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/81KwQEXs2NL._AC_UL320_.jpg]",
+        "name": "Artscope Leinen Kissenbezug 30x50cm 2er Set Kaffee",
+        "produkttyp": "Kissenbezug (2er Set)",
+        "preis": "12.0€",
+        "bewertung": "4.4/5",
+        "material": "100% Leinen",
+        "besondere_eigenschaft": "2er Set, pflegeleicht",
+        "productUrl": "/product/30x50cm-artscope-leinen-kissenbezug-2er-set",
+        "image": "https://m.media-amazon.com/images/I/81KwQEXs2NL._AC_UL320_.jpg"
+      }
+    ]
+  },
+  "buyingGuide": {
+    "title": "Kaufberatung: So wählen Sie die besten Leinensofas aus",
+    "sections": [
+      {
+        "heading": "1. Material und Stoffqualität",
+        "content": "Leinensofas bieten natürliche Eleganz und Atmungsaktivität. Achten Sie auf reines Leinen oder hochwertige Leinen-Baumwoll-Mischungen für mehr Strapazierfähigkeit und einen weicheren Griff. Eine höhere Stoffdichte gewährleistet Langlebigkeit. Prüfen Sie die Webart und Fadenzahl für beste Qualität. Natürliche Fasern sind besonders hautfreundlich und ideal für Allergiker, bieten zudem eine ansprechende Optik."
+      },
+      {
+        "heading": "2. Komfort und Sitzgefühl",
+        "content": "Der Sitzkomfort ist entscheidend für ein Leinensofa. Testen Sie die Polsterung: Eine Kombination aus hochwertigem Schaumstoff und Federkern bietet oft besten Halt und Anpassungsfähigkeit. Die Sitztiefe und Rückenlehnenhöhe sollten zu Ihrer Körpergröße passen. Ein Leinensofa sollte weder zu weich noch zu hart sein, um langanhaltenden Komfort und eine gute Körperhaltung zu gewährleisten."
+      },
+      {
+        "heading": "3. Größe und Stellfläche",
+        "content": "Messen Sie Ihren Raum sorgfältig aus, bevor Sie ein Leinensofa kaufen. Berücksichtigen Sie Türen und Flure für den Transport. Ein Zweisitzer ist ideal für kleinere Wohnungen, während ein Ecksofa mehr Sitzgelegenheiten bietet. Achten Sie auf die Proportionen des Sofas im Verhältnis zum Raum, um ein harmonisches Gesamtbild zu schaffen. Planen Sie auch Platz für Beistelltische oder Lampen ein."
+      },
+      {
+        "heading": "4. Pflege und Langlebigkeit",
+        "content": "Leinen ist pflegeleicht, benötigt aber die richtige Behandlung, um seine Schönheit zu bewahren. Überprüfen Sie die Herstellerangaben zur Reinigung. Abnehmbare Bezüge sind praktisch für die Maschinenwäsche. Leinen wird mit der Zeit weicher und entwickelt eine schöne Patina. Schützen Sie das Sofa vor direkter Sonneneinstrahlung, um Ausbleichen zu verhindern. Regelmäßiges Absaugen hält es sauber und frisch."
+      },
+      {
+        "heading": "5. Stil und Designintegration",
+        "content": "Leinensofas passen gut zu vielen Einrichtungsstilen, von minimalistisch bis Landhaus oder skandinavisch. Wählen Sie Farben, die Ihre bestehende Einrichtung ergänzen. Natürliche Leinentöne sind zeitlos und vielseitig. Überlegen Sie, ob Sie ein festes Sofa oder ein Modulsystem bevorzugen, das Flexibilität bietet. Das Design sollte sowohl ästhetisch ansprechend als auch funktional für Ihr Zuhause sein."
+      }
+    ]
+  }
+}

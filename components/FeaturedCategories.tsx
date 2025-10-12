@@ -27,7 +27,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
       subcategoryCount: categories.filter(sub => sub.parentCategoryId === parent.categoryId).length
     }))
     .sort((a, b) => b.subcategoryCount - a.subcategoryCount)
-    .slice(0, 5);
+    .slice(0, 8);
 
   // Get category icon and gradient based on category name
   const getCategoryIcon = (categoryName: string) => {

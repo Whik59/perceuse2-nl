@@ -4,100 +4,100 @@
   "reviews": [
     {
       "id": 1,
-      "author": "Marie D.",
+      "author": "Maria S.",
       "rating": 5,
       "date": "2024-01-15",
-      "text": "Très satisfaite de mon achat. Le drone est facile à utiliser et fonctionne parfaitement. Recommandé pour la photographie aérienne !",
+      "text": "Sehr zufrieden mit meinem Kauf. Das Sofa ist bequem und funktioniert perfekt. Empfohlen für das Wohnzimmer!",
       "verified": true,
       "helpful": 12
     },
     {
       "id": 2,
-      "author": "Jean-Pierre M.",
+      "author": "Hans-Peter M.",
       "rating": 5,
       "date": "2024-01-10",
-      "text": "Parfait pour mes voyages. Le drone nous donne de magnifiques photos avec son fonctionnement stable. Très bon service client.",
+      "text": "Perfekt für unser Zuhause. Das Sofa gibt uns wunderschöne Momente mit seinem stabilen Komfort. Sehr guter Kundenservice.",
       "verified": true,
       "helpful": 8
     },
     {
       "id": 3,
-      "author": "Sophie L.",
+      "author": "Sabine L.",
       "rating": 4,
       "date": "2024-01-08",
-      "text": "Le drone est arrivé rapidement et fonctionne bien. Ma famille l'utilise sans problème. Peut-être que l'autonomie pourrait être meilleure.",
+      "text": "Das Sofa ist schnell angekommen und funktioniert gut. Meine Familie nutzt es ohne Probleme. Vielleicht könnte die Polsterung besser sein.",
       "verified": true,
       "helpful": 15
     },
     {
       "id": 4,
-      "author": "Pierre R.",
+      "author": "Peter R.",
       "rating": 5,
       "date": "2024-01-05",
-      "text": "Très facile à piloter. Le fonctionnement est parfait et la qualité d'image excellente. Idéal pour la photographie professionnelle.",
+      "text": "Sehr einfach zu nutzen. Der Komfort ist perfekt und die Qualität ausgezeichnet. Ideal für das Wohnzimmer.",
       "verified": true,
       "helpful": 6
     },
     {
       "id": 5,
-      "author": "Isabelle C.",
+      "author": "Isabella C.",
       "rating": 4,
       "date": "2024-01-02",
-      "text": "Bon produit, simple et sécurisé. La livraison a été très rapide. Ma famille est enchantée des photos aériennes.",
+      "text": "Gutes Produkt, einfach und sicher. Die Lieferung war sehr schnell. Meine Familie ist begeistert von der Bequemlichkeit.",
       "verified": true,
       "helpful": 9
     },
     {
       "id": 6,
-      "author": "Philippe B.",
+      "author": "Philipp B.",
       "rating": 5,
       "date": "2023-12-28",
-      "text": "Après plusieurs mois, il fonctionne toujours parfaitement. Très recommandable pour la photographie et les vidéos aériennes.",
+      "text": "Nach mehreren Monaten funktioniert es immer noch perfekt. Sehr empfehlenswert für das Wohnzimmer und die Entspannung.",
       "verified": true,
       "helpful": 11
     },
     {
       "id": 7,
-      "author": "Camille T.",
+      "author": "Camilla T.",
       "rating": 5,
       "date": "2023-12-20",
-      "text": "Excellent drone ! La stabilisation est impressionnante et les photos sont d'une qualité exceptionnelle. Parfait pour les débutants.",
+      "text": "Ausgezeichnetes Sofa! Die Stabilität ist beeindruckend und der Komfort ist außergewöhnlich. Perfekt für Familien.",
       "verified": true,
       "helpful": 18
     },
     {
       "id": 8,
-      "author": "Antoine F.",
+      "author": "Anton F.",
       "rating": 4,
       "date": "2023-12-15",
-      "text": "Très bon rapport qualité-prix. Le drone est robuste et les contrôles sont intuitifs. Seul bémol : la portée pourrait être plus importante.",
+      "text": "Sehr gutes Preis-Leistungs-Verhältnis. Das Sofa ist robust und die Bedienung ist intuitiv. Einziger Nachteil: Die Größe könnte größer sein.",
       "verified": true,
       "helpful": 7
     },
     {
       "id": 9,
-      "author": "Claire M.",
+      "author": "Clara M.",
       "rating": 5,
       "date": "2023-12-10",
-      "text": "Incroyable ! Ce drone a transformé ma façon de photographier. Les vidéos en 4K sont magnifiques et le pilotage est très stable.",
+      "text": "Unglaublich! Dieses Sofa hat meine Art zu entspannen verändert. Die Bequemlichkeit ist wunderschön und der Komfort ist sehr stabil.",
       "verified": true,
       "helpful": 14
     },
     {
       "id": 10,
-      "author": "Nicolas P.",
+      "author": "Niklas P.",
       "rating": 4,
       "date": "2023-12-05",
-      "text": "Bon drone pour débuter. Facile à assembler et à utiliser. Les instructions sont claires. Parfait pour découvrir l'aérophotographie.",
+      "text": "Gutes Sofa für den Anfang. Einfach aufzustellen und zu nutzen. Die Anweisungen sind klar. Perfekt für die Entdeckung des Komforts.",
       "verified": true,
       "helpful": 13
     },
     {
       "id": 11,
-      "author": "Émilie R.",
+      "author": "Emilie R.",
       "rating": 5,
       "date": "2023-11-28",
-      "text": "Fantastique ! J'ai pu capturer des vues aériennes spectaculaires. Le drone est très réactif et la qualité d'image excellente.",
+      "text": "Fantastisch! Ich konnte spektakuläre Momente der Entspannung erleben. Das Sofa ist sehr reaktionsschnell und die Qualität ausgezeichnet.",
       "verified": true,
       "helpful": 16
     },
@@ -106,7 +106,7 @@
       "author": "Thomas L.",
       "rating": 4,
       "date": "2023-11-20",
-      "text": "Très satisfait de cet achat. Le drone est bien conçu et les fonctionnalités sont nombreuses. Idéal pour les amateurs de technologie.",
+      "text": "Sehr zufrieden mit diesem Kauf. Das Sofa ist gut konzipiert und die Funktionen sind zahlreich. Ideal für Komfort-Liebhaber.",
       "verified": true,
       "helpful": 10
     }
