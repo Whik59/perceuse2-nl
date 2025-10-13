@@ -253,7 +253,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       {/* Footer */}
       <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
         <p className="text-sm text-gray-600 text-center">
-          {getString('comparison.description', { count: limitedProducts.length })}
+          {getString('comparison.description', { count: limitedProducts.length.toString() })}
         </p>
       </div>
     </div>
