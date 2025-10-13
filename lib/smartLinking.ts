@@ -194,7 +194,7 @@ class SmartProductLinker {
       const linkText = this.createBetterAnchorText(match.matchedText, match.product);
       const productUrl = `/product/${match.product.slug}`;
       
-      result += `<a href="${productUrl}" class="text-blue-600 hover:text-blue-800 underline font-medium transition-colors" title="Voir le produit ${match.product.name}">${linkText}</a>`;
+      result += `<a href="${productUrl}" class="text-orange-600 hover:text-orange-800 underline font-medium transition-colors" title="Voir le produit ${match.product.name}">${linkText}</a>`;
       
       lastIndex = match.endIndex;
     }

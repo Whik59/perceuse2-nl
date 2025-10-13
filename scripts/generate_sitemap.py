@@ -12,7 +12,7 @@ from typing import List, Dict, Any
 import argparse
 
 # Configuration
-SITE_URL = "https://www.kaufen-staubsauger.de"  # Update this to your actual domain
+SITE_URL = "https://www.kaufen-massagegeraete.de"  # Update this to your actual domain
 SITEMAP_FILE = "public/sitemap.xml"
 CATEGORIES_FILE = "data/categories.json"
 PRODUCTS_DIR = "data/products"
@@ -261,8 +261,8 @@ def save_robots_txt(content: str, output_file: str) -> None:
 
 def main():
     """Main function"""
-    parser = argparse.ArgumentParser(description='Generate hierarchical sitemap.xml and robots.txt for Vacuum Cleaners')
-    parser.add_argument('--site-url', default=SITE_URL, help='Site URL (default: https://staubsauger-kaufen.com)')
+    parser = argparse.ArgumentParser(description='Generate hierarchical sitemap.xml and robots.txt for Massage Products')
+    parser.add_argument('--site-url', default=SITE_URL, help='Site URL (default: https://massagegeraete-kaufen.com)')
     parser.add_argument('--sitemap-output', default=SITEMAP_FILE, help='Sitemap output file path (default: public/sitemap.xml)')
     parser.add_argument('--robots-output', default='public/robots.txt', help='Robots.txt output file path (default: public/robots.txt)')
     parser.add_argument('--categories', default=CATEGORIES_FILE, help='Categories JSON file path')
@@ -278,7 +278,7 @@ def main():
     products_dir = args.products_dir
     
     print("=" * 50)
-    print("Vacuum Cleaners SEO Generator")
+    print("Massage Products SEO Generator")
     print("=" * 50)
     print(f"Site URL: {site_url}")
     print(f"Sitemap output: {sitemap_file}")

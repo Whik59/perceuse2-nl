@@ -139,7 +139,7 @@ const Layout: React.FC<LayoutProps> = ({
       {showBanner && bannerMessage && (
         <Banner 
           message={bannerMessage}
-          type="discount"
+          type="amazon-partner"
           urgency={true}
         />
       )}

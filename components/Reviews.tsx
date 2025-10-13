@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Star, ThumbsUp, CheckCircle } from 'lucide-react';
+import { getString } from '../lib/utils';
 
 interface Review {
   id: number;
@@ -78,7 +79,7 @@ const Reviews: React.FC<ReviewsProps> = ({
               <span className="font-bold text-blue-700 text-lg">{review.author}</span>
               {review.verified && (
                 <span className="flex items-center text-green-600 text-xs font-semibold ml-2">
-                  <CheckCircle className="w-4 h-4 mr-1" /> Compra verificada
+                  <CheckCircle className="w-4 h-4 mr-1" /> {getString('product.verifiedPurchase')}
                 </span>
               )}
             </div>

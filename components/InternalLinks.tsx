@@ -36,12 +36,12 @@ const InternalLinks: React.FC<InternalLinksProps> = ({ links, title = getString(
           <Link
             key={index}
             href={link.url}
-            className="group flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-md transition-all duration-200"
+            className="group flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200 hover:border-orange-300 hover:shadow-md transition-all duration-200"
           >
-            <span className="text-gray-700 group-hover:text-blue-600 transition-colors">
+            <span className="text-gray-700 group-hover:text-orange-600 transition-colors">
               {link.text}
             </span>
-            <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all duration-200" />
+            <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-orange-600 group-hover:translate-x-1 transition-all duration-200" />
           </Link>
         ))}
       </div>

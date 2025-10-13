@@ -476,7 +476,7 @@ const CategoryPage: React.FC = () => {
               <h2 className="text-3xl font-light text-slate-900 mb-4">
                 {getString('categoryPage.faq')}
               </h2>
-              <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-blue-600 mx-auto rounded-full"></div>
+              <div className="w-24 h-1 bg-gradient-to-r from-green-500 to-orange-600 mx-auto rounded-full"></div>
             </div>
             
             <div className="space-y-8">

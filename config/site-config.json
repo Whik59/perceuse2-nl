@@ -1,32 +1,32 @@
 {
   "site": {
-    "name": "Ihr perfekter Staubsauger",
-    "description": "Finden Sie den idealen Staubsauger. Große Auswahl an Staubsaugern, Saugern und Reinigungsgeräten. Unglaubliche Preise und schneller Versand!",
-    "url": "https://kaufen-staubsauger.de",
+    "name": "Ihr perfektes Massagegerät",
+    "description": "Finden Sie das ideale Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
+    "url": "https://kaufen-massagegeraete.de",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Ihr perfekter Staubsauger - Staubsauger und Reinigungsgeräte",
-    "titleTemplate": "%s | Ihr perfekter Staubsauger",
-    "defaultDescription": "Finden Sie den idealen Staubsauger. Große Auswahl an Staubsaugern, Saugern und Reinigungsgeräten. Unglaubliche Preise und schneller Versand!",
+    "defaultTitle": "Ihr perfektes Massagegerät - Massagegeräte und Wellness-Produkte",
+    "titleTemplate": "%s | Ihr perfektes Massagegerät",
+    "defaultDescription": "Finden Sie das ideale Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
     "keywords": [
-      "Staubsauger",
-      "Sauger",
-      "Reinigungsgerät",
-      "Staubsauger kaufen",
-      "Staubsauger Angebote",
-      "günstige Staubsauger",
-      "beste Staubsauger",
-      "Handstaubsauger",
-      "Beutelloser Staubsauger"
+      "Massagegerät",
+      "Massagepistole",
+      "Wellness",
+      "Massagegerät kaufen",
+      "Massagegerät Angebote",
+      "günstige Massagegeräte",
+      "beste Massagegeräte",
+      "Handmassagegerät",
+      "Elektrisches Massagegerät"
     ],
-    "ogImage": "/og-image-staubsauger.jpg"
+    "ogImage": "/og-image-massagegeraete.jpg"
   },
   "business": {
-    "email": "info@staubsauger.de",
+    "email": "info@massagegeraete.de",
     "phone": "+49 900 123 456",
-    "address": "Reinigungsstraße 1, 10115 Berlin, Deutschland",
+    "address": "Wellnessstraße 1, 10115 Berlin, Deutschland",
     "socialMedia": {
       "facebook": "",
       "instagram": "",
@@ -34,7 +34,7 @@
     }
   },
   "affiliate": {
-    "amazonTag": "staubsauger-21",
+    "amazonTag": "massagegeraete-21",
     "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen."
   },
   "features": {

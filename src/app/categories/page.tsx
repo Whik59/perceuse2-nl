@@ -60,7 +60,7 @@ const CategoryCard: React.FC<{
       return 'from-purple-100 to-indigo-100';
     }
     if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-      return 'from-blue-100 to-cyan-100';
+      return 'from-orange-100 to-orange-200';
     }
     if (name.includes('bébé') || name.includes('enfant')) {
       return 'from-pink-100 to-rose-100';

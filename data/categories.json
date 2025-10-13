@@ -1,885 +1,799 @@
 [
   {
-    "slug": "akkustaubsauger",
-    "name": "Akkustaubsauger",
-    "categoryNameCanonical": "Akkustaubsauger",
-    "description": "Kabellose Staubsauger für maximale Flexibilität. Ideal für die schnelle Reinigung von Böden, Treppen und schwer erreichbaren Stellen ohne lästiges Kabel.",
+    "slug": "massagepistolen",
+    "name": "Massagepistolen",
+    "categoryNameCanonical": "Massagepistolen",
+    "description": "Leistungsstarke Perkussionsmassagegeräte zur Tiefenmuskelentspannung, ideal für Sportler und zur Regeneration.",
     "subcategories": [
       {
-        "slug": "akkustaubsauger-mit-wischfunktion",
-        "name": "Akkustaubsauger mit Wischfunktion",
-        "categoryNameCanonical": "Akkustaubsauger mit Wischfunktion",
-        "description": "Kombigeräte, die gleichzeitig saugen und wischen, für eine umfassende Hartbodenreinigung in einem Schritt."
+        "slug": "mini-massagepistolen",
+        "name": "Mini-Massagepistolen für Reisen",
+        "categoryNameCanonical": "Mini-Massagepistolen für Reisen",
+        "description": "Kompakte und leichte Massagepistolen, perfekt für den Einsatz unterwegs."
       },
       {
-        "slug": "akkustaubsauger-mit-absaugstation",
-        "name": "Akkustaubsauger mit Absaugstation",
-        "categoryNameCanonical": "Akkustaubsauger mit Absaugstation",
-        "description": "Modelle mit einer Basisstation, die den Staubbehälter des Saugers automatisch entleert und oft auch den Akku lädt."
+        "slug": "massagepistolen-mit-heizfunktion",
+        "name": "Massagepistolen mit Heizfunktion",
+        "categoryNameCanonical": "Massagepistolen mit Heizfunktion",
+        "description": "Geräte mit integrierter Wärmefunktion zur zusätzlichen Muskelentspannung."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Leistungsstarke Akkusauger mit speziellen Bürstenwalzen, die Tierhaare effektiv von Teppichen und Polstern entfernen."
+        "slug": "profi-massagepistolen",
+        "name": "Profi-Massagepistolen mit hoher Leistung",
+        "categoryNameCanonical": "Profi-Massagepistolen mit hoher Leistung",
+        "description": "Besonders kraftvolle Geräte mit hoher Amplitude für den professionellen Einsatz."
       },
       {
-        "slug": "akkustaubsauger-mit-wechselakku",
-        "name": "Akkustaubsauger mit austauschbarem Akku",
-        "categoryNameCanonical": "Akkustaubsauger mit austauschbarem Akku",
-        "description": "Geräte, bei denen ein leerer Akku einfach gegen einen vollen ausgetauscht werden kann, um die Laufzeit zu verlängern."
+        "slug": "massagepistolen-mit-mehreren-aufsaetzen",
+        "name": "Massagepistolen mit mehreren Aufsätzen",
+        "categoryNameCanonical": "Massagepistolen mit mehreren Aufsätzen",
+        "description": "Sets inklusive verschiedener Aufsätze für unterschiedliche Muskelgruppen."
       }
     ]
   },
   {
-    "slug": "bodenstaubsauger",
-    "name": "Bodenstaubsauger",
-    "categoryNameCanonical": "Bodenstaubsauger",
-    "description": "Klassische, kabelgebundene Staubsauger mit hoher Saugleistung für die gründliche Reinigung von großen Flächen, Teppichen und Hartböden.",
+    "slug": "nacken-und-schultermassagegeraete",
+    "name": "Nacken- & Schultermassagegeräte",
+    "categoryNameCanonical": "Nacken- & Schultermassagegeräte",
+    "description": "Spezialisierte Geräte zur Linderung von Verspannungen im Nacken- und Schulterbereich, oft mit Shiatsu- und Wärmefunktion.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-mit-beutel",
-        "name": "Bodenstaubsauger mit Beutel",
-        "categoryNameCanonical": "Bodenstaubsauger mit Beutel",
-        "description": "Hygienische Modelle, bei denen Staub und Schmutz in einem austauschbaren Beutel gesammelt werden, ideal für Allergiker."
+        "slug": "shiatsu-nackenmassagegeraete",
+        "name": "Shiatsu-Nackenmassagegeräte",
+        "categoryNameCanonical": "Shiatsu-Nackenmassagegeräte",
+        "description": "Geräte, die die Knetbewegung einer Shiatsu-Massage imitieren."
       },
       {
-        "slug": "bodenstaubsauger-beutellos",
-        "name": "Bodenstaubsauger beutellos (Zyklon)",
-        "categoryNameCanonical": "Bodenstaubsauger beutellos (Zyklon)",
-        "description": "Staubsauger mit Zyklon-Technologie, die ohne Beutel auskommen und über einen entleerbaren Staubbehälter verfügen."
+        "slug": "nackenmassagegeraete-mit-waermefunktion",
+        "name": "Nackenmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Nackenmassagegeräte mit Wärmefunktion",
+        "description": "Modelle mit zuschaltbarer Infrarotwärme für tiefere Entspannung."
       },
       {
-        "slug": "bodenstaubsauger-mit-hepa-filter",
-        "name": "Bodenstaubsauger mit HEPA-Filter",
-        "categoryNameCanonical": "Bodenstaubsauger mit HEPA-Filter",
-        "description": "Geräte mit hocheffizienten Partikelfiltern, die kleinste Staubpartikel und Allergene aus der Abluft filtern."
-      },
-      {
-        "slug": "leise-bodenstaubsauger",
-        "name": "Leise Bodenstaubsauger (unter 70 dB)",
-        "categoryNameCanonical": "Leise Bodenstaubsauger (unter 70 dB)",
-        "description": "Geräuscharme Modelle, die eine gründliche Reinigung ohne übermäßige Lärmbelästigung ermöglichen."
+        "slug": "kabellose-nackenmassagegeraete",
+        "name": "Kabellose Nackenmassagegeräte",
+        "categoryNameCanonical": "Kabellose Nackenmassagegeräte",
+        "description": "Akkubetriebene Geräte für maximale Flexibilität und Nutzung an jedem Ort."
       }
     ]
   },
   {
-    "slug": "saugroboter",
-    "name": "Saugroboter",
-    "categoryNameCanonical": "Saugroboter",
-    "description": "Autonome Reinigungsroboter, die selbstständig Böden saugen und navigieren. Ideal für die tägliche, mühelose Aufrechterhaltung der Sauberkeit.",
+    "slug": "rueckenmassagegeraete",
+    "name": "Rückenmassagegeräte",
+    "categoryNameCanonical": "Rückenmassagegeräte",
+    "description": "Vielfältige Geräte zur Massage des gesamten Rückens, von Massageauflagen bis zu handgeführten Modellen.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-wischfunktion",
-        "name": "Saugroboter mit Wischfunktion",
-        "categoryNameCanonical": "Saugroboter mit Wischfunktion",
-        "description": "Hybride Roboter, die nicht nur saugen, sondern auch feucht wischen können, für eine komplette Bodenpflege."
+        "slug": "shiatsu-massageauflagen-fuer-stuehle",
+        "name": "Shiatsu-Massageauflagen für Stühle",
+        "categoryNameCanonical": "Shiatsu-Massageauflagen für Stühle",
+        "description": "Auflagen zur Anbringung an Büro- oder Wohnzimmerstühlen."
       },
       {
-        "slug": "saugroboter-mit-absaugstation",
-        "name": "Saugroboter mit Absaugstation",
-        "categoryNameCanonical": "Saugroboter mit Absaugstation",
-        "description": "High-End-Modelle mit einer Dockingstation, die den Staubbehälter des Roboters automatisch entleert."
+        "slug": "massageguertel-fuer-den-unteren-ruecken",
+        "name": "Massagegürtel für den unteren Rücken",
+        "categoryNameCanonical": "Massagegürtel für den unteren Rücken",
+        "description": "Gürtel mit Vibrations- und Wärmefunktion speziell für den Lendenbereich."
       },
       {
-        "slug": "saugroboter-mit-laser-navigation",
-        "name": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "categoryNameCanonical": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "description": "Intelligente Roboter, die mittels Laser präzise Karten der Räume erstellen und systematisch reinigen."
-      },
-      {
-        "slug": "saugroboter-fuer-tierhaare",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Spezialisierte Roboter mit hoher Saugkraft und verwicklungsfreien Bürsten, um Tierhaare effektiv aufzunehmen."
+        "slug": "manuelle-rueckenmassagegeraete",
+        "name": "Manuelle Rückenmassagehilfen",
+        "categoryNameCanonical": "Manuelle Rückenmassagehilfen",
+        "description": "Haken, Rollen und andere Werkzeuge zur Selbstmassage schwer erreichbarer Stellen."
       }
     ]
   },
   {
-    "slug": "handstaubsauger",
-    "name": "Handstaubsauger",
-    "categoryNameCanonical": "Handstaubsauger",
-    "description": "Kompakte und leichte Geräte für die schnelle Reinigung kleiner Malheure, Krümel auf dem Tisch, im Auto oder auf Polstern.",
+    "slug": "fussmassagegeraete",
+    "name": "Fußmassagegeräte",
+    "categoryNameCanonical": "Fußmassagegeräte",
+    "description": "Elektrische Geräte zur Entspannung müder Füße durch Shiatsu, Luftkompression oder Vibration.",
     "subcategories": [
       {
-        "slug": "akku-handstaubsauger",
-        "name": "Akkubetriebene Handstaubsauger",
-        "categoryNameCanonical": "Akkubetriebene Handstaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Portabilität und den schnellen Einsatz überall im Haus."
+        "slug": "fussmassagegeraete-mit-waermefunktion",
+        "name": "Fußmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Fußmassagegeräte mit Wärmefunktion",
+        "description": "Geräte mit integrierter Heizung zur Förderung der Durchblutung."
       },
       {
-        "slug": "kabelgebundene-handstaubsauger",
-        "name": "Kabelgebundene Handstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Handstaubsauger",
-        "description": "Leistungsstarke Handgeräte mit Netzbetrieb für konstante Saugkraft ohne Zeitlimit."
+        "slug": "fussmassagegeraete-mit-luftkompression",
+        "name": "Fußmassagegeräte mit Luftkompression",
+        "categoryNameCanonical": "Fußmassagegeräte mit Luftkompression",
+        "description": "Modelle, die mit Luftkissen arbeiten, um die Füße sanft zu komprimieren."
       },
       {
-        "slug": "handstaubsauger-fuer-auto",
-        "name": "Handstaubsauger für das Auto",
-        "categoryNameCanonical": "Handstaubsauger für das Auto",
-        "description": "Modelle mit speziellen Düsen und oft einem 12V-Anschluss für die gründliche Reinigung des Fahrzeuginnenraums."
-      },
-      {
-        "slug": "handstaubsauger-mit-nasssaugfunktion",
-        "name": "Handstaubsauger mit Nasssaugfunktion",
-        "categoryNameCanonical": "Handstaubsauger mit Nasssaugfunktion",
-        "description": "Vielseitige Geräte, die sowohl trockenen Schmutz als auch verschüttete Flüssigkeiten aufnehmen können."
+        "slug": "fussreflexzonen-massagegeraete",
+        "name": "Fußreflexzonen-Massagegeräte",
+        "categoryNameCanonical": "Fußreflexzonen-Massagegeräte",
+        "description": "Spezielle Geräte zur Stimulierung der Fußreflexzonen."
       }
     ]
   },
   {
-    "slug": "stielstaubsauger",
-    "name": "Stielstaubsauger",
-    "categoryNameCanonical": "Stielstaubsauger",
-    "description": "Schlanke und wendige Staubsauger in Stielform, oft kabellos. Eine leichte Alternative zum klassischen Bodenstaubsauger.",
+    "slug": "handmassagegeraete",
+    "name": "Handmassagegeräte",
+    "categoryNameCanonical": "Handmassagegeräte",
+    "description": "Vielseitige, elektrisch betriebene Geräte für die gezielte Anwendung an verschiedenen Körperstellen.",
     "subcategories": [
       {
-        "slug": "kabelgebundene-stielstaubsauger",
-        "name": "Kabelgebundene Stielstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Stielstaubsauger",
-        "description": "Leichte Stielstaubsauger mit unbegrenzter Laufzeit dank Netzanschluss, ideal für kleinere Wohnungen."
+        "slug": "infrarot-handmassagegeraete",
+        "name": "Infrarot-Handmassagegeräte",
+        "categoryNameCanonical": "Infrarot-Handmassagegeräte",
+        "description": "Handgeräte, die wohltuende Infrarotwärme abgeben."
       },
       {
-        "slug": "2-in-1-stiel-handstaubsauger",
-        "name": "2-in-1 Stiel- & Handstaubsauger",
-        "categoryNameCanonical": "2-in-1 Stiel- & Handstaubsauger",
-        "description": "Flexible Geräte mit einem abnehmbaren Handteil für die schnelle Reinigung von Böden und Oberflächen."
+        "slug": "perkussions-handmassagegeraete",
+        "name": "Perkussions-Handmassagegeräte",
+        "categoryNameCanonical": "Perkussions-Handmassagegeräte",
+        "description": "Klopffunktion für eine intensive Tiefenmassage."
       },
       {
-        "slug": "ultraleichte-stielstaubsauger",
-        "name": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "categoryNameCanonical": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "description": "Besonders leichte Modelle für eine mühelose Handhabung und Reinigung von Treppen und Decken."
-      },
-      {
-        "slug": "stielstaubsauger-mit-led-bodenduese",
-        "name": "Stielstaubsauger mit LED-Bodendüse",
-        "categoryNameCanonical": "Stielstaubsauger mit LED-Bodendüse",
-        "description": "Modelle mit beleuchteten Bodendüsen, die Staub und Schmutz auch an dunklen Stellen sichtbar machen."
+        "slug": "kabellose-handmassagegeraete",
+        "name": "Kabellose Handmassagegeräte",
+        "categoryNameCanonical": "Kabellose Handmassagegeräte",
+        "description": "Akkubetriebene Modelle für den flexiblen Einsatz ohne Kabel."
       }
     ]
   },
   {
-    "slug": "nass-trocken-sauger",
-    "name": "Nass-Trocken-Sauger",
-    "categoryNameCanonical": "Nass-Trocken-Sauger",
-    "description": "Robuste und vielseitige Sauger für groben, feinen, trockenen und nassen Schmutz. Perfekt für Keller, Garage, Werkstatt oder Renovierungen.",
+    "slug": "massagesessel",
+    "name": "Massagesessel",
+    "categoryNameCanonical": "Massagesessel",
+    "description": "Hochwertige Sessel für eine Ganzkörpermassage, oft mit Zero-Gravity-Funktion und verschiedenen Automatikprogrammen.",
     "subcategories": [
       {
-        "slug": "nass-trocken-sauger-fuer-haushalt",
-        "name": "Nass-Trocken-Sauger für den Haushalt",
-        "categoryNameCanonical": "Nass-Trocken-Sauger für den Haushalt",
-        "description": "Kompaktere Allzwecksauger zum Aufsaugen von verschütteten Flüssigkeiten oder für die intensive Reinigung."
+        "slug": "massagesessel-mit-shiatsu-funktion",
+        "name": "Massagesessel mit Shiatsu-Funktion",
+        "categoryNameCanonical": "Massagesessel mit Shiatsu-Funktion",
+        "description": "Sessel, die eine authentische Shiatsu-Knetmassage bieten."
       },
       {
-        "slug": "nass-trocken-sauger-mit-blasfunktion",
-        "name": "Nass-Trocken-Sauger mit Blasfunktion",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Blasfunktion",
-        "description": "Geräte, die nicht nur saugen, sondern auch Luft blasen können, z.B. zum Entfernen von Laub."
+        "slug": "massagesessel-mit-zero-gravity",
+        "name": "Massagesessel mit Zero-Gravity-Position",
+        "categoryNameCanonical": "Massagesessel mit Zero-Gravity-Position",
+        "description": "Modelle, die den Körper in eine nahezu schwerelose Position bringen."
       },
       {
-        "slug": "nass-trocken-sauger-mit-steckdose",
-        "name": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "description": "Modelle mit einer integrierten Steckdose zum direkten Anschluss von Elektrowerkzeugen und Absaugung des Staubs."
-      },
-      {
-        "slug": "akku-nass-trocken-sauger",
-        "name": "Akku-Nass-Trocken-Sauger",
-        "categoryNameCanonical": "Akku-Nass-Trocken-Sauger",
-        "description": "Kabellose Nass-Trocken-Sauger für den flexiblen Einsatz auf Baustellen oder an Orten ohne Stromanschluss."
+        "slug": "kompakte-massagesessel",
+        "name": "Kompakte Massagesessel für Wohnräume",
+        "categoryNameCanonical": "Kompakte Massagesessel für Wohnräume",
+        "description": "Platzsparende Modelle, die sich gut in das Wohnambiente integrieren."
       }
     ]
   },
   {
-    "slug": "waschsauger",
-    "name": "Waschsauger (Sprühextraktionsgeräte)",
-    "categoryNameCanonical": "Waschsauger (Sprühextraktionsgeräte)",
-    "description": "Spezialgeräte zur Tiefenreinigung von Teppichen, Polstern und Matratzen. Sie sprühen eine Reinigungslösung auf und saugen sie samt Schmutz wieder ab.",
+    "slug": "faszienrollen",
+    "name": "Faszienrollen",
+    "categoryNameCanonical": "Faszienrollen",
+    "description": "Rollen zur Selbstmassage des Bindegewebes (Faszien) zur Verbesserung der Flexibilität und Linderung von Muskelkater.",
     "subcategories": [
       {
-        "slug": "waschsauger-fuer-teppiche",
-        "name": "Waschsauger für Teppiche",
-        "categoryNameCanonical": "Waschsauger für Teppiche",
-        "description": "Leistungsstarke Geräte mit speziellen Bodendüsen zur fasertiefen Reinigung von Teppichböden."
+        "slug": "faszienrollen-aus-hartschaum",
+        "name": "Faszienrollen aus Hartschaum",
+        "categoryNameCanonical": "Faszienrollen aus Hartschaum",
+        "description": "Standardrollen in verschiedenen Härtegraden für Einsteiger und Fortgeschrittene."
       },
       {
-        "slug": "waschsauger-fuer-polstermoebel",
-        "name": "Waschsauger für Polstermöbel & Autositze",
-        "categoryNameCanonical": "Waschsauger für Polstermöbel & Autositze",
-        "description": "Kompakte Modelle mit Handdüsen zur gezielten Reinigung von Sofas, Sesseln und Fahrzeuginnenräumen."
+        "slug": "faszienrollen-mit-vibration",
+        "name": "Faszienrollen mit Vibration",
+        "categoryNameCanonical": "Faszienrollen mit Vibration",
+        "description": "Elektrische Rollen mit zuschaltbarer Vibration für eine intensivere Wirkung."
       },
       {
-        "slug": "waschsauger-fuer-hartboeden",
-        "name": "Waschsauger für Hartböden",
-        "categoryNameCanonical": "Waschsauger für Hartböden",
-        "description": "Geräte mit speziellen Aufsätzen zur nassen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
+        "slug": "mini-faszienrollen",
+        "name": "Mini-Faszienrollen für Arme & Füße",
+        "categoryNameCanonical": "Mini-Faszienrollen für Arme & Füße",
+        "description": "Kleine Rollen zur gezielten Behandlung von kleineren Muskelgruppen."
+      },
+      {
+        "slug": "faszienrollen-aus-holz-oder-kork",
+        "name": "Faszienrollen aus Holz oder Kork",
+        "categoryNameCanonical": "Faszienrollen aus Holz oder Kork",
+        "description": "Nachhaltige und feste Alternativen zum klassischen Schaumstoff."
       }
     ]
   },
   {
-    "slug": "industriestaubsauger",
-    "name": "Industriestaubsauger",
-    "categoryNameCanonical": "Industriestaubsauger",
-    "description": "Hochleistungsfähige und robuste Sauger für den professionellen Einsatz in Werkstätten, auf Baustellen und in der Industrie. Zertifiziert für verschiedene Staubklassen.",
+    "slug": "massagebaelle",
+    "name": "Massagebälle",
+    "categoryNameCanonical": "Massagebälle",
+    "description": "Bälle zur punktuellen Massage von Triggerpunkten und schwer erreichbaren Muskelpartien.",
     "subcategories": [
       {
-        "slug": "industriestaubsauger-staubklasse-l",
-        "name": "Industriestaubsauger Staubklasse L",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse L",
-        "description": "Sauger für ungefährliche Stäube wie Hausstaub oder Erde mit einem maximalen Durchlassgrad von 1%."
+        "slug": "igelbaelle-mit-noppen",
+        "name": "Igelbälle (Massagebälle mit Noppen)",
+        "categoryNameCanonical": "Igelbälle (Massagebälle mit Noppen)",
+        "description": "Bälle mit Stacheln zur Förderung der Durchblutung und Stimulation."
       },
       {
-        "slug": "industriestaubsauger-staubklasse-m",
-        "name": "Industriestaubsauger Staubklasse M",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse M",
-        "description": "Sauger für gesundheitsgefährdende Stäube wie Holz-, Beton- oder Gipsstaub mit einem Durchlassgrad von unter 0,1%."
+        "slug": "faszienbaelle-glatt",
+        "name": "Glatte Faszienbälle (Lacrosse-Bälle)",
+        "categoryNameCanonical": "Glatte Faszienbälle (Lacrosse-Bälle)",
+        "description": "Harte, glatte Bälle für eine intensive, punktuelle Tiefenmassage."
       },
       {
-        "slug": "industriestaubsauger-mit-filterabreinigung",
-        "name": "Industriestaubsauger mit autom. Filterabreinigung",
-        "categoryNameCanonical": "Industriestaubsauger mit autom. Filterabreinigung",
-        "description": "Modelle, deren Filter sich automatisch reinigen (abklopfen), um eine konstant hohe Saugleistung zu gewährleisten."
+        "slug": "doppel-massagebaelle",
+        "name": "Doppel-Massagebälle (Duobälle)",
+        "categoryNameCanonical": "Doppel-Massagebälle (Duobälle)",
+        "description": "Zwei verbundene Bälle, ideal für die Massage entlang der Wirbelsäule."
       }
     ]
   },
   {
-    "slug": "aschesauger",
-    "name": "Aschesauger",
-    "categoryNameCanonical": "Aschesauger",
-    "description": "Spezialsauger mit feuerfestem Behälter und feinem Filtersystem zur sicheren und sauberen Entfernung von kalter Asche aus Kaminen, Öfen und Grills.",
+    "slug": "klappbare-massageliegen",
+    "name": "Klappbare Massageliegen",
+    "categoryNameCanonical": "Klappbare Massageliegen",
+    "description": "Mobile und transportable Massageliegen für Therapeuten, die Hausbesuche machen oder begrenzten Platz haben.",
     "subcategories": [
       {
-        "slug": "aschesauger-mit-motor",
-        "name": "Aschesauger mit eigenem Motor",
-        "categoryNameCanonical": "Aschesauger mit eigenem Motor",
-        "description": "Eigenständige Geräte mit integriertem Motor, die direkt an die Steckdose angeschlossen werden."
+        "slug": "massageliegen-aus-holz-klappbar",
+        "name": "Klappbare Massageliegen aus Holz",
+        "categoryNameCanonical": "Klappbare Massageliegen aus Holz",
+        "description": "Stabile und ästhetisch ansprechende Holzkonstruktionen."
       },
       {
-        "slug": "aschefilter-vorsatz",
-        "name": "Aschefilter als Vorsatz",
-        "categoryNameCanonical": "Aschefilter als Vorsatz",
-        "description": "Behälter mit Filtersystem, die an einen vorhandenen Haushalts- oder Werkstattsauger angeschlossen werden."
+        "slug": "massageliegen-aus-aluminium-klappbar",
+        "name": "Klappbare Massageliegen aus Aluminium",
+        "categoryNameCanonical": "Klappbare Massageliegen aus Aluminium",
+        "description": "Besonders leichte Modelle für den einfachen Transport."
       },
       {
-        "slug": "aschesauger-mit-blasfunktion",
-        "name": "Aschesauger mit Blasfunktion",
-        "categoryNameCanonical": "Aschesauger mit Blasfunktion",
-        "description": "Multifunktionale Geräte, die auch zum Anfachen des Feuers oder zum Wegblasen von Schmutz verwendet werden können."
+        "slug": "massageliegen-komplettsets",
+        "name": "Klappbare Massageliegen als Komplettset",
+        "categoryNameCanonical": "Klappbare Massageliegen als Komplettset",
+        "description": "Sets inklusive Kopfstütze, Armlehnen und Tragetasche."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-tierhaare",
-    "name": "Staubsauger für Tierhaare",
-    "categoryNameCanonical": "Staubsauger für Tierhaare",
-    "description": "Speziell entwickelte Staubsauger mit hoher Saugkraft und rotierenden Bürsten, um hartnäckige Tierhaare von allen Oberflächen effektiv zu entfernen.",
+    "slug": "massagestuehle-fuer-therapeuten",
+    "name": "Massagestühle für Therapeuten",
+    "categoryNameCanonical": "Massagestühle für Therapeuten",
+    "description": "Ergonomische, mobile Stühle für die Massage im Sitzen, ideal für Events, Büros oder Messen.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-fuer-tierhaare",
-        "name": "Bodenstaubsauger für Tierhaare",
-        "categoryNameCanonical": "Bodenstaubsauger für Tierhaare",
-        "description": "Kabelgebundene Modelle mit Turbobürsten für die intensive Reinigung von Teppichen und Polstern."
+        "slug": "massagestuehle-aus-aluminium",
+        "name": "Massagestühle aus Aluminium",
+        "categoryNameCanonical": "Massagestühle aus Aluminium",
+        "description": "Leichte und robuste Stühle für den einfachen Transport und Aufbau."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare-spezial",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Kabellose Stiel- oder Handstaubsauger mit motorisierten Bürsten für die flexible Entfernung von Tierhaaren."
+        "slug": "massagestuehle-mit-tragetasche",
+        "name": "Massagestühle mit Tragetasche",
+        "categoryNameCanonical": "Massagestühle mit Tragetasche",
+        "description": "Modelle, die standardmäßig mit einer passenden Tasche geliefert werden."
       },
       {
-        "slug": "saugroboter-fuer-tierhaare-spezial",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Autonome Roboter, optimiert für das Aufsaugen von Tierhaaren, oft mit Gummibürsten gegen Verheddern."
+        "slug": "verstellbare-massagestuehle",
+        "name": "Voll verstellbare Massagestühle",
+        "categoryNameCanonical": "Voll verstellbare Massagestühle",
+        "description": "Stühle mit anpassbarer Sitzfläche, Arm- und Kopfstütze."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-allergiker",
-    "name": "Staubsauger für Allergiker",
-    "categoryNameCanonical": "Staubsauger für Allergiker",
-    "description": "Staubsauger mit speziellen Filtersystemen (HEPA, Wasserfilter) und versiegelten Gehäusen, die Feinstaub, Pollen und Milben sicher einschließen.",
+    "slug": "massageliegenbezuege-und-tuecher",
+    "name": "Massageliegenbezüge & -tücher",
+    "categoryNameCanonical": "Massageliegenbezüge & -tücher",
+    "description": "Hygienische und komfortable Bezüge zum Schutz von Massageliegen und für das Wohlbefinden der Klienten.",
     "subcategories": [
       {
-        "slug": "staubsauger-mit-hepa-14-filter",
-        "name": "Staubsauger mit HEPA H13/H14 Filter",
-        "categoryNameCanonical": "Staubsauger mit HEPA H13/H14 Filter",
-        "description": "Geräte mit den höchsten Filterklassen, die 99,95% bzw. 99,995% aller Partikel aus der Luft filtern."
+        "slug": "einweg-massageliegenbezuege",
+        "name": "Einweg-Massageliegenbezüge auf Rolle",
+        "categoryNameCanonical": "Einweg-Massageliegenbezüge auf Rolle",
+        "description": "Hygienische Papier- oder Vliesrollen für den professionellen Einsatz."
       },
       {
-        "slug": "staubsauger-mit-wasserfilter",
-        "name": "Staubsauger mit Wasserfilter",
-        "categoryNameCanonical": "Staubsauger mit Wasserfilter",
-        "description": "Modelle, die den eingesaugten Staub in einem Wasserbad binden und so verhindern, dass Allergene zurück in die Raumluft gelangen."
+        "slug": "waschbare-frottee-spannbezuege",
+        "name": "Waschbare Spannbezüge aus Frottee",
+        "categoryNameCanonical": "Waschbare Spannbezüge aus Frottee",
+        "description": "Wiederverwendbare und weiche Bezüge aus Baumwolle oder Frottee."
       },
       {
-        "slug": "staubsauger-mit-spezial-allergiker-beutel",
-        "name": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "categoryNameCanonical": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "description": "Beutelstaubsauger, deren mehrlagige Vliesbeutel mit Verschlussmechanismus Allergene sicher einschließen."
+        "slug": "oelfeste-massageliegenbezuege",
+        "name": "Ölfeste & abwischbare Schutzbezüge",
+        "categoryNameCanonical": "Ölfeste & abwischbare Schutzbezüge",
+        "description": "Bezüge aus PU-Material, die Massageöl abweisen und leicht zu reinigen sind."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-auto",
-    "name": "Staubsauger für das Auto",
-    "categoryNameCanonical": "Staubsauger für das Auto",
-    "description": "Kompakte und handliche Sauger, die speziell für die Reinigung des Fahrzeuginnenraums konzipiert sind, oft mit 12V-Anschluss oder Akkubetrieb.",
+    "slug": "massageoele",
+    "name": "Massageöle",
+    "categoryNameCanonical": "Massageöle",
+    "description": "Pflanzliche und mineralische Öle, die die Haut pflegen und das Gleiten der Hände bei der Massage erleichtern.",
     "subcategories": [
       {
-        "slug": "autostaubsauger-12v",
-        "name": "Autostaubsauger mit 12V-Anschluss",
-        "categoryNameCanonical": "Autostaubsauger mit 12V-Anschluss",
-        "description": "Sauger, die direkt über den Zigarettenanzünder im Auto betrieben werden können."
+        "slug": "massageoele-auf-mandeloelbasis",
+        "name": "Massageöle auf Mandelölbasis",
+        "categoryNameCanonical": "Massageöle auf Mandelölbasis",
+        "description": "Besonders hautfreundliche und gut verträgliche Basisöle."
       },
       {
-        "slug": "akku-autostaubsauger",
-        "name": "Akku-Autostaubsauger",
-        "categoryNameCanonical": "Akku-Autostaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Flexibilität bei der Autoreinigung ohne Kabel."
+        "slug": "waermende-massageoele",
+        "name": "Wärmende Massageöle mit Arnika & Ingwer",
+        "categoryNameCanonical": "Wärmende Massageöle mit Arnika & Ingwer",
+        "description": "Öle mit durchblutungsfördernden Zusätzen, ideal für Sportmassagen."
       },
       {
-        "slug": "autostaubsauger-mit-zubehoer-set",
-        "name": "Autostaubsauger mit Zubehör-Set",
-        "categoryNameCanonical": "Autostaubsauger mit Zubehör-Set",
-        "description": "Sets inklusive langer Fugendüse, Bürstenaufsatz und flexiblem Schlauch für schwer erreichbare Stellen."
+        "slug": "entspannende-massageoele",
+        "name": "Entspannende Massageöle mit Lavendel",
+        "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
+        "description": "Aromatische Öle zur Förderung von Ruhe und Entspannung."
+      },
+      {
+        "slug": "neutrale-massageoele-fuer-profis",
+        "name": "Neutrale Massageöle für Profis",
+        "categoryNameCanonical": "Neutrale Massageöle für Profis",
+        "description": "Geruchsneutrale und ergiebige Öle in Großgebinden für den Praxisbedarf."
       }
     ]
   },
   {
-    "slug": "staubsauger-mit-absaugstation",
-    "name": "Staubsauger mit Absaugstation",
-    "categoryNameCanonical": "Staubsauger mit Absaugstation",
-    "description": "Komfortable Systeme, bei denen sich der Staubsauger (meist ein Saugroboter oder Akkustaubsauger) an einer Basisstation automatisch entleert.",
+    "slug": "massagelotionen-und-cremes",
+    "name": "Massagelotionen & -cremes",
+    "categoryNameCanonical": "Massagelotionen & -cremes",
+    "description": "Bieten eine Alternative zu Ölen, ziehen schneller ein und hinterlassen ein weniger fettiges Hautgefühl.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-automatischer-entleerung",
-        "name": "Saugroboter mit automatischer Entleerung",
-        "categoryNameCanonical": "Saugroboter mit automatischer Entleerung",
-        "description": "Roboterstaubsauger, die nach jedem Reinigungsvorgang zur Station zurückkehren und den Schmutz abgeben."
+        "slug": "massagelotionen-mit-hoher-gleitfaehigkeit",
+        "name": "Massagelotionen mit hoher Gleitfähigkeit",
+        "categoryNameCanonical": "Massagelotionen mit hoher Gleitfähigkeit",
+        "description": "Lotionen für langanhaltende Massagen, ohne schnell einzuziehen."
       },
       {
-        "slug": "akkustaubsauger-mit-automatischer-entleerung",
-        "name": "Akkustaubsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Akkustaubsauger mit automatischer Entleerung",
-        "description": "Kabellose Stielstaubsauger, deren Staubbehälter an einer speziellen Standvorrichtung entleert wird."
+        "slug": "massagecremes-fuer-sportler",
+        "name": "Sport-Massagecremes",
+        "categoryNameCanonical": "Sport-Massagecremes",
+        "description": "Cremes mit kühlenden oder wärmenden Eigenschaften zur Muskelregeneration."
       },
       {
-        "slug": "absaugstationen-als-zubehoer",
-        "name": "Absaugstationen als Zubehör",
-        "categoryNameCanonical": "Absaugstationen als Zubehör",
-        "description": "Einzeln erhältliche Absaugstationen zum Nachrüsten kompatibler Staubsaugermodelle."
+        "slug": "parfuemfreie-massagelotionen",
+        "name": "Parfümfreie Massagelotionen für sensible Haut",
+        "categoryNameCanonical": "Parfümfreie Massagelotionen für sensible Haut",
+        "description": "Hypoallergene Produkte ohne Duftstoffe."
       }
     ]
   },
   {
-    "slug": "milbensauger",
-    "name": "Milbensauger",
-    "categoryNameCanonical": "Milbensauger",
-    "description": "Spezielle Handstaubsauger zur Bekämpfung von Hausstaubmilben, Bakterien und Allergenen in Matratzen, Bettwäsche und Polstermöbeln.",
+    "slug": "hot-stone-massagesets",
+    "name": "Hot-Stone-Massagesets",
+    "categoryNameCanonical": "Hot-Stone-Massagesets",
+    "description": "Sets aus Basaltsteinen und Wärmegeräten für die Durchführung einer entspannenden Hot-Stone-Massage.",
     "subcategories": [
       {
-        "slug": "milbensauger-mit-uv-c-licht",
-        "name": "Milbensauger mit UV-C Licht",
-        "categoryNameCanonical": "Milbensauger mit UV-C Licht",
-        "description": "Geräte, die Milben und Keime mittels ultraviolettem Licht abtöten und sterilisieren."
+        "slug": "hot-stone-sets-fuer-einsteiger",
+        "name": "Hot-Stone-Sets für Einsteiger",
+        "categoryNameCanonical": "Hot-Stone-Sets für Einsteiger",
+        "description": "Kleine Sets mit den wichtigsten Steinen und einem einfachen Erwärmer."
       },
       {
-        "slug": "milbensauger-mit-vibrationsfunktion",
-        "name": "Milbensauger mit Vibrationsfunktion",
-        "categoryNameCanonical": "Milbensauger mit Vibrationsfunktion",
-        "description": "Modelle, die durch Vibration tief sitzenden Schmutz und Milbenkot aus dem Gewebe lösen."
+        "slug": "professionelle-hot-stone-sets",
+        "name": "Professionelle Hot-Stone-Sets",
+        "categoryNameCanonical": "Professionelle Hot-Stone-Sets",
+        "description": "Umfangreiche Sets mit einer Vielzahl von Steinen und professionellem Wärmegerät."
       },
       {
-        "slug": "akku-milbensauger",
-        "name": "Akku-Milbensauger",
-        "categoryNameCanonical": "Akku-Milbensauger",
-        "description": "Kabellose Milbensauger für den flexiblen und einfachen Einsatz auf Matratzen und Sofas."
+        "slug": "einzelne-massagesteine",
+        "name": "Einzelne Massagesteine aus Basalt",
+        "categoryNameCanonical": "Einzelne Massagesteine aus Basalt",
+        "description": "Zum Ersetzen oder Erweitern bestehender Sets."
       }
     ]
   },
   {
-    "slug": "fenstersauger",
-    "name": "Fenstersauger",
-    "categoryNameCanonical": "Fenstersauger",
-    "description": "Akkubetriebene Geräte, die nach dem Einwaschen der Fenster das Schmutzwasser streifenfrei absaugen. Auch für Spiegel, Fliesen und Duschkabinen geeignet.",
+    "slug": "schroepfsets",
+    "name": "Schröpfsets",
+    "categoryNameCanonical": "Schröpfsets",
+    "description": "Sets aus Gläsern oder Silikon-Cups zur Durchführung der Schröpftherapie, einer traditionellen Heilmethode.",
     "subcategories": [
       {
-        "slug": "fenstersauger-sets",
-        "name": "Fenstersauger-Sets mit Sprühflasche",
-        "categoryNameCanonical": "Fenstersauger-Sets mit Sprühflasche",
-        "description": "Komplettsets bestehend aus Fenstersauger, Sprühflasche mit Wischbezug und Reinigungsmittelkonzentrat."
+        "slug": "schroepfglaeser-mit-vakuumpumpe",
+        "name": "Schröpfgläser-Sets mit Vakuumpumpe",
+        "categoryNameCanonical": "Schröpfgläser-Sets mit Vakuumpumpe",
+        "description": "Klassische Sets aus Kunststoff- oder Glasgläsern mit manueller Pumpe."
       },
       {
-        "slug": "fenstersauger-mit-verlaengerungsstiel",
-        "name": "Fenstersauger mit Verlängerungsstiel",
-        "categoryNameCanonical": "Fenstersauger mit Verlängerungsstiel",
-        "description": "Geräte mit Teleskopstangen zur einfachen Reinigung von hohen Fenstern, Wintergärten oder Dachfenstern."
+        "slug": "silikon-schroepfkoepfe",
+        "name": "Schröpfsets aus Silikon",
+        "categoryNameCanonical": "Schröpfsets aus Silikon",
+        "description": "Flexible Cups, die durch Zusammendrücken ein Vakuum erzeugen."
       },
       {
-        "slug": "fenstersauger-mit-wechselduese",
-        "name": "Fenstersauger mit schmaler Wechseldüse",
-        "categoryNameCanonical": "Fenstersauger mit schmaler Wechseldüse",
-        "description": "Modelle mit einer zusätzlichen, kleineren Saugdüse für Sprossenfenster und schmale Glasflächen."
+        "slug": "schroepfsets-fuer-gesicht",
+        "name": "Schröpfsets für die Gesichtsmassage",
+        "categoryNameCanonical": "Schröpfsets für die Gesichtsmassage",
+        "description": "Kleinere, sanftere Cups speziell für die Anwendung im Gesicht."
       }
     ]
   },
   {
-    "slug": "laubsauger",
-    "name": "Laubsauger & -bläser",
-    "categoryNameCanonical": "Laubsauger & -bläser",
-    "description": "Gartengeräte zum Aufsaugen, Blasen oder Häckseln von Laub und kleinen Gartenabfällen. Erleichtern die herbstliche Gartenarbeit erheblich.",
+    "slug": "akupressurmatten",
+    "name": "Akupressurmatten & -kissen",
+    "categoryNameCanonical": "Akupressurmatten & -kissen",
+    "description": "Matten und Kissen mit Kunststoffspitzen, die durch Druck auf Akupressurpunkte Verspannungen lösen sollen.",
     "subcategories": [
       {
-        "slug": "akku-laubsauger",
-        "name": "Akku-Laubsauger",
-        "categoryNameCanonical": "Akku-Laubsauger",
-        "description": "Kabellose und flexible Geräte für Gärten ohne direkten Stromanschluss."
+        "slug": "akupressurmatten-sets-mit-kissen",
+        "name": "Akupressurmatten-Sets mit Kissen",
+        "categoryNameCanonical": "Akupressurmatten-Sets mit Kissen",
+        "description": "Kombination aus Matte für den Rücken und Kissen für den Nacken."
       },
       {
-        "slug": "elektro-laubsauger",
-        "name": "Elektro-Laubsauger",
-        "categoryNameCanonical": "Elektro-Laubsauger",
-        "description": "Leistungsstarke, kabelgebundene Modelle für den dauerhaften Einsatz in der Nähe einer Steckdose."
+        "slug": "akupressurmatten-aus-natuerlichen-materialien",
+        "name": "Akupressurmatten aus Leinen & Kokosfaser",
+        "categoryNameCanonical": "Akupressurmatten aus Leinen & Kokosfaser",
+        "description": "Ökologische Varianten mit natürlichen Füll- und Bezugsmaterialien."
       },
       {
-        "slug": "laubsauger-mit-haeckselfunktion",
-        "name": "Laubsauger mit Häckselfunktion",
-        "categoryNameCanonical": "Laubsauger mit Häckselfunktion",
-        "description": "3-in-1-Geräte (Blasen, Saugen, Häckseln), die das aufgesaugte Laub zerkleinern und das Volumen im Fangsack reduzieren."
-      },
-      {
-        "slug": "benzin-laubsauger",
-        "name": "Benzin-Laubsauger",
-        "categoryNameCanonical": "Benzin-Laubsauger",
-        "description": "Besonders leistungsstarke und unabhängige Modelle für große Grundstücke und professionelle Anwendungen."
+        "slug": "akupressurkissen-fuer-nacken",
+        "name": "Akupressurkissen für Nacken & Füße",
+        "categoryNameCanonical": "Akupressurkissen für Nacken & Füße",
+        "description": "Einzelne Kissen zur gezielten Anwendung."
       }
     ]
   },
   {
-    "slug": "rueckenstaubsauger",
-    "name": "Rückenstaubsauger",
-    "categoryNameCanonical": "Rückenstaubsauger",
-    "description": "Professionelle Staubsauger, die wie ein Rucksack getragen werden. Bieten maximale Bewegungsfreiheit bei der Reinigung von Kinos, Bussen, Treppenhäusern oder engen Räumen.",
+    "slug": "kopfmassagegeraete",
+    "name": "Kopfmassagegeräte",
+    "categoryNameCanonical": "Kopfmassagegeräte",
+    "description": "Manuelle und elektrische Geräte zur Stimulation der Kopfhaut und zur Förderung der Entspannung.",
     "subcategories": [
       {
-        "slug": "akku-rueckenstaubsauger",
-        "name": "Akku-Rückenstaubsauger",
-        "categoryNameCanonical": "Akku-Rückenstaubsauger",
-        "description": "Kabellose Modelle für höchste Flexibilität und Effizienz ohne Stolperfallen durch Kabel."
+        "slug": "manuelle-kopfkrauler",
+        "name": "Manuelle Kopfkrauler (Massagespinnen)",
+        "categoryNameCanonical": "Manuelle Kopfkrauler (Massagespinnen)",
+        "description": "Klassische Geräte mit Metallarmen zur sanften Kopfhautstimulation."
       },
       {
-        "slug": "kabelgebundene-rueckenstaubsauger",
-        "name": "Kabelgebundene Rückenstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Rückenstaubsauger",
-        "description": "Geräte mit Netzbetrieb für konstante, hohe Saugleistung bei langen Reinigungsintervallen."
+        "slug": "elektrische-kopfhautmassagegeraete",
+        "name": "Elektrische Kopfhautmassagegeräte",
+        "categoryNameCanonical": "Elektrische Kopfhautmassagegeräte",
+        "description": "Wasserdichte, rotierende Geräte, oft auch für die Haarwäsche geeignet."
       },
       {
-        "slug": "leichte-rueckenstaubsauger",
-        "name": "Leichte & ergonomische Rückenstaubsauger",
-        "categoryNameCanonical": "Leichte & ergonomische Rückenstaubsauger",
-        "description": "Modelle mit geringem Gewicht und gepolsterten Tragegurten für hohen Arbeitskomfort."
+        "slug": "shampoo-massagebuersten",
+        "name": "Shampoo-Massagebürsten aus Silikon",
+        "categoryNameCanonical": "Shampoo-Massagebürsten aus Silikon",
+        "description": "Manuelle Bürsten zur Kopfhautmassage unter der Dusche."
       }
     ]
   },
   {
-    "slug": "kinderstaubsauger",
-    "name": "Kinderstaubsauger",
-    "categoryNameCanonical": "Kinderstaubsauger",
-    "description": "Spielzeug-Staubsauger, die echten Geräten nachempfunden sind. Oft mit realistischen Geräuschen, Lichteffekten und Saugfunktion für kleine Kügelchen.",
+    "slug": "gua-sha-und-gesichtsroller",
+    "name": "Gua Sha & Gesichtsmassageroller",
+    "categoryNameCanonical": "Gua Sha & Gesichtsmassageroller",
+    "description": "Traditionelle chinesische Schönheitswerkzeuge aus Edelsteinen wie Jade oder Rosenquarz zur Gesichtsmassage.",
     "subcategories": [
       {
-        "slug": "kinderstaubsauger-mit-funktion",
-        "name": "Kinderstaubsauger mit echter Saugfunktion",
-        "categoryNameCanonical": "Kinderstaubsauger mit echter Saugfunktion",
-        "description": "Spielzeuge, die leichte Styroporkügelchen oder Papierschnipsel aufsaugen können."
+        "slug": "gesichtsroller-aus-rosenquarz",
+        "name": "Gesichtsroller aus Rosenquarz",
+        "categoryNameCanonical": "Gesichtsroller aus Rosenquarz",
+        "description": "Roller aus dem beliebten rosa Edelstein zur Beruhigung der Haut."
       },
       {
-        "slug": "lizenz-kinderstaubsauger",
-        "name": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "categoryNameCanonical": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "description": "Detailgetreue Nachbildungen bekannter Markenstaubsauger für ein realistisches Spielerlebnis."
+        "slug": "gesichtsroller-aus-jade",
+        "name": "Gesichtsroller aus Jade",
+        "categoryNameCanonical": "Gesichtsroller aus Jade",
+        "description": "Klassische grüne Jade-Roller zur Förderung der Lymphdrainage."
       },
       {
-        "slug": "kinderstaubsauger-aus-holz",
-        "name": "Kinderstaubsauger aus Holz",
-        "categoryNameCanonical": "Kinderstaubsauger aus Holz",
-        "description": "Robuste und nachhaltige Holzspielzeuge, die die Fantasie anregen und ohne Elektronik auskommen."
+        "slug": "gua-sha-steine",
+        "name": "Gua Sha Steine in verschiedenen Formen",
+        "categoryNameCanonical": "Gua Sha Steine in verschiedenen Formen",
+        "description": "Flache, geformte Steine zur Konturierung und Massage des Gesichts."
       }
     ]
   },
   {
-    "slug": "zentralstaubsaugeranlagen",
-    "name": "Zentralstaubsauger-Anlagen",
-    "categoryNameCanonical": "Zentralstaubsauger-Anlagen",
-    "description": "Fest installierte Sauganlagen, bei denen eine zentrale Saugeinheit (z.B. im Keller) über ein Rohrsystem mit Saugdosen in den Wohnräumen verbunden ist.",
+    "slug": "cellulite-massagegeraete",
+    "name": "Cellulite-Massagegeräte",
+    "categoryNameCanonical": "Cellulite-Massagegeräte",
+    "description": "Geräte zur Verbesserung des Hautbildes bei Cellulite durch Vakuum-, Knet- oder Vibrationsmassage.",
     "subcategories": [
       {
-        "slug": "zentralstaubsauger-komplettsets",
-        "name": "Zentralstaubsauger Komplett-Sets",
-        "categoryNameCanonical": "Zentralstaubsauger Komplett-Sets",
-        "description": "Pakete bestehend aus Saugeinheit, Rohrsystem, Saugdosen und Saugschlauch-Set für den Einbau."
+        "slug": "vakuum-massagegeraete-gegen-cellulite",
+        "name": "Vakuum-Massagegeräte gegen Cellulite",
+        "categoryNameCanonical": "Vakuum-Massagegeräte gegen Cellulite",
+        "description": "Geräte, die die Haut ansaugen und massieren, um das Bindegewebe zu stimulieren."
       },
       {
-        "slug": "saugeinheiten-fuer-zentralstaubsauger",
-        "name": "Saugeinheiten für Zentralstaubsauger",
-        "categoryNameCanonical": "Saugeinheiten für Zentralstaubsauger",
-        "description": "Die Motoreinheiten der Anlage, erhältlich in verschiedenen Leistungsstufen je nach Hausgröße."
+        "slug": "manuelle-cellulite-massageroller",
+        "name": "Manuelle Cellulite-Massageroller",
+        "categoryNameCanonical": "Manuelle Cellulite-Massageroller",
+        "description": "Handliche Roller mit Noppen zur täglichen Anwendung."
       },
       {
-        "slug": "zubehoer-fuer-zentralstaubsauger",
-        "name": "Zubehör für Zentralstaubsauger",
-        "categoryNameCanonical": "Zubehör für Zentralstaubsauger",
-        "description": "Saugschläuche, Saugdosen, Bürsten und Düsen für bestehende Zentralstaubsauger-Anlagen."
+        "slug": "elektrische-cellulite-massagegeraete",
+        "name": "Elektrische Cellulite-Massagegeräte",
+        "categoryNameCanonical": "Elektrische Cellulite-Massagegeräte",
+        "description": "Leistungsstarke Geräte mit verschiedenen Aufsätzen und Intensitätsstufen."
       }
     ]
   },
   {
-    "slug": "staubsauger-zubehoer",
-    "name": "Staubsauger Zubehör",
-    "categoryNameCanonical": "Staubsauger Zubehör",
-    "description": "Allgemeines Zubehör zur Erweiterung der Funktionalität oder Reparatur Ihres Staubsaugers. Umfasst Düsen, Bürsten, Schläuche und mehr.",
+    "slug": "fussbaeder-mit-massagefunktion",
+    "name": "Fußbäder mit Massagefunktion",
+    "categoryNameCanonical": "Fußbäder mit Massagefunktion",
+    "description": "Wellness-Geräte, die ein warmes Fußbad mit Sprudel-, Vibrations- oder Rollenmassage kombinieren.",
     "subcategories": [
       {
-        "slug": "staubsaugerduesen-und-buersten",
-        "name": "Staubsaugerdüsen & -bürsten",
-        "categoryNameCanonical": "Staubsaugerdüsen & -bürsten",
-        "description": "Spezialdüsen für Hartböden, Teppiche (Turbodüsen), Polster, Fugen und empfindliche Oberflächen."
+        "slug": "fussbaeder-mit-sprudelfunktion",
+        "name": "Fußbäder mit Sprudel- & Vibrationsfunktion",
+        "categoryNameCanonical": "Fußbäder mit Sprudel- & Vibrationsfunktion",
+        "description": "Standardmodelle für ein entspannendes Fußbad zu Hause."
       },
       {
-        "slug": "staubsaugerschlaeuche-und-rohre",
-        "name": "Staubsaugerschläuche & -rohre",
-        "categoryNameCanonical": "Staubsaugerschläuche & -rohre",
-        "description": "Ersatzschläuche, Teleskoprohre und Verlängerungen für verschiedene Staubsaugermodelle."
+        "slug": "fussbaeder-mit-massagerollen",
+        "name": "Fußbäder mit integrierten Massagerollen",
+        "categoryNameCanonical": "Fußbäder mit integrierten Massagerollen",
+        "description": "Geräte mit motorisierten Rollen für eine intensivere Fußreflexzonenmassage."
       },
       {
-        "slug": "staubsauger-akkus-und-ladegeraete",
-        "name": "Staubsauger-Akkus & Ladegeräte",
-        "categoryNameCanonical": "Staubsauger-Akkus & Ladegeräte",
-        "description": "Ersatz- und Zweitakkus sowie Ladestationen für Akkustaubsauger."
-      },
-      {
-        "slug": "staubsauger-duftstaebchen",
-        "name": "Staubsauger-Duftstäbchen & Deos",
-        "categoryNameCanonical": "Staubsauger-Duftstäbchen & Deos",
-        "description": "Duftpatronen, die in den Staubsaugerbeutel oder Filter gegeben werden und für frischen Duft sorgen."
+        "slug": "faltbare-fussbaeder",
+        "name": "Faltbare Fußbäder zur platzsparenden Lagerung",
+        "categoryNameCanonical": "Faltbare Fußbäder zur platzsparenden Lagerung",
+        "description": "Kompakte Modelle, die nach Gebrauch einfach verstaut werden können."
       }
     ]
   },
   {
-    "slug": "staubsaugerbeutel",
-    "name": "Staubsaugerbeutel",
-    "categoryNameCanonical": "Staubsaugerbeutel",
-    "description": "Ersatzbeutel für Bodenstaubsauger mit Beutel. Verfügbar als Original-Markenbeutel oder als kompatible Alternativen für eine Vielzahl von Modellen.",
+    "slug": "massage-badeschuhe",
+    "name": "Massage-Badeschuhe & Sandalen",
+    "categoryNameCanonical": "Massage-Badeschuhe & Sandalen",
+    "description": "Schuhe mit Noppen im Fußbett, die bei jedem Schritt die Fußsohlen massieren und die Durchblutung anregen.",
     "subcategories": [
       {
-        "slug": "original-hersteller-staubsaugerbeutel",
-        "name": "Original-Marken-Staubsaugerbeutel",
-        "categoryNameCanonical": "Original-Marken-Staubsaugerbeutel",
-        "description": "Vom Hersteller (z.B. Miele, Siemens, Bosch) empfohlene Beutel für optimale Passform und Filterleistung."
+        "slug": "badeschuhe-mit-akupressur-noppen",
+        "name": "Badeschuhe mit Akupressur-Noppen",
+        "categoryNameCanonical": "Badeschuhe mit Akupressur-Noppen",
+        "description": "Sandalen mit strategisch platzierten Noppen zur Stimulation von Akupressurpunkten."
       },
       {
-        "slug": "kompatible-staubsaugerbeutel",
-        "name": "Kompatible Staubsaugerbeutel",
-        "categoryNameCanonical": "Kompatible Staubsaugerbeutel",
-        "description": "Preisgünstige Alternativbeutel von Drittherstellern, die für bestimmte Staubsaugermodelle passend sind."
+        "slug": "reflexzonen-sandalen",
+        "name": "Reflexzonen-Sandalen mit Holzelementen",
+        "categoryNameCanonical": "Reflexzonen-Sandalen mit Holzelementen",
+        "description": "Sandalen, die auf die Prinzipien der Fußreflexzonenmassage abgestimmt sind."
       },
       {
-        "slug": "vlies-staubsaugerbeutel",
-        "name": "Vlies-Staubbeutel",
-        "categoryNameCanonical": "Vlies-Staubbeutel",
-        "description": "Mehrlagige Synthetik-Beutel, die reißfester sind und eine bessere Filterung als Papierbeutel bieten."
-      },
-      {
-        "slug": "universal-staubsaugerbeutel",
-        "name": "Universal-Staubsaugerbeutel",
-        "categoryNameCanonical": "Universal-Staubsaugerbeutel",
-        "description": "Zuschneidbare Beutel oder solche mit Universal-Anschlussplatte, die für viele verschiedene Modelle passen."
+        "slug": "verstellbare-massage-sandalen",
+        "name": "Verstellbare Massage-Sandalen",
+        "categoryNameCanonical": "Verstellbare Massage-Sandalen",
+        "description": "Modelle mit Klettverschluss für eine individuelle Passform."
       }
     ]
   },
   {
-    "slug": "staubsaugerfilter",
-    "name": "Staubsaugerfilter",
-    "categoryNameCanonical": "Staubsaugerfilter",
-    "description": "Wichtige Ersatzteile zur Aufrechterhaltung der Saugleistung und Luftqualität. Umfasst Motor-, Abluft-, HEPA- und Schaumstofffilter.",
+    "slug": "augenmassagegeraete",
+    "name": "Augenmassagegeräte",
+    "categoryNameCanonical": "Augenmassagegeräte",
+    "description": "Maskenähnliche Geräte zur Entspannung der Augenpartie durch Luftdruck, Vibration, Wärme und Musik.",
     "subcategories": [
       {
-        "slug": "hepa-filter-fuer-staubsauger",
-        "name": "HEPA-Filter",
-        "categoryNameCanonical": "HEPA-Filter",
-        "description": "Hocheffiziente Partikelfilter (High-Efficiency Particulate Air) für eine besonders saubere Abluft, ideal für Allergiker."
+        "slug": "augenmassagegeraete-mit-waermefunktion",
+        "name": "Augenmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Augenmassagegeräte mit Wärmefunktion",
+        "description": "Modelle mit sanfter Wärme zur Linderung von trockenen und müden Augen."
       },
       {
-        "slug": "motorschutzfilter-fuer-staubsauger",
-        "name": "Motorschutzfilter",
-        "categoryNameCanonical": "Motorschutzfilter",
-        "description": "Filter, die vor dem Motor sitzen, um ihn vor grobem Schmutz und Staub zu schützen und seine Lebensdauer zu verlängern."
+        "slug": "augenmassagegeraete-mit-bluetooth",
+        "name": "Augenmassagegeräte mit Bluetooth-Musik",
+        "categoryNameCanonical": "Augenmassagegeräte mit Bluetooth-Musik",
+        "description": "Geräte, die sich mit dem Smartphone verbinden, um entspannende Musik abzuspielen."
       },
       {
-        "slug": "abluftfilter-fuer-staubsauger",
-        "name": "Abluftfilter (Mikrofilter)",
-        "categoryNameCanonical": "Abluftfilter (Mikrofilter)",
-        "description": "Filter am Luftauslass des Staubsaugers, die feine Partikel zurückhalten, bevor die Luft in den Raum zurückgeblasen wird."
-      },
-      {
-        "slug": "filter-sets-fuer-staubsauger",
-        "name": "Filter-Sets",
-        "categoryNameCanonical": "Filter-Sets",
-        "description": "Praktische Sets, die alle notwendigen Filter (z.B. Motor- und Abluftfilter) für einen kompletten Austausch enthalten."
+        "slug": "faltbare-augenmassagegeraete",
+        "name": "Faltbare Augenmassagegeräte für Reisen",
+        "categoryNameCanonical": "Faltbare Augenmassagegeräte für Reisen",
+        "description": "Kompakte Designs, die sich leicht transportieren lassen."
       }
     ]
   },
   {
-    "slug": "staubsaugeradapter",
-    "name": "Staubsaugeradapter",
-    "categoryNameCanonical": "Staubsaugeradapter",
-    "description": "Verbindungsstücke und Reduzierhülsen, um Zubehör mit unterschiedlichen Durchmessern oder von verschiedenen Marken miteinander kompatibel zu machen.",
+    "slug": "massagekerzen",
+    "name": "Massagekerzen",
+    "categoryNameCanonical": "Massagekerzen",
+    "description": "Kerzen aus speziellen Wachsen und Ölen, die nach dem Anzünden schmelzen und als warmes Massageöl verwendet werden.",
     "subcategories": [
       {
-        "slug": "adapter-fuer-elektrowerkzeuge",
-        "name": "Adapter für Elektrowerkzeuge",
-        "categoryNameCanonical": "Adapter für Elektrowerkzeuge",
-        "description": "Spezielle Adapter zum Anschluss eines Werkstattsaugers an Sägen, Schleifer oder Bohrmaschinen zur Staubabsaugung."
+        "slug": "massagekerzen-mit-sheabutter",
+        "name": "Massagekerzen mit Sheabutter & Kakaobutter",
+        "categoryNameCanonical": "Massagekerzen mit Sheabutter & Kakaobutter",
+        "description": "Besonders pflegende Kerzen für trockene Haut."
       },
       {
-        "slug": "reduzierstuecke-fuer-staubsauger",
-        "name": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "categoryNameCanonical": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "description": "Hülsen zur Anpassung des Anschlussdurchmessers, um z.B. eine 32mm Düse an einem 35mm Rohr zu verwenden."
+        "slug": "aphrodisierende-massagekerzen",
+        "name": "Aphrodisierende Massagekerzen",
+        "categoryNameCanonical": "Aphrodisierende Massagekerzen",
+        "description": "Kerzen mit anregenden Düften wie Ylang-Ylang oder Sandelholz."
       },
       {
-        "slug": "universaladapter-sets-fuer-staubsauger",
-        "name": "Universaladapter-Sets",
-        "categoryNameCanonical": "Universaladapter-Sets",
-        "description": "Mehrteilige Sets mit verschiedenen Adaptern, um eine breite Palette an Zubehörteilen und Saugern zu verbinden."
-      },
-      {
-        "slug": "markenspezifische-adapter",
-        "name": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "categoryNameCanonical": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "description": "Adapter, die speziell dafür entwickelt wurden, Zubehörteile verschiedener bekannter Marken zu verbinden."
+        "slug": "entspannende-massagekerzen-mit-lavendel",
+        "name": "Entspannende Massagekerzen mit Lavendel",
+        "categoryNameCanonical": "Entspannende Massagekerzen mit Lavendel",
+        "description": "Beruhigende Duftkompositionen für eine Relax-Massage."
       }
     ]
   },
   {
-    "slug": "teichschlammsauger",
-    "name": "Teichschlammsauger",
-    "categoryNameCanonical": "Teichschlammsauger",
-    "description": "Leistungsstarke Sauger zur Entfernung von Schlamm, Algen und Pflanzenresten vom Grund eines Gartenteichs, um die Wasserqualität zu verbessern.",
+    "slug": "massage-geschenksets",
+    "name": "Massage-Geschenksets",
+    "categoryNameCanonical": "Massage-Geschenksets",
+    "description": "Sorgfältig zusammengestellte Sets mit Massageölen, Werkzeugen und Zubehör, ideal als Geschenk.",
     "subcategories": [
       {
-        "slug": "teichsauger-mit-automatischer-entleerung",
-        "name": "Teichsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Teichsauger mit automatischer Entleerung",
-        "description": "Modelle mit Zwei-Kammer-System, die ein kontinuierliches Saugen ohne Pausen zum Entleeren ermöglichen."
+        "slug": "geschenksets-fuer-paare",
+        "name": "Geschenksets für die Partnermassage",
+        "categoryNameCanonical": "Geschenksets für die Partnermassage",
+        "description": "Sets mit sinnlichen Ölen und Anleitungen für zwei Personen."
       },
       {
-        "slug": "multifunktionale-teichsauger",
-        "name": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "categoryNameCanonical": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "description": "Vielseitige Geräte, die sowohl zur Teichreinigung als auch als klassischer Nass-Trocken-Sauger verwendet werden können."
+        "slug": "wellness-geschenksets",
+        "name": "Wellness-Geschenksets mit Öl & Massagetool",
+        "categoryNameCanonical": "Wellness-Geschenksets mit Öl & Massagetool",
+        "description": "Kombinationen aus entspannendem Öl und einem manuellen Massagegerät."
       },
       {
-        "slug": "teichsauger-sets-mit-zubehoer",
-        "name": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "categoryNameCanonical": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "description": "Komplettpakete mit verschiedenen Düsen, Teleskopstangen und langen Saug- und Ablaufschläuchen."
+        "slug": "sportler-geschenksets",
+        "name": "Geschenksets für Sportler",
+        "categoryNameCanonical": "Geschenksets für Sportler",
+        "description": "Sets mit regenerierenden Ölen und Faszienbällen oder -rollen."
       }
     ]
   },
   {
-    "slug": "staubsauger-nach-leistung",
-    "name": "Staubsauger nach Leistung",
-    "categoryNameCanonical": "Staubsauger nach Leistung",
-    "description": "Kategorisierung von Staubsaugern basierend auf ihrer Leistungsaufnahme (Watt) oder Saugleistung (Pascal), um das passende Gerät für Ihre Anforderungen zu finden.",
+    "slug": "reise-massagegeraete",
+    "name": "Reise-Massagegeräte",
+    "categoryNameCanonical": "Reise-Massagegeräte",
+    "description": "Kompakte, leichte und oft akkubetriebene Geräte, die speziell für den Einsatz unterwegs konzipiert sind.",
     "subcategories": [
       {
-        "slug": "staubsauger-ueber-800-watt",
-        "name": "Staubsauger über 800 Watt (kabelgebunden)",
-        "categoryNameCanonical": "Staubsauger über 800 Watt (kabelgebunden)",
-        "description": "Leistungsstarke Boden- und Industriestaubsauger für maximale Saugkraft und die Tiefenreinigung von Teppichen."
+        "slug": "mini-massagepistolen-fuer-reisen",
+        "name": "Mini-Massagepistolen",
+        "categoryNameCanonical": "Mini-Massagepistolen",
+        "description": "Besonders kleine und handliche Massagepistolen, passen in jedes Handgepäck."
       },
       {
-        "slug": "akkustaubsauger-ueber-20-kpa",
-        "name": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "categoryNameCanonical": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "description": "Kraftvolle, kabellose Modelle, deren Saugleistung mit der von kabelgebundenen Geräten konkurrieren kann."
+        "slug": "aufblasbare-nackenkissen-mit-massage",
+        "name": "Aufblasbare Nackenkissen mit Massagefunktion",
+        "categoryNameCanonical": "Aufblasbare Nackenkissen mit Massagefunktion",
+        "description": "Platzsparende Kissen mit integrierter Vibration für Flug- oder Zugreisen."
       },
       {
-        "slug": "energiesparende-staubsauger",
-        "name": "Energiesparende Staubsauger (unter 700 Watt)",
-        "categoryNameCanonical": "Energiesparende Staubsauger (unter 700 Watt)",
-        "description": "Effiziente Modelle, die trotz geringerer Leistungsaufnahme eine gute Reinigungsleistung erzielen."
+        "slug": "usb-betriebene-massagegeraete",
+        "name": "USB-betriebene Massagekissen",
+        "categoryNameCanonical": "USB-betriebene Massagekissen",
+        "description": "Kleine Kissen, die über einen USB-Anschluss mit Strom versorgt werden."
       }
     ]
   },
   {
-    "slug": "staubsauger-nach-einsatzbereich",
-    "name": "Staubsauger nach Einsatzbereich",
-    "categoryNameCanonical": "Staubsauger nach Einsatzbereich",
-    "description": "Finden Sie den perfekten Staubsauger, der speziell auf die vorherrschenden Bodenbeläge oder besonderen Herausforderungen in Ihrem Zuhause zugeschnitten ist.",
+    "slug": "massage-lehrbuecher",
+    "name": "Massage-Lehrbücher & Anleitungen",
+    "categoryNameCanonical": "Massage-Lehrbücher & Anleitungen",
+    "description": "Bücher, DVDs und Poster mit Anleitungen zu verschiedenen Massagetechniken und anatomischem Wissen.",
     "subcategories": [
       {
-        "slug": "staubsauger-fuer-hartboeden",
-        "name": "Staubsauger für Hartböden",
-        "categoryNameCanonical": "Staubsauger für Hartböden",
-        "description": "Geräte mit speziellen Parkett- oder Hartbodendüsen, die empfindliche Böden schonen und effektiv reinigen."
+        "slug": "buecher-ueber-klassische-massage",
+        "name": "Bücher über klassische Massage",
+        "categoryNameCanonical": "Bücher über klassische Massage",
+        "description": "Grundlagenwerke für die schwedische Massage und andere Basistechniken."
       },
       {
-        "slug": "staubsauger-fuer-teppiche",
-        "name": "Staubsauger für Teppiche",
-        "categoryNameCanonical": "Staubsauger für Teppiche",
-        "description": "Modelle mit hoher Saugkraft und elektrischen oder Turbobürsten zur Tiefenreinigung von Teppichfasern."
+        "slug": "buecher-ueber-partnermassage",
+        "name": "Bücher über Partnermassage",
+        "categoryNameCanonical": "Bücher über Partnermassage",
+        "description": "Anleitungen für Laien zur gegenseitigen Massage."
       },
       {
-        "slug": "staubsauger-fuer-gemischte-boeden",
-        "name": "Staubsauger für gemischte Bodenbeläge",
-        "categoryNameCanonical": "Staubsauger für gemischte Bodenbeläge",
-        "description": "Allrounder mit umschaltbaren Kombidüsen oder automatischer Bodenerkennung für Haushalte mit Hartböden und Teppichen."
+        "slug": "anatomie-poster-fuer-masseure",
+        "name": "Anatomie-Poster der Muskulatur",
+        "categoryNameCanonical": "Anatomie-Poster der Muskulatur",
+        "description": "Visuelle Hilfsmittel mit Darstellungen des menschlichen Muskelapparats."
       }
     ]
   },
   {
-    "slug": "dampfsauger",
-    "name": "Dampfsauger",
-    "categoryNameCanonical": "Dampfsauger",
-    "description": "Kombinationsgeräte, die heißen Dampf zur Desinfektion und Lösung von Schmutz verwenden und den gelösten Schmutz sowie das Wasser sofort wieder aufsaugen.",
+    "slug": "vibrationsplatten",
+    "name": "Vibrationsplatten",
+    "categoryNameCanonical": "Vibrationsplatten",
+    "description": "Trainingsgeräte, die durch Vibrationen die Muskulatur stimulieren und zur Entspannung beitragen können.",
     "subcategories": [
       {
-        "slug": "dampfsauger-fuer-boeden",
-        "name": "Dampfsauger für Böden",
-        "categoryNameCanonical": "Dampfsauger für Böden",
-        "description": "Geräte zur chemiefreien, hygienischen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
+        "slug": "vibrationsplatten-mit-seitenalternierender-vibration",
+        "name": "Vibrationsplatten mit seitenalternierender Vibration",
+        "categoryNameCanonical": "Vibrationsplatten mit seitenalternierender Vibration",
+        "description": "Platten mit einer Wipp-Bewegung, die als besonders gelenkschonend gilt."
       },
       {
-        "slug": "dampfsauger-mit-buegelfunktion",
-        "name": "Dampfsauger mit Bügelfunktion",
-        "categoryNameCanonical": "Dampfsauger mit Bügelfunktion",
-        "description": "Multifunktionale Systeme, an die ein professionelles Dampfbügeleisen angeschlossen werden kann."
+        "slug": "vibrationsplatten-mit-trainingsbaendern",
+        "name": "Vibrationsplatten mit Trainingsbändern",
+        "categoryNameCanonical": "Vibrationsplatten mit Trainingsbändern",
+        "description": "Sets, die zusätzlich Widerstandsbänder für ein Ganzkörpertraining enthalten."
       },
       {
-        "slug": "professionelle-dampfsauger",
-        "name": "Professionelle Dampfsauger",
-        "categoryNameCanonical": "Professionelle Dampfsauger",
-        "description": "Robuste Geräte mit hohem Dampfdruck und großer Kesselkapazität für den gewerblichen Einsatz."
+        "slug": "kompakte-vibrationsplatten",
+        "name": "Kompakte Vibrationsplatten für zuhause",
+        "categoryNameCanonical": "Kompakte Vibrationsplatten für zuhause",
+        "description": "Platzsparende Modelle für das Training in den eigenen vier Wänden."
       }
     ]
   },
   {
-    "slug": "tischstaubsauger",
-    "name": "Tischstaubsauger",
-    "categoryNameCanonical": "Tischstaubsauger",
-    "description": "Sehr kleine, oft batteriebetriebene Mini-Sauger zur schnellen Entfernung von Krümeln, Staub oder Radiergummiresten vom Schreibtisch oder Esstisch.",
+    "slug": "lymphdrainage-geraete",
+    "name": "Lymphdrainage-Geräte",
+    "categoryNameCanonical": "Lymphdrainage-Geräte",
+    "description": "Geräte mit Luftdruckmanschetten für Beine, Arme oder den Bauch zur Unterstützung des Lymphsystems.",
     "subcategories": [
       {
-        "slug": "akku-tischstaubsauger",
-        "name": "Akku- & batteriebetriebene Tischstaubsauger",
-        "categoryNameCanonical": "Akku- & batteriebetriebene Tischstaubsauger",
-        "description": "Kabellose, handliche Kleingeräte, die immer griffbereit sind."
+        "slug": "lymphdrainage-geraete-fuer-beine",
+        "name": "Lymphdrainage-Geräte für die Beine",
+        "categoryNameCanonical": "Lymphdrainage-Geräte für die Beine",
+        "description": "Manschetten, die die Beine umschließen und durch wechselnden Druck massieren."
       },
       {
-        "slug": "tischstaubsauger-design",
-        "name": "Design-Tischstaubsauger",
-        "categoryNameCanonical": "Design-Tischstaubsauger",
-        "description": "Kompakte Sauger in lustigen Formen (z.B. Marienkäfer) oder stilvollem Design."
+        "slug": "lymphdrainage-geraete-komplettsets",
+        "name": "Lymphdrainage-Geräte als Komplettset",
+        "categoryNameCanonical": "Lymphdrainage-Geräte als Komplettset",
+        "description": "Sets mit Manschetten für Beine, Arme und Bauch."
       },
       {
-        "slug": "tischstaubsauger-fuer-buero",
-        "name": "Tischstaubsauger für Büro & Tastatur",
-        "categoryNameCanonical": "Tischstaubsauger für Büro & Tastatur",
-        "description": "Mini-Sauger mit kleinen Bürstenaufsätzen zur Reinigung von Tastaturen und Schreibtischoberflächen."
+        "slug": "manuelle-lymphdrainage-roller",
+        "name": "Manuelle Roller für die Lymphdrainage",
+        "categoryNameCanonical": "Manuelle Roller für die Lymphdrainage",
+        "description": "Holzroller oder andere manuelle Tools zur Anregung des Lymphflusses."
       }
     ]
   },
   {
-    "slug": "leichte-staubsauger",
-    "name": "Leichte Staubsauger",
-    "categoryNameCanonical": "Leichte Staubsauger",
-    "description": "Staubsauger mit einem besonders geringen Gewicht für eine mühelose Handhabung, ideal für mehrstöckige Wohnungen, Treppen oder Personen, die nicht schwer heben möchten.",
+    "slug": "sportmassage-geraete",
+    "name": "Sportmassage-Geräte",
+    "categoryNameCanonical": "Sportmassage-Geräte",
+    "description": "Spezialisierte Geräte zur Regeneration nach dem Sport, zur Leistungssteigerung und zur Behandlung von Sportverletzungen.",
     "subcategories": [
       {
-        "slug": "stielstaubsauger-unter-3kg",
-        "name": "Stielstaubsauger unter 3 kg",
-        "categoryNameCanonical": "Stielstaubsauger unter 3 kg",
-        "description": "Extrem leichte, oft kabellose Modelle, die sich einfach manövrieren und anheben lassen."
+        "slug": "massagepistolen-fuer-sportler",
+        "name": "Massagepistolen für Sportler",
+        "categoryNameCanonical": "Massagepistolen für Sportler",
+        "description": "Leistungsstarke Perkussionsgeräte zur schnellen Muskelregeneration."
       },
       {
-        "slug": "kompakte-bodenstaubsauger",
-        "name": "Kompakte Bodenstaubsauger",
-        "categoryNameCanonical": "Kompakte Bodenstaubsauger",
-        "description": "Kleine und leichte, kabelgebundene Staubsauger, die sich einfach tragen und verstauen lassen."
+        "slug": "kompressionsstiefel-recovery-boots",
+        "name": "Kompressionsstiefel (Recovery Boots)",
+        "categoryNameCanonical": "Kompressionsstiefel (Recovery Boots)",
+        "description": "Luftdruckmanschetten für die Beine, die die Regeneration beschleunigen."
       },
       {
-        "slug": "handstaubsauger-unter-1kg",
-        "name": "Handstaubsauger unter 1 kg",
-        "categoryNameCanonical": "Handstaubsauger unter 1 kg",
-        "description": "Federleichte Handgeräte für die schnelle und unkomplizierte Reinigung zwischendurch."
+        "slug": "vibrations-faszienrollen",
+        "name": "Faszienrollen mit Vibration",
+        "categoryNameCanonical": "Faszienrollen mit Vibration",
+        "description": "Kombination aus Faszientraining und Vibration für intensive Ergebnisse."
       }
     ]
   },
   {
-    "slug": "leise-staubsauger-allgemein",
-    "name": "Leise Staubsauger",
-    "categoryNameCanonical": "Leise Staubsauger",
-    "description": "Eine Auswahl an Staubsaugern verschiedener Bauarten (Boden-, Akku-, Roboterstaubsauger), die sich durch einen besonders geräuscharmen Betrieb auszeichnen.",
+    "slug": "massage-zubehoer",
+    "name": "Massagezubehör",
+    "categoryNameCanonical": "Massagezubehör",
+    "description": "Praktische Hilfsmittel und Verbrauchsmaterialien für die professionelle und private Massageanwendung.",
     "subcategories": [
       {
-        "slug": "staubsauger-unter-65-db",
-        "name": "Staubsauger unter 65 dB (Extra leise)",
-        "categoryNameCanonical": "Staubsauger unter 65 dB (Extra leise)",
-        "description": "Flüsterleise Modelle, die das Staubsaugen auch in den Abendstunden oder bei schlafenden Kindern ermöglichen."
+        "slug": "kopfstuetzen-und-polster",
+        "name": "Kopfstützen & Lagerungspolster",
+        "categoryNameCanonical": "Kopfstützen & Lagerungspolster",
+        "description": "Ergonomische Kissen und Rollen zur komfortablen Lagerung während der Massage."
       },
       {
-        "slug": "leise-bodenstaubsauger-spezial",
-        "name": "Leise Bodenstaubsauger",
-        "categoryNameCanonical": "Leise Bodenstaubsauger",
-        "description": "Kabelgebundene Modelle mit spezieller Schalldämmung für eine ruhige und dennoch gründliche Reinigung."
+        "slug": "tragetaschen-fuer-massageliegen",
+        "name": "Tragetaschen für Massageliegen",
+        "categoryNameCanonical": "Tragetaschen für Massageliegen",
+        "description": "Robuste Taschen zum Schutz und Transport von mobilen Massageliegen."
       },
       {
-        "slug": "leise-akkustaubsauger",
-        "name": "Leise Akkustaubsauger",
-        "categoryNameCanonical": "Leise Akkustaubsauger",
-        "description": "Kabellose Staubsauger, die für einen geräuscharmen Betrieb optimiert sind, oft mit speziellen Eco-Modi."
-      },
-      {
-        "slug": "leise-saugroboter",
-        "name": "Leise Saugroboter",
-        "categoryNameCanonical": "Leise Saugroboter",
-        "description": "Autonome Reiniger, die unauffällig im Hintergrund arbeiten, ohne zu stören."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-reparatur-ersatzteile",
-    "name": "Staubsauger Reparatur & Ersatzteile",
-    "categoryNameCanonical": "Staubsauger Reparatur & Ersatzteile",
-    "description": "Einzelne Bauteile und Ersatzteile zur Reparatur und Wartung Ihres Staubsaugers, um seine Lebensdauer zu verlängern.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-motoren",
-        "name": "Staubsauger-Motoren",
-        "categoryNameCanonical": "Staubsauger-Motoren",
-        "description": "Ersatzmotoren für verschiedene Staubsaugermarken und -modelle."
-      },
-      {
-        "slug": "staubsauger-raeder-und-rollen",
-        "name": "Räder und Rollen für Staubsauger",
-        "categoryNameCanonical": "Räder und Rollen für Staubsauger",
-        "description": "Ersatzräder für Bodendüsen und den Korpus des Staubsaugers."
-      },
-      {
-        "slug": "schalter-und-elektronik-fuer-staubsauger",
-        "name": "Schalter und Elektronik für Staubsauger",
-        "categoryNameCanonical": "Schalter und Elektronik für Staubsauger",
-        "description": "Ersatzteile wie Ein-/Ausschalter, Leistungsregler und Platinen."
-      },
-      {
-        "slug": "kohlebuersten-fuer-staubsaugermotoren",
-        "name": "Kohlebürsten für Staubsaugermotoren",
-        "categoryNameCanonical": "Kohlebürsten für Staubsaugermotoren",
-        "description": "Verschleißteile für den Elektromotor, die bei Abnutzung ausgetauscht werden können."
+        "slug": "oelwaermer-und-dispenser",
+        "name": "Ölwärmer & Dispenser",
+        "categoryNameCanonical": "Ölwärmer & Dispenser",
+        "description": "Geräte zum Erwärmen von Massageöl und praktische Spenderflaschen."
       }
     ]
   }

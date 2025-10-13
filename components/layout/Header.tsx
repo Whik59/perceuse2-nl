@@ -7,6 +7,7 @@ import { Search, ShoppingCart, Menu, X, MessageCircle, Tag, Star, Package } from
 import { formatCurrency, getString } from '../../lib/utils';
 import { Category, CartItem } from '../../lib/types';
 import SupportFAQ from '../SupportFAQ';
+import EmergencyBanner from '../EmergencyBanner';
 
 interface HeaderProps {
   cartItemCount?: number;
@@ -275,31 +276,13 @@ const Header: React.FC<HeaderProps> = ({
     }))
     .sort((a, b) => b.subcategoryCount - a.subcategoryCount);
 
-  // Smart category selection based on text length
+  // Smart category selection - display exactly 5 categories
   const getOptimalCategories = () => {
-    let selectedCategories = [];
-    let totalTextLength = 0;
-    const maxTextLength = 120; // Maximum characters for navigation
-    
-    for (const category of parentCategories) {
-      const categoryName = category.name || category.categoryNameCanonical || '';
-      const estimatedLength = categoryName.length + 10; // Add padding for spacing
-      
-      if (totalTextLength + estimatedLength <= maxTextLength && selectedCategories.length < 8) {
-        selectedCategories.push(category);
-        totalTextLength += estimatedLength;
-      } else {
-        break;
-      }
-    }
-    
-    // If we have very few categories due to long names, try to fit more by truncating
-    if (selectedCategories.length < 4) {
-      selectedCategories = parentCategories.slice(0, 6).map(cat => ({
-        ...cat,
-        displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 15)
-      }));
-    }
+    // Take the first 5 categories from parentCategories (already sorted by subcategory count)
+    const selectedCategories = parentCategories.slice(0, 5).map(cat => ({
+      ...cat,
+      displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 18)
+    }));
     
     return selectedCategories;
   };
@@ -331,59 +314,61 @@ const Header: React.FC<HeaderProps> = ({
 
   return (
     <>
-      {/* Promo Banner with Reviews */}
-      <div className="bg-gray-900 text-white py-3 px-4 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto">
-          {/* Desktop Layout - Full Banner */}
-          <div className="hidden sm:flex items-center justify-center space-x-4 flex-wrap">
-            <div className="flex items-center space-x-2">
-              <Tag className="w-4 h-4 text-yellow-400" />
-              <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full font-bold text-sm tracking-wider">10HOURS</span>
-              <span className="text-sm font-medium text-white">30% {getString('banner.discount')}</span>
-            </div>
-            <div className="text-gray-400">•</div>
-            <div className="flex items-center space-x-2">
-              <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-              <span className="text-yellow-400 font-bold">4.6/5</span>
-              <span className="text-sm text-white">{getString('banner.clientReviews')}</span>
-            </div>
-            <div className="text-gray-400">•</div>
-            <div className="flex items-center space-x-2">
-              <Package className="w-4 h-4 text-green-400" />
-              <span className="text-green-400 font-bold">
-                <AnimatedCounter end={2000} suffix="+" duration={2000} />
-              </span>
-              <span className="text-sm text-white">{getString('banner.ordersDelivered')}</span>
-            </div>
-          </div>
-
-          {/* Mobile Layout - Rotating Banner */}
-          <div className="sm:hidden">
-            <MobileRotatingBanner />
-          </div>
-        </div>
-      </div>
-
+      <EmergencyBanner />
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
-          {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3 mt-4">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 relative rounded-lg overflow-hidden flex-shrink-0">
-              <Image
-                src="/logo.png"
-                alt={getString('common.siteName')}
-                width={96}
-                height={96}
-                className="rounded-lg object-cover"
-                priority
-              />
+        <div className="flex items-center justify-between h-20 sm:h-24">
+          {/* Premium Logo & Site Name */}
+          <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
+            <div className="relative">
+              <div className="w-16 h-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 relative rounded-xl overflow-hidden flex-shrink-0 shadow-lg group-hover:shadow-xl transition-all duration-300">
+                <Image
+                  src="/logo.png"
+                  alt={getString('common.siteName')}
+                  width={80}
+                  height={80}
+                  className="rounded-xl object-cover"
+                  priority
+                />
+              </div>
+              {/* Premium Badge - Desktop only (outside bottom) */}
+              <div className="hidden sm:block absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
+                {getString('header.premium')}
+              </div>
             </div>
             <div className="flex flex-col min-w-0">
-              <span className="font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 tracking-tight leading-tight">
-                {getString('common.siteName')}
-              </span>
-              <span className="text-xs sm:text-sm text-gray-500 font-medium tracking-wide leading-tight">Premium</span>
+              <div className="flex items-center space-x-1 sm:space-x-2">
+                <span className="font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 tracking-tight leading-tight group-hover:text-orange-600 transition-colors duration-300">
+                  {getString('common.siteName')}
+                </span>
+                {/* Amazon Partner Badge - Hidden on very small screens */}
+                <div className="hidden sm:flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 px-2 sm:px-3 py-1 rounded-full border border-orange-200">
+                  <svg className="w-3 h-3 sm:w-4 sm:h-4" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="none" fillRule="evenodd">
+                      <path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#FF9900" fillRule="nonzero"/>
+                      <path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000000"/>
+                    </g>
+                  </svg>
+                  <span className="text-xs font-bold text-orange-600">{getString('header.partner')}</span>
+                </div>
+              </div>
+              {/* Premium Badge - Mobile only (below site name) */}
+              <div className="sm:hidden mt-1">
+                <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg inline-block">
+                  {getString('header.premium')}
+                </div>
+              </div>
+              <div className="hidden sm:flex items-center space-x-2 sm:space-x-3 mt-1">
+                <span className="text-xs sm:text-sm text-gray-600 font-medium tracking-wide">{getString('header.madeInGermany')}</span>
+                <div className="flex items-center space-x-1">
+                  <div className="w-1 h-1 bg-green-500 rounded-full"></div>
+                  <span className="text-xs text-green-600 font-semibold">{getString('header.verified')}</span>
+                </div>
+                <div className="flex items-center space-x-1">
+                  <Star className="w-3 h-3 text-yellow-400 fill-yellow-400" />
+                  <span className="text-xs text-gray-600 font-medium">{getString('header.rating')}</span>
+                </div>
+              </div>
             </div>
           </Link>
 
@@ -558,89 +543,94 @@ const Header: React.FC<HeaderProps> = ({
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden border-t border-gray-100 py-4 bg-gradient-to-b from-white to-gray-50">
+          <div className="md:hidden border-t border-gray-100 bg-white shadow-lg">
             {/* Mobile Search */}
-            <form onSubmit={handleSearchSubmit} className="mb-4 px-2">
-              <div className="relative">
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder={getString('header.search.placeholder')}
-                  className="w-full pl-4 pr-10 py-3 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent bg-white shadow-sm text-[15px] font-medium placeholder:text-gray-500"
-                />
-                <button
-                  type="submit"
-                  className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 transition-colors"
-                >
-                  <Search className="w-5 h-5" />
-                </button>
-              </div>
-            </form>
+            <div className="p-4 border-b border-gray-100">
+              <form onSubmit={handleSearchSubmit}>
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    placeholder={getString('header.search.placeholder')}
+                    className="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent bg-gray-50 text-sm font-medium placeholder:text-gray-500"
+                  />
+                  <button
+                    type="submit"
+                    className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-orange-600 transition-colors"
+                  >
+                    <Search className="w-5 h-5" />
+                  </button>
+                </div>
+              </form>
+            </div>
 
-            {/* Mobile Navigation - Luxury */}
-              <nav className="flex flex-col space-y-0.5 px-2">
-                {optimalCategories.map((category) => {
-                  const subcategories = getSubcategories(category.categoryId || 0);
-                  const hasSubcategories = subcategories.length > 0;
-                  const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
-                  
-                  return (
-                    <div key={category.categoryId} className="space-y-1">
-                      <div className="flex items-center justify-between bg-white border border-gray-100/50 overflow-hidden">
-                <Link
-                  href={`/category/${category.slug}`}
-                          className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-3 px-4 hover:bg-gray-50/50 transition-all duration-300 uppercase"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {(category as any).displayName || category.name || category.categoryNameCanonical}
-                        </Link>
-                        {hasSubcategories && (
-                          <button
-                            onClick={() => toggleMobileCategory(category.categoryId || 0)}
-                            className="p-3 text-gray-400 hover:text-gray-600 transition-all duration-300 hover:bg-gray-50/50"
+            {/* Mobile Navigation */}
+            <nav className="py-2">
+              {optimalCategories.map((category) => {
+                const subcategories = getSubcategories(category.categoryId || 0);
+                const hasSubcategories = subcategories.length > 0;
+                const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
+                
+                return (
+                  <div key={category.categoryId} className="border-b border-gray-50 last:border-b-0">
+                    <div className="flex items-center justify-between">
+                      <Link
+                        href={`/category/${category.slug}`}
+                        className="flex-1 text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        {(category as any).displayName || category.name || category.categoryNameCanonical}
+                      </Link>
+                      {hasSubcategories && (
+                        <button
+                          onClick={() => toggleMobileCategory(category.categoryId || 0)}
+                          className="p-4 text-gray-400 hover:text-orange-600 transition-all duration-200 hover:bg-orange-50"
+                        >
+                          <svg
+                            className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                            strokeWidth={2}
                           >
-                            <svg
-                              className={`w-4 h-4 transition-transform duration-500 ${isExpanded ? 'rotate-180' : ''}`}
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                              strokeWidth={1.5}
-                            >
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                            </svg>
-                          </button>
-                        )}
-                      </div>
-                      
-                      {/* Mobile Subcategories - Luxury */}
-                      {hasSubcategories && isExpanded && (
-                        <div className="bg-gray-50/30 border-l border-gray-200/50 ml-6">
-                          {subcategories.map((subcategory) => (
-                            <Link
-                              key={subcategory.categoryId}
-                              href={`/category/${subcategory.slug}`}
-                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-2 px-4 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px]"
-                              onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                              {subcategory.name || subcategory.categoryNameCanonical}
-                </Link>
-              ))}
-                        </div>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </button>
                       )}
                     </div>
-                  );
-                })}
+                    
+                    {/* Mobile Subcategories */}
+                    {hasSubcategories && isExpanded && (
+                      <div className="bg-gray-50 border-t border-gray-100">
+                        {subcategories.map((subcategory) => (
+                          <Link
+                            key={subcategory.categoryId}
+                            href={`/category/${subcategory.slug}`}
+                            className="block text-gray-600 hover:text-orange-600 font-normal text-sm py-3 px-6 hover:bg-orange-50 transition-all duration-200 border-l-2 border-transparent hover:border-orange-200"
+                            onClick={() => setIsMobileMenuOpen(false)}
+                          >
+                            {subcategory.name || subcategory.categoryNameCanonical}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
               
-              <button
-                onClick={() => {
-                  setIsSupportOpen(true);
-                  setIsMobileMenuOpen(false);
-                }}
-                  className="text-gray-700 hover:text-gray-900 font-light text-sm tracking-[0.5px] py-3 px-4 hover:bg-gray-50/50 transition-all duration-300 mt-2 border-t border-gray-100/50 pt-3 w-full text-left bg-white border border-gray-100/50 uppercase"
-              >
-{getString('header.support')}
-              </button>
+              {/* Support Button */}
+              <div className="border-t border-gray-100 mt-2">
+                <button
+                  onClick={() => {
+                    setIsSupportOpen(true);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="w-full text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200 text-left"
+                >
+                  {getString('header.support')}
+                </button>
+              </div>
             </nav>
           </div>
         )}

@@ -27,7 +27,7 @@ const BuyingGuide: React.FC<BuyingGuideProps> = ({ title, sections }) => {
   return (
     <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 px-6 py-4">
+      <div className="bg-gradient-to-r from-orange-600 to-orange-800 px-6 py-4">
         <h2 className="text-2xl font-bold text-white text-center">
           {title}
         </h2>
@@ -43,8 +43,8 @@ const BuyingGuide: React.FC<BuyingGuideProps> = ({ title, sections }) => {
               <div key={index} className="flex items-start space-x-4">
                 {/* Icon */}
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                    <IconComponent className="w-6 h-6 text-blue-600" />
+                  <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center">
+                    <IconComponent className="w-6 h-6 text-orange-600" />
                   </div>
                 </div>
                 

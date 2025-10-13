@@ -36,7 +36,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
       return <Gamepad2 className="w-12 h-12 text-purple-600" />;
     }
     if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-      return <Rabbit className="w-12 h-12 text-blue-600" />;
+      return <Rabbit className="w-12 h-12 text-orange-600" />;
     }
     if (name.includes('bébé') || name.includes('enfant')) {
       return <Baby className="w-12 h-12 text-pink-600" />;
@@ -50,7 +50,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
       return 'from-purple-100 via-indigo-100 to-purple-200';
     }
     if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-      return 'from-blue-100 via-cyan-100 to-blue-200';
+      return 'from-orange-100 via-orange-50 to-orange-200';
     }
     if (name.includes('bébé') || name.includes('enfant')) {
       return 'from-pink-100 via-rose-100 to-pink-200';

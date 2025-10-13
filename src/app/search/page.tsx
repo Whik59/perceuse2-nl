@@ -175,7 +175,7 @@ const SearchContent: React.FC = () => {
               {(activeTab === 'all' || activeTab === 'categories') && results.categories.length > 0 && (
                 <div className="mb-12">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
-                    <Tag className="w-6 h-6 mr-2 text-blue-600" />
+                    <Tag className="w-6 h-6 mr-2 text-orange-600" />
                     {getString('search.categories')} ({results.categories.length})
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -186,18 +186,18 @@ const SearchContent: React.FC = () => {
                         className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow group"
                       >
                         <div className="flex items-center space-x-4">
-                          <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                          <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center">
                             <Package className="w-6 h-6 text-white" />
                           </div>
                           <div className="flex-1 min-w-0">
-                            <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">
+                            <h3 className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors">
                               {category.name}
                             </h3>
                             <p className="text-sm text-gray-600 mt-1 line-clamp-2">
                               {category.description}
                             </p>
                           </div>
-                          <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" />
+                          <ArrowRight className="w-5 h-5 text-gray-400 group-hover:text-orange-600 transition-colors" />
                         </div>
                       </Link>
                     ))}
@@ -228,7 +228,7 @@ const SearchContent: React.FC = () => {
                           />
                         </div>
                         <div className="p-4">
-                          <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors line-clamp-2 mb-2">
+                          <h3 className="font-semibold text-gray-900 group-hover:text-orange-600 transition-colors line-clamp-2 mb-2">
                             {product.title}
                           </h3>
                           <div className="flex items-center justify-between mb-2">

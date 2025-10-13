@@ -175,7 +175,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                             <div className="space-y-4">
                               {/* Round Image Frame */}
                               <div className="relative mx-auto w-20 h-20">
-                                <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-gray-100 group-hover:ring-blue-200">
+                                <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-gray-100 group-hover:ring-orange-200">
                                   {subcategory.hasImage && subcategory.imageUrl ? (
                                     <Image
                                       src={subcategory.imageUrl}
@@ -185,18 +185,18 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                                       className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                     />
                                   ) : (
-                                    <div className="w-full h-full bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center transition-all duration-700 group-hover:scale-110">
-                                      <span className="text-blue-500 font-bold text-2xl">🔧</span>
+                                    <div className="w-full h-full bg-gradient-to-br from-orange-50 to-orange-100 flex items-center justify-center transition-all duration-700 group-hover:scale-110">
+                                      <span className="text-orange-500 font-bold text-2xl">🔧</span>
                                     </div>
                                   )}
                                 </div>
                                 {/* Hover Overlay */}
-                                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-900/0 via-blue-900/0 to-blue-900/10 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
+                                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-orange-900/0 via-orange-900/0 to-orange-900/10 opacity-0 group-hover:opacity-100 transition-all duration-300"></div>
                               </div>
                               
                               {/* Category Info */}
                               <div className="space-y-2">
-                                <h3 className="text-gray-900 font-semibold text-lg line-clamp-2 group-hover:text-blue-600 transition-colors duration-300">
+                                <h3 className="text-gray-900 font-semibold text-lg line-clamp-2 group-hover:text-orange-600 transition-colors duration-300">
                                   {subcategory.categoryNameCanonical}
                                 </h3>
                                 <p className="text-gray-600 text-sm line-clamp-2">
@@ -227,7 +227,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                   onClick={() => setCurrentSlide(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
                     index === currentSlide
-                      ? 'bg-blue-600 scale-125'
+                      ? 'bg-orange-600 scale-125'
                       : 'bg-gray-300 hover:bg-gray-400'
                   }`}
                 />

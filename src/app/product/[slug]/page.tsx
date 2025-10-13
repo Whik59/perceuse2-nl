@@ -695,9 +695,9 @@ const ProductDetailPage: React.FC = () => {
                 
                 {/* Compact Trust Signals */}
                 <div className="flex flex-wrap gap-4 mt-6">
-                  <div className="flex items-center space-x-2 bg-blue-50 rounded-lg px-3 py-2 border border-blue-100">
-                    <CreditCard className="w-4 h-4 text-blue-600" />
-                    <span className="text-sm font-medium text-blue-700">{getString('product.paymentInstallments')}</span>
+                  <div className="flex items-center space-x-2 bg-orange-50 rounded-lg px-3 py-2 border border-orange-100">
+                    <CreditCard className="w-4 h-4 text-orange-600" />
+                    <span className="text-sm font-medium text-orange-700">{getString('product.paymentInstallments')}</span>
                   </div>
                   
                   <div className="flex items-center space-x-2 bg-green-50 rounded-lg px-3 py-2 border border-green-100">
@@ -750,15 +750,6 @@ const ProductDetailPage: React.FC = () => {
               {/* CTA */}
               {!isOutOfStock && (
                 <div className="space-y-6">
-                  {/* Urgency Text - Mobile Optimized */}
-                  <div className="text-center">
-                    <div className="inline-block bg-gradient-to-r from-red-600 to-red-700 text-white px-3 py-2 rounded-lg font-semibold text-xs sm:text-sm animate-pulse shadow-lg max-w-sm mx-auto">
-                      <div className="flex items-center justify-center space-x-2">
-                        <span className="bg-white/20 px-2 py-1 rounded-full text-xs font-bold">-30%</span>
-                        <span className="text-center">Wenn Sie es in den nächsten 5 Min. hinzufügen!</span>
-                      </div>
-                    </div>
-                  </div>
 
                   {/* Premium CTA Buttons */}
                   <div className="space-y-6">
@@ -916,7 +907,7 @@ const ProductDetailPage: React.FC = () => {
               {product?.reviewAnalysis && (
                 <div className="mt-20">
                   <div className="text-center mb-16">
-                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-6">
+                    <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full mb-6">
                       <Star className="w-8 h-8 text-white fill-white" />
                     </div>
                     <h2 className="text-4xl font-bold text-neutral-900 mb-6">
@@ -1036,16 +1027,16 @@ const ProductDetailPage: React.FC = () => {
                   {/* Recommendation and Value */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
                     {product.reviewAnalysis.recommendation && (
-                      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 border border-blue-100 shadow-sm">
+                      <div className="bg-gradient-to-br from-orange-50 to-orange-100 rounded-2xl p-8 border border-orange-100 shadow-sm">
                         <div className="flex items-center space-x-3 mb-4">
-                          <div className="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center shadow-lg">
+                          <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
                             <Check className="w-5 h-5 text-white" />
                           </div>
-                          <h3 className="text-xl font-bold text-blue-800">
+                          <h3 className="text-xl font-bold text-orange-800">
                             {getString('product.reviewAnalysisRecommendation')}
                           </h3>
                         </div>
-                        <p className="text-blue-800 font-medium leading-relaxed">{product.reviewAnalysis.recommendation}</p>
+                        <p className="text-orange-800 font-medium leading-relaxed">{product.reviewAnalysis.recommendation}</p>
                       </div>
                     )}
                     {product.reviewAnalysis.value_for_money && (
@@ -1292,120 +1283,154 @@ const ProductDetailPage: React.FC = () => {
         <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-0 sm:p-4 animate-slide-up">
           <div className="max-w-6xl mx-auto">
             {/* Desktop: Horizontal layout */}
-            <div className="hidden sm:flex items-center justify-between space-x-6">
-              {/* Left side: Discount and countdown */}
-              <div className="flex items-center space-x-4">
-                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white py-3 px-6 rounded-xl relative overflow-hidden">
-                  {/* Animated background pattern */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
+            <div className="hidden sm:flex items-center justify-center">
+              {/* Shop vs Amazon Comparison - Horizontal */}
+              <div className="flex-shrink-0">
+                <div className="flex space-x-4 items-center">
+                  {/* Amazon Option - Highlighted as cheaper */}
+                  <a
+                    href={product.amazonUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group block"
+                  >
+                    <div className="bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 transition-all duration-300 p-4 rounded-xl shadow-lg border border-orange-200">
+                      <div className="flex items-center justify-between min-w-[350px]">
+                        <div className="flex items-center space-x-3">
+                          {/* Amazon Logo */}
+                          <div className="w-12 h-12 bg-white rounded-lg shadow-sm flex items-center justify-center">
+                            <svg className="w-8 h-8" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
+                              <g fill="none" fillRule="evenodd">
+                                <path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#FF9900" fillRule="nonzero"/>
+                                <path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000000"/>
+                              </g>
+                            </svg>
+                    </div>
+                    
+                          <div>
+                            <div className="font-bold text-gray-900 text-lg">Amazon</div>
+                            <div className="flex items-center space-x-2">
+                              <div className="flex flex-col">
+                                <span className="text-2xl font-bold text-gray-900">{formatCurrency(product.basePrice)}</span>
+                                {product?.onSale && (
+                                  <div className="flex items-center space-x-1 mt-1">
+                                    <span className="text-sm text-gray-500 line-through">
+                                      {formatCurrency(product.basePrice * 1.43)}
+                                    </span>
+                                    <span className="bg-red-500 text-white text-sm font-bold px-2 py-1 rounded-lg">
+                                      -30%
+                                    </span>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                            <div className="flex items-center space-x-1 mt-1">
+                              <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
+                              <span className="text-xs text-red-600 font-medium">{getString('product.offer24h')}</span>
+                            </div>
+                          </div>
+              </div>
+              
+                        <div className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-lg transition-colors duration-200 group-hover:scale-105 text-base">
+                          {getString('amazon.buyOnAmazon')}
+                        </div>
+                  </div>
+                </div>
+              </a>
                   
-                  <div className="relative z-10 flex items-center space-x-4">
-                    <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                      <span className="font-bold text-xl">-35%</span>
-                    </div>
-                    
-                    <div className="text-sm font-medium">
-                      {getString('product.limitedOffer')} - {getString('product.addToCartForDiscount')}
-                    </div>
-                    
-                    <div className="flex items-center space-x-2 text-sm">
-                      <span className="opacity-90">{getString('product.expiresIn')}:</span>
-                      <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
-                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                          {countdown.minutes.toString().padStart(2, '0')}
-                        </span>
-                        <span className="text-red-200">:</span>
-                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                          {countdown.seconds.toString().padStart(2, '0')}
-                        </span>
+                  {/* Our Shop Option - More expensive */}
+                  <div className="p-3 bg-gray-50 rounded-xl shadow-lg border border-gray-200">
+                    <div className="flex items-center justify-between min-w-[350px]">
+                      <div className="flex items-center space-x-3">
+                        <div className="w-10 h-10 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                          <img src={product.imagePaths?.[0] || '/logo.png'} alt="Our Shop" className="w-full h-full object-cover" />
+                        </div>
+                        <div>
+                          <div className="font-bold text-gray-700 text-base">{getString('product.ourShop')}</div>
+                          <div className="text-lg font-bold text-gray-600">{formatCurrency(product.basePrice * 1.3)}</div>
+                        </div>
+                      </div>
+                      <div className="bg-gray-400 text-white font-bold px-4 py-2 rounded-lg cursor-not-allowed opacity-50 text-sm">
+                        {getString('product.outOfStock')}
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
-              {/* Right side: Buy button */}
-              <a
-                href={product.amazonUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex-shrink-0"
-              >
-                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
-                  {/* Button background animation */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
-                  
-                  <div className="relative z-10 flex items-center space-x-3">
-                    <ShoppingCart className="w-5 h-5" />
-                    <span className="text-lg">
-                      {getString('product.buyNow')}
-                    </span>
-                    <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
-                  </div>
-                </div>
-              </a>
             </div>
             
-            {/* Mobile: Vertical layout - Compact design */}
+            {/* Mobile: Shop vs Amazon Comparison */}
             <div className="sm:hidden w-full px-1">
-              {/* Discount Banner with Gradient - Clickable */}
+              <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+                {/* Amazon Option - Highlighted as cheaper */}
               <a
                 href={product.amazonUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block group cursor-pointer"
-              >
-                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-2 px-3 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
-                  {/* Animated background pattern */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
-                  
-                  <div className="relative z-10 flex items-center justify-between w-full">
-                    {/* Left: Discount Badge */}
-                    <div className="bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full">
-                      <span className="font-bold text-sm">-35%</span>
+                  className="group block"
+                >
+                  <div className="bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 transition-all duration-300 p-3 border-b border-orange-200">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center space-x-2">
+                        {/* Amazon Logo */}
+                        <div className="w-10 h-10 bg-white rounded-lg shadow-sm flex items-center justify-center">
+                          <svg className="w-6 h-6" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="none" fillRule="evenodd">
+                              <path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#FF9900" fillRule="nonzero"/>
+                              <path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000000"/>
+                            </g>
+                          </svg>
                     </div>
                     
-                    {/* Center: Offer Text */}
-                    <div className="text-xs font-medium flex-1 text-center px-2">
-                      {getString('product.limitedOffer')}
-                    </div>
-                    
-                    {/* Right: Timer */}
-                    <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
-                      <span className="bg-red-700 px-1 py-0.5 rounded text-xs font-bold min-w-[18px] text-center">
-                        {countdown.minutes.toString().padStart(2, '0')}
-                      </span>
-                      <span className="text-red-200 text-xs">:</span>
-                      <span className="bg-red-700 px-1 py-0.5 rounded text-xs font-bold min-w-[18px] text-center">
-                        {countdown.seconds.toString().padStart(2, '0')}
-                      </span>
-                    </div>
+                        <div>
+                          <div className="font-bold text-gray-900 text-sm">Amazon</div>
+                          <div className="flex items-center space-x-1">
+                            <div className="flex flex-col">
+                              <span className="text-lg font-bold text-gray-900">{formatCurrency(product.basePrice)}</span>
+                              {product?.onSale && (
+                                <div className="flex items-center space-x-1 mt-0.5">
+                                  <span className="text-xs text-gray-500 line-through">
+                                    {formatCurrency(product.basePrice * 1.43)}
+                                  </span>
+                                  <span className="bg-red-500 text-white text-xs font-bold px-1.5 py-0.5 rounded">
+                                    -30%
+                                  </span>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                          <div className="flex items-center space-x-1 mt-0.5">
+                            <div className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></div>
+                            <span className="text-xs text-red-600 font-medium">{getString('product.offer24h')}</span>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-4 py-2 rounded-lg transition-colors duration-200 group-hover:scale-105 text-sm">
+                        {getString('amazon.buyOnAmazon')}
+                      </div>
                   </div>
                 </div>
               </a>
-              
-              {/* Removed -30% urgency text as requested */}
-
-              {/* Buy Button with Enhanced Design */}
-              <a
-                href={product.amazonUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block group"
-              >
-                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 px-4 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
-                  {/* Button background animation */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
-                  
-                  <div className="relative z-10 flex items-center justify-center space-x-2">
-                    <ShoppingCart className="w-4 h-4" />
-                    <span className="text-base">
-                      {getString('product.buyNow')}
-                    </span>
-                    <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></div>
+                
+                {/* Our Shop Option - More expensive */}
+                <div className="p-2 bg-gray-50">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-2">
+                      <div className="w-8 h-8 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
+                        <img src={product.imagePaths?.[0] || '/logo.png'} alt="Our Shop" className="w-full h-full object-cover" />
+                      </div>
+                      <div>
+                        <div className="font-bold text-gray-700 text-sm">{getString('product.ourShop')}</div>
+                        <div className="text-base font-bold text-gray-600">{formatCurrency(product.basePrice * 1.3)}</div>
+                      </div>
+                    </div>
+                    <div className="bg-gray-400 text-white font-bold px-3 py-1.5 rounded-lg cursor-not-allowed opacity-50 text-xs">
+                      {getString('product.outOfStock')}
+                    </div>
                   </div>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>

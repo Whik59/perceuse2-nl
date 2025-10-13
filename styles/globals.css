@@ -58,9 +58,9 @@
     -webkit-line-clamp: 3;
   }
   
-  /* Focus styles for accessibility */
+  /* Focus styles for accessibility - Amazon orange */
   .focus-ring {
-    @apply focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2;
+    @apply focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2;
   }
   
   /* Button loading state */
@@ -73,19 +73,24 @@
     @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
   }
   
-  /* Gradient text */
+  /* Amazon gradient text */
   .gradient-text {
-    @apply bg-gradient-to-r from-yellow-400 to-yellow-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent;
   }
   
-  /* Premium gradient background */
+  /* Amazon gradient background */
   .premium-gradient {
-    background: linear-gradient(135deg, #1a1a1a 0%, #333333 100%);
+    background: linear-gradient(135deg, #232F3E 0%, #000000 100%);
   }
   
-  /* Input focus styles */
+  /* Amazon orange gradient */
+  .amazon-gradient {
+    background: linear-gradient(135deg, #FF9900 0%, #ea8600 100%);
+  }
+  
+  /* Input focus styles - Amazon orange */
   .input-focus {
-    @apply focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-transparent;
+    @apply focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent;
   }
   
   /* Navigation link styles */

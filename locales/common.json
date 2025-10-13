@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "products": "Staubsauger",
+    "products": "Massagegeräte",
     "categories": "Kategorien",
     "cart": "Auswahl",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Kontakt"
   },
   "categories": {
-    "title": "Staubsauger-Kategorien",
+    "title": "Massagegeräte-Kategorien",
     "hero": {
-      "title": "Finden Sie den perfekten Staubsauger für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Staubsaugern"
+      "title": "Finden Sie das perfekte Massagegerät für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Massagegeräten"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Staubsauger-Kategorien",
+    "subtitle": "Erkunden Sie unsere spezialisierten Massagegeräte-Kategorien",
     "browseAll": "Alle Kategorien anzeigen",
     "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
     "loading": "Kategorien werden geladen...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Alle Unterkategorien",
     "subcategoriesDescription": "Erkunden Sie alle verfügbaren Unterkategorien",
     "needHelp": "Brauchen Sie Hilfe?",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, den perfekten Staubsauger zu finden",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, das perfekte Massagegerät zu finden",
     "backToHome": "Zurück zur Startseite",
     "exploreBySpecialty": "Nach Spezialität erkunden",
     "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
@@ -71,8 +71,8 @@
     "confirm": "Bestätigen",
     "loading": "Laden...",
     "error": "Ein Fehler ist aufgetreten",
-    "siteName": "Staubsauger kaufen",
-    "companyName": "Staubsauger",
+    "siteName": "Massagegeräte kaufen",
+    "companyName": "Massagegeräte",
     "home": "Startseite",
     "linkCopied": "Link kopiert",
     "qualityExceptional": "Außergewöhnliche Qualität",
@@ -82,15 +82,15 @@
     "somethingWrong": "Etwas ist schief gelaufen",
     "tryAgain": "Erneut versuchen",
     "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Staubsauger nicht gefunden",
+    "productNotFound": "Massagegerät nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
     "amazonUnavailable": "Amazon nicht verfügbar"
   },
   "search": {
-    "placeholder": "Staubsauger suchen...",
-    "noResults": "Keine Staubsauger gefunden",
-    "searchFor": "Staubsauger suchen",
+    "placeholder": "Massagegeräte suchen...",
+    "noResults": "Keine Massagegeräte gefunden",
+    "searchFor": "Massagegeräte suchen",
     "suggestions": "Vorschläge:",
     "all": "Alle",
     "products": "Produkte",
@@ -113,8 +113,13 @@
     "pricesMayVary": "Preise können variieren"
   },
   "header": {
+    "premium": "PREMIUM",
+    "partner": "Partner",
+    "madeInGermany": "Made in Germany",
+    "verified": "Verifiziert",
+    "rating": "4.8/5",
     "search": {
-      "placeholder": "Staubsauger suchen..."
+      "placeholder": "Massagegeräte suchen..."
     },
     "support": "Support",
     "cart": {
@@ -122,7 +127,7 @@
     }
   },
   "social": {
-    "shareProduct": "Diesen Staubsauger teilen",
+    "shareProduct": "Dieses Massagegerät teilen",
     "followUs": "Folgen Sie uns",
     "customerReviews": "Amazon Kundenbewertungen"
   },
@@ -143,39 +148,54 @@
     "buyNow": "Jetzt kaufen",
     "viewOnAmazon": "Bei Amazon ansehen",
     "priceOnAmazon": "Preis bei Amazon",
+    "onAmazon": "bei Amazon",
     "affiliateNotice": "Als Amazon-Partner verdienen wir Provisionen an qualifizierten Käufen.",
     "redirecting": "Weiterleitung zu Amazon...",
-    "openInNewTab": "In neuem Tab öffnen"
+    "openInNewTab": "In neuem Tab öffnen",
+    "viaAmazon": "via Amazon",
+    "amazonLogo": "/Amazon_icon.svg"
   },
-  "siteName": "Ihr perfekter Staubsauger",
-  "companyName": "Staubsauger GmbH",
-  "products": "Staubsauger",
-  "productNotFound": "Staubsauger nicht gefunden",
+  "siteName": "Ihr perfektes Massagegerät",
+  "companyName": "Massagegeräte GmbH",
+  "products": "Massagegeräte",
+  "productNotFound": "Massagegerät nicht gefunden",
   "banner": {
     "discount": "Rabatt",
     "clientReviews": "Kundenbewertungen",
-    "ordersDelivered": "Bestellungen geliefert"
+    "ordersDelivered": "Bestellungen geliefert",
+    "amazonPartner": "Amazon Partner",
+    "madeInGermany": "Made in Germany",
+    "qualityAssured": "Qualität garantiert",
+    "fastDelivery": "Schnelle Lieferung",
+    "securePayment": "Sichere Zahlung",
+    "customerSupport": "Kundenservice 24/7",
+    "freeReturns": "Kostenlose Rücksendung",
+    "emergencyDiscount": "-30% auf alle Produkte",
+    "timeLeft": "Verbleibende Zeit",
+    "hours": "h",
+    "minutes": "min",
+    "seconds": "s"
   },
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Staubsaugern zu helfen",
+    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Massagegeräten zu helfen",
   "faq": {
     "title": "Häufig gestellte Fragen",
     "categoryTitle": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Staubsaugern, Lieferung, Rückgabe und mehr.",
+    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Massagegeräten, Lieferung, Rückgabe und mehr.",
     "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
     "contactTeam": "Kontaktieren Sie unser Team",
     "sendEmail": "E-Mail senden",
     "questions": [
       {
         "id": "1",
-        "question": "Wie lange hält die Qualität der Staubsauger?",
-        "answer": "Unsere Staubsauger haben eine langlebige Konstruktion, die je nach Modell 5 bis 10 Jahre halten kann. Sie sind für eine effiziente Reinigung optimiert und garantieren außergewöhnliche Saugkraft bei jeder Verwendung."
+        "question": "Wie lange hält die Qualität der Massagegeräte?",
+        "answer": "Unsere Massagegeräte haben eine langlebige Konstruktion, die je nach Modell 3 bis 7 Jahre halten kann. Sie sind für eine effiziente Massage optimiert und garantieren außergewöhnliche Entspannung bei jeder Verwendung."
       },
       {
         "id": "2",
-        "question": "Sind die Staubsauger sicher?",
-        "answer": "Absolut. Alle unsere Staubsauger entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, widerstandsfähige Materialien und werden mit hochwertigen Komponenten hergestellt."
+        "question": "Sind die Massagegeräte sicher?",
+        "answer": "Absolut. Alle unsere Massagegeräte entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, sanfte Materialien und werden mit hochwertigen Komponenten hergestellt."
       },
       {
         "id": "3",
@@ -184,28 +204,28 @@
       },
       {
         "id": "4",
-        "question": "Kann ich Staubsauger zurückgeben, wenn ich nicht zufrieden bin?",
-        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Staubsauger in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
+        "question": "Kann ich Massagegeräte zurückgeben, wenn ich nicht zufrieden bin?",
+        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie das Massagegerät in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
       },
       {
         "id": "5",
-        "question": "Wie verwende ich Staubsauger?",
-        "answer": "Unsere Staubsauger sind sehr einfach zu verwenden. Sie müssen nur den Staubsauger einschalten, die gewünschte Saugstärke wählen und mit dem Reinigen beginnen. Nach der Nutzung können Sie ihn einfach ausschalten. Ein Füllstand-Indikator zeigt Ihnen den Behälterstand."
+        "question": "Wie verwende ich Massagegeräte?",
+        "answer": "Unsere Massagegeräte sind sehr einfach zu verwenden. Sie müssen nur das Massagegerät einschalten, die gewünschte Intensität wählen und mit der Massage beginnen. Nach der Nutzung können Sie es einfach ausschalten. Ein Batterie-Indikator zeigt Ihnen den Ladestand."
       },
       {
         "id": "6",
-        "question": "Welche Saugstärken sind verfügbar?",
-        "answer": "Die meisten unserer Staubsauger bieten verschiedene Saugstärken von sanft bis intensiv, normalerweise in 3-5 Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Saugkraft ist für außergewöhnliche Reinigungsleistung in allen Bereichen optimiert."
+        "question": "Welche Massageintensitäten sind verfügbar?",
+        "answer": "Die meisten unserer Massagegeräte bieten verschiedene Intensitäten von sanft bis intensiv, normalerweise in 3-5 Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Intensität ist für außergewöhnliche Entspannung in allen Bereichen optimiert."
       },
       {
         "id": "7",
-        "question": "Gibt es eine Garantie auf die Staubsauger?",
-        "answer": "Alle unsere Staubsauger sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
+        "question": "Gibt es eine Garantie auf die Massagegeräte?",
+        "answer": "Alle unsere Massagegeräte sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
       },
       {
         "id": "8",
-        "question": "Wie reinige und pflege ich meinen Staubsauger?",
-        "answer": "Die Pflege ist sehr einfach: Leeren Sie regelmäßig den Staubbehälter und reinigen Sie die Filter. Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Überprüfen Sie regelmäßig die Filter und reinigen Sie sie gemäß den Anweisungen des Herstellers."
+        "question": "Wie reinige und pflege ich mein Massagegerät?",
+        "answer": "Die Pflege ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Für die Massageaufsätze können Sie sie mit warmem Wasser und Seife waschen. Überprüfen Sie regelmäßig die Aufsätze und reinigen Sie sie gemäß den Anweisungen des Herstellers."
       }
     ],
     "deliveryTime": {
@@ -267,7 +287,7 @@
     "proceedToCheckout": "Zur Kasse gehen",
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Staubsauger zu Ihrer Auswahl hinzu, um fortzufahren",
+      "description": "Fügen Sie Massagegeräte zu Ihrer Auswahl hinzu, um fortzufahren",
       "button": "Zurück zum Shop"
     },
     "removeFromCart": "Aus Warenkorb entfernen",
@@ -292,7 +312,7 @@
     "buyNow": "Jetzt kaufen",
     "viewFullSelection": "Meine vollständige Auswahl anzeigen",
     "pageTitle": "Ihre Auswahl",
-    "pageSubtitle": "Ihre ausgewählten Staubsauger - Kaufen Sie direkt bei Amazon",
+    "pageSubtitle": "Ihre ausgewählten Massagegeräte - Kaufen Sie direkt bei Amazon",
     "summary": "Zusammenfassung",
     "items": "Artikel",
     "clearCart": "Auswahl leeren",
@@ -302,13 +322,19 @@
       "freeShipping": "Kostenloser Versand",
       "securePayment": "Sichere Zahlung", 
       "freeReturns": "Kostenlose Rücksendung"
+    },
+    "amazonButton": {
+      "buyNow": "Jetzt kaufen",
+      "buyOnAmazon": "Bei Amazon kaufen",
+      "viaAmazon": "via Amazon",
+      "amazonLogo": "/Amazon_icon.svg"
     }
   },
   "checkout": {
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Staubsauger zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
-      "button": "Unsere Staubsauger entdecken"
+      "description": "Fügen Sie Massagegeräte zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
+      "button": "Unsere Massagegeräte entdecken"
     },
     "backToCart": "Zurück zur Auswahl",
     "pageTitle": "Ihren Kauf abschließen",
@@ -388,7 +414,12 @@
     "customerSupport": "Kundenservice 7 Tage per Chat und Telefon"
   },
   "promotions": {
-    "freeShipping": "Kostenloser Versand"
+    "freeShipping": "Kostenloser Versand",
+    "amazonPartner": "Amazon Partner",
+    "trustBanner": "Amazon Partner • 10HOURS • 30% Rabatt • 4.6/5 Kundenbewertungen • 2000+ Bestellungen geliefert",
+    "amazonVerified": "Amazon-verifiziert",
+    "secureCheckout": "Sicherer Checkout",
+    "fastDelivery": "Schnelle Lieferung"
   },
   "product": {
     "description": "Beschreibung",
@@ -405,7 +436,7 @@
     "reviewAnalysisValue": "Preis-Leistungs-Verhältnis",
     "reviewAnalysisFinalVerdict": "Unser Endurteil",
     "alsoLike": "Das könnte Ihnen auch gefallen",
-    "alsoLikeSubtitle": "Andere Staubsauger, die Sie interessieren könnten",
+    "alsoLikeSubtitle": "Andere Massagegeräte, die Sie interessieren könnten",
     "buyNow": "Jetzt kaufen",
     "viewProduct": "Ansehen",
     "whyChoose": "Warum {productTitle} wählen",
@@ -426,6 +457,10 @@
     "paymentInstallments": "Ratenzahlung",
     "secureTransaction": "Sichere Transaktion",
     "delivery48h": "Lieferung in 48h",
+    "ourShop": "Unser Shop",
+    "outOfStock": "Nicht auf Lager",
+    "offer24h": "24h Angebot",
+    "checkAvailability": "Verfügbarkeit prüfen",
     "quantity": "Menge",
     "redirecting": "Weiterleitung...",
     "buyOnAmazon": "Kaufen",
@@ -436,6 +471,7 @@
     "frequentlyAskedQuestions": "Häufig gestellte Fragen",
     "basedOnReviews": "Basierend auf",
     "reviews": "Bewertungen",
+    "verifiedPurchase": "Compra verificada",
     "clientsRecommend": "der Kunden empfehlen dieses Produkt",
     "similarProductsLoading": "Ähnliche Produkte werden geladen...",
     "limitedOffer": "Begrenztes Angebot",
@@ -464,8 +500,8 @@
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Staubsauger!",
-      "subtitle": "Effiziente und präzise Reinigung. Qualität und Leistung garantiert.",
+      "title": "Perfekte Massagegeräte!",
+      "subtitle": "Effiziente und präzise Entspannung. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -477,16 +513,16 @@
     },
     "features": {
       "quality": {
-      "title": "Präzise Reinigung",
-      "description": "Bis zu 99,9% Effizienz beim Saugen. Perfekt für außergewöhnliche Reinigungsergebnisse ohne Kompromisse."
+      "title": "Präzise Entspannung",
+      "description": "Bis zu 99,9% Effizienz bei der Massage. Perfekt für außergewöhnliche Entspannungsergebnisse ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Kontrolle",
-        "description": "Präzise Saugkraftkontrolle von sanft bis intensiv. Passt die Stärke an jede Oberfläche an."
+        "description": "Präzise Massageintensitätskontrolle von sanft bis intensiv. Passt die Stärke an jede Körperstelle an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360° Reinigungstechnologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360° Massagetechnologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium Kundenservice",
@@ -499,18 +535,18 @@
     "loading": "Laden...",
     "hero": {
       "featured": {
-        "title": "Ihr Staubsauger, Ihr Zuhause!",
-        "subtitle": "Effiziente und präzise Reinigung. Technologische Freiheit für die ganze Familie.",
-        "loading": "Ihre Reinigung wird geladen...",
+        "title": "Ihr Massagegerät, Ihr Zuhause!",
+        "subtitle": "Effiziente und präzise Entspannung. Technologische Freiheit für die ganze Familie.",
+        "loading": "Ihre Entspannung wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
       "title": "Warum uns wählen?",
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Staubsauger machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Massagegeräte machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Staubsauger von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Saugkraft."
+        "description": "Massagegeräte von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Entspannung."
       },
       "advantage2": {
         "title": "Schnelle Lieferung",
@@ -518,7 +554,7 @@
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Kundenservice-Team spezialisiert auf Staubsauger. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Kundenservice-Team spezialisiert auf Massagegeräte. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "advantage4": {
         "title": "Vollständige Garantie",
@@ -526,7 +562,7 @@
       },
       "comparison": {
         "title": "Vergleich mit der Konkurrenz",
-        "subtitle": "Entdecken Sie, warum sich unsere Staubsauger von der Konkurrenz abheben",
+        "subtitle": "Entdecken Sie, warum sich unsere Massagegeräte von der Konkurrenz abheben",
         "us": "Wir",
         "others": "Andere",
         "criteria": "Kriterien",
@@ -573,7 +609,7 @@
   },
   "footer": {
     "copyright": "Alle Rechte vorbehalten",
-    "companyDescription": "Spezialisten für hochwertige Staubsauger. Präzise Reinigung und Experten-Support.",
+    "companyDescription": "Spezialisten für hochwertige Massagegeräte. Präzise Entspannung und Experten-Support.",
     "legal": {
       "title": "Rechtliche Informationen",
       "terms": "Allgemeine Geschäftsbedingungen",
@@ -612,7 +648,7 @@
     "subtitle": "Nutzungsbedingungen unserer Dienste",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Willkommen bei Staubsauger. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
+    "introduction": "Willkommen bei Massagegeräte. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
     "acceptance": "Durch den Zugriff auf und die Nutzung unserer Website akzeptieren Sie diese Bedingungen vollständig.",
     "general": {
       "title": "Allgemeine Bestimmungen",
@@ -631,7 +667,7 @@
     },
     "services": {
       "title": "Unsere Dienste",
-      "description": "Wir bieten Informationen über hochwertige Staubsauger und erleichtern den Kauf über Amazon."
+      "description": "Wir bieten Informationen über hochwertige Massagegeräte und erleichtern den Kauf über Amazon."
     },
     "userObligations": {
       "title": "Benutzerpflichten",
@@ -651,7 +687,7 @@
     "subtitle": "Wie wir Ihre persönlichen Informationen schützen und verwenden",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Bei Staubsauger respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
+    "introduction": "Bei Massagegeräte respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
     "dataCollection": {
       "title": "Informationen, die wir sammeln",
       "description": "Wir sammeln Informationen, die Sie uns freiwillig zur Verfügung stellen, wie Ihren Namen und Ihre E-Mail-Adresse."
@@ -765,13 +801,13 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Erfahren Sie mehr über Staubsauger",
+    "subtitle": "Erfahren Sie mehr über Massagegeräte",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind Spezialisten für hochwertige Staubsauger für Reinigung und Sauberkeit.",
+    "introduction": "Wir sind Spezialisten für hochwertige Massagegeräte für Entspannung und Wellness.",
     "mission": {
       "title": "Unsere Mission",
-      "description": "Reinigung und Sauberkeit mit hochwertigen Staubsaugern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
+      "description": "Entspannung und Wellness mit hochwertigen Massagegeräten, fortschrittlicher Technologie und Experten-Support zu erleichtern."
     },
     "values": {
       "title": "Unsere Werte",
@@ -779,7 +815,7 @@
     },
     "team": {
       "title": "Unser Team",
-      "description": "Wir haben Experten für Staubsauger und Kundenservice, spezialisiert auf Reinigung und Sauberkeit."
+      "description": "Wir haben Experten für Massagegeräte und Kundenservice, spezialisiert auf Entspannung und Wellness."
     }
   },
   "contact": {
@@ -787,7 +823,7 @@
     "subtitle": "Kontaktieren Sie uns",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Staubsaugern zu helfen.",
+    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Massagegeräten zu helfen.",
     "methods": {
       "title": "Kontaktmethoden",
       "phone": "Telefon: +49 30 123 456 789",
