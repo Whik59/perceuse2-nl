@@ -2,7 +2,7 @@
 """
 Gemini Nano Banana Logo Generator
 
-Generates modern, futuristic 3D logos using Google's Gemini AI models.
+Generates modern, Professional 3D logos using Google's Gemini AI models.
 Supports country-specific colors and keyword-based designs for e-commerce.
 """
 
@@ -106,10 +106,10 @@ def create_logo_prompt(keyword, country):
     colors = get_country_colors(country)
     
     prompt = f"""
-Create a modern, futuristic, and stylish 3D {keyword} logo with {country} colors and a clean white background, ideal for e-commerce, and without any text!
+Create a modern, Professional, and stylish 3D {keyword} logo with {country} colors and a clean white background, ideal for e-commerce, and without any text!
 
 DESIGN REQUIREMENTS:
-- Modern, futuristic, and stylish 3D design
+- Modern, Professional, and stylish 3D design
 - Focus on the {keyword} theme
 - Use {country} national colors: Primary {colors['primary']}, Secondary {colors['secondary']}, Accent {colors['accent']}
 - Clean white background
@@ -126,7 +126,7 @@ VISUAL STYLE:
 - High contrast for visibility
 - Professional color scheme
 - Clean lines and shapes
-- Futuristic elements
+- Professional elements
 - MASSIVE SCALE DESIGN - logo should fill almost the entire canvas
 - Bold, imposing presence that touches the edges
 - Almost no white space - logo should be huge and fill 95% of the image

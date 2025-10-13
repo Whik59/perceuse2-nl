@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "products": "Friteusen",
+    "products": "Staubsauger",
     "categories": "Kategorien",
     "cart": "Auswahl",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Kontakt"
   },
   "categories": {
-    "title": "Friteusen-Kategorien",
+    "title": "Staubsauger-Kategorien",
     "hero": {
-      "title": "Finden Sie die perfekte Friteuse für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Friteusen"
+      "title": "Finden Sie den perfekten Staubsauger für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Staubsaugern"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Friteusen-Kategorien",
+    "subtitle": "Erkunden Sie unsere spezialisierten Staubsauger-Kategorien",
     "browseAll": "Alle Kategorien anzeigen",
     "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
     "loading": "Kategorien werden geladen...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Alle Unterkategorien",
     "subcategoriesDescription": "Erkunden Sie alle verfügbaren Unterkategorien",
     "needHelp": "Brauchen Sie Hilfe?",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte Friteuse zu finden",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, den perfekten Staubsauger zu finden",
     "backToHome": "Zurück zur Startseite",
     "exploreBySpecialty": "Nach Spezialität erkunden",
     "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
@@ -71,8 +71,8 @@
     "confirm": "Bestätigen",
     "loading": "Laden...",
     "error": "Ein Fehler ist aufgetreten",
-    "siteName": "Friteusen kaufen",
-    "companyName": "Friteusen",
+    "siteName": "Staubsauger kaufen",
+    "companyName": "Staubsauger",
     "home": "Startseite",
     "linkCopied": "Link kopiert",
     "qualityExceptional": "Außergewöhnliche Qualität",
@@ -82,15 +82,15 @@
     "somethingWrong": "Etwas ist schief gelaufen",
     "tryAgain": "Erneut versuchen",
     "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Friteuse nicht gefunden",
+    "productNotFound": "Staubsauger nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
     "amazonUnavailable": "Amazon nicht verfügbar"
   },
   "search": {
-    "placeholder": "Friteusen suchen...",
-    "noResults": "Keine Friteusen gefunden",
-    "searchFor": "Friteusen suchen",
+    "placeholder": "Staubsauger suchen...",
+    "noResults": "Keine Staubsauger gefunden",
+    "searchFor": "Staubsauger suchen",
     "suggestions": "Vorschläge:",
     "all": "Alle",
     "products": "Produkte",
@@ -114,7 +114,7 @@
   },
   "header": {
     "search": {
-      "placeholder": "Friteusen suchen..."
+      "placeholder": "Staubsauger suchen..."
     },
     "support": "Support",
     "cart": {
@@ -122,7 +122,7 @@
     }
   },
   "social": {
-    "shareProduct": "Diese Friteuse teilen",
+    "shareProduct": "Diesen Staubsauger teilen",
     "followUs": "Folgen Sie uns",
     "customerReviews": "Amazon Kundenbewertungen"
   },
@@ -147,10 +147,10 @@
     "redirecting": "Weiterleitung zu Amazon...",
     "openInNewTab": "In neuem Tab öffnen"
   },
-  "siteName": "Ihre perfekte Friteuse",
-  "companyName": "Friteusen GmbH",
-  "products": "Friteusen",
-  "productNotFound": "Friteuse nicht gefunden",
+  "siteName": "Ihr perfekter Staubsauger",
+  "companyName": "Staubsauger GmbH",
+  "products": "Staubsauger",
+  "productNotFound": "Staubsauger nicht gefunden",
   "banner": {
     "discount": "Rabatt",
     "clientReviews": "Kundenbewertungen",
@@ -158,24 +158,24 @@
   },
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Kopfhörern zu helfen",
+    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Staubsaugern zu helfen",
   "faq": {
     "title": "Häufig gestellte Fragen",
     "categoryTitle": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Kopfhörern, Lieferung, Rückgabe und mehr.",
+    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Staubsaugern, Lieferung, Rückgabe und mehr.",
     "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
     "contactTeam": "Kontaktieren Sie unser Team",
     "sendEmail": "E-Mail senden",
     "questions": [
       {
         "id": "1",
-        "question": "Wie lange hält die Qualität der Kopfhörer?",
-        "answer": "Unsere Kopfhörer haben eine langlebige Konstruktion, die je nach Modell 3 bis 7 Jahre halten kann. Sie sind für eine effiziente Nutzung optimiert und garantieren außergewöhnliche Klangqualität bei jeder Verwendung."
+        "question": "Wie lange hält die Qualität der Staubsauger?",
+        "answer": "Unsere Staubsauger haben eine langlebige Konstruktion, die je nach Modell 5 bis 10 Jahre halten kann. Sie sind für eine effiziente Reinigung optimiert und garantieren außergewöhnliche Saugkraft bei jeder Verwendung."
       },
       {
         "id": "2",
-        "question": "Sind die Kopfhörer sicher?",
-        "answer": "Absolut. Alle unsere Kopfhörer entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, widerstandsfähige Materialien und werden mit hochwertigen Komponenten hergestellt."
+        "question": "Sind die Staubsauger sicher?",
+        "answer": "Absolut. Alle unsere Staubsauger entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, widerstandsfähige Materialien und werden mit hochwertigen Komponenten hergestellt."
       },
       {
         "id": "3",
@@ -184,28 +184,28 @@
       },
       {
         "id": "4",
-        "question": "Kann ich Kopfhörer zurückgeben, wenn ich nicht zufrieden bin?",
-        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die Kopfhörer in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
+        "question": "Kann ich Staubsauger zurückgeben, wenn ich nicht zufrieden bin?",
+        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Staubsauger in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
       },
       {
         "id": "5",
-        "question": "Wie verwende ich Kopfhörer?",
-        "answer": "Unsere Kopfhörer sind sehr einfach zu verwenden. Sie müssen nur die Kopfhörer aufsetzen, die gewünschte Lautstärke wählen und Musik genießen. Nach der Nutzung können Sie sie einfach ablegen. Ein Batterie-Indikator zeigt Ihnen den Ladestand."
+        "question": "Wie verwende ich Staubsauger?",
+        "answer": "Unsere Staubsauger sind sehr einfach zu verwenden. Sie müssen nur den Staubsauger einschalten, die gewünschte Saugstärke wählen und mit dem Reinigen beginnen. Nach der Nutzung können Sie ihn einfach ausschalten. Ein Füllstand-Indikator zeigt Ihnen den Behälterstand."
       },
       {
         "id": "6",
-        "question": "Welche Komfortstufen sind verfügbar?",
-        "answer": "Die meisten unserer Kopfhörer bieten verschiedene Klangprofile von Bass bis Höhen, normalerweise in 3-5 Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Klangqualität ist für außergewöhnliche Leistungen in allen Bedingungen optimiert."
+        "question": "Welche Saugstärken sind verfügbar?",
+        "answer": "Die meisten unserer Staubsauger bieten verschiedene Saugstärken von sanft bis intensiv, normalerweise in 3-5 Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Saugkraft ist für außergewöhnliche Reinigungsleistung in allen Bereichen optimiert."
       },
       {
         "id": "7",
-        "question": "Gibt es eine Garantie auf die Kopfhörer?",
-        "answer": "Alle unsere Kopfhörer sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
+        "question": "Gibt es eine Garantie auf die Staubsauger?",
+        "answer": "Alle unsere Staubsauger sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
       },
       {
         "id": "8",
-        "question": "Wie reinige und pflege ich meine Kopfhörer?",
-        "answer": "Die Pflege ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Für die Polsterung können Sie sie mit warmem Wasser und Seife waschen. Überprüfen Sie regelmäßig die Polsterung und reinigen Sie sie gemäß den Anweisungen des Herstellers."
+        "question": "Wie reinige und pflege ich meinen Staubsauger?",
+        "answer": "Die Pflege ist sehr einfach: Leeren Sie regelmäßig den Staubbehälter und reinigen Sie die Filter. Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Überprüfen Sie regelmäßig die Filter und reinigen Sie sie gemäß den Anweisungen des Herstellers."
       }
     ],
     "deliveryTime": {
@@ -267,7 +267,7 @@
     "proceedToCheckout": "Zur Kasse gehen",
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Kopfhörer zu Ihrer Auswahl hinzu, um fortzufahren",
+      "description": "Fügen Sie Staubsauger zu Ihrer Auswahl hinzu, um fortzufahren",
       "button": "Zurück zum Shop"
     },
     "removeFromCart": "Aus Warenkorb entfernen",
@@ -292,7 +292,7 @@
     "buyNow": "Jetzt kaufen",
     "viewFullSelection": "Meine vollständige Auswahl anzeigen",
     "pageTitle": "Ihre Auswahl",
-    "pageSubtitle": "Ihre ausgewählten Kopfhörer - Kaufen Sie direkt bei Amazon",
+    "pageSubtitle": "Ihre ausgewählten Staubsauger - Kaufen Sie direkt bei Amazon",
     "summary": "Zusammenfassung",
     "items": "Artikel",
     "clearCart": "Auswahl leeren",
@@ -307,8 +307,8 @@
   "checkout": {
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Kopfhörer zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
-      "button": "Unsere Kopfhörer entdecken"
+      "description": "Fügen Sie Staubsauger zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
+      "button": "Unsere Staubsauger entdecken"
     },
     "backToCart": "Zurück zur Auswahl",
     "pageTitle": "Ihren Kauf abschließen",
@@ -405,7 +405,7 @@
     "reviewAnalysisValue": "Preis-Leistungs-Verhältnis",
     "reviewAnalysisFinalVerdict": "Unser Endurteil",
     "alsoLike": "Das könnte Ihnen auch gefallen",
-    "alsoLikeSubtitle": "Andere Kopfhörer, die Sie interessieren könnten",
+    "alsoLikeSubtitle": "Andere Staubsauger, die Sie interessieren könnten",
     "buyNow": "Jetzt kaufen",
     "viewProduct": "Ansehen",
     "whyChoose": "Warum {productTitle} wählen",
@@ -464,8 +464,8 @@
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Kopfhörer!",
-      "subtitle": "Effizienter und präziser Komfort. Qualität und Leistung garantiert.",
+      "title": "Perfekte Staubsauger!",
+      "subtitle": "Effiziente und präzise Reinigung. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -477,16 +477,16 @@
     },
     "features": {
       "quality": {
-        "title": "Präziser Komfort",
-        "description": "Bis zu 99,9% Effizienz beim Sitzen. Perfekt für außergewöhnliche Ergebnisse ohne Kompromisse."
+      "title": "Präzise Reinigung",
+      "description": "Bis zu 99,9% Effizienz beim Saugen. Perfekt für außergewöhnliche Reinigungsergebnisse ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Kontrolle",
-        "description": "Präzise Komfortkontrolle von weich bis fest. Passt die Stärke an jede Oberfläche an."
+        "description": "Präzise Saugkraftkontrolle von sanft bis intensiv. Passt die Stärke an jede Oberfläche an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360° Komfort-Technologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360° Reinigungstechnologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium Kundenservice",
@@ -499,18 +499,18 @@
     "loading": "Laden...",
     "hero": {
       "featured": {
-        "title": "Ihre Kopfhörer, Ihr Zuhause!",
-        "subtitle": "Effizienter und präziser Komfort. Technologische Freiheit für die ganze Familie.",
-        "loading": "Ihr Komfort wird geladen...",
+        "title": "Ihr Staubsauger, Ihr Zuhause!",
+        "subtitle": "Effiziente und präzise Reinigung. Technologische Freiheit für die ganze Familie.",
+        "loading": "Ihre Reinigung wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
       "title": "Warum uns wählen?",
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Kopfhörer machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Staubsauger machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Kopfhörer von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Klangqualität."
+        "description": "Staubsauger von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Saugkraft."
       },
       "advantage2": {
         "title": "Schnelle Lieferung",
@@ -518,7 +518,7 @@
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Kundenservice-Team spezialisiert auf Kopfhörer. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Kundenservice-Team spezialisiert auf Staubsauger. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "advantage4": {
         "title": "Vollständige Garantie",
@@ -526,7 +526,7 @@
       },
       "comparison": {
         "title": "Vergleich mit der Konkurrenz",
-        "subtitle": "Entdecken Sie, warum sich unsere Kopfhörer von der Konkurrenz abheben",
+        "subtitle": "Entdecken Sie, warum sich unsere Staubsauger von der Konkurrenz abheben",
         "us": "Wir",
         "others": "Andere",
         "criteria": "Kriterien",
@@ -573,7 +573,7 @@
   },
   "footer": {
     "copyright": "Alle Rechte vorbehalten",
-    "companyDescription": "Spezialisten für hochwertige Kopfhörer. Präziser Klang und Experten-Support.",
+    "companyDescription": "Spezialisten für hochwertige Staubsauger. Präzise Reinigung und Experten-Support.",
     "legal": {
       "title": "Rechtliche Informationen",
       "terms": "Allgemeine Geschäftsbedingungen",
@@ -612,7 +612,7 @@
     "subtitle": "Nutzungsbedingungen unserer Dienste",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Willkommen bei Kopfhörer. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
+    "introduction": "Willkommen bei Staubsauger. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
     "acceptance": "Durch den Zugriff auf und die Nutzung unserer Website akzeptieren Sie diese Bedingungen vollständig.",
     "general": {
       "title": "Allgemeine Bestimmungen",
@@ -631,7 +631,7 @@
     },
     "services": {
       "title": "Unsere Dienste",
-      "description": "Wir bieten Informationen über hochwertige Kopfhörer und erleichtern den Kauf über Amazon."
+      "description": "Wir bieten Informationen über hochwertige Staubsauger und erleichtern den Kauf über Amazon."
     },
     "userObligations": {
       "title": "Benutzerpflichten",
@@ -651,7 +651,7 @@
     "subtitle": "Wie wir Ihre persönlichen Informationen schützen und verwenden",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Bei Kopfhörer respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
+    "introduction": "Bei Staubsauger respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
     "dataCollection": {
       "title": "Informationen, die wir sammeln",
       "description": "Wir sammeln Informationen, die Sie uns freiwillig zur Verfügung stellen, wie Ihren Namen und Ihre E-Mail-Adresse."
@@ -765,13 +765,13 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Erfahren Sie mehr über Kopfhörer",
+    "subtitle": "Erfahren Sie mehr über Staubsauger",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind Spezialisten für hochwertige Kopfhörer für Musik und Unterhaltung.",
+    "introduction": "Wir sind Spezialisten für hochwertige Staubsauger für Reinigung und Sauberkeit.",
     "mission": {
       "title": "Unsere Mission",
-      "description": "Musik und Unterhaltung mit hochwertigen Kopfhörern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
+      "description": "Reinigung und Sauberkeit mit hochwertigen Staubsaugern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
     },
     "values": {
       "title": "Unsere Werte",
@@ -779,7 +779,7 @@
     },
     "team": {
       "title": "Unser Team",
-      "description": "Wir haben Experten für Kopfhörer und Kundenservice, spezialisiert auf Musik und Unterhaltung."
+      "description": "Wir haben Experten für Staubsauger und Kundenservice, spezialisiert auf Reinigung und Sauberkeit."
     }
   },
   "contact": {
@@ -787,7 +787,7 @@
     "subtitle": "Kontaktieren Sie uns",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Kopfhörern zu helfen.",
+    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Staubsaugern zu helfen.",
     "methods": {
       "title": "Kontaktmethoden",
       "phone": "Telefon: +49 30 123 456 789",

@@ -1,32 +1,32 @@
 {
   "site": {
-    "name": "Dein perfektes Sofa",
-    "description": "Finde dein ideales Sofa. Große Auswahl an Sofas, Sitzgarnituren und Wohnzimmermöbeln. Unglaubliche Preise und schneller Versand!",
-    "url": "https://kaufen-sofa.de",
+    "name": "Ihr perfekter Staubsauger",
+    "description": "Finden Sie den idealen Staubsauger. Große Auswahl an Staubsaugern, Saugern und Reinigungsgeräten. Unglaubliche Preise und schneller Versand!",
+    "url": "https://kaufen-staubsauger.de",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Dein perfektes Sofa - Sofas und Sitzgarnituren",
-    "titleTemplate": "%s | Dein perfektes Sofa",
-    "defaultDescription": "Finde dein ideales Sofa. Große Auswahl an Sofas, Sitzgarnituren und Wohnzimmermöbeln. Unglaubliche Preise und schneller Versand!",
+    "defaultTitle": "Ihr perfekter Staubsauger - Staubsauger und Reinigungsgeräte",
+    "titleTemplate": "%s | Ihr perfekter Staubsauger",
+    "defaultDescription": "Finden Sie den idealen Staubsauger. Große Auswahl an Staubsaugern, Saugern und Reinigungsgeräten. Unglaubliche Preise und schneller Versand!",
     "keywords": [
-      "Sofa",
-      "Sitzgarnitur",
-      "Wohnzimmermöbel",
-      "Sofa kaufen",
-      "Sofa Angebote",
-      "günstige Sofas",
-      "beste Sofas",
-      "Ecksofa",
-      "Sitzlandschaft"
+      "Staubsauger",
+      "Sauger",
+      "Reinigungsgerät",
+      "Staubsauger kaufen",
+      "Staubsauger Angebote",
+      "günstige Staubsauger",
+      "beste Staubsauger",
+      "Handstaubsauger",
+      "Beutelloser Staubsauger"
     ],
-    "ogImage": "/og-image-sofa.jpg"
+    "ogImage": "/og-image-staubsauger.jpg"
   },
   "business": {
-    "email": "info@sofa.de",
+    "email": "info@staubsauger.de",
     "phone": "+49 900 123 456",
-    "address": "Möbelstraße 1, 10115 Berlin, Deutschland",
+    "address": "Reinigungsstraße 1, 10115 Berlin, Deutschland",
     "socialMedia": {
       "facebook": "",
       "instagram": "",
@@ -34,7 +34,7 @@
     }
   },
   "affiliate": {
-    "amazonTag": "sofa-21",
+    "amazonTag": "staubsauger-21",
     "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierenden Käufen."
   },
   "features": {
