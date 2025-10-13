@@ -171,10 +171,18 @@ def main():
         else:
             print("⚠️  Continuing with next step...")
     
-    # Step 7: Generate Sitemap
+    # Step 7: Generate Logo with Gemini Nano Banana
+    total_steps += 1
+    command = f'python scripts/generate_logo.py "{args.keyword}" "{args.country}"'
+    if run_command(command, "Step 7: Generate Logo with Gemini Nano Banana"):
+        success_count += 1
+    else:
+        print("⚠️  Continuing with next step...")
+    
+    # Step 8: Generate Sitemap
     total_steps += 1
     command = 'python scripts/generate_sitemap.py'
-    if run_command(command, "Step 7: Generate Sitemap"):
+    if run_command(command, "Step 8: Generate Sitemap"):
         success_count += 1
     else:
         print("⚠️  Continuing with next step...")

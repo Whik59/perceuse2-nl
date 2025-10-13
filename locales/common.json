@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "products": "Kopfhörer",
+    "products": "Friteusen",
     "categories": "Kategorien",
     "cart": "Auswahl",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Kontakt"
   },
   "categories": {
-    "title": "Kopfhörer-Kategorien",
+    "title": "Friteusen-Kategorien",
     "hero": {
-      "title": "Finden Sie die perfekten Kopfhörer für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Kopfhörern"
+      "title": "Finden Sie die perfekte Friteuse für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Friteusen"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Kopfhörer-Kategorien",
+    "subtitle": "Erkunden Sie unsere spezialisierten Friteusen-Kategorien",
     "browseAll": "Alle Kategorien anzeigen",
     "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
     "loading": "Kategorien werden geladen...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Alle Unterkategorien",
     "subcategoriesDescription": "Erkunden Sie alle verfügbaren Unterkategorien",
     "needHelp": "Brauchen Sie Hilfe?",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekten Kopfhörer zu finden",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte Friteuse zu finden",
     "backToHome": "Zurück zur Startseite",
     "exploreBySpecialty": "Nach Spezialität erkunden",
     "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
@@ -71,8 +71,8 @@
     "confirm": "Bestätigen",
     "loading": "Laden...",
     "error": "Ein Fehler ist aufgetreten",
-    "siteName": "Kopfhörer kaufen",
-    "companyName": "Kopfhörer",
+    "siteName": "Friteusen kaufen",
+    "companyName": "Friteusen",
     "home": "Startseite",
     "linkCopied": "Link kopiert",
     "qualityExceptional": "Außergewöhnliche Qualität",
@@ -82,15 +82,15 @@
     "somethingWrong": "Etwas ist schief gelaufen",
     "tryAgain": "Erneut versuchen",
     "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Kopfhörer nicht gefunden",
+    "productNotFound": "Friteuse nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
     "amazonUnavailable": "Amazon nicht verfügbar"
   },
   "search": {
-    "placeholder": "Kopfhörer suchen...",
-    "noResults": "Keine Kopfhörer gefunden",
-    "searchFor": "Kopfhörer suchen",
+    "placeholder": "Friteusen suchen...",
+    "noResults": "Keine Friteusen gefunden",
+    "searchFor": "Friteusen suchen",
     "suggestions": "Vorschläge:",
     "all": "Alle",
     "products": "Produkte",
@@ -114,7 +114,7 @@
   },
   "header": {
     "search": {
-      "placeholder": "Kopfhörer suchen..."
+      "placeholder": "Friteusen suchen..."
     },
     "support": "Support",
     "cart": {
@@ -122,7 +122,7 @@
     }
   },
   "social": {
-    "shareProduct": "Diese Kopfhörer teilen",
+    "shareProduct": "Diese Friteuse teilen",
     "followUs": "Folgen Sie uns",
     "customerReviews": "Amazon Kundenbewertungen"
   },
@@ -147,10 +147,10 @@
     "redirecting": "Weiterleitung zu Amazon...",
     "openInNewTab": "In neuem Tab öffnen"
   },
-  "siteName": "Ihre perfekten Kopfhörer",
-  "companyName": "Kopfhörer GmbH",
-  "products": "Kopfhörer",
-  "productNotFound": "Kopfhörer nicht gefunden",
+  "siteName": "Ihre perfekte Friteuse",
+  "companyName": "Friteusen GmbH",
+  "products": "Friteusen",
+  "productNotFound": "Friteuse nicht gefunden",
   "banner": {
     "discount": "Rabatt",
     "clientReviews": "Kundenbewertungen",

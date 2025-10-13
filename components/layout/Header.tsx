@@ -273,8 +273,43 @@ const Header: React.FC<HeaderProps> = ({
       ...cat,
       subcategoryCount: categories.filter(sub => sub.parentCategoryId === cat.categoryId).length
     }))
-    .sort((a, b) => b.subcategoryCount - a.subcategoryCount)
-    .slice(0, 8); // Show only top 8 main categories with most subcategories
+    .sort((a, b) => b.subcategoryCount - a.subcategoryCount);
+
+  // Smart category selection based on text length
+  const getOptimalCategories = () => {
+    let selectedCategories = [];
+    let totalTextLength = 0;
+    const maxTextLength = 120; // Maximum characters for navigation
+    
+    for (const category of parentCategories) {
+      const categoryName = category.name || category.categoryNameCanonical || '';
+      const estimatedLength = categoryName.length + 10; // Add padding for spacing
+      
+      if (totalTextLength + estimatedLength <= maxTextLength && selectedCategories.length < 8) {
+        selectedCategories.push(category);
+        totalTextLength += estimatedLength;
+      } else {
+        break;
+      }
+    }
+    
+    // If we have very few categories due to long names, try to fit more by truncating
+    if (selectedCategories.length < 4) {
+      selectedCategories = parentCategories.slice(0, 6).map(cat => ({
+        ...cat,
+        displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 15)
+      }));
+    }
+    
+    return selectedCategories;
+  };
+
+  const truncateText = (text: string, maxLength: number) => {
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength - 3) + '...';
+  };
+
+  const optimalCategories = getOptimalCategories();
   
   // Group categories by parent
   const getSubcategories = (parentId: number) => {
@@ -331,15 +366,15 @@ const Header: React.FC<HeaderProps> = ({
 
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 relative rounded-lg overflow-hidden flex-shrink-0">
+          <Link href="/" className="flex items-center space-x-3 mt-4">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 relative rounded-lg overflow-hidden flex-shrink-0">
               <Image
                 src="/logo.png"
                 alt={getString('common.siteName')}
-                width={48}
-                height={48}
+                width={96}
+                height={96}
                 className="rounded-lg object-cover"
                 priority
               />
@@ -444,8 +479,8 @@ const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Navigation - Desktop Luxury Design */}
-        <nav className="hidden md:flex items-center justify-center space-x-3 pb-4 pt-4 border-t border-gray-50">
-            {parentCategories.map((category) => {
+        <nav className="hidden md:flex items-center justify-center space-x-2 lg:space-x-3 pb-4 pt-4 border-t border-gray-50">
+            {optimalCategories.map((category) => {
               const subcategories = getSubcategories(category.categoryId || 0);
               const hasSubcategories = subcategories.length > 0;
               
@@ -460,8 +495,8 @@ const Header: React.FC<HeaderProps> = ({
               href={`/category/${category.slug}`}
                     className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
             >
-              <span className="relative font-medium">
-                {category.name || category.categoryNameCanonical}
+              <span className="relative font-medium" title={category.name || category.categoryNameCanonical}>
+                {category.displayName || category.name || category.categoryNameCanonical}
                 <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-gray-900 transition-all duration-500 group-hover:w-full"></span>
               </span>
                     {hasSubcategories && (
@@ -480,7 +515,7 @@ const Header: React.FC<HeaderProps> = ({
                   {/* Luxury Dropdown Menu */}
                   {hasSubcategories && activeDropdown === (category.categoryId || 0) && (
                     <div 
-                      className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-80 z-50"
+                      className="absolute top-full left-1/2 transform -translate-x-1/2 pt-4 w-96 z-50"
                       onMouseEnter={() => handleDropdownEnter(category.categoryId || 0)}
                       onMouseLeave={handleDropdownLeave}
                     >
@@ -504,7 +539,7 @@ const Header: React.FC<HeaderProps> = ({
                               href={`/category/${subcategory.slug}`}
                               className="group/item flex items-center justify-between px-5 py-2 text-xs font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
                             >
-                              <span className="relative tracking-[0.3px] uppercase whitespace-nowrap">
+                              <span className="relative tracking-[0.3px] uppercase">
                                 {subcategory.name || subcategory.categoryNameCanonical}
                               </span>
                               <svg className="w-3 h-3 opacity-0 group-hover/item:opacity-60 transition-all duration-300 transform translate-x-2 group-hover/item:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
@@ -545,7 +580,7 @@ const Header: React.FC<HeaderProps> = ({
 
             {/* Mobile Navigation - Luxury */}
               <nav className="flex flex-col space-y-0.5 px-2">
-                {parentCategories.map((category) => {
+                {optimalCategories.map((category) => {
                   const subcategories = getSubcategories(category.categoryId || 0);
                   const hasSubcategories = subcategories.length > 0;
                   const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
@@ -585,7 +620,7 @@ const Header: React.FC<HeaderProps> = ({
                             <Link
                               key={subcategory.categoryId}
                               href={`/category/${subcategory.slug}`}
-                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-2 px-4 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px] whitespace-nowrap"
+                              className="block text-xs font-light text-gray-600 hover:text-gray-900 py-2 px-4 hover:bg-white/80 transition-all duration-300 border-b border-gray-100/50 last:border-b-0 uppercase tracking-[0.5px]"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               {subcategory.name || subcategory.categoryNameCanonical}
