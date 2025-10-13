@@ -750,10 +750,13 @@ const ProductDetailPage: React.FC = () => {
               {/* CTA */}
               {!isOutOfStock && (
                 <div className="space-y-6">
-                  {/* Urgency Text */}
+                  {/* Urgency Text - Mobile Optimized */}
                   <div className="text-center">
-                    <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-sm animate-pulse shadow-lg">
-                      {getString('urgency.cartDiscount')}
+                    <div className="inline-block bg-gradient-to-r from-red-600 to-red-700 text-white px-3 py-2 rounded-lg font-semibold text-xs sm:text-sm animate-pulse shadow-lg max-w-sm mx-auto">
+                      <div className="flex items-center justify-center space-x-2">
+                        <span className="bg-white/20 px-2 py-1 rounded-full text-xs font-bold">-30%</span>
+                        <span className="text-center">Wenn Sie es in den nächsten 5 Min. hinzufügen!</span>
+                      </div>
                     </div>
                   </div>
 
@@ -763,11 +766,13 @@ const ProductDetailPage: React.FC = () => {
                       onClick={handleBuyOnAmazon}
                       disabled={isAddingToCart}
                       loading={isAddingToCart}
-                      className="w-full bg-orange-600 text-white hover:bg-orange-700 py-5 text-lg font-medium rounded-2xl transition-all duration-300 shadow-lg hover:shadow-xl tracking-wide"
+                      className="w-full bg-gradient-to-r from-orange-600 to-orange-700 text-white hover:from-orange-700 hover:to-orange-800 py-4 sm:py-5 text-sm sm:text-lg font-semibold rounded-xl sm:rounded-2xl transition-all duration-300 shadow-lg hover:shadow-xl tracking-wide"
                       size="lg"
                     >
-                      <ShoppingCart className="w-5 h-5 mr-3" />
-                      {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyOnAmazon')} ${productTitle}`}
+                      <ShoppingCart className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3" />
+                      <span className="truncate">
+                        {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyNow')} ${productTitle}`}
+                      </span>
                     </Button>
                   </div>
                 </div>
@@ -782,7 +787,7 @@ const ProductDetailPage: React.FC = () => {
             <div className="max-w-4xl mx-auto">
               {/* Tab Navigation */}
               <div className="border-b border-neutral-100 mb-12">
-                <nav className="-mb-px flex space-x-12">
+                <nav className="-mb-px flex flex-wrap gap-2 sm:gap-12">
                   <button 
                     onClick={() => setActiveTab('description')}
                     className={`border-b-2 py-3 text-sm font-medium transition-colors ${
@@ -878,7 +883,7 @@ const ProductDetailPage: React.FC = () => {
                         {Object.entries(product.specifications).map(([key, value]) => (
                           <div key={key} className="border-b border-neutral-100 pb-4">
                             <dt className="font-medium text-neutral-900 mb-2">{key}</dt>
-                            <dd className="text-neutral-700">{value}</dd>
+                            <dd className="text-neutral-700" dangerouslySetInnerHTML={{ __html: value }}></dd>
                           </div>
                         ))}
                       </div>
@@ -1100,25 +1105,25 @@ const ProductDetailPage: React.FC = () => {
                               {product.reviewAnalysis.final_verdict?.key_technical_specifications && (
                                 <div>
                                   <h4 className="font-semibold mb-2">{getString('product.technicalSpecifications')}</h4>
-                                  <p>{product.reviewAnalysis.final_verdict.key_technical_specifications}</p>
+                                  <p dangerouslySetInnerHTML={{ __html: product.reviewAnalysis.final_verdict.key_technical_specifications }}></p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.points_to_consider && (
                                 <div>
                                   <h4 className="font-semibold mb-2">{getString('product.pointsToConsider')}</h4>
-                                  <p>{product.reviewAnalysis.final_verdict.points_to_consider}</p>
+                                  <p dangerouslySetInnerHTML={{ __html: product.reviewAnalysis.final_verdict.points_to_consider }}></p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.final_recommendation && (
                                 <div>
                                   <h4 className="font-semibold mb-2">{getString('product.finalRecommendation')}</h4>
-                                  <p>{product.reviewAnalysis.final_verdict.final_recommendation}</p>
+                                  <p dangerouslySetInnerHTML={{ __html: product.reviewAnalysis.final_verdict.final_recommendation }}></p>
                                 </div>
                               )}
                               {product.reviewAnalysis.final_verdict?.target_audience && (
                                 <div>
                                   <h4 className="font-semibold mb-2">{getString('product.targetAudience')}</h4>
-                                  <p>{product.reviewAnalysis.final_verdict.target_audience}</p>
+                                  <p dangerouslySetInnerHTML={{ __html: product.reviewAnalysis.final_verdict.target_audience }}></p>
                                 </div>
                               )}
                             </div>
@@ -1284,7 +1289,7 @@ const ProductDetailPage: React.FC = () => {
         {/* The FloatingButtons component is now integrated into the Layout's floating buttons props */}
       </Layout>
       {product && (
-        <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-4 animate-slide-up">
+        <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-0 sm:p-4 animate-slide-up">
           <div className="max-w-6xl mx-auto">
             {/* Desktop: Horizontal layout */}
             <div className="hidden sm:flex items-center justify-between space-x-6">
@@ -1300,7 +1305,7 @@ const ProductDetailPage: React.FC = () => {
                     </div>
                     
                     <div className="text-sm font-medium">
-                      {getString('product.limitedOffer')}
+                      {getString('product.limitedOffer')} - {getString('product.addToCartForDiscount')}
                     </div>
                     
                     <div className="flex items-center space-x-2 text-sm">
@@ -1333,7 +1338,7 @@ const ProductDetailPage: React.FC = () => {
                   <div className="relative z-10 flex items-center space-x-3">
                     <ShoppingCart className="w-5 h-5" />
                     <span className="text-lg">
-                      {getString('product.buyOnAmazon')} {productTitle}
+                      {getString('product.buyNow')}
                     </span>
                     <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
                   </div>
@@ -1341,8 +1346,8 @@ const ProductDetailPage: React.FC = () => {
               </a>
             </div>
             
-            {/* Mobile: Vertical layout (unchanged) */}
-            <div className="sm:hidden max-w-lg mx-auto">
+            {/* Mobile: Vertical layout - Compact design */}
+            <div className="sm:hidden w-full px-1">
               {/* Discount Banner with Gradient - Clickable */}
               <a
                 href={product.amazonUrl}
@@ -1350,42 +1355,36 @@ const ProductDetailPage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="block group cursor-pointer"
               >
-                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-3 px-6 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
+                <div className="bg-gradient-to-r from-red-600 via-red-500 to-orange-500 text-white text-center py-2 px-3 rounded-t-xl relative overflow-hidden transition-all duration-300 group-hover:from-red-500 group-hover:via-red-400 group-hover:to-orange-400">
                   {/* Animated background pattern */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent animate-shimmer"></div>
                   
-                  <div className="relative z-10 flex flex-col items-center space-y-2">
-                    <div className="flex items-center space-x-3">
-                      <div className="bg-white/20 backdrop-blur-sm px-3 py-1 rounded-full">
-                        <span className="font-bold text-xl">-35%</span>
-                      </div>
-                      <div className="text-sm font-medium">
-                        {getString('product.limitedOffer')}
-                      </div>
+                  <div className="relative z-10 flex items-center justify-between w-full">
+                    {/* Left: Discount Badge */}
+                    <div className="bg-white/20 backdrop-blur-sm px-2 py-1 rounded-full">
+                      <span className="font-bold text-sm">-35%</span>
                     </div>
                     
-                    <div className="flex items-center space-x-2 text-sm">
-                      <span className="opacity-90">{getString('product.expiresIn')}:</span>
-                      <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
-                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                          {countdown.minutes.toString().padStart(2, '0')}
-                        </span>
-                        <span className="text-red-200">:</span>
-                        <span className="bg-red-700 px-2 py-1 rounded text-sm font-bold min-w-[24px] text-center">
-                          {countdown.seconds.toString().padStart(2, '0')}
-                        </span>
-                      </div>
+                    {/* Center: Offer Text */}
+                    <div className="text-xs font-medium flex-1 text-center px-2">
+                      {getString('product.limitedOffer')}
+                    </div>
+                    
+                    {/* Right: Timer */}
+                    <div className="flex items-center space-x-1 font-mono bg-black/20 backdrop-blur-sm px-2 py-1 rounded-lg">
+                      <span className="bg-red-700 px-1 py-0.5 rounded text-xs font-bold min-w-[18px] text-center">
+                        {countdown.minutes.toString().padStart(2, '0')}
+                      </span>
+                      <span className="text-red-200 text-xs">:</span>
+                      <span className="bg-red-700 px-1 py-0.5 rounded text-xs font-bold min-w-[18px] text-center">
+                        {countdown.seconds.toString().padStart(2, '0')}
+                      </span>
                     </div>
                   </div>
                 </div>
               </a>
               
-              {/* Urgency Text */}
-              <div className="text-center mb-4">
-                <div className="inline-block bg-red-600 text-white px-4 py-2 rounded-lg font-bold text-sm animate-pulse shadow-lg">
-                  {getString('urgency.cartDiscount')}
-                </div>
-              </div>
+              {/* Removed -30% urgency text as requested */}
 
               {/* Buy Button with Enhanced Design */}
               <a
@@ -1394,16 +1393,16 @@ const ProductDetailPage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="block group"
               >
-                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-4 px-6 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
+                <div className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-semibold py-3 px-4 rounded-b-xl transition-all duration-300 transform group-hover:scale-[1.02] group-hover:shadow-xl relative overflow-hidden">
                   {/* Button background animation */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-shimmer"></div>
                   
-                  <div className="relative z-10 flex items-center justify-center space-x-3">
-                    <ShoppingCart className="w-5 h-5" />
-                    <span className="text-lg">
-                      {getString('product.buyOnAmazon')} {productTitle}
+                  <div className="relative z-10 flex items-center justify-center space-x-2">
+                    <ShoppingCart className="w-4 h-4" />
+                    <span className="text-base">
+                      {getString('product.buyNow')}
                     </span>
-                    <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+                    <div className="w-1.5 h-1.5 bg-white rounded-full animate-pulse"></div>
                   </div>
                 </div>
               </a>

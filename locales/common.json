@@ -90,7 +90,27 @@
   "search": {
     "placeholder": "Kopfhörer suchen...",
     "noResults": "Keine Kopfhörer gefunden",
-    "searchFor": "Kopfhörer suchen"
+    "searchFor": "Kopfhörer suchen",
+    "suggestions": "Vorschläge:",
+    "all": "Alle",
+    "products": "Produkte",
+    "categories": "Kategorien",
+    "searching": "Suche läuft...",
+    "noResultsFound": "Keine Ergebnisse gefunden",
+    "tryOtherKeywords": "Versuchen Sie andere Suchbegriffe oder durchsuchen Sie unsere Kategorien",
+    "viewAllCategories": "Alle Kategorien anzeigen",
+    "loading": "Laden..."
+  },
+  "comparison": {
+    "title": "Produktvergleich",
+    "compareProducts": "Produkte vergleichen",
+    "specifications": "Spezifikationen",
+    "price": "Preis",
+    "rating": "Bewertung",
+    "availability": "Verfügbarkeit",
+    "description": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt zu sehen. Preise können variieren.",
+    "clickToView": "Klicken Sie auf eine Zeile, um das Produkt zu sehen",
+    "pricesMayVary": "Preise können variieren"
   },
   "header": {
     "search": {
@@ -120,6 +140,7 @@
   },
   "amazon": {
     "buyOnAmazon": "Bei Amazon kaufen",
+    "buyNow": "Jetzt kaufen",
     "viewOnAmazon": "Bei Amazon ansehen",
     "priceOnAmazon": "Preis bei Amazon",
     "affiliateNotice": "Als Amazon-Partner verdienen wir Provisionen an qualifizierten Käufen.",
@@ -268,6 +289,7 @@
     "totalEstimated": "Geschätzte Gesamtsumme",
     "amazonNotice": "Endpreis und Versandkosten auf Amazon",
     "buyOnAmazon": "Kaufen",
+    "buyNow": "Jetzt kaufen",
     "viewFullSelection": "Meine vollständige Auswahl anzeigen",
     "pageTitle": "Ihre Auswahl",
     "pageSubtitle": "Ihre ausgewählten Kopfhörer - Kaufen Sie direkt bei Amazon",
@@ -372,7 +394,7 @@
     "description": "Beschreibung",
     "specifications": "Spezifikationen",
     "customerReviews": "Kundenbewertungen",
-    "faq": "Häufig gestellte Fragen",
+    "faq": "FAQ",
     "quickReview": "Unser Urteil in 30 Sekunden",
     "reviewAnalysis": "Bewertung",
     "reviewAnalysisSummary": "Vollständige Produktanalyse",
@@ -418,6 +440,7 @@
     "similarProductsLoading": "Ähnliche Produkte werden geladen...",
     "limitedOffer": "Begrenztes Angebot",
     "expiresIn": "Läuft ab in",
+    "addToCartForDiscount": "Klicken Sie unten",
     "quickPreview": "Schnelle Vorschau",
     "saveAmount": "Sparen Sie {amount}",
     "filters": "Filter",

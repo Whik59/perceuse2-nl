@@ -110,7 +110,7 @@ const SearchContent: React.FC = () => {
               {/* Search Suggestions */}
               {results.suggestions.length > 0 && (
                 <div className="mt-4">
-                  <p className="text-sm text-gray-600 mb-2">Suggestions:</p>
+                  <p className="text-sm text-gray-600 mb-2">{getString('search.suggestions')}</p>
                   <div className="flex flex-wrap gap-2">
                     {results.suggestions.map((suggestion, index) => (
                       <button
@@ -140,7 +140,7 @@ const SearchContent: React.FC = () => {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              Tout ({results.categories.length + results.products.length})
+              {getString('search.all')} ({results.categories.length + results.products.length})
             </button>
             <button
               onClick={() => setActiveTab('products')}
@@ -150,7 +150,7 @@ const SearchContent: React.FC = () => {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              Produits ({results.products.length})
+              {getString('search.products')} ({results.products.length})
             </button>
             <button
               onClick={() => setActiveTab('categories')}
@@ -160,14 +160,14 @@ const SearchContent: React.FC = () => {
                   : 'text-gray-600 hover:text-gray-900'
               }`}
             >
-              Catégories ({results.categories.length})
+              {getString('search.categories')} ({results.categories.length})
             </button>
           </div>
 
           {isLoading ? (
             <div className="text-center py-12">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
-              <p className="text-gray-600">Recherche en cours...</p>
+              <p className="text-gray-600">{getString('search.searching')}</p>
             </div>
           ) : (
             <>
@@ -176,7 +176,7 @@ const SearchContent: React.FC = () => {
                 <div className="mb-12">
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                     <Tag className="w-6 h-6 mr-2 text-blue-600" />
-                    Catégories ({results.categories.length})
+                    {getString('search.categories')} ({results.categories.length})
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {results.categories.map((category) => (
@@ -210,7 +210,7 @@ const SearchContent: React.FC = () => {
                 <div>
                   <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
                     <Package className="w-6 h-6 mr-2 text-green-600" />
-                    Produits ({results.products.length})
+                    {getString('search.products')} ({results.products.length})
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                     {results.products.map((product) => (
@@ -252,17 +252,17 @@ const SearchContent: React.FC = () => {
                 <div className="text-center py-12">
                   <Search className="w-16 h-16 text-gray-300 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    Aucun résultat trouvé
+                    {getString('search.noResultsFound')}
                   </h3>
                   <p className="text-gray-600 mb-6">
-                    Essayez avec d'autres mots-clés ou parcourez nos catégories
+                    {getString('search.tryOtherKeywords')}
                   </p>
                   <Link
                     href="/categories"
                     className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors"
                   >
                     <Tag className="w-5 h-5 mr-2" />
-                    Voir toutes les catégories
+                    {getString('search.viewAllCategories')}
                   </Link>
                 </div>
               )}
@@ -282,7 +282,7 @@ const SearchPage: React.FC = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="text-center py-12">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto"></div>
-              <p className="mt-4 text-gray-600">Chargement...</p>
+              <p className="mt-4 text-gray-600">{getString('search.loading')}</p>
             </div>
           </div>
         </div>

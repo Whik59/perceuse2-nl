@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Star, Award } from 'lucide-react';
+import { getString } from '../lib/utils';
 
 interface ComparisonProduct {
   rank: number;
@@ -252,7 +253,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       {/* Footer */}
       <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
         <p className="text-sm text-gray-600 text-center">
-          Comparaison des {limitedProducts.length} meilleurs produits basée sur les spécifications et les avis clients. Cliquez sur une ligne pour voir le produit. Les prix peuvent varier.
+          {getString('comparison.description', { count: limitedProducts.length })}
         </p>
       </div>
     </div>

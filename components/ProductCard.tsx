@@ -148,7 +148,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                loading={isButtonLoading}
                className="w-full bg-gradient-to-r from-slate-800 via-slate-700 to-slate-900 hover:from-slate-900 hover:via-slate-800 hover:to-slate-700 text-white font-semibold py-3 rounded-xl transition-all duration-300 hover:shadow-xl tracking-wide"
              >
-               {getString('cart.addToCart')} (-35%)
+               {getString('cart.addToCart')}
              </Button>
            )}
         </div>
