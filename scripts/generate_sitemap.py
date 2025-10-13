@@ -12,7 +12,7 @@ from typing import List, Dict, Any
 import argparse
 
 # Configuration
-SITE_URL = "https://www.kaufen-airfryer.de/"  # Update this to your actual domain
+SITE_URL = "https://www.kaufen-airfryer.de"  # Update this to your actual domain
 SITEMAP_FILE = "public/sitemap.xml"
 CATEGORIES_FILE = "data/categories.json"
 PRODUCTS_DIR = "data/products"
