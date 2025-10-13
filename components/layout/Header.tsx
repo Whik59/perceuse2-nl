@@ -496,7 +496,7 @@ const Header: React.FC<HeaderProps> = ({
                     className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
             >
               <span className="relative font-medium" title={category.name || category.categoryNameCanonical}>
-                {category.displayName || category.name || category.categoryNameCanonical}
+                {(category as any).displayName || category.name || category.categoryNameCanonical}
                 <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-gray-900 transition-all duration-500 group-hover:w-full"></span>
               </span>
                     {hasSubcategories && (
@@ -593,7 +593,7 @@ const Header: React.FC<HeaderProps> = ({
                           className="flex-1 text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] py-3 px-4 hover:bg-gray-50/50 transition-all duration-300 uppercase"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  {category.name || category.categoryNameCanonical}
+                  {(category as any).displayName || category.name || category.categoryNameCanonical}
                         </Link>
                         {hasSubcategories && (
                           <button
