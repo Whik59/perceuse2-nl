@@ -117,7 +117,7 @@
     "partner": "Partner",
     "madeInGermany": "Made in Germany",
     "verified": "Verifiziert",
-    "rating": "4.8/5",
+    "rating": "4,9/5",
     "search": {
       "placeholder": "Massagegeräte suchen..."
     },
@@ -457,7 +457,7 @@
     "paymentInstallments": "Ratenzahlung",
     "secureTransaction": "Sichere Transaktion",
     "delivery48h": "Lieferung in 48h",
-    "ourShop": "Unser Shop",
+    "ourShop": "Massagegeräte kaufen",
     "outOfStock": "Nicht auf Lager",
     "offer24h": "24h Angebot",
     "checkAvailability": "Verfügbarkeit prüfen",
@@ -471,7 +471,7 @@
     "frequentlyAskedQuestions": "Häufig gestellte Fragen",
     "basedOnReviews": "Basierend auf",
     "reviews": "Bewertungen",
-    "verifiedPurchase": "Compra verificada",
+    "verifiedPurchase": "Verifizierter Kauf",
     "clientsRecommend": "der Kunden empfehlen dieses Produkt",
     "similarProductsLoading": "Ähnliche Produkte werden geladen...",
     "limitedOffer": "Begrenztes Angebot",
@@ -535,8 +535,8 @@
     "loading": "Laden...",
     "hero": {
       "featured": {
-        "title": "Ihr Massagegerät, Ihr Zuhause!",
-        "subtitle": "Effiziente und präzise Entspannung. Technologische Freiheit für die ganze Familie.",
+        "title": "Perfekte Massagegeräte!",
+        "subtitle": "Effiziente und präzise Entspannung. Qualität und Leistung garantiert.",
         "loading": "Ihre Entspannung wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
@@ -641,7 +641,8 @@
       "twitter": "Twitter",
       "instagram": "Instagram",
       "youtube": "YouTube"
-    }
+    },
+    "affiliateDisclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Diese Website ist Teilnehmer des Amazon-Partnerprogramms, einem Affiliate-Werbeprogramm, das Websites die Möglichkeit bietet, durch die Bewerbung und Verlinkung zu Amazon.de Werbekostenerstattung zu verdienen."
   },
   "terms": {
     "title": "Allgemeine Geschäftsbedingungen",

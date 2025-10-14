@@ -7,7 +7,7 @@ import { generateProductReviewSnippet, getString } from '../lib/utils';
 interface ReviewSnippetProps {
   productSlug: string;
   productTitle: string;
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'xs' | 'sm' | 'md' | 'lg';
   className?: string;
   showCount?: boolean;
 }
@@ -22,6 +22,11 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
   const reviewData = generateProductReviewSnippet(productSlug, productTitle);
   
   const sizeClasses = {
+    xs: {
+      star: 'w-2 h-2',
+      text: 'text-xs',
+      rating: 'text-xs'
+    },
     sm: {
       star: 'w-3 h-3',
       text: 'text-xs',

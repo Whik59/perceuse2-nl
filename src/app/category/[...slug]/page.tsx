@@ -246,27 +246,27 @@ const CategoryPage: React.FC = () => {
       </div>
 
       {/* Breadcrumb */}
-      <div className="bg-white/90 backdrop-blur-sm border-b border-slate-200/60">
+      <div className="bg-orange-50/90 backdrop-blur-sm border-b border-orange-200/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
           <nav className="flex items-center space-x-2 text-sm">
-            <Link href="/" className="text-slate-600 hover:text-slate-900 transition-colors font-medium">
+            <Link href="/" className="text-orange-600 hover:text-orange-700 transition-colors font-medium">
               {getString('navigation.home')}
             </Link>
-            <ChevronRight className="w-4 h-4 text-slate-400" />
-            <span className="font-semibold text-slate-900">{category.name}</span>
+            <ChevronRight className="w-4 h-4 text-orange-400" />
+            <span className="font-semibold text-orange-800">{category.name}</span>
           </nav>
         </div>
       </div>
 
       {/* Comparison Table Section - Top */}
       {categoryContent?.comparisonTable && (
-        <div className="py-8 bg-white border-b border-gray-200">
+        <div className="py-8 bg-orange-50 border-b border-orange-200">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">
+              <h2 className="text-2xl font-bold text-orange-800 mb-2">
                 {getString('categoryPage.comparisonTable.title')}
               </h2>
-              <p className="text-gray-600">
+              <p className="text-orange-600">
                 {getString('categoryPage.comparisonTable.incentive')}
               </p>
             </div>
@@ -414,7 +414,7 @@ const CategoryPage: React.FC = () => {
           {filteredProducts.length > 0 ? (
             <div className={`grid gap-6 ${
               viewMode === 'grid' 
-                ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4' 
+                ? 'grid-cols-2 lg:grid-cols-6' 
                 : 'grid-cols-1'
             }`}>
               {filteredProducts.map((product) => (

@@ -143,6 +143,8 @@ const Header: React.FC<HeaderProps> = ({
   const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout | null>(null);
+  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   // Enhanced dropdown hover handlers with delay
   const handleDropdownEnter = (categoryId: number) => {
@@ -267,6 +269,30 @@ const Header: React.FC<HeaderProps> = ({
     };
   }, [searchTimeout]);
 
+  // Scroll-based header visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      // Show header when scrolling up or at the top
+      if (currentScrollY < lastScrollY || currentScrollY < 100) {
+        setIsHeaderVisible(true);
+      } 
+      // Hide header when scrolling down (but not on mobile menu open)
+      else if (currentScrollY > lastScrollY && currentScrollY > 100 && !isMobileMenuOpen) {
+        setIsHeaderVisible(false);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY, isMobileMenuOpen]);
+
   // Get parent categories and sort by number of subcategories (most subcategories first)
   const parentCategories = categories
     .filter(cat => cat.parentCategoryId === null)
@@ -280,9 +306,9 @@ const Header: React.FC<HeaderProps> = ({
   const getOptimalCategories = () => {
     // Take the first 5 categories from parentCategories (already sorted by subcategory count)
     const selectedCategories = parentCategories.slice(0, 5).map(cat => ({
-      ...cat,
+        ...cat,
       displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 18)
-    }));
+      }));
     
     return selectedCategories;
   };
@@ -315,21 +341,23 @@ const Header: React.FC<HeaderProps> = ({
   return (
     <>
       <EmergencyBanner />
-    <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+    <header className={`bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50 transition-transform duration-300 ease-in-out ${
+      isHeaderVisible ? 'translate-y-0' : '-translate-y-full'
+    }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 sm:h-24">
           {/* Premium Logo & Site Name */}
           <Link href="/" className="flex items-center space-x-2 sm:space-x-4 group">
             <div className="relative">
               <div className="w-16 h-16 sm:w-16 sm:h-16 lg:w-20 lg:h-20 relative rounded-xl overflow-hidden flex-shrink-0 shadow-lg group-hover:shadow-xl transition-all duration-300">
-                <Image
-                  src="/logo.png"
-                  alt={getString('common.siteName')}
+              <Image
+                src="/logo.png"
+                alt={getString('common.siteName')}
                   width={80}
                   height={80}
                   className="rounded-xl object-cover"
-                  priority
-                />
+                priority
+              />
               </div>
               {/* Premium Badge - Desktop only (outside bottom) */}
               <div className="hidden sm:block absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
@@ -338,9 +366,9 @@ const Header: React.FC<HeaderProps> = ({
             </div>
             <div className="flex flex-col min-w-0">
               <div className="flex items-center space-x-1 sm:space-x-2">
-                <span className="font-bold text-lg sm:text-xl lg:text-2xl text-gray-900 tracking-tight leading-tight group-hover:text-orange-600 transition-colors duration-300">
-                  {getString('common.siteName')}
-                </span>
+                <span className="font-bold text-lg sm:text-xl lg:text-2xl text-orange-600 tracking-tight leading-tight group-hover:text-orange-700 transition-colors duration-300">
+                {getString('common.siteName')}
+              </span>
                 {/* Amazon Partner Badge - Hidden on very small screens */}
                 <div className="hidden sm:flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 px-2 sm:px-3 py-1 rounded-full border border-orange-200">
                   <svg className="w-3 h-3 sm:w-4 sm:h-4" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
@@ -419,7 +447,7 @@ const Header: React.FC<HeaderProps> = ({
             <div className="hidden lg:flex items-center space-x-4">
               <button
                 onClick={() => setIsSupportOpen(true)}
-                className="flex items-center space-x-2 text-gray-700 hover:text-gray-900 transition-colors group"
+                className="flex items-center space-x-2 text-gray-700 hover:text-orange-600 transition-colors group"
               >
                 <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
                 <span className="text-sm font-medium">{getString('header.support')}</span>
@@ -463,8 +491,8 @@ const Header: React.FC<HeaderProps> = ({
           </div>
         </div>
 
-        {/* Navigation - Desktop Luxury Design */}
-        <nav className="hidden md:flex items-center justify-center space-x-2 lg:space-x-3 pb-4 pt-4 border-t border-gray-50">
+        {/* Navigation - Desktop Amazon Theme */}
+        <nav className="hidden md:flex items-center justify-center space-x-2 lg:space-x-3 pb-4 pt-4 border-t border-orange-100">
             {optimalCategories.map((category) => {
               const subcategories = getSubcategories(category.categoryId || 0);
               const hasSubcategories = subcategories.length > 0;
@@ -478,11 +506,11 @@ const Header: React.FC<HeaderProps> = ({
                 >
             <Link
               href={`/category/${category.slug}`}
-                    className="flex items-center text-gray-700 hover:text-gray-900 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
+                    className="flex items-center text-gray-700 hover:text-orange-600 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
             >
               <span className="relative font-medium" title={category.name || category.categoryNameCanonical}>
                 {(category as any).displayName || category.name || category.categoryNameCanonical}
-                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-gray-900 transition-all duration-500 group-hover:w-full"></span>
+                <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-orange-600 transition-all duration-500 group-hover:w-full"></span>
               </span>
                     {hasSubcategories && (
                       <svg
@@ -547,89 +575,89 @@ const Header: React.FC<HeaderProps> = ({
             {/* Mobile Search */}
             <div className="p-4 border-b border-gray-100">
               <form onSubmit={handleSearchSubmit}>
-                <div className="relative">
-                  <input
-                    type="text"
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    placeholder={getString('header.search.placeholder')}
+              <div className="relative">
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder={getString('header.search.placeholder')}
                     className="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent bg-gray-50 text-sm font-medium placeholder:text-gray-500"
-                  />
-                  <button
-                    type="submit"
+                />
+                <button
+                  type="submit"
                     className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-orange-600 transition-colors"
-                  >
-                    <Search className="w-5 h-5" />
-                  </button>
-                </div>
-              </form>
+                >
+                  <Search className="w-5 h-5" />
+                </button>
+              </div>
+            </form>
             </div>
 
             {/* Mobile Navigation */}
             <nav className="py-2">
-              {optimalCategories.map((category) => {
-                const subcategories = getSubcategories(category.categoryId || 0);
-                const hasSubcategories = subcategories.length > 0;
-                const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
-                
-                return (
+                {optimalCategories.map((category) => {
+                  const subcategories = getSubcategories(category.categoryId || 0);
+                  const hasSubcategories = subcategories.length > 0;
+                  const isExpanded = expandedMobileCategories.has(category.categoryId || 0);
+                  
+                  return (
                   <div key={category.categoryId} className="border-b border-gray-50 last:border-b-0">
                     <div className="flex items-center justify-between">
-                      <Link
-                        href={`/category/${category.slug}`}
+                <Link
+                  href={`/category/${category.slug}`}
                         className="flex-1 text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                      >
-                        {(category as any).displayName || category.name || category.categoryNameCanonical}
-                      </Link>
-                      {hasSubcategories && (
-                        <button
-                          onClick={() => toggleMobileCategory(category.categoryId || 0)}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {(category as any).displayName || category.name || category.categoryNameCanonical}
+                        </Link>
+                        {hasSubcategories && (
+                          <button
+                            onClick={() => toggleMobileCategory(category.categoryId || 0)}
                           className="p-4 text-gray-400 hover:text-orange-600 transition-all duration-200 hover:bg-orange-50"
-                        >
-                          <svg
-                            className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            strokeWidth={2}
                           >
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                          </svg>
-                        </button>
+                            <svg
+                            className={`w-5 h-5 transition-transform duration-300 ${isExpanded ? 'rotate-180' : ''}`}
+                              fill="none"
+                              stroke="currentColor"
+                              viewBox="0 0 24 24"
+                            strokeWidth={2}
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                            </svg>
+                          </button>
+                        )}
+                      </div>
+                      
+                    {/* Mobile Subcategories */}
+                      {hasSubcategories && isExpanded && (
+                      <div className="bg-gray-50 border-t border-gray-100">
+                          {subcategories.map((subcategory) => (
+                            <Link
+                              key={subcategory.categoryId}
+                              href={`/category/${subcategory.slug}`}
+                            className="block text-gray-600 hover:text-orange-600 font-normal text-sm py-3 px-6 hover:bg-orange-50 transition-all duration-200 border-l-2 border-transparent hover:border-orange-200"
+                              onClick={() => setIsMobileMenuOpen(false)}
+                            >
+                              {subcategory.name || subcategory.categoryNameCanonical}
+                </Link>
+              ))}
+                        </div>
                       )}
                     </div>
-                    
-                    {/* Mobile Subcategories */}
-                    {hasSubcategories && isExpanded && (
-                      <div className="bg-gray-50 border-t border-gray-100">
-                        {subcategories.map((subcategory) => (
-                          <Link
-                            key={subcategory.categoryId}
-                            href={`/category/${subcategory.slug}`}
-                            className="block text-gray-600 hover:text-orange-600 font-normal text-sm py-3 px-6 hover:bg-orange-50 transition-all duration-200 border-l-2 border-transparent hover:border-orange-200"
-                            onClick={() => setIsMobileMenuOpen(false)}
-                          >
-                            {subcategory.name || subcategory.categoryNameCanonical}
-                          </Link>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
+                  );
+                })}
               
               {/* Support Button */}
               <div className="border-t border-gray-100 mt-2">
-                <button
-                  onClick={() => {
-                    setIsSupportOpen(true);
-                    setIsMobileMenuOpen(false);
-                  }}
+              <button
+                onClick={() => {
+                  setIsSupportOpen(true);
+                  setIsMobileMenuOpen(false);
+                }}
                   className="w-full text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200 text-left"
-                >
-                  {getString('header.support')}
-                </button>
+              >
+{getString('header.support')}
+              </button>
               </div>
             </nav>
           </div>

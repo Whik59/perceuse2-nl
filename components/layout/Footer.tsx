@@ -42,9 +42,16 @@ const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-700 pt-8">
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="text-gray-400 text-sm">
+          <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0">
+            <div className="text-gray-400 text-sm text-center">
               &copy; {new Date().getFullYear()} {getString('common.companyName')}. {getString('footer.copyright')}.
+            </div>
+          </div>
+          
+          {/* Affiliate Disclaimer */}
+          <div className="mt-6 pt-6 border-t border-gray-700">
+            <div className="text-gray-400 text-xs text-center leading-relaxed max-w-4xl mx-auto">
+              {getString('footer.affiliateDisclaimer')}
             </div>
           </div>
         </div>

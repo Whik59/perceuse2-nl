@@ -36,11 +36,11 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
     if (column.toLowerCase() === 'rang') {
       return (
         <div className="flex items-center justify-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-sm">
-              {product.rank || product.rang || index + 1}
-            </span>
-          </div>
+        <div className="w-8 h-8 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center">
+          <span className="text-white font-bold text-sm">
+            {product.rank || product.rang || index + 1}
+          </span>
+        </div>
           {product.image && (
             <div className="w-10 h-10 rounded-lg overflow-hidden">
               <Image
@@ -78,7 +78,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
                   }}
                 />
               ) : null}
-              <Award className={`w-6 h-6 text-yellow-500 ${product.image ? 'hidden' : ''}`} />
+              <Award className={`w-6 h-6 text-orange-500 ${product.image ? 'hidden' : ''}`} />
             </div>
           </div>
           <div className="min-w-0 flex-1">
@@ -100,9 +100,9 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       // If it's already formatted with €, use it as is
       if (typeof priceValue === 'string' && priceValue.includes('€')) {
         return (
-          <span className="text-lg font-bold text-green-600">
-            {priceValue}
-          </span>
+        <span className="text-lg font-bold text-orange-600">
+          {priceValue}
+        </span>
         );
       }
       
@@ -110,7 +110,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       const cleanPrice = priceValue.toString().replace(/[€,]/g, '').trim() || '0';
       const formattedPrice = parseFloat(cleanPrice).toFixed(2);
       return (
-        <span className="text-lg font-bold text-green-600">
+        <span className="text-lg font-bold text-orange-600">
           {formattedPrice}€
         </span>
       );
@@ -120,7 +120,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       const ratingValue = product.rating || product.note || product.évaluation || 'N/A';
       return (
         <div className="flex items-center space-x-1">
-          <Star className="w-4 h-4 text-yellow-400 fill-current" />
+          <Star className="w-4 h-4 text-orange-400 fill-current" />
           <span className="text-sm font-semibold text-gray-900">
             {ratingValue}
           </span>
@@ -202,7 +202,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
   return (
     <div className="bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
       {/* Header */}
-      <div className="bg-gradient-to-r from-slate-900 to-slate-800 px-6 py-4">
+      <div className="bg-gradient-to-r from-orange-600 to-orange-700 px-6 py-4">
         <h2 className="text-2xl font-bold text-white text-center">
           {title}
         </h2>
@@ -211,12 +211,12 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       {/* Table */}
       <div className="overflow-x-auto">
         <table className="w-full">
-          <thead className="bg-gray-50">
+          <thead className="bg-orange-50">
             <tr>
               {columns.map((column, index) => (
                 <th
                   key={index}
-                  className="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  className="px-4 py-3 text-left text-xs font-medium text-orange-800 uppercase tracking-wider"
                 >
                   {column}
                 </th>
@@ -227,7 +227,7 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
             {limitedProducts.map((product, index) => (
               <tr 
                 key={index} 
-                className="hover:bg-gray-50 transition-colors cursor-pointer"
+                className="hover:bg-orange-50 transition-colors cursor-pointer border-b border-orange-100"
                 onClick={() => {
                   const url = product.productUrl || product.amazonUrl || '#';
                   if (url !== '#') {
@@ -251,8 +251,8 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
       </div>
 
       {/* Footer */}
-      <div className="bg-gray-50 px-6 py-4 border-t border-gray-200">
-        <p className="text-sm text-gray-600 text-center">
+      <div className="bg-orange-50 px-6 py-4 border-t border-orange-200">
+        <p className="text-sm text-orange-700 text-center">
           {getString('comparison.description', { count: limitedProducts.length.toString() })}
         </p>
       </div>

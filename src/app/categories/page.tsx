@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   }
 };
 
-// Enhanced Category Card with better image handling
+// Clean White Category Card with Bigger Images
 const CategoryCard: React.FC<{ 
   category: Category; 
   subcategories: Category[];
@@ -57,76 +57,62 @@ const CategoryCard: React.FC<{
   const getCategoryGradient = (categoryName: string) => {
     const name = categoryName.toLowerCase();
     if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-      return 'from-purple-100 to-indigo-100';
+      return 'from-purple-500 to-purple-600';
     }
     if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-      return 'from-orange-100 to-orange-200';
+      return 'from-orange-500 to-orange-600';
     }
     if (name.includes('bébé') || name.includes('enfant')) {
-      return 'from-pink-100 to-rose-100';
+      return 'from-pink-500 to-pink-600';
     }
-    return 'from-amber-100 to-yellow-100';
+    return 'from-orange-500 to-orange-600';
   };
 
   const getIconColor = (categoryName: string) => {
-    const name = categoryName.toLowerCase();
-    if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-      return 'text-purple-600';
-    }
-    if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-      return 'text-blue-600';
-    }
-    if (name.includes('bébé') || name.includes('enfant')) {
-      return 'text-pink-600';
-    }
-    return 'text-amber-600';
+    return 'text-white';
   };
 
-  // For now, always show icon instead of product images
-  const showImageGrid = false;
 
   return (
     <Link
       href={`/category/${category.slug}`}
       className="group block"
     >
-      <div className="bg-gradient-to-br from-white via-slate-50/30 to-white rounded-2xl p-6 hover:shadow-xl transition-all duration-500 border border-slate-200/60 hover:border-slate-300/60 hover:-translate-y-1 relative overflow-hidden">
+      <div className="bg-white rounded-2xl p-8 hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-orange-300 hover:-translate-y-2 relative overflow-hidden">
         {/* Subtle shine effect */}
-        <div className="absolute inset-0 bg-gradient-to-br from-white/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-orange-50/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         
         <div className="relative">
-          {/* Category Visual */}
-          <div className="flex items-center justify-center mb-6">
-            {showImageGrid ? (
-              <div className="grid grid-cols-2 gap-2 w-24 h-24">
-                {/* Placeholder for future product images */}
-                {[...Array(4)].map((_, index) => (
-                  <div
-                    key={`empty-${index}`}
-                    className="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 rounded-lg flex items-center justify-center"
-                  >
-                    <Package className="w-4 h-4 text-slate-400" />
-                  </div>
-                ))}
+          {/* Category Visual - Bigger Image/Icon */}
+          <div className="flex items-center justify-center mb-8">
+            <div className={`w-32 h-32 bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical || category.name || 'default')} rounded-3xl flex items-center justify-center shadow-xl group-hover:scale-110 transition-all duration-300 relative overflow-hidden`}>
+              {/* Inner glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-3xl"></div>
+              <div className={`relative z-10 ${getIconColor(category.categoryNameCanonical || category.name || 'default')}`}>
+                {getCategoryIcon(category.categoryNameCanonical || category.name || 'default')}
               </div>
-            ) : (
-              <div className={`w-24 h-24 bg-gradient-to-br ${getCategoryGradient(category.categoryNameCanonical || category.name || 'default')} rounded-2xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-all duration-300`}>
-                <div className={getCategoryIcon(category.categoryNameCanonical || category.name || 'default').props.className.replace('w-8 h-8', `w-12 h-12 ${getIconColor(category.categoryNameCanonical || category.name || 'default')}`)}>
-                  {getCategoryIcon(category.categoryNameCanonical || category.name || 'default')}
-                </div>
-              </div>
-            )}
+            </div>
           </div>
 
           {/* Category Info */}
-          <div className="text-center space-y-4">
-            <h3 className="text-lg font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors leading-tight">
+          <div className="text-center space-y-6">
+            <h3 className="text-xl font-bold text-gray-900 capitalize group-hover:text-orange-600 transition-colors leading-tight">
               {category.categoryNameCanonical}
             </h3>
 
-            {/* Hover Arrow */}
+            {/* Product Count Badge */}
+            {subcategories.length > 0 && (
+              <div className="inline-flex items-center bg-orange-100 text-orange-800 px-4 py-2 rounded-full text-sm font-semibold">
+                {subcategories.length} Produkte verfügbar
+              </div>
+            )}
+
+            {/* Clean CTA */}
             <div className="flex items-center justify-center pt-2">
-              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-slate-600 group-hover:translate-x-1 transition-all duration-300" />
+              <div className="flex items-center space-x-2 text-orange-600 group-hover:text-orange-700 transition-colors">
+                <span className="text-base font-semibold">Jetzt entdecken</span>
+                <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-all duration-300" />
+              </div>
             </div>
           </div>
         </div>
@@ -163,17 +149,36 @@ const CategoriesPage: React.FC = async () => {
           </div>
           
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <div className="inline-flex items-center bg-gradient-to-r from-white/10 via-slate-50/20 to-white/10 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-xl border border-white/10 mb-6 hover:shadow-2xl transition-all duration-300">
-                <Sparkles className="w-4 h-4 text-slate-300 mr-2" />
-                <span className="text-sm font-bold text-slate-200 tracking-wider uppercase">{getString('categories.title')}</span>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              {/* Left Column - Text Content */}
+              <div className="text-center lg:text-left">
+                <div className="inline-flex items-center bg-gradient-to-r from-white/10 via-slate-50/20 to-white/10 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-xl border border-white/10 mb-6 hover:shadow-2xl transition-all duration-300">
+                  <Sparkles className="w-4 h-4 text-slate-300 mr-2" />
+                  <span className="text-sm font-bold text-slate-200 tracking-wider uppercase">{getString('categories.title')}</span>
+                </div>
+                <h1 className="text-4xl lg:text-6xl font-extralight mb-6 tracking-tighter leading-tight">
+                  <span className="bg-gradient-to-r from-slate-300 via-white to-slate-300 bg-clip-text text-transparent">{getString('categories.hero.title')}</span>
+                </h1>
+                <p className="text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto lg:mx-0 leading-relaxed font-light">
+                  {getString('categories.subtitle')} {getString('categories.hero.subtitle')}.
+                </p>
               </div>
-              <h1 className="text-4xl lg:text-6xl font-extralight mb-6 tracking-tighter leading-tight">
-                <span className="bg-gradient-to-r from-slate-300 via-white to-slate-300 bg-clip-text text-transparent">{getString('categories.hero.title')}</span>
-              </h1>
-              <p className="text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">
-                {getString('categories.subtitle')} {getString('categories.hero.subtitle')}.
-              </p>
+              
+              {/* Right Column - Hero Image */}
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative w-full max-w-md lg:max-w-lg">
+                  <Image
+                    src="/hero.png"
+                    alt="Professional Massagegeräte"
+                    width={600}
+                    height={400}
+                    className="w-full h-auto rounded-2xl shadow-2xl"
+                    priority
+                  />
+                  {/* Subtle overlay for better text contrast */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent rounded-2xl"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -188,6 +193,63 @@ const CategoriesPage: React.FC = async () => {
               <ChevronRight className="w-4 h-4 text-slate-400" />
               <span className="font-semibold text-slate-900">{getString('categories.title')}</span>
             </nav>
+          </div>
+        </div>
+
+        {/* Category List Section */}
+        <div className="py-16 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                {getString('categories.title')}
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                {getString('categories.subtitle')}
+              </p>
+            </div>
+            
+            {/* Category List */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+              {parentCategories.map((category) => {
+                const subcategories = getSubcategories(category.categoryId || 0);
+                
+                return (
+                  <div key={category.categoryId} className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-lg transition-all duration-300">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-3">{category.name}</h3>
+                    <div className="space-y-2">
+                      {subcategories.slice(0, 4).map((subcategory) => (
+                        <Link 
+                          key={subcategory.categoryId}
+                          href={`/category/${subcategory.slug}`}
+                          className="block text-sm text-gray-600 hover:text-orange-600 transition-colors"
+                        >
+                          {subcategory.name}
+                        </Link>
+                      ))}
+                      {subcategories.length > 4 && (
+                        <Link 
+                          href={`/category/${category.slug}`}
+                          className="block text-sm text-orange-600 hover:text-orange-700 font-medium"
+                        >
+                          Alle {subcategories.length} anzeigen →
+                        </Link>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+            
+            {/* View All Categories Button */}
+            <div className="text-center">
+              <Link 
+                href="/categories"
+                className="inline-flex items-center px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition-colors"
+              >
+                {getString('categories.browseAll')}
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -249,35 +311,35 @@ const CategoriesPage: React.FC = async () => {
                     const getSubcategoryIcon = (categoryName: string) => {
                       const name = categoryName.toLowerCase();
                       if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-                        return <Gamepad2 className="w-6 h-6 text-purple-600" />;
+                        return <Gamepad2 className="w-6 h-6 text-white" />;
                       }
                       if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-                        return <Rabbit className="w-6 h-6 text-blue-600" />;
+                        return <Rabbit className="w-6 h-6 text-white" />;
                       }
                       if (name.includes('bébé') || name.includes('enfant')) {
-                        return <Baby className="w-6 h-6 text-pink-600" />;
+                        return <Baby className="w-6 h-6 text-white" />;
                       }
                       if (name.includes('kawaii') || name.includes('mignon')) {
-                        return <Sparkles className="w-6 h-6 text-amber-600" />;
+                        return <Sparkles className="w-6 h-6 text-white" />;
                       }
-                      return <Crown className="w-6 h-6 text-slate-600" />;
+                      return <Crown className="w-6 h-6 text-white" />;
                     };
 
                     const getSubcategoryGradient = (categoryName: string) => {
                       const name = categoryName.toLowerCase();
                       if (name.includes('jeu') || name.includes('video') || name.includes('kirby')) {
-                        return 'from-purple-100 to-indigo-100';
+                        return 'from-purple-500 to-purple-600';
                       }
                       if (name.includes('animaux') || name.includes('pieuvre') || name.includes('poulpe')) {
-                        return 'from-blue-100 to-cyan-100';
+                        return 'from-orange-500 to-orange-600';
                       }
                       if (name.includes('bébé') || name.includes('enfant')) {
-                        return 'from-pink-100 to-rose-100';
+                        return 'from-pink-500 to-pink-600';
                       }
                       if (name.includes('kawaii') || name.includes('mignon')) {
-                        return 'from-amber-100 to-yellow-100';
+                        return 'from-amber-500 to-amber-600';
                       }
-                      return 'from-slate-100 to-slate-200';
+                      return 'from-orange-500 to-orange-600';
                     };
                     
                     return (
@@ -286,15 +348,21 @@ const CategoriesPage: React.FC = async () => {
                               href={`/category/${subcategory.slug}`}
                         className="group block"
                       >
-                        <div className="bg-white rounded-xl p-4 hover:shadow-lg transition-all duration-300 border border-slate-200/60 hover:border-slate-300/60 hover:-translate-y-1">
-                          <div className="text-center space-y-2">
-                            <div className={`w-12 h-12 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical || subcategory.name || 'default')} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-sm`}>
-                              {getSubcategoryIcon(subcategory.categoryNameCanonical || subcategory.name || 'default')}
-                                  </div>
-                            <h3 className="text-sm font-semibold text-slate-900 capitalize group-hover:text-slate-700 transition-colors">
-                                      {subcategory.categoryNameCanonical}
-                                    </h3>
-                      </div>
+                        <div className="bg-white rounded-xl p-6 hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-orange-300 hover:-translate-y-1 relative overflow-hidden">
+                          {/* Subtle shine effect */}
+                          <div className="absolute inset-0 bg-gradient-to-br from-orange-50/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                          <div className="text-center space-y-4 relative">
+                            <div className={`w-16 h-16 bg-gradient-to-br ${getSubcategoryGradient(subcategory.categoryNameCanonical || subcategory.name || 'default')} rounded-xl flex items-center justify-center mx-auto group-hover:scale-110 transition-all duration-300 shadow-lg relative overflow-hidden`}>
+                              {/* Inner glow effect */}
+                              <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent rounded-xl"></div>
+                              <div className="relative z-10">
+                                {getSubcategoryIcon(subcategory.categoryNameCanonical || subcategory.name || 'default')}
+                              </div>
+                            </div>
+                            <h3 className="text-sm font-bold text-gray-900 capitalize group-hover:text-orange-600 transition-colors">
+                              {subcategory.categoryNameCanonical}
+                            </h3>
+                          </div>
                         </div>
                         </Link>
                 );

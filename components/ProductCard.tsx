@@ -66,7 +66,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       {/* Discount Badge */}
       {hasDiscount && (
         <div className="absolute top-4 left-4 z-10">
-          <span className="bg-gradient-to-r from-red-600 to-red-700 text-white text-xs font-bold px-3 py-2 rounded-xl shadow-xl backdrop-blur-sm border border-white/10">
+          <span className="bg-gradient-to-r from-orange-600 to-orange-700 text-white text-xs font-bold px-3 py-2 rounded-xl shadow-xl backdrop-blur-sm border border-white/10">
             -{discountPercentage}%
           </span>
         </div>
@@ -96,9 +96,9 @@ const ProductCard: React.FC<ProductCardProps> = ({
 
       {/* Product Info */}
       <div className="p-4 space-y-3">
-        {/* Product Title */}
+        {/* Product Title - Amazon Theme */}
         <Link href={`/product/${product.slug}`} className="block group">
-          <h3 className="font-bold text-gray-900 text-sm leading-tight line-clamp-2 min-h-[2rem] hover:text-orange-600 transition-colors duration-200 group-hover:underline">
+          <h3 className="font-bold text-orange-600 text-sm leading-tight line-clamp-2 min-h-[2rem] hover:text-orange-700 transition-colors duration-200 group-hover:underline">
             {productName}
           </h3>
         </Link>
@@ -108,7 +108,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
           <ReviewSnippet 
             productSlug={product.slug}
             productTitle={productName}
-            size="sm"
+            size="xs"
           />
         </div>
 
@@ -138,9 +138,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
                   <div className="flex items-center space-x-1">
                     <span className="text-sm font-bold text-gray-900">{formatCurrency(product.basePrice)}</span>
                     {hasDiscount && (
-                      <span className="bg-red-500 text-white text-xs font-bold px-1 py-0.5 rounded">
-                        -{discountPercentage}%
-                      </span>
+                      <span className="text-xs text-gray-500 line-through">{formatCurrency(fakeCompareAtPrice || 0)}</span>
                     )}
                   </div>
                   <div className="flex items-center space-x-1 mt-0.5">
