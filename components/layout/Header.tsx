@@ -360,20 +360,13 @@ const Header: React.FC<HeaderProps> = ({
     }))
     .sort((a, b) => b.subcategoryCount - a.subcategoryCount);
 
-  // Smart category selection - display exactly 7 categories
+  // Smart category selection - display up to 6 categories for better spacing
   const getOptimalCategories = () => {
-    // Take the first 7 categories from parentCategories (already sorted by subcategory count)
-    const selectedCategories = parentCategories.slice(0, 7).map(cat => ({
-        ...cat,
-      displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 18)
-      }));
+    // Take the first 6 categories from parentCategories (already sorted by subcategory count)
+    // Reduced from 7 to 6 to give more space for full category names
+    const selectedCategories = parentCategories.slice(0, 6);
     
     return selectedCategories;
-  };
-
-  const truncateText = (text: string, maxLength: number) => {
-    if (text.length <= maxLength) return text;
-    return text.substring(0, maxLength - 3) + '...';
   };
 
   const optimalCategories = getOptimalCategories();
@@ -585,7 +578,7 @@ const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Navigation - Desktop Amazon Theme */}
-        <nav className="hidden md:flex items-center justify-center space-x-2 lg:space-x-3 pb-4 pt-4 border-t border-orange-100">
+        <nav className="hidden md:flex items-center justify-center space-x-4 lg:space-x-6 pb-4 pt-4 border-t border-orange-100">
             {optimalCategories.map((category) => {
               const subcategories = getSubcategories(category.categoryId || 0);
               const hasSubcategories = subcategories.length > 0;
@@ -599,10 +592,10 @@ const Header: React.FC<HeaderProps> = ({
                 >
             <Link
               href={`/category/${category.slug}`}
-                    className="flex items-center text-gray-700 hover:text-orange-600 font-light text-xs tracking-[0.5px] transition-all duration-500 py-2 px-3 group relative uppercase letter-spacing-wide"
+                    className="flex items-center text-gray-700 hover:text-orange-600 font-medium text-sm transition-all duration-500 py-2 px-4 group relative"
             >
-              <span className="relative font-medium" title={category.name || category.categoryNameCanonical}>
-                {(category as any).displayName || category.name || category.categoryNameCanonical}
+              <span className="relative" title={category.name || category.categoryNameCanonical}>
+                {category.name || category.categoryNameCanonical}
                 <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-orange-600 transition-all duration-500 group-hover:w-full"></span>
               </span>
                     {hasSubcategories && (
@@ -726,7 +719,7 @@ const Header: React.FC<HeaderProps> = ({
                         className="flex-1 text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  {(category as any).displayName || category.name || category.categoryNameCanonical}
+                  {category.name || category.categoryNameCanonical}
                         </Link>
                         {hasSubcategories && (
                           <button

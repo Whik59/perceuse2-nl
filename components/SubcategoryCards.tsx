@@ -171,8 +171,8 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                         .slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide)
                         .map((subcategory) => (
                         <Link key={subcategory.slug} href={`/category/${subcategory.slug}`}>
-                          <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 text-center">
-                            <div className="space-y-5">
+                          <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 p-6 text-center min-h-[200px] flex flex-col justify-center">
+                            <div className="space-y-4">
                               {/* Round Image Frame */}
                               <div className="relative mx-auto w-24 h-24">
                                 <div className="w-24 h-24 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-gray-100 group-hover:ring-orange-200">
@@ -195,8 +195,8 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                               </div>
                               
                               {/* Category Info */}
-                              <div className="space-y-3">
-                                <h3 className="text-gray-900 font-semibold text-xl line-clamp-2 group-hover:text-orange-600 transition-colors duration-300">
+                              <div className="space-y-2">
+                                <h3 className="text-gray-900 font-semibold text-lg group-hover:text-orange-600 transition-colors duration-300 leading-tight">
                                   {subcategory.categoryNameCanonical}
                                 </h3>
                                 <p className="text-gray-600 text-sm line-clamp-2">

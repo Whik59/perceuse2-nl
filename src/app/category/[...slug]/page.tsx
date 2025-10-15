@@ -392,27 +392,6 @@ const CategoryPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Comparison Table Section - Top */}
-      {categoryContent?.comparisonTable && (
-        <div className="py-8 bg-orange-50 border-b border-orange-200">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-6">
-              <h2 className="text-2xl font-bold text-orange-800 mb-2">
-                {getString('categoryPage.comparisonTable.title')}
-              </h2>
-              <p className="text-orange-600">
-                {getString('categoryPage.comparisonTable.incentive')}
-              </p>
-            </div>
-            
-            <ComparisonTable
-              title={categoryContent.comparisonTable.title}
-              columns={categoryContent.comparisonTable.columns}
-              products={categoryContent.comparisonTable.products}
-            />
-          </div>
-        </div>
-      )}
 
       {/* Subcategory Cards Section */}
       {category.categoryId && (
@@ -579,6 +558,28 @@ const CategoryPage: React.FC = () => {
           )}
         </div>
       </div>
+
+      {/* Comparison Table Section - Below Products */}
+      {categoryContent?.comparisonTable && (
+        <div className="py-8 bg-orange-50 border-t border-orange-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold text-orange-800 mb-2">
+                {getString('categoryPage.comparisonTable.title')}
+              </h2>
+              <p className="text-orange-600">
+                {getString('categoryPage.comparisonTable.incentive')}
+              </p>
+            </div>
+            
+            <ComparisonTable
+              title={categoryContent.comparisonTable.title}
+              columns={categoryContent.comparisonTable.columns}
+              products={categoryContent.comparisonTable.products}
+            />
+          </div>
+        </div>
+      )}
 
 
       {/* Buying Guide Section */}
