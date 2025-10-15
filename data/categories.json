@@ -1,885 +1,687 @@
 [
   {
-    "slug": "akkustaubsauger",
-    "name": "Akkustaubsauger",
-    "categoryNameCanonical": "Akkustaubsauger",
-    "description": "Kabellose Staubsauger für maximale Flexibilität. Ideal für die schnelle Reinigung von Böden, Treppen und schwer erreichbaren Stellen ohne lästiges Kabel.",
+    "slug": "schlafsofas",
+    "name": "Schlafsofas",
+    "categoryNameCanonical": "Schlafsofas",
+    "description": "Multifunktionale Sofas, die sich in ein Bett umwandeln lassen, ideal für Gäste oder kleine Wohnungen. Basierend auf Suchanfragen wie 'sofa als bett mit matratze'.",
     "subcategories": [
       {
-        "slug": "akkustaubsauger-mit-wischfunktion",
-        "name": "Akkustaubsauger mit Wischfunktion",
-        "categoryNameCanonical": "Akkustaubsauger mit Wischfunktion",
-        "description": "Kombigeräte, die gleichzeitig saugen und wischen, für eine umfassende Hartbodenreinigung in einem Schritt."
+        "slug": "schlafsofas-mit-matratze",
+        "name": "Schlafsofas mit Matratze",
+        "categoryNameCanonical": "Schlafsofas mit Matratze",
+        "description": "Sofas mit integrierter, vollwertiger Matratze für maximalen Schlafkomfort."
       },
       {
-        "slug": "akkustaubsauger-mit-absaugstation",
-        "name": "Akkustaubsauger mit Absaugstation",
-        "categoryNameCanonical": "Akkustaubsauger mit Absaugstation",
-        "description": "Modelle mit einer Basisstation, die den Staubbehälter des Saugers automatisch entleert und oft auch den Akku lädt."
+        "slug": "schlafsofas-mit-bettkasten",
+        "name": "Schlafsofas mit Bettkasten",
+        "categoryNameCanonical": "Schlafsofas mit Bettkasten",
+        "description": "Praktische Schlafsofas mit integriertem Stauraum für Bettwäsche und Kissen."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Leistungsstarke Akkusauger mit speziellen Bürstenwalzen, die Tierhaare effektiv von Teppichen und Polstern entfernen."
+        "slug": "ausziehbare-schlafsofas",
+        "name": "Ausziehbare Schlafsofas",
+        "categoryNameCanonical": "Ausziehbare Schlafsofas",
+        "description": "Modelle, die durch einen Ausziehmechanismus schnell zur Liegefläche werden."
       },
       {
-        "slug": "akkustaubsauger-mit-wechselakku",
-        "name": "Akkustaubsauger mit austauschbarem Akku",
-        "categoryNameCanonical": "Akkustaubsauger mit austauschbarem Akku",
-        "description": "Geräte, bei denen ein leerer Akku einfach gegen einen vollen ausgetauscht werden kann, um die Laufzeit zu verlängern."
+        "slug": "klappsofas",
+        "name": "Klappsofas",
+        "categoryNameCanonical": "Klappsofas",
+        "description": "Kompakte Sofas, bei denen die Rückenlehne zum Schlafen umgeklappt wird."
       }
     ]
   },
   {
-    "slug": "bodenstaubsauger",
-    "name": "Bodenstaubsauger",
-    "categoryNameCanonical": "Bodenstaubsauger",
-    "description": "Klassische, kabelgebundene Staubsauger mit hoher Saugleistung für die gründliche Reinigung von großen Flächen, Teppichen und Hartböden.",
+    "slug": "ecksofas",
+    "name": "Ecksofas",
+    "categoryNameCanonical": "Ecksofas",
+    "description": "Raumsparende Sofas für Ecken, oft in L-Form oder U-Form, um den Platz optimal zu nutzen. Reflektiert die Suche nach 'sofa l form'.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-mit-beutel",
-        "name": "Bodenstaubsauger mit Beutel",
-        "categoryNameCanonical": "Bodenstaubsauger mit Beutel",
-        "description": "Hygienische Modelle, bei denen Staub und Schmutz in einem austauschbaren Beutel gesammelt werden, ideal für Allergiker."
+        "slug": "ecksofas-l-form",
+        "name": "Ecksofas L-Form",
+        "categoryNameCanonical": "Ecksofas L-Form",
+        "description": "Klassische Ecksofas mit einer Ottomane auf einer Seite."
       },
       {
-        "slug": "bodenstaubsauger-beutellos",
-        "name": "Bodenstaubsauger beutellos (Zyklon)",
-        "categoryNameCanonical": "Bodenstaubsauger beutellos (Zyklon)",
-        "description": "Staubsauger mit Zyklon-Technologie, die ohne Beutel auskommen und über einen entleerbaren Staubbehälter verfügen."
+        "slug": "ecksofas-u-form",
+        "name": "Ecksofas U-Form",
+        "categoryNameCanonical": "Ecksofas U-Form",
+        "description": "Großzügige Wohnlandschaften mit zwei Ottomanen für maximale Sitzfläche."
       },
       {
-        "slug": "bodenstaubsauger-mit-hepa-filter",
-        "name": "Bodenstaubsauger mit HEPA-Filter",
-        "categoryNameCanonical": "Bodenstaubsauger mit HEPA-Filter",
-        "description": "Geräte mit hocheffizienten Partikelfiltern, die kleinste Staubpartikel und Allergene aus der Abluft filtern."
+        "slug": "ecksofas-mit-schlaffunktion",
+        "name": "Ecksofas mit Schlaffunktion",
+        "categoryNameCanonical": "Ecksofas mit Schlaffunktion",
+        "description": "Ecksofas, die zusätzlich eine Schlafmöglichkeit für Gäste bieten."
       },
       {
-        "slug": "leise-bodenstaubsauger",
-        "name": "Leise Bodenstaubsauger (unter 70 dB)",
-        "categoryNameCanonical": "Leise Bodenstaubsauger (unter 70 dB)",
-        "description": "Geräuscharme Modelle, die eine gründliche Reinigung ohne übermäßige Lärmbelästigung ermöglichen."
+        "slug": "modulare-ecksofas",
+        "name": "Modulare Ecksofas",
+        "categoryNameCanonical": "Modulare Ecksofas",
+        "description": "Flexible Ecksofas, deren einzelne Elemente frei kombiniert werden können."
       }
     ]
   },
   {
-    "slug": "saugroboter",
-    "name": "Saugroboter",
-    "categoryNameCanonical": "Saugroboter",
-    "description": "Autonome Reinigungsroboter, die selbstständig Böden saugen und navigieren. Ideal für die tägliche, mühelose Aufrechterhaltung der Sauberkeit.",
+    "slug": "sofabeuege-und-schonbezuege",
+    "name": "Sofabezüge & Schonbezüge",
+    "categoryNameCanonical": "Sofabezüge & Schonbezüge",
+    "description": "Schutzbezüge für Sofas, um sie vor Schmutz, Tierhaaren und Abnutzung zu schützen. Basierend auf den häufigen Suchen 'sofa abdeckung', 'sofa abdeckung hund', 'sofa abdeckung wasserdicht'.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-wischfunktion",
-        "name": "Saugroboter mit Wischfunktion",
-        "categoryNameCanonical": "Saugroboter mit Wischfunktion",
-        "description": "Hybride Roboter, die nicht nur saugen, sondern auch feucht wischen können, für eine komplette Bodenpflege."
+        "slug": "wasserdichte-sofabezuege",
+        "name": "Wasserdichte Sofabezüge",
+        "categoryNameCanonical": "Wasserdichte Sofabezüge",
+        "description": "Bezüge mit einer wasserdichten Schicht zum Schutz vor Flüssigkeiten."
       },
       {
-        "slug": "saugroboter-mit-absaugstation",
-        "name": "Saugroboter mit Absaugstation",
-        "categoryNameCanonical": "Saugroboter mit Absaugstation",
-        "description": "High-End-Modelle mit einer Dockingstation, die den Staubbehälter des Roboters automatisch entleert."
+        "slug": "sofabezuege-fuer-haustiere",
+        "name": "Sofabezüge für Haustiere",
+        "categoryNameCanonical": "Sofabezüge für Haustiere",
+        "description": "Robuste und waschbare Bezüge, die speziell gegen Tierhaare und Kratzer schützen."
       },
       {
-        "slug": "saugroboter-mit-laser-navigation",
-        "name": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "categoryNameCanonical": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "description": "Intelligente Roboter, die mittels Laser präzise Karten der Räume erstellen und systematisch reinigen."
+        "slug": "sofabezuege-fuer-ecksofas",
+        "name": "Sofabezüge für Ecksofas",
+        "categoryNameCanonical": "Sofabezüge für Ecksofas",
+        "description": "Passgenaue Bezüge für L-Form- und U-Form-Sofas."
       },
       {
-        "slug": "saugroboter-fuer-tierhaare",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Spezialisierte Roboter mit hoher Saugkraft und verwicklungsfreien Bürsten, um Tierhaare effektiv aufzunehmen."
+        "slug": "elastische-stretch-sofabezuege",
+        "name": "Elastische Stretch-Sofabezüge",
+        "categoryNameCanonical": "Elastische Stretch-Sofabezüge",
+        "description": "Dehnbare Hussen, die sich an verschiedene Sofaformen anpassen."
       }
     ]
   },
   {
-    "slug": "handstaubsauger",
-    "name": "Handstaubsauger",
-    "categoryNameCanonical": "Handstaubsauger",
-    "description": "Kompakte und leichte Geräte für die schnelle Reinigung kleiner Malheure, Krümel auf dem Tisch, im Auto oder auf Polstern.",
+    "slug": "modulsofas",
+    "name": "Modulsofas",
+    "categoryNameCanonical": "Modulsofas",
+    "description": "Flexible Sofasysteme aus einzelnen Modulen, die je nach Bedarf und Raumgröße individuell zusammengestellt werden können.",
     "subcategories": [
       {
-        "slug": "akku-handstaubsauger",
-        "name": "Akkubetriebene Handstaubsauger",
-        "categoryNameCanonical": "Akkubetriebene Handstaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Portabilität und den schnellen Einsatz überall im Haus."
+        "slug": "modulsofas-aus-stoff",
+        "name": "Modulsofas aus Stoff",
+        "categoryNameCanonical": "Modulsofas aus Stoff",
+        "description": "Anpassbare Modulsofas mit strapazierfähigen Stoffbezügen."
       },
       {
-        "slug": "kabelgebundene-handstaubsauger",
-        "name": "Kabelgebundene Handstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Handstaubsauger",
-        "description": "Leistungsstarke Handgeräte mit Netzbetrieb für konstante Saugkraft ohne Zeitlimit."
+        "slug": "modulsofas-mit-stauraum",
+        "name": "Modulsofas mit Stauraum",
+        "categoryNameCanonical": "Modulsofas mit Stauraum",
+        "description": "Einzelne Module mit integriertem Bettkasten für mehr Ordnung."
       },
       {
-        "slug": "handstaubsauger-fuer-auto",
-        "name": "Handstaubsauger für das Auto",
-        "categoryNameCanonical": "Handstaubsauger für das Auto",
-        "description": "Modelle mit speziellen Düsen und oft einem 12V-Anschluss für die gründliche Reinigung des Fahrzeuginnenraums."
-      },
-      {
-        "slug": "handstaubsauger-mit-nasssaugfunktion",
-        "name": "Handstaubsauger mit Nasssaugfunktion",
-        "categoryNameCanonical": "Handstaubsauger mit Nasssaugfunktion",
-        "description": "Vielseitige Geräte, die sowohl trockenen Schmutz als auch verschüttete Flüssigkeiten aufnehmen können."
+        "slug": "modulsofas-fuer-outdoor",
+        "name": "Modulsofas für Outdoor",
+        "categoryNameCanonical": "Modulsofas für Outdoor",
+        "description": "Wetterfeste Module für die flexible Gestaltung von Garten- und Terrassenlandschaften."
       }
     ]
   },
   {
-    "slug": "stielstaubsauger",
-    "name": "Stielstaubsauger",
-    "categoryNameCanonical": "Stielstaubsauger",
-    "description": "Schlanke und wendige Staubsauger in Stielform, oft kabellos. Eine leichte Alternative zum klassischen Bodenstaubsauger.",
+    "slug": "2-sitzer-sofas",
+    "name": "2-Sitzer Sofas",
+    "categoryNameCanonical": "2-Sitzer Sofas",
+    "description": "Kompakte Sofas, ideal für kleine Wohnzimmer, Apartments oder als Ergänzung zu größeren Sitzgruppen.",
     "subcategories": [
       {
-        "slug": "kabelgebundene-stielstaubsauger",
-        "name": "Kabelgebundene Stielstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Stielstaubsauger",
-        "description": "Leichte Stielstaubsauger mit unbegrenzter Laufzeit dank Netzanschluss, ideal für kleinere Wohnungen."
+        "slug": "2-sitzer-sofas-aus-samt",
+        "name": "2-Sitzer Sofas aus Samt",
+        "categoryNameCanonical": "2-Sitzer Sofas aus Samt",
+        "description": "Elegante Zweisitzer mit weichem Samtbezug."
       },
       {
-        "slug": "2-in-1-stiel-handstaubsauger",
-        "name": "2-in-1 Stiel- & Handstaubsauger",
-        "categoryNameCanonical": "2-in-1 Stiel- & Handstaubsauger",
-        "description": "Flexible Geräte mit einem abnehmbaren Handteil für die schnelle Reinigung von Böden und Oberflächen."
+        "slug": "2-sitzer-sofas-aus-leder",
+        "name": "2-Sitzer Sofas aus Leder",
+        "categoryNameCanonical": "2-Sitzer Sofas aus Leder",
+        "description": "Klassische und langlebige Zweisitzer aus Echt- oder Kunstleder."
       },
       {
-        "slug": "ultraleichte-stielstaubsauger",
-        "name": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "categoryNameCanonical": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "description": "Besonders leichte Modelle für eine mühelose Handhabung und Reinigung von Treppen und Decken."
-      },
-      {
-        "slug": "stielstaubsauger-mit-led-bodenduese",
-        "name": "Stielstaubsauger mit LED-Bodendüse",
-        "categoryNameCanonical": "Stielstaubsauger mit LED-Bodendüse",
-        "description": "Modelle mit beleuchteten Bodendüsen, die Staub und Schmutz auch an dunklen Stellen sichtbar machen."
+        "slug": "2-sitzer-sofas-mit-relaxfunktion",
+        "name": "2-Sitzer Sofas mit Relaxfunktion",
+        "categoryNameCanonical": "2-Sitzer Sofas mit Relaxfunktion",
+        "description": "Zweisitzer mit verstellbaren Rückenlehnen oder Fußstützen."
       }
     ]
   },
   {
-    "slug": "nass-trocken-sauger",
-    "name": "Nass-Trocken-Sauger",
-    "categoryNameCanonical": "Nass-Trocken-Sauger",
-    "description": "Robuste und vielseitige Sauger für groben, feinen, trockenen und nassen Schmutz. Perfekt für Keller, Garage, Werkstatt oder Renovierungen.",
+    "slug": "3-sitzer-sofas",
+    "name": "3-Sitzer Sofas",
+    "categoryNameCanonical": "3-Sitzer Sofas",
+    "description": "Der klassische Allrounder für Familien und Wohnzimmer, bietet bequem Platz für drei Personen.",
     "subcategories": [
       {
-        "slug": "nass-trocken-sauger-fuer-haushalt",
-        "name": "Nass-Trocken-Sauger für den Haushalt",
-        "categoryNameCanonical": "Nass-Trocken-Sauger für den Haushalt",
-        "description": "Kompaktere Allzwecksauger zum Aufsaugen von verschütteten Flüssigkeiten oder für die intensive Reinigung."
+        "slug": "3-sitzer-sofas-aus-stoff",
+        "name": "3-Sitzer Sofas aus Stoff",
+        "categoryNameCanonical": "3-Sitzer Sofas aus Stoff",
+        "description": "Vielseitige Dreisitzer in verschiedenen Stoffarten und Farben."
       },
       {
-        "slug": "nass-trocken-sauger-mit-blasfunktion",
-        "name": "Nass-Trocken-Sauger mit Blasfunktion",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Blasfunktion",
-        "description": "Geräte, die nicht nur saugen, sondern auch Luft blasen können, z.B. zum Entfernen von Laub."
+        "slug": "3-sitzer-sofas-aus-cord",
+        "name": "3-Sitzer Sofas aus Cord",
+        "categoryNameCanonical": "3-Sitzer Sofas aus Cord",
+        "description": "Trendige Dreisitzer mit robustem und gemütlichem Cordbezug."
       },
       {
-        "slug": "nass-trocken-sauger-mit-steckdose",
-        "name": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "description": "Modelle mit einer integrierten Steckdose zum direkten Anschluss von Elektrowerkzeugen und Absaugung des Staubs."
-      },
-      {
-        "slug": "akku-nass-trocken-sauger",
-        "name": "Akku-Nass-Trocken-Sauger",
-        "categoryNameCanonical": "Akku-Nass-Trocken-Sauger",
-        "description": "Kabellose Nass-Trocken-Sauger für den flexiblen Einsatz auf Baustellen oder an Orten ohne Stromanschluss."
+        "slug": "3-sitzer-sofas-mit-schlaffunktion",
+        "name": "3-Sitzer Sofas mit Schlaffunktion",
+        "categoryNameCanonical": "3-Sitzer Sofas mit Schlaffunktion",
+        "description": "Klassische Dreisitzer, die sich bei Bedarf in ein Gästebett verwandeln lassen."
       }
     ]
   },
   {
-    "slug": "waschsauger",
-    "name": "Waschsauger (Sprühextraktionsgeräte)",
-    "categoryNameCanonical": "Waschsauger (Sprühextraktionsgeräte)",
-    "description": "Spezialgeräte zur Tiefenreinigung von Teppichen, Polstern und Matratzen. Sie sprühen eine Reinigungslösung auf und saugen sie samt Schmutz wieder ab.",
+    "slug": "bigsofas-xxl-sofas",
+    "name": "Bigsofas & XXL-Sofas",
+    "categoryNameCanonical": "Bigsofas & XXL-Sofas",
+    "description": "Besonders große und tiefe Sofas für geräumige Wohnzimmer, die maximalen Komfort und Platz für die ganze Familie bieten.",
     "subcategories": [
       {
-        "slug": "waschsauger-fuer-teppiche",
-        "name": "Waschsauger für Teppiche",
-        "categoryNameCanonical": "Waschsauger für Teppiche",
-        "description": "Leistungsstarke Geräte mit speziellen Bodendüsen zur fasertiefen Reinigung von Teppichböden."
+        "slug": "bigsofas-mit-kissen-sets",
+        "name": "Bigsofas mit Kissen-Sets",
+        "categoryNameCanonical": "Bigsofas mit Kissen-Sets",
+        "description": "XXL-Sofas, die inklusive einer großen Anzahl passender Zier- und Rückenkissen geliefert werden."
       },
       {
-        "slug": "waschsauger-fuer-polstermoebel",
-        "name": "Waschsauger für Polstermöbel & Autositze",
-        "categoryNameCanonical": "Waschsauger für Polstermöbel & Autositze",
-        "description": "Kompakte Modelle mit Handdüsen zur gezielten Reinigung von Sofas, Sesseln und Fahrzeuginnenräumen."
+        "slug": "bigsofas-aus-strukturstoff",
+        "name": "Bigsofas aus Strukturstoff",
+        "categoryNameCanonical": "Bigsofas aus Strukturstoff",
+        "description": "Großformatige Sofas mit strapazierfähigen und haptisch ansprechenden Stoffbezügen."
       },
       {
-        "slug": "waschsauger-fuer-hartboeden",
-        "name": "Waschsauger für Hartböden",
-        "categoryNameCanonical": "Waschsauger für Hartböden",
-        "description": "Geräte mit speziellen Aufsätzen zur nassen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
+        "slug": "tiefe-bigsofas",
+        "name": "Tiefe Bigsofas",
+        "categoryNameCanonical": "Tiefe Bigsofas",
+        "description": "Sofas mit extra tiefer Sitzfläche für ein besonders gemütliches Lounge-Gefühl."
       }
     ]
   },
   {
-    "slug": "industriestaubsauger",
-    "name": "Industriestaubsauger",
-    "categoryNameCanonical": "Industriestaubsauger",
-    "description": "Hochleistungsfähige und robuste Sauger für den professionellen Einsatz in Werkstätten, auf Baustellen und in der Industrie. Zertifiziert für verschiedene Staubklassen.",
+    "slug": "ledersofas",
+    "name": "Ledersofas",
+    "categoryNameCanonical": "Ledersofas",
+    "description": "Hochwertige und pflegeleichte Sofas aus Echtleder oder Kunstleder, bekannt für ihre Langlebigkeit und klassische Optik.",
     "subcategories": [
       {
-        "slug": "industriestaubsauger-staubklasse-l",
-        "name": "Industriestaubsauger Staubklasse L",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse L",
-        "description": "Sauger für ungefährliche Stäube wie Hausstaub oder Erde mit einem maximalen Durchlassgrad von 1%."
+        "slug": "sofas-aus-echtleder",
+        "name": "Sofas aus Echtleder",
+        "categoryNameCanonical": "Sofas aus Echtleder",
+        "description": "Sofas mit Bezügen aus echtem Rinds-, Büffel- oder Nappaleder."
       },
       {
-        "slug": "industriestaubsauger-staubklasse-m",
-        "name": "Industriestaubsauger Staubklasse M",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse M",
-        "description": "Sauger für gesundheitsgefährdende Stäube wie Holz-, Beton- oder Gipsstaub mit einem Durchlassgrad von unter 0,1%."
+        "slug": "sofas-aus-kunstleder",
+        "name": "Sofas aus Kunstleder",
+        "categoryNameCanonical": "Sofas aus Kunstleder",
+        "description": "Preisgünstige und pflegeleichte Alternative zu Echtleder."
       },
       {
-        "slug": "industriestaubsauger-mit-filterabreinigung",
-        "name": "Industriestaubsauger mit autom. Filterabreinigung",
-        "categoryNameCanonical": "Industriestaubsauger mit autom. Filterabreinigung",
-        "description": "Modelle, deren Filter sich automatisch reinigen (abklopfen), um eine konstant hohe Saugleistung zu gewährleisten."
+        "slug": "ledersofas-mit-relaxfunktion",
+        "name": "Ledersofas mit Relaxfunktion",
+        "categoryNameCanonical": "Ledersofas mit Relaxfunktion",
+        "description": "Komfortable Ledersofas mit manuell oder elektrisch verstellbaren Elementen."
       }
     ]
   },
   {
-    "slug": "aschesauger",
-    "name": "Aschesauger",
-    "categoryNameCanonical": "Aschesauger",
-    "description": "Spezialsauger mit feuerfestem Behälter und feinem Filtersystem zur sicheren und sauberen Entfernung von kalter Asche aus Kaminen, Öfen und Grills.",
+    "slug": "samtsofas",
+    "name": "Samtsofas",
+    "categoryNameCanonical": "Samtsofas",
+    "description": "Elegante Sofas mit weichen, schimmernden Samtbezügen, die jedem Raum eine luxuriöse Note verleihen.",
     "subcategories": [
       {
-        "slug": "aschesauger-mit-motor",
-        "name": "Aschesauger mit eigenem Motor",
-        "categoryNameCanonical": "Aschesauger mit eigenem Motor",
-        "description": "Eigenständige Geräte mit integriertem Motor, die direkt an die Steckdose angeschlossen werden."
+        "slug": "samtsofas-in-gruen",
+        "name": "Samtsofas in Grün",
+        "categoryNameCanonical": "Samtsofas in Grün",
+        "description": "Besonders beliebte Samtsofas in verschiedenen Grüntönen wie Smaragd oder Salbei."
       },
       {
-        "slug": "aschefilter-vorsatz",
-        "name": "Aschefilter als Vorsatz",
-        "categoryNameCanonical": "Aschefilter als Vorsatz",
-        "description": "Behälter mit Filtersystem, die an einen vorhandenen Haushalts- oder Werkstattsauger angeschlossen werden."
+        "slug": "samtsofas-in-blau",
+        "name": "Samtsofas in Blau",
+        "categoryNameCanonical": "Samtsofas in Blau",
+        "description": "Stilvolle Samtsofas in Marine-, Königs- oder Petrolblau."
       },
       {
-        "slug": "aschesauger-mit-blasfunktion",
-        "name": "Aschesauger mit Blasfunktion",
-        "categoryNameCanonical": "Aschesauger mit Blasfunktion",
-        "description": "Multifunktionale Geräte, die auch zum Anfachen des Feuers oder zum Wegblasen von Schmutz verwendet werden können."
+        "slug": "2-sitzer-samtsofas",
+        "name": "2-Sitzer Samtsofas",
+        "categoryNameCanonical": "2-Sitzer Samtsofas",
+        "description": "Kompakte und elegante Zweisitzer mit edlem Samtbezug."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-tierhaare",
-    "name": "Staubsauger für Tierhaare",
-    "categoryNameCanonical": "Staubsauger für Tierhaare",
-    "description": "Speziell entwickelte Staubsauger mit hoher Saugkraft und rotierenden Bürsten, um hartnäckige Tierhaare von allen Oberflächen effektiv zu entfernen.",
+    "slug": "sofas-mit-relaxfunktion",
+    "name": "Sofas mit Relaxfunktion",
+    "categoryNameCanonical": "Sofas mit Relaxfunktion",
+    "description": "Komfortsofas mit verstellbaren Rückenlehnen, ausklappbaren Fußstützen oder Massagefunktionen für ultimative Entspannung.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-fuer-tierhaare",
-        "name": "Bodenstaubsauger für Tierhaare",
-        "categoryNameCanonical": "Bodenstaubsauger für Tierhaare",
-        "description": "Kabelgebundene Modelle mit Turbobürsten für die intensive Reinigung von Teppichen und Polstern."
+        "slug": "elektrische-relaxsofas",
+        "name": "Elektrische Relaxsofas",
+        "categoryNameCanonical": "Elektrische Relaxsofas",
+        "description": "Sofas, deren Relaxfunktionen bequem per Knopfdruck gesteuert werden."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare-spezial",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Kabellose Stiel- oder Handstaubsauger mit motorisierten Bürsten für die flexible Entfernung von Tierhaaren."
+        "slug": "manuelle-relaxsofas",
+        "name": "Manuelle Relaxsofas",
+        "categoryNameCanonical": "Manuelle Relaxsofas",
+        "description": "Sofas, bei denen die Verstellung durch Körperdruck oder einen seitlichen Hebel erfolgt."
       },
       {
-        "slug": "saugroboter-fuer-tierhaare-spezial",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Autonome Roboter, optimiert für das Aufsaugen von Tierhaaren, oft mit Gummibürsten gegen Verheddern."
+        "slug": "relaxsofas-mit-usb-anschluss",
+        "name": "Relaxsofas mit USB-Anschluss",
+        "categoryNameCanonical": "Relaxsofas mit USB-Anschluss",
+        "description": "Moderne Sofas mit integrierten USB-Ports zum Laden von Geräten."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-allergiker",
-    "name": "Staubsauger für Allergiker",
-    "categoryNameCanonical": "Staubsauger für Allergiker",
-    "description": "Staubsauger mit speziellen Filtersystemen (HEPA, Wasserfilter) und versiegelten Gehäusen, die Feinstaub, Pollen und Milben sicher einschließen.",
+    "slug": "kindersofas",
+    "name": "Kindersofas",
+    "categoryNameCanonical": "Kindersofas",
+    "description": "Kleine, kindgerechte Sofas in bunten Designs und aus robusten Materialien, ideal für das Kinderzimmer.",
     "subcategories": [
       {
-        "slug": "staubsauger-mit-hepa-14-filter",
-        "name": "Staubsauger mit HEPA H13/H14 Filter",
-        "categoryNameCanonical": "Staubsauger mit HEPA H13/H14 Filter",
-        "description": "Geräte mit den höchsten Filterklassen, die 99,95% bzw. 99,995% aller Partikel aus der Luft filtern."
+        "slug": "ausklappbare-kindersofas",
+        "name": "Ausklappbare Kindersofas",
+        "categoryNameCanonical": "Ausklappbare Kindersofas",
+        "description": "Minisofas, die sich zu einer kleinen Liegefläche für Übernachtungsgäste ausklappen lassen."
       },
       {
-        "slug": "staubsauger-mit-wasserfilter",
-        "name": "Staubsauger mit Wasserfilter",
-        "categoryNameCanonical": "Staubsauger mit Wasserfilter",
-        "description": "Modelle, die den eingesaugten Staub in einem Wasserbad binden und so verhindern, dass Allergene zurück in die Raumluft gelangen."
+        "slug": "kindersofas-mit-tiermotiven",
+        "name": "Kindersofas mit Tiermotiven",
+        "categoryNameCanonical": "Kindersofas mit Tiermotiven",
+        "description": "Spielerische Sofas in Form von Tieren, basierend auf Suchen wie 'sofa affe'."
       },
       {
-        "slug": "staubsauger-mit-spezial-allergiker-beutel",
-        "name": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "categoryNameCanonical": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "description": "Beutelstaubsauger, deren mehrlagige Vliesbeutel mit Verschlussmechanismus Allergene sicher einschließen."
+        "slug": "kindersofas-aus-schaumstoff",
+        "name": "Kindersofas aus Schaumstoff",
+        "categoryNameCanonical": "Kindersofas aus Schaumstoff",
+        "description": "Leichte und weiche Sofas ohne harten Rahmen zur Minimierung der Verletzungsgefahr."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-auto",
-    "name": "Staubsauger für das Auto",
-    "categoryNameCanonical": "Staubsauger für das Auto",
-    "description": "Kompakte und handliche Sauger, die speziell für die Reinigung des Fahrzeuginnenraums konzipiert sind, oft mit 12V-Anschluss oder Akkubetrieb.",
+    "slug": "gartensofas",
+    "name": "Gartensofas",
+    "categoryNameCanonical": "Gartensofas",
+    "description": "Wetterfeste und robuste Sofas für den Außenbereich wie Garten, Terrasse oder Balkon, oft aus Polyrattan, Holz oder Metall.",
     "subcategories": [
       {
-        "slug": "autostaubsauger-12v",
-        "name": "Autostaubsauger mit 12V-Anschluss",
-        "categoryNameCanonical": "Autostaubsauger mit 12V-Anschluss",
-        "description": "Sauger, die direkt über den Zigarettenanzünder im Auto betrieben werden können."
+        "slug": "gartensofas-aus-polyrattan",
+        "name": "Gartensofas aus Polyrattan",
+        "categoryNameCanonical": "Gartensofas aus Polyrattan",
+        "description": "Pflegeleichte und witterungsbeständige Sofas in geflochtener Optik."
       },
       {
-        "slug": "akku-autostaubsauger",
-        "name": "Akku-Autostaubsauger",
-        "categoryNameCanonical": "Akku-Autostaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Flexibilität bei der Autoreinigung ohne Kabel."
+        "slug": "gartensofas-aus-holz",
+        "name": "Gartensofas aus Holz",
+        "categoryNameCanonical": "Gartensofas aus Holz",
+        "description": "Natürliche und robuste Sofas aus Hölzern wie Teak, Akazie oder Eukalyptus."
       },
       {
-        "slug": "autostaubsauger-mit-zubehoer-set",
-        "name": "Autostaubsauger mit Zubehör-Set",
-        "categoryNameCanonical": "Autostaubsauger mit Zubehör-Set",
-        "description": "Sets inklusive langer Fugendüse, Bürstenaufsatz und flexiblem Schlauch für schwer erreichbare Stellen."
+        "slug": "gartensofas-mit-wasserabweisenden-polstern",
+        "name": "Gartensofas mit wasserabweisenden Polstern",
+        "categoryNameCanonical": "Gartensofas mit wasserabweisenden Polstern",
+        "description": "Outdoor-Sofas inklusive Kissen mit speziellen Bezügen, die leichten Regen abhalten."
+      },
+      {
+        "slug": "modulare-gartenlounges",
+        "name": "Modulare Gartenlounges",
+        "categoryNameCanonical": "Modulare Gartenlounges",
+        "description": "Flexible Lounge-Sets, deren einzelne Sofa-Elemente frei angeordnet werden können."
       }
     ]
   },
   {
-    "slug": "staubsauger-mit-absaugstation",
-    "name": "Staubsauger mit Absaugstation",
-    "categoryNameCanonical": "Staubsauger mit Absaugstation",
-    "description": "Komfortable Systeme, bei denen sich der Staubsauger (meist ein Saugroboter oder Akkustaubsauger) an einer Basisstation automatisch entleert.",
+    "slug": "chaiselongues-und-recamieren",
+    "name": "Chaiselongues & Récamièren",
+    "categoryNameCanonical": "Chaiselongues & Récamièren",
+    "description": "Elegante Liegesofas mit einer Armlehne, ideal zum Entspannen, Lesen oder als stilvolle Ergänzung im Wohn- oder Schlafzimmer.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-automatischer-entleerung",
-        "name": "Saugroboter mit automatischer Entleerung",
-        "categoryNameCanonical": "Saugroboter mit automatischer Entleerung",
-        "description": "Roboterstaubsauger, die nach jedem Reinigungsvorgang zur Station zurückkehren und den Schmutz abgeben."
+        "slug": "chaiselongues-mit-samtbezug",
+        "name": "Chaiselongues mit Samtbezug",
+        "categoryNameCanonical": "Chaiselongues mit Samtbezug",
+        "description": "Luxuriöse Liegen mit weichem, schimmerndem Samtstoff."
       },
       {
-        "slug": "akkustaubsauger-mit-automatischer-entleerung",
-        "name": "Akkustaubsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Akkustaubsauger mit automatischer Entleerung",
-        "description": "Kabellose Stielstaubsauger, deren Staubbehälter an einer speziellen Standvorrichtung entleert wird."
+        "slug": "chaiselongues-mit-stauraum",
+        "name": "Chaiselongues mit Stauraum",
+        "categoryNameCanonical": "Chaiselongues mit Stauraum",
+        "description": "Funktionale Modelle mit einem aufklappbaren Sitz für zusätzlichen Stauraum."
       },
       {
-        "slug": "absaugstationen-als-zubehoer",
-        "name": "Absaugstationen als Zubehör",
-        "categoryNameCanonical": "Absaugstationen als Zubehör",
-        "description": "Einzeln erhältliche Absaugstationen zum Nachrüsten kompatibler Staubsaugermodelle."
+        "slug": "moderne-chaiselongues",
+        "name": "Moderne Chaiselongues",
+        "categoryNameCanonical": "Moderne Chaiselongues",
+        "description": "Liegesofas in minimalistischem Design mit klaren Linien und Metallfüßen."
       }
     ]
   },
   {
-    "slug": "milbensauger",
-    "name": "Milbensauger",
-    "categoryNameCanonical": "Milbensauger",
-    "description": "Spezielle Handstaubsauger zur Bekämpfung von Hausstaubmilben, Bakterien und Allergenen in Matratzen, Bettwäsche und Polstermöbeln.",
+    "slug": "chesterfield-sofas",
+    "name": "Chesterfield Sofas",
+    "categoryNameCanonical": "Chesterfield Sofas",
+    "description": "Ikonische Sofas im englischen Stil, charakterisiert durch die tiefe Knopfheftung, gerollte Armlehnen und hochwertige Leder- oder Samtbezüge.",
     "subcategories": [
       {
-        "slug": "milbensauger-mit-uv-c-licht",
-        "name": "Milbensauger mit UV-C Licht",
-        "categoryNameCanonical": "Milbensauger mit UV-C Licht",
-        "description": "Geräte, die Milben und Keime mittels ultraviolettem Licht abtöten und sterilisieren."
+        "slug": "chesterfield-sofas-aus-leder",
+        "name": "Chesterfield Sofas aus Leder",
+        "categoryNameCanonical": "Chesterfield Sofas aus Leder",
+        "description": "Der Klassiker in braunem, schwarzem oder cognacfarbenem Echt- oder Kunstleder."
       },
       {
-        "slug": "milbensauger-mit-vibrationsfunktion",
-        "name": "Milbensauger mit Vibrationsfunktion",
-        "categoryNameCanonical": "Milbensauger mit Vibrationsfunktion",
-        "description": "Modelle, die durch Vibration tief sitzenden Schmutz und Milbenkot aus dem Gewebe lösen."
+        "slug": "chesterfield-sofas-aus-samt",
+        "name": "Chesterfield Sofas aus Samt",
+        "categoryNameCanonical": "Chesterfield Sofas aus Samt",
+        "description": "Moderne Interpretationen des Klassikers mit edlem Samtbezug."
       },
       {
-        "slug": "akku-milbensauger",
-        "name": "Akku-Milbensauger",
-        "categoryNameCanonical": "Akku-Milbensauger",
-        "description": "Kabellose Milbensauger für den flexiblen und einfachen Einsatz auf Matratzen und Sofas."
+        "slug": "3-sitzer-chesterfield-sofas",
+        "name": "3-Sitzer Chesterfield Sofas",
+        "categoryNameCanonical": "3-Sitzer Chesterfield Sofas",
+        "description": "Die gängigste Größe des Chesterfield Sofas, ideal für klassische Wohnzimmer."
       }
     ]
   },
   {
-    "slug": "fenstersauger",
-    "name": "Fenstersauger",
-    "categoryNameCanonical": "Fenstersauger",
-    "description": "Akkubetriebene Geräte, die nach dem Einwaschen der Fenster das Schmutzwasser streifenfrei absaugen. Auch für Spiegel, Fliesen und Duschkabinen geeignet.",
+    "slug": "sofa-ablagen-und-tische",
+    "name": "Sofa-Ablagen & Tische",
+    "categoryNameCanonical": "Sofa-Ablagen & Tische",
+    "description": "Praktisches Zubehör zur Schaffung von Abstellflächen direkt am oder über dem Sofa. Entspricht Suchen wie 'sofa ablage armlehne' und 'sofa abstellbrett'.",
     "subcategories": [
       {
-        "slug": "fenstersauger-sets",
-        "name": "Fenstersauger-Sets mit Sprühflasche",
-        "categoryNameCanonical": "Fenstersauger-Sets mit Sprühflasche",
-        "description": "Komplettsets bestehend aus Fenstersauger, Sprühflasche mit Wischbezug und Reinigungsmittelkonzentrat."
+        "slug": "sofa-ablagen-fuer-armlehne",
+        "name": "Sofa-Ablagen für Armlehne",
+        "categoryNameCanonical": "Sofa-Ablagen für Armlehne",
+        "description": "Flexible Tabletts, meist aus Holz oder Bambus, die über die Armlehne gelegt werden."
       },
       {
-        "slug": "fenstersauger-mit-verlaengerungsstiel",
-        "name": "Fenstersauger mit Verlängerungsstiel",
-        "categoryNameCanonical": "Fenstersauger mit Verlängerungsstiel",
-        "description": "Geräte mit Teleskopstangen zur einfachen Reinigung von hohen Fenstern, Wintergärten oder Dachfenstern."
+        "slug": "sofa-butler-organizer",
+        "name": "Sofa-Butler & Organizer",
+        "categoryNameCanonical": "Sofa-Butler & Organizer",
+        "description": "Hängende Taschen für die Armlehne zur Aufbewahrung von Fernbedienungen, Zeitschriften und Tablets."
       },
       {
-        "slug": "fenstersauger-mit-wechselduese",
-        "name": "Fenstersauger mit schmaler Wechseldüse",
-        "categoryNameCanonical": "Fenstersauger mit schmaler Wechseldüse",
-        "description": "Modelle mit einer zusätzlichen, kleineren Saugdüse für Sprossenfenster und schmale Glasflächen."
+        "slug": "sofatische-zum-unterschieben",
+        "name": "Sofatische zum Unterschieben",
+        "categoryNameCanonical": "Sofatische zum Unterschieben",
+        "description": "C-förmige Beistelltische, deren Fuß unter das Sofa geschoben werden kann."
       }
     ]
   },
   {
-    "slug": "laubsauger",
-    "name": "Laubsauger & -bläser",
-    "categoryNameCanonical": "Laubsauger & -bläser",
-    "description": "Gartengeräte zum Aufsaugen, Blasen oder Häckseln von Laub und kleinen Gartenabfällen. Erleichtern die herbstliche Gartenarbeit erheblich.",
+    "slug": "sofas-mit-bettkasten",
+    "name": "Sofas mit Bettkasten",
+    "categoryNameCanonical": "Sofas mit Bettkasten",
+    "description": "Sofas mit integriertem Stauraum unter der Sitzfläche, ideal zur Aufbewahrung von Decken, Kissen oder anderen Gegenständen.",
     "subcategories": [
       {
-        "slug": "akku-laubsauger",
-        "name": "Akku-Laubsauger",
-        "categoryNameCanonical": "Akku-Laubsauger",
-        "description": "Kabellose und flexible Geräte für Gärten ohne direkten Stromanschluss."
+        "slug": "ecksofas-mit-bettkasten",
+        "name": "Ecksofas mit Bettkasten",
+        "categoryNameCanonical": "Ecksofas mit Bettkasten",
+        "description": "Großzügige Ecksofas, die besonders viel versteckten Stauraum bieten."
       },
       {
-        "slug": "elektro-laubsauger",
-        "name": "Elektro-Laubsauger",
-        "categoryNameCanonical": "Elektro-Laubsauger",
-        "description": "Leistungsstarke, kabelgebundene Modelle für den dauerhaften Einsatz in der Nähe einer Steckdose."
+        "slug": "3-sitzer-sofas-mit-bettkasten",
+        "name": "3-Sitzer Sofas mit Bettkasten",
+        "categoryNameCanonical": "3-Sitzer Sofas mit Bettkasten",
+        "description": "Klassische Dreisitzer mit praktischem Stauraumfach."
       },
       {
-        "slug": "laubsauger-mit-haeckselfunktion",
-        "name": "Laubsauger mit Häckselfunktion",
-        "categoryNameCanonical": "Laubsauger mit Häckselfunktion",
-        "description": "3-in-1-Geräte (Blasen, Saugen, Häckseln), die das aufgesaugte Laub zerkleinern und das Volumen im Fangsack reduzieren."
-      },
-      {
-        "slug": "benzin-laubsauger",
-        "name": "Benzin-Laubsauger",
-        "categoryNameCanonical": "Benzin-Laubsauger",
-        "description": "Besonders leistungsstarke und unabhängige Modelle für große Grundstücke und professionelle Anwendungen."
+        "slug": "kleine-sofas-mit-bettkasten",
+        "name": "Kleine Sofas mit Bettkasten",
+        "categoryNameCanonical": "Kleine Sofas mit Bettkasten",
+        "description": "Kompakte 2-Sitzer, die auch in kleinen Räumen für Ordnung sorgen."
       }
     ]
   },
   {
-    "slug": "rueckenstaubsauger",
-    "name": "Rückenstaubsauger",
-    "categoryNameCanonical": "Rückenstaubsauger",
-    "description": "Professionelle Staubsauger, die wie ein Rucksack getragen werden. Bieten maximale Bewegungsfreiheit bei der Reinigung von Kinos, Bussen, Treppenhäusern oder engen Räumen.",
+    "slug": "buerosofas-und-loungesofas",
+    "name": "Bürosofas & Loungesofas",
+    "categoryNameCanonical": "Bürosofas & Loungesofas",
+    "description": "Repräsentative und komfortable Sofas für Wartebereiche, Empfangshallen, Büros oder moderne Wohnbereiche.",
     "subcategories": [
       {
-        "slug": "akku-rueckenstaubsauger",
-        "name": "Akku-Rückenstaubsauger",
-        "categoryNameCanonical": "Akku-Rückenstaubsauger",
-        "description": "Kabellose Modelle für höchste Flexibilität und Effizienz ohne Stolperfallen durch Kabel."
+        "slug": "2-sitzer-buerosofas",
+        "name": "2-Sitzer Bürosofas",
+        "categoryNameCanonical": "2-Sitzer Bürosofas",
+        "description": "Kompakte und stilvolle Zweisitzer, ideal für kleinere Wartezonen."
       },
       {
-        "slug": "kabelgebundene-rueckenstaubsauger",
-        "name": "Kabelgebundene Rückenstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Rückenstaubsauger",
-        "description": "Geräte mit Netzbetrieb für konstante, hohe Saugleistung bei langen Reinigungsintervallen."
+        "slug": "buerosofas-aus-kunstleder",
+        "name": "Bürosofas aus Kunstleder",
+        "categoryNameCanonical": "Bürosofas aus Kunstleder",
+        "description": "Pflegeleichte und professionell wirkende Sofas für den gewerblichen Einsatz."
       },
       {
-        "slug": "leichte-rueckenstaubsauger",
-        "name": "Leichte & ergonomische Rückenstaubsauger",
-        "categoryNameCanonical": "Leichte & ergonomische Rückenstaubsauger",
-        "description": "Modelle mit geringem Gewicht und gepolsterten Tragegurten für hohen Arbeitskomfort."
+        "slug": "modulare-loungesysteme",
+        "name": "Modulare Loungesysteme",
+        "categoryNameCanonical": "Modulare Loungesysteme",
+        "description": "Flexible Sitzlandschaften für große Empfangsbereiche oder Kreativzonen."
       }
     ]
   },
   {
-    "slug": "kinderstaubsauger",
-    "name": "Kinderstaubsauger",
-    "categoryNameCanonical": "Kinderstaubsauger",
-    "description": "Spielzeug-Staubsauger, die echten Geräten nachempfunden sind. Oft mit realistischen Geräuschen, Lichteffekten und Saugfunktion für kleine Kügelchen.",
+    "slug": "allergikergeeignete-sofas",
+    "name": "Allergikergeeignete Sofas",
+    "categoryNameCanonical": "Allergikergeeignete Sofas",
+    "description": "Sofas mit speziellen Bezügen und Polsterungen, die für Hausstauballergiker geeignet sind. Basierend auf der Suche 'sofa allergiker'.",
     "subcategories": [
       {
-        "slug": "kinderstaubsauger-mit-funktion",
-        "name": "Kinderstaubsauger mit echter Saugfunktion",
-        "categoryNameCanonical": "Kinderstaubsauger mit echter Saugfunktion",
-        "description": "Spielzeuge, die leichte Styroporkügelchen oder Papierschnipsel aufsaugen können."
+        "slug": "sofas-mit-kunstlederbezug",
+        "name": "Sofas mit Kunstlederbezug",
+        "categoryNameCanonical": "Sofas mit Kunstlederbezug",
+        "description": "Glatte, abwischbare Oberflächen, auf denen sich Milben schwer festsetzen können."
       },
       {
-        "slug": "lizenz-kinderstaubsauger",
-        "name": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "categoryNameCanonical": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "description": "Detailgetreue Nachbildungen bekannter Markenstaubsauger für ein realistisches Spielerlebnis."
+        "slug": "sofas-mit-mikrofaserbezug",
+        "name": "Sofas mit Mikrofaserbezug",
+        "categoryNameCanonical": "Sofas mit Mikrofaserbezug",
+        "description": "Sofas mit eng gewebten Stoffen, die das Eindringen von Allergenen reduzieren."
       },
       {
-        "slug": "kinderstaubsauger-aus-holz",
-        "name": "Kinderstaubsauger aus Holz",
-        "categoryNameCanonical": "Kinderstaubsauger aus Holz",
-        "description": "Robuste und nachhaltige Holzspielzeuge, die die Fantasie anregen und ohne Elektronik auskommen."
+        "slug": "sofas-mit-abnehmbaren-waschbaren-bezuegen",
+        "name": "Sofas mit abnehmbaren, waschbaren Bezügen",
+        "categoryNameCanonical": "Sofas mit abnehmbaren, waschbaren Bezügen",
+        "description": "Praktische Sofas, deren Bezüge zur hygienischen Reinigung abgenommen werden können."
       }
     ]
   },
   {
-    "slug": "zentralstaubsaugeranlagen",
-    "name": "Zentralstaubsauger-Anlagen",
-    "categoryNameCanonical": "Zentralstaubsauger-Anlagen",
-    "description": "Fest installierte Sauganlagen, bei denen eine zentrale Saugeinheit (z.B. im Keller) über ein Rohrsystem mit Saugdosen in den Wohnräumen verbunden ist.",
+    "slug": "palettensofas",
+    "name": "Palettensofas",
+    "categoryNameCanonical": "Palettensofas",
+    "description": "Trendige und individuelle Sofas im DIY-Stil, die aus Europaletten gebaut und mit passenden Polstern ausgestattet werden.",
     "subcategories": [
       {
-        "slug": "zentralstaubsauger-komplettsets",
-        "name": "Zentralstaubsauger Komplett-Sets",
-        "categoryNameCanonical": "Zentralstaubsauger Komplett-Sets",
-        "description": "Pakete bestehend aus Saugeinheit, Rohrsystem, Saugdosen und Saugschlauch-Set für den Einbau."
+        "slug": "palettensofa-polster-sets",
+        "name": "Palettensofa-Polster & Sets",
+        "categoryNameCanonical": "Palettensofa-Polster & Sets",
+        "description": "Passgenaue Sitz- und Rückenkissen für selbstgebaute Palettenmöbel."
       },
       {
-        "slug": "saugeinheiten-fuer-zentralstaubsauger",
-        "name": "Saugeinheiten für Zentralstaubsauger",
-        "categoryNameCanonical": "Saugeinheiten für Zentralstaubsauger",
-        "description": "Die Motoreinheiten der Anlage, erhältlich in verschiedenen Leistungsstufen je nach Hausgröße."
+        "slug": "palettensofas-fuer-den-garten",
+        "name": "Palettensofas für den Garten",
+        "categoryNameCanonical": "Palettensofas für den Garten",
+        "description": "Komplette Palettensofas oder Polster mit wetterfesten Bezügen für den Außenbereich."
       },
       {
-        "slug": "zubehoer-fuer-zentralstaubsauger",
-        "name": "Zubehör für Zentralstaubsauger",
-        "categoryNameCanonical": "Zubehör für Zentralstaubsauger",
-        "description": "Saugschläuche, Saugdosen, Bürsten und Düsen für bestehende Zentralstaubsauger-Anlagen."
+        "slug": "palettensofas-indoor",
+        "name": "Palettensofas Indoor",
+        "categoryNameCanonical": "Palettensofas Indoor",
+        "description": "Behandelte Paletten und gemütliche Polster für den Einsatz im Wohnzimmer."
       }
     ]
   },
   {
-    "slug": "staubsauger-zubehoer",
-    "name": "Staubsauger Zubehör",
-    "categoryNameCanonical": "Staubsauger Zubehör",
-    "description": "Allgemeines Zubehör zur Erweiterung der Funktionalität oder Reparatur Ihres Staubsaugers. Umfasst Düsen, Bürsten, Schläuche und mehr.",
+    "slug": "cordsofas",
+    "name": "Cordsofas",
+    "categoryNameCanonical": "Cordsofas",
+    "description": "Gemütliche Sofas mit einem Bezug aus Cordstoff, der für seine Langlebigkeit, weiche Haptik und charakteristische Rippenstruktur bekannt ist.",
     "subcategories": [
       {
-        "slug": "staubsaugerduesen-und-buersten",
-        "name": "Staubsaugerdüsen & -bürsten",
-        "categoryNameCanonical": "Staubsaugerdüsen & -bürsten",
-        "description": "Spezialdüsen für Hartböden, Teppiche (Turbodüsen), Polster, Fugen und empfindliche Oberflächen."
+        "slug": "ecksofas-aus-cord",
+        "name": "Ecksofas aus Cord",
+        "categoryNameCanonical": "Ecksofas aus Cord",
+        "description": "Großzügige Ecksofas im Cord-Look für ein modernes und gemütliches Ambiente."
       },
       {
-        "slug": "staubsaugerschlaeuche-und-rohre",
-        "name": "Staubsaugerschläuche & -rohre",
-        "categoryNameCanonical": "Staubsaugerschläuche & -rohre",
-        "description": "Ersatzschläuche, Teleskoprohre und Verlängerungen für verschiedene Staubsaugermodelle."
+        "slug": "3-sitzer-cordsofas",
+        "name": "3-Sitzer Cordsofas",
+        "categoryNameCanonical": "3-Sitzer Cordsofas",
+        "description": "Klassische Dreisitzer mit dem trendigen und robusten Cordbezug."
       },
       {
-        "slug": "staubsauger-akkus-und-ladegeraete",
-        "name": "Staubsauger-Akkus & Ladegeräte",
-        "categoryNameCanonical": "Staubsauger-Akkus & Ladegeräte",
-        "description": "Ersatz- und Zweitakkus sowie Ladestationen für Akkustaubsauger."
-      },
-      {
-        "slug": "staubsauger-duftstaebchen",
-        "name": "Staubsauger-Duftstäbchen & Deos",
-        "categoryNameCanonical": "Staubsauger-Duftstäbchen & Deos",
-        "description": "Duftpatronen, die in den Staubsaugerbeutel oder Filter gegeben werden und für frischen Duft sorgen."
+        "slug": "cordsofas-in-beige",
+        "name": "Cordsofas in Beige",
+        "categoryNameCanonical": "Cordsofas in Beige",
+        "description": "Besonders beliebte Cordsofas in hellen, natürlichen Farbtönen."
       }
     ]
   },
   {
-    "slug": "staubsaugerbeutel",
-    "name": "Staubsaugerbeutel",
-    "categoryNameCanonical": "Staubsaugerbeutel",
-    "description": "Ersatzbeutel für Bodenstaubsauger mit Beutel. Verfügbar als Original-Markenbeutel oder als kompatible Alternativen für eine Vielzahl von Modellen.",
+    "slug": "boxspringsofas",
+    "name": "Boxspringsofas",
+    "categoryNameCanonical": "Boxspringsofas",
+    "description": "Besonders komfortable Sofas mit einem speziellen Federungsaufbau, ähnlich wie bei Boxspringbetten, für ein hohes und bequemes Sitzerlebnis.",
     "subcategories": [
       {
-        "slug": "original-hersteller-staubsaugerbeutel",
-        "name": "Original-Marken-Staubsaugerbeutel",
-        "categoryNameCanonical": "Original-Marken-Staubsaugerbeutel",
-        "description": "Vom Hersteller (z.B. Miele, Siemens, Bosch) empfohlene Beutel für optimale Passform und Filterleistung."
+        "slug": "boxspringsofas-mit-schlaffunktion",
+        "name": "Boxspringsofas mit Schlaffunktion",
+        "categoryNameCanonical": "Boxspringsofas mit Schlaffunktion",
+        "description": "Sofas, die den hohen Sitzkomfort mit einer vollwertigen Schlafmöglichkeit kombinieren."
       },
       {
-        "slug": "kompatible-staubsaugerbeutel",
-        "name": "Kompatible Staubsaugerbeutel",
-        "categoryNameCanonical": "Kompatible Staubsaugerbeutel",
-        "description": "Preisgünstige Alternativbeutel von Drittherstellern, die für bestimmte Staubsaugermodelle passend sind."
+        "slug": "ecksofas-mit-boxspringpolsterung",
+        "name": "Ecksofas mit Boxspringpolsterung",
+        "categoryNameCanonical": "Ecksofas mit Boxspringpolsterung",
+        "description": "Große Wohnlandschaften mit dem speziellen Boxspring-Aufbau."
       },
       {
-        "slug": "vlies-staubsaugerbeutel",
-        "name": "Vlies-Staubbeutel",
-        "categoryNameCanonical": "Vlies-Staubbeutel",
-        "description": "Mehrlagige Synthetik-Beutel, die reißfester sind und eine bessere Filterung als Papierbeutel bieten."
-      },
-      {
-        "slug": "universal-staubsaugerbeutel",
-        "name": "Universal-Staubsaugerbeutel",
-        "categoryNameCanonical": "Universal-Staubsaugerbeutel",
-        "description": "Zuschneidbare Beutel oder solche mit Universal-Anschlussplatte, die für viele verschiedene Modelle passen."
+        "slug": "boxspringsofas-mit-topper",
+        "name": "Boxspringsofas mit Topper",
+        "categoryNameCanonical": "Boxspringsofas mit Topper",
+        "description": "Modelle, bei denen ein zusätzlicher Topper den Sitz- und Liegekomfort weiter erhöht."
       }
     ]
   },
   {
-    "slug": "staubsaugerfilter",
-    "name": "Staubsaugerfilter",
-    "categoryNameCanonical": "Staubsaugerfilter",
-    "description": "Wichtige Ersatzteile zur Aufrechterhaltung der Saugleistung und Luftqualität. Umfasst Motor-, Abluft-, HEPA- und Schaumstofffilter.",
+    "slug": "sofas-mit-verstellbaren-elementen",
+    "name": "Sofas mit verstellbaren Elementen",
+    "categoryNameCanonical": "Sofas mit verstellbaren Elementen",
+    "description": "Flexible Sofas mit anpassbaren Funktionen wie verstellbaren Kopfstützen, Armlehnen oder Sitztiefen. Inspiriert von 'sofa adjustable'.",
     "subcategories": [
       {
-        "slug": "hepa-filter-fuer-staubsauger",
-        "name": "HEPA-Filter",
-        "categoryNameCanonical": "HEPA-Filter",
-        "description": "Hocheffiziente Partikelfilter (High-Efficiency Particulate Air) für eine besonders saubere Abluft, ideal für Allergiker."
+        "slug": "sofas-mit-verstellbaren-kopfstuetzen",
+        "name": "Sofas mit verstellbaren Kopfstützen",
+        "categoryNameCanonical": "Sofas mit verstellbaren Kopfstützen",
+        "description": "Sofas, bei denen die Nackenstützen individuell in der Höhe und Neigung angepasst werden können."
       },
       {
-        "slug": "motorschutzfilter-fuer-staubsauger",
-        "name": "Motorschutzfilter",
-        "categoryNameCanonical": "Motorschutzfilter",
-        "description": "Filter, die vor dem Motor sitzen, um ihn vor grobem Schmutz und Staub zu schützen und seine Lebensdauer zu verlängern."
+        "slug": "sofas-mit-sitztiefenverstellung",
+        "name": "Sofas mit Sitztiefenverstellung",
+        "categoryNameCanonical": "Sofas mit Sitztiefenverstellung",
+        "description": "Modelle, bei denen die Tiefe der Sitzfläche manuell oder elektrisch verändert werden kann."
       },
       {
-        "slug": "abluftfilter-fuer-staubsauger",
-        "name": "Abluftfilter (Mikrofilter)",
-        "categoryNameCanonical": "Abluftfilter (Mikrofilter)",
-        "description": "Filter am Luftauslass des Staubsaugers, die feine Partikel zurückhalten, bevor die Luft in den Raum zurückgeblasen wird."
-      },
-      {
-        "slug": "filter-sets-fuer-staubsauger",
-        "name": "Filter-Sets",
-        "categoryNameCanonical": "Filter-Sets",
-        "description": "Praktische Sets, die alle notwendigen Filter (z.B. Motor- und Abluftfilter) für einen kompletten Austausch enthalten."
+        "slug": "sofas-mit-klappbaren-armlehnen",
+        "name": "Sofas mit klappbaren Armlehnen",
+        "categoryNameCanonical": "Sofas mit klappbaren Armlehnen",
+        "description": "Sofas, deren Armlehnen in verschiedenen Positionen arretiert werden können."
       }
     ]
   },
   {
-    "slug": "staubsaugeradapter",
-    "name": "Staubsaugeradapter",
-    "categoryNameCanonical": "Staubsaugeradapter",
-    "description": "Verbindungsstücke und Reduzierhülsen, um Zubehör mit unterschiedlichen Durchmessern oder von verschiedenen Marken miteinander kompatibel zu machen.",
+    "slug": "sofa-zubehoer",
+    "name": "Sofa-Zubehör",
+    "categoryNameCanonical": "Sofa-Zubehör",
+    "description": "Alles, was Sofas komfortabler, funktionaler oder langlebiger macht. Basiert auf Suchen wie 'sofa accessoires' und 'sofa adapter'.",
     "subcategories": [
       {
-        "slug": "adapter-fuer-elektrowerkzeuge",
-        "name": "Adapter für Elektrowerkzeuge",
-        "categoryNameCanonical": "Adapter für Elektrowerkzeuge",
-        "description": "Spezielle Adapter zum Anschluss eines Werkstattsaugers an Sägen, Schleifer oder Bohrmaschinen zur Staubabsaugung."
+        "slug": "sofakissen-und-dekokissen",
+        "name": "Sofakissen & Dekokissen",
+        "categoryNameCanonical": "Sofakissen & Dekokissen",
+        "description": "Kissen in verschiedenen Größen, Farben und Materialien zur Dekoration und Komfortsteigerung."
       },
       {
-        "slug": "reduzierstuecke-fuer-staubsauger",
-        "name": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "categoryNameCanonical": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "description": "Hülsen zur Anpassung des Anschlussdurchmessers, um z.B. eine 32mm Düse an einem 35mm Rohr zu verwenden."
+        "slug": "sofafuesse-und-moebelfuesse",
+        "name": "Sofafüße & Möbelfüße",
+        "categoryNameCanonical": "Sofafüße & Möbelfüße",
+        "description": "Ersatz- oder Upgrade-Füße aus Holz, Metall oder Kunststoff, um die Höhe oder den Stil eines Sofas zu ändern."
       },
       {
-        "slug": "universaladapter-sets-fuer-staubsauger",
-        "name": "Universaladapter-Sets",
-        "categoryNameCanonical": "Universaladapter-Sets",
-        "description": "Mehrteilige Sets mit verschiedenen Adaptern, um eine breite Palette an Zubehörteilen und Saugern zu verbinden."
+        "slug": "anti-rutsch-pads-fuer-sofakissen",
+        "name": "Anti-Rutsch-Pads für Sofakissen",
+        "categoryNameCanonical": "Anti-Rutsch-Pads für Sofakissen",
+        "description": "Praktische Unterlagen, die verhindern, dass Sitzkissen ständig verrutschen."
       },
       {
-        "slug": "markenspezifische-adapter",
-        "name": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "categoryNameCanonical": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "description": "Adapter, die speziell dafür entwickelt wurden, Zubehörteile verschiedener bekannter Marken zu verbinden."
+        "slug": "reparatursets-fuer-sofas",
+        "name": "Reparatursets für Sofas",
+        "categoryNameCanonical": "Reparatursets für Sofas",
+        "description": "Sets zur Ausbesserung von Kratzern, Rissen oder Löchern in Leder- oder Stoffbezügen."
       }
     ]
   },
   {
-    "slug": "teichschlammsauger",
-    "name": "Teichschlammsauger",
-    "categoryNameCanonical": "Teichschlammsauger",
-    "description": "Leistungsstarke Sauger zur Entfernung von Schlamm, Algen und Pflanzenresten vom Grund eines Gartenteichs, um die Wasserqualität zu verbessern.",
+    "slug": "stoffsofas",
+    "name": "Stoffsofas",
+    "categoryNameCanonical": "Stoffsofas",
+    "description": "Eine breite Kategorie von Sofas mit textilen Bezügen, die in unzähligen Farben, Mustern und Materialstrukturen erhältlich sind.",
     "subcategories": [
       {
-        "slug": "teichsauger-mit-automatischer-entleerung",
-        "name": "Teichsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Teichsauger mit automatischer Entleerung",
-        "description": "Modelle mit Zwei-Kammer-System, die ein kontinuierliches Saugen ohne Pausen zum Entleeren ermöglichen."
+        "slug": "sofas-aus-mikrofaser",
+        "name": "Sofas aus Mikrofaser",
+        "categoryNameCanonical": "Sofas aus Mikrofaser",
+        "description": "Besonders pflegeleichte und strapazierfähige Stoffsofas, ideal für Familien und Haustierbesitzer."
       },
       {
-        "slug": "multifunktionale-teichsauger",
-        "name": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "categoryNameCanonical": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "description": "Vielseitige Geräte, die sowohl zur Teichreinigung als auch als klassischer Nass-Trocken-Sauger verwendet werden können."
+        "slug": "sofas-aus-leinen",
+        "name": "Sofas aus Leinen",
+        "categoryNameCanonical": "Sofas aus Leinen",
+        "description": "Sofas mit einem natürlichen, atmungsaktiven und kühlenden Leinenbezug."
       },
       {
-        "slug": "teichsauger-sets-mit-zubehoer",
-        "name": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "categoryNameCanonical": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "description": "Komplettpakete mit verschiedenen Düsen, Teleskopstangen und langen Saug- und Ablaufschläuchen."
+        "slug": "sofas-aus-strukturstoff",
+        "name": "Sofas aus Strukturstoff",
+        "categoryNameCanonical": "Sofas aus Strukturstoff",
+        "description": "Sofas mit robusten, grob gewebten Stoffen, die eine interessante Haptik bieten."
+      },
+      {
+        "slug": "sofas-mit-abnehmbaren-bezuegen",
+        "name": "Sofas mit abnehmbaren Bezügen",
+        "categoryNameCanonical": "Sofas mit abnehmbaren Bezügen",
+        "description": "Praktische Stoffsofas, deren Bezüge komplett abgenommen und gewaschen werden können."
       }
     ]
   },
   {
-    "slug": "staubsauger-nach-leistung",
-    "name": "Staubsauger nach Leistung",
-    "categoryNameCanonical": "Staubsauger nach Leistung",
-    "description": "Kategorisierung von Staubsaugern basierend auf ihrer Leistungsaufnahme (Watt) oder Saugleistung (Pascal), um das passende Gerät für Ihre Anforderungen zu finden.",
+    "slug": "rattansofas",
+    "name": "Rattansofas",
+    "categoryNameCanonical": "Rattansofas",
+    "description": "Sofas mit einem Gestell aus Rattan oder Polyrattan, die ein natürliches und leichtes Flair in den Wohnraum oder Wintergarten bringen.",
     "subcategories": [
       {
-        "slug": "staubsauger-ueber-800-watt",
-        "name": "Staubsauger über 800 Watt (kabelgebunden)",
-        "categoryNameCanonical": "Staubsauger über 800 Watt (kabelgebunden)",
-        "description": "Leistungsstarke Boden- und Industriestaubsauger für maximale Saugkraft und die Tiefenreinigung von Teppichen."
+        "slug": "2-sitzer-rattansofas",
+        "name": "2-Sitzer Rattansofas",
+        "categoryNameCanonical": "2-Sitzer Rattansofas",
+        "description": "Kompakte Sofas aus Rattan, oft kombiniert mit bequemen Sitzpolstern."
       },
       {
-        "slug": "akkustaubsauger-ueber-20-kpa",
-        "name": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "categoryNameCanonical": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "description": "Kraftvolle, kabellose Modelle, deren Saugleistung mit der von kabelgebundenen Geräten konkurrieren kann."
+        "slug": "rattan-lounge-sets",
+        "name": "Rattan-Lounge-Sets",
+        "categoryNameCanonical": "Rattan-Lounge-Sets",
+        "description": "Komplette Sitzgruppen aus Rattansofa, Sesseln und Tisch für den Innen- oder geschützten Außenbereich."
       },
       {
-        "slug": "energiesparende-staubsauger",
-        "name": "Energiesparende Staubsauger (unter 700 Watt)",
-        "categoryNameCanonical": "Energiesparende Staubsauger (unter 700 Watt)",
-        "description": "Effiziente Modelle, die trotz geringerer Leistungsaufnahme eine gute Reinigungsleistung erzielen."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-nach-einsatzbereich",
-    "name": "Staubsauger nach Einsatzbereich",
-    "categoryNameCanonical": "Staubsauger nach Einsatzbereich",
-    "description": "Finden Sie den perfekten Staubsauger, der speziell auf die vorherrschenden Bodenbeläge oder besonderen Herausforderungen in Ihrem Zuhause zugeschnitten ist.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-fuer-hartboeden",
-        "name": "Staubsauger für Hartböden",
-        "categoryNameCanonical": "Staubsauger für Hartböden",
-        "description": "Geräte mit speziellen Parkett- oder Hartbodendüsen, die empfindliche Böden schonen und effektiv reinigen."
-      },
-      {
-        "slug": "staubsauger-fuer-teppiche",
-        "name": "Staubsauger für Teppiche",
-        "categoryNameCanonical": "Staubsauger für Teppiche",
-        "description": "Modelle mit hoher Saugkraft und elektrischen oder Turbobürsten zur Tiefenreinigung von Teppichfasern."
-      },
-      {
-        "slug": "staubsauger-fuer-gemischte-boeden",
-        "name": "Staubsauger für gemischte Bodenbeläge",
-        "categoryNameCanonical": "Staubsauger für gemischte Bodenbeläge",
-        "description": "Allrounder mit umschaltbaren Kombidüsen oder automatischer Bodenerkennung für Haushalte mit Hartböden und Teppichen."
-      }
-    ]
-  },
-  {
-    "slug": "dampfsauger",
-    "name": "Dampfsauger",
-    "categoryNameCanonical": "Dampfsauger",
-    "description": "Kombinationsgeräte, die heißen Dampf zur Desinfektion und Lösung von Schmutz verwenden und den gelösten Schmutz sowie das Wasser sofort wieder aufsaugen.",
-    "subcategories": [
-      {
-        "slug": "dampfsauger-fuer-boeden",
-        "name": "Dampfsauger für Böden",
-        "categoryNameCanonical": "Dampfsauger für Böden",
-        "description": "Geräte zur chemiefreien, hygienischen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
-      },
-      {
-        "slug": "dampfsauger-mit-buegelfunktion",
-        "name": "Dampfsauger mit Bügelfunktion",
-        "categoryNameCanonical": "Dampfsauger mit Bügelfunktion",
-        "description": "Multifunktionale Systeme, an die ein professionelles Dampfbügeleisen angeschlossen werden kann."
-      },
-      {
-        "slug": "professionelle-dampfsauger",
-        "name": "Professionelle Dampfsauger",
-        "categoryNameCanonical": "Professionelle Dampfsauger",
-        "description": "Robuste Geräte mit hohem Dampfdruck und großer Kesselkapazität für den gewerblichen Einsatz."
-      }
-    ]
-  },
-  {
-    "slug": "tischstaubsauger",
-    "name": "Tischstaubsauger",
-    "categoryNameCanonical": "Tischstaubsauger",
-    "description": "Sehr kleine, oft batteriebetriebene Mini-Sauger zur schnellen Entfernung von Krümeln, Staub oder Radiergummiresten vom Schreibtisch oder Esstisch.",
-    "subcategories": [
-      {
-        "slug": "akku-tischstaubsauger",
-        "name": "Akku- & batteriebetriebene Tischstaubsauger",
-        "categoryNameCanonical": "Akku- & batteriebetriebene Tischstaubsauger",
-        "description": "Kabellose, handliche Kleingeräte, die immer griffbereit sind."
-      },
-      {
-        "slug": "tischstaubsauger-design",
-        "name": "Design-Tischstaubsauger",
-        "categoryNameCanonical": "Design-Tischstaubsauger",
-        "description": "Kompakte Sauger in lustigen Formen (z.B. Marienkäfer) oder stilvollem Design."
-      },
-      {
-        "slug": "tischstaubsauger-fuer-buero",
-        "name": "Tischstaubsauger für Büro & Tastatur",
-        "categoryNameCanonical": "Tischstaubsauger für Büro & Tastatur",
-        "description": "Mini-Sauger mit kleinen Bürstenaufsätzen zur Reinigung von Tastaturen und Schreibtischoberflächen."
-      }
-    ]
-  },
-  {
-    "slug": "leichte-staubsauger",
-    "name": "Leichte Staubsauger",
-    "categoryNameCanonical": "Leichte Staubsauger",
-    "description": "Staubsauger mit einem besonders geringen Gewicht für eine mühelose Handhabung, ideal für mehrstöckige Wohnungen, Treppen oder Personen, die nicht schwer heben möchten.",
-    "subcategories": [
-      {
-        "slug": "stielstaubsauger-unter-3kg",
-        "name": "Stielstaubsauger unter 3 kg",
-        "categoryNameCanonical": "Stielstaubsauger unter 3 kg",
-        "description": "Extrem leichte, oft kabellose Modelle, die sich einfach manövrieren und anheben lassen."
-      },
-      {
-        "slug": "kompakte-bodenstaubsauger",
-        "name": "Kompakte Bodenstaubsauger",
-        "categoryNameCanonical": "Kompakte Bodenstaubsauger",
-        "description": "Kleine und leichte, kabelgebundene Staubsauger, die sich einfach tragen und verstauen lassen."
-      },
-      {
-        "slug": "handstaubsauger-unter-1kg",
-        "name": "Handstaubsauger unter 1 kg",
-        "categoryNameCanonical": "Handstaubsauger unter 1 kg",
-        "description": "Federleichte Handgeräte für die schnelle und unkomplizierte Reinigung zwischendurch."
-      }
-    ]
-  },
-  {
-    "slug": "leise-staubsauger-allgemein",
-    "name": "Leise Staubsauger",
-    "categoryNameCanonical": "Leise Staubsauger",
-    "description": "Eine Auswahl an Staubsaugern verschiedener Bauarten (Boden-, Akku-, Roboterstaubsauger), die sich durch einen besonders geräuscharmen Betrieb auszeichnen.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-unter-65-db",
-        "name": "Staubsauger unter 65 dB (Extra leise)",
-        "categoryNameCanonical": "Staubsauger unter 65 dB (Extra leise)",
-        "description": "Flüsterleise Modelle, die das Staubsaugen auch in den Abendstunden oder bei schlafenden Kindern ermöglichen."
-      },
-      {
-        "slug": "leise-bodenstaubsauger-spezial",
-        "name": "Leise Bodenstaubsauger",
-        "categoryNameCanonical": "Leise Bodenstaubsauger",
-        "description": "Kabelgebundene Modelle mit spezieller Schalldämmung für eine ruhige und dennoch gründliche Reinigung."
-      },
-      {
-        "slug": "leise-akkustaubsauger",
-        "name": "Leise Akkustaubsauger",
-        "categoryNameCanonical": "Leise Akkustaubsauger",
-        "description": "Kabellose Staubsauger, die für einen geräuscharmen Betrieb optimiert sind, oft mit speziellen Eco-Modi."
-      },
-      {
-        "slug": "leise-saugroboter",
-        "name": "Leise Saugroboter",
-        "categoryNameCanonical": "Leise Saugroboter",
-        "description": "Autonome Reiniger, die unauffällig im Hintergrund arbeiten, ohne zu stören."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-reparatur-ersatzteile",
-    "name": "Staubsauger Reparatur & Ersatzteile",
-    "categoryNameCanonical": "Staubsauger Reparatur & Ersatzteile",
-    "description": "Einzelne Bauteile und Ersatzteile zur Reparatur und Wartung Ihres Staubsaugers, um seine Lebensdauer zu verlängern.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-motoren",
-        "name": "Staubsauger-Motoren",
-        "categoryNameCanonical": "Staubsauger-Motoren",
-        "description": "Ersatzmotoren für verschiedene Staubsaugermarken und -modelle."
-      },
-      {
-        "slug": "staubsauger-raeder-und-rollen",
-        "name": "Räder und Rollen für Staubsauger",
-        "categoryNameCanonical": "Räder und Rollen für Staubsauger",
-        "description": "Ersatzräder für Bodendüsen und den Korpus des Staubsaugers."
-      },
-      {
-        "slug": "schalter-und-elektronik-fuer-staubsauger",
-        "name": "Schalter und Elektronik für Staubsauger",
-        "categoryNameCanonical": "Schalter und Elektronik für Staubsauger",
-        "description": "Ersatzteile wie Ein-/Ausschalter, Leistungsregler und Platinen."
-      },
-      {
-        "slug": "kohlebuersten-fuer-staubsaugermotoren",
-        "name": "Kohlebürsten für Staubsaugermotoren",
-        "categoryNameCanonical": "Kohlebürsten für Staubsaugermotoren",
-        "description": "Verschleißteile für den Elektromotor, die bei Abnutzung ausgetauscht werden können."
+        "slug": "haengende-rattansofas",
+        "name": "Hängende Rattansofas",
+        "categoryNameCanonical": "Hängende Rattansofas",
+        "description": "Schwebende Sofas oder 2-Personen-Hängesessel aus Rattan für ein entspanntes Gefühl."
       }
     ]
   }
