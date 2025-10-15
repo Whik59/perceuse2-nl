@@ -1,7 +1,7 @@
 {
   "navigation": {
     "home": "Startseite",
-    "products": "Sofas",
+    "products": "Kopfhörer",
     "categories": "Kategorien",
     "cart": "Auswahl",
     "checkout": "Amazon",
@@ -9,12 +9,12 @@
     "contact": "Kontakt"
   },
   "categories": {
-    "title": "Sofas-Kategorien",
+    "title": "Kopfhörer-Kategorien",
     "hero": {
-      "title": "Finden Sie das perfekte Sofa für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Sofas"
+      "title": "Finden Sie die perfekten Kopfhörer für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Kopfhörer"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Sofas-Kategorien",
+    "subtitle": "Erkunden Sie unsere spezialisierten Kopfhörer-Kategorien",
     "browseAll": "Alle Kategorien anzeigen",
     "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
     "loading": "Kategorien werden geladen...",
@@ -40,7 +40,7 @@
     "allSubcategories": "Alle Unterkategorien",
     "subcategoriesDescription": "Erkunden Sie alle verfügbaren Unterkategorien",
     "needHelp": "Brauchen Sie Hilfe?",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, das perfekte Sofa zu finden",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekten Kopfhörer zu finden",
     "backToHome": "Zurück zur Startseite",
     "exploreBySpecialty": "Nach Spezialität erkunden",
     "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
@@ -71,8 +71,8 @@
     "confirm": "Bestätigen",
     "loading": "Laden...",
     "error": "Ein Fehler ist aufgetreten",
-    "siteName": "Sofas",
-    "companyName": "Sofas",
+    "siteName": "Kopfhörer",
+    "companyName": "Kopfhörer",
     "home": "Startseite",
     "linkCopied": "Link kopiert",
     "qualityExceptional": "Außergewöhnliche Qualität",
@@ -82,7 +82,7 @@
     "somethingWrong": "Etwas ist schief gelaufen",
     "tryAgain": "Erneut versuchen",
     "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Sofas nicht gefunden",
+    "productNotFound": "Kopfhörer nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
     "amazonUnavailable": "Amazon nicht verfügbar",
@@ -96,9 +96,9 @@
     }
   },
   "search": {
-    "placeholder": "Sofas suchen...",
-    "noResults": "Keine Sofas gefunden",
-    "searchFor": "Sofas suchen",
+    "placeholder": "Kopfhörer suchen...",
+    "noResults": "Keine Kopfhörer gefunden",
+    "searchFor": "Kopfhörer suchen",
     "suggestions": "Vorschläge:",
     "all": "Alle",
     "products": "Produkte",
@@ -127,7 +127,7 @@
     "verified": "Verifiziert",
     "rating": "4,9/5",
     "search": {
-      "placeholder": "Sofas suchen..."
+      "placeholder": "Kopfhörer suchen..."
     },
     "support": "Support",
     "cart": {
@@ -163,10 +163,10 @@
     "viaAmazon": "via Amazon",
     "amazonLogo": "/Amazon_icon.svg"
   },
-  "siteName": "Ihr perfektes Sofa",
-  "companyName": "Sofas GmbH",
-  "products": "Sofas",
-  "productNotFound": "Sofas nicht gefunden",
+  "siteName": "Ihre perfekten Kopfhörer",
+  "companyName": "Kopfhörer GmbH",
+  "products": "Kopfhörer",
+  "productNotFound": "Kopfhörer nicht gefunden",
   "banner": {
     "discount": "Rabatt",
     "clientReviews": "Kundenbewertungen",
@@ -186,24 +186,24 @@
   },
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Sofas zu helfen",
+    "subtitle": "Wir sind da, um Ihnen bei allen Fragen zu unseren Kopfhörer zu helfen",
   "faq": {
     "title": "Häufig gestellte Fragen",
     "categoryTitle": "Häufig gestellte Fragen",
-    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Sofas, Lieferung, Rückgabe und mehr.",
+    "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Kopfhörer, Lieferung, Rückgabe und mehr.",
     "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
     "contactTeam": "Kontaktieren Sie unser Team",
     "sendEmail": "E-Mail senden",
     "questions": [
       {
         "id": "1",
-        "question": "Wie lange hält die Qualität der Sofas?",
-        "answer": "Unsere Sofas haben eine langlebige Konstruktion, die je nach Modell 3 bis 7 Jahre halten kann. Sie sind für effizientes Sitzen optimiert und garantieren außergewöhnliche Komfortergebnisse bei jeder Verwendung."
+        "question": "Wie lange hält die Qualität der Kopfhörer?",
+        "answer": "Unsere Kopfhörer haben eine langlebige Konstruktion, die je nach Modell 3 bis 7 Jahre halten kann. Sie sind für effizientes Hören optimiert und garantieren außergewöhnliche Klangergebnisse bei jeder Verwendung."
       },
       {
         "id": "2",
-        "question": "Sind die Sofas sicher?",
-        "answer": "Absolut. Alle unsere Sofas entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und werden mit robusten Komponenten hergestellt."
+        "question": "Sind die Kopfhörer sicher?",
+        "answer": "Absolut. Alle unsere Kopfhörer entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und werden mit robusten Komponenten hergestellt."
       },
       {
         "id": "3",
@@ -212,28 +212,28 @@
       },
       {
         "id": "4",
-        "question": "Kann ich Sofas zurückgeben, wenn ich nicht zufrieden bin?",
-        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Sofas in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
+        "question": "Kann ich Kopfhörer zurückgeben, wenn ich nicht zufrieden bin?",
+        "answer": "Ja, wir bieten eine 30-tägige Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Kopfhörer in der Originalverpackung für eine vollständige Rückerstattung zurücksenden."
       },
       {
         "id": "5",
-        "question": "Wie verwende ich Sofas?",
-        "answer": "Unsere Sofas sind sehr einfach zu verwenden. Sie müssen nur das Sofa aufstellen, die gewünschte Position wählen und sich entspannen. Nach dem Sitzen können Sie es einfach verlassen. Ein Timer zeigt Ihnen die verbleibende Entspannungszeit."
+        "question": "Wie verwende ich Kopfhörer?",
+        "answer": "Unsere Kopfhörer sind sehr einfach zu verwenden. Sie müssen nur die Kopfhörer aufsetzen, die gewünschte Lautstärke wählen und Musik genießen. Nach dem Hören können Sie sie einfach absetzen. Ein Timer zeigt Ihnen die verbleibende Hörzeit."
       },
       {
         "id": "6",
-        "question": "Welche Komfortstufen sind verfügbar?",
-        "answer": "Die meisten unserer Sofas bieten verschiedene Komfortstufen von sanft bis intensiv, normalerweise in mehreren Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Komfortstufe ist für perfektes Entspannen aller Positionen optimiert."
+        "question": "Welche Lautstärkestufen sind verfügbar?",
+        "answer": "Die meisten unserer Kopfhörer bieten verschiedene Lautstärkestufen von sanft bis intensiv, normalerweise in mehreren Stufen einstellbar. Einige Premium-Modelle bieten eine kontinuierliche Einstellung. Die maximale Lautstärke ist für perfektes Hören aller Musikgenres optimiert."
       },
       {
         "id": "7",
-        "question": "Gibt es eine Garantie auf die Sofas?",
-        "answer": "Alle unsere Sofas sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
+        "question": "Gibt es eine Garantie auf die Kopfhörer?",
+        "answer": "Alle unsere Kopfhörer sind mit einer 2-jährigen Herstellergarantie abgedeckt, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Um die Garantie geltend zu machen, bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice."
       },
       {
         "id": "8",
-        "question": "Wie reinige und pflege ich mein Sofa?",
-        "answer": "Die Pflege ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Für die Polster können Sie sie mit warmem Wasser und Seife waschen. Überprüfen Sie regelmäßig das Sofa und reinigen Sie es gemäß den Anweisungen des Herstellers."
+        "question": "Wie reinige und pflege ich meine Kopfhörer?",
+        "answer": "Die Pflege ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch zum Reinigen der Außenseite. Vermeiden Sie aggressive chemische Produkte. Für die Ohrpolster können Sie sie mit warmem Wasser und Seife waschen. Überprüfen Sie regelmäßig die Kopfhörer und reinigen Sie sie gemäß den Anweisungen des Herstellers."
       }
     ],
     "deliveryTime": {
@@ -295,7 +295,7 @@
     "proceedToCheckout": "Zur Kasse gehen",
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Sofas zu Ihrer Auswahl hinzu, um fortzufahren",
+      "description": "Fügen Sie Kopfhörer zu Ihrer Auswahl hinzu, um fortzufahren",
       "button": "Zurück zum Shop"
     },
     "removeFromCart": "Aus Warenkorb entfernen",
@@ -320,7 +320,7 @@
     "buyNow": "Jetzt kaufen",
     "viewFullSelection": "Meine vollständige Auswahl anzeigen",
     "pageTitle": "Ihre Auswahl",
-    "pageSubtitle": "Ihre ausgewählten Sofas - Kaufen Sie direkt bei Amazon",
+    "pageSubtitle": "Ihre ausgewählten Kopfhörer - Kaufen Sie direkt bei Amazon",
     "summary": "Zusammenfassung",
     "items": "Artikel",
     "clearCart": "Auswahl leeren",
@@ -341,8 +341,8 @@
   "checkout": {
     "empty": {
       "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Sofas zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
-      "button": "Unsere Sofas entdecken"
+      "description": "Fügen Sie Kopfhörer zu Ihrer Auswahl hinzu, bevor Sie mit der Zahlung fortfahren",
+      "button": "Unsere Kopfhörer entdecken"
     },
     "backToCart": "Zurück zur Auswahl",
     "pageTitle": "Ihren Kauf abschließen",
@@ -448,7 +448,7 @@
       "subtitle": ""
     },
     "alsoLike": "Das könnte Ihnen auch gefallen",
-    "alsoLikeSubtitle": "Andere Sofas, die Sie interessieren könnten",
+    "alsoLikeSubtitle": "Andere Kopfhörer, die Sie interessieren könnten",
     "buyNow": "Jetzt kaufen",
     "viewProduct": "Ansehen",
     "whyChoose": "Warum {productTitle} wählen",
@@ -469,7 +469,7 @@
     "paymentInstallments": "Ratenzahlung",
     "secureTransaction": "Sichere Transaktion",
     "delivery48h": "Lieferung in 48h",
-    "ourShop": "Sofas kaufen",
+    "ourShop": "Kopfhörer kaufen",
     "outOfStock": "Nicht auf Lager",
     "offer24h": "24h Angebot",
     "checkAvailability": "Verfügbarkeit prüfen",
@@ -513,8 +513,8 @@
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Sofas!",
-      "subtitle": "Effizientes und gemütliches Sitzen. Qualität und Komfort garantiert.",
+      "title": "Perfekte Kopfhörer!",
+      "subtitle": "Effizientes und kristallklares Hören. Qualität und Klang garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -526,16 +526,16 @@
     },
     "features": {
       "quality": {
-      "title": "Gemütliches Sitzen",
-      "description": "Bis zu 99,9% Effizienz beim Sitzen. Perfekt für außergewöhnliche Komfortergebnisse ohne Kompromisse."
+      "title": "Kristallklares Hören",
+      "description": "Bis zu 99,9% Effizienz beim Hören. Perfekt für außergewöhnliche Klangergebnisse ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Kontrolle",
-        "description": "Präzise Komfortkontrolle von sanft bis intensiv. Passt die Stärke an jeden Bereich an."
+        "description": "Präzise Klangkontrolle von sanft bis intensiv. Passt die Lautstärke an jeden Bereich an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360° Komforttechnologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360° Klangtechnologie. Einheitliche Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium Kundenservice",
@@ -548,18 +548,18 @@
     "loading": "Laden...",
     "hero": {
       "featured": {
-        "title": "Perfekte Sofas!",
-        "subtitle": "Effizientes und gemütliches Sitzen. Qualität und Komfort garantiert.",
-        "loading": "Ihr Sitzen wird geladen...",
+        "title": "Perfekte Kopfhörer!",
+        "subtitle": "Effizientes und kristallklares Hören. Qualität und Klang garantiert.",
+        "loading": "Ihr Hören wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
       "title": "Warum uns wählen?",
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Sofas machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Kopfhörer machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Sofas von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximalen Komfort."
+        "description": "Kopfhörer von höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximalen Klang."
       },
       "advantage2": {
         "title": "Schnelle Lieferung",
@@ -567,7 +567,7 @@
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Kundenservice-Team spezialisiert auf Sofas. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Kundenservice-Team spezialisiert auf Kopfhörer. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "advantage4": {
         "title": "Vollständige Garantie",
@@ -575,7 +575,7 @@
       },
       "comparison": {
         "title": "Vergleich mit der Konkurrenz",
-        "subtitle": "Entdecken Sie, warum sich unsere Sofas von der Konkurrenz abheben",
+        "subtitle": "Entdecken Sie, warum sich unsere Kopfhörer von der Konkurrenz abheben",
         "us": "Wir",
         "others": "Andere",
         "criteria": "Kriterien",
@@ -622,7 +622,7 @@
   },
   "footer": {
     "copyright": "Alle Rechte vorbehalten",
-    "companyDescription": "Spezialisten für hochwertige Sofas. Gemütliches Sitzen und Experten-Support.",
+    "companyDescription": "Spezialisten für hochwertige Kopfhörer. Kristallklares Hören und Experten-Support.",
     "legal": {
       "title": "Rechtliche Informationen",
       "terms": "Allgemeine Geschäftsbedingungen",
@@ -662,7 +662,7 @@
     "subtitle": "Nutzungsbedingungen unserer Dienste",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Willkommen bei Sofas. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
+    "introduction": "Willkommen bei Kopfhörer. Diese Allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
     "acceptance": "Durch den Zugriff auf und die Nutzung unserer Website akzeptieren Sie diese Bedingungen vollständig.",
     "general": {
       "title": "Allgemeine Bestimmungen",
@@ -681,7 +681,7 @@
     },
     "services": {
       "title": "Unsere Dienste",
-      "description": "Wir bieten Informationen über hochwertige Sofas und erleichtern den Kauf über Amazon."
+      "description": "Wir bieten Informationen über hochwertige Kopfhörer und erleichtern den Kauf über Amazon."
     },
     "userObligations": {
       "title": "Benutzerpflichten",
@@ -701,7 +701,7 @@
     "subtitle": "Wie wir Ihre persönlichen Informationen schützen und verwenden",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Bei Sofas respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
+    "introduction": "Bei Kopfhörer respektieren wir Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Informationen zu schützen.",
     "dataCollection": {
       "title": "Informationen, die wir sammeln",
       "description": "Wir sammeln Informationen, die Sie uns freiwillig zur Verfügung stellen, wie Ihren Namen und Ihre E-Mail-Adresse."
@@ -815,13 +815,13 @@
   },
   "about": {
     "title": "Über uns",
-    "subtitle": "Erfahren Sie mehr über Sofas",
+    "subtitle": "Erfahren Sie mehr über Kopfhörer",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind Spezialisten für hochwertige Sofas für gemütliche Häuser und Entspannung.",
+    "introduction": "Wir sind Spezialisten für hochwertige Kopfhörer für Musikliebhaber und Audiophile.",
     "mission": {
       "title": "Unsere Mission",
-      "description": "Gemütliche Häuser und Entspannung mit hochwertigen Sofas, fortschrittlicher Technologie und Experten-Support zu erleichtern."
+      "description": "Musikliebhaber und Audiophile mit hochwertigen Kopfhörern, fortschrittlicher Technologie und Experten-Support zu erleichtern."
     },
     "values": {
       "title": "Unsere Werte",
@@ -829,7 +829,7 @@
     },
     "team": {
       "title": "Unser Team",
-      "description": "Wir haben Experten für Sofas und Kundenservice, spezialisiert auf gemütliche Häuser und Entspannung."
+      "description": "Wir haben Experten für Kopfhörer und Kundenservice, spezialisiert auf Musikliebhaber und Audiophile."
     }
   },
   "contact": {
@@ -837,7 +837,7 @@
     "subtitle": "Kontaktieren Sie uns",
     "lastUpdated": "Letzte Aktualisierung:",
     "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Sofasn zu helfen.",
+    "introduction": "Wir sind da, um Ihnen bei allen Fragen zu Kopfhörern zu helfen.",
     "methods": {
       "title": "Kontaktmethoden",
       "phone": "Telefon: +49 30 123 456 789",
