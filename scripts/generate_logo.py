@@ -106,19 +106,24 @@ def create_logo_prompt(keyword, country):
     colors = get_country_colors(country)
     
     prompt = f"""
-Create a modern, Professional, and stylish 3D {keyword} logo with {country} colors and a clean white background, ideal for e-commerce, and without any text!
+Create a MASSIVE, bold logo for a German {keyword} company that fills 90-95% of the entire canvas space!
+
+CRITICAL SIZE REQUIREMENTS:
+- The logo must fill 90-95% of the entire image canvas
+- Minimize white space - the logo should extend nearly to all edges
+- Make the logo elements large and prominent, not small and centered
+- Use the full width and height of the image space
+- NO small logo in center with lots of white space
+- Logo should be BIG and fill the frame
 
 DESIGN REQUIREMENTS:
 - Modern, Professional, and stylish 3D design
 - Focus on the {keyword} theme
 - Use {country} national colors: Primary {colors['primary']}, Secondary {colors['secondary']}, Accent {colors['accent']}
-- Clean white background
+- Clean white background with minimal margins
 - No text or letters - pure visual logo only
 - Professional and clean appearance
 - Suitable for e-commerce branding
-- Logo should fill 95% of the canvas space - almost edge-to-edge
-- Massive, bold design that touches the edges of the canvas
-- Minimal white space - logo should nearly fill the entire image
 
 VISUAL STYLE:
 - 3D rendered appearance with depth and dimension
@@ -129,8 +134,10 @@ VISUAL STYLE:
 - Professional elements
 - MASSIVE SCALE DESIGN - logo should fill almost the entire canvas
 - Bold, imposing presence that touches the edges
-- Almost no white space - logo should be huge and fill 95% of the image
+- Almost no white space - logo should be huge and fill 90-95% of the image
 - Edge-to-edge design with minimal margins
+- Logo elements should touch or nearly touch the edges
+- Use negative space creatively rather than leaving empty areas
 
 TECHNICAL SPECS:
 - High resolution (512x512 pixels minimum)
@@ -139,7 +146,7 @@ TECHNICAL SPECS:
 - Optimized for web and print use
 - Professional quality suitable for branding
 
-Create a compelling logo that represents {keyword} with {country} colors and modern 3D styling. The logo must be HUGE and fill almost the entire canvas with minimal white space - make it massive and bold!
+Create a compelling logo that represents {keyword} with {country} colors and modern 3D styling. The logo must be HUGE and fill almost the entire canvas with minimal white space - make it massive and bold! Think banner or header style, not small centered logo!
 """
     
     return prompt
