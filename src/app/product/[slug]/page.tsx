@@ -1379,7 +1379,7 @@ const ProductDetailPage: React.FC = () => {
                   <a
                     href={product.amazonUrl}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
                     className="group block"
                   >
                     <div className="bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 transition-all duration-300 p-4 rounded-xl shadow-lg border border-orange-200">
@@ -1460,7 +1460,7 @@ const ProductDetailPage: React.FC = () => {
               <a
                 href={product.amazonUrl}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="noopener noreferrer nofollow"
                   className="group block"
                 >
                   <div className="bg-gradient-to-r from-orange-50 to-orange-100 hover:from-orange-100 hover:to-orange-200 transition-all duration-300 p-3 border-b border-orange-200">

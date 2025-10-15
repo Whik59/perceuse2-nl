@@ -164,7 +164,7 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ isOpen, onClose }) => {
                           <a
                             href={item.amazonUrl}
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener noreferrer nofollow"
                             className="text-orange-600 hover:text-orange-700 p-1"
                           >
                             <ExternalLink className="w-4 h-4" />
