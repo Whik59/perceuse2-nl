@@ -587,36 +587,6 @@ const ProductDetailPage: React.FC = () => {
           </div>
         </nav>
 
-        {/* Amazon-Style Urgency Social Proof - Single Line */}
-        {(viewersCount > 0 || recentPurchases.length > 0) && (
-          <div className="bg-gradient-to-r from-orange-50 via-orange-100 to-orange-50 border-b border-orange-200">
-            <div className="max-w-7xl mx-auto px-4 lg:px-8 py-2">
-              <div className="flex items-center justify-center space-x-3 text-gray-700">
-                {viewersCount > 0 && (
-                  <div className="flex items-center space-x-1.5 bg-white rounded-full px-2.5 py-1 shadow-sm border border-orange-200">
-                    <div className="w-1 h-1 bg-orange-500 rounded-full animate-pulse"></div>
-                    <span className="font-bold text-orange-700 text-xs">{viewersCount}</span>
-                    <span className="font-medium text-gray-700 text-[10px]">{getString('product.viewersCount')}</span>
-                  </div>
-                )}
-                
-                {recentPurchases.length > 0 && (
-                  <div className="flex items-center space-x-1.5 bg-white rounded-full px-2.5 py-1 shadow-sm border border-orange-200">
-                    <div className="w-1 h-1 bg-green-500 rounded-full animate-pulse"></div>
-                    <span className="font-medium text-gray-700 text-[10px]">{getString('product.lastOrderBy')}</span>
-                    <span className="font-bold text-green-700 text-xs">{recentPurchases[0]}</span>
-                  </div>
-                )}
-                
-                {/* Limited Availability - Inline */}
-                <div className="flex items-center space-x-1 bg-red-50 border border-red-200 rounded-full px-2 py-1">
-                  <div className="w-1 h-1 bg-red-500 rounded-full animate-pulse"></div>
-                  <span className="text-[9px] font-semibold text-red-700">Begrenzte Verfügbarkeit</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
@@ -734,62 +704,45 @@ const ProductDetailPage: React.FC = () => {
                   </span>
                 </div>
                 
-                {/* Stock Status and Trust Signals Row */}
+                {/* Stock Status Row */}
                 <div className="flex items-center justify-between flex-wrap gap-3">
                   {/* Stock Status */}
-                  {isOutOfStock ? (
-                    <div className="inline-flex items-center space-x-2 bg-red-50 rounded-lg px-3 py-2 border border-red-200">
-                      <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                      <span className="font-medium text-red-700 text-sm">{getString('product.temporarilyUnavailable')}</span>
-                    </div>
-                  ) : maxQuantity <= 5 ? (
-                    <div className="inline-flex items-center space-x-2 bg-orange-50 rounded-lg px-3 py-2 border border-orange-200">
-                      <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
-                      <span className="font-medium text-orange-700 text-sm">{getString('product.limitedStock')} • {maxQuantity} {getString('product.remaining')}</span>
-                    </div>
-                  ) : (
-                    <div className="inline-flex items-center space-x-2 bg-green-50 rounded-lg px-3 py-2 border border-green-200">
-                      <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                      <span className="font-medium text-green-700 text-sm">{getString('product.inStock')}</span>
-                    </div>
-                  )}
+                  <div className="flex items-center gap-3 flex-wrap">
+                    {isOutOfStock ? (
+                      <div className="inline-flex items-center space-x-2 bg-red-50 rounded-lg px-3 py-2 border border-red-200">
+                        <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
+                        <span className="font-medium text-red-700 text-sm">{getString('product.temporarilyUnavailable')}</span>
+                      </div>
+                    ) : maxQuantity <= 5 ? (
+                      <div className="inline-flex items-center space-x-2 bg-orange-50 rounded-lg px-3 py-2 border border-orange-200">
+                        <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
+                        <span className="font-medium text-orange-700 text-sm">{getString('product.limitedStock')} • {maxQuantity} {getString('product.remaining')}</span>
+                      </div>
+                    ) : (
+                      <div className="inline-flex items-center space-x-2 bg-green-50 rounded-lg px-3 py-2 border border-green-200">
+                        <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                        <span className="font-medium text-green-700 text-sm">{getString('product.inStock')}</span>
+                      </div>
+                    )}
+                  </div>
                   
                   {/* Trust Signals */}
-                  <div className="flex flex-wrap gap-2">
-                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-2 py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
-                      <CreditCard className="w-3 h-3 text-orange-600" />
-                      <span className="text-xs font-semibold text-orange-700">{getString('product.paymentInstallments')}</span>
+                  <div className="flex flex-wrap gap-1 sm:gap-2">
+                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-1.5 sm:px-2 py-1 sm:py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
+                      <CreditCard className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-orange-600" />
+                      <span className="text-[10px] sm:text-xs font-semibold text-orange-700">{getString('product.paymentInstallments')}</span>
                     </div>
                     
-                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-2 py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
-                      <Shield className="w-3 h-3 text-orange-600" />
-                      <span className="text-xs font-semibold text-orange-700">{getString('product.secureTransaction')}</span>
+                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-1.5 sm:px-2 py-1 sm:py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
+                      <Shield className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-orange-600" />
+                      <span className="text-[10px] sm:text-xs font-semibold text-orange-700">{getString('product.secureTransaction')}</span>
                     </div>
                     
-                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-2 py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
-                      <Truck className="w-3 h-3 text-orange-600" />
-                      <span className="text-xs font-semibold text-orange-700">{getString('product.delivery48h')}</span>
+                    <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-50 to-orange-100 rounded-lg px-1.5 sm:px-2 py-1 sm:py-1.5 border border-orange-200 hover:shadow-sm transition-all duration-200">
+                      <Truck className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-orange-600" />
+                      <span className="text-[10px] sm:text-xs font-semibold text-orange-700">{getString('product.delivery48h')}</span>
                     </div>
                   </div>
-                </div>
-              </div>
-
-              {/* Premium Pricing */}
-              <div className="space-y-4 border-b border-gray-100 pb-6">
-                <div className="flex items-baseline space-x-4">
-                  <span className="text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight">
-                    {formatCurrency(currentPrice)}
-                  </span>
-                  {fakeCompareAtPrice && fakeCompareAtPrice > currentPrice && (
-                    <div className="space-y-1">
-                      <span className="text-lg text-gray-400 line-through font-light">
-                        {formatCurrency(fakeCompareAtPrice)}
-                      </span>
-                      <div className="text-xs text-green-600 font-semibold bg-green-50 px-2 py-1 rounded-md">
-                        {getString('product.savings')} {formatCurrency(savings)}
-                      </div>
-                    </div>
-                  )}
                 </div>
               </div>
 
@@ -848,6 +801,29 @@ const ProductDetailPage: React.FC = () => {
                         {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyNow')} ${productTitle}`}
                       </span>
                     </Button>
+                  </div>
+                  
+                  {/* Red Disclaimer */}
+                  <div className="relative mt-4 p-4 bg-gradient-to-r from-red-500 via-red-600 to-red-500 rounded-xl shadow-lg border-2 border-red-400 overflow-hidden">
+                    {/* Animated background effect */}
+                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
+                    
+                    {/* Content */}
+                    <div className="relative flex items-center justify-center space-x-3">
+                      <div className="flex-shrink-0">
+                        <AlertTriangle className="w-5 h-5 text-white animate-bounce" />
+                      </div>
+                      <span className="text-white font-bold text-sm sm:text-base text-center leading-tight">
+                        ⚡ {getString('product.cartDiscountDisclaimer')} ⚡
+                      </span>
+                      <div className="flex-shrink-0">
+                        <AlertTriangle className="w-5 h-5 text-white animate-bounce" />
+                      </div>
+                    </div>
+                    
+                    {/* Decorative elements */}
+                    <div className="absolute top-1 left-1 w-2 h-2 bg-white/30 rounded-full animate-ping"></div>
+                    <div className="absolute bottom-1 right-1 w-2 h-2 bg-white/30 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
                   </div>
                 </div>
               )}
@@ -1420,13 +1396,13 @@ const ProductDetailPage: React.FC = () => {
                           </div>
                         </div>
                         
-                        {/* Column 2: Amazon Text & Current Price */}
+                        {/* Column 2: Amazon Text & Price */}
                         <div className="flex-1 px-4">
                           <div className="font-bold text-gray-900 text-lg">Amazon</div>
                           <div className="text-2xl font-bold text-gray-900">{formatCurrency(product.basePrice)}</div>
                         </div>
                         
-                        {/* Column 3: Strikethrough Price & 24h Timer */}
+                        {/* Column 3: Price & 24h Timer */}
                         <div className="flex-shrink-0 text-right">
                           {product?.onSale && (
                             <div className="flex flex-col items-end space-y-1">

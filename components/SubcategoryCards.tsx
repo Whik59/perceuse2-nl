@@ -171,22 +171,22 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                         .slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide)
                         .map((subcategory) => (
                         <Link key={subcategory.slug} href={`/category/${subcategory.slug}`}>
-                          <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 p-6 text-center">
-                            <div className="space-y-4">
+                          <div className="group bg-white rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 p-8 text-center">
+                            <div className="space-y-5">
                               {/* Round Image Frame */}
-                              <div className="relative mx-auto w-20 h-20">
-                                <div className="w-20 h-20 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-gray-100 group-hover:ring-orange-200">
+                              <div className="relative mx-auto w-24 h-24">
+                                <div className="w-24 h-24 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-gray-100 group-hover:ring-orange-200">
                                   {subcategory.hasImage && subcategory.imageUrl ? (
                                     <Image
                                       src={subcategory.imageUrl}
                                       alt={subcategory.categoryNameCanonical || subcategory.name || 'Subcategory image'}
-                                      width={80}
-                                      height={80}
+                                      width={96}
+                                      height={96}
                                       className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                     />
                                   ) : (
                                     <div className="w-full h-full bg-gradient-to-br from-orange-50 to-orange-100 flex items-center justify-center transition-all duration-700 group-hover:scale-110">
-                                      <span className="text-orange-500 font-bold text-2xl">🔧</span>
+                                      <span className="text-orange-500 font-bold text-3xl">🔧</span>
                                     </div>
                                   )}
                                 </div>
@@ -195,8 +195,8 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                               </div>
                               
                               {/* Category Info */}
-                              <div className="space-y-2">
-                                <h3 className="text-gray-900 font-semibold text-lg line-clamp-2 group-hover:text-orange-600 transition-colors duration-300">
+                              <div className="space-y-3">
+                                <h3 className="text-gray-900 font-semibold text-xl line-clamp-2 group-hover:text-orange-600 transition-colors duration-300">
                                   {subcategory.categoryNameCanonical}
                                 </h3>
                                 <p className="text-gray-600 text-sm line-clamp-2">

@@ -223,14 +223,14 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
                           className="group text-center transition-all duration-300 hover:-translate-y-2"
                         >
                           {/* Round Image Frame */}
-                          <div className="relative mb-3 sm:mb-4 lg:mb-6">
-                            <div className="w-20 h-20 sm:w-24 sm:h-24 lg:w-32 lg:h-32 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 sm:ring-4 ring-white group-hover:ring-slate-100">
+                          <div className="relative mb-4 sm:mb-5 lg:mb-6">
+                            <div className="w-24 h-24 sm:w-28 sm:h-28 lg:w-36 lg:h-36 rounded-full overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 sm:ring-4 ring-white group-hover:ring-slate-100">
                               {category.hasImage && category.imageUrl ? (
                                 <Image
                                   src={category.imageUrl}
                                   alt={category.categoryNameCanonical || category.name || 'Category image'}
-                                  width={128}
-                                  height={128}
+                                  width={144}
+                                  height={144}
                                   className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
                                 />
                               ) : (
@@ -246,7 +246,7 @@ const FeaturedCategories: React.FC<FeaturedCategoriesProps> = ({ categories }) =
                           </div>
 
                           {/* Category Name */}
-                          <h3 className="text-xs sm:text-sm lg:text-base font-semibold text-slate-900 group-hover:text-slate-700 transition-colors duration-300 tracking-wide capitalize leading-tight">
+                          <h3 className="text-sm sm:text-base lg:text-lg font-semibold text-slate-900 group-hover:text-slate-700 transition-colors duration-300 tracking-wide capitalize leading-tight">
                             {category.categoryNameCanonical}
                           </h3>
                         </Link>
