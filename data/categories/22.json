@@ -1,181 +1,157 @@
 {
   "categoryId": 22,
-  "categoryNameCanonical": "Kabelgebundene Kopfhörer",
-  "slug": "kabelgebundene-kopfhoerer",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecken Sie hochwertige kabelgebundene Kopfhörer für erstklassigen Sound & Komfort. Jetzt kaufen!",
-  "content": "<div><h2>Entdecken Sie die Welt der kabelgebundenen Kopfhörer</h2><p>Tauchen Sie ein in ein unverfälschtes Klangerlebnis mit unseren hochwertigen kabelgebundenen Kopfhörern. In einer Welt, die von kabelloser Technologie dominiert wird, bieten kabelgebundene Modelle immer noch unschlagbare Vorteile: kristallklaren Sound, keinerlei Latenz und die Gewissheit, dass Ihr Musikgenuss niemals durch einen leeren Akku unterbrochen wird. Egal ob für audiophile Sessions zu Hause, konzentriertes Arbeiten oder immersives Gaming – kabelgebundene Kopfhörer sind die erste Wahl für Puristen, die Wert auf Stabilität und reine Audioqualität legen.</p><h2>Unverfälschter Klang und höchste Zuverlässigkeit</h2><p>Unsere Auswahl an kabelgebundenen Kopfhörern umfasst Modelle für jeden Anspruch. Von kompakten In-Ears für unterwegs bis hin zu komfortablen Over-Ear-Modellen für stundenlangen Hörgenuss – genießen Sie Hi-Res Audio in seiner reinsten Form. Die direkte Verbindung sorgt für eine stabile Signalübertragung ohne Aussetzer, was sie ideal für den Einsatz im Studio, beim DJing oder für professionelle Audiobearbeitung macht. Zudem entfällt das lästige Laden, was sie jederzeit einsatzbereit hält und für ununterbrochenen Hörgenuss sorgt.</p><h2>Finden Sie Ihre perfekten kabelgebundenen Kopfhörer</h2><p>Ob Sie nach offenen oder geschlossenen Systemen suchen, nach Modellen mit verschiedenen Anschlussmöglichkeiten (wie Klinke oder USB-C) oder speziellen Funktionen wie integrierten Mikrofonen für Kommunikation – wir haben das passende Produkt für Sie. Verlassen Sie sich auf Langlebigkeit, exzellente Verarbeitung und überragenden Klang, der Sie begeistern wird. Entdecken Sie jetzt unser vielseitiges Sortiment und erleben Sie Musik, Podcasts und Gaming in einer neuen, authentischen Dimension.</p></div>",
+  "categoryNameCanonical": "Drones Pliables Moins de 250g",
+  "slug": "drones-pliables-et-portables/drones-pliables-moins-de-250g",
+  "parentCategoryId": 21,
+  "level": 1,
+  "description": "Découvrez nos drones pliables de moins de 250g. Idéaux pour débutants, voyages et loisirs.",
+  "content": "<div><h2>Drones Pliables < 250g : La Révolution du Vol Léger</h2><p>Découvrez notre sélection exclusive de <strong>drones pliables de moins de 250 grammes</strong>, la catégorie idéale pour tous les passionnés de photographie aérienne et de vol récréatif. Ces mini-drones ultra-légers offrent une liberté inégalée : ils ne nécessitent généralement pas d'enregistrement ou de licence de pilotage dans de nombreux pays, simplifiant ainsi votre expérience de vol.</p><p>Grâce à leur conception innovante, nos <strong>drones compacts</strong> se plient facilement, les rendant parfaits pour le voyage et l'aventure. Glissez-les dans votre sac à dos et capturez des moments inoubliables où que vous soyez. Malgré leur petite taille, ces appareils intègrent souvent des caméras HD ou 4K, des modes de vol intelligents et une excellente stabilité, même pour les pilotes débutants.</p><p>Que vous soyez un amateur cherchant à s'initier au pilotage, un vlogueur en quête d'angles uniques, ou un voyageur désireux de documenter ses périples, un <strong>drone léger</strong> de notre collection répondra à vos attentes. Explorez nos modèles et trouvez le <strong>mini drone pliable</strong> qui vous accompagnera dans toutes vos explorations aériennes.</p><p>Optez pour la simplicité, la conformité et la performance avec un <strong>drone de moins de 250g</strong>. C'est l'outil parfait pour une prise de vue aérienne agile et sans tracas.</p></div>",
   "seo": {
-    "title": "Kabelgebundene Kopfhörer: Klang & Komfort entdecken",
-    "description": "Entdecken Sie hochwertige kabelgebundene Kopfhörer für erstklassigen Sound & Komfort. Jetzt kaufen!",
+    "title": "Drones Pliables <250g | Légers, Compacts & Faciles à Piloter",
+    "description": "Découvrez nos drones pliables de moins de 250g. Idéaux pour débutants, voyages et loisirs.",
     "keywords": [
-      "Kabelgebundene Kopfhörer",
-      "Kopfhörer mit Kabel",
-      "Hi-Res Audio Kopfhörer",
-      "Over-Ear kabelgebunden",
-      "In-Ear kabelgebunden"
+      "drone pliable",
+      "drone moins de 250g",
+      "mini drone léger",
+      "drone compact",
+      "drone débutant"
     ],
-    "enhancedAt": "2025-10-12T22:44:52.376597"
+    "enhancedAt": "2025-10-15T18:59:06.956261"
   },
   "faq": [
     {
-      "question": "Was sind die Vorteile von kabelgebundenen Kopfhörern?",
-      "answer": "Kabelgebundene Kopfhörer bieten oft eine überlegene Klangqualität, da keine Komprimierung durch Bluetooth-Codecs erfolgt. Sie benötigen keinen Akku und haben keine Latenzprobleme, ideal für Gaming und professionelle Anwendungen."
+      "question": "Pourquoi choisir un drone de moins de 250g ?",
+      "answer": "Les drones de moins de 250g sont privilégiés car ils sont exempts de nombreuses régulations, comme l'enregistrement ou la nécessité d'une licence, simplifiant leur utilisation pour les loisirs et les débutants."
     },
     {
-      "question": "Sind kabelgebundene Kopfhörer noch zeitgemäß?",
-      "answer": "Absolut! Für Audio-Enthusiasten, Gamer und alle, die Wert auf kompromisslose Klangqualität und Zuverlässigkeit legen, sind kabelgebundene Kopfhörer die erste Wahl. Sie bieten Stabilität und eine unverfälschte Audioerfahrung."
+      "question": "Sont-ils faciles à transporter ?",
+      "answer": "Absolument. Leur conception pliable et leur poids ultra-léger les rendent extrêmement portables. Ils se glissent facilement dans un sac à dos, idéals pour le voyage."
     },
     {
-      "question": "Welche Arten von kabelgebundenen Kopfhörern gibt es?",
-      "answer": "Es gibt Over-Ear, On-Ear und In-Ear Modelle. Over-Ear bieten oft beste Geräuschisolation und eine breite Klangbühne, On-Ear sind kompakter und In-Ear sind sehr portabel und unauffällig für unterwegs."
+      "question": "Quelle est l'autonomie typique de ces drones ?",
+      "answer": "L'autonomie varie selon les modèles, mais la plupart des drones pliables de moins de 250g offrent entre 15 et 30 minutes de vol par batterie, avec des batteries supplémentaires souvent disponibles."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:52.376621",
+  "enhancedAt": "2025-10-15T18:59:06.956277",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Kabelgebundenen Kopfhörer",
+    "title": "Comparatif des 5 meilleurs Drones Pliables Moins de 250g",
     "columns": [
       "Rang",
-      "Preis",
-      "Bewertung",
-      "Bauweise",
-      "Farbe",
-      "Kabellänge",
-      "Frequenzbereich",
-      "Impedanz",
-      "Anwendungsbereich",
-      "Besondere Eigenschaft",
-      "Gewicht",
-      "Mikrofon",
-      "Design"
+      "Prix",
+      "Évaluation",
+      "Qualité Caméra",
+      "Autonomie de Vol Totale",
+      "GPS",
+      "Type de Moteur",
+      "Stabilisation Caméra",
+      "Nb. Batteries Incluses"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51F-Ok9xuzL._AC_SL1000_.jpg]",
-        "name": "Sony MDR-7506 Studio-Kopfhörer: Präziser Klang",
-        "preis": "99.0€",
-        "bewertung": "4.6/5",
-        "bauweise": "Geschlossen",
-        "farbe": "Schwarz",
-        "kabellänge": "3 m",
-        "frequenzbereich": "10 Hz - 20 kHz",
-        "impedanz": "63 Ohm",
-        "anwendungsbereich": "Studio/Produktion",
-        "besondere_eigenschaft": "Präziser Klang, Faltbar, Studio-Standard",
-        "gewicht": "227 g",
-        "mikrofon": "Nein",
-        "design": "Faltbar",
-        "productUrl": "/product/mdr-7506-sony-studio-kopfhorer-praziser-klang",
-        "image": "https://m.media-amazon.com/images/I/51F-Ok9xuzL._AC_SL1000_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61s-n-YkaiL._AC_SL1500_.jpg]",
+        "name": "Drone Potensic ATOM LT Combo GPS 2.5K 2 batteries",
+        "prix": "229.0€",
+        "évaluation": "4.4/5",
+        "qualité_caméra": "2.5K EIS",
+        "autonomie_de_vol_totale": "80 min",
+        "gps": "Oui",
+        "type_de_moteur": "Brossé",
+        "stabilisation_caméra": "EIS (Électronique)",
+        "nb_batteries_incluses": "2",
+        "productUrl": "/product/drone-potensic-atom-combo-gps-2-5k",
+        "image": "https://m.media-amazon.com/images/I/61s-n-YkaiL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51qpMkifAKL._AC_SL1050_.jpg]",
-        "name": "Roland RH-5 Kopfhörer: Klares Audio fürs Monitoring",
-        "preis": "33.0€",
-        "bewertung": "4.3/5",
-        "bauweise": "Geschlossen",
-        "farbe": "Schwarz",
-        "kabellänge": "3 m",
-        "frequenzbereich": "10 Hz – 20 kHz",
-        "impedanz": "32 Ohm",
-        "anwendungsbereich": "Monitoring/Produktion",
-        "besondere_eigenschaft": "Klares Audio, Robust",
-        "gewicht": "190 g",
-        "mikrofon": "Nein",
-        "design": "Standard",
-        "productUrl": "/product/roland-rh-5-kopfhorer-klares-audio-furs",
-        "image": "https://m.media-amazon.com/images/I/51qpMkifAKL._AC_SL1050_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51fNqyCelXL._AC_SL1000_.jpg]",
+        "name": "Loolinn Drone Caméra 4K Débutants GPS 2 Batteries",
+        "prix": "229.0€",
+        "évaluation": "4.5/5",
+        "qualité_caméra": "4K Photo / 2K Vidéo",
+        "autonomie_de_vol_totale": "50 min",
+        "gps": "Oui",
+        "type_de_moteur": "Brossé",
+        "stabilisation_caméra": "Numérique",
+        "nb_batteries_incluses": "2",
+        "productUrl": "/product/loolinn-drone-camera-debutants-gps-batteries",
+        "image": "https://m.media-amazon.com/images/I/51fNqyCelXL._AC_SL1000_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51W9Rf9R7cL._AC_SL1000_.jpg]",
-        "name": "Sony MDR-EX110APB In-Ear-Kopfhörer Schwarz",
-        "preis": "15.0€",
-        "bewertung": "4.4/5",
-        "bauweise": "In-Ear",
-        "farbe": "Schwarz",
-        "kabellänge": "1,2 m",
-        "frequenzbereich": "5 Hz – 24.000 Hz",
-        "impedanz": "16 Ohm",
-        "anwendungsbereich": "Alltag/Mobil",
-        "besondere_eigenschaft": "Mikrofon, Flachkabel",
-        "gewicht": "3 g",
-        "mikrofon": "Ja",
-        "design": "Kompakt",
-        "productUrl": "/product/mdr-ex110apb-sony-in-ear-kopfhorer-schwarz",
-        "image": "https://m.media-amazon.com/images/I/51W9Rf9R7cL._AC_SL1000_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71fvSAxlPqL._AC_SL1500_.jpg]",
+        "name": "Drone Loolinn 4K Double Batterie 40min",
+        "prix": "244.0€",
+        "évaluation": "4.5/5",
+        "qualité_caméra": "4K UHD",
+        "autonomie_de_vol_totale": "40 min",
+        "gps": "Non",
+        "type_de_moteur": "Brossé",
+        "stabilisation_caméra": "Numérique",
+        "nb_batteries_incluses": "2",
+        "productUrl": "/product/40min-drone-loolinn-double-batterie",
+        "image": "https://m.media-amazon.com/images/I/71fvSAxlPqL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51iFsdNkXJL._AC_SL1500_.jpg]",
-        "name": "Panasonic RP-HT090 On-Ear Kopfhörer Grau TV",
-        "preis": "14.0€",
-        "bewertung": "4.5/5",
-        "bauweise": "On-Ear",
-        "farbe": "Grau",
-        "kabellänge": "3 m",
-        "frequenzbereich": "20 Hz - 20 kHz",
-        "impedanz": "32 Ohm",
-        "anwendungsbereich": "TV/Heimkino",
-        "besondere_eigenschaft": "Lautstärkeregelung",
-        "gewicht": "180 g",
-        "mikrofon": "Nein",
-        "design": "Standard",
-        "productUrl": "/product/panasonic-rp-ht090-on-ear-kopfhorer-grau",
-        "image": "https://m.media-amazon.com/images/I/51iFsdNkXJL._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61Ny5yqv+HL._AC_SL1500_.jpg]",
+        "name": "Potensic P4 Drone Pliable Caméra 1080P",
+        "prix": "169.0€",
+        "évaluation": "2.9/5",
+        "qualité_caméra": "1080P HD FPV",
+        "autonomie_de_vol_totale": "40 min",
+        "gps": "Non",
+        "type_de_moteur": "Brossé",
+        "stabilisation_caméra": "Numérique (FPV)",
+        "nb_batteries_incluses": "2",
+        "productUrl": "/product/potensic-drone-pliable-camera-1080p",
+        "image": "https://m.media-amazon.com/images/I/61Ny5yqv+HL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61WrlyC8OZL._AC_UY218_.jpg]",
-        "name": "Panasonic RP-HT030E-S: Leichter, faltbarer On-Ear Kopfhörer",
-        "preis": "7.0€",
-        "bewertung": "4.4/5",
-        "bauweise": "On-Ear",
-        "farbe": "Silber",
-        "kabellänge": "1,2 m",
-        "frequenzbereich": "20 Hz - 20 kHz",
-        "impedanz": "32 Ohm",
-        "anwendungsbereich": "Reisen/Alltag",
-        "besondere_eigenschaft": "Faltbar, XBS (Extra Bass)",
-        "gewicht": "120 g",
-        "mikrofon": "Nein",
-        "design": "Faltbar",
-        "productUrl": "/product/panasonic-rp-ht030e-s-leichter-faltbarer-on-ear-kopfhorer",
-        "image": "https://m.media-amazon.com/images/I/61WrlyC8OZL._AC_UY218_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/714zU+abaiL._AC_SL1500_.jpg]",
+        "name": "Drone Pliable Pro 8K - Moteur Brushless, Double Caméra & Évitement d'Obstacles",
+        "prix": "13.0€",
+        "évaluation": "0.0/5",
+        "qualité_caméra": "8K",
+        "autonomie_de_vol_totale": "15-20 min",
+        "gps": "Non",
+        "type_de_moteur": "Sans balais (Brushless)",
+        "stabilisation_caméra": "Numérique",
+        "nb_batteries_incluses": "1",
+        "productUrl": "/product/pro-drone-pliable-moteur-brushless-double",
+        "image": "https://m.media-amazon.com/images/I/714zU+abaiL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Buying Guide: How to Choose the Best Kabelgebundene Kopfhörer?",
+    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones Pliables Moins de 250g ?",
     "sections": [
       {
-        "heading": "1. Tragekomfort und Bauart",
-        "content": "Achten Sie auf den Sitz. On-Ear, Over-Ear oder In-Ear? On-Ear wie der Panasonic RP-HT030E-S sind leicht und ideal für unterwegs. Over-Ear bieten bessere Isolation und Komfort bei längerem Gebrauch. In-Ear sind diskret und mobil. Probieren Sie verschiedene Typen, um den besten Komfort für Ihre Ohren zu finden."
+        "heading": "1. Qualité de la Caméra et Stabilisation",
+        "content": "Pour des prises de vue nettes, privilégiez les drones avec caméra 1080P minimum (comme le Potensic P4). Vérifiez la présence d'une stabilisation électronique (EIS) ou d'un gimbal pour des vidéos fluides. C'est crucial pour des souvenirs de voyage réussis et une expérience visuelle agréable, même avec un modèle léger."
       },
       {
-        "heading": "2. Klangqualität und Einsatzzweck",
-        "content": "Überlegen Sie, wofür Sie die Kopfhörer nutzen. Für Musik genügt oft ein ausgewogener Klang. Für Podcasts oder Anrufe ist Sprachverständlichkeit wichtig. Achten Sie auf Frequenzbereich (20 Hz - 20 kHz ist Standard) und Treibergröße. Günstige Modelle bieten meist soliden Allround-Klang für den täglichen Gebrauch."
+        "heading": "2. Autonomie et Portabilité Essentielles",
+        "content": "L'autonomie de vol est primordiale pour ne pas écourter vos sessions. Ciblez des modèles offrant au moins 15-20 minutes par batterie. Un design pliable est un must pour le transport facile. Cherchez des batteries supplémentaires incluses ou disponibles pour prolonger le plaisir sans contrainte de recharge fréquente lors de vos déplacements."
       },
       {
-        "heading": "3. Kabel und Anschluss",
-        "content": "Das Kabel ist entscheidend. Eine Standard 3,5mm Klinke ist universell kompatibel. Prüfen Sie die Kabellänge und -qualität. Abnehmbare Kabel sind praktisch für den Austausch bei Defekt. Ein geflochtenes Kabel verhindert Verwicklungen und erhöht die Haltbarkeit. Einige bieten auch eine Inline-Fernbedienung oder ein Mikrofon."
+        "heading": "3. Modes de Vol et Facilité d'Utilisation",
+        "content": "Pour les débutants, des modes comme le maintien d'altitude, le décollage/atterrissage automatique, ou le vol stationnaire sont essentiels. La simplicité de pilotage via application mobile intuitive est un plus. Certains drones offrent des fonctions intelligentes (suivi, vol de trajectoire) pour des clichés créatifs sans effort, rendant l'expérience agréable."
       },
       {
-        "heading": "4. Budget und Zusatzfunktionen",
-        "content": "Legen Sie Ihr Budget fest. Günstige Modelle wie der Panasonic RP-HT030E-S bieten oft ein ausgezeichnetes Preis-Leistungs-Verhältnis für Grundbedürfnisse. Teurere Kopfhörer können bessere Materialien, detaillierteren Klang oder Zusatzfunktionen wie Geräuschunterdrückung bieten. Überlegen Sie, welche Extras Sie wirklich brauchen."
+        "heading": "4. Résistance au Vent et Stabilité en Vol",
+        "content": "Un drone léger peut être sensible au vent. Recherchez des avis sur sa résistance au vent léger et sa stabilité en vol. Des capteurs optiques ou GPS améliorent considérablement la stabilité, permettant un pilotage plus serein, surtout en extérieur, et des images plus stables. Un facteur clé pour la durabilité et la qualité de vos prises."
       },
       {
-        "heading": "5. Wartung und Langlebigkeit",
-        "content": "Für eine lange Lebensdauer behandeln Sie Ihre Kopfhörer pfleglich. Vermeiden Sie starkes Ziehen am Kabel. Eine Aufbewahrungstasche schützt vor Beschädigungen. Regelmäßige Reinigung der Ohrpolster und des Steckers ist ratsam. Günstige Modelle können bei guter Pflege erstaunlich lange halten."
+        "heading": "5. Réglementation Simplifiée et Budget",
+        "content": "Un drone de moins de 250g simplifie grandement la réglementation (pas d'enregistrement pilote requis en France). C'est un avantage majeur. Fixez un budget réaliste : des modèles comme le Potensic P4 à 169€ offrent un excellent rapport qualité-prix pour débuter. N'oubliez pas les accessoires essentiels (batteries supplémentaires, hélices de rechange)."
       }
     ]
   }

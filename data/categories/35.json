@@ -1,163 +1,148 @@
 {
   "categoryId": 35,
-  "categoryNameCanonical": "Leichte On-Ear Kopfhörer",
-  "slug": "on-ear-kopfhoerer/leichte-on-ear-kopfhoerer",
-  "parentCategoryId": 34,
+  "categoryNameCanonical": "Drones de Course Haute Vitesse",
+  "slug": "drones-fpv-et-racing/drones-de-course-haute-vitesse",
+  "parentCategoryId": 33,
   "level": 1,
-  "description": "Federleichte On-Ear Kopfhörer: Optimaler Tragekomfort & klarer Sound. Jetzt entdecken!",
-  "content": "<div><h2>Federleichte On-Ear Kopfhörer: Ihr perfekter Begleiter für Musikgenuss</h2><p>Entdecken Sie unsere Auswahl an leichten On-Ear Kopfhörern, die speziell für maximalen Tragekomfort und kristallklaren Sound entwickelt wurden. Ob auf dem Weg zur Arbeit, beim Spaziergang oder einfach zum Entspannen zu Hause – diese Kopfhörer sitzen bequem auf Ihren Ohren, ohne zu drücken. Ihre kompakte Bauweise und das geringe Gewicht machen sie zum idealen Begleiter für unterwegs, der sich problemlos in jeder Tasche verstauen lässt. Erleben Sie detailreichen Klang und eine beeindruckende Audioqualität, verpackt in einem eleganten und federleichten Design, das Sie kaum spüren werden.</p><p>Unsere leichten On-Ear Kopfhörer bieten eine optimale Balance zwischen Portabilität, Komfort und Klangqualität. Viele Modelle verfügen über weiche Ohrpolster und einen verstellbaren Bügel, um eine perfekte Passform für jede Kopfgröße zu gewährleisten. Genießen Sie Ihre Lieblingsmusik, Podcasts oder Hörbücher mit einem klaren und ausgewogenen Soundprofil, das für ein immersives Hörerlebnis sorgt. Wählen Sie jetzt Ihr ideales Modell und erleben Sie Freiheit beim Musikhören!</p></div>",
+  "description": "Découvrez nos drones de course FPV pour une adrénaline pure. Vitesse, agilité, sensations fortes.",
+  "content": "<div><h2>Drones de Course FPV Haute Vitesse: L'Adrénaline à l'État Pur</h2><p>Plongez dans l'univers électrisant des drones de course FPV haute vitesse ! Conçus pour les pilotes avides de sensations fortes et de compétition, ces engins ultralégers et puissants offrent une expérience de vol immersive inégalée. Grâce à la vue subjective (FPV), vous êtes au cœur de l'action, manœuvrant à des vitesses époustouflantes à travers des circuits complexes ou réalisant des figures acrobatiques défiant la gravité.</p><p>Nos drones de course sont équipés des dernières technologies en matière de moteurs brushless, de contrôleurs de vol avancés et de systèmes de transmission vidéo FPV à faible latence. Chaque modèle est sélectionné pour sa robustesse, sa réactivité et son potentiel d'évolution. Que vous soyez un compétiteur aguerri cherchant à dominer les podiums ou un passionné de freestyle désireux de repousser les limites, notre gamme répondra à vos exigences. Rejoignez une communauté grandissante et vivez des moments inoubliables en vol.</p><p>Explorez notre sélection et trouvez le drone de course FPV qui vous propulsera vers de nouvelles performances. Préparez-vous à décoller et à ressentir l'adrénaline de la course haute vitesse !</p></div>",
   "seo": {
-    "title": "Leichte On-Ear Kopfhörer – Bequem, kompakt, klarer Sound",
-    "description": "Federleichte On-Ear Kopfhörer: Optimaler Tragekomfort & klarer Sound. Jetzt entdecken!",
+    "title": "Drones de Course FPV Haute Vitesse: Adrénaline Garantie",
+    "description": "Découvrez nos drones de course FPV pour une adrénaline pure. Vitesse, agilité, sensations fortes.",
     "keywords": [
-      "Leichte On-Ear Kopfhörer",
-      "On-Ear Kopfhörer bequem",
-      "Federleichte Kopfhörer",
-      "Kopfhörer für unterwegs",
-      "Klarer Sound On-Ear"
+      "drone course",
+      "drone FPV",
+      "drone haute vitesse",
+      "quadcopter course",
+      "drone racing",
+      "piloter drone FPV",
+      "drone acrobatique",
+      "équipement FPV"
     ],
-    "enhancedAt": "2025-10-12T22:44:47.014239"
+    "enhancedAt": "2025-10-15T18:58:57.041259"
   },
   "faq": [
     {
-      "question": "Warum sind leichte On-Ear Kopfhörer eine gute Wahl?",
-      "answer": "Leichte On-Ear Kopfhörer bieten hervorragenden Tragekomfort, besonders bei längerem Gebrauch. Sie sind weniger aufdringlich als Over-Ears und bieten dennoch einen besseren Klang als viele In-Ears, ideal für Pendler und unterwegs."
+      "question": "Pour qui sont conçus les drones de course FPV?",
+      "answer": "Les drones de course FPV sont destinés aux pilotes expérimentés et aux amateurs de sensations fortes qui recherchent vitesse, agilité et une expérience de vol immersive. Ils sont aussi prisés par les compétiteurs."
     },
     {
-      "question": "Eignen sich leichte On-Ear Kopfhörer für Sport?",
-      "answer": "Für leichtere Aktivitäten wie Spaziergänge oder Yoga können sie geeignet sein. Bei intensiveren Sportarten wie Joggen könnten sie jedoch verrutschen. Spezielle Sportkopfhörer bieten hier oft besseren Halt und Schweißresistenz."
+      "question": "Quel équipement supplémentaire est nécessaire pour piloter un drone de course?",
+      "answer": "Pour une expérience complète, vous aurez généralement besoin de lunettes FPV, d'une radiocommande compatible, de batteries de vol et d'un chargeur adapté. Certains kits sont prêts à voler (RTF)."
     },
     {
-      "question": "Was ist der Unterschied zwischen On-Ear und Over-Ear Kopfhörern?",
-      "answer": "On-Ear Kopfhörer sitzen direkt auf den Ohrmuscheln und sind meist kompakter und leichter. Over-Ear Kopfhörer umschließen das ganze Ohr, bieten oft eine bessere Geräuschisolierung und tieferen Bass, sind aber größer und schwerer."
+      "question": "Comment choisir mon premier drone de course FPV?",
+      "answer": "Pour un premier drone, considérez votre niveau de pilotage (débutant, intermédiaire), votre budget, et le type de vol souhaité (freestyle, racing). Les drones TinyWhoop ou des kits d'initiation sont souvent recommandés pour commencer."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:47.014260",
+  "enhancedAt": "2025-10-15T18:58:57.041271",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Leichte On-Ear Kopfhörer",
+    "title": "Comparaison des 5 Drones de Course Haute Vitesse",
     "columns": [
       "Rang",
-      "Preis",
-      "Bewertung",
-      "Marke",
-      "Farbe",
-      "Gewichtsklasse",
-      "Bauform",
-      "Anschluss",
-      "Klangprofil",
-      "Faltbar"
+      "Prix",
+      "Évaluation",
+      "Type de Produit",
+      "Usage Principal",
+      "Marque",
+      "Niveau Cible"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51a1PKVhuCL._AC_SL1200_.jpg]",
-        "name": "Manhattan Ultraleicht Stereo Kopfhörer 177481",
-        "preis": "26.0€",
-        "bewertung": "4.4/5",
-        "marke": "Manhattan",
-        "farbe": "Schwarz",
-        "gewichtsklasse": "Extraleicht",
-        "bauform": "On-Ear",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "klangprofil": "Ausgewogen",
-        "faltbar": "Nein",
-        "productUrl": "/product/manhattan-ultraleicht-stereo-kopfhorer-177481",
-        "image": "https://m.media-amazon.com/images/I/51a1PKVhuCL._AC_SL1200_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61D7dtLahaL._AC_SL1500_.jpg]",
+        "name": "BETAFPV Cetus Drone RTF LiteRadio 2 SE VR02",
+        "prix": "191.0€",
+        "évaluation": "3.8/5",
+        "type_de_produit": "Drone RTF (Prêt à voler)",
+        "usage_principal": "Apprentissage FPV, vol immersif",
+        "marque": "BETAFPV",
+        "niveau_cible": "Débutant FPV",
+        "productUrl": "/product/betafpv-cetus-drone-rtf-literadio-vr02",
+        "image": "https://m.media-amazon.com/images/I/61D7dtLahaL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71KTxqeYOKL._AC_SL1500_.jpg]",
-        "name": "JVC HA-S180-B-E Leichte On-Ear Kopfhörer Schwarz",
-        "preis": "22.0€",
-        "bewertung": "4.4/5",
-        "marke": "JVC",
-        "farbe": "Schwarz",
-        "gewichtsklasse": "Extraleicht",
-        "bauform": "On-Ear",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "klangprofil": "Ausgewogen",
-        "faltbar": "Nein",
-        "productUrl": "/product/jvc-ha-s180-b-e-leichte-on-ear-kopfhorer-schwarz",
-        "image": "https://m.media-amazon.com/images/I/71KTxqeYOKL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/41vtgSzT-dL._AC_UL320_.jpg]",
+        "name": "Moteur SpeedyBee 2306.5 PRO 1880KV FPV",
+        "prix": "25.0€",
+        "évaluation": "4.5/5",
+        "type_de_produit": "Moteur Brushless",
+        "usage_principal": "Propulsion haute performance pour drone FPV 5 pouces",
+        "marque": "SPEEDY BEE",
+        "niveau_cible": "Pilote exigeant, constructeur DIY",
+        "productUrl": "/product/pro-moteur-speedybee-2306-5-1880kv-fpv",
+        "image": "https://m.media-amazon.com/images/I/41vtgSzT-dL._AC_UL320_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/41UH3KP2s8L._AC_SL1000_.jpg]",
-        "name": "JVC HA-L50W Extraleichter Kopfhörer Weiß Faltbar",
-        "preis": "15.0€",
-        "bewertung": "4.3/5",
-        "marke": "JVC",
-        "farbe": "Weiß",
-        "gewichtsklasse": "Extraleicht",
-        "bauform": "On-Ear",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "klangprofil": "Ausgewogen",
-        "faltbar": "Ja",
-        "productUrl": "/product/ha-l50w-jvc-extraleichter-kopfhorer-weiss-faltbar",
-        "image": "https://m.media-amazon.com/images/I/41UH3KP2s8L._AC_SL1000_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51om6RUxGJL._AC_SL1500_.jpg]",
+        "name": "Kit Cadre Drone Course FPV Quadrirotor 4 axes",
+        "prix": "27.0€",
+        "évaluation": "4.6/5",
+        "type_de_produit": "Kit de Cadre de Drone",
+        "usage_principal": "Construction de drone FPV de course personnalisé",
+        "marque": "Demeras",
+        "niveau_cible": "Intermédiaire à expert (DIY)",
+        "productUrl": "/product/kit-cadre-drone-course-fpv-quadrirotor",
+        "image": "https://m.media-amazon.com/images/I/51om6RUxGJL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
-        "name": "JVC HA-L50-B-E: Leichte On-Ear Kopfhörer, faltbar",
-        "preis": "16.0€",
-        "bewertung": "4.2/5",
-        "marke": "JVC",
-        "farbe": "Schwarz",
-        "gewichtsklasse": "Extraleicht",
-        "bauform": "On-Ear",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "klangprofil": "Ausgewogen",
-        "faltbar": "Ja",
-        "productUrl": "/product/ha-l50-b-e-jvc-leichte-on-ear-kopfhorer-faltbar",
-        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61oyhk6AOkL._AC_UL320_.jpg]",
+        "name": "Contrôleur de Vol Ohulelks F405 MK2 pour Drone FPV",
+        "prix": "47.0€",
+        "évaluation": "0.0/5",
+        "type_de_produit": "Contrôleur de Vol (FC)",
+        "usage_principal": "Optimisation du vol et de la stabilité FPV",
+        "marque": "Ohulelks",
+        "niveau_cible": "Intermédiaire à expert (DIY)",
+        "productUrl": "/product/mk2-controleur-vol-ohulelks-f405-pour",
+        "image": "https://m.media-amazon.com/images/I/61oyhk6AOkL._AC_UL320_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/517nUTMioFL._AC_SL1500_.jpg]",
-        "name": "Koss KPH75 Stereo On-Ear Leicht Kopfhörer",
-        "preis": "8.0€",
-        "bewertung": "4.2/5",
-        "marke": "Koss",
-        "farbe": "Schwarz",
-        "gewichtsklasse": "Leicht",
-        "bauform": "On-Ear",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "klangprofil": "Ausgewogen",
-        "faltbar": "Nein",
-        "productUrl": "/product/koss-kph75-stereo-on-ear-leicht-kopfhorer",
-        "image": "https://m.media-amazon.com/images/I/517nUTMioFL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71HrXhVkxIL._AC_SL1500_.jpg]",
+        "name": "ESC 4-en-1 45A pour Drone FPV RC",
+        "prix": "45.0€",
+        "évaluation": "0.0/5",
+        "type_de_produit": "Contrôleur de Vitesse Électronique (ESC)",
+        "usage_principal": "Gestion et alimentation des moteurs de drone FPV",
+        "marque": "Fyearfly",
+        "niveau_cible": "Intermédiaire à expert (DIY)",
+        "productUrl": "/product/esc-4-en-1-45a-pour-drone-fpv",
+        "image": "https://m.media-amazon.com/images/I/71HrXhVkxIL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Die besten leichten On-Ear Kopfhörer finden",
+    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones de Course Haute Vitesse ?",
     "sections": [
       {
-        "heading": "1. Tragekomfort & Gewicht",
-        "content": "Achten Sie auf ein federleichtes Design (unter 100g) und weiche Ohrpolster, um Druckstellen zu vermeiden. Ein verstellbarer Bügel sorgt für optimalen Sitz bei längeren Hörsitzungen. Der JVC HA-L50-B-E ist beispielsweise extrem leicht und bietet hohen Tragekomfort für den täglichen Gebrauch und unterwegs. Ideale Wahl für Pendler und Reisen, wo Gewicht eine Rolle spielt."
+        "heading": "1. Moteurs et Puissance",
+        "content": "Optez pour des moteurs brushless (sans balais) de haute performance, par exemple des tailles 2207 ou 2306 avec un KV élevé (2400-2700KV) pour une vitesse et une réactivité maximales. La puissance est cruciale pour les accélérations fulgurantes. Vérifiez la compatibilité avec les hélices recommandées pour optimiser les performances."
       },
       {
-        "heading": "2. Klangqualität für den Alltag",
-        "content": "Für leichte On-Ear Kopfhörer ist ein ausgewogener Klang wichtig. Erwarten Sie keine audiophile Perfektion, aber klare Höhen und verständliche Mitten sind entscheidend für Musik, Podcasts und Anrufe. Ein solider Bass, der nicht übersteuert, rundet das Klangerlebnis ab. Testen Sie verschiedene Genres, um sicherzustellen, dass der Klang Ihren alltäglichen Bedürfnissen entspricht."
+        "heading": "2. Châssis et Durabilité",
+        "content": "Un châssis en fibre de carbone est indispensable pour sa légèreté et sa résistance aux chocs. Privilégiez une épaisseur d'au moins 4mm pour les bras afin de supporter les inévitables crashs. Un design compact et aérodynamique améliore l'agilité. Pensez à l'exemple du 'Kit Cadre Drone Course FPV Quadrirotor 4 axes'."
       },
       {
-        "heading": "3. Portabilität & Design",
-        "content": "Ein faltbares Design ist ein großes Plus, besonders wenn Sie die Kopfhörer oft mitnehmen. Modelle wie der JVC HA-L50-B-E lassen sich kompakt verstauen. Achten Sie auf eine robuste Verarbeitung der Scharniere und des Kabels. Schlichte Farben und ein unauffälliges Design machen sie zu einem vielseitigen Begleiter. Ein flaches Kabel verhindert lästigen Kabelsalat."
+        "heading": "3. Système FPV et Latence",
+        "content": "La qualité du système FPV (First Person View) est essentielle. Choisissez une caméra FPV à faible latence (par ex. RunCam, Foxeer) et un émetteur vidéo (VTX) puissant (200mW-800mW) pour un signal clair. Un récepteur fiable assure le contrôle précis du drone et une portée optimale. La réactivité est primordiale en course."
       },
       {
-        "heading": "4. Konnektivität & Kompatibilität",
-        "content": "Die meisten leichten On-Ear Kopfhörer nutzen einen standardmäßigen 3,5-mm-Klinkenstecker, was universelle Kompatibilität mit Smartphones, Tablets und Laptops gewährleistet. Prüfen Sie die Kabellänge; zu kurze Kabel schränken die Bewegungsfreiheit ein, zu lange können stören. Einige Modelle bieten optional eine integrierte Mikrofon- und Fernbedienungsfunktion für Anrufe und Musiksteuerung."
+        "heading": "4. Batteries et Autonomie",
+        "content": "Les batteries LiPo 4S ou 6S avec un taux de décharge (C-rating) élevé (100C ou plus) sont recommandées pour fournir la puissance nécessaire. Une capacité de 1300mAh à 1500mAh offre un bon équilibre entre autonomie et poids. Une batterie adaptée garantit des performances constantes et des vols dynamiques."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis",
-        "content": "Für leichte On-Ear Kopfhörer im Preissegment um 15-25€ sollten Sie ein solides Produkt erwarten. Der JVC HA-L50-B-E für etwa 16€ bietet beispielsweise eine gute Balance aus Leichtigkeit, Komfort und brauchbarer Klangqualität. Vergleichen Sie Modelle hinsichtlich Materialqualität und Tragekomfort, um das beste Angebot für Ihr Budget zu finden. Günstig muss nicht immer schlecht sein, wenn die Erwartungen realistisch sind."
+        "heading": "5. Compatibilité et Évolutivité",
+        "content": "Assurez-vous que les composants sont compatibles et faciles à remplacer ou à améliorer. Privilégiez les systèmes ouverts pour l'électronique de vol et les contrôleurs. Un drone évolutif vous permettra d'améliorer ses performances au fur et à mesure de votre progression. Vérifiez aussi la disponibilité des pièces de rechange pour une maintenance facile."
       }
     ]
   }

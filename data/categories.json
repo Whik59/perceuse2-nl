@@ -1,533 +1,781 @@
 [
   {
-    "slug": "bluetooth-in-ear-kopfhoerer",
-    "name": "Bluetooth In-Ear Kopfhörer",
-    "categoryNameCanonical": "Bluetooth In-Ear Kopfhörer",
-    "description": "Kabellose Ohrhörer für maximale Bewegungsfreiheit, die direkt im Ohr sitzen. Ideal für Smartphones, Sport und den täglichen Gebrauch.",
+    "slug": "drones-pour-debutants",
+    "name": "Drones pour Débutants",
+    "categoryNameCanonical": "Drones pour Débutants",
+    "description": "Drones faciles à piloter, parfaits pour les premiers vols, souvent équipés de protections et de fonctions d'assistance.",
     "subcategories": [
       {
-        "slug": "true-wireless-ohrhoerer",
-        "name": "True-Wireless-Ohrhörer",
-        "categoryNameCanonical": "True-Wireless-Ohrhörer",
-        "description": "Vollständig kabellose Ohrhörer mit Ladecase für höchste Portabilität."
+        "slug": "drones-avec-maintien-d-altitude",
+        "name": "Drones avec Maintien d'Altitude",
+        "categoryNameCanonical": "Drones avec Maintien d'Altitude",
+        "description": "Pour un vol stationnaire stable sans intervention constante du pilote."
       },
       {
-        "slug": "in-ear-kopfhoerer-nackenbuegel",
-        "name": "In-Ear Kopfhörer mit Nackenbügel",
-        "categoryNameCanonical": "In-Ear Kopfhörer mit Nackenbügel",
-        "description": "Durch ein Nackenband verbundene Ohrhörer, ideal für Sport und sicheren Halt."
+        "slug": "drones-avec-decollage-atterrissage-automatique",
+        "name": "Drones avec Décollage/Atterrissage Automatique",
+        "categoryNameCanonical": "Drones avec Décollage/Atterrissage Automatique",
+        "description": "Simplifie les manœuvres les plus délicates pour les nouveaux pilotes."
       },
       {
-        "slug": "in-ear-kopfhoerer-lange-akkulaufzeit",
-        "name": "In-Ear Kopfhörer mit langer Akkulaufzeit",
-        "categoryNameCanonical": "In-Ear Kopfhörer mit langer Akkulaufzeit",
-        "description": "Modelle, die für ausgedehnte Hörsessions ohne häufiges Aufladen konzipiert sind."
+        "slug": "drones-avec-protections-d-helices",
+        "name": "Drones avec Protections d'Hélices",
+        "categoryNameCanonical": "Drones avec Protections d'Hélices",
+        "description": "Pour une sécurité accrue et une meilleure durabilité lors des impacts."
       }
     ]
   },
   {
-    "slug": "bluetooth-over-ear-kopfhoerer",
-    "name": "Bluetooth Over-Ear Kopfhörer",
-    "categoryNameCanonical": "Bluetooth Over-Ear Kopfhörer",
-    "description": "Kabellose Kopfhörer, die das Ohr vollständig umschließen und für immersiven Klang und Komfort sorgen. Oft mit Features wie Noise Cancelling.",
+    "slug": "drones-pour-adolescents",
+    "name": "Drones pour Adolescents",
+    "categoryNameCanonical": "Drones pour Adolescents",
+    "description": "Drones robustes et ludiques avec des fonctionnalités intermédiaires, idéaux pour les 12-18 ans.",
     "subcategories": [
       {
-        "slug": "faltbare-bluetooth-over-ear-kopfhoerer",
-        "name": "Faltbare Bluetooth Over-Ear Kopfhörer",
-        "categoryNameCanonical": "Faltbare Bluetooth Over-Ear Kopfhörer",
-        "description": "Kompakte, zusammenklappbare Modelle, perfekt für Reisen und unterwegs."
+        "slug": "drones-acrobatiques-pour-adolescents",
+        "name": "Drones Acrobatiques pour Adolescents",
+        "categoryNameCanonical": "Drones Acrobatiques pour Adolescents",
+        "description": "Capables d'effectuer des figures et des flips à 360° pour plus de fun."
       },
       {
-        "slug": "bluetooth-over-ear-multipoint",
-        "name": "Bluetooth Over-Ear mit Multipoint",
-        "categoryNameCanonical": "Bluetooth Over-Ear mit Multipoint",
-        "description": "Ermöglicht die gleichzeitige Verbindung mit zwei Geräten, z. B. Laptop und Handy."
+        "slug": "drones-avec-camera-hd-pour-adolescents",
+        "name": "Drones avec Caméra HD pour Adolescents",
+        "categoryNameCanonical": "Drones avec Caméra HD pour Adolescents",
+        "description": "Pour s'initier à la prise de vue aérienne avec une qualité d'image correcte."
       },
       {
-        "slug": "bluetooth-over-ear-noise-cancelling",
-        "name": "Bluetooth Over-Ear mit Noise Cancelling",
-        "categoryNameCanonical": "Bluetooth Over-Ear mit Noise Cancelling",
-        "description": "Reduziert aktiv Umgebungsgeräusche für ungestörten Musikgenuss."
+        "slug": "drones-resistants-aux-chocs",
+        "name": "Drones Résistants aux Chocs",
+        "categoryNameCanonical": "Drones Résistants aux Chocs",
+        "description": "Conçus avec des matériaux durables pour résister aux erreurs de pilotage."
       }
     ]
   },
   {
-    "slug": "noise-cancelling-kopfhoerer",
-    "name": "Noise-Cancelling-Kopfhörer",
-    "categoryNameCanonical": "Noise-Cancelling-Kopfhörer",
-    "description": "Kopfhörer mit aktiver Geräuschunterdrückung (ANC) zur Reduzierung von Umgebungsgeräuschen in Flugzeugen, Zügen oder Büros.",
+    "slug": "drones-pour-adultes",
+    "name": "Drones pour Adultes",
+    "categoryNameCanonical": "Drones pour Adultes",
+    "description": "Drones performants pour les amateurs éclairés, offrant une meilleure qualité de caméra, portée et autonomie.",
     "subcategories": [
       {
-        "slug": "anc-over-ear-kopfhoerer",
-        "name": "ANC Over-Ear Kopfhörer",
-        "categoryNameCanonical": "ANC Over-Ear Kopfhörer",
-        "description": "Bieten die beste Geräuschisolierung durch die Kombination von ANC und ohrumschließendem Design."
+        "slug": "drones-4k-pour-adultes",
+        "name": "Drones 4K pour Adultes",
+        "categoryNameCanonical": "Drones 4K pour Adultes",
+        "description": "Pour des vidéos et photos aériennes de haute qualité."
       },
       {
-        "slug": "anc-in-ear-ohrhoerer",
-        "name": "ANC In-Ear Ohrhörer",
-        "categoryNameCanonical": "ANC In-Ear Ohrhörer",
-        "description": "Kompakte Ohrhörer mit aktiver Geräuschunterdrückung für unterwegs."
+        "slug": "drones-longue-portee-pour-adultes",
+        "name": "Drones Longue Portée pour Adultes",
+        "categoryNameCanonical": "Drones Longue Portée pour Adultes",
+        "description": "Permettant d'explorer de vastes zones avec une transmission vidéo fiable."
       },
       {
-        "slug": "noise-cancelling-kopfhoerer-reisen",
-        "name": "Noise-Cancelling-Kopfhörer für Reisen",
-        "categoryNameCanonical": "Noise-Cancelling-Kopfhörer für Reisen",
-        "description": "Leichte, faltbare Modelle mit langer Akkulaufzeit, ideal für lange Flüge."
+        "slug": "drones-avec-gps-pour-adultes",
+        "name": "Drones avec GPS pour Adultes",
+        "categoryNameCanonical": "Drones avec GPS pour Adultes",
+        "description": "Pour un vol précis, un retour automatique et des fonctions de suivi."
       }
     ]
   },
   {
-    "slug": "gaming-headsets",
-    "name": "Gaming-Headsets",
-    "categoryNameCanonical": "Gaming-Headsets",
-    "description": "Spezialisierte Kopfhörer mit Mikrofon für Gamer, optimiert für Surround-Sound, Sprachkommunikation und langen Tragekomfort.",
+    "slug": "drones-professionnels",
+    "name": "Drones Professionnels",
+    "categoryNameCanonical": "Drones Professionnels",
+    "description": "Équipements de pointe pour des applications commerciales spécifiques comme la cinématographie, l'inspection ou la cartographie.",
     "subcategories": [
       {
-        "slug": "gaming-headsets-pc",
-        "name": "Gaming-Headsets für PC",
-        "categoryNameCanonical": "Gaming-Headsets für PC",
-        "description": "Modelle mit USB- oder Klinkenanschluss, oft mit anpassbarer Software."
+        "slug": "drones-pour-cinematographie",
+        "name": "Drones pour Cinématographie",
+        "categoryNameCanonical": "Drones pour Cinématographie",
+        "description": "Avec capteurs d'image de grande taille, objectifs interchangeables et formats vidéo professionnels."
       },
       {
-        "slug": "gaming-headsets-ps5",
-        "name": "Gaming-Headsets für PS5",
-        "categoryNameCanonical": "Gaming-Headsets für PS5",
-        "description": "Kompatibel mit PlayStation 5, oft mit 3D-Audio-Unterstützung."
+        "slug": "drones-pour-inspection-thermique",
+        "name": "Drones pour Inspection Thermique",
+        "categoryNameCanonical": "Drones pour Inspection Thermique",
+        "description": "Équipés de caméras thermiques pour l'inspection de bâtiments, panneaux solaires ou lignes électriques."
       },
       {
-        "slug": "gaming-headsets-xbox",
-        "name": "Gaming-Headsets für Xbox",
-        "categoryNameCanonical": "Gaming-Headsets für Xbox",
-        "description": "Speziell für Xbox-Konsolen entwickelte kabellose oder kabelgebundene Headsets."
-      },
-      {
-        "slug": "kabellose-gaming-headsets",
-        "name": "Kabellose Gaming-Headsets",
-        "categoryNameCanonical": "Kabellose Gaming-Headsets",
-        "description": "Bieten maximale Bewegungsfreiheit beim Spielen durch 2,4-GHz-Funk oder Bluetooth."
+        "slug": "drones-pour-photogrammetrie",
+        "name": "Drones pour Photogrammétrie",
+        "categoryNameCanonical": "Drones pour Photogrammétrie",
+        "description": "Pour la modélisation 3D et la cartographie de terrains avec une haute précision."
       }
     ]
   },
   {
-    "slug": "sportkopfhoerer",
-    "name": "Sportkopfhörer",
-    "categoryNameCanonical": "Sportkopfhörer",
-    "description": "Schweiß- und wasserfeste Kopfhörer, die für einen sicheren Halt bei körperlicher Aktivität wie Laufen, Fitness oder Schwimmen konzipiert sind.",
+    "slug": "drones-avec-camera-4k",
+    "name": "Drones avec Caméra 4K",
+    "categoryNameCanonical": "Drones avec Caméra 4K",
+    "description": "Capturez des images et vidéos aériennes d'une netteté et d'un détail exceptionnels en résolution 4K.",
     "subcategories": [
       {
-        "slug": "wasserdichte-kopfhoerer-schwimmen",
-        "name": "Wasserdichte Kopfhörer zum Schwimmen",
-        "categoryNameCanonical": "Wasserdichte Kopfhörer zum Schwimmen",
-        "description": "IPX7/8-zertifizierte Modelle, oft mit integriertem MP3-Player."
+        "slug": "drones-4k-avec-stabilisateur-3-axes",
+        "name": "Drones 4K avec Stabilisateur 3 Axes",
+        "categoryNameCanonical": "Drones 4K avec Stabilisateur 3 Axes",
+        "description": "Pour des vidéos parfaitement fluides et sans tremblements, même en mouvement."
       },
       {
-        "slug": "sportkopfhoerer-mit-ohrbuegel",
-        "name": "Sportkopfhörer mit Ohrbügel",
-        "categoryNameCanonical": "Sportkopfhörer mit Ohrbügel",
-        "description": "Bieten extra sicheren Halt und verhindern das Herausfallen beim Laufen oder Springen."
+        "slug": "drones-4k-avec-zoom",
+        "name": "Drones 4K avec Zoom",
+        "categoryNameCanonical": "Drones 4K avec Zoom",
+        "description": "Permet de capturer des sujets à distance sans perte de qualité."
       },
       {
-        "slug": "knochenschall-kopfhoerer-sport",
-        "name": "Knochenschall-Kopfhörer für Sport",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer für Sport",
-        "description": "Halten die Ohren frei, um Umgebungsgeräusche wahrzunehmen, ideal für Radfahrer und Läufer."
+        "slug": "drones-4k-60fps",
+        "name": "Drones 4K à 60fps",
+        "categoryNameCanonical": "Drones 4K à 60fps",
+        "description": "Idéal pour des vidéos fluides et la création de ralentis de haute qualité."
       }
     ]
   },
   {
-    "slug": "kabelgebundene-kopfhoerer",
-    "name": "Kabelgebundene Kopfhörer",
-    "categoryNameCanonical": "Kabelgebundene Kopfhörer",
-    "description": "Klassische Kopfhörer mit Kabelverbindung für verlustfreie Audioqualität und ohne Akku-Sorgen. Ideal für Hi-Fi-Anlagen, PCs und ältere Geräte.",
+    "slug": "drones-pliables-et-portables",
+    "name": "Drones Pliables et Portables",
+    "categoryNameCanonical": "Drones Pliables et Portables",
+    "description": "Drones compacts qui se plient pour un transport facile dans un sac à dos, parfaits pour les voyages et les randonnées.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-3-5mm-klinke",
-        "name": "Kopfhörer mit 3,5mm-Klinke",
-        "categoryNameCanonical": "Kopfhörer mit 3,5mm-Klinke",
-        "description": "Der universelle Standard für die meisten Audiogeräte."
+        "slug": "drones-pliables-moins-de-250g",
+        "name": "Drones Pliables Moins de 250g",
+        "categoryNameCanonical": "Drones Pliables Moins de 250g",
+        "description": "Conformes à la législation de nombreux pays pour un usage sans enregistrement complexe."
       },
       {
-        "slug": "kopfhoerer-mit-usb-c",
-        "name": "Kopfhörer mit USB-C",
-        "categoryNameCanonical": "Kopfhörer mit USB-C",
-        "description": "Für moderne Smartphones und Laptops ohne traditionellen Kopfhöreranschluss."
+        "slug": "drones-pliables-avec-etui-de-transport",
+        "name": "Drones Pliables avec Étui de Transport",
+        "categoryNameCanonical": "Drones Pliables avec Étui de Transport",
+        "description": "Ensembles complets incluant un sac ou une mallette pour une protection optimale."
       },
       {
-        "slug": "kopfhoerer-mit-lightning-anschluss",
-        "name": "Kopfhörer mit Lightning-Anschluss",
-        "categoryNameCanonical": "Kopfhörer mit Lightning-Anschluss",
-        "description": "Speziell für Apple iPhones und iPads konzipiert."
+        "slug": "drones-pliables-longue-autonomie",
+        "name": "Drones Pliables à Longue Autonomie",
+        "categoryNameCanonical": "Drones Pliables à Longue Autonomie",
+        "description": "Pour maximiser le temps de vol (plus de 30 min) lors de vos déplacements."
       }
     ]
   },
   {
-    "slug": "kinderkopfhoerer",
-    "name": "Kinderkopfhörer",
-    "categoryNameCanonical": "Kinderkopfhörer",
-    "description": "Robuste und sichere Kopfhörer für Kinder, oft mit integrierter Lautstärkebegrenzung zum Schutz des empfindlichen Gehörs.",
+    "slug": "drones-longue-portee",
+    "name": "Drones Longue Portée",
+    "categoryNameCanonical": "Drones Longue Portée",
+    "description": "Explorez plus loin avec une connexion stable. Catégorisés par la distance maximale de contrôle et de transmission vidéo.",
     "subcategories": [
       {
-        "slug": "kinderkopfhoerer-mit-lautstaerkebegrenzung",
-        "name": "Kinderkopfhörer mit Lautstärkebegrenzung",
-        "categoryNameCanonical": "Kinderkopfhörer mit Lautstärkebegrenzung",
-        "description": "Schützen das Gehör durch eine maximale Dezibel-Grenze (meist 85dB)."
+        "slug": "drones-portee-jusqua-5-km",
+        "name": "Drones Portée jusqu'à 5 km",
+        "categoryNameCanonical": "Drones Portée jusqu'à 5 km",
+        "description": "Pour une excellente portée pour la plupart des usages amateurs."
       },
       {
-        "slug": "kabellose-kinderkopfhoerer",
-        "name": "Kabellose Kinderkopfhörer",
-        "categoryNameCanonical": "Kabellose Kinderkopfhörer",
-        "description": "Bluetooth-Modelle ohne Kabel, um Verwicklungsgefahr zu vermeiden."
+        "slug": "drones-portee-5-a-10-km",
+        "name": "Drones Portée de 5 à 10 km",
+        "categoryNameCanonical": "Drones Portée de 5 à 10 km",
+        "description": "Pour les utilisateurs avancés souhaitant couvrir de grandes distances."
       },
       {
-        "slug": "kinderkopfhoerer-fuer-toniebox",
-        "name": "Kinderkopfhörer für Toniebox",
-        "categoryNameCanonical": "Kinderkopfhörer für Toniebox",
-        "description": "Kabelgebundene Modelle, die speziell für die Verwendung mit Hörspielboxen geeignet sind."
+        "slug": "drones-portee-plus-de-10-km",
+        "name": "Drones Portée de plus de 10 km",
+        "categoryNameCanonical": "Drones Portée de plus de 10 km",
+        "description": "Pour les professionnels et les vols en zones dégagées nécessitant une portée extrême."
       }
     ]
   },
   {
-    "slug": "tv-kopfhoerer",
-    "name": "TV-Kopfhörer",
-    "categoryNameCanonical": "TV-Kopfhörer",
-    "description": "Kopfhörer für den Fernseher, oft kabellos (Funk/RF oder Bluetooth mit geringer Latenz), um den Ton zu genießen, ohne andere zu stören.",
+    "slug": "mini-drones",
+    "name": "Mini Drones",
+    "categoryNameCanonical": "Mini Drones",
+    "description": "Drones légers et de petite taille, souvent utilisés en intérieur ou pour un transport ultra-facile.",
     "subcategories": [
       {
-        "slug": "funk-kopfhoerer-fuer-tv",
-        "name": "Funk-Kopfhörer für TV (RF)",
-        "categoryNameCanonical": "Funk-Kopfhörer für TV (RF)",
-        "description": "Bieten eine stabile Verbindung mit großer Reichweite und ohne Tonverzögerung."
+        "slug": "mini-drones-pour-vol-interieur",
+        "name": "Mini Drones pour Vol en Intérieur",
+        "categoryNameCanonical": "Mini Drones pour Vol en Intérieur",
+        "description": "Conçus avec des protections et une taille adaptée pour voler en toute sécurité à l'intérieur."
       },
       {
-        "slug": "bluetooth-kopfhoerer-fuer-tv",
-        "name": "Bluetooth-Kopfhörer für TV",
-        "categoryNameCanonical": "Bluetooth-Kopfhörer für TV",
-        "description": "Modelle mit Low-Latency-Codecs (aptX LL) zur Synchronisation von Bild und Ton."
+        "slug": "mini-drones-avec-camera",
+        "name": "Mini Drones avec Caméra",
+        "categoryNameCanonical": "Mini Drones avec Caméra",
+        "description": "Pour s'amuser à prendre des photos et vidéos depuis des angles uniques."
       },
       {
-        "slug": "kinnbuegelhoerer-fuer-senioren",
-        "name": "Kinnbügelhörer für Senioren",
-        "categoryNameCanonical": "Kinnbügelhörer für Senioren",
-        "description": "Leichte Hörsysteme, die unter dem Kinn getragen werden, oft mit Sprachverstärkung."
+        "slug": "mini-drones-moins-de-250g",
+        "name": "Mini Drones Moins de 250g",
+        "categoryNameCanonical": "Mini Drones Moins de 250g",
+        "description": "Catégorie de poids réglementaire offrant plus de flexibilité de vol."
       }
     ]
   },
   {
-    "slug": "on-ear-kopfhoerer",
-    "name": "On-Ear Kopfhörer",
-    "categoryNameCanonical": "On-Ear Kopfhörer",
-    "description": "Kopfhörer, die auf den Ohren aufliegen. Ein Kompromiss aus der Kompaktheit von In-Ears und der Klangqualität von Over-Ears.",
+    "slug": "drones-fpv-et-racing",
+    "name": "Drones FPV et Racing",
+    "categoryNameCanonical": "Drones FPV et Racing",
+    "description": "Pour une expérience de vol immersive avec des lunettes FPV, axée sur la vitesse et l'agilité.",
     "subcategories": [
       {
-        "slug": "leichte-on-ear-kopfhoerer",
-        "name": "Leichte On-Ear Kopfhörer",
-        "categoryNameCanonical": "Leichte On-Ear Kopfhörer",
-        "description": "Besonders leichte Modelle für hohen Tragekomfort über längere Zeit."
+        "slug": "kits-fpv-complets-rtf",
+        "name": "Kits FPV Complets (RTF - Ready To Fly)",
+        "categoryNameCanonical": "Kits FPV Complets (RTF - Ready To Fly)",
+        "description": "Ensembles prêts à l'emploi incluant drone, radiocommande et lunettes FPV."
       },
       {
-        "slug": "faltbare-on-ear-kopfhoerer",
-        "name": "Faltbare On-Ear Kopfhörer",
-        "categoryNameCanonical": "Faltbare On-Ear Kopfhörer",
-        "description": "Kompakt und einfach zu transportieren, ideal für Pendler."
+        "slug": "drones-de-course-haute-vitesse",
+        "name": "Drones de Course Haute Vitesse",
+        "categoryNameCanonical": "Drones de Course Haute Vitesse",
+        "description": "Conçus pour la compétition, avec des moteurs puissants et un châssis en carbone."
       },
       {
-        "slug": "bluetooth-on-ear-kopfhoerer",
-        "name": "Bluetooth On-Ear Kopfhörer",
-        "categoryNameCanonical": "Bluetooth On-Ear Kopfhörer",
-        "description": "Kabellose On-Ear-Modelle für den unkomplizierten mobilen Einsatz."
+        "slug": "drones-fpv-cinewhoop",
+        "name": "Drones FPV Cinewhoop",
+        "categoryNameCanonical": "Drones FPV Cinewhoop",
+        "description": "Petits drones FPV carénés, conçus pour des prises de vues cinématiques stables en intérieur et à proximité des sujets."
       }
     ]
   },
   {
-    "slug": "buero-call-center-headsets",
-    "name": "Büro & Call-Center-Headsets",
-    "categoryNameCanonical": "Büro & Call-Center-Headsets",
-    "description": "Headsets mit hochwertigen Mikrofonen und Geräuschunterdrückung für klare Kommunikation in Videokonferenzen und Telefonaten.",
+    "slug": "drones-avec-suivi-de-sujet",
+    "name": "Drones avec Suivi de Sujet",
+    "categoryNameCanonical": "Drones avec Suivi de Sujet",
+    "description": "Drones capables de suivre et filmer automatiquement un sujet en mouvement (personne, véhicule).",
     "subcategories": [
       {
-        "slug": "usb-headsets-fuer-buero",
-        "name": "USB-Headsets für Büro",
-        "categoryNameCanonical": "USB-Headsets für Büro",
-        "description": "Einfache Plug-and-Play-Installation am PC oder Laptop."
+        "slug": "drones-avec-fonction-follow-me-gps",
+        "name": "Drones avec Fonction Follow Me GPS",
+        "categoryNameCanonical": "Drones avec Fonction Follow Me GPS",
+        "description": "Le drone suit la radiocommande ou le smartphone via le signal GPS."
       },
       {
-        "slug": "headsets-mit-noise-cancelling-mikrofon",
-        "name": "Headsets mit Noise-Cancelling-Mikrofon",
-        "categoryNameCanonical": "Headsets mit Noise-Cancelling-Mikrofon",
-        "description": "Filtern Hintergrundgeräusche heraus, damit Ihre Stimme klar verständlich ist."
+        "slug": "drones-avec-reconnaissance-visuelle-active-track",
+        "name": "Drones avec Reconnaissance Visuelle (Active Track)",
+        "categoryNameCanonical": "Drones avec Reconnaissance Visuelle (Active Track)",
+        "description": "Utilise la caméra pour identifier et suivre un sujet de manière intelligente."
       },
       {
-        "slug": "einohr-headsets-monaural",
-        "name": "Einohr-Headsets (Monaural)",
-        "categoryNameCanonical": "Einohr-Headsets (Monaural)",
-        "description": "Ermöglichen es, mit einem Ohr die Umgebung wahrzunehmen, während man telefoniert."
+        "slug": "drones-de-suivi-pour-le-sport",
+        "name": "Drones de Suivi pour le Sport",
+        "categoryNameCanonical": "Drones de Suivi pour le Sport",
+        "description": "Optimisés pour suivre des actions rapides comme le vélo, le ski ou la course."
       }
     ]
   },
   {
-    "slug": "studio-kopfhoerer",
-    "name": "Studio-Kopfhörer",
-    "categoryNameCanonical": "Studio-Kopfhörer",
-    "description": "Professionelle Kopfhörer für Musiker und Produzenten mit neutralem, unverfälschtem Klangbild für Mixing, Mastering und Recording.",
+    "slug": "drones-avec-evitement-d-obstacles",
+    "name": "Drones avec Évitement d'Obstacles",
+    "categoryNameCanonical": "Drones avec Évitement d'Obstacles",
+    "description": "Équipés de capteurs pour détecter et éviter les obstacles, augmentant la sécurité du vol.",
     "subcategories": [
       {
-        "slug": "offene-studio-kopfhoerer",
-        "name": "Offene Studio-Kopfhörer",
-        "categoryNameCanonical": "Offene Studio-Kopfhörer",
-        "description": "Bieten eine breite, natürliche Klangbühne, ideal für Mixing und Mastering."
+        "slug": "drones-avec-capteurs-frontaux-et-inferieurs",
+        "name": "Drones avec Capteurs Frontaux et Inférieurs",
+        "categoryNameCanonical": "Drones avec Capteurs Frontaux et Inférieurs",
+        "description": "Protection de base contre les collisions vers l'avant et vers le bas."
       },
       {
-        "slug": "geschlossene-studio-kopfhoerer",
-        "name": "Geschlossene Studio-Kopfhörer",
-        "categoryNameCanonical": "Geschlossene Studio-Kopfhörer",
-        "description": "Isolieren Außengeräusche, perfekt für die Aufnahme (Recording) von Gesang oder Instrumenten."
+        "slug": "drones-avec-detection-d-obstacles-a-360",
+        "name": "Drones avec Détection d'Obstacles à 360°",
+        "categoryNameCanonical": "Drones avec Détection d'Obstacles à 360°",
+        "description": "Sécurité maximale avec des capteurs couvrant toutes les directions de vol."
       },
       {
-        "slug": "studio-kopfhoerer-hohe-impedanz",
-        "name": "Studio-Kopfhörer mit hoher Impedanz",
-        "categoryNameCanonical": "Studio-Kopfhörer mit hoher Impedanz",
-        "description": "Für den Einsatz mit professionellen Kopfhörerverstärkern für höchste Klangtreue."
+        "slug": "drones-avec-systeme-apas",
+        "name": "Drones avec Système APAS",
+        "categoryNameCanonical": "Drones avec Système APAS",
+        "description": "Systèmes d'assistance avancés qui contournent les obstacles de manière autonome."
       }
     ]
   },
   {
-    "slug": "knochenschall-kopfhoerer",
-    "name": "Knochenschall-Kopfhörer",
-    "categoryNameCanonical": "Knochenschall-Kopfhörer",
-    "description": "Übertragen den Schall über die Wangenknochen, sodass die Ohren frei bleiben. Ideal für Sportler und Personen mit Hörbeeinträchtigungen.",
+    "slug": "drones-agricoles",
+    "name": "Drones Agricoles",
+    "categoryNameCanonical": "Drones Agricoles",
+    "description": "Drones spécialisés pour les applications agricoles comme la pulvérisation de cultures, l'épandage ou l'analyse de la santé des plantes.",
     "subcategories": [
       {
-        "slug": "knochenschall-kopfhoerer-fuer-radfahrer",
-        "name": "Knochenschall-Kopfhörer für Radfahrer",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer für Radfahrer",
-        "description": "Ermöglichen das Hören von Musik und gleichzeitigem Wahrnehmen des Verkehrs."
+        "slug": "drones-pulverisateurs-agricoles",
+        "name": "Drones Pulvérisateurs Agricoles",
+        "categoryNameCanonical": "Drones Pulvérisateurs Agricoles",
+        "description": "Équipés de réservoirs et de buses pour l'application précise de liquides."
       },
       {
-        "slug": "wasserdichte-knochenschall-kopfhoerer",
-        "name": "Wasserdichte Knochenschall-Kopfhörer",
-        "categoryNameCanonical": "Wasserdichte Knochenschall-Kopfhörer",
-        "description": "IP68-zertifizierte Modelle, die auch beim Schwimmen getragen werden können."
+        "slug": "drones-avec-camera-multispectrale",
+        "name": "Drones avec Caméra Multispectrale",
+        "categoryNameCanonical": "Drones avec Caméra Multispectrale",
+        "description": "Pour analyser la santé des cultures et optimiser les rendements."
       },
       {
-        "slug": "knochenschall-kopfhoerer-mit-mikrofon",
-        "name": "Knochenschall-Kopfhörer mit Mikrofon",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer mit Mikrofon",
-        "description": "Geeignet für Telefonate, ohne die Ohren zu bedecken."
+        "slug": "drones-epandeurs-de-granules",
+        "name": "Drones Épandeurs de Granulés",
+        "categoryNameCanonical": "Drones Épandeurs de Granulés",
+        "description": "Pour la distribution de semences, d'engrais ou d'autres solides."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-mit-mikrofon",
-    "name": "Kopfhörer mit Mikrofon (Headsets)",
-    "categoryNameCanonical": "Kopfhörer mit Mikrofon (Headsets)",
-    "description": "Allzweck-Kopfhörer mit integriertem Mikrofon für Telefonate, Online-Meetings und einfache Sprachaufnahmen.",
+    "slug": "drones-sous-marins",
+    "name": "Drones Sous-Marins",
+    "categoryNameCanonical": "Drones Sous-Marins",
+    "description": "Explorez le monde aquatique avec ces ROV (Remotely Operated Vehicles) équipés de caméras et parfois de bras manipulateurs.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-mikrofon-fuer-handy",
-        "name": "Kopfhörer mit Mikrofon für Handy",
-        "categoryNameCanonical": "Kopfhörer mit Mikrofon für Handy",
-        "description": "Kabelgebundene oder kabellose Modelle für klare Anrufe unterwegs."
+        "slug": "drones-sous-marins-avec-camera-4k",
+        "name": "Drones Sous-Marins avec Caméra 4K",
+        "categoryNameCanonical": "Drones Sous-Marins avec Caméra 4K",
+        "description": "Pour une exploration et une inspection visuelle sous-marine en haute résolution."
       },
       {
-        "slug": "headsets-fuer-videokonferenzen",
-        "name": "Headsets für Videokonferenzen",
-        "categoryNameCanonical": "Headsets für Videokonferenzen",
-        "description": "Optimiert für Sprachverständlichkeit in Programmen wie Zoom, Teams oder Skype."
+        "slug": "drones-sous-marins-pour-la-peche",
+        "name": "Drones Sous-Marins pour la Pêche",
+        "categoryNameCanonical": "Drones Sous-Marins pour la Pêche",
+        "description": "Équipés de sonars et de détecteurs de poissons pour localiser les meilleures prises."
       },
       {
-        "slug": "kopfhoerer-mit-stummschaltung",
-        "name": "Kopfhörer mit Stummschaltung",
-        "categoryNameCanonical": "Kopfhörer mit Stummschaltung",
-        "description": "Verfügen über eine physische Taste oder Funktion zum schnellen Stummschalten des Mikrofons."
+        "slug": "drones-sous-marins-avec-bras-robotique",
+        "name": "Drones Sous-Marins avec Bras Robotique",
+        "categoryNameCanonical": "Drones Sous-Marins avec Bras Robotique",
+        "description": "Pour la saisie d'objets, la collecte d'échantillons ou des tâches de maintenance légères."
       }
     ]
   },
   {
-    "slug": "reisekopfhoerer",
-    "name": "Reisekopfhörer",
-    "categoryNameCanonical": "Reisekopfhörer",
-    "description": "Kompakte, oft faltbare Kopfhörer mit Zubehör wie Transportetuis und Flugzeugadaptern, ideal für Pendler und Reisende.",
+    "slug": "batteries-pour-drones",
+    "name": "Batteries pour Drones",
+    "categoryNameCanonical": "Batteries pour Drones",
+    "description": "Batteries de rechange et supplémentaires pour prolonger votre temps de vol.",
     "subcategories": [
       {
-        "slug": "faltbare-und-kompakte-kopfhoerer",
-        "name": "Faltbare und kompakte Kopfhörer",
-        "categoryNameCanonical": "Faltbare und kompakte Kopfhörer",
-        "description": "Lassen sich klein zusammenlegen und platzsparend im Gepäck verstauen."
+        "slug": "batteries-de-vol-intelligentes",
+        "name": "Batteries de Vol Intelligentes",
+        "categoryNameCanonical": "Batteries de Vol Intelligentes",
+        "description": "Avec gestion intégrée de la charge et de la décharge pour plus de sécurité et de longévité."
       },
       {
-        "slug": "kopfhoerer-mit-transportetui",
-        "name": "Kopfhörer mit Transportetui",
-        "categoryNameCanonical": "Kopfhörer mit Transportetui",
-        "description": "Werden mit einem Hard- oder Softcase zum Schutz auf Reisen geliefert."
+        "slug": "batteries-lipo-haute-performance",
+        "name": "Batteries LiPo Haute Performance",
+        "categoryNameCanonical": "Batteries LiPo Haute Performance",
+        "description": "Pour les drones FPV et de course, offrant un taux de décharge élevé."
       },
       {
-        "slug": "kopfhoerer-mit-flugzeugadapter",
-        "name": "Kopfhörer mit Flugzeugadapter",
-        "categoryNameCanonical": "Kopfhörer mit Flugzeugadapter",
-        "description": "Ermöglichen den Anschluss an das In-Flight-Entertainment-System im Flugzeug."
+        "slug": "batteries-pour-drones-dji",
+        "name": "Batteries pour Drones DJI",
+        "categoryNameCanonical": "Batteries pour Drones DJI",
+        "description": "Batteries officielles et compatibles pour les modèles DJI Mavic, Air, Mini, etc."
       }
     ]
   },
   {
-    "slug": "audiophile-kopfhoerer",
-    "name": "Audiophile Kopfhörer",
-    "categoryNameCanonical": "Audiophile Kopfhörer",
-    "description": "High-End-Kopfhörer für anspruchsvolle Hörer, die Wert auf höchste Klangtreue, Detailreichtum und erstklassige Materialien legen.",
+    "slug": "chargeurs-pour-drones",
+    "name": "Chargeurs pour Drones",
+    "categoryNameCanonical": "Chargeurs pour Drones",
+    "description": "Solutions pour recharger une ou plusieurs batteries de drone, à la maison ou en déplacement.",
     "subcategories": [
       {
-        "slug": "offene-audiophile-kopfhoerer",
-        "name": "Offene audiophile Kopfhörer",
-        "categoryNameCanonical": "Offene audiophile Kopfhörer",
-        "description": "Für eine weite, natürliche Klangbühne und ein luftiges Hörerlebnis."
+        "slug": "hubs-de-charge-multi-batteries",
+        "name": "Hubs de Charge Multi-Batteries",
+        "categoryNameCanonical": "Hubs de Charge Multi-Batteries",
+        "description": "Pour recharger plusieurs batteries séquentiellement ou simultanément."
       },
       {
-        "slug": "planar-magnetische-kopfhoerer",
-        "name": "Planar-magnetische Kopfhörer",
-        "categoryNameCanonical": "Planar-magnetische Kopfhörer",
-        "description": "Nutzen eine spezielle Treibertechnologie für extrem präzisen und verzerrungsarmen Klang."
+        "slug": "chargeurs-de-voiture-pour-drones",
+        "name": "Chargeurs de Voiture pour Drones",
+        "categoryNameCanonical": "Chargeurs de Voiture pour Drones",
+        "description": "Permet de recharger vos batteries via la prise allume-cigare de votre véhicule."
       },
       {
-        "slug": "high-resolution-audio-kopfhoerer",
-        "name": "High-Resolution-Audio-Kopfhörer",
-        "categoryNameCanonical": "High-Resolution-Audio-Kopfhörer",
-        "description": "Zertifiziert für die Wiedergabe von hochauflösenden Audioformaten."
+        "slug": "chargeurs-rapides-pour-drones",
+        "name": "Chargeurs Rapides pour Drones",
+        "categoryNameCanonical": "Chargeurs Rapides pour Drones",
+        "description": "Réduisent considérablement le temps de charge des batteries."
       }
     ]
   },
   {
-    "slug": "dj-kopfhoerer",
-    "name": "DJ-Kopfhörer",
-    "categoryNameCanonical": "DJ-Kopfhörer",
-    "description": "Robuste Kopfhörer für DJs mit hoher Belastbarkeit, guter Geräuschisolierung und oft drehbaren Ohrmuscheln für einseitiges Monitoring.",
+    "slug": "helices-pour-drones",
+    "name": "Hélices pour Drones",
+    "categoryNameCanonical": "Hélices pour Drones",
+    "description": "Hélices de rechange ou d'amélioration pour optimiser le bruit, la performance et la sécurité.",
     "subcategories": [
       {
-        "slug": "dj-kopfhoerer-mit-drehbaren-ohrmuscheln",
-        "name": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
-        "categoryNameCanonical": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
-        "description": "Ermöglichen das einfache Vorhören von Tracks mit einem Ohr."
+        "slug": "helices-a-faible-bruit",
+        "name": "Hélices à Faible Bruit",
+        "categoryNameCanonical": "Hélices à Faible Bruit",
+        "description": "Conçues avec un profil aérodynamique qui réduit la signature sonore du drone."
       },
       {
-        "slug": "dj-kopfhoerer-mit-spiralkabel",
-        "name": "DJ-Kopfhörer mit Spiralkabel",
-        "categoryNameCanonical": "DJ-Kopfhörer mit Spiralkabel",
-        "description": "Bieten Flexibilität und verhindern Kabelsalat hinter dem DJ-Pult."
+        "slug": "helices-a-degagement-rapide",
+        "name": "Hélices à Dégagement Rapide",
+        "categoryNameCanonical": "Hélices à Dégagement Rapide",
+        "description": "Pour un montage et un démontage rapides sans outils."
       },
       {
-        "slug": "geschlossene-dj-kopfhoerer",
-        "name": "Geschlossene DJ-Kopfhörer",
-        "categoryNameCanonical": "Geschlossene DJ-Kopfhörer",
-        "description": "Bieten eine starke Abschirmung von lauten Umgebungsgeräuschen im Club."
+        "slug": "helices-en-fibre-de-carbone",
+        "name": "Hélices en Fibre de Carbone",
+        "categoryNameCanonical": "Hélices en Fibre de Carbone",
+        "description": "Plus rigides et légères pour une meilleure réactivité sur les drones de performance."
       }
     ]
   },
   {
-    "slug": "in-ear-monitoring-systeme",
-    "name": "In-Ear-Monitoring-Systeme",
-    "categoryNameCanonical": "In-Ear-Monitoring-Systeme",
-    "description": "Professionelle Ohrhörer für Musiker auf der Bühne, die eine präzise und direkte Klangwiedergabe des eigenen Instruments oder der Stimme ermöglichen.",
+    "slug": "sacs-et-etuis-de-transport-pour-drones",
+    "name": "Sacs et Étuis de Transport pour Drones",
+    "categoryNameCanonical": "Sacs et Étuis de Transport pour Drones",
+    "description": "Protégez votre drone et ses accessoires lors de vos déplacements.",
     "subcategories": [
       {
-        "slug": "kabelgebundene-in-ear-monitore",
-        "name": "Kabelgebundene In-Ear-Monitore",
-        "categoryNameCanonical": "Kabelgebundene In-Ear-Monitore",
-        "description": "Direkte Verbindung zum Mischpult oder Bodypack für eine latenzfreie Übertragung."
+        "slug": "sacs-a-dos-pour-drones",
+        "name": "Sacs à Dos pour Drones",
+        "categoryNameCanonical": "Sacs à Dos pour Drones",
+        "description": "Avec compartiments dédiés pour le drone, la radiocommande, les batteries et autres accessoires."
       },
       {
-        "slug": "kabellose-in-ear-monitoring-systeme",
-        "name": "Kabellose In-Ear-Monitoring-Systeme",
-        "categoryNameCanonical": "Kabellose In-Ear-Monitoring-Systeme",
-        "description": "Bestehen aus Sender und Bodypack-Empfänger für maximale Bewegungsfreiheit auf der Bühne."
+        "slug": "mallettes-rigides-etanches",
+        "name": "Mallettes Rigides Étanche",
+        "categoryNameCanonical": "Mallettes Rigides Étanche",
+        "description": "Offrent une protection maximale contre les chocs, l'eau et la poussière."
       },
       {
-        "slug": "in-ear-monitore-mit-mehreren-treibern",
-        "name": "In-Ear-Monitore mit mehreren Treibern",
-        "categoryNameCanonical": "In-Ear-Monitore mit mehreren Treibern",
-        "description": "Nutzen separate Treiber für Bässe, Mitten und Höhen für einen detaillierteren Klang."
+        "slug": "etuis-souples-et-housses",
+        "name": "Étuis Souples et Housses",
+        "categoryNameCanonical": "Étuis Souples et Housses",
+        "description": "Solutions de protection légères pour le drone seul ou quelques accessoires."
       }
     ]
   },
   {
-    "slug": "schlaf-kopfhoerer",
-    "name": "Schlaf-Kopfhörer",
-    "categoryNameCanonical": "Schlaf-Kopfhörer",
-    "description": "Besonders flache und weiche Kopfhörer, die bequem im Liegen getragen werden können, um Hörbücher, Podcasts oder beruhigende Klänge zu hören.",
+    "slug": "radiocommandes-et-controleurs-pour-drones",
+    "name": "Radiocommandes et Contrôleurs",
+    "categoryNameCanonical": "Radiocommandes et Contrôleurs",
+    "description": "Radiocommandes de remplacement ou améliorées pour un meilleur contrôle et une portée accrue.",
     "subcategories": [
       {
-        "slug": "schlaf-kopfhoerer-als-stirnband",
-        "name": "Schlaf-Kopfhörer als Stirnband",
-        "categoryNameCanonical": "Schlaf-Kopfhörer als Stirnband",
-        "description": "Weiche Stoff-Stirnbänder mit integrierten, flachen Lautsprechern."
+        "slug": "radiocommandes-avec-ecran-integre",
+        "name": "Radiocommandes avec Écran Intégré",
+        "categoryNameCanonical": "Radiocommandes avec Écran Intégré",
+        "description": "Pour piloter sans avoir besoin de connecter un smartphone ou une tablette."
       },
       {
-        "slug": "flache-in-ear-schlaf-ohrhoerer",
-        "name": "Flache In-Ear Schlaf-Ohrhörer",
-        "categoryNameCanonical": "Flache In-Ear Schlaf-Ohrhörer",
-        "description": "Kleine, weiche Ohrstöpsel, die auch für Seitenschläfer geeignet sind."
+        "slug": "controleurs-pour-drones-fpv",
+        "name": "Contrôleurs pour Drones FPV",
+        "categoryNameCanonical": "Contrôleurs pour Drones FPV",
+        "description": "Avec des protocoles de transmission rapides et des sticks de haute précision."
       },
       {
-        "slug": "schlaf-kopfhoerer-mit-white-noise",
-        "name": "Schlaf-Kopfhörer mit White Noise",
-        "categoryNameCanonical": "Schlaf-Kopfhörer mit White Noise",
-        "description": "Modelle, die Umgebungsgeräusche maskieren und beim Einschlafen helfen."
+        "slug": "supports-tablette-et-smartphone-pour-radiocommande",
+        "name": "Supports Tablette et Smartphone pour Radiocommande",
+        "categoryNameCanonical": "Supports Tablette et Smartphone pour Radiocommande",
+        "description": "Pour fixer de manière stable des écrans de plus grande taille sur votre contrôleur."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-mit-radio",
-    "name": "Kopfhörer mit Radio",
-    "categoryNameCanonical": "Kopfhörer mit Radio",
-    "description": "Kopfhörer mit integriertem FM/AM-Radioempfänger, die das Musikhören ohne verbundenes Abspielgerät ermöglichen.",
+    "slug": "lunettes-et-casques-fpv",
+    "name": "Lunettes et Casques FPV",
+    "categoryNameCanonical": "Lunettes et Casques FPV",
+    "description": "Recevez le flux vidéo de votre drone en temps réel pour une expérience de vol totalement immersive.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-fm-radio",
-        "name": "Kopfhörer mit FM-Radio",
-        "categoryNameCanonical": "Kopfhörer mit FM-Radio",
-        "description": "Zum Empfang von UKW-Radiosendern, ideal für unterwegs oder bei der Arbeit."
+        "slug": "lunettes-fpv-numeriques",
+        "name": "Lunettes FPV Numériques",
+        "categoryNameCanonical": "Lunettes FPV Numériques",
+        "description": "Offrent une qualité d'image HD, une faible latence et une meilleure résistance aux interférences."
       },
       {
-        "slug": "gehoerschutz-mit-radio",
-        "name": "Gehörschutz mit Radio",
-        "categoryNameCanonical": "Gehörschutz mit Radio",
-        "description": "Robuster Kapselgehörschutz mit Radiofunktion für laute Arbeitsumgebungen."
+        "slug": "lunettes-fpv-analogiques",
+        "name": "Lunettes FPV Analogiques",
+        "categoryNameCanonical": "Lunettes FPV Analogiques",
+        "description": "Solution plus abordable et largement répandue dans le monde du FPV racing."
       },
       {
-        "slug": "bluetooth-kopfhoerer-mit-radio",
-        "name": "Bluetooth-Kopfhörer mit Radiofunktion",
-        "categoryNameCanonical": "Bluetooth-Kopfhörer mit Radiofunktion",
-        "description": "Kombinieren kabellose Konnektivität mit einem integrierten Radioempfänger."
+        "slug": "casques-fpv-avec-ecran-unique",
+        "name": "Casques FPV avec Écran Unique",
+        "categoryNameCanonical": "Casques FPV avec Écran Unique",
+        "description": "Alternative aux lunettes, offrant un grand champ de vision, souvent à un prix plus bas."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-zubehoer",
-    "name": "Kopfhörer-Zubehör",
-    "categoryNameCanonical": "Kopfhörer-Zubehör",
-    "description": "Alles, was Sie für Ihre Kopfhörer benötigen, von Ersatzteilen wie Ohrpolstern und Kabeln bis hin zu praktischen Ergänzungen wie Ständern und Adaptern.",
+    "slug": "filtres-pour-camera-de-drone",
+    "name": "Filtres pour Caméra de Drone",
+    "categoryNameCanonical": "Filtres pour Caméra de Drone",
+    "description": "Améliorez la qualité de vos images aériennes en contrôlant la lumière et les reflets.",
     "subcategories": [
       {
-        "slug": "ersatz-ohrpolster",
-        "name": "Ersatz-Ohrpolster",
-        "categoryNameCanonical": "Ersatz-Ohrpolster",
-        "description": "Ohrpolster aus Schaumstoff, Leder oder Velours zum Austausch bei Verschleiß."
+        "slug": "filtres-nd-densite-neutre",
+        "name": "Filtres ND (Densité Neutre)",
+        "categoryNameCanonical": "Filtres ND (Densité Neutre)",
+        "description": "Réduisent la quantité de lumière pour obtenir un flou de mouvement cinématique en vidéo."
       },
       {
-        "slug": "kopfhoererstaender-und-halterungen",
-        "name": "Kopfhörerständer und Halterungen",
-        "categoryNameCanonical": "Kopfhörerständer und Halterungen",
-        "description": "Zur sicheren und stilvollen Aufbewahrung Ihrer Kopfhörer am Schreibtisch."
+        "slug": "filtres-polarisants-cpl",
+        "name": "Filtres Polarisants (CPL)",
+        "categoryNameCanonical": "Filtres Polarisants (CPL)",
+        "description": "Réduisent les reflets sur l'eau et les vitres, et saturent les couleurs du ciel et de la végétation."
       },
       {
-        "slug": "transportetuis-und-taschen",
-        "name": "Transportetuis und Taschen",
-        "categoryNameCanonical": "Transportetuis und Taschen",
-        "description": "Schutzhüllen für den sicheren Transport Ihrer Kopfhörer auf Reisen."
+        "slug": "kits-de-filtres-mixtes-nd-pl",
+        "name": "Kits de Filtres Mixtes (ND/PL)",
+        "categoryNameCanonical": "Kits de Filtres Mixtes (ND/PL)",
+        "description": "Combinaison des effets des filtres ND et polarisants en un seul filtre."
+      }
+    ]
+  },
+  {
+    "slug": "pistes-d-atterrissage-pour-drones",
+    "name": "Pistes d'Atterrissage pour Drones",
+    "categoryNameCanonical": "Pistes d'Atterrissage pour Drones",
+    "description": "Protégez votre drone de la poussière, de l'herbe haute et des surfaces inégales lors du décollage et de l'atterrissage.",
+    "subcategories": [
+      {
+        "slug": "pistes-d-atterrissage-pliables",
+        "name": "Pistes d'Atterrissage Pliables",
+        "categoryNameCanonical": "Pistes d'Atterrissage Pliables",
+        "description": "Faciles à transporter et à déployer sur le terrain."
       },
       {
-        "slug": "kopfhoerer-adapter-und-kabel",
-        "name": "Kopfhörer-Adapter und Kabel",
-        "categoryNameCanonical": "Kopfhörer-Adapter und Kabel",
-        "description": "Flugzeugadapter, Verlängerungskabel und Adapter von 6,3mm auf 3,5mm."
+        "slug": "pistes-d-atterrissage-double-face",
+        "name": "Pistes d'Atterrissage Double Face",
+        "categoryNameCanonical": "Pistes d'Atterrissage Double Face",
+        "description": "Avec des couleurs vives et contrastées des deux côtés pour une meilleure visibilité."
+      },
+      {
+        "slug": "pistes-d-atterrissage-avec-eclairage-led",
+        "name": "Pistes d'Atterrissage avec Éclairage LED",
+        "categoryNameCanonical": "Pistes d'Atterrissage avec Éclairage LED",
+        "description": "Pour une meilleure visibilité lors des vols de nuit ou par faible luminosité."
+      }
+    ]
+  },
+  {
+    "slug": "protections-d-helices",
+    "name": "Protections d'Hélices",
+    "categoryNameCanonical": "Protections d'Hélices",
+    "description": "Accessoires de sécurité qui entourent les hélices pour protéger le drone, les personnes et les objets.",
+    "subcategories": [
+      {
+        "slug": "protections-d-helices-a-clipser",
+        "name": "Protections d'Hélices à Clipser",
+        "categoryNameCanonical": "Protections d'Hélices à Clipser",
+        "description": "Faciles à installer et à retirer selon les besoins."
+      },
+      {
+        "slug": "protections-d-helices-integrales-360",
+        "name": "Protections d'Hélices Intégrales 360°",
+        "categoryNameCanonical": "Protections d'Hélices Intégrales 360°",
+        "description": "Offrent une protection complète, idéales pour le vol en intérieur ou à proximité d'obstacles."
+      },
+      {
+        "slug": "protections-d-helices-pour-drones-dji",
+        "name": "Protections d'Hélices pour Drones DJI",
+        "categoryNameCanonical": "Protections d'Hélices pour Drones DJI",
+        "description": "Conçues spécifiquement pour les modèles populaires de la marque DJI."
+      }
+    ]
+  },
+  {
+    "slug": "cartes-memoire-pour-drones",
+    "name": "Cartes Mémoire pour Drones",
+    "categoryNameCanonical": "Cartes Mémoire pour Drones",
+    "description": "Cartes MicroSD rapides et fiables, essentielles pour enregistrer des vidéos 4K et des photos haute résolution.",
+    "subcategories": [
+      {
+        "slug": "cartes-microsd-v30-u3",
+        "name": "Cartes MicroSD V30 / U3",
+        "categoryNameCanonical": "Cartes MicroSD V30 / U3",
+        "description": "Vitesse d'écriture minimale garantie, requise pour l'enregistrement vidéo 4K."
+      },
+      {
+        "slug": "cartes-memoire-grande-capacite-128go-et-plus",
+        "name": "Cartes Mémoire Grande Capacité (128Go et plus)",
+        "categoryNameCanonical": "Cartes Mémoire Grande Capacité (128Go et plus)",
+        "description": "Pour de longues sessions d'enregistrement sans avoir à vider la carte."
+      },
+      {
+        "slug": "cartes-memoire-endurance",
+        "name": "Cartes Mémoire Haute Endurance",
+        "categoryNameCanonical": "Cartes Mémoire Haute Endurance",
+        "description": "Conçues pour des cycles d'écriture intensifs et des conditions extrêmes."
+      }
+    ]
+  },
+  {
+    "slug": "pieces-detachees-pour-drones",
+    "name": "Pièces Détachées pour Drones",
+    "categoryNameCanonical": "Pièces Détachées pour Drones",
+    "description": "Composants de remplacement pour réparer ou améliorer votre drone après un crash ou une usure.",
+    "subcategories": [
+      {
+        "slug": "moteurs-brushless-de-remplacement",
+        "name": "Moteurs Brushless de Remplacement",
+        "categoryNameCanonical": "Moteurs Brushless de Remplacement",
+        "description": "Moteurs pour remplacer un moteur endommagé ou pour une mise à niveau."
+      },
+      {
+        "slug": "bras-de-remplacement-pour-drones",
+        "name": "Bras de Remplacement pour Drones",
+        "categoryNameCanonical": "Bras de Remplacement pour Drones",
+        "description": "Bras avant ou arrière pour réparer les dommages structurels les plus courants."
+      },
+      {
+        "slug": "modules-gps-et-esc",
+        "name": "Modules GPS et ESC",
+        "categoryNameCanonical": "Modules GPS et ESC",
+        "description": "Composants électroniques essentiels pour la navigation et le contrôle des moteurs."
+      }
+    ]
+  },
+  {
+    "slug": "kits-de-drones-a-monter-diy",
+    "name": "Kits de Drones à Monter (DIY)",
+    "categoryNameCanonical": "Kits de Drones à Monter (DIY)",
+    "description": "Ensembles de composants pour construire et personnaliser votre propre drone, principalement pour le FPV racing et le freestyle.",
+    "subcategories": [
+      {
+        "slug": "kits-de-chassis-en-fibre-de-carbone",
+        "name": "Kits de Châssis en Fibre de Carbone",
+        "categoryNameCanonical": "Kits de Châssis en Fibre de Carbone",
+        "description": "La structure de base de votre drone, disponible en plusieurs tailles et formes."
+      },
+      {
+        "slug": "kits-electroniques-complets-stack",
+        "name": "Kits Électroniques Complets (Stack)",
+        "categoryNameCanonical": "Kits Électroniques Complets (Stack)",
+        "description": "Ensembles incluant contrôleur de vol (FC) et contrôleurs de vitesse (ESC)."
+      },
+      {
+        "slug": "kits-de-motorisation-moteurs-et-helices",
+        "name": "Kits de Motorisation (Moteurs et Hélices)",
+        "categoryNameCanonical": "Kits de Motorisation (Moteurs et Hélices)",
+        "description": "Combinaisons de moteurs et d'hélices optimisées pour différents styles de vol."
+      }
+    ]
+  },
+  {
+    "slug": "accessoires-de-securite-pour-drones",
+    "name": "Accessoires de Sécurité pour Drones",
+    "categoryNameCanonical": "Accessoires de Sécurité pour Drones",
+    "description": "Équipements pour améliorer la visibilité, la récupération et la sécurité générale de votre drone.",
+    "subcategories": [
+      {
+        "slug": "eclairage-led-et-stroboscopes",
+        "name": "Éclairage LED et Stroboscopes",
+        "categoryNameCanonical": "Éclairage LED et Stroboscopes",
+        "description": "Pour améliorer la visibilité du drone, notamment pour les vols de nuit."
+      },
+      {
+        "slug": "trackers-gps-pour-drones",
+        "name": "Trackers GPS pour Drones",
+        "categoryNameCanonical": "Trackers GPS pour Drones",
+        "description": "Dispositifs autonomes pour localiser votre drone en cas de perte de signal ou de crash."
+      },
+      {
+        "slug": "parachutes-pour-drones",
+        "name": "Parachutes pour Drones",
+        "categoryNameCanonical": "Parachutes pour Drones",
+        "description": "Systèmes de sécurité qui se déploient en cas de défaillance pour ralentir la chute du drone."
+      }
+    ]
+  },
+  {
+    "slug": "amplificateurs-de-signal-pour-drones",
+    "name": "Amplificateurs de Signal pour Drones",
+    "categoryNameCanonical": "Amplificateurs de Signal pour Drones",
+    "description": "Accessoires conçus pour augmenter la portée de la radiocommande et la stabilité de la transmission vidéo.",
+    "subcategories": [
+      {
+        "slug": "antennes-directionnelles-a-gain-eleve",
+        "name": "Antennes Directionnelles à Gain Élevé",
+        "categoryNameCanonical": "Antennes Directionnelles à Gain Élevé",
+        "description": "Remplacent les antennes d'origine pour focaliser le signal dans une direction."
+      },
+      {
+        "slug": "reflecteurs-paraboliques-pour-antennes",
+        "name": "Réflecteurs Paraboliques pour Antennes",
+        "categoryNameCanonical": "Réflecteurs Paraboliques pour Antennes",
+        "description": "Accessoires passifs qui se clipsent sur les antennes pour améliorer le signal."
+      },
+      {
+        "slug": "cables-d-antenne-et-connecteurs",
+        "name": "Câbles d'Antenne et Connecteurs",
+        "categoryNameCanonical": "Câbles d'Antenne et Connecteurs",
+        "description": "Pour personnaliser et optimiser la configuration de vos antennes."
+      }
+    ]
+  },
+  {
+    "slug": "logiciels-et-applications-pour-drones",
+    "name": "Logiciels et Applications pour Drones",
+    "categoryNameCanonical": "Logiciels et Applications pour Drones",
+    "description": "Applications pour la planification de vols, le traitement de données et l'analyse d'images capturées par drone.",
+    "subcategories": [
+      {
+        "slug": "logiciels-de-photogrammetrie",
+        "name": "Logiciels de Photogrammétrie",
+        "categoryNameCanonical": "Logiciels de Photogrammétrie",
+        "description": "Pour créer des cartes 2D et des modèles 3D à partir de photos aériennes."
+      },
+      {
+        "slug": "applications-de-planification-de-mission",
+        "name": "Applications de Planification de Mission",
+        "categoryNameCanonical": "Applications de Planification de Mission",
+        "description": "Pour programmer des vols autonomes et des trajectoires complexes."
+      },
+      {
+        "slug": "logiciels-de-montage-video-pour-drones",
+        "name": "Logiciels de Montage Vidéo pour Drones",
+        "categoryNameCanonical": "Logiciels de Montage Vidéo pour Drones",
+        "description": "Optimisés pour le traitement des rushs aériens, la colorimétrie et la stabilisation."
+      }
+    ]
+  },
+  {
+    "slug": "formations-et-livres-sur-le-pilotage-de-drone",
+    "name": "Formations et Livres sur le Pilotage de Drone",
+    "categoryNameCanonical": "Formations et Livres sur le Pilotage de Drone",
+    "description": "Ressources pour apprendre à piloter, maîtriser la réglementation et se perfectionner en prise de vue aérienne.",
+    "subcategories": [
+      {
+        "slug": "livres-pour-preparer-l-examen-theorique",
+        "name": "Livres pour Préparer l'Examen Théorique",
+        "categoryNameCanonical": "Livres pour Préparer l'Examen Théorique",
+        "description": "Manuels et guides pour réussir la certification de télépilote."
+      },
+      {
+        "slug": "formations-en-ligne-au-pilotage",
+        "name": "Formations en Ligne au Pilotage",
+        "categoryNameCanonical": "Formations en Ligne au Pilotage",
+        "description": "Cours vidéo pour apprendre les bases et les techniques avancées de pilotage."
+      },
+      {
+        "slug": "livres-sur-la-photographie-aerienne",
+        "name": "Livres sur la Photographie Aérienne",
+        "categoryNameCanonical": "Livres sur la Photographie Aérienne",
+        "description": "Guides sur la composition, les réglages et les techniques pour de superbes photos par drone."
+      }
+    ]
+  },
+  {
+    "slug": "drones-jouets-et-gadgets",
+    "name": "Drones Jouets et Gadgets",
+    "categoryNameCanonical": "Drones Jouets et Gadgets",
+    "description": "Drones ludiques et abordables pour l'amusement, souvent avec des fonctionnalités comme le contrôle par gestes ou des lumières LED.",
+    "subcategories": [
+      {
+        "slug": "drones-controles-par-la-main",
+        "name": "Drones Contrôlés par la Main",
+        "categoryNameCanonical": "Drones Contrôlés par la Main",
+        "description": "Drones qui réagissent aux gestes de la main pour une expérience de pilotage intuitive."
+      },
+      {
+        "slug": "mini-drones-avec-lumiere-led",
+        "name": "Mini Drones avec Lumières LED",
+        "categoryNameCanonical": "Mini Drones avec Lumières LED",
+        "description": "Pour des vols amusants dans l'obscurité."
+      },
+      {
+        "slug": "drones-de-bataille-infrarouge",
+        "name": "Drones de Bataille Infrarouge",
+        "categoryNameCanonical": "Drones de Bataille Infrarouge",
+        "description": "Permet de simuler des combats aériens entre plusieurs drones."
       }
     ]
   }

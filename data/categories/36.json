@@ -1,170 +1,139 @@
 {
   "categoryId": 36,
-  "categoryNameCanonical": "Faltbare On-Ear Kopfhörer",
-  "slug": "on-ear-kopfhoerer/faltbare-on-ear-kopfhoerer",
-  "parentCategoryId": 34,
+  "categoryNameCanonical": "Drones FPV Cinewhoop",
+  "slug": "drones-fpv-et-racing/drones-fpv-cinewhoop",
+  "parentCategoryId": 33,
   "level": 1,
-  "description": "Faltbare On-Ear Kopfhörer: Perfekter Klang für unterwegs. Kompakt, bequem & stilvoll.",
-  "content": "<div><h2>Faltbare On-Ear Kopfhörer: Dein perfekter Begleiter für unterwegs</h2><p>Entdecke die Freiheit des Sounds mit unseren hochwertigen faltbaren On-Ear Kopfhörern. Diese kompakten und stilvollen Kopfhörer sind die ideale Lösung für alle, die auch unterwegs nicht auf exzellenten Klang verzichten möchten. Egal ob im Zug, im Flugzeug oder beim Pendeln in der Stadt – dank ihres cleveren Faltmechanismus passen sie problemlos in jede Tasche und sind stets griffbereit. Genieße satten Bass, klare Höhen und eine beeindruckende Detailtreue, die dich in deine Musik eintauchen lässt. Die weichen Ohrpolster und der verstellbare Bügel sorgen für einen hohen Tragekomfort, selbst bei stundenlangem Hören. Wähle jetzt deine neuen faltbaren On-Ear Kopfhörer und erlebe Musik neu, wo immer du bist.</p></div>",
+  "description": "Capturez des vidéos FPV fluides et sécurisées. Idéal pour intérieur et plans rapprochés.",
+  "content": "<div><h2>Drones FPV Cinewhoop : L'Art de la Vidéo Aérienne Cinématique</h2><p>Explorez une nouvelle dimension de la capture vidéo avec nos drones FPV Cinewhoop. Conçus spécifiquement pour les vidéastes et les créateurs de contenu exigeants, ces drones compacts et agiles sont la solution parfaite pour obtenir des prises de vue fluides, stables et incroyablement immersives, même dans les environnements les plus complexes.</p><p>Les Cinewhoops se distinguent par leurs protections d'hélices intégrées, garantissant non seulement la sécurité de votre équipement et de votre environnement, mais aussi une plus grande confiance lors de vols en intérieur, à proximité de personnes ou d'obstacles. Leur capacité à emporter des caméras d'action haute définition comme la GoPro ou l'Insta360 en fait des outils indispensables pour réaliser des films cinématographiques à couper le souffle, avec une perspective FPV unique.</p><p>Que vous souhaitiez filmer des événements, explorer des espaces intérieurs avec une fluidité inégalée, suivre des sujets en mouvement serré, ou simplement ajouter une touche cinématographique à vos projets, un drone FPV Cinewhoop est votre allié. Profitez d'une maniabilité exceptionnelle et d'une stabilisation de vol supérieure pour des vidéos dignes des plus grandes productions. Plongez dans l'univers du FPV cinématographique et libérez votre créativité.</p></div>",
   "seo": {
-    "title": "Faltbare On-Ear Kopfhörer | Kompakt & Top Soundqualität",
-    "description": "Faltbare On-Ear Kopfhörer: Perfekter Klang für unterwegs. Kompakt, bequem & stilvoll.",
+    "title": "Drones FPV Cinewhoop: Vidéo HD Cinématique & Vol Stable",
+    "description": "Capturez des vidéos FPV fluides et sécurisées. Idéal pour intérieur et plans rapprochés.",
     "keywords": [
-      "Faltbare On-Ear Kopfhörer",
-      "Kompakte Bügelkopfhörer",
-      "Reisekopfhörer faltbar",
-      "On-Ear Kopfhörer Sound",
-      "Tragbare Kopfhörer",
-      "Bequeme On-Ear Kopfhörer"
+      "drone fpv cinewhoop",
+      "cinewhoop vidéo",
+      "drone fpv cinématique",
+      "drone protégé FPV",
+      "vol fpv stable"
     ],
-    "enhancedAt": "2025-10-12T22:44:57.521919"
+    "enhancedAt": "2025-10-15T18:59:04.981995"
   },
   "faq": [
     {
-      "question": "Warum sollte ich faltbare On-Ear Kopfhörer wählen?",
-      "answer": "Faltbare On-Ear Kopfhörer bieten eine optimale Balance aus Portabilität und Klangqualität. Sie sind kompakt für unterwegs, aber groß genug für einen satten Sound und Komfort, der In-Ear Modellen oft fehlt."
+      "question": "Qu'est-ce qu'un drone FPV Cinewhoop ?",
+      "answer": "Un Cinewhoop est un drone FPV compact avec des protections d'hélices intégrées, conçu pour des vols sûrs et des vidéos cinématographiques stabilisées, souvent en intérieur ou près d'obstacles."
     },
     {
-      "question": "Sind diese Kopfhörer bequem für lange Hörzeiten?",
-      "answer": "Ja, unsere faltbaren On-Ear Kopfhörer sind mit weichen Ohrpolstern und einem verstellbaren Bügel ausgestattet, um maximalen Komfort auch bei längerem Tragen zu gewährleisten."
+      "question": "Pourquoi choisir un Cinewhoop pour la vidéo ?",
+      "answer": "Il offre une stabilité de vol exceptionnelle, permet d'emporter des caméras HD (GoPro, Insta360) et ses protections garantissent des prises de vue sécurisées en environnement complexe et rapproché."
     },
     {
-      "question": "Kann ich die Kopfhörer leicht transportieren?",
-      "answer": "Absolut! Dank des faltbaren Designs lassen sich diese Kopfhörer mühelos in jeder Tasche oder jedem Rucksack verstauen, was sie zum idealen Reisebegleiter macht."
+      "question": "Le Cinewhoop est-il adapté aux débutants FPV ?",
+      "answer": "Son vol stable et ses protections le rendent plus indulgent pour l'apprentissage. Cependant, une certaine expérience FPV est recommandée pour maîtriser pleinement son potentiel cinématographique."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:57.521942",
+  "enhancedAt": "2025-10-15T18:59:04.982012",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Faltbare On-Ear Kopfhörer",
+    "title": "Comparaison des 5 articles FPV Cinewhoop",
     "columns": [
       "Rang",
-      "Preis",
-      "Bewertung",
-      "Marke",
-      "Farbe",
-      "Bauform",
-      "Faltbar",
-      "Anschluss",
-      "Freisprechfunktion",
-      "Mikrofon",
-      "Fernbedienung"
+      "Prix",
+      "Évaluation",
+      "Marque",
+      "Type d'Article",
+      "Application Principale"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/41pnA4W9QOL._AC_UY218_.jpg]",
-        "name": "Sony MDR-ZX110AP Kopfhörer Headset rosa",
-        "preis": "14.0€",
-        "bewertung": "4.5/5",
-        "marke": "Sony",
-        "farbe": "Rosa",
-        "bauform": "On-Ear",
-        "faltbar": "Ja",
-        "anschluss": "3,5 mm Klinke",
-        "freisprechfunktion": "Ja",
-        "mikrofon": "Ja",
-        "fernbedienung": "Ja",
-        "productUrl": "/product/mdr-zx110ap-sony-kopfhorer-headset-rosa",
-        "image": "https://m.media-amazon.com/images/I/41pnA4W9QOL._AC_UY218_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61UXP8YKmWL._AC_SL1500_.jpg]",
+        "name": "BETAFPV Pavo20 Whoop ExpressLRS V3 HD O3",
+        "prix": "139.0€",
+        "évaluation": "4.2/5",
+        "marque": "BETAFPV",
+        "type_d_article": "Drone FPV Cinewhoop",
+        "application_principale": "Courses FPV intérieur",
+        "productUrl": "/product/betafpv-pavo20-whoop-expresslrs",
+        "image": "https://m.media-amazon.com/images/I/61UXP8YKmWL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51G66gBg-xL._AC_SL1000_.jpg]",
-        "name": "Sony MDR-ZX310 faltbar Kopfhörer Metallic-Rot",
-        "preis": "16.0€",
-        "bewertung": "4.5/5",
-        "marke": "Sony",
-        "farbe": "Metallic-Rot",
-        "bauform": "Over-Ear",
-        "faltbar": "Ja",
-        "anschluss": "3,5 mm Klinkenstecker",
-        "freisprechfunktion": "Nein",
-        "mikrofon": "Nein",
-        "fernbedienung": "Nein",
-        "productUrl": "/product/mdr-zx310-sony-faltbar-kopfhorer-metallic-rot",
-        "image": "https://m.media-amazon.com/images/I/51G66gBg-xL._AC_SL1000_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51mMGvJa6kL._AC_UL320_.jpg]",
+        "name": "Contrôleur de Vol Jhemcu GHF722AIO-HD 40A : Performance Intégrée pour Drone FPV",
+        "prix": "60.0€",
+        "évaluation": "0.0/5",
+        "marque": "Jhemcu",
+        "type_d_article": "Contrôleur de vol FPV",
+        "application_principale": "Drones FPV Cinewhoop (DIY)",
+        "productUrl": "/product/controleur-vol-jhemcu-ghf722aio-hd-40a-performance",
+        "image": "https://m.media-amazon.com/images/I/51mMGvJa6kL._AC_UL320_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51CW19nurSL._AC_SL1000_.jpg]",
-        "name": "Sony MDR-ZX310AP Kopfhörer Freisprechfunktion Schwarz",
-        "preis": "21.0€",
-        "bewertung": "4.4/5",
-        "marke": "Sony",
-        "farbe": "Schwarz",
-        "bauform": "On-Ear",
-        "faltbar": "Ja",
-        "anschluss": "3,5mm Klinke",
-        "freisprechfunktion": "Ja",
-        "mikrofon": "Ja",
-        "fernbedienung": "Ja",
-        "productUrl": "/product/mdr-zx310ap-sony-kopfhorer-freisprechfunktion-schwarz",
-        "image": "https://m.media-amazon.com/images/I/51CW19nurSL._AC_SL1000_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61A4YqXQlGL._AC_UL320_.jpg]",
+        "name": "Moteur FPV Axisflying C135 5500KV 4S Lipo 1.5mm",
+        "prix": "46.0€",
+        "évaluation": "5.0/5",
+        "marque": "Axisflying",
+        "type_d_article": "Moteur FPV",
+        "application_principale": "Drones Cinewhoop/Toothpick",
+        "productUrl": "/product/1-5mm-moteur-fpv-axisflying-c135-5500kv",
+        "image": "https://m.media-amazon.com/images/I/61A4YqXQlGL._AC_UL320_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/814EY-F9uOL._AC_SL1500_.jpg]",
-        "name": "AILIHEN C8 Kopfhörer: Kabel, Mikro, Lautstärke, Faltbar",
-        "preis": "18.0€",
-        "bewertung": "4.3/5",
-        "marke": "AILIHEN",
-        "farbe": "Schwarz Blau",
-        "bauform": "On-Ear",
-        "faltbar": "Ja",
-        "anschluss": "3,5mm Klinke",
-        "freisprechfunktion": "Ja",
-        "mikrofon": "Ja",
-        "fernbedienung": "Ja",
-        "productUrl": "/product/ailihen-kopfhorer-kabel-mikro-lautstarke-faltbar",
-        "image": "https://m.media-amazon.com/images/I/814EY-F9uOL._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51O67UnHJsL._AC_SL1200_.jpg]",
+        "name": "DJI FPV Télécommande Drone 6km",
+        "prix": "134.0€",
+        "évaluation": "4.4/5",
+        "marque": "DJI",
+        "type_d_article": "Télécommande de drone",
+        "application_principale": "Pilotage drone DJI FPV",
+        "productUrl": "/product/6km-dji-fpv-telecommande-drone",
+        "image": "https://m.media-amazon.com/images/I/51O67UnHJsL._AC_SL1200_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51BpeZTKS6L._AC_SL1000_.jpg]",
-        "name": "Sony MDR-ZX110AP Bügelkopfhörer, Headsetfunktion, Schwarz",
-        "preis": "13.0€",
-        "bewertung": "4.2/5",
-        "marke": "Sony",
-        "farbe": "Schwarz",
-        "bauform": "On-Ear",
-        "faltbar": "Ja",
-        "anschluss": "3,5-mm-Klinkenstecker",
-        "freisprechfunktion": "Ja",
-        "mikrofon": "Ja",
-        "fernbedienung": "Ja",
-        "productUrl": "/product/mdr-zx110ap-sony-bugelkopfhorer-headsetfunktion-schwarz",
-        "image": "https://m.media-amazon.com/images/I/51BpeZTKS6L._AC_SL1000_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71uWjM9h3aL._AC_SL1500_.jpg]",
+        "name": "SpeedyBee Meteor FPV Drone LED Lumières Flexibles",
+        "prix": "34.0€",
+        "évaluation": "4.5/5",
+        "marque": "SPEEDY BEE",
+        "type_d_article": "Bandes LED pour drone",
+        "application_principale": "Drones Cinewhoop 2.5-3.5 pouces",
+        "productUrl": "/product/speedybee-meteor-fpv-drone-led-lumieres",
+        "image": "https://m.media-amazon.com/images/I/71uWjM9h3aL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So wählen Sie die besten faltbaren On-Ear Kopfhörer",
+    "title": "Guide d'Achat: Comment Choisir les Meilleurs Drones FPV Cinewhoop?",
     "sections": [
       {
-        "heading": "1. Klangqualität und Treibergröße",
-        "content": "Achten Sie auf ausgewogenen Klang. Treibergrößen von 30-40mm sind bei On-Ear Kopfhörern üblich und bieten oft einen guten Kompromiss aus Bass und Klarheit. Testen Sie verschiedene Musikgenres. Für den täglichen Gebrauch, wie das Beispiel Sony MDR-ZX310 zeigt, sind Modelle mit solider Grundleistung oft ausreichend. Ein guter Frequenzbereich signalisiert Qualität."
+        "heading": "1. Stabilité et Protection pour des Images Fluides",
+        "content": "Les Cinewhoops sont conçus pour voler en sécurité près d'obstacles. Privilégiez un cadre robuste avec des protections d'hélices intégrées. Cela assure la sécurité du vol et la fluidité des images, même en intérieur. Vérifiez la capacité à transporter une caméra HD stabilisée comme une GoPro légère."
       },
       {
-        "heading": "2. Ergonomie und Faltmechanismus",
-        "content": "Wichtig ist ein leichter Sitz ohne Druckstellen, besonders bei längerer Nutzung. Weiche Ohrpolster und ein verstellbarer Kopfbügel sind entscheidend. Prüfen Sie den Faltmechanismus: Ist er stabil und einfach zu bedienen? Ein kompakter Faltmechanismus optimiert die Transportfähigkeit und schützt die Kopfhörer unterwegs. Komfort steigert die Nutzerzufriedenheit erheblich."
+        "heading": "2. Moteurs et Hélice: Puissance et Maniabilité",
+        "content": "La taille des moteurs (ex: 1404, 2203.5) et des hélices (2.5 à 3 pouces) est cruciale. Elle détermine l'équilibre entre puissance de levage et agilité. Pour des vols précis en espaces restreints, optez pour une configuration offrant un contrôle optimal. Considérez le poids que le drone doit soulever."
       },
       {
-        "heading": "3. Konnektivität und Kabellänge",
-        "content": "Die meisten faltbaren On-Ears nutzen eine 3,5mm-Klinke. Achten Sie auf die Kabellänge – zu kurz ist unpraktisch, zu lang kann stören. Ein abnehmbares Kabel ist von Vorteil, da es bei Defekt leicht ersetzt werden kann und den Transport erleichtert. Prüfen Sie, ob ein Mikrofon für Anrufe integriert ist, besonders wenn Sie es unterwegs nutzen möchten."
+        "heading": "3. Qualité Vidéo FPV et Enregistrement HD",
+        "content": "Un bon système FPV (analogique ou numérique comme DJI FPV) est vital pour le pilotage immersif. Pour le rendu cinématographique, assurez-vous que le drone peut accueillir une caméra HD externe (ex: GoPro Naked). La clarté de la transmission vidéo impacte directement votre expérience de vol et la qualité finale."
       },
       {
-        "heading": "4. Robustheit und Materialauswahl",
-        "content": "Das Gehäuse sollte aus robustem Kunststoff oder Metall bestehen, um den Belastungen des Alltags standzuhalten. Die Scharniere des Faltmechanismus sind eine typische Schwachstelle; prüfen Sie deren Stabilität und Material. Gut verarbeitete Materialien erhöhen die Lebensdauer der Kopfhörer erheblich, besonders bei häufigem Transport und Gebrauch. Qualität zahlt sich aus."
+        "heading": "4. Autonomie et Type de Batterie",
+        "content": "L'autonomie dépend de la batterie (ex: 4S, 6S) et de sa capacité (mAh). Un Cinewhoop transportant une caméra lourde consommera davantage. Prévoyez plusieurs batteries pour prolonger vos sessions de vol. Évaluez le connecteur de batterie (XT30, XT60) pour la compatibilité avec votre équipement existant."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis",
-        "content": "Für den täglichen Gebrauch unterwegs muss es nicht immer das teuerste Modell sein. Günstige Optionen wie der Sony MDR-ZX310 für etwa 16€ bieten oft überraschend gute Qualität. Vergleichen Sie die gebotenen Funktionen mit Ihrem Budget. Achten Sie auf Kundenbewertungen, um die Zuverlässigkeit einzuschätzen und eine fundierte Kaufentscheidung zu treffen. Ein fairer Preis ist entscheidend."
+        "heading": "5. Kit RTF ou Composants Séparés?",
+        "content": "Pour débuter, un kit RTF (Ready-To-Fly) est idéal, incluant drone, radiocommande (comme DJI FPV Télécommande) et lunettes. Les pilotes expérimentés préféreront assembler leur Cinewhoop. Assurez-vous d'avoir une radiocommande compatible et des lunettes FPV adaptées pour une expérience de vol complète et personnalisée."
       }
     ]
   }

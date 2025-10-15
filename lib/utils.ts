@@ -2,11 +2,27 @@ import { type ClassValue, clsx } from "clsx"
 import { twMerge } from "tailwind-merge"
 import { siteConfig, getDynamicString } from './config'
 
-// Import localized strings from common.json (consolidated file)
+// Import localized strings from both common.json (product-specific) and general.json (generic)
 import commonStrings from '../locales/common.json'
+import generalStrings from '../locales/general.json'
 
-// Use the consolidated strings object
-const allStrings = commonStrings;
+// Merge both string objects, with common taking precedence over general for overlapping keys
+// We need to do a deep merge to properly combine nested objects
+const deepMerge = (target: any, source: any): any => {
+  const result = { ...target };
+  
+  for (const key in source) {
+    if (source[key] && typeof source[key] === 'object' && !Array.isArray(source[key])) {
+      result[key] = deepMerge(target[key] || {}, source[key]);
+    } else {
+      result[key] = source[key];
+    }
+  }
+  
+  return result;
+};
+
+const allStrings = deepMerge(generalStrings, commonStrings);
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))

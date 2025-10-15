@@ -1,166 +1,161 @@
 {
   "categoryId": 78,
-  "categoryNameCanonical": "Kopfhörer-Zubehör",
-  "slug": "kopfhoerer-zubehoer",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Hochwertiges Kopfhörer-Zubehör: Ohrpolster, Kabel, Ständer & mehr. Optimieren Sie Ihren Sound!",
-  "content": "<div><h2>Umfassendes Kopfhörer-Zubehör für ein Perfektes Klangerlebnis</h2><p>Entdecken Sie unser vielfältiges Sortiment an hochwertigem Kopfhörer-Zubehör, das Ihr Hörerlebnis nicht nur optimiert, sondern auch die Lebensdauer Ihrer Lieblingskopfhörer verlängert. Ob Sie nach praktischen Ersatzteilen, nützlichen Gadgets oder stilvollen Aufbewahrungslösungen suchen – hier finden Sie alles, was das Audio-Herz begehrt.</p><h3>Ohrpolster & In-Ear-Aufsätze: Komfort und Hygiene</h3><p>Abgenutzte Ohrpolster mindern nicht nur den Tragekomfort, sondern können auch die Klangqualität beeinträchtigen. Wir bieten eine breite Auswahl an Ersatz-Ohrpolstern aus verschiedenen Materialien wie Velours, Kunstleder oder Memory-Schaum, passend für gängige Marken und Modelle. Für In-Ear-Kopfhörer finden Sie bei uns Silikon- oder Schaumstoff-Aufsätze in verschiedenen Größen, die für einen optimalen Sitz, besseren Halt und eine verbesserte Geräuschisolierung sorgen.</p><h3>Kopfhörerkabel & Adapter: Immer die richtige Verbindung</h3><p>Ein defektes Kabel kann das Ende Ihrer Kopfhörer bedeuten. Mit unseren hochwertigen Ersatzkabeln mit verschiedenen Anschlüssen (Klinke, USB-C, Lightning) bringen Sie Ihre Kopfhörer schnell wieder zum Laufen. Zudem führen wir Audio-Adapter, Verlängerungskabel und Splitter, die Ihnen maximale Flexibilität bei der Verbindung mit verschiedenen Geräten ermöglichen und so Ihr Setup perfekt ergänzen.</p><h3>Schutz & Aufbewahrung: Langlebigkeit garantiert</h3><p>Schützen Sie Ihre Investition mit unseren robusten Kopfhörerhüllen und Etuis. Diese bieten optimalen Schutz vor Stößen, Kratzern und Staub – ideal für unterwegs oder bei der Lagerung. Für den Schreibtisch oder das Studio bieten wir elegante Kopfhörer-Ständer, die nicht nur für Ordnung sorgen, sondern Ihre Kopfhörer auch stilvoll präsentieren und stets griffbereit halten.</p><h3>Zusätzliches Zubehör: Mehr als nur Klang</h3><p>Erweitern Sie die Funktionalität Ihrer Kopfhörer mit unserem weiteren Zubehör. Dazu gehören Bluetooth-Empfänger, die kabelgebundene Kopfhörer kabellos machen, Reinigungs-Sets für eine hygienische Pflege oder praktische Kabel-Clips, die Kabelsalat verhindern. Stöbern Sie durch unser Sortiment und finden Sie das perfekte Zubehör für Ihre individuellen Bedürfnisse und maximieren Sie Ihr Klangerlebnis!</p></div>",
+  "categoryNameCanonical": "Filtres ND (Densité Neutre)",
+  "slug": "filtres-pour-camera-de-drone/filtres-nd-densite-neutre",
+  "parentCategoryId": 77,
+  "level": 1,
+  "description": "Filtres ND: Maîtrisez la lumière en photo/vidéo. ND variable, fixe. Qualité optique pro.",
+  "content": "<div><h2>Maîtrisez la Lumière avec Nos Filtres ND de Qualité Professionnelle</h2><p>Les <strong>filtres ND</strong>, ou filtres à <strong>densité neutre</strong>, sont des accessoires indispensables pour tout photographe ou vidéaste souhaitant repousser les limites de sa créativité. Conçus pour réduire la quantité de lumière atteignant le capteur de votre appareil photo sans altérer les couleurs, ils vous ouvrent les portes de techniques avancées comme la <strong>longue exposition</strong>, même en plein jour.</p><p>Que vous cherchiez à créer des effets de flou de mouvement sur l'eau, à photographier des paysages avec une esthétique onirique, ou à maintenir une grande ouverture pour un faible bokeh en <strong>vidéo professionnelle</strong> sous forte luminosité, nos <strong>filtres ND</strong> sont la solution. Nous proposons une gamme complète incluant les <strong>filtres ND variables</strong>, offrant une flexibilité inégalée pour ajuster la densité selon vos besoins, ainsi que des filtres ND fixes pour une précision absolue.</p><p>Chaque <strong>filtre densité neutre</strong> de notre sélection est fabriqué avec des verres optiques de haute qualité, garantissant une neutralité colorimétrique parfaite et une netteté d'image irréprochable. Explorez notre catalogue et trouvez le filtre ND parfaitement adapté à votre objectif et à vos projets photographiques ou vidéographiques. La <strong>maîtrise de la lumière</strong> n'a jamais été aussi accessible.</p></div>",
   "seo": {
-    "title": "Kopfhörer-Zubehör: Alles für Ihr Hörerlebnis",
-    "description": "Hochwertiges Kopfhörer-Zubehör: Ohrpolster, Kabel, Ständer & mehr. Optimieren Sie Ihren Sound!",
+    "title": "Filtres ND & Densité Neutre | Photo Vidéo | Qualité Pro",
+    "description": "Filtres ND: Maîtrisez la lumière en photo/vidéo. ND variable, fixe. Qualité optique pro.",
     "keywords": [
-      "Kopfhörer Zubehör",
-      "Ohrpolster",
-      "Kopfhörerkabel",
-      "Kopfhörerhüllen",
-      "Kopfhörer-Ständer",
-      "Audio Adapter",
-      "Ersatzteile Kopfhörer",
-      "In-Ear-Aufsätze"
+      "filtres ND",
+      "filtre densité neutre",
+      "filtre ND variable"
     ],
-    "enhancedAt": "2025-10-12T22:44:38.920217"
+    "enhancedAt": "2025-10-15T18:59:03.752028"
   },
   "faq": [
     {
-      "question": "Welches Kopfhörer-Zubehör ist am wichtigsten?",
-      "answer": "Das wichtigste Zubehör hängt von Ihren individuellen Bedürfnissen ab. Ohrpolster für Komfort, Ersatzkabel für Funktionalität und eine Schutzhülle für den Transport sind oft essenziell, um die Nutzung zu optimieren."
+      "question": "Qu'est-ce qu'un filtre ND et à quoi sert-il ?",
+      "answer": "Un filtre ND (Densité Neutre) réduit la quantité de lumière entrant dans l'objectif, sans altérer les couleurs. Il permet d'utiliser des vitesses d'obturation plus lentes ou des ouvertures plus grandes en pleine lumière, idéal pour la longue exposition ou la vidéo."
     },
     {
-      "question": "Wie pflege ich mein Kopfhörer-Zubehör richtig?",
-      "answer": "Reinigen Sie Ohrpolster regelmäßig mit einem feuchten Tuch und gegebenenfalls einem milden Reiniger. Kabel sollten nicht stark geknickt oder verdreht werden. Bewahren Sie Ihr Zubehör staubfrei und geschützt auf, um die Lebensdauer zu verlängern."
+      "question": "Comment choisir le bon filtre ND ?",
+      "answer": "Le choix dépend de l'effet désiré et des conditions de lumière. Les filtres ND fixes (ND8, ND64, ND1000) offrent une réduction spécifique. Les filtres ND variables sont plus polyvalents, permettant d'ajuster la densité sur une plage donnée. Considérez le diamètre de votre objectif."
     },
     {
-      "question": "Kann ich altes Kopfhörer-Zubehör ersetzen?",
-      "answer": "Ja, viele Zubehörteile wie Ohrpolster, Kabel oder In-Ear-Aufsätze sind als Ersatzteile erhältlich. Dies ermöglicht es Ihnen, die Lebensdauer Ihrer Kopfhörer zu verlängern und den Komfort sowie die Klangqualität zu erhalten."
+      "question": "Quelle est la différence entre un filtre ND fixe et un filtre ND variable ?",
+      "answer": "Un filtre ND fixe offre une réduction de lumière constante (par exemple, 3 ou 10 stops). Un filtre ND variable permet de faire varier la densité sur une plage (par exemple, de ND2 à ND400) en tournant la bague du filtre, offrant plus de flexibilité mais pouvant parfois introduire un 'cross-polarization effect' à ses limites."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:38.920227",
+  "enhancedAt": "2025-10-15T18:59:03.752041",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Kopfhörer-Zubehör",
+    "title": "Comparaison des 5 meilleurs Filtres ND (Densité Neutre)",
     "columns": [
       "Rang",
-      "Preis",
-      "Bewertung",
-      "Produkttyp",
-      "Material",
-      "Farbe",
-      "Kompatibilität",
-      "Anwendungsbereich",
-      "Besondere Eigenschaft",
-      "Lieferumfang"
+      "Prix",
+      "Évaluation",
+      "Marque",
+      "Diamètre",
+      "Type de filtre",
+      "Plage de densité",
+      "Matériau",
+      "Traitement",
+      "Applications principales"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/712FopyYNcL._AC_SL1500_.jpg]",
-        "name": "SoloWIT Ohrpolster Bose QC35 QC35 II",
-        "preis": "17.0€",
-        "bewertung": "4.6/5",
-        "produkttyp": "Ersatz-Ohrpolster",
-        "material": "Proteinleder, Memory-Schaum",
-        "farbe": "Schwarz",
-        "kompatibilitaet": "Bose QuietComfort 35, QC35 II",
-        "anwendungsbereich": "Musikgenuss, Reisen",
-        "besondere_eigenschaft": "Geräuschreduzierung, Hoher Komfort",
-        "lieferumfang": "2 Ohrpolster, Werkzeug",
-        "productUrl": "/product/solowit-ohrpolster-bose-qc35-qc35",
-        "image": "https://m.media-amazon.com/images/I/712FopyYNcL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71sJ17dd4tL._AC_SL1500_.jpg]",
+        "name": "Filtre ND Variable K&F Concept 58mm Fader",
+        "prix": "26.0€",
+        "évaluation": "4.4/5",
+        "marque": "K&F Concept",
+        "diametre": "58mm",
+        "type_de_filtre": "Densité Neutre Variable",
+        "plage_de_densite": "ND2 à ND400",
+        "materiau": "Verre optique multicouche",
+        "traitement": "Multicouche",
+        "applications_principales": "Longues expositions, réduction de profondeur de champ",
+        "productUrl": "/product/58mm-filtre-variable-k-f-concept-fader",
+        "image": "https://m.media-amazon.com/images/I/71sJ17dd4tL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61EOzt+k98L._AC_SL1500_.jpg]",
-        "name": "GEVOK OS7B Kopfhörer Halterung Acryl Weiß",
-        "preis": "7.0€",
-        "bewertung": "4.6/5",
-        "produkttyp": "Kopfhörerhalterung",
-        "material": "Acryl",
-        "farbe": "Weiß",
-        "kompatibilitaet": "Universal (Over-Ear/On-Ear)",
-        "anwendungsbereich": "Schreibtisch, Gaming-Setup",
-        "besondere_eigenschaft": "Platzsparend, Kabelsalat-Schutz",
-        "lieferumfang": "1 Halterung",
-        "productUrl": "/product/gevok-os7b-kopfhorer-halterung-acryl-weiss",
-        "image": "https://m.media-amazon.com/images/I/61EOzt+k98L._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
+        "name": "Filtre ND Variable K&F CONCEPT 77mm ND2-400",
+        "prix": "31.0€",
+        "évaluation": "4.2/5",
+        "marque": "K&F",
+        "diametre": "77mm",
+        "type_de_filtre": "Densité Neutre Variable",
+        "plage_de_densite": "ND2 à ND400",
+        "materiau": "Verre optique multicouche",
+        "traitement": "Multicouche",
+        "applications_principales": "Réduction profondeur de champ, effets de mouvement",
+        "productUrl": "/product/77mm-filtre-variable-k-f-concept-nd2-400",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/617em4GbIDL._AC_SL1500_.jpg]",
-        "name": "9 Paar Ersatz Silikon Ohrstöpsel In-Ear Gummi Klein",
-        "preis": "3.0€",
-        "bewertung": "4.0/5",
-        "produkttyp": "Ersatz-Ohrstöpsel",
-        "material": "Silikon",
-        "farbe": "Schwarz",
-        "kompatibilitaet": "Universal In-Ear Kopfhörer",
-        "anwendungsbereich": "Musikgenuss, Sport, Alltag",
-        "besondere_eigenschaft": "Rutschfest, Geräuschisolierung",
-        "lieferumfang": "9 Paar (S/M/L)",
-        "productUrl": "/product/paar-ersatz-silikon-ohrstopsel-in-ear-gummi",
-        "image": "https://m.media-amazon.com/images/I/617em4GbIDL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71xiAZP9h8L._AC_SL1500_.jpg]",
+        "name": "NEewer Filtre ND 58mm ND2-ND16 Kit Accessoires",
+        "prix": "27.0€",
+        "évaluation": "4.4/5",
+        "marque": "NEEWER",
+        "diametre": "58mm",
+        "type_de_filtre": "Densité Neutre Fixe (Kit)",
+        "plage_de_densite": "ND2, ND4, ND8, ND16",
+        "materiau": "Verre optique multicouche",
+        "traitement": "Multicouche",
+        "applications_principales": "Réduction profondeur de champ, effets de mouvement, prévention surexposition",
+        "productUrl": "/product/58mm-neewer-filtre-nd2-nd16-kit-accessoires",
+        "image": "https://m.media-amazon.com/images/I/71xiAZP9h8L._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51bo94meEiL._AC_SL1001_.jpg]",
-        "name": "YINVA EarHooks AirPods Pro/3/2/1 Zubehör Transparent",
-        "preis": "4.0€",
-        "bewertung": "3.9/5",
-        "produkttyp": "EarHooks",
-        "material": "Silikon",
-        "farbe": "Transparent",
-        "kompatibilitaet": "AirPods Pro, AirPods 3, AirPods 2, AirPods 1",
-        "anwendungsbereich": "Sport, Alltag",
-        "besondere_eigenschaft": "Sicherer Halt, transparent",
-        "lieferumfang": "1 Paar",
-        "productUrl": "/product/yinva-earhooks-airpods-pro-3-2-1-zubehor-transparent",
-        "image": "https://m.media-amazon.com/images/I/51bo94meEiL._AC_SL1001_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/41LsJUcds+L._AC_SL1050_.jpg]",
+        "name": "DolDer Filtre ND1000 77mm",
+        "prix": "17.0€",
+        "évaluation": "4.4/5",
+        "marque": "DolDer",
+        "diametre": "77mm",
+        "type_de_filtre": "Densité Neutre Fixe",
+        "plage_de_densite": "ND1000 (10 stops)",
+        "materiau": "Verre optique multicouche",
+        "traitement": "Multicouche",
+        "applications_principales": "Longues expositions extrêmes, flou artistique prononcé",
+        "productUrl": "/product/77mm-dolder-filtre-nd1000",
+        "image": "https://m.media-amazon.com/images/I/41LsJUcds+L._AC_SL1050_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51avAwUtpeL._AC_SL1200_.jpg]",
-        "name": "kwmobile 6x Kopfhörer Haken Silikon Schwarz",
-        "preis": "7.0€",
-        "bewertung": "3.6/5",
-        "produkttyp": "Kopfhörerhaken",
-        "material": "Silikon",
-        "farbe": "Schwarz",
-        "kompatibilitaet": "Universal In-Ear Kopfhörer",
-        "anwendungsbereich": "Sport, Alltag",
-        "besondere_eigenschaft": "Sicherer Halt, Tragekomfort",
-        "lieferumfang": "6 Stück",
-        "productUrl": "/product/kwmobile-kopfhorer-haken-silikon-schwarz",
-        "image": "https://m.media-amazon.com/images/I/51avAwUtpeL._AC_SL1200_.jpg"
+        "rangWithImage": "5 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
+        "name": "DolDer Filtre ND1000 82mm",
+        "prix": "24.0€",
+        "évaluation": "4.4/5",
+        "marque": "DolDer",
+        "diametre": "82mm",
+        "type_de_filtre": "Densité Neutre Fixe",
+        "plage_de_densite": "ND1000 (10 stops)",
+        "materiau": "Verre optique multicouche",
+        "traitement": "Multicouche",
+        "applications_principales": "Longues expositions extrêmes, effets de mouvement soyeux",
+        "productUrl": "/product/82mm-dolder-filtre-nd1000",
+        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Das beste Kopfhörer-Zubehör finden",
+    "title": "Guide d'Achat : Comment Choisir les Meilleurs Filtres ND (Densité Neutre) ?",
     "sections": [
       {
-        "heading": "1. Funktion und Verwendungszweck",
-        "content": "Überlegen Sie den Hauptnutzen. Benötigen Sie sichere Aufbewahrung (z.B. Haken wie kwmobile Silikonhaken), Schutz vor Beschädigung (Hüllen), verbesserten Tragekomfort (Ohrpolster) oder neue Konnektivität (Kabel)? Priorisieren Sie den primären Zweck, um das passende Zubehör zu wählen, das Ihren Alltag erleichtert und Ihre Kopfhörer schützt."
+        "heading": "1. Filtres ND Fixes ou Variables ?",
+        "content": "Distinguez les filtres ND fixes (valeur unique, meilleure qualité optique) des ND variables (praticité, moins d'accessoires). Les variables (ex: K&F Concept Fader) sont polyvalents pour la vidéo et situations changeantes. Les filtres fixes sont idéaux pour une qualité d'image maximale et des conditions lumineuses stables, essentiels en photographie de paysage."
       },
       {
-        "heading": "2. Material und Langlebigkeit",
-        "content": "Achten Sie auf hochwertige Materialien für lange Haltbarkeit. Silikon (wie bei den kwmobile Haken) ist rutschfest und robust. Stoßfeste Kunststoffe oder flexibles Neopren eignen sich gut für Schutzhüllen. Ohrpolster sollten hautfreundlich und atmungsaktiv sein. Investieren Sie in Materialien, die den täglichen Gebrauch standhalten und Ihre Kopfhörer zuverlässig schützen."
+        "heading": "2. Quelle Densité (Stop) choisir ?",
+        "content": "La densité ND, mesurée en 'stops', détermine la réduction lumineuse. Un ND2 (1 stop) est subtil, un ND1000 (10 stops) permet des pauses très longues. Pour les cascades fluides ou ciels dramatiques, visez 6 à 10 stops. Les filtres variables couvrent souvent plusieurs stops, simplifiant l'adaptation à diverses conditions de lumière."
       },
       {
-        "heading": "3. Kompatibilität mit Ihren Kopfhörern",
-        "content": "Nicht jedes Zubehör passt zu allen Modellen. Prüfen Sie genau, ob Halterungen, Ohrpolster, Kabel oder Hüllen mit Ihrem spezifischen Kopfhörertyp (In-Ear, Over-Ear, On-Ear) kompatibel sind. Universalzubehör bietet Flexibilität, während modellspezifische Produkte oft die beste Passform und optimierte Funktionalität garantieren."
+        "heading": "3. Qualité Optique et Traitements",
+        "content": "Privilégiez un verre optique de haute qualité pour éviter la perte de piqué ou la dominante colorée. Les traitements multicouches réduisent les reflets, améliorent la transmission lumineuse et facilitent le nettoyage. Ces traitements sont cruciaux pour une image nette et fidèle, sans altération chromatique, garantissant ainsi des photos professionnelles."
       },
       {
-        "heading": "4. Design und Praktikabilität",
-        "content": "Das Design sollte ästhetisch und funktional sein. Kopfhörerhaken (z.B. aus Silikon) müssen stabil und einfach zu montieren sein. Schutzhüllen sollten leicht zugänglich und nicht zu sperrig sein. Achten Sie auf ergonomische Aspekte bei Ohrpolstern oder Halteclips, um maximalen Komfort und Benutzerfreundlichkeit zu gewährleisten."
+        "heading": "4. Diamètre et Compatibilité Objectif",
+        "content": "Vérifiez impérativement le diamètre de votre objectif (souvent indiqué sur la face avant ou le bouchon) avant l'achat. Un filtre ND de 58mm ne s'adaptera qu'aux objectifs de 58mm. Des bagues d'adaptation existent, mais choisir le bon diamètre optimise la praticité et évite le vignettage indésirable, assurant une parfaite intégration."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis",
-        "content": "Vergleichen Sie Preise und Kundenbewertungen. Auch günstiges Zubehör (wie kwmobile Haken für ca. 7€) kann sehr funktional und von guter Qualität sein. Eine renommierte Marke steht oft für Zuverlässigkeit. Wägen Sie ab, wie viel Sie investieren möchten, um den Wert Ihrer Kopfhörer zu erhalten und Ihren Bedürfnissen gerecht zu werden."
+        "heading": "5. Budget et Rapport Qualité/Prix",
+        "content": "Les prix varient. Des marques comme K&F Concept offrent un excellent rapport qualité/prix, surtout pour les filtres variables (comme le Filtre ND Variable K&F Concept 58mm Fader à 26.0€). Un investissement raisonnable assure une bonne qualité optique sans se ruiner. Lisez les avis utilisateurs pour confirmer la performance et la durabilité du filtre choisi."
       }
     ]
   }

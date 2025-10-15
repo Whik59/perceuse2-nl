@@ -1,154 +1,145 @@
 {
   "categoryId": 26,
-  "categoryNameCanonical": "Kinderkopfhörer",
-  "slug": "kinderkopfhoerer",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecke sichere Kinderkopfhörer mit Lautstärkebegrenzung. Ideal für Reisen & Lernen.",
-  "content": "<div><h2>Kinderkopfhörer: Sicherer Hörgenuss für kleine Ohren</h2><p>Entdecken Sie unsere große Auswahl an Kinderkopfhörern, die speziell dafür entwickelt wurden, das empfindliche Gehör Ihrer Kinder zu schützen und gleichzeitig ein unvergleichliches Hörerlebnis zu bieten. Bei uns finden Sie Modelle, die nicht nur farbenfroh und kindgerecht gestaltet sind, sondern auch höchsten Sicherheitsstandards entsprechen.</p><h2>Schutz des Gehörs durch Lautstärkebegrenzung</h2><p>Das wichtigste Merkmal unserer Kinderkopfhörer ist die integrierte Lautstärkebegrenzung auf sichere 85 Dezibel. Diese Funktion ist entscheidend, um Langzeitschäden am Gehör zu vermeiden, die durch zu laute Musik oder Hörbücher entstehen könnten. So können Ihre Kinder unbesorgt ihre Lieblingsinhalte genießen, egal ob zu Hause, im Auto oder auf Reisen.</p><h2>Komfort und Robustheit für den Kinderalltag</h2><p>Neben der Sicherheit legen wir Wert auf optimalen Tragekomfort und Langlebigkeit. Unsere Kinderkopfhörer sind leicht, verfügen über weiche Ohrpolster und sind individuell an den Kopfumfang anpassbar, sodass sie perfekt und ohne Druck sitzen. Die robuste Bauweise widersteht spielend leicht den Herausforderungen des Kinderalltags, von Stößen bis hin zu Stürzen, und garantiert eine lange Lebensdauer.</p><h2>Vielfältige Designs und smarte Funktionen</h2><p>Ob farbenfrohe Kopfhörer mit beliebten Cartoon-Motiven, schlichte Designs oder kabellose Bluetooth-Modelle – unsere Auswahl lässt keine Wünsche offen. Viele Modelle bieten zudem praktische Funktionen wie integrierte Mikrofone für Online-Unterricht oder Share-Anschlüsse, um den Hörgenuss mit Freunden oder Geschwistern zu teilen. Entdecken Sie jetzt den perfekten Begleiter für Ihr Kind, der Sicherheit, Komfort und Spaß vereint!</p></div>",
+  "categoryNameCanonical": "Drones Portée jusqu'à 5 km",
+  "slug": "drones-longue-portee/drones-portee-jusqua-5-km",
+  "parentCategoryId": 25,
+  "level": 1,
+  "description": "Explorez le ciel avec nos drones haute performance, portée jusqu'à 5 km. Idéal photo/vidéo pro. Commandez !",
+  "content": "<div><h2>Drones Longue Portée 5km : L'Exploration Aérienne Sans Limite</h2><p>Plongez dans l'univers fascinant des drones longue portée avec notre sélection exclusive de modèles capables d'atteindre jusqu'à 5 kilomètres de distance. Que vous soyez un professionnel de l'imagerie aérienne, un explorateur passionné ou simplement à la recherche d'une expérience de vol inégalée, nos drones sont conçus pour repousser les limites de la perception et de l'aventure.</p><p>Chaque drone de notre collection est synonyme de performance et de fiabilité. Profitez de caméras haute définition (souvent 4K) avec stabilisation gyroscopique pour des clichés et vidéos d'une clarté époustouflante. La transmission d'images en temps réel sur de longues distances vous assure un contrôle précis et une immersion totale. Bénéficiez également de systèmes de navigation avancés, de modes de vol intelligents et d'une autonomie optimisée pour des sessions d'exploration prolongées.</p><p>Idéaux pour la surveillance de vastes étendues, la cartographie, l'inspection de structures complexes ou la réalisation de films cinématiques, nos drones offrent une polyvalence exceptionnelle. Leur portée étendue vous permet d'atteindre des zones inaccessibles et de capturer des perspectives uniques, transformant chaque vol en une opportunité de créer du contenu spectaculaire et mémorable.</p><p>Explorez notre gamme de drones avec une portée impressionnante de 5 km et trouvez le compagnon aérien idéal pour toutes vos missions. Qualité, technologie et service client irréprochables sont nos engagements pour vous garantir une satisfaction totale. Préparez-vous à décoller vers de nouveaux horizons !</p></div>",
   "seo": {
-    "title": "Kinderkopfhörer: Sicher & Bequem für kleine Ohren",
-    "description": "Entdecke sichere Kinderkopfhörer mit Lautstärkebegrenzung. Ideal für Reisen & Lernen.",
+    "title": "Drones Longue Portée 5km | Pro | Précision Aérienne",
+    "description": "Explorez le ciel avec nos drones haute performance, portée jusqu'à 5 km. Idéal photo/vidéo pro. Commandez !",
     "keywords": [
-      "kinderkopfhörer",
-      "kopfhörer kinder",
-      "sichere kopfhörer",
-      "lautstärkebegrenzte kopfhörer",
-      "kinder headset",
-      "audio für kinder",
-      "reise kopfhörer kinder",
-      "kabellose kinderkopfhörer"
+      "drones longue portée 5km",
+      "drone professionnel",
+      "achat drone 5km",
+      "drone haute performance",
+      "drone exploration"
     ],
-    "enhancedAt": "2025-10-12T22:44:55.005920"
+    "enhancedAt": "2025-10-15T18:58:59.170977"
   },
   "faq": [
     {
-      "question": "Warum sind spezielle Kinderkopfhörer wichtig?",
-      "answer": "Spezielle Kinderkopfhörer sind wichtig, da sie eine integrierte Lautstärkebegrenzung auf sichere 85 dB besitzen. Dies schützt das empfindliche Gehör von Kindern vor potenziellen Schäden durch zu laute Töne, im Gegensatz zu normalen Kopfhörern."
+      "question": "Quelle est l'autonomie typique d'un drone avec une portée de 5km ?",
+      "answer": "L'autonomie varie selon le modèle et les conditions de vol, souvent entre 20 et 35 minutes par batterie. L'utilisation de batteries supplémentaires est fortement conseillée pour des sessions prolongées."
     },
     {
-      "question": "Auf welche Funktionen sollte ich beim Kauf von Kinderkopfhörern achten?",
-      "answer": "Achten Sie auf eine zuverlässige Lautstärkebegrenzung (max. 85 dB), eine robuste und kindgerechte Bauweise, einen bequemen und anpassbaren Sitz sowie ein ansprechendes Design. Viele Modelle bieten auch nützliche Features wie Share-Funktionen oder kabellose Bluetooth-Verbindungen."
+      "question": "Quel type de législation s'applique aux drones longue portée en France ?",
+      "answer": "En France, l'utilisation de drones est encadrée par la DGAC. Il est impératif de se conformer à la réglementation en vigueur concernant les zones de vol, les hauteurs maximales et l'enregistrement des aéronefs. Le vol à vue est généralement requis, même avec une longue portée."
     },
     {
-      "question": "Sind Kinderkopfhörer mit allen Geräten wie Tablets und Smartphones kompatibel?",
-      "answer": "Ja, die meisten Kinderkopfhörer sind universell kompatibel. Modelle mit Kabel nutzen in der Regel einen Standard 3,5 mm Klinkenanschluss, während kabellose Kopfhörer über Bluetooth eine Verbindung zu Tablets, Smartphones, Laptops und anderen Geräten herstellen können."
+      "question": "Ces drones sont-ils adaptés à la photographie et vidéo professionnelles ?",
+      "answer": "Oui, la plupart des drones de cette catégorie sont équipés de caméras haute résolution (souvent 4K) avec stabilisation avancée, offrant des fonctionnalités spécifiques (modes de suivi, panoramas) pour des prises de vue aériennes professionnelles de qualité cinématographique."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:55.005947",
+  "enhancedAt": "2025-10-15T18:58:59.170992",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Kinderkopfhörer",
+    "title": "Comparaison des 5 meilleurs Drones Portée jusqu'à 5 km",
     "columns": [
       "Rang",
-      "Preis",
-      "Bewertung",
-      "Typ",
-      "Treibergröße",
-      "Lautstärkebegrenzung",
-      "Faltbar",
-      "Zielgruppe"
+      "Prix",
+      "Évaluation",
+      "Marque",
+      "Type d'Usage",
+      "Fonction GPS",
+      "Caméra Intégrée"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61j0kWoOGhL._AC_SL1277_.jpg]",
-        "name": "iClever Kinder Kopfhörer - Lautstärkebegrenzt, Faltbar",
-        "preis": "12.0€",
-        "bewertung": "4.6/5",
-        "typ": "On-Ear",
-        "treibergroesse": "30 mm",
-        "lautstaerkebegrenzung": "85/94 dB",
-        "faltbar": "Ja",
-        "zielgruppe": "Kinder",
-        "productUrl": "/product/iclever-kinder-kopfhorer-lautstarkebegrenzt-faltbar",
-        "image": "https://m.media-amazon.com/images/I/61j0kWoOGhL._AC_SL1277_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61YQNSnV6YL._AC_SL1500_.jpg]",
+        "name": "Drone 4K Cardan 3 Axes GPS FPV 5G",
+        "prix": "412.0€",
+        "évaluation": "0.0/5",
+        "marque": "WYMYY",
+        "type_d_usage": "Photographie/Vidéographie Pro",
+        "fonction_gps": "Oui",
+        "caméra_intégrée": "4K (stabilisée 3 axes, FPV)",
+        "productUrl": "/product/drone-cardan-axes-gps-fpv",
+        "image": "https://m.media-amazon.com/images/I/61YQNSnV6YL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61Fr53DLErL._AC_SL1500_.jpg]",
-        "name": "iClever Katzenohr Kopfhörer LED, 85dB, faltbar",
-        "preis": "18.0€",
-        "bewertung": "4.5/5",
-        "typ": "Over-Ear",
-        "treibergroesse": "40 mm",
-        "lautstaerkebegrenzung": "85 dBA",
-        "faltbar": "Ja",
-        "zielgruppe": "Kinder",
-        "productUrl": "/product/iclever-katzenohr-kopfhorer-led-85db-faltbar",
-        "image": "https://m.media-amazon.com/images/I/61Fr53DLErL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71p79VF1PUL._AC_SL1500_.jpg]",
+        "name": "Drone OVERMAX X BEE 9.5 FOLD 4K GPS",
+        "prix": "258.0€",
+        "évaluation": "3.1/5",
+        "marque": "Overmax",
+        "type_d_usage": "Loisir/Photographie",
+        "fonction_gps": "Oui",
+        "caméra_intégrée": "4K (avec FPV)",
+        "productUrl": "/product/drone-overmax-bee-9-5-fold-gps",
+        "image": "https://m.media-amazon.com/images/I/71p79VF1PUL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61UUdmi-heL._AC_SL1500_.jpg]",
-        "name": "Philips SHK2000BL Kinder Over Ear Kopfhörer Blau",
-        "preis": "19.0€",
-        "bewertung": "4.3/5",
-        "typ": "Over-Ear",
-        "treibergroesse": "32 mm",
-        "lautstaerkebegrenzung": "85 dB",
-        "faltbar": "Nein",
-        "zielgruppe": "Kinder",
-        "productUrl": "/product/shk2000bl-philips-kinder-over-ear-kopfhorer",
-        "image": "https://m.media-amazon.com/images/I/61UUdmi-heL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/81kIK0-pTcL._AC_SL1500_.jpg]",
+        "name": "Drone Racing Kit Débutants Obstacles Longue Portée",
+        "prix": "333.0€",
+        "évaluation": "0.0/5",
+        "marque": "Generic",
+        "type_d_usage": "Course/Entraînement FPV",
+        "fonction_gps": "Non",
+        "caméra_intégrée": "FPV (pour pilotage)",
+        "productUrl": "/product/drone-racing-kit-debutants-obstacles-longue",
+        "image": "https://m.media-amazon.com/images/I/81kIK0-pTcL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/41kLFNsU3HL._AC_UY218_.jpg]",
-        "name": "Sony MDR-ZX110 Kopfhörer faltbar, rosa",
-        "preis": "14.0€",
-        "bewertung": "4.5/5",
-        "typ": "On-Ear",
-        "treibergroesse": "30 mm",
-        "lautstaerkebegrenzung": "Keine",
-        "faltbar": "Ja",
-        "zielgruppe": "Jugendliche/Erwachsene",
-        "productUrl": "/product/mdr-zx110-sony-kopfhorer-faltbar-rosa",
-        "image": "https://m.media-amazon.com/images/I/41kLFNsU3HL._AC_UY218_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/517WTZJeSRL._AC_SL1000_.jpg]",
+        "name": "Drone LUXWALLET TT Pro 5 GHz Caméra HD GPS Noir",
+        "prix": "140.0€",
+        "évaluation": "4.2/5",
+        "marque": "LUXWALLET",
+        "type_d_usage": "Loisir/Photographie",
+        "fonction_gps": "Oui",
+        "caméra_intégrée": "HD (avec FPV)",
+        "productUrl": "/product/pro-drone-luxwallet-ghz-camera-gps",
+        "image": "https://m.media-amazon.com/images/I/517WTZJeSRL._AC_SL1000_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51+KuFhpb-L._AC_UY218_.jpg]",
-        "name": "JBL Tune 500 On-Ear Kopfhörer Pink | Kabelgebunden, Mikrofon, Sprachassistent",
-        "preis": "28.0€",
-        "bewertung": "4.4/5",
-        "typ": "On-Ear",
-        "treibergroesse": "32 mm",
-        "lautstaerkebegrenzung": "Keine",
-        "faltbar": "Ja",
-        "zielgruppe": "Jugendliche/Erwachsene",
-        "productUrl": "/product/jbl-tune-500-on-ear-kopfhorer-pink",
-        "image": "https://m.media-amazon.com/images/I/51+KuFhpb-L._AC_UY218_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71BMCbXz5kL._AC_SL1500_.jpg]",
+        "name": "Drone Sky Viper Vector Stunt Jet 60km/h",
+        "prix": "145.0€",
+        "évaluation": "3.5/5",
+        "marque": "Sky Viper",
+        "type_d_usage": "Course/Voltige",
+        "fonction_gps": "Non",
+        "caméra_intégrée": "Non incluse (drone de voltige)",
+        "productUrl": "/product/60km-h-drone-sky-viper-vector-stunt",
+        "image": "https://m.media-amazon.com/images/I/71BMCbXz5kL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Wie wählt man die besten Kinderkopfhörer aus?",
+    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones Portée jusqu'à 5 km ?",
     "sections": [
       {
-        "heading": "1. Sicherer Lautstärkebegrenzung",
-        "content": "Achten Sie unbedingt auf eine integrierte Lautstärkebegrenzung, idealerweise auf maximal 85 dB. Dies schützt das empfindliche Gehör Ihres Kindes vor Schäden. Viele Kinderkopfhörer wie der Philips SHK2000BL bieten diese wichtige Funktion. Überprüfen Sie die Herstellerangaben, um die Sicherheit zu gewährleisten und langfristige Hörprobleme zu vermeiden."
+        "heading": "1. Qualité de l'Image et Caméra",
+        "content": "Privilégiez les drones équipés d'une caméra 4K pour des images ultra-nettes, comme le Drone OVERMAX X BEE 9.5 FOLD 4K GPS. Une stabilisation par nacelle (gimbal) est cruciale pour des vidéos fluides. Vérifiez la taille du capteur pour de meilleures performances en basse lumière et la possibilité de capturer des photos RAW pour la post-production."
       },
       {
-        "heading": "2. Passform und Tragekomfort",
-        "content": "Ein guter Kinderkopfhörer muss bequem sitzen und verstellbar sein. Achten Sie auf weiche Ohrpolster und einen leichten, anpassbaren Kopfbügel, damit er auf kleine Köpfe passt. Over-Ear-Modelle bieten oft mehr Komfort und besseren Halt. Ihr Kind sollte die Kopfhörer ohne Druck über längere Zeit tragen können."
+        "heading": "2. Autonomie et Capacité de la Batterie",
+        "content": "Pour une portée de 5 km, une autonomie de vol d'au moins 20-30 minutes est indispensable. Optez pour des batteries modulaires et intelligentes, faciles à remplacer. Vérifiez la capacité en mAh et la présence d'indicateurs de niveau. Prévoir des batteries supplémentaires est fortement recommandé pour prolonger vos sessions."
       },
       {
-        "heading": "3. Robustheit und Material",
-        "content": "Kinder gehen nicht immer vorsichtig mit Geräten um. Wählen Sie Kopfhörer aus strapazierfähigen, bruchsicheren Materialien. Ein flexibles Design, das Biegen und Verdrehen standhält, ist ideal. Abnehmbare oder besonders robuste Kabel verhindern Schäden. Der Philips SHK2000BL zeigt mit seiner widerstandsfähigen Bauweise, worauf es ankommt."
+        "heading": "3. Système de Vol et Fonctionnalités GPS",
+        "content": "Un système GPS robuste est essentiel pour la stabilité, le maintien de position et le retour automatique au point de départ (RTH). Recherchez des fonctions comme l'évitement d'obstacles, le suivi intelligent (Follow Me) et la planification de trajectoire. Ces éléments garantissent un vol sécurisé et une meilleure expérience, surtout à longue distance."
       },
       {
-        "heading": "4. Kabelgebunden oder Kabellos?",
-        "content": "Kabelgebundene Kopfhörer sind meist günstiger (wie der Philips für 19,0€) und benötigen keine Akkus. Kabellose Modelle bieten mehr Bewegungsfreiheit, aber müssen geladen werden und sind oft teurer. Überlegen Sie den Einsatzzweck: Für zu Hause sind Kabel in Ordnung, unterwegs sind kabellose bequemer und praktischer."
+        "heading": "4. Portée de Transmission et Fiabilité du Signal",
+        "content": "Assurez-vous que la portée réelle corresponde à vos besoins (jusqu'à 5 km). Vérifiez le type de technologie de transmission (ex: OcuSync) pour une connexion stable et faible latence. La fiabilité du signal est primordiale pour éviter les pertes de contrôle à distance. Lisez les avis sur la stabilité de la connexion en conditions réelles."
       },
       {
-        "heading": "5. Zusatzfunktionen und Preis-Leistung",
-        "content": "Einige Kopfhörer bieten zusätzliche Funktionen wie abnehmbare Kabel, integrierte Mikrofone oder bunte Designs. Wägen Sie ab, welche Extras sinnvoll sind. Ein gutes Preis-Leistungs-Verhältnis ist entscheidend. Modelle wie der Philips SHK2000BL bieten für etwa 19,0€ eine solide Basis an Sicherheit und Komfort, ideal für den Einstieg."
+        "heading": "5. Facilité d'Utilisation et Portabilité",
+        "content": "Choisissez un drone avec une interface intuitive et des commandes simples. Un design pliable, comme le Drone OVERMAX, facilite grandement le transport. Pensez au poids et à la taille pour le voyage. Une application mobile conviviale et des tutoriels clairs sont un plus pour les débutants comme les pilotes expérimentés."
       }
     ]
   }

@@ -271,12 +271,12 @@ const CategoryPage: React.FC = () => {
               {/* CTA Button */}
               <div className="pt-0">
                 <Link href="#products">
-                  <Button 
-                    size="sm" 
-                    className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
-                  >
-                    Jetzt entdecken
-                  </Button>
+                    <Button 
+                      size="sm" 
+                      className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
+                    >
+                      {getString('categories.discoverNow')}
+                    </Button>
                 </Link>
               </div>
             </div>
@@ -366,7 +366,7 @@ const CategoryPage: React.FC = () => {
                       size="lg" 
                       className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-10 py-3 text-base font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
                     >
-                      Jetzt entdecken
+                      {getString('categories.discoverNow')}
                     </Button>
                   </Link>
                 </div>
