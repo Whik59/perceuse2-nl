@@ -576,9 +576,9 @@ const ProductDetailPage: React.FC = () => {
                 </>
               ) : (
                 <>
-                  <Link href="/categories" className="hover:text-neutral-800 transition-colors">
+                  <span className="text-neutral-600">
                     {getString('navigation.products')}
-                  </Link>
+                  </span>
                   <span className="text-neutral-300">/</span>
                 </>
               )}
@@ -1350,12 +1350,16 @@ const ProductDetailPage: React.FC = () => {
               <p className="text-neutral-600">{getString('product.alsoLikeSubtitle')}</p>
             </div>
             
-            <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
+            <div className="grid grid-cols-2 lg:grid-cols-6 gap-4">
               {relatedProducts.length > 0 ? (
                 relatedProducts.map((relatedProduct) => (
                   <ProductCard
                     key={relatedProduct.slug}
                     product={relatedProduct}
+                    onAddToCart={() => {
+                      // Redirect to Amazon for the specific related product
+                      window.open(relatedProduct.amazonUrl, '_blank');
+                    }}
                   />
                 ))
               ) : (

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Search, ShoppingCart, Menu, X, MessageCircle, Tag, Star, Package } from 'lucide-react';
 import { formatCurrency, getString } from '../../lib/utils';
-import { Category, CartItem } from '../../lib/types';
+import { Category, CartItem, Product } from '../../lib/types';
 import SupportFAQ from '../SupportFAQ';
 import EmergencyBanner from '../EmergencyBanner';
 
@@ -141,10 +141,12 @@ const Header: React.FC<HeaderProps> = ({
   const [isSupportOpen, setIsSupportOpen] = useState(false);
   const [dropdownTimeout, setDropdownTimeout] = useState<NodeJS.Timeout | null>(null);
   const [searchSuggestions, setSearchSuggestions] = useState<string[]>([]);
+  const [searchCategories, setSearchCategories] = useState<any[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout | null>(null);
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [subcategoryProducts, setSubcategoryProducts] = useState<Record<number, Product | null>>({});
 
   // Enhanced dropdown hover handlers with delay
   const handleDropdownEnter = (categoryId: number) => {
@@ -210,18 +212,21 @@ const Header: React.FC<HeaderProps> = ({
   const fetchSuggestions = async (query: string) => {
     if (query.length < 2) {
       setSearchSuggestions([]);
+      setSearchCategories([]);
       setShowSuggestions(false);
       return;
     }
 
     try {
-      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&type=suggestions`);
+      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}&type=all`);
       const data = await response.json();
       setSearchSuggestions(data.suggestions || []);
+      setSearchCategories(data.categories || []);
       setShowSuggestions(true);
     } catch (error) {
       console.error('Error fetching suggestions:', error);
       setSearchSuggestions([]);
+      setSearchCategories([]);
       setShowSuggestions(false);
     }
   };
@@ -293,6 +298,43 @@ const Header: React.FC<HeaderProps> = ({
     };
   }, [lastScrollY, isMobileMenuOpen]);
 
+  // Load sample products for subcategories
+  useEffect(() => {
+    const loadSubcategoryProducts = async () => {
+      const products: Record<number, Product | null> = {};
+      
+      for (const category of categories) {
+        if (category.parentCategoryId === null) {
+          const subcategories = getSubcategories(category.categoryId || 0);
+          
+          for (const subcategory of subcategories) {
+            if (!products[subcategory.categoryId || 0]) {
+              try {
+                // Use API route to get products by category ID
+                const response = await fetch(`/api/products/by-category/${subcategory.categoryId}`);
+                if (response.ok) {
+                  const data = await response.json();
+                  if (data && data.length > 0) {
+                    products[subcategory.categoryId || 0] = data[0];
+                  }
+                }
+              } catch (error) {
+                console.error(`Error loading product for subcategory ${subcategory.slug}:`, error);
+                products[subcategory.categoryId || 0] = null;
+              }
+            }
+          }
+        }
+      }
+      
+      setSubcategoryProducts(products);
+    };
+
+    if (categories.length > 0) {
+      loadSubcategoryProducts();
+    }
+  }, [categories]);
+
   // Get parent categories and sort by number of subcategories (most subcategories first)
   const parentCategories = categories
     .filter(cat => cat.parentCategoryId === null)
@@ -302,10 +344,10 @@ const Header: React.FC<HeaderProps> = ({
     }))
     .sort((a, b) => b.subcategoryCount - a.subcategoryCount);
 
-  // Smart category selection - display exactly 5 categories
+  // Smart category selection - display exactly 7 categories
   const getOptimalCategories = () => {
-    // Take the first 5 categories from parentCategories (already sorted by subcategory count)
-    const selectedCategories = parentCategories.slice(0, 5).map(cat => ({
+    // Take the first 7 categories from parentCategories (already sorted by subcategory count)
+    const selectedCategories = parentCategories.slice(0, 7).map(cat => ({
         ...cat,
       displayName: truncateText(cat.name || cat.categoryNameCanonical || '', 18)
       }));
@@ -422,20 +464,56 @@ const Header: React.FC<HeaderProps> = ({
               </form>
 
               {/* Search Suggestions Dropdown */}
-              {showSuggestions && searchSuggestions.length > 0 && (
+              {showSuggestions && (searchSuggestions.length > 0 || searchCategories.length > 0) && (
                 <div className="absolute top-full left-0 right-0 mt-1 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-60 overflow-y-auto">
-                  {searchSuggestions.map((suggestion, index) => (
-                    <button
-                      key={index}
-                      onClick={() => handleSuggestionClick(suggestion)}
-                      className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0"
-                    >
-                      <div className="flex items-center space-x-3">
-                        <Search className="w-4 h-4 text-gray-400" />
-                        <span className="text-gray-900">{suggestion}</span>
+                  {/* Categories Section */}
+                  {searchCategories.length > 0 && (
+                    <>
+                      <div className="px-4 py-2 bg-gray-50 border-b border-gray-100">
+                        <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Kategorien</span>
                       </div>
-                    </button>
-                  ))}
+                      {searchCategories.map((category, index) => (
+                        <button
+                          key={`category-${index}`}
+                          onClick={() => {
+                            window.location.href = `/category/${category.categoryId}`;
+                            setShowSuggestions(false);
+                          }}
+                          className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-gray-100"
+                        >
+                          <div className="flex items-center space-x-3">
+                            <div className="w-4 h-4 bg-orange-500 rounded-sm flex items-center justify-center">
+                              <span className="text-white text-xs">📁</span>
+                            </div>
+                            <span className="text-gray-900">{category.name}</span>
+                          </div>
+                        </button>
+                      ))}
+                    </>
+                  )}
+                  
+                  {/* Suggestions Section */}
+                  {searchSuggestions.length > 0 && (
+                    <>
+                      {searchCategories.length > 0 && (
+                        <div className="px-4 py-2 bg-gray-50 border-b border-gray-100">
+                          <span className="text-xs font-semibold text-gray-500 uppercase tracking-wide">Vorschläge</span>
+                        </div>
+                      )}
+                      {searchSuggestions.map((suggestion, index) => (
+                        <button
+                          key={`suggestion-${index}`}
+                          onClick={() => handleSuggestionClick(suggestion)}
+                          className="w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors border-b border-gray-100 last:border-b-0"
+                        >
+                          <div className="flex items-center space-x-3">
+                            <Search className="w-4 h-4 text-gray-400" />
+                            <span className="text-gray-900">{suggestion}</span>
+                          </div>
+                        </button>
+                      ))}
+                    </>
+                  )}
                 </div>
               )}
             </div>
@@ -546,20 +624,43 @@ const Header: React.FC<HeaderProps> = ({
                         
                         {/* Dropdown items */}
                         <div className="py-1">
-                          {subcategories.map((subcategory, index) => (
-                            <Link
-                              key={subcategory.categoryId}
-                              href={`/category/${subcategory.slug}`}
-                              className="group/item flex items-center justify-between px-5 py-2 text-xs font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
-                            >
-                              <span className="relative tracking-[0.3px] uppercase">
-                                {subcategory.name || subcategory.categoryNameCanonical}
-                              </span>
-                              <svg className="w-3 h-3 opacity-0 group-hover/item:opacity-60 transition-all duration-300 transform translate-x-2 group-hover/item:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
-                              </svg>
-                            </Link>
-                          ))}
+                          {subcategories.map((subcategory, index) => {
+                            const sampleProduct = subcategoryProducts[subcategory.categoryId || 0];
+                            return (
+                              <Link
+                                key={subcategory.categoryId}
+                                href={`/category/${subcategory.slug}`}
+                                className="group/item flex items-center space-x-3 px-5 py-3 text-xs font-light text-gray-700 hover:text-gray-900 hover:bg-gray-50/50 transition-all duration-300 border-b border-gray-50/50 last:border-b-0"
+                              >
+                                {/* Product Image */}
+                                <div className="flex-shrink-0 w-8 h-8 rounded-md overflow-hidden bg-gray-100">
+                                  {sampleProduct?.imagePaths && sampleProduct.imagePaths.length > 0 ? (
+                                    <Image
+                                      src={sampleProduct.imagePaths[0]}
+                                      alt={sampleProduct.title || subcategory.name || ''}
+                                      width={32}
+                                      height={32}
+                                      className="w-full h-full object-cover"
+                                    />
+                                  ) : (
+                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                      <Package className="w-4 h-4 text-gray-400" />
+                                    </div>
+                                  )}
+                                </div>
+                                
+                                {/* Category Name */}
+                                <span className="relative tracking-[0.3px] uppercase flex-1">
+                                  {subcategory.name || subcategory.categoryNameCanonical}
+                                </span>
+                                
+                                {/* Arrow */}
+                                <svg className="w-3 h-3 opacity-0 group-hover/item:opacity-60 transition-all duration-300 transform translate-x-2 group-hover/item:translate-x-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                              </Link>
+                            );
+                          })}
                         </div>
                       </div>
                     </div>
@@ -631,16 +732,39 @@ const Header: React.FC<HeaderProps> = ({
                     {/* Mobile Subcategories */}
                       {hasSubcategories && isExpanded && (
                       <div className="bg-gray-50 border-t border-gray-100">
-                          {subcategories.map((subcategory) => (
-                            <Link
-                              key={subcategory.categoryId}
-                              href={`/category/${subcategory.slug}`}
-                            className="block text-gray-600 hover:text-orange-600 font-normal text-sm py-3 px-6 hover:bg-orange-50 transition-all duration-200 border-l-2 border-transparent hover:border-orange-200"
-                              onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                              {subcategory.name || subcategory.categoryNameCanonical}
-                </Link>
-              ))}
+                          {subcategories.map((subcategory) => {
+                            const sampleProduct = subcategoryProducts[subcategory.categoryId || 0];
+                            return (
+                              <Link
+                                key={subcategory.categoryId}
+                                href={`/category/${subcategory.slug}`}
+                                className="flex items-center space-x-3 text-gray-600 hover:text-orange-600 font-normal text-sm py-3 px-6 hover:bg-orange-50 transition-all duration-200 border-l-2 border-transparent hover:border-orange-200"
+                                onClick={() => setIsMobileMenuOpen(false)}
+                              >
+                                {/* Product Image */}
+                                <div className="flex-shrink-0 w-6 h-6 rounded overflow-hidden bg-gray-200">
+                                  {sampleProduct?.imagePaths && sampleProduct.imagePaths.length > 0 ? (
+                                    <Image
+                                      src={sampleProduct.imagePaths[0]}
+                                      alt={sampleProduct.title || subcategory.name || ''}
+                                      width={24}
+                                      height={24}
+                                      className="w-full h-full object-cover"
+                                    />
+                                  ) : (
+                                    <div className="w-full h-full flex items-center justify-center bg-gray-200">
+                                      <Package className="w-3 h-3 text-gray-400" />
+                                    </div>
+                                  )}
+                                </div>
+                                
+                                {/* Category Name */}
+                                <span className="flex-1">
+                                  {subcategory.name || subcategory.categoryNameCanonical}
+                                </span>
+                              </Link>
+                            );
+                          })}
                         </div>
                       )}
                     </div>

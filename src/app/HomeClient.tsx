@@ -212,7 +212,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
 
               {/* CTA Button */}
               <div className="pt-0">
-                <Link href="/categories">
+                <Link href="#category-cards">
                   <Button 
                     size="sm" 
                     className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
@@ -297,7 +297,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
 
                 {/* CTA Button */}
                 <div className="pt-1">
-                  <Link href="/categories">
+                  <Link href="#category-cards">
                     <Button 
                       size="lg" 
                       className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-10 py-3 text-base font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
@@ -316,7 +316,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
       </section>
 
       {/* Category Cards Section */}
-      <section className="py-8 bg-gradient-to-br from-orange-50 via-white to-orange-50">
+      <section id="category-cards" className="py-8 bg-gradient-to-br from-orange-50 via-white to-orange-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl lg:text-4xl font-bold bg-gradient-to-r from-orange-600 via-orange-700 to-orange-600 bg-clip-text text-transparent mb-4">
@@ -441,17 +441,6 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
             )}
           </div>
           
-          {/* View All Categories Button */}
-          <div className="text-center pt-8">
-            <Link href="/categories">
-              <Button 
-                size="lg"
-                className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
-              >
-                {getString('categories.viewAllCategories')}
-              </Button>
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -478,7 +467,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           </div>
           
           <div className="text-center mt-12">
-            <Link href="/categories">
+            <Link href="/">
               <Button 
                 size="lg"
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300"

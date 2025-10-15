@@ -130,29 +130,6 @@ const FloatingButtons: React.FC<FloatingButtonsProps> = ({
         </div>
       )}
 
-      {/* Cart Button - Bottom Right - Premium Black & White */}
-      <div className="fixed bottom-6 right-6 z-40">
-        <div className="relative group">
-          <button
-            onClick={handleCartClick}
-            className="bg-gray-900 hover:bg-gray-800 text-white p-4 rounded-full shadow-xl transition-all duration-300 hover:shadow-2xl hover:scale-105"
-            aria-label={getString('floatingButtons.cartAriaLabel')}
-          >
-            <ShoppingCart className="w-6 h-6" />
-            {cartItemCount > 0 && (
-              <span className="absolute -top-2 -right-2 bg-white text-gray-900 text-xs font-bold rounded-full h-6 w-6 flex items-center justify-center min-w-[1.5rem] shadow-lg border border-gray-200">
-                {cartItemCount > 99 ? '99+' : cartItemCount}
-              </span>
-            )}
-          </button>
-
-          {/* Tooltip */}
-          <div className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-gray-900 text-white px-4 py-2 rounded-xl text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none whitespace-nowrap shadow-xl">
-            {getString('floatingButtons.cartTooltip')} ({cartItemCount})
-            <div className="absolute left-full top-1/2 -translate-y-1/2 border-4 border-transparent border-l-gray-900"></div>
-          </div>
-        </div>
-      </div>
 
       {/* Premium Video Modal - 9:16 Portrait */}
       {isModalOpen && (

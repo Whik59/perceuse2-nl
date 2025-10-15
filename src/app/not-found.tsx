@@ -28,7 +28,7 @@ export default function NotFound() {
             {getString('errors.404.goHome')}
           </Link>
           <Link 
-            href="/categories"
+            href="/"
             className="inline-block w-full bg-white text-slate-800 px-6 py-3 rounded-lg font-medium border border-slate-200 hover:border-slate-300 transition-colors duration-200"
           >
             {getString('errors.404.browseCategories')}
