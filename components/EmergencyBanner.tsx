@@ -10,6 +10,8 @@ const EmergencyBanner: React.FC = () => {
     minutes: 59,
     seconds: 59
   });
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -30,8 +32,30 @@ const EmergencyBanner: React.FC = () => {
     return () => clearInterval(timer);
   }, []);
 
+  // Scroll detection to hide/show banner
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      
+      if (currentScrollY > lastScrollY && currentScrollY > 100) {
+        // Scrolling down and past 100px - hide banner
+        setIsVisible(false);
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling up - show banner
+        setIsVisible(true);
+      }
+      
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [lastScrollY]);
+
   return (
-    <div className="bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white py-1 sm:py-2 px-2 sm:px-3 sticky top-0 z-40 shadow-lg animate-pulse">
+    <div className={`bg-gradient-to-r from-red-500 via-red-600 to-red-700 text-white py-1 sm:py-2 px-2 sm:px-3 sticky top-0 z-40 shadow-lg animate-pulse transition-transform duration-300 ${
+      isVisible ? 'translate-y-0' : '-translate-y-full'
+    }`}>
       <div className="max-w-7xl mx-auto">
         {/* Desktop Layout */}
         <div className="hidden sm:flex items-center justify-center space-x-3">

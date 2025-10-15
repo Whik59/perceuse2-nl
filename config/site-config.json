@@ -1,14 +1,14 @@
 {
   "site": {
-    "name": "Ihr perfektes Massagegerät",
+    "name": "Massagegerät",
     "description": "Finden Sie das ideale Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
     "url": "https://kaufen-massagegeraete.de",
     "logo": "/logo.png",
     "favicon": "/favicon.ico"
   },
   "seo": {
-    "defaultTitle": "Ihr perfektes Massagegerät - Massagegeräte und Wellness-Produkte",
-    "titleTemplate": "%s | Ihr perfektes Massagegerät",
+    "defaultTitle": "Massagegerät - Massagegeräte und Wellness-Produkte",
+    "titleTemplate": "%s | Massagegerät",
     "defaultDescription": "Finden Sie das ideale Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
     "keywords": [
       "Massagegerät",

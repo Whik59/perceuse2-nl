@@ -178,14 +178,14 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           <div className="lg:hidden space-y-1">
             {/* Top Image - Mobile */}
             <div className="bg-white p-1 flex items-center justify-center">
-              <Image
-                src="/hero2.png"
-                alt="Professional Massagegeräte 2"
-                width={500}
-                height={375}
-                className="w-auto h-auto max-w-md"
-                priority
-              />
+                <Image
+                  src="/hero2.png"
+                  alt="Professional Massagegeräte 2"
+                  width={500}
+                  height={375}
+                  className="w-auto h-auto max-w-full"
+                  priority
+                />
             </div>
 
             {/* Orange Background - Mobile */}
@@ -230,7 +230,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                 alt="Professional Massagegeräte"
                 width={500}
                 height={375}
-                className="w-auto h-auto max-w-md"
+                className="w-auto h-auto max-w-full"
                 priority
               />
             </div>

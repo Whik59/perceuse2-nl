@@ -24,7 +24,7 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
   const sizeClasses = {
     xs: {
       star: 'w-2 h-2',
-      text: 'text-xs',
+      text: 'text-[10px]',
       rating: 'text-xs'
     },
     sm: {
@@ -95,7 +95,7 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
       {showCount && (
         <>
           <span className={`${sizeClasses[size].text} text-gray-400`}>•</span>
-          <span className={`${sizeClasses[size].text} text-gray-600`}>
+          <span className={`${sizeClasses[size].text} text-gray-600 whitespace-nowrap`}>
             {reviewData.reviewCount} {getString('product.reviews')}
           </span>
         </>

@@ -150,7 +150,8 @@ const ProductDetailPage: React.FC = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
-  const [showImageModal, setShowImageModal] = useState(false);
+  const [isZoomed, setIsZoomed] = useState(false);
+  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
   const [viewersCount, setViewersCount] = useState(0);
   const [recentPurchases, setRecentPurchases] = useState<string[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
@@ -586,54 +587,81 @@ const ProductDetailPage: React.FC = () => {
           </div>
         </nav>
 
-        {/* Amazon-Style Urgency Social Proof */}
+        {/* Amazon-Style Urgency Social Proof - Single Line */}
         {(viewersCount > 0 || recentPurchases.length > 0) && (
           <div className="bg-gradient-to-r from-orange-50 via-orange-100 to-orange-50 border-b border-orange-200">
-            <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
-              <div className="flex items-center justify-center">
-                <div className="flex items-center space-x-8 text-gray-700">
-                  {viewersCount > 0 && (
-                    <div className="flex items-center space-x-3 bg-white rounded-full px-4 py-2 shadow-sm border border-orange-200">
-                      <div className="w-2 h-2 bg-orange-500 rounded-full animate-pulse"></div>
-                      <span className="font-bold text-orange-700">{viewersCount}</span>
-                      <span className="font-medium text-gray-700">{getString('product.viewersCount')}</span>
-                    </div>
-                  )}
-                  
-                  {recentPurchases.length > 0 && (
-                    <div className="flex items-center space-x-3 bg-white rounded-full px-4 py-2 shadow-sm border border-orange-200">
-                      <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-                      <span className="font-medium text-gray-700">{getString('product.lastOrderBy')}</span>
-                      <span className="font-bold text-green-700">{recentPurchases[0]}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-              
-              {/* Additional Urgency Message */}
-              <div className="text-center mt-3">
-                <div className="inline-flex items-center space-x-2 bg-red-50 border border-red-200 rounded-full px-3 py-1">
-                  <div className="w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse"></div>
-                  <span className="text-xs font-semibold text-red-700">Begrenzte Verfügbarkeit</span>
+            <div className="max-w-7xl mx-auto px-4 lg:px-8 py-2">
+              <div className="flex items-center justify-center space-x-3 text-gray-700">
+                {viewersCount > 0 && (
+                  <div className="flex items-center space-x-1.5 bg-white rounded-full px-2.5 py-1 shadow-sm border border-orange-200">
+                    <div className="w-1 h-1 bg-orange-500 rounded-full animate-pulse"></div>
+                    <span className="font-bold text-orange-700 text-xs">{viewersCount}</span>
+                    <span className="font-medium text-gray-700 text-[10px]">{getString('product.viewersCount')}</span>
+                  </div>
+                )}
+                
+                {recentPurchases.length > 0 && (
+                  <div className="flex items-center space-x-1.5 bg-white rounded-full px-2.5 py-1 shadow-sm border border-orange-200">
+                    <div className="w-1 h-1 bg-green-500 rounded-full animate-pulse"></div>
+                    <span className="font-medium text-gray-700 text-[10px]">{getString('product.lastOrderBy')}</span>
+                    <span className="font-bold text-green-700 text-xs">{recentPurchases[0]}</span>
+                  </div>
+                )}
+                
+                {/* Limited Availability - Inline */}
+                <div className="flex items-center space-x-1 bg-red-50 border border-red-200 rounded-full px-2 py-1">
+                  <div className="w-1 h-1 bg-red-500 rounded-full animate-pulse"></div>
+                  <span className="text-[9px] font-semibold text-red-700">Begrenzte Verfügbarkeit</span>
                 </div>
               </div>
             </div>
           </div>
         )}
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 lg:py-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
             {/* Luxury Image Gallery */}
             <div className="space-y-3 lg:space-y-4">
-              {/* Main Image */}
-              <div className="relative aspect-square bg-white rounded-lg lg:rounded-xl overflow-hidden group max-w-md mx-auto lg:max-w-sm">
+              {/* Main Image with Smart Zoom */}
+              <div 
+                className="relative aspect-square bg-white rounded-lg lg:rounded-xl overflow-hidden group max-w-md mx-auto lg:max-w-sm cursor-zoom-in"
+                onMouseEnter={() => setIsZoomed(true)}
+                onMouseLeave={() => setIsZoomed(false)}
+                onMouseMove={(e) => {
+                  if (isZoomed) {
+                    const rect = e.currentTarget.getBoundingClientRect();
+                    const x = ((e.clientX - rect.left) / rect.width) * 100;
+                    const y = ((e.clientY - rect.top) / rect.height) * 100;
+                    setZoomPosition({ x, y });
+                  }
+                }}
+              >
                 <Image
                   src={product.imagePaths[selectedImageIndex] || '/placeholder-product.jpg'}
                   alt={productTitle}
                   fill
-                  className="object-contain transition-transform duration-700 group-hover:scale-105"
+                  className={`object-contain transition-transform duration-300 ${
+                    isZoomed ? 'scale-150' : 'group-hover:scale-105'
+                  }`}
+                  style={{
+                    transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
+                  }}
                   priority
                 />
+                
+                {/* Smart Zoom Indicator */}
+                {isZoomed && (
+                  <div className="absolute inset-0 pointer-events-none">
+                    <div 
+                      className="absolute w-20 h-20 border-2 border-white rounded-full shadow-lg bg-white/10"
+                      style={{
+                        left: `${zoomPosition.x}%`,
+                        top: `${zoomPosition.y}%`,
+                        transform: 'translate(-50%, -50%)'
+                      }}
+                    />
+                  </div>
+                )}
                 
                 {/* Minimal Navigation */}
                 {product.imagePaths.length > 1 && (
@@ -653,22 +681,6 @@ const ProductDetailPage: React.FC = () => {
                   </>
                 )}
                 
-                {/* Zoom Icon */}
-                <button
-                  onClick={() => setShowImageModal(true)}
-                  className="absolute top-4 right-4 w-10 h-10 bg-white/90 backdrop-blur-sm hover:bg-white rounded-full flex items-center justify-center shadow-luxury transition-all duration-300 opacity-0 group-hover:opacity-100"
-                >
-                  <ZoomIn className="w-4 h-4 text-neutral-800" />
-                </button>
-
-                {/* Minimal Sale Badge */}
-                {product.onSale && (
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-neutral-900 text-white text-xs font-medium px-3 py-1.5 rounded-full">
-                      -{product.salePercentage}%
-                    </span>
-                  </div>
-                )}
               </div>
               
               {/* Minimal Thumbnail Grid */}
@@ -847,7 +859,7 @@ const ProductDetailPage: React.FC = () => {
           <div className="mt-24 border-t border-neutral-100 pt-16">
             <div className="max-w-4xl mx-auto">
               {/* Amazon-Style Tab Navigation */}
-              <div className="border-b border-orange-200 mb-12">
+              <div className="border-b border-orange-200 mb-6">
                 <nav className="-mb-px flex flex-wrap gap-2 sm:gap-12">
                   <button 
                     onClick={() => setActiveTab('description')}
@@ -966,65 +978,103 @@ const ProductDetailPage: React.FC = () => {
                 )}
               </div>
 
-              {/* Review Analysis Section */}
-              {product?.reviewAnalysis && (
-                <div className="mt-12">
-                  <div className="text-center mb-6">
-                    <div className="inline-flex items-center justify-center w-8 h-8 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full mb-2 shadow-lg">
-                      <Star className="w-4 h-4 text-white fill-white" />
+              {/* Hero Section Below All Tabs */}
+              <section className="relative pt-0 pb-8 md:pb-12 overflow-hidden -mt-8 lg:-mt-6">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                  {/* Mobile Layout */}
+                  <div className="lg:hidden space-y-1">
+                    {/* Top Image - Mobile */}
+                    <div className="bg-white p-1 flex items-center justify-center">
+                      <Image
+                        src="/hero2.png"
+                        alt="Professional Massagegeräte 2"
+                        width={700}
+                        height={525}
+                        className="w-auto h-auto max-w-full"
+                        priority
+                      />
                     </div>
-                    <h2 className="text-lg lg:text-xl font-bold text-orange-600 mb-2">
-                      {getString('product.reviewAnalysis')} {productTitle}
-                    </h2>
-                    <div className="flex items-center justify-center space-x-3 mb-4">
+
+                    {/* Orange Background - Mobile */}
+                    <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-8 py-6 flex flex-col justify-center items-center rounded-full -mt-16 relative z-10 w-fit mx-auto min-w-[200px] max-w-xs shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+                      {/* Main Headline */}
                       <div className="text-center">
-                        <span className="text-2xl lg:text-3xl font-bold text-orange-600 block">
-                          {product?.reviewAnalysis?.overall_rating?.toFixed(1) || '4.0'}
-                        </span>
-                        <div className="flex items-center justify-center mt-1">
-                          {[...Array(5)].map((_, i) => {
-                            const rating = product?.reviewAnalysis?.overall_rating || 4.0;
-                            const starValue = i + 1;
-                            
-                            if (starValue <= Math.floor(rating)) {
-                              return (
-                                <Star
-                                  key={i}
-                                  className="w-3 h-3 text-orange-500 fill-orange-500 mx-0.5"
-                                />
-                              );
-                            } else if (starValue === Math.ceil(rating) && rating % 1 !== 0) {
-                              const fillPercentage = (rating % 1) * 100;
-                              return (
-                                <div key={i} className="relative w-3 h-3 mx-0.5">
-                                  <Star className="w-3 h-3 text-gray-300" />
-                                  <div 
-                                    className="absolute top-0 left-0 overflow-hidden"
-                                    style={{ width: `${fillPercentage}%` }}
-                                  >
-                                    <Star className="w-3 h-3 text-orange-500 fill-orange-500" />
-                                  </div>
-                                </div>
-                              );
-                            } else {
-                              return (
-                                <Star
-                                  key={i}
-                                  className="w-3 h-3 text-gray-300 mx-0.5"
-                                />
-                              );
-                            }
-                          })}
-                        </div>
+                        <h2 className="text-lg md:text-xl font-bold text-white leading-tight tracking-tight">
+                          {getString('product.heroReviews.title')}
+                        </h2>
                       </div>
                     </div>
-                    <div className="max-w-2xl mx-auto">
-                      <p className="text-sm text-neutral-700 font-medium leading-relaxed">
-                        {product.reviewAnalysis.summary || getString('product.reviewAnalysisSummary')}
-                      </p>
+
+                    {/* Bottom Image - Mobile */}
+                    <div className="bg-white p-1 flex items-center justify-center">
+                      <Image
+                        src="/hero.png"
+                        alt="Professional Massagegeräte"
+                        width={700}
+                        height={525}
+                        className="w-auto h-auto max-w-full"
+                        priority
+                      />
                     </div>
                   </div>
 
+                  {/* Desktop Layout */}
+                  <div className="hidden lg:block">
+                    {/* Background Images */}
+                    <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-3 gap-0 items-stretch z-0">
+                      {/* Left Background Image */}
+                      <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
+                        <Image
+                          src="/hero2.png"
+                          alt="Professional Massagegeräte 2"
+                          width={1000}
+                          height={750}
+                          className="w-auto h-auto max-w-full"
+                          priority
+                        />
+                      </div>
+                      
+                      {/* Center Background */}
+                      <div className="bg-transparent"></div>
+                      
+                      {/* Right Background Image */}
+                      <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
+                        <Image
+                          src="/hero.png"
+                          alt="Professional Massagegeräte"
+                          width={1000}
+                          height={750}
+                          className="w-auto h-auto max-w-full"
+                          priority
+                        />
+                      </div>
+                    </div>
+                    
+                    {/* Foreground Content */}
+                    <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-0 items-stretch">
+                      {/* Left Column - Empty */}
+                      <div className="bg-transparent"></div>
+
+                      {/* Middle Column - Orange Background */}
+                      <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-8 py-8 flex flex-col justify-center items-center rounded-full mx-4 my-16 w-fit mx-auto min-w-[240px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+                        {/* Main Headline */}
+                        <div className="text-center">
+                          <h2 className="text-xl md:text-2xl font-bold text-white leading-tight tracking-tight">
+                            {getString('product.heroReviews.title')}
+                          </h2>
+                        </div>
+                      </div>
+
+                      {/* Right Column - Empty */}
+                      <div className="bg-transparent"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              {/* Review Analysis Section */}
+              {product?.reviewAnalysis && (
+                <div className="mt-12">
                   {/* Strengths and Weaknesses */}
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
                     {/* Strengths */}
@@ -1316,36 +1366,12 @@ const ProductDetailPage: React.FC = () => {
             </div>
           </div>
 
-          {/* Customer Reviews */}
+          {/* Reviews Content */}
           <div className="mt-24 border-t border-neutral-100 pt-16">
             <Reviews limit={8} />
           </div>
         </div>
 
-        {/* Elegant Image Modal */}
-        {showImageModal && (
-          <div className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-8">
-            <div className="relative max-w-5xl w-full">
-              <button
-                onClick={() => setShowImageModal(false)}
-                className="absolute -top-12 right-0 text-white hover:text-neutral-300 transition-colors z-10"
-              >
-                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-              <div className="bg-white rounded-2xl overflow-hidden shadow-premium">
-                <Image
-                  src={product.imagePaths[selectedImageIndex] || '/placeholder-product.jpg'}
-                  alt={productTitle}
-                  width={1000}
-                  height={1000}
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-          </div>
-        )}
 
         {/* Floating Action Buttons */}
         {/* The FloatingButtons component is now integrated into the Layout's floating buttons props */}

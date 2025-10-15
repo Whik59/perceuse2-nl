@@ -225,25 +225,149 @@ const CategoryPage: React.FC = () => {
 
   return (
     <Layout categories={categories}>
-      {/* Hero Section */}
-      <div className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
-          <div className="text-center">
-            <div className="inline-flex items-center bg-gradient-to-r from-white/10 via-slate-50/20 to-white/10 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-xl border border-white/10 mb-6 hover:shadow-2xl transition-all duration-300">
-              <span className="text-sm font-bold text-slate-200 tracking-wider uppercase">{category.name}</span>
+      {/* Hero Section with Amazon Style */}
+      <section className="relative pt-0 pb-8 md:pb-12 overflow-hidden -mt-16 lg:-mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          {/* Mobile Layout */}
+          <div className="lg:hidden space-y-1">
+            {/* Top Image - Mobile */}
+            <div className="bg-white p-1 flex items-center justify-center">
+              <Image
+                src="/hero2.png"
+                alt="Professional Massagegeräte 2"
+                width={500}
+                height={375}
+                className="w-auto h-auto max-w-md"
+                priority
+              />
             </div>
-            <h1 className="text-4xl lg:text-6xl font-extralight mb-6 tracking-tighter leading-tight">
-              <span className="bg-gradient-to-r from-slate-300 via-white to-slate-300 bg-clip-text text-transparent">
-                {category.name}
-              </span>
-            </h1>
-            <p className="text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">
-              {category.description}
-            </p>
+
+            {/* Orange Background - Mobile */}
+            <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-4 py-8 flex flex-col justify-center items-center space-y-2 rounded-full -mt-16 relative z-10 w-fit mx-auto min-w-[280px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+              {/* Trust Badge */}
+              <div className="inline-flex items-center justify-center space-x-1 bg-orange-100 backdrop-blur-sm px-1.5 py-0.5 rounded-full border border-orange-200 shadow-lg w-fit mx-auto">
+                <div className="flex space-x-1">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} className="w-3 h-3 fill-orange-500 text-orange-500" />
+                  ))}
+                </div>
+                <span className="text-orange-600 font-bold text-sm">4,9/5</span>
+              </div>
+
+              {/* Main Headline */}
+              <div className="space-y-1 text-center">
+                <h1 className="text-xl md:text-2xl font-bold text-white leading-tight tracking-tight">
+                  {category.name}
+                </h1>
+                <p className="text-sm md:text-base text-white/90 leading-relaxed font-medium px-1">
+                  {category.description}
+                </p>
+              </div>
+
+              {/* CTA Button */}
+              <div className="pt-0">
+                <Link href="#products">
+                  <Button 
+                    size="sm" 
+                    className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
+                  >
+                    Jetzt entdecken
+                  </Button>
+                </Link>
+              </div>
+            </div>
+
+            {/* Bottom Image - Mobile */}
+            <div className="bg-white p-1 flex items-center justify-center">
+              <Image
+                src="/hero.png"
+                alt="Professional Massagegeräte"
+                width={500}
+                height={375}
+                className="w-auto h-auto max-w-md"
+                priority
+              />
+            </div>
+          </div>
+
+          {/* Desktop Layout */}
+          <div className="hidden lg:block">
+            {/* Background Images */}
+            <div className="absolute inset-0 grid grid-cols-1 lg:grid-cols-3 gap-0 items-stretch z-0">
+              {/* Left Background Image */}
+              <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
+                <Image
+                  src="/hero2.png"
+                  alt="Professional Massagegeräte 2"
+                  width={800}
+                  height={600}
+                  className="w-auto h-auto max-w-lg"
+                  priority
+                />
+              </div>
+              
+              {/* Center Background */}
+              <div className="bg-transparent"></div>
+              
+              {/* Right Background Image */}
+              <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
+                <Image
+                  src="/hero.png"
+                  alt="Professional Massagegeräte"
+                  width={800}
+                  height={600}
+                  className="w-auto h-auto max-w-lg"
+                  priority
+                />
+              </div>
+            </div>
+            
+            {/* Foreground Content */}
+            <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-0 items-stretch">
+              {/* Left Column - Empty */}
+              <div className="bg-transparent"></div>
+
+              {/* Middle Column - Orange Background */}
+              <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-6 py-10 flex flex-col justify-center items-center space-y-3 rounded-full mx-4 my-16 w-fit mx-auto min-w-[320px] max-w-md shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+                {/* Trust Badge */}
+                <div className="inline-flex items-center justify-center space-x-1 bg-orange-100 backdrop-blur-sm px-1.5 py-0.5 rounded-full border border-orange-200 shadow-lg w-fit mx-auto">
+                  <div className="flex space-x-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className="w-3 h-3 fill-orange-500 text-orange-500" />
+                    ))}
+                  </div>
+                  <span className="text-orange-600 font-bold text-sm">4,9/5</span>
+                </div>
+
+                {/* Main Headline */}
+                <div className="space-y-2 text-center">
+                  <h1 className="text-2xl md:text-3xl font-bold text-white leading-tight tracking-tight">
+                    {category.name}
+                  </h1>
+                  <p className="text-base md:text-lg text-white/90 leading-relaxed font-medium px-2">
+                    {category.description}
+                  </p>
+                </div>
+
+                {/* CTA Button */}
+                <div className="pt-1">
+                  <Link href="#products">
+                    <Button 
+                      size="lg" 
+                      className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-10 py-3 text-base font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
+                    >
+                      Jetzt entdecken
+                    </Button>
+                  </Link>
+                </div>
+              </div>
+
+              {/* Right Column - Empty */}
+              <div className="bg-transparent"></div>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Breadcrumb */}
       <div className="bg-orange-50/90 backdrop-blur-sm border-b border-orange-200/60">
@@ -290,7 +414,7 @@ const CategoryPage: React.FC = () => {
       )}
 
       {/* Products Section */}
-      <div className="py-8 bg-white">
+      <div id="products" className="py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Filters and View Controls */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 space-y-4 sm:space-y-0">

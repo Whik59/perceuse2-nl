@@ -85,7 +85,15 @@
     "productNotFound": "Massagegerät nicht gefunden",
     "categoryNotFound": "Kategorie nicht gefunden",
     "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
-    "amazonUnavailable": "Amazon nicht verfügbar"
+    "amazonUnavailable": "Amazon nicht verfügbar",
+    "404": {
+      "title": "404",
+      "heading": "Seite nicht gefunden",
+      "description": "Entschuldigung, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben, gelöscht oder existiert nicht.",
+      "goHome": "Zur Startseite",
+      "browseCategories": "Kategorien durchsuchen",
+      "helpText": "Wenn Sie glauben, dass dies ein Fehler ist, wenden Sie sich bitte an unser Support-Team."
+    }
   },
   "search": {
     "placeholder": "Massagegeräte suchen...",
@@ -435,6 +443,10 @@
     "reviewAnalysisRecommendation": "Empfehlung",
     "reviewAnalysisValue": "Preis-Leistungs-Verhältnis",
     "reviewAnalysisFinalVerdict": "Unser Endurteil",
+    "heroReviews": {
+      "title": "Unser Vollständiger Test",
+      "subtitle": ""
+    },
     "alsoLike": "Das könnte Ihnen auch gefallen",
     "alsoLikeSubtitle": "Andere Massagegeräte, die Sie interessieren könnten",
     "buyNow": "Jetzt kaufen",
