@@ -561,28 +561,28 @@ const ProductDetailPage: React.FC = () => {
       >
         {/* Minimal Breadcrumb */}
         <nav className="border-b border-neutral-100">
-          <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
-            <div className="flex items-center space-x-3 text-sm text-neutral-500">
-              <Link href="/" className="hover:text-neutral-800 transition-colors">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 sm:py-4">
+            <div className="flex items-center space-x-1 sm:space-x-3 text-xs sm:text-sm text-neutral-500 overflow-hidden">
+              <Link href="/" className="hover:text-neutral-800 transition-colors flex-shrink-0">
                 {getString('navigation.home')}
               </Link>
-              <span className="text-neutral-300">/</span>
+              <span className="text-neutral-300 flex-shrink-0">/</span>
               {currentCategory ? (
                 <>
-                  <Link href={`/category/${currentCategory.categoryId}`} className="hover:text-neutral-800 transition-colors">
+                  <Link href={`/category/${currentCategory.categoryId}`} className="hover:text-neutral-800 transition-colors truncate">
                     {currentCategory.categoryNameCanonical}
                   </Link>
-                  <span className="text-neutral-300">/</span>
+                  <span className="text-neutral-300 flex-shrink-0">/</span>
                 </>
               ) : (
                 <>
-                  <span className="text-neutral-600">
+                  <span className="text-neutral-600 flex-shrink-0">
                     {getString('navigation.products')}
                   </span>
-                  <span className="text-neutral-300">/</span>
+                  <span className="text-neutral-300 flex-shrink-0">/</span>
                 </>
               )}
-              <span className="text-neutral-800 font-medium">{productTitle}</span>
+              <span className="text-neutral-800 font-medium truncate">{productTitle}</span>
             </div>
           </div>
         </nav>
@@ -646,7 +646,8 @@ const ProductDetailPage: React.FC = () => {
                   style={{
                     transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
                   }}
-                  priority
+                  priority={true}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 40vw"
                 />
                 
                 {/* Smart Zoom Indicator */}
@@ -856,14 +857,14 @@ const ProductDetailPage: React.FC = () => {
           </div>
 
           {/* Elegant Product Details Section */}
-          <div className="mt-24 border-t border-neutral-100 pt-16">
+          <div className="mt-8 border-t border-neutral-100 pt-8">
             <div className="max-w-4xl mx-auto">
               {/* Amazon-Style Tab Navigation */}
               <div className="border-b border-orange-200 mb-6">
-                <nav className="-mb-px flex flex-wrap gap-2 sm:gap-12">
+                <nav className="-mb-px flex gap-1 sm:gap-12 overflow-x-auto">
                   <button 
                     onClick={() => setActiveTab('description')}
-                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                    className={`border-b-2 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap ${
                       activeTab === 'description' 
                         ? 'border-orange-600 text-orange-600' 
                         : 'border-transparent text-gray-500 hover:text-orange-600 hover:border-orange-300'
@@ -873,7 +874,7 @@ const ProductDetailPage: React.FC = () => {
                   </button>
                   <button 
                     onClick={() => setActiveTab('specifications')}
-                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                    className={`border-b-2 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap ${
                       activeTab === 'specifications' 
                         ? 'border-orange-600 text-orange-600' 
                         : 'border-transparent text-gray-500 hover:text-orange-600 hover:border-orange-300'
@@ -883,7 +884,7 @@ const ProductDetailPage: React.FC = () => {
                   </button>
                   <button 
                     onClick={() => setActiveTab('reviews')}
-                    className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                    className={`border-b-2 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap ${
                       activeTab === 'reviews' 
                         ? 'border-orange-600 text-orange-600' 
                         : 'border-transparent text-gray-500 hover:text-orange-600 hover:border-orange-300'
@@ -894,7 +895,7 @@ const ProductDetailPage: React.FC = () => {
                   {product?.faq && product.faq.length > 0 && (
                     <button 
                       onClick={() => setActiveTab('faq')}
-                      className={`border-b-2 py-3 text-sm font-medium transition-colors ${
+                      className={`border-b-2 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-colors whitespace-nowrap ${
                         activeTab === 'faq' 
                           ? 'border-orange-600 text-orange-600' 
                           : 'border-transparent text-gray-500 hover:text-orange-600 hover:border-orange-300'
@@ -984,19 +985,23 @@ const ProductDetailPage: React.FC = () => {
                   {/* Mobile Layout */}
                   <div className="lg:hidden space-y-1">
                     {/* Top Image - Mobile */}
-                    <div className="bg-white p-1 flex items-center justify-center">
-                      <Image
-                        src="/hero2.png"
-                        alt="Professional Massagegeräte 2"
-                        width={700}
-                        height={525}
-                        className="w-auto h-auto max-w-full"
-                        priority
-                      />
+                    <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+                      <div className="w-full h-[300px] overflow-hidden">
+                        <Image
+                          src="/hero2.png"
+                          alt="Professional Massagegeräte 2"
+                          width={700}
+                          height={525}
+                          className="w-full h-full object-cover object-center"
+                          style={{ objectPosition: 'center 15%' }}
+                          loading="lazy"
+                          sizes="100vw"
+                        />
+                      </div>
                     </div>
 
                     {/* Orange Background - Mobile */}
-                    <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-8 py-6 flex flex-col justify-center items-center rounded-full -mt-16 relative z-10 w-fit mx-auto min-w-[200px] max-w-xs shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+                    <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-8 py-6 flex flex-col justify-center items-center rounded-full relative z-10 w-fit mx-auto min-w-[200px] max-w-xs shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
                       {/* Main Headline */}
                       <div className="text-center">
                         <h2 className="text-lg md:text-xl font-bold text-white leading-tight tracking-tight">
@@ -1006,15 +1011,19 @@ const ProductDetailPage: React.FC = () => {
                     </div>
 
                     {/* Bottom Image - Mobile */}
-                    <div className="bg-white p-1 flex items-center justify-center">
-                      <Image
-                        src="/hero.png"
-                        alt="Professional Massagegeräte"
-                        width={700}
-                        height={525}
-                        className="w-auto h-auto max-w-full"
-                        priority
-                      />
+                    <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+                      <div className="w-full h-[300px] overflow-hidden">
+                        <Image
+                          src="/hero5.png"
+                          alt="Professional Massagegeräte"
+                          width={700}
+                          height={525}
+                          className="w-full h-full object-cover object-center"
+                          style={{ objectPosition: 'center 40%' }}
+                          loading="lazy"
+                          sizes="100vw"
+                        />
+                      </div>
                     </div>
                   </div>
 
@@ -1030,7 +1039,8 @@ const ProductDetailPage: React.FC = () => {
                           width={1000}
                           height={750}
                           className="w-auto h-auto max-w-full"
-                          priority
+                          loading="lazy"
+                          sizes="33vw"
                         />
                       </div>
                       
@@ -1040,12 +1050,13 @@ const ProductDetailPage: React.FC = () => {
                       {/* Right Background Image */}
                       <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                         <Image
-                          src="/hero.png"
+                          src="/hero5.png"
                           alt="Professional Massagegeräte"
                           width={1000}
                           height={750}
                           className="w-auto h-auto max-w-full"
-                          priority
+                          loading="lazy"
+                          sizes="33vw"
                         />
                       </div>
                     </div>

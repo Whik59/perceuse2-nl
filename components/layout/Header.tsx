@@ -8,6 +8,7 @@ import { formatCurrency, getString } from '../../lib/utils';
 import { Category, CartItem, Product } from '../../lib/types';
 import SupportFAQ from '../SupportFAQ';
 import EmergencyBanner from '../EmergencyBanner';
+import { useCategories } from '../../lib/useDataCache';
 
 interface HeaderProps {
   cartItemCount?: number;
@@ -129,7 +130,7 @@ const MobileRotatingBanner: React.FC = () => {
 
 const Header: React.FC<HeaderProps> = ({
   cartItemCount = 0,
-  categories = [],
+  categories: propCategories = [],
   onCartClick,
   onSearchSubmit
 }) => {
@@ -147,6 +148,21 @@ const Header: React.FC<HeaderProps> = ({
   const [isHeaderVisible, setIsHeaderVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [subcategoryProducts, setSubcategoryProducts] = useState<Record<number, Product | null>>({});
+
+  // Use cached categories data
+  const { data: cachedCategories, fetchData: fetchCategories } = useCategories();
+  const categories = cachedCategories || propCategories;
+
+  // Fetch categories if not cached and not provided as props
+  useEffect(() => {
+    if (!cachedCategories && propCategories.length === 0) {
+      fetchCategories(async () => {
+        const response = await fetch('/api/categories');
+        if (!response.ok) throw new Error('Failed to fetch categories');
+        return response.json();
+      });
+    }
+  }, [cachedCategories, propCategories.length, fetchCategories]);
 
   // Enhanced dropdown hover handlers with delay
   const handleDropdownEnter = (categoryId: number) => {
@@ -423,10 +439,11 @@ const Header: React.FC<HeaderProps> = ({
                 </div>
               </div>
               {/* Premium Badge - Mobile only (below site name) */}
-              <div className="sm:hidden mt-1">
+              <div className="sm:hidden mt-1 flex items-center space-x-2">
                 <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg inline-block">
                   {getString('header.premium')}
                 </div>
+                <span className="text-[10px] font-medium text-gray-600">{getString('header.madeInGermany')}</span>
               </div>
               <div className="hidden sm:flex items-center space-x-2 sm:space-x-3 mt-1">
                 <span className="text-xs sm:text-sm text-gray-600 font-medium tracking-wide">{getString('header.madeInGermany')}</span>
@@ -641,6 +658,8 @@ const Header: React.FC<HeaderProps> = ({
                                       width={32}
                                       height={32}
                                       className="w-full h-full object-cover"
+                                      loading="lazy"
+                                      sizes="32px"
                                     />
                                   ) : (
                                     <div className="w-full h-full flex items-center justify-center bg-gray-200">
@@ -750,6 +769,8 @@ const Header: React.FC<HeaderProps> = ({
                                       width={24}
                                       height={24}
                                       className="w-full h-full object-cover"
+                                      loading="lazy"
+                                      sizes="24px"
                                     />
                                   ) : (
                                     <div className="w-full h-full flex items-center justify-center bg-gray-200">

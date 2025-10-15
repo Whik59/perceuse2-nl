@@ -17,6 +17,7 @@ const getSiteName = () => {
 };
 import { redirectToAmazonCart } from '../../lib/cart';
 import { Star, Truck, Shield, RefreshCw, Award, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useCategories, useCategoryProducts } from '../../lib/useDataCache';
 
 interface CategoryWithImage extends Category {
   imageUrl?: string;
@@ -28,7 +29,7 @@ interface HomeClientProps {
   categories: Category[];
 }
 
-const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
+const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCategories }) => {
   const [cart, setCart] = useState<CartState>({
     items: [],
     subtotal: 0
@@ -36,6 +37,21 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
   const [categoriesWithImages, setCategoriesWithImages] = useState<CategoryWithImage[]>([]);
   const [isLoadingCategories, setIsLoadingCategories] = useState(true);
   const [currentSlide, setCurrentSlide] = useState(0);
+
+  // Use cached categories data
+  const { data: cachedCategories, fetchData: fetchCategories } = useCategories();
+  const categories = cachedCategories || propCategories;
+
+  // Fetch categories if not cached and not provided as props
+  useEffect(() => {
+    if (!cachedCategories && propCategories.length === 0) {
+      fetchCategories(async () => {
+        const response = await fetch('/api/categories');
+        if (!response.ok) throw new Error('Failed to fetch categories');
+        return response.json();
+      });
+    }
+  }, [cachedCategories, propCategories.length, fetchCategories]);
 
   // Debug: Log products to console
   useEffect(() => {
@@ -153,8 +169,27 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
 
    const cartItemCount = cart.items.reduce((total, item) => total + item.quantity, 0);
 
-   // Slider functions
-   const itemsPerSlide = 6;
+   // Responsive items per slide
+   const [itemsPerSlide, setItemsPerSlide] = useState(6);
+   
+   useEffect(() => {
+     const updateItemsPerSlide = () => {
+       if (window.innerWidth < 640) {
+         setItemsPerSlide(2); // 2 columns on mobile
+       } else if (window.innerWidth < 768) {
+         setItemsPerSlide(2); // 2 columns on small screens
+       } else if (window.innerWidth < 1024) {
+         setItemsPerSlide(4); // 4 columns on medium screens
+       } else {
+         setItemsPerSlide(6); // 6 columns on large screens
+       }
+     };
+     
+     updateItemsPerSlide();
+     window.addEventListener('resize', updateItemsPerSlide);
+     return () => window.removeEventListener('resize', updateItemsPerSlide);
+   }, []);
+   
    const totalSlides = Math.ceil(categoriesWithImages.length / itemsPerSlide);
 
    const nextSlide = () => {
@@ -177,19 +212,23 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
           {/* Mobile Layout */}
           <div className="lg:hidden space-y-1">
             {/* Top Image - Mobile */}
-            <div className="bg-white p-1 flex items-center justify-center">
-                <Image
-                  src="/hero2.png"
-                  alt="Professional Massagegeräte 2"
-                  width={500}
-                  height={375}
-                  className="w-auto h-auto max-w-full"
-                  priority
-                />
+            <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+                <div className="w-full h-[300px] overflow-hidden">
+                  <Image
+                    src="/hero2.png"
+                    alt="Professional Massagegeräte 2"
+                    width={500}
+                    height={375}
+                    className="w-full h-full object-cover object-center"
+                    style={{ objectPosition: 'center 15%' }}
+                    priority={true}
+                    sizes="100vw"
+                  />
+                </div>
             </div>
 
             {/* Orange Background - Mobile */}
-            <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-4 py-8 flex flex-col justify-center items-center space-y-2 rounded-full -mt-16 relative z-10 w-fit mx-auto min-w-[280px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+            <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-4 py-8 flex flex-col justify-center items-center space-y-2 rounded-full relative z-10 w-fit mx-auto min-w-[280px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
               {/* Trust Badge */}
               <div className="inline-flex items-center justify-center space-x-1 bg-orange-100 backdrop-blur-sm px-1.5 py-0.5 rounded-full border border-orange-200 shadow-lg w-fit mx-auto">
                 <div className="flex space-x-1">
@@ -224,15 +263,19 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
             </div>
 
             {/* Bottom Image - Mobile */}
-            <div className="bg-white p-1 flex items-center justify-center">
-              <Image
-                src="/hero.png"
-                alt="Professional Massagegeräte"
-                width={500}
-                height={375}
-                className="w-auto h-auto max-w-full"
-                priority
-              />
+            <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+              <div className="w-full h-[300px] overflow-hidden">
+                  <Image
+                    src="/hero1.png"
+                    alt="Professional Massagegeräte"
+                    width={500}
+                    height={375}
+                    className="w-full h-full object-cover object-center"
+                    style={{ objectPosition: 'center 40%' }}
+                    loading="lazy"
+                    sizes="100vw"
+                  />
+              </div>
             </div>
           </div>
 
@@ -248,7 +291,8 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"
-                  priority
+                  priority={true}
+                  sizes="33vw"
                 />
               </div>
               
@@ -258,12 +302,13 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
               {/* Right Background Image */}
               <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                 <Image
-                  src="/hero.png"
+                  src="/hero1.png"
                   alt="Professional Massagegeräte"
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"
-                  priority
+                  loading="lazy"
+                  sizes="33vw"
                 />
               </div>
             </div>
@@ -362,19 +407,19 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                 >
                   {Array.from({ length: totalSlides }).map((_, slideIndex) => (
                     <div key={slideIndex} className="w-full flex-shrink-0">
-                      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 px-2">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 px-2">
                         {categoriesWithImages
                           .slice(slideIndex * itemsPerSlide, (slideIndex + 1) * itemsPerSlide)
                           .map((category, index) => (
                           <Link key={category.slug} href={`/category/${category.slug}`}>
-                            <div className="group bg-white rounded-xl p-4 border border-gray-200 hover:border-orange-400 hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden">
+                            <div className="group bg-white rounded-xl p-3 sm:p-4 border border-gray-200 hover:border-orange-400 hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden min-h-[120px] sm:min-h-[140px]">
                               {/* Amazon-style subtle background */}
                               <div className="absolute inset-0 bg-gradient-to-br from-orange-50/20 via-transparent to-orange-50/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                               
                               <div className="text-center space-y-3 relative z-10">
                                 {/* Amazon-style Image Frame */}
-                                <div className="relative mx-auto w-24 h-24">
-                                  <div className="w-24 h-24 rounded-xl overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-orange-100 group-hover:ring-orange-300 bg-white">
+                                <div className="relative mx-auto w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24">
+                                  <div className="w-full h-full rounded-xl overflow-hidden shadow-lg group-hover:shadow-2xl transition-all duration-500 ring-2 ring-orange-100 group-hover:ring-orange-300 bg-white">
                                     {category.hasImage && category.imageUrl ? (
                                       <Image
                                         src={category.imageUrl}
@@ -404,7 +449,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories }) => {
                                 
                                 {/* Category Name with Amazon styling */}
                                 <div>
-                                  <h3 className="text-xs font-bold text-orange-600 group-hover:text-orange-700 transition-colors leading-tight">
+                                  <h3 className="text-xs sm:text-sm font-bold text-orange-600 group-hover:text-orange-700 transition-colors leading-tight line-clamp-2 min-h-[2rem]">
                                     {category.categoryNameCanonical}
                                   </h3>
                                 </div>

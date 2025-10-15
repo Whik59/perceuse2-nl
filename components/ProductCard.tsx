@@ -38,49 +38,25 @@ const ProductCard: React.FC<ProductCardProps> = ({
   };
 
   const isButtonLoading = isLoading || externalLoading;
-  const hasDiscount = product.onSale && product.compareAtPrice;
-  
-  // Generate consistent discount percentage based on product slug (30-35%)
-  const getConsistentDiscount = (slug: string) => {
-    let hash = 0;
-    for (let i = 0; i < slug.length; i++) {
-      const char = slug.charCodeAt(i);
-      hash = ((hash << 5) - hash) + char;
-      hash = hash & hash; // Convert to 32-bit integer
-    }
-    return 30 + (Math.abs(hash) % 6); // Returns 30-35
-  };
-  
-  const discountPercentage = hasDiscount ? getConsistentDiscount(product.slug) : 0;
-  
-  // Calculate fake compareAtPrice for display purposes
-  const fakeCompareAtPrice = hasDiscount 
-    ? Math.round(product.basePrice / (1 - discountPercentage / 100) * 100) / 100
-    : product.compareAtPrice;
 
   return (
     <div className={cn(
       "group relative bg-gradient-to-br from-white via-gray-50/30 to-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-200/60 overflow-hidden hover:border-gray-300/60 hover:-translate-y-2",
       className
     )}>
-      {/* Discount Badge */}
-      {hasDiscount && (
-        <div className="absolute top-4 left-4 z-10">
-          <span className="bg-gradient-to-r from-orange-600 to-orange-700 text-white text-xs font-bold px-3 py-2 rounded-xl shadow-xl backdrop-blur-sm border border-white/10">
-            -{discountPercentage}%
-          </span>
-        </div>
-      )}
 
       {/* Product Image */}
       <Link href={`/product/${product.slug}`} className="block relative aspect-square rounded-t-2xl bg-white flex items-center justify-center p-3">
         <Image
           src={product.imagePaths[0]}
           alt={productName}
-          width={150}
-          height={150}
+          width={300}
+          height={300}
+          loading="lazy"
           className="max-w-full max-h-full object-contain transition-all duration-700 group-hover:scale-105"
-          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 16vw"
+          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 33vw, 25vw"
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
         />
         
         {/* Hover Overlay */}
@@ -137,9 +113,6 @@ const ProductCard: React.FC<ProductCardProps> = ({
                   <div className="font-bold text-gray-900 text-xs">Amazon</div>
                   <div className="flex items-center space-x-1">
                     <span className="text-sm font-bold text-gray-900">{formatCurrency(product.basePrice)}</span>
-                    {hasDiscount && (
-                      <span className="text-xs text-gray-500 line-through">{formatCurrency(fakeCompareAtPrice || 0)}</span>
-                    )}
                   </div>
                   <div className="flex items-center space-x-1 mt-0.5">
                     <div className="w-1 h-1 bg-red-500 rounded-full animate-pulse"></div>

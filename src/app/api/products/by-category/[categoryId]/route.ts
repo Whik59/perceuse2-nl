@@ -94,7 +94,13 @@ export async function GET(
       }
     }
 
-    return NextResponse.json(products);
+    return NextResponse.json(products, {
+      headers: {
+        'Cache-Control': 'public, s-maxage=1800, stale-while-revalidate=3600',
+        'CDN-Cache-Control': 'public, s-maxage=3600',
+        'Vercel-CDN-Cache-Control': 'public, s-maxage=3600',
+      }
+    });
   } catch (error) {
     console.error('Error fetching products by category:', error);
     return NextResponse.json({ error: 'Failed to fetch products' }, { status: 500 });

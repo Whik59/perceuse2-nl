@@ -231,19 +231,23 @@ const CategoryPage: React.FC = () => {
           {/* Mobile Layout */}
           <div className="lg:hidden space-y-1">
             {/* Top Image - Mobile */}
-            <div className="bg-white p-1 flex items-center justify-center">
-              <Image
-                src="/hero2.png"
-                alt="Professional Massagegeräte 2"
-                width={500}
-                height={375}
-                className="w-auto h-auto max-w-md"
-                priority
-              />
+            <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+              <div className="w-full h-[300px] overflow-hidden">
+                <Image
+                  src="/hero2.png"
+                  alt="Professional Massagegeräte 2"
+                  width={500}
+                  height={375}
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: 'center 15%' }}
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
             </div>
 
             {/* Orange Background - Mobile */}
-            <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-4 py-8 flex flex-col justify-center items-center space-y-2 rounded-full -mt-16 relative z-10 w-fit mx-auto min-w-[280px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
+            <div className="bg-gradient-to-br from-orange-500 via-orange-600 to-orange-700 px-4 py-8 flex flex-col justify-center items-center space-y-2 rounded-full relative z-10 w-fit mx-auto min-w-[280px] max-w-sm shadow-xl border border-orange-400/20 transform hover:scale-102 transition-all duration-300">
               {/* Trust Badge */}
               <div className="inline-flex items-center justify-center space-x-1 bg-orange-100 backdrop-blur-sm px-1.5 py-0.5 rounded-full border border-orange-200 shadow-lg w-fit mx-auto">
                 <div className="flex space-x-1">
@@ -278,15 +282,19 @@ const CategoryPage: React.FC = () => {
             </div>
 
             {/* Bottom Image - Mobile */}
-            <div className="bg-white p-1 flex items-center justify-center">
-              <Image
-                src="/hero.png"
-                alt="Professional Massagegeräte"
-                width={500}
-                height={375}
-                className="w-auto h-auto max-w-md"
-                priority
-              />
+            <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+              <div className="w-full h-[300px] overflow-hidden">
+                <Image
+                  src="/hero3.png"
+                  alt="Professional Massagegeräte"
+                  width={500}
+                  height={375}
+                  className="w-full h-full object-cover object-center"
+                  style={{ objectPosition: 'center 40%' }}
+                  loading="lazy"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              </div>
             </div>
           </div>
 
@@ -302,7 +310,8 @@ const CategoryPage: React.FC = () => {
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"
-                  priority
+                  loading="lazy"
+                  sizes="33vw"
                 />
               </div>
               
@@ -312,12 +321,13 @@ const CategoryPage: React.FC = () => {
               {/* Right Background Image */}
               <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                 <Image
-                  src="/hero.png"
+                  src="/hero3.png"
                   alt="Professional Massagegeräte"
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"
-                  priority
+                  loading="lazy"
+                  sizes="33vw"
                 />
               </div>
             </div>

@@ -24,22 +24,22 @@ const ReviewSnippet: React.FC<ReviewSnippetProps> = ({
   const sizeClasses = {
     xs: {
       star: 'w-2 h-2',
-      text: 'text-[10px]',
-      rating: 'text-xs'
+      text: 'text-[8px] sm:text-[10px]',
+      rating: 'text-[10px] sm:text-xs'
     },
     sm: {
       star: 'w-3 h-3',
-      text: 'text-xs',
+      text: 'text-[10px] sm:text-xs',
       rating: 'text-xs'
     },
     md: {
       star: 'w-4 h-4',
-      text: 'text-sm',
+      text: 'text-xs sm:text-sm',
       rating: 'text-sm'
     },
     lg: {
       star: 'w-5 h-5',
-      text: 'text-base',
+      text: 'text-sm sm:text-base',
       rating: 'text-base'
     }
   };
