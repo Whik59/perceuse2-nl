@@ -1,152 +1,155 @@
 {
   "categoryId": 50,
-  "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
-  "slug": "massageoele/entspannende-massageoele",
-  "parentCategoryId": 47,
-  "level": 1,
-  "description": "Entdecken Sie unser Lavendel Massageöl für pure Entspannung. Stress abbauen, wohlfühlen.",
-  "content": "<div><h2>Entspannende Massageöle mit Lavendel: Ihre Quelle der Ruhe</h2><p>Tauchen Sie ein in eine Welt der Gelassenheit mit unseren exquisiten entspannenden Massageölen mit Lavendel. Lavendel ist seit Jahrhunderten für seine beruhigenden und ausgleichenden Eigenschaften bekannt. Es hilft, den Geist zu beruhigen, Stress abzubauen und einen Zustand tiefer Entspannung zu fördern. Perfekt, um nach einem langen Tag zur Ruhe zu kommen oder um eine wohltuende Wellness-Auszeit zu Hause zu genießen.</p><h2>Die Kraft des Lavendels für Körper und Geist</h2><p>Unser sorgfältig formuliertes Massageöl kombiniert reines, ätherisches Lavendelöl mit nährenden Basisölen, die Ihre Haut seidig-glatt pflegen. Es spendet intensive Feuchtigkeit, macht die Haut geschmeidig und hinterlässt einen zarten, beruhigenden Duft. Ideal zur Linderung von Muskelverspannungen, zur Förderung eines erholsamen Schlafs und zur Steigerung des allgemeinen Wohlbefindens. Gönnen Sie sich diese Auszeit der Achtsamkeit und spüren Sie, wie Körper und Geist neue Energie tanken.</p><h2>Anwendung für maximale Entspannung</h2><p>Wärmen Sie eine kleine Menge des Öls in Ihren Händen an, um die Aromen freizusetzen und die Massage angenehmer zu gestalten. Massieren Sie es sanft in die Haut ein, wobei Sie sich besonders auf Bereiche konzentrieren, die Entspannung benötigen, wie Nacken, Schultern, Rücken oder Füße. Für ein vollständiges Verwöhnerlebnis nutzen Sie es vor dem Schlafengehen oder nach einem warmen Bad. Lassen Sie den wohltuenden Lavendelduft Ihre Sinne umschmeicheln und finden Sie Ihre innere Mitte.</p></div>",
+  "categoryNameCanonical": "Airfryer Gitter & Roste",
+  "slug": "airfryer-gitter-und-roste",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecken Sie hochwertige Airfryer Gitter & Roste. Erweitern Sie Ihre Kochmöglichkeiten und verbessern Sie Garergebnisse.",
+  "content": "<div><h2>Airfryer Gitter & Roste: Optimieren Sie Ihre Heißluftfritteuse</h2><p>Möchten Sie das volle Potenzial Ihrer Heißluftfritteuse ausschöpfen? Mit den richtigen <strong>Airfryer Gittern und Rosten</strong> erweitern Sie nicht nur Ihre Kochmöglichkeiten, sondern verbessern auch die Qualität Ihrer zubereiteten Speisen erheblich. Ob knusprige Pommes auf mehreren Ebenen, perfekt gegrilltes Gemüse oder saftiges Fleisch – unser hochwertiges <strong>Airfryer Zubehör</strong> macht es möglich.</p><p>Unsere Auswahl an <strong>Heißluftfritteuse Zubehör</strong> bietet Ihnen die Flexibilität, die Sie in der modernen Küche benötigen. Entdecken Sie <strong>Airfryer Stapelroste</strong>, die es Ihnen erlauben, verschiedene Speisen gleichzeitig und auf unterschiedlichen Ebenen zu garen, ohne dass sich Aromen vermischen. Der optimierte Luftstrom durch die Gitter sorgt für eine gleichmäßigere Hitzeverteilung und somit für ein konstant perfektes Ergebnis – außen knusprig, innen zart.</p><p>Gefertigt aus langlebigem, rostfreiem Edelstahl, sind unsere <strong>Airfryer Gitter</strong> und <strong>Airfryer Roste</strong> nicht nur extrem hitzebeständig, sondern auch leicht zu reinigen und oft spülmaschinenfest. Sie sind die ideale Ergänzung für jede Heißluftfritteuse und versprechen eine lange Lebensdauer. Verabschieden Sie sich von ungleichmäßig gegarten Speisen und begrüßen Sie eine neue Ära des komfortablen und effizienten Kochens.</p><p>Stöbern Sie durch unser Sortiment an <strong>Airfryer Ersatzteilen</strong> und Zubehör. Finden Sie den passenden <strong>Grillrost Airfryer</strong> oder <strong>Backrost Airfryer</strong>, der genau auf Ihr Modell zugeschnitten ist. Von kompakten Einlegegittern bis zu komplexen <strong>Airfryer Zubehör Sets</strong>, die Ihre Kochkünste auf ein neues Level heben – wir haben die Lösung für Ihre Bedürfnisse. Investieren Sie in Qualität und Funktionalität und erleben Sie, wie vielseitig Ihre Heißluftfritteuse wirklich sein kann.</p></div>",
   "seo": {
-    "title": "Lavendel Massageöl: Tiefenentspannung für Körper & Geist",
-    "description": "Entdecken Sie unser Lavendel Massageöl für pure Entspannung. Stress abbauen, wohlfühlen.",
+    "title": "Airfryer Gitter & Roste – Optimales Zubehör für Heißluftfritteusen",
+    "description": "Entdecken Sie hochwertige Airfryer Gitter & Roste. Erweitern Sie Ihre Kochmöglichkeiten und verbessern Sie Garergebnisse.",
     "keywords": [
-      "Lavendel Massageöl",
-      "entspannende Massageöle",
-      "Aromatherapie Öl",
-      "Stressabbau Massage",
-      "natürliches Hautöl",
-      "Wellness Lavendel"
+      "Airfryer Gitter",
+      "Airfryer Roste",
+      "Heißluftfritteuse Zubehör",
+      "Airfryer Einsatz",
+      "Grillrost Airfryer",
+      "Backrost Airfryer",
+      "Fritteusen Rost",
+      "Heißluftfritteusen Gitter",
+      "Airfryer Zubehör Set",
+      "Airfryer Ersatzteile",
+      "Heißluftfritteusen Rost",
+      "Airfryer Erweiterung",
+      "Mehrlagen Rost Airfryer",
+      "Edelstahl Airfryer Gitter",
+      "Antihaft Airfryer Rost"
     ],
-    "enhancedAt": "2025-10-13T21:03:09.932774"
+    "enhancedAt": "2025-10-13T17:05:29.688895"
   },
   "faq": [
     {
-      "question": "Welche Vorteile bieten Lavendel Massageöle?",
-      "answer": "Lavendel Massageöle fördern tiefe Entspannung, lindern Stress und Verspannungen, beruhigen die Haut und unterstützen einen erholsamen Schlaf dank der beruhigenden Aromatherapie-Eigenschaften von Lavendel."
+      "question": "Warum sollte ich zusätzliche Gitter oder Roste für meinen Airfryer verwenden?",
+      "answer": "Zusätzliche Airfryer Gitter und Roste maximieren die Kochfläche Ihrer Heißluftfritteuse, ermöglichen eine bessere Luftzirkulation und sorgen für gleichmäßigere, knusprigere Garergebnisse bei mehreren Lebensmitteln gleichzeitig. Sie sind ideal für die Zubereitung von Pommes, Gemüse, Fleisch und Backwaren auf verschiedenen Ebenen."
     },
     {
-      "question": "Wie wendet man das Lavendel Massageöl am besten an?",
-      "answer": "Wärmen Sie eine kleine Menge Öl in den Händen an. Massieren Sie es sanft in die Haut ein, insbesondere an Nacken, Schultern und Rücken. Für ein optimales Ergebnis vor dem Schlafengehen oder nach einem Bad verwenden."
+      "question": "Aus welchem Material bestehen Airfryer Gitter und Roste und sind sie spülmaschinenfest?",
+      "answer": "Unsere Airfryer Gitter und Roste sind überwiegend aus hochwertigem, rostfreiem Edelstahl gefertigt, der langlebig, hitzebeständig und korrosionsbeständig ist. Viele Modelle sind zudem antihaftbeschichtet und spülmaschinenfest, was die Reinigung erheblich vereinfacht. Bitte prüfen Sie stets die individuellen Pflegehinweise des Herstellers."
     },
     {
-      "question": "Ist das Massageöl für alle Hauttypen geeignet?",
-      "answer": "Unsere Lavendel Massageöle werden aus natürlichen Inhaltsstoffen hergestellt und sind in der Regel gut verträglich. Bei empfindlicher Haut empfehlen wir jedoch, vor der ersten Anwendung einen kleinen Hauttest durchzuführen."
+      "question": "Welche Arten von Airfryer Gittern und Rosten gibt es und wie wähle ich das richtige Zubehör aus?",
+      "answer": "Es gibt verschiedene Arten wie Stapelroste für mehrere Ebenen, Grillroste für perfekt gebratenes Gut oder spezielle Backroste. Bei der Auswahl sollten Sie auf die Kompatibilität mit Ihrem spezifischen Airfryer-Modell und dessen Größe achten. Messen Sie den Innenraum Ihrer Heißluftfritteuse, um sicherzustellen, dass die Gitter und Roste perfekt passen. Unser Sortiment bietet vielseitige Lösungen für diverse Bedürfnisse."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-13T21:03:09.932792",
+  "enhancedAt": "2025-10-13T17:05:29.688907",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Entspannende Massageöle mit Lavendel",
+    "title": "Vergleich der 5 besten Airfryer Gitter & Roste",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
-      "Marke",
-      "Füllmenge",
-      "Duftprofil",
-      "Anwendungsbereich",
-      "Besondere Merkmale"
+      "Material",
+      "Kompatibilität",
+      "Hauptfunktionen",
+      "Reinigung"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/6187ygq4hQL._AC_SL1200_.jpg]",
-        "name": "Kitama Massageöl Lavendel 1000ml - Entspannungsöl",
-        "preis": "12.0€",
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81Y8NiozxtL._AC_SL1500_.jpg]",
+        "name": "2x Dual Zone Heißluftfritteuse Zubehör Gestell Spieße",
+        "preis": "14.0€",
         "bewertung": "4.5/5",
-        "marke": "Kitama",
-        "fuellmenge": "1000ml",
-        "duftprofil": "Lavendel",
-        "anwendungsbereich": "Körpermassagen, Entspannung, Hautpflege",
-        "besondere_merkmale": "Hohe Füllmenge (1 Liter), zieht gut ein, nicht fettend, für professionelle Anwendung",
-        "productUrl": "/product/1000ml-kitama-massageol-lavendel-entspannungsol",
-        "image": "https://m.media-amazon.com/images/I/6187ygq4hQL._AC_SL1200_.jpg"
+        "material": "304 Edelstahl",
+        "kompatibilität": "Ninja Foodi AF300EU, AF400EU & andere Dual Zone Heißluftfritteusen",
+        "hauptfunktionen": "2 Gestelle, Spieße, Mehrschicht-Garen, optimale Luftzirkulation",
+        "reinigung": "Spülmaschinenfest",
+        "productUrl": "/product/dual-zone-heissluftfritteuse-zubehor-gestell-spiesse",
+        "image": "https://m.media-amazon.com/images/I/81Y8NiozxtL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61uitNySNqL._AC_SL1225_.jpg]",
-        "name": "EIS Deluxe Massageöl Lavendel 250ml",
-        "preis": "9.0€",
-        "bewertung": "4.2/5",
-        "marke": "EIS",
-        "fuellmenge": "250ml",
-        "duftprofil": "Lavendel, erotisch",
-        "anwendungsbereich": "Muskelentspannung, Paarmassagen, intime Momente, Körperpflege",
-        "besondere_merkmale": "Wärmende Formel, Gleitmittel geeignet, für Paare, flüssig",
-        "productUrl": "/product/250ml-eis-deluxe-massageol-lavendel",
-        "image": "https://m.media-amazon.com/images/I/61uitNySNqL._AC_SL1225_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71GZigWbwoL._AC_SL1500_.jpg]",
+        "name": "2x Heißluftfritteuse Zubehör: Grillrost, Dampfgestell",
+        "preis": "12.0€",
+        "bewertung": "4.4/5",
+        "material": "Edelstahl",
+        "kompatibilität": "Für Heißluftfritteusen 3,5 - 5,8 QT",
+        "hauptfunktionen": "Doppellagig, Grillrost, Dampfgestell, 4 Spieße",
+        "reinigung": "Spülmaschinenfest",
+        "productUrl": "/product/heissluftfritteuse-zubehor-grillrost-dampfgestell",
+        "image": "https://m.media-amazon.com/images/I/71GZigWbwoL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/719RLTwqalL._AC_SL1500_.jpg]",
-        "name": "Wärmendes Lavendel-Pfefferminz Massageöl 300ml",
-        "preis": "12.0€",
-        "bewertung": "4.4/5",
-        "marke": "O'RMEAS",
-        "fuellmenge": "300ml",
-        "duftprofil": "Lavendel & Pfefferminz",
-        "anwendungsbereich": "Muskelentspannung, Gelenkschmerzlinderung, Feuchtigkeitspflege",
-        "besondere_merkmale": "Wärmende Formel, schnell einziehend, nicht fettend",
-        "productUrl": "/product/300ml-warmendes-lavendel-pfefferminz-massageol",
-        "image": "https://m.media-amazon.com/images/I/719RLTwqalL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/81JPra3BnoL._AC_SL1500_.jpg]",
+        "name": "YQL Air Fryer Racks für Ninja Foodi Dual Zone",
+        "preis": "15.0€",
+        "bewertung": "4.3/5",
+        "material": "304 Edelstahl",
+        "kompatibilität": "Ninja Foodi Dual Zone AF300EU (7,6L)",
+        "hauptfunktionen": "Erweiterung der Kochkapazität, Mehrere Ebenen, Optimale Luftzirkulation",
+        "reinigung": "Spülmaschinenfest",
+        "productUrl": "/product/yql-air-fryer-racks-fur-ninja",
+        "image": "https://m.media-amazon.com/images/I/81JPra3BnoL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/81WGBL6pWiL._AC_SL1500_.jpg]",
-        "name": "Panu Lavendel Massageöl - Feuchtigkeitsspendend",
-        "preis": "14.0€",
-        "bewertung": "4.4/5",
-        "marke": "Panu Natural",
-        "fuellmenge": "200ml",
-        "duftprofil": "Lavendel, beruhigend",
-        "anwendungsbereich": "Hautpflege, Entspannung, Wellness",
-        "besondere_merkmale": "Vegan, feuchtigkeitsspendend, schnell einziehend, Premium Qualität",
-        "productUrl": "/product/panu-lavendel-massageol-feuchtigkeitsspendend",
-        "image": "https://m.media-amazon.com/images/I/81WGBL6pWiL._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61xK-jDcdgL._AC_SL1500_.jpg]",
+        "name": "Haier Heißluftfritteuse Metallgitter Serie 5",
+        "preis": "11.0€",
+        "bewertung": "4.5/5",
+        "material": "Edelstahl",
+        "kompatibilität": "Haier Heißluftfritteuse Serie 5",
+        "hauptfunktionen": "Zusätzliche Ebene, Gleichzeitige Zubereitung, Spart Zeit & Energie",
+        "reinigung": "Spülmaschinenfest",
+        "productUrl": "/product/haier-heissluftfritteuse-metallgitter-serie",
+        "image": "https://m.media-amazon.com/images/I/61xK-jDcdgL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71mGVVi3QJL._AC_SL1500_.jpg]",
-        "name": "Lavendel Massageöl: Muskelentspannung, Hautpflege",
-        "preis": "14.0€",
-        "bewertung": "4.2/5",
-        "marke": "Newvenper",
-        "fuellmenge": "200ml",
-        "duftprofil": "Lavendel, beruhigend, floral",
-        "anwendungsbereich": "Muskelentspannung, Hautbefeuchtung, Stressabbau",
-        "besondere_merkmale": "Hautpflegend, nicht fettend, verbessert Elastizität, für alle Geschlechter",
-        "productUrl": "/product/lavendel-massageol-muskelentspannung-hautpflege",
-        "image": "https://m.media-amazon.com/images/I/71mGVVi3QJL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71QwLv7xM+L._AC_UY218_.jpg]",
+        "name": "YQL 304 Edelstahl Airfryer Zubehör Ninja Foodi Dual Zone",
+        "preis": "9.0€",
+        "bewertung": "3.9/5",
+        "material": "Überzogener Edelstahl",
+        "kompatibilität": "Ninja Foodi Dual Zone (AF300EU, AF400EU)",
+        "hauptfunktionen": "Erweiterung der Kochkapazität, Mehrere Ebenen, Maximale Luftzirkulation",
+        "reinigung": "Spülmaschinenfest",
+        "productUrl": "/product/yql-304-edelstahl-airfryer-zubehor-ninja",
+        "image": "https://m.media-amazon.com/images/I/71QwLv7xM+L._AC_UY218_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Wie wählt man die besten entspannenden Massageöle mit Lavendel?",
+    "title": "Kaufberatung: Wie wählt man die besten Airfryer Gitter & Roste?",
     "sections": [
       {
-        "heading": "1. Inhaltsstoffe und Qualität",
-        "content": "Achten Sie auf Bio-Qualität und natürliche Trägeröle wie Jojoba oder Mandel. Reine ätherische Lavendelöle ohne synthetische Duftstoffe sind entscheidend für die Wirkung. Vermeiden Sie Parabene und Mineralöle, um Hautirritationen vorzubeugen. Eine hochwertige Formel, wie das EIS Deluxe Massageöl Lavendel 250ml, maximiert die wohltuende Entspannung. Natürliche Inhaltsstoffe sind essentiell für eine sanfte Hautpflege und die Aromatherapie-Wirkung."
+        "heading": "1. Materialwahl und Vielseitigkeit",
+        "content": "Achten Sie auf hochwertige Materialien wie lebensmittelechten Edelstahl. Dieser ist robust, hitzebeständig und rostfrei. Er sorgt für eine gleichmäßige Hitzeverteilung und ist ideal für verschiedene Speisen. Modelle wie das \"YQL Air Fryer Rack\" bieten oft mehrere Ebenen für effizientes Kochen. Wählen Sie Gitter, die nicht nur braten, sondern auch dörren oder aufwärmen können."
       },
       {
-        "heading": "2. Wirkung und Anwendungsbereich",
-        "content": "Lavendelöl wirkt beruhigend, stresslindernd und fördert einen besseren Schlaf. Es ist ideal zur Muskelentspannung nach einem langen Tag. Wählen Sie ein Öl, das schnell einzieht und die Haut nicht fettig hinterlässt. Perfekt für Ganzkörpermassagen oder gezielte Anwendungen an Nacken und Schultern, um Spannungen zu lösen und das allgemeine Wohlbefinden zu steigern. Das entspannende Öl ist ein Segen gegen Stress."
+        "heading": "2. Passgenauigkeit für Ihr Modell",
+        "content": "Die Kompatibilität ist entscheidend. Überprüfen Sie unbedingt die Maße und das spezifische Airfryer-Modell, für das das Gitter vorgesehen ist. Viele Roste sind speziell für beliebte Geräte wie \"Ninja Foodi Dual Zone\" konzipiert. Eine exakte Passform gewährleistet Sicherheit, optimale Leistung und verhindert Wackeln. Messen Sie den Innenraum Ihres Geräts genau aus."
       },
       {
-        "heading": "3. Duftintensität und Verträglichkeit",
-        "content": "Die Duftintensität ist Geschmackssache. Bevorzugen Sie einen dezenten oder intensiven Lavendelduft? Bei empfindlicher Haut unbedingt auf hypoallergene Formulierungen achten. Führen Sie vor der ersten Anwendung einen kleinen Hauttest durch, um Reaktionen auszuschließen. Natürliche Öle sind oft besser verträglich. Ein angenehmer Duft verstärkt die Aromatherapie und unterstützt den Stressabbau optimal."
+        "heading": "3. Einfache Reinigung und Langlebigkeit",
+        "content": "Praktische Handhabung nach dem Kochen ist wichtig. Bevorzugen Sie spülmaschinenfeste Gitter und Roste aus Edelstahl. Materialien mit Antihaftbeschichtung können die Reinigung erleichtern, sind aber seltener bei Edelstahlrosten. Eine einfache Reinigung erhöht die Lebensdauer und spart Zeit. Achten Sie auf eine glatte Oberfläche ohne schwer erreichbare Ecken."
       },
       {
-        "heading": "4. Verpackung und Haltbarkeit",
-        "content": "Dunkle Glasflaschen schützen das empfindliche Lavendelöl vor Licht und erhalten die Wirksamkeit der natürlichen Inhaltsstoffe. Ein praktischer Pumpspender sorgt für hygienische Entnahme und präzise Dosierung, was Verschwendung minimiert. Prüfen Sie das Haltbarkeitsdatum, um die Frische und volle Wirkung zu gewährleisten. Eine gute Verpackung trägt zur Langlebigkeit des Produkts und zur Beibehaltung seiner Qualität bei."
+        "heading": "4. Design und Zusatzfunktionen",
+        "content": "Überlegen Sie, welche Art von Kochen Sie primär planen. Mehrstufige Roste maximieren den Garraum und ermöglichen das gleichzeitige Zubereiten mehrerer Komponenten. Einige Modelle bieten spezielle Spieße für Kebabs oder sind als Dörrgestelle nutzbar. Ein durchdachtes Design erhöht die Funktionalität Ihres Airfryers erheblich."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis und Kundenbewertungen",
-        "content": "Vergleichen Sie Preise, aber legen Sie Wert auf Qualität. Ein gutes Lavendel-Massageöl muss nicht teuer sein, wie das EIS Deluxe Massageöl Lavendel 250ml (ca. 9.0€) zeigt. Lesen Sie Kundenbewertungen, um echte Erfahrungen zu erfahren. Markenreputation und Zertifikate können ebenfalls ein Indikator für ein hervorragendes Produkt sein. Investieren Sie in Ihr Wohlbefinden und die Qualität Ihrer Hautpflege."
+        "heading": "5. Preis-Leistungs-Verhältnis und Kundenrezensionen",
+        "content": "Vergleichen Sie Preise und lesen Sie Kundenbewertungen. Ein fairer Preis von z.B. 15€ für ein \"YQL Air Fryer Rack\" kann ein guter Indikator sein. Achten Sie auf Qualität und Haltbarkeit, nicht nur auf den niedrigsten Preis. Investieren Sie in ein Gitter, das Ihre Kochbedürfnisse erfüllt und gute Bewertungen für Passgenauigkeit und Material aufweist."
       }
     ]
   }

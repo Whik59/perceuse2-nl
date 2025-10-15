@@ -1,799 +1,611 @@
 [
   {
-    "slug": "massagepistolen",
-    "name": "Massagepistolen",
-    "categoryNameCanonical": "Massagepistolen",
-    "description": "Leistungsstarke Perkussionsmassagegeräte zur Tiefenmuskelentspannung, ideal für Sportler und zur Regeneration.",
+    "slug": "heissluftfritteusen-nach-kapazitaet",
+    "name": "Heißluftfritteusen nach Kapazität",
+    "categoryNameCanonical": "Heißluftfritteusen nach Kapazität",
+    "description": "Finden Sie die perfekte Größe für Ihren Haushalt, von kompakten Modellen für Singles bis hin zu XXL-Fritteusen für die ganze Familie.",
     "subcategories": [
       {
-        "slug": "mini-massagepistolen",
-        "name": "Mini-Massagepistolen für Reisen",
-        "categoryNameCanonical": "Mini-Massagepistolen für Reisen",
-        "description": "Kompakte und leichte Massagepistolen, perfekt für den Einsatz unterwegs."
+        "slug": "kleine-heissluftfritteusen-bis-4-liter",
+        "name": "Kleine Heißluftfritteusen (bis 4 Liter)",
+        "categoryNameCanonical": "Kleine Heißluftfritteusen (bis 4 Liter)",
+        "description": "Ideal für 1-2 Personen, kleine Küchen und schnelle Snacks."
       },
       {
-        "slug": "massagepistolen-mit-heizfunktion",
-        "name": "Massagepistolen mit Heizfunktion",
-        "categoryNameCanonical": "Massagepistolen mit Heizfunktion",
-        "description": "Geräte mit integrierter Wärmefunktion zur zusätzlichen Muskelentspannung."
+        "slug": "mittlere-heissluftfritteusen-4-6-liter",
+        "name": "Mittlere Heißluftfritteusen (4-6 Liter)",
+        "categoryNameCanonical": "Mittlere Heißluftfritteusen (4-6 Liter)",
+        "description": "Die beliebteste Größe für Paare und kleine Familien (2-4 Personen)."
       },
       {
-        "slug": "profi-massagepistolen",
-        "name": "Profi-Massagepistolen mit hoher Leistung",
-        "categoryNameCanonical": "Profi-Massagepistolen mit hoher Leistung",
-        "description": "Besonders kraftvolle Geräte mit hoher Amplitude für den professionellen Einsatz."
-      },
-      {
-        "slug": "massagepistolen-mit-mehreren-aufsaetzen",
-        "name": "Massagepistolen mit mehreren Aufsätzen",
-        "categoryNameCanonical": "Massagepistolen mit mehreren Aufsätzen",
-        "description": "Sets inklusive verschiedener Aufsätze für unterschiedliche Muskelgruppen."
+        "slug": "grosse-xxl-heissluftfritteusen-ueber-6-liter",
+        "name": "Große XXL-Heißluftfritteusen (über 6 Liter)",
+        "categoryNameCanonical": "Große XXL-Heißluftfritteusen (über 6 Liter)",
+        "description": "Perfekt für große Familien, das Kochen ganzer Mahlzeiten und Partys."
       }
     ]
   },
   {
-    "slug": "nacken-und-schultermassagegeraete",
-    "name": "Nacken- & Schultermassagegeräte",
-    "categoryNameCanonical": "Nacken- & Schultermassagegeräte",
-    "description": "Spezialisierte Geräte zur Linderung von Verspannungen im Nacken- und Schulterbereich, oft mit Shiatsu- und Wärmefunktion.",
+    "slug": "doppelkammer-heissluftfritteusen",
+    "name": "Doppelkammer-Heißluftfritteusen",
+    "categoryNameCanonical": "Doppelkammer-Heißluftfritteusen",
+    "description": "Garen Sie zwei verschiedene Gerichte gleichzeitig bei unterschiedlichen Temperaturen und Zeiten.",
     "subcategories": [
       {
-        "slug": "shiatsu-nackenmassagegeraete",
-        "name": "Shiatsu-Nackenmassagegeräte",
-        "categoryNameCanonical": "Shiatsu-Nackenmassagegeräte",
-        "description": "Geräte, die die Knetbewegung einer Shiatsu-Massage imitieren."
+        "slug": "doppelkammer-fritteusen-mit-2-koerben",
+        "name": "Doppelkammer-Fritteusen mit 2 Körben",
+        "categoryNameCanonical": "Doppelkammer-Fritteusen mit 2 Körben",
+        "description": "Modelle mit zwei unabhängigen Garkörben für maximale Flexibilität."
       },
       {
-        "slug": "nackenmassagegeraete-mit-waermefunktion",
-        "name": "Nackenmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Nackenmassagegeräte mit Wärmefunktion",
-        "description": "Modelle mit zuschaltbarer Infrarotwärme für tiefere Entspannung."
+        "slug": "fritteusen-mit-sync-cook-funktion",
+        "name": "Fritteusen mit synchronisierter Garfunktion",
+        "categoryNameCanonical": "Fritteusen mit synchronisierter Garfunktion",
+        "description": "Stellen Sie sicher, dass beide Gerichte exakt zur gleichen Zeit fertig sind."
       },
       {
-        "slug": "kabellose-nackenmassagegeraete",
-        "name": "Kabellose Nackenmassagegeräte",
-        "categoryNameCanonical": "Kabellose Nackenmassagegeräte",
-        "description": "Akkubetriebene Geräte für maximale Flexibilität und Nutzung an jedem Ort."
+        "slug": "grosse-doppelkammer-fritteusen-ueber-8-liter",
+        "name": "Große Doppelkammer-Fritteusen (über 8 Liter)",
+        "categoryNameCanonical": "Große Doppelkammer-Fritteusen (über 8 Liter)",
+        "description": "Maximales Volumen für die Zubereitung kompletter Familienmahlzeiten in einem Durchgang."
       }
     ]
   },
   {
-    "slug": "rueckenmassagegeraete",
-    "name": "Rückenmassagegeräte",
-    "categoryNameCanonical": "Rückenmassagegeräte",
-    "description": "Vielfältige Geräte zur Massage des gesamten Rückens, von Massageauflagen bis zu handgeführten Modellen.",
+    "slug": "heissluftfritteusen-mit-spezialfunktionen",
+    "name": "Heißluftfritteusen mit Spezialfunktionen",
+    "categoryNameCanonical": "Heißluftfritteusen mit Spezialfunktionen",
+    "description": "Geräte, die mehr können als nur frittieren, z.B. grillen, backen oder dämpfen.",
     "subcategories": [
       {
-        "slug": "shiatsu-massageauflagen-fuer-stuehle",
-        "name": "Shiatsu-Massageauflagen für Stühle",
-        "categoryNameCanonical": "Shiatsu-Massageauflagen für Stühle",
-        "description": "Auflagen zur Anbringung an Büro- oder Wohnzimmerstühlen."
+        "slug": "heissluftfritteusen-mit-grillfunktion",
+        "name": "Heißluftfritteusen mit Grillfunktion",
+        "categoryNameCanonical": "Heißluftfritteusen mit Grillfunktion",
+        "description": "Für perfekte Grillstreifen und Röstaromen bei Steaks, Gemüse und mehr."
       },
       {
-        "slug": "massageguertel-fuer-den-unteren-ruecken",
-        "name": "Massagegürtel für den unteren Rücken",
-        "categoryNameCanonical": "Massagegürtel für den unteren Rücken",
-        "description": "Gürtel mit Vibrations- und Wärmefunktion speziell für den Lendenbereich."
+        "slug": "heissluftfritteusen-mit-ruehrarm",
+        "name": "Heißluftfritteusen mit Rührarm",
+        "categoryNameCanonical": "Heißluftfritteusen mit Rührarm",
+        "description": "Für gleichmäßiges Garen ohne Schütteln, ideal für Pommes und Risotto."
       },
       {
-        "slug": "manuelle-rueckenmassagegeraete",
-        "name": "Manuelle Rückenmassagehilfen",
-        "categoryNameCanonical": "Manuelle Rückenmassagehilfen",
-        "description": "Haken, Rollen und andere Werkzeuge zur Selbstmassage schwer erreichbarer Stellen."
+        "slug": "digitale-heissluftfritteusen-mit-touchscreen",
+        "name": "Digitale Heißluftfritteusen mit Touchscreen",
+        "categoryNameCanonical": "Digitale Heißluftfritteusen mit Touchscreen",
+        "description": "Moderne Geräte mit einfacher Bedienung, voreingestellten Programmen und präziser Steuerung."
       }
     ]
   },
   {
-    "slug": "fussmassagegeraete",
-    "name": "Fußmassagegeräte",
-    "categoryNameCanonical": "Fußmassagegeräte",
-    "description": "Elektrische Geräte zur Entspannung müder Füße durch Shiatsu, Luftkompression oder Vibration.",
+    "slug": "kombigeraete-mit-heissluftfritteuse",
+    "name": "Kombigeräte mit Heißluftfritteuse",
+    "categoryNameCanonical": "Kombigeräte mit Heißluftfritteuse",
+    "description": "Multifunktionale Küchenhelfer, die die Funktionen eines Airfryers mit anderen Geräten wie Öfen oder Mikrowellen kombinieren.",
     "subcategories": [
       {
-        "slug": "fussmassagegeraete-mit-waermefunktion",
-        "name": "Fußmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Fußmassagegeräte mit Wärmefunktion",
-        "description": "Geräte mit integrierter Heizung zur Förderung der Durchblutung."
+        "slug": "mini-backoefen-mit-heissluftfunktion",
+        "name": "Mini-Backöfen mit Heißluftfunktion",
+        "categoryNameCanonical": "Mini-Backöfen mit Heißluftfunktion",
+        "description": "Kompakte Alleskönner zum Backen, Grillen und Heißluftfrittieren."
       },
       {
-        "slug": "fussmassagegeraete-mit-luftkompression",
-        "name": "Fußmassagegeräte mit Luftkompression",
-        "categoryNameCanonical": "Fußmassagegeräte mit Luftkompression",
-        "description": "Modelle, die mit Luftkissen arbeiten, um die Füße sanft zu komprimieren."
+        "slug": "mikrowellen-mit-heissluftfritteuse",
+        "name": "Mikrowellen mit Heißluftfritteuse",
+        "categoryNameCanonical": "Mikrowellen mit Heißluftfritteuse",
+        "description": "Sparen Sie Platz mit Geräten, die auftauen, erhitzen und knusprig frittieren können."
       },
       {
-        "slug": "fussreflexzonen-massagegeraete",
-        "name": "Fußreflexzonen-Massagegeräte",
-        "categoryNameCanonical": "Fußreflexzonen-Massagegeräte",
-        "description": "Spezielle Geräte zur Stimulierung der Fußreflexzonen."
+        "slug": "multikocher-mit-air-fry-funktion",
+        "name": "Multikocher mit Air-Fry-Funktion",
+        "categoryNameCanonical": "Multikocher mit Air-Fry-Funktion",
+        "description": "Ein Gerät für alles: Schnellkochen, Schongaren, Dämpfen und Heißluftfrittieren."
       }
     ]
   },
   {
-    "slug": "handmassagegeraete",
-    "name": "Handmassagegeräte",
-    "categoryNameCanonical": "Handmassagegeräte",
-    "description": "Vielseitige, elektrisch betriebene Geräte für die gezielte Anwendung an verschiedenen Körperstellen.",
+    "slug": "heissluftfritteusen-nach-marke",
+    "name": "Heißluftfritteusen nach Marke",
+    "categoryNameCanonical": "Heißluftfritteusen nach Marke",
+    "description": "Entdecken Sie die beliebtesten Modelle und Innovationen von Top-Marken wie Philips, Ninja, Cosori und Tefal.",
     "subcategories": [
       {
-        "slug": "infrarot-handmassagegeraete",
-        "name": "Infrarot-Handmassagegeräte",
-        "categoryNameCanonical": "Infrarot-Handmassagegeräte",
-        "description": "Handgeräte, die wohltuende Infrarotwärme abgeben."
+        "slug": "philips-airfryer-modelle",
+        "name": "Philips Airfryer Modelle",
+        "categoryNameCanonical": "Philips Airfryer Modelle",
+        "description": "Der Pionier der Heißluftfritteusen mit Rapid-Air-Technologie für knusprige Ergebnisse."
       },
       {
-        "slug": "perkussions-handmassagegeraete",
-        "name": "Perkussions-Handmassagegeräte",
-        "categoryNameCanonical": "Perkussions-Handmassagegeräte",
-        "description": "Klopffunktion für eine intensive Tiefenmassage."
+        "slug": "ninja-foodi-heissluftfritteusen",
+        "name": "Ninja Foodi Heißluftfritteusen",
+        "categoryNameCanonical": "Ninja Foodi Heißluftfritteusen",
+        "description": "Bekannt für leistungsstarke Doppelkammer-Modelle und vielseitige Kombigeräte."
       },
       {
-        "slug": "kabellose-handmassagegeraete",
-        "name": "Kabellose Handmassagegeräte",
-        "categoryNameCanonical": "Kabellose Handmassagegeräte",
-        "description": "Akkubetriebene Modelle für den flexiblen Einsatz ohne Kabel."
+        "slug": "cosori-heissluftfritteusen",
+        "name": "Cosori Heißluftfritteusen",
+        "categoryNameCanonical": "Cosori Heißluftfritteusen",
+        "description": "Preisgekröntes Design, smarte Funktionen und eine große Auswahl an Zubehör."
       }
     ]
   },
   {
-    "slug": "massagesessel",
-    "name": "Massagesessel",
-    "categoryNameCanonical": "Massagesessel",
-    "description": "Hochwertige Sessel für eine Ganzkörpermassage, oft mit Zero-Gravity-Funktion und verschiedenen Automatikprogrammen.",
+    "slug": "airfryer-zubehoer-sets",
+    "name": "Airfryer Zubehör-Sets",
+    "categoryNameCanonical": "Airfryer Zubehör-Sets",
+    "description": "Praktische Sets mit den wichtigsten Zubehörteilen wie Backform, Pizzapfanne und Grillrost für einen perfekten Start.",
     "subcategories": [
       {
-        "slug": "massagesessel-mit-shiatsu-funktion",
-        "name": "Massagesessel mit Shiatsu-Funktion",
-        "categoryNameCanonical": "Massagesessel mit Shiatsu-Funktion",
-        "description": "Sessel, die eine authentische Shiatsu-Knetmassage bieten."
+        "slug": "universelle-zubehoer-sets",
+        "name": "Universelle Zubehör-Sets",
+        "categoryNameCanonical": "Universelle Zubehör-Sets",
+        "description": "Kompatibel mit den meisten Marken und Größen, ideal als Erstausstattung."
       },
       {
-        "slug": "massagesessel-mit-zero-gravity",
-        "name": "Massagesessel mit Zero-Gravity-Position",
-        "categoryNameCanonical": "Massagesessel mit Zero-Gravity-Position",
-        "description": "Modelle, die den Körper in eine nahezu schwerelose Position bringen."
+        "slug": "back-und-grill-sets-fuer-airfryer",
+        "name": "Back- und Grill-Sets für Airfryer",
+        "categoryNameCanonical": "Back- und Grill-Sets für Airfryer",
+        "description": "Spezialisierte Sets zum Backen von Kuchen und Brot oder zum Grillen von Fleisch und Gemüse."
       },
       {
-        "slug": "kompakte-massagesessel",
-        "name": "Kompakte Massagesessel für Wohnräume",
-        "categoryNameCanonical": "Kompakte Massagesessel für Wohnräume",
-        "description": "Platzsparende Modelle, die sich gut in das Wohnambiente integrieren."
+        "slug": "zubehoer-sets-aus-edelstahl",
+        "name": "Zubehör-Sets aus Edelstahl",
+        "categoryNameCanonical": "Zubehör-Sets aus Edelstahl",
+        "description": "Robuste und langlebige Sets bestehend aus Rosten, Spießen und Pfannen."
       }
     ]
   },
   {
-    "slug": "faszienrollen",
-    "name": "Faszienrollen",
-    "categoryNameCanonical": "Faszienrollen",
-    "description": "Rollen zur Selbstmassage des Bindegewebes (Faszien) zur Verbesserung der Flexibilität und Linderung von Muskelkater.",
+    "slug": "zubehoer-fuer-ninja-airfryer",
+    "name": "Zubehör für Ninja Airfryer",
+    "categoryNameCanonical": "Zubehör für Ninja Airfryer",
+    "description": "Passgenaues und originales Zubehör, um das Beste aus Ihrer Ninja Foodi oder Dual Zone Heißluftfritteuse herauszuholen.",
     "subcategories": [
       {
-        "slug": "faszienrollen-aus-hartschaum",
-        "name": "Faszienrollen aus Hartschaum",
-        "categoryNameCanonical": "Faszienrollen aus Hartschaum",
-        "description": "Standardrollen in verschiedenen Härtegraden für Einsteiger und Fortgeschrittene."
+        "slug": "zubehoer-fuer-ninja-foodi-dual-zone",
+        "name": "Zubehör für Ninja Foodi Dual Zone (AF300/AF400/AF500)",
+        "categoryNameCanonical": "Zubehör für Ninja Foodi Dual Zone (AF300/AF400/AF500)",
+        "description": "Silikoneinlagen, Gitter und Backpapier speziell für die eckigen Körbe der Dual Zone Modelle."
       },
       {
-        "slug": "faszienrollen-mit-vibration",
-        "name": "Faszienrollen mit Vibration",
-        "categoryNameCanonical": "Faszienrollen mit Vibration",
-        "description": "Elektrische Rollen mit zuschaltbarer Vibration für eine intensivere Wirkung."
+        "slug": "grillplatten-fuer-ninja-grills-airfryer",
+        "name": "Grillplatten für Ninja Grills & Airfryer",
+        "categoryNameCanonical": "Grillplatten für Ninja Grills & Airfryer",
+        "description": "Erweitern Sie die Grillfunktion Ihres Geräts mit speziellen Grillplatten."
       },
       {
-        "slug": "mini-faszienrollen",
-        "name": "Mini-Faszienrollen für Arme & Füße",
-        "categoryNameCanonical": "Mini-Faszienrollen für Arme & Füße",
-        "description": "Kleine Rollen zur gezielten Behandlung von kleineren Muskelgruppen."
-      },
-      {
-        "slug": "faszienrollen-aus-holz-oder-kork",
-        "name": "Faszienrollen aus Holz oder Kork",
-        "categoryNameCanonical": "Faszienrollen aus Holz oder Kork",
-        "description": "Nachhaltige und feste Alternativen zum klassischen Schaumstoff."
+        "slug": "back-sets-fuer-ninja-heissluftfritteusen",
+        "name": "Back-Sets für Ninja Heißluftfritteusen",
+        "categoryNameCanonical": "Back-Sets für Ninja Heißluftfritteusen",
+        "description": "Originale und kompatible Backformen für Kuchen, Brot und Aufläufe."
       }
     ]
   },
   {
-    "slug": "massagebaelle",
-    "name": "Massagebälle",
-    "categoryNameCanonical": "Massagebälle",
-    "description": "Bälle zur punktuellen Massage von Triggerpunkten und schwer erreichbaren Muskelpartien.",
+    "slug": "zubehoer-fuer-philips-airfryer",
+    "name": "Zubehör für Philips Airfryer",
+    "categoryNameCanonical": "Zubehör für Philips Airfryer",
+    "description": "Optimieren Sie Ihren Philips Airfryer mit originalem Zubehör für Modelle der Größen XL und XXL.",
     "subcategories": [
       {
-        "slug": "igelbaelle-mit-noppen",
-        "name": "Igelbälle (Massagebälle mit Noppen)",
-        "categoryNameCanonical": "Igelbälle (Massagebälle mit Noppen)",
-        "description": "Bälle mit Stacheln zur Förderung der Durchblutung und Stimulation."
+        "slug": "zubehoer-fuer-philips-airfryer-xl",
+        "name": "Zubehör für Philips Airfryer XL",
+        "categoryNameCanonical": "Zubehör für Philips Airfryer XL",
+        "description": "Passgenaue Einsätze, Grillroste und Backformen für die XL-Modellreihe."
       },
       {
-        "slug": "faszienbaelle-glatt",
-        "name": "Glatte Faszienbälle (Lacrosse-Bälle)",
-        "categoryNameCanonical": "Glatte Faszienbälle (Lacrosse-Bälle)",
-        "description": "Harte, glatte Bälle für eine intensive, punktuelle Tiefenmassage."
+        "slug": "zubehoer-fuer-philips-airfryer-xxl",
+        "name": "Zubehör für Philips Airfryer XXL",
+        "categoryNameCanonical": "Zubehör für Philips Airfryer XXL",
+        "description": "Maximieren Sie die Kapazität Ihres XXL-Modells mit Ebenen-Rosten und großen Backschalen."
       },
       {
-        "slug": "doppel-massagebaelle",
-        "name": "Doppel-Massagebälle (Duobälle)",
-        "categoryNameCanonical": "Doppel-Massagebälle (Duobälle)",
-        "description": "Zwei verbundene Bälle, ideal für die Massage entlang der Wirbelsäule."
+        "slug": "grill-und-snack-kits-fuer-philips",
+        "name": "Grill- und Snack-Kits für Philips",
+        "categoryNameCanonical": "Grill- und Snack-Kits für Philips",
+        "description": "Spezielle Zubehör-Kits für perfekte Grillergebnisse oder die Zubereitung von Snacks."
       }
     ]
   },
   {
-    "slug": "klappbare-massageliegen",
-    "name": "Klappbare Massageliegen",
-    "categoryNameCanonical": "Klappbare Massageliegen",
-    "description": "Mobile und transportable Massageliegen für Therapeuten, die Hausbesuche machen oder begrenzten Platz haben.",
+    "slug": "zubehoer-fuer-cosori-airfryer",
+    "name": "Zubehör für Cosori Airfryer",
+    "categoryNameCanonical": "Zubehör für Cosori Airfryer",
+    "description": "Erweitern Sie die Möglichkeiten Ihrer Cosori Heißluftfritteuse mit maßgeschneidertem Zubehör.",
     "subcategories": [
       {
-        "slug": "massageliegen-aus-holz-klappbar",
-        "name": "Klappbare Massageliegen aus Holz",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Holz",
-        "description": "Stabile und ästhetisch ansprechende Holzkonstruktionen."
+        "slug": "zubehoer-fuer-cosori-5-5l-modelle",
+        "name": "Zubehör für Cosori 5.5L Modelle",
+        "categoryNameCanonical": "Zubehör für Cosori 5.5L Modelle",
+        "description": "Die größte Auswahl an Zubehör für die preisgekrönten 5.5-Liter-Modelle."
       },
       {
-        "slug": "massageliegen-aus-aluminium-klappbar",
-        "name": "Klappbare Massageliegen aus Aluminium",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Aluminium",
-        "description": "Besonders leichte Modelle für den einfachen Transport."
+        "slug": "zubehoer-fuer-cosori-dual-blaze",
+        "name": "Zubehör für Cosori Dual Blaze",
+        "categoryNameCanonical": "Zubehör für Cosori Dual Blaze",
+        "description": "Spezifisches Zubehör, das die Vorteile der doppelten Heizelemente nutzt."
       },
       {
-        "slug": "massageliegen-komplettsets",
-        "name": "Klappbare Massageliegen als Komplettset",
-        "categoryNameCanonical": "Klappbare Massageliegen als Komplettset",
-        "description": "Sets inklusive Kopfstütze, Armlehnen und Tragetasche."
+        "slug": "edelstahl-gitter-fuer-cosori",
+        "name": "Edelstahl-Gitter für Cosori",
+        "categoryNameCanonical": "Edelstahl-Gitter für Cosori",
+        "description": "Stapelbare Roste aus Edelstahl zur Verdopplung der Garfläche."
       }
     ]
   },
   {
-    "slug": "massagestuehle-fuer-therapeuten",
-    "name": "Massagestühle für Therapeuten",
-    "categoryNameCanonical": "Massagestühle für Therapeuten",
-    "description": "Ergonomische, mobile Stühle für die Massage im Sitzen, ideal für Events, Büros oder Messen.",
+    "slug": "zubehoer-fuer-tefal-airfryer",
+    "name": "Zubehör für Tefal Airfryer",
+    "categoryNameCanonical": "Zubehör für Tefal Airfryer",
+    "description": "Finden Sie passendes Zubehör und Ersatzteile für Ihre Tefal ActiFry oder Easy Fry & Grill Modelle.",
     "subcategories": [
       {
-        "slug": "massagestuehle-aus-aluminium",
-        "name": "Massagestühle aus Aluminium",
-        "categoryNameCanonical": "Massagestühle aus Aluminium",
-        "description": "Leichte und robuste Stühle für den einfachen Transport und Aufbau."
+        "slug": "zubehoer-fuer-tefal-actifry",
+        "name": "Zubehör für Tefal ActiFry",
+        "categoryNameCanonical": "Zubehör für Tefal ActiFry",
+        "description": "Ersatz-Rührarme, Deckel und Einsätze für die einzigartigen ActiFry-Modelle."
       },
       {
-        "slug": "massagestuehle-mit-tragetasche",
-        "name": "Massagestühle mit Tragetasche",
-        "categoryNameCanonical": "Massagestühle mit Tragetasche",
-        "description": "Modelle, die standardmäßig mit einer passenden Tasche geliefert werden."
+        "slug": "zubehoer-fuer-tefal-easy-fry",
+        "name": "Zubehör für Tefal Easy Fry & Grill",
+        "categoryNameCanonical": "Zubehör für Tefal Easy Fry & Grill",
+        "description": "Grillplatten, Backschalen und Spieße für die Easy Fry & Grill Serie."
       },
       {
-        "slug": "verstellbare-massagestuehle",
-        "name": "Voll verstellbare Massagestühle",
-        "categoryNameCanonical": "Voll verstellbare Massagestühle",
-        "description": "Stühle mit anpassbarer Sitzfläche, Arm- und Kopfstütze."
+        "slug": "ersatzteile-fuer-tefal-modelle",
+        "name": "Ersatzteile für Tefal Modelle",
+        "categoryNameCanonical": "Ersatzteile für Tefal Modelle",
+        "description": "Originale Ersatzteile zur Reparatur und Wartung Ihrer Tefal Heißluftfritteuse."
       }
     ]
   },
   {
-    "slug": "massageliegenbezuege-und-tuecher",
-    "name": "Massageliegenbezüge & -tücher",
-    "categoryNameCanonical": "Massageliegenbezüge & -tücher",
-    "description": "Hygienische und komfortable Bezüge zum Schutz von Massageliegen und für das Wohlbefinden der Klienten.",
+    "slug": "airfryer-silikoneinlagen-und-formen",
+    "name": "Airfryer Silikoneinlagen & Formen",
+    "categoryNameCanonical": "Airfryer Silikoneinlagen & Formen",
+    "description": "Wiederverwendbare und leicht zu reinigende Silikonformen, die Backpapier überflüssig machen und die Reinigung erleichtern.",
     "subcategories": [
       {
-        "slug": "einweg-massageliegenbezuege",
-        "name": "Einweg-Massageliegenbezüge auf Rolle",
-        "categoryNameCanonical": "Einweg-Massageliegenbezüge auf Rolle",
-        "description": "Hygienische Papier- oder Vliesrollen für den professionellen Einsatz."
+        "slug": "wiederverwendbare-silikontoepfe",
+        "name": "Wiederverwendbare Silikontöpfe",
+        "categoryNameCanonical": "Wiederverwendbare Silikontöpfe",
+        "description": "Flexible Töpfe, die Fett und Öl auffangen und den Garkorb sauber halten."
       },
       {
-        "slug": "waschbare-frottee-spannbezuege",
-        "name": "Waschbare Spannbezüge aus Frottee",
-        "categoryNameCanonical": "Waschbare Spannbezüge aus Frottee",
-        "description": "Wiederverwendbare und weiche Bezüge aus Baumwolle oder Frottee."
+        "slug": "runde-silikoneinlagen",
+        "name": "Runde Silikoneinlagen",
+        "categoryNameCanonical": "Runde Silikoneinlagen",
+        "description": "Passend für die meisten klassischen Heißluftfritteusen mit rundem Korb."
       },
       {
-        "slug": "oelfeste-massageliegenbezuege",
-        "name": "Ölfeste & abwischbare Schutzbezüge",
-        "categoryNameCanonical": "Ölfeste & abwischbare Schutzbezüge",
-        "description": "Bezüge aus PU-Material, die Massageöl abweisen und leicht zu reinigen sind."
+        "slug": "eckige-silikoneinlagen",
+        "name": "Eckige Silikoneinlagen",
+        "categoryNameCanonical": "Eckige Silikoneinlagen",
+        "description": "Speziell entworfen für Doppelkammer-Fritteusen und Modelle mit eckigem Korb."
+      },
+      {
+        "slug": "silikon-backformen-fuer-muffins-und-kuchen",
+        "name": "Silikon-Backformen für Muffins und Kuchen",
+        "categoryNameCanonical": "Silikon-Backformen für Muffins und Kuchen",
+        "description": "Kleine Backformen aus flexiblem Silikon für süße und herzhafte Leckereien."
       }
     ]
   },
   {
-    "slug": "massageoele",
-    "name": "Massageöle",
-    "categoryNameCanonical": "Massageöle",
-    "description": "Pflanzliche und mineralische Öle, die die Haut pflegen und das Gleiten der Hände bei der Massage erleichtern.",
+    "slug": "airfryer-backpapier",
+    "name": "Airfryer Backpapier",
+    "categoryNameCanonical": "Airfryer Backpapier",
+    "description": "Vorgeschnittene Einweg-Papiereinlagen, die das Anhaften von Speisen verhindern und die Reinigung zum Kinderspiel machen.",
     "subcategories": [
       {
-        "slug": "massageoele-auf-mandeloelbasis",
-        "name": "Massageöle auf Mandelölbasis",
-        "categoryNameCanonical": "Massageöle auf Mandelölbasis",
-        "description": "Besonders hautfreundliche und gut verträgliche Basisöle."
+        "slug": "rundes-backpapier-fuer-airfryer",
+        "name": "Rundes Backpapier für Airfryer",
+        "categoryNameCanonical": "Rundes Backpapier für Airfryer",
+        "description": "Passgenaue runde Zuschnitte für klassische Heißluftfritteusen."
       },
       {
-        "slug": "waermende-massageoele",
-        "name": "Wärmende Massageöle mit Arnika & Ingwer",
-        "categoryNameCanonical": "Wärmende Massageöle mit Arnika & Ingwer",
-        "description": "Öle mit durchblutungsfördernden Zusätzen, ideal für Sportmassagen."
+        "slug": "eckiges-backpapier-fuer-doppelkammer-fritteusen",
+        "name": "Eckiges Backpapier für Doppelkammer-Fritteusen",
+        "categoryNameCanonical": "Eckiges Backpapier für Doppelkammer-Fritteusen",
+        "description": "Rechteckige Einlagen, perfekt für Ninja Dual Zone und ähnliche Modelle."
       },
       {
-        "slug": "entspannende-massageoele",
-        "name": "Entspannende Massageöle mit Lavendel",
-        "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
-        "description": "Aromatische Öle zur Förderung von Ruhe und Entspannung."
-      },
-      {
-        "slug": "neutrale-massageoele-fuer-profis",
-        "name": "Neutrale Massageöle für Profis",
-        "categoryNameCanonical": "Neutrale Massageöle für Profis",
-        "description": "Geruchsneutrale und ergiebige Öle in Großgebinden für den Praxisbedarf."
+        "slug": "perforiertes-backpapier-fuer-luftzirkulation",
+        "name": "Perforiertes Backpapier für Luftzirkulation",
+        "categoryNameCanonical": "Perforiertes Backpapier für Luftzirkulation",
+        "description": "Gelochtes Papier, das eine optimale Heißluftzirkulation für extra knusprige Ergebnisse gewährleistet."
       }
     ]
   },
   {
-    "slug": "massagelotionen-und-cremes",
-    "name": "Massagelotionen & -cremes",
-    "categoryNameCanonical": "Massagelotionen & -cremes",
-    "description": "Bieten eine Alternative zu Ölen, ziehen schneller ein und hinterlassen ein weniger fettiges Hautgefühl.",
+    "slug": "airfryer-gitter-und-roste",
+    "name": "Airfryer Gitter & Roste",
+    "categoryNameCanonical": "Airfryer Gitter & Roste",
+    "description": "Erweitern Sie Ihre Kochfläche oder erzielen Sie perfekte Grillergebnisse mit Gittern und Rosten aus Edelstahl.",
     "subcategories": [
       {
-        "slug": "massagelotionen-mit-hoher-gleitfaehigkeit",
-        "name": "Massagelotionen mit hoher Gleitfähigkeit",
-        "categoryNameCanonical": "Massagelotionen mit hoher Gleitfähigkeit",
-        "description": "Lotionen für langanhaltende Massagen, ohne schnell einzuziehen."
+        "slug": "gitterroste-zur-ebenenerweiterung",
+        "name": "Gitterroste zur Ebenenerweiterung",
+        "categoryNameCanonical": "Gitterroste zur Ebenenerweiterung",
+        "description": "Stapelbare Roste, um auf mehreren Ebenen gleichzeitig zu garen und die Kapazität zu verdoppeln."
       },
       {
-        "slug": "massagecremes-fuer-sportler",
-        "name": "Sport-Massagecremes",
-        "categoryNameCanonical": "Sport-Massagecremes",
-        "description": "Cremes mit kühlenden oder wärmenden Eigenschaften zur Muskelregeneration."
+        "slug": "grillroste-aus-edelstahl",
+        "name": "Grillroste aus Edelstahl",
+        "categoryNameCanonical": "Grillroste aus Edelstahl",
+        "description": "Für authentische Grillstreifen auf Fleisch, Fisch und Gemüse."
       },
       {
-        "slug": "parfuemfreie-massagelotionen",
-        "name": "Parfümfreie Massagelotionen für sensible Haut",
-        "categoryNameCanonical": "Parfümfreie Massagelotionen für sensible Haut",
-        "description": "Hypoallergene Produkte ohne Duftstoffe."
+        "slug": "spiessgestelle-fuer-airfryer",
+        "name": "Spießgestelle für Airfryer",
+        "categoryNameCanonical": "Spießgestelle für Airfryer",
+        "description": "Praktische Gestelle zur Zubereitung von Schaschlik, Kebab oder Obstspießen."
       }
     ]
   },
   {
-    "slug": "hot-stone-massagesets",
-    "name": "Hot-Stone-Massagesets",
-    "categoryNameCanonical": "Hot-Stone-Massagesets",
-    "description": "Sets aus Basaltsteinen und Wärmegeräten für die Durchführung einer entspannenden Hot-Stone-Massage.",
+    "slug": "airfryer-backformen-und-pfannen",
+    "name": "Airfryer Backformen & Pfannen",
+    "categoryNameCanonical": "Airfryer Backformen & Pfannen",
+    "description": "Spezielle antihaftbeschichtete Formen und Pfannen zum Backen, für Aufläufe und Pizzen in Ihrer Heißluftfritteuse.",
     "subcategories": [
       {
-        "slug": "hot-stone-sets-fuer-einsteiger",
-        "name": "Hot-Stone-Sets für Einsteiger",
-        "categoryNameCanonical": "Hot-Stone-Sets für Einsteiger",
-        "description": "Kleine Sets mit den wichtigsten Steinen und einem einfachen Erwärmer."
+        "slug": "runde-backformen-und-kuchenformen",
+        "name": "Runde Backformen und Kuchenformen",
+        "categoryNameCanonical": "Runde Backformen und Kuchenformen",
+        "description": "Kompakte Backformen, die perfekt in den Garkorb passen."
       },
       {
-        "slug": "professionelle-hot-stone-sets",
-        "name": "Professionelle Hot-Stone-Sets",
-        "categoryNameCanonical": "Professionelle Hot-Stone-Sets",
-        "description": "Umfangreiche Sets mit einer Vielzahl von Steinen und professionellem Wärmegerät."
+        "slug": "pizzapfannen-fuer-airfryer",
+        "name": "Pizzapfannen für Airfryer",
+        "categoryNameCanonical": "Pizzapfannen für Airfryer",
+        "description": "Flache, runde Pfannen für knusprige Mini-Pizzen und Flammkuchen."
       },
       {
-        "slug": "einzelne-massagesteine",
-        "name": "Einzelne Massagesteine aus Basalt",
-        "categoryNameCanonical": "Einzelne Massagesteine aus Basalt",
-        "description": "Zum Ersetzen oder Erweitern bestehender Sets."
+        "slug": "brotbackformen-fuer-heissluftfritteusen",
+        "name": "Brotbackformen für Heißluftfritteusen",
+        "categoryNameCanonical": "Brotbackformen für Heißluftfritteusen",
+        "description": "Kleine Kastenformen für frisches, selbstgebackenes Brot aus dem Airfryer."
       }
     ]
   },
   {
-    "slug": "schroepfsets",
-    "name": "Schröpfsets",
-    "categoryNameCanonical": "Schröpfsets",
-    "description": "Sets aus Gläsern oder Silikon-Cups zur Durchführung der Schröpftherapie, einer traditionellen Heilmethode.",
+    "slug": "airfryer-abdeckungen",
+    "name": "Airfryer Abdeckungen",
+    "categoryNameCanonical": "Airfryer Abdeckungen",
+    "description": "Schützen Sie Ihre Heißluftfritteuse vor Staub, Kratzern und Fettspritzern, wenn sie nicht in Gebrauch ist.",
     "subcategories": [
       {
-        "slug": "schroepfglaeser-mit-vakuumpumpe",
-        "name": "Schröpfgläser-Sets mit Vakuumpumpe",
-        "categoryNameCanonical": "Schröpfgläser-Sets mit Vakuumpumpe",
-        "description": "Klassische Sets aus Kunststoff- oder Glasgläsern mit manueller Pumpe."
+        "slug": "abdeckhauben-fuer-ninja-modelle",
+        "name": "Abdeckhauben für Ninja Modelle",
+        "categoryNameCanonical": "Abdeckhauben für Ninja Modelle",
+        "description": "Maßgeschneiderte Schutzhüllen für die spezifischen Formen der Ninja Geräte."
       },
       {
-        "slug": "silikon-schroepfkoepfe",
-        "name": "Schröpfsets aus Silikon",
-        "categoryNameCanonical": "Schröpfsets aus Silikon",
-        "description": "Flexible Cups, die durch Zusammendrücken ein Vakuum erzeugen."
+        "slug": "abdeckhauben-fuer-cosori-modelle",
+        "name": "Abdeckhauben für Cosori Modelle",
+        "categoryNameCanonical": "Abdeckhauben für Cosori Modelle",
+        "description": "Passgenaue Abdeckungen für die beliebten Cosori Heißluftfritteusen."
       },
       {
-        "slug": "schroepfsets-fuer-gesicht",
-        "name": "Schröpfsets für die Gesichtsmassage",
-        "categoryNameCanonical": "Schröpfsets für die Gesichtsmassage",
-        "description": "Kleinere, sanftere Cups speziell für die Anwendung im Gesicht."
+        "slug": "universelle-staubschutzhuellen",
+        "name": "Universelle Staubschutzhüllen",
+        "categoryNameCanonical": "Universelle Staubschutzhüllen",
+        "description": "Abdeckungen in verschiedenen Größen, die für eine Vielzahl von Marken und Modellen geeignet sind."
       }
     ]
   },
   {
-    "slug": "akupressurmatten",
-    "name": "Akupressurmatten & -kissen",
-    "categoryNameCanonical": "Akupressurmatten & -kissen",
-    "description": "Matten und Kissen mit Kunststoffspitzen, die durch Druck auf Akupressurpunkte Verspannungen lösen sollen.",
+    "slug": "airfryer-kochbuecher",
+    "name": "Airfryer Kochbücher",
+    "categoryNameCanonical": "Airfryer Kochbücher",
+    "description": "Entdecken Sie neue Rezeptideen, Tipps und Tricks, um das volle Potenzial Ihrer Heißluftfritteuse auszuschöpfen.",
     "subcategories": [
       {
-        "slug": "akupressurmatten-sets-mit-kissen",
-        "name": "Akupressurmatten-Sets mit Kissen",
-        "categoryNameCanonical": "Akupressurmatten-Sets mit Kissen",
-        "description": "Kombination aus Matte für den Rücken und Kissen für den Nacken."
+        "slug": "kochbuecher-zum-abnehmen-mit-dem-airfryer",
+        "name": "Kochbücher zum Abnehmen mit dem Airfryer",
+        "categoryNameCanonical": "Kochbücher zum Abnehmen mit dem Airfryer",
+        "description": "Rezepte für kalorienarme und gesunde Gerichte aus der Heißluftfritteuse."
       },
       {
-        "slug": "akupressurmatten-aus-natuerlichen-materialien",
-        "name": "Akupressurmatten aus Leinen & Kokosfaser",
-        "categoryNameCanonical": "Akupressurmatten aus Leinen & Kokosfaser",
-        "description": "Ökologische Varianten mit natürlichen Füll- und Bezugsmaterialien."
+        "slug": "anfaenger-kochbuecher-fuer-heissluftfritteusen",
+        "name": "Anfänger-Kochbücher für Heißluftfritteusen",
+        "categoryNameCanonical": "Anfänger-Kochbücher für Heißluftfritteusen",
+        "description": "Einfache und schnelle Rezepte für den perfekten Einstieg in die Welt des Airfryings."
       },
       {
-        "slug": "akupressurkissen-fuer-nacken",
-        "name": "Akupressurkissen für Nacken & Füße",
-        "categoryNameCanonical": "Akupressurkissen für Nacken & Füße",
-        "description": "Einzelne Kissen zur gezielten Anwendung."
+        "slug": "vegetarische-und-vegane-airfryer-rezepte",
+        "name": "Vegetarische & Vegane Airfryer-Rezepte",
+        "categoryNameCanonical": "Vegetarische & Vegane Airfryer-Rezepte",
+        "description": "Kreative Ideen für fleischlose Gerichte, von knusprigem Gemüse bis zu Tofu-Spezialitäten."
       }
     ]
   },
   {
-    "slug": "kopfmassagegeraete",
-    "name": "Kopfmassagegeräte",
-    "categoryNameCanonical": "Kopfmassagegeräte",
-    "description": "Manuelle und elektrische Geräte zur Stimulation der Kopfhaut und zur Förderung der Entspannung.",
+    "slug": "reinigung-fuer-airfryer",
+    "name": "Reinigung für Airfryer",
+    "categoryNameCanonical": "Reinigung für Airfryer",
+    "description": "Produkte und Hilfsmittel, die die Reinigung Ihrer Heißluftfritteuse schnell und einfach machen.",
     "subcategories": [
       {
-        "slug": "manuelle-kopfkrauler",
-        "name": "Manuelle Kopfkrauler (Massagespinnen)",
-        "categoryNameCanonical": "Manuelle Kopfkrauler (Massagespinnen)",
-        "description": "Klassische Geräte mit Metallarmen zur sanften Kopfhautstimulation."
+        "slug": "spezielle-fettloeser-und-reiniger",
+        "name": "Spezielle Fettlöser und Reiniger",
+        "categoryNameCanonical": "Spezielle Fettlöser und Reiniger",
+        "description": "Kraftvolle Reinigungsmittel, die eingebranntes Fett und Essensreste mühelos entfernen."
       },
       {
-        "slug": "elektrische-kopfhautmassagegeraete",
-        "name": "Elektrische Kopfhautmassagegeräte",
-        "categoryNameCanonical": "Elektrische Kopfhautmassagegeräte",
-        "description": "Wasserdichte, rotierende Geräte, oft auch für die Haarwäsche geeignet."
+        "slug": "reinigungsbuersten-sets",
+        "name": "Reinigungsbürsten-Sets",
+        "categoryNameCanonical": "Reinigungsbürsten-Sets",
+        "description": "Bürsten in verschiedenen Größen und Formen, um auch schwer zugängliche Ecken zu erreichen."
       },
       {
-        "slug": "shampoo-massagebuersten",
-        "name": "Shampoo-Massagebürsten aus Silikon",
-        "categoryNameCanonical": "Shampoo-Massagebürsten aus Silikon",
-        "description": "Manuelle Bürsten zur Kopfhautmassage unter der Dusche."
+        "slug": "kratzschutzmatten-fuer-arbeitsplatten",
+        "name": "Kratzschutzmatten für Arbeitsplatten",
+        "categoryNameCanonical": "Kratzschutzmatten für Arbeitsplatten",
+        "description": "Schützen Sie Ihre Küchenoberflächen vor Hitze und Kratzern durch das Gerät."
       }
     ]
   },
   {
-    "slug": "gua-sha-und-gesichtsroller",
-    "name": "Gua Sha & Gesichtsmassageroller",
-    "categoryNameCanonical": "Gua Sha & Gesichtsmassageroller",
-    "description": "Traditionelle chinesische Schönheitswerkzeuge aus Edelsteinen wie Jade oder Rosenquarz zur Gesichtsmassage.",
+    "slug": "airfryer-oelzerstaeuber-und-pinsel",
+    "name": "Airfryer Ölzerstäuber & Pinsel",
+    "categoryNameCanonical": "Airfryer Ölzerstäuber & Pinsel",
+    "description": "Dosieren Sie Öl sparsam und gleichmäßig für knusprige Ergebnisse mit weniger Fett.",
     "subcategories": [
       {
-        "slug": "gesichtsroller-aus-rosenquarz",
-        "name": "Gesichtsroller aus Rosenquarz",
-        "categoryNameCanonical": "Gesichtsroller aus Rosenquarz",
-        "description": "Roller aus dem beliebten rosa Edelstein zur Beruhigung der Haut."
+        "slug": "oel-spruehflaschen-aus-glas",
+        "name": "Öl-Sprühflaschen aus Glas",
+        "categoryNameCanonical": "Öl-Sprühflaschen aus Glas",
+        "description": "Wiederbefüllbare Sprüher für einen feinen Ölnebel, ideal zum leichten Benetzen von Speisen."
       },
       {
-        "slug": "gesichtsroller-aus-jade",
-        "name": "Gesichtsroller aus Jade",
-        "categoryNameCanonical": "Gesichtsroller aus Jade",
-        "description": "Klassische grüne Jade-Roller zur Förderung der Lymphdrainage."
+        "slug": "silikonpinsel-zum-bestreichen",
+        "name": "Silikonpinsel zum Bestreichen",
+        "categoryNameCanonical": "Silikonpinsel zum Bestreichen",
+        "description": "Hitzebeständige Pinsel zum Auftragen von Öl, Marinaden oder Glasuren."
       },
       {
-        "slug": "gua-sha-steine",
-        "name": "Gua Sha Steine in verschiedenen Formen",
-        "categoryNameCanonical": "Gua Sha Steine in verschiedenen Formen",
-        "description": "Flache, geformte Steine zur Konturierung und Massage des Gesichts."
+        "slug": "oel-zerstaeuber-mit-pumpsystem",
+        "name": "Öl-Zerstäuber mit Pumpsystem",
+        "categoryNameCanonical": "Öl-Zerstäuber mit Pumpsystem",
+        "description": "Erzeugen Sie Druck ohne Treibgas für eine gleichmäßige und kontrollierte Ölverteilung."
       }
     ]
   },
   {
-    "slug": "cellulite-massagegeraete",
-    "name": "Cellulite-Massagegeräte",
-    "categoryNameCanonical": "Cellulite-Massagegeräte",
-    "description": "Geräte zur Verbesserung des Hautbildes bei Cellulite durch Vakuum-, Knet- oder Vibrationsmassage.",
+    "slug": "airfryer-trenner-und-teiler",
+    "name": "Airfryer Trenner & Teiler",
+    "categoryNameCanonical": "Airfryer Trenner & Teiler",
+    "description": "Garen Sie verschiedene Lebensmittel im selben Korb, ohne dass sie sich vermischen.",
     "subcategories": [
       {
-        "slug": "vakuum-massagegeraete-gegen-cellulite",
-        "name": "Vakuum-Massagegeräte gegen Cellulite",
-        "categoryNameCanonical": "Vakuum-Massagegeräte gegen Cellulite",
-        "description": "Geräte, die die Haut ansaugen und massieren, um das Bindegewebe zu stimulieren."
+        "slug": "metall-trenner-fuer-garkoerbe",
+        "name": "Metall-Trenner für Garkörbe",
+        "categoryNameCanonical": "Metall-Trenner für Garkörbe",
+        "description": "Stabile Trennwände, um den Korb in zwei oder mehr Sektionen zu unterteilen."
       },
       {
-        "slug": "manuelle-cellulite-massageroller",
-        "name": "Manuelle Cellulite-Massageroller",
-        "categoryNameCanonical": "Manuelle Cellulite-Massageroller",
-        "description": "Handliche Roller mit Noppen zur täglichen Anwendung."
+        "slug": "silikon-trenner-fuer-doppelzonen",
+        "name": "Silikon-Trenner für Doppelzonen",
+        "categoryNameCanonical": "Silikon-Trenner für Doppelzonen",
+        "description": "Flexible Silikoneinsätze, die das Garen von vier unterschiedlichen Speisen in Dual-Zone-Fritteusen ermöglichen."
       },
       {
-        "slug": "elektrische-cellulite-massagegeraete",
-        "name": "Elektrische Cellulite-Massagegeräte",
-        "categoryNameCanonical": "Elektrische Cellulite-Massagegeräte",
-        "description": "Leistungsstarke Geräte mit verschiedenen Aufsätzen und Intensitätsstufen."
+        "slug": "verstellbare-korb-trenner",
+        "name": "Verstellbare Korb-Trenner",
+        "categoryNameCanonical": "Verstellbare Korb-Trenner",
+        "description": "Anpassbare Teiler für maximale Flexibilität bei der Aufteilung des Garraums."
       }
     ]
   },
   {
-    "slug": "fussbaeder-mit-massagefunktion",
-    "name": "Fußbäder mit Massagefunktion",
-    "categoryNameCanonical": "Fußbäder mit Massagefunktion",
-    "description": "Wellness-Geräte, die ein warmes Fußbad mit Sprudel-, Vibrations- oder Rollenmassage kombinieren.",
+    "slug": "airfryer-zangen-und-greifer",
+    "name": "Airfryer Zangen & Greifer",
+    "categoryNameCanonical": "Airfryer Zangen & Greifer",
+    "description": "Sicheres und einfaches Wenden, Herausnehmen und Servieren von heißen Speisen aus Ihrer Heißluftfritteuse.",
     "subcategories": [
       {
-        "slug": "fussbaeder-mit-sprudelfunktion",
-        "name": "Fußbäder mit Sprudel- & Vibrationsfunktion",
-        "categoryNameCanonical": "Fußbäder mit Sprudel- & Vibrationsfunktion",
-        "description": "Standardmodelle für ein entspannendes Fußbad zu Hause."
+        "slug": "silikon-zangen-fuer-antihaftbeschichtungen",
+        "name": "Silikon-Zangen für Antihaftbeschichtungen",
+        "categoryNameCanonical": "Silikon-Zangen für Antihaftbeschichtungen",
+        "description": "Schützen Sie die Beschichtung Ihres Garkorbs vor Kratzern."
       },
       {
-        "slug": "fussbaeder-mit-massagerollen",
-        "name": "Fußbäder mit integrierten Massagerollen",
-        "categoryNameCanonical": "Fußbäder mit integrierten Massagerollen",
-        "description": "Geräte mit motorisierten Rollen für eine intensivere Fußreflexzonenmassage."
+        "slug": "korb-heber-und-greifzangen",
+        "name": "Korb-Heber und Greifzangen",
+        "categoryNameCanonical": "Korb-Heber und Greifzangen",
+        "description": "Spezielle Greifer zum sicheren Anheben heißer Einsätze wie Backformen oder Pizzapfannen."
       },
       {
-        "slug": "faltbare-fussbaeder",
-        "name": "Faltbare Fußbäder zur platzsparenden Lagerung",
-        "categoryNameCanonical": "Faltbare Fußbäder zur platzsparenden Lagerung",
-        "description": "Kompakte Modelle, die nach Gebrauch einfach verstaut werden können."
+        "slug": "edelstahl-grillzangen-sets",
+        "name": "Edelstahl-Grillzangen-Sets",
+        "categoryNameCanonical": "Edelstahl-Grillzangen-Sets",
+        "description": "Robuste Zangen in verschiedenen Längen für präzises Arbeiten."
       }
     ]
   },
   {
-    "slug": "massage-badeschuhe",
-    "name": "Massage-Badeschuhe & Sandalen",
-    "categoryNameCanonical": "Massage-Badeschuhe & Sandalen",
-    "description": "Schuhe mit Noppen im Fußbett, die bei jedem Schritt die Fußsohlen massieren und die Durchblutung anregen.",
+    "slug": "ersatzteile-fuer-heissluftfritteusen",
+    "name": "Ersatzteile für Heißluftfritteusen",
+    "categoryNameCanonical": "Ersatzteile für Heißluftfritteusen",
+    "description": "Finden Sie passende Ersatzteile wie Garkörbe, Griffe oder Rührarme, um Ihr Gerät zu reparieren und seine Lebensdauer zu verlängern.",
     "subcategories": [
       {
-        "slug": "badeschuhe-mit-akupressur-noppen",
-        "name": "Badeschuhe mit Akupressur-Noppen",
-        "categoryNameCanonical": "Badeschuhe mit Akupressur-Noppen",
-        "description": "Sandalen mit strategisch platzierten Noppen zur Stimulation von Akupressurpunkten."
+        "slug": "ersatz-garkoerbe-und-schubladen",
+        "name": "Ersatz-Garkörbe und Schubladen",
+        "categoryNameCanonical": "Ersatz-Garkörbe und Schubladen",
+        "description": "Originale und kompatible Körbe, falls die Beschichtung beschädigt ist."
       },
       {
-        "slug": "reflexzonen-sandalen",
-        "name": "Reflexzonen-Sandalen mit Holzelementen",
-        "categoryNameCanonical": "Reflexzonen-Sandalen mit Holzelementen",
-        "description": "Sandalen, die auf die Prinzipien der Fußreflexzonenmassage abgestimmt sind."
+        "slug": "ersatz-griffe-und-knoepfe",
+        "name": "Ersatz-Griffe und Knöpfe",
+        "categoryNameCanonical": "Ersatz-Griffe und Knöpfe",
+        "description": "Für den Austausch von gebrochenen oder abgenutzten Bedienelementen."
       },
       {
-        "slug": "verstellbare-massage-sandalen",
-        "name": "Verstellbare Massage-Sandalen",
-        "categoryNameCanonical": "Verstellbare Massage-Sandalen",
-        "description": "Modelle mit Klettverschluss für eine individuelle Passform."
+        "slug": "ersatz-grillplatten-und-crisper-einsaetze",
+        "name": "Ersatz-Grillplatten und Crisper-Einsätze",
+        "categoryNameCanonical": "Ersatz-Grillplatten und Crisper-Einsätze",
+        "description": "Ersetzen Sie zerkratzte oder verbogene Einlegeböden für optimale Ergebnisse."
       }
     ]
   },
   {
-    "slug": "augenmassagegeraete",
-    "name": "Augenmassagegeräte",
-    "categoryNameCanonical": "Augenmassagegeräte",
-    "description": "Maskenähnliche Geräte zur Entspannung der Augenpartie durch Luftdruck, Vibration, Wärme und Musik.",
+    "slug": "heissluftfritteusen-unter-100-euro",
+    "name": "Heißluftfritteusen unter 100 Euro",
+    "categoryNameCanonical": "Heißluftfritteusen unter 100 Euro",
+    "description": "Entdecken Sie preisgünstige Einsteigermodelle und Angebote für budgetbewusste Käufer.",
     "subcategories": [
       {
-        "slug": "augenmassagegeraete-mit-waermefunktion",
-        "name": "Augenmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Augenmassagegeräte mit Wärmefunktion",
-        "description": "Modelle mit sanfter Wärme zur Linderung von trockenen und müden Augen."
+        "slug": "kompakte-einstiegsmodelle",
+        "name": "Kompakte Einstiegsmodelle",
+        "categoryNameCanonical": "Kompakte Einstiegsmodelle",
+        "description": "Kleine und einfache Geräte, ideal zum Ausprobieren der Heißluftfritteusen-Technologie."
       },
       {
-        "slug": "augenmassagegeraete-mit-bluetooth",
-        "name": "Augenmassagegeräte mit Bluetooth-Musik",
-        "categoryNameCanonical": "Augenmassagegeräte mit Bluetooth-Musik",
-        "description": "Geräte, die sich mit dem Smartphone verbinden, um entspannende Musik abzuspielen."
+        "slug": "analoge-heissluftfritteusen",
+        "name": "Analoge Heißluftfritteusen",
+        "categoryNameCanonical": "Analoge Heißluftfritteusen",
+        "description": "Zuverlässige Modelle mit manueller Steuerung über Drehregler für Temperatur und Zeit."
       },
       {
-        "slug": "faltbare-augenmassagegeraete",
-        "name": "Faltbare Augenmassagegeräte für Reisen",
-        "categoryNameCanonical": "Faltbare Augenmassagegeräte für Reisen",
-        "description": "Kompakte Designs, die sich leicht transportieren lassen."
+        "slug": "angebote-und-reduzierte-markengeraete",
+        "name": "Angebote und reduzierte Markengeräte",
+        "categoryNameCanonical": "Angebote und reduzierte Markengeräte",
+        "description": "Finden Sie Markengeräte von Vorjahresmodellen zu einem reduzierten Preis."
       }
     ]
   },
   {
-    "slug": "massagekerzen",
-    "name": "Massagekerzen",
-    "categoryNameCanonical": "Massagekerzen",
-    "description": "Kerzen aus speziellen Wachsen und Ölen, die nach dem Anzünden schmelzen und als warmes Massageöl verwendet werden.",
+    "slug": "heissluftfritteusen-nach-farbe",
+    "name": "Heißluftfritteusen nach Farbe",
+    "categoryNameCanonical": "Heißluftfritteusen nach Farbe",
+    "description": "Wählen Sie eine Heißluftfritteuse, die perfekt zum Stil und Design Ihrer Küche passt.",
     "subcategories": [
       {
-        "slug": "massagekerzen-mit-sheabutter",
-        "name": "Massagekerzen mit Sheabutter & Kakaobutter",
-        "categoryNameCanonical": "Massagekerzen mit Sheabutter & Kakaobutter",
-        "description": "Besonders pflegende Kerzen für trockene Haut."
+        "slug": "schwarze-heissluftfritteusen",
+        "name": "Schwarze Heißluftfritteusen",
+        "categoryNameCanonical": "Schwarze Heißluftfritteusen",
+        "description": "Klassische und moderne schwarze Modelle, die in jede Küche passen."
       },
       {
-        "slug": "aphrodisierende-massagekerzen",
-        "name": "Aphrodisierende Massagekerzen",
-        "categoryNameCanonical": "Aphrodisierende Massagekerzen",
-        "description": "Kerzen mit anregenden Düften wie Ylang-Ylang oder Sandelholz."
+        "slug": "edelstahl-heissluftfritteusen",
+        "name": "Edelstahl-Heißluftfritteusen",
+        "categoryNameCanonical": "Edelstahl-Heißluftfritteusen",
+        "description": "Elegante Geräte im Edelstahl-Look für eine hochwertige Optik."
       },
       {
-        "slug": "entspannende-massagekerzen-mit-lavendel",
-        "name": "Entspannende Massagekerzen mit Lavendel",
-        "categoryNameCanonical": "Entspannende Massagekerzen mit Lavendel",
-        "description": "Beruhigende Duftkompositionen für eine Relax-Massage."
-      }
-    ]
-  },
-  {
-    "slug": "massage-geschenksets",
-    "name": "Massage-Geschenksets",
-    "categoryNameCanonical": "Massage-Geschenksets",
-    "description": "Sorgfältig zusammengestellte Sets mit Massageölen, Werkzeugen und Zubehör, ideal als Geschenk.",
-    "subcategories": [
-      {
-        "slug": "geschenksets-fuer-paare",
-        "name": "Geschenksets für die Partnermassage",
-        "categoryNameCanonical": "Geschenksets für die Partnermassage",
-        "description": "Sets mit sinnlichen Ölen und Anleitungen für zwei Personen."
+        "slug": "weisse-heissluftfritteusen",
+        "name": "Weiße Heißluftfritteusen",
+        "categoryNameCanonical": "Weiße Heißluftfritteusen",
+        "description": "Helle und freundliche Modelle, die einen sauberen Look schaffen."
       },
       {
-        "slug": "wellness-geschenksets",
-        "name": "Wellness-Geschenksets mit Öl & Massagetool",
-        "categoryNameCanonical": "Wellness-Geschenksets mit Öl & Massagetool",
-        "description": "Kombinationen aus entspannendem Öl und einem manuellen Massagegerät."
-      },
-      {
-        "slug": "sportler-geschenksets",
-        "name": "Geschenksets für Sportler",
-        "categoryNameCanonical": "Geschenksets für Sportler",
-        "description": "Sets mit regenerierenden Ölen und Faszienbällen oder -rollen."
-      }
-    ]
-  },
-  {
-    "slug": "reise-massagegeraete",
-    "name": "Reise-Massagegeräte",
-    "categoryNameCanonical": "Reise-Massagegeräte",
-    "description": "Kompakte, leichte und oft akkubetriebene Geräte, die speziell für den Einsatz unterwegs konzipiert sind.",
-    "subcategories": [
-      {
-        "slug": "mini-massagepistolen-fuer-reisen",
-        "name": "Mini-Massagepistolen",
-        "categoryNameCanonical": "Mini-Massagepistolen",
-        "description": "Besonders kleine und handliche Massagepistolen, passen in jedes Handgepäck."
-      },
-      {
-        "slug": "aufblasbare-nackenkissen-mit-massage",
-        "name": "Aufblasbare Nackenkissen mit Massagefunktion",
-        "categoryNameCanonical": "Aufblasbare Nackenkissen mit Massagefunktion",
-        "description": "Platzsparende Kissen mit integrierter Vibration für Flug- oder Zugreisen."
-      },
-      {
-        "slug": "usb-betriebene-massagegeraete",
-        "name": "USB-betriebene Massagekissen",
-        "categoryNameCanonical": "USB-betriebene Massagekissen",
-        "description": "Kleine Kissen, die über einen USB-Anschluss mit Strom versorgt werden."
-      }
-    ]
-  },
-  {
-    "slug": "massage-lehrbuecher",
-    "name": "Massage-Lehrbücher & Anleitungen",
-    "categoryNameCanonical": "Massage-Lehrbücher & Anleitungen",
-    "description": "Bücher, DVDs und Poster mit Anleitungen zu verschiedenen Massagetechniken und anatomischem Wissen.",
-    "subcategories": [
-      {
-        "slug": "buecher-ueber-klassische-massage",
-        "name": "Bücher über klassische Massage",
-        "categoryNameCanonical": "Bücher über klassische Massage",
-        "description": "Grundlagenwerke für die schwedische Massage und andere Basistechniken."
-      },
-      {
-        "slug": "buecher-ueber-partnermassage",
-        "name": "Bücher über Partnermassage",
-        "categoryNameCanonical": "Bücher über Partnermassage",
-        "description": "Anleitungen für Laien zur gegenseitigen Massage."
-      },
-      {
-        "slug": "anatomie-poster-fuer-masseure",
-        "name": "Anatomie-Poster der Muskulatur",
-        "categoryNameCanonical": "Anatomie-Poster der Muskulatur",
-        "description": "Visuelle Hilfsmittel mit Darstellungen des menschlichen Muskelapparats."
-      }
-    ]
-  },
-  {
-    "slug": "vibrationsplatten",
-    "name": "Vibrationsplatten",
-    "categoryNameCanonical": "Vibrationsplatten",
-    "description": "Trainingsgeräte, die durch Vibrationen die Muskulatur stimulieren und zur Entspannung beitragen können.",
-    "subcategories": [
-      {
-        "slug": "vibrationsplatten-mit-seitenalternierender-vibration",
-        "name": "Vibrationsplatten mit seitenalternierender Vibration",
-        "categoryNameCanonical": "Vibrationsplatten mit seitenalternierender Vibration",
-        "description": "Platten mit einer Wipp-Bewegung, die als besonders gelenkschonend gilt."
-      },
-      {
-        "slug": "vibrationsplatten-mit-trainingsbaendern",
-        "name": "Vibrationsplatten mit Trainingsbändern",
-        "categoryNameCanonical": "Vibrationsplatten mit Trainingsbändern",
-        "description": "Sets, die zusätzlich Widerstandsbänder für ein Ganzkörpertraining enthalten."
-      },
-      {
-        "slug": "kompakte-vibrationsplatten",
-        "name": "Kompakte Vibrationsplatten für zuhause",
-        "categoryNameCanonical": "Kompakte Vibrationsplatten für zuhause",
-        "description": "Platzsparende Modelle für das Training in den eigenen vier Wänden."
-      }
-    ]
-  },
-  {
-    "slug": "lymphdrainage-geraete",
-    "name": "Lymphdrainage-Geräte",
-    "categoryNameCanonical": "Lymphdrainage-Geräte",
-    "description": "Geräte mit Luftdruckmanschetten für Beine, Arme oder den Bauch zur Unterstützung des Lymphsystems.",
-    "subcategories": [
-      {
-        "slug": "lymphdrainage-geraete-fuer-beine",
-        "name": "Lymphdrainage-Geräte für die Beine",
-        "categoryNameCanonical": "Lymphdrainage-Geräte für die Beine",
-        "description": "Manschetten, die die Beine umschließen und durch wechselnden Druck massieren."
-      },
-      {
-        "slug": "lymphdrainage-geraete-komplettsets",
-        "name": "Lymphdrainage-Geräte als Komplettset",
-        "categoryNameCanonical": "Lymphdrainage-Geräte als Komplettset",
-        "description": "Sets mit Manschetten für Beine, Arme und Bauch."
-      },
-      {
-        "slug": "manuelle-lymphdrainage-roller",
-        "name": "Manuelle Roller für die Lymphdrainage",
-        "categoryNameCanonical": "Manuelle Roller für die Lymphdrainage",
-        "description": "Holzroller oder andere manuelle Tools zur Anregung des Lymphflusses."
-      }
-    ]
-  },
-  {
-    "slug": "sportmassage-geraete",
-    "name": "Sportmassage-Geräte",
-    "categoryNameCanonical": "Sportmassage-Geräte",
-    "description": "Spezialisierte Geräte zur Regeneration nach dem Sport, zur Leistungssteigerung und zur Behandlung von Sportverletzungen.",
-    "subcategories": [
-      {
-        "slug": "massagepistolen-fuer-sportler",
-        "name": "Massagepistolen für Sportler",
-        "categoryNameCanonical": "Massagepistolen für Sportler",
-        "description": "Leistungsstarke Perkussionsgeräte zur schnellen Muskelregeneration."
-      },
-      {
-        "slug": "kompressionsstiefel-recovery-boots",
-        "name": "Kompressionsstiefel (Recovery Boots)",
-        "categoryNameCanonical": "Kompressionsstiefel (Recovery Boots)",
-        "description": "Luftdruckmanschetten für die Beine, die die Regeneration beschleunigen."
-      },
-      {
-        "slug": "vibrations-faszienrollen",
-        "name": "Faszienrollen mit Vibration",
-        "categoryNameCanonical": "Faszienrollen mit Vibration",
-        "description": "Kombination aus Faszientraining und Vibration für intensive Ergebnisse."
-      }
-    ]
-  },
-  {
-    "slug": "massage-zubehoer",
-    "name": "Massagezubehör",
-    "categoryNameCanonical": "Massagezubehör",
-    "description": "Praktische Hilfsmittel und Verbrauchsmaterialien für die professionelle und private Massageanwendung.",
-    "subcategories": [
-      {
-        "slug": "kopfstuetzen-und-polster",
-        "name": "Kopfstützen & Lagerungspolster",
-        "categoryNameCanonical": "Kopfstützen & Lagerungspolster",
-        "description": "Ergonomische Kissen und Rollen zur komfortablen Lagerung während der Massage."
-      },
-      {
-        "slug": "tragetaschen-fuer-massageliegen",
-        "name": "Tragetaschen für Massageliegen",
-        "categoryNameCanonical": "Tragetaschen für Massageliegen",
-        "description": "Robuste Taschen zum Schutz und Transport von mobilen Massageliegen."
-      },
-      {
-        "slug": "oelwaermer-und-dispenser",
-        "name": "Ölwärmer & Dispenser",
-        "categoryNameCanonical": "Ölwärmer & Dispenser",
-        "description": "Geräte zum Erwärmen von Massageöl und praktische Spenderflaschen."
+        "slug": "farbige-heissluftfritteusen-rot-creme",
+        "name": "Farbige Heißluftfritteusen (z.B. Rot, Creme)",
+        "categoryNameCanonical": "Farbige Heißluftfritteusen (z.B. Rot, Creme)",
+        "description": "Setzen Sie einen Farbakzent in Ihrer Küche mit einem Gerät in Ihrer Lieblingsfarbe."
       }
     ]
   }
