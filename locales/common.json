@@ -1,41 +1,37 @@
 {
-  "siteConfig": {
-    "language": "de",
-    "locale": "de-DE"
-  },
   "categories": {
-    "title": "Massagegeräte-Kategorien",
+    "title": "LED-Lampen-Kategorien",
     "hero": {
-      "title": "Finden Sie das perfekte Massagegerät für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Massagegeräten"
+      "title": "Finden Sie die perfekte LED-Lampe für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen LED-Lampen"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Massagegeräte-Kategorien",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, das perfekte Massagegerät zu finden"
+    "subtitle": "Erkunden Sie unsere spezialisierten LED-Lampen-Kategorien",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte LED-Lampe zu finden"
   },
-  "siteName": "Ihr perfektes Massagegerät",
-  "companyName": "Massagegeräte GmbH",
-  "products": "Massagegeräte",
-  "productNotFound": "Massagegerät nicht gefunden",
+  "siteName": "Ihre perfekte LED-Lampe",
+  "companyName": "LED-Lampen GmbH",
+  "products": "LED-Lampen",
+  "productNotFound": "LED-Lampe nicht gefunden",
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Massagegeräten zu beantworten",
+    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren LED-Lampen zu beantworten",
     "faq": {
       "title": "Häufig gestellte Fragen",
       "categoryTitle": "Häufig gestellte Fragen",
-      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Massagegeräten, Lieferung, Rücksendungen und mehr.",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren LED-Lampen, Lieferung, Rücksendungen und mehr.",
       "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
       "contactTeam": "Kontaktieren Sie unser Team",
       "sendEmail": "E-Mail senden",
       "questions": [
         {
           "id": "1",
-          "question": "Wie lange hält die Qualität von Massagegeräten?",
-          "answer": "Unsere Massagegeräte sind langlebig gebaut und können je nach Modell 3 bis 10 Jahre halten. Sie sind für effiziente Entspannung optimiert und garantieren bei jeder Nutzung hervorragende Massageergebnisse."
+          "question": "Wie lange hält die Qualität von LED-Lampen?",
+          "answer": "Unsere LED-Lampen sind langlebig gebaut und können je nach Modell 15.000 bis 50.000 Stunden halten. Sie sind für energieeffiziente Beleuchtung optimiert und garantieren bei jeder Nutzung hervorragende Lichtqualität."
         },
         {
           "id": "2",
-          "question": "Sind die Massagegeräte sicher?",
-          "answer": "Absolut. Alle unsere Massagegeräte entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über hochwertige Materialien, robuste Konstruktion und geprüfte Sicherheitsmerkmale."
+          "question": "Sind die LED-Lampen sicher?",
+          "answer": "Absolut. Alle unsere LED-Lampen entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über hochwertige Materialien, robuste Konstruktion und geprüfte Sicherheitsmerkmale."
         },
         {
           "id": "3",
@@ -44,28 +40,28 @@
         },
         {
           "id": "4",
-          "question": "Kann ich Massagegeräte zurückgeben, wenn ich nicht zufrieden bin?",
-          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie das Massagegerät in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+          "question": "Kann ich LED-Lampen zurückgeben, wenn ich nicht zufrieden bin?",
+          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die LED-Lampe in der Originalverpackung für eine volle Rückerstattung zurücksenden."
         },
         {
           "id": "5",
-          "question": "Wie bediene ich die Massagegeräte?",
-          "answer": "Unsere Massagegeräte sind sehr einfach zu bedienen. Sie müssen das Massagegerät nur einschalten, die gewünschte Intensität wählen und die Entspannung genießen. Nach der Massage schalten Sie es einfach aus. Ein Timer zeigt die verbleibende Massagezeit an."
+          "question": "Wie bediene ich die LED-Lampen?",
+          "answer": "Unsere LED-Lampen sind sehr einfach zu bedienen. Sie müssen die LED-Lampe nur einschalten und die gewünschte Helligkeit wählen. Viele Modelle bieten dimmbare Funktionen und verschiedene Lichtmodi. Einige haben auch Timer-Funktionen für automatisches Ein- und Ausschalten."
         },
         {
           "id": "6",
-          "question": "Welche Intensitätsstufen gibt es?",
-          "answer": "Die meisten unserer Massagegeräte bieten verschiedene Intensitätsstufen von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstintensität ist für perfekte Entspannung in allen Bereichen optimiert."
+          "question": "Welche Helligkeitsstufen gibt es?",
+          "answer": "Die meisten unserer LED-Lampen bieten verschiedene Helligkeitsstufen von gedimmt bis hell, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Dimmung. Die maximale Helligkeit ist für perfekte Beleuchtung in allen Bereichen optimiert."
         },
         {
           "id": "7",
-          "question": "Gibt es eine Garantie auf die Massagegeräte?",
-          "answer": "Alle unsere Massagegeräte haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+          "question": "Gibt es eine Garantie auf die LED-Lampen?",
+          "answer": "Alle unsere LED-Lampen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
         },
         {
           "id": "8",
-          "question": "Wie reinige und pflege ich meine Massagegeräte?",
-          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Massageaufsätze können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Massagegeräte regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+          "question": "Wie reinige und pflege ich meine LED-Lampen?",
+          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, trockenes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien und Wasser. Die Lampenschirme können mit einem trockenen Tuch gereinigt werden. Überprüfen Sie die LED-Lampen regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
         }
       ],
       "deliveryTime": {
@@ -74,11 +70,11 @@
       },
       "returns": {
         "question": "Wie lautet die Rückgabepolitik?",
-        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Massagegeräte in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre LED-Lampen in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
       },
       "warranty": {
         "question": "Welche Garantie haben die Massagegeräte?",
-        "answer": "Alle unsere Massagegeräte haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        "answer": "Alle unsere LED-Lampen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
       },
       "payment": {
         "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -110,13 +106,13 @@
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere Massagegeräte, die Sie interessieren könnten",
-    "ourShop": "kaufen-massage.de"
+    "alsoLikeSubtitle": "Andere LED-Lampen, die Sie interessieren könnten",
+    "ourShop": "ledlampe-kaufen.de"
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Massagegeräte!",
-      "subtitle": "Effiziente und präzise Entspannung. Qualität und Leistung garantiert.",
+      "title": "Perfekte LED-Lampen!",
+      "subtitle": "Energieeffiziente und präzise Beleuchtung. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -128,16 +124,16 @@
     },
     "features": {
       "quality": {
-        "title": "Präzise Entspannung",
-        "description": "Bis zu 99,9 % Entspannungseffekt. Perfekt für außergewöhnliche Massageergebnisse ohne Kompromisse."
+        "title": "Präzise Beleuchtung",
+        "description": "Bis zu 99,9 % Energieeffizienz. Perfekt für außergewöhnliche Lichtqualität ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Steuerung",
-        "description": "Präzise Intensitätssteuerung von sanft bis intensiv. Passt die Massage an jede Körperregion an."
+        "description": "Präzise Helligkeitssteuerung von gedimmt bis hell. Passt die Beleuchtung an jeden Raum an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360°-Massage-Technologie. Gleichbleibende Qualität und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360°-Beleuchtungstechnologie. Gleichbleibende Qualität und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium-Kundenservice",
@@ -148,58 +144,60 @@
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfekte Massagegeräte!",
-        "subtitle": "Effiziente und präzise Entspannung. Qualität und Leistung garantiert.",
-        "loading": "Ihr Massagegerät wird geladen...",
+        "title": "Perfekte LED-Lampen!",
+        "subtitle": "Energieeffiziente und präzise Beleuchtung. Qualität und Leistung garantiert.",
+        "loading": "Ihre LED-Lampe wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Massagegeräte machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für LED-Lampen machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Massagegeräte höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Entspannung."
+        "description": "LED-Lampen höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Energieeffizienz."
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Spezialisiertes Kundenserviceteam für Massagegeräte. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Spezialisiertes Kundenserviceteam für LED-Lampen. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
     }
   },
   "metadata": {
-    "title": "Massagegeräte kaufen - Die besten Massagegeräte im Vergleich",
-    "description": "Entdecken Sie die besten Massagegeräte mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
+    "title": "LED-Lampen kaufen - Die besten LED-Lampen im Vergleich",
+    "description": "Entdecken Sie die besten LED-Lampen mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
   },
   "siteConfig": {
+    "language": "de",
+    "locale": "de-DE",
     "site": {
-      "name": "Massagegeräte",
-      "description": "Finden Sie das perfekte Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
-      "url": "https://kaufen-massage.de",
+      "name": "LED-Lampen",
+      "description": "Finden Sie die perfekte LED-Lampe. Große Auswahl an LED-Lampen, LED-Strahlern und Beleuchtungsprodukten. Unglaubliche Preise und schneller Versand!",
+      "url": "https://ledlampe-kaufen.de",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Massagegeräte - Massagegeräte und Wellness-Produkte",
-      "titleTemplate": "%s | Massagegeräte",
-      "defaultDescription": "Finden Sie das perfekte Massagegerät. Große Auswahl an Massagegeräten, Massagepistolen und Wellness-Produkten. Unglaubliche Preise und schneller Versand!",
+      "defaultTitle": "LED-Lampen - LED-Lampen und Beleuchtungsprodukte",
+      "titleTemplate": "%s | LED-Lampen",
+      "defaultDescription": "Finden Sie die perfekte LED-Lampe. Große Auswahl an LED-Lampen, LED-Strahlern und Beleuchtungsprodukten. Unglaubliche Preise und schneller Versand!",
       "keywords": [
-        "Massagegeräte",
-        "Massagepistolen",
-        "Wellness",
-        "Massagegeräte kaufen",
-        "Massagegeräte-Angebote",
-        "Günstige Massagegeräte",
-        "Beste Massagegeräte",
-        "Professionelle Massagegeräte",
-        "Elektrische Massagegeräte"
+        "LED-Lampen",
+        "LED-Strahler",
+        "Beleuchtung",
+        "LED-Lampen kaufen",
+        "LED-Lampen-Angebote",
+        "Günstige LED-Lampen",
+        "Beste LED-Lampen",
+        "Professionelle LED-Lampen",
+        "Energieeffiziente LED-Lampen"
       ],
-      "ogImage": "/og-image-massage.jpg"
+      "ogImage": "/og-image-led.jpg"
     },
     "business": {
-      "email": "info@kaufen-massage.de",
+      "email": "info@ledlampe-kaufen.de",
       "phone": "+49 30 12345678",
-      "address": "Wellnessstraße 1, 10115 Berlin, Deutschland",
+      "address": "Beleuchtungsstraße 1, 10115 Berlin, Deutschland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -207,7 +205,7 @@
       }
     },
     "affiliate": {
-      "amazonTag": "massage-21",
+      "amazonTag": "ledlampe-21",
       "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
     },
     "features": {

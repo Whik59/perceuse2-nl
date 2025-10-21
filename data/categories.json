@@ -1,799 +1,711 @@
 [
   {
-    "slug": "massagepistolen",
-    "name": "Massagepistolen",
-    "categoryNameCanonical": "Massagepistolen",
-    "description": "Leistungsstarke Perkussionsmassagegeräte zur Tiefenmuskelentspannung, ideal für Sportler und zur Regeneration.",
+    "slug": "led-deckenlampen",
+    "name": "LED Deckenlampen",
+    "categoryNameCanonical": "LED Deckenlampen",
+    "description": "Deckenmontierte LED-Leuchten für die Allgemeinbeleuchtung in Wohnzimmer, Schlafzimmer und Flur. Fokus auf dimmbare, smarte und flache Modelle.",
     "subcategories": [
       {
-        "slug": "mini-massagepistolen",
-        "name": "Mini-Massagepistolen für Reisen",
-        "categoryNameCanonical": "Mini-Massagepistolen für Reisen",
-        "description": "Kompakte und leichte Massagepistolen, perfekt für den Einsatz unterwegs."
+        "slug": "dimmbare-led-deckenlampen",
+        "name": "Dimmbare LED Deckenlampen",
+        "categoryNameCanonical": "Dimmbare LED Deckenlampen",
+        "description": "Deckenleuchten, deren Helligkeit stufenlos oder in Stufen regelbar ist, oft per Fernbedienung oder Wandschalter."
       },
       {
-        "slug": "massagepistolen-mit-heizfunktion",
-        "name": "Massagepistolen mit Heizfunktion",
-        "categoryNameCanonical": "Massagepistolen mit Heizfunktion",
-        "description": "Geräte mit integrierter Wärmefunktion zur zusätzlichen Muskelentspannung."
+        "slug": "led-deckenlampen-mit-fernbedienung",
+        "name": "LED Deckenlampen mit Fernbedienung",
+        "categoryNameCanonical": "LED Deckenlampen mit Fernbedienung",
+        "description": "Komfortable Steuerung von Helligkeit und Farbtemperatur vom Sofa aus."
       },
       {
-        "slug": "profi-massagepistolen",
-        "name": "Profi-Massagepistolen mit hoher Leistung",
-        "categoryNameCanonical": "Profi-Massagepistolen mit hoher Leistung",
-        "description": "Besonders kraftvolle Geräte mit hoher Amplitude für den professionellen Einsatz."
+        "slug": "flache-led-deckenlampen-panel",
+        "name": "Flache LED Deckenlampen & Panels",
+        "categoryNameCanonical": "Flache LED Deckenlampen & Panels",
+        "description": "Moderne und minimalistische Panels für eine gleichmäßige Ausleuchtung, ideal für niedrige Decken."
       },
       {
-        "slug": "massagepistolen-mit-mehreren-aufsaetzen",
-        "name": "Massagepistolen mit mehreren Aufsätzen",
-        "categoryNameCanonical": "Massagepistolen mit mehreren Aufsätzen",
-        "description": "Sets inklusive verschiedener Aufsätze für unterschiedliche Muskelgruppen."
+        "slug": "led-deckenlampen-fuer-badezimmer",
+        "name": "LED Deckenlampen für Badezimmer",
+        "categoryNameCanonical": "LED Deckenlampen für Badezimmer",
+        "description": "Feuchtraumgeeignete Leuchten mit IP44-Schutzart oder höher für den sicheren Einsatz im Bad."
       }
     ]
   },
   {
-    "slug": "nacken-und-schultermassagegeraete",
-    "name": "Nacken- & Schultermassagegeräte",
-    "categoryNameCanonical": "Nacken- & Schultermassagegeräte",
-    "description": "Spezialisierte Geräte zur Linderung von Verspannungen im Nacken- und Schulterbereich, oft mit Shiatsu- und Wärmefunktion.",
+    "slug": "led-wandlampen",
+    "name": "LED Wandlampen",
+    "categoryNameCanonical": "LED Wandlampen",
+    "description": "Wandmontierte LED-Leuchten für Akzentbeleuchtung oder als Leseleuchte im Schlafzimmer und Flur.",
     "subcategories": [
       {
-        "slug": "shiatsu-nackenmassagegeraete",
-        "name": "Shiatsu-Nackenmassagegeräte",
-        "categoryNameCanonical": "Shiatsu-Nackenmassagegeräte",
-        "description": "Geräte, die die Knetbewegung einer Shiatsu-Massage imitieren."
+        "slug": "led-wandlampen-fuer-aussen",
+        "name": "LED Wandlampen für Außen",
+        "categoryNameCanonical": "LED Wandlampen für Außen",
+        "description": "Wetterfeste Wandleuchten für Fassaden, Eingänge und Terrassen, oft mit Bewegungsmelder."
       },
       {
-        "slug": "nackenmassagegeraete-mit-waermefunktion",
-        "name": "Nackenmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Nackenmassagegeräte mit Wärmefunktion",
-        "description": "Modelle mit zuschaltbarer Infrarotwärme für tiefere Entspannung."
+        "slug": "akku-led-wandlampen",
+        "name": "Akku LED Wandlampen",
+        "categoryNameCanonical": "Akku LED Wandlampen",
+        "description": "Kabellose, wiederaufladbare Wandleuchten für flexible Installation ohne Stromanschluss."
       },
       {
-        "slug": "kabellose-nackenmassagegeraete",
-        "name": "Kabellose Nackenmassagegeräte",
-        "categoryNameCanonical": "Kabellose Nackenmassagegeräte",
-        "description": "Akkubetriebene Geräte für maximale Flexibilität und Nutzung an jedem Ort."
+        "slug": "led-wandlampen-mit-schalter",
+        "name": "LED Wandlampen mit Schalter",
+        "categoryNameCanonical": "LED Wandlampen mit Schalter",
+        "description": "Praktische Leseleuchten und Bettlampen mit integriertem Schalter für einfache Bedienung."
+      },
+      {
+        "slug": "led-up-down-wandleuchten",
+        "name": "LED Up & Down Wandleuchten",
+        "categoryNameCanonical": "LED Up & Down Wandleuchten",
+        "description": "Erzeugen dekorative Lichtkegel nach oben und unten zur Akzentuierung von Wänden."
       }
     ]
   },
   {
-    "slug": "rueckenmassagegeraete",
-    "name": "Rückenmassagegeräte",
-    "categoryNameCanonical": "Rückenmassagegeräte",
-    "description": "Vielfältige Geräte zur Massage des gesamten Rückens, von Massageauflagen bis zu handgeführten Modellen.",
+    "slug": "led-tischlampen",
+    "name": "LED Tischlampen",
+    "categoryNameCanonical": "LED Tischlampen",
+    "description": "Tragbare und stationäre LED-Leuchten für Schreibtische, Nachttische und Beistelltische.",
     "subcategories": [
       {
-        "slug": "shiatsu-massageauflagen-fuer-stuehle",
-        "name": "Shiatsu-Massageauflagen für Stühle",
-        "categoryNameCanonical": "Shiatsu-Massageauflagen für Stühle",
-        "description": "Auflagen zur Anbringung an Büro- oder Wohnzimmerstühlen."
+        "slug": "akku-led-tischlampen",
+        "name": "Akku LED Tischlampen",
+        "categoryNameCanonical": "Akku LED Tischlampen",
+        "description": "Kabellose, aufladbare Tischleuchten für den flexiblen Einsatz im Innen- und Außenbereich."
       },
       {
-        "slug": "massageguertel-fuer-den-unteren-ruecken",
-        "name": "Massagegürtel für den unteren Rücken",
-        "categoryNameCanonical": "Massagegürtel für den unteren Rücken",
-        "description": "Gürtel mit Vibrations- und Wärmefunktion speziell für den Lendenbereich."
+        "slug": "dimmbare-led-tischlampen",
+        "name": "Dimmbare LED Tischlampen",
+        "categoryNameCanonical": "Dimmbare LED Tischlampen",
+        "description": "Nachttisch- und Wohnzimmerlampen mit einstellbarer Helligkeit für die perfekte Atmosphäre."
       },
       {
-        "slug": "manuelle-rueckenmassagegeraete",
-        "name": "Manuelle Rückenmassagehilfen",
-        "categoryNameCanonical": "Manuelle Rückenmassagehilfen",
-        "description": "Haken, Rollen und andere Werkzeuge zur Selbstmassage schwer erreichbarer Stellen."
+        "slug": "led-tischlampen-mit-induktionsladung",
+        "name": "LED Tischlampen mit Induktionsladung",
+        "categoryNameCanonical": "LED Tischlampen mit Induktionsladung",
+        "description": "Moderne Schreibtischlampen mit integrierter Qi-Ladefläche für Smartphones."
       }
     ]
   },
   {
-    "slug": "fussmassagegeraete",
-    "name": "Fußmassagegeräte",
-    "categoryNameCanonical": "Fußmassagegeräte",
-    "description": "Elektrische Geräte zur Entspannung müder Füße durch Shiatsu, Luftkompression oder Vibration.",
+    "slug": "led-schreibtischlampen",
+    "name": "LED Schreibtischlampen",
+    "categoryNameCanonical": "LED Schreibtischlampen",
+    "description": "Funktionale Beleuchtung für den Arbeitsplatz, oft mit verstellbarem Arm und einstellbarer Farbtemperatur.",
     "subcategories": [
       {
-        "slug": "fussmassagegeraete-mit-waermefunktion",
-        "name": "Fußmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Fußmassagegeräte mit Wärmefunktion",
-        "description": "Geräte mit integrierter Heizung zur Förderung der Durchblutung."
+        "slug": "led-schreibtischlampen-dimmbar",
+        "name": "LED Schreibtischlampen Dimmbar",
+        "categoryNameCanonical": "LED Schreibtischlampen Dimmbar",
+        "description": "Anpassbare Helligkeit zur Vermeidung von Blendung und zur Konzentrationsförderung."
       },
       {
-        "slug": "fussmassagegeraete-mit-luftkompression",
-        "name": "Fußmassagegeräte mit Luftkompression",
-        "categoryNameCanonical": "Fußmassagegeräte mit Luftkompression",
-        "description": "Modelle, die mit Luftkissen arbeiten, um die Füße sanft zu komprimieren."
+        "slug": "led-schreibtischlampen-mit-usb-anschluss",
+        "name": "LED Schreibtischlampen mit USB-Anschluss",
+        "categoryNameCanonical": "LED Schreibtischlampen mit USB-Anschluss",
+        "description": "Praktische Lampen mit integriertem USB-Port zum Laden von Geräten direkt am Arbeitsplatz."
       },
       {
-        "slug": "fussreflexzonen-massagegeraete",
-        "name": "Fußreflexzonen-Massagegeräte",
-        "categoryNameCanonical": "Fußreflexzonen-Massagegeräte",
-        "description": "Spezielle Geräte zur Stimulierung der Fußreflexzonen."
+        "slug": "klemmbare-led-schreibtischlampen",
+        "name": "Klemmbare LED Schreibtischlampen",
+        "categoryNameCanonical": "Klemmbare LED Schreibtischlampen",
+        "description": "Platzsparende Lampen, die direkt an der Tischplatte oder am Regal befestigt werden."
       }
     ]
   },
   {
-    "slug": "handmassagegeraete",
-    "name": "Handmassagegeräte",
-    "categoryNameCanonical": "Handmassagegeräte",
-    "description": "Vielseitige, elektrisch betriebene Geräte für die gezielte Anwendung an verschiedenen Körperstellen.",
+    "slug": "led-stehlampen",
+    "name": "LED Stehlampen",
+    "categoryNameCanonical": "LED Stehlampen",
+    "description": "Bodenstehende Leuchten für die Wohnzimmer- und Lese-Eckenbeleuchtung, oft mit Dimmfunktion.",
     "subcategories": [
       {
-        "slug": "infrarot-handmassagegeraete",
-        "name": "Infrarot-Handmassagegeräte",
-        "categoryNameCanonical": "Infrarot-Handmassagegeräte",
-        "description": "Handgeräte, die wohltuende Infrarotwärme abgeben."
+        "slug": "led-stehlampen-dimmbar",
+        "name": "LED Stehlampen Dimmbar",
+        "categoryNameCanonical": "LED Stehlampen Dimmbar",
+        "description": "Stufenlos regelbare Stehleuchten für eine stimmungsvolle Raumbeleuchtung."
       },
       {
-        "slug": "perkussions-handmassagegeraete",
-        "name": "Perkussions-Handmassagegeräte",
-        "categoryNameCanonical": "Perkussions-Handmassagegeräte",
-        "description": "Klopffunktion für eine intensive Tiefenmassage."
+        "slug": "led-deckenfluter",
+        "name": "LED Deckenfluter",
+        "categoryNameCanonical": "LED Deckenfluter",
+        "description": "Stehlampen, die indirektes Licht an die Decke werfen, oft mit zusätzlicher Leseleuchte."
       },
       {
-        "slug": "kabellose-handmassagegeraete",
-        "name": "Kabellose Handmassagegeräte",
-        "categoryNameCanonical": "Kabellose Handmassagegeräte",
-        "description": "Akkubetriebene Modelle für den flexiblen Einsatz ohne Kabel."
+        "slug": "bogenlampen-led",
+        "name": "Bogenlampen LED",
+        "categoryNameCanonical": "Bogenlampen LED",
+        "description": "Moderne Stehleuchten mit ausladendem Bogen, ideal zur Beleuchtung von Couchtischen."
       }
     ]
   },
   {
-    "slug": "massagesessel",
-    "name": "Massagesessel",
-    "categoryNameCanonical": "Massagesessel",
-    "description": "Hochwertige Sessel für eine Ganzkörpermassage, oft mit Zero-Gravity-Funktion und verschiedenen Automatikprogrammen.",
+    "slug": "led-aussenleuchten",
+    "name": "LED Außenleuchten",
+    "categoryNameCanonical": "LED Außenleuchten",
+    "description": "Wetterfeste LED-Beleuchtung für Garten, Terrasse, Einfahrt und Hausfassade.",
     "subcategories": [
       {
-        "slug": "massagesessel-mit-shiatsu-funktion",
-        "name": "Massagesessel mit Shiatsu-Funktion",
-        "categoryNameCanonical": "Massagesessel mit Shiatsu-Funktion",
-        "description": "Sessel, die eine authentische Shiatsu-Knetmassage bieten."
+        "slug": "led-aussenleuchten-mit-bewegungsmelder",
+        "name": "LED Außenleuchten mit Bewegungsmelder",
+        "categoryNameCanonical": "LED Außenleuchten mit Bewegungsmelder",
+        "description": "Sicherheitsleuchten, die sich bei Bewegung automatisch einschalten."
       },
       {
-        "slug": "massagesessel-mit-zero-gravity",
-        "name": "Massagesessel mit Zero-Gravity-Position",
-        "categoryNameCanonical": "Massagesessel mit Zero-Gravity-Position",
-        "description": "Modelle, die den Körper in eine nahezu schwerelose Position bringen."
+        "slug": "solar-led-aussenleuchten",
+        "name": "Solar LED Außenleuchten",
+        "categoryNameCanonical": "Solar LED Außenleuchten",
+        "description": "Umweltfreundliche und stromnetzunabhängige Beleuchtung für den Garten."
       },
       {
-        "slug": "kompakte-massagesessel",
-        "name": "Kompakte Massagesessel für Wohnräume",
-        "categoryNameCanonical": "Kompakte Massagesessel für Wohnräume",
-        "description": "Platzsparende Modelle, die sich gut in das Wohnambiente integrieren."
+        "slug": "led-fluter-fuer-aussen",
+        "name": "LED Fluter für Außen",
+        "categoryNameCanonical": "LED Fluter für Außen",
+        "description": "Leistungsstarke Strahler zur großflächigen Ausleuchtung von Einfahrten und Grundstücken."
+      },
+      {
+        "slug": "led-wegleuchten-pollerleuchten",
+        "name": "LED Wegeleuchten & Pollerleuchten",
+        "categoryNameCanonical": "LED Wegeleuchten & Pollerleuchten",
+        "description": "Zur sicheren Beleuchtung von Gartenwegen, Einfahrten und Eingangsbereichen."
       }
     ]
   },
   {
-    "slug": "faszienrollen",
-    "name": "Faszienrollen",
-    "categoryNameCanonical": "Faszienrollen",
-    "description": "Rollen zur Selbstmassage des Bindegewebes (Faszien) zur Verbesserung der Flexibilität und Linderung von Muskelkater.",
+    "slug": "led-streifen",
+    "name": "LED Streifen",
+    "categoryNameCanonical": "LED Streifen",
+    "description": "Flexible LED-Bänder für indirekte und dekorative Beleuchtung in Wohnräumen, Küchen und hinter Möbeln.",
     "subcategories": [
       {
-        "slug": "faszienrollen-aus-hartschaum",
-        "name": "Faszienrollen aus Hartschaum",
-        "categoryNameCanonical": "Faszienrollen aus Hartschaum",
-        "description": "Standardrollen in verschiedenen Härtegraden für Einsteiger und Fortgeschrittene."
+        "slug": "led-streifen-mit-farbwechsel-rgb",
+        "name": "LED Streifen mit Farbwechsel (RGB/RGBW)",
+        "categoryNameCanonical": "LED Streifen mit Farbwechsel (RGB/RGBW)",
+        "description": "Mehrfarbige LED-Bänder zur Schaffung von Stimmungslicht, steuerbar per App oder Fernbedienung."
       },
       {
-        "slug": "faszienrollen-mit-vibration",
-        "name": "Faszienrollen mit Vibration",
-        "categoryNameCanonical": "Faszienrollen mit Vibration",
-        "description": "Elektrische Rollen mit zuschaltbarer Vibration für eine intensivere Wirkung."
+        "slug": "smarte-led-streifen-wlan",
+        "name": "Smarte LED Streifen (WLAN)",
+        "categoryNameCanonical": "Smarte LED Streifen (WLAN)",
+        "description": "In das Smart Home integrierbare Lichtbänder, kompatibel mit Alexa, Google Home und anderen Systemen."
       },
       {
-        "slug": "mini-faszienrollen",
-        "name": "Mini-Faszienrollen für Arme & Füße",
-        "categoryNameCanonical": "Mini-Faszienrollen für Arme & Füße",
-        "description": "Kleine Rollen zur gezielten Behandlung von kleineren Muskelgruppen."
+        "slug": "led-streifen-warmweiss",
+        "name": "LED Streifen Warmweiß",
+        "categoryNameCanonical": "LED Streifen Warmweiß",
+        "description": "Für eine gemütliche, indirekte Beleuchtung in Wohn- und Schlafzimmern."
       },
       {
-        "slug": "faszienrollen-aus-holz-oder-kork",
-        "name": "Faszienrollen aus Holz oder Kork",
-        "categoryNameCanonical": "Faszienrollen aus Holz oder Kork",
-        "description": "Nachhaltige und feste Alternativen zum klassischen Schaumstoff."
+        "slug": "led-streifen-komplettsets",
+        "name": "LED Streifen Komplettsets",
+        "categoryNameCanonical": "LED Streifen Komplettsets",
+        "description": "Beinhaltet LED-Band, Netzteil und Controller für eine einfache Installation."
       }
     ]
   },
   {
-    "slug": "massagebaelle",
-    "name": "Massagebälle",
-    "categoryNameCanonical": "Massagebälle",
-    "description": "Bälle zur punktuellen Massage von Triggerpunkten und schwer erreichbaren Muskelpartien.",
+    "slug": "led-unterbauleuchten",
+    "name": "LED Unterbauleuchten",
+    "categoryNameCanonical": "LED Unterbauleuchten",
+    "description": "Flache Leuchten für die Montage unter Küchenschränken, Regalen oder in Vitrinen zur Arbeitsflächenbeleuchtung.",
     "subcategories": [
       {
-        "slug": "igelbaelle-mit-noppen",
-        "name": "Igelbälle (Massagebälle mit Noppen)",
-        "categoryNameCanonical": "Igelbälle (Massagebälle mit Noppen)",
-        "description": "Bälle mit Stacheln zur Förderung der Durchblutung und Stimulation."
+        "slug": "akku-led-unterbauleuchten",
+        "name": "Akku LED Unterbauleuchten",
+        "categoryNameCanonical": "Akku LED Unterbauleuchten",
+        "description": "Kabellose, per USB aufladbare Leisten, ideal für Schränke und Schubladen."
       },
       {
-        "slug": "faszienbaelle-glatt",
-        "name": "Glatte Faszienbälle (Lacrosse-Bälle)",
-        "categoryNameCanonical": "Glatte Faszienbälle (Lacrosse-Bälle)",
-        "description": "Harte, glatte Bälle für eine intensive, punktuelle Tiefenmassage."
+        "slug": "led-unterbauleuchten-mit-sensor",
+        "name": "LED Unterbauleuchten mit Sensor",
+        "categoryNameCanonical": "LED Unterbauleuchten mit Sensor",
+        "description": "Schalten sich durch Handbewegung oder bei Öffnen der Schranktür automatisch ein."
       },
       {
-        "slug": "doppel-massagebaelle",
-        "name": "Doppel-Massagebälle (Duobälle)",
-        "categoryNameCanonical": "Doppel-Massagebälle (Duobälle)",
-        "description": "Zwei verbundene Bälle, ideal für die Massage entlang der Wirbelsäule."
+        "slug": "led-unterbauleuchten-sets",
+        "name": "LED Unterbauleuchten Sets",
+        "categoryNameCanonical": "LED Unterbauleuchten Sets",
+        "description": "Mehrere Leuchten, die miteinander verbunden und über ein Netzteil betrieben werden."
       }
     ]
   },
   {
-    "slug": "klappbare-massageliegen",
-    "name": "Klappbare Massageliegen",
-    "categoryNameCanonical": "Klappbare Massageliegen",
-    "description": "Mobile und transportable Massageliegen für Therapeuten, die Hausbesuche machen oder begrenzten Platz haben.",
+    "slug": "led-einbaustrahler",
+    "name": "LED Einbaustrahler",
+    "categoryNameCanonical": "LED Einbaustrahler",
+    "description": "In Decken oder Möbel eingelassene Spots für eine moderne und unauffällige Grundbeleuchtung.",
     "subcategories": [
       {
-        "slug": "massageliegen-aus-holz-klappbar",
-        "name": "Klappbare Massageliegen aus Holz",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Holz",
-        "description": "Stabile und ästhetisch ansprechende Holzkonstruktionen."
+        "slug": "led-einbaustrahler-dimmbar",
+        "name": "LED Einbaustrahler Dimmbar",
+        "categoryNameCanonical": "LED Einbaustrahler Dimmbar",
+        "description": "Spots mit regelbarer Helligkeit für eine flexible Lichtgestaltung."
       },
       {
-        "slug": "massageliegen-aus-aluminium-klappbar",
-        "name": "Klappbare Massageliegen aus Aluminium",
-        "categoryNameCanonical": "Klappbare Massageliegen aus Aluminium",
-        "description": "Besonders leichte Modelle für den einfachen Transport."
+        "slug": "flache-led-einbaustrahler",
+        "name": "Flache LED Einbaustrahler",
+        "categoryNameCanonical": "Flache LED Einbaustrahler",
+        "description": "Modelle mit geringer Einbautiefe, ideal für abgehängte Decken mit wenig Platz."
       },
       {
-        "slug": "massageliegen-komplettsets",
-        "name": "Klappbare Massageliegen als Komplettset",
-        "categoryNameCanonical": "Klappbare Massageliegen als Komplettset",
-        "description": "Sets inklusive Kopfstütze, Armlehnen und Tragetasche."
+        "slug": "led-einbaustrahler-fuer-badezimmer",
+        "name": "LED Einbaustrahler für Badezimmer (IP44/IP65)",
+        "categoryNameCanonical": "LED Einbaustrahler für Badezimmer (IP44/IP65)",
+        "description": "Spritzwassergeschützte Einbauspots für den sicheren Einsatz in Feuchträumen."
+      },
+      {
+        "slug": "led-einbaustrahler-sets",
+        "name": "LED Einbaustrahler Sets",
+        "categoryNameCanonical": "LED Einbaustrahler Sets",
+        "description": "Praktische Pakete mit mehreren Spots und passenden Trafos oder Treibern."
       }
     ]
   },
   {
-    "slug": "massagestuehle-fuer-therapeuten",
-    "name": "Massagestühle für Therapeuten",
-    "categoryNameCanonical": "Massagestühle für Therapeuten",
-    "description": "Ergonomische, mobile Stühle für die Massage im Sitzen, ideal für Events, Büros oder Messen.",
+    "slug": "led-nachtlichter",
+    "name": "LED Nachtlichter",
+    "categoryNameCanonical": "LED Nachtlichter",
+    "description": "Orientierungslichter mit geringer Helligkeit für Kinderzimmer, Flure und Schlafzimmer.",
     "subcategories": [
       {
-        "slug": "massagestuehle-aus-aluminium",
-        "name": "Massagestühle aus Aluminium",
-        "categoryNameCanonical": "Massagestühle aus Aluminium",
-        "description": "Leichte und robuste Stühle für den einfachen Transport und Aufbau."
+        "slug": "led-nachtlichter-fuer-steckdose",
+        "name": "LED Nachtlichter für Steckdose",
+        "categoryNameCanonical": "LED Nachtlichter für Steckdose",
+        "description": "Einfach in die Steckdose stecken für eine sofortige, sanfte Beleuchtung."
       },
       {
-        "slug": "massagestuehle-mit-tragetasche",
-        "name": "Massagestühle mit Tragetasche",
-        "categoryNameCanonical": "Massagestühle mit Tragetasche",
-        "description": "Modelle, die standardmäßig mit einer passenden Tasche geliefert werden."
+        "slug": "led-nachtlichter-mit-daemmerungssensor",
+        "name": "LED Nachtlichter mit Dämmerungssensor",
+        "categoryNameCanonical": "LED Nachtlichter mit Dämmerungssensor",
+        "description": "Schalten sich bei Dunkelheit automatisch ein und bei Helligkeit wieder aus."
       },
       {
-        "slug": "verstellbare-massagestuehle",
-        "name": "Voll verstellbare Massagestühle",
-        "categoryNameCanonical": "Voll verstellbare Massagestühle",
-        "description": "Stühle mit anpassbarer Sitzfläche, Arm- und Kopfstütze."
+        "slug": "akku-led-nachtlichter-fuer-kinder",
+        "name": "Akku LED Nachtlichter für Kinder",
+        "categoryNameCanonical": "Akku LED Nachtlichter für Kinder",
+        "description": "Tragbare und sichere Nachtlichter in kinderfreundlichen Designs, oft mit Farbwechsel."
       }
     ]
   },
   {
-    "slug": "massageliegenbezuege-und-tuecher",
-    "name": "Massageliegenbezüge & -tücher",
-    "categoryNameCanonical": "Massageliegenbezüge & -tücher",
-    "description": "Hygienische und komfortable Bezüge zum Schutz von Massageliegen und für das Wohlbefinden der Klienten.",
+    "slug": "led-pflanzenlampen",
+    "name": "LED Pflanzenlampen",
+    "categoryNameCanonical": "LED Pflanzenlampen",
+    "description": "Lampen mit speziellem Lichtspektrum zur Förderung des Pflanzenwachstums in Innenräumen.",
     "subcategories": [
       {
-        "slug": "einweg-massageliegenbezuege",
-        "name": "Einweg-Massageliegenbezüge auf Rolle",
-        "categoryNameCanonical": "Einweg-Massageliegenbezüge auf Rolle",
-        "description": "Hygienische Papier- oder Vliesrollen für den professionellen Einsatz."
+        "slug": "led-pflanzenlampen-vollspektrum",
+        "name": "LED Pflanzenlampen Vollspektrum",
+        "categoryNameCanonical": "LED Pflanzenlampen Vollspektrum",
+        "description": "Simulieren das natürliche Sonnenlicht für alle Wachstumsphasen der Pflanzen."
       },
       {
-        "slug": "waschbare-frottee-spannbezuege",
-        "name": "Waschbare Spannbezüge aus Frottee",
-        "categoryNameCanonical": "Waschbare Spannbezüge aus Frottee",
-        "description": "Wiederverwendbare und weiche Bezüge aus Baumwolle oder Frottee."
+        "slug": "led-pflanzenlampen-e27",
+        "name": "LED Pflanzenlampen E27",
+        "categoryNameCanonical": "LED Pflanzenlampen E27",
+        "description": "Leuchtmittel zum Einschrauben in Standardfassungen für die einfache Pflanzenbeleuchtung."
       },
       {
-        "slug": "oelfeste-massageliegenbezuege",
-        "name": "Ölfeste & abwischbare Schutzbezüge",
-        "categoryNameCanonical": "Ölfeste & abwischbare Schutzbezüge",
-        "description": "Bezüge aus PU-Material, die Massageöl abweisen und leicht zu reinigen sind."
+        "slug": "led-pflanzenlampen-mit-stativ",
+        "name": "LED Pflanzenlampen mit Stativ",
+        "categoryNameCanonical": "LED Pflanzenlampen mit Stativ",
+        "description": "Freistehende Beleuchtungslösungen für mehrere oder größere Zimmerpflanzen."
       }
     ]
   },
   {
-    "slug": "massageoele",
-    "name": "Massageöle",
-    "categoryNameCanonical": "Massageöle",
-    "description": "Pflanzliche und mineralische Öle, die die Haut pflegen und das Gleiten der Hände bei der Massage erleichtern.",
+    "slug": "smarte-led-lampen",
+    "name": "Smarte LED Lampen",
+    "categoryNameCanonical": "Smarte LED Lampen",
+    "description": "Per App, Sprache (Alexa, Google Assistant) oder Automation steuerbare Leuchten und Leuchtmittel.",
     "subcategories": [
       {
-        "slug": "massageoele-auf-mandeloelbasis",
-        "name": "Massageöle auf Mandelölbasis",
-        "categoryNameCanonical": "Massageöle auf Mandelölbasis",
-        "description": "Besonders hautfreundliche und gut verträgliche Basisöle."
+        "slug": "smarte-led-leuchtmittel",
+        "name": "Smarte LED Leuchtmittel (E27, E14, GU10)",
+        "categoryNameCanonical": "Smarte LED Leuchtmittel (E27, E14, GU10)",
+        "description": "Intelligente Glühbirnen zur Nachrüstung bestehender Leuchten."
       },
       {
-        "slug": "waermende-massageoele",
-        "name": "Wärmende Massageöle mit Arnika & Ingwer",
-        "categoryNameCanonical": "Wärmende Massageöle mit Arnika & Ingwer",
-        "description": "Öle mit durchblutungsfördernden Zusätzen, ideal für Sportmassagen."
+        "slug": "smarte-led-deckenleuchten",
+        "name": "Smarte LED Deckenleuchten",
+        "categoryNameCanonical": "Smarte LED Deckenleuchten",
+        "description": "Komplettleuchten mit integrierter smarter Technologie für die Hauptbeleuchtung."
       },
       {
-        "slug": "entspannende-massageoele",
-        "name": "Entspannende Massageöle mit Lavendel",
-        "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
-        "description": "Aromatische Öle zur Förderung von Ruhe und Entspannung."
+        "slug": "smarte-led-lichtleisten-streifen",
+        "name": "Smarte LED Lichtleisten & Streifen",
+        "categoryNameCanonical": "Smarte LED Lichtleisten & Streifen",
+        "description": "Flexible, smarte Bänder für Ambiente- und Akzentbeleuchtung."
       },
       {
-        "slug": "neutrale-massageoele-fuer-profis",
-        "name": "Neutrale Massageöle für Profis",
-        "categoryNameCanonical": "Neutrale Massageöle für Profis",
-        "description": "Geruchsneutrale und ergiebige Öle in Großgebinden für den Praxisbedarf."
+        "slug": "led-lampen-mit-wlan-zigbee",
+        "name": "LED Lampen mit WLAN & Zigbee",
+        "categoryNameCanonical": "LED Lampen mit WLAN & Zigbee",
+        "description": "Lampen, die über verschiedene Smart-Home-Protokolle kommunizieren."
       }
     ]
   },
   {
-    "slug": "massagelotionen-und-cremes",
-    "name": "Massagelotionen & -cremes",
-    "categoryNameCanonical": "Massagelotionen & -cremes",
-    "description": "Bieten eine Alternative zu Ölen, ziehen schneller ein und hinterlassen ein weniger fettiges Hautgefühl.",
+    "slug": "akku-led-lampen",
+    "name": "Akku LED Lampen",
+    "categoryNameCanonical": "Akku LED Lampen",
+    "description": "Wiederaufladbare, kabellose LED-Leuchten für den mobilen Einsatz bei Camping, in der Werkstatt oder im Garten.",
     "subcategories": [
       {
-        "slug": "massagelotionen-mit-hoher-gleitfaehigkeit",
-        "name": "Massagelotionen mit hoher Gleitfähigkeit",
-        "categoryNameCanonical": "Massagelotionen mit hoher Gleitfähigkeit",
-        "description": "Lotionen für langanhaltende Massagen, ohne schnell einzuziehen."
+        "slug": "akku-tischlampen",
+        "name": "Akku Tischlampen",
+        "categoryNameCanonical": "Akku Tischlampen",
+        "description": "Stilvolle, tragbare Tischleuchten für Balkon, Restaurant und Wohnzimmer."
       },
       {
-        "slug": "massagecremes-fuer-sportler",
-        "name": "Sport-Massagecremes",
-        "categoryNameCanonical": "Sport-Massagecremes",
-        "description": "Cremes mit kühlenden oder wärmenden Eigenschaften zur Muskelregeneration."
+        "slug": "akku-arbeitsleuchten",
+        "name": "Akku Arbeitsleuchten",
+        "categoryNameCanonical": "Akku Arbeitsleuchten",
+        "description": "Robuste und helle Strahler für Baustellen, Werkstätten und Renovierungen."
       },
       {
-        "slug": "parfuemfreie-massagelotionen",
-        "name": "Parfümfreie Massagelotionen für sensible Haut",
-        "categoryNameCanonical": "Parfümfreie Massagelotionen für sensible Haut",
-        "description": "Hypoallergene Produkte ohne Duftstoffe."
+        "slug": "campinglampen-led-aufladbar",
+        "name": "Campinglampen LED Aufladbar",
+        "categoryNameCanonical": "Campinglampen LED Aufladbar",
+        "description": "Kompakte und langlebige Laternen für Zelt und Outdoor-Aktivitäten."
+      },
+      {
+        "slug": "akku-schrankleuchten",
+        "name": "Akku Schrankleuchten",
+        "categoryNameCanonical": "Akku Schrankleuchten",
+        "description": "Magnetische oder klebbare Lichtleisten für Kleiderschränke, Küchenschränke und Schubladen."
       }
     ]
   },
   {
-    "slug": "hot-stone-massagesets",
-    "name": "Hot-Stone-Massagesets",
-    "categoryNameCanonical": "Hot-Stone-Massagesets",
-    "description": "Sets aus Basaltsteinen und Wärmegeräten für die Durchführung einer entspannenden Hot-Stone-Massage.",
+    "slug": "led-lampen-mit-bewegungsmelder",
+    "name": "LED Lampen mit Bewegungsmelder",
+    "categoryNameCanonical": "LED Lampen mit Bewegungsmelder",
+    "description": "Leuchten, die sich bei erkannter Bewegung automatisch aktivieren, ideal für Sicherheit und Komfort.",
     "subcategories": [
       {
-        "slug": "hot-stone-sets-fuer-einsteiger",
-        "name": "Hot-Stone-Sets für Einsteiger",
-        "categoryNameCanonical": "Hot-Stone-Sets für Einsteiger",
-        "description": "Kleine Sets mit den wichtigsten Steinen und einem einfachen Erwärmer."
+        "slug": "aussenleuchten-led-mit-bewegungsmelder",
+        "name": "Außenleuchten LED mit Bewegungsmelder",
+        "categoryNameCanonical": "Außenleuchten LED mit Bewegungsmelder",
+        "description": "Für Eingänge, Wege und Garagen zur automatischen Beleuchtung bei Nacht."
       },
       {
-        "slug": "professionelle-hot-stone-sets",
-        "name": "Professionelle Hot-Stone-Sets",
-        "categoryNameCanonical": "Professionelle Hot-Stone-Sets",
-        "description": "Umfangreiche Sets mit einer Vielzahl von Steinen und professionellem Wärmegerät."
+        "slug": "innenleuchten-led-mit-bewegungsmelder",
+        "name": "Innenleuchten LED mit Bewegungsmelder",
+        "categoryNameCanonical": "Innenleuchten LED mit Bewegungsmelder",
+        "description": "Batterie- oder netzbetriebene Lichter für Flure, Keller und Treppenhäuser."
       },
       {
-        "slug": "einzelne-massagesteine",
-        "name": "Einzelne Massagesteine aus Basalt",
-        "categoryNameCanonical": "Einzelne Massagesteine aus Basalt",
-        "description": "Zum Ersetzen oder Erweitern bestehender Sets."
+        "slug": "solar-led-lampen-mit-bewegungsmelder",
+        "name": "Solar LED Lampen mit Bewegungsmelder",
+        "categoryNameCanonical": "Solar LED Lampen mit Bewegungsmelder",
+        "description": "Energieautarke Sicherheitsbeleuchtung für den Außenbereich ohne Verkabelungsaufwand."
       }
     ]
   },
   {
-    "slug": "schroepfsets",
-    "name": "Schröpfsets",
-    "categoryNameCanonical": "Schröpfsets",
-    "description": "Sets aus Gläsern oder Silikon-Cups zur Durchführung der Schröpftherapie, einer traditionellen Heilmethode.",
+    "slug": "led-lampen-mit-farbwechsel-rgb",
+    "name": "LED Lampen mit Farbwechsel (RGB)",
+    "categoryNameCanonical": "LED Lampen mit Farbwechsel (RGB)",
+    "description": "Leuchten und Leuchtmittel, die Licht in verschiedenen Farben erzeugen können, oft per Fernbedienung oder App steuerbar.",
     "subcategories": [
       {
-        "slug": "schroepfglaeser-mit-vakuumpumpe",
-        "name": "Schröpfgläser-Sets mit Vakuumpumpe",
-        "categoryNameCanonical": "Schröpfgläser-Sets mit Vakuumpumpe",
-        "description": "Klassische Sets aus Kunststoff- oder Glasgläsern mit manueller Pumpe."
+        "slug": "rgb-led-streifen",
+        "name": "RGB LED Streifen",
+        "categoryNameCanonical": "RGB LED Streifen",
+        "description": "Flexible Bänder für farbenfrohe, indirekte Beleuchtung hinter Fernsehern und Möbeln."
       },
       {
-        "slug": "silikon-schroepfkoepfe",
-        "name": "Schröpfsets aus Silikon",
-        "categoryNameCanonical": "Schröpfsets aus Silikon",
-        "description": "Flexible Cups, die durch Zusammendrücken ein Vakuum erzeugen."
+        "slug": "rgb-led-leuchtmittel-e27-e14",
+        "name": "RGB LED Leuchtmittel (E27, E14)",
+        "categoryNameCanonical": "RGB LED Leuchtmittel (E27, E14)",
+        "description": "Farbige Glühbirnen zum einfachen Austausch in bestehenden Lampen."
       },
       {
-        "slug": "schroepfsets-fuer-gesicht",
-        "name": "Schröpfsets für die Gesichtsmassage",
-        "categoryNameCanonical": "Schröpfsets für die Gesichtsmassage",
-        "description": "Kleinere, sanftere Cups speziell für die Anwendung im Gesicht."
+        "slug": "rgb-led-stehlampen",
+        "name": "RGB LED Stehlampen",
+        "categoryNameCanonical": "RGB LED Stehlampen",
+        "description": "Moderne Stehleuchten für Gaming-Zimmer und Partys, die farbige Akzente setzen."
       }
     ]
   },
   {
-    "slug": "akupressurmatten",
-    "name": "Akupressurmatten & -kissen",
-    "categoryNameCanonical": "Akupressurmatten & -kissen",
-    "description": "Matten und Kissen mit Kunststoffspitzen, die durch Druck auf Akupressurpunkte Verspannungen lösen sollen.",
+    "slug": "led-e27-leuchtmittel",
+    "name": "LED E27 Leuchtmittel",
+    "categoryNameCanonical": "LED E27 Leuchtmittel",
+    "description": "LED-Lampen mit dem Standard-Schraubsockel E27, dem gängigsten Sockel in Haushalten.",
     "subcategories": [
       {
-        "slug": "akupressurmatten-sets-mit-kissen",
-        "name": "Akupressurmatten-Sets mit Kissen",
-        "categoryNameCanonical": "Akupressurmatten-Sets mit Kissen",
-        "description": "Kombination aus Matte für den Rücken und Kissen für den Nacken."
+        "slug": "e27-led-dimmbar",
+        "name": "E27 LED Dimmbar",
+        "categoryNameCanonical": "E27 LED Dimmbar",
+        "description": "E27-Lampen mit regelbarer Helligkeit für eine flexible Lichtstimmung."
       },
       {
-        "slug": "akupressurmatten-aus-natuerlichen-materialien",
-        "name": "Akupressurmatten aus Leinen & Kokosfaser",
-        "categoryNameCanonical": "Akupressurmatten aus Leinen & Kokosfaser",
-        "description": "Ökologische Varianten mit natürlichen Füll- und Bezugsmaterialien."
+        "slug": "e27-led-filament-vintage",
+        "name": "E27 LED Filament & Vintage",
+        "categoryNameCanonical": "E27 LED Filament & Vintage",
+        "description": "Retro-Lampen mit sichtbaren Leuchtfäden für dekorative Zwecke, oft in warmem Licht."
       },
       {
-        "slug": "akupressurkissen-fuer-nacken",
-        "name": "Akupressurkissen für Nacken & Füße",
-        "categoryNameCanonical": "Akupressurkissen für Nacken & Füße",
-        "description": "Einzelne Kissen zur gezielten Anwendung."
+        "slug": "smarte-e27-led-lampen",
+        "name": "Smarte E27 LED Lampen (WLAN/Zigbee)",
+        "categoryNameCanonical": "Smarte E27 LED Lampen (WLAN/Zigbee)",
+        "description": "Intelligente E27-Birnen, steuerbar per App oder Sprache."
+      },
+      {
+        "slug": "e27-led-warmweiss",
+        "name": "E27 LED Warmweiß (bis 3300K)",
+        "categoryNameCanonical": "E27 LED Warmweiß (bis 3300K)",
+        "description": "Schaffen eine gemütliche und wohnliche Atmosphäre, ideal für Wohn- und Schlafräume."
+      },
+      {
+        "slug": "e27-led-kaltweiss",
+        "name": "E27 LED Kaltweiß (ab 5300K)",
+        "categoryNameCanonical": "E27 LED Kaltweiß (ab 5300K)",
+        "description": "Tageslichtähnliches Licht, das Konzentration fördert, ideal für Arbeitsbereiche und Küchen."
       }
     ]
   },
   {
-    "slug": "kopfmassagegeraete",
-    "name": "Kopfmassagegeräte",
-    "categoryNameCanonical": "Kopfmassagegeräte",
-    "description": "Manuelle und elektrische Geräte zur Stimulation der Kopfhaut und zur Förderung der Entspannung.",
+    "slug": "led-e14-leuchtmittel",
+    "name": "LED E14 Leuchtmittel",
+    "categoryNameCanonical": "LED E14 Leuchtmittel",
+    "description": "LED-Lampen mit dem kleineren E14-Schraubsockel, oft in Kerzen- oder Tropfenform für Kronleuchter und kleine Leuchten.",
     "subcategories": [
       {
-        "slug": "manuelle-kopfkrauler",
-        "name": "Manuelle Kopfkrauler (Massagespinnen)",
-        "categoryNameCanonical": "Manuelle Kopfkrauler (Massagespinnen)",
-        "description": "Klassische Geräte mit Metallarmen zur sanften Kopfhautstimulation."
+        "slug": "e14-led-kerzenform",
+        "name": "E14 LED Kerzenform",
+        "categoryNameCanonical": "E14 LED Kerzenform",
+        "description": "Ideal für Kronleuchter und offene Leuchten, oft als Filament-Version erhältlich."
       },
       {
-        "slug": "elektrische-kopfhautmassagegeraete",
-        "name": "Elektrische Kopfhautmassagegeräte",
-        "categoryNameCanonical": "Elektrische Kopfhautmassagegeräte",
-        "description": "Wasserdichte, rotierende Geräte, oft auch für die Haarwäsche geeignet."
+        "slug": "e14-led-dimmbar",
+        "name": "E14 LED Dimmbar",
+        "categoryNameCanonical": "E14 LED Dimmbar",
+        "description": "Lampen in Kerzen- oder Tropfenform mit regelbarer Helligkeit."
       },
       {
-        "slug": "shampoo-massagebuersten",
-        "name": "Shampoo-Massagebürsten aus Silikon",
-        "categoryNameCanonical": "Shampoo-Massagebürsten aus Silikon",
-        "description": "Manuelle Bürsten zur Kopfhautmassage unter der Dusche."
+        "slug": "e14-led-filament",
+        "name": "E14 LED Filament",
+        "categoryNameCanonical": "E14 LED Filament",
+        "description": "Dekorative E14-Lampen im Retro-Look mit sichtbaren Leuchtfäden."
+      },
+      {
+        "slug": "smarte-e14-led-lampen",
+        "name": "Smarte E14 LED Lampen",
+        "categoryNameCanonical": "Smarte E14 LED Lampen",
+        "description": "Intelligente Kerzenlampen, per App steuerbar, oft mit Farbwechsel- und Dimmfunktion."
       }
     ]
   },
   {
-    "slug": "gua-sha-und-gesichtsroller",
-    "name": "Gua Sha & Gesichtsmassageroller",
-    "categoryNameCanonical": "Gua Sha & Gesichtsmassageroller",
-    "description": "Traditionelle chinesische Schönheitswerkzeuge aus Edelsteinen wie Jade oder Rosenquarz zur Gesichtsmassage.",
+    "slug": "led-gu10-leuchtmittel",
+    "name": "LED GU10 Leuchtmittel",
+    "categoryNameCanonical": "LED GU10 Leuchtmittel",
+    "description": "LED-Reflektorlampen mit Stecksockel, typischerweise verwendet in Einbaustrahlern und Spotlights.",
     "subcategories": [
       {
-        "slug": "gesichtsroller-aus-rosenquarz",
-        "name": "Gesichtsroller aus Rosenquarz",
-        "categoryNameCanonical": "Gesichtsroller aus Rosenquarz",
-        "description": "Roller aus dem beliebten rosa Edelstein zur Beruhigung der Haut."
+        "slug": "gu10-led-dimmbar",
+        "name": "GU10 LED Dimmbar",
+        "categoryNameCanonical": "GU10 LED Dimmbar",
+        "description": "Regelbare Spots zur Anpassung der Helligkeit für eine gezielte Akzentbeleuchtung."
       },
       {
-        "slug": "gesichtsroller-aus-jade",
-        "name": "Gesichtsroller aus Jade",
-        "categoryNameCanonical": "Gesichtsroller aus Jade",
-        "description": "Klassische grüne Jade-Roller zur Förderung der Lymphdrainage."
+        "slug": "smarte-gu10-led-lampen",
+        "name": "Smarte GU10 LED Lampen",
+        "categoryNameCanonical": "Smarte GU10 LED Lampen",
+        "description": "Intelligente GU10-Spots, die sich in Smart-Home-Systeme integrieren lassen."
       },
       {
-        "slug": "gua-sha-steine",
-        "name": "Gua Sha Steine in verschiedenen Formen",
-        "categoryNameCanonical": "Gua Sha Steine in verschiedenen Formen",
-        "description": "Flache, geformte Steine zur Konturierung und Massage des Gesichts."
+        "slug": "gu10-led-sets",
+        "name": "GU10 LED Sets",
+        "categoryNameCanonical": "GU10 LED Sets",
+        "description": "Sparpakete mit mehreren GU10-Spots, oft 3er-, 5er- oder 10er-Packs."
       }
     ]
   },
   {
-    "slug": "cellulite-massagegeraete",
-    "name": "Cellulite-Massagegeräte",
-    "categoryNameCanonical": "Cellulite-Massagegeräte",
-    "description": "Geräte zur Verbesserung des Hautbildes bei Cellulite durch Vakuum-, Knet- oder Vibrationsmassage.",
+    "slug": "led-g9-leuchtmittel",
+    "name": "LED G9 Leuchtmittel",
+    "categoryNameCanonical": "LED G9 Leuchtmittel",
+    "description": "Kompakte Hochvolt-Stiftsockellampen, die in kleinen, modernen Designerleuchten und Badlampen zum Einsatz kommen.",
     "subcategories": [
       {
-        "slug": "vakuum-massagegeraete-gegen-cellulite",
-        "name": "Vakuum-Massagegeräte gegen Cellulite",
-        "categoryNameCanonical": "Vakuum-Massagegeräte gegen Cellulite",
-        "description": "Geräte, die die Haut ansaugen und massieren, um das Bindegewebe zu stimulieren."
+        "slug": "g9-led-dimmbar",
+        "name": "G9 LED Dimmbar",
+        "categoryNameCanonical": "G9 LED Dimmbar",
+        "description": "Kleine Stiftsockellampen mit Dimmfunktion für stimmungsvolle Beleuchtung."
       },
       {
-        "slug": "manuelle-cellulite-massageroller",
-        "name": "Manuelle Cellulite-Massageroller",
-        "categoryNameCanonical": "Manuelle Cellulite-Massageroller",
-        "description": "Handliche Roller mit Noppen zur täglichen Anwendung."
+        "slug": "g9-led-warmweiss",
+        "name": "G9 LED Warmweiß",
+        "categoryNameCanonical": "G9 LED Warmweiß",
+        "description": "Für eine angenehme, gemütliche Atmosphäre in Wohnraum- und Badleuchten."
       },
       {
-        "slug": "elektrische-cellulite-massagegeraete",
-        "name": "Elektrische Cellulite-Massagegeräte",
-        "categoryNameCanonical": "Elektrische Cellulite-Massagegeräte",
-        "description": "Leistungsstarke Geräte mit verschiedenen Aufsätzen und Intensitätsstufen."
+        "slug": "g9-led-kaltweiss",
+        "name": "G9 LED Kaltweiß",
+        "categoryNameCanonical": "G9 LED Kaltweiß",
+        "description": "Für helles, klares Licht in Badezimmern oder über Arbeitsflächen."
       }
     ]
   },
   {
-    "slug": "fussbaeder-mit-massagefunktion",
-    "name": "Fußbäder mit Massagefunktion",
-    "categoryNameCanonical": "Fußbäder mit Massagefunktion",
-    "description": "Wellness-Geräte, die ein warmes Fußbad mit Sprudel-, Vibrations- oder Rollenmassage kombinieren.",
+    "slug": "led-spezial-leuchtmittel",
+    "name": "LED Spezial-Leuchtmittel",
+    "categoryNameCanonical": "LED Spezial-Leuchtmittel",
+    "description": "LED-Ersatz für seltenere Sockeltypen wie R7s, G4, GY6.35 sowie für spezielle Anwendungen (z.B. Auto, Boot).",
     "subcategories": [
       {
-        "slug": "fussbaeder-mit-sprudelfunktion",
-        "name": "Fußbäder mit Sprudel- & Vibrationsfunktion",
-        "categoryNameCanonical": "Fußbäder mit Sprudel- & Vibrationsfunktion",
-        "description": "Standardmodelle für ein entspannendes Fußbad zu Hause."
+        "slug": "led-r7s-stablampe",
+        "name": "LED R7s Stablampe",
+        "categoryNameCanonical": "LED R7s Stablampe",
+        "description": "Energieeffizienter Ersatz für Halogenstäbe in Deckenflutern und Außenstrahlern."
       },
       {
-        "slug": "fussbaeder-mit-massagerollen",
-        "name": "Fußbäder mit integrierten Massagerollen",
-        "categoryNameCanonical": "Fußbäder mit integrierten Massagerollen",
-        "description": "Geräte mit motorisierten Rollen für eine intensivere Fußreflexzonenmassage."
+        "slug": "led-g4-gy6-35-stiftsockel",
+        "name": "LED G4 & GY6.35 Stiftsockel",
+        "categoryNameCanonical": "LED G4 & GY6.35 Stiftsockel",
+        "description": "Niedervolt-LEDs für den Einsatz in Möbel-Einbauleuchten und Seilsystemen."
       },
       {
-        "slug": "faltbare-fussbaeder",
-        "name": "Faltbare Fußbäder zur platzsparenden Lagerung",
-        "categoryNameCanonical": "Faltbare Fußbäder zur platzsparenden Lagerung",
-        "description": "Kompakte Modelle, die nach Gebrauch einfach verstaut werden können."
+        "slug": "led-auto-leuchtmittel-12v",
+        "name": "LED Auto-Leuchtmittel (12V)",
+        "categoryNameCanonical": "LED Auto-Leuchtmittel (12V)",
+        "description": "LED-Lampen mit Sockeln wie BA15s, BA9s oder T10 für den Einsatz in Fahrzeugen."
       }
     ]
   },
   {
-    "slug": "massage-badeschuhe",
-    "name": "Massage-Badeschuhe & Sandalen",
-    "categoryNameCanonical": "Massage-Badeschuhe & Sandalen",
-    "description": "Schuhe mit Noppen im Fußbett, die bei jedem Schritt die Fußsohlen massieren und die Durchblutung anregen.",
+    "slug": "led-lichterketten",
+    "name": "LED Lichterketten",
+    "categoryNameCanonical": "LED Lichterketten",
+    "description": "Dekorative Lichterketten für den Innen- und Außenbereich, für Partys, Weihnachten oder ganzjährige Dekoration.",
     "subcategories": [
       {
-        "slug": "badeschuhe-mit-akupressur-noppen",
-        "name": "Badeschuhe mit Akupressur-Noppen",
-        "categoryNameCanonical": "Badeschuhe mit Akupressur-Noppen",
-        "description": "Sandalen mit strategisch platzierten Noppen zur Stimulation von Akupressurpunkten."
+        "slug": "led-lichterketten-fuer-aussen",
+        "name": "LED Lichterketten für Außen",
+        "categoryNameCanonical": "LED Lichterketten für Außen",
+        "description": "Wetterfeste Lichterketten für Garten, Balkon und Terrasse."
       },
       {
-        "slug": "reflexzonen-sandalen",
-        "name": "Reflexzonen-Sandalen mit Holzelementen",
-        "categoryNameCanonical": "Reflexzonen-Sandalen mit Holzelementen",
-        "description": "Sandalen, die auf die Prinzipien der Fußreflexzonenmassage abgestimmt sind."
+        "slug": "solar-led-lichterketten",
+        "name": "Solar LED Lichterketten",
+        "categoryNameCanonical": "Solar LED Lichterketten",
+        "description": "Stromnetzunabhängige, solarbetriebene Ketten für die Gartendekoration."
       },
       {
-        "slug": "verstellbare-massage-sandalen",
-        "name": "Verstellbare Massage-Sandalen",
-        "categoryNameCanonical": "Verstellbare Massage-Sandalen",
-        "description": "Modelle mit Klettverschluss für eine individuelle Passform."
+        "slug": "batteriebetriebene-led-lichterketten",
+        "name": "Batteriebetriebene LED Lichterketten",
+        "categoryNameCanonical": "Batteriebetriebene LED Lichterketten",
+        "description": "Flexible Dekoration ohne Steckdose, ideal für Vasen, Kränze und Tischdeko."
       }
     ]
   },
   {
-    "slug": "augenmassagegeraete",
-    "name": "Augenmassagegeräte",
-    "categoryNameCanonical": "Augenmassagegeräte",
-    "description": "Maskenähnliche Geräte zur Entspannung der Augenpartie durch Luftdruck, Vibration, Wärme und Musik.",
+    "slug": "led-garagen-werkstattlampen",
+    "name": "LED Garagen- & Werkstattlampen",
+    "categoryNameCanonical": "LED Garagen- & Werkstattlampen",
+    "description": "Robuste und sehr helle LED-Leuchten für die optimale Ausleuchtung von Arbeitsbereichen, Garagen und Kellern.",
     "subcategories": [
       {
-        "slug": "augenmassagegeraete-mit-waermefunktion",
-        "name": "Augenmassagegeräte mit Wärmefunktion",
-        "categoryNameCanonical": "Augenmassagegeräte mit Wärmefunktion",
-        "description": "Modelle mit sanfter Wärme zur Linderung von trockenen und müden Augen."
+        "slug": "led-feuchtraumwannenleuchten",
+        "name": "LED Feuchtraumwannenleuchten",
+        "categoryNameCanonical": "LED Feuchtraumwannenleuchten",
+        "description": "Staub- und strahlwassergeschützte (IP65) Leuchten für Keller, Werkstatt und Garage."
       },
       {
-        "slug": "augenmassagegeraete-mit-bluetooth",
-        "name": "Augenmassagegeräte mit Bluetooth-Musik",
-        "categoryNameCanonical": "Augenmassagegeräte mit Bluetooth-Musik",
-        "description": "Geräte, die sich mit dem Smartphone verbinden, um entspannende Musik abzuspielen."
+        "slug": "akku-led-arbeitsstrahler",
+        "name": "Akku LED Arbeitsstrahler",
+        "categoryNameCanonical": "Akku LED Arbeitsstrahler",
+        "description": "Tragbare, aufladbare und robuste Strahler für flexible Einsätze auf Baustellen."
       },
       {
-        "slug": "faltbare-augenmassagegeraete",
-        "name": "Faltbare Augenmassagegeräte für Reisen",
-        "categoryNameCanonical": "Faltbare Augenmassagegeräte für Reisen",
-        "description": "Kompakte Designs, die sich leicht transportieren lassen."
+        "slug": "verformbare-led-garagenleuchten",
+        "name": "Verformbare LED Garagenleuchten",
+        "categoryNameCanonical": "Verformbare LED Garagenleuchten",
+        "description": "Leuchten mit verstellbaren Flügeln zur gezielten Ausrichtung des Lichts."
       }
     ]
   },
   {
-    "slug": "massagekerzen",
-    "name": "Massagekerzen",
-    "categoryNameCanonical": "Massagekerzen",
-    "description": "Kerzen aus speziellen Wachsen und Ölen, die nach dem Anzünden schmelzen und als warmes Massageöl verwendet werden.",
+    "slug": "led-spiegelleuchten",
+    "name": "LED Spiegelleuchten",
+    "categoryNameCanonical": "LED Spiegelleuchten",
+    "description": "Spezielle Leuchten für die Montage über oder neben dem Badezimmerspiegel für eine schattenfreie Ausleuchtung.",
     "subcategories": [
       {
-        "slug": "massagekerzen-mit-sheabutter",
-        "name": "Massagekerzen mit Sheabutter & Kakaobutter",
-        "categoryNameCanonical": "Massagekerzen mit Sheabutter & Kakaobutter",
-        "description": "Besonders pflegende Kerzen für trockene Haut."
+        "slug": "led-spiegelleuchten-klemmbar",
+        "name": "LED Spiegelleuchten Klemmbar",
+        "categoryNameCanonical": "LED Spiegelleuchten Klemmbar",
+        "description": "Leuchten, die direkt auf den Spiegel oder Spiegelschrank geklemmt werden."
       },
       {
-        "slug": "aphrodisierende-massagekerzen",
-        "name": "Aphrodisierende Massagekerzen",
-        "categoryNameCanonical": "Aphrodisierende Massagekerzen",
-        "description": "Kerzen mit anregenden Düften wie Ylang-Ylang oder Sandelholz."
+        "slug": "led-spiegelleuchten-fuer-wandmontage",
+        "name": "LED Spiegelleuchten für Wandmontage",
+        "categoryNameCanonical": "LED Spiegelleuchten für Wandmontage",
+        "description": "Zur festen Installation über dem Spiegel, oft mit neutralweißem Licht."
       },
       {
-        "slug": "entspannende-massagekerzen-mit-lavendel",
-        "name": "Entspannende Massagekerzen mit Lavendel",
-        "categoryNameCanonical": "Entspannende Massagekerzen mit Lavendel",
-        "description": "Beruhigende Duftkompositionen für eine Relax-Massage."
+        "slug": "led-make-up-licht",
+        "name": "LED Make-Up Licht",
+        "categoryNameCanonical": "LED Make-Up Licht",
+        "description": "Leuchten im Hollywood-Stil zum Aufkleben auf den Spiegel für eine professionelle Schminkbeleuchtung."
       }
     ]
   },
   {
-    "slug": "massage-geschenksets",
-    "name": "Massage-Geschenksets",
-    "categoryNameCanonical": "Massage-Geschenksets",
-    "description": "Sorgfältig zusammengestellte Sets mit Massageölen, Werkzeugen und Zubehör, ideal als Geschenk.",
+    "slug": "dimmbare-led-lampen",
+    "name": "Dimmbare LED Lampen",
+    "categoryNameCanonical": "Dimmbare LED Lampen",
+    "description": "Eine Auswahl aller Leuchten und Leuchtmittel, deren Helligkeit regulierbar ist, für eine flexible Lichtgestaltung.",
     "subcategories": [
       {
-        "slug": "geschenksets-fuer-paare",
-        "name": "Geschenksets für die Partnermassage",
-        "categoryNameCanonical": "Geschenksets für die Partnermassage",
-        "description": "Sets mit sinnlichen Ölen und Anleitungen für zwei Personen."
+        "slug": "dimmbare-led-leuchtmittel",
+        "name": "Dimmbare LED Leuchtmittel (E27, E14, GU10)",
+        "categoryNameCanonical": "Dimmbare LED Leuchtmittel (E27, E14, GU10)",
+        "description": "Einzelne dimmbare Birnen zum Nachrüsten bestehender Leuchten."
       },
       {
-        "slug": "wellness-geschenksets",
-        "name": "Wellness-Geschenksets mit Öl & Massagetool",
-        "categoryNameCanonical": "Wellness-Geschenksets mit Öl & Massagetool",
-        "description": "Kombinationen aus entspannendem Öl und einem manuellen Massagegerät."
+        "slug": "dimmbare-led-deckenleuchten",
+        "name": "Dimmbare LED Deckenleuchten",
+        "categoryNameCanonical": "Dimmbare LED Deckenleuchten",
+        "description": "Komplettleuchten für Decken, bei denen die Dimmfunktion bereits integriert ist."
       },
       {
-        "slug": "sportler-geschenksets",
-        "name": "Geschenksets für Sportler",
-        "categoryNameCanonical": "Geschenksets für Sportler",
-        "description": "Sets mit regenerierenden Ölen und Faszienbällen oder -rollen."
+        "slug": "dimmbare-led-stehlampen-tischlampen",
+        "name": "Dimmbare LED Steh- & Tischlampen",
+        "categoryNameCanonical": "Dimmbare LED Steh- & Tischlampen",
+        "description": "Stimmungsleuchten für Wohnbereiche mit einstellbarer Helligkeit."
       }
     ]
   },
   {
-    "slug": "reise-massagegeraete",
-    "name": "Reise-Massagegeräte",
-    "categoryNameCanonical": "Reise-Massagegeräte",
-    "description": "Kompakte, leichte und oft akkubetriebene Geräte, die speziell für den Einsatz unterwegs konzipiert sind.",
+    "slug": "led-lampen-batteriebetrieben",
+    "name": "LED Lampen Batteriebetrieben",
+    "categoryNameCanonical": "LED Lampen Batteriebetrieben",
+    "description": "Kabellose Beleuchtungslösungen, die mit Standard-Batterien betrieben werden. Ideal für Orte ohne Steckdose.",
     "subcategories": [
       {
-        "slug": "mini-massagepistolen-fuer-reisen",
-        "name": "Mini-Massagepistolen",
-        "categoryNameCanonical": "Mini-Massagepistolen",
-        "description": "Besonders kleine und handliche Massagepistolen, passen in jedes Handgepäck."
+        "slug": "batteriebetriebene-schrankleuchten",
+        "name": "Batteriebetriebene Schrankleuchten",
+        "categoryNameCanonical": "Batteriebetriebene Schrankleuchten",
+        "description": "Kleine LED-Leisten oder Pucks für den Einsatz in Schränken, Vitrinen und Schubladen."
       },
       {
-        "slug": "aufblasbare-nackenkissen-mit-massage",
-        "name": "Aufblasbare Nackenkissen mit Massagefunktion",
-        "categoryNameCanonical": "Aufblasbare Nackenkissen mit Massagefunktion",
-        "description": "Platzsparende Kissen mit integrierter Vibration für Flug- oder Zugreisen."
+        "slug": "batteriebetriebene-lichterketten",
+        "name": "Batteriebetriebene Lichterketten",
+        "categoryNameCanonical": "Batteriebetriebene Lichterketten",
+        "description": "Für flexible Dekorationen, wo keine Steckdose verfügbar ist."
       },
       {
-        "slug": "usb-betriebene-massagegeraete",
-        "name": "USB-betriebene Massagekissen",
-        "categoryNameCanonical": "USB-betriebene Massagekissen",
-        "description": "Kleine Kissen, die über einen USB-Anschluss mit Strom versorgt werden."
-      }
-    ]
-  },
-  {
-    "slug": "massage-lehrbuecher",
-    "name": "Massage-Lehrbücher & Anleitungen",
-    "categoryNameCanonical": "Massage-Lehrbücher & Anleitungen",
-    "description": "Bücher, DVDs und Poster mit Anleitungen zu verschiedenen Massagetechniken und anatomischem Wissen.",
-    "subcategories": [
-      {
-        "slug": "buecher-ueber-klassische-massage",
-        "name": "Bücher über klassische Massage",
-        "categoryNameCanonical": "Bücher über klassische Massage",
-        "description": "Grundlagenwerke für die schwedische Massage und andere Basistechniken."
-      },
-      {
-        "slug": "buecher-ueber-partnermassage",
-        "name": "Bücher über Partnermassage",
-        "categoryNameCanonical": "Bücher über Partnermassage",
-        "description": "Anleitungen für Laien zur gegenseitigen Massage."
-      },
-      {
-        "slug": "anatomie-poster-fuer-masseure",
-        "name": "Anatomie-Poster der Muskulatur",
-        "categoryNameCanonical": "Anatomie-Poster der Muskulatur",
-        "description": "Visuelle Hilfsmittel mit Darstellungen des menschlichen Muskelapparats."
-      }
-    ]
-  },
-  {
-    "slug": "vibrationsplatten",
-    "name": "Vibrationsplatten",
-    "categoryNameCanonical": "Vibrationsplatten",
-    "description": "Trainingsgeräte, die durch Vibrationen die Muskulatur stimulieren und zur Entspannung beitragen können.",
-    "subcategories": [
-      {
-        "slug": "vibrationsplatten-mit-seitenalternierender-vibration",
-        "name": "Vibrationsplatten mit seitenalternierender Vibration",
-        "categoryNameCanonical": "Vibrationsplatten mit seitenalternierender Vibration",
-        "description": "Platten mit einer Wipp-Bewegung, die als besonders gelenkschonend gilt."
-      },
-      {
-        "slug": "vibrationsplatten-mit-trainingsbaendern",
-        "name": "Vibrationsplatten mit Trainingsbändern",
-        "categoryNameCanonical": "Vibrationsplatten mit Trainingsbändern",
-        "description": "Sets, die zusätzlich Widerstandsbänder für ein Ganzkörpertraining enthalten."
-      },
-      {
-        "slug": "kompakte-vibrationsplatten",
-        "name": "Kompakte Vibrationsplatten für zuhause",
-        "categoryNameCanonical": "Kompakte Vibrationsplatten für zuhause",
-        "description": "Platzsparende Modelle für das Training in den eigenen vier Wänden."
-      }
-    ]
-  },
-  {
-    "slug": "lymphdrainage-geraete",
-    "name": "Lymphdrainage-Geräte",
-    "categoryNameCanonical": "Lymphdrainage-Geräte",
-    "description": "Geräte mit Luftdruckmanschetten für Beine, Arme oder den Bauch zur Unterstützung des Lymphsystems.",
-    "subcategories": [
-      {
-        "slug": "lymphdrainage-geraete-fuer-beine",
-        "name": "Lymphdrainage-Geräte für die Beine",
-        "categoryNameCanonical": "Lymphdrainage-Geräte für die Beine",
-        "description": "Manschetten, die die Beine umschließen und durch wechselnden Druck massieren."
-      },
-      {
-        "slug": "lymphdrainage-geraete-komplettsets",
-        "name": "Lymphdrainage-Geräte als Komplettset",
-        "categoryNameCanonical": "Lymphdrainage-Geräte als Komplettset",
-        "description": "Sets mit Manschetten für Beine, Arme und Bauch."
-      },
-      {
-        "slug": "manuelle-lymphdrainage-roller",
-        "name": "Manuelle Roller für die Lymphdrainage",
-        "categoryNameCanonical": "Manuelle Roller für die Lymphdrainage",
-        "description": "Holzroller oder andere manuelle Tools zur Anregung des Lymphflusses."
-      }
-    ]
-  },
-  {
-    "slug": "sportmassage-geraete",
-    "name": "Sportmassage-Geräte",
-    "categoryNameCanonical": "Sportmassage-Geräte",
-    "description": "Spezialisierte Geräte zur Regeneration nach dem Sport, zur Leistungssteigerung und zur Behandlung von Sportverletzungen.",
-    "subcategories": [
-      {
-        "slug": "massagepistolen-fuer-sportler",
-        "name": "Massagepistolen für Sportler",
-        "categoryNameCanonical": "Massagepistolen für Sportler",
-        "description": "Leistungsstarke Perkussionsgeräte zur schnellen Muskelregeneration."
-      },
-      {
-        "slug": "kompressionsstiefel-recovery-boots",
-        "name": "Kompressionsstiefel (Recovery Boots)",
-        "categoryNameCanonical": "Kompressionsstiefel (Recovery Boots)",
-        "description": "Luftdruckmanschetten für die Beine, die die Regeneration beschleunigen."
-      },
-      {
-        "slug": "vibrations-faszienrollen",
-        "name": "Faszienrollen mit Vibration",
-        "categoryNameCanonical": "Faszienrollen mit Vibration",
-        "description": "Kombination aus Faszientraining und Vibration für intensive Ergebnisse."
-      }
-    ]
-  },
-  {
-    "slug": "massage-zubehoer",
-    "name": "Massagezubehör",
-    "categoryNameCanonical": "Massagezubehör",
-    "description": "Praktische Hilfsmittel und Verbrauchsmaterialien für die professionelle und private Massageanwendung.",
-    "subcategories": [
-      {
-        "slug": "kopfstuetzen-und-polster",
-        "name": "Kopfstützen & Lagerungspolster",
-        "categoryNameCanonical": "Kopfstützen & Lagerungspolster",
-        "description": "Ergonomische Kissen und Rollen zur komfortablen Lagerung während der Massage."
-      },
-      {
-        "slug": "tragetaschen-fuer-massageliegen",
-        "name": "Tragetaschen für Massageliegen",
-        "categoryNameCanonical": "Tragetaschen für Massageliegen",
-        "description": "Robuste Taschen zum Schutz und Transport von mobilen Massageliegen."
-      },
-      {
-        "slug": "oelwaermer-und-dispenser",
-        "name": "Ölwärmer & Dispenser",
-        "categoryNameCanonical": "Ölwärmer & Dispenser",
-        "description": "Geräte zum Erwärmen von Massageöl und praktische Spenderflaschen."
+        "slug": "batteriebetriebene-tischleuchten",
+        "name": "Batteriebetriebene Tischleuchten",
+        "categoryNameCanonical": "Batteriebetriebene Tischleuchten",
+        "description": "Dekorative Tischlampen für Events oder als Akzentlicht ohne störende Kabel."
       }
     ]
   }

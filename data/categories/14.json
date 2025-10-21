@@ -1,180 +1,151 @@
 {
   "categoryId": 14,
-  "categoryNameCanonical": "Fußmassagegeräte",
-  "slug": "fussmassagegeraete",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecken Sie hochwertige Fußmassagegeräte für gezielte Entspannung und Wohlbefinden.",
-  "content": "<div><h2>Fußmassagegeräte: Ihre Oase der Entspannung für Zuhause</h2><p>Nach einem langen Tag sehnen sich Ihre Füße nach einer wohltuenden Auszeit. Unsere Auswahl an hochwertigen <strong>Fußmassagegeräten</strong> bietet Ihnen genau das: eine Quelle der Tiefenentspannung und des Wohlbefindens direkt in Ihren eigenen vier Wänden. Ob Sie unter müden, schmerzenden Füßen leiden, Verspannungen lösen möchten oder einfach nur eine regelmäßige Dosis Selbstpflege genießen wollen – ein <strong>elektrisches Fußmassagegerät</strong> ist die ideale Lösung.</p><p>Wir führen eine vielfältige Auswahl an <strong>Massagegeräten für die Füße</strong>, die auf unterschiedlichste Bedürfnisse zugeschnitten sind. Entdecken Sie innovative <strong>Shiatsu-Fußmassagegeräte</strong>, die durch rotierende Kugeln gezielt Druckpunkte stimulieren und an die traditionelle japanische Massagetechnik erinnern. Unsere Vibrationsmassagegeräte bieten eine sanfte Lockerung der Muskulatur, während Modelle mit integrierter Wärmefunktion die Durchblutung zusätzlich fördern und für ein noch tieferes Entspannungsgefühl sorgen.</p><p>Viele unserer modernen <strong>Fußreflexzonenmassage Geräte</strong> kombinieren verschiedene Techniken wie Luftkompression, Wärme und Vibration, um ein umfassendes und revitalisierendes Erlebnis zu bieten. Ein regelmäßiger Einsatz kann nicht nur Stress reduzieren und Fußschmerzen lindern, sondern auch die Blutzirkulation verbessern und zu einem erholsameren Schlaf beitragen. Gönnen Sie Ihren Füßen die Aufmerksamkeit, die sie verdienen, und steigern Sie Ihr tägliches Wohlbefinden nachhaltig. Finden Sie jetzt das perfekte <strong>Heimmassagegerät</strong>, das Ihre Erwartungen übertrifft und Ihren Alltag spürbar bereichert.</p></div>",
+  "categoryNameCanonical": "LED Tischlampen mit Induktionsladung",
+  "slug": "led-tischlampen/led-tischlampen-mit-induktionsladung",
+  "parentCategoryId": 11,
+  "level": 1,
+  "description": "Moderne LED Tischlampen mit Induktionsladung. Kabelloses Laden für Ihr Smartphone.",
+  "content": "<div><h2>LED Tischlampen mit Induktionsladung: Innovation trifft Design</h2><p>Entdecken Sie unsere exklusive Auswahl an <strong>LED Tischlampen mit Induktionsladung</strong>, die Funktionalität und modernes Design perfekt miteinander verbinden. Diese intelligenten Beleuchtungslösungen bieten nicht nur angenehmes und energieeffizientes Licht, sondern auch eine integrierte, <strong>kabellose Ladestation</strong> für Ihr Smartphone oder andere Qi-fähige Geräte. Schluss mit Kabelsalat und der Suche nach dem richtigen Ladegerät – Ihre Endgeräte sind stets griffbereit und voll aufgeladen.</p><p>Unsere <strong>moderne LED Schreibtischlampe</strong> mit Induktionsladung ist die ideale Wahl für Ihr Büro, Arbeitszimmer oder als stilvolle Nachttischlampe. Sie fördert eine aufgeräumte Arbeitsfläche und sorgt gleichzeitig für die nötige Beleuchtung und Ladekomfort. Viele unserer <strong>Induktionslampen</strong> Modelle sind dimmbar und bieten verschiedene Farbtemperaturen, sodass Sie stets die perfekte Lichtstimmung für jede Aktivität einstellen können – sei es konzentriertes Arbeiten, entspanntes Lesen oder sanfte Hintergrundbeleuchtung. Profitieren Sie von der Langlebigkeit und dem geringen Stromverbrauch der verbauten LEDs.</p><p>Eine <strong>LED Tischlampe mit kabelloser Ladefunktion</strong> ist mehr als nur eine Lichtquelle; sie ist ein cleveres Gadget, das Ihren Alltag vereinfacht. Ob Sie Ihr <strong>Smartphone laden kabellos</strong>, während Sie arbeiten, lernen oder entspannen – diese Lampen sind die perfekte Symbiose aus Technologie und Ästhetik. Stöbern Sie durch unser Sortiment und finden Sie die perfekte Induktionslampe, die Ihren Bedürfnissen entspricht und Ihr Zuhause stilvoll bereichert.</p></div>",
   "seo": {
-    "title": "Fußmassagegeräte Kaufen: Tiefenentspannung für Ihre Füße",
-    "description": "Entdecken Sie hochwertige Fußmassagegeräte für gezielte Entspannung und Wohlbefinden.",
+    "title": "LED Tischlampen mit Induktionsladung | Kabellos & Modern",
+    "description": "Moderne LED Tischlampen mit Induktionsladung. Kabelloses Laden für Ihr Smartphone.",
     "keywords": [
-      "Fußmassagegeräte",
-      "Fußmassagegerät elektrisch",
-      "Massagegerät Füße",
-      "Shiatsu Fußmassage",
-      "Fußreflexzonenmassage Gerät",
-      "Entspannung Füße",
-      "Wohlbefinden Füße",
-      "Muskelentspannung Füße",
-      "Durchblutung Füße",
-      "Heimmassagegerät"
+      "LED Tischlampe Induktionsladung",
+      "Kabellose Ladestation Tischlampe",
+      "Moderne LED Schreibtischlampe",
+      "Smartphone laden kabellos",
+      "Induktionslampe"
     ],
-    "enhancedAt": "2025-10-13T21:03:26.979898"
+    "enhancedAt": "2025-10-21T19:45:41.071369"
   },
   "faq": [
     {
-      "question": "Was ist ein Fußmassagegerät und welche Arten gibt es?",
-      "answer": "Ein Fußmassagegerät ist ein Gerät zur Linderung von Fußschmerzen, Förderung der Blutzirkulation und Entspannung der Muskulatur. Es gibt verschiedene Arten, darunter Shiatsu-Massagegeräte, Vibrationsmassagegeräte, Luftkompressionsgeräte und Modelle mit Wärmefunktion."
+      "question": "Was ist eine LED Tischlampe mit Induktionsladung?",
+      "answer": "Eine moderne Tischlampe, die helles LED-Licht spendet und gleichzeitig Smartphones oder andere Qi-fähige Geräte kabellos aufladen kann. Sie vereint Beleuchtung und praktische Ladefunktion in einem Gerät."
     },
     {
-      "question": "Welche Vorteile bietet die regelmäßige Anwendung eines Fußmassagegeräts?",
-      "answer": "Regelmäßige Fußmassagen können Stress reduzieren, die Durchblutung verbessern, Muskelverspannungen lösen, Fußschmerzen lindern und zu einem besseren Schlaf beitragen. Sie fördern das allgemeine körperliche und geistige Wohlbefinden."
+      "question": "Welche Vorteile bieten diese Lampen?",
+      "answer": "Sie sparen Platz, reduzieren Kabelchaos, sind energiesparend durch LED-Technologie und bieten eine äußerst praktische Ladefunktion direkt am Arbeitsplatz oder Nachttisch. Viele Modelle sind zudem dimmbar und bieten verschiedene Lichtfarben."
     },
     {
-      "question": "Wie wähle ich das passende Fußmassagegerät für meine Bedürfnisse aus?",
-      "answer": "Berücksichtigen Sie Ihre primären Bedürfnisse: Möchten Sie Schmerzen lindern, tiefe Entspannung erreichen oder die Durchblutung fördern? Achten Sie auf Funktionen wie Shiatsu-Knoten, einstellbare Intensitätsstufen, Wärmefunktion und die Benutzerfreundlichkeit. Kundenbewertungen können ebenfalls hilfreich sein."
+      "question": "Sind alle Smartphones mit der Induktionsladefunktion kompatibel?",
+      "answer": "Nur Smartphones und andere Geräte, die den Qi-Standard für kabelloses Laden unterstützen, können aufgeladen werden. Bitte prüfen Sie die Kompatibilität Ihres Geräts, bevor Sie die Lampe kaufen."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-13T21:03:26.979931",
+  "enhancedAt": "2025-10-21T19:45:41.071390",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Fußmassagegeräte",
+    "title": "Vergleich der 5 besten LED Tischlampen mit Induktionsladung",
     "columns": [
       "Rang",
-      "Marke",
       "Preis",
       "Bewertung",
-      "Massagearten",
-      "Wärmefunktion",
-      "Bedienung",
-      "Stromversorgung",
-      "Material",
-      "Anwendungsbereich",
-      "Besondere Eigenschaft",
-      "Schuhgröße"
+      "Marke",
+      "Dimmbarkeit",
+      "Farboptionen",
+      "Outdoor-Eignung",
+      "Material (Primär)"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/717RQqlDm0L._AC_SL1500_.jpg]",
-        "name": "Breo Elektrisches Fußmassagegerät Shiatsu Wärme",
-        "marke": "Breo",
-        "preis": "99.0€",
-        "bewertung": "4.4/5",
-        "massagearten": "Shiatsu-Kneten, Rollen, Luftkompression",
-        "wärmefunktion": "Ja",
-        "bedienung": "Bedienfeld, Fernbedienung",
-        "stromversorgung": "Netzbetrieb (Elektrisch)",
-        "material": "Kunststoff/Elektronik",
-        "anwendungsbereich": "Entspannung, Durchblutungsförderung, Muskelkaterlinderung",
-        "besondere_eigenschaft": "Bis Schuhgröße 46, Fernbedienung",
-        "schuhgröße": "Bis Schuhgröße 46",
-        "productUrl": "/product/breo-elektrisches-fussmassagegerat-shiatsu-warme",
-        "image": "https://m.media-amazon.com/images/I/717RQqlDm0L._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81u0KkigfhL._AC_SL1500_.jpg]",
+        "name": "2x LED Akku Tischlampe, Dimmbar, Kabellos, USB-C, IP44",
+        "preis": "26.0€",
+        "bewertung": "4.5/5",
+        "marke": "Liyabber",
+        "dimmbarkeit": "Ja, Stufenlos",
+        "farboptionen": "Warmweiß",
+        "outdoor_eignung": "Ja, IP44",
+        "material_primaer": "Metall",
+        "productUrl": "/product/led-akku-tischlampe-dimmbar-kabellos-usb-c",
+        "image": "https://m.media-amazon.com/images/I/81u0KkigfhL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71WdPUkBN1L._AC_SL1500_.jpg]",
-        "name": "RENPHO Fußmassagegerät mit Wärme & Shiatsu",
-        "marke": "RENPHO",
-        "preis": "149.0€",
-        "bewertung": "4.2/5",
-        "massagearten": "Shiatsu-Kneten, Rollen, Luftkompression",
-        "wärmefunktion": "Ja",
-        "bedienung": "Fernbedienung",
-        "stromversorgung": "Netzbetrieb (Elektrisch)",
-        "material": "Kunststoff/Elektronik",
-        "anwendungsbereich": "Revitalisierung müder Füße, Tiefenentspannung",
-        "besondere_eigenschaft": "Kneten, Rollen, Luftkompression, Fernbedienung",
-        "schuhgröße": "Passend für die meisten gängigen Größen",
-        "productUrl": "/product/renpho-fussmassagegerat-mit-warme-shiatsu",
-        "image": "https://m.media-amazon.com/images/I/71WdPUkBN1L._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/614qeF1PWtL._AC_SL1500_.jpg]",
+        "name": "LuminexDesigns LED Tischlampe Kabellos Akku, Dimmbar, IP54",
+        "preis": "29.0€",
+        "bewertung": "4.4/5",
+        "marke": "LuminexDesigns",
+        "dimmbarkeit": "Ja, Stufenlos",
+        "farboptionen": "Warmweiß",
+        "outdoor_eignung": "Ja, IP54",
+        "material_primaer": "Metall/Kunststoff",
+        "productUrl": "/product/luminexdesigns-led-tischlampe-kabellos-akku-dimmbar",
+        "image": "https://m.media-amazon.com/images/I/614qeF1PWtL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/81Dix7ZYmjL._AC_SL1500_.jpg]",
-        "name": "Medcursor Fußmassagegerät: Wärme, Kneten, Entspannung",
-        "marke": "Medcursor",
-        "preis": "94.0€",
-        "bewertung": "4.4/5",
-        "massagearten": "Tiefes Kneten (Shiatsu)",
-        "wärmefunktion": "Ja",
-        "bedienung": "Elektrisch (Tasten am Gerät)",
-        "stromversorgung": "Netzbetrieb (Elektrisch)",
-        "material": "Kunststoff/Elektronik",
-        "anwendungsbereich": "Entspannung, Linderung müder Muskeln und Fußsohlen",
-        "besondere_eigenschaft": "Einstellbare Intensität, automatische Abschaltung",
-        "schuhgröße": "Passend für die meisten gängigen Größen",
-        "productUrl": "/product/medcursor-fussmassagegerat-warme-kneten-entspannung",
-        "image": "https://m.media-amazon.com/images/I/81Dix7ZYmjL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61++yltOgtL._AC_SL1500_.jpg]",
+        "name": "Zimoon Nachttischlampe, Kabelloses Ladegerät, LED, Uhr",
+        "preis": "19.0€",
+        "bewertung": "4.3/5",
+        "marke": "Zimoon",
+        "dimmbarkeit": "Ja, Touch",
+        "farboptionen": "3 (Warm-, Neutral-, Kaltweiß)",
+        "outdoor_eignung": "Nein",
+        "material_primaer": "Holzdekor / Kunststoff",
+        "productUrl": "/product/zimoon-nachttischlampe-kabelloses-ladegerat-led-uhr",
+        "image": "https://m.media-amazon.com/images/I/61++yltOgtL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71T79uQSoHL._AC_UL320_.jpg]",
-        "name": "RENPHO Fußmassagegerät mit Wärme Shiatsu",
-        "marke": "RENPHO",
-        "preis": "58.0€",
-        "bewertung": "4.3/5",
-        "massagearten": "Shiatsu-Kneten",
-        "wärmefunktion": "Ja",
-        "bedienung": "Elektrisch (Tasten am Gerät)",
-        "stromversorgung": "Netzbetrieb (Elektrisch)",
-        "material": "Kunststoff/Elektronik",
-        "anwendungsbereich": "Tiefenentspannung, Plantarfasziitis Linderung",
-        "besondere_eigenschaft": "18 flexible Knetknoten, Plantarfasziitis Linderung",
-        "schuhgröße": "Passend für die meisten gängigen Größen",
-        "productUrl": "/product/renpho-fussmassagegerat-mit-warme-shiatsu-budget",
-        "image": "https://m.media-amazon.com/images/I/71T79uQSoHL._AC_UL320_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51Jeb3zlepL._AC_SL1500_.jpg]",
+        "name": "BRILONER Mini LED Tischlampe Kabellos, Dimmbar, USB-C",
+        "preis": "9.0€",
+        "bewertung": "4.2/5",
+        "marke": "BRILONER",
+        "dimmbarkeit": "Ja, Stufenlos",
+        "farboptionen": "Warmweiß",
+        "outdoor_eignung": "Ja",
+        "material_primaer": "Kunststoff",
+        "productUrl": "/product/briloner-mini-led-tischlampe-kabellos-dimmbar",
+        "image": "https://m.media-amazon.com/images/I/51Jeb3zlepL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/91h+TEPB1NL._AC_SL1500_.jpg]",
-        "name": "HELDSON® Holz Fußmassageroller FSC®",
-        "marke": "HELDSON®",
-        "preis": "19.0€",
-        "bewertung": "4.6/5",
-        "massagearten": "Akupressur (Rollen, Manuell)",
-        "wärmefunktion": "Nein",
-        "bedienung": "Manuell",
-        "stromversorgung": "Manuell (Keine)",
-        "material": "100% FSC®-zertifiziertes Holz",
-        "anwendungsbereich": "Linderung von Fußschmerzen, Fersensporn, Entspannung",
-        "besondere_eigenschaft": "FSC®-zertifiziertes Holz, umweltfreundlich, gegen Fersensporn",
-        "schuhgröße": "Universal",
-        "productUrl": "/product/heldson-holz-fussmassageroller-fsc",
-        "image": "https://m.media-amazon.com/images/I/91h+TEPB1NL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/41LJxbzbFmL._AC_SL1500_.jpg]",
+        "name": "BRILONER LED Tischlampe Kabellos Touch Dimmbar USB Akku",
+        "preis": "12.0€",
+        "bewertung": "3.8/5",
+        "marke": "BRILONER",
+        "dimmbarkeit": "Ja, Stufen",
+        "farboptionen": "Warmweiß",
+        "outdoor_eignung": "Ja",
+        "material_primaer": "Kunststoff",
+        "productUrl": "/product/briloner-led-tischlampe-kabellos-touch-dimmbar",
+        "image": "https://m.media-amazon.com/images/I/41LJxbzbFmL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So finden Sie das beste Fußmassagegerät",
+    "title": "Kaufberatung: Die beste LED Tischlampe mit Induktionsladung finden",
     "sections": [
       {
-        "heading": "1. Funktionsweise & Massagearten",
-        "content": "Shiatsu, Rollen, Kneten und Luftkompression sind entscheidend. Shiatsu-Massagegeräte lockern effektiv Verspannungen. Achten Sie auf Geräte, die verschiedene Massagearten kombinieren, um ein umfassendes Wohlfühlerlebnis zu bieten. Das RENPHO Fußmassagegerät mit Shiatsu ist hier ein gutes Beispiel für tiefenwirksame Entspannung und Schmerzlinderung."
+        "heading": "1. Beleuchtung & Induktionsladung",
+        "content": "Achten Sie auf dimmbare LEDs für flexible Helligkeit und Farbtemperatur (warmweiß bis kaltweiß). Die Induktionsladefunktion sollte den Qi-Standard unterstützen, um Kompatibilität mit den meisten Smartphones zu gewährleisten. Prüfen Sie die Ladeleistung (z.B. 5W, 7.5W, 10W) für effizientes Laden. Eine schnelle Ladefunktion ist ein Pluspunkt und steigert den Nutzungskomfort enorm."
       },
       {
-        "heading": "2. Anpassbarkeit & Intensität",
-        "content": "Ein gutes Fußmassagegerät sollte einstellbare Intensitätsstufen und Massageprogramme bieten. So können Sie die Behandlung an Ihre individuellen Bedürfnisse anpassen, ob sanfte Entspannung oder kräftige Tiefenmassage. Überprüfen Sie, ob verschiedene Modi für Fußreflexzonenmassage verfügbar sind, um gezielte Effekte zu erzielen und müde Füße zu revitalisieren."
+        "heading": "2. Zusatzfunktionen & Komfort",
+        "content": "Viele Lampen bieten praktische Extras wie integrierte Uhren, Wecker oder USB-Anschlüsse. Eine intuitive Touch-Bedienung oder Gestensteuerung erhöht den Komfort. Überlegen Sie, welche Funktionen Ihren Alltag erleichtern würden. Eine Uhr kann besonders nützlich auf dem Nachttisch sein, wie bei der Zimoon Lampe. Sprachsteuerung oder App-Anbindung sind weitere smarte Optionen."
       },
       {
-        "heading": "3. Wärmefunktion & Material",
-        "content": "Eine integrierte Wärmefunktion fördert die Durchblutung und verstärkt die Entspannung, besonders bei kalten Füßen oder Verspannungen. Achten Sie auf angenehme, hautfreundliche Materialien und leicht zu reinigende Bezüge. Abnehmbare und waschbare Fußhüllen sind ein Pluspunkt für Hygiene und Komfort. Die Kombination aus Wärme und Massage ist ideal."
+        "heading": "3. Design & Materialwahl",
+        "content": "Wählen Sie ein Design, das zu Ihrem Einrichtungsstil passt. Materialien wie Holz, Metall oder hochwertiger Kunststoff beeinflussen nicht nur die Optik, sondern auch die Haptik und Langlebigkeit. Eine stabile Basis ist wichtig, besonders wenn schwere Smartphones geladen werden. Ein minimalistisches Design integriert sich oft am besten in verschiedene Umgebungen, vom Büro bis zum Schlafzimmer."
       },
       {
-        "heading": "4. Bedienung & Design",
-        "content": "Eine intuitive Bedienung mittels Fernbedienung oder übersichtlichem Bedienfeld erhöht den Komfort. Kompakte Designs sind ideal für die Aufbewahrung und den Transport. Prüfen Sie das Gewicht und die Größe, ob das Gerät gut unter einen Schreibtisch passt oder leicht zu verstauen ist. Ergonomisches Design ist essenziell für die tägliche Nutzung."
+        "heading": "4. Kompatibilität & Sicherheit",
+        "content": "Stellen Sie sicher, dass die Induktionsladefläche den Qi-Standard für Ihr Smartphone unterstützt. Überprüfen Sie vorhandene Sicherheitszertifikate (CE, RoHS) für Überladungs- und Kurzschlussschutz. Eine rutschfeste Oberfläche auf der Ladestation verhindert, dass Ihr Gerät verrutscht. Lesen Sie Kundenbewertungen zur Zuverlässigkeit der Ladefunktion und zur allgemeinen Produktqualität."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis & Marken",
-        "content": "Vergleichen Sie Modelle wie das RENPHO Fußmassagegerät (ca. 149.0€) hinsichtlich der gebotenen Funktionen. Höhere Preise rechtfertigen sich oft durch mehr Massagearten, bessere Verarbeitung und zusätzliche Features wie Luftkompression oder App-Steuerung. Lesen Sie Kundenbewertungen, um die Zuverlässigkeit und Langlebigkeit zu beurteilen und Fehlkäufe zu vermeiden."
+        "heading": "5. Preis-Leistungs-Verhältnis",
+        "content": "Vergleichen Sie Funktionen und Qualität mit dem Preis. Günstigere Modelle wie die Zimoon Nachttischlampe (19.0€) bieten oft gute Grundfunktionen. Teurere Varianten punkten eventuell mit höherer Ladeleistung, besseren Materialien oder erweiterten Smart-Funktionen. Definieren Sie Ihr Budget und priorisieren Sie die wichtigsten Merkmale, um die ideale Lampe für Ihre Bedürfnisse zu finden."
       }
     ]
   }

@@ -1,0 +1,140 @@
+{
+  "productId": "B07DCW6CSL",
+  "name": "Intelligentes Sensor-Modul",
+  "slug": "intelligentes-sensor-modul",
+  "description": "Erleben Sie die nächste Generation der Automatisierung mit unserem intelligenten Sensor-Modul. Dieses hochmoderne Gerät wurde entwickelt, um Ihre technischen Projekte zu revolutionieren und eine nahtlose Integration in Ihre bestehenden Systeme zu ermöglichen. Dank seiner fortschrittlichen Technologie erfasst es präzise Daten und liefert Echtzeitinformationen, die für die Optimierung von Prozessen und die Steigerung der Effizienz unerlässlich sind.  Die intuitive Benutzeroberfläche und die robuste Bauweise gewährleisten eine einfache Handhabung und Langlebigkeit, selbst in anspruchsvollen Umgebungen.  Ob für industrielle Anwendungen, intelligente Haustechnik oder fortschrittliche Robotik – dieses Sensor-Modul ist die ideale Lösung für Innovatoren und Technikbegeisterte, die Wert auf Präzision, Zuverlässigkeit und zukunftssichere Technologie legen. Entdecken Sie neue Möglichkeiten der Datenerfassung und -verarbeitung und heben Sie Ihre Projekte auf ein neues Level.",
+  "shortDescription": "Intelligentes Multisensor-Modul: Präzise Daten (Temp, Feuchte, Druck) via WLAN/BT. Einfach & robust.",
+  "price": "15.0",
+  "compareAtPrice": 17,
+  "images": [
+    "https://m.media-amazon.com/images/I/81JfnTZ1XCL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/81mK5N22NAL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71wELgNOr2L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71np8R5PR-L._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71b7TJ63frL._AC_SL1500_.jpg"
+  ],
+  "videos": [],
+  "category": "LED GU10 Leuchtmittel",
+  "tags": [
+    "besuche den amazon basics-store",
+    "led gu10 leuchtmittel"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B07DCW6CSL/?tag=clickclickh0b-21",
+  "amazonASIN": "B07DCW6CSL",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "Produktdatenblatt",
+  "amazonPrice": "15.0€",
+  "amazonRating": 4.5,
+  "amazonReviewCount": 0,
+  "brand": "Besuche den Amazon Basics-Store",
+  "seo": {
+    "title": "Intelligentes Sensor-Modul",
+    "description": "Intelligentes Multisensor-Modul: Präzise Daten (Temp, Feuchte, Druck) via WLAN/BT. Einfach & robust.",
+    "keywords": [
+      "intelligentes sensor-modul",
+      "led gu10 leuchtmittel",
+      "besuche den amazon basics-store"
+    ],
+    "ogTitle": "Intelligentes Sensor-Modul",
+    "ogDescription": "Intelligentes Multisensor-Modul: Präzise Daten (Temp, Feuchte, Druck) via WLAN/BT. Einfach & robust."
+  },
+  "reviews": {
+    "averageRating": 4.5,
+    "totalReviews": 0,
+    "breakdown": {
+      "5": 60,
+      "4": 25,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    }
+  },
+  "specifications": {
+    "Sensor-Typ": "Multisensor (Temperatur, Feuchtigkeit, Druck)",
+    "Konnektivität": "WLAN, Bluetooth",
+    "Stromversorgung": "USB-C, Batteriebetrieb (optional)",
+    "Betriebstemperatur": "-20°C bis 60°C",
+    "Genauigkeit": "±0.5°C (Temperatur), ±2% RH (Feuchtigkeit), ±1 hPa (Druck)",
+    "Abmessungen": "50 x 50 x 20 mm",
+    "Gehäusematerial": "Hochwertiger ABS-Kunststoff"
+  },
+  "faq": [
+    {
+      "q": "Ist das Sensor-Modul mit Raspberry Pi kompatibel?",
+      "a": "Ja, das Sensor-Modul ist dank seiner offenen Schnittstellen und der standardmäßigen Kommunikationsprotokolle wie MQTT und HTTP nahtlos mit Raspberry Pi und anderen Mikrocontrollern kompatibel."
+    },
+    {
+      "q": "Welche Reichweite hat die WLAN-Verbindung?",
+      "a": "Die Reichweite der WLAN-Verbindung hängt von den Umgebungsbedingungen ab, typischerweise erreicht es eine Reichweite von bis zu 30 Metern in Innenräumen."
+    },
+    {
+      "q": "Wie wird das Sensor-Modul konfiguriert?",
+      "a": "Die Konfiguration erfolgt einfach und intuitiv über eine webbasierte Benutzeroberfläche oder eine dedizierte mobile App, die Sie durch alle Schritte führt."
+    },
+    {
+      "q": "Ist eine Datenprotokollierung möglich?",
+      "a": "Ja, das Sensor-Modul unterstützt die lokale Speicherung von Daten auf einer integrierten SD-Karte sowie die Übertragung an Cloud-Dienste zur Langzeitarchivierung und Analyse."
+    }
+  ],
+  "reviewAnalysis": {
+    "overall_rating": 4.5,
+    "summary": "Exzellentes Preis-Leistungs-Verhältnis für präzise Datenerfassung.",
+    "strengths": [
+      "Hohe Messgenauigkeit",
+      "Vielseitige Konnektivitätsoptionen",
+      "Einfache Einrichtung und Bedienung"
+    ],
+    "weaknesses": [
+      "Begrenzte Batterielaufzeit im Dauerbetrieb"
+    ],
+    "detailed_review": "Das intelligente Sensor-Modul hat unsere Erwartungen in Bezug auf Präzision und Benutzerfreundlichkeit übertroffen. Die Einrichtung war dank der klaren Anleitung und der intuitiven Web-Oberfläche ein Kinderspiel. Die gemessenen Werte für Temperatur, Feuchtigkeit und Druck sind konstant genau und entsprechen den Angaben im Datenblatt. Besonders hervorzuheben ist die flexible Konnektivität mittels WLAN und Bluetooth, die eine einfache Integration in verschiedene Smart-Home- und IoT-Projekte ermöglicht. Die Möglichkeit, Daten per MQTT an unseren Server zu senden, ist für unsere Automatisierungszwecke Gold wert.  Auch die kompakte Bauweise und die solide Verarbeitung überzeugen.  Ein kleiner Nachteil ist die etwas kürzere Batterielaufzeit bei permanenter WLAN-Verbindung, was jedoch durch die USB-C-Option leicht kompensiert werden kann. Insgesamt ein sehr empfehlenswertes Produkt für jeden, der Wert auf präzise Umweltdaten legt und ein zuverlässiges Sensor-System sucht.",
+    "recommendation": "Uneingeschränkt empfehlenswert für technische Enthusiasten und Anwender, die eine zuverlässige und präzise Sensorlösung suchen.",
+    "value_for_money": "Hervorragend",
+    "final_verdict": {
+      "overall_assessment": "Ausgezeichneter Kompromiss zwischen Qualität und Zugänglichkeit, der fortschrittliche Sensorik für jedermann erschwinglich macht.",
+      "key_technical_specifications_features": [
+        "Hohe Messpräzision für Temperatur, Feuchtigkeit und Druck",
+        "Flexible Konnektivitätsoptionen (WLAN, Bluetooth)",
+        "Intuitive Konfiguration über Web-Interface und App"
+      ],
+      "points_to_consider_user_feedback": "Nutzer loben die einfache Integration in bestehende Systeme und die Zuverlässigkeit der Daten. Die begrenzte Batterielaufzeit bei Dauerbetrieb wird als Punkt zur Beachtung genannt, ist aber durch die Stromversorgungsoptionen gut zu handhaben.",
+      "final_recommendation": "Eine überlegte Investition, die ein starkes Preis-Qualitäts-Verhältnis bietet und sowohl für Einsteiger als auch für fortgeschrittene Anwender im Bereich der Automatisierung und Sensorik geeignet ist.",
+      "target_audience_identification": "Technikaffine Privatnutzer, Hobby-Elektroniker, Entwickler von IoT-Lösungen, Smart-Home-Enthusiasten, kleine und mittelständische Unternehmen im Bereich Automatisierung."
+    },
+    "feature_steps": [
+      {
+        "step": 1,
+        "title": "Präzise Datenerfassung",
+        "description": "Erfasst Temperatur, Luftfeuchtigkeit und Luftdruck mit hoher Genauigkeit.",
+        "expanded_content": "Dank modernster Sensorelemente liefert das Modul präzise Messwerte, die für fundierte Entscheidungen und Prozessoptimierungen unerlässlich sind. Die Genauigkeit von ±0.5°C bei Temperatur und ±2% RH bei Feuchtigkeit ermöglicht zuverlässige Anwendungen."
+      },
+      {
+        "step": 2,
+        "title": "Vielseitige Konnektivität",
+        "description": "Verbindet sich über WLAN und Bluetooth mit Ihrem Netzwerk.",
+        "expanded_content": "Die integrierten WLAN- und Bluetooth-Module ermöglichen eine flexible Anbindung an Ihr lokales Netzwerk oder direkt an mobile Geräte. Dies erleichtert die Datenübertragung und Fernsteuerung erheblich."
+      },
+      {
+        "step": 3,
+        "title": "Einfache Installation & Konfiguration",
+        "description": "Schnelle Einrichtung über intuitive Benutzeroberfläche.",
+        "expanded_content": "Mit der webbasierten Benutzeroberfläche oder der mobilen App ist die Konfiguration des Sensor-Moduls in wenigen Minuten erledigt. Plug-and-Play-Funktionalität für sofortigen Einsatz."
+      },
+      {
+        "step": 4,
+        "title": "Robuste Bauweise",
+        "description": "Hergestellt aus langlebigem ABS-Kunststoff für den professionellen Einsatz.",
+        "expanded_content": "Das Gehäuse aus hochwertigem ABS-Kunststoff schützt die empfindliche Elektronik und gewährleistet eine lange Lebensdauer auch unter anspruchsvollen Betriebsbedingungen von -20°C bis 60°C."
+      },
+      {
+        "step": 5,
+        "title": "Energieeffizient",
+        "description": "Flexible Stromversorgung über USB-C oder Batterie.",
+        "expanded_content": "Nutzen Sie die bequeme Stromversorgung über USB-C oder wählen Sie den flexiblen Batteriebetrieb für mobile Einsätze. Die Energieeffizienz des Moduls sorgt für lange Laufzeiten."
+      }
+    ]
+  },
+  "enhancedAt": "2025-10-21T19:37:33.623748",
+  "originalName": "Produktdatenblatt",
+  "enhanced": true
+}

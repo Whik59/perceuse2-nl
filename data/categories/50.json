@@ -1,152 +1,170 @@
 {
   "categoryId": 50,
-  "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
-  "slug": "massageoele/entspannende-massageoele",
-  "parentCategoryId": 47,
-  "level": 1,
-  "description": "Entdecken Sie unser Lavendel Massageöl für pure Entspannung. Stress abbauen, wohlfühlen.",
-  "content": "<div><h2>Entspannende Massageöle mit Lavendel: Ihre Quelle der Ruhe</h2><p>Tauchen Sie ein in eine Welt der Gelassenheit mit unseren exquisiten entspannenden Massageölen mit Lavendel. Lavendel ist seit Jahrhunderten für seine beruhigenden und ausgleichenden Eigenschaften bekannt. Es hilft, den Geist zu beruhigen, Stress abzubauen und einen Zustand tiefer Entspannung zu fördern. Perfekt, um nach einem langen Tag zur Ruhe zu kommen oder um eine wohltuende Wellness-Auszeit zu Hause zu genießen.</p><h2>Die Kraft des Lavendels für Körper und Geist</h2><p>Unser sorgfältig formuliertes Massageöl kombiniert reines, ätherisches Lavendelöl mit nährenden Basisölen, die Ihre Haut seidig-glatt pflegen. Es spendet intensive Feuchtigkeit, macht die Haut geschmeidig und hinterlässt einen zarten, beruhigenden Duft. Ideal zur Linderung von Muskelverspannungen, zur Förderung eines erholsamen Schlafs und zur Steigerung des allgemeinen Wohlbefindens. Gönnen Sie sich diese Auszeit der Achtsamkeit und spüren Sie, wie Körper und Geist neue Energie tanken.</p><h2>Anwendung für maximale Entspannung</h2><p>Wärmen Sie eine kleine Menge des Öls in Ihren Händen an, um die Aromen freizusetzen und die Massage angenehmer zu gestalten. Massieren Sie es sanft in die Haut ein, wobei Sie sich besonders auf Bereiche konzentrieren, die Entspannung benötigen, wie Nacken, Schultern, Rücken oder Füße. Für ein vollständiges Verwöhnerlebnis nutzen Sie es vor dem Schlafengehen oder nach einem warmen Bad. Lassen Sie den wohltuenden Lavendelduft Ihre Sinne umschmeicheln und finden Sie Ihre innere Mitte.</p></div>",
+  "categoryNameCanonical": "Smarte LED Lampen",
+  "slug": "smarte-led-lampen",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecken Sie smarte LED Lampen: App-Steuerung, Farbwechsel & Energieeffizienz.",
+  "content": "<div><h2>Smarte LED Lampen: Revolutionieren Sie Ihr Zuhause mit Intelligentem Licht</h2><p>Tauchen Sie ein in die Welt der smarten LED Lampen und erleben Sie, wie moderne Beleuchtung Ihr Zuhause transformiert. Diese intelligenten Lichtquellen bieten weit mehr als nur Helligkeit. Mit smarter Technologie können Sie die Atmosphäre in jedem Raum individuell gestalten, Energie sparen und den Komfort Ihres Alltags erheblich steigern. Ob gemütliches Warmweiß für den Abend, konzentriertes Kaltweiß für die Arbeit oder farbenfrohes Licht für besondere Anlässe – smarte LED Lampen erfüllen jeden Wunsch.</p><p>Unsere Auswahl an smarten LED Lampen lässt sich bequem per Smartphone-App steuern, integriert sich nahtlos in Ihr Smart Home System und ist oft auch per Sprachbefehl kontrollierbar. Dimmen Sie das Licht stufenlos, wechseln Sie die Farbe mit einem Fingertipp oder programmieren Sie Routinen, die sich an Ihren Tagesablauf anpassen. Von der einfachen E27-Glühbirne bis zum komplexen Lichtsystem bieten wir Lösungen für jeden Bedarf. Entdecken Sie jetzt die Vielfalt und die unzähligen Möglichkeiten, Ihr Zuhause smarter und wohnlicher zu machen.</p></div>",
   "seo": {
-    "title": "Lavendel Massageöl: Tiefenentspannung für Körper & Geist",
-    "description": "Entdecken Sie unser Lavendel Massageöl für pure Entspannung. Stress abbauen, wohlfühlen.",
+    "title": "Smarte LED Lampen | Intelligente Beleuchtung für Ihr Zuhause",
+    "description": "Entdecken Sie smarte LED Lampen: App-Steuerung, Farbwechsel & Energieeffizienz.",
     "keywords": [
-      "Lavendel Massageöl",
-      "entspannende Massageöle",
-      "Aromatherapie Öl",
-      "Stressabbau Massage",
-      "natürliches Hautöl",
-      "Wellness Lavendel"
+      "Smarte LED Lampen",
+      "Intelligente Beleuchtung",
+      "WLAN Lampen",
+      "Smart Home Licht",
+      "App Steuerung LED",
+      "Dimmbare LED"
     ],
-    "enhancedAt": "2025-10-13T21:03:09.932774"
+    "enhancedAt": "2025-10-21T19:45:13.320939"
   },
   "faq": [
     {
-      "question": "Welche Vorteile bieten Lavendel Massageöle?",
-      "answer": "Lavendel Massageöle fördern tiefe Entspannung, lindern Stress und Verspannungen, beruhigen die Haut und unterstützen einen erholsamen Schlaf dank der beruhigenden Aromatherapie-Eigenschaften von Lavendel."
+      "question": "Was sind smarte LED Lampen?",
+      "answer": "Smarte LED Lampen sind energieeffiziente Leuchtmittel, die sich über WLAN oder Bluetooth mit Ihrem Smartphone oder Smart Home System verbinden lassen, um Lichtfarbe, Helligkeit und Zeitpläne zu steuern."
     },
     {
-      "question": "Wie wendet man das Lavendel Massageöl am besten an?",
-      "answer": "Wärmen Sie eine kleine Menge Öl in den Händen an. Massieren Sie es sanft in die Haut ein, insbesondere an Nacken, Schultern und Rücken. Für ein optimales Ergebnis vor dem Schlafengehen oder nach einem Bad verwenden."
+      "question": "Welche Vorteile bieten smarte LED Lampen?",
+      "answer": "Sie bieten Komfort durch Fernsteuerung, ermöglichen individuelle Lichtstimmungen, sparen Energie durch LED-Technologie und integrieren sich nahtlos in Ihr Smart Home System für automatisierte Abläufe."
     },
     {
-      "question": "Ist das Massageöl für alle Hauttypen geeignet?",
-      "answer": "Unsere Lavendel Massageöle werden aus natürlichen Inhaltsstoffen hergestellt und sind in der Regel gut verträglich. Bei empfindlicher Haut empfehlen wir jedoch, vor der ersten Anwendung einen kleinen Hauttest durchzuführen."
+      "question": "Sind smarte LED Lampen schwierig zu installieren?",
+      "answer": "Die meisten smarten LED Lampen sind sehr einfach zu installieren. Sie werden wie normale Glühbirnen eingeschraubt und die Verbindung zum WLAN oder Bluetooth erfolgt meist intuitiv über eine App."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-13T21:03:09.932792",
+  "enhancedAt": "2025-10-21T19:45:13.320972",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Entspannende Massageöle mit Lavendel",
+    "title": "Vergleich der 5 besten Smarte LED Lampen",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
       "Marke",
-      "Füllmenge",
-      "Duftprofil",
-      "Anwendungsbereich",
-      "Besondere Merkmale"
+      "Konnektivität",
+      "Farbspektrum",
+      "Dimmbar",
+      "Sprachsteuerung",
+      "Hub Erforderlich",
+      "Packungsgröße",
+      "Design"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/6187ygq4hQL._AC_SL1200_.jpg]",
-        "name": "Kitama Massageöl Lavendel 1000ml - Entspannungsöl",
-        "preis": "12.0€",
-        "bewertung": "4.5/5",
-        "marke": "Kitama",
-        "fuellmenge": "1000ml",
-        "duftprofil": "Lavendel",
-        "anwendungsbereich": "Körpermassagen, Entspannung, Hautpflege",
-        "besondere_merkmale": "Hohe Füllmenge (1 Liter), zieht gut ein, nicht fettend, für professionelle Anwendung",
-        "productUrl": "/product/1000ml-kitama-massageol-lavendel-entspannungsol",
-        "image": "https://m.media-amazon.com/images/I/6187ygq4hQL._AC_SL1200_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/613B-gy4-tL._AC_SL1500_.jpg]",
+        "name": "Fitop GU10 Smart LED Lampe, Alexa, WLAN, RGB+WW/KW",
+        "preis": "28.0€",
+        "bewertung": "4.1/5",
+        "marke": "Fitop",
+        "konnektivität": "WLAN (2.4GHz)",
+        "farbspektrum": "RGB + Warm-/Kaltweiß",
+        "dimmbar": "Ja",
+        "sprachsteuerung": "Alexa, Google Home",
+        "hub_erforderlich": "Nein",
+        "packungsgroesse": "5er-Pack",
+        "design": "GU10 Spot",
+        "productUrl": "/product/smart-fitop-gu10-led-lampe-alexa",
+        "image": "https://m.media-amazon.com/images/I/613B-gy4-tL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61uitNySNqL._AC_SL1225_.jpg]",
-        "name": "EIS Deluxe Massageöl Lavendel 250ml",
-        "preis": "9.0€",
-        "bewertung": "4.2/5",
-        "marke": "EIS",
-        "fuellmenge": "250ml",
-        "duftprofil": "Lavendel, erotisch",
-        "anwendungsbereich": "Muskelentspannung, Paarmassagen, intime Momente, Körperpflege",
-        "besondere_merkmale": "Wärmende Formel, Gleitmittel geeignet, für Paare, flüssig",
-        "productUrl": "/product/250ml-eis-deluxe-massageol-lavendel",
-        "image": "https://m.media-amazon.com/images/I/61uitNySNqL._AC_SL1225_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51xUpsZhmEL._AC_SL1500_.jpg]",
+        "name": "Trust WiFi E27 Smart Lampe RGB 2er-Pack",
+        "preis": "14.0€",
+        "bewertung": "4.1/5",
+        "marke": "Trust",
+        "konnektivität": "Wi-Fi 2.4GHz",
+        "farbspektrum": "RGB + Weißtöne",
+        "dimmbar": "Ja",
+        "sprachsteuerung": "Alexa, Google Home",
+        "hub_erforderlich": "Nein",
+        "packungsgroesse": "2er-Pack",
+        "design": "Standard E27 Birne",
+        "productUrl": "/product/smart-trust-wifi-e27-lampe-rgb",
+        "image": "https://m.media-amazon.com/images/I/51xUpsZhmEL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/719RLTwqalL._AC_SL1500_.jpg]",
-        "name": "Wärmendes Lavendel-Pfefferminz Massageöl 300ml",
-        "preis": "12.0€",
-        "bewertung": "4.4/5",
-        "marke": "O'RMEAS",
-        "fuellmenge": "300ml",
-        "duftprofil": "Lavendel & Pfefferminz",
-        "anwendungsbereich": "Muskelentspannung, Gelenkschmerzlinderung, Feuchtigkeitspflege",
-        "besondere_merkmale": "Wärmende Formel, schnell einziehend, nicht fettend",
-        "productUrl": "/product/300ml-warmendes-lavendel-pfefferminz-massageol",
-        "image": "https://m.media-amazon.com/images/I/719RLTwqalL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61XLWdo5ElL._AC_UL320_.jpg]",
+        "name": "LEDVANCE Volks-Licht E27 Smarte Lampe 6er-Pack",
+        "preis": "5.0€",
+        "bewertung": "3.9/5",
+        "marke": "LEDVANCE",
+        "konnektivität": "Bluetooth",
+        "farbspektrum": "Warmweiß",
+        "dimmbar": "Ja",
+        "sprachsteuerung": "Amazon Alexa, Google Assistant",
+        "hub_erforderlich": "Nein",
+        "packungsgroesse": "6er-Pack",
+        "design": "Standard E27 Birne",
+        "productUrl": "/product/ledvance-volks-licht-e27-smarte-lampe-6er-pack",
+        "image": "https://m.media-amazon.com/images/I/61XLWdo5ElL._AC_UL320_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/81WGBL6pWiL._AC_SL1500_.jpg]",
-        "name": "Panu Lavendel Massageöl - Feuchtigkeitsspendend",
-        "preis": "14.0€",
-        "bewertung": "4.4/5",
-        "marke": "Panu Natural",
-        "fuellmenge": "200ml",
-        "duftprofil": "Lavendel, beruhigend",
-        "anwendungsbereich": "Hautpflege, Entspannung, Wellness",
-        "besondere_merkmale": "Vegan, feuchtigkeitsspendend, schnell einziehend, Premium Qualität",
-        "productUrl": "/product/panu-lavendel-massageol-feuchtigkeitsspendend",
-        "image": "https://m.media-amazon.com/images/I/81WGBL6pWiL._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/617-d0ZOFgL._AC_SL1500_.jpg]",
+        "name": "LEDVANCE Smarte E27 LED-Lampe Rauchglas Filament Wifi",
+        "preis": "6.0€",
+        "bewertung": "4.2/5",
+        "marke": "LEDVANCE",
+        "konnektivität": "Wifi",
+        "farbspektrum": "Warmweiß (2500K)",
+        "dimmbar": "Ja",
+        "sprachsteuerung": "Alexa, Google Assistant",
+        "hub_erforderlich": "Nein",
+        "packungsgroesse": "1er-Pack",
+        "design": "E27 Edison Filament Rauchglas",
+        "productUrl": "/product/ledvance-smarte-e27-led-lampe-rauchglas-filament",
+        "image": "https://m.media-amazon.com/images/I/617-d0ZOFgL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71mGVVi3QJL._AC_SL1500_.jpg]",
-        "name": "Lavendel Massageöl: Muskelentspannung, Hautpflege",
-        "preis": "14.0€",
-        "bewertung": "4.2/5",
-        "marke": "Newvenper",
-        "fuellmenge": "200ml",
-        "duftprofil": "Lavendel, beruhigend, floral",
-        "anwendungsbereich": "Muskelentspannung, Hautbefeuchtung, Stressabbau",
-        "besondere_merkmale": "Hautpflegend, nicht fettend, verbessert Elastizität, für alle Geschlechter",
-        "productUrl": "/product/lavendel-massageol-muskelentspannung-hautpflege",
-        "image": "https://m.media-amazon.com/images/I/71mGVVi3QJL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71tc-BGg2yL._AC_SL1500_.jpg]",
+        "name": "LEDVANCE SMART+ WiFi Edison Gold E27 53W Warmweiß",
+        "preis": "9.0€",
+        "bewertung": "4.3/5",
+        "marke": "LEDVANCE",
+        "konnektivität": "WiFi",
+        "farbspektrum": "Warmweiß (2400K)",
+        "dimmbar": "Ja",
+        "sprachsteuerung": "Alexa, Google Assistant",
+        "hub_erforderlich": "Nein",
+        "packungsgroesse": "1er-Pack",
+        "design": "E27 Edison Gold",
+        "productUrl": "/product/53w-ledvance-smart-wifi-edison-gold",
+        "image": "https://m.media-amazon.com/images/I/71tc-BGg2yL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Wie wählt man die besten entspannenden Massageöle mit Lavendel?",
+    "title": "Kaufberatung: Wie wählt man die besten Smarten LED Lampen?",
     "sections": [
       {
-        "heading": "1. Inhaltsstoffe und Qualität",
-        "content": "Achten Sie auf Bio-Qualität und natürliche Trägeröle wie Jojoba oder Mandel. Reine ätherische Lavendelöle ohne synthetische Duftstoffe sind entscheidend für die Wirkung. Vermeiden Sie Parabene und Mineralöle, um Hautirritationen vorzubeugen. Eine hochwertige Formel, wie das EIS Deluxe Massageöl Lavendel 250ml, maximiert die wohltuende Entspannung. Natürliche Inhaltsstoffe sind essentiell für eine sanfte Hautpflege und die Aromatherapie-Wirkung."
+        "heading": "1. Konnektivität und Kompatibilität",
+        "content": "Prüfen Sie WLAN (WiFi) oder Bluetooth für einfache Steuerung. Beachten Sie die Kompatibilität mit Smart-Home-Systemen wie Google Home oder Alexa. Achten Sie auf den gängigen E27-Sockel, der weit verbreitet ist. So stellen Sie eine reibungslose Integration in Ihr Zuhause sicher und profitieren von flexiblen Steuerungsmöglichkeiten."
       },
       {
-        "heading": "2. Wirkung und Anwendungsbereich",
-        "content": "Lavendelöl wirkt beruhigend, stresslindernd und fördert einen besseren Schlaf. Es ist ideal zur Muskelentspannung nach einem langen Tag. Wählen Sie ein Öl, das schnell einzieht und die Haut nicht fettig hinterlässt. Perfekt für Ganzkörpermassagen oder gezielte Anwendungen an Nacken und Schultern, um Spannungen zu lösen und das allgemeine Wohlbefinden zu steigern. Das entspannende Öl ist ein Segen gegen Stress."
+        "heading": "2. Lichtfunktionen und Farbspektrum",
+        "content": "Achten Sie auf RGB-Farben, um jede gewünschte Stimmung zu erzeugen. Wichtig ist auch die Möglichkeit, die Farbtemperatur von warmweiß bis kaltweiß einzustellen. Dimmbarkeit ist entscheidend, um die Helligkeit perfekt an jede Situation anzupassen. Viele Lampen bieten zudem vordefinierte Lichtszenen."
       },
       {
-        "heading": "3. Duftintensität und Verträglichkeit",
-        "content": "Die Duftintensität ist Geschmackssache. Bevorzugen Sie einen dezenten oder intensiven Lavendelduft? Bei empfindlicher Haut unbedingt auf hypoallergene Formulierungen achten. Führen Sie vor der ersten Anwendung einen kleinen Hauttest durch, um Reaktionen auszuschließen. Natürliche Öle sind oft besser verträglich. Ein angenehmer Duft verstärkt die Aromatherapie und unterstützt den Stressabbau optimal."
+        "heading": "3. Energieeffizienz und Lebensdauer",
+        "content": "Smarte LED-Lampen sind extrem energieeffizient und bieten eine lange Lebensdauer, was Stromkosten spart. Vergleichen Sie die angegebene Wattzahl (W) mit der Lumenleistung (lm), um die tatsächliche Helligkeit zu beurteilen. Eine gute Energieeffizienzklasse ist ein Qualitätsmerkmal für Nachhaltigkeit und Wirtschaftlichkeit."
       },
       {
-        "heading": "4. Verpackung und Haltbarkeit",
-        "content": "Dunkle Glasflaschen schützen das empfindliche Lavendelöl vor Licht und erhalten die Wirksamkeit der natürlichen Inhaltsstoffe. Ein praktischer Pumpspender sorgt für hygienische Entnahme und präzise Dosierung, was Verschwendung minimiert. Prüfen Sie das Haltbarkeitsdatum, um die Frische und volle Wirkung zu gewährleisten. Eine gute Verpackung trägt zur Langlebigkeit des Produkts und zur Beibehaltung seiner Qualität bei."
+        "heading": "4. Steuerungsmöglichkeiten und Automatisierung",
+        "content": "Komfortable App-Steuerung über Ihr Smartphone ist Standard. Achten Sie auf Kompatibilität mit Sprachassistenten wie Alexa oder Google Assistant für freihändige Bedienung. Die Möglichkeit, Zeitpläne einzurichten und Lichtszenen zu speichern, erhöht den Wohnkomfort erheblich. Fernzugriff ist ein Pluspunkt für unterwegs."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis und Kundenbewertungen",
-        "content": "Vergleichen Sie Preise, aber legen Sie Wert auf Qualität. Ein gutes Lavendel-Massageöl muss nicht teuer sein, wie das EIS Deluxe Massageöl Lavendel 250ml (ca. 9.0€) zeigt. Lesen Sie Kundenbewertungen, um echte Erfahrungen zu erfahren. Markenreputation und Zertifikate können ebenfalls ein Indikator für ein hervorragendes Produkt sein. Investieren Sie in Ihr Wohlbefinden und die Qualität Ihrer Hautpflege."
+        "heading": "5. Installation und Markenwahl",
+        "content": "Eine einfache Installation ohne komplizierte Hubs ist ideal (Plug & Play). Marken wie Trust bieten oft preiswerte Starter-Kits, wie das Trust WiFi E27 Smart Lampe RGB 2er-Pack. Lesen Sie Kundenbewertungen und vergleichen Sie das Preis-Leistungs-Verhältnis, um die beste Smart-Lampe für Ihre Bedürfnisse zu finden."
       }
     ]
   }
