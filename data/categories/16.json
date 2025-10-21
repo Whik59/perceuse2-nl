@@ -1,150 +1,163 @@
 {
   "categoryId": 16,
-  "categoryNameCanonical": "Modulsofas",
-  "slug": "modulsofas",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecken Sie unsere Modulsofas: anpassbar, komfortabel & modern. Gestalten Sie Ihr Traumsofa!",
-  "content": "<div><h2>Modulsofas: Maximale Flexibilität für Ihr Wohnzimmer</h2><p>Modulsofas revolutionieren die Art, wie wir über Sofas denken. Statt eines starren Möbelstücks bieten sie eine Sammlung von einzelnen Modulen, die Sie nach Belieben zusammenstellen, umbauen und erweitern können. Ob als großzügiges Ecksofa, als kompakte Zwei-Sitzer-Lösung oder als innovative Chaiselongue – mit einem Modulsofa sind Ihrer Kreativität keine Grenzen gesetzt. Diese Anpassungsfähigkeit macht sie zur idealen Wahl für jedes Zuhause, egal ob Sie ein kleines Appartement oder ein weitläufiges Loft einrichten möchten.</p><h2>Ihre Vorteile mit einem modularen Sofa</h2><p>Die größten Stärken von Modulsofas liegen in ihrer Anpassungsfähigkeit. Sie passen sich nicht nur perfekt an die Gegebenheiten Ihres Raumes an, sondern auch an Ihre sich ändernden Lebensphasen. Familienzuwachs? Einfach ein zusätzliches Modul hinzufügen. Umzug in eine kleinere Wohnung? Das Sofa kann leicht verkleinert werden. Zudem ermöglichen modulare Designs eine einzigartige Ästhetik, die von minimalistisch bis opulent reicht, und bieten eine breite Palette an Stoffen, Farben und Konfigurationen. Erleben Sie den Komfort und die Freiheit, Ihr Wohnzimmer immer wieder neu zu erfinden.</p><h2>Vielfalt und Qualität unserer Modulsofas entdecken</h2><p>Entdecken Sie in unserem Sortiment eine exquisite Auswahl an Modulsofas, die höchste Ansprüche an Design, Komfort und Langlebigkeit erfüllen. Von robusten Stoffen über edle Lederbezüge bis hin zu innovativen Funktionen wie verstellbaren Rückenlehnen – jedes Modul ist darauf ausgelegt, Ihnen ein unvergleichliches Sitzerlebnis zu bieten. Wir legen Wert auf hochwertige Materialien und sorgfältige Verarbeitung, damit Ihr Modulsofa nicht nur schön aussieht, sondern auch den täglichen Belastungen standhält. Gestalten Sie noch heute Ihr individuelles Traumsofa und verwandeln Sie Ihr Wohnzimmer in eine Oase der Gemütlichkeit und des Stils.</p></div>",
+  "categoryNameCanonical": "Gaming-Headsets für Xbox",
+  "slug": "gaming-headsets/gaming-headsets-xbox",
+  "parentCategoryId": 13,
+  "level": 1,
+  "description": "Erlebe immersiven Sound & klare Kommunikation mit unseren Xbox Gaming Headsets. Top-Modelle für Xbox One & Series X|S!",
+  "content": "<div><h2>Perfekter Sound für dein Xbox Gaming Erlebnis</h2><p>Tauche ein in die Welt deiner Lieblingsspiele mit den passenden Gaming Headsets für Xbox. Egal, ob du packende Story-Modi genießt oder dich in kompetitiven Online-Schlachten beweist, ein hochwertiges Headset ist der Schlüssel zu einem immersiven und erfolgreichen Spielerlebnis. Unsere sorgfältig ausgewählten Xbox Headsets bieten kristallklaren Sound, sodass du jeden Schritt des Gegners hörst, jeden atmosphärischen Klang wahrnimmst und dich vollends auf das Geschehen konzentrieren kannst. Die präzise Klangwiedergabe verschafft dir einen entscheidenden Vorteil im Spiel.</p><p>Neben der beeindruckenden Audioqualität ist die Kommunikation mit deinem Team entscheidend. Unsere Gaming Kopfhörer für Xbox sind mit erstklassigen Mikrofonen ausgestattet, die deine Stimme klar und deutlich übertragen. Viele Modelle verfügen über Rauschunterdrückung, um störende Umgebungsgeräusche auszublenden, sodass deine Befehle immer verstanden werden. Entdecke eine breite Palette an Xbox One Headsets und Xbox Series X Headsets, die speziell für Microsofts Konsolen entwickelt wurden. Von kabellosen Gaming Headsets, die dir maximale Bewegungsfreiheit bieten, bis hin zu robusten kabelgebundenen Modellen für eine stets stabile Verbindung – finde das beste Xbox Headset, das perfekt zu deinem Spielstil und deinen Anforderungen passt. Genieße ultimativen Komfort auch bei langen Gaming-Sessions dank ergonomischem Design und weichen Ohrpolstern.</p></div>",
   "seo": {
-    "title": "Modulsofas: Flexibilität & Stil für Ihr Traum-Wohnzimmer",
-    "description": "Entdecken Sie unsere Modulsofas: anpassbar, komfortabel & modern. Gestalten Sie Ihr Traumsofa!",
+    "title": "Gaming Headsets Xbox: Optimaler Sound für Konsolen-Pros",
+    "description": "Erlebe immersiven Sound & klare Kommunikation mit unseren Xbox Gaming Headsets. Top-Modelle für Xbox One & Series X|S!",
     "keywords": [
-      "Modulsofas",
-      "modulares Sofa",
-      "Ecksofa modular",
-      "individuelles Sofa",
-      "flexibles Sofa",
-      "Wohnzimmer Sofa",
-      "Designsofa",
-      "Sofamodule",
-      "Sofa zum selbst zusammenstellen",
-      "Polstermöbel modular"
+      "Gaming Headset Xbox",
+      "Xbox Headset",
+      "Gaming Kopfhörer Xbox",
+      "Xbox One Headset",
+      "Xbox Series X Headset",
+      "Kabelloses Gaming Headset Xbox",
+      "Bestes Xbox Headset",
+      "Gaming Audio Xbox",
+      "Microsoft Xbox Headset",
+      "Headset für Xbox Konsole"
     ],
-    "enhancedAt": "2025-10-12T21:25:19.511066"
+    "enhancedAt": "2025-10-12T22:44:36.189323"
   },
   "faq": [
     {
-      "question": "Was sind Modulsofas?",
-      "answer": "Modulsofas sind flexible Sitzmöbel, die aus einzelnen, frei kombinierbaren Elementen (Modulen) bestehen. Diese können individuell arrangiert werden, um ein Sofa in der gewünschten Größe und Form zu gestalten."
+      "question": "Welche Vorteile bieten spezielle Gaming Headsets für Xbox?",
+      "answer": "Spezielle Gaming Headsets für Xbox sind für die Konsolen optimiert und bieten oft immersiven Surround-Sound, präzise Teamkommunikation durch hochwertige Mikrofone und hohen Tragekomfort für lange Spielsessions. Sie verbessern das Eintauchen ins Spiel und Ihre Wettbewerbsfähigkeit."
     },
     {
-      "question": "Welche Vorteile bieten modulare Sofas?",
-      "answer": "Der Hauptvorteil ist die hohe Anpassungsfähigkeit an Raum und Bedürfnisse. Sie können jederzeit erweitert, umgestellt oder verkleinert werden, passen sich flexibel an Umzüge an und ermöglichen ein einzigartiges, individuelles Design."
+      "question": "Sind kabellose Xbox Headsets die bessere Wahl?",
+      "answer": "Kabellose Xbox Headsets bieten maximale Bewegungsfreiheit und eliminieren Kabelsalat, was viele Spieler schätzen. Kabelgebundene Headsets punkten hingegen mit einer oft stabileren Verbindung, null Latenz und der Garantie, nie wegen eines leeren Akkus aufhören zu müssen. Die Wahl hängt von Ihren Prioritäten ab."
     },
     {
-      "question": "Wie pflege ich mein Modulsofa richtig?",
-      "answer": "Die Pflege hängt stark vom Bezugsmaterial ab. Generell empfiehlt sich regelmäßiges Absaugen. Flecken sollten je nach Stoffart mit speziellen Reinigern oder Wasser entfernt werden. Beachten Sie stets die Pflegehinweise des Herstellers."
+      "question": "Worauf sollte ich beim Kauf eines Xbox Gaming Headsets achten?",
+      "answer": "Achten Sie auf die Klangqualität (z.B. Surround-Sound-Fähigkeit), die Mikrofonqualität (Rauschunterdrückung), den Tragekomfort (Ohrpolster, Gewicht), die Konnektivität (kabelgebunden/kabellos), die Kompatibilität mit Ihrer spezifischen Xbox-Konsole (One, Series X|S) und natürlich Ihr Budget."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T21:25:19.511088",
+  "enhancedAt": "2025-10-12T22:44:36.189343",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Modulsofas",
+    "title": "Vergleich der 5 besten Gaming-Headsets für Xbox",
     "columns": [
       "Rang",
+      "Name",
       "Preis",
       "Bewertung",
       "Marke",
-      "Farbe",
-      "Bezugsmaterial",
-      "Produkttyp"
+      "Kompatibilität",
+      "Treibergröße",
+      "Anschluss",
+      "Mikrofon-Feature",
+      "Besonderheiten"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81S1IEDDvnL._AC_SL1500_.jpg]",
-        "name": "DOMO Malia Cord Polsterhocker Modul Sofa Beige",
-        "preis": "115.0€",
-        "bewertung": "3.6/5",
-        "marke": "DOMO",
-        "farbe": "Beige",
-        "bezugsmaterial": "Cord",
-        "produkttyp": "Polsterhocker / Modul-Element",
-        "productUrl": "/product/domo-malia-cord-polsterhocker-modul-sofa",
-        "image": "https://m.media-amazon.com/images/I/81S1IEDDvnL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/718gYucsKqL._AC_SL1500_.jpg]",
+        "name": "HyperX CloudX Xbox Gaming Headset",
+        "preis": "49.00€",
+        "bewertung": "4.4/5",
+        "marke": "HyperX",
+        "kompatibilitaet": "Xbox One, Xbox Series X|S",
+        "treibergroesse": "53 mm",
+        "anschluss": "3,5 mm Klinke",
+        "mikrofon_feature": "Abnehmbar, Rauschunterdrückung, Niere",
+        "besonderheiten": "Offiziell lizenziert für Xbox, Memory-Schaum Ohrpolster",
+        "productUrl": "/product/hyperx-cloudx-xbox-gaming-headset",
+        "image": "https://m.media-amazon.com/images/I/718gYucsKqL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/41JUvLEtRcL._AC_SL1024_.jpg]",
-        "name": "Bosmere Schutzhülle Modulsofa 2/3 Sitzer",
-        "preis": "42.0€",
-        "bewertung": "4.3/5",
-        "marke": "Bosmere",
-        "farbe": "Anthrazit",
-        "bezugsmaterial": "Wetterfestes und UV-beständiges Gewebe",
-        "produkttyp": "Schutzhülle",
-        "productUrl": "/product/bosmere-schutzhulle-modulsofa-2-3-sitzer",
-        "image": "https://m.media-amazon.com/images/I/41JUvLEtRcL._AC_SL1024_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/517NRTQoIyL._AC_SL1000_.jpg]",
+        "name": "Sharkoon Skiller SGH50 Weiß Hi-Res Gaming Headset",
+        "preis": "39.00€",
+        "bewertung": "4.1/5",
+        "marke": "Sharkoon",
+        "kompatibilitaet": "Xbox, PC, PlayStation, Switch, Mobile",
+        "treibergroesse": "50 mm",
+        "anschluss": "3,5 mm Klinke",
+        "mikrofon_feature": "Abnehmbar, Geräuschunterdrückung, Flexibel",
+        "besonderheiten": "Hi-Res Audio Zertifizierung, Ohrumschließend",
+        "productUrl": "/product/sharkoon-skiller-sgh50-weiss-hi-res-gaming",
+        "image": "https://m.media-amazon.com/images/I/517NRTQoIyL._AC_SL1000_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/81mTrSAL1XL._AC_SL1500_.jpg]",
-        "name": "Dripex 2-Sitzer Sofa Dunkelgrau Skandi",
-        "preis": "167.0€",
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71y5cDNYafL._AC_SL1500_.jpg]",
+        "name": "HyperX CloudX Stinger 2 Core Xbox Gaming-Headset",
+        "preis": "34.00€",
         "bewertung": "4.4/5",
-        "marke": "Dripex",
-        "farbe": "Dunkelgrau",
-        "bezugsmaterial": "Hochwertiger Stoff",
-        "produkttyp": "2-Sitzer Sofa",
-        "productUrl": "/product/dripex-2-sitzer-sofa-dunkelgrau-skandi",
-        "image": "https://m.media-amazon.com/images/I/81mTrSAL1XL._AC_SL1500_.jpg"
+        "marke": "HyperX",
+        "kompatibilitaet": "Xbox (Series X|S, One)",
+        "treibergroesse": "40 mm",
+        "anschluss": "3,5 mm Klinke",
+        "mikrofon_feature": "Stummschaltung durch Wegklappen",
+        "besonderheiten": "Leichtes Over-Ear-Design, Plug-and-Play",
+        "productUrl": "/product/hyperx-cloudx-stinger-core-xbox-gaming-headset",
+        "image": "https://m.media-amazon.com/images/I/71y5cDNYafL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61WJCIR3v+L._AC_SL1500_.jpg]",
-        "name": "RELAX4LIFE Klappsofa Weiß | Bodensofa",
-        "preis": "93.0€",
-        "bewertung": "4.2/5",
-        "marke": "RELAX4LIFE",
-        "farbe": "Weiß",
-        "bezugsmaterial": "Hochwertiger Stoff",
-        "produkttyp": "Klappsofa / Bodensofa",
-        "productUrl": "/product/relax4life-klappsofa-weiss-bodensofa",
-        "image": "https://m.media-amazon.com/images/I/61WJCIR3v+L._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61quCkU3MiL._AC_SL1500_.jpg]",
+        "name": "JBL Quantum 100X Konsole Gaming-Headset Xbox Schwarz",
+        "preis": "33.00€",
+        "bewertung": "4.3/5",
+        "marke": "JBL",
+        "kompatibilitaet": "Xbox (Series X|S, One), Multiplattform (3,5mm)",
+        "treibergroesse": "40 mm",
+        "anschluss": "3,5 mm Klinke",
+        "mikrofon_feature": "Abnehmbar, Gerichtetes MEMS-Mikrofon",
+        "besonderheiten": "Leichtes Design, überragende Audioqualität",
+        "productUrl": "/product/jbl-quantum-100x-konsole-gaming-headset-xbox",
+        "image": "https://m.media-amazon.com/images/I/61quCkU3MiL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71n7Lgze4OL._AC_SL1500_.jpg]",
-        "name": "Mendler Ecksofa HWC-K38 256cm Klappsofa Hellgrau",
-        "preis": "119.0€",
-        "bewertung": "3.0/5",
-        "marke": "Mendler",
-        "farbe": "Hellgrau",
-        "bezugsmaterial": "Hochwertiger Stoffbezug",
-        "produkttyp": "Ecksofa / Klappsofa",
-        "productUrl": "/product/hwc-k38-mendler-ecksofa-256cm-klappsofa-hellgrau",
-        "image": "https://m.media-amazon.com/images/I/71n7Lgze4OL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61YjQpehU1L._AC_SL1500_.jpg]",
+        "name": "Razer Kaira X Kabel-Gaming-Headset Grün Xbox",
+        "preis": "47.00€",
+        "bewertung": "4.0/5",
+        "marke": "Razer",
+        "kompatibilitaet": "Xbox Series X|S, Xbox One, PC, Mobile",
+        "treibergroesse": "50 mm Triforce",
+        "anschluss": "Kabelgebunden (3,5mm Klinke)",
+        "mikrofon_feature": "HyperClear Kardioiden-Mikrofon",
+        "besonderheiten": "Triforce 50-mm-Treiber, Integrierte Bedienelemente",
+        "productUrl": "/product/razer-kaira-kabel-gaming-headset-grun-xbox",
+        "image": "https://m.media-amazon.com/images/I/61YjQpehU1L._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So wählen Sie das beste Modulsofa",
+    "title": "Kaufberatung: Wie Sie das beste Gaming-Headset für Xbox wählen?",
     "sections": [
       {
-        "heading": "1. Flexibilität und Konfigurierbarkeit",
-        "content": "Modulsofas bieten unbegrenzte Anpassung an Raum und Bedürfnisse. Achten Sie auf einfach zu verbindende Elemente wie Eckmodule, Mittelstücke und Hocker. Überlegen Sie, ob Sie die Anordnung häufig ändern möchten, um die optimale Flexibilität zu gewährleisten. Dies ist ideal für dynamische Wohnbereiche."
+        "heading": "1. Klangqualität und Mikrofon",
+        "content": "Achten Sie auf klaren Stereo- oder virtuellen Surround-Sound, um Gegner präzise zu orten. Ein gutes Mikrofon mit Geräuschunterdrückung ist entscheidend für die Kommunikation im Team. Marken wie HyperX bieten oft eine hervorragende Balance aus beidem. Testen Sie bei Möglichkeit die Mikrofonqualität online."
       },
       {
-        "heading": "2. Material und Bezugsstoff",
-        "content": "Die Wahl des Bezugs ist entscheidend für Haltbarkeit und Pflege. Stoffe wie Webstoff oder Mikrofaser sind gemütlich und pflegeleicht, Leder wirkt edel. Prüfen Sie die Scheuerbeständigkeit (Martindale-Wert) und ob der Bezug abnehmbar und waschbar ist. Das schützt Ihr Modulsofa langfristig."
+        "heading": "2. Konnektivität und Kompatibilität",
+        "content": "Wählen Sie zwischen kabelgebunden (3,5mm Klinke am Controller) oder kabellos. Kabellose Headsets bieten mehr Bewegungsfreiheit, aber achten Sie auf echte Xbox Wireless-Technologie für nahtlose Verbindung. Günstige Modelle wie das HyperX CloudX sind oft kabelgebunden, bieten aber dennoch Top-Leistung."
       },
       {
-        "heading": "3. Qualität von Gestell und Polsterung",
-        "content": "Ein stabiles Untergestell aus Massivholz oder Metall garantiert Langlebigkeit. Die Polsterung, oft aus Kaltschaum oder Federkern, beeinflusst den Sitzkomfort. Testen Sie verschiedene Härten. Eine gute Polsterung sorgt für Formstabilität und Bequemlichkeit auch nach längerem Gebrauch."
+        "heading": "3. Tragekomfort und Material",
+        "content": "Lange Gaming-Sessions erfordern hohen Tragekomfort. Leichte Bauweise, weiche, atmungsaktive Ohrpolster (Memory Foam ist ideal) und ein verstellbarer Kopfbügel sind essenziell. Testen Sie den Sitz, um Druckpunkte zu vermeiden. Ein gutes Headset darf nicht drücken."
       },
       {
-        "heading": "4. Größe und Raumplanung",
-        "content": "Messen Sie Ihren Raum sorgfältig aus, um die passende Größe der Modulsofa-Elemente zu bestimmen. Berücksichtigen Sie Laufwege und andere Möbel. Planen Sie auch zukünftige Erweiterungen ein. Ein Modulsofa 2/3 Sitzer ist oft ein guter Startpunkt für kleinere Räume."
+        "heading": "4. Zusätzliche Funktionen",
+        "content": "Praktisch sind integrierte Lautstärkeregler und Chat-Mix-Funktionen direkt am Headset oder Kabel. Bei kabellosen Modellen ist die Akkulaufzeit wichtig; 15-20 Stunden sind ein guter Richtwert. Einige Headsets bieten auch App-Steuerung für erweiterte Soundeinstellungen."
       },
       {
-        "heading": "5. Pflege und Zubehör",
-        "content": "Informieren Sie sich über die Pflegehinweise des Herstellers. Eine Schutzhülle Modulsofa, besonders für Außenbereiche oder bei Haustieren, ist eine sinnvolle Investition, um das Sofa vor Witterung und Schmutz zu schützen. Regelmäßiges Absaugen und schnelle Fleckenentfernung erhalten die Optik."
+        "heading": "5. Preis-Leistungs-Verhältnis",
+        "content": "Ein gutes Xbox Gaming-Headset muss nicht teuer sein. Modelle wie das HyperX CloudX für etwa 49€ bieten exzellente Qualität für den Einstieg. Vergleichen Sie Funktionen mit Ihrem Budget. Achten Sie auf Rezensionen und Marken wie SteelSeries, Razer oder Astro für höhere Ansprüche."
       }
     ]
   }

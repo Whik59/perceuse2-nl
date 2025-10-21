@@ -4,38 +4,38 @@
     "locale": "de-DE"
   },
   "categories": {
-    "title": "Sofa-Kategorien",
+    "title": "Kopfhörer-Kategorien",
     "hero": {
-      "title": "Finden Sie das perfekte Sofa für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Sofas"
+      "title": "Finden Sie die perfekten Kopfhörer für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Kopfhörern"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Sofa-Kategorien",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, das perfekte Sofa zu finden"
+    "subtitle": "Erkunden Sie unsere spezialisierten Kopfhörer-Kategorien",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekten Kopfhörer zu finden"
   },
-  "siteName": "Ihr perfektes Sofa",
-  "companyName": "Sofa GmbH",
-  "products": "Sofas",
-  "productNotFound": "Sofa nicht gefunden",
+  "siteName": "Ihre perfekten Kopfhörer",
+  "companyName": "Kopfhörer GmbH",
+  "products": "Kopfhörer",
+  "productNotFound": "Kopfhörer nicht gefunden",
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Sofas zu beantworten",
+    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Kopfhörern zu beantworten",
     "faq": {
       "title": "Häufig gestellte Fragen",
       "categoryTitle": "Häufig gestellte Fragen",
-      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Sofas, Lieferung, Rücksendungen und mehr.",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Kopfhörern, Lieferung, Rücksendungen und mehr.",
       "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
       "contactTeam": "Kontaktieren Sie unser Team",
       "sendEmail": "E-Mail senden",
       "questions": [
         {
           "id": "1",
-          "question": "Wie lange hält die Qualität von Sofas?",
-          "answer": "Unsere Sofas sind langlebig gebaut und können je nach Modell 5 bis 15 Jahre halten. Sie sind für maximalen Komfort optimiert und garantieren bei jeder Nutzung hervorragende Sitzqualität."
+          "question": "Wie lange hält die Qualität von Kopfhörern?",
+          "answer": "Unsere Kopfhörer sind langlebig gebaut und können je nach Modell 3 bis 8 Jahre halten. Sie sind für kristallklares Hören optimiert und garantieren bei jeder Nutzung hervorragende Klangqualität."
         },
         {
           "id": "2",
-          "question": "Sind die Sofas sicher?",
-          "answer": "Absolut. Alle unsere Sofas entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über hochwertige Materialien, robuste Konstruktion und geprüfte Sicherheitsmerkmale."
+          "question": "Sind die Kopfhörer sicher?",
+          "answer": "Absolut. Alle unsere Kopfhörer entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über hochwertige Materialien, robuste Konstruktion und geprüfte Sicherheitsmerkmale."
         },
         {
           "id": "3",
@@ -44,28 +44,28 @@
         },
         {
           "id": "4",
-          "question": "Kann ich Sofas zurückgeben, wenn ich nicht zufrieden bin?",
-          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie das Sofa in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+          "question": "Kann ich Kopfhörer zurückgeben, wenn ich nicht zufrieden bin?",
+          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die Kopfhörer in der Originalverpackung für eine volle Rückerstattung zurücksenden."
         },
         {
           "id": "5",
-          "question": "Wie pflege ich die Sofas?",
-          "answer": "Unsere Sofas sind sehr einfach zu pflegen. Sie müssen das Sofa nur regelmäßig absaugen und bei Bedarf mit einem feuchten Tuch abwischen. Die Bezüge können bei den meisten Modellen abgenommen und gewaschen werden. Ein Timer erinnert an die regelmäßige Pflege."
+          "question": "Wie bediene ich die Kopfhörer?",
+          "answer": "Unsere Kopfhörer sind sehr einfach zu bedienen. Sie müssen die Kopfhörer nur einschalten, die gewünschte Lautstärke wählen und das kristallklare Hören genießen. Nach dem Hören schalten Sie sie einfach aus. Ein Timer zeigt die verbleibende Akkulaufzeit an."
         },
         {
           "id": "6",
-          "question": "Welche Größen gibt es?",
-          "answer": "Die meisten unserer Sofas bieten verschiedene Größen von kompakt bis groß, die in mehreren Varianten erhältlich sind. Einige Premium-Modelle bieten eine maßgeschneiderte Anpassung. Die Größen sind für perfekte Passform in allen Räumen optimiert."
+          "question": "Welche Lautstärkestufen gibt es?",
+          "answer": "Die meisten unserer Kopfhörer bieten verschiedene Lautstärkestufen von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstlautstärke ist für perfektes Hören in allen Umgebungen optimiert."
         },
         {
           "id": "7",
-          "question": "Gibt es eine Garantie auf die Sofas?",
-          "answer": "Alle unsere Sofas haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+          "question": "Gibt es eine Garantie auf die Kopfhörer?",
+          "answer": "Alle unsere Kopfhörer haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
         },
         {
           "id": "8",
-          "question": "Wie reinige und pflege ich meine Sofas?",
-          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Bezüge können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Sofas regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+          "question": "Wie reinige und pflege ich meine Kopfhörer?",
+          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Ohrpolster können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Kopfhörer regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
         }
       ],
       "deliveryTime": {
@@ -74,11 +74,11 @@
       },
       "returns": {
         "question": "Wie lautet die Rückgabepolitik?",
-        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Sofas in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Kopfhörer in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
       },
       "warranty": {
-        "question": "Welche Garantie haben die Sofas?",
-        "answer": "Alle unsere Sofas haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        "question": "Welche Garantie haben die Kopfhörer?",
+        "answer": "Alle unsere Kopfhörer haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
       },
       "payment": {
         "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -110,13 +110,13 @@
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere Sofas, die Sie interessieren könnten",
-    "ourShop": "kaufen-sofa.de"
+    "alsoLikeSubtitle": "Andere Kopfhörer, die Sie interessieren könnten",
+    "ourShop": "kaufen-kopfhoerer.de"
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Sofas!",
-      "subtitle": "Maximaler Komfort und elegantes Design. Qualität und Stil garantiert.",
+      "title": "Perfekte Kopfhörer!",
+      "subtitle": "Effizientes und kristallklares Hören. Qualität und Klang garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -128,16 +128,16 @@
     },
     "features": {
       "quality": {
-        "title": "Maximaler Komfort",
-        "description": "Bis zu 99,9 % Sitzkomfort. Perfekt für außergewöhnliche Entspannung ohne Kompromisse."
+        "title": "Kristallklares Hören",
+        "description": "Bis zu 99,9 % Klangqualität. Perfekt für außergewöhnliche Hörerlebnisse ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Steuerung",
-        "description": "Präzise Komfortsteuerung von sanft bis intensiv. Passt den Komfort an jede Umgebung an."
+        "description": "Präzise Lautstärkesteuerung von sanft bis intensiv. Passt den Klang an jede Umgebung an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360°-Komfort-Technologie. Gleichbleibende Qualität und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360°-Audio-Technologie. Gleichbleibende Qualität und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium-Kundenservice",
@@ -148,58 +148,58 @@
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfekte Sofas!",
-        "subtitle": "Maximaler Komfort und elegantes Design. Qualität und Stil garantiert.",
-        "loading": "Ihr Sofa wird geladen...",
+        "title": "Perfekte Kopfhörer!",
+        "subtitle": "Effizientes und kristallklares Hören. Qualität und Klang garantiert.",
+        "loading": "Ihre Kopfhörer werden geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Sofas machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Kopfhörer machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Sofas höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximalen Komfort."
+        "description": "Kopfhörer höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximalen Klang."
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Spezialisiertes Kundenserviceteam für Sofas. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Spezialisiertes Kundenserviceteam für Kopfhörer. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
     }
   },
   "metadata": {
-    "title": "Sofas kaufen - Die besten Sofas im Vergleich",
-    "description": "Entdecken Sie die besten Sofas mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
+    "title": "Kopfhörer kaufen - Die besten Kopfhörer im Vergleich",
+    "description": "Entdecken Sie die besten Kopfhörer mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
   },
   "siteConfig": {
     "site": {
-      "name": "Sofas",
-      "description": "Finden Sie das perfekte Sofa. Große Auswahl an Sofas, Couches und Wohnmöbeln. Unglaubliche Preise und schneller Versand!",
-      "url": "https://kaufen-sofa.de",
+      "name": "Kopfhörer",
+      "description": "Finden Sie die perfekten Kopfhörer. Große Auswahl an Kopfhörern, Headsets und Audio-Produkten. Unglaubliche Preise und schneller Versand!",
+      "url": "https://kaufen-kopfhoerer.de",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Sofas - Sofas und Wohnmöbel",
-      "titleTemplate": "%s | Sofas",
-      "defaultDescription": "Finden Sie das perfekte Sofa. Große Auswahl an Sofas, Couches und Wohnmöbeln. Unglaubliche Preise und schneller Versand!",
+      "defaultTitle": "Kopfhörer - Kopfhörer und Audio-Produkte",
+      "titleTemplate": "%s | Kopfhörer",
+      "defaultDescription": "Finden Sie die perfekten Kopfhörer. Große Auswahl an Kopfhörern, Headsets und Audio-Produkten. Unglaubliche Preise und schneller Versand!",
       "keywords": [
-        "Sofas",
-        "Couches",
-        "Wohnmöbel",
-        "Sofas kaufen",
-        "Sofa-Angebote",
-        "Günstige Sofas",
-        "Beste Sofas",
-        "Professionelle Sofas",
-        "Elektrische Sofas"
+        "Kopfhörer",
+        "Headsets",
+        "Audio",
+        "Kopfhörer kaufen",
+        "Kopfhörer-Angebote",
+        "Günstige Kopfhörer",
+        "Beste Kopfhörer",
+        "Professionelle Kopfhörer",
+        "Bluetooth Kopfhörer"
       ],
-      "ogImage": "/og-image-sofa.jpg"
+      "ogImage": "/og-image-headphones.jpg"
     },
     "business": {
-      "email": "info@kaufen-sofa.de",
+      "email": "info@kaufen-kopfhoerer.de",
       "phone": "+49 30 12345678",
-      "address": "Sofastraße 1, 10115 Berlin, Deutschland",
+      "address": "Audiostraße 1, 10115 Berlin, Deutschland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -207,7 +207,7 @@
       }
     },
     "affiliate": {
-      "amazonTag": "sofa-21",
+      "amazonTag": "kopfhoerer-21",
       "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
     },
     "features": {
