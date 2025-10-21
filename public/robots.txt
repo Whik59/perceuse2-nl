@@ -2,14 +2,14 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://kaufen-airfryer.de/sitemap.xml
+Sitemap: https://kaufen-sofa.de/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
 Disallow: /scripts/
-Disallow: /data/
+
 
 # Allow important pages
 Allow: /

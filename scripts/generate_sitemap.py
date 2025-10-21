@@ -246,7 +246,7 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
 Disallow: /scripts/
-Disallow: /data/
+
 
 # Allow important pages
 Allow: /
