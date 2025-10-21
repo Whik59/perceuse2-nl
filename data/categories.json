@@ -1,521 +1,885 @@
 [
   {
-    "slug": "drohnen-fuer-anfaenger",
-    "name": "Drohnen für Anfänger",
-    "categoryNameCanonical": "Drohnen für Anfänger",
-    "description": "Einfach zu fliegende Drohnen mit stabilisierenden Funktionen wie Höhenhaltung und One-Key-Start, ideal für die ersten Flugversuche.",
+    "slug": "akkustaubsauger",
+    "name": "Akkustaubsauger",
+    "categoryNameCanonical": "Akkustaubsauger",
+    "description": "Kabellose Staubsauger für maximale Flexibilität. Ideal für die schnelle Reinigung von Böden, Treppen und schwer erreichbaren Stellen ohne lästiges Kabel.",
     "subcategories": [
       {
-        "slug": "drohnen-fuer-anfaenger-mit-kamera",
-        "name": "Drohnen für Anfänger mit Kamera",
-        "categoryNameCanonical": "Drohnen für Anfänger mit Kamera",
-        "description": "Einsteigermodelle mit integrierter Kamera für erste Luftaufnahmen ohne komplexe Einstellungen."
+        "slug": "akkustaubsauger-mit-wischfunktion",
+        "name": "Akkustaubsauger mit Wischfunktion",
+        "categoryNameCanonical": "Akkustaubsauger mit Wischfunktion",
+        "description": "Kombigeräte, die gleichzeitig saugen und wischen, für eine umfassende Hartbodenreinigung in einem Schritt."
       },
       {
-        "slug": "drohnen-fuer-anfaenger-mit-hinderniserkennung",
-        "name": "Drohnen für Anfänger mit Hinderniserkennung",
-        "categoryNameCanonical": "Drohnen für Anfänger mit Hinderniserkennung",
-        "description": "Drohnen mit Sensoren, die Kollisionen vermeiden und das Fliegen sicherer machen."
+        "slug": "akkustaubsauger-mit-absaugstation",
+        "name": "Akkustaubsauger mit Absaugstation",
+        "categoryNameCanonical": "Akkustaubsauger mit Absaugstation",
+        "description": "Modelle mit einer Basisstation, die den Staubbehälter des Saugers automatisch entleert und oft auch den Akku lädt."
       },
       {
-        "slug": "drohnen-fuer-anfaenger-unter-100-euro",
-        "name": "Drohnen für Anfänger unter 100 Euro",
-        "categoryNameCanonical": "Drohnen für Anfänger unter 100 Euro",
-        "description": "Preisgünstige Modelle, die alle grundlegenden Funktionen für einen erfolgreichen Start bieten."
+        "slug": "akkustaubsauger-fuer-tierhaare",
+        "name": "Akkustaubsauger für Tierhaare",
+        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
+        "description": "Leistungsstarke Akkusauger mit speziellen Bürstenwalzen, die Tierhaare effektiv von Teppichen und Polstern entfernen."
+      },
+      {
+        "slug": "akkustaubsauger-mit-wechselakku",
+        "name": "Akkustaubsauger mit austauschbarem Akku",
+        "categoryNameCanonical": "Akkustaubsauger mit austauschbarem Akku",
+        "description": "Geräte, bei denen ein leerer Akku einfach gegen einen vollen ausgetauscht werden kann, um die Laufzeit zu verlängern."
       }
     ]
   },
   {
-    "slug": "drohnen-fuer-kinder",
-    "name": "Drohnen für Kinder",
-    "categoryNameCanonical": "Drohnen für Kinder",
-    "description": "Robuste und sichere Drohnen mit Propellerschutz und einfacher Steuerung, oft in bunten Designs für jüngere Piloten.",
+    "slug": "bodenstaubsauger",
+    "name": "Bodenstaubsauger",
+    "categoryNameCanonical": "Bodenstaubsauger",
+    "description": "Klassische, kabelgebundene Staubsauger mit hoher Saugleistung für die gründliche Reinigung von großen Flächen, Teppichen und Hartböden.",
     "subcategories": [
       {
-        "slug": "drohnen-fuer-kinder-ab-6-jahre",
-        "name": "Drohnen für Kinder ab 6 Jahre",
-        "categoryNameCanonical": "Drohnen für Kinder ab 6 Jahre",
-        "description": "Besonders einfache und widerstandsfähige Drohnen, die für die motorischen Fähigkeiten von Kindern ab 6 Jahren geeignet sind."
+        "slug": "bodenstaubsauger-mit-beutel",
+        "name": "Bodenstaubsauger mit Beutel",
+        "categoryNameCanonical": "Bodenstaubsauger mit Beutel",
+        "description": "Hygienische Modelle, bei denen Staub und Schmutz in einem austauschbaren Beutel gesammelt werden, ideal für Allergiker."
       },
       {
-        "slug": "drohnen-fuer-kinder-ab-8-jahre",
-        "name": "Drohnen für Kinder ab 8 Jahre",
-        "categoryNameCanonical": "Drohnen für Kinder ab 8 Jahre",
-        "description": "Modelle mit zusätzlichen Funktionen wie Flips und einer einfachen Kamera für Kinder ab 8 Jahren."
+        "slug": "bodenstaubsauger-beutellos",
+        "name": "Bodenstaubsauger beutellos (Zyklon)",
+        "categoryNameCanonical": "Bodenstaubsauger beutellos (Zyklon)",
+        "description": "Staubsauger mit Zyklon-Technologie, die ohne Beutel auskommen und über einen entleerbaren Staubbehälter verfügen."
       },
       {
-        "slug": "drohnen-fuer-kinder-indoor",
-        "name": "Indoor Drohnen für Kinder",
-        "categoryNameCanonical": "Indoor Drohnen für Kinder",
-        "description": "Kleine, leichte Drohnen mit Schutzrahmen, die sicher in Innenräumen geflogen werden können."
+        "slug": "bodenstaubsauger-mit-hepa-filter",
+        "name": "Bodenstaubsauger mit HEPA-Filter",
+        "categoryNameCanonical": "Bodenstaubsauger mit HEPA-Filter",
+        "description": "Geräte mit hocheffizienten Partikelfiltern, die kleinste Staubpartikel und Allergene aus der Abluft filtern."
+      },
+      {
+        "slug": "leise-bodenstaubsauger",
+        "name": "Leise Bodenstaubsauger (unter 70 dB)",
+        "categoryNameCanonical": "Leise Bodenstaubsauger (unter 70 dB)",
+        "description": "Geräuscharme Modelle, die eine gründliche Reinigung ohne übermäßige Lärmbelästigung ermöglichen."
       }
     ]
   },
   {
-    "slug": "drohnen-mit-kamera",
-    "name": "Drohnen mit Kamera",
-    "categoryNameCanonical": "Drohnen mit Kamera",
-    "description": "Drohnen, die mit einer integrierten Kamera ausgestattet sind, um Luftaufnahmen und Videos aufzunehmen.",
+    "slug": "saugroboter",
+    "name": "Saugroboter",
+    "categoryNameCanonical": "Saugroboter",
+    "description": "Autonome Reinigungsroboter, die selbstständig Böden saugen und navigieren. Ideal für die tägliche, mühelose Aufrechterhaltung der Sauberkeit.",
     "subcategories": [
       {
-        "slug": "drohnen-mit-hd-kamera",
-        "name": "Drohnen mit HD Kamera",
-        "categoryNameCanonical": "Drohnen mit HD Kamera",
-        "description": "Drohnen, die Videos in 720p oder 1080p Auflösung für klare und detaillierte Aufnahmen aufzeichnen."
+        "slug": "saugroboter-mit-wischfunktion",
+        "name": "Saugroboter mit Wischfunktion",
+        "categoryNameCanonical": "Saugroboter mit Wischfunktion",
+        "description": "Hybride Roboter, die nicht nur saugen, sondern auch feucht wischen können, für eine komplette Bodenpflege."
       },
       {
-        "slug": "drohnen-mit-4k-kamera",
-        "name": "Drohnen mit 4K Kamera",
-        "categoryNameCanonical": "Drohnen mit 4K Kamera",
-        "description": "Hochauflösende Drohnen für semi-professionelle und professionelle Videoaufnahmen in 4K-Qualität."
+        "slug": "saugroboter-mit-absaugstation",
+        "name": "Saugroboter mit Absaugstation",
+        "categoryNameCanonical": "Saugroboter mit Absaugstation",
+        "description": "High-End-Modelle mit einer Dockingstation, die den Staubbehälter des Roboters automatisch entleert."
       },
       {
-        "slug": "drohnen-mit-live-uebertragung-fpv",
-        "name": "Drohnen mit Live-Übertragung (FPV)",
-        "categoryNameCanonical": "Drohnen mit Live-Übertragung (FPV)",
-        "description": "Modelle, die das Kamerabild in Echtzeit auf ein Smartphone oder eine FPV-Brille übertragen."
+        "slug": "saugroboter-mit-laser-navigation",
+        "name": "Saugroboter mit Laser-Navigation (LIDAR)",
+        "categoryNameCanonical": "Saugroboter mit Laser-Navigation (LIDAR)",
+        "description": "Intelligente Roboter, die mittels Laser präzise Karten der Räume erstellen und systematisch reinigen."
+      },
+      {
+        "slug": "saugroboter-fuer-tierhaare",
+        "name": "Saugroboter für Tierhaare",
+        "categoryNameCanonical": "Saugroboter für Tierhaare",
+        "description": "Spezialisierte Roboter mit hoher Saugkraft und verwicklungsfreien Bürsten, um Tierhaare effektiv aufzunehmen."
       }
     ]
   },
   {
-    "slug": "mini-drohnen",
-    "name": "Mini Drohnen",
-    "categoryNameCanonical": "Mini Drohnen",
-    "description": "Kompakte und leichte Drohnen, die oft in die Handfläche passen und ideal für den Einsatz in Innenräumen oder unterwegs sind.",
+    "slug": "handstaubsauger",
+    "name": "Handstaubsauger",
+    "categoryNameCanonical": "Handstaubsauger",
+    "description": "Kompakte und leichte Geräte für die schnelle Reinigung kleiner Malheure, Krümel auf dem Tisch, im Auto oder auf Polstern.",
     "subcategories": [
       {
-        "slug": "mini-drohnen-mit-kamera",
-        "name": "Mini Drohnen mit Kamera",
-        "categoryNameCanonical": "Mini Drohnen mit Kamera",
-        "description": "Kleine Drohnen mit einer integrierten Kamera für schnelle Schnappschüsse und Videos aus der Luft."
+        "slug": "akku-handstaubsauger",
+        "name": "Akkubetriebene Handstaubsauger",
+        "categoryNameCanonical": "Akkubetriebene Handstaubsauger",
+        "description": "Kabellose Handstaubsauger für maximale Portabilität und den schnellen Einsatz überall im Haus."
       },
       {
-        "slug": "mini-drohnen-fuer-kinder",
-        "name": "Mini Drohnen für Kinder",
-        "categoryNameCanonical": "Mini Drohnen für Kinder",
-        "description": "Besonders kleine und sichere Drohnen, perfekt als Spielzeug oder für die ersten Flugerfahrungen von Kindern."
+        "slug": "kabelgebundene-handstaubsauger",
+        "name": "Kabelgebundene Handstaubsauger",
+        "categoryNameCanonical": "Kabelgebundene Handstaubsauger",
+        "description": "Leistungsstarke Handgeräte mit Netzbetrieb für konstante Saugkraft ohne Zeitlimit."
       },
       {
-        "slug": "mini-drohnen-fuer-indoor",
-        "name": "Mini Drohnen für Indoor",
-        "categoryNameCanonical": "Mini Drohnen für Indoor",
-        "description": "Leichte Modelle, die speziell für den sicheren und stabilen Flug in geschlossenen Räumen konzipiert sind."
+        "slug": "handstaubsauger-fuer-auto",
+        "name": "Handstaubsauger für das Auto",
+        "categoryNameCanonical": "Handstaubsauger für das Auto",
+        "description": "Modelle mit speziellen Düsen und oft einem 12V-Anschluss für die gründliche Reinigung des Fahrzeuginnenraums."
+      },
+      {
+        "slug": "handstaubsauger-mit-nasssaugfunktion",
+        "name": "Handstaubsauger mit Nasssaugfunktion",
+        "categoryNameCanonical": "Handstaubsauger mit Nasssaugfunktion",
+        "description": "Vielseitige Geräte, die sowohl trockenen Schmutz als auch verschüttete Flüssigkeiten aufnehmen können."
       }
     ]
   },
   {
-    "slug": "faltbare-drohnen",
-    "name": "Faltbare Drohnen",
-    "categoryNameCanonical": "Faltbare Drohnen",
-    "description": "Drohnen mit einklappbaren Armen für maximale Portabilität. Ideal für Reisen und den einfachen Transport im Rucksack.",
+    "slug": "stielstaubsauger",
+    "name": "Stielstaubsauger",
+    "categoryNameCanonical": "Stielstaubsauger",
+    "description": "Schlanke und wendige Staubsauger in Stielform, oft kabellos. Eine leichte Alternative zum klassischen Bodenstaubsauger.",
     "subcategories": [
       {
-        "slug": "faltbare-drohnen-mit-4k-kamera",
-        "name": "Faltbare Drohnen mit 4K Kamera",
-        "categoryNameCanonical": "Faltbare Drohnen mit 4K Kamera",
-        "description": "Kompakte, reisefreundliche Drohnen, die dennoch hochauflösende 4K-Aufnahmen ermöglichen."
+        "slug": "kabelgebundene-stielstaubsauger",
+        "name": "Kabelgebundene Stielstaubsauger",
+        "categoryNameCanonical": "Kabelgebundene Stielstaubsauger",
+        "description": "Leichte Stielstaubsauger mit unbegrenzter Laufzeit dank Netzanschluss, ideal für kleinere Wohnungen."
       },
       {
-        "slug": "faltbare-drohnen-mit-gps",
-        "name": "Faltbare Drohnen mit GPS",
-        "categoryNameCanonical": "Faltbare Drohnen mit GPS",
-        "description": "Portable Drohnen mit GPS-Funktionen wie 'Return to Home' und stabilen Schwebeflügen."
+        "slug": "2-in-1-stiel-handstaubsauger",
+        "name": "2-in-1 Stiel- & Handstaubsauger",
+        "categoryNameCanonical": "2-in-1 Stiel- & Handstaubsauger",
+        "description": "Flexible Geräte mit einem abnehmbaren Handteil für die schnelle Reinigung von Böden und Oberflächen."
       },
       {
-        "slug": "faltbare-drohnen-inklusive-tasche",
-        "name": "Faltbare Drohnen inklusive Tasche",
-        "categoryNameCanonical": "Faltbare Drohnen inklusive Tasche",
-        "description": "Sets, die neben der Drohne auch eine passende Transporttasche oder einen Koffer enthalten."
+        "slug": "ultraleichte-stielstaubsauger",
+        "name": "Ultraleichte Stielstaubsauger (unter 3 kg)",
+        "categoryNameCanonical": "Ultraleichte Stielstaubsauger (unter 3 kg)",
+        "description": "Besonders leichte Modelle für eine mühelose Handhabung und Reinigung von Treppen und Decken."
+      },
+      {
+        "slug": "stielstaubsauger-mit-led-bodenduese",
+        "name": "Stielstaubsauger mit LED-Bodendüse",
+        "categoryNameCanonical": "Stielstaubsauger mit LED-Bodendüse",
+        "description": "Modelle mit beleuchteten Bodendüsen, die Staub und Schmutz auch an dunklen Stellen sichtbar machen."
       }
     ]
   },
   {
-    "slug": "gps-drohnen",
-    "name": "GPS Drohnen",
-    "categoryNameCanonical": "GPS Drohnen",
-    "description": "Drohnen mit GPS-Modul für einen äußerst stabilen Flug, präzise Positionierung und Sicherheitsfunktionen wie 'Return to Home'.",
+    "slug": "nass-trocken-sauger",
+    "name": "Nass-Trocken-Sauger",
+    "categoryNameCanonical": "Nass-Trocken-Sauger",
+    "description": "Robuste und vielseitige Sauger für groben, feinen, trockenen und nassen Schmutz. Perfekt für Keller, Garage, Werkstatt oder Renovierungen.",
     "subcategories": [
       {
-        "slug": "gps-drohnen-mit-return-to-home",
-        "name": "GPS Drohnen mit Return-to-Home",
-        "categoryNameCanonical": "GPS Drohnen mit Return-to-Home",
-        "description": "Modelle, die bei niedrigem Akkustand oder Signalverlust automatisch zum Startpunkt zurückkehren."
+        "slug": "nass-trocken-sauger-fuer-haushalt",
+        "name": "Nass-Trocken-Sauger für den Haushalt",
+        "categoryNameCanonical": "Nass-Trocken-Sauger für den Haushalt",
+        "description": "Kompaktere Allzwecksauger zum Aufsaugen von verschütteten Flüssigkeiten oder für die intensive Reinigung."
       },
       {
-        "slug": "gps-drohnen-mit-follow-me",
-        "name": "GPS Drohnen mit Follow-Me Funktion",
-        "categoryNameCanonical": "GPS Drohnen mit Follow-Me Funktion",
-        "description": "Drohnen, die einem sich bewegenden Motiv (z.B. dem Piloten) automatisch folgen können."
+        "slug": "nass-trocken-sauger-mit-blasfunktion",
+        "name": "Nass-Trocken-Sauger mit Blasfunktion",
+        "categoryNameCanonical": "Nass-Trocken-Sauger mit Blasfunktion",
+        "description": "Geräte, die nicht nur saugen, sondern auch Luft blasen können, z.B. zum Entfernen von Laub."
       },
       {
-        "slug": "gps-drohnen-fuer-stabile-aufnahmen",
-        "name": "GPS Drohnen für stabile Aufnahmen",
-        "categoryNameCanonical": "GPS Drohnen für stabile Aufnahmen",
-        "description": "Ideal für Fotografen und Videografen, die einen ruhigen Schwebeflug für wackelfreie Bilder benötigen."
+        "slug": "nass-trocken-sauger-mit-steckdose",
+        "name": "Nass-Trocken-Sauger mit Gerätesteckdose",
+        "categoryNameCanonical": "Nass-Trocken-Sauger mit Gerätesteckdose",
+        "description": "Modelle mit einer integrierten Steckdose zum direkten Anschluss von Elektrowerkzeugen und Absaugung des Staubs."
+      },
+      {
+        "slug": "akku-nass-trocken-sauger",
+        "name": "Akku-Nass-Trocken-Sauger",
+        "categoryNameCanonical": "Akku-Nass-Trocken-Sauger",
+        "description": "Kabellose Nass-Trocken-Sauger für den flexiblen Einsatz auf Baustellen oder an Orten ohne Stromanschluss."
       }
     ]
   },
   {
-    "slug": "fpv-drohnen",
-    "name": "FPV Drohnen",
-    "categoryNameCanonical": "FPV Drohnen",
-    "description": "First-Person-View-Drohnen, die ein immersives Flugerlebnis ermöglichen, indem sie das Kamerabild live auf eine Videobrille übertragen.",
+    "slug": "waschsauger",
+    "name": "Waschsauger (Sprühextraktionsgeräte)",
+    "categoryNameCanonical": "Waschsauger (Sprühextraktionsgeräte)",
+    "description": "Spezialgeräte zur Tiefenreinigung von Teppichen, Polstern und Matratzen. Sie sprühen eine Reinigungslösung auf und saugen sie samt Schmutz wieder ab.",
     "subcategories": [
       {
-        "slug": "fpv-drohnen-fuer-anfaenger",
-        "name": "FPV Drohnen für Anfänger",
-        "categoryNameCanonical": "FPV Drohnen für Anfänger",
-        "description": "Komplettsets und robustere Modelle, die den Einstieg in das FPV-Fliegen erleichtern."
+        "slug": "waschsauger-fuer-teppiche",
+        "name": "Waschsauger für Teppiche",
+        "categoryNameCanonical": "Waschsauger für Teppiche",
+        "description": "Leistungsstarke Geräte mit speziellen Bodendüsen zur fasertiefen Reinigung von Teppichböden."
       },
       {
-        "slug": "fpv-renndrohnen",
-        "name": "FPV Renndrohnen",
-        "categoryNameCanonical": "FPV Renndrohnen",
-        "description": "Hochleistungsfähige, agile Drohnen, die speziell für FPV-Rennen und Freestyle-Flüge gebaut sind."
+        "slug": "waschsauger-fuer-polstermoebel",
+        "name": "Waschsauger für Polstermöbel & Autositze",
+        "categoryNameCanonical": "Waschsauger für Polstermöbel & Autositze",
+        "description": "Kompakte Modelle mit Handdüsen zur gezielten Reinigung von Sofas, Sesseln und Fahrzeuginnenräumen."
       },
       {
-        "slug": "fpv-drohnen-bausaetze",
-        "name": "FPV Drohnen Bausätze",
-        "categoryNameCanonical": "FPV Drohnen Bausätze",
-        "description": "Kits mit allen notwendigen Komponenten, um eine FPV-Drohne selbst zusammenzubauen und zu konfigurieren."
+        "slug": "waschsauger-fuer-hartboeden",
+        "name": "Waschsauger für Hartböden",
+        "categoryNameCanonical": "Waschsauger für Hartböden",
+        "description": "Geräte mit speziellen Aufsätzen zur nassen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
       }
     ]
   },
   {
-    "slug": "drohnen-fuer-profis",
-    "name": "Drohnen für Profis",
-    "categoryNameCanonical": "Drohnen für Profis",
-    "description": "High-End-Drohnen für kommerzielle Anwendungen wie professionelle Fotografie, Vermessung, Inspektion und Landwirtschaft.",
+    "slug": "industriestaubsauger",
+    "name": "Industriestaubsauger",
+    "categoryNameCanonical": "Industriestaubsauger",
+    "description": "Hochleistungsfähige und robuste Sauger für den professionellen Einsatz in Werkstätten, auf Baustellen und in der Industrie. Zertifiziert für verschiedene Staubklassen.",
     "subcategories": [
       {
-        "slug": "drohnen-fuer-fotografie-und-video",
-        "name": "Drohnen für Fotografie und Video",
-        "categoryNameCanonical": "Drohnen für Fotografie und Video",
-        "description": "Modelle mit hochwertigen Kameras, Gimbals und langer Flugzeit für kinoreife Luftaufnahmen."
+        "slug": "industriestaubsauger-staubklasse-l",
+        "name": "Industriestaubsauger Staubklasse L",
+        "categoryNameCanonical": "Industriestaubsauger Staubklasse L",
+        "description": "Sauger für ungefährliche Stäube wie Hausstaub oder Erde mit einem maximalen Durchlassgrad von 1%."
       },
       {
-        "slug": "drohnen-fuer-landwirtschaft-agrar",
-        "name": "Drohnen für Landwirtschaft (Agrar)",
-        "categoryNameCanonical": "Drohnen für Landwirtschaft (Agrar)",
-        "description": "Spezialisierte Drohnen für die Feldanalyse, das Sprühen von Pflanzenschutzmitteln oder die Überwachung von Ernten."
+        "slug": "industriestaubsauger-staubklasse-m",
+        "name": "Industriestaubsauger Staubklasse M",
+        "categoryNameCanonical": "Industriestaubsauger Staubklasse M",
+        "description": "Sauger für gesundheitsgefährdende Stäube wie Holz-, Beton- oder Gipsstaub mit einem Durchlassgrad von unter 0,1%."
       },
       {
-        "slug": "drohnen-mit-thermalkamera",
-        "name": "Drohnen mit Thermalkamera",
-        "categoryNameCanonical": "Drohnen mit Thermalkamera",
-        "description": "Drohnen für Inspektionen, Sicherheitsanwendungen oder die Wildtierbeobachtung mittels Wärmebildkamera."
+        "slug": "industriestaubsauger-mit-filterabreinigung",
+        "name": "Industriestaubsauger mit autom. Filterabreinigung",
+        "categoryNameCanonical": "Industriestaubsauger mit autom. Filterabreinigung",
+        "description": "Modelle, deren Filter sich automatisch reinigen (abklopfen), um eine konstant hohe Saugleistung zu gewährleisten."
       }
     ]
   },
   {
-    "slug": "drohnen-unter-100-euro",
-    "name": "Drohnen unter 100 Euro",
-    "categoryNameCanonical": "Drohnen unter 100 Euro",
-    "description": "Preisgünstige Drohnen, die sich hervorragend als Geschenk, für Anfänger oder als Spielzeug eignen.",
+    "slug": "aschesauger",
+    "name": "Aschesauger",
+    "categoryNameCanonical": "Aschesauger",
+    "description": "Spezialsauger mit feuerfestem Behälter und feinem Filtersystem zur sicheren und sauberen Entfernung von kalter Asche aus Kaminen, Öfen und Grills.",
     "subcategories": [
       {
-        "slug": "drohnen-unter-100-euro-mit-kamera",
-        "name": "Drohnen unter 100 Euro mit Kamera",
-        "categoryNameCanonical": "Drohnen unter 100 Euro mit Kamera",
-        "description": "Günstige Einsteigermodelle, die bereits mit einer einfachen Kamera für erste Fotos und Videos ausgestattet sind."
+        "slug": "aschesauger-mit-motor",
+        "name": "Aschesauger mit eigenem Motor",
+        "categoryNameCanonical": "Aschesauger mit eigenem Motor",
+        "description": "Eigenständige Geräte mit integriertem Motor, die direkt an die Steckdose angeschlossen werden."
       },
       {
-        "slug": "drohnen-unter-100-euro-fuer-kinder",
-        "name": "Drohnen unter 100 Euro für Kinder",
-        "categoryNameCanonical": "Drohnen unter 100 Euro für Kinder",
-        "description": "Robuste und sichere Spielzeugdrohnen in einer erschwinglichen Preisklasse."
+        "slug": "aschefilter-vorsatz",
+        "name": "Aschefilter als Vorsatz",
+        "categoryNameCanonical": "Aschefilter als Vorsatz",
+        "description": "Behälter mit Filtersystem, die an einen vorhandenen Haushalts- oder Werkstattsauger angeschlossen werden."
       },
       {
-        "slug": "drohnen-unter-100-euro-mit-ersatzakkus",
-        "name": "Drohnen unter 100 Euro mit Ersatzakkus",
-        "categoryNameCanonical": "Drohnen unter 100 Euro mit Ersatzakkus",
-        "description": "Pakete, die zusätzliche Akkus für längeren Flugspaß ohne lange Wartezeiten enthalten."
+        "slug": "aschesauger-mit-blasfunktion",
+        "name": "Aschesauger mit Blasfunktion",
+        "categoryNameCanonical": "Aschesauger mit Blasfunktion",
+        "description": "Multifunktionale Geräte, die auch zum Anfachen des Feuers oder zum Wegblasen von Schmutz verwendet werden können."
       }
     ]
   },
   {
-    "slug": "drohnen-zubehoer",
-    "name": "Drohnen Zubehör",
-    "categoryNameCanonical": "Drohnen Zubehör",
-    "description": "Alles, was Sie zur Erweiterung, zum Schutz und zum Transport Ihrer Drohne benötigen.",
+    "slug": "staubsauger-fuer-tierhaare",
+    "name": "Staubsauger für Tierhaare",
+    "categoryNameCanonical": "Staubsauger für Tierhaare",
+    "description": "Speziell entwickelte Staubsauger mit hoher Saugkraft und rotierenden Bürsten, um hartnäckige Tierhaare von allen Oberflächen effektiv zu entfernen.",
     "subcategories": [
       {
-        "slug": "drohnen-transportkoffer-und-taschen",
-        "name": "Drohnen Transportkoffer und Taschen",
-        "categoryNameCanonical": "Drohnen Transportkoffer und Taschen",
-        "description": "Robuste Koffer und praktische Rucksäcke für den sicheren Transport Ihrer Drohne und des Zubehörs."
+        "slug": "bodenstaubsauger-fuer-tierhaare",
+        "name": "Bodenstaubsauger für Tierhaare",
+        "categoryNameCanonical": "Bodenstaubsauger für Tierhaare",
+        "description": "Kabelgebundene Modelle mit Turbobürsten für die intensive Reinigung von Teppichen und Polstern."
       },
       {
-        "slug": "drohnen-propeller-und-schutz",
-        "name": "Drohnen Propeller und Schutz",
-        "categoryNameCanonical": "Drohnen Propeller und Schutz",
-        "description": "Ersatzpropeller und Propellerschützer (Prop Guards) zur Erhöhung der Flugsicherheit und zum Schutz vor Schäden."
+        "slug": "akkustaubsauger-fuer-tierhaare-spezial",
+        "name": "Akkustaubsauger für Tierhaare",
+        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
+        "description": "Kabellose Stiel- oder Handstaubsauger mit motorisierten Bürsten für die flexible Entfernung von Tierhaaren."
       },
       {
-        "slug": "drohnen-landegestelle-und-landepads",
-        "name": "Drohnen Landegestelle und Landepads",
-        "categoryNameCanonical": "Drohnen Landegestelle und Landepads",
-        "description": "Zubehör für sichere Starts und Landungen, besonders auf unebenem oder schmutzigem Untergrund."
+        "slug": "saugroboter-fuer-tierhaare-spezial",
+        "name": "Saugroboter für Tierhaare",
+        "categoryNameCanonical": "Saugroboter für Tierhaare",
+        "description": "Autonome Roboter, optimiert für das Aufsaugen von Tierhaaren, oft mit Gummibürsten gegen Verheddern."
       }
     ]
   },
   {
-    "slug": "drohnen-akkus",
-    "name": "Drohnen Akkus",
-    "categoryNameCanonical": "Drohnen Akkus",
-    "description": "Ersatz- und Zusatzakkus zur Verlängerung der Flugzeit sowie passende Ladegeräte.",
+    "slug": "staubsauger-fuer-allergiker",
+    "name": "Staubsauger für Allergiker",
+    "categoryNameCanonical": "Staubsauger für Allergiker",
+    "description": "Staubsauger mit speziellen Filtersystemen (HEPA, Wasserfilter) und versiegelten Gehäusen, die Feinstaub, Pollen und Milben sicher einschließen.",
     "subcategories": [
       {
-        "slug": "drohnen-ersatzakkus",
-        "name": "Drohnen Ersatzakkus",
-        "categoryNameCanonical": "Drohnen Ersatzakkus",
-        "description": "Zusätzliche Akkus, die mit Ihrem spezifischen Drohnenmodell kompatibel sind, für längere Flugsessions."
+        "slug": "staubsauger-mit-hepa-14-filter",
+        "name": "Staubsauger mit HEPA H13/H14 Filter",
+        "categoryNameCanonical": "Staubsauger mit HEPA H13/H14 Filter",
+        "description": "Geräte mit den höchsten Filterklassen, die 99,95% bzw. 99,995% aller Partikel aus der Luft filtern."
       },
       {
-        "slug": "drohnen-ladegeraete-und-hubs",
-        "name": "Drohnen Ladegeräte und Hubs",
-        "categoryNameCanonical": "Drohnen Ladegeräte und Hubs",
-        "description": "Ladegeräte, die mehrere Akkus gleichzeitig oder nacheinander aufladen können, um Zeit zu sparen."
+        "slug": "staubsauger-mit-wasserfilter",
+        "name": "Staubsauger mit Wasserfilter",
+        "categoryNameCanonical": "Staubsauger mit Wasserfilter",
+        "description": "Modelle, die den eingesaugten Staub in einem Wasserbad binden und so verhindern, dass Allergene zurück in die Raumluft gelangen."
       },
       {
-        "slug": "drohnen-powerbanks-fuer-unterwegs",
-        "name": "Drohnen Powerbanks für unterwegs",
-        "categoryNameCanonical": "Drohnen Powerbanks für unterwegs",
-        "description": "Tragbare Ladelösungen, um Drohnenakkus auch ohne Steckdose im Freien aufzuladen."
+        "slug": "staubsauger-mit-spezial-allergiker-beutel",
+        "name": "Staubsauger mit speziellen Allergiker-Beuteln",
+        "categoryNameCanonical": "Staubsauger mit speziellen Allergiker-Beuteln",
+        "description": "Beutelstaubsauger, deren mehrlagige Vliesbeutel mit Verschlussmechanismus Allergene sicher einschließen."
       }
     ]
   },
   {
-    "slug": "drohnen-ersatzteile",
-    "name": "Drohnen Ersatzteile",
-    "categoryNameCanonical": "Drohnen Ersatzteile",
-    "description": "Wichtige Komponenten zur Reparatur oder Aufrüstung Ihrer Drohne nach einem Crash oder bei Verschleiß.",
+    "slug": "staubsauger-fuer-auto",
+    "name": "Staubsauger für das Auto",
+    "categoryNameCanonical": "Staubsauger für das Auto",
+    "description": "Kompakte und handliche Sauger, die speziell für die Reinigung des Fahrzeuginnenraums konzipiert sind, oft mit 12V-Anschluss oder Akkubetrieb.",
     "subcategories": [
       {
-        "slug": "drohnen-motoren",
-        "name": "Drohnen Motoren",
-        "categoryNameCanonical": "Drohnen Motoren",
-        "description": "Bürstenlose (Brushless) oder gebürstete (Brushed) Motoren für verschiedene Drohnentypen und -größen."
+        "slug": "autostaubsauger-12v",
+        "name": "Autostaubsauger mit 12V-Anschluss",
+        "categoryNameCanonical": "Autostaubsauger mit 12V-Anschluss",
+        "description": "Sauger, die direkt über den Zigarettenanzünder im Auto betrieben werden können."
       },
       {
-        "slug": "drohnen-ersatzpropeller",
-        "name": "Drohnen Ersatzpropeller",
-        "categoryNameCanonical": "Drohnen Ersatzpropeller",
-        "description": "Sets mit Ersatzpropellern, oft das am häufigsten benötigte Ersatzteil nach leichten Kollisionen."
+        "slug": "akku-autostaubsauger",
+        "name": "Akku-Autostaubsauger",
+        "categoryNameCanonical": "Akku-Autostaubsauger",
+        "description": "Kabellose Handstaubsauger für maximale Flexibilität bei der Autoreinigung ohne Kabel."
       },
       {
-        "slug": "drohnen-gehaeuse-und-arme",
-        "name": "Drohnen Gehäuse und Arme",
-        "categoryNameCanonical": "Drohnen Gehäuse und Arme",
-        "description": "Ersatzgehäuse (Body Shells) und Auslegerarme zur Reparatur von strukturellen Schäden."
+        "slug": "autostaubsauger-mit-zubehoer-set",
+        "name": "Autostaubsauger mit Zubehör-Set",
+        "categoryNameCanonical": "Autostaubsauger mit Zubehör-Set",
+        "description": "Sets inklusive langer Fugendüse, Bürstenaufsatz und flexiblem Schlauch für schwer erreichbare Stellen."
       }
     ]
   },
   {
-    "slug": "drohnen-mit-hinderniserkennung",
-    "name": "Drohnen mit Hinderniserkennung",
-    "categoryNameCanonical": "Drohnen mit Hinderniserkennung",
-    "description": "Intelligente Drohnen, die mit Sensoren (Infrarot, visuell) ausgestattet sind, um Hindernissen automatisch auszuweichen.",
+    "slug": "staubsauger-mit-absaugstation",
+    "name": "Staubsauger mit Absaugstation",
+    "categoryNameCanonical": "Staubsauger mit Absaugstation",
+    "description": "Komfortable Systeme, bei denen sich der Staubsauger (meist ein Saugroboter oder Akkustaubsauger) an einer Basisstation automatisch entleert.",
     "subcategories": [
       {
-        "slug": "drohnen-mit-360-grad-sensoren",
-        "name": "Drohnen mit 360° Sensoren",
-        "categoryNameCanonical": "Drohnen mit 360° Sensoren",
-        "description": "Fortschrittliche Modelle, die ihre Umgebung in alle Richtungen scannen und Kollisionen zuverlässig vermeiden."
+        "slug": "saugroboter-mit-automatischer-entleerung",
+        "name": "Saugroboter mit automatischer Entleerung",
+        "categoryNameCanonical": "Saugroboter mit automatischer Entleerung",
+        "description": "Roboterstaubsauger, die nach jedem Reinigungsvorgang zur Station zurückkehren und den Schmutz abgeben."
       },
       {
-        "slug": "drohnen-mit-frontsensoren-fuer-anfaenger",
-        "name": "Drohnen mit Frontsensoren für Anfänger",
-        "categoryNameCanonical": "Drohnen mit Frontsensoren für Anfänger",
-        "description": "Einsteigermodelle, die hauptsächlich Hindernisse in Flugrichtung erkennen und so die Sicherheit erhöhen."
+        "slug": "akkustaubsauger-mit-automatischer-entleerung",
+        "name": "Akkustaubsauger mit automatischer Entleerung",
+        "categoryNameCanonical": "Akkustaubsauger mit automatischer Entleerung",
+        "description": "Kabellose Stielstaubsauger, deren Staubbehälter an einer speziellen Standvorrichtung entleert wird."
       },
       {
-        "slug": "drohnen-fuer-indoor-mit-sensoren",
-        "name": "Indoor Drohnen mit Sensoren",
-        "categoryNameCanonical": "Indoor Drohnen mit Sensoren",
-        "description": "Drohnen, deren Hinderniserkennung speziell für das sichere Navigieren in engen Innenräumen optimiert ist."
+        "slug": "absaugstationen-als-zubehoer",
+        "name": "Absaugstationen als Zubehör",
+        "categoryNameCanonical": "Absaugstationen als Zubehör",
+        "description": "Einzeln erhältliche Absaugstationen zum Nachrüsten kompatibler Staubsaugermodelle."
       }
     ]
   },
   {
-    "slug": "indoor-drohnen",
-    "name": "Indoor Drohnen",
-    "categoryNameCanonical": "Indoor Drohnen",
-    "description": "Kleine, leichte und sichere Drohnen, die speziell für den Flug in geschlossenen Räumen konzipiert sind.",
+    "slug": "milbensauger",
+    "name": "Milbensauger",
+    "categoryNameCanonical": "Milbensauger",
+    "description": "Spezielle Handstaubsauger zur Bekämpfung von Hausstaubmilben, Bakterien und Allergenen in Matratzen, Bettwäsche und Polstermöbeln.",
     "subcategories": [
       {
-        "slug": "indoor-drohnen-mit-propellerschutz",
-        "name": "Indoor Drohnen mit Propellerschutz",
-        "categoryNameCanonical": "Indoor Drohnen mit Propellerschutz",
-        "description": "Modelle mit einem festen Rahmen um die Propeller, um Verletzungen und Schäden an Möbeln zu vermeiden."
+        "slug": "milbensauger-mit-uv-c-licht",
+        "name": "Milbensauger mit UV-C Licht",
+        "categoryNameCanonical": "Milbensauger mit UV-C Licht",
+        "description": "Geräte, die Milben und Keime mittels ultraviolettem Licht abtöten und sterilisieren."
       },
       {
-        "slug": "indoor-drohnen-fuer-kinder-und-familie",
-        "name": "Indoor Drohnen für Kinder und Familie",
-        "categoryNameCanonical": "Indoor Drohnen für Kinder und Familie",
-        "description": "Spielzeugdrohnen, die für den gemeinsamen Spaß im Wohnzimmer geeignet sind."
+        "slug": "milbensauger-mit-vibrationsfunktion",
+        "name": "Milbensauger mit Vibrationsfunktion",
+        "categoryNameCanonical": "Milbensauger mit Vibrationsfunktion",
+        "description": "Modelle, die durch Vibration tief sitzenden Schmutz und Milbenkot aus dem Gewebe lösen."
       },
       {
-        "slug": "indoor-fpv-drohnen-tiny-whoops",
-        "name": "Indoor FPV Drohnen (Tiny Whoops)",
-        "categoryNameCanonical": "Indoor FPV Drohnen (Tiny Whoops)",
-        "description": "Sehr kleine FPV-Drohnen, die schnelle und agile Flüge durch die Wohnung ermöglichen."
+        "slug": "akku-milbensauger",
+        "name": "Akku-Milbensauger",
+        "categoryNameCanonical": "Akku-Milbensauger",
+        "description": "Kabellose Milbensauger für den flexiblen und einfachen Einsatz auf Matratzen und Sofas."
       }
     ]
   },
   {
-    "slug": "outdoor-drohnen",
-    "name": "Outdoor Drohnen",
-    "categoryNameCanonical": "Outdoor Drohnen",
-    "description": "Leistungsstarke Drohnen mit guter Windresistenz und langer Reichweite, ideal für den Einsatz im Freien.",
+    "slug": "fenstersauger",
+    "name": "Fenstersauger",
+    "categoryNameCanonical": "Fenstersauger",
+    "description": "Akkubetriebene Geräte, die nach dem Einwaschen der Fenster das Schmutzwasser streifenfrei absaugen. Auch für Spiegel, Fliesen und Duschkabinen geeignet.",
     "subcategories": [
       {
-        "slug": "outdoor-drohnen-mit-gps",
-        "name": "Outdoor Drohnen mit GPS",
-        "categoryNameCanonical": "Outdoor Drohnen mit GPS",
-        "description": "Drohnen, die dank GPS auch bei leichtem Wind stabil ihre Position halten können."
+        "slug": "fenstersauger-sets",
+        "name": "Fenstersauger-Sets mit Sprühflasche",
+        "categoryNameCanonical": "Fenstersauger-Sets mit Sprühflasche",
+        "description": "Komplettsets bestehend aus Fenstersauger, Sprühflasche mit Wischbezug und Reinigungsmittelkonzentrat."
       },
       {
-        "slug": "outdoor-drohnen-mit-langer-flugzeit",
-        "name": "Outdoor Drohnen mit langer Flugzeit",
-        "categoryNameCanonical": "Outdoor Drohnen mit langer Flugzeit",
-        "description": "Modelle mit Akkus, die Flugzeiten von über 25 Minuten für ausgedehnte Erkundungen ermöglichen."
+        "slug": "fenstersauger-mit-verlaengerungsstiel",
+        "name": "Fenstersauger mit Verlängerungsstiel",
+        "categoryNameCanonical": "Fenstersauger mit Verlängerungsstiel",
+        "description": "Geräte mit Teleskopstangen zur einfachen Reinigung von hohen Fenstern, Wintergärten oder Dachfenstern."
       },
       {
-        "slug": "outdoor-drohnen-windresistent",
-        "name": "Windresistente Outdoor Drohnen",
-        "categoryNameCanonical": "Windresistente Outdoor Drohnen",
-        "description": "Robuste Drohnen mit starken Motoren, die auch bei windigen Bedingungen sicher fliegen."
+        "slug": "fenstersauger-mit-wechselduese",
+        "name": "Fenstersauger mit schmaler Wechseldüse",
+        "categoryNameCanonical": "Fenstersauger mit schmaler Wechseldüse",
+        "description": "Modelle mit einer zusätzlichen, kleineren Saugdüse für Sprossenfenster und schmale Glasflächen."
       }
     ]
   },
   {
-    "slug": "renndrohnen",
-    "name": "Renndrohnen",
-    "categoryNameCanonical": "Renndrohnen",
-    "description": "Extrem schnelle und agile Drohnen, die für Drohnenrennen und Freestyle-Flugmanöver konzipiert sind.",
+    "slug": "laubsauger",
+    "name": "Laubsauger & -bläser",
+    "categoryNameCanonical": "Laubsauger & -bläser",
+    "description": "Gartengeräte zum Aufsaugen, Blasen oder Häckseln von Laub und kleinen Gartenabfällen. Erleichtern die herbstliche Gartenarbeit erheblich.",
     "subcategories": [
       {
-        "slug": "renndrohnen-ready-to-fly-rtf",
-        "name": "Renndrohnen Ready-to-Fly (RTF)",
-        "categoryNameCanonical": "Renndrohnen Ready-to-Fly (RTF)",
-        "description": "Komplett montierte Renndrohnen, die sofort nach dem Auspacken flugbereit sind."
+        "slug": "akku-laubsauger",
+        "name": "Akku-Laubsauger",
+        "categoryNameCanonical": "Akku-Laubsauger",
+        "description": "Kabellose und flexible Geräte für Gärten ohne direkten Stromanschluss."
       },
       {
-        "slug": "renndrohnen-bausaetze",
-        "name": "Renndrohnen Bausätze",
-        "categoryNameCanonical": "Renndrohnen Bausätze",
-        "description": "Kits zum Selbstbau, die Piloten die vollständige Kontrolle über die Konfiguration und Leistung geben."
+        "slug": "elektro-laubsauger",
+        "name": "Elektro-Laubsauger",
+        "categoryNameCanonical": "Elektro-Laubsauger",
+        "description": "Leistungsstarke, kabelgebundene Modelle für den dauerhaften Einsatz in der Nähe einer Steckdose."
       },
       {
-        "slug": "renndrohnen-zubehoer",
-        "name": "Zubehör für Renndrohnen",
-        "categoryNameCanonical": "Zubehör für Renndrohnen",
-        "description": "Spezielle FPV-Brillen, Hochleistungsakkus und Carbon-Rahmen für Racing und Freestyle."
+        "slug": "laubsauger-mit-haeckselfunktion",
+        "name": "Laubsauger mit Häckselfunktion",
+        "categoryNameCanonical": "Laubsauger mit Häckselfunktion",
+        "description": "3-in-1-Geräte (Blasen, Saugen, Häckseln), die das aufgesaugte Laub zerkleinern und das Volumen im Fangsack reduzieren."
+      },
+      {
+        "slug": "benzin-laubsauger",
+        "name": "Benzin-Laubsauger",
+        "categoryNameCanonical": "Benzin-Laubsauger",
+        "description": "Besonders leistungsstarke und unabhängige Modelle für große Grundstücke und professionelle Anwendungen."
       }
     ]
   },
   {
-    "slug": "drohnen-fuer-jugendliche",
-    "name": "Drohnen für Jugendliche",
-    "categoryNameCanonical": "Drohnen für Jugendliche",
-    "description": "Modelle, die zwischen Spielzeug und semiprofessionellem Gerät angesiedelt sind, mit besseren Kameras und mehr Funktionen.",
+    "slug": "rueckenstaubsauger",
+    "name": "Rückenstaubsauger",
+    "categoryNameCanonical": "Rückenstaubsauger",
+    "description": "Professionelle Staubsauger, die wie ein Rucksack getragen werden. Bieten maximale Bewegungsfreiheit bei der Reinigung von Kinos, Bussen, Treppenhäusern oder engen Räumen.",
     "subcategories": [
       {
-        "slug": "drohnen-fuer-jugendliche-ab-12-jahre",
-        "name": "Drohnen für Jugendliche ab 12 Jahre",
-        "categoryNameCanonical": "Drohnen für Jugendliche ab 12 Jahre",
-        "description": "Drohnen mit fortgeschritteneren Steuerungsoptionen und besserer Leistung für erfahrene junge Piloten."
+        "slug": "akku-rueckenstaubsauger",
+        "name": "Akku-Rückenstaubsauger",
+        "categoryNameCanonical": "Akku-Rückenstaubsauger",
+        "description": "Kabellose Modelle für höchste Flexibilität und Effizienz ohne Stolperfallen durch Kabel."
       },
       {
-        "slug": "drohnen-fuer-jugendliche-mit-hd-kamera",
-        "name": "Drohnen für Jugendliche mit HD Kamera",
-        "categoryNameCanonical": "Drohnen für Jugendliche mit HD Kamera",
-        "description": "Modelle, mit denen Jugendliche hochwertige Videos für Social-Media-Projekte oder zum Spaß erstellen können."
+        "slug": "kabelgebundene-rueckenstaubsauger",
+        "name": "Kabelgebundene Rückenstaubsauger",
+        "categoryNameCanonical": "Kabelgebundene Rückenstaubsauger",
+        "description": "Geräte mit Netzbetrieb für konstante, hohe Saugleistung bei langen Reinigungsintervallen."
       },
       {
-        "slug": "drohnen-fuer-jugendliche-mit-app-steuerung",
-        "name": "Drohnen für Jugendliche mit App-Steuerung",
-        "categoryNameCanonical": "Drohnen für Jugendliche mit App-Steuerung",
-        "description": "Drohnen, die über eine Smartphone-App gesteuert werden und zusätzliche Flugmodi bieten."
+        "slug": "leichte-rueckenstaubsauger",
+        "name": "Leichte & ergonomische Rückenstaubsauger",
+        "categoryNameCanonical": "Leichte & ergonomische Rückenstaubsauger",
+        "description": "Modelle mit geringem Gewicht und gepolsterten Tragegurten für hohen Arbeitskomfort."
       }
     ]
   },
   {
-    "slug": "drohnen-ohne-kamera",
-    "name": "Drohnen ohne Kamera",
-    "categoryNameCanonical": "Drohnen ohne Kamera",
-    "description": "Reine Fluggeräte, die sich auf das Flugerlebnis konzentrieren. Ideal für Flugtraining, Rennen oder als robustes Spielzeug.",
+    "slug": "kinderstaubsauger",
+    "name": "Kinderstaubsauger",
+    "categoryNameCanonical": "Kinderstaubsauger",
+    "description": "Spielzeug-Staubsauger, die echten Geräten nachempfunden sind. Oft mit realistischen Geräuschen, Lichteffekten und Saugfunktion für kleine Kügelchen.",
     "subcategories": [
       {
-        "slug": "drohnen-ohne-kamera-fuer-flugtraining",
-        "name": "Drohnen ohne Kamera für Flugtraining",
-        "categoryNameCanonical": "Drohnen ohne Kamera für Flugtraining",
-        "description": "Günstige und widerstandsfähige Modelle, um die Grundlagen des Drohnenfliegens ohne Risiko für eine teure Kamera zu erlernen."
+        "slug": "kinderstaubsauger-mit-funktion",
+        "name": "Kinderstaubsauger mit echter Saugfunktion",
+        "categoryNameCanonical": "Kinderstaubsauger mit echter Saugfunktion",
+        "description": "Spielzeuge, die leichte Styroporkügelchen oder Papierschnipsel aufsaugen können."
       },
       {
-        "slug": "drohnen-ohne-kamera-fuer-kinder",
-        "name": "Drohnen ohne Kamera für Kinder",
-        "categoryNameCanonical": "Drohnen ohne Kamera für Kinder",
-        "description": "Einfache Spielzeugdrohnen, bei denen der Fokus rein auf dem Spaß am Fliegen liegt."
+        "slug": "lizenz-kinderstaubsauger",
+        "name": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
+        "categoryNameCanonical": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
+        "description": "Detailgetreue Nachbildungen bekannter Markenstaubsauger für ein realistisches Spielerlebnis."
       },
       {
-        "slug": "acro-drohnen-ohne-kamera",
-        "name": "Acro-Drohnen ohne Kamera",
-        "categoryNameCanonical": "Acro-Drohnen ohne Kamera",
-        "description": "Leichte und wendige Drohnen für Piloten, die Freestyle-Manöver und akrobatisches Fliegen üben wollen."
+        "slug": "kinderstaubsauger-aus-holz",
+        "name": "Kinderstaubsauger aus Holz",
+        "categoryNameCanonical": "Kinderstaubsauger aus Holz",
+        "description": "Robuste und nachhaltige Holzspielzeuge, die die Fantasie anregen und ohne Elektronik auskommen."
       }
     ]
   },
   {
-    "slug": "drohnen-bausaetze",
-    "name": "Drohnen Bausätze",
-    "categoryNameCanonical": "Drohnen Bausätze",
-    "description": "Kits zum Selbstbauen (DIY), die ein tiefes Verständnis für die Technik und Funktionsweise von Drohnen vermitteln.",
+    "slug": "zentralstaubsaugeranlagen",
+    "name": "Zentralstaubsauger-Anlagen",
+    "categoryNameCanonical": "Zentralstaubsauger-Anlagen",
+    "description": "Fest installierte Sauganlagen, bei denen eine zentrale Saugeinheit (z.B. im Keller) über ein Rohrsystem mit Saugdosen in den Wohnräumen verbunden ist.",
     "subcategories": [
       {
-        "slug": "drohnen-bausaetze-fuer-anfaenger",
-        "name": "Drohnen Bausätze für Anfänger",
-        "categoryNameCanonical": "Drohnen Bausätze für Anfänger",
-        "description": "Einfache Bausätze mit detaillierten Anleitungen, die keine Vorkenntnisse im Löten oder Programmieren erfordern."
+        "slug": "zentralstaubsauger-komplettsets",
+        "name": "Zentralstaubsauger Komplett-Sets",
+        "categoryNameCanonical": "Zentralstaubsauger Komplett-Sets",
+        "description": "Pakete bestehend aus Saugeinheit, Rohrsystem, Saugdosen und Saugschlauch-Set für den Einbau."
       },
       {
-        "slug": "drohnen-bausaetze-zum-programmieren",
-        "name": "Drohnen Bausätze zum Programmieren",
-        "categoryNameCanonical": "Drohnen Bausätze zum Programmieren",
-        "description": "Lernkits (z.B. für Scratch, Python), die es ermöglichen, Flugmanöver und autonome Missionen zu programmieren."
+        "slug": "saugeinheiten-fuer-zentralstaubsauger",
+        "name": "Saugeinheiten für Zentralstaubsauger",
+        "categoryNameCanonical": "Saugeinheiten für Zentralstaubsauger",
+        "description": "Die Motoreinheiten der Anlage, erhältlich in verschiedenen Leistungsstufen je nach Hausgröße."
       },
       {
-        "slug": "fpv-drohnen-bausaetze",
-        "name": "FPV Drohnen Bausätze",
-        "categoryNameCanonical": "FPV Drohnen Bausätze",
-        "description": "Umfassende Kits für den Bau von FPV-Renn- oder Freestyle-Drohnen, inklusive Rahmen, Motoren und Flugcontroller."
+        "slug": "zubehoer-fuer-zentralstaubsauger",
+        "name": "Zubehör für Zentralstaubsauger",
+        "categoryNameCanonical": "Zubehör für Zentralstaubsauger",
+        "description": "Saugschläuche, Saugdosen, Bürsten und Düsen für bestehende Zentralstaubsauger-Anlagen."
       }
     ]
   },
   {
-    "slug": "drohnen-mit-abwurfsystem",
-    "name": "Drohnen mit Abwurfsystem",
-    "categoryNameCanonical": "Drohnen mit Abwurfsystem",
-    "description": "Spezialisierte Drohnen oder Zubehör-Kits, die es ermöglichen, kleine Gegenstände aus der Luft abzuwerfen.",
+    "slug": "staubsauger-zubehoer",
+    "name": "Staubsauger Zubehör",
+    "categoryNameCanonical": "Staubsauger Zubehör",
+    "description": "Allgemeines Zubehör zur Erweiterung der Funktionalität oder Reparatur Ihres Staubsaugers. Umfasst Düsen, Bürsten, Schläuche und mehr.",
     "subcategories": [
       {
-        "slug": "drohnen-fuer-angeln",
-        "name": "Drohnen für Angeln",
-        "categoryNameCanonical": "Drohnen für Angeln",
-        "description": "Drohnen, die Köder oder Angelschnüre an schwer erreichbare Stellen im Wasser transportieren können."
+        "slug": "staubsaugerduesen-und-buersten",
+        "name": "Staubsaugerdüsen & -bürsten",
+        "categoryNameCanonical": "Staubsaugerdüsen & -bürsten",
+        "description": "Spezialdüsen für Hartböden, Teppiche (Turbodüsen), Polster, Fugen und empfindliche Oberflächen."
       },
       {
-        "slug": "drohnen-abwurf-zubehoer",
-        "name": "Zubehör für Drohnen-Abwurfsysteme",
-        "categoryNameCanonical": "Zubehör für Drohnen-Abwurfsysteme",
-        "description": "Universelle oder modellspezifische Mechanismen, die an bestehenden Drohnen montiert werden können."
+        "slug": "staubsaugerschlaeuche-und-rohre",
+        "name": "Staubsaugerschläuche & -rohre",
+        "categoryNameCanonical": "Staubsaugerschläuche & -rohre",
+        "description": "Ersatzschläuche, Teleskoprohre und Verlängerungen für verschiedene Staubsaugermodelle."
       },
       {
-        "slug": "drohnen-fuer-kleine-lieferungen",
-        "name": "Drohnen für kleine Lieferungen",
-        "categoryNameCanonical": "Drohnen für kleine Lieferungen",
-        "description": "Systeme, die für das spielerische oder praktische Abwerfen von kleinen Paketen, Ringen oder Nachrichten ausgelegt sind."
+        "slug": "staubsauger-akkus-und-ladegeraete",
+        "name": "Staubsauger-Akkus & Ladegeräte",
+        "categoryNameCanonical": "Staubsauger-Akkus & Ladegeräte",
+        "description": "Ersatz- und Zweitakkus sowie Ladestationen für Akkustaubsauger."
+      },
+      {
+        "slug": "staubsauger-duftstaebchen",
+        "name": "Staubsauger-Duftstäbchen & Deos",
+        "categoryNameCanonical": "Staubsauger-Duftstäbchen & Deos",
+        "description": "Duftpatronen, die in den Staubsaugerbeutel oder Filter gegeben werden und für frischen Duft sorgen."
+      }
+    ]
+  },
+  {
+    "slug": "staubsaugerbeutel",
+    "name": "Staubsaugerbeutel",
+    "categoryNameCanonical": "Staubsaugerbeutel",
+    "description": "Ersatzbeutel für Bodenstaubsauger mit Beutel. Verfügbar als Original-Markenbeutel oder als kompatible Alternativen für eine Vielzahl von Modellen.",
+    "subcategories": [
+      {
+        "slug": "original-hersteller-staubsaugerbeutel",
+        "name": "Original-Marken-Staubsaugerbeutel",
+        "categoryNameCanonical": "Original-Marken-Staubsaugerbeutel",
+        "description": "Vom Hersteller (z.B. Miele, Siemens, Bosch) empfohlene Beutel für optimale Passform und Filterleistung."
+      },
+      {
+        "slug": "kompatible-staubsaugerbeutel",
+        "name": "Kompatible Staubsaugerbeutel",
+        "categoryNameCanonical": "Kompatible Staubsaugerbeutel",
+        "description": "Preisgünstige Alternativbeutel von Drittherstellern, die für bestimmte Staubsaugermodelle passend sind."
+      },
+      {
+        "slug": "vlies-staubsaugerbeutel",
+        "name": "Vlies-Staubbeutel",
+        "categoryNameCanonical": "Vlies-Staubbeutel",
+        "description": "Mehrlagige Synthetik-Beutel, die reißfester sind und eine bessere Filterung als Papierbeutel bieten."
+      },
+      {
+        "slug": "universal-staubsaugerbeutel",
+        "name": "Universal-Staubsaugerbeutel",
+        "categoryNameCanonical": "Universal-Staubsaugerbeutel",
+        "description": "Zuschneidbare Beutel oder solche mit Universal-Anschlussplatte, die für viele verschiedene Modelle passen."
+      }
+    ]
+  },
+  {
+    "slug": "staubsaugerfilter",
+    "name": "Staubsaugerfilter",
+    "categoryNameCanonical": "Staubsaugerfilter",
+    "description": "Wichtige Ersatzteile zur Aufrechterhaltung der Saugleistung und Luftqualität. Umfasst Motor-, Abluft-, HEPA- und Schaumstofffilter.",
+    "subcategories": [
+      {
+        "slug": "hepa-filter-fuer-staubsauger",
+        "name": "HEPA-Filter",
+        "categoryNameCanonical": "HEPA-Filter",
+        "description": "Hocheffiziente Partikelfilter (High-Efficiency Particulate Air) für eine besonders saubere Abluft, ideal für Allergiker."
+      },
+      {
+        "slug": "motorschutzfilter-fuer-staubsauger",
+        "name": "Motorschutzfilter",
+        "categoryNameCanonical": "Motorschutzfilter",
+        "description": "Filter, die vor dem Motor sitzen, um ihn vor grobem Schmutz und Staub zu schützen und seine Lebensdauer zu verlängern."
+      },
+      {
+        "slug": "abluftfilter-fuer-staubsauger",
+        "name": "Abluftfilter (Mikrofilter)",
+        "categoryNameCanonical": "Abluftfilter (Mikrofilter)",
+        "description": "Filter am Luftauslass des Staubsaugers, die feine Partikel zurückhalten, bevor die Luft in den Raum zurückgeblasen wird."
+      },
+      {
+        "slug": "filter-sets-fuer-staubsauger",
+        "name": "Filter-Sets",
+        "categoryNameCanonical": "Filter-Sets",
+        "description": "Praktische Sets, die alle notwendigen Filter (z.B. Motor- und Abluftfilter) für einen kompletten Austausch enthalten."
+      }
+    ]
+  },
+  {
+    "slug": "staubsaugeradapter",
+    "name": "Staubsaugeradapter",
+    "categoryNameCanonical": "Staubsaugeradapter",
+    "description": "Verbindungsstücke und Reduzierhülsen, um Zubehör mit unterschiedlichen Durchmessern oder von verschiedenen Marken miteinander kompatibel zu machen.",
+    "subcategories": [
+      {
+        "slug": "adapter-fuer-elektrowerkzeuge",
+        "name": "Adapter für Elektrowerkzeuge",
+        "categoryNameCanonical": "Adapter für Elektrowerkzeuge",
+        "description": "Spezielle Adapter zum Anschluss eines Werkstattsaugers an Sägen, Schleifer oder Bohrmaschinen zur Staubabsaugung."
+      },
+      {
+        "slug": "reduzierstuecke-fuer-staubsauger",
+        "name": "Reduzierstücke (z.B. 35mm auf 32mm)",
+        "categoryNameCanonical": "Reduzierstücke (z.B. 35mm auf 32mm)",
+        "description": "Hülsen zur Anpassung des Anschlussdurchmessers, um z.B. eine 32mm Düse an einem 35mm Rohr zu verwenden."
+      },
+      {
+        "slug": "universaladapter-sets-fuer-staubsauger",
+        "name": "Universaladapter-Sets",
+        "categoryNameCanonical": "Universaladapter-Sets",
+        "description": "Mehrteilige Sets mit verschiedenen Adaptern, um eine breite Palette an Zubehörteilen und Saugern zu verbinden."
+      },
+      {
+        "slug": "markenspezifische-adapter",
+        "name": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
+        "categoryNameCanonical": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
+        "description": "Adapter, die speziell dafür entwickelt wurden, Zubehörteile verschiedener bekannter Marken zu verbinden."
+      }
+    ]
+  },
+  {
+    "slug": "teichschlammsauger",
+    "name": "Teichschlammsauger",
+    "categoryNameCanonical": "Teichschlammsauger",
+    "description": "Leistungsstarke Sauger zur Entfernung von Schlamm, Algen und Pflanzenresten vom Grund eines Gartenteichs, um die Wasserqualität zu verbessern.",
+    "subcategories": [
+      {
+        "slug": "teichsauger-mit-automatischer-entleerung",
+        "name": "Teichsauger mit automatischer Entleerung",
+        "categoryNameCanonical": "Teichsauger mit automatischer Entleerung",
+        "description": "Modelle mit Zwei-Kammer-System, die ein kontinuierliches Saugen ohne Pausen zum Entleeren ermöglichen."
+      },
+      {
+        "slug": "multifunktionale-teichsauger",
+        "name": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
+        "categoryNameCanonical": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
+        "description": "Vielseitige Geräte, die sowohl zur Teichreinigung als auch als klassischer Nass-Trocken-Sauger verwendet werden können."
+      },
+      {
+        "slug": "teichsauger-sets-mit-zubehoer",
+        "name": "Teichsauger-Sets mit umfangreichem Zubehör",
+        "categoryNameCanonical": "Teichsauger-Sets mit umfangreichem Zubehör",
+        "description": "Komplettpakete mit verschiedenen Düsen, Teleskopstangen und langen Saug- und Ablaufschläuchen."
+      }
+    ]
+  },
+  {
+    "slug": "staubsauger-nach-leistung",
+    "name": "Staubsauger nach Leistung",
+    "categoryNameCanonical": "Staubsauger nach Leistung",
+    "description": "Kategorisierung von Staubsaugern basierend auf ihrer Leistungsaufnahme (Watt) oder Saugleistung (Pascal), um das passende Gerät für Ihre Anforderungen zu finden.",
+    "subcategories": [
+      {
+        "slug": "staubsauger-ueber-800-watt",
+        "name": "Staubsauger über 800 Watt (kabelgebunden)",
+        "categoryNameCanonical": "Staubsauger über 800 Watt (kabelgebunden)",
+        "description": "Leistungsstarke Boden- und Industriestaubsauger für maximale Saugkraft und die Tiefenreinigung von Teppichen."
+      },
+      {
+        "slug": "akkustaubsauger-ueber-20-kpa",
+        "name": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
+        "categoryNameCanonical": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
+        "description": "Kraftvolle, kabellose Modelle, deren Saugleistung mit der von kabelgebundenen Geräten konkurrieren kann."
+      },
+      {
+        "slug": "energiesparende-staubsauger",
+        "name": "Energiesparende Staubsauger (unter 700 Watt)",
+        "categoryNameCanonical": "Energiesparende Staubsauger (unter 700 Watt)",
+        "description": "Effiziente Modelle, die trotz geringerer Leistungsaufnahme eine gute Reinigungsleistung erzielen."
+      }
+    ]
+  },
+  {
+    "slug": "staubsauger-nach-einsatzbereich",
+    "name": "Staubsauger nach Einsatzbereich",
+    "categoryNameCanonical": "Staubsauger nach Einsatzbereich",
+    "description": "Finden Sie den perfekten Staubsauger, der speziell auf die vorherrschenden Bodenbeläge oder besonderen Herausforderungen in Ihrem Zuhause zugeschnitten ist.",
+    "subcategories": [
+      {
+        "slug": "staubsauger-fuer-hartboeden",
+        "name": "Staubsauger für Hartböden",
+        "categoryNameCanonical": "Staubsauger für Hartböden",
+        "description": "Geräte mit speziellen Parkett- oder Hartbodendüsen, die empfindliche Böden schonen und effektiv reinigen."
+      },
+      {
+        "slug": "staubsauger-fuer-teppiche",
+        "name": "Staubsauger für Teppiche",
+        "categoryNameCanonical": "Staubsauger für Teppiche",
+        "description": "Modelle mit hoher Saugkraft und elektrischen oder Turbobürsten zur Tiefenreinigung von Teppichfasern."
+      },
+      {
+        "slug": "staubsauger-fuer-gemischte-boeden",
+        "name": "Staubsauger für gemischte Bodenbeläge",
+        "categoryNameCanonical": "Staubsauger für gemischte Bodenbeläge",
+        "description": "Allrounder mit umschaltbaren Kombidüsen oder automatischer Bodenerkennung für Haushalte mit Hartböden und Teppichen."
+      }
+    ]
+  },
+  {
+    "slug": "dampfsauger",
+    "name": "Dampfsauger",
+    "categoryNameCanonical": "Dampfsauger",
+    "description": "Kombinationsgeräte, die heißen Dampf zur Desinfektion und Lösung von Schmutz verwenden und den gelösten Schmutz sowie das Wasser sofort wieder aufsaugen.",
+    "subcategories": [
+      {
+        "slug": "dampfsauger-fuer-boeden",
+        "name": "Dampfsauger für Böden",
+        "categoryNameCanonical": "Dampfsauger für Böden",
+        "description": "Geräte zur chemiefreien, hygienischen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
+      },
+      {
+        "slug": "dampfsauger-mit-buegelfunktion",
+        "name": "Dampfsauger mit Bügelfunktion",
+        "categoryNameCanonical": "Dampfsauger mit Bügelfunktion",
+        "description": "Multifunktionale Systeme, an die ein professionelles Dampfbügeleisen angeschlossen werden kann."
+      },
+      {
+        "slug": "professionelle-dampfsauger",
+        "name": "Professionelle Dampfsauger",
+        "categoryNameCanonical": "Professionelle Dampfsauger",
+        "description": "Robuste Geräte mit hohem Dampfdruck und großer Kesselkapazität für den gewerblichen Einsatz."
+      }
+    ]
+  },
+  {
+    "slug": "tischstaubsauger",
+    "name": "Tischstaubsauger",
+    "categoryNameCanonical": "Tischstaubsauger",
+    "description": "Sehr kleine, oft batteriebetriebene Mini-Sauger zur schnellen Entfernung von Krümeln, Staub oder Radiergummiresten vom Schreibtisch oder Esstisch.",
+    "subcategories": [
+      {
+        "slug": "akku-tischstaubsauger",
+        "name": "Akku- & batteriebetriebene Tischstaubsauger",
+        "categoryNameCanonical": "Akku- & batteriebetriebene Tischstaubsauger",
+        "description": "Kabellose, handliche Kleingeräte, die immer griffbereit sind."
+      },
+      {
+        "slug": "tischstaubsauger-design",
+        "name": "Design-Tischstaubsauger",
+        "categoryNameCanonical": "Design-Tischstaubsauger",
+        "description": "Kompakte Sauger in lustigen Formen (z.B. Marienkäfer) oder stilvollem Design."
+      },
+      {
+        "slug": "tischstaubsauger-fuer-buero",
+        "name": "Tischstaubsauger für Büro & Tastatur",
+        "categoryNameCanonical": "Tischstaubsauger für Büro & Tastatur",
+        "description": "Mini-Sauger mit kleinen Bürstenaufsätzen zur Reinigung von Tastaturen und Schreibtischoberflächen."
+      }
+    ]
+  },
+  {
+    "slug": "leichte-staubsauger",
+    "name": "Leichte Staubsauger",
+    "categoryNameCanonical": "Leichte Staubsauger",
+    "description": "Staubsauger mit einem besonders geringen Gewicht für eine mühelose Handhabung, ideal für mehrstöckige Wohnungen, Treppen oder Personen, die nicht schwer heben möchten.",
+    "subcategories": [
+      {
+        "slug": "stielstaubsauger-unter-3kg",
+        "name": "Stielstaubsauger unter 3 kg",
+        "categoryNameCanonical": "Stielstaubsauger unter 3 kg",
+        "description": "Extrem leichte, oft kabellose Modelle, die sich einfach manövrieren und anheben lassen."
+      },
+      {
+        "slug": "kompakte-bodenstaubsauger",
+        "name": "Kompakte Bodenstaubsauger",
+        "categoryNameCanonical": "Kompakte Bodenstaubsauger",
+        "description": "Kleine und leichte, kabelgebundene Staubsauger, die sich einfach tragen und verstauen lassen."
+      },
+      {
+        "slug": "handstaubsauger-unter-1kg",
+        "name": "Handstaubsauger unter 1 kg",
+        "categoryNameCanonical": "Handstaubsauger unter 1 kg",
+        "description": "Federleichte Handgeräte für die schnelle und unkomplizierte Reinigung zwischendurch."
+      }
+    ]
+  },
+  {
+    "slug": "leise-staubsauger-allgemein",
+    "name": "Leise Staubsauger",
+    "categoryNameCanonical": "Leise Staubsauger",
+    "description": "Eine Auswahl an Staubsaugern verschiedener Bauarten (Boden-, Akku-, Roboterstaubsauger), die sich durch einen besonders geräuscharmen Betrieb auszeichnen.",
+    "subcategories": [
+      {
+        "slug": "staubsauger-unter-65-db",
+        "name": "Staubsauger unter 65 dB (Extra leise)",
+        "categoryNameCanonical": "Staubsauger unter 65 dB (Extra leise)",
+        "description": "Flüsterleise Modelle, die das Staubsaugen auch in den Abendstunden oder bei schlafenden Kindern ermöglichen."
+      },
+      {
+        "slug": "leise-bodenstaubsauger-spezial",
+        "name": "Leise Bodenstaubsauger",
+        "categoryNameCanonical": "Leise Bodenstaubsauger",
+        "description": "Kabelgebundene Modelle mit spezieller Schalldämmung für eine ruhige und dennoch gründliche Reinigung."
+      },
+      {
+        "slug": "leise-akkustaubsauger",
+        "name": "Leise Akkustaubsauger",
+        "categoryNameCanonical": "Leise Akkustaubsauger",
+        "description": "Kabellose Staubsauger, die für einen geräuscharmen Betrieb optimiert sind, oft mit speziellen Eco-Modi."
+      },
+      {
+        "slug": "leise-saugroboter",
+        "name": "Leise Saugroboter",
+        "categoryNameCanonical": "Leise Saugroboter",
+        "description": "Autonome Reiniger, die unauffällig im Hintergrund arbeiten, ohne zu stören."
+      }
+    ]
+  },
+  {
+    "slug": "staubsauger-reparatur-ersatzteile",
+    "name": "Staubsauger Reparatur & Ersatzteile",
+    "categoryNameCanonical": "Staubsauger Reparatur & Ersatzteile",
+    "description": "Einzelne Bauteile und Ersatzteile zur Reparatur und Wartung Ihres Staubsaugers, um seine Lebensdauer zu verlängern.",
+    "subcategories": [
+      {
+        "slug": "staubsauger-motoren",
+        "name": "Staubsauger-Motoren",
+        "categoryNameCanonical": "Staubsauger-Motoren",
+        "description": "Ersatzmotoren für verschiedene Staubsaugermarken und -modelle."
+      },
+      {
+        "slug": "staubsauger-raeder-und-rollen",
+        "name": "Räder und Rollen für Staubsauger",
+        "categoryNameCanonical": "Räder und Rollen für Staubsauger",
+        "description": "Ersatzräder für Bodendüsen und den Korpus des Staubsaugers."
+      },
+      {
+        "slug": "schalter-und-elektronik-fuer-staubsauger",
+        "name": "Schalter und Elektronik für Staubsauger",
+        "categoryNameCanonical": "Schalter und Elektronik für Staubsauger",
+        "description": "Ersatzteile wie Ein-/Ausschalter, Leistungsregler und Platinen."
+      },
+      {
+        "slug": "kohlebuersten-fuer-staubsaugermotoren",
+        "name": "Kohlebürsten für Staubsaugermotoren",
+        "categoryNameCanonical": "Kohlebürsten für Staubsaugermotoren",
+        "description": "Verschleißteile für den Elektromotor, die bei Abnutzung ausgetauscht werden können."
       }
     ]
   }

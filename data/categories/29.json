@@ -1,145 +1,139 @@
 {
   "categoryId": 29,
-  "categoryNameCanonical": "Drohnen für Profis",
-  "slug": "drohnen-fuer-profis",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "High-End Drohnen für Geschäft und Industrie. Maximale Performance & Zuverlässigkeit.",
-  "content": "<div><h2>Drohnen für Profis: Höchstleistung für anspruchsvolle Aufgaben</h2><p>Entdecken Sie unsere Auswahl an professionellen Drohnen, die speziell für Geschäftskunden und anspruchsvolle industrielle Anwendungen konzipiert wurden. Diese High-End-Systeme bieten unübertroffene Präzision, Zuverlässigkeit und Leistung, um Ihre komplexesten Aufgaben effizient zu meistern.</p><h2>Anwendungsbereiche und Vorteile</h2><p>Ob im Bauwesen für präzise Vermessungsarbeiten, in der Landwirtschaft zur Optimierung von Ernteerträgen, bei Inspektionen von Infrastruktur oder in der Filmproduktion für atemberaubende Luftaufnahmen – unsere Profi-Drohnen sind die ideale Lösung. Profitieren Sie von längeren Flugzeiten, hochauflösenden Kameras, fortschrittlichen Sensoriken und intelligenten Flugmodi, die eine sichere und effektive Datenerfassung gewährleisten.</p><h2>Technologie und Sicherheit</h2><p>Jede Drohne in unserem Sortiment integriert modernste Technologie: von präzisen GPS- und RTK-Systemen über redundante Sensorsysteme bis hin zu intelligenten Hinderniserkennungssensoren. Sicherheit steht an erster Stelle, daher sind unsere Modelle mit robusten Gehäusen und Notfall-Landefunktionen ausgestattet, um einen zuverlässigen Betrieb auch unter schwierigen Bedingungen zu garantieren. Vertrauen Sie auf Qualität und Innovation für Ihre professionellen Projekte.</p></div>",
+  "categoryNameCanonical": "Nass-Trocken-Sauger mit Gerätesteckdose",
+  "slug": "nass-trocken-sauger/nass-trocken-sauger-mit-steckdose",
+  "parentCategoryId": 26,
+  "level": 1,
+  "description": "Kraftvoller Nass-Trocken-Sauger mit Gerätesteckdose für Werkstatt & Baustelle.",
+  "content": "<div><h2>Der vielseitige Nass-Trocken-Sauger mit Gerätesteckdose für Profis</h2><p>Entdecken Sie die ultimative Reinigungslösung für Ihre Werkstatt, Baustelle oder Garage: Unser leistungsstarker <b>Nass-Trocken-Sauger mit Gerätesteckdose</b>. Dieser <b>Mehrzwecksauger</b> ist speziell dafür konzipiert, sowohl feinen Staub und Grobschmutz als auch Flüssigkeiten mühelos zu beseitigen. Er ist der ideale <b>Werkstattsauger</b> und <b>Industriesauger</b> für alle, die Wert auf Sauberkeit und Effizienz legen.</p><p>Die integrierte <b>Gerätesteckdose</b> ist ein echtes Highlight. Schließen Sie Ihre Elektrowerkzeuge direkt an den Sauger an und profitieren Sie von der automatischen Einschaltfunktion. Sobald Sie Ihr Werkzeug starten, beginnt der Sauger synchron mit der Absaugung von Spänen, Staub und anderem Schmutz. Dies sorgt für eine wesentlich sauberere Arbeitsumgebung und schützt gleichzeitig Ihre Gesundheit vor Feinstaub.</p><p>Ob Sie Sägespäne nach dem Holzzuschnitt, Bohrmehl nach der Montage oder sogar verschüttete Flüssigkeiten beseitigen müssen – unser <b>Allessauger</b> meistert jede Herausforderung. Mit seiner robusten Bauweise und hohen Saugleistung ist er der perfekte Partner für anspruchsvolle Reinigungsaufgaben. Machen Sie Schluss mit unnötiger Unordnung und setzen Sie auf einen <b>Nass-Trocken-Sauger</b>, der Ihre Erwartungen übertrifft.</p></div>",
   "seo": {
-    "title": "Professionelle Drohnen: Präzision & Leistung für Experten",
-    "description": "High-End Drohnen für Geschäft und Industrie. Maximale Performance & Zuverlässigkeit.",
+    "title": "Nass-Trocken-Sauger mit Gerätesteckdose – Werkstatt & Bau",
+    "description": "Kraftvoller Nass-Trocken-Sauger mit Gerätesteckdose für Werkstatt & Baustelle.",
     "keywords": [
-      "Drohnen für Profis",
-      "professionelle Drohnen",
-      "Industriedrohnen",
-      "Vermessungsdrohnen",
-      "Inspektionsdrohnen"
+      "Nass-Trocken-Sauger",
+      "Gerätesteckdose",
+      "Werkstattsauger",
+      "Industriesauger",
+      "Mehrzwecksauger"
     ],
-    "enhancedAt": "2025-10-21T15:21:46.452798"
+    "enhancedAt": "2025-10-13T19:46:48.396263"
   },
   "faq": [
     {
-      "question": "Was macht eine Drohne professionell?",
-      "answer": "Professionelle Drohnen zeichnen sich durch hochpräzise Sensoren, lange Flugzeiten, robuste Bauweise, erweiterte Sicherheitsfunktionen und die Integration professioneller Kamerasysteme aus."
+      "question": "Wofür ist die Gerätesteckdose am Nass-Trocken-Sauger nützlich?",
+      "answer": "Die integrierte Gerätesteckdose ermöglicht den direkten Anschluss von Elektrowerkzeugen. Der Sauger schaltet sich automatisch ein, sobald das Werkzeug gestartet wird, und sorgt so für eine effiziente Staubabsaugung direkt an der Quelle."
     },
     {
-      "question": "Für welche Branchen eignen sich professionelle Drohnen?",
-      "answer": "Profidrohnen sind ideal für Bauwesen, Vermessung, Landwirtschaft, Infrastrukturinspektion, Filmproduktion, Sicherheitsdienste und viele weitere industrielle Anwendungen."
+      "question": "Kann dieser Sauger auch Flüssigkeiten aufsaugen?",
+      "answer": "Ja, ein Nass-Trocken-Sauger ist speziell dafür konzipiert, sowohl trockenen Schmutz wie Staub und Späne als auch Flüssigkeiten wie Wasser oder Schlamm zuverlässig und sicher aufzusaugen."
     },
     {
-      "question": "Welche Vorschriften gibt es für den Einsatz von Profi-Drohnen?",
-      "answer": "Für den gewerblichen Einsatz von Drohnen gelten oft spezielle Genehmigungen, Lizenzen und Betriebsvorschriften. Informieren Sie sich stets über lokale und nationale Bestimmungen."
+      "question": "Welcher Filtertyp wird für Nass- und Trockenanwendungen benötigt?",
+      "answer": "Für eine optimale Leistung bei Nass- und Trockenanwendungen wird oft ein spezieller Patronenfilter oder Flachfaltenfilter verwendet, der sowohl Feinstaub als auch Nässe standhält und einfach zu reinigen ist."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-21T15:21:46.452810",
+  "enhancedAt": "2025-10-13T19:46:48.396278",
   "comparisonTable": {
-    "title": "Vergleich der 5 verfügbaren Drohnen für Profis",
+    "title": "Vergleich der 5 Nass-Trocken-Sauger mit Gerätesteckdose",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
       "Marke",
-      "Produktart",
-      "Zielgruppe / Bestimmung",
-      "Kernbestandteile"
+      "Material",
+      "Besondere Eigenschaft"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61yBnQR73qL._AC_SL1500_.jpg]",
-        "name": "DJI Mini 3 (DJI RC) 4K HDR Drohne",
-        "preis": "489.0€",
-        "bewertung": "4.5/5",
-        "marke": "DJI",
-        "produktart": "Kameradrohne",
-        "zielgruppe_bestimmung": "Content Creator, ambitionierte Hobbyisten",
-        "kernbestandteile": "Drohne, 4K HDR-Kamera, Fernsteuerung mit Display",
-        "productUrl": "/product/dji-mini-dji-rc-hdr-drohne",
-        "image": "https://m.media-amazon.com/images/I/61yBnQR73qL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61CHBAA1+TL._AC_SL1500_.jpg]",
+        "name": "Einhell TE-VC 2025 SACL Nass-Trockensauger L",
+        "preis": "149.0€",
+        "bewertung": "4.4/5",
+        "marke": "Einhell",
+        "material": "Edelstahl, Kunststoff",
+        "besondere_eigenschaft": "Staubschutzklasse L, Filterreinigung, autom. Gerätesteckdose",
+        "productUrl": "/product/einhell-te-vc-2025-sacl-nass-trockensauger",
+        "image": "https://m.media-amazon.com/images/I/61CHBAA1+TL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51QIRyL+TKL._AC_UL320_.jpg]",
-        "name": "DJI Mini 3 4K HDR Drohne 38min Flugzeit",
-        "preis": "348.0€",
-        "bewertung": "4.5/5",
-        "marke": "DJI",
-        "produktart": "Kameradrohne",
-        "zielgruppe_bestimmung": "Kreative Hobbyisten, Reisefotografen",
-        "kernbestandteile": "Drohne, 4K HDR-Kamera, Standard-Fernsteuerung",
-        "productUrl": "/product/38min-dji-mini-hdr-drohne-flugzeit",
-        "image": "https://m.media-amazon.com/images/I/51QIRyL+TKL._AC_UL320_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61fSZwxj2mL._AC_SL1500_.jpg]",
+        "name": "Kärcher NT 22/1 Ap Te L Nass-/Trockensauger",
+        "preis": "181.0€",
+        "bewertung": "4.4/5",
+        "marke": "Kärcher",
+        "material": "Kunststoff",
+        "besondere_eigenschaft": "Autom. Gerätesteckdose, PES-Patronenfilter",
+        "productUrl": "/product/karcher-22-1-nass-trockensauger",
+        "image": "https://m.media-amazon.com/images/I/61fSZwxj2mL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61WqigE+6xL._AC_SL1500_.jpg]",
-        "name": "DJI Mini 2 Fly More Combo: 4K Drohne, 31 Min Flugzeit",
-        "preis": "315.0€",
-        "bewertung": "4.7/5",
-        "marke": "DJI",
-        "produktart": "Kameradrohne",
-        "zielgruppe_bestimmung": "Einsteiger, ambitionierte Hobby-Fotografen",
-        "kernbestandteile": "Drohne, 4K-Kamera, 3 Akkus, Fernsteuerung",
-        "productUrl": "/product/dji-mini-fly-more-combo-drohne",
-        "image": "https://m.media-amazon.com/images/I/61WqigE+6xL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61hzK6Ea+HL._AC_SL1500_.jpg]",
+        "name": "Bosch AdvancedVac 20 Nass-/Trockensauger 1200W",
+        "preis": "107.0€",
+        "bewertung": "4.5/5",
+        "marke": "Bosch",
+        "material": "Kunststoff",
+        "besondere_eigenschaft": "Schneller Nass-/Trockenwechsel, überlegene Saugleistung",
+        "productUrl": "/product/bosch-1200w-advancedvac-nass-trockensauger",
+        "image": "https://m.media-amazon.com/images/I/61hzK6Ea+HL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71vDQp245RL._AC_SL1500_.jpg]",
-        "name": "Revell RC X-Treme Quadrocopter Marathon I 30 Min Flug",
-        "preis": "64.0€",
-        "bewertung": "3.6/5",
-        "marke": "Revell Control",
-        "produktart": "Hobby-Quadrocopter",
-        "zielgruppe_bestimmung": "Freizeitpiloten, Einsteiger",
-        "kernbestandteile": "Quadrocopter, Basis-Kamera, Fernsteuerung",
-        "productUrl": "/product/revell-x-treme-quadrocopter-marathon-min-flug",
-        "image": "https://m.media-amazon.com/images/I/71vDQp245RL._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71VngwIMJ8L._AC_SL1500_.jpg]",
+        "name": "Einhell Nass-Trockensauger TC-VC 1930 SA 1500W",
+        "preis": "99.0€",
+        "bewertung": "4.2/5",
+        "marke": "Einhell",
+        "material": "Edelstahl, Kunststoff",
+        "besondere_eigenschaft": "Autom. Gerätesteckdose, 30L Edelstahltank",
+        "productUrl": "/product/1500w-einhell-nass-trockensauger-tc-vc-1930",
+        "image": "https://m.media-amazon.com/images/I/71VngwIMJ8L._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51vNrR3C5bL._AC_SL1500_.jpg]",
-        "name": "Potensic ATOM SE Drohne Ersatzteile",
-        "preis": "149.0€",
-        "bewertung": "4.5/5",
-        "marke": "Potensic",
-        "produktart": "Drohnen-Ersatzteilset",
-        "zielgruppe_bestimmung": "Wartung & Reparatur von ATOM SE Drohnen",
-        "kernbestandteile": "Elektronische Komponenten, Propeller (ohne Drohne/Batterie/Fernsteuerung)",
-        "productUrl": "/product/potensic-atom-drohne-ersatzteile",
-        "image": "https://m.media-amazon.com/images/I/51vNrR3C5bL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71C2XKdgakL._AC_SL1500_.jpg]",
+        "name": "Bestseller Robotik-Gadget",
+        "preis": "53.0€",
+        "bewertung": "4.1/5",
+        "marke": "Tineco",
+        "material": "Kunststoff, Metall",
+        "besondere_eigenschaft": "WLAN & Bluetooth Konnektivität, wiederaufladbarer Akku",
+        "productUrl": "/product/bestseller-robotik-gadget",
+        "image": "https://m.media-amazon.com/images/I/71C2XKdgakL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: Die beste Drohne für Profis wählen",
+    "title": "Kaufberatung: So wählen Sie den besten Nass-Trocken-Sauger mit Gerätesteckdose",
     "sections": [
       {
-        "heading": "1. Kameraqualität und Sensorik",
-        "content": "Profis benötigen exzellente Bildqualität. Achten Sie auf große Sensoren (mindestens 1 Zoll), hohe Auflösungen (4K, 6K oder 8K) und Log-Profile für flexible Nachbearbeitung. Eine variable Blende und guter Dynamikbereich sind entscheidend für professionelle Film- und Fotoaufnahmen. Investieren Sie in Kameras mit optischem Zoom oder austauschbaren Objektiven für maximale Vielseitigkeit und Bildschärfe in unterschiedlichen Szenarien."
+        "heading": "1. Leistung und Gerätesteckdose",
+        "content": "Achten Sie auf eine hohe Saugleistung (Watt), idealerweise ab 1200W für vielfältige Aufgaben. Die integrierte Gerätesteckdose ist entscheidend, um Elektrowerkzeuge anzuschließen und den Sauger synchron zu starten. Das erhöht die Effizienz und Sauberkeit bei Handwerksprojekten enorm. Modelle wie der Einhell TC-VC 1930 SA mit 1500W sind hier eine ausgezeichnete Wahl für Heimwerker."
       },
       {
-        "heading": "2. Flugstabilität und Präzision",
-        "content": "Für professionelle Einsätze ist absolute Flugstabilität unerlässlich. Suchen Sie nach Drohnen mit präziser GPS/GNSS-Positionierung, omnidirektionaler Hinderniserkennung und hoher Windresistenz. RTK/PPK-Module bieten zentimetergenaue Positionierung für Vermessungs- und Inspektionsaufgaben. Eine zuverlässige Signalübertragung mit großer Reichweite gewährleistet sichere und kontrollierte Flüge, selbst in komplexen Umgebungen oder über weite Distanzen."
+        "heading": "2. Behältergröße und Material",
+        "content": "Die Behältergröße ist für die Nutzungsdauer ohne Entleerung wichtig. Für gelegentliche Arbeiten genügen 20 Liter, bei größeren Projekten oder viel Schmutz sind 30 Liter oder mehr empfehlenswert. Kunststoffbehälter sind leicht und robust, Edelstahlbehälter bieten höhere Langlebigkeit und sind leichter zu reinigen. Denken Sie an den Einsatzzweck, um die optimale Größe und das passende Material zu wählen."
       },
       {
-        "heading": "3. Flugzeit und Batteriemanagement",
-        "content": "Lange Flugzeiten (mindestens 30 Minuten pro Akku) sind für effizientes Arbeiten essenziell. Mehrere intelligente Akkus mit schnellen Ladezeiten minimieren Ausfallzeiten. Ein intelligentes Batteriemanagementsystem informiert stets über den Akkustand und warnt rechtzeitig. Planen Sie immer ausreichend Ersatzakkus für längere Projekte ein, um einen unterbrechungsfreien Arbeitsablauf zu garantieren und spontane Verzögerungen zu vermeiden."
+        "heading": "3. Filtersysteme und Zubehör",
+        "content": "Ein effizientes Filtersystem ist unerlässlich. Ein Patronenfilter für Trockensaugen und ein Schaumstofffilter für Nasssaugen sind Standard. Achten Sie auf die Verfügbarkeit von Filterbeuteln, besonders bei feinem Staub. Ein umfangreiches Zubehörset mit verschiedenen Düsen (Boden-, Fugen-, Polsterdüse) und Saugrohren erhöht die Flexibilität. Einfach wechselbare Filter erleichtern die Wartung."
       },
       {
-        "heading": "4. Sicherheit und Intelligente Flugmodi",
-        "content": "Professionelle Drohnen bieten erweiterte Sicherheitsfunktionen. Dazu gehören zuverlässiges Return-to-Home, redundante Sensorsysteme und umfassende Hinderniserkennung. Intelligente Flugmodi wie Waypoint-Navigation, ActiveTrack oder Spotlight sparen Zeit und ermöglichen komplexe, wiederholbare Aufnahmen. Diese Funktionen erhöhen die Flugsicherheit und unterstützen präzise, automatisierte Missionsabläufe, was für professionelle Anwender von großem Wert ist."
+        "heading": "4. Mobilität und Handhabung",
+        "content": "Für komfortables Arbeiten sind Räder, ein stabiler Tragegriff und eine ausreichende Kabel- sowie Schlauchlänge entscheidend. Ein langer Schlauch (mindestens 2,5 Meter) ermöglicht einen größeren Arbeitsradius. Achten Sie auf eine praktische Aufbewahrungsmöglichkeit für Zubehör direkt am Gerät. Dies spart Zeit und sorgt für Ordnung. Kompakte Bauweise erleichtert zudem die Lagerung."
       },
       {
-        "heading": "5. Zubehör und Erweiterbarkeit",
-        "content": "Eine professionelle Drohne sollte modular aufgebaut und erweiterbar sein. Achten Sie auf Kompatibilität mit wichtigem Zubehör wie ND-Filtern, externen Monitoren, hochpräzisen Vermessungssensoren (z.B. LiDAR) und robusten Transportkoffern. Die Möglichkeit, Nutzlasten anzupassen oder verschiedene Kameragimbals zu verwenden, erhöht die Anpassungsfähigkeit an spezifische Aufgaben. Berücksichtigen Sie auch den Zugang zu Ersatzteilen und professionellem Service für Langlebigkeit."
+        "heading": "5. Preis-Leistungs-Verhältnis und Anwendungsbereiche",
+        "content": "Vergleichen Sie die gebotenen Funktionen mit dem Preis. Ein Nass-Trocken-Sauger mit Gerätesteckdose für ca. 99,0€ wie der Einhell TC-VC 1930 SA bietet oft ein hervorragendes Preis-Leistungs-Verhältnis für den Heimgebrauch, die Werkstatt oder die Garage. Bedenken Sie Ihre Hauptanwendungsbereiche – ob für groben Schmutz, Flüssigkeiten oder den Einsatz mit Elektrowerkzeugen – um das passende Modell zu finden."
       }
     ]
   }

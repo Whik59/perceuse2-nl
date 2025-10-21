@@ -1,164 +1,158 @@
 {
   "categoryId": 85,
-  "categoryNameCanonical": "Protections d'Hélices",
-  "slug": "protections-d-helices",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Protégez vos hélices de drone. Évitez les chocs, prolongez la vie de votre appareil.",
-  "content": "<div><h2>Protégez Vos Hélices : Voler en Toute Sérénité</h2><p>Les protections d'hélices sont un accessoire indispensable pour tout pilote de drone. Elles offrent une barrière robuste contre les chocs, protégeant vos hélices des dommages et prolongeant la durée de vie de votre appareil. Idéales pour les débutants, les vols en intérieur ou dans des environnements complexes, elles réduisent également les risques pour les personnes et les biens. Nos protections, fabriquées dans des matériaux durables et légers, garantissent une installation facile et une sécurité optimale sans compromettre la performance de vol de votre drone.</p></div>",
+  "categoryNameCanonical": "Staubsaugerdüsen & -bürsten",
+  "slug": "staubsauger-zubehoer/staubsaugerduesen-und-buersten",
+  "parentCategoryId": 84,
+  "level": 1,
+  "description": "Hochwertige Staubsaugerdüsen & Bürsten für jede Oberfläche. Finden Sie passendes Zubehör für Ihren Staubsauger.",
+  "content": "<div><h2>Effiziente Reinigung mit den richtigen Staubsaugerdüsen & Bürsten</h2><p>Die Wahl der passenden Staubsaugerdüsen und Bürsten ist entscheidend für eine gründliche und effiziente Reinigung Ihres Zuhauses. Egal, ob Sie empfindliche Parkettböden, robuste Teppiche, schwer zugängliche Ecken oder Polstermöbel reinigen möchten – mit dem richtigen Aufsatz erzielen Sie optimale Ergebnisse und schonen gleichzeitig Ihre Oberflächen.</p><h3>Vielfalt für jede Anforderung</h3><p>Entdecken Sie unser breites Sortiment an hochwertigen Staubsaugerdüsen und Bürsten für jede Reinigungsherausforderung:</p><ul><li><b>Bodendüsen:</b> Universaldüsen für verschiedene Untergründe, spezielle Parkettdüsen mit weichen Borsten zum Schutz empfindlicher Böden oder robuste Teppichdüsen für tiefsitzenden Schmutz.</li><li><b>Fugendüsen:</b> Perfekt, um Staub und Krümel aus schmalen Ritzen, Ecken und Spalten zu entfernen – ideal für Sofafalzen, Heizkörper oder Zwischenräume.</li><li><b>Polsterdüsen:</b> Sanfte Reinigung von Sofas, Sesseln, Matratzen und Autositzen, oft mit Fadenhebern, um Tierhaare und Fasern effektiv zu entfernen.</li><li><b>Turbobürsten & Tierhaardüsen:</b> Speziell konzipiert, um hartnäckige Tierhaare, Flusen und tiefsitzenden Schmutz aus Teppichen und Polstern zu lösen. Mit rotierenden Bürstenwalzen für maximale Leistung.</li><li><b>Möbelpinsel:</b> Schonende Reinigung von empfindlichen Oberflächen wie Bücherregalen, Tastaturen, Lampenschirmen oder technischen Geräten.</li></ul><h3>Vorteile der richtigen Staubsaugeraufsätze</h3><p>Der Einsatz spezialisierter Düsen und Bürsten bietet zahlreiche Vorteile:</p><ul><li><b>Verbesserte Reinigungsleistung:</b> Gezielte Schmutzentfernung auf verschiedenen Oberflächen.</li><li><b>Schutz der Materialien:</b> Empfindliche Böden oder Möbel werden durch angepasste Aufsätze geschont.</li><li><b>Erhöhte Effizienz:</b> Weniger Aufwand und Zeit für ein besseres Ergebnis.</li><li><b>Längere Lebensdauer:</b> Sowohl der Staubsauger als auch die zu reinigenden Objekte profitieren.</li><li><b>Bessere Hygiene:</b> Effektive Entfernung von Allergenen, Staub und Tierhaaren.</li></ul><h3>So finden Sie die passende Düse</h3><p>Achten Sie beim Kauf auf den Rohrdurchmesser Ihres Staubsaugers (z.B. 32mm oder 35mm) oder darauf, ob ein Universal-Adapter benötigt wird. Viele Düsen sind auch spezifisch für bestimmte Staubsaugermarken oder -modelle erhältlich. Bei uns finden Sie eine große Auswahl an Original-Ersatzteilen und kompatiblem Zubehör.</p><p>Stöbern Sie durch unser Sortiment und finden Sie die idealen Staubsaugerdüsen und Bürsten, die Ihre Reinigungsroutine revolutionieren werden!</p></div>",
   "seo": {
-    "title": "Protections d'Hélices Drone - Sécurité et Durabilité",
-    "description": "Protégez vos hélices de drone. Évitez les chocs, prolongez la vie de votre appareil.",
+    "title": "Staubsaugerdüsen & Bürsten - Perfekte Reinigung & Zubehör",
+    "description": "Hochwertige Staubsaugerdüsen & Bürsten für jede Oberfläche. Finden Sie passendes Zubehör für Ihren Staubsauger.",
     "keywords": [
-      "protections d'hélices",
-      "protège-hélices drone",
-      "sécurité hélices",
-      "accessoires drone",
-      "protection chocs drone",
-      "vol drone"
+      "Staubsaugerdüsen",
+      "Staubsaugerbürsten",
+      "Staubsauger Zubehör",
+      "Bodendüse",
+      "Parkettdüse",
+      "Fugendüse",
+      "Polsterdüse",
+      "Tierhaardüse",
+      "Turbobürste",
+      "Staubsaugeraufsätze",
+      "Ersatzbürste",
+      "Staubsauger Ersatzteile"
     ],
-    "enhancedAt": "2025-10-15T18:59:27.200846"
+    "enhancedAt": "2025-10-13T19:46:27.430127"
   },
   "faq": [
     {
-      "question": "Pourquoi les protections d'hélices sont-elles essentielles ?",
-      "answer": "Elles préviennent les dommages aux hélices et aux personnes lors de chocs, prolongeant la durée de vie de votre drone."
+      "question": "Welche Staubsaugerdüse benötige ich?",
+      "answer": "Die Wahl hängt von der zu reinigenden Oberfläche ab. Für Hartböden eignen sich Parkettdüsen, für Teppiche Teppichdüsen oder Turbobürsten. Fugendüsen sind ideal für enge Spalten, Polsterdüsen für Möbel. Universaldüsen bieten Flexibilität für verschiedene Untergründe."
     },
     {
-      "question": "Ces protections affectent-elles la performance de vol ?",
-      "answer": "Bien qu'elles ajoutent un léger poids, les protections modernes sont conçues pour un impact minimal sur la maniabilité et l'autonomie."
+      "question": "Wann sollte ich meine Staubsaugerbürste wechseln?",
+      "answer": "Ein Wechsel ist ratsam, wenn die Bürsten sichtlich abgenutzt oder beschädigt sind, die Reinigungsleistung nachlässt oder sich viele Haare und Fasern dauerhaft verfangen haben. Regelmäßige Kontrolle und Reinigung erhöhen die Effizienz und Lebensdauer."
     },
     {
-      "question": "Comment choisir la bonne protection pour mon drone ?",
-      "answer": "Assurez-vous de la compatibilité avec votre modèle de drone et privilégiez des matériaux robustes et légers pour une installation facile."
+      "question": "Sind alle Staubsaugerdüsen universell einsetzbar?",
+      "answer": "Nein, die Kompatibilität hängt oft vom Rohrdurchmesser Ihres Staubsaugers ab. Viele Düsen sind für Standardgrößen (z.B. 32mm oder 35mm) erhältlich, oder es gibt Universal-Adapter. Prüfen Sie die Angaben Ihres Staubsaugermodells, um die passende Düse zu finden."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:27.200862",
+  "enhancedAt": "2025-10-13T19:46:27.430145",
   "comparisonTable": {
-    "title": "Comparatif des 5 meilleures Protections d'Hélices pour Drones",
+    "title": "Vergleich der 5 besten Staubsaugerdüsen & -bürsten",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Compatibilité",
-      "Matériau",
-      "Type de Protection",
-      "Installation",
-      "Quantité / Format",
-      "Usage Principal"
+      "Preis",
+      "Bewertung",
+      "Anschlussdurchmesser",
+      "Material",
+      "Anwendungsbereich",
+      "Anzahl Aufsätze",
+      "Besondere Eigenschaft"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/618nG2QEWcL._AC_SL1500_.jpg]",
-        "name": "Protection Hélices DJI Avata",
-        "prix": "10.0€",
-        "évaluation": "4.7/5",
-        "marque": "DJI",
-        "compatibilité": "DJI Avata (spécifique)",
-        "matériau": "Plastique ABS haute résistance",
-        "type_de_protection": "Protection enveloppante",
-        "installation": "Facile à installer et retirer",
-        "quantité_format": "1 ensemble complet",
-        "usage_principal": "Protection en vol",
-        "productUrl": "/product/protection-helices-dji-avata",
-        "image": "https://m.media-amazon.com/images/I/618nG2QEWcL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61kIP1-Y2gL._AC_SL1500_.jpg]",
+        "name": "McFilter I Universal Staubsaugerdüsen-Set 8-tlg.",
+        "preis": "11.0€",
+        "bewertung": "4.6/5",
+        "anschlussdurchmesser": "32/35 mm (Universal)",
+        "material": "Hochwertiger Kunststoff",
+        "anwendungsbereich": "Vielseitig (Hobby, PC, Auto, Möbel, Fugen)",
+        "anzahl_aufsätze": "8",
+        "besondere_eigenschaft": "Umfangreiches 8-teiliges Set",
+        "productUrl": "/product/8-tlg-mcfilter-universal-staubsaugerdusen-set",
+        "image": "https://m.media-amazon.com/images/I/61kIP1-Y2gL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/619dm53El0L._AC_SL1500_.jpg]",
-        "name": "Support Hélice Stabilisateur Mini 3/3 Pro Orange",
-        "prix": "9.0€",
-        "évaluation": "4.7/5",
-        "marque": "HeiyRC",
-        "compatibilité": "DJI Mini 3 / Mini 3 Pro / DJI RC (spécifique)",
-        "matériau": "Plastique haute densité",
-        "type_de_protection": "Sangle de stabilisation",
-        "installation": "Facile (sans outils)",
-        "quantité_format": "1 pièce",
-        "usage_principal": "Protection transport/stockage",
-        "productUrl": "/product/pro-support-helice-stabilisateur-mini-3-3",
-        "image": "https://m.media-amazon.com/images/I/619dm53El0L._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/518tN+pT3kL._AC_SL1000_.jpg]",
+        "name": "LANSKYLAN Staubsaugerdüse Set 32/35mm Universal Adapter",
+        "preis": "12.0€",
+        "bewertung": "4.3/5",
+        "anschlussdurchmesser": "32/35 mm (Universal)",
+        "material": "Robustes Kunststoffmaterial",
+        "anwendungsbereich": "Polster, Fugen, schwer zugängliche Stellen",
+        "anzahl_aufsätze": "2",
+        "besondere_eigenschaft": "Inklusive Universal-Adapter für breite Kompatibilität",
+        "productUrl": "/product/32-35mm-lanskylan-staubsaugerduse-set-universal-adapter",
+        "image": "https://m.media-amazon.com/images/I/518tN+pT3kL._AC_SL1000_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61K5BQfundL._AC_SL1500_.jpg]",
-        "name": "Dilwe Protecteurs Hélices Plastique Drone 4pcs",
-        "prix": "16.0€",
-        "évaluation": "4.0/5",
-        "marque": "Dilwe",
-        "compatibilité": "Universelle (la plupart des drones)",
-        "matériau": "Plastique durable et léger",
-        "type_de_protection": "Anneaux individuels",
-        "installation": "Simple et rapide, sans outils",
-        "quantité_format": "4 pièces",
-        "usage_principal": "Protection en vol",
-        "productUrl": "/product/dilwe-protecteurs-helices-plastique-drone-4pcs",
-        "image": "https://m.media-amazon.com/images/I/61K5BQfundL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/617TLQMbC4L._AC_SL1500_.jpg]",
+        "name": "Universal Staubsaugerdüsen Set 35mm 3 Aufsätze",
+        "preis": "9.0€",
+        "bewertung": "4.1/5",
+        "anschlussdurchmesser": "35 mm",
+        "material": "Robustes ABS-Kunststoff",
+        "anwendungsbereich": "Möbel, Polster, Fugen",
+        "anzahl_aufsätze": "3",
+        "besondere_eigenschaft": "Gezielte Reinigung für diverse Oberflächen",
+        "productUrl": "/product/35mm-universal-staubsaugerdusen-set-aufsatze",
+        "image": "https://m.media-amazon.com/images/I/617TLQMbC4L._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61C77lQLvaS._AC_SL1500_.jpg]",
-        "name": "Hensych 4x Protecteurs Hélice D-J-I FPV",
-        "prix": "14.0€",
-        "évaluation": "3.5/5",
-        "marque": "Hensych",
-        "compatibilité": "D-J-I FPV (spécifique)",
-        "matériau": "Plastique ABS résistant",
-        "type_de_protection": "Anneaux anti-collision",
-        "installation": "Libération rapide",
-        "quantité_format": "4 protections",
-        "usage_principal": "Protection en vol",
-        "productUrl": "/product/hensych-protecteurs-helice-d-j-i-fpv",
-        "image": "https://m.media-amazon.com/images/I/61C77lQLvaS._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51ak9yM6NIL._AC_SL1449_.jpg]",
+        "name": "Variant FD201C Fugendüse Saugrohr 35mm, 21,5cm",
+        "preis": "8.0€",
+        "bewertung": "4.3/5",
+        "anschlussdurchmesser": "35 mm",
+        "material": "Hochwertiger Kunststoff",
+        "anwendungsbereich": "Fugen, Ecken, schwer zugängliche Stellen",
+        "anzahl_aufsätze": "1",
+        "besondere_eigenschaft": "Extra lange Reichweite (21,5 cm)",
+        "productUrl": "/product/35mm-variant-fd201c-fugenduse-saugrohr-21-5cm",
+        "image": "https://m.media-amazon.com/images/I/51ak9yM6NIL._AC_SL1449_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51psHL0y+5L._AC_SL1001_.jpg]",
-        "name": "4pcs Protections Hélices Drone",
-        "prix": "16.0€",
-        "évaluation": "3.2/5",
-        "marque": "Drfeify",
-        "compatibilité": "Universelle (la plupart des drones)",
-        "matériau": "Composite résistant et léger",
-        "type_de_protection": "Anneaux individuels",
-        "installation": "Facile et rapide",
-        "quantité_format": "4 pièces / set",
-        "usage_principal": "Protection en vol",
-        "productUrl": "/product/4pcs-protections-helices-drone",
-        "image": "https://m.media-amazon.com/images/I/51psHL0y+5L._AC_SL1001_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71G9zVdA6KL._AC_SL1500_.jpg]",
+        "name": "Retoo Staubsauger Düsen Set 32mm Hartboden",
+        "preis": "8.0€",
+        "bewertung": "4.3/5",
+        "anschlussdurchmesser": "32 mm",
+        "material": "Hochwertiger Kunststoff",
+        "anwendungsbereich": "Hartböden (Laminat, Fliesen, Parkett)",
+        "anzahl_aufsätze": "1",
+        "besondere_eigenschaft": "Spezialisiert auf Hartbodenreinigung",
+        "productUrl": "/product/32mm-retoo-staubsauger-dusen-set-hartboden",
+        "image": "https://m.media-amazon.com/images/I/71G9zVdA6KL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment choisir les meilleures Protections d'Hélices ?",
+    "title": "Kaufberatung: So wählen Sie die besten Staubsaugerdüsen & -bürsten",
     "sections": [
       {
-        "heading": "1. Protection Essentielle",
-        "content": "Les protections d'hélices sont cruciales pour la sécurité. Elles préviennent les dommages aux hélices en cas de chocs et protègent les personnes ou objets. Choisissez des modèles offrant une couverture complète et une robustesse suffisante pour absorber les impacts. Une bonne protection prolonge la durée de vie de votre drone, surtout pour les débutants."
+        "heading": "1. Kompatibilität und Anschlussgröße prüfen",
+        "content": "Stellen Sie sicher, dass die Düse zum Saugrohr Ihres Staubsaugers passt. Gängige Durchmesser sind 32mm oder 35mm. Eine falsche Größe beeinträchtigt die Saugleistung oder verhindert die Anbringung. Messen Sie Ihr Saugrohr vor dem Kauf genau. Adapter können eine Lösung sein, falls Ihr Modell eine Sondergröße hat. So ist eine optimale Funktion gewährleistet."
       },
       {
-        "heading": "2. Compatibilité Parfaite",
-        "content": "Assurez-vous que les protections sont spécifiquement conçues pour votre modèle de drone (ex: Dilwe Protecteurs Hélices Plastique Drone 4pcs). Un ajustement précis est vital pour éviter les vibrations excessives et ne pas entraver le vol. Vérifiez toujours les spécifications du fabricant pour garantir une installation sans faille et une performance optimale."
+        "heading": "2. Material und Verwendungszweck berücksichtigen",
+        "content": "Wählen Sie das Material der Düse passend zum Untergrund. Weiche Naturborsten sind ideal für empfindliche Hartböden wie Parkett, um Kratzer zu vermeiden. Robuste Kunstborsten eignen sich hervorragend für Teppiche. Für Tierhaare gibt es spezielle Düsen mit Gummi-Lamellen oder rotierenden Bürsten, die effektiv Haare aufnehmen und das Ergebnis verbessern."
       },
       {
-        "heading": "3. Matériaux Résistants",
-        "content": "Le choix du matériau est clé. Le plastique, comme dans l'exemple Dilwe, offre un bon équilibre entre légèreté et résistance aux chocs, souvent à un prix abordable (16.0€). Optez pour un plastique de qualité qui ne se fissure pas facilement. Certains matériaux plus robustes existent pour une durabilité accrue, mais peuvent augmenter le poids."
+        "heading": "3. Spezialdüsen für besondere Anforderungen",
+        "content": "Für spezifische Reinigungsaufgaben sind Spezialdüsen unerlässlich. Eine Fugendüse (z.B. Variant FD201C Fugendüse Saugrohr 35mm, 21,5cm) erreicht schmale Zwischenräume. Polsterdüsen reinigen Möbel schonend. Turbobürsten sind ideal für tiefsitzenden Schmutz in Teppichen oder Tierhaare. Überlegen Sie, welche speziellen Herausforderungen Sie im Haushalt haben."
       },
       {
-        "heading": "4. Installation Facile et Légèreté",
-        "content": "Privilégiez des protections faciles à installer et à retirer, souvent avec des clips ou un système de fixation simple. Considérez le poids additionnel : des protections trop lourdes peuvent affecter l'autonomie et l'agilité de votre drone. Des protections légères et bien conçues sont un atout majeur pour le pilotage."
+        "heading": "4. Qualität und Langlebigkeit der Materialien",
+        "content": "Investieren Sie in hochwertige Düsen, um eine lange Lebensdauer zu gewährleisten. Robuste Kunststoffe und fest verankerte Borsten sind Anzeichen guter Qualität. Günstige Alternativen können schnell verschleißen oder die Saugleistung mindern. Achten Sie auch auf eine einfache Reinigung der Düse selbst, um ihre Effizienz langfristig zu erhalten und Zeit zu sparen."
       },
       {
-        "heading": "5. Meilleur Choix pour Votre Usage",
-        "content": "Évaluez le rapport qualité/prix. À 16.0€ pour 4pcs, les protections Dilwe sont une option économique. Pensez à votre environnement de vol : pour l'intérieur ou les zones encombrées, une protection maximale est préférable. Pour les débutants, elles sont indispensables. Investir dans de bonnes protections prévient des réparations coûteuses."
+        "heading": "5. Preis-Leistungs-Verhältnis und Sets",
+        "content": "Vergleichen Sie die Preise für einzelne Düsen (z.B. eine Fugendüse für 8,0€) mit den Kosten für ein komplettes Set. Oft bieten Sets eine gute Auswahl für verschiedene Reinigungsaufgaben und können langfristig kostengünstiger sein als der Einzelkauf. Überlegen Sie, welche Düsen Sie wirklich benötigen, um die beste Wahl für Ihr Budget und Ihre Bedürfnisse zu treffen."
       }
     ]
   }

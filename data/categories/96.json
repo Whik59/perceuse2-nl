@@ -1,167 +1,151 @@
 {
   "categoryId": 96,
-  "categoryNameCanonical": "Modules GPS et ESC",
-  "slug": "pieces-detachees-pour-drones/modules-gps-et-esc",
-  "parentCategoryId": 93,
+  "categoryNameCanonical": "Motorschutzfilter",
+  "slug": "staubsaugerfilter/motorschutzfilter-fuer-staubsauger",
+  "parentCategoryId": 94,
   "level": 1,
-  "description": "Optimisez vos drones RC avec nos modules GPS et ESC. Précision de vol, puissance moteur et fiabilité assurées.",
-  "content": "<div><h2>Modules GPS & ESC : Le Cœur de Votre Drone RC</h2><p>Découvrez notre sélection de modules GPS et contrôleurs de vitesse électroniques (ESC) haute performance, essentiels pour optimiser les capacités de votre drone RC. Un <strong>module GPS</strong> fiable est la clé d'une navigation précise : il permet à votre drone de maintenir une position stable, d'effectuer des retours automatiques au point de départ (Return To Home) et de suivre des itinéraires prédéfinis avec une exactitude remarquable. Nos modules sont conçus pour offrir une acquisition rapide du signal et une stabilité de positionnement même dans des conditions difficiles.</p><p>Les <strong>ESC (Electronic Speed Controller)</strong> sont les éléments vitaux qui gèrent la puissance transmise aux moteurs de votre drone. Ils reçoivent les instructions du contrôleur de vol et les traduisent en commandes précises pour les moteurs brushless, assurant une réponse fluide, une accélération contrôlée et une grande efficacité énergétique. Que vous soyez à la recherche d'ESC pour la course, le freestyle ou le vol de longue durée, notre gamme couvre toutes les exigences en termes d'ampérage, de firmware et de robustesse. Équipez votre drone avec des composants de qualité supérieure pour une expérience de vol inégalée en termes de performance, de fiabilité et de sécurité.</p></div>",
+  "description": "Hochwertige Motorschutzfilter für maximale Lebensdauer & Leistung. Jetzt online bestellen!",
+  "content": "<div><h2>Motorschutzfilter: Essentieller Schutz für Ihre Motoren</h2><p>Motorschutzfilter sind unverzichtbar, um die Langlebigkeit und Effizienz von Motoren in verschiedenen Anwendungen zu gewährleisten. Ob in der Industrie, im Kfz-Bereich oder in Haushaltsgeräten – ein leistungsstarker Motorschutzfilter schützt das Herzstück Ihrer Maschine vor schädlichen Partikeln wie Staub, Schmutz, Pollen und anderen Verunreinigungen. Durch die effektive Filterung wird verhindert, dass diese Partikel in den Motor gelangen und dort Verschleiß, Überhitzung oder sogar Ausfälle verursachen. Dies führt nicht nur zu einer längeren Lebensdauer des Motors, sondern auch zu einer konstanten Leistungsentfaltung und geringeren Wartungskosten. Entdecken Sie unser Sortiment an hochwertigen Motorschutzfiltern, die speziell entwickelt wurden, um optimale Filtration und maximalen Schutz zu bieten. Investieren Sie in einen zuverlässigen Motorfilter und sichern Sie die Leistungsfähigkeit Ihrer Geräte. Wählen Sie den passenden Staubfilter Motor, um Ihre Anlage optimal zu schützen und die Betriebssicherheit zu erhöhen.</p></div>",
   "seo": {
-    "title": "Modules GPS & ESC pour Drones RC | Précision & Puissance",
-    "description": "Optimisez vos drones RC avec nos modules GPS et ESC. Précision de vol, puissance moteur et fiabilité assurées.",
+    "title": "Motorschutzfilter kaufen: Optimaler Schutz für Ihren Motor",
+    "description": "Hochwertige Motorschutzfilter für maximale Lebensdauer & Leistung. Jetzt online bestellen!",
     "keywords": [
-      "module GPS drone",
-      "ESC drone",
-      "contrôleur de vitesse",
-      "positionnement GPS",
-      "navigation RC",
-      "vol stable drone",
-      "électronique drone",
-      "moteur brushless",
-      "pièces détachées drone"
+      "Motorschutzfilter",
+      "Motorfilter",
+      "Staubfilter Motor",
+      "Lüftungsfilter Motor",
+      "Maschinenschutzfilter"
     ],
-    "enhancedAt": "2025-10-15T18:59:08.565300"
+    "enhancedAt": "2025-10-13T19:46:39.132605"
   },
   "faq": [
     {
-      "question": "Pourquoi un module GPS est-il essentiel pour un drone?",
-      "answer": "Un module GPS fournit une localisation précise, permettant des fonctions clés comme le vol stationnaire stable, la navigation autonome, le \"Return to Home\" et la définition de points de passage pour des vols prédéfinis."
+      "question": "Was ist ein Motorschutzfilter?",
+      "answer": "Ein Motorschutzfilter ist ein essenzieller Bestandteil, der Ihren Motor vor schädlichen Partikeln wie Staub, Schmutz und anderen Verunreinigungen schützt, die seine Leistung und Lebensdauer beeinträchtigen könnten."
     },
     {
-      "question": "Quel est le rôle principal d'un ESC (Electronic Speed Controller) dans un drone?",
-      "answer": "L'ESC est crucial pour contrôler la vitesse de rotation des moteurs brushless du drone. Il convertit les signaux du contrôleur de vol en puissance électrique adaptée pour chaque moteur, assurant un vol fluide et réactif."
+      "question": "Wie oft sollte man einen Motorschutzfilter wechseln?",
+      "answer": "Der Wechselintervall hängt stark von der Einsatzumgebung und der Betriebsstundenzahl ab. Generell wird ein regelmäßiger Check empfohlen und ein Wechsel nach Herstellerangaben, typischerweise alle 6-12 Monate oder nach Bedarf."
     },
     {
-      "question": "Comment choisir le module GPS ou l'ESC adapté à mon drone?",
-      "answer": "Le choix dépend de la taille de votre drone, du type de moteurs, de la puissance requise (ampérage pour les ESC) et des fonctionnalités GPS désirées. Assurez-vous toujours de la compatibilité avec votre contrôleur de vol et vos batteries."
+      "question": "Welche Vorteile bietet ein hochwertiger Motorschutzfilter?",
+      "answer": "Ein hochwertiger Motorschutzfilter gewährleistet eine längere Motorlebensdauer, schützt vor teuren Reparaturen, sichert eine konstante Leistungsfähigkeit und kann sogar den Kraftstoffverbrauch optimieren, indem er eine effiziente Luftzufuhr ermöglicht."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:08.565313",
+  "enhancedAt": "2025-10-13T19:46:39.132616",
   "comparisonTable": {
-    "title": "Comparaison des 5 meilleurs Modules GPS et ESC",
+    "title": "Vergleich der 5 besten Motorschutzfilter",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Type de Produit",
-      "Connectivité",
-      "Type d'Antenne",
-      "Compatibilité",
-      "Applications",
-      "Points Forts"
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Kompatibilität",
+      "Filtermaterial",
+      "Anzahl Filterelemente",
+      "Besondere Merkmale"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/612OiGGzMPL._AC_SL1192_.jpg]",
-        "name": "Drone F450 HAWK'S WORK Kit Construction",
-        "prix": "403.0€",
-        "évaluation": "4.2/5",
-        "marque": "HAWK'S WORK",
-        "type_de_produit": "Kit Drone Complet à Construire",
-        "connectivité": "Système intégré (Contrôleur de vol)",
-        "type_d_antenne": "Module GPS intégré",
-        "compatibilité": "Contrôleur de vol Pixhawk, Moteurs Brushless",
-        "applications": "Apprentissage, Photographie aérienne, Surveillance, Robotique avancée",
-        "points_forts": "Kit complet haute performance, Contrôleur Pixhawk, Moteurs et ESC inclus, Documentation détaillée",
-        "productUrl": "/product/drone-f450-hawk-s-work-kit-construction",
-        "image": "https://m.media-amazon.com/images/I/612OiGGzMPL._AC_SL1192_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71zoiuPLOjL._AC_SL1500_.jpg]",
+        "name": "6x Miele Staubsaugerfilter Set C1-C3/S",
+        "preis": "6.0€",
+        "bewertung": "4.6/5",
+        "marke": "lzijun",
+        "kompatibilitaet": "Miele Complete C1/2/3, Compact C1/2, Classic C1, S Serie",
+        "filtermaterial": "Vlies/Mikrofaser",
+        "anzahl_filterelemente": "12 Stück (6 Motorschutz, 6 Abluft)",
+        "besondere_merkmale": "Umfassendes Filter-Set für Motor und Abluft",
+        "productUrl": "/product/miele-staubsaugerfilter-set-c1-c3-s",
+        "image": "https://m.media-amazon.com/images/I/71zoiuPLOjL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71L33tIkoVL._AC_SL1500_.jpg]",
-        "name": "Garmin GLO 2 GLONASS GPS",
-        "prix": "110.0€",
-        "évaluation": "4.3/5",
-        "marque": "Garmin",
-        "type_de_produit": "Récepteur GPS/GLONASS Externe",
-        "connectivité": "Bluetooth (sans fil)",
-        "type_d_antenne": "Interne",
-        "compatibilité": "Smartphones et tablettes (iOS, Android, Windows)",
-        "applications": "Navigation mobile, Géolocalisation, Randonnée, Voyages",
-        "points_forts": "GPS et GLONASS pour haute précision, Autonomie de 12h, Connexion sans fil facile, Mises à jour gratuites",
-        "productUrl": "/product/garmin-glo-glonass-gps",
-        "image": "https://m.media-amazon.com/images/I/71L33tIkoVL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61VRKAorQnL._AC_SL1500_.jpg]",
+        "name": "Vozitug Miele Staubsaugerfilter 6 Stk.",
+        "preis": "6.0€",
+        "bewertung": "4.7/5",
+        "marke": "Vozitug",
+        "kompatibilitaet": "Miele Complete C1/C2/C3, S200-S899, S2000-S8999, Dynamic U1, Compact C1/2, Classic C1",
+        "filtermaterial": "Vlies/Mikrofaser",
+        "anzahl_filterelemente": "6 Stück (Motorschutz & Abluft)",
+        "besondere_merkmale": "Kombiniertes Motorschutz- & Abluftfilter-Set",
+        "productUrl": "/product/vozitug-miele-staubsaugerfilter-stk",
+        "image": "https://m.media-amazon.com/images/I/61VRKAorQnL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51-jHTVKtGL._AC_SL1001_.jpg]",
-        "name": "Module GPS VK-162 G-Mouse USB Antenne Externe",
-        "prix": "22.0€",
-        "évaluation": "4.3/5",
-        "marque": "Geekstory",
-        "type_de_produit": "Module GPS USB",
-        "connectivité": "USB",
-        "type_d_antenne": "Externe avec montage à distance",
-        "compatibilité": "Raspberry Pi, Windows, Linux, Google Earth",
-        "applications": "Robotique, Cartographie, Suivi, Projets DIY",
-        "points_forts": "Antenne externe pour signal optimal, Facilité d'intégration, Support multi-plateforme, Haute précision",
-        "productUrl": "/product/module-gps-vk-162-g-mouse-usb-antenne",
-        "image": "https://m.media-amazon.com/images/I/51-jHTVKtGL._AC_SL1001_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61vXQlv81fL._AC_SL1500_.jpg]",
+        "name": "Sebo 7012ER Schutzfilter Weiß Kunststoff",
+        "preis": "7.0€",
+        "bewertung": "4.7/5",
+        "marke": "Sebo",
+        "kompatibilitaet": "Sebo Staubsauger",
+        "filtermaterial": "Kunststoff",
+        "anzahl_filterelemente": "1 Stück",
+        "besondere_merkmale": "Original Sebo Qualität, einfacher Austausch",
+        "productUrl": "/product/sebo-7012er-schutzfilter-weiss-kunststoff",
+        "image": "https://m.media-amazon.com/images/I/61vXQlv81fL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
-        "name": "Aideepen GY-GPS6MV2 NEO-6M Lot 2 Modules GPS",
-        "prix": "16.0€",
-        "évaluation": "4.2/5",
-        "marque": "Aideepen",
-        "type_de_produit": "Modules GPS (Lot de 2)",
-        "connectivité": "Série (UART)",
-        "type_d_antenne": "Intégrée (Céramique)",
-        "compatibilité": "MWC, IMU, APM2, Arduino",
-        "applications": "Drones, Robots autonomes, Systèmes de navigation, Télémétrie",
-        "points_forts": "Lot de 2 modules pour redondance, Technologie NEO-6M fiable, Idéal pour contrôleurs de vol",
-        "productUrl": "/product/gy-gps6mv2-aideepen-neo-6m-lot-modules-gps",
-        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/91ZOpqnYp7L._AC_SL1500_.jpg]",
+        "name": "Sillar Motorschutzfilter-Set für Parkside Staubsauger",
+        "preis": "16.0€",
+        "bewertung": "4.5/5",
+        "marke": "Sillar",
+        "kompatibilitaet": "Parkside 1300 C3, A1, B2, 1250/9, 1250",
+        "filtermaterial": "Synthetik-Vlies",
+        "anzahl_filterelemente": "5 Stück",
+        "besondere_merkmale": "Waschbar und wiederverwendbar",
+        "productUrl": "/product/sillar-motorschutzfilter-set-fur-parkside-staubsauger",
+        "image": "https://m.media-amazon.com/images/I/91ZOpqnYp7L._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
-        "name": "Module GPS GY-NEO6MV2 NEO-6M Antenne Céramique Arduino",
-        "prix": "9.0€",
-        "évaluation": "3.8/5",
-        "marque": "ICQUANZX",
-        "type_de_produit": "Module GPS",
-        "connectivité": "Série (UART)",
-        "type_d_antenne": "Céramique super puissante intégrée",
-        "compatibilité": "Arduino, APM 2.5, EEPROM",
-        "applications": "Contrôle de vol, Robotique, Projets embarqués, IoT",
-        "points_forts": "Antenne céramique intégrée, Alimentation 3V-5V, EEPROM pour sauvegarde des paramètres",
-        "productUrl": "/product/gy-neo6mv2-module-gps-neo-6m-antenne-ceramique",
-        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61DU024iPtL._AC_SL1500_.jpg]",
+        "name": "8x Miele C1/2/3 Staubsaugerfilter Set",
+        "preis": "5.0€",
+        "bewertung": "3.9/5",
+        "marke": "CYZBL",
+        "kompatibilitaet": "Miele Complete C1/C2/C3, Miele Classic C1",
+        "filtermaterial": "Vlies/Mikrofaser",
+        "anzahl_filterelemente": "8 Stück (Motorschutz & Abluft)",
+        "besondere_merkmale": "Umfassendes Filterset mit Air Clean Funktion",
+        "productUrl": "/product/miele-c1-2-3-staubsaugerfilter-set",
+        "image": "https://m.media-amazon.com/images/I/61DU024iPtL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat: Comment Choisir les Meilleurs Modules GPS et ESC?",
+    "title": "Kaufberatung: So wählen Sie den besten Motorschutzfilter!",
     "sections": [
       {
-        "heading": "1. Définir Votre Usage Spécifique",
-        "content": "Identifiez l'application. Pour un module GPS, est-ce la navigation de drone, le suivi de véhicule, ou un projet USB comme le VK-162 G-Mouse? Pour un ESC, déterminez le type de moteur (brushless/brushed) et la taille du modèle (drone de course, robot). Cela oriente le choix des fonctionnalités clés et des spécifications techniques nécessaires pour une performance optimale."
+        "heading": "1. Funktion und Effizienz des Filters",
+        "content": "Der Motorschutzfilter schützt den Staubsaugermotor essenziell vor Staub und feinen Partikeln. Achten Sie auf hohe Filtereffizienz, oft durch die Filterklasse gekennzeichnet. Ein guter Filter verlängert die Lebensdauer des Motors erheblich und bewahrt die Saugleistung Ihres Gerätes. Eine optimale Filterleistung ist entscheidend für die Funktionsweise Ihres Staubsaugers."
       },
       {
-        "heading": "2. Précision et Performances GPS",
-        "content": "Pour un GPS, la précision est primordiale. Recherchez les modules avec une réception multi-constellation (GPS, GLONASS, Galileo) et un nombre élevé de canaux. Une antenne externe améliore significativement la sensibilité et la rapidité d'acquisition du signal. Vérifiez le taux de rafraîchissement (Hz) et la compatibilité des protocoles (UBLOX, NMEA) pour une intégration fluide."
+        "heading": "2. Kompatibilität mit Ihrem Staubsauger",
+        "content": "Überprüfen Sie stets die Kompatibilität des Filters mit Ihrem Staubsaugermodell. Jeder Motorschutzfilter ist modellspezifisch. Vergewissern Sie sich, dass die Artikelnummer, wie Sebo 7012ER, übereinstimmt. Eine falsche Passform beeinträchtigt den Motorschutz und kann Schäden verursachen. Die richtige Auswahl ist für optimale Funktionalität unerlässlich."
       },
       {
-        "heading": "3. Puissance et Compatibilité ESC",
-        "content": "Concernant les ESC, la capacité en courant (Ampères) et la tension maximale doivent correspondre à vos moteurs et batteries. Un firmware moderne (BLHeli_S/32) est crucial pour les performances et la personnalisation. Assurez-vous de la compatibilité avec les protocoles numériques (DShot) pour une communication rapide et fiable avec votre contrôleur de vol."
+        "heading": "3. Material und Langlebigkeit",
+        "content": "Das Material beeinflusst die Langlebigkeit und Filterleistung. Hochwertiger Kunststoff oder Vliesstoff gewährleistet eine effektive Schmutzabsorption und Widerstandsfähigkeit. Günstige Materialien können schneller verschleißen und weniger Schutz bieten. Wählen Sie robuste, langlebige Materialien für den Schutzfilter, um die Wartungsintervalle zu optimieren und die Filterleistung zu maximieren."
       },
       {
-        "heading": "4. Connectivité et Intégration Facile",
-        "content": "Vérifiez les interfaces disponibles. Les modules GPS utilisent souvent UART ou USB (comme le VK-162). Les ESC se connectent via des signaux de contrôle. Considérez la taille, le poids et les options de montage pour une intégration facile dans votre châssis. Pour les ESC, un BEC intégré peut simplifier l'alimentation d'autres composants."
+        "heading": "4. Regelmäßiger Austausch und Wartung",
+        "content": "Ein regelmäßiger Austausch des Motorschutzfilters ist für die Motorgesundheit unerlässlich. Ein verstopfter Filter reduziert nicht nur die Saugleistung drastisch, sondern kann den Motor überhitzen und dauerhaft beschädigen. Beachten Sie die Wechselintervalle des Herstellers, um stets beste Leistung und Schutz zu garantieren. Ein rechtzeitiger Tausch sichert die Effizienz."
       },
       {
-        "heading": "5. Fiabilité, Marque et Support",
-        "content": "Privilégiez les marques reconnues pour leur fiabilité et le support de leur firmware. Lisez les avis utilisateurs sur des produits comme le 'Module GPS VK-162 G-Mouse'. Un bon support technique et des mises à jour régulières sont des gages de durabilité. Évaluez le rapport qualité-prix, sans compromettre la sécurité et la performance de votre système."
+        "heading": "5. Preis-Leistung und Herstellerempfehlung",
+        "content": "Vergleichen Sie Angebote und achten Sie auf das Preis-Leistungs-Verhältnis. Originalfilter garantieren perfekte Passform und Funktion. Der Sebo 7012ER Schutzfilter aus Weiß Kunststoff für circa 7.0€ bietet eine zuverlässige und kostengünstige Lösung. Investieren Sie in einen qualitativ hochwertigen Motorschutzfilter, um die Lebensdauer Ihres Staubsaugers maximal zu verlängern und die volle Leistung zu erhalten."
       }
     ]
   }

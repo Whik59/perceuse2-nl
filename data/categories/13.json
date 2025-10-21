@@ -1,161 +1,135 @@
 {
   "categoryId": 13,
-  "categoryNameCanonical": "Mini Drohnen",
-  "slug": "mini-drohnen",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Mini Drohnen: Klein, leicht & ideal. Anfänger & Profis finden Top-Modelle. Jetzt online kaufen!",
-  "content": "<div><h2>Mini Drohnen: Der ultimative Guide für kompakten Flugspaß</h2><p>Mini Drohnen revolutionieren den Flugspaß! Diese kleinen, wendigen Quadrocopter sind die perfekte Wahl für alle, die in die Welt der Drohnen eintauchen möchten, aber auch für erfahrene Piloten, die ein handliches Gerät für Indoor-Flüge oder spontane Flugmanöver suchen. Dank ihrer geringen Größe passen Mini Drohnen oft in jede Tasche, sind extrem leicht zu transportieren und ideal für Flüge in Innenräumen oder bei begrenztem Platz im Freien. Entdecken Sie die Vielfalt von Anfänger-Modellen bis hin zu fortschrittlichen Mini Drohnen mit Kamerafunktion.</p><p>Ob Sie eine Mini Drohne zum Üben, für spielerische Zwecke oder für einfache Luftaufnahmen suchen, unser Sortiment bietet für jeden Bedarf das passende Modell. Viele Mini Drohnen sind mit integrierten Kameras ausgestattet, die es Ihnen ermöglichen, Fotos und Videos aus einer einzigartigen Perspektive aufzunehmen. Achten Sie bei der Auswahl auf Merkmale wie Flugzeit, Reichweite, Stabilität und Benutzerfreundlichkeit. Modelle mit Headless-Modus oder Höhenhaltung erleichtern den Einstieg erheblich. Eine robuste Bauweise ist zudem vorteilhaft, besonders wenn die Drohne von Anfängern geflogen wird.</p><p>Bereit für Ihr nächstes Flugabenteuer? Stöbern Sie durch unsere Auswahl an Mini Drohnen und finden Sie den perfekten Begleiter für spannende Flüge. Von der günstigen Einsteiger-Drohne bis zum kleinen Hightech-Fluggerät – wir haben für jeden Geschmack und jedes Budget die richtige Mini Drohne. Kaufen Sie jetzt Ihre Mini Drohne online und erleben Sie grenzenlosen Flugspaß!</p></div>",
+  "categoryNameCanonical": "Saugroboter mit Absaugstation",
+  "slug": "saugroboter/saugroboter-mit-absaugstation",
+  "parentCategoryId": 11,
+  "level": 1,
+  "description": "Hol dir einen Saugroboter mit Absaugstation für automatische, gründliche Bodenreinigung.",
+  "content": "<div><h2>Saugroboter mit Absaugstation: Dein Weg zur mühelosen Sauberkeit</h2><p>Entdecke die nächste Generation der Bodenreinigung mit unseren hochmodernen Saugrobotern, die mit einer innovativen Absaugstation ausgestattet sind. Diese intelligenten Helfer befreien nicht nur deine Böden von Staub, Krümeln und Tierhaaren, sondern entleeren ihren Staubbehälter auch automatisch in die externe Station. Das bedeutet für dich: Wochenlange Freiheit von der lästigen Aufgabe des Staubsauger-Leerens. Genieße ein konstant sauberes Zuhause mit minimalem Aufwand und maximalem Komfort.</p><h2>Maximale Bequemlichkeit und Hygiene für dein Zuhause</h2><p>Ein Saugroboter mit Absaugstation revolutioniert deine Reinigungsroutine. Die automatische Entleerung sorgt für ein hygienischeres Reinigungserlebnis, da du kaum noch mit Staub oder Allergenen in Berührung kommst. Diese Funktion macht ihn zum idealen Partner für Allergiker und Familien mit Haustieren. Unsere Modelle bieten fortschrittliche Navigationssysteme, starke Saugleistung auf verschiedenen Bodenbelägen und smarte App-Steuerung. Du kannst Reinigungspläne erstellen, No-Go-Zonen definieren und den Reinigungsstatus jederzeit überprüfen – alles bequem von deinem Smartphone aus.</p><h2>Intelligente Technologie für ein makelloses Ergebnis</h2><p>Die fortschrittliche Technologie unserer Saugroboter mit Absaugstation garantiert eine gründliche und effiziente Reinigung. Leistungsstarke Saugmotoren entfernen selbst hartnäckigen Schmutz, während intelligente Sensoren eine präzise Navigation und das Erkennen von Hindernissen gewährleisten. Viele Modelle sind zudem mit einer Wischfunktion ausgestattet, die eine noch umfassendere Bodenpflege ermöglicht. Wähle aus einer Vielzahl von Saugrobotern das Modell, das perfekt zu deinen Bedürfnissen passt und erlebe, wie Sauberkeit zum Selbstläufer wird. Investiere in mehr Lebensqualität durch smarte Haushaltshelfer.</p></div>",
   "seo": {
-    "title": "Mini Drohnen kaufen: Kompakte Quadrocopter & Flugspaß",
-    "description": "Mini Drohnen: Klein, leicht & ideal. Anfänger & Profis finden Top-Modelle. Jetzt online kaufen!",
+    "title": "Saugroboter mit Absaugstation: Auto-Leerung & Smart Home",
+    "description": "Hol dir einen Saugroboter mit Absaugstation für automatische, gründliche Bodenreinigung.",
     "keywords": [
-      "Mini Drohnen",
-      "Kleine Drohnen",
-      "Quadrocopter Mini",
-      "Pocket Drohne",
-      "Anfänger Drohne",
-      "Kamera Drohne Mini",
-      "Indoor Drohne",
-      "Günstige Mini Drohne",
-      "Spielzeug Drohne"
+      "Saugroboter Absaugstation",
+      "automatischer Staubsauger",
+      "Roboterstaubsauger",
+      "selbstentleerend",
+      "Bodenreinigung",
+      "Smart Home Reinigung",
+      "Allergikerfreundlich",
+      "Haustier Saugroboter",
+      "Staubsaugen Roboter",
+      "Reinigungsroboter",
+      "komfortable Reinigung"
     ],
-    "enhancedAt": "2025-10-21T15:21:47.584579"
+    "enhancedAt": "2025-10-13T19:46:36.036752"
   },
   "faq": [
     {
-      "question": "Was sind Mini Drohnen?",
-      "answer": "Mini Drohnen sind sehr kleine und leichte Quadrocopter, die oft in die Handfläche passen. Sie sind ideal für Indoor-Flüge, zum Erlernen der Grundlagen des Drohnenfliegens oder für spontanen Flugspaß unterwegs."
+      "question": "Was ist ein Saugroboter mit Absaugstation?",
+      "answer": "Ein Saugroboter mit Absaugstation ist ein automatischer Staubsauger, der seinen gesammelten Staub und Schmutz selbstständig in eine im Lieferumfang enthaltene Ladestation entleert. Diese Station dient gleichzeitig als Basis zum Aufladen."
     },
     {
-      "question": "Für wen eignen sich Mini Drohnen?",
-      "answer": "Sie eignen sich hervorragend für Anfänger, Kinder und alle, die eine leicht zu steuernde Drohne für den Spaß oder zum Üben suchen. Auch erfahrene Piloten schätzen sie für schnelle Trainingsflüge oder als Ergänzung zu größeren Modellen."
+      "question": "Welche Vorteile bietet ein Saugroboter mit Absaugstation?",
+      "answer": "Der größte Vorteil ist der erhöhte Komfort: Sie müssen den Staubbehälter des Roboters wochenlang nicht manuell leeren. Das ist besonders hygienisch, ideal für Allergiker und Haushalte mit Haustieren, da der Kontakt mit Staub minimiert wird."
     },
     {
-      "question": "Können Mini Drohnen Fotos oder Videos aufnehmen?",
-      "answer": "Viele moderne Mini Drohnen sind mit integrierten, oft kleinen Kameras ausgestattet, die grundlegende Fotos und Videos aufnehmen können. Die Qualität variiert je nach Modell und Preisklasse."
+      "question": "Für wen eignet sich ein Saugroboter mit Absaugstation?",
+      "answer": "Er eignet sich perfekt für alle, die maximalen Komfort bei der Bodenreinigung wünschen. Insbesondere Haushalte mit Haustieren, Allergiker, vielbeschäftigte Personen und Smart-Home-Enthusiasten profitieren von der autonomen und hygienischen Reinigungsfunktion."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-21T15:21:47.584594",
+  "enhancedAt": "2025-10-13T19:46:36.036763",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Mini Drohnen und Zubehör",
+    "title": "Vergleich der 5 verfügbaren Produkte",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
       "Marke",
-      "Produkttyp",
-      "Anwendungsbereich",
-      "Material",
-      "Kompatibilität",
-      "Besondere Merkmale"
+      "Steuerung",
+      "Hauptmerkmale"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51pPGtPo57L._AC_SL1500_.jpg]",
-        "name": "DJI Mini Drohne Neo Motion 4K UHD RC Motion 3",
-        "preis": "482.0€",
-        "bewertung": "4.5/5",
-        "marke": "DJI",
-        "produkttyp": "Mini-Drohne mit Kamera",
-        "anwendungsbereich": "Luftbildfotografie & Videografie, Outdoor-Einsatz",
-        "material": "Hochwertiger Kunststoff",
-        "kompatibilitaet": "Smartphones (iOS/Android), DJI Ökosystem",
-        "besondere_merkmale": "4K UHD Kamera, Follow-Me, RC Motion 3 Controller, C0-klassifiziert",
-        "productUrl": "/product/dji-mini-drohne-neo-motion-uhd",
-        "image": "https://m.media-amazon.com/images/I/51pPGtPo57L._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51zGKXi3fjL._AC_SL1000_.jpg]",
+        "name": "Xiaomi Robot Vacuum X20+ Saugroboter Absaugstation",
+        "preis": "337.0€",
+        "bewertung": "4.3/5",
+        "marke": "XIAOMI",
+        "steuerung": "App- & Sprachsteuerung",
+        "hauptmerkmale": "6000Pa Saugkraft, 2 rotierende Wischmops mit Auto-Trocknung, 4L/4L Wassertanks, LDS-Navigation, Automatische Absaugstation, Für alle Bodentypen"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71VTx16EWKL._AC_UL320_.jpg]",
-        "name": "Revell Magic Mover Quadcopter Schwarz",
-        "preis": "24.0€",
-        "bewertung": "3.8/5",
-        "marke": "Revell Control",
-        "produkttyp": "Fun-Drohne / Spielzeug-Quadcopter",
-        "anwendungsbereich": "Indoor-Flugspaß, Einsteiger, Kinder (ab 8 J.)",
-        "material": "Robuster Kunststoff",
-        "kompatibilitaet": "Eigenständig (Steuerung über Handgelenkbewegung)",
-        "besondere_merkmale": "Handgelenksteuerung, Wurf-Start-Funktion, robustes Design",
-        "productUrl": "/product/revell-magic-mover-quadcopter-schwarz",
-        "image": "https://m.media-amazon.com/images/I/71VTx16EWKL._AC_UL320_.jpg"
+        "rangWithImage": "2 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
+        "name": "Lubluelu Saugroboter SL60 Pro mit Absaugstation",
+        "preis": "204.0€",
+        "bewertung": "4.1/5",
+        "marke": "Lubluelu",
+        "steuerung": "APP-Steuerung",
+        "hauptmerkmale": "4000Pa Saugkraft, Lasernavigation (LiDAR), 3-in-1 Funktion (Saugen, Wischen, Absaugung), Ideal für Tierhaare, Automatische Absaugstation"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71VPPPIaeGL._AC_SL1500_.jpg]",
-        "name": "SYMIK LP500 Drohnen Landeplatz Faltbar 50cm",
-        "preis": "16.0€",
-        "bewertung": "4.7/5",
-        "marke": "SYMIK",
-        "produkttyp": "Drohnen Landeplatz",
-        "anwendungsbereich": "Sichere Start- und Landefläche für Drohnen",
-        "material": "Wasserabweisendes, robustes Gewebe",
-        "kompatibilitaet": "DJI Mini 4 Pro/3/Mini 4K/2 SE/Air 3/Flip/Neo/Mavic 4 Pro/Mini 5 Pro uvm.",
-        "besondere_merkmale": "Faltbar (2x3 Schnellfalt), beschwert, wasserdicht, doppelseitig",
-        "productUrl": "/product/lp500-symik-drohnen-landeplatz-faltbar-50cm",
-        "image": "https://m.media-amazon.com/images/I/71VPPPIaeGL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
+        "name": "Smart Home Roboter Assistent \"EchoSphere\"",
+        "preis": "367.0€",
+        "bewertung": "4.1/5",
+        "marke": "Exklusiv",
+        "steuerung": "Sprachsteuerung & App-Steuerung",
+        "hauptmerkmale": "Fortschrittliche KI, Smart Home Hub, Intelligente Überwachung, Umfangreiche Sensoren, Wi-Fi 6, Bluetooth 5.2, 1080p Kamera, Kompatibel mit Alexa/Google Assistant"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71Tqxq+pFBL._SL1500_.jpg]",
-        "name": "STARTRC Drohnen Landeplatz 55cm Faltbar Universal",
-        "preis": "16.0€",
-        "bewertung": "4.7/5",
-        "marke": "STARTRC",
-        "produkttyp": "Drohnen Landeplatz",
-        "anwendungsbereich": "Sichere Start- und Landefläche für Drohnen",
-        "material": "Hochwertiger, wasserdichter Stoff",
-        "kompatibilitaet": "DJI Neo/Mini 4 Pro/Mini 4K/Air 3S/Avata 2/Mini 3 Pro/Mini 2 SE/Mavic Air 3/Mavic 2 uvm.",
-        "besondere_merkmale": "Faltbar, universell, leuchtende Farbgebung, schützt vor Schmutz",
-        "productUrl": "/product/55cm-startrc-drohnen-landeplatz-faltbar-universal",
-        "image": "https://m.media-amazon.com/images/I/71Tqxq+pFBL._SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71JPNAMH-ZL._AC_SL1500_.jpg]",
+        "name": "EUREKA E10s DE Saug- & Wischroboter Absaugstation",
+        "preis": "164.0€",
+        "bewertung": "4.0/5",
+        "marke": "EUREKA",
+        "steuerung": "App- & Sprachsteuerung",
+        "hauptmerkmale": "4000Pa Saugkraft, Beutellose Multi-Zyklon-Absaugstation, Auto Teppicherkennung, Auto Mop Lifting, LiDAR-Navigation, Ideal gegen Tierhaare"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/41Ajv+tuSAL._AC_SL1000_.jpg]",
-        "name": "DJI Mini 2/SE 360° Propellerschützer Schwarz",
-        "preis": "12.0€",
-        "bewertung": "4.6/5",
-        "marke": "DJI",
-        "produkttyp": "Propellerschützer (Zubehör)",
-        "anwendungsbereich": "Erhöhung der Flugsicherheit (bes. für Anfänger & Indoor)",
-        "material": "Kunststoff",
-        "kompatibilitaet": "DJI Mini 2, DJI Mini SE",
-        "besondere_merkmale": "360° Rundumschutz, einfaches Klick-System, leicht",
-        "productUrl": "/product/dji-mini-2-se-360-propellerschutzer-schwarz",
-        "image": "https://m.media-amazon.com/images/I/41Ajv+tuSAL._AC_SL1000_.jpg"
+        "rangWithImage": "5 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
+        "name": "EUREKA E10s Saug- & Wischroboter mit Absaugstation",
+        "preis": "169.0€",
+        "bewertung": "3.8/5",
+        "marke": "EUREKA",
+        "steuerung": "App- & Sprachsteuerung",
+        "hauptmerkmale": "4000Pa Saugkraft, Beutellose Multi-Zyklon-Absaugstation, Auto Teppicherkennung, Auto Mop Lifting, LiDAR-Navigation, Ideal gegen Tierhaare"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So wählen Sie die beste Mini Drohne",
+    "title": "Kaufberatung: Den besten Saugroboter mit Absaugstation finden",
     "sections": [
       {
-        "heading": "1. Kameraqualität und Bildstabilisierung",
-        "content": "Achten Sie auf 4K UHD und eine gute Gimbal-Stabilisierung für scharfe, ruckelfreie Aufnahmen. Dies ist entscheidend für beeindruckende Fotos und Videos. Vergleichen Sie Megapixel und Videoauflösungen für optimale Bildqualität. Eine hohe Auflösung wie 4K UHD ist Standard bei hochwertigen Mini Drohnen und liefert professionelle Ergebnisse."
+        "heading": "1. Saug- und Wischfunktion",
+        "content": "Achten Sie auf die Saugleistung (Pa-Wert) für effektive Schmutzentfernung. Eine integrierte Wischfunktion erhöht den Komfort; prüfen Sie, ob diese gleichzeitig mit dem Saugen funktioniert. Systeme mit rotierenden Wischpads sind oft gründlicher. Für verschiedene Bodenarten ist eine Anpassung der Reinigungsintensität essenziell. Ein Modell wie der EUREKA E10s bietet beide Funktionen oft effizient für den Alltag."
       },
       {
-        "heading": "2. Flugzeit und Akkulaufzeit",
-        "content": "Eine längere Flugzeit (ca. 20-30 Minuten) ist ideal, um ungestört Inhalte zu erstellen. Prüfen Sie die angegebene Akkulaufzeit und ob Ersatzakkus erhältlich sind oder im Lieferumfang enthalten sind. Kurze Flüge mindern den Spaß, besonders bei längeren Filmprojekten. Zusätzliche Akkus erhöhen die Flexibilität erheblich."
+        "heading": "2. Absaugstation und Autonomie",
+        "content": "Die Absaugstation minimiert den Kontakt mit Staub. Achten Sie auf die Kapazität des Staubbeutels; ein größerer Beutel bedeutet selteneres Leeren (z.B. alle 30-60 Tage). Prüfen Sie die Akkulaufzeit des Roboters (m²-Angabe) und die Ladezeit. Eine gute Autonomie und Absaugstation bieten maximalen Komfort und sparen Zeit im Haushalt."
       },
       {
-        "heading": "3. Bedienbarkeit und Flugmodi",
-        "content": "Eine intuitive Steuerung und verschiedene Flugmodi (Anfänger, Sport, Cine) sind wichtig. Funktionen wie präzises GPS, automatische Start-/Landung und \"Return-to-Home\" erhöhen die Sicherheit und den Komfort, besonders für Einsteiger. Eine benutzerfreundliche App-Integration ist ebenfalls ein Pluspunkt für ein reibungsloses Flugerlebnis."
+        "heading": "3. Navigation und Smart Features",
+        "content": "Eine präzise Navigation mittels LiDAR-Sensoren ist entscheidend für effiziente Reinigung und Vermeidung von Hindernissen. Funktionen wie Kartenspeicherung, Zonenreinigung und das Einrichten von Sperrzonen via App sind sehr nützlich. Eine intuitive App-Steuerung und Kompatibilität mit Sprachassistenten erhöhen den Bedienkomfort erheblich und ermöglichen individuelle Reinigungspläne."
       },
       {
-        "heading": "4. Gewicht und Größe (Portabilität)",
-        "content": "Achten Sie auf ein geringes Gewicht (unter 250g, z.B. DJI Mini Serie) für einfache Registrierungsfreiheit in vielen Ländern. Kompakte, faltbare Designs erleichtern den Transport und machen die Drohne zum idealen Reisebegleiter. Die Größe beeinflusst auch die Manövrierfähigkeit in engen Räumen und die Wetterbeständigkeit."
+        "heading": "4. Wartung und Budget",
+        "content": "Beachten Sie die laufenden Kosten für Ersatzteile wie Filter, Bürsten und Absaugbeutel; diese können variieren. Ein günstigerer Preis wie 169.0€ (EUREKA E10s) ist attraktiv, bedeutet aber oft einen Kompromiss bei Funktionen oder Materialqualität. Kalkulieren Sie das Preis-Leistungs-Verhältnis und prüfen Sie Bewertungen, um versteckte Kosten oder Einschränkungen zu vermeiden."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis und Zubehör",
-        "content": "Berücksichtigen Sie das Gesamtpaket: Drohne, Fernsteuerung, Akkus, Schutzvorrichtungen und intelligentes Zubehör. Eine gute DJI Mini Drohne bietet oft ein exzellentes Preis-Leistungs-Verhältnis. Investieren Sie eventuell in ein \"Fly More Combo\" für mehr Flugspaß und umfassende Ausstattung. Vergleichen Sie die gebotenen Features mit Ihrem Budget."
+        "heading": "5. Wichtige Überlegungen vor dem Kauf",
+        "content": "Berücksichtigen Sie Ihre Wohnsituation: Haustiere (Tierhaare erfordern mehr Saugleistung), Allergien (HEPA-Filter sind wichtig) und die Größe der zu reinigenden Fläche. Prüfen Sie, wie der Roboter mit Teppichen und Türschwellen umgeht. Das EUREKA E10s-Modell ist ideal für preisbewusste Käufer, die eine solide Grundausstattung mit Absaugstation suchen."
       }
     ]
   }

@@ -4,38 +4,38 @@
     "locale": "de-DE"
   },
   "categories": {
-    "title": "Drohnen-Kategorien",
+    "title": "Staubsauger-Kategorien",
     "hero": {
-      "title": "Finden Sie die perfekte Drohne für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Drohnen"
+      "title": "Finden Sie den perfekten Staubsauger für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Staubsaugern"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Drohnen-Kategorien",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte Drohne zu finden"
+    "subtitle": "Erkunden Sie unsere spezialisierten Staubsauger-Kategorien",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, den perfekten Staubsauger zu finden"
   },
-  "siteName": "Ihre perfekte Drohne",
-  "companyName": "Drohnen GmbH",
-  "products": "Drohnen",
-  "productNotFound": "Drohne nicht gefunden",
+  "siteName": "Ihr perfekter Staubsauger",
+  "companyName": "Staubsauger GmbH",
+  "products": "Staubsauger",
+  "productNotFound": "Staubsauger nicht gefunden",
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Drohnen zu beantworten",
+    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Staubsaugern zu beantworten",
     "faq": {
       "title": "Häufig gestellte Fragen",
       "categoryTitle": "Häufig gestellte Fragen",
-      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Drohnen, Lieferung, Rücksendungen und mehr.",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Staubsaugern, Lieferung, Rücksendungen und mehr.",
       "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
       "contactTeam": "Kontaktieren Sie unser Team",
       "sendEmail": "E-Mail senden",
       "questions": [
         {
           "id": "1",
-          "question": "Wie lange hält die Qualität von Drohnen?",
-          "answer": "Unsere Drohnen sind langlebig gebaut und können je nach Modell 3 bis 7 Jahre halten. Sie sind für effizienten Flug optimiert und garantieren bei jeder Nutzung hervorragende Flugergebnisse."
+          "question": "Wie lange hält die Qualität von Staubsaugern?",
+          "answer": "Unsere Staubsauger sind langlebig gebaut und können je nach Modell 3 bis 7 Jahre halten. Sie sind für effizientes Saugen optimiert und garantieren bei jeder Nutzung hervorragende Saugergebnisse."
         },
         {
           "id": "2",
-          "question": "Sind die Drohnen sicher?",
-          "answer": "Absolut. Alle unsere Drohnen entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und robuste Komponenten."
+          "question": "Sind die Staubsauger sicher?",
+          "answer": "Absolut. Alle unsere Staubsauger entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und robuste Komponenten."
         },
         {
           "id": "3",
@@ -44,28 +44,28 @@
         },
         {
           "id": "4",
-          "question": "Kann ich Drohnen zurückgeben, wenn ich nicht zufrieden bin?",
-          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die Drohne in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+          "question": "Kann ich Staubsauger zurückgeben, wenn ich nicht zufrieden bin?",
+          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Staubsauger in der Originalverpackung für eine volle Rückerstattung zurücksenden."
         },
         {
           "id": "5",
-          "question": "Wie bediene ich die Drohnen?",
-          "answer": "Unsere Drohnen sind sehr einfach zu bedienen. Sie müssen die Drohne nur einschalten, die gewünschte Fluggeschwindigkeit wählen und den Flug genießen. Nach dem Flug schalten Sie sie einfach aus. Ein Timer zeigt die verbleibende Flugzeit an."
+          "question": "Wie bediene ich die Staubsauger?",
+          "answer": "Unsere Staubsauger sind sehr einfach zu bedienen. Sie müssen den Staubsauger nur einschalten, die gewünschte Saugstärke wählen und das Saugen genießen. Nach dem Saugen schalten Sie ihn einfach aus. Ein Timer zeigt die verbleibende Saugzeit an."
         },
         {
           "id": "6",
-          "question": "Welche Geschwindigkeitsstufen gibt es?",
-          "answer": "Die meisten unserer Drohnen bieten verschiedene Geschwindigkeitsstufen von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstgeschwindigkeit ist für perfekte Flüge in allen Umgebungen optimiert."
+          "question": "Welche Saugstärken gibt es?",
+          "answer": "Die meisten unserer Staubsauger bieten verschiedene Saugstärken von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstsaugkraft ist für perfektes Saugen in allen Umgebungen optimiert."
         },
         {
           "id": "7",
-          "question": "Gibt es eine Garantie auf die Drohnen?",
-          "answer": "Alle unsere Drohnen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+          "question": "Gibt es eine Garantie auf die Staubsauger?",
+          "answer": "Alle unsere Staubsauger haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
         },
         {
           "id": "8",
-          "question": "Wie reinige und pflege ich meine Drohnen?",
-          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Propeller können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Drohnen regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+          "question": "Wie reinige und pflege ich meine Staubsauger?",
+          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Filter können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Staubsauger regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
         }
       ],
       "deliveryTime": {
@@ -74,11 +74,11 @@
       },
       "returns": {
         "question": "Wie lautet die Rückgabepolitik?",
-        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Drohnen in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Staubsauger in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
       },
       "warranty": {
-        "question": "Welche Garantie haben die Drohnen?",
-        "answer": "Alle unsere Drohnen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        "question": "Welche Garantie haben die Staubsauger?",
+        "answer": "Alle unsere Staubsauger haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
       },
       "payment": {
         "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -110,13 +110,13 @@
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere Drohnen, die Sie interessieren könnten",
-    "ourShop": "kaufen-drohne.de"
+    "alsoLikeSubtitle": "Andere Staubsauger, die Sie interessieren könnten",
+    "ourShop": "kaufen-staubsauger.de"
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Drohnen!",
-      "subtitle": "Effizienter und präziser Flug. Qualität und Leistung garantiert.",
+      "title": "Perfekte Staubsauger!",
+      "subtitle": "Effizientes und präzises Saugen. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -128,16 +128,16 @@
     },
     "features": {
       "quality": {
-        "title": "Stabiler Flug",
-        "description": "Bis zu 99,9 % Flugstabilität. Perfekt für außergewöhnliche Aufnahmen ohne Kompromisse."
+        "title": "Starkes Saugen",
+        "description": "Bis zu 99,9 % Saugleistung. Perfekt für außergewöhnliche Sauberkeit ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Steuerung",
-        "description": "Präzise Flugsteuerung von sanft bis intensiv. Passt die Geschwindigkeit an jede Umgebung an."
+        "description": "Präzise Saugsteuerung von sanft bis intensiv. Passt die Saugkraft an jede Umgebung an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360°-GPS-Technologie. Gleichbleibende Leistung und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360°-Saug-Technologie. Gleichbleibende Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium-Kundenservice",
@@ -148,58 +148,58 @@
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfekte Drohnen!",
-        "subtitle": "Effizienter und präziser Flug. Qualität und Leistung garantiert.",
-        "loading": "Ihr Flug wird geladen...",
+        "title": "Perfekte Staubsauger!",
+        "subtitle": "Effizientes und präzises Saugen. Qualität und Leistung garantiert.",
+        "loading": "Ihr Staubsauger wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Drohnen machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Staubsauger machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Drohnen höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Leistung."
+        "description": "Staubsauger höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Leistung."
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Spezialisiertes Kundenserviceteam für Drohnen. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Spezialisiertes Kundenserviceteam für Staubsauger. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
     }
   },
   "metadata": {
-    "title": "Drohnen kaufen - Die besten Drohnen im Vergleich",
-    "description": "Entdecken Sie die besten Drohnen mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
+    "title": "Staubsauger kaufen - Die besten Staubsauger im Vergleich",
+    "description": "Entdecken Sie die besten Staubsauger mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
   },
   "siteConfig": {
     "site": {
-      "name": "Drohnen",
-      "description": "Finden Sie die perfekte Drohne. Große Auswahl an Drohnen, Renndrohnen und Flugprodukten. Unglaubliche Preise und schneller Versand!",
-      "url": "https://kaufen-drohne.de",
+      "name": "Staubsauger",
+      "description": "Finden Sie den perfekten Staubsauger. Große Auswahl an Staubsaugern, Handstaubsaugern und Reinigungsprodukten. Unglaubliche Preise und schneller Versand!",
+      "url": "https://kaufen-staubsauger.de",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Drohnen - Drohnen und Flugprodukte",
-      "titleTemplate": "%s | Drohnen",
-      "defaultDescription": "Finden Sie die perfekte Drohne. Große Auswahl an Drohnen, Renndrohnen und Flugprodukten. Unglaubliche Preise und schneller Versand!",
+      "defaultTitle": "Staubsauger - Staubsauger und Reinigungsprodukte",
+      "titleTemplate": "%s | Staubsauger",
+      "defaultDescription": "Finden Sie den perfekten Staubsauger. Große Auswahl an Staubsaugern, Handstaubsaugern und Reinigungsprodukten. Unglaubliche Preise und schneller Versand!",
       "keywords": [
-        "Drohnen",
-        "Renndrohnen",
-        "Flug",
-        "Drohnen kaufen",
-        "Drohnen-Angebote",
-        "Günstige Drohnen",
-        "Beste Drohnen",
-        "Professionelle Drohnen",
-        "Elektrische Drohnen"
+        "Staubsauger",
+        "Handstaubsauger",
+        "Saugen",
+        "Staubsauger kaufen",
+        "Staubsauger-Angebote",
+        "Günstige Staubsauger",
+        "Beste Staubsauger",
+        "Professionelle Staubsauger",
+        "Elektrische Staubsauger"
       ],
-      "ogImage": "/og-image-drone.jpg"
+      "ogImage": "/og-image-vacuum.jpg"
     },
     "business": {
-      "email": "info@kaufen-drohne.de",
+      "email": "info@kaufen-staubsauger.de",
       "phone": "+49 30 12345678",
-      "address": "Flugstraße 1, 10115 Berlin, Deutschland",
+      "address": "Saugstraße 1, 10115 Berlin, Deutschland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -207,7 +207,7 @@
       }
     },
     "affiliate": {
-      "amazonTag": "drohne-21",
+      "amazonTag": "staubsauger-21",
       "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
     },
     "features": {
