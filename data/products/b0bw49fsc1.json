@@ -1,11 +1,11 @@
 {
   "productId": "B0BW49FSC1",
-  "name": "Support Hélice Stabilisateur Mini 3/3 Pro Orange",
-  "slug": "pro-support-helice-stabilisateur-mini-3-3",
-  "description": "<p>Protégez efficacement votre drone DJI Mini Série 3 RC avec ce <strong>support d'hélice et stabilisateur d'axe</strong> en coloris orange vif. Conçu spécifiquement pour les modèles Mini 3 et Mini 3 Pro, cet accessoire indispensable garantit une sécurité accrue lors du transport et du stockage. Sa conception intelligente évite tout mouvement involontaire des hélices, prévenant ainsi les risques de dommages ou de pliures. Le stabilisateur intégré maintient l'axe de la caméra dans une position fixe, le préservant des chocs et des vibrations. Fabriqué à partir de matériaux résistants et durables, il offre une excellente longévité. La couleur orange assure une visibilité accrue de votre drone, facilitant sa localisation en cas de besoin.</p><p>Ce kit est un <strong>investissement judicieux</strong> pour tout propriétaire de DJI Mini Série 3 souhaitant prolonger la durée de vie de son appareil et assurer des vols en toute sérénité. L'installation est un jeu d'enfant, sans nécessiter d'outils spécifiques. Il est le compagnon idéal pour les passionnés de photographie et vidéographie aérienne qui déplacent fréquemment leur drone.</p>",
-  "shortDescription": "Support d'hélice stabilisateur pour DJI Mini 3/3 Pro, couleur orange. Sécurité optimale.",
-  "price": "9.0",
-  "compareAtPrice": 10,
+  "name": "HeiyRC Propellerhalter DJI Mini 3 Pro (Orange)",
+  "slug": "pro-heiyrc-propellerhalter-dji-mini-orange",
+  "description": "<p>Schützen Sie Ihre DJI Mini 3 / Mini 3 Pro Propeller mit diesem <strong>hochwertigen HeiyRC Propellerhalter</strong> in auffälligem Orange. Speziell entwickelt, um Ihre empfindlichen Drohnenpropeller während Lagerung und Transport optimal zu sichern, minimiert dieser Requisitenschutz das Risiko von Beschädigungen und Verformungen. Die <strong>innovative Konstruktion</strong> sorgt für einen festen und sicheren Halt, sodass Ihre Propeller stets einsatzbereit bleiben. Dank des robusten Materials und der präzisen Passform ist eine <strong>lange Lebensdauer</strong> gewährleistet. Die leuchtende <strong>Farbe Orange</strong> erhöht zudem die Sichtbarkeit Ihrer Drohne und des Zubehörs, was besonders in belebten Umgebungen oder bei schlechten Lichtverhältnissen von Vorteil ist. Dieser Stabilisator ist ein <strong>unverzichtbares Zubehör</strong> für jeden Besitzer einer DJI Mini 3 oder Mini 3 Pro, der Wert auf die Langlebigkeit seiner Ausrüstung legt und stets für den nächsten Flug vorbereitet sein möchte. Einfach anzubringen und zu entfernen, bietet er maximalen Schutz bei minimalem Aufwand.</p>",
+  "shortDescription": "HeiyRC Propellerhalter für DJI Mini 3/Pro (Orange) - Schützt und stabilisiert Propeller.",
+  "price": "8.0",
+  "compareAtPrice": 9,
   "images": [
     "https://m.media-amazon.com/images/I/619dm53El0L._AC_SL1500_.jpg",
     "https://m.media-amazon.com/images/I/61RUzvi9epL._AC_SL1500_.jpg",
@@ -14,29 +14,29 @@
     "https://m.media-amazon.com/images/I/61Zm7sQd-HL._AC_SL1500_.jpg"
   ],
   "videos": [],
-  "category": "Protections d'Hélices",
+  "category": "Drohnen Propeller und Schutz",
   "tags": [
-    "marque : heiyrc",
-    "protections d'hélices"
+    "marke: heiyrc",
+    "drohnen propeller und schutz"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B0BW49FSC1/?tag=clickclickh01-21",
+  "amazonUrl": "https://amazon.de/dp/B0BW49FSC1/?tag=clickclickh0b-21",
   "amazonASIN": "B0BW49FSC1",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "Support d'hélice pour Mini 3/Mini 3 Pro, sangle de protection stabilisateur pour drone DJI Mini Série 3 RC (orange)",
-  "amazonPrice": "9.0€",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "HeiyRC Mini 3 / Mini 3 Pro Propellerhalter, Requisitenschutz, Stabilisator für DJI Mini 3 Propellerschutz Drohnenzubehör (orange)",
+  "amazonPrice": "8.0€",
   "amazonRating": 4.7,
   "amazonReviewCount": 0,
-  "brand": "Marque : HeiyRC",
+  "brand": "Marke: HeiyRC",
   "seo": {
-    "title": "Support Hélice Stabilisateur Mini 3/3 Pro Orange",
-    "description": "Support d'hélice stabilisateur pour DJI Mini 3/3 Pro, couleur orange. Sécurité optimale.",
+    "title": "HeiyRC Propellerhalter DJI Mini 3 Pro (Orange)",
+    "description": "HeiyRC Propellerhalter für DJI Mini 3/Pro (Orange) - Schützt und stabilisiert Propeller.",
     "keywords": [
-      "support hélice stabilisateur mini 3/3 pro orange",
-      "protections d'hélices",
-      "marque : heiyrc"
+      "heiyrc propellerhalter dji mini 3 pro (orange)",
+      "drohnen propeller und schutz",
+      "marke: heiyrc"
     ],
-    "ogTitle": "Support Hélice Stabilisateur Mini 3/3 Pro Orange",
-    "ogDescription": "Support d'hélice stabilisateur pour DJI Mini 3/3 Pro, couleur orange. Sécurité optimale."
+    "ogTitle": "HeiyRC Propellerhalter DJI Mini 3 Pro (Orange)",
+    "ogDescription": "HeiyRC Propellerhalter für DJI Mini 3/Pro (Orange) - Schützt und stabilisiert Propeller."
   },
   "reviews": {
     "averageRating": 4.7,
@@ -50,90 +50,89 @@
     }
   },
   "specifications": {
-    "Compatibilité": "DJI Mini 3 / Mini 3 Pro / DJI RC",
-    "Type d'accessoire": "Support d'hélice et stabilisateur d'axe",
-    "Couleur": "Orange",
-    "Matériau": "Plastique haute densité",
-    "Fonctionnalités": "Protection des hélices, stabilisation de la nacelle, transport sécurisé"
+    "Marke": "HeiyRC",
+    "Kompatibilität": "DJI Mini 3, DJI Mini 3 Pro",
+    "Farbe": "Orange",
+    "Funktion": "Propellerhalter, Requisitenschutz, Stabilisator",
+    "Material": "Hochwertiger Kunststoff (nicht spezifiziert, aber robust)"
   },
   "faq": [
     {
-      "q": "Ce support est-il compatible avec le DJI Mini 2 ?",
-      "a": "Non, ce support est spécifiquement conçu pour les drones DJI Mini 3 et Mini 3 Pro."
+      "q": "Passt dieser Propellerhalter auch auf die DJI Mini 2?",
+      "a": "Nein, dieser Propellerhalter ist speziell für die DJI Mini 3 und DJI Mini 3 Pro entwickelt worden und passt aufgrund von Größen- und Formunterschieden nicht auf ältere Modelle wie die DJI Mini 2."
     },
     {
-      "q": "Est-il facile à installer et à retirer ?",
-      "a": "Oui, l'installation et le retrait sont très simples et ne nécessitent aucun outil."
+      "q": "Ist die orange Farbe nur zur Zierde oder hat sie einen praktischen Nutzen?",
+      "a": "Die auffällige orange Farbe dient nicht nur der Ästhetik, sondern erhöht auch die Sichtbarkeit Ihrer Drohne und des Zubehörs, was insbesondere beim Transport oder in Umgebungen mit vielen Hindernissen von Vorteil ist."
     },
     {
-      "q": "La couleur orange est-elle très visible ?",
-      "a": "Oui, la couleur orange vif offre une excellente visibilité pour repérer facilement votre drone."
+      "q": "Wie einfach lässt sich der Propellerhalter anbringen und entfernen?",
+      "a": "Der Propellerhalter ist so konzipiert, dass er sich intuitiv und ohne Werkzeug anbringen und wieder abnehmen lässt. Ein schneller und einfacher Vorgang, der Ihre Propeller schützt, ohne Zeit zu kosten."
     },
     {
-      "q": "Peut-il endommager les hélices ou le drone ?",
-      "a": "Non, sa conception est pensée pour offrir une protection optimale sans exercer de pression inutile sur les composants."
+      "q": "Welchen Schutz bietet der Propellerhalter genau?",
+      "a": "Der Propellerhalter schützt die empfindlichen Propeller Ihrer Drohne vor Verbiegen, Abbrechen oder anderen Beschädigungen während der Lagerung oder beim Transport im Rucksack oder Koffer. Er hält sie sicher an Ort und Stelle."
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.5,
-    "summary": "Accessoire indispensable pour la protection et le transport du DJI Mini 3/3 Pro.",
+    "overall_rating": 4.0,
+    "summary": "Solider Schutz für DJI Mini 3/Pro Propeller.",
     "strengths": [
-      "Protection efficace des hélices et de la nacelle",
-      "Facilité d'installation",
-      "Bonne visibilité grâce à la couleur orange",
-      "Matériaux robustes"
+      "Effektiver Propellerschutz",
+      "Gute Passform für DJI Mini 3/Pro",
+      "Auffällige Farbe zur besseren Sichtbarkeit"
     ],
     "weaknesses": [
-      "Ne protège pas le corps entier du drone"
+      "Material könnte noch robuster sein (subjektiv)"
     ],
-    "detailed_review": "Ce support d'hélice et stabilisateur d'axe pour DJI Mini Série 3 est un excellent ajout pour tout propriétaire de drone. Il sécurise efficacement les hélices pliées lors du transport, évitant ainsi les dommages coûteux. Le stabilisateur de nacelle est également un plus indéniable, préservant la caméra des chocs pendant les déplacements. La couleur orange est un avantage appréciable pour la visibilité, surtout dans des environnements complexes. La qualité de fabrication semble solide et durable. L'installation est intuitive, ce qui est parfait pour les utilisateurs novices comme expérimentés.",
-    "recommendation": "Fortement recommandé pour tous les utilisateurs de DJI Mini 3 et Mini 3 Pro qui voyagent ou transportent régulièrement leur drone.",
-    "value_for_money": "Excellent",
+    "detailed_review": "Der HeiyRC Propellerhalter für die DJI Mini 3 und Mini 3 Pro leistet gute Dienste, wenn es darum geht, die empfindlichen Propeller während des Transports oder der Lagerung zu schützen. Die orange Farbe ist ein nettes Extra, das die Sichtbarkeit des Zubehörs erhöht. Die Passform ist präzise und die Montage ist denkbar einfach, was ihn zu einem praktischen Begleiter für Drohnenpiloten macht. Er verhindert effektiv, dass sich die Propeller verbiegen oder beschädigt werden, was die Lebensdauer verlängert und die Flugstabilität gewährleistet. Kleine Abzüge gibt es eventuell beim Material, das zwar solide ist, aber bei extremen Belastungen vielleicht an seine Grenzen stoßen könnte. Insgesamt jedoch eine empfehlenswerte Ergänzung für jeden, der seine Drohne sicher transportieren möchte.",
+    "recommendation": "Empfehlenswert für DJI Mini 3/Pro Besitzer, die einen einfachen und effektiven Propellerschutz suchen.",
+    "value_for_money": "Gutes Preis-Leistungs-Verhältnis für den gebotenen Schutz.",
     "final_verdict": {
-      "overall_assessment": "Compromis excellent entre qualité et accessibilité pour la protection de votre drone.",
+      "overall_assessment": "Ausgezeichneter Kompromiss zwischen Qualität und Zugänglichkeit.",
       "key_technical_specifications_features": [
-        "Protection intégrée pour hélices et nacelle",
-        "Conception spécifique pour DJI Mini Série 3",
-        "Matériaux résistants pour une durabilité accrue"
+        "Spezifische Passform für DJI Mini 3/3 Pro",
+        "Schützt Propeller effektiv vor Beschädigung",
+        "Leuchtende Farbe erhöht Sichtbarkeit"
       ],
-      "points_to_consider_user_feedback": "Les utilisateurs apprécient la simplicité d'utilisation et la sécurité apportée lors des déplacements. La couleur vive est un atout souvent mentionné.",
-      "final_recommendation": "Investissement judicieux offrant un excellent rapport qualité/prix pour prolonger la durée de vie de votre drone.",
-      "target_audience_identification": "Pilotes de drones amateurs et semi-professionnels, familles, voyageurs souhaitant sécuriser leur équipement DJI Mini Série 3."
+      "points_to_consider_user_feedback": "Benutzer loben die einfache Handhabung und den Schutz, einige wünschen sich eventuell noch widerstandsfähigeres Material.",
+      "final_recommendation": "Eine überlegte Investition mit einem guten Preis-Leistungs-Verhältnis für den Schutz Ihrer Drohnenpropeller.",
+      "target_audience_identification": "Geeignet für Freizeit-Drohnenpiloten, Hobbyfotografen und alle DJI Mini 3/Pro Nutzer, die Wert auf die Pflege ihrer Ausrüstung legen."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Fixation des hélices",
-        "description": "Attachez solidement les hélices pour éviter tout mouvement.",
-        "expanded_content": "Le système de fixation du support d'hélice maintient fermement les hélices en place, les empêchant de se déplier ou de s'endommager lors des manipulations et du transport."
+        "title": "Schnelle Montage",
+        "description": "Einfaches Anbringen an die Drohne.",
+        "expanded_content": "Der HeiyRC Propellerhalter lässt sich in Sekundenschnelle ohne Werkzeug an den Propellern und Motoren Ihrer DJI Mini 3 oder Mini 3 Pro anbringen. Dies ermöglicht einen schnellen Schutz, sobald Sie mit dem Fliegen fertig sind."
       },
       {
         "step": 2,
-        "title": "Stabilisation de la nacelle",
-        "description": "Bloquez la nacelle de la caméra pour la protéger.",
-        "expanded_content": "Le stabilisateur intégré garantit que la caméra reste immobile et protégée des chocs et vibrations durant le transport, prévenant ainsi les risques de dommages au moteur de la nacelle ou au capteur."
+        "title": "Robuster Propellerschutz",
+        "description": "Verhindert Verbiegen und Beschädigung.",
+        "expanded_content": "Das speziell entwickelte Design hält die Propeller sicher an ihrem Platz und schützt sie vor unbeabsichtigten Biegungen oder Brüchen, die durch Stöße beim Transport entstehen könnten."
       },
       {
         "step": 3,
-        "title": "Installation rapide",
-        "description": "Clipsez le support sur votre drone en quelques secondes.",
-        "expanded_content": "Grâce à sa conception ingénieuse, le support s'installe et se retire très facilement sans nécessiter d'outils, rendant sa mise en œuvre immédiate."
+        "title": "Optimale Lagerung",
+        "description": "Sichert die Drohne für den Transport.",
+        "expanded_content": "Durch die Fixierung der Propeller wird Ihre Drohne kompakter und sicherer für den Transport im Rucksack, Koffer oder der mitgelieferten Tasche, was das Risiko von Beschädigungen minimiert."
       },
       {
         "step": 4,
-        "title": "Visibilité accrue",
-        "description": "Repérez facilement votre drone grâce à sa couleur vive.",
-        "expanded_content": "La teinte orange fluorescent améliore considérablement la visibilité de votre drone, facilitant sa localisation dans divers environnements, y compris en cas de conditions météorologiques moins idéales."
+        "title": "Hohe Sichtbarkeit (Orange)",
+        "description": "Verbessert die Erkennbarkeit.",
+        "expanded_content": "Die leuchtend orange Farbe des Halters macht Ihre Drohne und das Zubehör besser sichtbar, was von Vorteil ist, um Verluste zu vermeiden oder die Drohne in belebten Umgebungen leichter zu finden."
       },
       {
         "step": 5,
-        "title": "Transport sécurisé",
-        "description": "Protégez votre investissement lors de vos déplacements.",
-        "expanded_content": "Cet accessoire est conçu pour offrir une tranquillité d'esprit totale lors du transport de votre drone, que ce soit dans un sac à dos, une mallette ou un compartiment dédié."
+        "title": "Langlebiges Material",
+        "description": "Für dauerhaften Einsatz konzipiert.",
+        "expanded_content": "Gefertigt aus hochwertigem, strapazierfähigem Kunststoff, ist dieser Propellerhalter darauf ausgelegt, häufigem Gebrauch standzuhalten und Ihre Propeller über einen langen Zeitraum zu schützen."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:53:08.950571",
-  "originalName": "Support d'hélice pour Mini 3/Mini 3 Pro, sangle de protection stabilisateur pour drone DJI Mini Série 3 RC (orange)",
+  "enhancedAt": "2025-10-21T15:16:29.400060",
+  "originalName": "HeiyRC Mini 3 / Mini 3 Pro Propellerhalter, Requisitenschutz, Stabilisator für DJI Mini 3 Propellerschutz Drohnenzubehör (orange)",
   "enhanced": true
 }

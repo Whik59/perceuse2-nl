@@ -1,150 +1,147 @@
 {
   "categoryId": 31,
-  "categoryNameCanonical": "Mini Drones avec Caméra",
-  "slug": "mini-drones/mini-drones-avec-camera",
+  "categoryNameCanonical": "Drohnen für Landwirtschaft (Agrar)",
+  "slug": "drohnen-fuer-profis/drohnen-fuer-landwirtschaft-agrar",
   "parentCategoryId": 29,
   "level": 1,
-  "description": "Capturez le monde d'en haut ! Mini drones caméra pour débutants et experts. Pilotage facile.",
-  "content": "<div><h2>Découvrez nos Mini Drones avec Caméra : Capturez l'Instant en Toute Simplicité</h2><p>Explorez le ciel et immortalisez vos meilleurs moments avec notre sélection de <b>mini drones avec caméra</b>. Que vous soyez un pilote débutant, un passionné de gadget ou à la recherche du cadeau parfait pour un enfant, nos <b>drones compacts</b> sont conçus pour offrir une expérience de vol amusante et intuitive. Petits par la taille mais grands par leurs capacités, ces <b>quadricoptères caméra</b> sont prêts à transformer votre vision du monde sous un nouvel angle.</p><h2>Pourquoi Choisir un Mini Drone Caméra ?</h2><p>Les <b>mini drones avec caméra</b> sont la porte d'entrée idéale dans le monde de la photographie et de la vidéo aérienne. Leur format réduit les rend extrêmement portables et faciles à transporter, se glissant sans effort dans un sac à dos. Équipés de <b>caméras HD</b> ou Full HD, ils permettent de réaliser des prises de vue impressionnantes, des photos de groupe originales ou des vidéos dynamiques de vos escapades. Le <b>pilotage facile</b> est souvent renforcé par des fonctionnalités comme le maintien d'altitude, le décollage/atterrissage automatique et des modes de vol pour <b>débutants</b>, rendant l'apprentissage un jeu d'enfant.</p><h2>Caractéristiques Clés de nos Mini Drones</h2><p>Nos modèles de <b>mini drones</b> intègrent une multitude de fonctionnalités pour enrichir votre expérience. Retrouvez des options comme la transmission Wi-Fi pour un retour vidéo en direct sur votre smartphone, des batteries modulaires pour une meilleure autonomie, ou encore des modes acrobatiques pour les plus audacieux. Certains <b>drones enfants</b> sont même dotés de protections d'hélices pour une durabilité accrue et une sécurité optimale. Que vous cherchiez un <b>drone pliable</b> pour la mobilité ou un modèle robuste pour l'apprentissage, notre gamme répondra à vos attentes.</p><h2>Comment Choisir Votre Mini Drone Idéal ?</h2><p>Pour sélectionner le <b>mini drone caméra</b> qui vous convient, considérez l'usage principal. Si c'est pour un <b>drone débutant</b> ou pour un enfant, privilégiez la simplicité de pilotage et la robustesse. Pour des clichés de meilleure qualité, optez pour un modèle avec une <b>caméra Full HD</b>. L'autonomie et la portée sont également des critères importants pour profiter pleinement de votre nouvelle acquisition. Parcourez notre sélection et trouvez le <b>drone compact</b> qui vous fera prendre de la hauteur et capturer des souvenirs inoubliables !</p></div>",
+  "description": "Professionelle Drohnen für Präzisionslandwirtschaft. Pflanzenanalyse, Sprühen & Mapping. Jetzt entdecken!",
+  "content": "<div><h2>Agrardrohnen: Revolutionieren Sie Ihre Landwirtschaft</h2><p>Moderne Landwirtschaft erfordert innovative Lösungen. Agrardrohnen sind das Herzstück der Präzisionslandwirtschaft und bieten Ihnen die Möglichkeit, Ihre Prozesse zu optimieren und Erträge nachhaltig zu steigern. Von der präzisen Bestandsaufnahme bis zum gezielten Ausbringen von Pflanzenschutzmitteln – unsere Drohnen sind Ihre intelligenten Helfer auf dem Feld.</p><p>Nutzen Sie die Vorteile fortschrittlicher Technologie: Multispektralkameras liefern detaillierte Daten zur Pflanzengesundheit und zum Wachstumsstatus. Hochpräzise RTK/PPK-Systeme gewährleisten eine exakte Positionsbestimmung für millimetergenaue Anwendungen. Sparen Sie Zeit und Ressourcen durch automatisierte Flugrouten und gezielte Maßnahmen, die genau dort ansetzen, wo sie benötigt werden.</p><p>Unsere Agrardrohnen sind ideal für vielfältige Anwendungen: umfassende Pflanzenanalyse, effizientes Sprühen von Düngemitteln oder Pestiziden, detailliertes Feld-Mapping und Überwachung der Bewässerung. Entdecken Sie unser Sortiment an Drohnen, die speziell für die anspruchsvollen Bedingungen in der Landwirtschaft entwickelt wurden und Ihren Betrieb in die Zukunft führen.</p></div>",
   "seo": {
-    "title": "Mini Drones avec Caméra HD | Achetez votre drone compact",
-    "description": "Capturez le monde d'en haut ! Mini drones caméra pour débutants et experts. Pilotage facile.",
+    "title": "Agrardrohnen kaufen: Effizienz für moderne Landwirtschaft",
+    "description": "Professionelle Drohnen für Präzisionslandwirtschaft. Pflanzenanalyse, Sprühen & Mapping. Jetzt entdecken!",
     "keywords": [
-      "mini drone caméra",
-      "drone compact",
-      "drone HD",
-      "drone débutant",
-      "drone enfant",
-      "quadricoptère caméra",
-      "photo aérienne",
-      "vidéo drone",
-      "drone pliable",
-      "mini drone pas cher"
+      "Agrardrohnen",
+      "Landwirtschaft Drohnen",
+      "Präzisionslandwirtschaft",
+      "Felddrohnen",
+      "Pflanzenschutz Drohnen",
+      "Mapping Agrar",
+      "Effizienz Landwirtschaft"
     ],
-    "enhancedAt": "2025-10-15T18:59:15.016116"
+    "enhancedAt": "2025-10-21T15:21:45.709764"
   },
   "faq": [
     {
-      "question": "Les mini drones avec caméra sont-ils faciles à piloter ?",
-      "answer": "Oui, la plupart de nos mini drones sont conçus pour être intuitifs, idéaux pour les débutants. Ils intègrent souvent des modes de vol assisté et des stabilisateurs pour un pilotage simplifié."
+      "question": "Was sind die Vorteile von Agrardrohnen für meinen Betrieb?",
+      "answer": "Agrardrohnen steigern die Effizienz, senken Kosten durch präzisen Einsatz von Ressourcen und ermöglichen eine detaillierte Überwachung Ihrer Felder. Sie optimieren Erträge und reduzieren den Arbeitsaufwand."
     },
     {
-      "question": "Quelle est la qualité des caméras embarquées sur ces drones ?",
-      "answer": "Nos mini drones proposent des caméras allant du HD (720p) au Full HD (1080p), parfaites pour réaliser des photos et des vidéos aériennes de bonne qualité pour le loisir et le partage."
+      "question": "Welche Aufgaben können Agrardrohnen in der Landwirtschaft übernehmen?",
+      "answer": "Sie eignen sich hervorragend für die Pflanzenanalyse (Gesundheit, Wachstum), das präzise Ausbringen von Pflanzenschutzmitteln oder Dünger, Bestandsüberwachung, Bewässerungsmanagement und die Erstellung von detaillierten Feldkarten."
     },
     {
-      "question": "Quelle est l'autonomie de vol et la portée de ces mini drones ?",
-      "answer": "L'autonomie varie généralement de 8 à 15 minutes par batterie, et la portée de contrôle se situe souvent entre 30 et 100 mètres, idéale pour un usage récréatif en toute sécurité."
+      "question": "Welche technische Ausstattung ist bei modernen Agrardrohnen wichtig?",
+      "answer": "Achten Sie auf Multispektralkameras für genaue Pflanzenanalysen, RTK/PPK-Systeme für höchste Präzision, autonome Flugmodi, intelligente Sprühsysteme und robuste Bauweise für den Feldeinsatz."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:15.016143",
+  "enhancedAt": "2025-10-21T15:21:45.709777",
   "comparisonTable": {
-    "title": "Comparatif des 5 meilleurs Mini Drones avec Caméra",
+    "title": "Vergleich der 5 besten Drohnen-Zubehörprodukte (Agrar)",
     "columns": [
       "Rang",
-      "Marque",
-      "Prix",
-      "Évaluation",
-      "Résolution Caméra",
-      "Public Cible",
-      "Particularités"
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Anwendungsbereich",
+      "Material",
+      "Kompatibilität"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/614wO2AYeJL._AC_SL1500_.jpg]",
-        "name": "Drone Loolinn caméra enfants mini télécommandé",
-        "marque": "Loolinn",
-        "prix": "84.0€",
-        "évaluation": "4.4/5",
-        "résolution_caméra": "HD",
-        "public_cible": "Enfants (norme C0)",
-        "particularités": "21 min de vol (3 batteries incluses), Facile à piloter, Robuste",
-        "productUrl": "/product/drone-loolinn-camera-enfants-mini-telecommande",
-        "image": "https://m.media-amazon.com/images/I/614wO2AYeJL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61WF6DlMr7L._AC_SL1500_.jpg]",
+        "name": "Roboterwerk Drohnen-Plakette 20x8mm EASA-konform",
+        "preis": "5.0€",
+        "bewertung": "4.8/5",
+        "marke": "Roboterwerk",
+        "anwendungsbereich": "EASA-konforme Drohnen-Identifikation",
+        "material": "Aluminium",
+        "kompatibilitaet": "DJI NEO und andere Modelle",
+        "productUrl": "/product/20x8mm-roboterwerk-drohnen-plakette-easa-konform",
+        "image": "https://m.media-amazon.com/images/I/61WF6DlMr7L._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71zcvicNYIL._AC_UL320_.jpg]",
-        "name": "Drone Apritsce 6K Mini Pliable Enfants Débutants",
-        "marque": "Apritsce",
-        "prix": "34.0€",
-        "évaluation": "3.7/5",
-        "résolution_caméra": "6K HD",
-        "public_cible": "Enfants / Débutants",
-        "particularités": "Pliable, Flips 3D, Prise de vue intelligente, Longue durée de vol",
-        "productUrl": "/product/drone-apritsce-mini-pliable-enfants-debutants",
-        "image": "https://m.media-amazon.com/images/I/71zcvicNYIL._AC_UL320_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/710+a9GSzML._AC_SL1500_.jpg]",
+        "name": "CopterFarm Drohnen Kennzeichnungsschild Micro (1-8er Set)",
+        "preis": "5.0€",
+        "bewertung": "4.7/5",
+        "marke": "CopterFarm",
+        "anwendungsbereich": "Drohnen-Sicherheit & Adressgravur",
+        "material": "Aluminium",
+        "kompatibilitaet": "Kleinere Drohnenmodelle",
+        "productUrl": "/product/copterfarm-drohnen-kennzeichnungsschild-micro-1-8er-set",
+        "image": "https://m.media-amazon.com/images/I/710+a9GSzML._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61bUYFvW1zL._AC_SL1500_.jpg]",
-        "name": "Mini Drone Caméra HD 8K RC Portable",
-        "marque": "BuyWeek",
-        "prix": "35.0€",
-        "évaluation": "3.7/5",
-        "résolution_caméra": "8K HD",
-        "public_cible": "Débutants / Enfants",
-        "particularités": "Ultra-portable (de poche), Système 4 axes, Grille de protection",
-        "productUrl": "/product/mini-drone-camera-portable",
-        "image": "https://m.media-amazon.com/images/I/61bUYFvW1zL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71zaHkcKMiL._AC_SL1500_.jpg]",
+        "name": "UAV-ID Drohnenkennzeichen Schwarz 20x8mm eID Aluminium",
+        "preis": "6.0€",
+        "bewertung": "4.7/5",
+        "marke": "UAV-ID",
+        "anwendungsbereich": "Drohnen-Kennzeichnung & Registrierung",
+        "material": "Aluminium",
+        "kompatibilitaet": "Die meisten Drohnenmodelle",
+        "productUrl": "/product/20x8mm-uav-id-drohnenkennzeichen-schwarz-eid-aluminium",
+        "image": "https://m.media-amazon.com/images/I/71zaHkcKMiL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71urAJoa5bL._AC_UL320_.jpg]",
-        "name": "Mini Drone K6 Max : Photographie Aérienne HD & Évitement d'Obstacles Intelligent",
-        "marque": "BuyWeek",
-        "prix": "38.0€",
-        "évaluation": "0.0/5",
-        "résolution_caméra": "HD (Triple Caméra)",
-        "public_cible": "Débutants",
-        "particularités": "Évitement d'obstacles, Pliable, Quadricoptère",
-        "productUrl": "/product/intelligent-mini-drone-max-photographie-aerienne",
-        "image": "https://m.media-amazon.com/images/I/71urAJoa5bL._AC_UL320_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71yef2QVdnL._SL1500_.jpg]",
+        "name": "STARTRC 65cm Drohnen Landeplatz - Faltbar, Universal",
+        "preis": "29.0€",
+        "bewertung": "4.7/5",
+        "marke": "STARTRC",
+        "anwendungsbereich": "Start- und Landeplattform für Drohnen",
+        "material": "Wasserdichtes, sonnenbeständiges Textil",
+        "kompatibilitaet": "DJI Air 2S, Mavic Air 2, Mavic Mini 2, Mavic 2 Pro/Zoom, Phantom 4/3, DJI FPV, Holy Stone",
+        "productUrl": "/product/65cm-startrc-drohnen-landeplatz-faltbar-universal",
+        "image": "https://m.media-amazon.com/images/I/71yef2QVdnL._SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/31m52FFSRAL._AC_.jpg]",
-        "name": "Mini Drone OBEST P14 4K - Votre Aéroport Personnel pour des Images Époustouflantes",
-        "marque": "OBEST",
-        "prix": "15.0€",
-        "évaluation": "0.0/5",
-        "résolution_caméra": "4K",
-        "public_cible": "Débutants / Amateurs",
-        "particularités": "Compact, Livré avec accessoires (1 batterie)",
-        "productUrl": "/product/mini-drone-obest-p14-votre-aeroport",
-        "image": "https://m.media-amazon.com/images/I/31m52FFSRAL._AC_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/511+OWp+BsL._AC_SL1000_.jpg]",
+        "name": "CopterFarm Drohnen Kennzeichen Schild | Lasergravur",
+        "preis": "19.0€",
+        "bewertung": "4.7/5",
+        "marke": "CopterFarm",
+        "anwendungsbereich": "Drohnen-Kennzeichnungspflicht erfüllen",
+        "material": "Aluminium",
+        "kompatibilitaet": "Alle Drohnenmodelle",
+        "productUrl": "/product/copterfarm-drohnen-kennzeichen-schild-lasergravur",
+        "image": "https://m.media-amazon.com/images/I/511+OWp+BsL._AC_SL1000_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment choisir le meilleur Mini Drone avec Caméra ?",
+    "title": "Kaufberatung: So wählen Sie die beste Drohne für die Landwirtschaft (Agrar)",
     "sections": [
       {
-        "heading": "1. Qualité de la Caméra et Stabilisation",
-        "content": "Priorisez une résolution HD (720p minimum) pour des images claires. La stabilisation électronique (EIS) est un atout majeur pour des vidéos fluides, même sur un mini drone. Vérifiez les avis sur la fluidité des prises de vue en vol. Pour les enfants, une caméra fonctionnelle est plus importante que la perfection cinématographique."
+        "heading": "1. Funktionen und Nutzlast",
+        "content": "Wählen Sie Drohnen nach spezifischen Aufgaben: Für präzises Sprühen sind hohe Nutzlast, Tankkapazität und effiziente Sprühdüsen entscheidend. Für präzises Mapping sind RTK/PPK-GPS und Multispektralkameras wichtig. Zur Bestandsüberwachung genügen HD-Kameras mit Zoom. Längere Flugzeiten und schnelle Akkuwechsel sind für große Agrarflächen unverzichtbar. Achten Sie auf modulare Systeme für Flexibilität."
       },
       {
-        "heading": "2. Autonomie et Temps de Charge",
-        "content": "Les mini drones ont une autonomie limitée (souvent 5-10 minutes). Optez pour des modèles avec plusieurs batteries incluses ou facilement interchangeables pour prolonger le plaisir. Un temps de charge rapide est aussi un plus. Un drone comme le Loolinn propose souvent des batteries supplémentaires."
+        "heading": "2. Robustheit und Wartung",
+        "content": "Agrardrohnen müssen robust und wetterfest sein (IP-Klassifizierung gegen Staub und Feuchtigkeit). Eine stabile Bauweise und zuverlässige Motoren sind essenziell. Prüfen Sie die einfache Wartbarkeit, Verfügbarkeit von Ersatzteilen und einen schnellen Akkuwechsel, um Ausfallzeiten zu minimieren. Ein zuverlässiger Kundenservice und technische Unterstützung sind dabei wichtige Aspekte."
       },
       {
-        "heading": "3. Facilité de Pilotage et Modes de Vol",
-        "content": "Recherchez des fonctionnalités comme le décollage/atterrissage automatique, le maintien d'altitude et le mode \"Headless\". Ces options simplifient énormément le pilotage pour les débutants et les enfants. Des modes de vitesse ajustables sont également pratiques pour progresser en douceur."
+        "heading": "3. Software und Datenanalyse",
+        "content": "Leistungsstarke Software für Flugplanung, Missionsausführung und Datenanalyse ist unerlässlich. Suchen Sie nach Systemen, die KI-Funktionen für Pflanzenzustandsanalyse, Schädlingserkennung und Ertragsprognosen bieten. Eine nahtlose Integration in bestehende Farm-Management-Systeme und Cloud-Lösungen für die Datenspeicherung sind große Vorteile. Intuitive Bedienung spart Schulungszeit."
       },
       {
-        "heading": "4. Portée et Connectivité",
-        "content": "Vérifiez la portée de la télécommande (généralement 30-80 mètres pour les mini drones). La connectivité Wi-Fi est essentielle pour la transmission vidéo en temps réel sur smartphone. Assurez-vous d'une connexion stable pour une expérience de vol agréable et sans interruption."
+        "heading": "4. Vorschriften und Sicherheit",
+        "content": "Informieren Sie sich über lokale und nationale Drohnen-Vorschriften, Genehmigungen und Lizenzen für den Agrarbereich. Eine umfassende Schulung für den sicheren und effizienten Betrieb ist Pflicht. Beachten Sie die obligatorische Kennzeichnung der Drohne. Ein Produkt wie das „UAV-ID Drohnenkennzeichen Schwarz 20x8mm eID Aluminium“ bietet hier eine gesetzeskonforme und praktische Lösung zur Identifikation."
       },
       {
-        "heading": "5. Robustesse et Disponibilité des Pièces",
-        "content": "Les mini drones subissent souvent des chocs. Préférez des modèles avec des protections d'hélices et une construction solide. La disponibilité de pièces de rechange (hélices, batteries, moteurs) est cruciale pour la durabilité de votre investissement. C'est un point clé pour un drone \"enfants\"."
+        "heading": "5. Kosten und Support",
+        "content": "Betrachten Sie die Drohne als Langzeitinvestition. Vergleichen Sie nicht nur den Anschaffungspreis, sondern auch die Betriebs- und Wartungskosten sowie Software-Abonnements. Priorisieren Sie Hersteller mit exzellentem Kundenservice, umfassenden Garantieleistungen und technischem Support. Eine gute Schulung und Unterstützung nach dem Kauf maximieren die Rentabilität und Betriebssicherheit Ihrer Agrardrohne."
       }
     ]
   }

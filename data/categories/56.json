@@ -1,167 +1,105 @@
 {
   "categoryId": 56,
-  "categoryNameCanonical": "Batteries pour Drones DJI",
-  "slug": "batteries-pour-drones/batteries-pour-drones-dji",
+  "categoryNameCanonical": "Indoor FPV Drohnen (Tiny Whoops)",
+  "slug": "indoor-drohnen/indoor-fpv-drohnen-tiny-whoops",
   "parentCategoryId": 53,
   "level": 1,
-  "description": "Trouvez votre batterie DJI originale pour drone. Maximisez autonomie et performance de vol.",
-  "content": "<div><h2>Batteries DJI pour Drones : Prolongez Vos Sessions de Vol</h2><p>L'autonomie est le nerf de la guerre pour tout pilote de drone DJI. Que vous soyez un professionnel de la photographie aérienne ou un amateur passionné, disposer de batteries fiables et performantes est essentiel pour maximiser votre temps de vol et ne jamais manquer l'instant parfait. Notre sélection de batteries pour drones DJI est conçue pour répondre à cette exigence, offrant une compatibilité parfaite et une performance optimale.</p><p>Explorez notre gamme complète de batteries intelligentes, compatibles avec les séries les plus populaires comme DJI Mavic, DJI Phantom, DJI Mini et DJI Air. Chaque batterie originale DJI garantit non seulement une durée de vol prolongée, mais aussi une sécurité et une stabilité inégalées grâce à ses systèmes de gestion de l'énergie intégrés. Investir dans une batterie DJI authentique, c'est s'assurer des vols sereins et des performances à la hauteur de vos attentes. Ne laissez plus une batterie faible interrompre votre créativité !</p></div>",
+  "description": "Tiny Whoops & Indoor FPV Drohnen: Kompakte Quadrocopter für sicheren Flugspaß zu Hause.",
+  "content": "<div><h2>Indoor FPV Drohnen & Tiny Whoops: Flugspaß in den eigenen vier Wänden</h2><p>Tauchen Sie ein in die aufregende Welt der <b>Indoor FPV Drohnen</b>! Diese winzigen, wendigen <b>FPV Quadrocopter</b> – auch bekannt als <b>Tiny Whoops</b> – bieten ein unvergleichliches Flugerlebnis direkt bei Ihnen zu Hause. Perfekt für Adrenalin-Junkies und Anfänger gleichermaßen, ermöglichen sie Ihnen, Ihre Flugkünste in einer sicheren und kontrollierten Umgebung zu perfektionieren.</p><p>Unsere Auswahl an <b>Tiny Whoops</b> ist speziell dafür konzipiert, maximalen Spaß bei minimalem Risiko zu gewährleisten. Dank ihrer kompakten Bauweise und der robusten Propellerschützer können Sie durch enge Räume manövrieren, ohne Möbel oder sich selbst zu beschädigen. Erleben Sie das Gefühl, selbst im Cockpit zu sitzen, während Sie mit einer <b>FPV Brille</b> die Welt aus der Perspektive Ihrer <b>Indoor Drohne</b> erkunden.</p><p>Ob Sie ein erfahrener Pilot sind, der auch bei schlechtem Wetter nicht auf seinen Flug verzichten möchte, oder ein neugieriger Einsteiger, der die Welt des <b>FPV Fliegens</b> entdecken möchte – ein <b>Tiny Whoop</b> ist die ideale Wahl. Viele unserer <b>Micro FPV Drohnen</b> sind als Ready-To-Fly (RTF) Sets erhältlich, sodass Sie sofort loslegen können. Beginnen Sie Ihr Abenteuer mit einer <b>Mini FPV Drohne</b> und werden Sie zum Meister der Lüfte in Ihrem Wohnzimmer!</p></div>",
   "seo": {
-    "title": "Batteries DJI Drones | Autonomie Optimale pour Vos Vols",
-    "description": "Trouvez votre batterie DJI originale pour drone. Maximisez autonomie et performance de vol.",
+    "title": "Tiny Whoops & Indoor FPV Drohnen – Flugspaß für drinnen!",
+    "description": "Tiny Whoops & Indoor FPV Drohnen: Kompakte Quadrocopter für sicheren Flugspaß zu Hause.",
     "keywords": [
-      "batterie drone DJI",
-      "batterie DJI Mavic",
-      "batterie DJI Phantom",
-      "batterie DJI Mini",
-      "autonomie drone DJI",
-      "accessoire drone DJI",
-      "batterie intelligente DJI",
-      "pièce détachée DJI",
-      "acheter batterie drone"
+      "Indoor FPV Drohne",
+      "Tiny Whoop",
+      "FPV Quadrocopter indoor",
+      "Mini FPV Drohne",
+      "Kleiner FPV Copter",
+      "Whoop Drohne",
+      "Beginner FPV Drohne",
+      "Indoor Racing Drohne",
+      "Micro FPV Drohne",
+      "FPV Anfänger"
     ],
-    "enhancedAt": "2025-10-15T18:58:55.863016"
+    "enhancedAt": "2025-10-21T15:21:30.636754"
   },
   "faq": [
     {
-      "question": "Comment choisir la bonne batterie pour mon drone DJI ?",
-      "answer": "Pour choisir la bonne batterie, vérifiez impérativement la compatibilité avec le modèle spécifique de votre drone DJI (Mavic, Phantom, Mini, Air, etc.). Privilégiez toujours des batteries DJI originales pour assurer la sécurité et la performance optimale."
+      "question": "Was ist eine Indoor FPV Drohne oder ein Tiny Whoop?",
+      "answer": "Eine Indoor FPV Drohne, oft als Tiny Whoop bezeichnet, ist ein kleiner, leichter Quadrocopter, der speziell für das Fliegen in geschlossenen Räumen konzipiert wurde. Mit FPV (First Person View) sehen Sie das Flugbild live über eine Brille oder einen Monitor."
     },
     {
-      "question": "Quelle est l'autonomie moyenne des batteries de drones DJI ?",
-      "answer": "L'autonomie des batteries DJI varie considérablement selon le modèle du drone et la capacité de la batterie. Elle peut généralement se situer entre 20 et 40 minutes de vol. Référez-vous aux spécifications détaillées de chaque produit pour des informations précises."
+      "question": "Was benötige ich, um mit einem Tiny Whoop zu starten?",
+      "answer": "Für den Einstieg benötigen Sie in der Regel die Drohne selbst (manchmal als Ready-To-Fly-Set), eine Fernsteuerung, eine FPV-Brille oder einen FPV-Monitor, sowie Ersatzakkus und ein passendes Ladegerät. Viele Sets bieten alles Nötige."
     },
     {
-      "question": "Est-il préférable d'utiliser des batteries DJI originales ?",
-      "answer": "Oui, il est fortement recommandé d'utiliser des batteries DJI originales. Elles sont conçues spécifiquement pour vos drones, garantissent une compatibilité parfaite, une meilleure performance, une durée de vie accrue et surtout, une sécurité maximale pour éviter tout risque de dysfonctionnement ou de dommage."
+      "question": "Sind Tiny Whoops für FPV-Anfänger geeignet?",
+      "answer": "Ja, absolut! Tiny Whoops sind ideal für Anfänger. Sie sind sehr robust, verzeihen Abstürze und verursachen aufgrund ihres geringen Gewichts und der Propellerschützer wenig Schaden an Möbeln. Sie eignen sich hervorragend, um die FPV-Flugkünste sicher zu erlernen."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:58:55.863026",
+  "enhancedAt": "2025-10-21T15:21:30.636766",
   "comparisonTable": {
-    "title": "Comparaison des 5 meilleures Batteries pour Drones DJI",
+    "title": "Vergleich wichtiger Komponenten für Indoor FPV Drohnen (Tiny Whoops)",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Type de Produit",
-      "Compatibilité",
-      "Capacité (mAh)",
-      "Technologie",
-      "Quantité",
-      "Caractéristique Spéciale"
+      "Preis",
+      "Bewertung",
+      "Funktion",
+      "Anwendung",
+      "Nutzen für den Piloten"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/41u0PLd5dcL._AC_SL1280_.jpg]",
-        "name": "DJI Station recharge bidirectionnelle Mini 2",
-        "prix": "36.0€",
-        "évaluation": "4.6/5",
-        "marque": "DJI",
-        "type_de_produit": "Station de Recharge / Power Bank",
-        "compatibilite": "DJI Mini 2 (batteries)",
-        "capacite_mah": "5000 mAh (interne pour Power Bank)",
-        "technologie": "Li-ion / Li-Po",
-        "quantite": "1",
-        "caracteristique_speciale": "Recharge bidirectionnelle, Banque d'alimentation",
-        "productUrl": "/product/dji-station-recharge-bidirectionnelle-mini",
-        "image": "https://m.media-amazon.com/images/I/41u0PLd5dcL._AC_SL1280_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51WFJnqbVeL._AC_SL1333_.jpg]",
+        "name": "VIFLY Finder V2 FPV Drohnen Buzzer",
+        "preis": "14.0€",
+        "bewertung": "4.5/5",
+        "funktion": "Buzzer und Alarm Tracker",
+        "anwendung": "Für FPV-Renn-Drohnen & Micro Whoops (Zur Ortung)",
+        "nutzen_fuer_den_piloten": "Schnelle Drohnen-Wiederfindung, erhöhte Flugsicherheit",
+        "productUrl": "/product/vifly-finder-fpv-drohnen-buzzer",
+        "image": "https://m.media-amazon.com/images/I/51WFJnqbVeL._AC_SL1333_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/612AFVNu1VL._AC_SL1024_.jpg]",
-        "name": "2X Batteries Li-ion 1100mAh DJI Tello ZYGY",
-        "prix": "69.0€",
-        "évaluation": "4.4/5",
-        "marque": "ZYGY",
-        "type_de_produit": "Batteries (Lot)",
-        "compatibilite": "DJI Tello",
-        "capacite_mah": "1100 mAh (par batterie)",
-        "technologie": "Lithium-ion",
-        "quantite": "2",
-        "caracteristique_speciale": "Pack économique double",
-        "productUrl": "/product/1100mah-batteries-li-ion-dji-tello-zygy",
-        "image": "https://m.media-amazon.com/images/I/612AFVNu1VL._AC_SL1024_.jpg"
-      },
-      {
-        "rank": 3,
-        "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51qImYJCZSL._AC_SL1500_.jpg]",
-        "name": "MVMOD Lot 2 Batteries Li-Polymère DJI Mavic Pro 3830mAh",
-        "prix": "190.0€",
-        "évaluation": "4.3/5",
-        "marque": "MVMOD",
-        "type_de_produit": "Batteries Intelligentes (Lot)",
-        "compatibilite": "DJI Mavic Pro",
-        "capacite_mah": "3830 mAh (par batterie)",
-        "technologie": "Li-Polymère",
-        "quantite": "2",
-        "caracteristique_speciale": "Surveillance intelligente",
-        "productUrl": "/product/pro-3830mah-mvmod-lot-batteries-li-polymere",
-        "image": "https://m.media-amazon.com/images/I/51qImYJCZSL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 4,
-        "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61w84Ho0ZDL._AC_SL1500_.jpg]",
-        "name": "Batterie Vol Intelligente Paracity Mavic Pro",
-        "prix": "74.0€",
-        "évaluation": "4.0/5",
-        "marque": "Paracity",
-        "type_de_produit": "Batterie Intelligente",
-        "compatibilite": "DJI Mavic Pro",
-        "capacite_mah": "3830 mAh",
-        "technologie": "Li-Polymer",
-        "quantite": "1",
-        "caracteristique_speciale": "Gestion d'énergie intelligente",
-        "productUrl": "/product/pro-batterie-vol-intelligente-paracity-mavic",
-        "image": "https://m.media-amazon.com/images/I/61w84Ho0ZDL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 5,
-        "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/81Tfw0CJQvL._AC_SL1500_.jpg]",
-        "name": "Batterie Drone DJI Mavic Pro Green Cell 3830mAh",
-        "prix": "85.0€",
-        "évaluation": "3.4/5",
-        "marque": "Green Cell",
-        "type_de_produit": "Batterie",
-        "compatibilite": "DJI Mavic Pro",
-        "capacite_mah": "3830 mAh",
-        "technologie": "Li-Polymer",
-        "quantite": "1",
-        "caracteristique_speciale": "Capacité réelle garantie",
-        "productUrl": "/product/pro-3830mah-batterie-drone-dji-mavic",
-        "image": "https://m.media-amazon.com/images/I/81Tfw0CJQvL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/512nyTumALL._AC_UL320_.jpg]",
+        "name": "BETAFPV C03 FPV Micro Kamera 1200TVL Global WDR",
+        "preis": "24.0€",
+        "bewertung": "4.4/5",
+        "funktion": "FPV Micro Kamera",
+        "anwendung": "Für Micro Whoop Drohnen & BETAFPV Micro Canopies (Für FPV-Flug)",
+        "nutzen_fuer_den_piloten": "Immersives Flugerlebnis, gestochen scharfe Bilder mit Global WDR",
+        "productUrl": "/product/1200tvl-betafpv-c03-fpv-micro-kamera",
+        "image": "https://m.media-amazon.com/images/I/512nyTumALL._AC_UL320_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'achat : Comment choisir les meilleures batteries pour Drones DJI ?",
+    "title": "Kaufberatung: So wählen Sie die beste Indoor FPV Drohne (Tiny Whoop) aus?",
     "sections": [
       {
-        "heading": "1. Compatibilité et Modèle de Drone",
-        "content": "Assurez-vous absolument que la batterie est compatible avec votre modèle spécifique de drone DJI (ex: Mavic Pro, Mini 3). Une batterie non adaptée peut endommager l'appareil, compromettre la sécurité du vol ou simplement ne pas fonctionner. Vérifiez toujours la référence exacte du modèle de votre drone avant l'achat."
+        "heading": "1. Rahmen & Propellerschutz",
+        "content": "Da Tiny Whoops oft abstürzen, ist ein robuster Rahmen entscheidend. Achten Sie auf langlebige Materialien wie Kunststoff oder Carbon. Integrierte Propellerschutze sind ein Muss, um Beschädigungen an Drohne und Einrichtung zu vermeiden. Ein stabiler Aufbau verlängert die Lebensdauer und spart Reparaturen."
       },
       {
-        "heading": "2. Capacité (mAh) et Autonomie de Vol",
-        "content": "La capacité en milliampères-heure (mAh) indique l'autonomie. Une capacité plus élevée (ex: 3830mAh pour un Mavic Pro) offre un temps de vol plus long. Cependant, une plus grande capacité peut signifier un poids accru. Évaluez l'équilibre entre une autonomie désirée et l'impact potentiel sur la maniabilité de votre drone."
+        "heading": "2. Kamera & Videoübertragung (VTX)",
+        "content": "Eine gute FPV-Kamera mit geringer Latenz ist unerlässlich für ein reibungsloses Flugerlebnis. Achten Sie auf die Auflösung (z.B. 700TVL) und das Blickfeld. Der Video Transmitter (VTX) sollte eine stabile Übertragung gewährleisten, idealerweise mit schaltbarer Leistung für unterschiedliche Umgebungen."
       },
       {
-        "heading": "3. Type de Batterie et Fonctionnalités Intelligentes",
-        "content": "La plupart des batteries DJI sont des LiPo intelligentes. Elles intègrent des protections contre la surcharge, la décharge excessive et le court-circuit. Des marques comme Green Cell reproduisent ces fonctionnalités, assurant ainsi la sécurité et la fiabilité. Ces caractéristiques sont cruciales pour la longévité de la batterie et la protection de votre drone."
+        "heading": "3. Motoren & Flugsteuerung",
+        "content": "Bürstenlose Motoren bieten mehr Leistung, Effizienz und Langlebigkeit als gebürstete. Für Einsteiger sind kleinere, handlichere Motoren ideal. Die Flugsteuerung sollte benutzerfreundlich sein und gängige Firmware wie Betaflight unterstützen. Dies ermöglicht einfache Anpassungen und Firmware-Updates."
       },
       {
-        "heading": "4. Marque et Fiabilité du Fabricant",
-        "content": "Privilégiez les marques reconnues, qu'il s'agisse de batteries DJI originales ou de fabricants tiers réputés comme Green Cell. Une batterie de qualité garantit une alimentation stable, essentielle pour la sécurité de votre drone en vol. Les batteries moins chères de marques inconnues peuvent présenter des risques de performance et de sécurité."
+        "heading": "4. Akkulaufzeit & Ladegerät",
+        "content": "Kurze Flugzeiten sind typisch für Tiny Whoops. Achten Sie auf die Akku-Kapazität (mAh) und den Typ (z.B. 1S LiPo). Ein Set mit mehreren Akkus und einem effizienten Ladegerät, das mehrere Batterien gleichzeitig laden kann, maximiert den Flugspaß und minimiert Wartezeiten."
       },
       {
-        "heading": "5. Entretien et Conditions de Stockage",
-        "content": "Pour maximiser la durée de vie de votre batterie (comme la Batterie Drone DJI Mavic Pro Green Cell), chargez-la correctement et évitez les décharges profondes. Stockez-la à environ 50-60% de sa charge, dans un endroit frais et sec. Évitez les chocs et la surchauffe pour garantir sa performance optimale et votre sécurité."
+        "heading": "5. Zubehör & Ersatzteile",
+        "content": "Planen Sie Ersatzpropeller, zusätzliche Akkus und eventuell einen Buzzer (wie VIFLY Finder V2) ein, um die Drohne bei Abstürzen leichter zu finden. Ein passender Controller (z.B. FrSky oder ELRS) ist entscheidend. Überlegen Sie auch ein Starter-Kit, das alles Nötige für den Beginn enthält."
       }
     ]
   }

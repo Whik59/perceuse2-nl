@@ -1,42 +1,38 @@
 {
   "productId": "B0DDQ11RN7",
-  "name": "Drone 12Pro 4K WIFI FPV Brushless",
-  "slug": "drone-12pro-wifi-fpv-brushless",
-  "description": "<p>Découvrez le <strong>Drone 12Pro</strong>, votre portail vers une expérience aérienne immersive et professionnelle, conçu pour tous les passionnés, des débutants aux adultes confirmés. Ce quadricoptère pliable est équipé de <strong>moteurs brushless</strong> puissants pour une stabilité et une durabilité exceptionnelles, garantissant des vols fluides et performants. Immortaliserez vos aventures en <strong>qualité 4K</strong> grâce à ses caméras motorisées ajustables sur 135°, capturant des panoramas époustouflants et des vidéos d'une clarté remarquable. La technologie <strong>5G WIFI FPV</strong> vous offre une transmission vidéo en temps réel, vous permettant de voir le monde comme si vous y étiez. Le <strong>maintien d'altitude intelligent</strong> assure des prises de vue stables, idéales pour des photographies et des vidéos parfaites sans effort. Avec <strong>2 batteries incluses</strong>, profitez de jusqu'à <strong>30 minutes de vol par batterie</strong>, doublant ainsi votre temps d'exploration et de création. Facile à transporter grâce à son design pliable, ce drone est le compagnon idéal pour vos escapades et vos projets créatifs.</p>",
-  "shortDescription": "Drone 12Pro 4K Brushless 5G WIFI FPV Pliable. Maintien d'altitude. 2 batteries, 30 min par batterie.",
-  "price": "54.0",
-  "compareAtPrice": 62,
+  "name": "12PRO Drohne mit Kamera 4K HD Bürstenlos 2 Akkus",
+  "slug": "12pro-drohne-mit-kamera-burstenlos-akkus",
+  "description": "<p>Entdecken Sie die <strong>12PRO Drohne</strong> – Ihr Tor zur faszinierenden Welt der Luftaufnahmen und des Flugsports, perfekt für Einsteiger und erfahrene Piloten. Ausgestattet mit einem leistungsstarken <strong>bürstenlosen Motor</strong>, bietet diese Drohne nicht nur beeindruckende Flugstabilität und Langlebigkeit, sondern auch ein angenehm leises Flugerlebnis. Die <strong>motorisch verstellbare 135° Kamera</strong> mit <strong>4K HD Auflösung</strong> ermöglicht Ihnen Aufnahmen aus nahezu jedem Winkel, während die zweite Kamera für zusätzliche Perspektiven sorgt. Dank des innovativen <strong>5G WIFI FPV</strong> Systems genießen Sie eine gestochen scharfe Echtzeit-Übertragung direkt auf Ihr Smartphone. Die <strong>Höhenhaltung</strong> sorgt für mühelose Schwebeaufnahmen und erleichtert das Steuern erheblich. Mit zwei mitgelieferten Akkus verlängern Sie Ihre Flugzeit und maximieren Ihr Abenteuer. Das <strong>faltbare Design</strong> macht die 12PRO Drohne zum idealen Reisebegleiter – kompakt, leicht und bereit für spontane Einsätze. Perfekt für faszinierende Urlaubsbilder, beeindruckende Videos oder einfach den Spaß am Fliegen. Holen Sie sich die 12PRO und erleben Sie Technologie, die begeistert!</p>",
+  "shortDescription": "12PRO Drohne: 4K HD, Bürstenlos, 2 Akkus, FPV 5G WIFI, faltbar. Ideal für Anfänger & Erwachsene.",
+  "price": "129.0",
+  "compareAtPrice": 148,
   "images": [
-    "https://m.media-amazon.com/images/I/71XmSp0i4NL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71rKVsQytnL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71Q1AeYyCKL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71ApnRhjGdL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/81aor5T+riL._AC_SL1500_.jpg"
+    "https://m.media-amazon.com/images/I/71XmSp0i4NL._AC_UL320_.jpg"
   ],
   "videos": [],
-  "category": "Drones avec Maintien d'Altitude",
+  "category": "FPV Drohnen für Anfänger",
   "tags": [
-    "marque : tolatoyus",
-    "drones avec maintien d'altitude"
+    "marke: tolatoyus",
+    "fpv drohnen für anfänger"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B0DDQ11RN7/?tag=clickclickh01-21",
+  "amazonUrl": "https://amazon.de/dp/B0DDQ11RN7/?tag=clickclickh0b-21",
   "amazonASIN": "B0DDQ11RN7",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "12Pro Drones avec Caméra Moteur Brushless Drone pour Débutants et Adultes 5G WIFI FPV RC Pliable Quadcopter 135° Ajustable Motorisé Caméras 4K Maintien de l'altitude 2 Batteries 30 Minutes",
-  "amazonPrice": "54.0€",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "12PRO Drohnen mit Kamera Bürstenlosem Motor Drone für Anfänger und Erwachsene mit Motorisch Verstellbare 135° Camera 4k HD 2 Kameras Drohen 5G WIFI FPV RC Faltbar Quadcopter Höhenhaltung 2 Akkus",
+  "amazonPrice": "129.0€",
   "amazonRating": 3.9,
   "amazonReviewCount": 0,
-  "brand": "Marque : Tolatoyus",
+  "brand": "Marke: Tolatoyus",
   "seo": {
-    "title": "Drone 12Pro 4K WIFI FPV Brushless",
-    "description": "Drone 12Pro 4K Brushless 5G WIFI FPV Pliable. Maintien d'altitude. 2 batteries, 30 min par batterie.",
+    "title": "12PRO Drohne mit Kamera 4K HD Bürstenlos 2 Akkus",
+    "description": "12PRO Drohne: 4K HD, Bürstenlos, 2 Akkus, FPV 5G WIFI, faltbar. Ideal für Anfänger & Erwachsene.",
     "keywords": [
-      "drone 12pro 4k wifi fpv brushless",
-      "drones avec maintien d'altitude",
-      "marque : tolatoyus"
+      "12pro drohne mit kamera 4k hd bürstenlos 2 akkus",
+      "fpv drohnen für anfänger",
+      "marke: tolatoyus"
     ],
-    "ogTitle": "Drone 12Pro 4K WIFI FPV Brushless",
-    "ogDescription": "Drone 12Pro 4K Brushless 5G WIFI FPV Pliable. Maintien d'altitude. 2 batteries, 30 min par batterie."
+    "ogTitle": "12PRO Drohne mit Kamera 4K HD Bürstenlos 2 Akkus",
+    "ogDescription": "12PRO Drohne: 4K HD, Bürstenlos, 2 Akkus, FPV 5G WIFI, faltbar. Ideal für Anfänger & Erwachsene."
   },
   "reviews": {
     "averageRating": 3.9,
@@ -50,100 +46,102 @@
     }
   },
   "specifications": {
-    "Caméra": "4K Motorisée 135° Ajustable",
-    "Connexion Vidéo": "5G WIFI FPV",
-    "Moteurs": "Brushless",
-    "Autonomie par Batterie": "30 Minutes",
-    "Batteries Incluses": "2",
-    "Fonctionnalités": "Maintien d'altitude, Pliable",
-    "Usage": "Débutants et Adultes",
-    "Contrôle": "RC (Radiocommandé)"
+    "Kamerawinkel": "Motorisch Verstellbar 135°",
+    "Auflösung": "4K HD",
+    "Kameras": "2 Kameras",
+    "Motor": "Bürstenloser Motor",
+    "Konnektivität": "5G WIFI FPV",
+    "Funktionen": "Höhenhaltung",
+    "Akkus": "2 Akkus",
+    "Design": "Faltbar",
+    "Zielgruppe": "Anfänger und Erwachsene",
+    "Preis": "129.0€"
   },
   "faq": [
     {
-      "q": "Ce drone est-il adapté aux débutants ?",
-      "a": "Absolument ! Le Drone 12Pro est conçu pour être intuitif avec son maintien d'altitude, le rendant facile à piloter pour les novices."
+      "q": "Ist die 12PRO Drohne für Anfänger geeignet?",
+      "a": "Ja, die 12PRO Drohne ist dank ihrer intuitiven Steuerung, Höhenhaltung und dem stabilen bürstenlosen Motor ideal für Anfänger konzipiert. Die einfache Bedienung ermöglicht schnelles Lernen und sorgt für Flugspaß von Anfang an."
     },
     {
-      "q": "Quelle est la qualité de la caméra ?",
-      "a": "Il est équipé d'une caméra 4K motorisée avec un angle de 135°, offrant des images et vidéos de haute résolution avec une grande flexibilité de cadrage."
+      "q": "Welche Vorteile bietet der bürstenlose Motor?",
+      "a": "Der bürstenlose Motor ist effizienter, langlebiger und deutlich leiser als herkömmliche Motoren. Er sorgt für eine stabilere Flugleistung und eine höhere Zuverlässigkeit, was besonders bei Aufnahmen wichtig ist."
     },
     {
-      "q": "Combien de temps puis-je voler avec ce drone ?",
-      "a": "Grâce aux 2 batteries fournies, vous bénéficiez d'environ 30 minutes de vol par batterie, soit jusqu'à 60 minutes de plaisir de vol au total."
+      "q": "Wie gut ist die Bildqualität der Kameras?",
+      "a": "Die 12PRO Drohne verfügt über eine 4K HD Kamera, die gestochen scharfe und detailreiche Fotos und Videos ermöglicht. Die motorische Verstellbarkeit um 135° bietet zusätzliche Flexibilität bei der Motivwahl."
     },
     {
-      "q": "Puis-je voir la vidéo en direct pendant le vol ?",
-      "a": "Oui, la technologie 5G WIFI FPV permet une transmission vidéo en temps réel sur votre appareil connecté, vous offrant une expérience FPV immersive."
+      "q": "Wie lange kann ich mit den Akkus fliegen?",
+      "a": "Mit zwei mitgelieferten Akkus können Sie Ihre Flugzeit erheblich verlängern. Die genaue Flugdauer pro Akku variiert je nach Flugbedingungen, liegt aber typischerweise im Bereich von 15-20 Minuten."
     },
     {
-      "q": "Les moteurs brushless sont-ils plus performants ?",
-      "a": "Oui, les moteurs brushless offrent une meilleure efficacité, une plus grande puissance, une durabilité accrue et un fonctionnement plus silencieux par rapport aux moteurs traditionnels."
+      "q": "Kann ich die Drohne einfach transportieren?",
+      "a": "Absolut! Das faltbare Design macht die 12PRO Drohne äußerst kompakt und leicht zu transportieren. Sie passt problemlos in eine Tasche oder einen Rucksack, sodass Sie sie überallhin mitnehmen können."
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.5,
-    "summary": "Excellent drone polyvalent pour débutants et passionnés.",
+    "overall_rating": 4.0,
+    "summary": "Hervorragende Einsteigerdrohne mit beeindruckender 4K-Kamera und langer Flugzeit.",
     "strengths": [
-      "Qualité vidéo 4K impressionnante",
-      "Autonomie de vol généreuse avec 2 batteries",
-      "Moteurs brushless pour une performance accrue",
-      "Facilité de pilotage grâce au maintien d'altitude",
-      "Design pliable et portable"
+      "Exzellente 4K HD Bildqualität",
+      "Leistungsstarker und leiser bürstenloser Motor",
+      "Lange Flugzeit dank zwei Akkus",
+      "Einfache Handhabung für Anfänger"
     ],
     "weaknesses": [
-      "L'application FPV pourrait être plus intuitive pour certains utilisateurs.",
-      "La portée de transmission vidéo peut varier en fonction des conditions environnementales."
+      "FPV-Reichweite könnte für Profis begrenzt sein",
+      "Bedienungsanleitung könnte detaillierter sein"
     ],
-    "detailed_review": "Le Drone 12Pro s'avère être un choix judicieux pour quiconque cherche un drone performant sans se ruiner. La qualité d'image 4K est remarquable pour cette gamme de prix, permettant de capturer des moments précieux avec une grande clarté. L'inclusion de deux batteries est un atout majeur, offrant une autonomie totale confortable pour explorer et expérimenter. Les moteurs brushless garantissent une expérience de vol stable et fiable, tandis que la fonction de maintien d'altitude simplifie grandement les prises de vues, même pour les débutants. Son aspect pliable le rend facile à transporter, idéal pour les voyages. Bien que l'application FPV puisse nécessiter un léger temps d'adaptation, elle reste fonctionnelle et permet de profiter pleinement de la transmission vidéo en direct. Globalement, c'est un investissement très satisfaisant.",
-    "recommendation": "Fortement recommandé pour les amateurs de photographie et de vidéographie aérienne cherchant un excellent rapport qualité-prix.",
-    "value_for_money": "Excellent",
+    "detailed_review": "Die 12PRO Drohne mit Kamera übertrifft die Erwartungen in ihrer Preisklasse bei weitem. Die Installation und Ersteinrichtung sind denkbar einfach, was sie besonders für Neulinge im Drohnenbereich attraktiv macht. Der bürstenlose Motor sorgt für einen ruhigen und stabilen Flug, selbst bei leichtem Wind. Die motorisch verstellbare 135° 4K HD Kamera liefert beeindruckend klare Aufnahmen, sowohl Fotos als auch Videos. Die duale Kamera-Funktion erweitert die kreativen Möglichkeiten. Das 5G WIFI FPV System ermöglicht eine flüssige Echtzeit-Übertragung auf das Smartphone, was die Steuerung und Bildkomposition erleichtert. Die Höhenhaltung ist präzise und hilft, die Drohne stabil in der Luft zu halten, was für gerade Anfänger essenziell ist. Mit zwei Akkus kann man die Flugzeit deutlich verlängern und das Erlebnis intensivieren. Das faltbare Design ist ein großer Pluspunkt für die Portabilität. Kleinere Schwächen sind die FPV-Reichweite, die für sehr anspruchsvolle Nutzer möglicherweise nicht ausreicht, und eine Bedienungsanleitung, die noch etwas ausführlicher sein könnte. Insgesamt ein fantastisches Paket für den Preis.",
+    "recommendation": "Uneingeschränkt empfehlenswert für Anfänger, Hobbyfotografen und Familien, die Spaß am Fliegen und an hochwertigen Aufnahmen haben möchten, ohne ein Vermögen auszugeben.",
+    "value_for_money": "Sehr gut. Bietet High-End-Features zu einem attraktiven Preis.",
     "final_verdict": {
-      "overall_assessment": "Excellent compromis entre qualité de fabrication, performances technologiques et accessibilité tarifaire.",
+      "overall_assessment": "Exzellenter Kompromiss zwischen Qualität und Zugänglichkeit.",
       "key_technical_specifications_features": [
-        "Caméra 4K motorisée avec angle ajustable de 135°",
-        "Moteurs Brushless pour une durabilité et une puissance optimisées",
-        "Double batterie offrant jusqu'à 60 minutes de vol total",
-        "Technologie 5G WIFI FPV pour une expérience immersive"
+        "4K HD Dual-Kamera System",
+        "Bürstenloser Motor für Leistung & Langlebigkeit",
+        "5G WIFI FPV & 135° Kameraverstellung",
+        "2x Akkus für erweiterte Flugzeit",
+        "Stabile Höhenhaltung & faltbares Design"
       ],
-      "points_to_consider_user_feedback": "Certains utilisateurs notent une courbe d'apprentissage légère avec l'application mobile, mais les retours sur la qualité d'image et la stabilité du vol sont majoritairement positifs.",
-      "final_recommendation": "Un investissement judicieux offrant un ratio qualité-prix particulièrement attractif pour découvrir le monde du drone.",
-      "target_audience_identification": "Parfait pour les familles souhaitant partager des moments inoubliables, les créateurs de contenu amateurs et les passionnés de technologie désireux d'explorer la prise de vue aérienne."
+      "points_to_consider_user_feedback": "Einige Nutzer wünschen sich eine noch höhere FPV-Reichweite und eine detailliertere Anleitung. Die Flugstabilität und Bildqualität werden jedoch durchweg gelobt.",
+      "final_recommendation": "Eine sehr gute Wahl für alle, die in die Welt der Drohnen einsteigen möchten. Das Preis-Leistungs-Verhältnis ist überzeugend, und die Kernfunktionen sind erstklassig umgesetzt.",
+      "target_audience_identification": "Ideal für Einsteiger, Hobby-Fotografen, junge Technik-Enthusiasten, Familien, die Outdoor-Aktivitäten planen, und alle, die Wert auf ein gutes Preis-Leistungs-Verhältnis legen."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Captures Époustouflantes en 4K",
-        "description": "Immortalisez chaque instant avec une résolution exceptionnelle.",
-        "expanded_content": "Grâce à sa caméra 4K, le Drone 12Pro capture des images et vidéos d'une netteté remarquable, transformant vos souvenirs en œuvres d'art aériennes. L'angle de 135° et la motorisation permettent un cadrage précis pour des perspectives uniques."
+        "title": "Leistungsstarker Bürstenloser Motor",
+        "description": "Erleben Sie ruhige und stabile Flüge.",
+        "expanded_content": "Der bürstenlose Motor der 12PRO Drohne sorgt für höhere Effizienz, längere Lebensdauer und ein leiseres Fluggeräusch im Vergleich zu herkömmlichen Motoren. Dies ermöglicht eine präzisere Steuerung und eine verbesserte Flugleistung, auch bei anspruchsvolleren Flugmanövern."
       },
       {
         "step": 2,
-        "title": "Vol Longue Durée et Stable",
-        "description": "Profitez de plus de temps dans les airs avec 2 batteries.",
-        "expanded_content": "Avec deux batteries incluses, bénéficiez d'une autonomie allant jusqu'à 30 minutes par charge, soit un total de 60 minutes de vol. La technologie de maintien d'altitude assure une stabilité parfaite pour des prises de vue sans tremblement, même pour les débutants."
+        "title": "Beeindruckende 4K HD Dual-Kameras",
+        "description": "Fangen Sie Momente in kristallklarer Qualität ein.",
+        "expanded_content": "Mit der Hauptkamera in 4K HD Auflösung und einer zusätzlichen Kamera haben Sie die Flexibilität, atemberaubende Fotos und Videos aufzunehmen. Die motorisch verstellbare 135° Kamera ermöglicht Ihnen, den perfekten Winkel für Ihre Aufnahmen mühelos einzustellen."
       },
       {
         "step": 3,
-        "title": "Performance et Fiabilité des Moteurs Brushless",
-        "description": "Découvrez une puissance et une durabilité supérieures.",
-        "expanded_content": "Les moteurs brushless offrent une efficacité énergétique accrue, une puissance de vol optimisée et une durée de vie prolongée par rapport aux moteurs traditionnels. Cela se traduit par des vols plus fluides, plus silencieux et plus réactifs."
+        "title": "5G WIFI FPV für Echtzeit-Streaming",
+        "description": "Sehen Sie alles live auf Ihrem Smartphone.",
+        "expanded_content": "Dank der fortschrittlichen 5G WIFI FPV Technologie erhalten Sie eine gestochen scharfe und verzögerungsfreie Live-Übertragung des Kamerabildes direkt auf Ihr verbundenes Smartphone. Dies erleichtert die Flugkontrolle und das Komponieren Ihrer Aufnahmen erheblich."
       },
       {
         "step": 4,
-        "title": "Expérience Immersive FPV",
-        "description": "Vue en temps réel de votre vol.",
-        "expanded_content": "La connectivité 5G WIFI FPV permet de transmettre en direct les images de la caméra sur votre smartphone ou tablette. Visualisez le monde sous un nouvel angle et vivez une expérience de pilotage immersive."
+        "title": "Intelligente Höhenhaltung",
+        "description": "Müheloses Schweben und stabile Aufnahmen.",
+        "expanded_content": "Die integrierte Höhenhaltungsfunktion ermöglicht es der Drohne, ihre Position und Höhe automatisch zu halten. Dies vereinfacht die Steuerung für Anfänger enorm und sorgt für ruhige, professionell aussehende Videoaufnahmen, ohne dass ständige Korrekturen nötig sind."
       },
       {
         "step": 5,
-        "title": "Conception Pliable et Pratique",
-        "description": "Emportez votre drone partout avec vous.",
-        "expanded_content": "Son design intelligent et pliable permet de le ranger facilement dans un sac, le rendant idéal pour les déplacements. Il est prêt à voler en quelques secondes, vous permettant de capturer l'inspiration où qu'elle vous mène."
+        "title": "Faltbar & 2 Akkus für maximalen Spaß",
+        "description": "Kompakt, mobil und extra lange Flugzeit.",
+        "expanded_content": "Das intelligente faltbare Design macht die 12PRO Drohne zu einem idealen Reisebegleiter. Sie lässt sich leicht transportieren und verstauen. Mit zwei im Lieferumfang enthaltenen Akkus können Sie Ihre Flugzeit verdoppeln und das Drohnenerlebnis ohne Unterbrechungen genießen."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:54:37.459783",
-  "originalName": "12Pro Drones avec Caméra Moteur Brushless Drone pour Débutants et Adultes 5G WIFI FPV RC Pliable Quadcopter 135° Ajustable Motorisé Caméras 4K Maintien de l'altitude 2 Batteries 30 Minutes",
+  "enhancedAt": "2025-10-21T15:17:48.234844",
+  "originalName": "12PRO Drohnen mit Kamera Bürstenlosem Motor Drone für Anfänger und Erwachsene mit Motorisch Verstellbare 135° Camera 4k HD 2 Kameras Drohen 5G WIFI FPV RC Faltbar Quadcopter Höhenhaltung 2 Akkus",
   "enhanced": true
 }

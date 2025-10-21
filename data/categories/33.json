@@ -1,151 +1,161 @@
 {
   "categoryId": 33,
-  "categoryNameCanonical": "Drones FPV et Racing",
-  "slug": "drones-fpv-et-racing",
+  "categoryNameCanonical": "Drohnen unter 100 Euro",
+  "slug": "drohnen-unter-100-euro",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Découvrez notre sélection de drones FPV racing. Vitesse, agilité, immersion totale. Prêt à voler ?",
-  "content": "<div><h2>Drones FPV Racing : L'Expérience Ultime de Vol en Immersion</h2><p>Entrez dans l'univers palpitant des <b>drones FPV racing</b> et vivez une expérience de vol sans précédent. Ces machines ultra-rapides, agiles et réactives sont conçues pour la vitesse, la compétition et le freestyle acrobatique. Grâce à la technologie FPV (First Person View), vous pilotez comme si vous étiez à bord, les lunettes d'immersion vous plongeant au cœur de l'action.</p><p>Que vous soyez un pilote expérimenté ou que vous souhaitiez débuter, notre sélection couvre un large éventail de <b>quadcopters FPV</b>. Des kits RTF (Ready-To-Fly) pour une prise en main immédiate, aux modèles BNF (Bind-N-Fly) pour ceux qui possèdent déjà leur radiocommande, en passant par les composants pour assembler votre propre machine de course, trouvez le drone FPV parfait pour vos ambitions. Nous proposons également des <b>pièces détachées pour drones FPV</b> pour l'entretien et la personnalisation.</p><p>Nos <b>drones de course</b> sont équipés des dernières technologies : contrôleurs de vol avancés, moteurs brushless puissants, caméras FPV haute résolution et transmetteurs vidéo fiables pour une latence minimale. Préparez-vous à défier les chronos, à réaliser des figures époustouflantes et à explorer des environnements à une vitesse vertigineuse.</p><p>Explorez notre gamme dès aujourd'hui et rejoignez la communauté des pilotes de <b>drones FPV racing</b>. L'adrénaline du vol en immersion vous attend !</p></div>",
+  "description": "Entdecke Top-Drohnen unter 100 Euro! Perfekt für Einsteiger & Spaßflüge. Mit oder ohne Kamera.",
+  "content": "<div><h2>Drohnen unter 100 Euro: Spaß am Fliegen muss nicht teuer sein</h2><p>Träumst Du davon, die Welt aus der Vogelperspektive zu sehen, ohne dabei Dein Budget zu sprengen? Unsere Auswahl an <strong>Drohnen unter 100 Euro</strong> macht genau das möglich! Ob als spannendes Hobby für Einsteiger, faszinierendes Spielzeug für Kinder oder als Geschenkidee – preiswerte Drohnen bieten jede Menge Flugspaß und die Möglichkeit, die Faszination der Luftfahrt zu erleben.</p><h3>Perfekt für Anfänger und Gelegenheitsflieger</h3><p>Du bist neu in der Welt der Drohnen? Kein Problem! Viele <strong>günstige Drohnen</strong> sind speziell für Anfänger konzipiert. Sie verfügen über intuitive Steuerungen, Stabilitätsfunktionen und oft auch einen Headless-Modus, der die Orientierung in der Luft enorm vereinfacht. So kannst Du Dich voll und ganz auf das Fliegen konzentrieren und schnell erste Erfolge feiern.</p><h3>Mini-Drohnen & Quadrocopter mit Kamera zum kleinen Preis</h3><p>Lass Dich nicht vom Preis täuschen! Auch unter 100 Euro findest Du beeindruckende <strong>Mini-Drohnen</strong> und <strong>Quadrocopter</strong>, die mehr als nur fliegen können. Viele Modelle sind mit kleinen Kameras ausgestattet, die erste Luftaufnahmen oder sogar Live-Bilder auf Dein Smartphone übertragen. Ideal, um spannende Perspektiven zu entdecken und Deine Umgebung neu zu erleben, ohne gleich in eine professionelle Ausrüstung investieren zu müssen.</p><h3>Worauf achten beim Kauf einer Drohne unter 100 Euro?</h3><ul><li><strong>Flugzeit:</strong> Die meisten Modelle bieten zwischen 5 und 15 Minuten Flugzeit. Zusätzliche Akkus verlängern den Spaß.</li><li><strong>Robustheit:</strong> Gerade für Anfänger sind stabile Materialien und Propellerschutz ein großer Vorteil.</li><li><strong>Steuerung:</strong> Achte auf einfache Bedienung und Funktionen wie One-Key-Return oder Höhenhaltung.</li><li><strong>Kamera:</strong> Falls gewünscht, informiere Dich über die Auflösung und Live-Übertragungsoptionen.</li><li><strong>Ersatzteile:</strong> Verfügbarkeit von Ersatzpropellern ist immer ein Pluspunkt.</li></ul><p>Entdecke jetzt unsere vielfältige Auswahl an <strong>preiswerten Drohnen</strong>. Finde Deinen idealen Flugbegleiter und starte noch heute in Dein eigenes Flugabenteuer!</p></div>",
   "seo": {
-    "title": "Drones FPV Racing - Quadcopters de Course & Immersion",
-    "description": "Découvrez notre sélection de drones FPV racing. Vitesse, agilité, immersion totale. Prêt à voler ?",
+    "title": "Drohnen unter 100 Euro: Günstige Mini-Drohnen & Anfänger-Modelle",
+    "description": "Entdecke Top-Drohnen unter 100 Euro! Perfekt für Einsteiger & Spaßflüge. Mit oder ohne Kamera.",
     "keywords": [
-      "drones FPV",
-      "drone racing",
-      "quadcopter FPV",
-      "drone de course",
-      "vol en immersion",
-      "FPV freestyle",
-      "simulateur FPV",
-      "pièces drone FPV",
-      "pack drone FPV",
-      "drone rapide"
+      "drohnen unter 100 euro",
+      "günstige drohne",
+      "mini drohne",
+      "einsteiger drohne",
+      "drohne mit kamera günstig",
+      "spielzeug drohne",
+      "quadrocopter unter 100",
+      "beste drohne für anfänger",
+      "preiswerte drohne"
     ],
-    "enhancedAt": "2025-10-15T18:59:10.983297"
+    "enhancedAt": "2025-10-21T15:21:18.396667"
   },
   "faq": [
     {
-      "question": "Qu'est-ce qu'un drone FPV racing ?",
-      "answer": "Un drone FPV racing est un quadcopter ultra-rapide piloté en immersion via des lunettes, offrant une expérience de vol unique pour la compétition ou le freestyle."
+      "question": "Was kann ich von einer Drohne unter 100 Euro erwarten?",
+      "answer": "Drohnen in dieser Preisklasse bieten meist grundlegende Flugfunktionen, sind robust gebaut und ideal für Einsteiger oder als Spaßgerät. Viele Modelle verfügen über eine einfache Kamera für erste Flugaufnahmen."
     },
     {
-      "question": "Comment choisir son premier drone FPV ?",
-      "answer": "Pour débuter, privilégiez un drone RTF (Ready-To-Fly) ou BNF (Bind-N-Fly) plus robuste, souvent de taille réduite, et envisagez un simulateur pour pratiquer."
+      "question": "Sind Drohnen unter 100 Euro für Kinder geeignet?",
+      "answer": "Ja, viele dieser Modelle sind aufgrund ihrer robusten Bauweise, einfachen Steuerung und übersichtlichen Funktionen hervorragend als Spielzeug-Drohnen für Kinder und Jugendliche geeignet. Sie helfen, erste Flugerfahrungen sicher zu sammeln."
     },
     {
-      "question": "Quels sont les équipements essentiels pour le FPV racing ?",
-      "answer": "Il vous faudra un drone FPV, une radiocommande, des lunettes FPV, des batteries et un chargeur. Des pièces de rechange sont aussi conseillées."
+      "question": "Worauf sollte ich beim Kauf einer günstigen Drohne achten?",
+      "answer": "Achte auf Funktionen wie den Headless-Modus für einfachere Steuerung, One-Key-Return für die Rückkehr auf Knopfdruck, eine gute Flugzeit (meist 5-15 Minuten) und Ersatzteile. Auch die Robustheit bei Abstürzen ist wichtig."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:10.983311",
+  "enhancedAt": "2025-10-21T15:21:18.396704",
   "comparisonTable": {
-    "title": "Comparaison des 5 Drones FPV et Racing et Produits Associés",
+    "title": "Vergleich von 5 Drohnen und Zubehör unter 100 Euro",
     "columns": [
       "Rang",
-      "Nom du Produit",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Type de Produit",
-      "Usage Principal",
-      "Caractéristique Distinctive"
+      "Typ",
+      "Preis",
+      "Bewertung",
+      "Zielgruppe",
+      "Einsatzbereich",
+      "Hauptmerkmal",
+      "Sicherheitsaspekt",
+      "Material"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61VWrl2HmnL._AC_SL1100_.jpg]",
-        "name": "QWinOut Drone FPV Racing F4 X1 175mm RTF",
-        "prix": "435.0€",
-        "évaluation": "3.0/5",
-        "marque": "QWinOut",
-        "type_de_produit": "Drone FPV Racing Complet",
-        "usage_principal": "Course FPV immersive, Vol de loisir",
-        "caracteristique_distinctive": "Prêt à voler (RTF) avec lunettes FPV incluses",
-        "productUrl": "/product/175mm-qwinout-drone-fpv-racing-rtf",
-        "image": "https://m.media-amazon.com/images/I/61VWrl2HmnL._AC_SL1100_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71zt3sXBHhL._AC_SL1500_.jpg]",
+        "name": "Amewi Trix 3-in-1 Quadrocopter RTR Einsteiger",
+        "typ": "3-in-1 Quadrocopter (Drohne, Buggy, Heli)",
+        "preis": "34.0€",
+        "bewertung": "3.3/5",
+        "zielgruppe": "Einsteiger, Kinder, Jugendliche",
+        "einsatzbereich": "Innen- und Außenbereich",
+        "hauptmerkmal": "Drei Spielmodi (Fliegen, Fahren, Schweben)",
+        "sicherheitsaspekt": "6-Achsen Gyroskop für Flugstabilität",
+        "material": "Robuster Kunststoff",
+        "productUrl": "/product/amewi-trix-3-in-1-quadrocopter-rtr-einsteiger",
+        "image": "https://m.media-amazon.com/images/I/71zt3sXBHhL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51OQYVcA-IL._AC_SL1100_.jpg]",
-        "name": "Drone FPV Racing QWinOut Xy-5 BNF 218mm ELRS",
-        "prix": "336.0€",
-        "évaluation": "0.0/5",
-        "marque": "QWinOut",
-        "type_de_produit": "Drone FPV Racing Complet",
-        "usage_principal": "Course FPV avancée, Voltige aérienne",
-        "caracteristique_distinctive": "Bind-N-Fly (BNF), récepteur ELRS intégré, moteurs 2900KV",
-        "productUrl": "/product/218mm-drone-fpv-racing-qwinout-xy-5",
-        "image": "https://m.media-amazon.com/images/I/51OQYVcA-IL._AC_SL1100_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51d3T0W7PWL._AC_SL1400_.jpg]",
+        "name": "Nincoair Orbit Drone für Kinder - Einfach & Stabil",
+        "typ": "Drohne für Kinder",
+        "preis": "54.0€",
+        "bewertung": "3.4/5",
+        "zielgruppe": "Kinder, Fluganfänger",
+        "einsatzbereich": "Innenbereich",
+        "hauptmerkmal": "Einfache Steuerung, kompakte Größe",
+        "sicherheitsaspekt": "Hohe Gyroskop-Stabilisierung für sicheren Flug",
+        "material": "Robuster Kunststoff",
+        "productUrl": "/product/nincoair-orbit-drone-fur-kinder-einfach",
+        "image": "https://m.media-amazon.com/images/I/51d3T0W7PWL._AC_SL1400_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61p0+UCrM2L._SL1500_.jpg]",
-        "name": "Moteurs Brushless BETAFPV 0802SE 19500KV 1S",
-        "prix": "48.0€",
-        "évaluation": "4.6/5",
-        "marque": "BETAFPV",
-        "type_de_produit": "Composant (Moteurs)",
-        "usage_principal": "Amélioration performance drones 1S",
-        "caracteristique_distinctive": "Ultraléger, haute performance 19500KV pour drones 1S",
-        "productUrl": "/product/moteurs-brushless-betafpv-0802se-19500kv",
-        "image": "https://m.media-amazon.com/images/I/61p0+UCrM2L._SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71zDGvVUkgL._AC_UL320_.jpg]",
+        "name": "Revell Magic Mover Blau: Drohne für Handbewegungen",
+        "typ": "Spaß-Drohne",
+        "preis": "23.0€",
+        "bewertung": "3.8/5",
+        "zielgruppe": "Kinder, Jugendliche, Erwachsene (ab 8 Jahren)",
+        "einsatzbereich": "Innen- und Außenbereich",
+        "hauptmerkmal": "Innovative Handgestensteuerung",
+        "sicherheitsaspekt": "3 Anti-Crash-IR-Sensoren",
+        "material": "Robuster Kunststoff",
+        "productUrl": "/product/revell-magic-mover-blau-drohne-fur",
+        "image": "https://m.media-amazon.com/images/I/71zDGvVUkgL._AC_UL320_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71qbffjF9sL._AC_UL320_.jpg]",
-        "name": "DERAY 5328S Hélices DJI FPV Combo",
-        "prix": "19.0€",
-        "évaluation": "4.1/5",
-        "marque": "DERAY",
-        "type_de_produit": "Accessoire (Hélices)",
-        "usage_principal": "Maintenance & Amélioration de performance",
-        "caracteristique_distinctive": "Dégagement rapide, spécifiquement pour DJI FPV Combo",
-        "productUrl": "/product/deray-5328s-helices-dji-fpv-combo",
-        "image": "https://m.media-amazon.com/images/I/71qbffjF9sL._AC_UL320_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51SZmvbyCsL._AC_SL1000_.jpg]",
+        "name": "DR1 Drohnen-Landeplattform 75cm wasserdicht faltbar",
+        "typ": "Drohnen-Zubehör (Landeplattform)",
+        "preis": "14.0€",
+        "bewertung": "4.1/5",
+        "zielgruppe": "Drohnenpiloten (Hobby & Profi)",
+        "einsatzbereich": "Außenbereich",
+        "hauptmerkmal": "Wasserdicht, faltbar, 75cm Durchmesser",
+        "sicherheitsaspekt": "Schutz der Drohne & sichere Landezone",
+        "material": "Wasserdichtes Gewebe",
+        "productUrl": "/product/75cm-dr1-drohnen-landeplattform-wasserdicht-faltbar",
+        "image": "https://m.media-amazon.com/images/I/51SZmvbyCsL._AC_SL1000_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C71uf2cV9KAL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png]",
-        "name": "Shorts Multi-motifs: 17+ Choix Stylés",
-        "prix": "16.0€",
-        "évaluation": "5.0/5",
-        "marque": "FPV Drone Pilot Apparel Quads Freestyle & Racing",
-        "type_de_produit": "Vêtement",
-        "usage_principal": "Style quotidien, Loisirs, Confort estival",
-        "caracteristique_distinctive": "Plus de 17 motifs, confort technologique",
-        "productUrl": "/product/shorts-multi-motifs-17-choix-styles",
-        "image": "https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C71uf2cV9KAL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_SL1500_.png"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51FLQuJg4YL._SL1164_.jpg]",
+        "name": "Drone Einsatz Warnschild",
+        "typ": "Drohnen-Zubehör (Warnschild)",
+        "preis": "21.0€",
+        "bewertung": "4.4/5",
+        "zielgruppe": "Drohnenbetreiber, Veranstalter",
+        "einsatzbereich": "Außenbereich (Baustellen, Veranstaltungen, Landwirtschaft)",
+        "hauptmerkmal": "Witterungsbeständig, faltbar, hohe Sichtbarkeit",
+        "sicherheitsaspekt": "Unfallprävention durch klare Warnung",
+        "material": "Hochwertiger, witterungsbeständiger Kunststoff",
+        "productUrl": "/product/drone-einsatz-warnschild",
+        "image": "https://m.media-amazon.com/images/I/51FLQuJg4YL._SL1164_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'achat : Comment choisir les meilleurs Drones FPV et Racing ?",
+    "title": "Kaufberatung: Die besten Drohnen unter 100 Euro finden",
     "sections": [
       {
-        "heading": "1. Le Type de Drone et le Contrôleur de Vol",
-        "content": "Pour débuter, un drone RTF (Prêt à Voler) comme le QWinOut est idéal. Il inclut tout. Si vous êtes plus expérimenté, un BNF (Bind-N-Fly) ou DIY (À Construire) offre plus de personnalisation. Un contrôleur de vol F4 est excellent pour des performances équilibrées et une bonne évolutivité, parfait pour apprendre à voler et progresser."
+        "heading": "1. Stabilität und Robustheit für Einsteiger",
+        "content": "Achten Sie auf robuste Materialien und einen integrierten Rotorschutz. Drohnen unter 100 Euro, oft für Kinder oder Anfänger, müssen Abstürze überstehen. Modelle wie die Nincoair Orbit bieten gute Stabilität und sind widerstandsfähig, ideal für die ersten Flugversuche. Eine solide Bauweise minimiert den Frust und verlängert die Lebensdauer der Drohne erheblich. Dies ist entscheidend für langfristigen Spaß."
       },
       {
-        "heading": "2. Moteurs et Batterie : Cœur de la Performance",
-        "content": "Les moteurs brushless sont indispensables pour la puissance et la réactivité. La taille (par exemple, 175mm) influe sur le choix des moteurs et de la batterie. Une batterie 4S LiPo est courante pour un drone de cette taille, offrant un bon compromis entre puissance et durée de vol. Vérifiez la capacité et le taux de décharge pour des sessions intenses."
+        "heading": "2. Flugzeit und Ersatzakkus",
+        "content": "Erwarten Sie bei günstigen Drohnen eine Flugzeit von 5-10 Minuten. Für längeren Spaß sind zusätzliche Akkus unerlässlich. Überprüfen Sie, ob diese leicht erhältlich sind oder im Lieferumfang enthalten. Kurze Ladezeiten sind ebenfalls vorteilhaft, um schnell wieder abheben zu können. Planen Sie diese Aspekte ein, um Enttäuschungen zu vermeiden und das Flugerlebnis zu maximieren."
       },
       {
-        "heading": "3. Système FPV : Vision et Immersion",
-        "content": "Une caméra FPV de qualité avec faible latence est cruciale pour un pilotage précis. L'émetteur vidéo (VTX) doit fournir un signal stable et être compatible avec vos lunettes. Pour l'immersion, choisissez entre lunettes FPV analogiques, abordables et performantes, ou numériques pour une image HD supérieure. Le QWinOut est souvent livré avec un système FPV intégré."
+        "heading": "3. Benutzerfreundliche Steuerung",
+        "content": "Für Anfänger sind Funktionen wie Höhenhaltung (Altitude Hold) und Headless-Modus sehr hilfreich. Sie erleichtern die Kontrolle und machen das Fliegen zugänglicher. Ein-Knopf-Start- und Landefunktionen sind ebenfalls ein Pluspunkt. Eine intuitive Fernbedienung ist entscheidend für den Lernerfolg. Testen Sie, ob die Steuerung auch für Kinderhände geeignet ist und präzise reagiert."
       },
       {
-        "heading": "4. Radio-commande et Récepteur : Votre Lien",
-        "content": "La radio-commande est votre interface principale. Optez pour un modèle ergonomique avec de bons interrupteurs. Si le QWinOut est un RTF, la radio est fournie et pré-appairée, simplifiant la configuration. Assurez-vous que le récepteur utilise un protocole fiable et est bien intégré au contrôleur de vol pour une liaison stable et sécurisée."
+        "heading": "4. Kameraqualität und Mehrwert",
+        "content": "Bei Drohnen unter 100 Euro ist die Kameraqualität oft grundlegend. Erwarten Sie keine HD-Aufnahmen; VGA oder einfache 720p sind üblich. Wenn eine Kamera gewünscht wird, prüfen Sie, ob Live-Bilder aufs Smartphone übertragen werden können. Bedenken Sie, dass die Kamera oft nur ein nettes Feature ist und die Flugleistung im Vordergrund stehen sollte. Manchmal ist eine Drohne ohne Kamera für den Preis stabiler."
       },
       {
-        "heading": "5. Budget et Évolutivité : Faire le Bon Choix",
-        "content": "Un budget autour de 435€ pour un RTF comme le QWinOut est un bon point de départ. Considérez l'évolutivité : pourrez-vous remplacer des pièces ou améliorer des composants ? Commencez par un modèle tolérant aux crashs. N'oubliez pas le simulateur de vol pour pratiquer sans risque avant de vous lancer sur le terrain."
+        "heading": "5. Ersatzteile und Service",
+        "content": "Da Abstürze passieren können, ist die Verfügbarkeit von Ersatzteilen wie Propellern oder Motoren wichtig. Prüfen Sie vor dem Kauf, ob der Hersteller oder Händler Ersatzteile anbietet. Ein guter Kundenservice kann bei Problemen helfen und die Lebensdauer Ihrer Drohne erheblich verlängern. Eine Drohne mit guter Ersatzteilversorgung ist eine lohnendere Investition für langanhaltenden Flugspaß."
       }
     ]
   }

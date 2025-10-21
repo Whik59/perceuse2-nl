@@ -1,159 +1,149 @@
 {
   "categoryId": 75,
-  "categoryNameCanonical": "Lunettes FPV Analogiques",
-  "slug": "lunettes-et-casques-fpv/lunettes-fpv-analogiques",
+  "categoryNameCanonical": "Drohnen Bausätze zum Programmieren",
+  "slug": "drohnen-bausaetze/drohnen-bausaetze-zum-programmieren",
   "parentCategoryId": 73,
   "level": 1,
-  "description": "Découvrez nos lunettes FPV analogiques pour une immersion totale et des vols précis.",
-  "content": "<div><h2>Plongez au Cœur de l'Action avec nos Lunettes FPV Analogiques</h2><p>Vivez une expérience de vol en immersion sans précédent grâce à notre sélection de lunettes FPV analogiques, conçues pour les pilotes de drones les plus exigeants. L'analogique reste le choix privilégié pour le drone racing et le freestyle, offrant une latence minimale indispensable pour des manœuvres précises et des réactions instantanées. Nos lunettes garantissent une transmission vidéo fiable et fluide, vous permettant de ressentir chaque mouvement de votre drone comme si vous y étiez.</p><p>Que vous soyez un pilote débutant cherchant à s'initier au vol en immersion ou un expert à la recherche de performances optimales, notre gamme répondra à vos attentes. Découvrez des modèles offrant un champ de vision large, des récepteurs intégrés performants et un confort inégalé pour de longues sessions de vol. Préparez-vous à repousser les limites de votre pilotage avec un équipement FPV analogique de pointe, synonyme de fiabilité et d'adrénaline pure.</p></div>",
+  "description": "Baue & programmiere deine Drohne selbst! Lernkits für Coding-Einsteiger & Technik-Fans.",
+  "content": "<div><h2>Entdecke Programmierbare Drohnen Bausätze</h2><p>Tauchen Sie ein in die faszinierende Welt der Technologie mit unseren hochwertigen Drohnen Bausätzen zum Programmieren. Diese innovativen Kits bieten die einzigartige Möglichkeit, nicht nur eine Drohne selbst zusammenzubauen, sondern sie auch von Grund auf zu programmieren. Ob Sie ein Technik-Enthusiast, ein angehender Ingenieur oder ein Lehrer sind, der MINT-Fächer spannend vermitteln möchte – unsere Bausätze sind das perfekte Werkzeug. Erlernen Sie spielerisch die Grundlagen der Elektrotechnik, Mechanik und Softwareentwicklung. Von einfachen visuellen Programmiersprachen bis hin zu anspruchsvolleren Code-Herausforderungen bieten unsere Kits eine breite Palette an Lernmöglichkeiten. Bauen Sie Ihre eigene fliegende Kreation, schreiben Sie den Code für autonome Flüge und erleben Sie die Zufriedenheit, wenn Ihre selbst programmierte Drohne abhebt. Starten Sie jetzt Ihr persönliches Flugprojekt und entfalten Sie Ihre Kreativität mit Technologie!</p></div>",
   "seo": {
-    "title": "Lunettes FPV Analogiques: Vol Immersif & Drone Racing",
-    "description": "Découvrez nos lunettes FPV analogiques pour une immersion totale et des vols précis.",
+    "title": "Programmierbare Drohnen Bausätze – Lerne & Baue selbst!",
+    "description": "Baue & programmiere deine Drohne selbst! Lernkits für Coding-Einsteiger & Technik-Fans.",
     "keywords": [
-      "lunettes FPV analogiques",
-      "casque FPV analogique",
-      "vol en immersion drone",
-      "équipement FPV",
-      "racing drone",
-      "vidéo FPV analogique",
-      "expérience FPV"
+      "programmierbare Drohne",
+      "Drohnen Bausatz",
+      "Coding Drohne"
     ],
-    "enhancedAt": "2025-10-15T19:00:40.982884"
+    "enhancedAt": "2025-10-21T15:21:42.318185"
   },
   "faq": [
     {
-      "question": "Pourquoi choisir des lunettes FPV analogiques ?",
-      "answer": "Les lunettes FPV analogiques sont prisées pour leur faible latence, essentielle pour le pilotage de drones racing et freestyle, offrant une réactivité immédiate et une compatibilité étendue avec de nombreux émetteurs vidéo."
+      "question": "Für wen sind programmierbare Drohnen Bausätze geeignet?",
+      "answer": "Unsere Bausätze sind ideal für Jugendliche, Studenten und Erwachsene, die Programmieren, Elektronik und Mechanik auf spielerische Weise erlernen möchten."
     },
     {
-      "question": "Quelle est la différence majeure entre l'analogique et le numérique FPV ?",
-      "answer": "La principale différence réside dans la latence et la qualité d'image. L'analogique offre une latence minimale cruciale pour la performance, tandis que le numérique propose une qualité d'image HD supérieure mais avec une latence légèrement plus élevée."
+      "question": "Welche Programmiersprachen werden von den Kits unterstützt?",
+      "answer": "Viele unserer Bausätze unterstützen blockbasierte Programmiersprachen wie Scratch sowie textbasierte Sprachen wie Python, je nach Modell und Komplexität."
     },
     {
-      "question": "Comment entretenir mes lunettes FPV analogiques pour prolonger leur durée de vie ?",
-      "answer": "Pour maintenir vos lunettes, nettoyez délicatement les écrans avec un chiffon doux et sec, protégez les lentilles des rayures et stockez-les dans un étui rigide pour éviter la poussière et les chocs. Vérifiez régulièrement les connexions."
+      "question": "Benötigt man Vorkenntnisse im Programmieren oder Bauen?",
+      "answer": "Nein, viele unserer Drohnen Bausätze sind speziell für Anfänger konzipiert und enthalten detaillierte Anleitungen, sodass keine Vorkenntnisse erforderlich sind."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T19:00:40.982895",
+  "enhancedAt": "2025-10-21T15:21:42.318202",
   "comparisonTable": {
-    "title": "Comparatif des 5 Lunettes FPV Analogiques disponibles",
+    "title": "Vergleich der 5 besten Drohnen Bausätze zum Programmieren",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Type de Produit",
-      "Type de Connectivité FPV",
-      "Détails Écran (Taille/Résolution)",
-      "Batterie / Alimentation",
-      "Fonctionnalités Clés"
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Zielgruppe",
+      "Produkttyp",
+      "Programmierbarkeit",
+      "Hauptmerkmal / Fokus"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61hTEIBcrGL._AC_SL1500_.jpg]",
-        "name": "Lunettes Vidéo FPV 4.3\" avec Recherche Auto",
-        "prix": "125.0€",
-        "évaluation": "0.0/5",
-        "marque": "Zunate",
-        "type_de_produit": "Lunettes FPV avec grand écran et recherche auto",
-        "type_de_connectivite_fpv": "5.8G 40 Canaux",
-        "details_ecran_taille_resolution": "4.3\" / 480x272 px",
-        "batterie_alimentation": "Intégrée 2000 mAh (~2.5h)",
-        "fonctionnalites_cles": "Double antenne, recherche automatique, lentille 92% transparente",
-        "productUrl": "/product/lunettes-video-fpv-4-3-avec-recherche",
-        "image": "https://m.media-amazon.com/images/I/61hTEIBcrGL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81IXY+COtkL._AC_UL320_.jpg]",
+        "name": "OSOYOO Pie Roboter Bausatz für Raspberry Pi",
+        "preis": "79.0€",
+        "bewertung": "4.1/5",
+        "marke": "OSOYOO",
+        "zielgruppe": "Jugendliche, Studenten, Hobbyisten",
+        "produkttyp": "Roboter Bausatz",
+        "programmierbarkeit": "Ja (Python, Raspberry Pi)",
+        "hauptmerkmal_fokus": "Umfassende Robotik & Python Programmierung",
+        "productUrl": "/product/osoyoo-pie-roboter-bausatz-fur-raspberry",
+        "image": "https://m.media-amazon.com/images/I/81IXY+COtkL._AC_UL320_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/31gOB8AvF0L._AC_.jpg]",
-        "name": "Lunettes FPV Vidéo 5.8G 40 Canaux avec Double Réception",
-        "prix": "98.0€",
-        "évaluation": "0.0/5",
-        "marque": "HOOBEN",
-        "type_de_produit": "Lunettes FPV immersives",
-        "type_de_connectivite_fpv": "5.8G 40 Canaux",
-        "details_ecran_taille_resolution": "4.3\" / 480x272 px",
-        "batterie_alimentation": "Intégrée (Standard ~2h)",
-        "fonctionnalites_cles": "Double réception, image stable et haute qualité",
-        "productUrl": "/product/lunettes-fpv-video-5-8g-canaux-avec",
-        "image": "https://m.media-amazon.com/images/I/31gOB8AvF0L._AC_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/81hqRH9N4-L._AC_SL1500_.jpg]",
+        "name": "OSOYOO Roboter Auto V1.0 Arduino Bausatz",
+        "preis": "71.0€",
+        "bewertung": "3.8/5",
+        "marke": "OSOYOO",
+        "zielgruppe": "Erwachsene, Jugendliche, Maker",
+        "produkttyp": "Roboter Bausatz",
+        "programmierbarkeit": "Ja (Arduino UNO)",
+        "hauptmerkmal_fokus": "Smartes Roboter Auto & Arduino Programmierung",
+        "productUrl": "/product/osoyoo-roboter-auto-v1-0-arduino-bausatz",
+        "image": "https://m.media-amazon.com/images/I/81hqRH9N4-L._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51i4jHPab8L._AC_SL1001_.jpg]",
-        "name": "Lunettes FPV Widybord 5.8G 48CH avec Écran 4.3\"",
-        "prix": "58.0€",
-        "évaluation": "0.0/5",
-        "marque": "Widybord",
-        "type_de_produit": "Lunettes FPV avec écran intégré et recherche auto",
-        "type_de_connectivite_fpv": "5.8G 48 Canaux",
-        "details_ecran_taille_resolution": "4.3\" / 480x272 px",
-        "batterie_alimentation": "Intégrée (Standard ~2h)",
-        "fonctionnalites_cles": "Recherche automatique, luminosité 500 CD/M², légères",
-        "productUrl": "/product/lunettes-fpv-widybord-5-8g-48ch-avec",
-        "image": "https://m.media-amazon.com/images/I/51i4jHPab8L._AC_SL1001_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/718IPt2ieyL._AC_SL1500_.jpg]",
+        "name": "IDEA1 Mini Drohne Anfänger, 11 LED, 2 Akkus",
+        "preis": "59.0€",
+        "bewertung": "4.0/5",
+        "marke": "IDEA1",
+        "zielgruppe": "Anfänger, Technikbegeisterte",
+        "produkttyp": "Mini Drohne (RTF)",
+        "programmierbarkeit": "Nein (Fertigdrohne)",
+        "hauptmerkmal_fokus": "Flugspaß, LED-Effekte & Anfängerfreundlichkeit",
+        "productUrl": "/product/idea1-mini-drohne-anfanger-led-akkus",
+        "image": "https://m.media-amazon.com/images/I/718IPt2ieyL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61MR-Tv-RmS._AC_SL1500_.jpg]",
-        "name": "Lunettes FPV Kuuleyn 5.8G 40ch Drone RC",
-        "prix": "104.0€",
-        "évaluation": "1.0/5",
-        "marque": "Kuuleyn",
-        "type_de_produit": "Mini Lunettes FPV avec écran intégré",
-        "type_de_connectivite_fpv": "5.8G 40 Canaux",
-        "details_ecran_taille_resolution": "3\" / 480x320 px",
-        "batterie_alimentation": "Intégrée 3.7V 1200mAh (~2h)",
-        "fonctionnalites_cles": "Légères, ergonomiques, autonomie assurée",
-        "productUrl": "/product/lunettes-fpv-kuuleyn-5-8g-40ch-drone",
-        "image": "https://m.media-amazon.com/images/I/61MR-Tv-RmS._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71sMoM2sZuL._AC_SL1500_.jpg]",
+        "name": "Tiny Hawk Cyber-Rex S620 Mini Drohne Kinder",
+        "preis": "31.0€",
+        "bewertung": "3.9/5",
+        "marke": "Tiny Hawk",
+        "zielgruppe": "Kinder, Anfänger",
+        "produkttyp": "Mini Drohne (RTF)",
+        "programmierbarkeit": "Nein (Fertigdrohne)",
+        "hauptmerkmal_fokus": "Stabiles Fliegen & Flugmanöver für Kinder",
+        "productUrl": "/product/tiny-hawk-cyber-rex-s620-mini-drohne",
+        "image": "https://m.media-amazon.com/images/I/71sMoM2sZuL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71jTrVVTyFL._AC_SL1500_.jpg]",
-        "name": "DJFEI FPV Combo Accessoires Drone VR Lunettes Antenne Sac",
-        "prix": "9.0€",
-        "évaluation": "4.6/5",
-        "marque": "DJYILUF",
-        "type_de_produit": "Kit Accessoires FPV (incl. Lunettes VR)",
-        "type_de_connectivite_fpv": "Compatible DJI FPV Combo",
-        "details_ecran_taille_resolution": "Via Drone/Externe",
-        "batterie_alimentation": "Via Drone/Externe",
-        "fonctionnalites_cles": "Kit complet (sac, antenne, support carte), pilotage VR",
-        "productUrl": "/product/djfei-fpv-combo-accessoires-drone-lunettes",
-        "image": "https://m.media-amazon.com/images/I/71jTrVVTyFL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71JbZ8TLZZL._AC_SL1500_.jpg]",
+        "name": "ArliKits Leuchtender Mini Roboter LED Bausatz (Grün)",
+        "preis": "9.0€",
+        "bewertung": "0.0/5",
+        "marke": "ArliKits",
+        "zielgruppe": "Junge Tüftler, Kinder",
+        "produkttyp": "Elektronik Bausatz (Roboter)",
+        "programmierbarkeit": "Nein (Grundlagen Elektronik)",
+        "hauptmerkmal_fokus": "Einführung in Elektronik & LED-Technologie",
+        "productUrl": "/product/arlikits-leuchtender-mini-roboter-led-bausatz",
+        "image": "https://m.media-amazon.com/images/I/71JbZ8TLZZL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleures Lunettes FPV Analogiques ?",
+    "title": "Kaufberatung: So wählen Sie die besten Drohnen Bausätze zum Programmieren",
     "sections": [
       {
-        "heading": "1. Type d'Écran et Résolution",
-        "content": "Pour des lunettes FPV analogiques, privilégiez la résolution pour une image claire. Un écran LCD offre un bon rapport qualité-prix. Recherchez une résolution WVGA ou SVGA. Considérez également le champ de vision (FOV) ; un FOV plus large offre une immersion accrue. Assurez-vous d'un affichage confortable pour des sessions prolongées."
+        "heading": "1. Programmierbarkeit und Kompatibilität",
+        "content": "Achten Sie auf die unterstützten Programmiersprachen (z.B. Python, Scratch, C++) und die Kompatibilität mit Mikrocontrollern wie Raspberry Pi oder Arduino. Ein Bausatz, der gängige Plattformen wie den Raspberry Pi unterstützt (z.B. OSOYOO Pie Roboter Bausatz), bietet vielfältige Lernmöglichkeiten und eine große Community. Prüfen Sie, ob der Quellcode zugänglich und erweiterbar ist, um maximale Flexibilität zu gewährleisten."
       },
       {
-        "heading": "2. Réception et Canaux",
-        "content": "La qualité de la réception est cruciale. Optez pour des lunettes avec un récepteur \"diversity\" à double antenne pour minimiser les pertes de signal. Vérifiez la compatibilité avec la bande 5.8Ghz et la présence d'au moins 40 canaux pour une flexibilité maximale. Cela garantit une image stable, même dans des environnements complexes."
+        "heading": "2. Schwierigkeitsgrad und Montage",
+        "content": "Bewerten Sie den Schwierigkeitsgrad des Zusammenbaus und der Programmierung. Für Anfänger sind modulare Kits mit detaillierten Schritt-für-Schritt-Anleitungen und wenig Lötarbeiten ideal. Überprüfen Sie, ob alle benötigten Komponenten und Werkzeuge im Lieferumfang enthalten sind. Ein gut strukturiertes Handbuch erleichtert den Einstieg erheblich und vermeidet Frustration beim Aufbau."
       },
       {
-        "heading": "3. Confort et Ergonomie",
-        "content": "Le confort est essentiel pour des sessions FPV prolongées. Choisissez des lunettes légères avec un bandeau réglable et un bon rembourrage facial. Vérifiez la ventilation pour éviter la buée. Si vous portez des lunettes de vue, assurez-vous qu'elles permettent l'insertion de lentilles de correction ou qu'elles sont compatibles avec vos lunettes."
+        "heading": "3. Sensorik und Erweiterungsmöglichkeiten",
+        "content": "Die eingebauten Sensoren (Gyroskop, Beschleunigungsmesser, Barometer, Kamera) bestimmen die Funktionsvielfalt der Drohne. Wichtig sind auch Schnittstellen für zukünftige Erweiterungen, etwa für GPS-Module oder weitere Sensoren. Ein Bausatz mit vielseitiger Sensorik und Open-Source-Schnittstellen ermöglicht komplexere Projekte und längeren Lernspaß. Prüfen Sie, welche Module zusätzlich erworben werden können."
       },
       {
-        "heading": "4. Alimentation et Autonomie",
-        "content": "L'autonomie de la batterie est primordiale. Privilégiez des lunettes alimentées par des batteries LiPo standards, faciles à remplacer ou à recharger. Vérifiez l'autonomie annoncée et si un indicateur de niveau de batterie est inclus. Certains modèles offrent des ports USB pour une charge pratique ou une alimentation externe pour prolonger le temps de vol."
+        "heading": "4. Software und Lernressourcen",
+        "content": "Umfassende Lernressourcen, Tutorials und eine aktive Online-Community sind entscheidend für den Lernerfolg. Prüfen Sie, ob es Beispielprogramme, Projektideen und eine funktionierende Software-Umgebung gibt. Eine gut dokumentierte API oder Bibliotheken erleichtern das Experimentieren. Kits mit Online-Foren oder YouTube-Anleitungen sind oft vorteilhaft, um schnell Hilfe zu finden und Ideen auszutauschen."
       },
       {
-        "heading": "5. Fonctionnalités Additionnelles et Budget",
-        "content": "Considérez les fonctionnalités supplémentaires comme un enregistreur vidéo numérique (DVR) intégré pour capturer vos vols. Un port AV-in/out peut être utile. Pour un budget de 98€, des modèles comme les \"Lunettes FPV Vidéo 5.8G 40 Canaux avec Double Réception\" sont un excellent choix pour débuter. Priorisez les marques reconnues pour leur fiabilité."
+        "heading": "5. Preis-Leistungs-Verhältnis und Zielgruppe",
+        "content": "Berücksichtigen Sie Ihr Budget und Ihre Vorkenntnisse. Günstigere Kits wie der OSOYOO Pie Roboter Bausatz (ca. 79,0€) sind hervorragend für Einsteiger, um die Grundlagen von Elektronik und Programmierung zu erlernen. Fortgeschrittene suchen eventuell nach Kits mit mehr Leistung und Erweiterungsoptionen. Vergleichen Sie die gebotenen Funktionen mit dem Preis, um die beste Wahl für Ihre Lernziele zu treffen."
       }
     ]
   }

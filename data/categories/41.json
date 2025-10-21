@@ -1,143 +1,163 @@
 {
   "categoryId": 41,
-  "categoryNameCanonical": "Drones avec Évitement d'Obstacles",
-  "slug": "drones-avec-evitement-d-obstacles",
+  "categoryNameCanonical": "Drohnen Akkus",
+  "slug": "drohnen-akkus",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Découvrez nos drones avec évitement d'obstacles pour un vol sans souci. Technologie avancée pour pilotes.",
-  "content": "<div><h2>Drones avec Évitement d'Obstacles : Volez en Toute Sérénité</h2><p>Explorez le ciel avec une confiance inégalée grâce à notre sélection de drones équipés de systèmes avancés d'évitement d'obstacles. Conçus pour rendre le pilotage plus sûr et plus intuitif, ces bijoux de technologie sont parfaits pour les débutants comme pour les pilotes expérimentés, désireux de protéger leur investissement et de réaliser des prises de vue parfaites sans souci.</p><p>Nos drones intègrent des capteurs multidirectionnels (optiques, infrarouges ou ultrasons) qui scannent en permanence l'environnement autour de l'appareil. En cas de détection d'un obstacle imminent, le drone ajuste automatiquement sa trajectoire, ralentit ou s'arrête, évitant ainsi les collisions et les dommages potentiels. Cette intelligence de vol permet une expérience utilisateur fluide et sécurisée, même dans des environnements complexes.</p><p>Que vous soyez un amateur de photographie aérienne cherchant la stabilité parfaite, un explorateur désireux de filmer des paysages inaccessibles, ou simplement un pilote souhaitant s'amuser sans le stress des crashs, un drone avec évitement d'obstacles est le choix idéal. Découvrez nos modèles phares, offrant autonomie, qualité d'image exceptionnelle et des fonctionnalités de sécurité à la pointe de l'innovation. Volez plus loin, plus haut, et en toute sécurité.</p></div>",
+  "description": "Entdecke hochwertige Drohnen Akkus für DJI, Parrot & mehr. Maximale Flugzeit & Zuverlässigkeit sichern.",
+  "content": "<div><h2>Hochleistungs Drohnen Akkus für maximale Flugzeit</h2><p>Entdecken Sie unser umfangreiches Sortiment an Drohnen Akkus, die speziell entwickelt wurden, um Ihre Flugerlebnisse zu optimieren. Ob Sie einen zuverlässigen Ersatzakku für längere Flüge benötigen oder einen Hochleistungsakku zur Steigerung der Performance Ihrer Drohne suchen, bei uns finden Sie die perfekte Lösung. Wir führen Akkus für alle gängigen Drohnenmodelle, darunter DJI, Parrot, Autel und viele mehr. Unsere Drohnen Akkus zeichnen sich durch hohe Kapazität, Zuverlässigkeit und eine lange Lebensdauer aus, damit Sie jede Minute in der Luft voll auskosten können. Achten Sie bei der Auswahl auf die Kompatibilität mit Ihrem Drohnenmodell und die gewünschte Kapazität (mAh), um die optimale Flugzeit zu erzielen. Ein qualitativ hochwertiger Flugakku ist entscheidend für die Sicherheit und Leistung Ihrer Drohne. Vertrauen Sie auf zertifizierte Qualität und die neuesten Technologien für Ihre wertvolle Drohne.</p></div>",
   "seo": {
-    "title": "Drones Évitement Obstacles - Vol Sécurisé & Intuitif",
-    "description": "Découvrez nos drones avec évitement d'obstacles pour un vol sans souci. Technologie avancée pour pilotes.",
+    "title": "Drohnen Akkus: Längere Flugzeit, Mehr Leistung online kaufen",
+    "description": "Entdecke hochwertige Drohnen Akkus für DJI, Parrot & mehr. Maximale Flugzeit & Zuverlässigkeit sichern.",
     "keywords": [
-      "drones évitement obstacles",
-      "drone capteurs",
-      "drone sécurité vol",
-      "drone intelligent",
-      "achat drone",
-      "quadricoptère anti-collision",
-      "système détection obstacles drone",
-      "drone débutant sécurité",
-      "drone vol stable"
+      "Drohnen Akkus",
+      "Flugakku Drohne",
+      "Ersatzakku Drohne",
+      "DJI Akku",
+      "Lipo Akku Drohne"
     ],
-    "enhancedAt": "2025-10-15T18:59:13.488279"
+    "enhancedAt": "2025-10-21T15:21:35.374581"
   },
   "faq": [
     {
-      "question": "Comment fonctionne l'évitement d'obstacles sur un drone ?",
-      "answer": "Les drones avec évitement d'obstacles utilisent des capteurs multidirectionnels (optiques, infrarouges, ultrasons) pour détecter en temps réel les objets proches et ajuster automatiquement la trajectoire du drone, le ralentir ou l'arrêter, afin d'éviter les collisions."
+      "question": "Welcher Drohnen Akku ist der richtige für meine Drohne?",
+      "answer": "Die Wahl des Akkus hängt stark vom Drohnenmodell ab. Achten Sie auf Spannung (V), Kapazität (mAh) und den Steckertyp. Konsultieren Sie das Handbuch Ihrer Drohne oder nutzen Sie unsere Filterfunktion für die beste Passform."
     },
     {
-      "question": "Les drones avec évitement d'obstacles sont-ils adaptés aux débutants ?",
-      "answer": "Absolument. Ils sont idéaux pour les débutants car ils réduisent considérablement le risque d'accidents et de dommages, rendant l'apprentissage du pilotage plus sûr, plus facile et plus agréable, même dans des environnements complexes."
+      "question": "Wie lagere ich Drohnen Akkus richtig?",
+      "answer": "Lagern Sie Drohnen Akkus am besten bei Raumtemperatur und einer Ladekapazität von etwa 50-60%. Vermeiden Sie extreme Temperaturen und direkte Sonneneinstrahlung. Nutzen Sie spezielle Sicherheitsbeutel für Lipo-Akkus."
     },
     {
-      "question": "Quels sont les principaux avantages d'un drone équipé de l'évitement d'obstacles ?",
-      "answer": "Les avantages incluent une sécurité de vol accrue, la protection de votre investissement (le drone) et de son environnement, une plus grande facilité de pilotage, la possibilité de réaliser des prises de vue plus stables et professionnelles sans stress, et une plus grande confiance lors de l'exploration de nouveaux espaces."
+      "question": "Wie erkenne ich einen defekten Drohnen Akku?",
+      "answer": "Anzeichen für einen defekten Akku sind verkürzte Flugzeit, aufgeblähte Zellen, sichtbare Beschädigungen oder eine ungewöhnlich schnelle Entladung. Ein defekter Akku sollte umgehend ersetzt und fachgerecht entsorgt werden."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:13.488291",
+  "enhancedAt": "2025-10-21T15:21:35.374596",
   "comparisonTable": {
-    "title": "Comparaison des 5 meilleurs Drones avec Évitement d'Obstacles",
+    "title": "Vergleich der 5 besten Drohnen Akkus",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Niveau d'Utilisateur",
-      "Type de Moteur",
-      "Usage Principal"
+      "Marke",
+      "Akkutyp",
+      "Spannung",
+      "Kapazität pro Akku",
+      "Anzahl Akkus im Set",
+      "Ladegerät-Typ",
+      "Primärer Anwendungsbereich",
+      "Preis",
+      "Bewertung"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/411kxBTKX+L._AC_.jpg]",
-        "name": "Drone HLILIPNPN M33 4K Triple Caméra 5G Débutant",
-        "prix": "142.0€",
-        "évaluation": "1.0/5",
-        "niveau_utilisateur": "Débutant à Intermédiaire",
-        "type_de_moteur": "Sans Balais",
-        "usage_principal": "Photographie/Vidéo & Exploration",
-        "productUrl": "/product/m33-drone-hlilipnpn-triple-camera-debutant",
-        "image": "https://m.media-amazon.com/images/I/411kxBTKX+L._AC_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61DJeIPS16L._AC_SL1024_.jpg]",
+        "name": "5x 3.7V 800mAh Lipo Akku + 5in1 Ladegerät Drohne",
+        "marke": "BLLRC",
+        "akkutyp": "Lithium-Polymer (LiPo)",
+        "spannung": "3.7V",
+        "kapazitaet_pro_akku": "800mAh",
+        "anzahl_akkus_im_set": "5",
+        "ladegeraet_typ": "5-in-1 Ladegerät",
+        "primaerer_anwendungsbereich": "Gängige RC Drohnen / Quadcopter (z.B. MJX X708W, SYMA X5C)",
+        "preis": "21.0€",
+        "bewertung": "4.2/5",
+        "productUrl": "/product/800mah-3-7v-lipo-akku-5in1-ladegerat",
+        "image": "https://m.media-amazon.com/images/I/61DJeIPS16L._AC_SL1024_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51rQPK5dd2L._AC_SL1445_.jpg]",
-        "name": "Drone S2S : Votre Portail vers l'Aviation FPV",
-        "prix": "63.0€",
-        "évaluation": "0/5",
-        "niveau_utilisateur": "Débutants (Enfants & Adultes)",
-        "type_de_moteur": "Sans Balais",
-        "usage_principal": "Loisir / Exploration FPV",
-        "productUrl": "/product/drone-s2s-votre-portail-vers-l-aviation",
-        "image": "https://m.media-amazon.com/images/I/51rQPK5dd2L._AC_SL1445_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71zVGa7hXjL._AC_SL1500_.jpg]",
+        "name": "ZYGY 5x 3.7V 400mAh Akku & 5in1 Ladegerät Drohne",
+        "marke": "ZYGY",
+        "akkutyp": "Lithium-Polymer (LiPo)",
+        "spannung": "3.7V",
+        "kapazitaet_pro_akku": "400mAh",
+        "anzahl_akkus_im_set": "5",
+        "ladegeraet_typ": "5in1 Ladegerät (parallel)",
+        "primaerer_anwendungsbereich": "Diverse RC Drohnenmodelle (z.B. H99W, H31, H6C)",
+        "preis": "15.0€",
+        "bewertung": "4.6/5",
+        "productUrl": "/product/400mah-zygy-3-7v-akku-5in1-ladegerat",
+        "image": "https://m.media-amazon.com/images/I/71zVGa7hXjL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71+NpazLLmL._AC_SL1500_.jpg]",
-        "name": "Drone Enfants Moteur Sans Balais 720P Optique",
-        "prix": "49.0€",
-        "évaluation": "3.9/5",
-        "niveau_utilisateur": "Enfants / Débutants",
-        "type_de_moteur": "Sans Balais",
-        "usage_principal": "Loisir / Initiation",
-        "productUrl": "/product/drone-enfants-moteur-sans-balais-720p",
-        "image": "https://m.media-amazon.com/images/I/71+NpazLLmL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61cnzkuec4L._AC_SL1500_.jpg]",
+        "name": "5x 3.7V 300mAh Li-ion Akku + 5-in-1 Ladegerät",
+        "marke": "BLLRC",
+        "akkutyp": "Lithium-Ionen (Li-ion)",
+        "spannung": "3.7V",
+        "kapazitaet_pro_akku": "300mAh",
+        "anzahl_akkus_im_set": "5",
+        "ladegeraet_typ": "5-in-1 Multi-Ladegerät",
+        "primaerer_anwendungsbereich": "Kleine bis mittlere RC Drohnen (z.B. Syma X11C, Hubsan H107L)",
+        "preis": "15.0€",
+        "bewertung": "4.5/5",
+        "productUrl": "/product/300mah-3-7v-li-ion-akku-5-in-1-ladegerat",
+        "image": "https://m.media-amazon.com/images/I/61cnzkuec4L._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51a5R6AH-+L._AC_SL1000_.jpg]",
-        "name": "Drone S98 avec Évitement d'Obstacles",
-        "prix": "38.0€",
-        "évaluation": "0/5",
-        "niveau_utilisateur": "Débutant à Avancé",
-        "type_de_moteur": "Sans Balais",
-        "usage_principal": "Loisir / Exploration",
-        "productUrl": "/product/drone-s98-avec-evitement-d-obstacles",
-        "image": "https://m.media-amazon.com/images/I/51a5R6AH-+L._AC_SL1000_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71MzVBwH46L._AC_SL1500_.jpg]",
+        "name": "ZYGY 5X 150mAh LiPo Batterie & 5in1 Ladegerät H36 E010",
+        "marke": "ZYGY",
+        "akkutyp": "Lithium-Polymer (LiPo)",
+        "spannung": "3.7V",
+        "kapazitaet_pro_akku": "150mAh",
+        "anzahl_akkus_im_set": "5",
+        "ladegeraet_typ": "5-in-1 Multi-Ladegerät",
+        "primaerer_anwendungsbereich": "Mini RC Quadcopter (z.B. H36, E010)",
+        "preis": "19.0€",
+        "bewertung": "4.0/5",
+        "productUrl": "/product/150mah-zygy-lipo-batterie-5in1-ladegerat",
+        "image": "https://m.media-amazon.com/images/I/71MzVBwH46L._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61cUAwkKOLL._AC_SL1500_.jpg]",
-        "name": "Drone Alipis avec Caméra : Vol Stable et Évitement d'Obstacles",
-        "prix": "29.19€",
-        "évaluation": "0/5",
-        "niveau_utilisateur": "Débutants",
-        "type_de_moteur": "Brossé",
-        "usage_principal": "Loisir / Prise de Vues Aériennes",
-        "productUrl": "/product/drone-alipis-avec-camera-vol-stable",
-        "image": "https://m.media-amazon.com/images/I/61cUAwkKOLL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61CVSK+m21L._AC_SL1500_.jpg]",
+        "name": "HAWK'S WORK Lipo Akku 3.7V 300mAh XH2.54 (2 Stk)",
+        "marke": "HAWK'S WORK",
+        "akkutyp": "Lithium-Polymer (LiPo)",
+        "spannung": "3.7V",
+        "kapazitaet_pro_akku": "300mAh",
+        "anzahl_akkus_im_set": "2",
+        "ladegeraet_typ": "Kein Ladegerät enthalten",
+        "primaerer_anwendungsbereich": "Diverse RC Modelle (Flugzeug, Hubschrauber, Drohne)",
+        "preis": "12.0€",
+        "bewertung": "4.4/5",
+        "productUrl": "/product/300mah-hawk-s-work-lipo-akku-3-7v",
+        "image": "https://m.media-amazon.com/images/I/61CVSK+m21L._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones avec Évitement d'Obstacles ?",
+    "title": "Kaufberatung: So wählen Sie die besten Drohnen Akkus aus",
     "sections": [
       {
-        "heading": "1. Évitement d'Obstacles et Sécurité",
-        "content": "La capacité d'évitement d'obstacles varie. Pour un drone à 49€, attendez-vous à des capteurs optiques ou infrarouges basiques, souvent frontaux. C'est crucial pour les débutants et les enfants, réduisant les risques de collisions. Vérifiez la portée et la direction des capteurs pour une meilleure protection lors du vol intérieur ou dans des environnements encombrés."
+        "heading": "1. Spannung und Kapazität verstehen",
+        "content": "Erklären, wie V die Leistung und mAh die Flugzeit beeinflussen. Wichtigkeit der Übereinstimmung mit der Drohne. Empfehlung, Kapazität für längere Flugzeiten zu optimieren, aber Kompatibilität zu prüfen. Eine höhere mAh-Zahl bedeutet längere Flugzeiten, wenn die Drohne es erlaubt."
       },
       {
-        "heading": "2. Qualité de l'Image et Capteur Optique",
-        "content": "La résolution 720P est standard pour l'entrée de gamme. L'aspect \"Optique\" dans la description du produit comme \"720P Optique\" fait souvent référence à un capteur de flux optique. Ce capteur aide le drone à maintenir une position stable, même sans GPS, ce qui est excellent pour les vols intérieurs et améliore la qualité des prises de vue, même en 720P."
+        "heading": "2. Akkutechnologie und Entladerate (C-Rate)",
+        "content": "LiPo-Akkus sind Standard. Die C-Rate ist entscheidend für die Leistungsabgabe. Höhere C-Raten (z.B. 25C, 30C) sind für leistungsstarke Drohnen wichtig, um Stabilität und Reaktionsfähigkeit zu gewährleisten. Gehen Sie nicht unter den von Ihrer Drohne geforderten Mindestwert, um Schäden zu vermeiden."
       },
       {
-        "heading": "3. Autonomie de Vol et Performance du Moteur",
-        "content": "L'autonomie est clé. Un temps de vol de 8-15 minutes est courant. Les \"Moteurs Sans Balais\" sont un avantage majeur, offrant plus de puissance, une meilleure efficacité et une durée de vie accrue par rapport aux moteurs à balais, même sur un drone abordable. Considérez l'achat de batteries supplémentaires pour prolonger le plaisir."
+        "heading": "3. Kompatibilität und Steckertypen",
+        "content": "Prüfen Sie unbedingt Spannung (V), Kapazität (mAh) und den Steckertyp (z.B. JST, XT30, PH2.0) Ihres Drohnenmodells. Ein falscher Stecker macht den Akku unbrauchbar. Achten Sie auf Bundles wie \"ZYGY 5X 150mAh LiPo Batterie & 5in1 Ladegerät\", die passende Stecker enthalten und somit sofort einsatzbereit sind."
       },
       {
-        "heading": "4. Facilité d'Utilisation et Modes Intelligents",
-        "content": "Pour les débutants et les enfants, des fonctions comme le décollage/atterrissage automatique, le maintien d'altitude et le mode sans tête sont indispensables. Ces modes simplifient le pilotage et minimisent le stress. Recherchez des drones avec des interfaces intuitives et des protections d'hélices intégrées pour une sécurité maximale."
+        "heading": "4. Ladegeräte und Sicherheitshinweise",
+        "content": "Verwenden Sie immer ein passendes Ladegerät, idealerweise mit Balance-Ladefunktion für LiPo-Akkus, um Überladung und Schäden zu vermeiden. Sichere Lagerung bei Raumtemperatur und Teilladung (Storage Charge) verlängert die Lebensdauer. Laden Sie Akkus niemals unbeaufsichtigt und achten Sie auf korrekte Polarität."
       },
       {
-        "heading": "5. Budget et Valeur Ajoutée",
-        "content": "À un prix autour de 49,0€, recherchez le meilleur rapport qualité-prix. Un \"Drone Enfants Moteur Sans Balais 720P Optique\" offre déjà des fonctionnalités avancées pour ce budget. Comparez les garanties, la disponibilité des pièces de rechange et les avis clients pour assurer un achat durable et satisfaisant."
+        "heading": "5. Preis-Leistungs-Verhältnis und Bewertungen",
+        "content": "Vergleichen Sie Preise wie 19.0€ für ein 5er-Pack und prüfen Sie Kundenbewertungen. Hochwertige Akkus bieten mehr Zyklen und Sicherheit. Achten Sie auf Markenreputation und wählen Sie Sets, die ein Ladegerät inkludieren, um Kosten zu sparen. Langfristig zahlt sich Qualität aus."
       }
     ]
   }

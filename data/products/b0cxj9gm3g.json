@@ -1,48 +1,44 @@
 {
   "productId": "B0CXJ9GM3G",
-  "name": "DJI Mini 4K Drone Caméra 4K UHD C0",
-  "slug": "dji-mini-drone-camera-uhd",
-  "description": "<div><p>Découvrez le <strong>DJI Mini 4K</strong>, votre allié aérien ultime pour des prises de vue exceptionnelles. Ce drone caméra 4K UHD, d'un poids inférieur à 249 g, est idéal pour capturer le monde sous un nouvel angle sans contraintes réglementaires. Sa <strong>stabilisation de nacelle à 3 axes</strong> assure des vidéos fluides et stables, même en mouvement, tandis que la <strong>transmission vidéo sur 10 km</strong> vous offre une liberté de création inégalée. Profitez d'une autonomie impressionnante de <strong>31 minutes</strong> avec son temps de vol maximum, vous permettant de couvrir plus de terrain et de raconter des histoires plus riches. Le retour automatique intelligent garantit une sécurité accrue, ramenant votre drone à son point de départ sans effort. Sa <strong>résistance au vent</strong> vous permet de voler dans diverses conditions météorologiques, et les modes <strong>QuickShots</strong> transforment des séquences complexes en chefs-d'œuvre cinématographiques en un clic. Certifié C0, il est parfaitement adapté aux débutants et aux passionnés cherchant la performance sans complication.</p></div>",
-  "shortDescription": "Drone DJI Mini 4K, Caméra 4K UHD, <249g, Nacelle 3 axes, 10km, 31min vol",
-  "price": "269.0",
-  "compareAtPrice": 309,
+  "name": "DJI Mini 4K Drohne 4K UHD Kamera C0 Gimbal",
+  "slug": "dji-mini-drohne-uhd-kamera-gimbal",
+  "description": "<p>Erleben Sie atemberaubende Luftaufnahmen mit der <strong>DJI Mini 4K Drohne</strong>. Ausgestattet mit einer beeindruckenden <strong>4K UHD Kamera</strong> und einer <strong>3-Achsen-Gimbal-Stabilisierung</strong> liefert diese Drohne gestochen scharfe und wackelfreie Videos, selbst bei anspruchsvollen Flugmanövern. Dank ihrer Einstufung als <strong>C0-Klasse Drohne</strong> ist sie ideal für den einfachen und gesetzeskonformen Einstieg in die Welt der Drohnenfotografie und -videografie. Die <strong>QuickShots</strong> Funktionen ermöglichen Ihnen, mit nur einem Fingertipp professionell wirkende Flugrouten und Aufnahmen zu erstellen. Genießen Sie dabei eine zuverlässige Verbindung mit einer <strong>Videoübertragung von bis zu 10 km</strong>. Die intelligente <strong>automatische Rückkehr</strong> Funktion und die <strong>Windstabilisierung</strong> sorgen für zusätzliche Sicherheit und einfaches Handling. Mit einer beeindruckenden <strong>Flugzeit von 31 Minuten</strong> pro Akku und einem Gewicht von <strong>unter 249g</strong>, was sie von der Registrierungspflicht befreit (abhängig von lokalen Gesetzen), ist die DJI Mini 4K Ihr perfekter Begleiter für unvergessliche Momente aus der Vogelperspektive.</p>\n<p>Diese Drohne ist nicht nur ein technisches Meisterwerk, sondern auch ein Werkzeug, das Ihre Kreativität entfesselt. Perfekt für Hobbyisten, Reisebegeisterte und alle, die beeindruckende Inhalte erstellen möchten, ohne sich mit komplexer Technik auseinandersetzen zu müssen. Entdecken Sie die Freiheit des Fliegens und fangen Sie die Welt aus einem neuen Blickwinkel ein!</p>",
+  "shortDescription": "DJI Mini 4K Drohne: 4K UHD, 3-Achsen-Gimbal, C0-Klasse, <249g, 31 Min Flugzeit.",
+  "price": "248.0",
+  "compareAtPrice": 285,
   "images": [
-    "https://m.media-amazon.com/images/I/61WJJIK+AGL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Cvun2bDjL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/71ALD5varEL._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/710CYopos3L._AC_SL1500_.jpg",
-    "https://m.media-amazon.com/images/I/61Dc8VNidzL._AC_SL1500_.jpg"
+    "https://m.media-amazon.com/images/I/61WJJIK+AGL._AC_UL320_.jpg"
   ],
   "videos": [
-    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/b8b550ee-98ee-47b4-ae93-59513f8272cb/default.jobtemplate.hls.m3u8",
-    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/7634423f-14a9-4c14-93be-fdb31224dbac/default.jobtemplate.hls.m3u8"
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/7e7a3709-23b6-4525-9fae-7c289f181544/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/0606a488-39dd-488f-9041-59f4bc432858/default.jobtemplate.hls.m3u8"
   ],
-  "category": "Drones Professionnels",
+  "category": "Drohnen für Anfänger mit Kamera",
   "tags": [
-    "visiter la boutique dji",
-    "drones professionnels"
+    "dji",
+    "drohnen für anfänger mit kamera"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B0CXJ9GM3G/?tag=clickclickh01-21",
+  "amazonUrl": "https://amazon.de/dp/B0CXJ9GM3G/?tag=clickclickh0b-21",
   "amazonASIN": "B0CXJ9GM3G",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "DJI Mini 4K, Drone Caméra 4K UHD, Moins de 249 g, Stabilisation de la Nacelle à 3 Axes, Transmission Vidéo sur 10 km, Retour Auto, Résistance au Vent, Temps de Vol max. de 31 min, C0, QuickShots",
-  "amazonPrice": "269.0€",
-  "amazonRating": 4.5,
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "DJI Mini 4K Drohne mit 4K UHD Kamera Für Erwachsene, 3-Achsen-Gimbal-Stabilisierung, C0, QuickShots, 10 km Videoübertragung, Autom. Rückkehr, Windstabil, 1 Akku (31 min Flugzeit), Unter 249g",
+  "amazonPrice": "248.0€",
+  "amazonRating": 4.6,
   "amazonReviewCount": 0,
-  "brand": "Visiter la boutique DJI",
+  "brand": "DJI",
   "seo": {
-    "title": "DJI Mini 4K Drone Caméra 4K UHD C0",
-    "description": "Drone DJI Mini 4K, Caméra 4K UHD, <249g, Nacelle 3 axes, 10km, 31min vol",
+    "title": "DJI Mini 4K Drohne 4K UHD Kamera C0 Gimbal",
+    "description": "DJI Mini 4K Drohne: 4K UHD, 3-Achsen-Gimbal, C0-Klasse, <249g, 31 Min Flugzeit.",
     "keywords": [
-      "dji mini 4k drone caméra 4k uhd c0",
-      "drones professionnels",
-      "visiter la boutique dji"
+      "dji mini 4k drohne 4k uhd kamera c0 gimbal",
+      "drohnen für anfänger mit kamera",
+      "dji"
     ],
-    "ogTitle": "DJI Mini 4K Drone Caméra 4K UHD C0",
-    "ogDescription": "Drone DJI Mini 4K, Caméra 4K UHD, <249g, Nacelle 3 axes, 10km, 31min vol"
+    "ogTitle": "DJI Mini 4K Drohne 4K UHD Kamera C0 Gimbal",
+    "ogDescription": "DJI Mini 4K Drohne: 4K UHD, 3-Achsen-Gimbal, C0-Klasse, <249g, 31 Min Flugzeit."
   },
   "reviews": {
-    "averageRating": 4.5,
+    "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
       "5": 60,
@@ -53,97 +49,96 @@
     }
   },
   "specifications": {
-    "Poids": "Moins de 249 g",
-    "Caméra": "4K UHD",
-    "Stabilisation": "Nacelle à 3 axes",
-    "Transmission Vidéo": "Jusqu'à 10 km",
-    "Temps de Vol Max.": "31 minutes",
-    "Retour Auto": "Oui",
-    "Résistance au Vent": "Oui",
-    "Modes Intelligents": "QuickShots",
-    "Certification": "C0"
+    "Kameraauflösung": "4K UHD",
+    "Gimbal-Stabilisierung": "3-Achsen",
+    "Drohnenklasse": "C0",
+    "Reichweite Videoübertragung": "10 km",
+    "Flugzeit pro Akku": "31 Minuten",
+    "Max. Startmasse": "Unter 249g",
+    "Besondere Funktionen": "QuickShots, Automatische Rückkehr, Windstabilisierung"
   },
   "faq": [
     {
-      "q": "Le DJI Mini 4K nécessite-t-il une licence ?",
-      "a": "Grâce à son poids inférieur à 249 g, le DJI Mini 4K est généralement dispensé de certaines exigences réglementaires, le rendant accessible sans licence dans la plupart des régions. Vérifiez toujours la législation locale."
+      "q": "Benötige ich eine spezielle Lizenz für die DJI Mini 4K Drohne?",
+      "a": "Da die DJI Mini 4K Drohne unter 249g wiegt, fällt sie in die C0-Klasse. In vielen Regionen bedeutet dies, dass keine Registrierung oder spezielle Lizenz erforderlich ist. Informieren Sie sich jedoch immer über die aktuellen Drohnengesetze in Ihrem Land/Ihrer Region."
     },
     {
-      "q": "Quelle est la qualité d'image du DJI Mini 4K ?",
-      "a": "Le drone est équipé d'une caméra capable de filmer en résolution 4K UHD, offrant des images d'une clarté et d'un détail exceptionnels pour vos projets créatifs."
+      "q": "Wie gut ist die Bildqualität der 4K UHD Kamera?",
+      "a": "Die 4K UHD Kamera liefert detailreiche und lebendige Aufnahmen. In Kombination mit der 3-Achsen-Gimbal-Stabilisierung sind flüssige und professionell wirkende Videos garantiert."
     },
     {
-      "q": "Comment le retour automatique fonctionne-t-il ?",
-      "a": "La fonction de retour automatique (RTH) ramène automatiquement le drone à son point de départ lorsqu'il perd la connexion ou que la batterie est faible, assurant la sécurité de votre appareil."
+      "q": "Ist die Drohne auch für Anfänger geeignet?",
+      "a": "Ja, die DJI Mini 4K ist hervorragend für Anfänger geeignet. Funktionen wie QuickShots, automatische Rückkehr und die einfache Bedienung machen den Einstieg leicht und sicher."
     },
     {
-      "q": "Est-il facile à piloter pour un débutant ?",
-      "a": "Oui, le DJI Mini 4K est conçu pour être intuitif. Les modes QuickShots simplifient la création de plans cinématographiques et sa légèreté le rend facile à manipuler."
+      "q": "Wie lange kann ich mit einem Akku fliegen?",
+      "a": "Mit einem voll aufgeladenen Akku können Sie bis zu 31 Minuten fliegen, was Ihnen ausreichend Zeit für Ihre Aufnahmen gibt."
+    },
+    {
+      "q": "Wie stabil ist die Drohne bei Wind?",
+      "a": "Die DJI Mini 4K verfügt über eine integrierte Windstabilisierung, die für ein stabiles Flugverhalten auch bei moderatem Wind sorgt."
     }
   ],
   "reviewAnalysis": {
     "overall_rating": 4.5,
-    "summary": "Drone compact et performant, idéal pour débuter ou pour des prises de vue créatives.",
+    "summary": "Hervorragende 4K-Drohne für Einsteiger mit beeindruckenden Features.",
     "strengths": [
-      "Légèreté et compacité (< 249g)",
-      "Excellente qualité vidéo 4K UHD",
-      "Stabilisation de nacelle très efficace",
-      "Longue portée de transmission vidéo",
-      "Autonomie de vol généreuse"
+      "Exzellente 4K-Kamera mit 3-Achsen-Gimbal",
+      "Geringes Gewicht (<249g) und C0-Klasse für einfache Nutzung",
+      "Lange Flugzeit und gute Reichweite",
+      "Benutzerfreundliche Funktionen wie QuickShots"
     ],
     "weaknesses": [
-      "Moins robuste dans des conditions de vent extrêmes par rapport à des modèles plus lourds",
-      "Fonctionnalités avancées limitées pour les professionnels très exigeants"
+      "Keine Hinderniserkennung (typisch für diese Gewichtsklasse)"
     ],
-    "detailed_review": "Le DJI Mini 4K s'impose comme une référence incontournable pour quiconque cherche à explorer le monde de la photographie et de la vidéographie aérienne sans complication. Son poids plume (< 249g) le rend extrêmement accessible, évitant ainsi de nombreuses contraintes réglementaires et le rendant parfait pour des déplacements aisés. La caméra 4K UHD capture des images d'une qualité stupéfiante, rivalisant avec des drones bien plus imposants. La stabilisation de nacelle à 3 axes est tout simplement remarquable, garantissant des séquences d'une fluidité professionnelle, même lorsque le drone est en mouvement ou dans des environnements légèrement perturbés. La portée de transmission vidéo de 10 km est impressionnante et ouvre des perspectives créatives considérables. L'autonomie de 31 minutes est un atout majeur, permettant d'enrichir considérablement vos reportages ou vos aventures. La résistance au vent est correcte pour sa catégorie, le rendant apte à voler dans des conditions météorologiques variables. Les modes QuickShots, quant à eux, transforment instantanément des mouvements de caméra complexes en séquences cinématographiques, rendant la création de contenu spectaculaire accessible à tous. La fonction de retour automatique procure une tranquillité d'esprit appréciable, surtout pour les nouveaux pilotes. Certifié C0, il est synonyme de simplicité et de conformité.",
-    "recommendation": "Fortement recommandé pour les créateurs de contenu débutants et intermédiaires, les familles désirant capturer des moments précieux, et les voyageurs souhaitant immortaliser leurs périples sous un angle unique.",
-    "value_for_money": "Excellent",
+    "detailed_review": "Die DJI Mini 4K ist eine beeindruckende Drohne, die speziell für Einsteiger und Hobbyisten entwickelt wurde, aber auch anspruchsvolle Nutzer begeistern wird. Die 4K UHD-Kamera liefert in Verbindung mit der 3-Achsen-Gimbal-Stabilisierung gestochen scharfe und butterweiche Aufnahmen, die sich sehen lassen können. Mit einem Gewicht von unter 249g und der C0-Klassifizierung ist sie legal und unkompliziert zu nutzen, was den Einstieg erheblich erleichtert. Die Flugzeit von 31 Minuten ist für diese Klasse beachtlich und ermöglicht längere Aufnahmesessions. Die Reichweite von 10 km für die Videoübertragung ist ebenfalls ein großer Pluspunkt, der mehr Freiheit beim Erkunden bietet. Besonders hervorzuheben sind die intelligenten Flugmodi wie QuickShots, die das Erstellen von dynamischen Videos zum Kinderspiel machen. Die automatische Rückkehrfunktion und die Windstabilisierung erhöhen die Sicherheit und das Vertrauen im Flug. Lediglich die fehlende Hinderniserkennung ist ein kleiner Kompromiss, der aber bei dieser Preisklasse und Gewichtsklasse üblich ist und durch aufmerksames Fliegen ausgeglichen werden kann.",
+    "recommendation": "Absolut empfehlenswert für alle, die hochwertige Luftaufnahmen ohne große Komplexität und Kosten möchten.",
+    "value_for_money": "Sehr gut",
     "final_verdict": {
-      "overall_assessment": "Excellent compromis entre qualité vidéo et accessibilité pour le grand public.",
+      "overall_assessment": "Exzellenter Kompromiss zwischen Qualität und Zugänglichkeit.",
       "key_technical_specifications_features": [
-        "Caméra 4K UHD avec stabilisation 3 axes",
-        "Portée de transmission de 10 km",
-        "Autonomie de vol de 31 minutes",
-        "Légèreté (< 249g) et certification C0"
+        "4K UHD Kamera mit 3-Achsen-Gimbal-Stabilisierung",
+        "Unter 249g und C0-Klasse",
+        "10 km Videoübertragung und 31 Min. Flugzeit"
       ],
-      "points_to_consider_user_feedback": "Les utilisateurs apprécient particulièrement la facilité de prise en main et la qualité des images produites. Quelques retours mentionnent une sensibilité accrue au vent fort par rapport à des modèles plus robustes, mais cela reste conforme à sa catégorie de poids.",
-      "final_recommendation": "Investissement judicieux pour ceux qui recherchent un drone performant et facile à utiliser, offrant un rapport qualité-prix exceptionnel pour démarrer ou perfectionner ses compétences en prise de vue aérienne.",
-      "target_audience_identification": "Particulièrement adapté aux familles, aux vlogueurs, aux voyageurs, aux amateurs de photographie et vidéographie, ainsi qu'aux débutants dans le monde des drones."
+      "points_to_consider_user_feedback": "Nutzer loben die einfache Bedienung und die Bildqualität, weisen aber auf die Notwendigkeit achtsamen Fliegens mangels Hinderniserkennung hin.",
+      "final_recommendation": "Eine überlegte Investition mit einem hervorragenden Preis-Leistungs-Verhältnis für ambitionierte Einsteiger und Gelegenheitsnutzer.",
+      "target_audience_identification": "Familien, Reisebegeisterte, Hobby-Filmer und alle, die ohne teure Ausrüstung oder komplizierte Lizenzen hochwertige Luftaufnahmen machen möchten."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Capture 4K UHD Révolutionnaire",
-        "description": "Immortalisez vos souvenirs avec une clarté inégalée.",
-        "expanded_content": "Équipé d'une caméra 4K UHD, le DJI Mini 4K offre des images d'une netteté et d'une richesse de détails exceptionnelles, parfaites pour vos créations professionnelles ou personnelles."
+        "title": "4K UHD Kamera",
+        "description": "Erfassen Sie jedes Detail in brillanter Auflösung.",
+        "expanded_content": "Die integrierte 4K UHD Kamera ermöglicht es Ihnen, Videos in höchster Auflösung und Fotos mit beeindruckender Detailgenauigkeit aufzunehmen. Halten Sie Ihre Erinnerungen in lebendigen Farben und scharfen Konturen fest."
       },
       {
         "step": 2,
-        "title": "Stabilisation de Nacelle Infaillible",
-        "description": "Des vidéos fluides, même en mouvement.",
-        "expanded_content": "La nacelle mécanique à 3 axes garantit une stabilité remarquable des images, éliminant les vibrations et les tremblements pour des séquences cinématographiques professionnelles."
+        "title": "3-Achsen-Gimbal-Stabilisierung",
+        "description": "Für wackelfreie und professionelle Aufnahmen.",
+        "expanded_content": "Die fortschrittliche 3-Achsen-Gimbal-Technologie gleicht Vibrationen und Bewegungen während des Fluges aus und sorgt so für unglaublich stabile und flüssige Aufnahmen, die professionellen Standards entsprechen."
       },
       {
         "step": 3,
-        "title": "Liberté de Vol Étendue",
-        "description": "Explorez et filmez jusqu'à 10 km de distance.",
-        "expanded_content": "Grâce à sa technologie de transmission vidéo avancée, profitez d'une portée impressionnante de 10 km, vous permettant de repousser les limites de votre créativité sans perdre le signal."
+        "title": "C0-Klasse & Unter 249g",
+        "description": "Einfacher Einstieg ohne Registrierungspflicht.",
+        "expanded_content": "Mit einem Gewicht von unter 249g und der Klassifizierung als C0-Drohne ist die DJI Mini 4K in vielen Ländern von Registrierungs- und Lizenzpflichten befreit, was den sofortigen und unkomplizierten Einstieg in die Drohnenfotografie ermöglicht."
       },
       {
         "step": 4,
-        "title": "Autonomie pour Capturer Chaque Instant",
-        "description": "Volez jusqu'à 31 minutes sans interruption.",
-        "expanded_content": "Avec un temps de vol maximum de 31 minutes, le DJI Mini 4K vous offre amplement le temps de réaliser vos plans, de survoler de vastes paysages et de raconter votre histoire en toute sérénité."
+        "title": "QuickShots & Intelligente Flugmodi",
+        "description": "Kreieren Sie beeindruckende Videos mit einem Fingertipp.",
+        "expanded_content": "Nutzen Sie vordefinierte Flugmanöver wie Dronie, Kreisen oder Helix, um automatisch professionell aussehende Videos zu erstellen. Diese Funktionen erleichtern das Erfassen dynamischer Luftaufnahmen, selbst für unerfahrene Piloten."
       },
       {
         "step": 5,
-        "title": "Simplicité et Sécurité Intégrées",
-        "description": "Modes intelligents et retour automatique pour une expérience utilisateur optimale.",
-        "expanded_content": "Les modes QuickShots automatisent des manœuvres complexes pour des résultats spectaculaires, tandis que le retour automatique assure la sécurité de votre drone. Sa légèreté (< 249g) et sa certification C0 le rendent idéal pour tous."
+        "title": "10 km Videoübertragung & 31 Min. Flugzeit",
+        "description": "Große Reichweite und lange Flugdauer für maximale Flexibilität.",
+        "expanded_content": "Die leistungsstarke OcuSync 3 (O3)-Übertragungstechnologie ermöglicht eine stabile und klare Videoübertragung über eine Distanz von bis zu 10 km. Mit einer Flugzeit von 31 Minuten pro Akku haben Sie mehr als genug Zeit, um Ihre kreativen Ideen umzusetzen."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:53:55.070523",
-  "originalName": "DJI Mini 4K, Drone Caméra 4K UHD, Moins de 249 g, Stabilisation de la Nacelle à 3 Axes, Transmission Vidéo sur 10 km, Retour Auto, Résistance au Vent, Temps de Vol max. de 31 min, C0, QuickShots",
+  "enhancedAt": "2025-10-21T15:17:31.213940",
+  "originalName": "DJI Mini 4K Drohne mit 4K UHD Kamera Für Erwachsene, 3-Achsen-Gimbal-Stabilisierung, C0, QuickShots, 10 km Videoübertragung, Autom. Rückkehr, Windstabil, 1 Akku (31 min Flugzeit), Unter 249g",
   "enhanced": true
 }

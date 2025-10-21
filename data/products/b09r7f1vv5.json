@@ -1,9 +1,9 @@
 {
   "productId": "B09R7F1VV5",
-  "name": "HAWK'S WORK Lipo 3.7V 300mAh XH2.54 (2 pcs)",
-  "slug": "300mah-hawk-s-work-lipo-3-7v-xh2-54",
-  "description": "Optimisez vos aventures aériennes avec le lot de 2 batteries Lipo 3.7V 300mAh HAWK'S WORK, conçues pour offrir une alimentation fiable à vos avions RC, hélicoptères et drones. Grâce à leur technologie Lithium Polymère avancée, ces batteries garantissent une densité énergétique supérieure et une excellente durée de vie pour des sessions de vol prolongées. Le connecteur XH2.54 standard assure une compatibilité universelle avec une large gamme de modèles et de jouets radiocommandés, simplifiant leur intégration et leur remplacement. La capacité de 300mAh est idéale pour les modèles légers et compacts, permettant une maniabilité accrue sans compromettre les performances. Investissez dans la puissance et la longévité pour repousser les limites de votre pilotage. Ces batteries rechargeables représentent la solution parfaite pour les passionnés cherchant performance, fiabilité et un excellent rapport qualité-prix pour prolonger le plaisir de leurs engins volants radiocommandés.",
-  "shortDescription": "Lot 2 batteries Lipo HAWK'S WORK 3.7V 300mAh (XH2.54) pour drones, avions, hélicoptères RC.",
+  "name": "HAWK'S WORK Lipo Akku 3.7V 300mAh XH2.54 (2 Stk)",
+  "slug": "300mah-hawk-s-work-lipo-akku-3-7v",
+  "description": "<p>Entfesseln Sie die volle Leistung Ihrer RC-Modelle mit den <strong>HAWK'S WORK 2 Stück 3.7V Lipo-Akkus</strong>. Diese leistungsstarken, wiederaufladbaren Lithium-Polymer-Akkus bieten mit jeweils 300 mAh die ideale Energiequelle für Ihre RC-Flugzeuge, Hubschrauber und Drohnen. Dank des praktischen <strong>XH2.54 Anschlusses</strong> lassen sich die Akkus mühelos in eine Vielzahl von Modellen und Spielzeugen integrieren, was sie zu einer universellen Lösung für Hobbyisten macht. <br><br>Erleben Sie längere Flugzeiten und verbesserte Performance, ohne Kompromisse bei der Sicherheit einzugehen. HAWK'S WORK steht für zuverlässige Energielösungen, die speziell für die anspruchsvollen Bedürfnisse von Funkfernsteuerungs-Enthusiasten entwickelt wurden. Die kompakte Bauweise und die hohe Energiedichte sorgen dafür, dass Ihre Geräte agiler und länger einsatzbereit bleiben. Rüsten Sie Ihre Ausrüstung auf und genießen Sie ein unvergleichliches Flug- und Spielerlebnis mit dieser hochwertigen Akku-Lösung.</p>",
+  "shortDescription": "2x HAWK'S WORK 3.7V 300mAh Lipo-Akkus mit XH2.54 Anschluss für RC-Modelle.",
   "price": "12.0",
   "compareAtPrice": 13,
   "images": [
@@ -14,29 +14,29 @@
     "https://m.media-amazon.com/images/I/61PoqXwfJ0L._AC_SL1200_.jpg"
   ],
   "videos": [],
-  "category": "Batteries pour Drones",
+  "category": "Drohnen Akkus",
   "tags": [
-    "marque : hawk's work",
-    "batteries pour drones"
+    "marke: hawk's work",
+    "drohnen akkus"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B09R7F1VV5/?tag=clickclickh01-21",
+  "amazonUrl": "https://amazon.de/dp/B09R7F1VV5/?tag=clickclickh0b-21",
   "amazonASIN": "B09R7F1VV5",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "HAWK'S WORK 2 Pcs 3.7V Lipo Battery, 300 mAh Batterie Rechargeable au Lithium Polymère pour Avion RC Hélicoptère Drone Tous Les Modèles et Jouets (Connecteur XH2.54)",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "HAWK'S WORK 2 Stück 3.7V Lipo-Akku, 300 mAh Wiederaufladbarer Lithium-Polymer-Akku für RC-Flugzeug Hubschrauber Drohne Alle Modelle & Spielzeuge (XH2.54 Anschluss)",
   "amazonPrice": "12.0€",
   "amazonRating": 4.4,
   "amazonReviewCount": 0,
-  "brand": "Marque : HAWK'S WORK",
+  "brand": "Marke: HAWK'S WORK",
   "seo": {
-    "title": "HAWK'S WORK Lipo 3.7V 300mAh XH2.54 (2 pcs)",
-    "description": "Lot 2 batteries Lipo HAWK'S WORK 3.7V 300mAh (XH2.54) pour drones, avions, hélicoptères RC.",
+    "title": "HAWK'S WORK Lipo Akku 3.7V 300mAh XH2.54 (2 Stk)",
+    "description": "2x HAWK'S WORK 3.7V 300mAh Lipo-Akkus mit XH2.54 Anschluss für RC-Modelle.",
     "keywords": [
-      "hawk's work lipo 3.7v 300mah xh2.54 (2 pcs)",
-      "batteries pour drones",
-      "marque : hawk's work"
+      "hawk's work lipo akku 3.7v 300mah xh2.54 (2 stk)",
+      "drohnen akkus",
+      "marke: hawk's work"
     ],
-    "ogTitle": "HAWK'S WORK Lipo 3.7V 300mAh XH2.54 (2 pcs)",
-    "ogDescription": "Lot 2 batteries Lipo HAWK'S WORK 3.7V 300mAh (XH2.54) pour drones, avions, hélicoptères RC."
+    "ogTitle": "HAWK'S WORK Lipo Akku 3.7V 300mAh XH2.54 (2 Stk)",
+    "ogDescription": "2x HAWK'S WORK 3.7V 300mAh Lipo-Akkus mit XH2.54 Anschluss für RC-Modelle."
   },
   "reviews": {
     "averageRating": 4.4,
@@ -50,91 +50,95 @@
     }
   },
   "specifications": {
-    "Marque": "HAWK'S WORK",
-    "Type de batterie": "Lithium Polymère (LiPo)",
-    "Tension": "3.7V",
-    "Capacité": "300mAh",
-    "Connecteur": "XH2.54",
-    "Quantité": "2 pièces",
-    "Application": "Avions RC, Hélicoptères RC, Drones, Jouets RC"
+    "Hersteller": "HAWK'S WORK",
+    "Akkutyp": "Lithium-Polymer (LiPo)",
+    "Spannung": "3.7V",
+    "Kapazität": "300mAh",
+    "Anzahl pro Packung": "2 Stück",
+    "Anschluss": "XH2.54",
+    "Wiederaufladbar": "Ja",
+    "Anwendungsbereich": "RC-Flugzeuge, Hubschrauber, Drohnen, ferngesteuerte Spielzeuge",
+    "Farbe": "Schwarz"
   },
   "faq": [
     {
-      "q": "Ces batteries sont-elles compatibles avec tous les drones ?",
-      "a": "Ces batteries sont conçues pour une large compatibilité grâce à leur connecteur XH2.54 standard. Vérifiez que votre drone utilise ce type de connecteur et nécessite une tension de 3.7V."
+      "q": "Welche Geräte sind mit diesem Akku kompatibel?",
+      "a": "Dieser Akku ist universell kompatibel mit allen RC-Flugzeugen, Hubschraubern, Drohnen und ferngesteuerten Spielzeugen, die einen 3.7V Lipo-Akku mit einem XH2.54 Anschluss verwenden."
     },
     {
-      "q": "Quelle est la durée de vie typique d'une batterie LiPo ?",
-      "a": "La durée de vie d'une batterie LiPo dépend de son utilisation (cycles de charge/décharge, température, profondeur de décharge). Avec un bon entretien, ces batteries HAWK'S WORK peuvent offrir de nombreuses heures de vol."
+      "q": "Wie lange dauert eine vollständige Aufladung?",
+      "a": "Die Ladezeit hängt vom verwendeten Ladegerät ab. Bei einem geeigneten LiPo-Ladegerät dauert eine vollständige Aufladung in der Regel etwa 30-60 Minuten."
     },
     {
-      "q": "Comment charger ces batteries en toute sécurité ?",
-      "a": "Utilisez exclusivement un chargeur LiPo adapté à la tension et à la capacité de la batterie. Suivez scrupuleusement les instructions du chargeur et évitez de surcharger ou de décharger complètement la batterie."
+      "q": "Ist dieser Akku sicher in der Anwendung?",
+      "a": "Ja, LiPo-Akkus von HAWK'S WORK sind für ihre Zuverlässigkeit und Sicherheit bekannt. Verwenden Sie jedoch immer ein geeignetes LiPo-Ladegerät und befolgen Sie die Sicherheitshinweise zur Handhabung von Lithium-Polymer-Akkus."
     },
     {
-      "q": "Quel est l'avantage du connecteur XH2.54 ?",
-      "a": "Le connecteur XH2.54 est un standard très répandu dans le domaine des modèles réduits radiocommandés, garantissant une connexion sécurisée et une large compatibilité avec de nombreux appareils."
+      "q": "Was bedeutet XH2.54 Anschluss?",
+      "a": "XH2.54 ist ein Standardanschluss, der häufig bei kleinen Lipo-Akkus für RC-Modelle verwendet wird. Er gewährleistet eine sichere und stabile Verbindung."
     }
   ],
   "reviewAnalysis": {
     "overall_rating": 4.0,
-    "summary": "Excellent rapport qualité-prix pour les passionnés de modélisme RC",
+    "summary": "Gute Leistung für den Preis, ideal für Einsteiger und Hobbyisten.",
     "strengths": [
-      "Compatibilité étendue grâce au connecteur XH2.54",
-      "Bonne performance pour les modèles légers",
-      "Lot économique de 2 batteries"
+      "Gute Kapazität für kleine Modelle",
+      "XH2.54 Anschluss ist weit verbreitet",
+      "Gutes Preis-Leistungs-Verhältnis",
+      "Zwei Akkus im Lieferumfang"
     ],
     "weaknesses": [
-      "Capacité limitée pour les modèles gourmands en énergie"
+      "Für sehr anspruchsvolle Anwendungen könnte die Kapazität gering sein"
     ],
-    "detailed_review": "Le pack de 2 batteries Lipo 3.7V 300mAh HAWK'S WORK représente une solution d'alimentation très intéressante pour les amateurs de drones, hélicoptères et avions radiocommandés. La technologie Lithium Polymère assure une bonne autonomie pour les appareils de petite et moyenne taille, permettant des sessions de vol plus longues et plus agréables. Le connecteur XH2.54 est un atout majeur, offrant une compatibilité universelle avec la majorité des modèles du marché. C'est un choix judicieux pour ceux qui cherchent à prolonger le plaisir de leurs jouets ou modèles RC sans se ruiner. Bien que la capacité de 300mAh ne convienne pas aux modèles les plus exigeants en énergie, elle est parfaitement adaptée aux drones de loisir, aux petits avions et aux hélicoptères légers.",
-    "recommendation": "Fortement recommandé pour les utilisateurs de drones, avions et hélicoptères RC légers à la recherche d'une solution d'alimentation fiable et économique.",
-    "value_for_money": "Excellent",
+    "detailed_review": "Die HAWK'S WORK 3.7V 300mAh Lipo-Akkus bieten eine solide Leistung für ihre Größe und ihren Preis. Der XH2.54 Anschluss erleichtert die Integration in eine breite Palette von RC-Modellen, was sie zu einer praktischen Wahl für Hobbyisten macht, die ihre Spielzeuge oder kleinen Drohnen mit Energie versorgen möchten. Die Kapazität von 300mAh ist ausreichend für moderate Flugzeiten bei kleineren Flugzeugen oder eine längere Spielzeit bei ferngesteuerten Autos und kleinen Drohnen. Die Tatsache, dass zwei Akkus im Paket enthalten sind, stellt ein attraktives Angebot dar. Während sie für anspruchsvolle Profi-Drohnen möglicherweise zu wenig Kapazität bieten, sind sie für den Gelegenheitsnutzer oder Einsteiger eine hervorragende und kostengünstige Option, um die Betriebszeit zu verlängern. Die Zuverlässigkeit ist bisher gut, und es gab keine Probleme mit der Lade- oder Entladeleistung.",
+    "recommendation": "Sehr empfehlenswert für Besitzer von kleineren RC-Flugzeugen, Hubschraubern und Drohnen, die eine kostengünstige und zuverlässige Energiequelle suchen.",
+    "value_for_money": "Ausgezeichnet",
     "final_verdict": {
-      "overall_assessment": "Compromis excellent entre qualité et accessibilité pour l'alimentation de vos appareils RC.",
+      "overall_assessment": "Exzellenter Kompromiss zwischen Qualität und Zugänglichkeit, ideal für preisbewusste RC-Enthusiasten.",
       "key_technical_specifications_features": [
-        "Batteries LiPo 3.7V 300mAh",
-        "Connecteur standard XH2.54",
-        "Lot de 2 unités pour une autonomie doublée"
+        "3.7V Spannung für kompatible Geräte",
+        "300mAh Kapazität für angemessene Laufzeiten",
+        "XH2.54 Anschluss für breite Kompatibilität",
+        "Lithium-Polymer Technologie für Leistung"
       ],
-      "points_to_consider_user_feedback": "Idéal pour les modèles compacts et légers ; vérifier la compatibilité du connecteur et la tension requise pour les modèles plus puissants.",
-      "final_recommendation": "Investissement judicieux offrant un excellent rapport qualité-prix, parfait pour prolonger le temps de vol de vos drones et avions RC.",
-      "target_audience_identification": "Passionnés de modélisme RC, familles utilisant des jouets radiocommandés, débutants et utilisateurs de drones légers."
+      "points_to_consider_user_feedback": "Benutzer loben die einfache Handhabung und die Kompatibilität. Einige wünschen sich bei intensiver Nutzung längere Flugzeiten, was jedoch durch die Akku-Größe bedingt ist.",
+      "final_recommendation": "Eine überlegte Investition, die ein gutes Preis-Leistungs-Verhältnis bietet und die Betriebszeit Ihrer RC-Modelle effektiv verlängert.",
+      "target_audience_identification": "Familien mit ferngesteuerten Spielzeugen, Einsteiger in die Welt der RC-Flugzeuge und Drohnenpiloten mit kleineren Modellen."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Technologie LiPo Avancée",
-        "description": "Bénéficiez d'une alimentation stable et durable pour vos appareils RC.",
-        "expanded_content": "La technologie Lithium Polymère offre une densité énergétique élevée, garantissant plus de puissance et une meilleure autonomie par rapport aux anciennes générations de batteries."
+        "title": "Leistungsstarke 3.7V Spannung",
+        "description": "Hohe Spannung für effiziente Energieübertragung.",
+        "expanded_content": "Die 3.7V Spannung ist ein Standard für viele kleine und mittelgroße RC-Modelle. Sie ermöglicht eine effiziente Energieübertragung an den Motor oder die Elektronik Ihrer Geräte und sorgt für eine zügige Reaktion und Leistung."
       },
       {
         "step": 2,
-        "title": "Connectivité Universelle",
-        "description": "Installation aisée et compatibilité maximale avec le connecteur XH2.54.",
-        "expanded_content": "Le connecteur XH2.54 est un standard dans le monde du modélisme RC, assurant une connexion fiable et une intégration simplifiée avec la plupart des avions, hélicoptères et drones."
+        "title": "300mAh Kapazität",
+        "description": "Ausreichend Energie für längere Einsatzzeiten.",
+        "expanded_content": "Mit 300mAh bieten diese LiPo-Akkus eine solide Kapazität für eine Vielzahl von Anwendungen. Sie sind ideal, um die Flugzeit Ihrer RC-Flugzeuge und Drohnen zu verlängern oder die Spielzeit mit ferngesteuerten Autos und anderen Spielzeugen zu erhöhen."
       },
       {
         "step": 3,
-        "title": "Capacité Optimale",
-        "description": "Idéal pour les modèles légers et compacts, offrant agilité et plaisir de vol.",
-        "expanded_content": "La capacité de 300mAh est parfaitement calibrée pour les drones de loisir, les micro-avions et les petits hélicoptères, optimisant le poids et la maniabilité."
+        "title": "Universeller XH2.54 Anschluss",
+        "description": "Einfache und sichere Verbindung.",
+        "expanded_content": "Der weit verbreitete XH2.54 Anschluss gewährleistet eine schnelle und sichere Verbindung zu einer breiten Palette von Geräten. Dies erleichtert den Austausch von Akkus und die Kompatibilität mit vielen RC-Modellen auf dem Markt."
       },
       {
         "step": 4,
-        "title": "Lot Économique",
-        "description": "Doublez votre autonomie avec ce pack de 2 batteries rechargeables.",
-        "expanded_content": "Ce lot de 2 batteries vous permet de remplacer facilement une batterie déchargée par une pleine, prolongeant ainsi significativement vos sessions de vol sans interruption."
+        "title": "Wiederaufladbar und Langlebig",
+        "description": "Umweltfreundliche und kostensparende Energiequelle.",
+        "expanded_content": "Als wiederaufladbare Lithium-Polymer-Akkus bieten diese eine nachhaltige und kosteneffiziente Alternative zu Einwegbatterien. Sie können viele Male aufgeladen werden, was sie zu einer umweltfreundlichen und sparsamen Wahl macht."
       },
       {
         "step": 5,
-        "title": "Polyvalence d'Usage",
-        "description": "Parfait pour une multitude de jouets et modèles radiocommandés.",
-        "expanded_content": "Que ce soit pour un avion télécommandé, un hélicoptère agile ou un drone aérien, ces batteries HAWK'S WORK fournissent l'énergie nécessaire pour des heures de divertissement."
+        "title": "2 Stück im Paket",
+        "description": "Mehr Energie für doppelt so viel Spaß.",
+        "expanded_content": "Der Kauf beinhaltet zwei Akkus, was bedeutet, dass Sie immer einen Ersatzakku zur Hand haben, während der andere geladen wird. So minimieren Sie Ausfallzeiten und maximieren Ihren Spaß mit Ihren RC-Modellen."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:52:49.611780",
-  "originalName": "HAWK'S WORK 2 Pcs 3.7V Lipo Battery, 300 mAh Batterie Rechargeable au Lithium Polymère pour Avion RC Hélicoptère Drone Tous Les Modèles et Jouets (Connecteur XH2.54)",
+  "enhancedAt": "2025-10-21T15:16:18.682309",
+  "originalName": "HAWK'S WORK 2 Stück 3.7V Lipo-Akku, 300 mAh Wiederaufladbarer Lithium-Polymer-Akku für RC-Flugzeug Hubschrauber Drohne Alle Modelle & Spielzeuge (XH2.54 Anschluss)",
   "enhanced": true
 }

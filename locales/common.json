@@ -1,205 +1,205 @@
 {
   "siteConfig": {
-    "language": "fr",
-    "locale": "fr-FR"
+    "language": "de",
+    "locale": "de-DE"
   },
   "categories": {
-    "title": "Catégories de drones",
+    "title": "Drohnen-Kategorien",
     "hero": {
-      "title": "Trouvez les drones parfaits pour vous",
-      "subtitle": "Découvrez notre grande sélection de drones de haute qualité"
+      "title": "Finden Sie die perfekte Drohne für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Drohnen"
     },
-    "subtitle": "Explorez nos catégories spécialisées de drones",
-    "helpDescription": "Notre équipe d'experts vous aide à trouver les drones parfaits"
+    "subtitle": "Erkunden Sie unsere spezialisierten Drohnen-Kategorien",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte Drohne zu finden"
   },
-  "siteName": "Vos drones parfaits",
-  "companyName": "Drones SARL",
-  "products": "Drones",
-  "productNotFound": "Drone non trouvé",
+  "siteName": "Ihre perfekte Drohne",
+  "companyName": "Drohnen GmbH",
+  "products": "Drohnen",
+  "productNotFound": "Drohne nicht gefunden",
   "support": {
-    "title": "Service client",
-    "subtitle": "Nous sommes là pour vous aider avec toutes vos questions sur nos drones",
-  "faq": {
-    "title": "Questions fréquemment posées",
-    "categoryTitle": "Questions fréquemment posées",
-    "subtitle": "Trouvez rapidement des réponses à vos questions sur nos drones, livraison, retours et plus.",
-      "contactCta": "Vous ne trouvez pas de réponse à votre question ?",
-      "contactTeam": "Contactez notre équipe",
-      "sendEmail": "Envoyer un e-mail",
-    "questions": [
-      {
-        "id": "1",
-        "question": "Combien de temps dure la qualité des drones ?",
-        "answer": "Nos drones ont une construction durable qui peut durer de 3 à 7 ans selon le modèle. Ils sont optimisés pour un vol efficace et garantissent des résultats de vol exceptionnels à chaque utilisation."
+    "title": "Kundenservice",
+    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Drohnen zu beantworten",
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "categoryTitle": "Häufig gestellte Fragen",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Drohnen, Lieferung, Rücksendungen und mehr.",
+      "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
+      "contactTeam": "Kontaktieren Sie unser Team",
+      "sendEmail": "E-Mail senden",
+      "questions": [
+        {
+          "id": "1",
+          "question": "Wie lange hält die Qualität von Drohnen?",
+          "answer": "Unsere Drohnen sind langlebig gebaut und können je nach Modell 3 bis 7 Jahre halten. Sie sind für effizienten Flug optimiert und garantieren bei jeder Nutzung hervorragende Flugergebnisse."
+        },
+        {
+          "id": "2",
+          "question": "Sind die Drohnen sicher?",
+          "answer": "Absolut. Alle unsere Drohnen entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und robuste Komponenten."
+        },
+        {
+          "id": "3",
+          "question": "Wie funktioniert der kostenlose Versand?",
+          "answer": "Der Versand ist für alle Bestellungen ab 50 € in Deutschland kostenlos. Wir versenden innerhalb von 24 Stunden (Werktage) mit Sendungsverfolgung. Für Bestellungen unter 50 € betragen die Versandkosten 4,90 €. Lieferung in 2-3 Werktagen."
+        },
+        {
+          "id": "4",
+          "question": "Kann ich Drohnen zurückgeben, wenn ich nicht zufrieden bin?",
+          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die Drohne in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+        },
+        {
+          "id": "5",
+          "question": "Wie bediene ich die Drohnen?",
+          "answer": "Unsere Drohnen sind sehr einfach zu bedienen. Sie müssen die Drohne nur einschalten, die gewünschte Fluggeschwindigkeit wählen und den Flug genießen. Nach dem Flug schalten Sie sie einfach aus. Ein Timer zeigt die verbleibende Flugzeit an."
+        },
+        {
+          "id": "6",
+          "question": "Welche Geschwindigkeitsstufen gibt es?",
+          "answer": "Die meisten unserer Drohnen bieten verschiedene Geschwindigkeitsstufen von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstgeschwindigkeit ist für perfekte Flüge in allen Umgebungen optimiert."
+        },
+        {
+          "id": "7",
+          "question": "Gibt es eine Garantie auf die Drohnen?",
+          "answer": "Alle unsere Drohnen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        },
+        {
+          "id": "8",
+          "question": "Wie reinige und pflege ich meine Drohnen?",
+          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Propeller können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Drohnen regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+        }
+      ],
+      "deliveryTime": {
+        "question": "Wie lange dauert die Lieferung?",
+        "answer": "Die Lieferzeiten hängen von Ihrem Standort ab. Für Deutschland beträgt die Standardlieferung 2-3 Werktage. Für andere europäische Länder beträgt die Lieferzeit 3-5 Werktage. Bestellungen werden innerhalb von 24 Stunden (Werktage) bearbeitet, und Sie erhalten eine Bestätigungs-E-Mail mit der Sendungsverfolgungsnummer."
       },
-      {
-        "id": "2",
-        "question": "Les drones sont-ils sûrs ?",
-        "answer": "Absolument. Tous nos drones respectent les normes de sécurité européennes les plus strictes (CE, RoHS). Ils disposent de systèmes de sécurité avancés, de matériaux de haute qualité et sont fabriqués avec des composants robustes."
+      "returns": {
+        "question": "Wie lautet die Rückgabepolitik?",
+        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Drohnen in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
       },
-      {
-        "id": "3",
-        "question": "Comment fonctionne la livraison gratuite ?",
-        "answer": "La livraison est gratuite pour toutes les commandes à partir de 50€ en France. Nous expédions dans les 24 heures (jours ouvrables) avec suivi de colis. Pour les commandes inférieures à 50€, les frais de port sont de 4,90€. Livraison en 2-3 jours ouvrables."
+      "warranty": {
+        "question": "Welche Garantie haben die Drohnen?",
+        "answer": "Alle unsere Drohnen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
       },
-      {
-        "id": "4",
-        "question": "Puis-je retourner les drones si je ne suis pas satisfait ?",
-        "answer": "Oui, nous offrons une garantie de satisfaction de 30 jours ou une garantie de remboursement. Si vous n'êtes pas entièrement satisfait de votre achat, vous pouvez retourner le drone dans son emballage d'origine pour un remboursement complet."
+      "payment": {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Wir akzeptieren alle gängigen Kredit- und Debitkarten (Visa, Mastercard, American Express), PayPal, Banküberweisung und Zahlung bei Lieferung. Alle Zahlungen werden sicher über Amazon abgewickelt und gewährleisten maximale Sicherheit für Ihre Transaktionen."
       },
-      {
-        "id": "5",
-        "question": "Comment utiliser les drones ?",
-        "answer": "Nos drones sont très faciles à utiliser. Vous devez simplement allumer le drone, choisir la vitesse de vol souhaitée et profiter du vol. Après le vol, vous pouvez simplement l'éteindre. Un minuteur vous montre le temps de vol restant."
-      },
-      {
-        "id": "6",
-        "question": "Quels niveaux de vitesse sont disponibles ?",
-        "answer": "La plupart de nos drones offrent différents niveaux de vitesse de doux à intense, généralement réglables en plusieurs étapes. Certains modèles premium offrent un réglage continu. La vitesse maximale est optimisée pour un vol parfait dans tous les environnements."
-      },
-      {
-        "id": "7",
-        "question": "Y a-t-il une garantie sur les drones ?",
-        "answer": "Tous nos drones sont couverts par une garantie du fabricant de 2 ans qui couvre les défauts de fabrication. Cette garantie complète vos droits légaux de consommateur. Pour faire valoir la garantie, conservez votre facture et contactez notre service client."
-      },
-      {
-        "id": "8",
-        "question": "Comment nettoyer et entretenir mes drones ?",
-        "answer": "L'entretien est très simple : utilisez un chiffon doux et légèrement humide pour nettoyer l'extérieur. Évitez les produits chimiques agressifs. Pour les hélices, vous pouvez les laver à l'eau tiède et au savon. Vérifiez régulièrement les drones et nettoyez-les selon les instructions du fabricant."
+      "tracking": {
+        "question": "Wie kann ich meine Bestellung verfolgen?",
+        "answer": "Sobald Ihre Bestellung bearbeitet wurde, erhalten Sie eine Bestätigungs-E-Mail mit der Sendungsverfolgungsnummer. Sie können Ihr Paket direkt auf der Amazon-Website oder mit der Sendungsverfolgungsnummer auf der Website des Transportunternehmens verfolgen. Sie können auch unseren Kundenservice für Updates kontaktieren."
       }
-    ],
-    "deliveryTime": {
-      "question": "Combien de temps dure la livraison ?",
-      "answer": "Les délais de livraison dépendent de votre localisation. Pour la France, la livraison standard est de 2-3 jours ouvrables. Pour les autres pays européens, le délai de livraison est de 3-5 jours ouvrables. Les commandes sont traitées dans les 24 heures (jours ouvrables) et vous recevez un e-mail de confirmation avec le numéro de suivi."
     },
-    "returns": {
-      "question": "Quelle est la politique de retour ?",
-      "answer": "Nous offrons une garantie de satisfaction de 30 jours. Vous pouvez retourner vos drones dans l'emballage d'origine si vous n'êtes pas entièrement satisfait. Les frais de retour sont à votre charge, sauf en cas de défauts de fabrication. Le remboursement est traité dans les 5-7 jours ouvrables après réception du produit."
-    },
-    "warranty": {
-        "question": "Quelle garantie ont les drones ?",
-        "answer": "Tous nos drones sont équipés d'une garantie fabricant de 2 ans qui couvre les défauts de fabrication et les défauts techniques qui ne sont pas causés par l'utilisateur. Cette garantie complète vos droits légaux de consommateur. Pour faire valoir la garantie, conservez votre facture et contactez notre service client."
-    },
-    "payment": {
-        "question": "Quelles méthodes de paiement acceptez-vous ?",
-        "answer": "Nous acceptons toutes les cartes de crédit et de débit courantes (Visa, Mastercard, American Express), PayPal, virement bancaire et paiement à la livraison. Tous les paiements sont traités en toute sécurité via Amazon et garantissent une sécurité maximale pour vos transactions."
-    },
-    "tracking": {
-        "question": "Comment puis-je suivre ma commande ?",
-        "answer": "Dès que votre commande est traitée, vous recevez un e-mail de confirmation avec le numéro de suivi. Vous pouvez suivre votre colis directement sur le site Amazon ou avec le numéro de suivi sur le site de la société de transport. Vous pouvez également contacter notre service client pour des mises à jour."
-    }
-  },
     "contact": {
-      "title": "Contactez-nous",
-      "subjectLabel": "Sujet",
-      "subjectPlaceholder": "Sélectionner un sujet",
-      "emailLabel": "Votre e-mail",
-      "emailPlaceholder": "votre@email.com",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Décrivez votre demande ici...",
-      "sendWhatsApp": "Envoyer par WhatsApp",
-      "whatsappResponse": "Nous répondons rapidement par WhatsApp",
+      "title": "Kontaktieren Sie uns",
+      "subjectLabel": "Betreff",
+      "subjectPlaceholder": "Betreff auswählen",
+      "emailLabel": "Ihre E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihr Anliegen hier...",
+      "sendWhatsApp": "Über WhatsApp senden",
+      "whatsappResponse": "Wir antworten schnell über WhatsApp",
       "subjects": {
-        "order": "Question sur la commande",
-        "refund": "Demande de remboursement",
-        "exchange": "Échange de produit",
-        "quality": "Problème de qualité",
-        "delivery": "Question de livraison",
-        "other": "Autre"
+        "order": "Frage zur Bestellung",
+        "refund": "Rückerstattungsanfrage",
+        "exchange": "Produktumtausch",
+        "quality": "Qualitätsproblem",
+        "delivery": "Frage zur Lieferung",
+        "other": "Sonstiges"
       }
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Autres drones qui pourraient vous intéresser",
-    "ourShop": "acheter-drone.fr"
+    "alsoLikeSubtitle": "Andere Drohnen, die Sie interessieren könnten",
+    "ourShop": "kaufen-drohne.de"
   },
   "hero": {
     "expertise": {
-      "title": "Drones parfaits !",
-      "subtitle": "Vol efficace et précis. Qualité et performance garantis.",
-      "cta": "Acheter maintenant !"
+      "title": "Perfekte Drohnen!",
+      "subtitle": "Effizienter und präziser Flug. Qualität und Leistung garantiert.",
+      "cta": "Jetzt kaufen!"
     },
     "trust": {
       "rating": "4,9/5",
-      "badge": "★★★★★ Clients satisfaits",
-      "reviews": "Plus de 2000+ avis vérifiés",
-      "delivery": "Livraison gratuite 24h",
-      "guarantee": "Garantie complète 2 ans"
+      "badge": "★★★★★ Zufriedene Kunden",
+      "reviews": "Über 2000+ verifizierte Bewertungen",
+      "delivery": "Kostenloser 24h-Versand",
+      "guarantee": "Umfassende 2-Jahres-Garantie"
     },
     "features": {
       "quality": {
-      "title": "Vol stable",
-      "description": "Jusqu'à 99,9 % de stabilité en vol. Parfait pour des prises de vue exceptionnelles sans compromis."
+        "title": "Stabiler Flug",
+        "description": "Bis zu 99,9 % Flugstabilität. Perfekt für außergewöhnliche Aufnahmen ohne Kompromisse."
       },
       "design": {
-        "title": "Contrôle précis",
-        "description": "Contrôle de vol précis de doux à intense. Ajuste la vitesse à chaque environnement."
+        "title": "Präzise Steuerung",
+        "description": "Präzise Flugsteuerung von sanft bis intensiv. Passt die Geschwindigkeit an jede Umgebung an."
       },
       "innovation": {
-        "title": "Technologie avancée",
-        "description": "Technologie GPS 360°. Performance uniforme et résultats parfaits à chaque utilisation."
+        "title": "Fortschrittliche Technologie",
+        "description": "360°-GPS-Technologie. Gleichbleibende Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
-        "title": "Service client premium",
-        "description": "Support personnalisé pour résoudre toutes vos questions. Nous vous accompagnons à chaque étape."
+        "title": "Premium-Kundenservice",
+        "description": "Personalisierter Support, um alle Ihre Fragen zu klären. Wir begleiten Sie bei jedem Schritt."
       }
     }
   },
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Drones parfaits !",
-        "subtitle": "Vol efficace et précis. Qualité et performance garantis.",
-        "loading": "Votre vol est en cours de chargement...",
-        "viewAll": "Offres limitées !"
+        "title": "Perfekte Drohnen!",
+        "subtitle": "Effizienter und präziser Flug. Qualität und Leistung garantiert.",
+        "loading": "Ihr Flug wird geladen...",
+        "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
-      "subtitle": "Découvrez les avantages exclusifs qui font de nous le meilleur choix pour les drones",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Drohnen machen",
       "advantage1": {
-        "title": "Qualité premium",
-        "description": "Drones de la plus haute qualité, développés avec des matériaux durables et une technologie avancée pour une performance maximale."
+        "title": "Premium-Qualität",
+        "description": "Drohnen höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Leistung."
       },
       "advantage3": {
-        "title": "Support spécialisé",
-        "description": "Équipe de service client spécialisée dans les drones. Nous vous aidons avec toutes les questions ou problèmes que vous pourriez avoir."
+        "title": "Spezialisierter Support",
+        "description": "Spezialisiertes Kundenserviceteam für Drohnen. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
-      "cta": "Rejoignez nos plus de 15 000 clients satisfaits"
+      "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
     }
   },
   "metadata": {
-    "title": "Acheter des drones - Les meilleurs drones en comparaison",
-    "description": "Découvrez les meilleurs drones avec des évaluations détaillées et des comparaisons. Livraison gratuite et meilleurs prix garantis."
+    "title": "Drohnen kaufen - Die besten Drohnen im Vergleich",
+    "description": "Entdecken Sie die besten Drohnen mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
   },
   "siteConfig": {
     "site": {
-      "name": "Drones",
-      "description": "Trouvez le drone parfait. Grande sélection de drones, drones de course et produits de vol. Prix incroyables et livraison rapide !",
-      "url": "https://acheter-drone.fr",
+      "name": "Drohnen",
+      "description": "Finden Sie die perfekte Drohne. Große Auswahl an Drohnen, Renndrohnen und Flugprodukten. Unglaubliche Preise und schneller Versand!",
+      "url": "https://kaufen-drohne.de",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Drones - Drones et produits de vol",
-      "titleTemplate": "%s | Drones",
-      "defaultDescription": "Trouvez le drone parfait. Grande sélection de drones, drones de course et produits de vol. Prix incroyables et livraison rapide !",
+      "defaultTitle": "Drohnen - Drohnen und Flugprodukte",
+      "titleTemplate": "%s | Drohnen",
+      "defaultDescription": "Finden Sie die perfekte Drohne. Große Auswahl an Drohnen, Renndrohnen und Flugprodukten. Unglaubliche Preise und schneller Versand!",
       "keywords": [
-        "Drones",
-        "Drone de course",
-        "Vol",
-        "Acheter des drones",
-        "Offres drones",
-        "Drones pas chers",
-        "Meilleurs drones",
-        "Drone professionnel",
-        "Drone électrique"
+        "Drohnen",
+        "Renndrohnen",
+        "Flug",
+        "Drohnen kaufen",
+        "Drohnen-Angebote",
+        "Günstige Drohnen",
+        "Beste Drohnen",
+        "Professionelle Drohnen",
+        "Elektrische Drohnen"
       ],
       "ogImage": "/og-image-drone.jpg"
     },
     "business": {
-      "email": "info@acheter-drone.fr",
-      "phone": "+33 750 883227",
-      "address": "Rue du Vol 1, 75001 Paris, France",
+      "email": "info@kaufen-drohne.de",
+      "phone": "+49 30 12345678",
+      "address": "Flugstraße 1, 10115 Berlin, Deutschland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -207,21 +207,21 @@
       }
     },
     "affiliate": {
-      "amazonTag": "drone-21",
-      "disclaimer": "En tant que partenaire Amazon, nous gagnons des commissions sur les ventes qualifiées."
+      "amazonTag": "drohne-21",
+      "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
     },
     "features": {
       "expertReviews": {
         "enabled": true,
-        "message": "Évaluations d'experts et tests détaillés"
+        "message": "Expertenbewertungen und detaillierte Tests"
       },
       "priceComparison": {
         "enabled": true,
-        "message": "Comparaison de prix en temps réel"
+        "message": "Preisvergleich in Echtzeit"
       },
       "buyingGuides": {
         "enabled": true,
-        "message": "Conseils d'achat détaillés"
+        "message": "Detaillierte Kaufberatung"
       }
     }
   }

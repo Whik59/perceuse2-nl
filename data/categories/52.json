@@ -1,141 +1,93 @@
 {
   "categoryId": 52,
-  "categoryNameCanonical": "Drones Sous-Marins avec Bras Robotique",
-  "slug": "drones-sous-marins/drones-sous-marins-avec-bras-robotique",
+  "categoryNameCanonical": "Indoor Drohnen mit Sensoren",
+  "slug": "drohnen-mit-hinderniserkennung/drohnen-fuer-indoor-mit-sensoren",
   "parentCategoryId": 49,
   "level": 1,
-  "description": "Drones sous-marins robotiques: exploration, inspection, manipulation. Précision pro sous l'eau.",
-  "content": "<div><h2>Drones Sous-Marins avec Bras Robotique : La Révolution Subaquatique</h2><p>Plongez au cœur de l'innovation avec notre gamme de <strong>drones sous-marins avec bras robotique</strong>, conçus pour les professionnels exigeants. Que ce soit pour l'<strong>exploration profonde</strong>, l'<strong>inspection maritime</strong> minutieuse ou la <strong>manipulation subaquatique</strong> de précision, nos véhicules télécommandés (ROV) offrent des performances inégalées. Équipés de caméras HD, de puissants éclairages LED et d'un <strong>bras manipulateur sous-marin</strong> polyvalent, ces robots sous-marins sont vos alliés pour des missions complexes sous l'eau.</p><p>Nos <strong>ROV professionnels</strong> sont parfaits pour l'inspection d'infrastructures offshore, la recherche scientifique, la récupération d'objets ou encore l'assistance en aquaculture. La robustesse de leur conception garantit une fiabilité à toute épreuve, même dans les environnements les plus hostiles. Choisissez la technologie de pointe pour vos opérations sous-marines et transformez vos défis en succès.</p></div>",
+  "description": "Entdecke Indoor Drohnen mit präzisen Sensoren für sicheres Fliegen drinnen. Perfekt für Anfänger & Kinder. Jetzt kaufen!",
+  "content": "<div><h2>Indoor Drohnen mit Sensoren: Sicherer Flugspaß für Zuhause</h2><p>Entdecken Sie die faszinierende Welt der Indoor Drohnen mit fortschrittlichen Sensoren! Diese speziell für den Einsatz in Innenräumen konzipierten Mini-Drohnen bieten ein unvergleichliches Flugerlebnis, das sowohl sicher als auch unglaublich unterhaltsam ist. Dank integrierter Präzisionssensoren wie optischen Flusssensoren, Ultraschallsensoren und Barometern wird das Fliegen auch auf engstem Raum zum Kinderspiel. Vergessen Sie die Angst vor Kollisionen – Ihre Möbel und Ihre Drohne bleiben dank intelligenter Technik optimal geschützt.</p><p>Unsere Auswahl an Indoor Drohnen mit Sensoren ist ideal für Anfänger, Kinder und alle, die den Nervenkitzel des Fliegens ohne große Risiken genießen möchten. Die intelligenten Sensoren ermöglichen eine stabile Schwebefunktion, präzise Höhenhaltung und einen effektiven Kollisionsschutz, der die Drohne automatisch Hindernissen ausweichen lässt. So können Sie sich auf den Flug konzentrieren und beeindruckende Manöver in Ihrem Wohnzimmer oder Büro durchführen. Perfekt als Geschenk oder um selbst zum Drohnenpiloten zu werden!</p></div>",
   "seo": {
-    "title": "Drone Sous-Marin Robotique: Inspection & Manipulation Pro",
-    "description": "Drones sous-marins robotiques: exploration, inspection, manipulation. Précision pro sous l'eau.",
+    "title": "Indoor Drohnen mit Sensoren – Sicher Fliegen Zuhause Kaufen",
+    "description": "Entdecke Indoor Drohnen mit präzisen Sensoren für sicheres Fliegen drinnen. Perfekt für Anfänger & Kinder. Jetzt kaufen!",
     "keywords": [
-      "drone sous-marin robotique",
-      "bras manipulateur sous-marin",
-      "ROV professionnel",
-      "exploration profonde",
-      "inspection maritime",
-      "véhicule télécommandé subaquatique",
-      "robot d'inspection sous-marine"
+      "Indoor Drohne",
+      "Drohne mit Sensoren",
+      "Mini Drohne",
+      "Kollisionsschutz Drohne",
+      "Anfänger Drohne"
     ],
-    "enhancedAt": "2025-10-15T18:59:20.558358"
+    "enhancedAt": "2025-10-21T15:20:44.732599"
   },
   "faq": [
     {
-      "question": "Quelles sont les applications principales de ces drones ?",
-      "answer": "Nos drones avec bras robotique sont idéaux pour l'inspection de structures (coques, pipelines), la recherche et récupération d'objets, le prélèvement d'échantillons, et l'assistance en aquaculture."
+      "question": "Wofür sind Sensoren bei Indoor Drohnen wichtig?",
+      "answer": "Sensoren helfen, Hindernisse zu erkennen, die Flughöhe präzise zu halten und Kollisionen zu vermeiden, was das Fliegen in Innenräumen sicherer und einfacher macht."
     },
     {
-      "question": "Sont-ils faciles à piloter, même pour des non-experts ?",
-      "answer": "Conçus pour une ergonomie optimale, nos drones offrent des commandes intuitives et des systèmes d'assistance pour faciliter leur pilotage, même pour les utilisateurs moins expérimentés."
+      "question": "Sind Indoor Drohnen mit Sensoren auch für Anfänger geeignet?",
+      "answer": "Ja, absolut. Die integrierten Sensoren erleichtern die Steuerung erheblich und reduzieren das Risiko von Abstürzen, was sie ideal für Einsteiger macht."
     },
     {
-      "question": "Quelle est l'autonomie et la profondeur maximale de ces équipements ?",
-      "answer": "L'autonomie et la profondeur varient selon le modèle, allant de plusieurs heures à des explorations très profondes. Consultez les fiches techniques pour les spécifications exactes de chaque drone."
+      "question": "Welche Arten von Sensoren gibt es typischerweise bei Indoor Drohnen?",
+      "answer": "Häufig sind optische Flusssensoren, Ultraschallsensoren für die Positionierung und Abstandsmessung, sowie Barometer für die Höhenhaltung und Gyroskope für die Stabilisierung verbaut."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:20.558392",
+  "enhancedAt": "2025-10-21T15:20:44.732608",
   "comparisonTable": {
-    "title": "Comparaison des 5 Produits d'Exploration Sous-Marine",
+    "title": "Vergleich der 1 besten Indoor Drohnen mit Sensoren",
     "columns": [
       "Rang",
-      "Prix",
-      "Note",
-      "Marque",
-      "Type de Produit",
-      "Utilisation Principale"
+      "Preis",
+      "Bewertung",
+      "Produkttyp",
+      "Steuerung",
+      "Besondere Merkmale",
+      "Einsatzbereich",
+      "Material",
+      "Zielgruppe"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51cfAY8jRIL._AC_SL1129_.jpg]",
-        "name": "Drone sous-marin 4K Bras robotisé M100A",
-        "prix": "393.0€",
-        "note": "4.6/5",
-        "marque": "Camolech",
-        "type_de_produit": "Drone Sous-Marin",
-        "utilisation_principale": "Inspection de pipeline, pêche, exploration avec bras robotisé",
-        "productUrl": "/product/m100a-drone-sous-marin-bras-robotise",
-        "image": "https://m.media-amazon.com/images/I/51cfAY8jRIL._AC_SL1129_.jpg"
-      },
-      {
-        "rank": 2,
-        "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/514msQnYlgL._AC_SL1000_.jpg]",
-        "name": "ThorRobotics Drone Sous-Marin King Crab 100X",
-        "prix": "526.0€",
-        "note": "4.5/5",
-        "marque": "THOR roboTiCS",
-        "type_de_produit": "Drone Sous-Marin",
-        "utilisation_principale": "Exploration professionnelle, inspection d'infrastructures, recherche scientifique",
-        "productUrl": "/product/thorrobotics-drone-sous-marin-king-crab-100x",
-        "image": "https://m.media-amazon.com/images/I/514msQnYlgL._AC_SL1000_.jpg"
-      },
-      {
-        "rank": 3,
-        "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51PFluWDZgL._AC_SL1500_.jpg]",
-        "name": "Moteur sans Balais EYSLA pour Drone sous-Marin Intelligent",
-        "prix": "119.0€",
-        "note": "4.2/5",
-        "marque": "EYESLA",
-        "type_de_produit": "Moteur de Drone Sous-Marin",
-        "utilisation_principale": "Propulsion et performance pour drones sous-marins",
-        "productUrl": "/product/intelligent-moteur-sans-balais-eysla-pour",
-        "image": "https://m.media-amazon.com/images/I/51PFluWDZgL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 4,
-        "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61rlXEYC+xL._AC_SL1500_.jpg]",
-        "name": "Drone sous-Marin ADZHY PRW10 Wizard 4K UHD",
-        "prix": "365.0€",
-        "note": "4.0/5",
-        "marque": "ADZHY",
-        "type_de_produit": "Drone Sous-Marin",
-        "utilisation_principale": "Exploration aquatique, détection de poissons, plongée de loisir",
-        "productUrl": "/product/prw10-drone-sous-marin-adzhy-wizard-uhd",
-        "image": "https://m.media-amazon.com/images/I/61rlXEYC+xL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 5,
-        "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71cgfFulJeL._AC_SL1500_.jpg]",
-        "name": "Drone Sous-Marin 4K UHD avec Caméra Omnidirectionnelle et VR",
-        "prix": "99.0€",
-        "note": "3.8/5",
-        "marque": "YUNYN",
-        "type_de_produit": "Drone Sous-Marin",
-        "utilisation_principale": "Détection de poissons, inspection sous-marine de loisir, exploration",
-        "productUrl": "/product/drone-sous-marin-uhd-avec-camera-omnidirectionnelle",
-        "image": "https://m.media-amazon.com/images/I/71cgfFulJeL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81p4JBjfv5L._AC_SL1500_.jpg]",
+        "name": "Airabc Fliegender Ball LED Drohne",
+        "preis": "22.0€",
+        "bewertung": "4.0/5",
+        "produkttyp": "Fliegender Ball / Schwebekugel",
+        "steuerung": "Handgesteuert / Gestensteuerung",
+        "besondere_merkmale": "Integriertes LED-Licht, Hinderniserkennung, Automatische Flugstabilisierung",
+        "einsatzbereich": "Indoor & Outdoor",
+        "material": "Hochwertiger, stoßfester Kunststoff",
+        "zielgruppe": "Kinder (Jungen & Mädchen)",
+        "productUrl": "/product/airabc-fliegender-ball-led-drohne",
+        "image": "https://m.media-amazon.com/images/I/81p4JBjfv5L._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones Sous-Marins avec Bras Robotique ?",
+    "title": "Kaufberatung: So wählen Sie die beste Indoor-Drohne mit Sensoren!",
     "sections": [
       {
-        "heading": "1. Profondeur d'Opération et Autonomie",
-        "content": "Évaluez la profondeur maximale et l'autonomie de la batterie. Pour l'inspection côtière, 30m suffisent, mais pour des recherches avancées, visez 100m+. Une batterie longue durée (2h+) est cruciale pour des missions complètes. Vérifiez la longueur du câble ombilical, souvent limitant la portée effective du drone."
+        "heading": "1. Sensortypen und Flugstabilität",
+        "content": "Achten Sie auf essentielle Sensoren wie den Höhensensor für stabile Fluglagen und optische Flusssensoren für präzise Positionierung. Kollisionssensoren sind für Indoor-Modelle unerlässlich, um Möbel und Wände zu schützen. Ein Modell wie der Airabc Fliegender Ball nutzt diese, um ein leichtes und sicheres Flugerlebnis zu gewährleisten, ideal für Anfänger und Kinder. Eine gute Sensorik erleichtert die Steuerung erheblich."
       },
       {
-        "heading": "2. Efficacité du Bras Robotique",
-        "content": "Le bras robotique est essentiel. Considérez sa force de préhension (en kg), le nombre d'axes (articulations) pour la flexibilité, et la charge utile maximale. Un bras multi-articulations offre plus de précision pour manipuler des objets, récupérer des échantillons ou installer des capteurs sous-marins."
+        "heading": "2. Robustheit und Schutzmechanismen",
+        "content": "Da Indoor-Drohnen häufiger mit Hindernissen kollidieren, ist die Bauweise entscheidend. Suchen Sie nach Modellen aus widerstandsfähigem Material und mit Propellerschutz. Geschlossene Käfigdesigns, wie beim Airabc Fliegenden Ball, bieten maximalen Schutz für Propeller und Umgebung. Dies minimiert Schäden an der Drohne und am Interieur und sorgt für langanhaltenden Spielspaß."
       },
       {
-        "heading": "3. Qualité Visuelle et Éclairage Sous-Marin",
-        "content": "Une caméra 4K est idéale pour des images nettes et une vidéo claire. L'éclairage est vital en eaux sombres ; recherchez des LED puissantes et réglables (2000+ lumens). Des capteurs supplémentaires comme le sonar ou la vision multi-spectrale augmentent l'efficacité d'exploration et d'inspection détaillée."
+        "heading": "3. Benutzerfreundlichkeit und Steuerung",
+        "content": "Für Indoor-Drohnen ist eine einfache Bedienung entscheidend. Funktionen wie One-Key-Start/Landung, Höhenhaltung und ein Headless-Modus erleichtern den Einstieg. Eine reaktionsschnelle Fernbedienung oder die Steuerung per Handgesten verbessern das Flugerlebnis. Diese Merkmale machen das Fliegen im Haus unterhaltsam und zugänglich, selbst für unerfahrene Piloten."
       },
       {
-        "heading": "4. Maniabilité, Stabilité et Résistance",
-        "content": "Un système de propulsion à plusieurs propulseurs (6+ sont recommandés) assure une maniabilité 360° et une bonne stabilité face aux courants. Le matériau du drone doit être robuste (aluminium, ABS) pour résister aux chocs et à la pression. La facilité de maintenance et de remplacement des pièces est un atout."
+        "heading": "4. Akkulaufzeit und Ladezeit",
+        "content": "Realistische Akkulaufzeiten für Indoor-Drohnen liegen oft zwischen 5 und 10 Minuten. Berücksichtigen Sie die Ladezeit und ob zusätzliche Akkus erhältlich sind. Eine schnelle Ladefunktion via USB ist praktisch für häufigen Gebrauch. Für intensive Spielsessions sind Wechselakkus empfehlenswert, um die Unterhaltung nicht zu unterbrechen und die Flugzeit zu maximieren."
       },
       {
-        "heading": "5. Connectivité et Fonctionnalités Avancées",
-        "content": "Vérifiez la fiabilité de la transmission des données (Wi-Fi ou câble sécurisé). Un stockage interne conséquent (128 Go minimum) est important. Des fonctions comme le verrouillage de profondeur, le retour automatique et une interface logicielle intuitive améliorent grandement l'expérience utilisateur. Pensez aux mises à jour logicielles."
+        "heading": "5. Preis-Leistungs-Verhältnis und Empfehlung",
+        "content": "Für den Preis von rund 22.0€ ist der Airabc Fliegender Ball LED Drohne ein hervorragendes Beispiel für eine robuste Indoor-Drohne mit Basissensoren. Er bietet Spaß und Schutz zu einem erschwinglichen Preis. Achten Sie auf ein Modell, das Ihren Anforderungen an Stabilität, Haltbarkeit und Benutzerfreundlichkeit entspricht, um das beste Erlebnis für Ihr Budget zu erhalten."
       }
     ]
   }

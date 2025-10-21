@@ -1,167 +1,147 @@
 {
   "categoryId": 61,
-  "categoryNameCanonical": "Hélices pour Drones",
-  "slug": "helices-pour-drones",
+  "categoryNameCanonical": "Renndrohnen",
+  "slug": "renndrohnen",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Choisissez nos hélices de drone pour un vol stable, rapide et silencieux. Qualité supérieure.",
-  "content": "<div><h2>Améliorez la Performance de Votre Drone avec Nos Hélices</h2><p>Découvrez notre gamme complète d'hélices pour drones, conçues pour optimiser chaque aspect de votre expérience de vol. Les hélices sont le cœur propulsif de votre drone, influençant directement sa stabilité, sa vitesse, son agilité et même son autonomie. Que vous soyez un pilote débutant ou un professionnel exigeant, choisir les bonnes hélices est fondamental pour garantir des performances optimales et une sécurité accrue.</p><p>Nous proposons une sélection variée, allant des hélices en fibre de carbone ultra-légères et rigides, parfaites pour la performance et la réactivité, aux hélices en plastique composites plus flexibles et résistantes aux chocs, idéales pour l'apprentissage. Nos hélices pliables offrent quant à elles une facilité de transport inégalée. Chaque paire est équilibrée avec précision pour minimiser les vibrations, réduire le bruit et maximiser l'efficacité énergétique, prolongeant ainsi vos temps de vol.</p><p>Investissez dans la qualité pour un vol plus stable, plus silencieux et plus rapide. Parcourez notre catalogue et trouvez les hélices parfaitement adaptées à votre modèle de drone et à vos besoins spécifiques, pour transformer chaque envol en une expérience exceptionnelle.</p></div>",
+  "description": "Entdecke High-Speed Renndrohnen für packende FPV Rennen. Top Modelle & Bausätze.",
+  "content": "<div><h2>Renndrohnen: Adrenalin pur im Drohnenrennen</h2><p>Tauchen Sie ein in die faszinierende Welt der Renndrohnen! Ob Sie ein erfahrener FPV-Pilot sind oder gerade erst in den aufregenden Drohnensport einsteigen möchten, unsere Auswahl an Renndrohnen bietet für jeden das Richtige. Erleben Sie unvergleichliche Geschwindigkeit, präzise Steuerung und atemberaubende Manöver, die Ihr Herz höherschlagen lassen.</p><p>Unsere Racing Drohnen sind für maximale Performance und Langlebigkeit konzipiert. Finden Sie bei uns hochmoderne FPV Renndrohnen, komplette Bausätze für individuelle Anpassungen und das passende Zubehör, um Ihr Flugerlebnis zu perfektionieren. Von robusten Anfängermodellen bis hin zu High-Performance-Geräten für professionelle Wettbewerbe – entdecken Sie jetzt die neuesten Innovationen und bereiten Sie sich auf packende Rennen vor!</p></div>",
   "seo": {
-    "title": "Hélices Drones: Performance & Stabilité pour Vol Optimal",
-    "description": "Choisissez nos hélices de drone pour un vol stable, rapide et silencieux. Qualité supérieure.",
+    "title": "Renndrohnen kaufen | FPV Racing Drohnen & Zubehör",
+    "description": "Entdecke High-Speed Renndrohnen für packende FPV Rennen. Top Modelle & Bausätze.",
     "keywords": [
-      "hélices drone",
-      "accessoires drone",
-      "pièces détachées drone",
-      "hélice carbone drone",
-      "hélice pliable drone",
-      "stabilité drone",
-      "performance drone",
-      "vol silencieux drone",
-      "hélices rechange drone"
+      "Renndrohnen",
+      "FPV Renndrohnen",
+      "Racing Drohnen",
+      "Drohnenrennen",
+      "schnelle Drohnen",
+      "Renndrohne kaufen",
+      "Profi Renndrohnen"
     ],
-    "enhancedAt": "2025-10-15T18:59:09.507955"
+    "enhancedAt": "2025-10-21T15:21:36.050730"
   },
   "faq": [
     {
-      "question": "Comment choisir la bonne hélice pour mon drone ?",
-      "answer": "La compatibilité avec le modèle spécifique de votre drone est cruciale. Considérez également le matériau (carbone pour la rigidité, plastique pour la flexibilité) et le diamètre selon la performance ou l'autonomie désirée."
+      "question": "Was sind Renndrohnen?",
+      "answer": "Renndrohnen sind speziell für Geschwindigkeit und Agilität entwickelte Drohnen, die oft in FPV-Rennen (First Person View) eingesetzt werden, um anspruchsvolle Kurse zu meistern."
     },
     {
-      "question": "Quand faut-il remplacer les hélices de mon drone ?",
-      "answer": "Remplacez vos hélices dès qu'elles présentent des signes d'usure, de fissures, de déformations ou de dommages visibles. Des hélices endommagées peuvent affecter la stabilité et la sécurité du vol."
+      "question": "Welche Ausrüstung benötige ich für FPV Renndrohnen?",
+      "answer": "Für FPV Renndrohnen benötigen Sie neben der Drohne selbst eine FPV-Brille, einen geeigneten Controller, ausreichend Akkus und Ladegeräte sowie eventuell Ersatzteile und Werkzeug."
     },
     {
-      "question": "Les hélices peuvent-elles influencer l'autonomie du drone ?",
-      "answer": "Oui, des hélices bien équilibrées et aérodynamiquement optimisées réduisent la consommation d'énergie du moteur, contribuant ainsi à prolonger l'autonomie de vol de votre drone."
+      "question": "Sind Renndrohnen auch für Anfänger geeignet?",
+      "answer": "Ja, es gibt spezielle Anfänger-Renndrohnen, die robuster sind und über Flugmodi verfügen, die den Einstieg erleichtern. Simulatoren sind ebenfalls eine gute Möglichkeit, das Fliegen zu üben."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:09.507978",
+  "enhancedAt": "2025-10-21T15:21:36.050740",
   "comparisonTable": {
-    "title": "Comparaison des 5 meilleures Hélices pour Drones",
+    "title": "Vergleich der 5 besten Renndrohnen Produkte",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Compatibilité",
-      "Nombre de pales/pièces",
-      "Matériau",
-      "Type d'hélice",
-      "Caractéristique spéciale",
-      "Contexte d'utilisation"
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Produktart",
+      "Anwendungsbereich",
+      "Besondere Eigenschaft"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71zRYQVR4eL._AC_UL320_.jpg]",
-        "name": "Hélices DJI Spark (8 pales) Boîte Rangement",
-        "prix": "11.0€",
-        "évaluation": "4.4/5",
-        "marque": "CAMKIX",
-        "compatibilite": "DJI Spark",
-        "nombre_de_pales_pieces": "8 pales (2 ensembles)",
-        "materiau": "Plastique résistant",
-        "type_helice": "Pliable à lancement rapide",
-        "caracteristique_speciale": "Boîte de rangement incluse",
-        "contexte_utilisation": "Vol stable et précis, prises de vues aériennes",
-        "productUrl": "/product/helices-dji-spark-pales-boite-rangement",
-        "image": "https://m.media-amazon.com/images/I/71zRYQVR4eL._AC_UL320_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71KmwYz6mIL._AC_UL320_.jpg]",
+        "name": "Radiolink AT9S Pro RC-Fernsteuerung (10/12 Kanäle, R9DS)",
+        "preis": "138.0€",
+        "bewertung": "4.4/5",
+        "marke": "Radiolink",
+        "produktart": "RC-Fernsteuerung",
+        "anwendungsbereich": "RC-Modellbau (Drohnen, Flugzeuge, Boote)",
+        "besondere_eigenschaft": "Präzise 10/12 Kanäle & Telemetrie",
+        "productUrl": "/product/pro-radiolink-at9s-rc-fernsteuerung-10-12-kanale",
+        "image": "https://m.media-amazon.com/images/I/71KmwYz6mIL._AC_UL320_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61t96wjEojL._AC_SL1500_.jpg]",
-        "name": "ZYGY 20X Hélices Drone DJI Tello Noir",
-        "prix": "17.0€",
-        "évaluation": "4.4/5",
-        "marque": "ZYGY",
-        "compatibilite": "DJI Tello",
-        "nombre_de_pales_pieces": "20 pièces",
-        "materiau": "Plastique haute résistance",
-        "type_helice": "Standard",
-        "caracteristique_speciale": "Couleur noire, haute résistance",
-        "contexte_utilisation": "Optimisation performance, esthétique DJI Tello",
-        "productUrl": "/product/zygy-20x-helices-drone-dji-tello",
-        "image": "https://m.media-amazon.com/images/I/61t96wjEojL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/91ZHzd2HpaL._AC_SL1500_.jpg]",
+        "name": "STARTRCE Faltbarer Drohnen Landeplatz Universal",
+        "preis": "32.0€",
+        "bewertung": "4.6/5",
+        "marke": "STARTRCE",
+        "produktart": "Drohnen Landeplatz",
+        "anwendungsbereich": "Sichere Drohnenstarts & -landungen",
+        "besondere_eigenschaft": "Universell kompatibel & schnell faltbar",
+        "productUrl": "/product/startrce-faltbarer-drohnen-landeplatz-universal",
+        "image": "https://m.media-amazon.com/images/I/91ZHzd2HpaL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61WBgY87eOL._AC_SL1500_.jpg]",
-        "name": "ZYGY 28 Hélices Drone DJI Tello Pièces",
-        "prix": "18.0€",
-        "évaluation": "4.3/5",
-        "marque": "ZYGY",
-        "compatibilite": "DJI Tello",
-        "nombre_de_pales_pieces": "28 pièces",
-        "materiau": "Plastique résistant",
-        "type_helice": "Standard",
-        "caracteristique_speciale": "Lot économique grande quantité",
-        "contexte_utilisation": "Maintenance, vol général DJI Tello",
-        "productUrl": "/product/zygy-helices-drone-dji-tello-pieces",
-        "image": "https://m.media-amazon.com/images/I/61WBgY87eOL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61R+rvGbloS._AC_SL1500_.jpg]",
+        "name": "MMOBIEL Drohnen Landeplatz 75cm - Wasserdicht, Faltbar",
+        "preis": "19.0€",
+        "bewertung": "4.5/5",
+        "marke": "MMOBIEL",
+        "produktart": "Drohnen Landeplatz",
+        "anwendungsbereich": "Sichere Drohnenstarts & -landungen",
+        "besondere_eigenschaft": "Wasserdicht, faltbar & doppelseitig",
+        "productUrl": "/product/75cm-mmobiel-drohnen-landeplatz-wasserdicht-faltbar",
+        "image": "https://m.media-amazon.com/images/I/61R+rvGbloS._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51O6jgZ6v4L._AC_SL1500_.jpg]",
-        "name": "4 Pales Hélices RC Quadcopter Drone Jouets",
-        "prix": "9.0€",
-        "évaluation": "4.1/5",
-        "marque": "Dilwe",
-        "compatibilite": "Quadcoptères RC, Drones Jouets",
-        "nombre_de_pales_pieces": "4 pales",
-        "materiau": "Plastique polymère résistant",
-        "type_helice": "Standard (2 pales)",
-        "caracteristique_speciale": "Conçues pour jouets/enfants",
-        "contexte_utilisation": "Vol récréatif, initiation à la robotique",
-        "productUrl": "/product/pales-helices-quadcopter-drone-jouets",
-        "image": "https://m.media-amazon.com/images/I/51O6jgZ6v4L._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71OnAjNEXJS._AC_SL1500_.jpg]",
+        "name": "VGEBY D85 2-in-1 Quadrocopter Drohne RC",
+        "preis": "24.0€",
+        "bewertung": "3.4/5",
+        "marke": "VGEBY",
+        "produktart": "Quadrocopter Drohne",
+        "anwendungsbereich": "Ferngesteuertes Fliegen (Einsteiger & Hobby-Piloten)",
+        "besondere_eigenschaft": "Vielseitiges 2-in-1 Design",
+        "productUrl": "/product/vgeby-d85-2-in-1-quadrocopter-drohne",
+        "image": "https://m.media-amazon.com/images/I/71OnAjNEXJS._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61ytjFkmUOL._AC_SL1024_.jpg]",
-        "name": "8 Pcs Hélices Drone Parrot Mambo Swing RC",
-        "prix": "8.0€",
-        "évaluation": "3.0/5",
-        "marque": "sharprepublic",
-        "compatibilite": "Parrot Mambo, Parrot Swing",
-        "nombre_de_pales_pieces": "8 pièces",
-        "materiau": "Plastique résistant",
-        "type_helice": "Standard pour drone de course",
-        "caracteristique_speciale": "Optimisées pour drones de course RC",
-        "contexte_utilisation": "Pilotage aérien, courses de drones",
-        "productUrl": "/product/pcs-helices-drone-parrot-mambo-swing",
-        "image": "https://m.media-amazon.com/images/I/61ytjFkmUOL._AC_SL1024_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71rf6dbfCkL._AC_SL1500_.jpg]",
+        "name": "XT60 auf O-Ring Kabel (12AWG, 91cm)",
+        "preis": "12.0€",
+        "bewertung": "4.6/5",
+        "marke": "YACSEJAO",
+        "produktart": "Anschlusskabel",
+        "anwendungsbereich": "Stromversorgung für RC-Lipo-Akkus & FPV-Renndrohnen",
+        "besondere_eigenschaft": "Robustes 12 AWG Kabel (91cm)",
+        "productUrl": "/product/12awg-xt60-auf-o-ring-kabel-91cm",
+        "image": "https://m.media-amazon.com/images/I/71rf6dbfCkL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleures Hélices pour Drones ?",
+    "title": "Kaufberatung: So wählen Sie die besten Renndrohnen aus",
     "sections": [
       {
-        "heading": "1. Matériau et Durabilité des Hélices",
-        "content": "Le matériau influence performance et résistance. Le plastique est léger et économique, idéal pour débutants. Le carbone ou composites sont plus rigides, offrant meilleure réactivité et durabilité, adaptés aux usages professionnels ou intensifs. Choisissez selon votre budget et type de vol. Une bonne hélice doit supporter les contraintes régulières."
+        "heading": "1. Rahmen und Motoren: Das Herzstück der Leistung",
+        "content": "Robuste Carbonfaserrahmen sind essentiell für Langlebigkeit bei Stürzen. Achten Sie auf Rahmengrößen wie 5 Zoll für FPV-Rennen. Bürstenlose Motoren mit hohem KV-Wert bieten die nötige Schubkraft und Geschwindigkeit. Eine gute Balance zwischen Gewicht und Steifigkeit ist hier entscheidend für optimale Flugeigenschaften und Agilität in der Luft."
       },
       {
-        "heading": "2. Taille et Pas : Clés de la Performance",
-        "content": "La taille (diamètre) et le pas (inclinaison) sont cruciaux. Une taille adaptée assure la portance et la vitesse optimales. Un pas élevé offre plus de vitesse mais consomme plus. Vérifiez la compatibilité avec votre drone pour garantir un vol stable et efficace, et préserver l'autonomie. Les spécifications sont souvent dans le manuel."
+        "heading": "2. Flugsteuerung und ESCs: Präzision in der Luft",
+        "content": "Eine moderne Flugsteuerung (FC) mit F7- oder H7-Prozessor garantiert präzise Flugmanöver und eine schnelle Reaktionszeit. Kombinieren Sie diese mit leistungsstarken 4-in-1 ESCs (Electronic Speed Controllers) für eine saubere Verkabelung und effiziente Stromverteilung. Dies minimiert Störungen und maximiert die Performance Ihrer Renndrohne, besonders bei engen Kursen."
       },
       {
-        "heading": "3. Pales : Stabilité et Nuisance Sonore",
-        "content": "Le nombre de pales affecte la stabilité et le bruit. Les hélices à deux pales sont courantes et efficaces. Celles à trois ou quatre pales (comme pour un drone utilisant 8 pales au total) offrent plus de stabilité et un vol plus silencieux, mais peuvent réduire légèrement l'autonomie. Considérez l'équilibre désiré entre performance et discrétion."
+        "heading": "3. Das FPV-System: Ihre Augen im Flug",
+        "content": "Ein hochwertiges FPV-System ist unerlässlich. Wählen Sie eine Kamera mit geringer Latenz und gutem Dynamikbereich für klare Sichtverhältnisse. Ein zuverlässiger Video Transmitter (VTX) mit ausreichender Sendeleistung sichert die Reichweite. Digitale FPV-Systeme wie DJI O3 oder Walksnail bieten überragende Bildqualität, sind aber meist teurer."
       },
       {
-        "heading": "4. Compatibilité : Ne Faites Aucune Erreur",
-        "content": "Il est vital de choisir des hélices spécifiquement conçues pour votre modèle de drone, comme les \"Hélices DJI Spark\". Des hélices non compatibles peuvent endommager le drone, provoquer un crash ou compromettre sa stabilité. Privilégiez les marques réputées pour la fiabilité et la sécurité de votre équipement. Vérifiez toujours la référence exacte."
+        "heading": "4. Fernsteuerung und Empfänger: Kontrolle ist alles",
+        "content": "Eine ergonomische Fernsteuerung mit geringer Latenz ist für präzise Steuerung unerlässlich. Modelle wie die Radiolink AT9S Pro bieten Zuverlässigkeit und viele Kanäle. Achten Sie auf moderne Protokolle wie ExpressLRS (ELRS) für maximale Reichweite und geringste Latenz. Ein passender Empfänger mit Telemetrie liefert wichtige Flugdaten während des Rennens."
       },
       {
-        "heading": "5. Entretien et Préparation au Vol",
-        "content": "Ayez toujours des hélices de rechange (un kit de 8 pales est idéal) est essentiel. Vérifiez-les avant chaque vol pour détecter fissures ou déformations. Utilisez une \"boîte rangement\" pour les protéger et éviter les dommages pendant le transport. Des hélices endommagées compromettent la sécurité et les performances de votre drone."
+        "heading": "5. Akkus und Zubehör: Power und Vorbereitung",
+        "content": "Nutzen Sie hochstromfähige LiPo-Akkus (z.B. 4S oder 6S mit hoher C-Rate) für maximale Leistung und Flugzeit. Ein intelligentes Ladegerät ist für die Akkuwartung Pflicht. Planen Sie immer Ersatzpropeller, Arme und Kleinteile ein, da Renndrohnen oft Reparaturen benötigen. Gute Vorbereitung sichert längeren Flugspaß und schnellere Einsatzbereitschaft."
       }
     ]
   }

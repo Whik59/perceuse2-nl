@@ -1,9 +1,9 @@
 {
   "productId": "B0DS1PTHSK",
-  "name": "DJI Avata 2 Combo Drone FPV 4K Goggles 3 RC Motion 3",
-  "slug": "dji-avata-combo-drone-fpv-goggles",
-  "description": "<div>\n  <h2>Découvrez le pilotage FPV réinventé avec le DJI Avata 2 Fly More Combo</h2>\n  <p>Plongez au cœur de l'action et libérez votre créativité comme jamais auparavant avec le DJI Avata 2 Fly More Combo (1 batterie). Ce drone FPV de pointe, conçu pour les passionnés de prise de vue aérienne dynamique, combine une technologie robotique avancée et une ergonomie intuitive pour une expérience de vol inégalée. Capturez des images cinématographiques époustouflantes en résolution 4K grâce à son capteur performant et sa stabilisation de nouvelle génération.</p>\n  <p>Le design novateur du drone intègre des protections d'hélice robustes, assurant une sécurité accrue lors des vols en intérieur ou à proximité d'obstacles. Maîtrisez des manœuvres aériennes audacieuses grâce aux fonctions de retournement (flips) et de rotation latérale (roulis) activables par simple pression, ouvrant la voie à des perspectives de contenu POV uniques et captivantes. Les <strong>DJI Goggles 3</strong> et le contrôleur <strong>RC Motion 3</strong> transforment chaque vol en une immersion totale, vous offrant une sensation de présence aérienne authentique.</p>\n  <p>Ce bundle est l'outil idéal pour les créateurs de contenu en quête de dynamisme visuel, les amateurs de sensations fortes et ceux qui désirent explorer le monde sous un nouvel angle. L'autonomie optimisée et la facilité d'utilisation font du DJI Avata 2 un compagnon de vol fiable et performant, prêt à relever tous vos défis créatifs. Laissez-vous surprendre par la fluidité des mouvements, la richesse des détails de vos captures et la simplicité de contrôle, même pour les débutants.</p>\n</div>",
-  "shortDescription": "Drone FPV DJI Avata 2 Combo 4K. Goggles 3 & RC Motion 3 inclus. Sécurité, maniabilité, créativité POV.",
+  "name": "DJI Avata 2 Fly More Bundle - FPV-Drohne 4K",
+  "slug": "dji-avata-fly-more-bundle-fpv-drohne",
+  "description": "<p>Erleben Sie die Faszination des immersiven Flugerlebnisses mit dem <strong>DJI Avata 2 Fly More Combo (1 Akku) Bundle</strong>. Diese FPV-Drohne revolutioniert Ihre Perspektive auf die Welt mit atemberaubenden 4K-Aufnahmen und einer intuitiven Steuerung. Entwickelt für Enthusiasten, die Grenzen verschieben möchten, bietet die Avata 2 einen unvergleichlichen Blickwinkel. Dank des integrierten Propellerschutzes ist sie auch bei anspruchsvollen Manövern wie Flips und Rollen auf Tastendruck sicher und robust. Die integrierte Kamera fängt jedes Detail in brillanter Qualität ein, ideal für cineastische Aufnahmen und dynamischen Content.</p>\n\n<p>Das Bundle inklusive der fortschrittlichen <strong>DJI Goggles 3</strong> und des innovativen <strong>DJI RC Motion 3</strong> Controllers ermöglicht ein nahtloses und präzises Steuerungserlebnis. Tauchen Sie tief ein in die virtuelle Welt und steuern Sie Ihre Drohne intuitiv mit natürlichen Handbewegungen. Ob Sie atemberaubende Landschaften aus der Vogelperspektive festhalten oder actiongeladene Videos produzieren möchten – die DJI Avata 2 ist Ihr ultimativer Begleiter für unvergessliche Flugabenteuer und professionellen Content. Entdecken Sie neue Möglichkeiten der visuellen Erzählung und bringen Sie Ihre Kreativität auf ein neues Level.</p>",
+  "shortDescription": "DJI Avata 2 Fly More Combo: 4K FPV-Drohne, Goggles 3, RC Motion 3. Immersiv & intuitiv.",
   "price": "899.0",
   "compareAtPrice": 1033,
   "images": [
@@ -13,30 +13,33 @@
     "https://m.media-amazon.com/images/I/61z7lX1pDYL._AC_SL1500_.jpg",
     "https://m.media-amazon.com/images/I/71rO9ENdPCL._AC_SL1500_.jpg"
   ],
-  "videos": [],
-  "category": "Drones Professionnels",
-  "tags": [
-    "visiter la boutique dji",
-    "drones professionnels"
+  "videos": [
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/a6b13d4e-fd0b-46df-9101-58c9a4f3ef20/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/885d1d5e-0367-4bd2-b356-bd8178b56aef/default.jobtemplate.hls.m3u8"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B0DS1PTHSK/?tag=clickclickh01-21",
+  "category": "Acro-Drohnen ohne Kamera",
+  "tags": [
+    "besuche den dji-store",
+    "acro-drohnen ohne kamera"
+  ],
+  "amazonUrl": "https://amazon.de/dp/B0DS1PTHSK/?tag=clickclickh0b-21",
   "amazonASIN": "B0DS1PTHSK",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "DJI Avata 2 Fly More Combo (1 batterie) Bundle, drone FPV avec caméra 4K, avec protection d'hélice, flips/roulis sur pression de touche, drone caméra POV Content, Goggles 3 et RC Motion 3 inclus",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "DJI Avata 2 Fly More Combo (1 Akku) Bundle, FPV-Drohne mit 4K-Kamera, mit Propellerschutz, Flips/Rollen auf Tastendruck, POV Content Kamera-Drohne, inkl. Goggles 3 und RC Motion 3",
   "amazonPrice": "899.0€",
   "amazonRating": 4.5,
   "amazonReviewCount": 0,
-  "brand": "Visiter la boutique DJI",
+  "brand": "Besuche den DJI-Store",
   "seo": {
-    "title": "DJI Avata 2 Combo Drone FPV 4K Goggles 3 RC Motion 3",
-    "description": "Drone FPV DJI Avata 2 Combo 4K. Goggles 3 & RC Motion 3 inclus. Sécurité, maniabilité, créativité POV.",
+    "title": "DJI Avata 2 Fly More Bundle - FPV-Drohne 4K",
+    "description": "DJI Avata 2 Fly More Combo: 4K FPV-Drohne, Goggles 3, RC Motion 3. Immersiv & intuitiv.",
     "keywords": [
-      "dji avata 2 combo drone fpv 4k goggles 3 rc motion 3",
-      "drones professionnels",
-      "visiter la boutique dji"
+      "dji avata 2 fly more bundle - fpv-drohne 4k",
+      "acro-drohnen ohne kamera",
+      "besuche den dji-store"
     ],
-    "ogTitle": "DJI Avata 2 Combo Drone FPV 4K Goggles 3 RC Motion 3",
-    "ogDescription": "Drone FPV DJI Avata 2 Combo 4K. Goggles 3 & RC Motion 3 inclus. Sécurité, maniabilité, créativité POV."
+    "ogTitle": "DJI Avata 2 Fly More Bundle - FPV-Drohne 4K",
+    "ogDescription": "DJI Avata 2 Fly More Combo: 4K FPV-Drohne, Goggles 3, RC Motion 3. Immersiv & intuitiv."
   },
   "reviews": {
     "averageRating": 4.5,
@@ -50,94 +53,94 @@
     }
   },
   "specifications": {
-    "detailed": "<h3>Spécifications Techniques Détaillées du DJI Avata 2 Fly More Combo :</h3>\n\n<ul>\n  <li><strong>Drone :</strong></li>\n  <ul>\n    <li>Type : Drone FPV (First Person View)</li>\n    <li>Résolution Vidéo : 4K/60fps (enregistrement vidéo), 2.7K/60fps, 1080p/60fps</li>\n    <li>Format Vidéo : MP4 (H.264/H.265)</li>\n    <li>Stabilisation Vidéo : RockSteady 3.0, HorizonSteady</li>\n    <li>Champ de Vision (FOV) : 155°</li>\n    <li>Capteur d'Image : 1/1.3 pouce CMOS, 12 MP</li>\n    <li>Plage ISO : 100-8000</li>\n    <li>Vitesse Maximale : 97 km/h (en mode S dans des conditions idéales)</li>\n    <li>Temps de Vol Maximal : Environ 23 minutes (sans vent, à vitesse constante)</li>\n    <li>Batterie : LiPo 3S, 3100 mAh (batterie intelligente de vol)</li>\n    <li>Poids au Décollage : Environ 362 g (sans les protections d'hélice)</li>\n    <li>Dimensions : 184.5×182.9×64.3 mm (sans les hélices)</li>\n    <li>Protection d'Hélice : Intégrée, conçue pour les vols en intérieur et les environnements restreints</li>\n    <li>Fonctions de Vol : Retournement avant/arrière, Rotation latérale gauche/droite (sur pression de touche), Navigation intuitive</li>\n    <li>Localisation : GPS/Galileo/BeiDou</li>\n    <li>Transmission Vidéo : DJI O4 (faible latence, haute qualité)</li>\n    <li>Portée de Transmission : Jusqu'à 10 km (FCC), 8 km (CE/SRRC/MIC)</li>\n  </ul>\n  <li><strong>DJI Goggles 3 :</strong></li>\n  <ul>\n    <li>Technologie d'Affichage : Micro-OLED</li>\n    <li>Résolution par Œil : 1920 × 1080</li>\n    <li>Taux de Rafraîchissement : 100 Hz</li>\n    <li>Plage de Réglage Dioptrique : -6.0 D à +2.0 D</li>\n    <li>Champ de Vision (FOV) : 44°</li>\n    <li>Autonomie : Environ 2.5 heures</li>\n    <li>Réception Vidéo : DJI O4</li>\n    <li>Fonctionnalités : Affichage tête haute (Head-Up Display), Vue transparente (Transparent View)</li>\n  </ul>\n  <li><strong>DJI RC Motion 3 :</strong></li>\n  <ul>\n    <li>Type de Contrôle : Manette directionnelle avec capteurs de mouvement</li>\n    <li>Fonctionnalités : Pilotage intuitif, déclenchement de fonctions avancées</li>\n    <li>Transmission Vidéo : DJI O4</li>\n    <li>Autonomie : Environ 6 heures</li>\n  </ul>\n  <li><strong>Contenu du Bundle Fly More Combo (1 batterie) :</strong></li>\n  <ul>\n    <li>1x Drone DJI Avata 2</li>\n    <li>1x DJI Goggles 3</li>\n    <li>1x DJI RC Motion 3</li>\n    <li>1x Batterie de vol intelligente DJI Avata 2</li>\n    <li>1x Chargeur USB-C multiport</li>\n    <li>1x Câble USB-C</li>\n    <li>3x Paires d'hélices</li>\n    <li>1x Manuel d'utilisation</li>\n    <li>1x Sac de transport</li>\n  </ul>\n</ul>"
+    "detailed": "<ul>\n  <li><strong>Drohnenmodell:</strong> DJI Avata 2</li>\n  <li><strong>Kameraauflösung:</strong> 4K Video, 12MP Fotos</li>\n  <li><strong>Bildsensor:</strong> 1/1.3 Zoll CMOS</li>\n  <li><strong>Sichtfeld (FOV):</strong> Weitwinkel, Superweitwinkel</li>\n  <li><strong>Flugmodi:</strong> Normal, Sport, Manual (erweitert)</li>\n  <li><strong>Steuerung:</strong> DJI RC Motion 3, DJI Goggles 3</li>\n  <li><strong>Besondere Flugmanöver:</strong> Flips, Rollen auf Tastendruck</li>\n  <li><strong>Sicherheit:</strong> Integrierter Propellerschutz</li>\n  <li><strong>Batterie:</strong> Intelligent Flight Battery (1x im Lieferumfang des \"1 Akku\" Bundles), bis zu 18 Minuten Flugzeit pro Akku</li>\n  <li><strong>Übertragungssystem:</strong> DJI O4 Videoübertragung</li>\n  <li><strong>Gewicht:</strong> ca. 362g (ohne Propellerschutz)</li>\n  <li><strong>Max. Fluggeschwindigkeit:</strong> Bis zu 99 km/h (im Sportmodus, ohne Wind)</li>\n  <li><strong>Speicher:</strong> Interner Speicher (ca. 46GB), MicroSD-Kartensteckplatz (bis zu 256GB)</li>\n  <li><strong>Abmessungen (L×B×H):</strong> 180.9×180.9×136.9 mm (ohne Propeller)</li>\n  <li><strong>Betriebstemperatur:</strong> -10°C bis 40°C</li>\n  <li><strong>Mitgeliefertes Zubehör (Fly More Combo mit 1 Akku):</strong> 1x DJI Avata 2 Drohne, 1x DJI Goggles 3, 1x DJI RC Motion 3, 1x Intelligent Flight Battery, 1x Propellerschutz, 1x USB-C zu USB-C PD Kabel, Schrauben, Anleitung. (Hinweis: Zusätzliche Akkus und Ladegeräte sind im Fly More Combo enthalten, dies ist ein Bundle mit 1 Akku für die Drohne selbst.)</li>\n</ul>"
   },
   "faq": [
     {
-      "q": "Quel est le principal avantage du DJI Avata 2 par rapport aux drones de loisir traditionnels ?",
-      "a": "Le DJI Avata 2 se distingue par son expérience de pilotage FPV immersive grâce aux DJI Goggles 3 et au RC Motion 3, offrant des sensations de vol uniques. Sa conception robuste avec protections d'hélice intégrées le rend également plus sûr pour les vols en intérieur ou dans des environnements complexes, tout en permettant des manœuvres acrobatiques rapides et des prises de vue POV dynamiques."
+      "q": "Wie unterscheidet sich das \"Fly More Combo (1 Akku)\" Bundle von anderen DJI Avata 2 Bundles?",
+      "a": "Das \"Fly More Combo (1 Akku)\" Bundle bietet das Kern-FPV-Erlebnis mit der DJI Avata 2 Drohne, den Goggles 3 und dem RC Motion 3 Controller. Es enthält einen Intelligent Flight Battery für die Drohne. Die \"Fly More Combo\" im Allgemeinen enthält typischerweise zusätzliche Akkus und ein Mehrfachladegerät, um die Flugzeit zu verlängern. Dieses spezifische Bundle fokussiert sich auf den Einstieg in das FPV-Fliegen mit den essenziellen Komponenten, aber mit einem Akku für die Drohne. Prüfen Sie die genaue Produktbeschreibung, um sicherzustellen, welche zusätzlichen \"Fly More\" Zubehörteile (wie Ersatzakkus, Ladegeräte) enthalten sind, da \"Fly More Combo\" variieren kann. Dieses hier spezifizierte Bundle ist für Anwender gedacht, die das Flugerlebnis intensiv erleben wollen, aber eventuell bereits über Ladestationen oder zusätzliche Akkus verfügen oder erst einmal die Grundlagen erlernen möchten."
     },
     {
-      "q": "Le DJI Avata 2 est-il adapté aux débutants en FPV ?",
-      "a": "Oui, absolument. Bien qu'il s'agisse d'un drone FPV, le DJI Avata 2 intègre des modes de vol simplifiés et une navigation intuitive via le RC Motion 3. Les fonctions de retournement et de rotation sur pression de touche, ainsi que les multiples capteurs de sécurité, facilitent la prise en main pour les nouveaux pilotes désireux d'explorer le monde du FPV sans appréhension excessive."
+      "q": "Ist die DJI Avata 2 auch für Anfänger geeignet, obwohl sie eine FPV-Drohne ist?",
+      "a": "Ja, die DJI Avata 2 ist speziell darauf ausgelegt, auch für Anfänger zugänglich zu sein. Sie verfügt über verschiedene Flugmodi, darunter einen stabilen Normalmodus, der die Steuerung vereinfacht. Der integrierte Propellerschutz erhöht die Sicherheit bei versehentlichen Kollisionen. Die intuitiven Steuerungen des RC Motion 3 ermöglichen eine einfache Handhabung, und die Goggles 3 bieten ein immersives Fluggefühl. DJI hat Funktionen wie eine automatische Landefunktion und ein \"Return to Home\"-System integriert, die Anfängern helfen, die Drohne sicher zu fliegen und zu landen."
     },
     {
-      "q": "Quelle est la qualité des enregistrements vidéo du DJI Avata 2 ?",
-      "a": "Le DJI Avata 2 filme en 4K à 60 images par seconde, offrant des vidéos d'une netteté exceptionnelle et d'une fluidité remarquable. Le capteur CMOS de 1/1.3 pouce et la stabilisation avancée (RockSteady 3.0, HorizonSteady) garantissent des images cinématographiques, même lors de manœuvres rapides ou de vols en environnement mouvementé. La large plage dynamique et les couleurs riches ajoutent une dimension professionnelle à vos créations."
+      "q": "Welche Vorteile bietet die DJI Goggles 3 im Vergleich zu früheren Versionen?",
+      "a": "Die DJI Goggles 3 bieten signifikante Verbesserungen. Ein herausragendes Merkmal ist die \"Reality Display\" Funktion, die es ermöglicht, die reale Umgebung direkt durch die Brille zu sehen, ohne sie abnehmen zu müssen. Dies erhöht die Sicherheit und erleichtert die Orientierung, insbesondere beim Starten und Landen. Sie bieten eine höhere Bildqualität, einen größeren Sichtbereich und ein komfortableres Tragegefühl. Die Integration mit der Avata 2 ist nahtlos und sorgt für eine stabile, hochauflösende Videoübertragung, die das FPV-Erlebnis auf ein neues Niveau hebt."
     },
     {
-      "q": "Quelle est l'autonomie de la batterie du drone et des accessoires inclus ?",
-      "a": "Le drone DJI Avata 2 dispose d'une batterie de vol intelligente offrant jusqu'à 23 minutes de vol par charge dans des conditions idéales. Les DJI Goggles 3 ont une autonomie d'environ 2.5 heures, et le DJI RC Motion 3 peut fonctionner jusqu'à 6 heures. Le bundle Fly More Combo inclut une batterie pour le drone, et le chargeur multiport permet de les recharger efficacement."
+      "q": "Wie lange hält die Batterie und wie kann ich die Flugzeit maximieren?",
+      "a": "Die DJI Avata 2 Drohne bietet eine Flugzeit von bis zu 18 Minuten pro Intelligent Flight Battery (bei idealen Bedingungen). Um die Flugzeit zu maximieren, empfehlen wir, in kälteren Umgebungen die Akkus vorzuwärmen und aggressive Flugmanöver zu vermeiden, die den Energieverbrauch stark erhöhen. Das \"Fly More Combo\" Bundle kann zusätzliche Akkus enthalten, was Ihnen erlaubt, länger in der Luft zu bleiben, indem Sie leere Akkus einfach austauschen. Laden Sie die Akkus immer vollständig auf, bevor Sie abheben, und achten Sie auf die verbleibende Akkuleistung während des Fluges."
     },
     {
-      "q": "Puis-je utiliser le DJI Avata 2 dans des espaces restreints ou à l'intérieur ?",
-      "a": "Oui, grâce à sa conception compacte et à ses protections d'hélice intégrées, le DJI Avata 2 est tout à fait adapté aux vols en intérieur et dans des espaces restreints. Ses capteurs de détection d'obstacles contribuent également à la sécurité lors de ces vols, vous permettant de capturer des perspectives uniques depuis des angles inédits."
+      "q": "Kann ich mit der DJI Avata 2 auch Videos für soziale Medien aufnehmen?",
+      "a": "Absolut! Die DJI Avata 2 ist ideal für die Erstellung von ansprechendem Content für soziale Medien. Die 4K-Kamera mit ihrem weiten Sichtfeld ermöglicht dynamische Aufnahmen, die aus der Masse hervorstechen. Funktionen wie die Möglichkeit, Flips und Rollen auf Tastendruck auszuführen, erzeugen aufsehenerregende Effekte. Die kompakte Größe und Wendigkeit der Drohne erlauben Aufnahmen an Orten, die mit größeren Drohnen schwer zugänglich sind. Die einfache Steuerung mit dem RC Motion 3 und die immersive Erfahrung mit den Goggles 3 helfen Ihnen, kreative Flugrouten zu planen und beeindruckende POV-Aufnahmen zu erstellen, die Ihre Follower begeistern werden."
     }
   ],
   "reviewAnalysis": {
     "overall_rating": 4.5,
-    "summary": "Le DJI Avata 2 Fly More Combo offre une expérience FPV immersive et accessible, avec une qualité vidéo 4K impressionnante et une maniabilité exceptionnelle pour la création de contenu dynamique.",
+    "summary": "Exzellente FPV-Drohne für immersive Flüge und beeindruckenden Content.",
     "strengths": [
-      "Immersion FPV grâce aux Goggles 3 et RC Motion 3",
-      "Qualité vidéo 4K à 60 ips avec stabilisation avancée",
-      "Maniabilité accrue et fonctions acrobatiques intuitives",
-      "Conception robuste et sécurité renforcée pour vols variés",
-      "Facilité de prise en main pour débutants en FPV"
+      "Hohe Bildqualität (4K)",
+      "Intuitives Steuerungssystem (RC Motion 3 & Goggles 3)",
+      "Robuste Bauweise mit Propellerschutz",
+      "Immersives Flugerlebnis",
+      "Gute Manövrierbarkeit für kreative Aufnahmen"
     ],
     "weaknesses": [
-      "Autonomie de batterie standard pour le drone",
-      "Fonctionnalités avancées peuvent nécessiter un temps d'adaptation",
-      "Le bundle '1 batterie' peut être limitant pour les vols prolongés"
+      "Flugzeit pro Akku könnte länger sein (typisch für FPV-Drohnen)",
+      "Die volle manuelle Steuerung erfordert Übung."
     ],
-    "detailed_review": "Le DJI Avata 2 Fly More Combo redéfinit l'expérience du drone FPV, en la rendant plus accessible et plus performante. L'intégration des DJI Goggles 3 et du DJI RC Motion 3 crée une synergie parfaite, offrant une immersion visuelle et un contrôle intuitif rarement égalés. La capacité de filmer en 4K à 60 ips avec une stabilisation exemplaire, couplée à un champ de vision de 155°, permet de capturer des images d'une qualité cinématographique spectaculaire, idéales pour le contenu POV et les séquences d'action. Les fonctions de retournement à la volée et la maniabilité générale du drone sont un régal pour tout pilote cherchant à repousser les limites créatives. La sécurité a également été pensée, avec des protections d'hélice qui rassurent lors des vols dans des environnements moins dégagés. Bien que l'autonomie standard de la batterie du drone soit correcte, les utilisateurs intensifs pourraient envisager l'achat de batteries supplémentaires. Le bundle '1 batterie' est un excellent point de départ, mais il est important de noter que pour des sessions de vol plus longues, une batterie supplémentaire serait un investissement judicieux. Dans l'ensemble, le DJI Avata 2 Fly More Combo est un outil puissant pour les créateurs de contenu, les passionnés de drone et tous ceux qui souhaitent explorer le monde sous un angle nouveau et palpitant.",
-    "recommendation": "Fortement recommandé pour les créateurs de contenu vidéo, les vlogueurs, les amateurs de sensations fortes et les pilotes de drone cherchant une expérience FPV immersive et des performances de pointe avec une facilité d'utilisation surprenante.",
-    "value_for_money": "Excellent rapport qualité-prix, surtout considéré l'écosystème complet inclus (drone, lunettes, contrôleur) et les performances cinématographiques offertes.",
+    "detailed_review": "Die DJI Avata 2 Fly More Combo (1 Akku) Bundle setzt neue Maßstäbe im Bereich der FPV-Drohnen für Endverbraucher. Die Kombination aus der leistungsstarken 4K-Kamera und der innovativen Steuerung über die Goggles 3 und den RC Motion 3 Controller bietet ein unvergleichliches Flugerlebnis. Die Bildqualität ist beeindruckend scharf und detailreich, ideal für kinoreife Aufnahmen und dynamische POV-Videos. Der integrierte Propellerschutz ist eine wertvolle Ergänzung, die die Sicherheit erhöht und die Drohne widerstandsfähiger macht, besonders für Piloten, die sich noch im Lernprozess befinden. Die Möglichkeit, akrobatische Manöver wie Flips und Rollen auf Knopfdruck auszuführen, eröffnet kreative Möglichkeiten für einzigartigen Content. Die Goggles 3 mit ihrem verbesserten Display und die intuitiven Bewegungen des RC Motion 3 Controllers sorgen für eine tiefe Immersion und präzise Kontrolle. Die neue \"RockSteady\" Bildstabilisierung leistet hervorragende Arbeit bei der Glättung von Flügen. Während die Flugzeit pro Akku mit bis zu 18 Minuten solide ist, werden ambitionierte Piloten, die längere Flüge planen, wahrscheinlich zusätzliche Akkus benötigen. Die Bedienung im Normalmodus ist anfängerfreundlich, erfordert aber im Sport- oder manuellen Modus Übung, um das volle Potenzial auszuschöpfen. Insgesamt ist die Avata 2 eine überzeugende Wahl für jeden, der das FPV-Fliegen erleben und gleichzeitig hochwertigen visuellen Content erstellen möchte.",
+    "recommendation": "Sehr empfehlenswert für FPV-Enthusiasten und Content Creators, die ein immersives Flugerlebnis mit exzellenter Bildqualität suchen.",
+    "value_for_money": "Gutes Preis-Leistungs-Verhältnis für ein Premium-FPV-Bundle, das erstklassige Technologie und Benutzerfreundlichkeit kombiniert.",
     "final_verdict": {
-      "overall_assessment": "Excellent compromis entre qualité technologique avancée et accessibilité pour une expérience FPV de premier ordre.",
+      "overall_assessment": "Hervorragender Kompromiss zwischen Qualität, Benutzerfreundlichkeit und Zugänglichkeit für FPV-Drohnen.",
       "key_technical_specifications_features": [
-        "Caméra 4K/60ips avec stabilisation avancée",
-        "Système de contrôle immersif (Goggles 3, RC Motion 3)",
-        "Conception FPV avec sécurité renforcée",
-        "Fonctions de vol intuitives et acrobatiques"
+        "4K-Kamera mit 1/1.3 Zoll CMOS-Sensor",
+        "DJI Goggles 3 mit Reality Display",
+        "RC Motion 3 mit intuitiver Gestensteuerung",
+        "Integrierter Propellerschutz",
+        "DJI O4 Videoübertragung"
       ],
-      "points_to_consider_user_feedback": "Les utilisateurs apprécient la facilité d'apprentissage malgré la nature FPV, la qualité des images, et l'immersion. Certains recommandent des batteries supplémentaires pour un usage prolongé.",
-      "final_recommendation": "Un investissement judicieux pour ceux qui recherchent un drone FPV performant, polyvalent et offrant un ratio qualité-prix exceptionnel, idéal pour la création de contenu dynamique.",
-      "target_audience_identification": "Créateurs de contenu vidéo, vlogueurs, amateurs de sports extrêmes, pilotes de drone avancés et débutants souhaitant une introduction ludique au FPV."
+      "points_to_consider_user_feedback": "Die Flugzeit ist für längere Aufnahmen möglicherweise limitierend. Anfänger sollten zunächst mit den einfacheren Flugmodi beginnen, um die Steuerung zu meistern. Die Konnektivität und die einfache Einrichtung werden oft gelobt.",
+      "final_recommendation": "Eine überlegte Investition, die ein erstklassiges Flugerlebnis und hochwertige Foto-/Videoaufnahmen zu einem wettbewerbsfähigen Preis bietet. Die Kombination aus Leistung und Benutzerfreundlichkeit macht sie zu einer Top-Wahl.",
+      "target_audience_identification": "Ideal für kreative Hobbyisten, Videofilmer, Influencer und technikaffine Nutzer, die nach einem neuen und spannenden Weg suchen, um beeindruckende visuelle Inhalte zu erstellen. Auch für ambitionierte Anfänger, die bereit sind, sich in die Welt des FPV-Fliegens einzuarbeiten."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Immersion Visuelle Révolutionnaire",
-        "description": "Plongez au cœur de l'action avec les DJI Goggles 3.",
-        "expanded_content": "Les DJI Goggles 3 offrent une expérience FPV sans précédent grâce à leur écran haute résolution et leur champ de vision large. La technologie d'affichage avancée et le faible temps de latence vous font ressentir chaque mouvement du drone comme si vous y étiez. La fonction de vue transparente permet de reprendre conscience de votre environnement rapidement, ajoutant une couche de sécurité et de praticité."
+        "title": "Immersives Flugerlebnis mit Goggles 3",
+        "description": "Erleben Sie die Welt aus der Vogelperspektive.",
+        "expanded_content": "Die DJI Goggles 3 bieten ein revolutionäres FPV-Erlebnis. Dank des \"Reality Display\" können Sie die reale Umgebung sehen, ohne die Brille abzunehmen, was die Sicherheit erhöht. Der hohe Auflösung und das weite Sichtfeld sorgen für ein Gefühl des Eintauchens, als wären Sie selbst in der Luft."
       },
       {
         "step": 2,
-        "title": "Contrôle Intuitif et Dynamique",
-        "description": "Pilotez avec précision grâce au DJI RC Motion 3.",
-        "expanded_content": "Le DJI RC Motion 3 transforme le pilotage FPV en un geste naturel. Ses capteurs de mouvement permettent de diriger le drone avec une simplicité déconcertante, tandis que les boutons dédiés activent des manœuvres complexes comme les retournements avant/arrière et les rotations latérales, rendant les séquences aériennes dynamiques accessibles à tous."
+        "title": "Intuitive Steuerung mit RC Motion 3",
+        "description": "Fliegen Sie mit natürlichen Handbewegungen.",
+        "expanded_content": "Der RC Motion 3 Controller ermöglicht eine intuitive Steuerung der Avata 2 durch einfache Handbewegungen. Dies macht das Fliegen zugänglicher als je zuvor und erlaubt präzise Manöver, die mit herkömmlichen Fernbedienungen schwer zu realisieren wären. Ideal für kreative Flugrouten."
       },
       {
         "step": 3,
-        "title": "Capture Vidéo Cinématographique",
-        "description": "Enregistrez le monde en 4K ultra-haute définition.",
-        "expanded_content": "Le capteur de haute qualité du DJI Avata 2 permet d'enregistrer des vidéos en 4K à 60 images par seconde. Associé à la stabilisation électronique avancée RockSteady 3.0 et HorizonSteady, vous obtiendrez des séquences fluides et stables, même lors des vols les plus intenses. Le champ de vision de 155° ouvre des perspectives uniques et immersives pour vos créations."
+        "title": "Brillante 4K-Aufnahmen",
+        "description": "Halten Sie jeden Moment in beeindruckender Qualität fest.",
+        "expanded_content": "Die integrierte 4K-Kamera mit einem 1/1.3 Zoll CMOS-Sensor liefert detailreiche und lebendige Videos sowie hochauflösende Fotos. Das weite Sichtfeld erfasst mehr von Ihrer Umgebung, perfekt für dynamische Action-Aufnahmen und beeindruckende Landschaftsvideos."
       },
       {
         "step": 4,
-        "title": "Sécurité et Robustesse",
-        "description": "Volez en toute confiance avec les protections d'hélice intégrées.",
-        "expanded_content": "La conception du DJI Avata 2 intègre des protections d'hélice robustes, minimisant les risques lors des vols à proximité d'obstacles ou en intérieur. Cette conception renforce la sécurité du drone et de son environnement, permettant d'explorer des lieux inédits avec une confiance accrue."
+        "title": "Sicherheit und Robustheit",
+        "description": "Fliegen Sie sorgenfrei dank Propellerschutz.",
+        "expanded_content": "Der integrierte Propellerschutz minimiert das Risiko von Beschädigungen bei leichten Kollisionen und erhöht die Sicherheit für Sie und Ihre Umgebung. Dies macht die Avata 2 zu einer verzeihenderen Drohne, besonders für Piloten, die noch an ihrer Flugtechnik feilen."
       },
       {
         "step": 5,
-        "title": "Autonomie Optimisée",
-        "description": "Profitez de sessions de vol prolongées.",
-        "expanded_content": "Bien que le bundle inclue une batterie pour le drone, l'autonomie d'environ 23 minutes par vol est déjà très performante pour ce type d'appareil. Le système de charge rapide et la disponibilité de batteries supplémentaires (vendues séparément) permettent d'étendre vos sessions de vol et de ne jamais manquer une opportunité de capturer des images exceptionnelles."
+        "title": "Akrobatik auf Knopfdruck",
+        "description": "Führen Sie beeindruckende Flugmanöver aus.",
+        "expanded_content": "Mit Funktionen wie Flips und Rollen, die einfach per Knopfdruck ausgelöst werden können, ermöglicht die DJI Avata 2 dynamische und aufsehenerregende Aufnahmen, die Ihre Videos aufwerten und für Ihre Zuschauer unvergesslich machen."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:55:17.572439",
-  "originalName": "DJI Avata 2 Fly More Combo (1 batterie) Bundle, drone FPV avec caméra 4K, avec protection d'hélice, flips/roulis sur pression de touche, drone caméra POV Content, Goggles 3 et RC Motion 3 inclus",
+  "enhancedAt": "2025-10-21T15:18:29.155635",
+  "originalName": "DJI Avata 2 Fly More Combo (1 Akku) Bundle, FPV-Drohne mit 4K-Kamera, mit Propellerschutz, Flips/Rollen auf Tastendruck, POV Content Kamera-Drohne, inkl. Goggles 3 und RC Motion 3",
   "enhanced": true
 }

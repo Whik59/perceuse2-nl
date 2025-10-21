@@ -1,157 +1,62 @@
 {
   "categoryId": 53,
-  "categoryNameCanonical": "Batteries pour Drones",
-  "slug": "batteries-pour-drones",
+  "categoryNameCanonical": "Indoor Drohnen",
+  "slug": "indoor-drohnen",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Maximisez l'autonomie de votre drone. Large choix de batteries fiables et puissantes.",
-  "content": "<div><h2>Optimisez Votre Expérience de Vol avec Nos Batteries pour Drones</h2><p>Ne laissez jamais une batterie à plat interrompre votre aventure ! Notre sélection de <strong>batteries pour drones</strong> est conçue pour offrir une autonomie maximale et une performance fiable, que vous soyez un pilote débutant ou un professionnel aguerri. Nous proposons une gamme étendue d'accus compatibles avec les marques les plus populaires comme DJI, Parrot, et pour les drones FPV, garantissant que vous trouverez la source d'énergie parfaite pour prolonger vos sessions de vol.</p><p>Chaque <strong>batterie drone</strong> de notre catalogue est choisie pour sa qualité supérieure et sa durabilité. Nous comprenons l'importance d'une <strong>autonomie drone</strong> fiable, c'est pourquoi nos produits incluent des batteries LiPo et Li-Ion de différentes capacités (mAh) et tensions (V), adaptées à tous les besoins. Profitez de temps de vol accrus et de la tranquillité d'esprit, sachant que votre équipement est alimenté par des batteries sécurisées et performantes. Explorez notre collection et donnez un second souffle à votre drone !</p></div>",
+  "description": "Entdecke unsere Indoor Drohnen! Sicherer Flugspaß für Anfänger & Kinder. Jetzt kaufen!",
+  "content": "<div><h2>Indoor Drohnen: Flugspaß für Zuhause entdecken</h2><p>Willkommen in der faszinierenden Welt der Indoor Drohnen! Diese kompakten Flugobjekte sind perfekt, um den Nervenkitzel des Fliegens in den eigenen vier Wänden zu erleben. Egal ob für Kinder, Anfänger oder erfahrene Piloten, die eine sichere Flugumgebung bevorzugen – eine kleine Drohne für drinnen bietet stundenlangen Spaß und fördert spielerisch Koordination und Geschicklichkeit. Vergessen Sie Wind und Wetter, denn mit einer hochwertigen Mini Drohne wird Ihr Zuhause zur Flugarena.</p><h2>Die Vorteile einer Mini Drohne für drinnen</h2><p>Unsere Auswahl an Indoor Drohnen zeichnet sich durch Robustheit und benutzerfreundliche Bedienung aus. Dank kleiner Bauweise und integriertem Propellerschutz sind Kollisionen mit Möbeln oder Wänden meist harmlos. Eine Anfänger Drohne ist oft mit Funktionen wie Headless-Modus und automatischer Höhenhaltung ausgestattet, was den Einstieg besonders einfach macht. So wird das Erlernen der Steuerung zum Vergnügen und nicht zur Frustration. Verabschieden Sie sich von schlechtem Wetter, denn mit einer RC Drohne Indoor ist Flugwetter immer garantiert.</p><h2>Die perfekte Indoor Drohne finden</h2><p>Beim Kauf Ihrer perfekten Drohne für drinnen sollten Sie auf Flugzeit, Robustheit und gewünschte Funktionen achten. Einige Modelle bieten sogar eine integrierte Kamera für spannende Flugaufnahmen aus der Vogelperspektive. Ob Sie eine einfache Spielzeug Drohne suchen, die erste Flugerfahrungen ermöglicht, oder einen wendigen Quadrocopter Indoor für rasante Manöver – in unserem Sortiment finden Sie garantiert das passende Modell für grenzenlosen Flugspaß zuhause. Stöbern Sie jetzt und entdecken Sie Ihre neue Mini Drohne!</p></div>",
   "seo": {
-    "title": "Batteries Drones Haute Performance | Autonomie Longue Durée",
-    "description": "Maximisez l'autonomie de votre drone. Large choix de batteries fiables et puissantes.",
+    "title": "Indoor Drohnen kaufen: Mini-Drohnen für drinnen | Flugspaß",
+    "description": "Entdecke unsere Indoor Drohnen! Sicherer Flugspaß für Anfänger & Kinder. Jetzt kaufen!",
     "keywords": [
-      "batteries drones",
-      "batterie drone DJI",
-      "autonomie drone",
-      "batterie LiPo",
-      "accus drone"
+      "Indoor Drohnen",
+      "Mini Drohne",
+      "Drohne für drinnen",
+      "Anfänger Drohne",
+      "Kinder Drohne",
+      "RC Drohne Indoor"
     ],
-    "enhancedAt": "2025-10-15T18:58:56.050664"
+    "enhancedAt": "2025-10-21T15:20:10.721484"
   },
   "faq": [
     {
-      "question": "Comment choisir la batterie idéale pour mon drone ?",
-      "answer": "Pour choisir, identifiez le modèle exact de votre drone (DJI, Parrot, FPV, etc.). Vérifiez la tension (V), la capacité (mAh) et le courant de décharge (C) pour assurer une compatibilité parfaite et une performance optimale."
+      "question": "Was sind die Vorteile von Indoor Drohnen?",
+      "answer": "Indoor Drohnen bieten sicheren Flugspaß in geschlossenen Räumen, unabhängig vom Wetter. Sie sind oft robuster, einfacher zu steuern und ideal, um erste Flugerfahrungen ohne großen Platzbedarf zu sammeln."
     },
     {
-      "question": "Quelle est la durée de vie moyenne d'une batterie de drone ?",
-      "answer": "Une batterie de drone a généralement une durée de vie de 200 à 300 cycles de charge/décharge. Cette durée peut varier significativement selon l'utilisation, l'entretien régulier et les conditions de stockage."
+      "question": "Worauf sollte ich beim Kauf einer Indoor Drohne achten?",
+      "answer": "Achten Sie auf Größe, Robustheit, Flugzeit, Ladezeit und Funktionen wie Propellerschutz, Headless-Modus und automatische Höhenhaltung. Diese erleichtern Anfängern den Einstieg und sorgen für mehr Sicherheit."
     },
     {
-      "question": "Comment prolonger l'autonomie et la durée de vie de ma batterie de drone ?",
-      "answer": "Pour prolonger sa vie, stockez votre batterie entre 50% et 60% de charge, évitez les décharges profondes et les surcharges. Utilisez toujours un chargeur adapté et évitez d'exposer la batterie à des températures extrêmes."
+      "question": "Sind Indoor Drohnen für Kinder und Anfänger geeignet?",
+      "answer": "Ja, viele Indoor Drohnen sind speziell für Kinder und Anfänger konzipiert. Sie verfügen über einfache Steuerungen, Schutzvorrichtungen und sind verzeihender bei kleinen Kollisionen, was sie ideal zum Lernen macht."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:58:56.050677",
-  "comparisonTable": {
-    "title": "Comparaison des 5 meilleures Batteries pour Drones",
-    "columns": [
-      "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Capacité (mAh)",
-      "Tension (V)",
-      "Quantité Batteries",
-      "Type de Batterie",
-      "Chargeur Inclus"
-    ],
-    "products": [
-      {
-        "rank": 1,
-        "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51XmC1NBMuL._AC_SL1500_.jpg]",
-        "name": "3x Batterie Li-ION 3.7V 1800mAh Drone RC",
-        "prix": "16.0€",
-        "évaluation": "4.2/5",
-        "marque": "BLLRC",
-        "capacité_mah": "1800 mAh",
-        "tension_v": "3.7V",
-        "quantite_batteries": "3",
-        "type_de_batterie": "Li-ION",
-        "chargeur_inclus": "Non",
-        "productUrl": "/product/1800mah-batterie-li-ion-3-7v-drone",
-        "image": "https://m.media-amazon.com/images/I/51XmC1NBMuL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 2,
-        "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61qsUbNBZGL._AC_UL320_.jpg]",
-        "name": "Batterie Drone RC 3.7V 1800mAh E88 E525 P1",
-        "prix": "17.0€",
-        "évaluation": "3.6/5",
-        "marque": "PUSOKEI",
-        "capacité_mah": "1800 mAh",
-        "tension_v": "3.7V",
-        "quantite_batteries": "1",
-        "type_de_batterie": "LiPo",
-        "chargeur_inclus": "Non",
-        "productUrl": "/product/1800mah-batterie-drone-3-7v-e88-e525",
-        "image": "https://m.media-amazon.com/images/I/61qsUbNBZGL._AC_UL320_.jpg"
-      },
-      {
-        "rank": 3,
-        "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71zVGa7hXjL._AC_SL1500_.jpg]",
-        "name": "Batteries Lithium 3.7V 400mAh & Chargeur 5-en-1",
-        "prix": "19.0€",
-        "évaluation": "4.5/5",
-        "marque": "ZYGY",
-        "capacité_mah": "400 mAh",
-        "tension_v": "3.7V",
-        "quantite_batteries": "5",
-        "type_de_batterie": "Li-Po",
-        "chargeur_inclus": "Oui (5-en-1)",
-        "productUrl": "/product/400mah-batteries-lithium-3-7v-chargeur-5-en-1",
-        "image": "https://m.media-amazon.com/images/I/71zVGa7hXjL._AC_SL1500_.jpg"
-      },
-      {
-        "rank": 4,
-        "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71OXFpW+CCL._AC_UL320_.jpg]",
-        "name": "Batteries Li 3.7V 800mAh Chargeur 5-en-1 Drones MJX Sky Viper",
-        "prix": "27.0€",
-        "évaluation": "3.4/5",
-        "marque": "BLLRC",
-        "capacité_mah": "800 mAh",
-        "tension_v": "3.7V",
-        "quantite_batteries": "5",
-        "type_de_batterie": "LiPo",
-        "chargeur_inclus": "Oui (5-en-1)",
-        "productUrl": "/product/800mah-batteries-3-7v-chargeur-5-en-1-drones",
-        "image": "https://m.media-amazon.com/images/I/71OXFpW+CCL._AC_UL320_.jpg"
-      },
-      {
-        "rank": 5,
-        "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61CVSK+m21L._AC_SL1500_.jpg]",
-        "name": "HAWK'S WORK Lipo 3.7V 300mAh XH2.54 (2 pcs)",
-        "prix": "12.0€",
-        "évaluation": "4.4/5",
-        "marque": "HAWK'S WORK",
-        "capacité_mah": "300 mAh",
-        "tension_v": "3.7V",
-        "quantite_batteries": "2",
-        "type_de_batterie": "LiPo",
-        "chargeur_inclus": "Non",
-        "productUrl": "/product/300mah-hawk-s-work-lipo-3-7v-xh2-54",
-        "image": "https://m.media-amazon.com/images/I/61CVSK+m21L._AC_SL1500_.jpg"
-      }
-    ]
-  },
+  "enhancedAt": "2025-10-21T15:20:10.721507",
   "buyingGuide": {
-    "title": "Buying Guide: How to Choose the Best Batteries pour Drones?",
+    "title": "Kaufberatung: So wählen Sie die beste Indoor-Drohne",
     "sections": [
       {
-        "heading": "1. Type et Compatibilité de la Batterie",
-        "content": "Choisissez des batteries LiPo (Lithium Polymère) ou Li-ion adaptées à votre drone. Vérifiez la tension (Volts) et la connectique. Un mauvais voltage peut endommager le drone. Par exemple, pour des mini-drones, des batteries 3.7V sont courantes. Assurez-vous que le modèle corresponde exactement aux spécifications du fabricant pour une performance optimale et la sécurité."
+        "heading": "1. Sicherheit und Robustheit",
+        "content": "Propellerschutz ist entscheidend für Indoor-Drohnen, um Möbel und die Drohne zu schützen. Achten Sie auf Modelle mit robustem, flexiblem Material, das Kollisionen standhält. Eine leichte Bauweise minimiert zudem das Verletzungsrisiko und erhöht die Langlebigkeit bei kleinen Stürzen. Die Crashtoleranz ist ein wichtiger Faktor für ungetrübten Flugspaß zu Hause."
       },
       {
-        "heading": "2. Capacité (mAh) et Autonomie",
-        "content": "La capacité, exprimée en milliampères-heure (mAh), détermine l'autonomie de vol. Une capacité plus élevée offre un vol plus long, mais peut aussi augmenter le poids, réduisant parfois l'agilité. Pour un mini-drone, une 400mAh est un bon équilibre. Évaluez vos besoins : durée de vol ou maniabilité."
+        "heading": "2. Flugstabilität und Steuerung",
+        "content": "Eine stabile Fluglage ist für Innenräume unerlässlich. Suchen Sie nach Drohnen mit Höhenhaltungsfunktion (Altitude Hold) für einfaches Schweben. Anfänger profitieren vom Headless Mode für intuitive Steuerung, unabhängig von der Ausrichtung der Drohne. Eine präzise und reaktionsschnelle Steuerung ermöglicht Manöver in engen Räumen und erhöht den Spielwert erheblich."
       },
       {
-        "heading": "3. Taux de Décharge (C-Rate)",
-        "content": "Le taux de décharge (C-Rate) indique la puissance maximale que la batterie peut fournir. Un C-Rate élevé est essentiel pour les drones sportifs ou ceux qui transportent une charge, garantissant une puissance suffisante pour des manœuvres rapides et une stabilité. Un C-Rate trop bas peut provoquer des coupures de courant en plein vol."
+        "heading": "3. Kamerafunktionen",
+        "content": "Wenn eine Kamera gewünscht ist, wählen Sie Modelle mit mindestens 720p Auflösung für akzeptable Indoor-Aufnahmen oder Videos. Bedenken Sie, dass die Bildqualität bei sehr kleinen Indoor-Drohnen oft einfach gehalten ist. Eine Live-Übertragung (FPV) via Smartphone kann das Flugerlebnis bereichern; achten Sie hierbei auf eine stabile Verbindung ohne Verzögerung."
       },
       {
-        "heading": "4. Marque, Sécurité et Chargeur",
-        "content": "Privilégiez des marques reconnues pour leur fiabilité et leurs mesures de sécurité (protection contre les surcharges/décharges). Un chargeur compatible est CRUCIAL. Un chargeur 5-en-1, comme celui souvent proposé, est pratique pour recharger plusieurs batteries simultanément et en toute sécurité, évitant les surchauffes."
+        "heading": "4. Akkulaufzeit und Ladezeit",
+        "content": "Indoor-Drohnen haben oft kurze Flugzeiten. Berücksichtigen Sie Modelle mit austauschbaren Akkus oder solchen mit kurzer Ladezeit. Zusätzliche Akkus sind eine sinnvolle Investition, um längere Flugsessions zu ermöglichen und den Spaß nicht abrupt enden zu lassen. Eine effiziente Energieverwaltung erhöht die Nutzungsdauer pro Ladezyklus deutlich."
       },
       {
-        "heading": "5. Entretien et Stockage Optimal",
-        "content": "Pour maximiser la durée de vie de vos batteries, ne les déchargez jamais complètement et ne les surchargez pas. Stockez-les à environ 50% de leur capacité dans un endroit frais et sec. Évitez les températures extrêmes. Un bon entretien assure la performance et prolonge la vie utile de vos batteries de drone."
+        "heading": "5. Größe und Wendigkeit",
+        "content": "Für den Innenbereich sind kleine, wendige Drohnen ideal. Sie passen durch Türen, um Möbel herum und sind leichter zu handhaben in begrenzten Räumen. Mikrodrohnen bieten maximalen Spaß und Herausforderung in häuslicher Umgebung. Überlegen Sie, wo Sie hauptsächlich fliegen möchten, um die optimale Größe und Agilität für Ihr Zuhause zu finden."
       }
     ]
   }

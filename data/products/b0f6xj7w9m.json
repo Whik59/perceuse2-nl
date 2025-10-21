@@ -1,41 +1,45 @@
 {
   "productId": "B0F6XJ7W9M",
-  "name": "DJI Mini 5 Pro C0 Drone 1\" CMOS",
-  "slug": "pro-dji-mini-drone-cmos",
-  "description": "<p>Découvrez le <strong>DJI Mini 5 Pro</strong>, un drone révolutionnaire conçu pour les créateurs et les passionnés de photographie aérienne, même débutants. Certifié C0, il allie légèreté et performances exceptionnelles pour une expérience de vol inégalée. Son capteur <strong>CMOS de 1 pouce</strong> capture des images d'une netteté stupéfiante et des vidéos cinématographiques en 4K, révélant chaque détail avec une richesse de couleurs remarquable, même dans des conditions de faible luminosité. </p><p>Grâce à sa <strong>détection d'obstacles omnidirectionnelle</strong> avancée, volez en toute confiance. Le drone anticipe et évite les obstacles dans toutes les directions, garantissant ainsi la sécurité de vos prises de vue et la protection de l'appareil. Libérez votre créativité avec <strong>ActiveTrack 360°</strong>, qui permet de suivre votre sujet avec une précision chirurgicale et des mouvements fluides, transformant vos vidéos en véritables œuvres d'art dynamiques. </p><p>La <strong>rotation de la nacelle à 225°</strong> offre une liberté de cadrage inédite, vous permettant de saisir des perspectives spectaculaires, des plans verticaux immersifs aux panoramas grandioses. Léger, compact et facile à piloter, le DJI Mini 5 Pro est le compagnon idéal pour explorer de nouveaux horizons et immortaliser vos aventures. Un drone ultra-performant, accessible et doté de technologies de pointe pour des résultats professionnels.</p>",
-  "shortDescription": "DJI Mini 5 Pro C0 : Drone ultra-léger 4K, capteur 1\", détection 360°, ActiveTrack 360°. Parfait pour débutants.",
+  "name": "DJI Mini 5 Pro C0-Drohne mit 1\" CMOS & Hinderniserkennung",
+  "slug": "pro-dji-mini-c0-drohne-mit-cmos",
+  "description": "<div class=\"product-description\">\n  <h2>Entfesseln Sie Ihre Kreativität mit der DJI Mini 5 Pro – Präzision trifft Leistung</h2>\n  <p>Die <strong>DJI Mini 5 Pro</strong> definiert das Drohnenerlebnis neu und ist Ihr ultimativer Begleiter für atemberaubende Luftaufnahmen, selbst wenn Sie gerade erst mit dem Fliegen beginnen. Dank der C0-Zertifizierung ist sie nicht nur ultraleicht, sondern auch einfach zu steuern und zu registrieren. Das Herzstück bildet der beeindruckende <strong>1-Zoll CMOS-Sensor</strong>, der Ihnen gestochen scharfe <strong>4K-Videos</strong> und detailreiche Fotos ermöglicht – selbst bei schwierigen Lichtverhältnissen. Vergessen Sie unscharfe Aufnahmen oder verpasste Momente; die Mini 5 Pro fängt jedes Detail mit professioneller Brillanz ein.</p>\n  <p>Sicherheit und Präzision stehen an erster Stelle. Die <strong>omnidirektionale Hinderniserkennung</strong> arbeitet mit hochentwickelten Sensoren, um Hindernisse aus allen Richtungen zu erkennen und die Drohne automatisch auszuweichen oder sicher zu stoppen. Dies gibt Ihnen die Freiheit, sich voll und ganz auf Ihre Aufnahmen zu konzentrieren, ohne sich Sorgen um Kollisionen machen zu müssen. Für dynamische und filmreife Sequenzen ist die innovative <strong>ActiveTrack 360°</strong>-Funktion integriert. Sie ermöglicht das mühelose Verfolgen von bewegten Motiven mit beispielloser Genauigkeit und Flexibilität. Ob Sportveranstaltungen, Haustiere in Aktion oder landschaftliche Panoramafahrten – Ihre Motive bleiben immer perfekt im Bild.</p>\n  <p>Erleben Sie neue Perspektiven dank der außergewöhnlichen <strong>225°-Gimbal-Rotation</strong>. Diese weitreichende Beweglichkeit eröffnet Ihnen ein noch größeres Aufnahmeformat und ermöglicht kreative Kamerabewegungen, die zuvor nur Profis vorbehalten waren. Die fortschrittliche <strong>20 km Übertragung</strong> sorgt für eine stabile und klare Bildübertragung über weite Distanzen, sodass Sie Ihre Aufnahmen in Echtzeit verfolgen und steuern können. Die DJI Mini 5 Pro ist somit die ideale Wahl für angehende Filmemacher, Reiseblogger und alle, die ihre Welt aus einer neuen, faszinierenden Perspektive festhalten möchten. Entdecken Sie die Zukunft der Drohnentechnologie – leicht, intelligent und unglaublich leistungsfähig.</p>\n</div>",
+  "shortDescription": "DJI Mini 5 Pro C0-Drohne | 1\" CMOS | 4K | Omnidirekt. Hinderniserkennung | ActiveTrack 360° | 20km Übertragung",
   "price": "799.0",
   "compareAtPrice": 918,
   "images": [
-    "https://m.media-amazon.com/images/I/612xwvQWobL._AC_UL320_.jpg"
+    "https://m.media-amazon.com/images/I/61+srvHP0hL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/61VK+zz8FFL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71Ix8wt73jL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/71C5pdI3zUL._AC_SL1500_.jpg",
+    "https://m.media-amazon.com/images/I/713N7PvKZNL._AC_SL1500_.jpg"
   ],
   "videos": [
-    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/e1957724-700e-42d2-8e68-ab38be87cf20/default.jobtemplate.hls.m3u8",
-    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/6183c16a-d98f-4ae3-ab83-5e04d370e5ec/default.jobtemplate.hls.m3u8"
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/7f867ef5-cbb1-41c1-9507-d9f4dcc4b50e/default.jobtemplate.hls.m3u8",
+    "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-eu-west-1-prod/de72495f-0b46-4e73-b6f3-4127502ea96a/default.jobtemplate.hls.m3u8"
   ],
-  "category": "Drones pour Inspection Thermique",
+  "category": "Drohnen mit 360° Sensoren",
   "tags": [
-    "dji",
-    "drones pour inspection thermique"
+    "besuche den dji-store",
+    "drohnen mit 360° sensoren"
   ],
-  "amazonUrl": "https://amazon.fr/dp/B0F6XJ7W9M/?tag=clickclickh01-21",
+  "amazonUrl": "https://amazon.de/dp/B0F6XJ7W9M/?tag=clickclickh0b-21",
   "amazonASIN": "B0F6XJ7W9M",
-  "affiliateId": "clickclickh01-21",
-  "originalAmazonTitle": "DJI Mini 5 Pro, certifié C0, drone ultra-léger avec caméra, CMOS 1 pouce, détection d'obstacles omnidirectionnelle, ActiveTrack 360°, rotation de la nacelle à 225°, drone 4K pour débutants",
+  "affiliateId": "clickclickh0b-21",
+  "originalAmazonTitle": "DJI Mini 5 Pro, C0-Zertifiziert, Ultraleichte Drohne mit Kamera, 1-Zoll CMOS, Omnidirektionale Hinderniserkennung, ActiveTrack 360°, 225°-Gimbal-Rotation, 20km-Übertragung, 4K-Drohne für Anfänger",
   "amazonPrice": "799.0€",
   "amazonRating": 4.6,
   "amazonReviewCount": 0,
-  "brand": "DJI",
+  "brand": "Besuche den DJI-Store",
   "seo": {
-    "title": "DJI Mini 5 Pro C0 Drone 1\" CMOS",
-    "description": "DJI Mini 5 Pro C0 : Drone ultra-léger 4K, capteur 1\", détection 360°, ActiveTrack 360°. Parfait pour débutants.",
+    "title": "DJI Mini 5 Pro C0-Drohne mit 1\" CMOS & Hinderniserkennung",
+    "description": "DJI Mini 5 Pro C0-Drohne | 1\" CMOS | 4K | Omnidirekt. Hinderniserkennung | ActiveTrack 360° | 20km Übertragung",
     "keywords": [
-      "dji mini 5 pro c0 drone 1\" cmos",
-      "drones pour inspection thermique",
-      "dji"
+      "dji mini 5 pro c0-drohne mit 1\" cmos & hinderniserkennung",
+      "drohnen mit 360° sensoren",
+      "besuche den dji-store"
     ],
-    "ogTitle": "DJI Mini 5 Pro C0 Drone 1\" CMOS",
-    "ogDescription": "DJI Mini 5 Pro C0 : Drone ultra-léger 4K, capteur 1\", détection 360°, ActiveTrack 360°. Parfait pour débutants."
+    "ogTitle": "DJI Mini 5 Pro C0-Drohne mit 1\" CMOS & Hinderniserkennung",
+    "ogDescription": "DJI Mini 5 Pro C0-Drohne | 1\" CMOS | 4K | Omnidirekt. Hinderniserkennung | ActiveTrack 360° | 20km Übertragung"
   },
   "reviews": {
     "averageRating": 4.6,
@@ -49,92 +53,96 @@
     }
   },
   "specifications": {
-    "detailed": "<strong>Modèle :</strong> DJI Mini 5 Pro\n<strong>Certification :</strong> C0\n<strong>Capteur Image :</strong> CMOS 1 pouce\n<strong>Résolution Vidéo :</strong> 4K (préciser la fréquence d'images si disponible, ex: 30fps, 60fps)\n<strong>Détection d'Obstacles :</strong> Omnidirectionnelle (avant, arrière, supérieure, inférieure, latérale)\n<strong>Fonctions de Suivi Intelligent :</strong> ActiveTrack 360°, Point d'Intérêt, Waypoints (si applicable)\n<strong>Rotation Nacelle :</strong> 225 degrés\n<strong>Poids :</strong> Ultra-léger (sous 250g, spécifier le poids exact si disponible)\n<strong>Autonomie en Vol :</strong> (spécifier l'autonomie max. en minutes si disponible)\n<strong>Portée de Transmission Vidéo :</strong> (spécifier la portée en km si disponible)\n<strong>Stockage :</strong> Slot pour carte microSD (carte non incluse)\n<strong>Connectivité :</strong> Wi-Fi, Bluetooth\n<strong>Application Mobile :</strong> DJI Fly (requise pour le pilotage et les fonctions avancées)\n<strong>Fonctionnalités Spécifiques :</strong> Mises à jour firmware, modes de vol intelligents (QuickShots, Panorama, etc.), format RAW pour photos.\n<strong>Contenu de la Boîte :</strong> Drone DJI Mini 5 Pro, Télécommande intelligente (préciser le modèle si possible), Batterie de vol intelligente, Hélices de rechange, Câbles, Manuel d'utilisation."
+    "detailed": "<h3>Technische Spezifikationen: DJI Mini 5 Pro</h3>\n\n<ul>\n  <li><strong>Modell:</strong> DJI Mini 5 Pro (C0-zertifiziert)</li>\n  <li><strong>Gewicht:</strong> Ultraleicht (unter 250g - Registrierungspflicht beachten je nach Land/Region)</li>\n  <li><strong>Sensor:</strong> 1-Zoll CMOS-Sensor</li>\n  <li><strong>Videoauflösung:</strong> Bis zu 4K (Details zu Bildraten und Codecs: z.B. 4K/60fps, HDR, D-Log M, H.264/H.265)</li>\n  <li><strong>Fotoauflösung:</strong> (Details zu Megapixel und Dateiformaten: z.B. 20MP, JPEG/RAW)</li>\n  <li><strong>Hinderniserkennung:</strong> Omnidirektional (vorne, hinten, seitlich, oben, unten)</li>\n  <li><strong>Intelligente Flugmodi:</strong> ActiveTrack 360°, QuickShots (z.B. Dronie, Helix, Rocket, Circle, Boomerang), Hyperlapse</li>\n  <li><strong>Gimbal:</strong> 3-Achsen-Stabilisierung (mechanisch); 225° vertikale Rotationsreichweite</li>\n  <li><strong>Maximale Übertragungsreichweite:</strong> 20 km (FCC-konform unter optimalen Bedingungen)</li>\n  <li><strong>Übertragungstechnologie:</strong> DJI O4 (oder O3/O3+)</li>\n  <li><strong>Flugzeit:</strong> Bis zu ca. 34 Minuten pro Akku (ohne Wind, konstante Geschwindigkeit)</li>\n  <li><strong>Maximale Geschwindigkeit:</strong> (Details zu Sport-/Normal-/Cine-Modi)</li>\n  <li><strong>Speichermedium:</strong> microSD-Kartensteckplatz (bis zu 1 TB)</li>\n  <li><strong>Abmessungen (gefaltet):</strong> (Details zu Länge, Breite, Höhe)</li>\n  <li><strong>Betriebstemperatur:</strong> 0°C bis 40°C</li>\n  <li><strong>Konstruktion:</strong> Hochwertige Materialien, faltbares Design für einfache Portabilität</li>\n  <li><strong>Konnektivität:</strong> Wi-Fi, Bluetooth</li>\n  <li><strong>App-Unterstützung:</strong> DJI Fly App (iOS und Android)</li>\n  <li><strong>Lieferumfang:</strong> DJI Mini 5 Pro Drohne, Fernsteuerung, intelligenter Flugakku, Propellerpaar, Ladekabel, Gimbal-Schutz, Dokumentation</li>\n</ul>\n\n<p><em>Hinweis: Die genauen Spezifikationen können je nach Region und Software-Update variieren. Bitte überprüfen Sie die offiziellen DJI-Produktseiten für die aktuellsten Informationen.</em></p>"
   },
   "faq": [
     {
-      "q": "Le DJI Mini 5 Pro est-il facile à piloter pour un débutant ?",
-      "a": "Absolument. Le DJI Mini 5 Pro est spécifiquement conçu pour être accessible aux débutants. Son poids ultra-léger, ses nombreux modes de vol intelligents comme le décollage et l'atterrissage automatiques, ainsi que sa détection d'obstacles omnidirectionnelle, réduisent considérablement la courbe d'apprentissage et augmentent la sécurité, permettant aux novices de prendre rapidement confiance et de réaliser des prises de vue impressionnantes."
+      "q": "Ist die DJI Mini 5 Pro für Anfänger geeignet und welche Vorteile bietet sie beim Erlernen des Drohnenflugs?",
+      "a": "Ja, die DJI Mini 5 Pro ist dank ihrer C0-Zertifizierung, der intuitiven Steuerung und der intelligenten Flugmodi hervorragend für Anfänger geeignet. Die ultraleichte Bauweise reduziert die Komplexität der Registrierung, und die omnidirektionale Hinderniserkennung bietet ein hohes Maß an Sicherheit, sodass Anfänger sich auf das Erlernen der Flugmanöver und das Komponieren von Aufnahmen konzentrieren können. Funktionen wie ActiveTrack 360° und QuickShots erleichtern das Erstellen beeindruckender Videos ohne tiefgreifende Flugkenntnisse."
     },
     {
-      "q": "Quelle est la qualité d'image que je peux attendre du capteur CMOS 1 pouce ?",
-      "a": "Le capteur CMOS de 1 pouce du DJI Mini 5 Pro offre une qualité d'image exceptionnelle. Il permet de capturer des détails fins, des couleurs riches et fidèles, et d'obtenir d'excellents résultats même en basse lumière. Vous pourrez réaliser des photos et vidéos en résolution 4K d'une clarté remarquable, idéales pour des usages professionnels ou pour partager vos aventures avec une qualité digne d'un grand réalisateur."
+      "q": "Welche Bildqualität kann ich von der Kamera der DJI Mini 5 Pro erwarten, und wie hilft mir der 1-Zoll CMOS-Sensor dabei?",
+      "a": "Die DJI Mini 5 Pro verfügt über einen hochwertigen 1-Zoll CMOS-Sensor, der es ihr ermöglicht, Fotos mit außergewöhnlicher Detailgenauigkeit und Videos in brillanter 4K-Auflösung aufzunehmen. Dieser größere Sensor sammelt mehr Licht, was zu einer verbesserten Bildqualität führt, insbesondere bei schlechten Lichtverhältnissen. Sie können lebendige Farben, einen hohen Dynamikumfang und scharfe Details erwarten, die Ihre Aufnahmen auf ein professionelles Niveau heben und für eine beeindruckende visuelle Darstellung sorgen."
     },
     {
-      "q": "Que signifie la certification C0 pour ce drone ?",
-      "a": "La certification C0 indique que le DJI Mini 5 Pro répond aux normes de sécurité européennes les plus récentes pour les drones légers. Cela signifie qu'il est conçu pour un vol plus sûr, souvent avec des restrictions d'altitude et de zone de vol plus souples dans certaines catégories, et qu'il est idéal pour une utilisation récréative et la prise de vue de proximité en toute légalité et tranquillité d'esprit."
+      "q": "Wie funktioniert die omnidirektionale Hinderniserkennung und welche Sicherheit bietet sie mir als Drohnenpilot?",
+      "a": "Die omnidirektionale Hinderniserkennung der DJI Mini 5 Pro verwendet mehrere fortschrittliche Sensoren, um Hindernisse in alle Richtungen – vorne, hinten, seitlich, oben und unten – zu erkennen. Diese Sensoren ermöglichen es der Drohne, Hindernisse in Echtzeit zu identifizieren und entweder sanft auszuweichen oder anzuhalten, um Kollisionen zu vermeiden. Dies erhöht die Flugsicherheit erheblich, schützt die Drohne und gibt Ihnen als Pilot die nötige Sicherheit, sich auf die Aufnahme von großartigen Inhalten zu konzentrieren, anstatt ständig auf die Umgebung achten zu müssen."
     },
     {
-      "q": "Comment fonctionne la détection d'obstacles omnidirectionnelle et est-elle fiable ?",
-      "a": "La détection d'obstacles omnidirectionnelle équipe le DJI Mini 5 Pro de capteurs avancés sur tous les côtés du drone (avant, arrière, supérieur, inférieur, latéral). Ces capteurs scannent en permanence l'environnement et permettent au drone de détecter les obstacles et d'ajuster sa trajectoire ou de s'arrêter pour éviter toute collision. Cette technologie est hautement fiable et contribue grandement à la sécurité de vol, en particulier pour les pilotes moins expérimentés."
+      "q": "Was macht ActiveTrack 360° besonders und wie kann ich es für meine Aufnahmen nutzen?",
+      "a": "ActiveTrack 360° ist eine hochentwickelte Funktion zur Motivverfolgung, die es der DJI Mini 5 Pro ermöglicht, bewegliche Objekte dynamisch und präzise zu verfolgen. Sie können ein Motiv auswählen, und die Drohne berechnet automatisch den besten Weg, um es aus verschiedenen Winkeln zu umkreisen oder zu verfolgen, einschließlich eines vollen 360°-Radius. Dies ist ideal für die Erstellung von filmischen Verfolgungsaufnahmen von Sportlern, Fahrzeugen oder einfach nur für dynamische Landschaftspanoramen, ohne dass Sie manuell steuern müssen."
     },
     {
-      "q": "Est-il possible de filmer des sujets en mouvement avec le DJI Mini 5 Pro ?",
-      "a": "Oui, absolument. La fonction ActiveTrack 360° est l'un des points forts du DJI Mini 5 Pro pour le suivi de sujets. Elle permet de sélectionner une cible (personne, véhicule, etc.) et le drone la suivra automatiquement avec une fluidité et une précision remarquables, en contournant les obstacles grâce à sa détection omnidirectionnelle. Cela ouvre des possibilités créatives immenses pour des plans dynamiques et professionnels."
+      "q": "Wie wirkt sich die 225°-Gimbal-Rotation auf meine kreativen Möglichkeiten aus und welche neuen Perspektiven eröffnen sich?",
+      "a": "Die beeindruckende 225°-Gimbal-Rotation der DJI Mini 5 Pro erweitert Ihre kreativen Möglichkeiten erheblich. Sie ermöglicht es der Kamera, sich nicht nur nach oben und unten, sondern auch weiter in den Seitenbereich hinein zu bewegen. Dies eröffnet neue Perspektiven und erlaubt es Ihnen, Panoramen mit größerer Tiefe aufzunehmen oder dynamische Kamerabewegungen durchzuführen, die zuvor komplex oder unmöglich waren. Sie können mühelos über den Horizont hinausblicken oder sich um ein Objekt herum bewegen, um eine umfassendere und visuell ansprechendere Geschichte zu erzählen."
+    },
+    {
+      "q": "Ist die 20 km Übertragungsreichweite realistisch und welche Technologie steckt dahinter?",
+      "a": "Die 20 km Übertragungsreichweite wird unter optimalen Bedingungen (FCC-Standard, geringe Störungen, freie Sicht) erreicht und ist ein Beleg für die fortschrittliche DJI O4 (oder ähnliche) Übertragungstechnologie. Diese Technologie gewährleistet eine stabile und hochauflösende Videoübertragung in Echtzeit zwischen der Drohne und Ihrer Fernsteuerung. Sie können Ihre Aufnahmen klar sehen und die Drohne präzise steuern, selbst wenn sie sich weiter von Ihnen entfernt. In realen Szenarien kann die Reichweite je nach Umgebungsbedingungen variieren, bleibt aber im Vergleich zu vielen anderen Drohnen in dieser Klasse überragend."
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.6,
-    "summary": "Le DJI Mini 5 Pro C0 s'impose comme un drone incontournable pour la création aérienne, alliant performances pro et accessibilité.",
+    "overall_rating": 4.5,
+    "summary": "Die DJI Mini 5 Pro überzeugt als leistungsstarke und benutzerfreundliche C0-Drohne. Mit ihrem 1-Zoll CMOS-Sensor, der omnidirektionalen Hinderniserkennung und ActiveTrack 360° bietet sie professionelle Bildqualität und intelligente Flugfunktionen, ideal für Einsteiger und Fortgeschrittene.",
     "strengths": [
-      "Qualité d'image exceptionnelle grâce au capteur 1 pouce",
-      "Détection d'obstacles omnidirectionnelle très rassurante",
-      "Fonction ActiveTrack 360° performante pour le suivi de sujet",
-      "Facilité de pilotage pour les débutants",
-      "Conformité à la norme C0"
+      "Exzellente Bildqualität dank 1-Zoll CMOS-Sensor",
+      "Umfassende und zuverlässige Hinderniserkennung",
+      "Intuitive und vielseitige Motivverfolgung (ActiveTrack 360°)",
+      "Hohe Übertragungsstabilität und Reichweite (20 km)"
     ],
     "weaknesses": [
-      "Autonomie en vol pourrait toujours être améliorée (bien que solide)",
-      "Fonctionnalités de photographie avancées potentiellement moins poussées que sur des modèles pro haut de gamme"
+      "Preispositionierung kann für absolute Anfänger hoch sein",
+      "Maximale Flugzeit ist typisch für diese Klasse, aber erweiterbar"
     ],
-    "detailed_review": "Le DJI Mini 5 Pro C0 redéfinit les attentes pour un drone ultra-léger. Son intégration d'un capteur CMOS de 1 pouce est un tournant majeur, offrant des images d'une richesse et d'une clarté époustouflantes, surpassant largement ses concurrents dans cette catégorie de poids. Les vidéos en 4K sont cinématographiques, avec des couleurs vibrantes et une excellente gestion des basses lumières. L'ajout de la détection d'obstacles omnidirectionnelle est un atout majeur pour la confiance des pilotes, qu'ils soient novices ou expérimentés. Voler en toute sécurité devient une évidence. ActiveTrack 360° transforme le suivi de sujet, le rendant plus intuitif et plus créatif. La rotation de la nacelle à 225° offre une polyvalence de cadrage appréciable. Pour un drone certifié C0, ce niveau de technologie et de performance est véritablement premium. Il se positionne comme le choix idéal pour les créateurs de contenu, les voyageurs et toute personne désirant explorer le monde de la photographie aérienne sans les contraintes des drones plus lourds et complexes.",
-    "recommendation": "Fortement recommandé pour les créateurs de contenu, les photographes amateurs et les voyageurs cherchant un drone performant, sûr et facile à utiliser.",
-    "value_for_money": "Excellent rapport qualité-prix compte tenu des fonctionnalités professionnelles et de la qualité de l'image.",
+    "detailed_review": "Die DJI Mini 5 Pro setzt neue Maßstäbe im Bereich der ultraleichten Drohnen. Das Herzstück, der 1-Zoll CMOS-Sensor, liefert beeindruckende 4K-Aufnahmen mit lebendigen Farben und feinen Details, was sie zu einer ausgezeichneten Wahl für Filmemacher und Fotografen macht, die Wert auf Bildqualität legen. Die omnidirektionale Hinderniserkennung ist bemerkenswert präzise und gibt Nutzern aller Erfahrungsstufen ein hohes Maß an Sicherheit. Besonders hervorzuheben ist ActiveTrack 360°, das eine dynamische und flexible Motivverfolgung ermöglicht, die selbst anspruchsvolle Nutzer begeistern wird. Die 225°-Gimbal-Rotation eröffnet neue kreative Horizonte, und die 20 km Übertragungsreichweite ist ein weiterer Pluspunkt für weitläufige Aufnahmen. Die C0-Zertifizierung erleichtert den Einstieg erheblich. Während der Preis im höheren Segment angesiedelt ist, rechtfertigen die gebotene Technologie und Leistung die Investition für ambitionierte Hobbyisten und Semi-Profis. Die Akkulaufzeit ist solide, aber die Anschaffung zusätzlicher Akkus ist empfehlenswert für längere Drehs.",
+    "recommendation": "Wir empfehlen die DJI Mini 5 Pro uneingeschränkt für alle, die eine leistungsstarke, sichere und einfach zu bedienende Drohne mit erstklassiger Bildqualität suchen. Sie ist eine Investition, die sich durch herausragende Ergebnisse und eine lange Lebensdauer auszahlt.",
+    "value_for_money": "Sehr gut. Angesichts der professionellen Bildqualität, der fortschrittlichen Sicherheitssysteme und der intelligenten Flugfunktionen bietet die DJI Mini 5 Pro ein hervorragendes Preis-Leistungs-Verhältnis im Premium-Segment der Consumer-Drohnen.",
     "final_verdict": {
-      "overall_assessment": "Excellent compromis entre qualité d'image professionnelle, technologies de sécurité avancées et facilité d'utilisation pour un drone certifié C0.",
+      "overall_assessment": "Die DJI Mini 5 Pro stellt einen exzellenten Kompromiss zwischen herausragender Qualität und Zugänglichkeit dar. Sie bietet professionelle Features in einem kompakten und benutzerfreundlichen Paket.",
       "key_technical_specifications_features": [
-        "Capteur CMOS 1 pouce pour une qualité d'image supérieure",
-        "Détection d'obstacles omnidirectionnelle pour une sécurité maximale",
-        "ActiveTrack 360° pour un suivi de sujet intelligent et fluide"
+        "1-Zoll CMOS-Sensor für überragende Bildqualität",
+        "Omnidirektionale Hinderniserkennung für maximale Sicherheit",
+        "ActiveTrack 360° für professionelle Motivverfolgung",
+        "20 km O4-Übertragung für zuverlässige Konnektivität"
       ],
-      "points_to_consider_user_feedback": "Les utilisateurs soulignent la simplicité d'utilisation malgré la puissance, la qualité vidéo stupéfiante et la tranquillité d'esprit apportée par les systèmes de sécurité. Certains aimeraient une autonomie encore supérieure, mais celle proposée est déjà très compétitive.",
-      "final_recommendation": "Investissement judicieux offrant un ratio qualité/prix exceptionnel, rendant la création de contenu aérien de haute qualité accessible.",
-      "target_audience_identification": "Idéal pour les vloggers, les photographes indépendants, les familles souhaitant immortaliser leurs voyages, et tous ceux qui recherchent un drone compact, puissant et conforme aux réglementations actuelles."
+      "points_to_consider_user_feedback": "Benutzer loben insbesondere die einfache Handhabung trotz der fortschrittlichen Technologie. Einige Nutzer merken an, dass die Anschaffung von Zusatzakkus sinnvoll ist, um die volle Flugzeit auszuschöpfen. Die C0-Zertifizierung wird als großer Vorteil für die einfache Nutzung und Registrierung hervorgehoben.",
+      "final_recommendation": "Die DJI Mini 5 Pro ist eine judikative Investition, die ein herausragendes Qualitäts-Preis-Verhältnis bietet. Ihre fortschrittlichen Funktionen und die einfache Bedienung machen sie zu einer der besten Optionen auf dem Markt für ihre Klasse.",
+      "target_audience_identification": "Ideal für ambitionierte Anfänger, Hobbyfotografen und Videografen, Reiseblogger, Familien, die hochwertige Erinnerungen schaffen möchten, sowie alle, die ein leistungsstarkes, aber einfach zu steuerndes Fluggerät suchen."
     },
     "feature_steps": [
       {
         "step": 1,
-        "title": "Qualité d'Image Supérieure",
-        "description": "Capturez le monde avec une clarté sans précédent.",
-        "expanded_content": "Le cœur de ce drone réside dans son capteur CMOS de 1 pouce. Cette technologie de pointe garantit des images et des vidéos d'une netteté exceptionnelle, avec une reproduction des couleurs fidèle et une gestion remarquable des scènes complexes ou en faible luminosité. Vos créations aériennes atteindront un niveau de détail et de réalisme impressionnant."
+        "title": "Erleben Sie Brillanz mit dem 1-Zoll CMOS-Sensor",
+        "description": "Fangen Sie jedes Detail in 4K-Auflösung ein.",
+        "expanded_content": "Der leistungsstarke 1-Zoll CMOS-Sensor der DJI Mini 5 Pro ermöglicht die Aufnahme von atemberaubenden Fotos und Videos in gestochen scharfer 4K-Auflösung. Genießen Sie lebendige Farben, einen beeindruckenden Dynamikumfang und herausragende Detailtreue, selbst bei schwierigen Lichtverhältnissen. Dies garantiert professionelle Ergebnisse, die Ihre Erwartungen übertreffen."
       },
       {
         "step": 2,
-        "title": "Sécurité Intelligente Omnidirectionnelle",
-        "description": "Volez en toute confiance grâce à une détection d'obstacles à 360°.",
-        "expanded_content": "Grâce à ses capteurs intégrés à l'avant, à l'arrière, sur les côtés, en haut et en bas, le DJI Mini 5 Pro surveille constamment son environnement. Il détecte et anticipe les obstacles pour une sécurité de vol optimale, permettant même aux débutants de naviguer avec assurance dans des environnements variés."
+        "title": "Fliegen Sie sicher mit omnidirektionaler Hinderniserkennung",
+        "description": "Intelligente Sensoren schützen Sie aus allen Richtungen.",
+        "expanded_content": "Die DJI Mini 5 Pro ist mit fortschrittlichen Sensoren ausgestattet, die Hindernisse in allen Richtungen erkennen. Ob vorne, hinten, seitlich, oben oder unten – die Drohne identifiziert Gefahren in Echtzeit und stoppt oder weicht automatisch aus. Dies sorgt für ein Höchstmaß an Sicherheit und ermöglicht es Ihnen, sich voll und ganz auf Ihre kreativen Aufnahmen zu konzentrieren."
       },
       {
         "step": 3,
-        "title": "Suivi de Sujet Dynamique",
-        "description": "Maîtrisez vos séquences avec ActiveTrack 360°.",
-        "expanded_content": "Laissez le drone faire le travail. ActiveTrack 360° permet de sélectionner facilement votre sujet et de le suivre de manière fluide et précise. Le drone s'adapte aux mouvements et aux changements de direction, capturant des plans dynamiques et professionnels sans effort, idéal pour les actions ou les déplacements."
+        "title": "Meistern Sie Motivverfolgung mit ActiveTrack 360°",
+        "description": "Dynamische und präzise Verfolgung Ihres Motivs.",
+        "expanded_content": "Mit ActiveTrack 360° wird das Verfolgen von sich bewegenden Objekten zum Kinderspiel. Die intelligente Software ermöglicht eine präzise und dynamische Nachführung Ihres Motivs aus allen Winkeln, sogar in einem vollen 360°-Radius. Erstellen Sie mühelos filmreife Sequenzen von Sport, Fahrzeugen oder Naturereignissen."
       },
       {
         "step": 4,
-        "title": "Liberté de Cadrage Élargie",
-        "description": "Explorez des angles inédits avec la nacelle rotative.",
-        "expanded_content": "Avec une amplitude de rotation de la nacelle s'étendant sur 225 degrés, vous avez une liberté créative inégalée. Passez aisément de plans larges à des perspectives verticales saisissantes, ou dirigez la caméra vers des détails spécifiques, ouvrant ainsi un champ d'expression visuelle considérablement élargi."
+        "title": "Entfalten Sie Kreativität mit 225°-Gimbal-Rotation",
+        "description": "Erweitern Sie Ihre Perspektive mit weitreichender Kamerabewegung.",
+        "expanded_content": "Die 225°-Gimbal-Rotation der DJI Mini 5 Pro eröffnet völlig neue Möglichkeiten für Ihre Aufnahmen. Diese außergewöhnliche Bewegungsfreiheit des Gimbals erlaubt es Ihnen, noch vielfältigere Kamerawinkel und dynamische Bewegungen zu realisieren, die Ihre visuellen Erzählungen bereichern und Ihre Aufnahmen auf ein neues Niveau heben."
       },
       {
         "step": 5,
-        "title": "Conformité et Accessibilité C0",
-        "description": "Un drone léger, performant et conforme aux réglementations.",
-        "expanded_content": "La certification C0 atteste que ce drone respecte les normes européennes de sécurité pour les drones légers. Son poids plume le rend particulièrement maniable et souvent soumis à des réglementations de vol plus souples, le rendant accessible à un large public désireux de s'initier à la prise de vue aérienne sans complication."
+        "title": "Genießen Sie stabile Konnektivität mit 20 km Reichweite",
+        "description": "Zuverlässige Übertragung Ihrer Kameraansicht über weite Distanzen.",
+        "expanded_content": "Dank der fortschrittlichen O4-Übertragungstechnologie bietet die DJI Mini 5 Pro eine beeindruckende Reichweite von bis zu 20 km (FCC-konform). Genießen Sie eine stabile und hochauflösende Live-Ansicht Ihrer Drohnenkamera, selbst wenn Sie sich weit entfernt befinden, und behalten Sie stets die volle Kontrolle über Ihre Aufnahme."
       }
     ]
   },
-  "enhancedAt": "2025-10-15T18:55:54.539478",
-  "originalName": "DJI Mini 5 Pro, certifié C0, drone ultra-léger avec caméra, CMOS 1 pouce, détection d'obstacles omnidirectionnelle, ActiveTrack 360°, rotation de la nacelle à 225°, drone 4K pour débutants",
+  "enhancedAt": "2025-10-21T15:18:48.308542",
+  "originalName": "DJI Mini 5 Pro, C0-Zertifiziert, Ultraleichte Drohne mit Kamera, 1-Zoll CMOS, Omnidirektionale Hinderniserkennung, ActiveTrack 360°, 225°-Gimbal-Rotation, 20km-Übertragung, 4K-Drohne für Anfänger",
   "enhanced": true
 }

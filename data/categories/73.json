@@ -1,145 +1,155 @@
 {
   "categoryId": 73,
-  "categoryNameCanonical": "Lunettes et Casques FPV",
-  "slug": "lunettes-et-casques-fpv",
+  "categoryNameCanonical": "Drohnen Bausätze",
+  "slug": "drohnen-bausaetze",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Découvrez notre sélection de lunettes et casques FPV pour drone racing. Immersion totale!",
-  "content": "<div><h2>Plongez au Cœur de l'Action avec nos Lunettes et Casques FPV</h2><p>Découvrez une nouvelle dimension du pilotage de drone avec notre gamme exclusive de <strong>lunettes FPV</strong> et <strong>casques FPV</strong>. Que vous soyez un pilote de drone racing aguerri ou un débutant passionné par l'<strong>immersion FPV</strong>, notre sélection est conçue pour transformer votre expérience de vol. Ressentez chaque virage, chaque accélération comme si vous étiez à bord, grâce à une vision en première personne ultra-réaliste.</p><p>Nous proposons une variété de modèles, des <strong>lunettes FPV compactes</strong> et légères aux <strong>casques FPV</strong> offrant un champ de vision panoramique pour une immersion maximale. Chaque produit est choisi pour sa qualité d'image, son confort, sa robustesse et sa compatibilité avec les systèmes de transmission vidéo les plus courants. Trouvez le compagnon idéal pour vos sessions de vol et dominez le ciel avec une clarté et une réactivité inégalées.</p></div>",
+  "description": "Baue deine eigene Drohne! DIY Bausätze für Hobbyisten & Profis. Starte dein Flugprojekt!",
+  "content": "<div><h2>Drohnen Bausätze: Baue deine eigene Flugmaschine</h2><p>Immer mehr Technikbegeisterte entdecken die Faszination, eine Drohne von Grund auf selbst zu bauen. Mit einem hochwertigen Drohnen Bausatz erhältst du alle notwendigen Komponenten, um dein individuelles Flugobjekt zu realisieren. Ob du ein ambitionierter Anfänger bist, der die Grundlagen der Elektrotechnik und Aerodynamik verstehen möchte, oder ein erfahrener Modellbauer, der eine leistungsstarke FPV-Renndrohne nach eigenen Spezifikationen zusammenstellen will – bei uns findest du den passenden Bausatz.</p><p>Ein Drohnen Bausatz bietet nicht nur die Möglichkeit, Geld zu sparen, sondern vor allem ein tiefes Verständnis für die Funktionsweise deiner Drohne. Von der Montage des Rahmens über das Löten der Elektronik bis hin zur Konfiguration der Flugsteuerung – jeder Schritt vertieft dein Wissen und lässt dich stolz auf dein selbstgebautes Meisterwerk sein. Wähle aus verschiedenen Kategorien wie Quadrocopter Bausätze, FPV-Drohnen Bausätze oder spezielle Kits für Kameradrohnen. Entdecke die Welt des DIY-Drohnenbaus und hebe mit deinem eigenen Unikat ab!</p></div>",
   "seo": {
-    "title": "Lunettes FPV & Casques Drone: Immersion Totale & Achat Prix",
-    "description": "Découvrez notre sélection de lunettes et casques FPV pour drone racing. Immersion totale!",
+    "title": "Drohnen Bausätze kaufen – Dein DIY Flugabenteuer beginnt hier!",
+    "description": "Baue deine eigene Drohne! DIY Bausätze für Hobbyisten & Profis. Starte dein Flugprojekt!",
     "keywords": [
-      "lunettes FPV",
-      "casque FPV",
-      "drone FPV",
-      "immersion FPV",
-      "achat lunettes FPV"
+      "Drohnen Bausatz",
+      "DIY Drohne",
+      "FPV Drohne Bausatz",
+      "Renndrohne Bausatz",
+      "Drohne selber bauen",
+      "Quadrocopter Bausatz",
+      "Modellbau Drohne",
+      "Drohnen Kit",
+      "RC Drohne Bausatz"
     ],
-    "enhancedAt": "2025-10-15T18:58:56.049994"
+    "enhancedAt": "2025-10-21T15:21:34.240835"
   },
   "faq": [
     {
-      "question": "Qu'est-ce qu'une lunette FPV ?",
-      "answer": "Une lunette FPV (First Person View) est un dispositif porté par le pilote de drone qui lui permet de visualiser en temps réel le flux vidéo de la caméra du drone, offrant une expérience de vol immersive et en première personne."
+      "question": "Was ist ein Drohnen Bausatz?",
+      "answer": "Ein Drohnen Bausatz enthält alle Einzelteile wie Rahmen, Motoren, Flugcontroller, ESCs und Propeller, die du benötigst, um eine funktionstüchtige Drohne selbst zusammenzubauen und zu konfigurieren."
     },
     {
-      "question": "Quelle est la différence entre lunettes et casques FPV ?",
-      "answer": "Les lunettes FPV sont souvent plus compactes et légères, ressemblant à des lunettes de ski, tandis que les casques FPV sont généralement plus volumineux, recouvrant davantage le visage et offrant parfois un champ de vision plus large avec des écrans intégrés plus grands. Le choix dépend des préférences de confort, de portabilité et du degré d'immersion souhaité."
+      "question": "Ist der Zusammenbau einer Drohne schwierig für Anfänger?",
+      "answer": "Es gibt Bausätze für alle Erfahrungsstufen. Viele Kits kommen mit detaillierten Anleitungen, die den Prozess Schritt für Schritt erklären. Für Anfänger eignen sich Sets mit weniger komplexer Elektronik."
     },
     {
-      "question": "Comment choisir ses lunettes ou son casque FPV ?",
-      "answer": "Pour choisir vos lunettes ou votre casque FPV, considérez plusieurs facteurs : la résolution de l'écran, le champ de vision (FOV), le confort d'utilisation, la compatibilité avec votre système de transmission vidéo, la présence de fonctionnalités comme le DVR intégré et, bien sûr, votre budget. Il est aussi important de vérifier la latence du système pour le drone racing."
+      "question": "Welche Vorteile bieten Drohnen Bausätze gegenüber fertigen Drohnen?",
+      "answer": "Mit einem Bausatz lernst du die Technik deiner Drohne genau kennen, kannst Komponenten individuell anpassen und erhältst oft ein besseres Preis-Leistungs-Verhältnis. Zudem ist der Stolz auf ein selbstgebautes Flugobjekt unbezahlbar."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:58:56.050008",
+  "enhancedAt": "2025-10-21T15:21:34.240847",
   "comparisonTable": {
-    "title": "Comparaison des 5 meilleures Lunettes et Casques FPV",
+    "title": "Vergleich der 5 besten Drohnen & Robotik Bausätze",
     "columns": [
       "Rang",
-      "Prix",
-      "Note",
-      "Marque",
-      "Type",
-      "Application",
-      "Compatibilité"
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Kategorie",
+      "Zielgruppe",
+      "Lernschwerpunkt",
+      "Schwierigkeitsgrad"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71wxQdGSS8L._AC_SL1500_.jpg]",
-        "name": "TMOM Bandeau DJI FPV Goggles V2 VR",
-        "prix": "13.0€",
-        "note": "4.6/5",
-        "marque": "HYGJ",
-        "type": "Accessoire FPV",
-        "application": "Confort / Maintien",
-        "compatibilité": "DJI FPV Goggles V2, Lunettes VR",
-        "productUrl": "/product/tmom-bandeau-dji-fpv-goggles",
-        "image": "https://m.media-amazon.com/images/I/71wxQdGSS8L._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/915uwq0aOYL._AC_SL1500_.jpg]",
+        "name": "OSOYOO Model-3 Roboter-Auto Bausatz V2.0 für Arduino",
+        "preis": "61.0€",
+        "bewertung": "4.2/5",
+        "marke": "OSOYOO",
+        "kategorie": "Roboter Bausatz",
+        "zielgruppe": "Technik-Enthusiasten, DIY-Bastler, Bildung (ab 10 Jahren)",
+        "lernschwerpunkt": "Robotik, Programmierung (Arduino), Elektronik, Sensorik",
+        "schwierigkeitsgrad": "Mittel",
+        "productUrl": "/product/model-3-osoyoo-roboter-auto-bausatz-v2-0-fur",
+        "image": "https://m.media-amazon.com/images/I/915uwq0aOYL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/512VPKmRCrL._AC_UL320_.jpg]",
-        "name": "Lunettes FPV SoloGood EV800D DVR 5.8G 5 pouces",
-        "prix": "296.0€",
-        "note": "4.0/5",
-        "marque": "SoloGood",
-        "type": "Lunettes FPV",
-        "application": "Vol immersif / Drones & Modélisme",
-        "compatibilité": "Drones FPV 5.8GHz",
-        "productUrl": "/product/lunettes-fpv-sologood-ev800d-dvr-5-8g",
-        "image": "https://m.media-amazon.com/images/I/512VPKmRCrL._AC_UL320_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/814BUOvpQYL._AC_SL1200_.jpg]",
+        "name": "iCubeSmart 8x8x8 LED Cube Elektronik Bausatz",
+        "preis": "48.0€",
+        "bewertung": "4.4/5",
+        "marke": "iCubeSmart",
+        "kategorie": "Elektronik Bausatz",
+        "zielgruppe": "Einsteiger, Fortgeschrittene, Maker, Schüler",
+        "lernschwerpunkt": "Elektronikbau, Löten, Mikrocontroller, Programmierung",
+        "schwierigkeitsgrad": "Mittel",
+        "productUrl": "/product/icubesmart-8x8x8-led-cube-elektronik-bausatz",
+        "image": "https://m.media-amazon.com/images/I/814BUOvpQYL._AC_SL1200_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51TdanFATpL._AC_UL320_.jpg]",
-        "name": "Lunettes FPV Ciciglow 5.8G Mini Drone 40CH",
-        "prix": "96.0€",
-        "note": "3.4/5",
-        "marque": "Ciciglow",
-        "type": "Lunettes FPV",
-        "application": "Vol immersif / Mini Drones FPV",
-        "compatibilité": "Drones FPV 5.8GHz",
-        "productUrl": "/product/lunettes-fpv-ciciglow-5-8g-mini-drone",
-        "image": "https://m.media-amazon.com/images/I/51TdanFATpL._AC_UL320_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/91A-aKhy7AL._AC_UL320_.jpg]",
+        "name": "Drohnen selber bauen & tunen: Quadrocopter leicht gemacht",
+        "preis": "19.0€",
+        "bewertung": "4.5/5",
+        "marke": "Drohnen",
+        "kategorie": "Drohnen-Anleitung (Buch)",
+        "zielgruppe": "Anfänger, Hobbyisten, Technikinteressierte",
+        "lernschwerpunkt": "Drohnenbau, Quadrocopter, Multicopter, Tuning, Robotik, Elektronik",
+        "schwierigkeitsgrad": "Einfach",
+        "productUrl": "/product/drohnen-selber-bauen-tunen-quadrocopter-leicht",
+        "image": "https://m.media-amazon.com/images/I/91A-aKhy7AL._AC_UL320_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/512MJ+wWGGL._AC_SL1001_.jpg]",
-        "name": "Lunettes FPV Yklhsocneg 008D 5.8GHz 40 Canaux avec DVR",
-        "prix": "70.0€",
-        "note": "0.0/5",
-        "marque": "Yklhsocneg",
-        "type": "Lunettes FPV",
-        "application": "Vol immersif / Drones de course",
-        "compatibilité": "Drones FPV 5.8GHz",
-        "productUrl": "/product/lunettes-fpv-yklhsocneg-008d-5-8ghz-canaux",
-        "image": "https://m.media-amazon.com/images/I/512MJ+wWGGL._AC_SL1001_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/7108Pz9a08L._SL1200_.jpg]",
+        "name": "Roverdrohne selber bauen & tunen DIY Anleitung",
+        "preis": "21.0€",
+        "bewertung": "4.2/5",
+        "marke": "Roverdrohne",
+        "kategorie": "Drohnen-Anleitung",
+        "zielgruppe": "Technik-Enthusiasten, Maker, Hobbyisten",
+        "lernschwerpunkt": "Robotik, Drohnentechnik, Modifikation, Tuning, Elektronik",
+        "schwierigkeitsgrad": "Mittel",
+        "productUrl": "/product/roverdrohne-selber-bauen-tunen-diy-anleitung",
+        "image": "https://m.media-amazon.com/images/I/7108Pz9a08L._SL1200_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/41pJaiMJb-L._AC_UL320_.jpg]",
-        "name": "Sangle de tête pour DJI FPV Goggles V2 - Confort & Stabilité",
-        "prix": "11.0€",
-        "note": "0.0/5",
-        "marque": "N+B",
-        "type": "Accessoire FPV",
-        "application": "Confort / Stabilité / Style",
-        "compatibilité": "DJI FPV Goggles V2",
-        "productUrl": "/product/sangle-tete-pour-dji-fpv-goggles",
-        "image": "https://m.media-amazon.com/images/I/41pJaiMJb-L._AC_UL320_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/81z0E95Xm+L._AC_SL1500_.jpg]",
+        "name": "noDNA Roboter Kinder Spinnen Roboter DIY",
+        "preis": "19.0€",
+        "bewertung": "4.4/5",
+        "marke": "noDNA",
+        "kategorie": "Roboter Bausatz",
+        "zielgruppe": "Kinder (ab 8 Jahren)",
+        "lernschwerpunkt": "Robotik, Elektronik, Mechanik, Logisches Denken, Feinmotorik",
+        "schwierigkeitsgrad": "Einfach",
+        "productUrl": "/product/nodna-roboter-kinder-spinnen-roboter-diy",
+        "image": "https://m.media-amazon.com/images/I/81z0E95Xm+L._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleures Lunettes et Casques FPV ?",
+    "title": "Kaufberatung: So wählen Sie die besten Drohnen Bausätze aus",
     "sections": [
       {
-        "heading": "1. Type d'Affichage et Résolution",
-        "content": "Évaluez la qualité de l'écran (LCD, OLED) et la résolution pour une image claire. Les écrans OLED offrent un meilleur contraste. Pour une expérience immersive, un champ de vision (FOV) large est essentiel. Les modèles avec résolution 800x480 ou plus sont préférables pour des détails nets, comme les Lunettes FPV Yklhsocneg 008D."
+        "heading": "1. Anwendungsbereich & Drohnentyp",
+        "content": "Überlegen Sie den Einsatzzweck. Kamera-Drohnen brauchen gute Kamerahalterungen; Renndrohnen robuste Rahmen und Leistung. Ein Roverdrohnen-Bausatz, wie \"Roverdrohne selber bauen\", bietet ein geländegängiges Fahrwerk. Passen Sie den Bausatz Ihren Zielen an, ob Luftaufnahmen, Rennen oder Boden-Exploration. Die Wahl des Typs ist grundlegend für das Bauerlebnis und die finale Funktion."
       },
       {
-        "heading": "2. Réception et Fréquence",
-        "content": "Assurez-vous d'une bonne réception 5.8GHz avec 40 canaux minimum pour éviter les interférences. Un récepteur Diversity améliore considérablement la stabilité du signal en sélectionnant la meilleure antenne. Vérifiez la compatibilité avec votre émetteur vidéo VTX. La fiabilité de la liaison est cruciale pour le pilotage FPV."
+        "heading": "2. Kompatibilität & Erweiterbarkeit",
+        "content": "Achten Sie auf die Kompatibilität der Komponenten und offene Architekturen für Upgrades. Standardisierte Anschlüsse sind wichtig. Prüfen Sie, ob GPS, FPV-Kameras oder andere Sensoren einfach integrierbar sind. Ein erweiterbarer Bausatz spart langfristig Kosten und bietet mehr Flexibilität für Tuning-Projekte. Zukünftige Anpassungen sollten problemlos möglich sein."
       },
       {
-        "heading": "3. Fonctionnalité DVR Intégrée",
-        "content": "La présence d'un DVR est un atout majeur. Il permet d'enregistrer vos vols directement depuis les lunettes, utile pour analyser vos performances ou revivre l'expérience. Recherchez une qualité d'enregistrement décente. C'est idéal pour sauvegarder des séquences mémorables, comme avec les modèles Lunettes FPV Yklhsocneg 008D."
+        "heading": "3. Bauanleitung & Schwierigkeitsgrad",
+        "content": "Eine detaillierte, verständliche Bauanleitung ist entscheidend, besonders für Anfänger. Überprüfen Sie, ob Schritt-für-Schritt-Anleitungen oder Online-Ressourcen vorhanden sind. Kits wie \"DIY Anleitung\" sind oft auf Selbstbauer zugeschnitten. Schätzen Sie Ihr Können realistisch ein und wählen Sie einen Bausatz, der Ihrem Erfahrungslevel entspricht, um Frust zu vermeiden und den Bau erfolgreich abzuschließen."
       },
       {
-        "heading": "4. Confort et Ergonomie",
-        "content": "Le confort est primordial pour les longues sessions de vol. Vérifiez le poids, l'ajustement du serre-tête et la présence de mousse faciale. Un bon ajustement réduit la fatigue et assure l'étanchéité à la lumière. Essayez-les si possible pour éviter les points de pression désagréables."
+        "heading": "4. Materialqualität & Ersatzteile",
+        "content": "Die Qualität der Materialien beeinflusst Langlebigkeit und Leistung. Robuste Rahmen aus Carbon oder hochwertigem Kunststoff sind vorzuziehen. Prüfen Sie die Verfügbarkeit von Ersatzteilen. Für DIY-Projekte sind leicht erhältliche Komponenten wie Motoren oder Propeller entscheidend für Reparaturen und Tuning. Eine gute Materialbasis sichert den langfristigen Spaß am Bau und Betrieb."
       },
       {
-        "heading": "5. Autonomie et Alimentation",
-        "content": "Considérez l'autonomie de la batterie. Une batterie intégrée ou une option pour des batteries externes est importante. Vérifiez le type de connecteur (DC, USB-C) et la facilité de rechargement. Prévoyez toujours des batteries de rechange pour ne pas interrompre vos sessions FPV."
+        "heading": "5. Preis-Leistungs-Verhältnis & Support",
+        "content": "Vergleichen Sie Preise und Lieferumfang sorgfältig. Ein vermeintlich günstiger Bausatz wie für 21.0€ (\"Roverdrohne selber bauen & tunen\") könnte versteckte Zusatzkosten für fehlende Komponenten haben. Lesen Sie Bewertungen. Ein guter Kundenservice ist unerlässlich bei Problemen. Investieren Sie in Qualität und Support für ein rundum gelungenes Bauerlebnis."
       }
     ]
   }

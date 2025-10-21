@@ -1,720 +1,721 @@
 {
   "categories": {
-    "browseAll": "Voir toutes les catégories",
-    "discoverNow": "Découvrir maintenant",
-    "noProducts": "Aucun produit disponible dans cette catégorie",
-    "loading": "Chargement des catégories...",
-    "error": "Erreur lors du chargement des catégories",
-    "collectionsAvailable": "Collections disponibles",
-    "discover": "Découvrir",
-    "subcategories": "Sous-catégories",
-    "popular": "Populaire",
-    "rating": "Évaluation",
-    "products": "Produits",
-    "viewAll": "Voir tout",
-    "showMore": "Voir plus",
-    "showLess": "Voir moins",
-    "filterBy": "Filtrer",
-    "sortBy": "Trier par",
-    "priceRange": "Gamme de prix",
-    "inStock": "En stock",
-    "onSale": "En promotion",
-    "newArrivals": "Nouveautés",
-    "bestSellers": "Meilleures ventes",
-    "topRated": "Mieux notés",
-    "searchPlaceholder": "Rechercher des catégories...",
-    "allSubcategories": "Toutes les sous-catégories",
-    "subcategoriesDescription": "Explorez toutes les sous-catégories disponibles",
-    "needHelp": "Besoin d'aide ?",
-    "backToHome": "Retour à l'accueil",
-    "exploreBySpecialty": "Explorer par spécialité",
-    "refineSearch": "Affiner votre recherche avec nos sous-catégories spécialisées",
-    "viewCollection": "Voir la collection",
-    "priceAscending": "Prix croissant",
-    "priceDescending": "Prix décroissant",
-    "productsFound": "Produits trouvés",
-    "productFound": "Produit trouvé",
-    "allSpecialtiesIncluded": "(toutes les spécialités incluses)",
-    "minimumRating": "Note minimale",
-    "allRatings": "Toutes les évaluations",
-    "fourStarsAndUp": "4★ et plus",
-    "threeStarsAndUp": "3★ et plus",
-    "twoStarsAndUp": "2★ et plus",
-    "inStockOnly": "En stock seulement",
-    "noProductsFound": "Aucun produit trouvé",
-    "modifyFilters": "Essayez de modifier vos filtres ou explorez nos autres catégories",
-    "viewMoreProducts": "Voir plus de produits",
-    "relatedTerms": "Termes connexes",
-    "collections": "Collections",
-    "mostPopularCategories": "Catégories les plus populaires",
-    "discoverCollections": "Découvrez nos collections soigneusement sélectionnées pour tous les goûts",
-    "viewAllCategories": "Voir toutes les catégories"
+    "browseAll": "Alle Kategorien ansehen",
+    "discoverNow": "Jetzt entdecken",
+    "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
+    "loading": "Kategorien werden geladen...",
+    "error": "Fehler beim Laden der Kategorien",
+    "collectionsAvailable": "Verfügbare Kollektionen",
+    "discover": "Entdecken",
+    "subcategories": "Unterkategorien",
+    "popular": "Beliebt",
+    "rating": "Bewertung",
+    "products": "Produkte",
+    "viewAll": "Alle ansehen",
+    "showMore": "Mehr anzeigen",
+    "showLess": "Weniger anzeigen",
+    "filterBy": "Filtern nach",
+    "sortBy": "Sortieren nach",
+    "priceRange": "Preisspanne",
+    "inStock": "Auf Lager",
+    "onSale": "Im Angebot",
+    "newArrivals": "Neuheiten",
+    "bestSellers": "Bestseller",
+    "topRated": "Am besten bewertet",
+    "searchPlaceholder": "Kategorien durchsuchen...",
+    "allSubcategories": "Alle Unterkategorien",
+    "subcategoriesDescription": "Entdecken Sie alle verfügbaren Unterkategorien",
+    "needHelp": "Brauchen Sie Hilfe?",
+    "backToHome": "Zurück zur Startseite",
+    "exploreBySpecialty": "Nach Spezialität erkunden",
+    "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
+    "viewCollection": "Kollektion ansehen",
+    "priceAscending": "Preis aufsteigend",
+    "priceDescending": "Preis absteigend",
+    "productsFound": "Produkte gefunden",
+    "productFound": "Produkt gefunden",
+    "allSpecialtiesIncluded": "(alle Spezialitäten eingeschlossen)",
+    "minimumRating": "Mindestbewertung",
+    "allRatings": "Alle Bewertungen",
+    "fourStarsAndUp": "4★ und mehr",
+    "threeStarsAndUp": "3★ und mehr",
+    "twoStarsAndUp": "2★ und mehr",
+    "inStockOnly": "Nur auf Lager",
+    "noProductsFound": "Keine Produkte gefunden",
+    "modifyFilters": "Versuchen Sie, Ihre Filter zu ändern oder erkunden Sie unsere anderen Kategorien",
+    "viewMoreProducts": "Weitere Produkte ansehen",
+    "relatedTerms": "Verwandte Begriffe",
+    "collections": "Kollektionen",
+    "mostPopularCategories": "Beliebteste Kategorien",
+    "discoverCollections": "Entdecken Sie unsere sorgfältig ausgewählten Kollektionen für jeden Geschmack",
+    "viewAllCategories": "Alle Kategorien ansehen"
   },
   "navigation": {
-    "home": "Accueil",
-    "products": "Produits",
-    "categories": "Catégories",
-    "cart": "Sélection",
+    "home": "Startseite",
+    "products": "Produkte",
+    "categories": "Kategorien",
+    "cart": "Auswahl",
     "checkout": "Amazon",
-    "account": "Mon compte",
-    "contact": "Contact"
+    "account": "Mein Konto",
+    "contact": "Kontakt"
   },
   "product": {
-    "description": "Description",
-    "specifications": "Spécifications",
-    "customerReviews": "Avis clients",
-    "faq": "FAQ",
-    "quickReview": "Notre verdict en 30 secondes",
-    "reviewAnalysis": "Évaluation",
-    "reviewAnalysisSummary": "Analyse complète du produit",
-    "reviewAnalysisStrengths": "Points forts",
-    "reviewAnalysisWeaknesses": "Points d'amélioration",
-    "reviewAnalysisDetailed": "Analyse détaillée",
-    "reviewAnalysisRecommendation": "Recommandation",
-    "reviewAnalysisValue": "Rapport qualité-prix",
-    "reviewAnalysisFinalVerdict": "Notre verdict final",
+    "description": "Beschreibung",
+    "specifications": "Spezifikationen",
+    "customerReviews": "Kundenbewertungen",
+    "faq": "Häufig gestellte Fragen",
+    "quickReview": "Unser Urteil in 30 Sekunden",
+    "reviewAnalysis": "Bewertung",
+    "reviewAnalysisSummary": "Umfassende Produktanalyse",
+    "reviewAnalysisStrengths": "Stärken",
+    "reviewAnalysisWeaknesses": "Verbesserungspunkte",
+    "reviewAnalysisDetailed": "Detaillierte Analyse",
+    "reviewAnalysisRecommendation": "Empfehlung",
+    "reviewAnalysisValue": "Preis-Leistungs-Verhältnis",
+    "reviewAnalysisFinalVerdict": "Unser endgültiges Urteil",
     "heroReviews": {
-      "title": "Notre test complet",
+      "title": "Unser umfassender Test",
       "subtitle": ""
     },
-    "alsoLike": "Cela pourrait aussi vous plaire",
-    "buyNow": "Acheter maintenant",
-    "viewProduct": "Voir",
-    "whyChoose": "Pourquoi choisir {productTitle}",
-    "overallAssessment": "Évaluation globale",
-    "pointsToConsider": "Points à considérer",
-    "finalRecommendation": "Recommandation finale",
-    "targetAudience": "Public cible",
-    "loading": "Chargement...",
-    "notFound": "Produit non trouvé",
-    "notFoundDescription": "Le produit recherché n'est pas disponible",
-    "viewersCount": "Personnes voient ce produit",
-    "lastOrderBy": "Dernière commande par",
-    "temporarilyUnavailable": "Indisponible temporairement",
-    "limitedStock": "Stock limité",
-    "remaining": "restant",
-    "inStock": "En stock",
-    "savings": "Économies de",
-    "paymentInstallments": "Paiement en plusieurs fois",
-    "secureTransaction": "Transaction sécurisée",
-    "delivery48h": "Livraison en 48h",
-    "outOfStock": "Rupture de stock",
-    "offer24h": "Offre 24h",
-    "checkAvailability": "Vérifier la disponibilité",
-    "quantity": "Quantité",
-    "redirecting": "Redirection...",
-    "buyOnAmazon": "Acheter",
-    "favorites": "Favoris",
-    "share": "Partager",
-    "technicalSpecifications": "Spécifications techniques",
-    "noSpecifications": "Aucune spécification disponible pour ce produit",
-    "frequentlyAskedQuestions": "Questions fréquemment posées",
-    "basedOnReviews": "Basé sur",
-    "reviews": "avis",
-    "verifiedPurchase": "Achat vérifié",
-    "clientsRecommend": "des clients recommandent ce produit",
-    "similarProductsLoading": "Produits similaires en cours de chargement...",
-    "limitedOffer": "Offre limitée",
-    "expiresIn": "Expire dans",
-    "addToCartForDiscount": "Cliquez ci-dessous",
-    "cartDiscountDisclaimer": "Ajouter le produit au panier = 30% de remise !",
-    "quickPreview": "Aperçu rapide",
-    "saveAmount": "Économisez {amount}",
-    "filters": "Filtres",
-    "products": "Produits",
+    "alsoLike": "Das könnte Ihnen auch gefallen",
+    "buyNow": "Jetzt kaufen",
+    "viewProduct": "Ansehen",
+    "whyChoose": "Warum {productTitle} wählen",
+    "overallAssessment": "Gesamtbewertung",
+    "pointsToConsider": "Zu beachtende Punkte",
+    "finalRecommendation": "Endgültige Empfehlung",
+    "targetAudience": "Zielgruppe",
+    "loading": "Wird geladen...",
+    "notFound": "Produkt nicht gefunden",
+    "notFoundDescription": "Das gesuchte Produkt ist nicht verfügbar",
+    "viewersCount": "Personen sehen dieses Produkt",
+    "lastOrderBy": "Letzte Bestellung von",
+    "temporarilyUnavailable": "Vorübergehend nicht verfügbar",
+    "limitedStock": "Begrenzter Vorrat",
+    "remaining": "verbleibend",
+    "inStock": "Auf Lager",
+    "savings": "Ersparnis von",
+    "paymentInstallments": "Ratenzahlung",
+    "secureTransaction": "Sichere Transaktion",
+    "delivery48h": "Lieferung in 48h",
+    "outOfStock": "Ausverkauft",
+    "offer24h": "24h-Angebot",
+    "checkAvailability": "Verfügbarkeit prüfen",
+    "quantity": "Menge",
+    "redirecting": "Weiterleitung...",
+    "buyOnAmazon": "Kaufen",
+    "favorites": "Favoriten",
+    "share": "Teilen",
+    "technicalSpecifications": "Technische Spezifikationen",
+    "noSpecifications": "Keine Spezifikationen für dieses Produkt verfügbar",
+    "frequentlyAskedQuestions": "Häufig gestellte Fragen",
+    "basedOnReviews": "Basierend auf",
+    "reviews": "Bewertungen",
+    "verifiedPurchase": "Verifizierter Kauf",
+    "clientsRecommend": "der Kunden empfehlen dieses Produkt",
+    "similarProductsLoading": "Ähnliche Produkte werden geladen...",
+    "limitedOffer": "Begrenztes Angebot",
+    "expiresIn": "Läuft ab in",
+    "addToCartForDiscount": "Klicken Sie unten",
+    "cartDiscountDisclaimer": "Produkt in den Warenkorb legen = 30% Rabatt!",
+    "quickPreview": "Schnellvorschau",
+    "saveAmount": "Sparen Sie {amount}",
+    "filters": "Filter",
+    "products": "Produkte",
     "sort": {
-      "newest": "Les plus récents",
-      "priceLow": "Prix : bas à haut",
-      "priceHigh": "Prix : haut à bas",
-      "rating": "Les mieux notés"
+      "newest": "Neueste",
+      "priceLow": "Preis: niedrig bis hoch",
+      "priceHigh": "Preis: hoch bis niedrig",
+      "rating": "Am besten bewertet"
     },
-    "priceRange": "Gamme de prix",
-    "minRating": "Note minimale",
-    "allRatings": "Toutes les évaluations",
-    "4stars": "4 étoiles et plus",
-    "3stars": "3 étoiles et plus",
-    "2stars": "2 étoiles et plus",
-    "1star": "1 étoile et plus",
-    "availability": "Disponibilité",
-    "noProducts": "Aucun produit disponible",
-    "noProductsDescription": "Aucun produit trouvé correspondant aux filtres sélectionnés"
+    "priceRange": "Preisspanne",
+    "minRating": "Mindestbewertung",
+    "allRatings": "Alle Bewertungen",
+    "4stars": "4 Sterne und mehr",
+    "3stars": "3 Sterne und mehr",
+    "2stars": "2 Sterne und mehr",
+    "1star": "1 Stern und mehr",
+    "availability": "Verfügbarkeit",
+    "noProducts": "Keine Produkte verfügbar",
+    "noProductsDescription": "Keine Produkte gefunden, die den ausgewählten Filtern entsprechen"
   },
   "common": {
-    "close": "Fermer",
-    "cancel": "Annuler",
-    "confirm": "Confirmer",
-    "loading": "Chargement...",
-    "error": "Une erreur s'est produite",
-    "siteName": "Site",
-    "companyName": "Entreprise",
-    "home": "Accueil",
-    "linkCopied": "Lien copié",
-    "qualityExceptional": "Qualité exceptionnelle",
-    "amazonShipping": "Livraison Amazon"
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "siteName": "Website",
+    "companyName": "Unternehmen",
+    "home": "Startseite",
+    "linkCopied": "Link kopiert",
+    "qualityExceptional": "Hervorragende Qualität",
+    "amazonShipping": "Amazon-Versand"
   },
   "homepage": {
-    "title": "Accueil",
-    "loading": "Chargement...",
+    "title": "Startseite",
+    "loading": "Wird geladen...",
     "whyChoose": {
-      "title": "Pourquoi nous choisir ?",
+      "title": "Warum uns wählen?",
       "advantage2": {
-        "title": "Livraison rapide",
-        "description": "Livraison gratuite en 24-48 heures dans toute la France. Votre maison est notre priorité, c'est pourquoi nous garantissons des livraisons rapides et sécurisées."
+        "title": "Schnelle Lieferung",
+        "description": "Kostenloser Versand in 24-48 Stunden in ganz Deutschland. Ihre Zufriedenheit ist unsere Priorität, deshalb garantieren wir schnelle und sichere Lieferungen."
       },
       "advantage4": {
-        "title": "Garantie complète",
-        "description": "Garantie de 2 ans sur tous nos produits. Votre satisfaction est garantie avec notre service client exceptionnel."
+        "title": "Umfassende Garantie",
+        "description": "2 Jahre Garantie auf alle unsere Produkte. Ihre Zufriedenheit ist mit unserem erstklassigen Kundenservice garantiert."
       },
       "comparison": {
-        "title": "Comparaison avec la concurrence",
-        "us": "Nous",
-        "others": "Autres",
-        "criteria": "Critères",
-        "quality": "Qualité",
-        "standardQuality": "Qualité standard",
-        "fastShipping": "Livraison rapide 24h",
-        "slowShipping": "Livraison lente 5-7 jours",
-        "warranty": "Garantie 2 ans",
-        "limitedWarranty": "Garantie limitée",
-        "support": "Support spécialisé",
-        "basicSupport": "Support de base",
-        "tableFooter": "Comparaison des {count} meilleurs produits basée sur les spécifications et les avis clients. Cliquez sur une ligne pour voir le produit. Les prix peuvent varier."
+        "title": "Vergleich mit der Konkurrenz",
+        "us": "Wir",
+        "others": "Andere",
+        "criteria": "Kriterien",
+        "quality": "Qualität",
+        "standardQuality": "Standardqualität",
+        "fastShipping": "Schnelle Lieferung 24h",
+        "slowShipping": "Langsame Lieferung 5-7 Tage",
+        "warranty": "2 Jahre Garantie",
+        "limitedWarranty": "Eingeschränkte Garantie",
+        "support": "Spezialisierter Support",
+        "basicSupport": "Grundlegender Support",
+        "tableFooter": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt anzuzeigen. Preise können variieren."
       }
     }
   },
   "errors": {
-    "somethingWrong": "Quelque chose s'est mal passé",
-    "tryAgain": "Réessayer",
-    "pageNotFound": "Page non trouvée",
-    "productNotFound": "Produit non trouvé",
-    "categoryNotFound": "Catégorie non trouvée",
-    "amazonRedirectError": "Erreur lors de la redirection vers Amazon",
-    "amazonUnavailable": "Amazon non disponible",
+    "somethingWrong": "Etwas ist schiefgelaufen",
+    "tryAgain": "Erneut versuchen",
+    "pageNotFound": "Seite nicht gefunden",
+    "productNotFound": "Produkt nicht gefunden",
+    "categoryNotFound": "Kategorie nicht gefunden",
+    "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
+    "amazonUnavailable": "Amazon nicht verfügbar",
     "404": {
       "title": "404",
-      "heading": "Page non trouvée",
-      "description": "Désolé, nous n'avons pas pu trouver la page recherchée. Elle a peut-être été déplacée, supprimée ou n'existe pas.",
-      "goHome": "À l'accueil",
-      "browseCategories": "Parcourir les catégories",
-      "helpText": "Si vous pensez qu'il s'agit d'une erreur, veuillez contacter notre équipe de support."
+      "heading": "Seite nicht gefunden",
+      "description": "Es tut uns leid, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben, gelöscht oder existiert nicht.",
+      "goHome": "Zur Startseite",
+      "browseCategories": "Kategorien durchsuchen",
+      "helpText": "Wenn Sie glauben, dass es sich um einen Fehler handelt, kontaktieren Sie bitte unser Support-Team."
     }
   },
   "search": {
-    "placeholder": "Rechercher des produits...",
-    "noResults": "Aucun produit trouvé",
-    "searchFor": "Rechercher des produits",
-    "suggestions": "Suggestions :",
-    "all": "Tout",
-    "products": "Produits",
-    "categories": "Catégories",
-    "searching": "Recherche en cours...",
-    "noResultsFound": "Aucun résultat trouvé",
-    "tryOtherKeywords": "Essayez d'autres mots-clés ou explorez nos catégories",
-    "viewAllCategories": "Voir toutes les catégories",
-    "loading": "Chargement..."
+    "placeholder": "Produkte suchen...",
+    "noResults": "Keine Produkte gefunden",
+    "searchFor": "Nach Produkten suchen",
+    "suggestions": "Vorschläge:",
+    "all": "Alle",
+    "products": "Produkte",
+    "categories": "Kategorien",
+    "searching": "Suche läuft...",
+    "noResultsFound": "Keine Ergebnisse gefunden",
+    "tryOtherKeywords": "Versuchen Sie andere Schlüsselwörter oder erkunden Sie unsere Kategorien",
+    "viewAllCategories": "Alle Kategorien ansehen",
+    "loading": "Wird geladen..."
   },
   "comparison": {
-    "title": "Comparaison de produits",
-    "compareProducts": "Comparer les produits",
-    "specifications": "Spécifications",
-    "price": "Prix",
-    "rating": "Évaluation",
-    "availability": "Disponibilité",
-    "description": "Comparaison des {count} meilleurs produits basée sur les spécifications et les avis clients. Cliquez sur une ligne pour voir le produit. Les prix peuvent varier.",
-    "clickToView": "Cliquez sur une ligne pour voir le produit",
-    "pricesMayVary": "Les prix peuvent varier"
+    "title": "Produktvergleich",
+    "compareProducts": "Produkte vergleichen",
+    "specifications": "Spezifikationen",
+    "price": "Preis",
+    "rating": "Bewertung",
+    "availability": "Verfügbarkeit",
+    "description": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt anzuzeigen. Preise können variieren.",
+    "clickToView": "Klicken Sie auf eine Zeile, um das Produkt anzuzeigen",
+    "pricesMayVary": "Preise können variieren"
   },
   "header": {
     "premium": "PREMIUM",
-    "partner": "Partenaire Amazon",
-    "madeInGermany": "Fabriqué en Europe",
-    "verified": "Vérifié",
+    "partner": "Amazon-Partner",
+    "madeInGermany": "Hergestellt in Europa",
+    "verified": "Verifiziert",
     "rating": "4,9/5",
     "search": {
-      "placeholder": "Rechercher des produits..."
+      "placeholder": "Produkte suchen..."
     },
     "support": "Support",
     "cart": {
-      "title": "Ma sélection"
+      "title": "Meine Auswahl"
     }
   },
   "social": {
-    "shareProduct": "Partager ce produit",
-    "followUs": "Suivez-nous",
-    "customerReviews": "Avis clients Amazon"
+    "shareProduct": "Dieses Produkt teilen",
+    "followUs": "Folgen Sie uns",
+    "customerReviews": "Kundenbewertungen Amazon"
   },
   "urgency": {
-    "orderInNext": "Commande dans les prochaines",
-    "hours": "heures",
-    "minutes": "minutes",
-    "toReceiveBy": "pour recevoir avant",
-    "popularChoice": "Choix populaire",
-    "bestSeller": "Meilleures ventes",
-    "almostSoldOut": "Stock limité",
-    "amazonPrime": "Livraison Prime disponible",
-    "freeShipping": "Livraison gratuite",
-    "cartDiscount": "-30% si vous l'ajoutez au panier dans les 5 prochaines minutes !"
+    "orderInNext": "Bestellen Sie in den nächsten",
+    "hours": "Stunden",
+    "minutes": "Minuten",
+    "toReceiveBy": "um zu erhalten bis",
+    "popularChoice": "Beliebte Wahl",
+    "bestSeller": "Bestseller",
+    "almostSoldOut": "Begrenzter Vorrat",
+    "amazonPrime": "Amazon Prime Lieferung verfügbar",
+    "freeShipping": "Kostenloser Versand",
+    "cartDiscount": "-30%, wenn Sie es in den nächsten 5 Minuten in den Warenkorb legen!"
   },
   "amazon": {
-    "buyOnAmazon": "Acheter sur Amazon",
-    "buyNow": "Acheter maintenant",
-    "viewOnAmazon": "Voir sur Amazon",
-    "priceOnAmazon": "Prix sur Amazon",
-    "onAmazon": "sur Amazon",
-    "affiliateNotice": "En tant que partenaire Amazon, nous gagnons des commissions sur les achats qualifiés.",
-    "redirecting": "Redirection vers Amazon...",
-    "openInNewTab": "Ouvrir dans un nouvel onglet",
-    "viaAmazon": "via Amazon",
+    "buyOnAmazon": "Auf Amazon kaufen",
+    "buyNow": "Jetzt kaufen",
+    "viewOnAmazon": "Auf Amazon ansehen",
+    "priceOnAmazon": "Preis auf Amazon",
+    "onAmazon": "auf Amazon",
+    "affiliateNotice": "Als Amazon-Partner verdienen wir an qualifizierten Käufen.",
+    "redirecting": "Weiterleitung zu Amazon...",
+    "openInNewTab": "In neuem Tab öffnen",
+    "viaAmazon": "über Amazon",
     "amazonLogo": "/Amazon_icon.svg"
   },
   "banner": {
-    "discount": "Remise",
-    "clientReviews": "Avis clients",
-    "ordersDelivered": "Commandes livrées",
-    "amazonPartenaire": "Partenaire Amazon",
-    "madeInGermany": "Fabriqué en Allemagne",
-    "qualityAssured": "Qualité garantie",
-    "fastDelivery": "Livraison rapide",
-    "securePayment": "Paiement sécurisé",
-    "customerSupport": "Service client 24/7",
-    "freeReturns": "Retours gratuits",
-    "emergencyDiscount": "-30% sur tous les produits",
-    "timeLeft": "Temps restant",
-    "hours": "h",
-    "minutes": "min",
-    "seconds": "s"
+    "discount": "Rabatt",
+    "clientReviews": "Kundenbewertungen",
+    "ordersDelivered": "Bestellungen geliefert",
+    "amazonPartenaire": "Amazon-Partner",
+    "madeInGermany": "Hergestellt in Deutschland",
+    "qualityAssured": "Qualität garantiert",
+    "fastDelivery": "Schnelle Lieferung",
+    "securePayment": "Sichere Zahlung",
+    "customerSupport": "Kundenservice 24/7",
+    "freeReturns": "Kostenlose Rücksendungen",
+    "emergencyDiscount": "-30% auf alle Produkte",
+    "timeLeft": "Verbleibende Zeit",
+    "hours": "Std",
+    "minutes": "Min",
+    "seconds": "Sek"
   },
   "support": {
-    "title": "Service client",
-    "subtitle": "Nous sommes là pour vous aider avec toutes vos questions",
+    "title": "Kundenservice",
+    "subtitle": "Wir sind hier, um Ihnen bei allen Fragen zu helfen",
     "contact": {
-      "title": "Contactez-nous",
-      "subjectLabel": "Sujet",
-      "selectSubject": "Sélectionner un sujet",
-      "emailLabel": "Votre e-mail",
-      "emailPlaceholder": "votre@email.com",
-      "messageLabel": "Message",
-      "messagePlaceholder": "Décrivez votre demande ici...",
-      "sendWhatsApp": "Envoyer par WhatsApp",
-      "whatsappInfo": "Nous vous répondons par WhatsApp en moins de 2 heures",
-      "whatsappTemplate": "Bonjour, j'ai une question concernant ma commande :",
-      "subject": "Sujet",
-      "email": "E-mail",
-      "message": "Message",
+      "title": "Kontaktieren Sie uns",
+      "subjectLabel": "Betreff",
+      "selectSubject": "Betreff auswählen",
+      "emailLabel": "Ihre E-Mail",
+      "emailPlaceholder": "ihre@email.de",
+      "messageLabel": "Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihr Anliegen hier...",
+      "sendWhatsApp": "Über WhatsApp senden",
+      "whatsappInfo": "Wir antworten Ihnen über WhatsApp in weniger als 2 Stunden",
+      "whatsappTemplate": "Hallo, ich habe eine Frage zu meiner Bestellung:",
+      "subject": "Betreff",
+      "email": "E-Mail",
+      "message": "Nachricht",
       "subjects": {
-        "order": "Question sur la commande",
-        "refund": "Demande de remboursement",
-        "exchange": "Échange de produit",
-        "quality": "Problème de qualité",
-        "delivery": "Question sur la livraison",
-        "other": "Autre demande"
+        "order": "Frage zur Bestellung",
+        "refund": "Rückerstattungsanfrage",
+        "exchange": "Produktumtausch",
+        "quality": "Qualitätsproblem",
+        "delivery": "Frage zur Lieferung",
+        "other": "Sonstige Anfrage"
       }
     }
   },
   "cart": {
-    "title": "Ma sélection",
-    "addToCart": "Ajouter au panier",
-    "yourCart": "Votre panier",
-    "cartEmpty": "Votre panier est vide",
-    "continueShopping": "Continuer les achats",
-    "removeItem": "Supprimer",
-    "updateQuantity": "Modifier la quantité",
-    "subtotal": "Sous-total",
-    "shipping": "Livraison",
-    "total": "Total",
-    "proceedToCheckout": "Passer à la caisse",
+    "title": "Meine Auswahl",
+    "addToCart": "In den Warenkorb",
+    "yourCart": "Ihr Warenkorb",
+    "cartEmpty": "Ihr Warenkorb ist leer",
+    "continueShopping": "Weiter einkaufen",
+    "removeItem": "Entfernen",
+    "updateQuantity": "Menge ändern",
+    "subtotal": "Zwischensumme",
+    "shipping": "Versand",
+    "total": "Gesamt",
+    "proceedToCheckout": "Zur Kasse",
     "empty": {
-      "title": "Votre sélection est vide",
-      "description": "Ajoutez des produits à votre sélection pour continuer",
-      "button": "Retour à la boutique"
+      "title": "Ihre Auswahl ist leer",
+      "description": "Fügen Sie Produkte zu Ihrer Auswahl hinzu, um fortzufahren",
+      "button": "Zurück zum Shop"
     },
-    "removeFromCart": "Retirer du panier",
-    "quantity": "Quantité",
-    "price": "Prix",
-    "added": "Ajouté au panier",
-    "removed": "Retiré du panier",
-    "updated": "Panier mis à jour",
-    "checkout": "Commander",
-    "discountCode": "Code de remise",
-    "applyDiscount": "Appliquer",
-    "discountApplied": "Code {code} appliqué",
-    "invalidDiscount": "Code de remise invalide",
-    "discountError": "Une erreur s'est produite",
-    "reduction": "Remise",
-    "freeShipping": "Gratuit",
+    "removeFromCart": "Aus dem Warenkorb entfernen",
+    "quantity": "Menge",
+    "price": "Preis",
+    "added": "Zum Warenkorb hinzugefügt",
+    "removed": "Aus dem Warenkorb entfernt",
+    "updated": "Warenkorb aktualisiert",
+    "checkout": "Bestellen",
+    "discountCode": "Rabattcode",
+    "applyDiscount": "Anwenden",
+    "discountApplied": "Code {code} angewendet",
+    "invalidDiscount": "Ungültiger Rabattcode",
+    "discountError": "Ein Fehler ist aufgetreten",
+    "reduction": "Rabatt",
+    "freeShipping": "Kostenlos",
     "crossedOutShipping": "5,99€",
-    "orderCommand": "Commander",
-    "totalEstimated": "Total estimé",
-    "amazonNotice": "Prix final et frais de livraison sur Amazon",
-    "buyOnAmazon": "Acheter",
-    "buyNow": "Acheter maintenant",
-    "viewFullSelection": "Afficher ma sélection complète",
-    "pageTitle": "Votre sélection",
-    "pageSubtitle": "Vos produits sélectionnés - Achetez directement sur Amazon",
-    "summary": "Résumé",
-    "items": "Articles",
-    "clearCart": "Vider la sélection",
-    "amazonPartenaire": "Acheter sur Amazon",
-    "amazonPartenaireText": "En tant que partenaire Amazon, nous gagnons des commissions sur les achats qualifiés.",
+    "orderCommand": "Bestellen",
+    "totalEstimated": "Geschätzte Gesamtsumme",
+    "amazonNotice": "Endgültiger Preis und Versandkosten auf Amazon",
+    "buyOnAmazon": "Kaufen",
+    "buyNow": "Jetzt kaufen",
+    "viewFullSelection": "Meine vollständige Auswahl ansehen",
+    "pageTitle": "Ihre Auswahl",
+    "pageSubtitle": "Ihre ausgewählten Produkte - Direkt auf Amazon kaufen",
+    "summary": "Zusammenfassung",
+    "items": "Artikel",
+    "clearCart": "Auswahl leeren",
+    "amazonPartenaire": "Auf Amazon kaufen",
+    "amazonPartenaireText": "Als Amazon-Partner verdienen wir an qualifizierten Käufen.",
     "trustSignals": {
-      "freeShipping": "Livraison gratuite",
-      "securePayment": "Paiement sécurisé", 
-      "freeReturns": "Retours gratuits"
+      "freeShipping": "Kostenloser Versand",
+      "securePayment": "Sichere Zahlung",
+      "freeReturns": "Kostenlose Rücksendungen"
     },
     "amazonButton": {
-      "buyNow": "Acheter maintenant",
-      "buyOnAmazon": "Acheter sur Amazon",
-      "viaAmazon": "via Amazon",
+      "buyNow": "Jetzt kaufen",
+      "buyOnAmazon": "Auf Amazon kaufen",
+      "viaAmazon": "über Amazon",
       "amazonLogo": "/Amazon_icon.svg"
     }
   },
   "checkout": {
     "empty": {
-      "title": "Votre sélection est vide",
-      "description": "Ajoutez des produits à votre sélection avant de procéder au paiement",
-      "button": "Découvrez nos produits"
+      "title": "Ihre Auswahl ist leer",
+      "description": "Fügen Sie Produkte zu Ihrer Auswahl hinzu, bevor Sie zur Kasse gehen",
+      "button": "Unsere Produkte entdecken"
     },
-    "backToCart": "Retour à la sélection",
-    "pageTitle": "Finaliser votre achat",
-    "pageSubtitle": "Vous allez être redirigé vers Amazon pour finaliser votre achat",
+    "backToCart": "Zurück zur Auswahl",
+    "pageTitle": "Kauf abschließen",
+    "pageSubtitle": "Sie werden zu Amazon weitergeleitet, um Ihren Kauf abzuschließen",
     "securePurchase": {
-      "title": "Achat sécurisé sur Amazon",
-      "subtitle": "Bénéficiez de la sécurité et des garanties d'Amazon"
+      "title": "Sicherer Kauf bei Amazon",
+      "subtitle": "Profitieren Sie von der Sicherheit und den Garantien von Amazon"
     },
     "benefits": {
-      "securePayment": "Paiement 100% sécurisé",
-      "fastShipping": "Livraison rapide avec Amazon Prime",
-      "allPayments": "Toutes les méthodes de paiement acceptées"
+      "securePayment": "100% sichere Zahlung",
+      "fastShipping": "Schnelle Lieferung mit Amazon Prime",
+      "allPayments": "Alle Zahlungsmethoden akzeptiert"
     },
     "amazonGuarantee": {
-      "title": "Garantie Amazon A-Z",
-      "description": "Vos achats sont protégés par la garantie Amazon A à Z. Retours gratuits et remboursement complet en cas de problème."
+      "title": "Amazon A-Z Garantie",
+      "description": "Ihre Käufe sind durch die Amazon A-Z Garantie geschützt. Kostenlose Rücksendungen und volle Rückerstattung bei Problemen."
     },
     "partnerInfo": {
-      "title": "Informations partenaire",
-      "description": "En tant que partenaire Amazon, nous gagnons des commissions sur les achats qualifiés. Cela n'affecte pas le prix que vous payez."
+      "title": "Partnerinformationen",
+      "description": "Als Amazon-Partner verdienen wir an qualifizierten Käufen. Dies beeinflusst nicht den Preis, den Sie zahlen."
     },
     "orderSummary": {
-      "title": "Résumé de votre sélection",
-      "quantity": "Quantité",
-      "subtotal": "Sous-total",
-      "shipping": "Frais de livraison",
-      "shippingNote": "Calculé sur Amazon",
-      "totalEstimated": "Total estimé",
-      "finalPrice": "Prix final sur Amazon"
+      "title": "Zusammenfassung Ihrer Auswahl",
+      "quantity": "Menge",
+      "subtotal": "Zwischensumme",
+      "shipping": "Versandkosten",
+      "shippingNote": "Berechnet auf Amazon",
+      "totalEstimated": "Geschätzte Gesamtsumme",
+      "finalPrice": "Endgültiger Preis auf Amazon"
     },
     "buttons": {
-      "continueToAmazon": "Continuer sur Amazon",
-      "modifySelection": "Modifier ma sélection"
+      "continueToAmazon": "Weiter zu Amazon",
+      "modifySelection": "Auswahl ändern"
     }
   },
   "floatingButtons": {
-    "videoTooltip": "Regarder la vidéo",
-    "cartTooltip": "Sélection",
-    "cartAriaLabel": "Afficher la sélection",
-    "closeVideoAriaLabel": "Fermer la vidéo"
+    "videoTooltip": "Video ansehen",
+    "cartTooltip": "Auswahl",
+    "cartAriaLabel": "Auswahl anzeigen",
+    "closeVideoAriaLabel": "Video schließen"
   },
   "exitIntent": {
-    "title": "Attendez ! Ne partez pas les mains vides",
-    "subtitle": "Vous avez {count} article{plural} dans votre sélection",
+    "title": "Warten Sie! Gehen Sie nicht mit leeren Händen",
+    "subtitle": "Sie haben {count} Artikel{plural} in Ihrer Auswahl",
     "specialOffer": {
-      "title": "OFFRE SPÉCIALE LIMITÉE",
-      "discount": "35% RÉDUCTION",
-      "saveAmount": "Économisez {amount} sur votre commande",
-      "currentPrice": "Prix actuel",
-      "newPrice": "Nouveau prix",
-      "expiresIn": "Cette offre expire dans :"
+      "title": "BEGRENZTES SONDERANGEBOT",
+      "discount": "35% RABATT",
+      "saveAmount": "Sparen Sie {amount} auf Ihre Bestellung",
+      "currentPrice": "Aktueller Preis",
+      "newPrice": "Neuer Preis",
+      "expiresIn": "Dieses Angebot läuft ab in:"
     },
     "cartPreview": {
-      "title": "Vos articles sélectionnés",
-      "quantity": "Quantité",
-      "moreItems": "+{count} autres articles{plural}"
+      "title": "Ihre ausgewählten Artikel",
+      "quantity": "Menge",
+      "moreItems": "+{count} weitere Artikel{plural}"
     },
     "trustSignals": {
-      "shipping": "Livraison",
-      "free": "Gratuit",
-      "returns": "Retours",
-      "days": "30 jours",
+      "shipping": "Versand",
+      "free": "Kostenlos",
+      "returns": "Rücksendungen",
+      "days": "30 Tage",
       "warranty": "Garantie",
-      "years": "2 ans"
+      "years": "2 Jahre"
     },
     "buttons": {
-      "takeOffer": "Profiter de l'offre",
-      "continueShopping": "Continuer les achats"
+      "takeOffer": "Angebot nutzen",
+      "continueShopping": "Weiter einkaufen"
     },
-    "footer": "Le code de remise sera appliqué automatiquement à la caisse"
+    "footer": "Der Rabattcode wird automatisch an der Kasse angewendet"
   },
   "trustSignals": {
-    "freeShipping": "Livraison gratuite",
-    "freeReturns": "Retours gratuits en 30 jours",
-    "warranty": "Protection complète incluse",
-    "expertSupport": "Support expert",
-    "customerSupport": "Service client 7 jours par chat et téléphone"
+    "freeShipping": "Kostenloser Versand",
+    "freeReturns": "Kostenlose Rücksendungen in 30 Tagen",
+    "warranty": "Umfassender Schutz enthalten",
+    "expertSupport": "Experten-Support",
+    "customerSupport": "Kundenservice 7 Tage per Chat und Telefon"
   },
   "promotions": {
-    "freeShipping": "Livraison gratuite",
-    "amazonPartenaire": "Partenaire Amazon",
-    "trustBanner": "Partenaire Amazon • 10H • 30% Remise • 4.6/5 Avis clients • 2000+ Commandes livrées",
-    "amazonVerified": "Amazon vérifié",
-    "secureCheckout": "Caisse sécurisée",
-    "fastDelivery": "Livraison rapide"
+    "freeShipping": "Kostenloser Versand",
+    "amazonPartenaire": "Amazon-Partner",
+    "trustBanner": "Amazon-Partner • 10h • 30% Rabatt • 4,6/5 Kundenbewertungen • 2000+ gelieferte Bestellungen",
+    "amazonVerified": "Amazon-verifiziert",
+    "secureCheckout": "Sichere Kasse",
+    "fastDelivery": "Schnelle Lieferung"
   },
   "internalLinks": {
-    "title": "Découvrez aussi",
-    "footer": "Découvrez nos autres catégories pour trouver exactement ce dont vous avez besoin"
+    "title": "Entdecken Sie auch",
+    "footer": "Entdecken Sie unsere anderen Kategorien, um genau das zu finden, was Sie brauchen"
   },
   "buyingGuide": {
-    "footer": "Conseils d'experts pour vous aider à faire le bon choix"
+    "footer": "Expertenrat, um die richtige Wahl zu treffen"
   },
   "subcategoryCards": {
-    "title": "Explorer les sous-catégories",
-    "loading": "Les sous-catégories sont en cours de chargement...",
-    "noSubcategories": "Aucune sous-catégorie disponible"
+    "title": "Unterkategorien erkunden",
+    "loading": "Unterkategorien werden geladen...",
+    "noSubcategories": "Keine Unterkategorien verfügbar"
   },
   "categoryPage": {
     "notFound": {
-      "title": "Catégorie non trouvée",
-      "description": "La catégorie recherchée n'existe pas."
+      "title": "Kategorie nicht gefunden",
+      "description": "Die gesuchte Kategorie existiert nicht."
     },
-    "exploreCategories": "Explorer les catégories {categoryName}",
-    "faq": "Questions fréquemment posées",
+    "exploreCategories": "Kategorien erkunden {categoryName}",
+    "faq": "Häufig gestellte Fragen",
     "priceRange": {
       "min": "Min",
       "max": "Max"
     },
     "comparisonTable": {
-      "title": "Comparaison de produits",
-      "incentive": "Cliquez sur les 3 meilleurs produits pour des informations détaillées et des évaluations"
+      "title": "Produktvergleich",
+      "incentive": "Klicken Sie auf die 3 besten Produkte für detaillierte Informationen und Bewertungen"
     }
   },
   "footer": {
-    "copyright": "Tous droits réservés",
-    "companyDescription": "Spécialistes en produits de haute qualité. Qualité exceptionnelle et support expert.",
+    "copyright": "Alle Rechte vorbehalten",
+    "companyDescription": "Spezialisten für hochwertige Produkte. Hervorragende Qualität und kompetenter Support.",
     "legal": {
-      "title": "Informations légales",
-      "terms": "Conditions générales de vente",
-      "privacy": "Politique de confidentialité",
-      "cookies": "Politique en matière de cookies",
-      "returns": "Politique de retour",
-      "shipping": "Informations sur l'expédition",
+      "title": "Rechtliche Informationen",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "privacy": "Datenschutzrichtlinie",
+      "cookies": "Cookie-Richtlinie",
+      "returns": "Rückgabepolitik",
+      "shipping": "Versandinformationen",
       "warranty": "Garantie",
-      "contact": "Contact"
+      "contact": "Kontakt"
     },
     "company": {
-      "title": "Entreprise",
-      "about": "À propos",
-      "careers": "Carrières",
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "careers": "Karriere",
       "press": "Presse",
-      "partners": "Partenaires"
+      "partners": "Partner"
     },
     "support": {
       "title": "Support",
-      "help": "Centre d'aide",
-      "faq": "Questions fréquemment posées",
-      "shipping": "Livraison",
-      "returns": "Retours",
+      "help": "Hilfezentrum",
+      "faq": "Häufig gestellte Fragen",
+      "shipping": "Versand",
+      "returns": "Rücksendungen",
       "warranty": "Garantie"
     },
     "social": {
-      "title": "Suivez-nous",
+      "title": "Folgen Sie uns",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "instagram": "Instagram",
       "youtube": "YouTube"
     },
-    "affiliateDisclaimer": "En tant que partenaire Amazon, nous gagnons des commissions sur les ventes qualifiées. Ce site est participant au programme Partenaires Amazon EU, un programme d'affiliation publicitaire conçu pour permettre à des sites de monétiser leurs contenus en utilisant des publicités ou des liens vers Amazon.fr."
+    "affiliateDisclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Käufen. Diese Website nimmt am Amazon EU-Partnerprogramm teil, einem Affiliate-Werbeprogramm, das Websites ermöglicht, durch Werbung und Verlinkung zu Amazon.de Provisionen zu verdienen."
   },
   "terms": {
-    "title": "Conditions générales de vente",
-    "subtitle": "Conditions d'utilisation de nos services",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Bienvenue sur notre site. Ces conditions générales d'utilisation régissent l'utilisation de notre site web et de nos services.",
-    "acceptance": "En accédant et en utilisant notre site web, vous acceptez intégralement ces conditions.",
+    "title": "Allgemeine Geschäftsbedingungen",
+    "subtitle": "Nutzungsbedingungen unserer Dienste",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Willkommen auf unserer Website. Diese allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
+    "acceptance": "Durch den Zugriff und die Nutzung unserer Website akzeptieren Sie diese Bedingungen vollständig.",
     "general": {
-      "title": "Dispositions générales",
-      "content1": "Ces conditions générales d'utilisation régissent l'utilisation de notre site web et des services que nous proposons. En utilisant nos services, vous vous engagez à respecter toutes les dispositions énoncées ici.",
-      "content2": "Nous nous réservons le droit de modifier ces conditions à tout moment. Les modifications entrent en vigueur immédiatement après leur publication sur notre site web."
+      "title": "Allgemeine Bestimmungen",
+      "content1": "Diese allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und der von uns angebotenen Dienste. Durch die Nutzung unserer Dienste verpflichten Sie sich, alle hier festgelegten Bestimmungen einzuhalten.",
+      "content2": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft."
     },
     "orders": {
-      "title": "Commandes et achats",
-      "process": "Toutes les commandes sont traitées via Amazon. En cliquant sur 'Acheter sur Amazon', vous êtes redirigé vers le site Amazon pour finaliser votre achat.",
-      "confirmation": "La confirmation de commande est effectuée directement via Amazon. Vous recevrez un e-mail de confirmation d'Amazon avec les détails de votre achat.",
-      "payment": "Tous les paiements sont traités de manière sécurisée via Amazon. Nous acceptons toutes les méthodes de paiement disponibles sur Amazon."
+      "title": "Bestellungen und Käufe",
+      "process": "Alle Bestellungen werden über Amazon abgewickelt. Durch Klicken auf 'Auf Amazon kaufen' werden Sie zur Amazon-Website weitergeleitet, um Ihren Kauf abzuschließen.",
+      "confirmation": "Die Bestellbestätigung erfolgt direkt über Amazon. Sie erhalten eine Bestätigungs-E-Mail von Amazon mit den Details Ihres Kaufs.",
+      "payment": "Alle Zahlungen werden sicher über Amazon abgewickelt. Wir akzeptieren alle auf Amazon verfügbaren Zahlungsmethoden."
     },
     "prices": {
-      "title": "Prix et paiements",
-      "currency": "Tous les prix sont affichés en euros (€) et incluent la TVA applicable. Les prix peuvent varier en fonction de la disponibilité et des offres Amazon."
+      "title": "Preise und Zahlungen",
+      "currency": "Alle Preise sind in Euro (€) angegeben und enthalten die geltende Mehrwertsteuer. Die Preise können je nach Verfügbarkeit und Amazon-Angeboten variieren."
     },
     "services": {
-      "title": "Nos services",
-      "description": "Nous fournissons des informations sur des produits de haute qualité et facilitons l'achat via Amazon."
+      "title": "Unsere Dienste",
+      "description": "Wir bieten Informationen zu hochwertigen Produkten und ermöglichen den Kauf über Amazon."
     },
     "userObligations": {
-      "title": "Obligations des utilisateurs",
-      "description": "Les utilisateurs doivent fournir des informations véridiques et utiliser nos services de manière responsable."
+      "title": "Pflichten der Nutzer",
+      "description": "Die Nutzer müssen wahrheitsgemäße Informationen angeben und unsere Dienste verantwortungsvoll nutzen."
     },
     "liability": {
-      "title": "Limitation de responsabilité",
-      "description": "Nous ne sommes pas responsables des produits achetés via Amazon. Consultez les conditions d'Amazon pour plus d'informations."
+      "title": "Haftungsbeschränkung",
+      "description": "Wir sind nicht für Produkte verantwortlich, die über Amazon gekauft werden. Bitte lesen Sie die Amazon-Bedingungen für weitere Informationen."
     },
     "modifications": {
-      "title": "Modifications",
-      "description": "Nous nous réservons le droit de modifier ces conditions à tout moment."
+      "title": "Änderungen",
+      "description": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern."
     }
   },
   "privacy": {
-    "title": "Politique de confidentialité",
-    "subtitle": "Comment nous protégeons et utilisons vos informations personnelles",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Nous respectons votre vie privée et nous engageons à protéger vos informations personnelles.",
+    "title": "Datenschutzrichtlinie",
+    "subtitle": "Wie wir Ihre persönlichen Daten schützen und verwenden",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen.",
     "dataCollection": {
-      "title": "Informations que nous collectons",
-      "description": "Nous collectons les informations que vous nous fournissez volontairement, telles que votre nom et votre adresse e-mail."
+      "title": "Daten, die wir sammeln",
+      "description": "Wir sammeln die Informationen, die Sie uns freiwillig zur Verfügung stellen, wie Ihren Namen und Ihre E-Mail-Adresse."
     },
     "dataUsage": {
-      "title": "Comment nous utilisons vos informations",
-      "description": "Nous utilisons vos informations pour améliorer nos services et communiquer avec vous sur des produits pertinents."
+      "title": "Wie wir Ihre Daten verwenden",
+      "description": "Wir verwenden Ihre Daten, um unsere Dienste zu verbessern und mit Ihnen über relevante Produkte zu kommunizieren."
     },
     "dataProtection": {
-      "title": "Protection des données",
-      "description": "Nous mettons en œuvre des mesures de sécurité pour protéger vos informations personnelles contre tout accès non autorisé."
+      "title": "Datenschutz",
+      "description": "Wir setzen Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten vor unbefugtem Zugriff zu schützen."
     },
     "cookies": {
       "title": "Cookies",
-      "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation et analyser l'utilisation du site."
+      "description": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern und die Nutzung der Website zu analysieren."
     },
     "rights": {
-      "title": "Vos droits",
-      "description": "Vous avez le droit d'accéder à vos données personnelles, de les corriger, de les supprimer ou de les transférer."
+      "title": "Ihre Rechte",
+      "description": "Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren, zu löschen oder zu übertragen."
     }
   },
   "cookies": {
-    "title": "Politique relative aux cookies",
-    "subtitle": "Informations sur l'utilisation des cookies sur notre site",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Ce site utilise des cookies pour améliorer votre expérience de navigation.",
+    "title": "Cookie-Richtlinie",
+    "subtitle": "Informationen zur Verwendung von Cookies auf unserer Website",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Diese Website verwendet Cookies, um Ihr Surferlebnis zu verbessern.",
     "whatAreCookies": {
-      "title": "Qu'est-ce qu'un cookie ?",
-      "description": "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez notre site web."
+      "title": "Was ist ein Cookie?",
+      "description": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie unsere Website besuchen."
     },
     "typesOfCookies": {
-      "title": "Types de cookies que nous utilisons",
-      "essential": "Cookies essentiels : Nécessaires à la fonctionnalité de base du site",
-      "analytics": "Cookies analytiques : Nous aident à comprendre comment vous utilisez notre site",
-      "marketing": "Cookies marketing : Pour vous montrer des contenus pertinents"
+      "title": "Arten von Cookies, die wir verwenden",
+      "essential": "Essentielle Cookies: Notwendig für die grundlegende Funktionalität der Website",
+      "analytics": "Analytische Cookies: Helfen uns zu verstehen, wie Sie unsere Website nutzen",
+      "marketing": "Marketing-Cookies: Um Ihnen relevante Inhalte zu zeigen"
     },
     "managingCookies": {
-      "title": "Gestion des cookies",
-      "description": "Vous pouvez contrôler et supprimer les cookies via les paramètres de votre navigateur."
+      "title": "Verwaltung von Cookies",
+      "description": "Sie können Cookies über die Einstellungen Ihres Browsers steuern und löschen."
     }
   },
   "returns": {
-    "title": "Politique de retour",
-    "subtitle": "Informations sur les retours et remboursements",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Nous comprenons que vous devez parfois retourner un produit. Voici comment fonctionne notre processus de retour.",
+    "title": "Rückgabepolitik",
+    "subtitle": "Informationen zu Rücksendungen und Rückerstattungen",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir verstehen, dass Sie manchmal ein Produkt zurückgeben müssen. So funktioniert unser Rückgabeprozess.",
     "returnPeriod": {
-      "title": "Période de retour",
-      "description": "Vous disposez de 30 jours à compter de la date de livraison pour retourner tout produit."
+      "title": "Rückgabefrist",
+      "description": "Sie haben 30 Tage ab Lieferdatum, um jedes Produkt zurückzusenden."
     },
     "returnConditions": {
-      "title": "Conditions de retour",
-      "description": "Le produit doit être dans son état d'origine, avec tous les accessoires et l'emballage d'origine."
+      "title": "Rückgabebedingungen",
+      "description": "Das Produkt muss sich in seinem ursprünglichen Zustand befinden, mit allen Zubehörteilen und der Originalverpackung."
     },
     "returnProcess": {
-      "title": "Processus de retour",
-      "description": "Contactez notre service client pour initier le processus de retour."
+      "title": "Rückgabeprozess",
+      "description": "Kontaktieren Sie unseren Kundenservice, um den Rückgabeprozess zu starten."
     },
     "refunds": {
-      "title": "Remboursements",
-      "description": "Les remboursements sont traités à la réception et à la vérification du produit retourné."
+      "title": "Rückerstattungen",
+      "description": "Rückerstattungen werden nach Erhalt und Überprüfung des zurückgesandten Produkts bearbeitet."
     }
   },
   "shipping": {
-    "title": "Informations sur l'expédition",
-    "subtitle": "Détails sur la livraison et l'expédition",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Informations importantes sur nos services de livraison et d'expédition.",
+    "title": "Versandinformationen",
+    "subtitle": "Details zu Lieferung und Versand",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wichtige Informationen zu unseren Liefer- und Versanddiensten.",
     "shippingMethods": {
-      "title": "Méthodes d'expédition",
-      "description": "Tous les produits sont expédiés via Amazon avec expédition standard ou Prime."
+      "title": "Versandmethoden",
+      "description": "Alle Produkte werden über Amazon mit Standard- oder Prime-Versand versandt."
     },
     "deliveryTimes": {
-      "title": "Délais de livraison",
-      "description": "Les délais de livraison varient selon l'emplacement, généralement entre 1 et 3 jours ouvrables."
+      "title": "Lieferzeiten",
+      "description": "Die Lieferzeiten variieren je nach Standort, in der Regel zwischen 1 und 3 Werktagen."
     },
     "shippingCosts": {
-      "title": "Frais d'expédition",
-      "description": "Les frais d'expédition sont calculés automatiquement sur Amazon en fonction de votre emplacement."
+      "title": "Versandkosten",
+      "description": "Die Versandkosten werden auf Amazon basierend auf Ihrem Standort automatisch berechnet."
     },
     "tracking": {
-      "title": "Suivi du colis",
-      "description": "Vous recevrez un numéro de suivi pour suivre l'état de votre colis."
+      "title": "Sendungsverfolgung",
+      "description": "Sie erhalten eine Sendungsverfolgungsnummer, um den Status Ihres Pakets zu verfolgen."
     }
   },
   "warranty": {
     "title": "Garantie",
-    "subtitle": "Informations sur les garanties produit",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Tous nos produits incluent la garantie du fabricant et une protection supplémentaire.",
+    "subtitle": "Informationen zu Produktgarantien",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Alle unsere Produkte enthalten die Herstellergarantie und zusätzlichen Schutz.",
     "manufacturerWarranty": {
-      "title": "Garantie du fabricant",
-      "description": "Tous les produits incluent la garantie standard du fabricant, généralement 2 ans."
+      "title": "Herstellergarantie",
+      "description": "Alle Produkte enthalten die standardmäßige Herstellergarantie, in der Regel 2 Jahre."
     },
     "amazonProtection": {
-      "title": "Protection Amazon A-Z",
-      "description": "Tous les produits sont protégés par la garantie Amazon A à Z."
+      "title": "Amazon A-Z Garantie",
+      "description": "Alle Produkte sind durch die Amazon A-Z Garantie geschützt."
     },
     "warrantyCoverage": {
-      "title": "Couverture de la garantie",
-      "description": "La garantie couvre les défauts de fabrication et les défaillances techniques non causées par l'utilisateur."
+      "title": "Garantieumfang",
+      "description": "Die Garantie deckt Herstellungsfehler und technische Ausfälle ab, die nicht durch den Nutzer verursacht wurden."
     },
     "warrantyClaims": {
-      "title": "Réclamations de garantie",
-      "description": "Pour les réclamations de garantie, contactez directement Amazon ou le fabricant."
+      "title": "Garantieansprüche",
+      "description": "Für Garantieansprüche kontaktieren Sie direkt Amazon oder den Hersteller."
     }
   },
   "about": {
-    "title": "À propos de nous",
-    "subtitle": "En savoir plus sur notre entreprise",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Nous sommes des spécialistes en produits de haute qualité pour les passionnés et les professionnels.",
+    "title": "Über uns",
+    "subtitle": "Mehr über unser Unternehmen erfahren",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedDate": "12. September 2025",
+    "introduction": "Wir sind Spezialisten für hochwertige Produkte für Enthusiasten und Profis.",
     "mission": {
-      "title": "Notre mission",
-      "description": "Faciliter l'accès aux produits de haute qualité, à la technologie avancée et au support expert pour les passionnés et les professionnels."
+      "title": "Unsere Mission",
+      "description": "Den Zugang zu hochwertigen Produkten, fortschrittlicher Technologie und kompetentem Support für Enthusiasten und Profis zu erleichtern."
     },
     "values": {
-      "title": "Nos valeurs",
-      "description": "La simplicité, la qualité, le support personnalisé et la confiance sont les piliers de notre service."
+      "title": "Unsere Werte",
+      "description": "Einfachheit, Qualität, persönlicher Support und Vertrauen sind die Säulen unseres Dienstes."
     },
     "team": {
-      "title": "Notre équipe",
-      "description": "Nous avons des experts en produits et en service client, spécialisés dans les passionnés et les professionnels."
+      "title": "Unser Team",
+      "description": "Wir haben Experten für Produkte und Kundenservice, spezialisiert auf Enthusiasten und Profis."
     }
   },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Contactez-nous",
-    "lastUpdated": "Dernière mise à jour :",
-    "lastUpdatedDate": "12 septembre 2025",
-    "introduction": "Nous sommes là pour vous aider avec toutes vos questions.",
-    "methods": {
-      "title": "Méthodes de contact",
-      "phone": "Téléphone : +49 30 123 456 789",
-      "email": "E-mail : info@site.fr",
-      "whatsapp": "WhatsApp : +49 151 234 567 89",
-      "hours": "Horaires de service : Lundi au vendredi, 9h00 - 18h00"
-    },
-    "responseTime": {
-      "title": "Temps de réponse",
-      "description": "Nous répondons à toutes les demandes en moins de 24 heures."
+  
+    "contact": {
+      "title": "Kontakt",
+      "subtitle": "Kontaktieren Sie uns",
+      "lastUpdated": "Zuletzt aktualisiert:",
+      "lastUpdatedDate": "12. September 2025",
+      "introduction": "Wir sind hier, um Ihnen bei allen Fragen zu helfen.",
+      "methods": {
+        "title": "Kontaktmethoden",
+        "phone": "Telefon: +49 30 123 456 789",
+        "email": "E-Mail: info@kaufen-drohne.de",
+        "whatsapp": "WhatsApp: +49 151 234 567 89",
+        "hours": "Servicezeiten: Montag bis Freitag, 9:00 - 18:00 Uhr"
+      },
+      "responseTime": {
+        "title": "Antwortzeit",
+        "description": "Wir beantworten alle Anfragen innerhalb von 24 Stunden."
+      }
     }
   }
-}

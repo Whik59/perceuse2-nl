@@ -1,139 +1,140 @@
 {
   "categoryId": 46,
-  "categoryNameCanonical": "Drones Pulvérisateurs Agricoles",
-  "slug": "drones-agricoles/drones-pulverisateurs-agricoles",
+  "categoryNameCanonical": "Drohnen Motoren",
+  "slug": "drohnen-ersatzteile/drohnen-motoren",
   "parentCategoryId": 45,
   "level": 1,
-  "description": "Améliorez vos rendements avec nos drones pulvérisateurs agricoles. Traitement précis et efficace.",
-  "content": "<div><h2>Drones Pulvérisateurs Agricoles : Révolutionnez Votre Agriculture</h2><p>L'agriculture moderne exige innovation et efficacité. Nos <strong>drones pulvérisateurs agricoles</strong> sont la solution idéale pour les agriculteurs souhaitant optimiser leurs pratiques culturales. Conçus pour la <strong>pulvérisation de précision</strong>, ces outils de haute technologie transforment la manière dont vous traitez vos champs, garantissant un <strong>rendement agricole</strong> supérieur et une gestion des ressources plus intelligente.</p><p>L'utilisation d'un <strong>drone agricole</strong> pour la pulvérisation offre des avantages considérables. Grâce à leur capacité de vol stationnaire et à leurs systèmes de navigation GPS avancés, ils assurent une application ultra-précise des produits phytosanitaires, des engrais liquides ou des bio-stimulants. Cela se traduit par une réduction significative de la consommation de produits, une meilleure efficacité du traitement et une diminution des coûts opérationnels. Fini le gaspillage, place à l'<strong>agriculture de précision</strong> !</p><p>Nos modèles de <strong>drones phytosanitaires</strong> sont robustes, fiables et dotés de fonctionnalités intelligentes : cartographie des parcelles, détection d'obstacles, planification d'itinéraires autonomes et réglage précis du débit de pulvérisation. Ils sont parfaits pour traiter des zones spécifiques, accéder aux terrains escarpés ou humides où les engins terrestres ne peuvent pas aller, et pour intervenir rapidement en cas de besoin urgent. Investissez dans l'avenir de votre exploitation avec un outil qui allie performance, sécurité et respect de l'environnement.</p></div>",
+  "description": "Leistungsstarke Drohnen Motoren für FPV, DJI & mehr. Effizient, langlebig, top Qualität.",
+  "content": "<div><h2>Die Kraft im Herzen Ihrer Drohne: Hochleistungs-Drohnen Motoren</h2><p>Die Wahl des richtigen Drohnen Motors ist entscheidend für die Performance, Stabilität und Flugzeit Ihrer Drohne. Ob für rasante FPV-Renndrohnen, stabile Kameradrohnen, industrielle Anwendungen oder ambitionierte DIY-Projekte – ein hochwertiger Antrieb bildet die Basis für jedes erfolgreiche Flugerlebnis. Unser Sortiment bietet eine breite Palette an Drohnen Motoren, die speziell auf die hohen Anforderungen der modernen Drohnentechnologie zugeschnitten sind.</p><p>Entdecken Sie unsere Auswahl an bürstenlosen Motoren (Brushless Motoren), die für ihre Effizienz, Langlebigkeit und hohe Leistungsdichte bekannt sind. Diese Motoren liefern den nötigen Schub für anspruchsvolle Manöver und lange Flugzeiten, während sie gleichzeitig präzise Kontrolle ermöglichen. Für spezielle Anwendungen oder kleinere Drohnen bieten wir auch zuverlässige Gleichstrom (DC) Motoren an. Wir führen zudem eine Vielzahl von Ersatzteilen, um die Langlebigkeit Ihrer Drohne zu gewährleisten.</p><p>Vertrauen Sie auf bewährte Qualität und innovative Technologien, die Ihre Drohne sicher und leistungsstark durch die Lüfte bewegen. Optimieren Sie jetzt Ihre Drohne mit dem passenden Motor, abgestimmt auf Ihr Gewicht, Ihre Propeller und Ihren Flugstil. Finden Sie den perfekten Drohnen Motor für Ihre Bedürfnisse und heben Sie Ihr Flugerlebnis auf ein neues Niveau!</p></div>",
   "seo": {
-    "title": "Drones Pulvérisateurs Agricoles | Optimisez Vos Cultures",
-    "description": "Améliorez vos rendements avec nos drones pulvérisateurs agricoles. Traitement précis et efficace.",
+    "title": "Drohnen Motoren Kaufen: Bürstenlose & DC Antriebe",
+    "description": "Leistungsstarke Drohnen Motoren für FPV, DJI & mehr. Effizient, langlebig, top Qualität.",
     "keywords": [
-      "drones pulvérisateurs agricoles",
-      "agriculture de précision",
-      "traitement cultures",
-      "rendement agricole",
-      "drone phytosanitaire"
+      "Drohnen Motoren",
+      "Bürstenlose Drohnen Motoren",
+      "FPV Motoren",
+      "Brushless Drohne Motor",
+      "Quadcopter Motoren",
+      "Drohnenersatzteile Motor"
     ],
-    "enhancedAt": "2025-10-15T18:59:25.739154"
+    "enhancedAt": "2025-10-21T15:21:53.423312"
   },
   "faq": [
     {
-      "question": "Pourquoi utiliser un drone pulvérisateur agricole ?",
-      "answer": "Les drones pulvérisateurs offrent une précision inégalée, réduisent la consommation d'eau et de produits phytosanitaires, et permettent un traitement rapide des cultures, même sur des terrains difficiles d'accès. Ils optimisent l'efficacité et minimisent l'impact environnemental."
+      "question": "Welche Arten von Drohnen Motoren gibt es?",
+      "answer": "Man unterscheidet hauptsächlich bürstenlose (Brushless) Motoren und Gleichstrom (DC) Motoren. Bürstenlose Motoren sind aufgrund ihrer Effizienz und Leistung in den meisten modernen Drohnen Standard."
     },
     {
-      "question": "Quels sont les avantages par rapport aux méthodes de pulvérisation traditionnelles ?",
-      "answer": "Comparativement aux méthodes traditionnelles, les drones garantissent une application plus homogène et ciblée, limitant le gaspillage. Ils réduisent l'exposition humaine aux produits chimiques, opèrent avec agilité dans les parcelles accidentées et sont moins lourds, évitant le tassement des sols."
+      "question": "Wie wähle ich den richtigen Motor für meine Drohne aus?",
+      "answer": "Achten Sie auf den KV-Wert, die Größe, die Schubkraft, die Propellergröße und die Kompatibilität mit Ihrem ESC (Electronic Speed Controller). Der Einsatzzweck (FPV, Kamera, Transport) ist ebenfalls entscheidend."
     },
     {
-      "question": "Quel type de cultures peut être traité avec un drone pulvérisateur ?",
-      "answer": "Nos drones sont polyvalents et adaptés à une large gamme de cultures : céréales, vignobles, vergers, maraîchage, plantations de légumes, et bien d'autres. Leur précision permet des traitements spécifiques pour chaque type de culture."
+      "question": "Was bedeutet der KV-Wert bei Drohnen Motoren?",
+      "answer": "Der KV-Wert (Umdrehungen pro Volt) gibt an, wie viele Umdrehungen pro Minute der Motor pro Volt unbelastet macht. Ein höherer KV-Wert bedeutet mehr Drehzahl, aber oft weniger Drehmoment und umgekehrt."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:59:25.739166",
+  "enhancedAt": "2025-10-21T15:21:53.423327",
   "comparisonTable": {
-    "title": "Comparaison des 5 Drones Pulvérisateurs Agricoles et Équipements Similaires",
+    "title": "Vergleich der 5 besten Drohnen Motoren",
     "columns": [
       "Rang",
-      "Prix",
-      "Évaluation",
-      "Marque",
-      "Type de Pulvérisation",
-      "Domaine d'Application"
+      "Marke",
+      "Preis",
+      "Bewertung",
+      "Anwendungsbereich",
+      "Besondere Eigenschaft"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61bOOheSmiL._AC_SL1500_.jpg]",
-        "name": "Drone Pulvérisation Agricole 4 Axe 1kg 10L",
-        "prix": "888.0€",
-        "évaluation": "0.0/5",
-        "marque": "Generic",
-        "type_de_pulvérisation": "Électrique (aérien, autonome)",
-        "domaine_d_application": "Agriculture de précision",
-        "productUrl": "/product/10l-drone-pulverisation-agricole-axe-1kg",
-        "image": "https://m.media-amazon.com/images/I/61bOOheSmiL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61GnPDbMJnL._SL1200_.jpg]",
+        "name": "BETAFPV 1103 11000KV Brushless Motoren 4 Stk.",
+        "preis": "43.0€",
+        "bewertung": "4.1/5",
+        "marke": "BETAFPV",
+        "anwendungsbereich": "FPV-Renndrohnen & Whoops",
+        "besondere_eigenschaft": "Hohe KV für agile 2S-Flüge",
+        "productUrl": "/product/betafpv-1103-11000kv-brushless-motoren-stk",
+        "image": "https://m.media-amazon.com/images/I/61GnPDbMJnL._SL1200_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/616Ltv9mIYL._SL1500_.jpg]",
-        "name": "Pulvéristeur ATV Quad 60L 12V MaxBlast",
-        "prix": "299.0€",
-        "évaluation": "4.4/5",
-        "marque": "MAXBLAST",
-        "type_de_pulvérisation": "Électrique (monté sur véhicule)",
-        "domaine_d_application": "Agriculture, Viticulture",
-        "productUrl": "/product/60l-pulveristeur-atv-quad-12v-maxblast",
-        "image": "https://m.media-amazon.com/images/I/616Ltv9mIYL._SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61HRQpKp8cL._SL1500_.jpg]",
+        "name": "BETAFPV 1102 18000KV 1S Brushless Motoren (4er-Set)",
+        "preis": "43.0€",
+        "bewertung": "4.0/5",
+        "marke": "BETAFPV",
+        "anwendungsbereich": "1S Micro-Whoop-Drohnen",
+        "besondere_eigenschaft": "Extrem hohe KV für maximale 1S-Agilität",
+        "productUrl": "/product/betafpv-1102-18000kv-brushless-motoren-4er-set",
+        "image": "https://m.media-amazon.com/images/I/61HRQpKp8cL._SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61FrxFAbBuL._AC_SL1080_.jpg]",
-        "name": "Pulvérisateur Électrique Pro Sprayer III 30L",
-        "prix": "287.0€",
-        "évaluation": "4.1/5",
-        "marque": "Forum Equipement",
-        "type_de_pulvérisation": "Électrique (autonome)",
-        "domaine_d_application": "Toiture, Traitement de surface",
-        "productUrl": "/product/pro-30l-pulverisateur-electrique-sprayer-iii",
-        "image": "https://m.media-amazon.com/images/I/61FrxFAbBuL._AC_SL1080_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/6111NoVHBTL._SL1000_.jpg]",
+        "name": "CENPEK A2212 1000kV Bürstenloser Motor 13T",
+        "preis": "10.0€",
+        "bewertung": "4.3/5",
+        "marke": "CENPEK",
+        "anwendungsbereich": "RC-Flugmodelle & Multicopter",
+        "besondere_eigenschaft": "Robuster Außenläufermotor für vielseitige Projekte",
+        "productUrl": "/product/cenpek-a2212-1000kv-burstenloser-motor-13t",
+        "image": "https://m.media-amazon.com/images/I/6111NoVHBTL._SL1000_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71y79AkUD+L._AC_SL1500_.jpg]",
-        "name": "Perche Pulvérisateur Toiture Télescopique 5m",
-        "prix": "119.0€",
-        "évaluation": "4.0/5",
-        "marque": "PULMIC",
-        "type_de_pulvérisation": "Manuelle (extension)",
-        "domaine_d_application": "Hauteur, Jardin, Toit",
-        "productUrl": "/product/5m-perche-pulverisateur-toiture-telescopique",
-        "image": "https://m.media-amazon.com/images/I/71y79AkUD+L._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/51RmVqNO9SL._AC_SL1200_.jpg]",
+        "name": "Nuofany 4x Mini A-B 720 Motor Ersatzteile Syma X5/X5C/M68",
+        "preis": "9.0€",
+        "bewertung": "4.4/5",
+        "marke": "Nuofany",
+        "anwendungsbereich": "Ersatzteile für Syma Freizeit-Quadcopter",
+        "besondere_eigenschaft": "Direkter Ersatz für Syma X5/X5C/M68 Modelle",
+        "productUrl": "/product/x5-x5c-m68-nuofany-mini-a-b-720-motor",
+        "image": "https://m.media-amazon.com/images/I/51RmVqNO9SL._AC_SL1200_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61Im1NuSUpL._AC_SL1200_.jpg]",
-        "name": "Mobiclinic Pulvérisateur Pression 16L Jardinage Pompe 4 Buses",
-        "prix": "42.0€",
-        "évaluation": "4.0/5",
-        "marque": "Mobiclinic",
-        "type_de_pulvérisation": "Manuelle (pression)",
-        "domaine_d_application": "Jardinage, Cultures",
-        "productUrl": "/product/16l-mobiclinic-pulverisateur-pression-jardinage-pompe",
-        "image": "https://m.media-amazon.com/images/I/61Im1NuSUpL._AC_SL1200_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71VYmW75CbL._SL1500_.jpg]",
+        "name": "Amazons Tipp: Innovative Technologie",
+        "preis": "39.0€",
+        "bewertung": "4.2/5",
+        "marke": "Gruiqrd",
+        "anwendungsbereich": "Digitale Effizienz & Konnektivität",
+        "besondere_eigenschaft": "KI-gestützte Optimierung mit intuitiver Bedienung",
+        "productUrl": "/product/amazons-tipp-innovative-technologie",
+        "image": "https://m.media-amazon.com/images/I/71VYmW75CbL._SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones Pulvérisateurs Agricoles ?",
+    "title": "Kaufberatung: So wählen Sie die besten Drohnen Motoren",
     "sections": [
       {
-        "heading": "1. Capacité du Réservoir et Largeur de Pulvérisation",
-        "content": "Priorisez la capacité du réservoir selon la taille de vos parcelles. Un drone de 10-30L est courant. Considérez également la largeur de pulvérisation effective pour couvrir plus de surface par vol, optimisant ainsi l'efficacité et réduisant le temps de travail. Ces aspects sont cruciaux pour la productivité et l'agriculture de précision."
+        "heading": "1. Der KV-Wert und seine Bedeutung",
+        "content": "Der KV-Wert gibt die Drehzahl pro Volt an. Hohe KV-Werte (z.B. 11000KV) bedeuten hohe Geschwindigkeit für Racing-Drohnen, aber geringere Flugzeit. Niedrigere KV-Werte sind effizienter für längere Flüge oder schwerere Setups. Wählen Sie passend zum Akku (Volt) und Einsatzzweck, um die optimale Leistung Ihrer Drohnen Motoren zu gewährleisten."
       },
       {
-        "heading": "2. Précision de Pulvérisation et Système GPS",
-        "content": "Recherchez des drones dotés de GPS RTK pour une pulvérisation ultra-précise, minimisant le gaspillage et l'impact environnemental. Les fonctions de cartographie et de planification de vol permettent de définir des itinéraires optimaux, assurant une couverture uniforme et évitant les doublons sur les cultures. La précision est primordiale."
+        "heading": "2. Motortyp und Baugröße wählen",
+        "content": "Bürstenlose Motoren bieten überlegene Leistung und Haltbarkeit für Drohnen Motoren. Die Baugröße (z.B. 1103) muss zum Drohnenrahmen passen. Die erste Zahl ist der Stator-Durchmesser, die zweite die Höhe. Größere Motoren erzeugen mehr Schub, sind aber schwerer. Achten Sie auf das Gesamtgewicht und die Balance Ihrer Drohne, um Stabilität zu sichern."
       },
       {
-        "heading": "3. Autonomie de Vol et Gestion des Batteries",
-        "content": "L'autonomie est primordiale. Évaluez la durée de vol par batterie et le temps de recharge. Optez pour des systèmes avec batteries interchangeables et un chargeur rapide pour minimiser les temps d'arrêt. Une bonne gestion des batteries est clé pour des opérations continues sur de grandes surfaces, améliorant l'efficacité."
+        "heading": "3. Schubkraft und Effizienz optimieren",
+        "content": "Die Schubkraft ist entscheidend für die Flugleistung Ihrer Drohne. Vergleichen Sie Herstellerangaben, um sicherzustellen, dass die Drohnen Motoren genügend Leistung für Ihre Drohne und Zuladung liefern. Effiziente Motoren reduzieren den Stromverbrauch und verlängern die Flugzeit erheblich, ein wichtiger Aspekt für jeden Piloten, der längere Flüge anstrebt."
       },
       {
-        "heading": "4. Durabilité et Résistance aux Produits Chimiques",
-        "content": "Le châssis et les composants doivent être robustes et résistants à la corrosion due aux produits phytosanitaires. Un entretien facile et la disponibilité des pièces de rechange sont essentiels. Assurez-vous que les matériaux utilisés garantissent une longue durée de vie dans un environnement agricole exigeant pour votre investissement."
+        "heading": "4. Material und Verarbeitungsqualität",
+        "content": "Hochwertige Materialien wie präzise gewickelte Spulen und langlebige Kugellager (z.B. NMB) sind entscheidend für Drohnen Motoren. Diese Eigenschaften garantieren eine längere Lebensdauer, geringere Vibrationen und eine zuverlässigere Leistung. Ein robustes Aluminiumgehäuse schützt vor Beschädigungen und trägt zur Gesamtstabilität und Langlebigkeit bei."
       },
       {
-        "heading": "5. Sécurité et Conformité Réglementaire",
-        "content": "Vérifiez les fonctionnalités de sécurité (retour automatique, détection d'obstacles). Informez-vous sur la réglementation locale concernant l'utilisation des drones agricoles. Choisissez un modèle certifié et renseignez-vous sur les formations requises pour piloter ces équipements, assurant une utilisation légale et sûre de votre drone pulvérisateur."
+        "heading": "5. Kompatibilität und Kauf im Set",
+        "content": "Stellen Sie sicher, dass Ihre neuen Drohnen Motoren mit ESCs und Propellern kompatibel sind. Oft ist der Kauf eines Sets (z.B. 4 Stück) wirtschaftlicher und stellt die Einheitlichkeit sicher. Beachten Sie das Preis-Leistungs-Verhältnis. Beispiel: BETAFPV 1103 Motoren sind für leichte Racing-Drohnen ideal, da sie auf hohe Drehzahlen ausgelegt sind."
       }
     ]
   }

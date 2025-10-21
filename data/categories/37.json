@@ -1,61 +1,160 @@
 {
   "categoryId": 37,
-  "categoryNameCanonical": "Drones avec Suivi de Sujet",
-  "slug": "drones-avec-suivi-de-sujet",
+  "categoryNameCanonical": "Drohnen Zubehör",
+  "slug": "drohnen-zubehoer",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Filmez vos exploits avec nos drones à suivi de sujet automatique. Performance et facilité.",
-  "content": "<div><h2>Drones avec Suivi de Sujet: L'Innovation au Service de Vos Captures</h2><p>Découvrez notre sélection de drones équipés de la technologie de suivi de sujet, conçus pour capturer chaque instant de vos aventures sans effort. Que vous soyez un sportif passionné, un vlogger en quête d'angles originaux ou simplement un amateur de belles images, ces drones intelligents vous garantissent des prises de vue dynamiques et fluides, en vous suivant automatiquement.</p><p>Grâce à des algorithmes avancés de vision par ordinateur et des capteurs de pointe, nos drones identifient et maintiennent votre sujet au centre de l'action, même en mouvement rapide. Fini les prises ratées ou les contraintes de pilotage manuel : concentrez-vous sur votre activité, votre drone s'occupe du reste. Ils sont parfaits pour immortaliser vos sessions de VTT, de surf, de course à pied ou vos explorations de paysages époustouflants.</p><p>Explorez notre gamme et trouvez le drone idéal qui allie performance, autonomie et facilité d'utilisation. Chaque modèle offre des fonctionnalités uniques pour répondre à vos besoins spécifiques en matière de captation vidéo aérienne, avec une qualité d'image exceptionnelle en HD ou 4K. Simplifiez vos tournages et donnez une nouvelle dimension à vos créations avec un drone à suivi de sujet.</p></div>",
+  "description": "Umfassendes Drohnen Zubehör für DJI, FPV & mehr. Akkus, Propeller, Koffer, Ersatzteile.",
+  "content": "<div><h2>Optimieren Sie Ihr Flugerlebnis mit hochwertigem Drohnen Zubehör</h2><p>Entdecken Sie unser breites Sortiment an hochwertigem Drohnen Zubehör, das Ihr Flugerlebnis sicherer, länger und spannender macht. Egal ob Sie ein erfahrener Profi oder ein ambitionierter Hobbyflieger sind, das richtige Zubehör ist entscheidend für die Leistung und Langlebigkeit Ihrer Drohne. Wir bieten eine umfassende Auswahl an essenziellen Ersatzteilen und praktischen Erweiterungen für alle gängigen Drohnenmodelle, einschließlich DJI, Parrot, FPV und viele andere.</p><p>Von leistungsstarken Ersatzakkus, die Ihre Flugzeit maximieren, über robuste Propeller für präzise Manöver und sichere Landungen bis hin zu schützenden Transporttaschen und Koffern, die Ihre Ausrüstung auf Reisen optimal schützen – bei uns finden Sie alles, was Sie benötigen. Verbessern Sie Ihre Luftaufnahmen mit speziellen Filter-Sets, sorgen Sie für stabilere Starts mit Landepads oder erweitern Sie die Funktionalität Ihrer Drohne mit Halterungen für Zusatzgeräte. Stöbern Sie durch unser Angebot und rüsten Sie Ihre Drohne perfekt aus, um jedes Abenteuer in der Luft zu meistern.</p></div>",
   "seo": {
-    "title": "Drones Suivi de Sujet Automatique: Capturez l'Action!",
-    "description": "Filmez vos exploits avec nos drones à suivi de sujet automatique. Performance et facilité.",
+    "title": "Drohnen Zubehör Kaufen | Akkus, Propeller & Taschen",
+    "description": "Umfassendes Drohnen Zubehör für DJI, FPV & mehr. Akkus, Propeller, Koffer, Ersatzteile.",
     "keywords": [
-      "drone suivi de sujet",
-      "drone follow me",
-      "drone automatique",
-      "drone intelligent",
-      "capture vidéo drone"
+      "Drohnen Zubehör",
+      "Drohnen Ersatzteile",
+      "Drohnen Akku",
+      "Drohnen Propeller",
+      "Drohnen Tasche",
+      "Drohnen Koffer",
+      "DJI Zubehör",
+      "Drohnen Landepads"
     ],
-    "enhancedAt": "2025-10-15T18:57:58.791014"
+    "enhancedAt": "2025-10-21T15:21:05.795335"
   },
   "faq": [
     {
-      "question": "Comment fonctionne le suivi de sujet sur un drone ?",
-      "answer": "Les drones avec suivi de sujet utilisent des technologies avancées comme la vision par ordinateur et le GPS pour identifier un sujet (personne, véhicule) et le maintenir automatiquement dans le cadre de la vidéo, même en mouvement."
+      "question": "Welches Drohnen Zubehör ist am wichtigsten?",
+      "answer": "Zu den wichtigsten Drohnen Zubehörteilen gehören Ersatzakkus für längere Flugzeiten, zusätzliche Propeller als Ersatz und eine sichere Transporttasche oder ein Koffer zum Schutz Ihrer Drohne."
     },
     {
-      "question": "Quels sont les avantages d'un drone avec cette fonctionnalité ?",
-      "answer": "Le principal avantage est de pouvoir filmer des scènes dynamiques sans avoir à piloter manuellement. C'est idéal pour les sportifs, les voyageurs, les vloggers ou toute personne souhaitant documenter une activité en mouvement avec des prises de vue professionnelles et fluides."
+      "question": "Wie finde ich das richtige Zubehör für meine Drohne?",
+      "answer": "Achten Sie stets auf die Kompatibilität des Zubehörs mit Ihrem spezifischen Drohnenmodell. Viele Hersteller bieten auch originales Zubehör an, das perfekt passt."
     },
     {
-      "question": "Ces drones sont-ils adaptés aux débutants ?",
-      "answer": "Oui, de nombreux drones dotés de la fonction de suivi de sujet sont conçus pour être faciles à utiliser, même pour les débutants. Leurs modes de vol assistés et la stabilisation automatique simplifient grandement le pilotage et la prise de vue."
+      "question": "Kann ich Drohnen Zubehör selbst montieren?",
+      "answer": "Viele Zubehörteile wie Propeller, Landegestelle oder einfache Filter können Sie problemlos selbst montieren. Bei komplexeren elektronischen Teilen ist eventuell professionelle Hilfe ratsam."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-15T18:57:58.791028",
+  "enhancedAt": "2025-10-21T15:21:05.795355",
+  "comparisonTable": {
+    "title": "Vergleich der 5 besten Drohnen Zubehör",
+    "columns": [
+      "Rang",
+      "Preis",
+      "Bewertung",
+      "Marke",
+      "Produkttyp",
+      "Anwendungszweck",
+      "Kompatibilität",
+      "Hauptmaterial",
+      "Alleinstellungsmerkmal"
+    ],
+    "products": [
+      {
+        "rank": 1,
+        "rang": "1",
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61jRc8GnSCL._AC_SL1000_.jpg]",
+        "name": "elechawk 2x FPV Drohnen Lock Mount Rucksack DIY",
+        "preis": "8.0€",
+        "bewertung": "4.6/5",
+        "marke": "elechawk",
+        "produkttyp": "Rucksack-Halterung",
+        "anwendungszweck": "FPV-Drohnen-Transport, Akkuhalterung",
+        "kompatibilitaet": "FPV-Quadcopter",
+        "hauptmaterial": "Kunststoff, Nylon",
+        "alleinstellungsmerkmal": "DIY-Bundle, schnelle Anbringung, Batteriebänder",
+        "productUrl": "/product/elechawk-fpv-drohnen-lock-mount-rucksack",
+        "image": "https://m.media-amazon.com/images/I/61jRc8GnSCL._AC_SL1000_.jpg"
+      },
+      {
+        "rank": 2,
+        "rang": "2",
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/318oU9WeZ+L._AC_.jpg]",
+        "name": "Holy Stone HS175D Motor Zubehör Drohne",
+        "preis": "9.0€",
+        "bewertung": "4.1/5",
+        "marke": "Holy Stone",
+        "produkttyp": "Ersatzmotor",
+        "anwendungszweck": "Drohnenreparatur, Leistungsoptimierung",
+        "kompatibilitaet": "Holy Stone HS175D Drohne",
+        "hauptmaterial": "Metall, Kunststoff",
+        "alleinstellungsmerkmal": "Langlebigkeit, präzise Steuerung",
+        "productUrl": "/product/holy-stone-hs175d-motor-zubehor-drohne",
+        "image": "https://m.media-amazon.com/images/I/318oU9WeZ+L._AC_.jpg"
+      },
+      {
+        "rank": 3,
+        "rang": "3",
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51aLvqaQNAL._AC_SL1500_.jpg]",
+        "name": "OBEST Airdrop System, Nutzlast Airdrop Release Drop Gerät, Drohnenstarter für Hochzeit, Suche, Rettung Kompatibel mit die meisten Drohnen und DJI",
+        "preis": "27.0€",
+        "bewertung": "3.9/5",
+        "marke": "OBEST",
+        "produkttyp": "Airdrop-System",
+        "anwendungszweck": "Nutzlastabwurf, Lieferung, Hochzeit, Suche, Rettung",
+        "kompatibilitaet": "Die meisten Drohnen und DJI",
+        "hauptmaterial": "Robustes Kunststoff, Metall",
+        "alleinstellungsmerkmal": "Vielseitige Einsatzszenarien, breite Drohnenkompatibilität",
+        "productUrl": "/product/obest-airdrop-system-nutzlast-airdrop-release",
+        "image": "https://m.media-amazon.com/images/I/51aLvqaQNAL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 4,
+        "rang": "4",
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/71rZr4oetOL._AC_SL1500_.jpg]",
+        "name": "Craznick Schraubendreher Set Drohne Elektronik 25in1",
+        "preis": "9.0€",
+        "bewertung": "3.9/5",
+        "marke": "Craznick",
+        "produkttyp": "Präzisions-Werkzeugset",
+        "anwendungszweck": "Wartung und Reparatur von Drohnen & Elektronik",
+        "kompatibilitaet": "DJI Mini/Mavic Serien, andere Elektronikgeräte (Universal)",
+        "hauptmaterial": "Hochwertiger Stahl, Ergonomischer Kunststoff",
+        "alleinstellungsmerkmal": "25-in-1 Set, präzisionsgefertigte Bits",
+        "productUrl": "/product/craznick-schraubendreher-set-drohne-elektronik-25in1",
+        "image": "https://m.media-amazon.com/images/I/71rZr4oetOL._AC_SL1500_.jpg"
+      },
+      {
+        "rank": 5,
+        "rang": "5",
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61jugH6CDLL._AC_SL1500_.jpg]",
+        "name": "STARTRC Airdrop-System DJI Mini Serie",
+        "preis": "39.0€",
+        "bewertung": "3.4/5",
+        "marke": "STARTRC",
+        "produkttyp": "Airdrop-System",
+        "anwendungszweck": "Nutzlastabwurf, Lieferung, Angeln, Hochzeiten",
+        "kompatibilitaet": "DJI Mini 4k/4 Pro/3 Pro/3",
+        "hauptmaterial": "ABS-Kunststoff, Metallkomponenten",
+        "alleinstellungsmerkmal": "Spezieller Clip für Angelschnur, DJI Mini spezifisch",
+        "productUrl": "/product/startrc-airdrop-system-dji-mini-serie",
+        "image": "https://m.media-amazon.com/images/I/61jugH6CDLL._AC_SL1500_.jpg"
+      }
+    ]
+  },
   "buyingGuide": {
-    "title": "Guide d'Achat : Comment Choisir les Meilleurs Drones avec Suivi de Sujet ?",
+    "title": "Kaufberatung: So wählen Sie das beste Drohnen Zubehör aus",
     "sections": [
       {
-        "heading": "1. Suivi Intelligent et Modes",
-        "content": "Évaluez la sophistication du suivi. Recherchez des drones offrant le suivi actif (ActiveTrack), le suivi de silhouette (Spotlight) ou le suivi par GPS. Assurez-vous que le drone peut maintenir le sujet centré, éviter les obstacles et proposer différents modes comme le cercle ou le parallèle pour des prises de vue dynamiques et fluides, essentielles pour capturer des scènes d'action sans effort."
+        "heading": "1. Funktion und Einsatzzweck",
+        "content": "Priorisieren Sie Zubehör basierend auf Ihrem Drohnentyp und Ihren Flugaktivitäten. Suchen Sie Ersatzteile wie Propeller oder Akkus, oder Erweiterungen wie Kameras und FPV-Systeme? Für Transport und Schutz sind Rucksäcke oder Koffer entscheidend. Überlegen Sie, ob Sie grundlegende Komponenten oder spezifische Verbesserungen wie stabilere Landegestelle benötigen, um Ihre Drohne optimal zu nutzen."
       },
       {
-        "heading": "2. Qualité de l'Image et Stabilisation",
-        "content": "La qualité de la caméra est primordiale. Optez pour des capteurs 4K à 30/60fps pour des vidéos nettes et un bon rendu des couleurs. Une nacelle stabilisée sur 3 axes est indispensable pour des images fluides, même lors de mouvements rapides du drone ou du sujet. Vérifiez aussi la taille du capteur pour de meilleures performances en basse lumière."
+        "heading": "2. Kompatibilität mit Ihrer Drohne",
+        "content": "Stellen Sie sicher, dass jedes Zubehörteil perfekt zu Ihrem spezifischen Drohnenmodell passt. Prüfen Sie Herstellerangaben und Produktbeschreibungen genau. Stecker, Größen und Montagesysteme müssen übereinstimmen, besonders bei Akkus, Ladegeräten und Kamerahalterungen. Falsches Zubehör kann Leistungseinbußen oder sogar Schäden an Ihrer Drohne verursachen, wie beim elechawk Lock Mount, der spezifische Anforderungen hat."
       },
       {
-        "heading": "3. Autonomie et Portée",
-        "content": "L'autonomie de la batterie est cruciale pour des sessions de suivi prolongées. Visez au moins 25-30 minutes de vol réel par batterie. Considérez l'achat de batteries supplémentaires. La portée de transmission vidéo doit être suffisante pour ne pas perdre le sujet de vue, idéalement plusieurs kilomètres avec une faible latence. Cela garantit une liberté de mouvement optimale."
+        "heading": "3. Materialqualität und Langlebigkeit",
+        "content": "Investieren Sie in hochwertiges Material für Zubehör, das Belastungen ausgesetzt ist. Carbonfaser bietet zum Beispiel bei Propellern und Gestellen eine hohe Stabilität bei geringem Gewicht. Bei Gehäusen oder Schutzteilen ist robustes Kunststoff oder Metall ratsam. Achten Sie auf saubere Verarbeitung, um die Lebensdauer zu verlängern und die Sicherheit Ihrer Drohne während des Fluges zu gewährleisten."
       },
       {
-        "heading": "4. Évitement d'Obstacles et Sécurité",
-        "content": "Pour un suivi autonome sûr, des capteurs multidirectionnels d'évitement d'obstacles sont essentiels. Ils permettent au drone de détecter et contourner les arbres, bâtiments ou autres dangers en temps réel. Vérifiez également les fonctions de retour automatique au point de départ (RTH) et de géofencing pour une sécurité accrue, protégeant ainsi votre investissement."
+        "heading": "4. Montage und Benutzerfreundlichkeit",
+        "content": "Bedenken Sie, wie einfach das Zubehör zu montieren und zu verwenden ist. DIY-Lösungen wie der elechawk FPV Drohnen Lock Mount erfordern möglicherweise handwerkliches Geschick. Eine schnelle und unkomplizierte Installation spart Zeit und erhöht den Flugspaß. Achten Sie auf Zubehör, das intuitive Befestigungssysteme und klare Anleitungen bietet, um Frustration zu vermeiden."
       },
       {
-        "heading": "5. Facilité d'Utilisation et Budget",
-        "content": "Un drone intuitif avec une application conviviale rendra l'expérience de suivi plus agréable. Les modes de vol intelligents et l'interface claire sont des atouts. Définissez votre budget, sachant que les modèles plus performants avec suivi avancé et évitement d'obstacles sont plus onéreux. Comparez les fonctionnalités par rapport au prix pour un choix optimal."
+        "heading": "5. Preis-Leistungs-Verhältnis und Bewertungen",
+        "content": "Vergleichen Sie Preise und lesen Sie Kundenbewertungen, um das beste Preis-Leistungs-Verhältnis zu finden. Ein höherer Preis bedeutet nicht immer überlegene Qualität. Achten Sie auf Kommentare zur Haltbarkeit, Passgenauigkeit und dem Service. Berücksichtigen Sie auch, ob das Zubehör den Investitionswert durch verbesserte Leistung oder Schutz für Ihre Drohne rechtfertigt."
       }
     ]
   }
