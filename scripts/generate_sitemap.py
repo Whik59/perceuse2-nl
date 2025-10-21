@@ -12,10 +12,10 @@ from typing import List, Dict, Any
 import argparse
 
 # Configuration
-SITE_URL = "https://www.acheter-drone.fr"  # Update this to your actual domain
 SITEMAP_FILE = "public/sitemap.xml"
 CATEGORIES_FILE = "data/categories.json"
 PRODUCTS_DIR = "data/products"
+LOCALES_FILE = "locales/common.json"
 
 # Priority settings
 PRIORITY_HOMEPAGE = 1.0
@@ -26,6 +26,16 @@ PRIORITY_PRODUCTS = 0.6
 CHANGEFREQ_HOMEPAGE = "daily"
 CHANGEFREQ_CATEGORIES = "weekly"
 CHANGEFREQ_PRODUCTS = "monthly"
+
+def load_site_url() -> str:
+    """Load site URL from locales file"""
+    try:
+        with open(LOCALES_FILE, 'r', encoding='utf-8') as f:
+            locales = json.load(f)
+        return locales.get('siteConfig', {}).get('site', {}).get('url', 'https://acheter-drone.fr')
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        print(f"Warning: Could not load site URL from {LOCALES_FILE}, using default")
+        return 'https://acheter-drone.fr'
 
 def load_categories(categories_file: str) -> List[Dict[str, Any]]:
     """Load categories from JSON file"""
@@ -261,8 +271,11 @@ def save_robots_txt(content: str, output_file: str) -> None:
 
 def main():
     """Main function"""
-    parser = argparse.ArgumentParser(description='Generate hierarchical sitemap.xml and robots.txt for Massage Products')
-    parser.add_argument('--site-url', default=SITE_URL, help='Site URL (default: https://massagegeraete-kaufen.com)')
+    # Load site URL from locales
+    site_url = load_site_url()
+    
+    parser = argparse.ArgumentParser(description='Generate hierarchical sitemap.xml and robots.txt for Drone Products')
+    parser.add_argument('--site-url', default=site_url, help=f'Site URL (default: {site_url})')
     parser.add_argument('--sitemap-output', default=SITEMAP_FILE, help='Sitemap output file path (default: public/sitemap.xml)')
     parser.add_argument('--robots-output', default='public/robots.txt', help='Robots.txt output file path (default: public/robots.txt)')
     parser.add_argument('--categories', default=CATEGORIES_FILE, help='Categories JSON file path')

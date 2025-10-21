@@ -986,8 +986,8 @@ const ProductDetailPage: React.FC = () => {
                       </div>
                     </div>
 
-                    {/* Bottom Image - Mobile */}
-                    <div className="bg-white p-1 flex items-center justify-center overflow-hidden">
+                    {/* Bottom Image - Mobile - Hidden */}
+                    <div className="hidden bg-white p-1 flex items-center justify-center overflow-hidden">
                       <div className="w-full h-[300px] overflow-hidden">
                         <Image
                           src="/hero5.png"

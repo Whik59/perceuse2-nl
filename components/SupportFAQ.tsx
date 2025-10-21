@@ -28,32 +28,32 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
     {
       id: 'delivery',
       icon: <Truck className="w-5 h-5 text-[#FF9900]" />,
-      question: 'Wie lange dauert die Lieferung?',
-      answer: 'Die Lieferung erfolgt über Amazon und dauert in der Regel 1-2 Werktage mit Prime-Versand oder 3-5 Werktage mit Standardversand.'
+      question: getString('support.faq.deliveryTime.question'),
+      answer: getString('support.faq.deliveryTime.answer')
     },
     {
       id: 'returns',
       icon: <RefreshCw className="w-5 h-5 text-[#FF9900]" />,
-      question: 'Wie ist die Rückgaberichtlinie?',
-      answer: 'Sie haben 30 Tage Zeit, um Ihre Bestellung zurückzugeben. Amazon bietet kostenlose Rücksendung für die meisten Artikel.'
+      question: getString('support.faq.returns.question'),
+      answer: getString('support.faq.returns.answer')
     },
     {
       id: 'warranty',
       icon: <Shield className="w-5 h-5 text-[#FF9900]" />,
-      question: 'Welche Garantie haben die Massagegeräte?',
-      answer: 'Die Garantie hängt vom jeweiligen Hersteller ab. Die meisten Massagegeräte haben eine Garantie von 1-2 Jahren.'
+      question: getString('support.faq.warranty.question'),
+      answer: getString('support.faq.warranty.answer')
     },
     {
       id: 'payment',
       icon: <CreditCard className="w-5 h-5 text-[#FF9900]" />,
-      question: 'Welche Zahlungsmethoden akzeptieren Sie?',
-      answer: 'Da alle Käufe über Amazon abgewickelt werden, können Sie alle von Amazon akzeptierten Zahlungsmethoden verwenden.'
+      question: getString('support.faq.payment.question'),
+      answer: getString('support.faq.payment.answer')
     },
     {
       id: 'tracking',
       icon: <Package className="w-5 h-5 text-[#FF9900]" />,
-      question: 'Wie kann ich meine Bestellung verfolgen?',
-      answer: 'Sie können Ihre Bestellung direkt in Ihrem Amazon-Konto verfolgen oder die Tracking-Informationen aus der Bestätigungs-E-Mail verwenden.'
+      question: getString('support.faq.tracking.question'),
+      answer: getString('support.faq.tracking.answer')
     }
   ];
 
@@ -94,7 +94,7 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <MessageCircle className="w-6 h-6" />
-              <h2 className="text-2xl font-light">Kundenservice</h2>
+              <h2 className="text-2xl font-light">{getString('support.title')}</h2>
             </div>
             <button
               onClick={onClose}
@@ -103,13 +103,13 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
               <X className="w-6 h-6" />
             </button>
           </div>
-          <p className="text-[#DDD6C1] mt-2">Wir sind da, um Ihnen bei allen Fragen zu unseren Massagegeräten zu helfen</p>
+          <p className="text-[#DDD6C1] mt-2">{getString('support.subtitle')}</p>
         </div>
 
         <div className="flex flex-col lg:flex-row max-h-[calc(90vh-120px)]">
           {/* FAQ Section */}
           <div className="lg:w-1/2 p-6 overflow-y-auto border-r border-[#DDD6C1]">
-            <h3 className="text-xl font-medium text-[#232F3E] mb-6">Häufig gestellte Fragen</h3>
+            <h3 className="text-xl font-medium text-[#232F3E] mb-6">{getString('support.faq.title')}</h3>
             
             <div className="space-y-4">
               {faqItems.map((item) => (
@@ -141,12 +141,12 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
 
           {/* Contact Form Section */}
           <div className="lg:w-1/2 p-6 overflow-y-auto">
-            <h3 className="text-xl font-medium text-[#232F3E] mb-6">Kontakt</h3>
+            <h3 className="text-xl font-medium text-[#232F3E] mb-6">{getString('support.contact.title')}</h3>
             
             <form onSubmit={handleContactSubmit} className="space-y-6">
               <div>
                 <label className="block text-sm font-medium text-[#232F3E] mb-2">
-                  Betreff
+                  {getString('support.contact.subjectLabel')}
                 </label>
                 <select
                   value={contactForm.subject}
@@ -154,7 +154,7 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
                   required
                   className="w-full px-4 py-3 border border-[#DDD6C1] rounded-xl focus:ring-2 focus:ring-[#FF9900] focus:border-transparent transition-all"
                 >
-                  <option value="">Betreff auswählen</option>
+                  <option value="">{getString('support.contact.subjectPlaceholder')}</option>
                   {subjectOptions.map((option) => (
                     <option key={option.value} value={option.value}>
                       {option.label}
@@ -165,7 +165,7 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
 
               <div>
                 <label className="block text-sm font-medium text-[#232F3E] mb-2">
-                  E-Mail
+                  {getString('support.contact.emailLabel')}
                 </label>
                 <input
                   type="email"
@@ -173,13 +173,13 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
                   onChange={(e) => setContactForm({ ...contactForm, email: e.target.value })}
                   required
                   className="w-full px-4 py-3 border border-[#DDD6C1] rounded-xl focus:ring-2 focus:ring-[#FF9900] focus:border-transparent transition-all"
-                  placeholder="ihre@email.com"
+                  placeholder={getString('support.contact.emailPlaceholder')}
                 />
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-[#232F3E] mb-2">
-                  Nachricht
+                  {getString('support.contact.messageLabel')}
                 </label>
                 <textarea
                   value={contactForm.message}
@@ -187,7 +187,7 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
                   required
                   rows={6}
                   className="w-full px-4 py-3 border border-[#DDD6C1] rounded-xl focus:ring-2 focus:ring-[#FF9900] focus:border-transparent transition-all resize-none"
-                  placeholder="Beschreiben Sie Ihr Anliegen..."
+                  placeholder={getString('support.contact.messagePlaceholder')}
                 />
               </div>
 
@@ -196,12 +196,12 @@ const SupportFAQ: React.FC<SupportFAQProps> = ({ isOpen, onClose }) => {
                 className="w-full bg-[#FF9900] hover:bg-[#E8890E] text-white font-medium py-4 px-6 rounded-xl transition-colors flex items-center justify-center space-x-2"
               >
                 <MessageCircle className="w-5 h-5" />
-                <span>WhatsApp senden</span>
+                <span>{getString('support.contact.sendWhatsApp')}</span>
               </button>
 
               <div className="text-center">
                 <p className="text-sm text-[#232F3E]">
-                  Wir antworten schnell über WhatsApp
+                  {getString('support.contact.whatsappResponse')}
                   <br />
                   <span className="font-medium text-[#FF9900]">+33 750 883227</span>
                 </p>

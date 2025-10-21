@@ -114,11 +114,6 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
   return (
     <section className="py-12 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            {title}
-          </h2>
-        </div>
 
         {/* Slider Container */}
         <div className="relative">
@@ -199,7 +194,7 @@ const SubcategoryCards: React.FC<SubcategoryCardsProps> = ({
                                 <h3 className="text-gray-900 font-semibold text-lg group-hover:text-orange-600 transition-colors duration-300 leading-tight">
                                   {subcategory.categoryNameCanonical}
                                 </h3>
-                                <p className="text-gray-600 text-sm line-clamp-2">
+                                <p className="hidden md:block text-gray-600 text-sm line-clamp-2">
                                   {subcategory.description}
                                 </p>
                               </div>

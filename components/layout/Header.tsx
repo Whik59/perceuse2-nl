@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Search, ShoppingCart, Menu, X, MessageCircle, Tag, Star, Package } from 'lucide-react';
+import { Search, ShoppingCart, Menu, X, MessageCircle, Tag, Star, Package, Clock } from 'lucide-react';
 import { formatCurrency, getString } from '../../lib/utils';
 import { Category, CartItem, Product } from '../../lib/types';
 import SupportFAQ from '../SupportFAQ';
@@ -54,6 +54,54 @@ const AnimatedCounter: React.FC<{ end: number; suffix?: string; duration?: numbe
   return <span>{count}{suffix}</span>;
 };
 
+// Countdown Timer Component
+const CountdownTimer: React.FC = () => {
+  const [timeLeft, setTimeLeft] = useState({
+    hours: 23,
+    minutes: 59,
+    seconds: 10
+  });
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(prev => {
+        let { hours, minutes, seconds } = prev;
+        
+        if (seconds > 0) {
+          seconds--;
+        } else if (minutes > 0) {
+          minutes--;
+          seconds = 59;
+        } else if (hours > 0) {
+          hours--;
+          minutes = 59;
+          seconds = 59;
+        } else {
+          // Reset to 23:59:59 when countdown reaches 0
+          hours = 23;
+          minutes = 59;
+          seconds = 59;
+        }
+        
+        return { hours, minutes, seconds };
+      });
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  return (
+    <div className="flex items-center space-x-1 text-white whitespace-nowrap">
+      <span className="text-sm font-medium">Temps restant:</span>
+      <span className="text-sm font-bold">{timeLeft.hours}h</span>
+      <span className="text-sm">:</span>
+      <span className="text-sm font-bold">{timeLeft.minutes.toString().padStart(2, '0')}min</span>
+      <span className="text-sm">:</span>
+      <span className="text-sm font-bold">{timeLeft.seconds.toString().padStart(2, '0')}s</span>
+    </div>
+  );
+};
+
 // Mobile Rotating Banner Component
 const MobileRotatingBanner: React.FC = () => {
   const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
@@ -63,31 +111,12 @@ const MobileRotatingBanner: React.FC = () => {
     {
       icon: <Tag className="w-4 h-4 text-yellow-400" />,
       content: (
-        <>
-          <span className="bg-yellow-400 text-gray-900 px-3 py-1 rounded-full font-bold text-sm tracking-wider">10HOURS</span>
-          <span className="text-sm font-medium text-white">30% {getString('banner.discount')}</span>
-        </>
+        <span className="text-sm font-bold text-white">-30% sur tous les produits</span>
       )
     },
     {
-      icon: <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />,
-      content: (
-        <>
-          <span className="text-yellow-400 font-bold">4.6/5</span>
-          <span className="text-sm text-white">{getString('banner.clientReviews')}</span>
-        </>
-      )
-    },
-    {
-      icon: <Package className="w-4 h-4 text-green-400" />,
-      content: (
-        <>
-          <span className="text-green-400 font-bold">
-            <AnimatedCounter end={2000} suffix="+" duration={2000} />
-          </span>
-          <span className="text-sm text-white">{getString('banner.ordersDelivered')}</span>
-        </>
-      )
+      icon: <Clock className="w-4 h-4 text-red-400" />,
+      content: <CountdownTimer />
     }
   ];
 
@@ -111,17 +140,19 @@ const MobileRotatingBanner: React.FC = () => {
   return (
     <div className="relative h-8 flex items-center justify-center overflow-hidden">
       <div 
-        className={`flex items-center justify-center space-x-2 transition-all duration-300 ease-in-out transform ${
+        className={`flex items-center justify-center transition-all duration-300 ease-in-out transform ${
           isAnimating 
             ? 'opacity-0 translate-y-2 scale-95' 
             : 'opacity-100 translate-y-0 scale-100'
         }`}
       >
-        <div className="flex items-center space-x-1">
-          {currentMessage.icon}
-        </div>
-        <div className="flex items-center space-x-2">
-          {currentMessage.content}
+        <div className="flex items-center space-x-2 whitespace-nowrap">
+          <div className="flex items-center space-x-1">
+            {currentMessage.icon}
+          </div>
+          <div className="flex items-center">
+            {currentMessage.content}
+          </div>
         </div>
       </div>
     </div>
@@ -410,10 +441,6 @@ const Header: React.FC<HeaderProps> = ({
                 priority
               />
               </div>
-              {/* Premium Badge - Desktop only (outside bottom) */}
-              <div className="hidden sm:block absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg">
-                {getString('header.premium')}
-              </div>
             </div>
             <div className="flex flex-col min-w-0">
               <div className="flex items-center space-x-1 sm:space-x-2">
@@ -431,25 +458,17 @@ const Header: React.FC<HeaderProps> = ({
               </div>
               {/* Mobile Badges */}
               <div className="sm:hidden mt-1 flex flex-col space-y-1">
-                {/* Amazon Partner Badge - Mobile */}
+                {/* Amazon Partner Badge - Mobile - Bigger */}
                 <div className="flex items-center justify-center">
-                  <div className="flex items-center space-x-1 bg-gradient-to-r from-orange-500 to-orange-600 px-2 py-1 rounded-lg shadow-lg">
-                    <svg className="w-3 h-3 text-white" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
+                  <div className="flex items-center space-x-2 bg-gradient-to-r from-orange-500 to-orange-600 px-4 py-2 rounded-lg shadow-lg">
+                    <svg className="w-4 h-4 text-white" viewBox="2.167 .438 251.038 259.969" xmlns="http://www.w3.org/2000/svg">
                       <g fill="none" fillRule="evenodd">
                         <path d="m221.503 210.324c-105.235 50.083-170.545 8.18-212.352-17.271-2.587-1.604-6.984.375-3.169 4.757 13.928 16.888 59.573 57.593 119.153 57.593 59.621 0 95.09-32.532 99.527-38.207 4.407-5.627 1.294-8.731-3.16-6.872zm29.555-16.322c-2.826-3.68-17.184-4.366-26.22-3.256-9.05 1.078-22.634 6.609-21.453 9.93.606 1.244 1.843.686 8.06.127 6.234-.622 23.698-2.826 27.337 1.931 3.656 4.79-5.57 27.608-7.255 31.288-1.628 3.68.622 4.629 3.68 2.178 3.016-2.45 8.476-8.795 12.14-17.774 3.639-9.028 5.858-21.622 3.71-24.424z" fill="#FF9900" fillRule="nonzero"/>
                         <path d="m150.744 108.13c0 13.141.332 24.1-6.31 35.77-5.361 9.489-13.853 15.324-23.341 15.324-12.952 0-20.495-9.868-20.495-24.432 0-28.75 25.76-33.968 50.146-33.968zm34.015 82.216c-2.23 1.992-5.456 2.135-7.97.806-11.196-9.298-13.189-13.615-19.356-22.487-18.502 18.882-31.596 24.527-55.601 24.527-28.37 0-50.478-17.506-50.478-52.565 0-27.373 14.85-46.018 35.96-55.126 18.313-8.066 43.884-9.489 63.43-11.718v-4.365c0-8.018.616-17.506-4.08-24.432-4.128-6.215-12.003-8.777-18.93-8.777-12.856 0-24.337 6.594-27.136 20.257-.57 3.037-2.799 6.026-5.835 6.168l-32.735-3.51c-2.751-.618-5.787-2.847-5.028-7.07 7.543-39.66 43.36-51.616 75.43-51.616 16.415 0 37.858 4.365 50.81 16.795 16.415 15.323 14.849 35.77 14.849 58.02v52.565c0 15.798 6.547 22.724 12.714 31.264 2.182 3.036 2.657 6.69-.095 8.966-6.879 5.74-19.119 16.415-25.855 22.393l-.095-.095" fill="#000000"/>
                       </g>
                     </svg>
-                    <span className="text-xs font-bold text-white">{getString('header.partner')}</span>
+                    <span className="text-sm font-bold text-white">{getString('header.partner')}</span>
                   </div>
-                </div>
-                
-                {/* Premium Badge - Mobile */}
-                <div className="flex items-center justify-center space-x-2">
-                  <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white text-xs font-bold px-2 py-1 rounded-full shadow-lg inline-block">
-                    {getString('header.premium')}
-                  </div>
-                  <span className="text-[10px] font-medium text-gray-600">{getString('header.madeInGermany')}</span>
                 </div>
               </div>
               <div className="hidden sm:flex items-center space-x-2 sm:space-x-3 mt-1">

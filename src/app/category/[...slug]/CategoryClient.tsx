@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../../../components/layout/Layout';
+import Breadcrumb from '../../../../components/Breadcrumb';
 import ProductCard from '../../../../components/ProductCard';
 import { Button } from '../../../../components/ui/Button';
 import Reviews from '../../../../components/Reviews';
@@ -33,15 +33,14 @@ interface FilterState {
   inStock: boolean;
 }
 
-const CategoryPage: React.FC = () => {
-  const params = useParams();
-  const slugArray = params?.slug as string[];
-  const fullSlug = slugArray ? slugArray.join('/') : '';
-  
-  const [category, setCategory] = useState<Category | null>(null);
-  const [products, setProducts] = useState<Product[]>([]);
+interface CategoryClientProps {
+  category: Category;
+  categories: Category[];
+  products: Product[];
+}
+
+const CategoryClient: React.FC<CategoryClientProps> = ({ category, categories, products }) => {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
-  const [isLoading, setIsLoading] = useState(true);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showFilters, setShowFilters] = useState(false);
   const [cart, setCart] = useState<CartState>({
@@ -56,37 +55,19 @@ const CategoryPage: React.FC = () => {
     inStock: false
   });
 
-  const [categories, setCategories] = useState<Category[]>([]);
   const [categoryContent, setCategoryContent] = useState<CategoryContent | null>(null);
 
   useEffect(() => {
     const loadCategoryData = async () => {
       try {
-        // Load all categories
-        const categoriesResponse = await fetch('/api/categories');
-        if (!categoriesResponse.ok) {
-          throw new Error('Failed to load categories');
-        }
-        const allCategories: Category[] = await categoriesResponse.json();
-        setCategories(allCategories);
-        
-        // Load current category by slug
-        const categoryResponse = await fetch(`/api/categories/${fullSlug}`);
-        if (!categoryResponse.ok) {
-          throw new Error('Category not found');
-        }
-        const currentCategory: Category = await categoryResponse.json();
-        
-        setCategory(currentCategory);
-
         // Load products based on category level
-        const categoryIdsToLoad = [currentCategory.categoryId!];
+        const categoryIdsToLoad = [category.categoryId!];
         
         // If current category is a main category (level 0), load products from all its subcategories
         // If current category is a subcategory (level 1), load only its own products
-        if (currentCategory.level === 0) {
+        if (category.level === 0) {
           // Find all subcategories of the current category
-          const subcategories = allCategories.filter(cat => cat.parentCategoryId === currentCategory.categoryId);
+          const subcategories = categories.filter(cat => cat.parentCategoryId === category.categoryId);
           subcategories.forEach(subcat => categoryIdsToLoad.push(subcat.categoryId!));
         }
         // For subcategories (level 1), we only load products from the current category itself
@@ -96,8 +77,7 @@ const CategoryPage: React.FC = () => {
         // Load products for each category ID
         for (const categoryId of categoryIdsToLoad) {
           try {
-            const response = await fetch(`/api/products/by-category/${categoryId}`);
-            const categoryProducts: Product[] = await response.json();
+            const categoryProducts = products.filter(p => p.categoryIds?.includes(categoryId));
             allProducts = [...allProducts, ...categoryProducts];
           } catch (error) {
             console.error(`Error loading products for category ${categoryId}:`, error);
@@ -109,12 +89,11 @@ const CategoryPage: React.FC = () => {
           index === self.findIndex(p => p.productId === product.productId)
         );
         
-        setProducts(uniqueProducts);
         setFilteredProducts(uniqueProducts);
         
         // Load category content if available
         try {
-          const contentResponse = await fetch(`/api/category-content/${fullSlug}`);
+          const contentResponse = await fetch(`/api/category-content/${category.slug}`);
           if (contentResponse.ok) {
             const response = await contentResponse.json();
             if (response.content) {
@@ -127,19 +106,15 @@ const CategoryPage: React.FC = () => {
         
       } catch (error) {
         console.error('Error loading category data:', error);
-      } finally {
-        setIsLoading(false);
       }
     };
 
-    if (fullSlug) {
-      loadCategoryData();
-    }
-  }, [fullSlug]);
+    loadCategoryData();
+  }, [category, categories, products]);
 
   // Filter products based on current filters
   useEffect(() => {
-    let filtered = [...products];
+    let filtered = [...filteredProducts];
 
     // Price range filter
     filtered = filtered.filter(product => {
@@ -176,7 +151,7 @@ const CategoryPage: React.FC = () => {
     }
 
     setFilteredProducts(filtered);
-  }, [products, filters]);
+  }, [filteredProducts, filters]);
 
   const handleAddToCart = async (product: Product) => {
     try {
@@ -192,39 +167,23 @@ const CategoryPage: React.FC = () => {
     setFilters(prev => ({ ...prev, ...newFilters }));
   };
 
-  if (isLoading) {
-    return (
-      <Layout>
-        <div className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
-            <p className="text-gray-600">{getString('common.loading')}</p>
-          </div>
-        </div>
-      </Layout>
-    );
-  }
-
-  if (!category) {
-    return (
-      <Layout>
-        <div className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <h1 className="text-2xl font-bold text-gray-900 mb-4">{getString('categoryPage.notFound.title')}</h1>
-            <p className="text-gray-600 mb-8">{getString('categoryPage.notFound.description')}</p>
-            <Link href="/">
-              <Button variant="primary">
-                {getString('navigation.home')}
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </Layout>
-    );
-  }
+  // Generate breadcrumb items
+  const breadcrumbItems = [
+    {
+      name: category.name,
+      url: `/category/${category.slug}`
+    }
+  ];
 
   return (
     <Layout categories={categories}>
+      {/* Breadcrumb */}
+      <div className="bg-orange-50/90 backdrop-blur-sm border-b border-orange-200/60">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+          <Breadcrumb items={breadcrumbItems} />
+        </div>
+      </div>
+
       {/* Hero Section with Amazon Style */}
       <section className="relative pt-0 pb-8 md:pb-12 overflow-hidden -mt-16 lg:-mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -378,20 +337,6 @@ const CategoryPage: React.FC = () => {
           </div>
         </div>
       </section>
-
-      {/* Breadcrumb */}
-      <div className="bg-orange-50/90 backdrop-blur-sm border-b border-orange-200/60">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-          <nav className="flex items-center space-x-2 text-sm">
-            <Link href="/" className="text-orange-600 hover:text-orange-700 transition-colors font-medium">
-              {getString('navigation.home')}
-            </Link>
-            <ChevronRight className="w-4 h-4 text-orange-400" />
-            <span className="font-semibold text-orange-800">{category.name}</span>
-          </nav>
-        </div>
-      </div>
-
 
       {/* Subcategory Cards Section */}
       {category.categoryId && (
@@ -580,7 +525,6 @@ const CategoryPage: React.FC = () => {
         </div>
       )}
 
-
       {/* Buying Guide Section */}
       {categoryContent?.buyingGuide && (
         <div className="py-16 bg-white">
@@ -669,4 +613,4 @@ const CategoryPage: React.FC = () => {
   );
 };
 
-export default CategoryPage;
+export default CategoryClient;

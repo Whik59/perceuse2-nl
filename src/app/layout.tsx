@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { getString } from "../../lib/utils";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kopfhörer kaufen - Die besten Kopfhörer im Vergleich",
-  description: "Entdecken Sie die besten Kopfhörer mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert.",
+  title: getString("metadata.title"),
+  description: getString("metadata.description"),
 };
 
 export default function RootLayout({
@@ -22,8 +23,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const language = getString("siteConfig.language");
+  
   return (
-    <html lang="en">
+    <html lang={language}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

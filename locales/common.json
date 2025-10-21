@@ -1,4 +1,8 @@
 {
+  "siteConfig": {
+    "language": "fr",
+    "locale": "fr-FR"
+  },
   "categories": {
     "title": "Catégories de drones",
     "hero": {
@@ -13,6 +17,7 @@
   "products": "Drones",
   "productNotFound": "Drone non trouvé",
   "support": {
+    "title": "Service client",
     "subtitle": "Nous sommes là pour vous aider avec toutes vos questions sur nos drones",
   "faq": {
     "title": "Questions fréquemment posées",
@@ -82,6 +87,25 @@
     "tracking": {
         "question": "Comment puis-je suivre ma commande ?",
         "answer": "Dès que votre commande est traitée, vous recevez un e-mail de confirmation avec le numéro de suivi. Vous pouvez suivre votre colis directement sur le site Amazon ou avec le numéro de suivi sur le site de la société de transport. Vous pouvez également contacter notre service client pour des mises à jour."
+    }
+  },
+    "contact": {
+      "title": "Contactez-nous",
+      "subjectLabel": "Sujet",
+      "subjectPlaceholder": "Sélectionner un sujet",
+      "emailLabel": "Votre e-mail",
+      "emailPlaceholder": "votre@email.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Décrivez votre demande ici...",
+      "sendWhatsApp": "Envoyer par WhatsApp",
+      "whatsappResponse": "Nous répondons rapidement par WhatsApp",
+      "subjects": {
+        "order": "Question sur la commande",
+        "refund": "Demande de remboursement",
+        "exchange": "Échange de produit",
+        "quality": "Problème de qualité",
+        "delivery": "Question de livraison",
+        "other": "Autre"
       }
     }
   },
@@ -141,6 +165,64 @@
         "description": "Équipe de service client spécialisée dans les drones. Nous vous aidons avec toutes les questions ou problèmes que vous pourriez avoir."
       },
       "cta": "Rejoignez nos plus de 15 000 clients satisfaits"
+    }
+  },
+  "metadata": {
+    "title": "Acheter des drones - Les meilleurs drones en comparaison",
+    "description": "Découvrez les meilleurs drones avec des évaluations détaillées et des comparaisons. Livraison gratuite et meilleurs prix garantis."
+  },
+  "siteConfig": {
+    "site": {
+      "name": "Drones",
+      "description": "Trouvez le drone parfait. Grande sélection de drones, drones de course et produits de vol. Prix incroyables et livraison rapide !",
+      "url": "https://acheter-drone.fr",
+      "logo": "/logo.png",
+      "favicon": "/favicon.ico"
+    },
+    "seo": {
+      "defaultTitle": "Drones - Drones et produits de vol",
+      "titleTemplate": "%s | Drones",
+      "defaultDescription": "Trouvez le drone parfait. Grande sélection de drones, drones de course et produits de vol. Prix incroyables et livraison rapide !",
+      "keywords": [
+        "Drones",
+        "Drone de course",
+        "Vol",
+        "Acheter des drones",
+        "Offres drones",
+        "Drones pas chers",
+        "Meilleurs drones",
+        "Drone professionnel",
+        "Drone électrique"
+      ],
+      "ogImage": "/og-image-drone.jpg"
+    },
+    "business": {
+      "email": "info@acheter-drone.fr",
+      "phone": "+33 750 883227",
+      "address": "Rue du Vol 1, 75001 Paris, France",
+      "socialMedia": {
+        "facebook": "",
+        "instagram": "",
+        "twitter": ""
+      }
+    },
+    "affiliate": {
+      "amazonTag": "drone-21",
+      "disclaimer": "En tant que partenaire Amazon, nous gagnons des commissions sur les ventes qualifiées."
+    },
+    "features": {
+      "expertReviews": {
+        "enabled": true,
+        "message": "Évaluations d'experts et tests détaillés"
+      },
+      "priceComparison": {
+        "enabled": true,
+        "message": "Comparaison de prix en temps réel"
+      },
+      "buyingGuides": {
+        "enabled": true,
+        "message": "Conseils d'achat détaillés"
+      }
     }
   }
 }

@@ -201,7 +201,94 @@ export const copyToClipboard = async (text: string): Promise<boolean> => {
   }
 };
 
-export const isClient = typeof window !== 'undefined'; 
+export const isClient = typeof window !== 'undefined';
+
+/**
+ * Get localized site configuration
+ * @returns Site configuration object with localized strings
+ */
+export function getLocalizedSiteConfig() {
+  return {
+    site: {
+      name: getString('siteConfig.site.name'),
+      description: getString('siteConfig.site.description'),
+      url: getString('siteConfig.site.url'),
+      logo: getString('siteConfig.site.logo'),
+      favicon: getString('siteConfig.site.favicon')
+    },
+    seo: {
+      defaultTitle: getString('siteConfig.seo.defaultTitle'),
+      titleTemplate: getString('siteConfig.seo.titleTemplate'),
+      defaultDescription: getString('siteConfig.seo.defaultDescription'),
+      keywords: allStrings.siteConfig?.seo?.keywords || [],
+      ogImage: getString('siteConfig.seo.ogImage')
+    },
+    business: {
+      email: getString('siteConfig.business.email'),
+      phone: getString('siteConfig.business.phone'),
+      address: getString('siteConfig.business.address'),
+      socialMedia: {
+        facebook: getString('siteConfig.business.socialMedia.facebook'),
+        instagram: getString('siteConfig.business.socialMedia.instagram'),
+        twitter: getString('siteConfig.business.socialMedia.twitter')
+      }
+    },
+    affiliate: {
+      amazonTag: getString('siteConfig.affiliate.amazonTag'),
+      disclaimer: getString('siteConfig.affiliate.disclaimer')
+    },
+    features: {
+      expertReviews: {
+        enabled: allStrings.siteConfig?.features?.expertReviews?.enabled || true,
+        message: getString('siteConfig.features.expertReviews.message')
+      },
+      priceComparison: {
+        enabled: allStrings.siteConfig?.features?.priceComparison?.enabled || true,
+        message: getString('siteConfig.features.priceComparison.message')
+      },
+      buyingGuides: {
+        enabled: allStrings.siteConfig?.features?.buyingGuides?.enabled || true,
+        message: getString('siteConfig.features.buyingGuides.message')
+      },
+      freeShipping: {
+        enabled: true,
+        threshold: 50,
+        message: 'Livraison gratuite'
+      },
+      returns: {
+        enabled: true,
+        days: 30,
+        message: 'Retours gratuits'
+      },
+      warranty: {
+        enabled: true,
+        period: '2 ans',
+        message: 'Garantie 2 ans'
+      }
+    },
+    promotions: {
+      welcomeDiscount: {
+        enabled: true,
+        code: 'WELCOME10',
+        percentage: 10,
+        message: '10% de réduction'
+      }
+    },
+    payment: {
+      stripe: {
+        enabled: false,
+        publicKey: ''
+      },
+      paypal: {
+        enabled: false,
+        clientId: ''
+      }
+    },
+    shipping: {
+      zones: []
+    }
+  };
+} 
 
 /**
  * Generate consistent fake ratings for products based on their slug

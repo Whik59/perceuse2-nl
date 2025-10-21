@@ -1,6 +1,5 @@
 import { Product, Category, SiteConfig } from './types';
-import { generateProductReviewSnippet, generateProductReviews } from './utils';
-import siteConfigData from '../config/site-config.json';
+import { generateProductReviewSnippet, generateProductReviews, getLocalizedSiteConfig } from './utils';
 
 export interface SEOProps {
   title: string;
@@ -12,13 +11,17 @@ export interface SEOProps {
   structuredData?: object;
 }
 
+// Get localized site configuration
+const getSiteConfig = () => getLocalizedSiteConfig();
+
 // Get site name from environment variable with fallback
 const getSiteName = () => {
-  return process.env.SITE_NAME || process.env.NEXT_PUBLIC_SITE_NAME || siteConfigData.site.name;
+  const config = getSiteConfig();
+  return process.env.SITE_NAME || process.env.NEXT_PUBLIC_SITE_NAME || config.site.name;
 };
 
 export const generateProductSEO = (product: Product, siteConfig?: SiteConfig): SEOProps => {
-  const config = siteConfig || siteConfigData;
+  const config = siteConfig || getSiteConfig();
   const siteName = getSiteName();
   const title = product.seo.title || `${product.title} | ${siteName}`;
   const description = product.seo.description || product.shortDescription;
@@ -72,7 +75,7 @@ export const generateProductSEO = (product: Product, siteConfig?: SiteConfig): S
 };
 
 export const generateCategorySEO = (category: Category, siteConfig?: SiteConfig): SEOProps => {
-  const config = siteConfig || siteConfigData;
+  const config = siteConfig || getSiteConfig();
   const siteName = getSiteName();
   const title = category.seo?.title || `${category.categoryNameCanonical} | ${siteName}`;
   const description = category.seo?.description || category.description || `Découvrez la catégorie ${category.categoryNameCanonical}`;
@@ -99,7 +102,7 @@ export const generateCategorySEO = (category: Category, siteConfig?: SiteConfig)
 };
 
 export const generateHomepageSEO = (siteConfig?: SiteConfig): SEOProps => {
-  const config = siteConfig || siteConfigData;
+  const config = siteConfig || getSiteConfig();
   const siteName = getSiteName();
   
   const structuredData = {

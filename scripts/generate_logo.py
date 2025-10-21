@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Gemini Nano Banana Logo Generator
+Amazon Affiliate Logo Generator
 
 Generates modern, Professional 3D logos using Google's Gemini AI models.
-Supports country-specific colors and keyword-based designs for e-commerce.
+Uses Amazon theme colors (orange, dark blue, white) for affiliate branding.
+Supports keyword-based designs for e-commerce.
 """
 
 import sys
@@ -39,74 +40,23 @@ def setup_gemini():
         print(f"❌ Error setting up Gemini API: {e}")
         sys.exit(1)
 
-def get_country_colors(country):
-    """Get country-specific color schemes."""
-    country_colors = {
-        'germany': {
-            'primary': '#000000',  # Black
-            'secondary': '#DD0000',  # Red
-            'accent': '#FFCE00'  # Gold
-        },
-        'france': {
-            'primary': '#002395',  # Blue
-            'secondary': '#FFFFFF',  # White
-            'accent': '#ED2939'  # Red
-        },
-        'spain': {
-            'primary': '#C60B1E',  # Red
-            'secondary': '#FFC400',  # Yellow
-            'accent': '#FFFFFF'  # White
-        },
-        'italy': {
-            'primary': '#009246',  # Green
-            'secondary': '#FFFFFF',  # White
-            'accent': '#CE2B37'  # Red
-        },
-        'netherlands': {
-            'primary': '#AE1C28',  # Red
-            'secondary': '#FFFFFF',  # White
-            'accent': '#21468B'  # Blue
-        },
-        'poland': {
-            'primary': '#DC143C',  # Red
-            'secondary': '#FFFFFF',  # White
-            'accent': '#000000'  # Black
-        },
-        'sweden': {
-            'primary': '#006AA7',  # Blue
-            'secondary': '#FECC00',  # Yellow
-            'accent': '#FFFFFF'  # White
-        },
-        'usa': {
-            'primary': '#B22234',  # Red
-            'secondary': '#FFFFFF',  # White
-            'accent': '#3C3B6E'  # Blue
-        },
-        'uk': {
-            'primary': '#012169',  # Blue
-            'secondary': '#FFFFFF',  # White
-            'accent': '#C8102E'  # Red
-        },
-        'canada': {
-            'primary': '#FF0000',  # Red
-            'secondary': '#FFFFFF',  # White
-            'accent': '#000000'  # Black
-        }
+def get_amazon_colors():
+    """Get Amazon theme color scheme."""
+    return {
+        'primary': '#FF9900',  # Amazon Orange
+        'secondary': '#232F3E',  # Amazon Dark Blue
+        'accent': '#FFFFFF',  # White
+        'gradient_start': '#FF9900',  # Orange
+        'gradient_end': '#E8890E'  # Darker Orange
     }
-    
-    return country_colors.get(country.lower(), {
-        'primary': '#2563EB',  # Blue
-        'secondary': '#FFFFFF',  # White
-        'accent': '#F59E0B'  # Amber
-    })
 
 def create_logo_prompt(keyword, country):
     """Create a comprehensive prompt for logo generation."""
     
-    colors = get_country_colors(country)
+    colors = get_amazon_colors()
     
     prompt = f"""
-Create a MASSIVE, bold logo for a German {keyword} company that fills 90-95% of the entire canvas space!
+Create a MASSIVE, bold logo for an Amazon affiliate {keyword} company that fills 90-95% of the entire canvas space!
 
 CRITICAL SIZE REQUIREMENTS:
 - The logo must fill 90-95% of the entire image canvas
@@ -118,35 +68,38 @@ CRITICAL SIZE REQUIREMENTS:
 
 DESIGN REQUIREMENTS:
 - Modern, Professional, and stylish 3D design
-- Focus on the {keyword} theme
-- Use {country} national colors: Primary {colors['primary']}, Secondary {colors['secondary']}, Accent {colors['accent']}
+- Focus on the {keyword} theme with Amazon affiliate branding
+- Use Amazon theme colors: Primary {colors['primary']} (Amazon Orange), Secondary {colors['secondary']} (Amazon Dark Blue), Accent {colors['accent']} (White)
+- Incorporate orange gradient from {colors['gradient_start']} to {colors['gradient_end']}
 - Clean white background with minimal margins
 - No text or letters - pure visual logo only
 - Professional and clean appearance
-- Suitable for e-commerce branding
+- Suitable for Amazon affiliate e-commerce branding
+- Amazon-inspired design elements and color scheme
 
 VISUAL STYLE:
 - 3D rendered appearance with depth and dimension
-- Sleek, modern aesthetic
+- Sleek, modern Amazon-inspired aesthetic
 - High contrast for visibility
-- Professional color scheme
+- Professional Amazon color scheme (orange, dark blue, white)
 - Clean lines and shapes
-- Professional elements
+- Professional elements with Amazon affiliate theme
 - MASSIVE SCALE DESIGN - logo should fill almost the entire canvas
 - Bold, imposing presence that touches the edges
 - Almost no white space - logo should be huge and fill 90-95% of the image
 - Edge-to-edge design with minimal margins
 - Logo elements should touch or nearly touch the edges
 - Use negative space creatively rather than leaving empty areas
+- Amazon-style gradients and modern design elements
 
 TECHNICAL SPECS:
 - High resolution (512x512 pixels minimum)
 - PNG format with white background
 - Vector-style design that scales well
 - Optimized for web and print use
-- Professional quality suitable for branding
+- Professional quality suitable for Amazon affiliate branding
 
-Create a compelling logo that represents {keyword} with {country} colors and modern 3D styling. The logo must be HUGE and fill almost the entire canvas with minimal white space - make it massive and bold! Think banner or header style, not small centered logo!
+Create a compelling logo that represents {keyword} with Amazon theme colors and modern 3D styling. The logo must be HUGE and fill almost the entire canvas with minimal white space - make it massive and bold! Think Amazon affiliate branding with orange and dark blue colors, not small centered logo!
 """
     
     return prompt
@@ -249,11 +202,11 @@ def generate_logo_with_gemini(keyword, country, output_path):
 
 def main():
     """
-    Generate a logo using Gemini AI with country colors and keyword theme.
+    Generate a logo using Gemini AI with Amazon theme colors and keyword theme.
     """
-    parser = argparse.ArgumentParser(description="Generate a logo using Gemini AI.")
-    parser.add_argument('keyword', type=str, help="Main keyword/theme for the logo (e.g., kopfhörer, headphones)")
-    parser.add_argument('country', type=str, help="Country for color scheme (e.g., germany, france, spain)")
+    parser = argparse.ArgumentParser(description="Generate a logo using Gemini AI with Amazon theme colors.")
+    parser.add_argument('keyword', type=str, help="Main keyword/theme for the logo (e.g., drones, headphones)")
+    parser.add_argument('country', type=str, help="Country for reference (e.g., france, germany, spain)")
     parser.add_argument('--output', type=str, default='public/logo.png', help="Output path for the logo (default: public/logo.png)")
     
     args = parser.parse_args()
@@ -261,6 +214,7 @@ def main():
     print(f"🎨 Gemini Nano Banana Logo Generator")
     print(f"📝 Keyword: {args.keyword}")
     print(f"🌍 Country: {args.country}")
+    print(f"🎨 Theme: Amazon affiliate colors (Orange, Dark Blue, White)")
     print(f"📁 Output: {args.output}")
     
     # Ensure output directory exists

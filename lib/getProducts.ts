@@ -79,4 +79,80 @@ export const getProducts = (): Product[] => {
     console.error('Error loading products:', error);
     return [];
   }
+};
+
+export const getProductBySlug = (slug: string): Product | null => {
+  try {
+    // Check if products directory exists
+    if (!fs.existsSync(productsDirectory)) {
+      console.log(`Products directory not found at ${productsDirectory}`);
+      return null;
+    }
+
+    const filenames = fs.readdirSync(productsDirectory);
+
+    for (const filename of filenames) {
+      if (filename.endsWith('.json')) {
+        const filePath = path.join(productsDirectory, filename);
+        const fileContents = fs.readFileSync(filePath, 'utf8');
+        const productData = JSON.parse(fileContents);
+
+        // Check if this is the product we're looking for
+        const productSlug = productData.slug || filename.replace('.json', '');
+        if (productSlug === slug) {
+          // Transform the scraped product data to match our interface
+          if (productData.productId && (productData.name || productData.originalAmazonTitle)) {
+            const transformedProduct: Product = {
+              productId: productData.productId,
+              slug: productSlug,
+              title: productData.name || productData.originalAmazonTitle || 'Product',
+              shortDescription: productData.shortDescription || productData.description?.substring(0, 200) || '',
+              longDescription: productData.description || '',
+              categoryIds: [],
+              basePrice: parseFloat(productData.price?.toString().replace(/[€,]/g, '') || '0'),
+              compareAtPrice: productData.compareAtPrice,
+              onSale: productData.compareAtPrice > 0,
+              salePercentage: productData.salePercentage,
+              variations: productData.variations || [],
+              imagePaths: productData.images || [`/products/${productSlug}.jpg`],
+              features: productData.features || [],
+              specifications: productData.specifications || {},
+              seo: productData.seo || {
+                title: productData.name || productData.originalAmazonTitle || 'Product',
+                description: productData.shortDescription || 'Premium product',
+                keywords: productData.tags || []
+              },
+              reviews: productData.reviews || {
+                averageRating: productData.amazonRating || 4.6,
+                totalReviews: productData.amazonReviewCount || 15,
+                breakdown: { 5: 10, 4: 3, 3: 1, 2: 1, 1: 0 }
+              },
+              tags: productData.tags || [],
+              relatedProducts: productData.relatedProducts || [],
+              crossSellProducts: productData.crossSellProducts || [],
+              featured: productData.featured || false,
+              createdAt: productData.createdAt || new Date().toISOString(),
+              updatedAt: productData.updatedAt || new Date().toISOString(),
+              
+              // Amazon affiliate fields
+              amazonUrl: productData.amazonUrl || `https://amazon.fr/dp/PLACEHOLDER?tag=friteuseexp-21`,
+              amazonASIN: productData.amazonASIN || productData.productId,
+              originalAmazonTitle: productData.originalAmazonTitle,
+              amazonPrice: parseFloat(productData.amazonPrice?.toString().replace(/[€,]/g, '') || productData.price?.toString().replace(/[€,]/g, '') || '0'),
+              amazonRating: productData.amazonRating,
+              amazonReviewCount: productData.amazonReviewCount,
+              affiliateId: productData.affiliateId || 'friteuseexp-21'
+            };
+
+            return transformedProduct;
+          }
+        }
+      }
+    }
+
+    return null;
+  } catch (error) {
+    console.error('Error loading product by slug:', error);
+    return null;
+  }
 }; 
