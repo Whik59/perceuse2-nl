@@ -1,152 +1,159 @@
 {
   "categoryId": 16,
-  "categoryNameCanonical": "Handstaubsauger",
-  "slug": "handstaubsauger",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecken Sie leistungsstarke Handstaubsauger für Krümel, Tierhaare und Auto. Schnelle Sauberkeit!",
-  "content": "<div><h2>Handstaubsauger: Ihr Helfer für schnelle Sauberkeit überall</h2><p>Ein Handstaubsauger ist ein unverzichtbares Werkzeug für jeden modernen Haushalt. Er bietet unübertroffene Flexibilität und Geschwindigkeit, wenn es darum geht, unerwarteten Schmutz zu beseitigen. Ob Krümel auf dem Frühstückstisch, Tierhaare auf dem Sofa, Staub in der Tastatur oder Sand im Auto – ein kabelloser Handstaubsauger ist sofort einsatzbereit und erledigt die Aufgabe im Handumdrehen.</p><p>Unsere Auswahl an Handstaubsaugern überzeugt mit starker Saugleistung, langer Akkulaufzeit und praktischem Zubehör wie Fugendüsen und Bürstenaufsätzen. Sie sind leicht, ergonomisch geformt und einfach zu verstauen. Verabschieden Sie sich von großen, unhandlichen Staubsaugern für kleine Aufgaben und genießen Sie die Freiheit, überall schnell und effizient für Sauberkeit zu sorgen. Entdecken Sie jetzt den passenden Mini Staubsauger für Ihre Bedürfnisse und erleben Sie eine neue Dimension der Sauberkeit, ob als leistungsstarker Auto Handstaubsauger oder praktischer Krümelsauger für zuhause.</p></div>",
+  "categoryNameCanonical": "Multikocher mit Air-Fry-Funktion",
+  "slug": "kombigeraete-mit-heissluftfritteuse/multikocher-mit-air-fry-funktion",
+  "parentCategoryId": 13,
+  "level": 1,
+  "description": "Multikocher Air-Fry: Gesund frittieren, kochen, backen. Ihre smarte Küchenlösung.",
+  "content": "<div><h2>Ihr vielseitiger Küchenhelfer: Multikocher mit Air-Fry-Funktion</h2><p>Revolutionieren Sie Ihre Kochgewohnheiten mit unserem innovativen Multikocher, der eine integrierte Air-Fry-Funktion bietet. Dieses smarte Küchengerät vereint die Vorteile eines leistungsstarken Multikochers mit der Fähigkeit einer Heißluftfritteuse. Genießen Sie knusprige Pommes, saftiges Hähnchen und perfekt gegartes Gemüse – alles mit deutlich weniger Fett. Ob gesundes Frittieren ohne Öl, schonendes Dampfgaren, schnelles Braten, langsames Schmoren oder sogar Backen: Dieser Multikocher mit Air-Fry-Funktion ist Ihr Alleskönner für eine moderne, gesunde und abwechslungsreiche Küche. Sparen Sie Platz und Zeit mit diesem multifunktionalen Kochtalent!</p></div>",
   "seo": {
-    "title": "Handstaubsauger – Kabellos, Saugstark & Mobil für Ihr Zuhause",
-    "description": "Entdecken Sie leistungsstarke Handstaubsauger für Krümel, Tierhaare und Auto. Schnelle Sauberkeit!",
+    "title": "Multikocher Air-Fry: Gesund Kochen & Fritieren in Einem",
+    "description": "Multikocher Air-Fry: Gesund frittieren, kochen, backen. Ihre smarte Küchenlösung.",
     "keywords": [
-      "Handstaubsauger",
-      "Akkustaubsauger",
-      "Kabelloser Handstaubsauger",
-      "Mini Staubsauger",
-      "Kfz Staubsauger"
+      "Multikocher Air Fry",
+      "Heißluftfritteuse Multikocher",
+      "Gesund Kochen Gerät",
+      "Vielseitiger Kocher",
+      "Fettarm Fritieren",
+      "Küchengerät Smart",
+      "Dampfgaren Fritieren"
     ],
-    "enhancedAt": "2025-10-13T19:46:36.326703"
+    "enhancedAt": "2025-10-13T17:05:56.716135"
   },
   "faq": [
     {
-      "question": "Was ist ein Handstaubsauger und wofür wird er verwendet?",
-      "answer": "Ein Handstaubsauger ist ein kompakter, meist kabelloser Staubsauger, der für die schnelle und flexible Reinigung kleiner Flächen oder schwer erreichbarer Stellen konzipiert ist. Er eignet sich hervorragend für Krümel, Tierhaare, Staub im Auto oder auf Möbeln."
+      "question": "Was kann der Multikocher mit Air-Fry-Funktion alles?",
+      "answer": "Er vereint Heißluftfrittieren, Dampfgaren, Schmoren, Braten, Backen und vieles mehr in einem einzigen Gerät. Perfekt für eine Vielzahl von Gerichten."
     },
     {
-      "question": "Worauf sollte ich beim Kauf eines Handstaubsaugers achten?",
-      "answer": "Wichtige Kriterien sind die Saugleistung (Watt), die Akkulaufzeit und Ladezeit, das Fassungsvermögen des Staubbehälters, das Gewicht und die Ergonomie sowie das mitgelieferte Zubehör wie Fugendüsen oder Bürstenaufsätze."
+      "question": "Ist das Kochen mit diesem Gerät gesund?",
+      "answer": "Ja! Dank der Air-Fry-Technologie frittieren Sie mit wenig bis gar keinem Öl. So genießen Sie knusprige Gerichte fettarm und deutlich gesünder."
     },
     {
-      "question": "Kann ein Handstaubsauger auch Flüssigkeiten aufsaugen?",
-      "answer": "Einige spezielle Handstaubsaugermodelle sind als Nass-Trocken-Sauger konzipiert und können auch Flüssigkeiten aufsaugen. Achten Sie auf die Produktbeschreibung, ob diese Funktion explizit angegeben ist, da nicht jeder Handstaubsauger dafür geeignet ist."
+      "question": "Wie reinige ich den Multikocher am besten?",
+      "answer": "Viele Teile, wie der Kochtopf und der Frittierkorb, sind spülmaschinenfest. Die Reinigung ist somit schnell, einfach und unkompliziert erledigt."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-13T19:46:36.326717",
+  "enhancedAt": "2025-10-13T17:05:56.716154",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Handstaubsauger",
+    "title": "Vergleich der 5 besten Multikocher mit Air-Fry-Funktion",
     "columns": [
       "Rang",
-      "Produktname",
+      "Marke",
       "Preis",
       "Bewertung",
-      "Marke",
-      "Betriebsart",
-      "Nass-/Trockenfunktion",
-      "Filter",
-      "Besondere Merkmale"
+      "Gerätetyp",
+      "Anzahl Kochfunktionen",
+      "Air-Fry-Funktion",
+      "Temperaturregelung",
+      "Besondere Eigenschaft"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71J0GDzzs4L._AC_UY218_.jpg]",
-        "productName": "Anktel Handstaubsauger 14,8V 9700Pa Nass&Trocken",
-        "preis": "49.0€",
-        "bewertung": "4.3/5",
-        "marke": "Anktel",
-        "betriebsart": "Kabellos (Akku)",
-        "nass_trockenfunktion": "Nass- & Trockensauger",
-        "filter": "HEPA, Waschbar",
-        "besondere_merkmale": "Sehr hohe Saugkraft (9700Pa), Inkl. Ladestation, Beutellos",
-        "productUrl": "/product/anktel-handstaubsauger-14-8v-9700pa-nass-trocken",
-        "image": "https://m.media-amazon.com/images/I/71J0GDzzs4L._AC_UY218_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61k2is3BozL._AC_SL1500_.jpg]",
+        "name": "Instant Pot Duo Crisp 8L Multikocher Airfryer",
+        "marke": "Instant Pot",
+        "preis": "249.0€",
+        "bewertung": "4.6/5",
+        "geraetetyp": "Multikocher mit Airfryer",
+        "anzahl_kochfunktionen": "11",
+        "air_fry_funktion": "Ja",
+        "temperaturregelung": "Präzise digital regelbar",
+        "besondere_eigenschaft": "11 Funktionen in einem Topf, 8 Liter Kapazität",
+        "productUrl": "/product/8l-instant-pot-duo-crisp-multikocher",
+        "image": "https://m.media-amazon.com/images/I/61k2is3BozL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/81B2PuNgqRL._AC_SL1500_.jpg]",
-        "productName": "Anktel Handstaubsauger 9000Pa Nass & Trocken",
-        "preis": "35.0€",
-        "bewertung": "4.2/5",
-        "marke": "Anktel",
-        "betriebsart": "Kabellos (Akku)",
-        "nass_trockenfunktion": "Nass- & Trockensauger",
-        "filter": "HEPA, Waschbar",
-        "besondere_merkmale": "Hohe Saugkraft (9000Pa), Inkl. Ladestation, LED-Beleuchtung, Beutellos",
-        "productUrl": "/product/anktel-handstaubsauger-9000pa-nass-trocken",
-        "image": "https://m.media-amazon.com/images/I/81B2PuNgqRL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61Cf7MyueGL._AC_SL1500_.jpg]",
+        "name": "Instant Pot Duo Crisp 5.7L Multikocher",
+        "marke": "Instant Pot",
+        "preis": "234.0€",
+        "bewertung": "4.6/5",
+        "geraetetyp": "Multikocher mit Airfryer",
+        "anzahl_kochfunktionen": "11",
+        "air_fry_funktion": "Ja",
+        "temperaturregelung": "Flexibel digital einstellbar",
+        "besondere_eigenschaft": "11-in-1 Funktionen, spart bis zu 70% Kochzeit",
+        "productUrl": "/product/5-7l-instant-pot-duo-crisp-multikocher",
+        "image": "https://m.media-amazon.com/images/I/61Cf7MyueGL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/818rwTeYPML._AC_SL1500_.jpg]",
-        "productName": "Kabelloser Handstaubsauger Akku Leicht",
-        "preis": "35.0€",
-        "bewertung": "4.4/5",
-        "marke": "Portutif",
-        "betriebsart": "Kabellos (Akku)",
-        "nass_trockenfunktion": "Trockensauger",
-        "filter": "Waschbar",
-        "besondere_merkmale": "Leichtes Design, Lange Laufzeit (25-30 Min.), Schnellladung",
-        "productUrl": "/product/kabelloser-handstaubsauger-akku-leicht",
-        "image": "https://m.media-amazon.com/images/I/818rwTeYPML._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/61ocKcE5OeL._AC_SL1500_.jpg]",
+        "name": "ROMMELSBACHER Dampfdruck Multikocher MD 1000 'MeinHans'",
+        "marke": "ROMMELSBACHER",
+        "preis": "157.0€",
+        "bewertung": "4.6/5",
+        "geraetetyp": "Dampfdruck-Multikocher",
+        "anzahl_kochfunktionen": "14",
+        "air_fry_funktion": "Ja",
+        "temperaturregelung": "40 °C bis 170 °C regelbar",
+        "besondere_eigenschaft": "Das Original, 2 Dampfdruckstufen, 6 Liter Topf",
+        "productUrl": "/product/rommelsbacher-dampfdruck-multikocher-1000-meinhans",
+        "image": "https://m.media-amazon.com/images/I/61ocKcE5OeL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61Ag1Ux+I4L._AC_SL1500_.jpg]",
-        "productName": "Einhell Akku-Handstaubsauger TE-VC 18 Li-Solo",
-        "preis": "33.0€",
-        "bewertung": "4.4/5",
-        "marke": "Einhell",
-        "betriebsart": "Kabellos (Akku)",
-        "nass_trockenfunktion": "Trockensauger",
-        "filter": "Waschbar",
-        "besondere_merkmale": "Umfangreiches Düsenset, Wandhalterung (ohne Akku/Ladegerät)",
-        "productUrl": "/product/einhell-akku-handstaubsauger-te-vc-li-solo",
-        "image": "https://m.media-amazon.com/images/I/61Ag1Ux+I4L._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61JbSwOn3IL._AC_SL1500_.jpg]",
+        "name": "Ninja Foodi 8-in-1 Multifunktionsofen SP101EU",
+        "marke": "Ninja",
+        "preis": "189.0€",
+        "bewertung": "4.5/5",
+        "geraetetyp": "Multifunktionsofen",
+        "anzahl_kochfunktionen": "8",
+        "air_fry_funktion": "Ja",
+        "temperaturregelung": "Präzise elektronisch regelbar",
+        "besondere_eigenschaft": "8-in-1 Tischbackofen, platzsparendes Design",
+        "productUrl": "/product/ninja-foodi-8-in-1-multifunktionsofen-sp101eu",
+        "image": "https://m.media-amazon.com/images/I/61JbSwOn3IL._AC_SL1500_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61M6TFgs7AL._AC_UY218_.jpg]",
-        "productName": "SEVERIN S'POWER 3-in-1 Akku-Sauger: Nass/Trocken",
-        "preis": "31.0€",
-        "bewertung": "4.2/5",
-        "marke": "SEVERIN",
-        "betriebsart": "Kabellos (Akku)",
-        "nass_trockenfunktion": "Nass- & Trockensauger",
-        "filter": "Zyklon, Waschbar",
-        "besondere_merkmale": "Inkl. 12V-Autoladekabel, Zyklon-Technologie",
-        "productUrl": "/product/severin-s-power-3-in-1-akku-sauger-nass-trocken",
-        "image": "https://m.media-amazon.com/images/I/61M6TFgs7AL._AC_UY218_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51VCC0VilVL._AC_SL1500_.jpg]",
+        "name": "Tefal Multikocher TURBO CUISINE CY7548",
+        "marke": "Tefal",
+        "preis": "114.0€",
+        "bewertung": "4.4/5",
+        "geraetetyp": "Multikocher",
+        "anzahl_kochfunktionen": "10",
+        "air_fry_funktion": "Ja",
+        "temperaturregelung": "Präzise regelbar",
+        "besondere_eigenschaft": "Patentierte Kochschüssel-Technologie, intuitiver Drehknopf",
+        "productUrl": "/product/cuisine-tefal-multikocher-turbo-cy7548",
+        "image": "https://m.media-amazon.com/images/I/51VCC0VilVL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So wählen Sie den besten Handstaubsauger",
+    "title": "Kaufberatung: So wählen Sie den besten Multikocher mit Air-Fry-Funktion?",
     "sections": [
       {
-        "heading": "1. Saugkraft und Akkulaufzeit",
-        "content": "Achten Sie auf eine starke Saugleistung (Wattzahl) für Krümel, Tierhaare oder Staub. Eine Akkulaufzeit von mindestens 15-20 Minuten ist entscheidend für unterbrechungsfreies Reinigen. Vergleichen Sie zudem die Ladezeiten. Modelle wie der SEVERIN S'POWER bieten oft eine gute Balance für schnelle Einsätze zwischendurch."
+        "heading": "1. Funktionen & Programme",
+        "content": "Achten Sie auf vielseitige Programme wie Dampfdruckgaren, Slow Cook, Braten und natürlich die integrierte Air-Fry-Funktion. Ein guter Multikocher bietet diverse Voreinstellungen für Reis, Suppen oder Gebäck. Überlegen Sie, welche Kochmethoden Sie am häufigsten nutzen, um das optimale Gerät zu finden, das Ihren kulinarischen Ansprüchen gerecht wird und maximale Vielseitigkeit bietet."
       },
       {
-        "heading": "2. Filtersystem und Staubbehälter",
-        "content": "Ein effektives Filtersystem, idealerweise ein HEPA-Filter, ist wichtig für Allergiker. Prüfen Sie die Größe des Staubbehälters; ein größeres Volumen reduziert die Häufigkeit des Entleerens. Eine einfache Entleerung und leichte Reinigung des Filters sind zentrale Kriterien für Komfort und Hygiene."
+        "heading": "2. Kapazität & Größe",
+        "content": "Die Kapazität ist entscheidend. Für Singles oder Paare reichen 3-4 Liter, für Familien ab vier Personen sind 5-8 Liter ideal (z.B. der ROMMELSBACHER MD 1000). Bedenken Sie auch den Platz in Ihrer Küche. Ein größeres Modell bietet Flexibilität, benötigt aber auch mehr Stauraum. Messen Sie vor dem Kauf nach, um eine passende Integration zu gewährleisten."
       },
       {
-        "heading": "3. Zubehör und Vielseitigkeit",
-        "content": "Diverses Zubehör wie Fugendüsen, Bürstenaufsätze oder Polsterdüsen erhöhen die Einsatzmöglichkeiten. So können Sie schwer zugängliche Stellen, Möbel oder das Auto optimal reinigen. Überlegen Sie, für welche spezifischen Aufgaben Sie den Handstaubsauger primär nutzen möchten."
+        "heading": "3. Leistung & Effizienz",
+        "content": "Eine hohe Wattzahl (z.B. 1000W-1500W) gewährleistet schnelles Aufheizen und effizientes Air-Frying für knusprige Ergebnisse. Achten Sie auf Modelle mit einstellbarer Temperatur und Zeit, um Gerichte präzise zuzubereiten. Energieeffizienz ist ein weiterer Pluspunkt, der langfristig Kosten spart und umweltfreundlicher ist, ohne Kompromisse bei der Leistung einzugehen."
       },
       {
-        "heading": "4. Nass- und Trockenfunktion",
-        "content": "Ein Gerät mit Nass- und Trockenfunktion, wie der SEVERIN S'POWER 3-in-1 Akku-Sauger, bietet enormen Mehrwert. Dies ist ideal, um verschüttete Flüssigkeiten oder feuchte Verschmutzungen schnell zu beseitigen. Achten Sie auf separate Düsen für Nass- und Trockenanwendungen für optimale Ergebnisse."
+        "heading": "4. Material & Reinigung",
+        "content": "Materialien wie hochwertige Antihaftbeschichtungen oder Edelstahl-Innentöpfe sind für die leichte Reinigung essentiell. Spülmaschinenfeste Teile sparen Zeit und Mühe erheblich. Überprüfen Sie die Robustheit der Verarbeitung. Eine hochwertige Antihaftbeschichtung verhindert Anhaften und erleichtert die Pflege enorm, was die Langlebigkeit des Geräts fördert."
       },
       {
-        "heading": "5. Ergonomie und Preis-Leistungs-Verhältnis",
-        "content": "Ein geringes Gewicht und eine ergonomische Form erleichtern die Handhabung, besonders bei längeren Reinigungsphasen. Vergleichen Sie die gebotenen Funktionen mit dem Preis. Günstige Modelle wie der SEVERIN S'POWER (z.B. um 31€) können oft ein hervorragendes Preis-Leistungs-Verhältnis bieten."
+        "heading": "5. Sicherheit & Extras",
+        "content": "Sicherheitsmerkmale wie Überhitzungsschutz, eine sichere Deckelverriegelung und Druckentlastung sind unverzichtbar. Nützliches Zubehör wie ein Dampfkorb, Messbecher oder ein Rezeptbuch erhöhen den Mehrwert. Vergleichen Sie Preise (z.B. ROMMELSBACHER MD 1000 für 157.0€) und achten Sie auf ein gutes Preis-Leistungs-Verhältnis für Langlebigkeit und Funktionalität."
       }
     ]
   }

@@ -4,38 +4,38 @@
     "locale": "de-DE"
   },
   "categories": {
-    "title": "Staubsauger-Kategorien",
+    "title": "Heißluftfritteusen-Kategorien",
     "hero": {
-      "title": "Finden Sie den perfekten Staubsauger für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Staubsaugern"
+      "title": "Finden Sie die perfekte Heißluftfritteuse für sich",
+      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Heißluftfritteusen"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Staubsauger-Kategorien",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, den perfekten Staubsauger zu finden"
+    "subtitle": "Erkunden Sie unsere spezialisierten Heißluftfritteusen-Kategorien",
+    "helpDescription": "Unser Expertenteam hilft Ihnen, die perfekte Heißluftfritteuse zu finden"
   },
-  "siteName": "Ihr perfekter Staubsauger",
-  "companyName": "Staubsauger GmbH",
-  "products": "Staubsauger",
-  "productNotFound": "Staubsauger nicht gefunden",
+  "siteName": "Ihre perfekte Heißluftfritteuse",
+  "companyName": "Heißluftfritteusen GmbH",
+  "products": "Heißluftfritteusen",
+  "productNotFound": "Heißluftfritteuse nicht gefunden",
   "support": {
     "title": "Kundenservice",
-    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Staubsaugern zu beantworten",
+    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Heißluftfritteusen zu beantworten",
     "faq": {
       "title": "Häufig gestellte Fragen",
       "categoryTitle": "Häufig gestellte Fragen",
-      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Staubsaugern, Lieferung, Rücksendungen und mehr.",
+      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Heißluftfritteusen, Lieferung, Rücksendungen und mehr.",
       "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
       "contactTeam": "Kontaktieren Sie unser Team",
       "sendEmail": "E-Mail senden",
       "questions": [
         {
           "id": "1",
-          "question": "Wie lange hält die Qualität von Staubsaugern?",
-          "answer": "Unsere Staubsauger sind langlebig gebaut und können je nach Modell 3 bis 7 Jahre halten. Sie sind für effizientes Saugen optimiert und garantieren bei jeder Nutzung hervorragende Saugergebnisse."
+          "question": "Wie lange hält die Qualität von Heißluftfritteusen?",
+          "answer": "Unsere Heißluftfritteusen sind langlebig gebaut und können je nach Modell 3 bis 7 Jahre halten. Sie sind für effizientes Frittieren optimiert und garantieren bei jeder Nutzung hervorragende Frittieregebnisse."
         },
         {
           "id": "2",
-          "question": "Sind die Staubsauger sicher?",
-          "answer": "Absolut. Alle unsere Staubsauger entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und robuste Komponenten."
+          "question": "Sind die Heißluftfritteusen sicher?",
+          "answer": "Absolut. Alle unsere Heißluftfritteusen entsprechen den strengsten europäischen Sicherheitsstandards (CE, RoHS). Sie verfügen über fortschrittliche Sicherheitssysteme, hochwertige Materialien und robuste Komponenten."
         },
         {
           "id": "3",
@@ -44,28 +44,28 @@
         },
         {
           "id": "4",
-          "question": "Kann ich Staubsauger zurückgeben, wenn ich nicht zufrieden bin?",
-          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Staubsauger in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+          "question": "Kann ich Heißluftfritteusen zurückgeben, wenn ich nicht zufrieden bin?",
+          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie die Heißluftfritteuse in der Originalverpackung für eine volle Rückerstattung zurücksenden."
         },
         {
           "id": "5",
-          "question": "Wie bediene ich die Staubsauger?",
-          "answer": "Unsere Staubsauger sind sehr einfach zu bedienen. Sie müssen den Staubsauger nur einschalten, die gewünschte Saugstärke wählen und das Saugen genießen. Nach dem Saugen schalten Sie ihn einfach aus. Ein Timer zeigt die verbleibende Saugzeit an."
+          "question": "Wie bediene ich die Heißluftfritteusen?",
+          "answer": "Unsere Heißluftfritteusen sind sehr einfach zu bedienen. Sie müssen die Heißluftfritteuse nur einschalten, die gewünschte Temperatur wählen und das Frittieren genießen. Nach dem Frittieren schalten Sie sie einfach aus. Ein Timer zeigt die verbleibende Frittierzeit an."
         },
         {
           "id": "6",
-          "question": "Welche Saugstärken gibt es?",
-          "answer": "Die meisten unserer Staubsauger bieten verschiedene Saugstärken von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchstsaugkraft ist für perfektes Saugen in allen Umgebungen optimiert."
+          "question": "Welche Temperaturstufen gibt es?",
+          "answer": "Die meisten unserer Heißluftfritteusen bieten verschiedene Temperaturstufen von sanft bis intensiv, die in mehreren Stufen einstellbar sind. Einige Premium-Modelle bieten eine stufenlose Einstellung. Die Höchsttemperatur ist für perfektes Frittieren in allen Umgebungen optimiert."
         },
         {
           "id": "7",
-          "question": "Gibt es eine Garantie auf die Staubsauger?",
-          "answer": "Alle unsere Staubsauger haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+          "question": "Gibt es eine Garantie auf die Heißluftfritteusen?",
+          "answer": "Alle unsere Heißluftfritteusen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
         },
         {
           "id": "8",
-          "question": "Wie reinige und pflege ich meine Staubsauger?",
-          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Filter können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Staubsauger regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+          "question": "Wie reinige und pflege ich meine Heißluftfritteusen?",
+          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, leicht feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Körbe können mit warmem Wasser und Seife gereinigt werden. Überprüfen Sie die Heißluftfritteusen regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
         }
       ],
       "deliveryTime": {
@@ -74,11 +74,11 @@
       },
       "returns": {
         "question": "Wie lautet die Rückgabepolitik?",
-        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Staubsauger in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Heißluftfritteusen in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
       },
       "warranty": {
-        "question": "Welche Garantie haben die Staubsauger?",
-        "answer": "Alle unsere Staubsauger haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        "question": "Welche Garantie haben die Heißluftfritteusen?",
+        "answer": "Alle unsere Heißluftfritteusen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
       },
       "payment": {
         "question": "Welche Zahlungsmethoden akzeptieren Sie?",
@@ -110,13 +110,13 @@
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere Staubsauger, die Sie interessieren könnten",
-    "ourShop": "kaufen-staubsauger.de"
+    "alsoLikeSubtitle": "Andere Heißluftfritteusen, die Sie interessieren könnten",
+    "ourShop": "kaufen-airfryer.de"
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Staubsauger!",
-      "subtitle": "Effizientes und präzises Saugen. Qualität und Leistung garantiert.",
+      "title": "Perfekte Heißluftfritteusen!",
+      "subtitle": "Effizientes und präzises Frittieren. Qualität und Leistung garantiert.",
       "cta": "Jetzt kaufen!"
     },
     "trust": {
@@ -128,16 +128,16 @@
     },
     "features": {
       "quality": {
-        "title": "Starkes Saugen",
-        "description": "Bis zu 99,9 % Saugleistung. Perfekt für außergewöhnliche Sauberkeit ohne Kompromisse."
+        "title": "Starkes Frittieren",
+        "description": "Bis zu 99,9 % Frittierleistung. Perfekt für außergewöhnliche Ergebnisse ohne Kompromisse."
       },
       "design": {
         "title": "Präzise Steuerung",
-        "description": "Präzise Saugsteuerung von sanft bis intensiv. Passt die Saugkraft an jede Umgebung an."
+        "description": "Präzise Temperatursteuerung von sanft bis intensiv. Passt die Hitze an jede Umgebung an."
       },
       "innovation": {
         "title": "Fortschrittliche Technologie",
-        "description": "360°-Saug-Technologie. Gleichbleibende Leistung und perfekte Ergebnisse bei jeder Nutzung."
+        "description": "360°-Heißluft-Technologie. Gleichbleibende Leistung und perfekte Ergebnisse bei jeder Nutzung."
       },
       "support": {
         "title": "Premium-Kundenservice",
@@ -148,58 +148,58 @@
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfekte Staubsauger!",
-        "subtitle": "Effizientes und präzises Saugen. Qualität und Leistung garantiert.",
-        "loading": "Ihr Staubsauger wird geladen...",
+        "title": "Perfekte Heißluftfritteusen!",
+        "subtitle": "Effizientes und präzises Frittieren. Qualität und Leistung garantiert.",
+        "loading": "Ihre Heißluftfritteuse wird geladen...",
         "viewAll": "Begrenzte Angebote!"
       }
     },
     "whyChoose": {
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Staubsauger machen",
+      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Heißluftfritteusen machen",
       "advantage1": {
         "title": "Premium-Qualität",
-        "description": "Staubsauger höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Leistung."
+        "description": "Heißluftfritteusen höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Leistung."
       },
       "advantage3": {
         "title": "Spezialisierter Support",
-        "description": "Spezialisiertes Kundenserviceteam für Staubsauger. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "description": "Spezialisiertes Kundenserviceteam für Heißluftfritteusen. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
       },
       "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
     }
   },
   "metadata": {
-    "title": "Staubsauger kaufen - Die besten Staubsauger im Vergleich",
-    "description": "Entdecken Sie die besten Staubsauger mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
+    "title": "Heißluftfritteusen kaufen - Die besten Heißluftfritteusen im Vergleich",
+    "description": "Entdecken Sie die besten Heißluftfritteusen mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
   },
   "siteConfig": {
     "site": {
-      "name": "Staubsauger",
-      "description": "Finden Sie den perfekten Staubsauger. Große Auswahl an Staubsaugern, Handstaubsaugern und Reinigungsprodukten. Unglaubliche Preise und schneller Versand!",
-      "url": "https://kaufen-staubsauger.de",
+      "name": "Heißluftfritteusen",
+      "description": "Finden Sie die perfekte Heißluftfritteuse. Große Auswahl an Heißluftfritteusen, Airfryern und Küchengeräten. Unglaubliche Preise und schneller Versand!",
+      "url": "https://kaufen-airfryer.de",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Staubsauger - Staubsauger und Reinigungsprodukte",
-      "titleTemplate": "%s | Staubsauger",
-      "defaultDescription": "Finden Sie den perfekten Staubsauger. Große Auswahl an Staubsaugern, Handstaubsaugern und Reinigungsprodukten. Unglaubliche Preise und schneller Versand!",
+      "defaultTitle": "Heißluftfritteusen - Heißluftfritteusen und Küchengeräte",
+      "titleTemplate": "%s | Heißluftfritteusen",
+      "defaultDescription": "Finden Sie die perfekte Heißluftfritteuse. Große Auswahl an Heißluftfritteusen, Airfryern und Küchengeräten. Unglaubliche Preise und schneller Versand!",
       "keywords": [
-        "Staubsauger",
-        "Handstaubsauger",
-        "Saugen",
-        "Staubsauger kaufen",
-        "Staubsauger-Angebote",
-        "Günstige Staubsauger",
-        "Beste Staubsauger",
-        "Professionelle Staubsauger",
-        "Elektrische Staubsauger"
+        "Heißluftfritteusen",
+        "Airfryer",
+        "Frittieren",
+        "Heißluftfritteusen kaufen",
+        "Heißluftfritteusen-Angebote",
+        "Günstige Heißluftfritteusen",
+        "Beste Heißluftfritteusen",
+        "Professionelle Heißluftfritteusen",
+        "Elektrische Heißluftfritteusen"
       ],
-      "ogImage": "/og-image-vacuum.jpg"
+      "ogImage": "/og-image-airfryer.jpg"
     },
     "business": {
-      "email": "info@kaufen-staubsauger.de",
+      "email": "info@kaufen-airfryer.de",
       "phone": "+49 30 12345678",
-      "address": "Saugstraße 1, 10115 Berlin, Deutschland",
+      "address": "Frittierstraße 1, 10115 Berlin, Deutschland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -207,7 +207,7 @@
       }
     },
     "affiliate": {
-      "amazonTag": "staubsauger-21",
+      "amazonTag": "airfryer-21",
       "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
     },
     "features": {

@@ -1,885 +1,611 @@
 [
   {
-    "slug": "akkustaubsauger",
-    "name": "Akkustaubsauger",
-    "categoryNameCanonical": "Akkustaubsauger",
-    "description": "Kabellose Staubsauger für maximale Flexibilität. Ideal für die schnelle Reinigung von Böden, Treppen und schwer erreichbaren Stellen ohne lästiges Kabel.",
+    "slug": "heissluftfritteusen-nach-kapazitaet",
+    "name": "Heißluftfritteusen nach Kapazität",
+    "categoryNameCanonical": "Heißluftfritteusen nach Kapazität",
+    "description": "Finden Sie die perfekte Größe für Ihren Haushalt, von kompakten Modellen für Singles bis hin zu XXL-Fritteusen für die ganze Familie.",
     "subcategories": [
       {
-        "slug": "akkustaubsauger-mit-wischfunktion",
-        "name": "Akkustaubsauger mit Wischfunktion",
-        "categoryNameCanonical": "Akkustaubsauger mit Wischfunktion",
-        "description": "Kombigeräte, die gleichzeitig saugen und wischen, für eine umfassende Hartbodenreinigung in einem Schritt."
+        "slug": "kleine-heissluftfritteusen-bis-4-liter",
+        "name": "Kleine Heißluftfritteusen (bis 4 Liter)",
+        "categoryNameCanonical": "Kleine Heißluftfritteusen (bis 4 Liter)",
+        "description": "Ideal für 1-2 Personen, kleine Küchen und schnelle Snacks."
       },
       {
-        "slug": "akkustaubsauger-mit-absaugstation",
-        "name": "Akkustaubsauger mit Absaugstation",
-        "categoryNameCanonical": "Akkustaubsauger mit Absaugstation",
-        "description": "Modelle mit einer Basisstation, die den Staubbehälter des Saugers automatisch entleert und oft auch den Akku lädt."
+        "slug": "mittlere-heissluftfritteusen-4-6-liter",
+        "name": "Mittlere Heißluftfritteusen (4-6 Liter)",
+        "categoryNameCanonical": "Mittlere Heißluftfritteusen (4-6 Liter)",
+        "description": "Die beliebteste Größe für Paare und kleine Familien (2-4 Personen)."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Leistungsstarke Akkusauger mit speziellen Bürstenwalzen, die Tierhaare effektiv von Teppichen und Polstern entfernen."
-      },
-      {
-        "slug": "akkustaubsauger-mit-wechselakku",
-        "name": "Akkustaubsauger mit austauschbarem Akku",
-        "categoryNameCanonical": "Akkustaubsauger mit austauschbarem Akku",
-        "description": "Geräte, bei denen ein leerer Akku einfach gegen einen vollen ausgetauscht werden kann, um die Laufzeit zu verlängern."
+        "slug": "grosse-xxl-heissluftfritteusen-ueber-6-liter",
+        "name": "Große XXL-Heißluftfritteusen (über 6 Liter)",
+        "categoryNameCanonical": "Große XXL-Heißluftfritteusen (über 6 Liter)",
+        "description": "Perfekt für große Familien, das Kochen ganzer Mahlzeiten und Partys."
       }
     ]
   },
   {
-    "slug": "bodenstaubsauger",
-    "name": "Bodenstaubsauger",
-    "categoryNameCanonical": "Bodenstaubsauger",
-    "description": "Klassische, kabelgebundene Staubsauger mit hoher Saugleistung für die gründliche Reinigung von großen Flächen, Teppichen und Hartböden.",
+    "slug": "doppelkammer-heissluftfritteusen",
+    "name": "Doppelkammer-Heißluftfritteusen",
+    "categoryNameCanonical": "Doppelkammer-Heißluftfritteusen",
+    "description": "Garen Sie zwei verschiedene Gerichte gleichzeitig bei unterschiedlichen Temperaturen und Zeiten.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-mit-beutel",
-        "name": "Bodenstaubsauger mit Beutel",
-        "categoryNameCanonical": "Bodenstaubsauger mit Beutel",
-        "description": "Hygienische Modelle, bei denen Staub und Schmutz in einem austauschbaren Beutel gesammelt werden, ideal für Allergiker."
+        "slug": "doppelkammer-fritteusen-mit-2-koerben",
+        "name": "Doppelkammer-Fritteusen mit 2 Körben",
+        "categoryNameCanonical": "Doppelkammer-Fritteusen mit 2 Körben",
+        "description": "Modelle mit zwei unabhängigen Garkörben für maximale Flexibilität."
       },
       {
-        "slug": "bodenstaubsauger-beutellos",
-        "name": "Bodenstaubsauger beutellos (Zyklon)",
-        "categoryNameCanonical": "Bodenstaubsauger beutellos (Zyklon)",
-        "description": "Staubsauger mit Zyklon-Technologie, die ohne Beutel auskommen und über einen entleerbaren Staubbehälter verfügen."
+        "slug": "fritteusen-mit-sync-cook-funktion",
+        "name": "Fritteusen mit synchronisierter Garfunktion",
+        "categoryNameCanonical": "Fritteusen mit synchronisierter Garfunktion",
+        "description": "Stellen Sie sicher, dass beide Gerichte exakt zur gleichen Zeit fertig sind."
       },
       {
-        "slug": "bodenstaubsauger-mit-hepa-filter",
-        "name": "Bodenstaubsauger mit HEPA-Filter",
-        "categoryNameCanonical": "Bodenstaubsauger mit HEPA-Filter",
-        "description": "Geräte mit hocheffizienten Partikelfiltern, die kleinste Staubpartikel und Allergene aus der Abluft filtern."
-      },
-      {
-        "slug": "leise-bodenstaubsauger",
-        "name": "Leise Bodenstaubsauger (unter 70 dB)",
-        "categoryNameCanonical": "Leise Bodenstaubsauger (unter 70 dB)",
-        "description": "Geräuscharme Modelle, die eine gründliche Reinigung ohne übermäßige Lärmbelästigung ermöglichen."
+        "slug": "grosse-doppelkammer-fritteusen-ueber-8-liter",
+        "name": "Große Doppelkammer-Fritteusen (über 8 Liter)",
+        "categoryNameCanonical": "Große Doppelkammer-Fritteusen (über 8 Liter)",
+        "description": "Maximales Volumen für die Zubereitung kompletter Familienmahlzeiten in einem Durchgang."
       }
     ]
   },
   {
-    "slug": "saugroboter",
-    "name": "Saugroboter",
-    "categoryNameCanonical": "Saugroboter",
-    "description": "Autonome Reinigungsroboter, die selbstständig Böden saugen und navigieren. Ideal für die tägliche, mühelose Aufrechterhaltung der Sauberkeit.",
+    "slug": "heissluftfritteusen-mit-spezialfunktionen",
+    "name": "Heißluftfritteusen mit Spezialfunktionen",
+    "categoryNameCanonical": "Heißluftfritteusen mit Spezialfunktionen",
+    "description": "Geräte, die mehr können als nur frittieren, z.B. grillen, backen oder dämpfen.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-wischfunktion",
-        "name": "Saugroboter mit Wischfunktion",
-        "categoryNameCanonical": "Saugroboter mit Wischfunktion",
-        "description": "Hybride Roboter, die nicht nur saugen, sondern auch feucht wischen können, für eine komplette Bodenpflege."
+        "slug": "heissluftfritteusen-mit-grillfunktion",
+        "name": "Heißluftfritteusen mit Grillfunktion",
+        "categoryNameCanonical": "Heißluftfritteusen mit Grillfunktion",
+        "description": "Für perfekte Grillstreifen und Röstaromen bei Steaks, Gemüse und mehr."
       },
       {
-        "slug": "saugroboter-mit-absaugstation",
-        "name": "Saugroboter mit Absaugstation",
-        "categoryNameCanonical": "Saugroboter mit Absaugstation",
-        "description": "High-End-Modelle mit einer Dockingstation, die den Staubbehälter des Roboters automatisch entleert."
+        "slug": "heissluftfritteusen-mit-ruehrarm",
+        "name": "Heißluftfritteusen mit Rührarm",
+        "categoryNameCanonical": "Heißluftfritteusen mit Rührarm",
+        "description": "Für gleichmäßiges Garen ohne Schütteln, ideal für Pommes und Risotto."
       },
       {
-        "slug": "saugroboter-mit-laser-navigation",
-        "name": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "categoryNameCanonical": "Saugroboter mit Laser-Navigation (LIDAR)",
-        "description": "Intelligente Roboter, die mittels Laser präzise Karten der Räume erstellen und systematisch reinigen."
-      },
-      {
-        "slug": "saugroboter-fuer-tierhaare",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Spezialisierte Roboter mit hoher Saugkraft und verwicklungsfreien Bürsten, um Tierhaare effektiv aufzunehmen."
+        "slug": "digitale-heissluftfritteusen-mit-touchscreen",
+        "name": "Digitale Heißluftfritteusen mit Touchscreen",
+        "categoryNameCanonical": "Digitale Heißluftfritteusen mit Touchscreen",
+        "description": "Moderne Geräte mit einfacher Bedienung, voreingestellten Programmen und präziser Steuerung."
       }
     ]
   },
   {
-    "slug": "handstaubsauger",
-    "name": "Handstaubsauger",
-    "categoryNameCanonical": "Handstaubsauger",
-    "description": "Kompakte und leichte Geräte für die schnelle Reinigung kleiner Malheure, Krümel auf dem Tisch, im Auto oder auf Polstern.",
+    "slug": "kombigeraete-mit-heissluftfritteuse",
+    "name": "Kombigeräte mit Heißluftfritteuse",
+    "categoryNameCanonical": "Kombigeräte mit Heißluftfritteuse",
+    "description": "Multifunktionale Küchenhelfer, die die Funktionen eines Airfryers mit anderen Geräten wie Öfen oder Mikrowellen kombinieren.",
     "subcategories": [
       {
-        "slug": "akku-handstaubsauger",
-        "name": "Akkubetriebene Handstaubsauger",
-        "categoryNameCanonical": "Akkubetriebene Handstaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Portabilität und den schnellen Einsatz überall im Haus."
+        "slug": "mini-backoefen-mit-heissluftfunktion",
+        "name": "Mini-Backöfen mit Heißluftfunktion",
+        "categoryNameCanonical": "Mini-Backöfen mit Heißluftfunktion",
+        "description": "Kompakte Alleskönner zum Backen, Grillen und Heißluftfrittieren."
       },
       {
-        "slug": "kabelgebundene-handstaubsauger",
-        "name": "Kabelgebundene Handstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Handstaubsauger",
-        "description": "Leistungsstarke Handgeräte mit Netzbetrieb für konstante Saugkraft ohne Zeitlimit."
+        "slug": "mikrowellen-mit-heissluftfritteuse",
+        "name": "Mikrowellen mit Heißluftfritteuse",
+        "categoryNameCanonical": "Mikrowellen mit Heißluftfritteuse",
+        "description": "Sparen Sie Platz mit Geräten, die auftauen, erhitzen und knusprig frittieren können."
       },
       {
-        "slug": "handstaubsauger-fuer-auto",
-        "name": "Handstaubsauger für das Auto",
-        "categoryNameCanonical": "Handstaubsauger für das Auto",
-        "description": "Modelle mit speziellen Düsen und oft einem 12V-Anschluss für die gründliche Reinigung des Fahrzeuginnenraums."
-      },
-      {
-        "slug": "handstaubsauger-mit-nasssaugfunktion",
-        "name": "Handstaubsauger mit Nasssaugfunktion",
-        "categoryNameCanonical": "Handstaubsauger mit Nasssaugfunktion",
-        "description": "Vielseitige Geräte, die sowohl trockenen Schmutz als auch verschüttete Flüssigkeiten aufnehmen können."
+        "slug": "multikocher-mit-air-fry-funktion",
+        "name": "Multikocher mit Air-Fry-Funktion",
+        "categoryNameCanonical": "Multikocher mit Air-Fry-Funktion",
+        "description": "Ein Gerät für alles: Schnellkochen, Schongaren, Dämpfen und Heißluftfrittieren."
       }
     ]
   },
   {
-    "slug": "stielstaubsauger",
-    "name": "Stielstaubsauger",
-    "categoryNameCanonical": "Stielstaubsauger",
-    "description": "Schlanke und wendige Staubsauger in Stielform, oft kabellos. Eine leichte Alternative zum klassischen Bodenstaubsauger.",
+    "slug": "heissluftfritteusen-nach-marke",
+    "name": "Heißluftfritteusen nach Marke",
+    "categoryNameCanonical": "Heißluftfritteusen nach Marke",
+    "description": "Entdecken Sie die beliebtesten Modelle und Innovationen von Top-Marken wie Philips, Ninja, Cosori und Tefal.",
     "subcategories": [
       {
-        "slug": "kabelgebundene-stielstaubsauger",
-        "name": "Kabelgebundene Stielstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Stielstaubsauger",
-        "description": "Leichte Stielstaubsauger mit unbegrenzter Laufzeit dank Netzanschluss, ideal für kleinere Wohnungen."
+        "slug": "philips-airfryer-modelle",
+        "name": "Philips Airfryer Modelle",
+        "categoryNameCanonical": "Philips Airfryer Modelle",
+        "description": "Der Pionier der Heißluftfritteusen mit Rapid-Air-Technologie für knusprige Ergebnisse."
       },
       {
-        "slug": "2-in-1-stiel-handstaubsauger",
-        "name": "2-in-1 Stiel- & Handstaubsauger",
-        "categoryNameCanonical": "2-in-1 Stiel- & Handstaubsauger",
-        "description": "Flexible Geräte mit einem abnehmbaren Handteil für die schnelle Reinigung von Böden und Oberflächen."
+        "slug": "ninja-foodi-heissluftfritteusen",
+        "name": "Ninja Foodi Heißluftfritteusen",
+        "categoryNameCanonical": "Ninja Foodi Heißluftfritteusen",
+        "description": "Bekannt für leistungsstarke Doppelkammer-Modelle und vielseitige Kombigeräte."
       },
       {
-        "slug": "ultraleichte-stielstaubsauger",
-        "name": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "categoryNameCanonical": "Ultraleichte Stielstaubsauger (unter 3 kg)",
-        "description": "Besonders leichte Modelle für eine mühelose Handhabung und Reinigung von Treppen und Decken."
-      },
-      {
-        "slug": "stielstaubsauger-mit-led-bodenduese",
-        "name": "Stielstaubsauger mit LED-Bodendüse",
-        "categoryNameCanonical": "Stielstaubsauger mit LED-Bodendüse",
-        "description": "Modelle mit beleuchteten Bodendüsen, die Staub und Schmutz auch an dunklen Stellen sichtbar machen."
+        "slug": "cosori-heissluftfritteusen",
+        "name": "Cosori Heißluftfritteusen",
+        "categoryNameCanonical": "Cosori Heißluftfritteusen",
+        "description": "Preisgekröntes Design, smarte Funktionen und eine große Auswahl an Zubehör."
       }
     ]
   },
   {
-    "slug": "nass-trocken-sauger",
-    "name": "Nass-Trocken-Sauger",
-    "categoryNameCanonical": "Nass-Trocken-Sauger",
-    "description": "Robuste und vielseitige Sauger für groben, feinen, trockenen und nassen Schmutz. Perfekt für Keller, Garage, Werkstatt oder Renovierungen.",
+    "slug": "airfryer-zubehoer-sets",
+    "name": "Airfryer Zubehör-Sets",
+    "categoryNameCanonical": "Airfryer Zubehör-Sets",
+    "description": "Praktische Sets mit den wichtigsten Zubehörteilen wie Backform, Pizzapfanne und Grillrost für einen perfekten Start.",
     "subcategories": [
       {
-        "slug": "nass-trocken-sauger-fuer-haushalt",
-        "name": "Nass-Trocken-Sauger für den Haushalt",
-        "categoryNameCanonical": "Nass-Trocken-Sauger für den Haushalt",
-        "description": "Kompaktere Allzwecksauger zum Aufsaugen von verschütteten Flüssigkeiten oder für die intensive Reinigung."
+        "slug": "universelle-zubehoer-sets",
+        "name": "Universelle Zubehör-Sets",
+        "categoryNameCanonical": "Universelle Zubehör-Sets",
+        "description": "Kompatibel mit den meisten Marken und Größen, ideal als Erstausstattung."
       },
       {
-        "slug": "nass-trocken-sauger-mit-blasfunktion",
-        "name": "Nass-Trocken-Sauger mit Blasfunktion",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Blasfunktion",
-        "description": "Geräte, die nicht nur saugen, sondern auch Luft blasen können, z.B. zum Entfernen von Laub."
+        "slug": "back-und-grill-sets-fuer-airfryer",
+        "name": "Back- und Grill-Sets für Airfryer",
+        "categoryNameCanonical": "Back- und Grill-Sets für Airfryer",
+        "description": "Spezialisierte Sets zum Backen von Kuchen und Brot oder zum Grillen von Fleisch und Gemüse."
       },
       {
-        "slug": "nass-trocken-sauger-mit-steckdose",
-        "name": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "categoryNameCanonical": "Nass-Trocken-Sauger mit Gerätesteckdose",
-        "description": "Modelle mit einer integrierten Steckdose zum direkten Anschluss von Elektrowerkzeugen und Absaugung des Staubs."
-      },
-      {
-        "slug": "akku-nass-trocken-sauger",
-        "name": "Akku-Nass-Trocken-Sauger",
-        "categoryNameCanonical": "Akku-Nass-Trocken-Sauger",
-        "description": "Kabellose Nass-Trocken-Sauger für den flexiblen Einsatz auf Baustellen oder an Orten ohne Stromanschluss."
+        "slug": "zubehoer-sets-aus-edelstahl",
+        "name": "Zubehör-Sets aus Edelstahl",
+        "categoryNameCanonical": "Zubehör-Sets aus Edelstahl",
+        "description": "Robuste und langlebige Sets bestehend aus Rosten, Spießen und Pfannen."
       }
     ]
   },
   {
-    "slug": "waschsauger",
-    "name": "Waschsauger (Sprühextraktionsgeräte)",
-    "categoryNameCanonical": "Waschsauger (Sprühextraktionsgeräte)",
-    "description": "Spezialgeräte zur Tiefenreinigung von Teppichen, Polstern und Matratzen. Sie sprühen eine Reinigungslösung auf und saugen sie samt Schmutz wieder ab.",
+    "slug": "zubehoer-fuer-ninja-airfryer",
+    "name": "Zubehör für Ninja Airfryer",
+    "categoryNameCanonical": "Zubehör für Ninja Airfryer",
+    "description": "Passgenaues und originales Zubehör, um das Beste aus Ihrer Ninja Foodi oder Dual Zone Heißluftfritteuse herauszuholen.",
     "subcategories": [
       {
-        "slug": "waschsauger-fuer-teppiche",
-        "name": "Waschsauger für Teppiche",
-        "categoryNameCanonical": "Waschsauger für Teppiche",
-        "description": "Leistungsstarke Geräte mit speziellen Bodendüsen zur fasertiefen Reinigung von Teppichböden."
+        "slug": "zubehoer-fuer-ninja-foodi-dual-zone",
+        "name": "Zubehör für Ninja Foodi Dual Zone (AF300/AF400/AF500)",
+        "categoryNameCanonical": "Zubehör für Ninja Foodi Dual Zone (AF300/AF400/AF500)",
+        "description": "Silikoneinlagen, Gitter und Backpapier speziell für die eckigen Körbe der Dual Zone Modelle."
       },
       {
-        "slug": "waschsauger-fuer-polstermoebel",
-        "name": "Waschsauger für Polstermöbel & Autositze",
-        "categoryNameCanonical": "Waschsauger für Polstermöbel & Autositze",
-        "description": "Kompakte Modelle mit Handdüsen zur gezielten Reinigung von Sofas, Sesseln und Fahrzeuginnenräumen."
+        "slug": "grillplatten-fuer-ninja-grills-airfryer",
+        "name": "Grillplatten für Ninja Grills & Airfryer",
+        "categoryNameCanonical": "Grillplatten für Ninja Grills & Airfryer",
+        "description": "Erweitern Sie die Grillfunktion Ihres Geräts mit speziellen Grillplatten."
       },
       {
-        "slug": "waschsauger-fuer-hartboeden",
-        "name": "Waschsauger für Hartböden",
-        "categoryNameCanonical": "Waschsauger für Hartböden",
-        "description": "Geräte mit speziellen Aufsätzen zur nassen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
+        "slug": "back-sets-fuer-ninja-heissluftfritteusen",
+        "name": "Back-Sets für Ninja Heißluftfritteusen",
+        "categoryNameCanonical": "Back-Sets für Ninja Heißluftfritteusen",
+        "description": "Originale und kompatible Backformen für Kuchen, Brot und Aufläufe."
       }
     ]
   },
   {
-    "slug": "industriestaubsauger",
-    "name": "Industriestaubsauger",
-    "categoryNameCanonical": "Industriestaubsauger",
-    "description": "Hochleistungsfähige und robuste Sauger für den professionellen Einsatz in Werkstätten, auf Baustellen und in der Industrie. Zertifiziert für verschiedene Staubklassen.",
+    "slug": "zubehoer-fuer-philips-airfryer",
+    "name": "Zubehör für Philips Airfryer",
+    "categoryNameCanonical": "Zubehör für Philips Airfryer",
+    "description": "Optimieren Sie Ihren Philips Airfryer mit originalem Zubehör für Modelle der Größen XL und XXL.",
     "subcategories": [
       {
-        "slug": "industriestaubsauger-staubklasse-l",
-        "name": "Industriestaubsauger Staubklasse L",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse L",
-        "description": "Sauger für ungefährliche Stäube wie Hausstaub oder Erde mit einem maximalen Durchlassgrad von 1%."
+        "slug": "zubehoer-fuer-philips-airfryer-xl",
+        "name": "Zubehör für Philips Airfryer XL",
+        "categoryNameCanonical": "Zubehör für Philips Airfryer XL",
+        "description": "Passgenaue Einsätze, Grillroste und Backformen für die XL-Modellreihe."
       },
       {
-        "slug": "industriestaubsauger-staubklasse-m",
-        "name": "Industriestaubsauger Staubklasse M",
-        "categoryNameCanonical": "Industriestaubsauger Staubklasse M",
-        "description": "Sauger für gesundheitsgefährdende Stäube wie Holz-, Beton- oder Gipsstaub mit einem Durchlassgrad von unter 0,1%."
+        "slug": "zubehoer-fuer-philips-airfryer-xxl",
+        "name": "Zubehör für Philips Airfryer XXL",
+        "categoryNameCanonical": "Zubehör für Philips Airfryer XXL",
+        "description": "Maximieren Sie die Kapazität Ihres XXL-Modells mit Ebenen-Rosten und großen Backschalen."
       },
       {
-        "slug": "industriestaubsauger-mit-filterabreinigung",
-        "name": "Industriestaubsauger mit autom. Filterabreinigung",
-        "categoryNameCanonical": "Industriestaubsauger mit autom. Filterabreinigung",
-        "description": "Modelle, deren Filter sich automatisch reinigen (abklopfen), um eine konstant hohe Saugleistung zu gewährleisten."
+        "slug": "grill-und-snack-kits-fuer-philips",
+        "name": "Grill- und Snack-Kits für Philips",
+        "categoryNameCanonical": "Grill- und Snack-Kits für Philips",
+        "description": "Spezielle Zubehör-Kits für perfekte Grillergebnisse oder die Zubereitung von Snacks."
       }
     ]
   },
   {
-    "slug": "aschesauger",
-    "name": "Aschesauger",
-    "categoryNameCanonical": "Aschesauger",
-    "description": "Spezialsauger mit feuerfestem Behälter und feinem Filtersystem zur sicheren und sauberen Entfernung von kalter Asche aus Kaminen, Öfen und Grills.",
+    "slug": "zubehoer-fuer-cosori-airfryer",
+    "name": "Zubehör für Cosori Airfryer",
+    "categoryNameCanonical": "Zubehör für Cosori Airfryer",
+    "description": "Erweitern Sie die Möglichkeiten Ihrer Cosori Heißluftfritteuse mit maßgeschneidertem Zubehör.",
     "subcategories": [
       {
-        "slug": "aschesauger-mit-motor",
-        "name": "Aschesauger mit eigenem Motor",
-        "categoryNameCanonical": "Aschesauger mit eigenem Motor",
-        "description": "Eigenständige Geräte mit integriertem Motor, die direkt an die Steckdose angeschlossen werden."
+        "slug": "zubehoer-fuer-cosori-5-5l-modelle",
+        "name": "Zubehör für Cosori 5.5L Modelle",
+        "categoryNameCanonical": "Zubehör für Cosori 5.5L Modelle",
+        "description": "Die größte Auswahl an Zubehör für die preisgekrönten 5.5-Liter-Modelle."
       },
       {
-        "slug": "aschefilter-vorsatz",
-        "name": "Aschefilter als Vorsatz",
-        "categoryNameCanonical": "Aschefilter als Vorsatz",
-        "description": "Behälter mit Filtersystem, die an einen vorhandenen Haushalts- oder Werkstattsauger angeschlossen werden."
+        "slug": "zubehoer-fuer-cosori-dual-blaze",
+        "name": "Zubehör für Cosori Dual Blaze",
+        "categoryNameCanonical": "Zubehör für Cosori Dual Blaze",
+        "description": "Spezifisches Zubehör, das die Vorteile der doppelten Heizelemente nutzt."
       },
       {
-        "slug": "aschesauger-mit-blasfunktion",
-        "name": "Aschesauger mit Blasfunktion",
-        "categoryNameCanonical": "Aschesauger mit Blasfunktion",
-        "description": "Multifunktionale Geräte, die auch zum Anfachen des Feuers oder zum Wegblasen von Schmutz verwendet werden können."
+        "slug": "edelstahl-gitter-fuer-cosori",
+        "name": "Edelstahl-Gitter für Cosori",
+        "categoryNameCanonical": "Edelstahl-Gitter für Cosori",
+        "description": "Stapelbare Roste aus Edelstahl zur Verdopplung der Garfläche."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-tierhaare",
-    "name": "Staubsauger für Tierhaare",
-    "categoryNameCanonical": "Staubsauger für Tierhaare",
-    "description": "Speziell entwickelte Staubsauger mit hoher Saugkraft und rotierenden Bürsten, um hartnäckige Tierhaare von allen Oberflächen effektiv zu entfernen.",
+    "slug": "zubehoer-fuer-tefal-airfryer",
+    "name": "Zubehör für Tefal Airfryer",
+    "categoryNameCanonical": "Zubehör für Tefal Airfryer",
+    "description": "Finden Sie passendes Zubehör und Ersatzteile für Ihre Tefal ActiFry oder Easy Fry & Grill Modelle.",
     "subcategories": [
       {
-        "slug": "bodenstaubsauger-fuer-tierhaare",
-        "name": "Bodenstaubsauger für Tierhaare",
-        "categoryNameCanonical": "Bodenstaubsauger für Tierhaare",
-        "description": "Kabelgebundene Modelle mit Turbobürsten für die intensive Reinigung von Teppichen und Polstern."
+        "slug": "zubehoer-fuer-tefal-actifry",
+        "name": "Zubehör für Tefal ActiFry",
+        "categoryNameCanonical": "Zubehör für Tefal ActiFry",
+        "description": "Ersatz-Rührarme, Deckel und Einsätze für die einzigartigen ActiFry-Modelle."
       },
       {
-        "slug": "akkustaubsauger-fuer-tierhaare-spezial",
-        "name": "Akkustaubsauger für Tierhaare",
-        "categoryNameCanonical": "Akkustaubsauger für Tierhaare",
-        "description": "Kabellose Stiel- oder Handstaubsauger mit motorisierten Bürsten für die flexible Entfernung von Tierhaaren."
+        "slug": "zubehoer-fuer-tefal-easy-fry",
+        "name": "Zubehör für Tefal Easy Fry & Grill",
+        "categoryNameCanonical": "Zubehör für Tefal Easy Fry & Grill",
+        "description": "Grillplatten, Backschalen und Spieße für die Easy Fry & Grill Serie."
       },
       {
-        "slug": "saugroboter-fuer-tierhaare-spezial",
-        "name": "Saugroboter für Tierhaare",
-        "categoryNameCanonical": "Saugroboter für Tierhaare",
-        "description": "Autonome Roboter, optimiert für das Aufsaugen von Tierhaaren, oft mit Gummibürsten gegen Verheddern."
+        "slug": "ersatzteile-fuer-tefal-modelle",
+        "name": "Ersatzteile für Tefal Modelle",
+        "categoryNameCanonical": "Ersatzteile für Tefal Modelle",
+        "description": "Originale Ersatzteile zur Reparatur und Wartung Ihrer Tefal Heißluftfritteuse."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-allergiker",
-    "name": "Staubsauger für Allergiker",
-    "categoryNameCanonical": "Staubsauger für Allergiker",
-    "description": "Staubsauger mit speziellen Filtersystemen (HEPA, Wasserfilter) und versiegelten Gehäusen, die Feinstaub, Pollen und Milben sicher einschließen.",
+    "slug": "airfryer-silikoneinlagen-und-formen",
+    "name": "Airfryer Silikoneinlagen & Formen",
+    "categoryNameCanonical": "Airfryer Silikoneinlagen & Formen",
+    "description": "Wiederverwendbare und leicht zu reinigende Silikonformen, die Backpapier überflüssig machen und die Reinigung erleichtern.",
     "subcategories": [
       {
-        "slug": "staubsauger-mit-hepa-14-filter",
-        "name": "Staubsauger mit HEPA H13/H14 Filter",
-        "categoryNameCanonical": "Staubsauger mit HEPA H13/H14 Filter",
-        "description": "Geräte mit den höchsten Filterklassen, die 99,95% bzw. 99,995% aller Partikel aus der Luft filtern."
+        "slug": "wiederverwendbare-silikontoepfe",
+        "name": "Wiederverwendbare Silikontöpfe",
+        "categoryNameCanonical": "Wiederverwendbare Silikontöpfe",
+        "description": "Flexible Töpfe, die Fett und Öl auffangen und den Garkorb sauber halten."
       },
       {
-        "slug": "staubsauger-mit-wasserfilter",
-        "name": "Staubsauger mit Wasserfilter",
-        "categoryNameCanonical": "Staubsauger mit Wasserfilter",
-        "description": "Modelle, die den eingesaugten Staub in einem Wasserbad binden und so verhindern, dass Allergene zurück in die Raumluft gelangen."
+        "slug": "runde-silikoneinlagen",
+        "name": "Runde Silikoneinlagen",
+        "categoryNameCanonical": "Runde Silikoneinlagen",
+        "description": "Passend für die meisten klassischen Heißluftfritteusen mit rundem Korb."
       },
       {
-        "slug": "staubsauger-mit-spezial-allergiker-beutel",
-        "name": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "categoryNameCanonical": "Staubsauger mit speziellen Allergiker-Beuteln",
-        "description": "Beutelstaubsauger, deren mehrlagige Vliesbeutel mit Verschlussmechanismus Allergene sicher einschließen."
+        "slug": "eckige-silikoneinlagen",
+        "name": "Eckige Silikoneinlagen",
+        "categoryNameCanonical": "Eckige Silikoneinlagen",
+        "description": "Speziell entworfen für Doppelkammer-Fritteusen und Modelle mit eckigem Korb."
+      },
+      {
+        "slug": "silikon-backformen-fuer-muffins-und-kuchen",
+        "name": "Silikon-Backformen für Muffins und Kuchen",
+        "categoryNameCanonical": "Silikon-Backformen für Muffins und Kuchen",
+        "description": "Kleine Backformen aus flexiblem Silikon für süße und herzhafte Leckereien."
       }
     ]
   },
   {
-    "slug": "staubsauger-fuer-auto",
-    "name": "Staubsauger für das Auto",
-    "categoryNameCanonical": "Staubsauger für das Auto",
-    "description": "Kompakte und handliche Sauger, die speziell für die Reinigung des Fahrzeuginnenraums konzipiert sind, oft mit 12V-Anschluss oder Akkubetrieb.",
+    "slug": "airfryer-backpapier",
+    "name": "Airfryer Backpapier",
+    "categoryNameCanonical": "Airfryer Backpapier",
+    "description": "Vorgeschnittene Einweg-Papiereinlagen, die das Anhaften von Speisen verhindern und die Reinigung zum Kinderspiel machen.",
     "subcategories": [
       {
-        "slug": "autostaubsauger-12v",
-        "name": "Autostaubsauger mit 12V-Anschluss",
-        "categoryNameCanonical": "Autostaubsauger mit 12V-Anschluss",
-        "description": "Sauger, die direkt über den Zigarettenanzünder im Auto betrieben werden können."
+        "slug": "rundes-backpapier-fuer-airfryer",
+        "name": "Rundes Backpapier für Airfryer",
+        "categoryNameCanonical": "Rundes Backpapier für Airfryer",
+        "description": "Passgenaue runde Zuschnitte für klassische Heißluftfritteusen."
       },
       {
-        "slug": "akku-autostaubsauger",
-        "name": "Akku-Autostaubsauger",
-        "categoryNameCanonical": "Akku-Autostaubsauger",
-        "description": "Kabellose Handstaubsauger für maximale Flexibilität bei der Autoreinigung ohne Kabel."
+        "slug": "eckiges-backpapier-fuer-doppelkammer-fritteusen",
+        "name": "Eckiges Backpapier für Doppelkammer-Fritteusen",
+        "categoryNameCanonical": "Eckiges Backpapier für Doppelkammer-Fritteusen",
+        "description": "Rechteckige Einlagen, perfekt für Ninja Dual Zone und ähnliche Modelle."
       },
       {
-        "slug": "autostaubsauger-mit-zubehoer-set",
-        "name": "Autostaubsauger mit Zubehör-Set",
-        "categoryNameCanonical": "Autostaubsauger mit Zubehör-Set",
-        "description": "Sets inklusive langer Fugendüse, Bürstenaufsatz und flexiblem Schlauch für schwer erreichbare Stellen."
+        "slug": "perforiertes-backpapier-fuer-luftzirkulation",
+        "name": "Perforiertes Backpapier für Luftzirkulation",
+        "categoryNameCanonical": "Perforiertes Backpapier für Luftzirkulation",
+        "description": "Gelochtes Papier, das eine optimale Heißluftzirkulation für extra knusprige Ergebnisse gewährleistet."
       }
     ]
   },
   {
-    "slug": "staubsauger-mit-absaugstation",
-    "name": "Staubsauger mit Absaugstation",
-    "categoryNameCanonical": "Staubsauger mit Absaugstation",
-    "description": "Komfortable Systeme, bei denen sich der Staubsauger (meist ein Saugroboter oder Akkustaubsauger) an einer Basisstation automatisch entleert.",
+    "slug": "airfryer-gitter-und-roste",
+    "name": "Airfryer Gitter & Roste",
+    "categoryNameCanonical": "Airfryer Gitter & Roste",
+    "description": "Erweitern Sie Ihre Kochfläche oder erzielen Sie perfekte Grillergebnisse mit Gittern und Rosten aus Edelstahl.",
     "subcategories": [
       {
-        "slug": "saugroboter-mit-automatischer-entleerung",
-        "name": "Saugroboter mit automatischer Entleerung",
-        "categoryNameCanonical": "Saugroboter mit automatischer Entleerung",
-        "description": "Roboterstaubsauger, die nach jedem Reinigungsvorgang zur Station zurückkehren und den Schmutz abgeben."
+        "slug": "gitterroste-zur-ebenenerweiterung",
+        "name": "Gitterroste zur Ebenenerweiterung",
+        "categoryNameCanonical": "Gitterroste zur Ebenenerweiterung",
+        "description": "Stapelbare Roste, um auf mehreren Ebenen gleichzeitig zu garen und die Kapazität zu verdoppeln."
       },
       {
-        "slug": "akkustaubsauger-mit-automatischer-entleerung",
-        "name": "Akkustaubsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Akkustaubsauger mit automatischer Entleerung",
-        "description": "Kabellose Stielstaubsauger, deren Staubbehälter an einer speziellen Standvorrichtung entleert wird."
+        "slug": "grillroste-aus-edelstahl",
+        "name": "Grillroste aus Edelstahl",
+        "categoryNameCanonical": "Grillroste aus Edelstahl",
+        "description": "Für authentische Grillstreifen auf Fleisch, Fisch und Gemüse."
       },
       {
-        "slug": "absaugstationen-als-zubehoer",
-        "name": "Absaugstationen als Zubehör",
-        "categoryNameCanonical": "Absaugstationen als Zubehör",
-        "description": "Einzeln erhältliche Absaugstationen zum Nachrüsten kompatibler Staubsaugermodelle."
+        "slug": "spiessgestelle-fuer-airfryer",
+        "name": "Spießgestelle für Airfryer",
+        "categoryNameCanonical": "Spießgestelle für Airfryer",
+        "description": "Praktische Gestelle zur Zubereitung von Schaschlik, Kebab oder Obstspießen."
       }
     ]
   },
   {
-    "slug": "milbensauger",
-    "name": "Milbensauger",
-    "categoryNameCanonical": "Milbensauger",
-    "description": "Spezielle Handstaubsauger zur Bekämpfung von Hausstaubmilben, Bakterien und Allergenen in Matratzen, Bettwäsche und Polstermöbeln.",
+    "slug": "airfryer-backformen-und-pfannen",
+    "name": "Airfryer Backformen & Pfannen",
+    "categoryNameCanonical": "Airfryer Backformen & Pfannen",
+    "description": "Spezielle antihaftbeschichtete Formen und Pfannen zum Backen, für Aufläufe und Pizzen in Ihrer Heißluftfritteuse.",
     "subcategories": [
       {
-        "slug": "milbensauger-mit-uv-c-licht",
-        "name": "Milbensauger mit UV-C Licht",
-        "categoryNameCanonical": "Milbensauger mit UV-C Licht",
-        "description": "Geräte, die Milben und Keime mittels ultraviolettem Licht abtöten und sterilisieren."
+        "slug": "runde-backformen-und-kuchenformen",
+        "name": "Runde Backformen und Kuchenformen",
+        "categoryNameCanonical": "Runde Backformen und Kuchenformen",
+        "description": "Kompakte Backformen, die perfekt in den Garkorb passen."
       },
       {
-        "slug": "milbensauger-mit-vibrationsfunktion",
-        "name": "Milbensauger mit Vibrationsfunktion",
-        "categoryNameCanonical": "Milbensauger mit Vibrationsfunktion",
-        "description": "Modelle, die durch Vibration tief sitzenden Schmutz und Milbenkot aus dem Gewebe lösen."
+        "slug": "pizzapfannen-fuer-airfryer",
+        "name": "Pizzapfannen für Airfryer",
+        "categoryNameCanonical": "Pizzapfannen für Airfryer",
+        "description": "Flache, runde Pfannen für knusprige Mini-Pizzen und Flammkuchen."
       },
       {
-        "slug": "akku-milbensauger",
-        "name": "Akku-Milbensauger",
-        "categoryNameCanonical": "Akku-Milbensauger",
-        "description": "Kabellose Milbensauger für den flexiblen und einfachen Einsatz auf Matratzen und Sofas."
+        "slug": "brotbackformen-fuer-heissluftfritteusen",
+        "name": "Brotbackformen für Heißluftfritteusen",
+        "categoryNameCanonical": "Brotbackformen für Heißluftfritteusen",
+        "description": "Kleine Kastenformen für frisches, selbstgebackenes Brot aus dem Airfryer."
       }
     ]
   },
   {
-    "slug": "fenstersauger",
-    "name": "Fenstersauger",
-    "categoryNameCanonical": "Fenstersauger",
-    "description": "Akkubetriebene Geräte, die nach dem Einwaschen der Fenster das Schmutzwasser streifenfrei absaugen. Auch für Spiegel, Fliesen und Duschkabinen geeignet.",
+    "slug": "airfryer-abdeckungen",
+    "name": "Airfryer Abdeckungen",
+    "categoryNameCanonical": "Airfryer Abdeckungen",
+    "description": "Schützen Sie Ihre Heißluftfritteuse vor Staub, Kratzern und Fettspritzern, wenn sie nicht in Gebrauch ist.",
     "subcategories": [
       {
-        "slug": "fenstersauger-sets",
-        "name": "Fenstersauger-Sets mit Sprühflasche",
-        "categoryNameCanonical": "Fenstersauger-Sets mit Sprühflasche",
-        "description": "Komplettsets bestehend aus Fenstersauger, Sprühflasche mit Wischbezug und Reinigungsmittelkonzentrat."
+        "slug": "abdeckhauben-fuer-ninja-modelle",
+        "name": "Abdeckhauben für Ninja Modelle",
+        "categoryNameCanonical": "Abdeckhauben für Ninja Modelle",
+        "description": "Maßgeschneiderte Schutzhüllen für die spezifischen Formen der Ninja Geräte."
       },
       {
-        "slug": "fenstersauger-mit-verlaengerungsstiel",
-        "name": "Fenstersauger mit Verlängerungsstiel",
-        "categoryNameCanonical": "Fenstersauger mit Verlängerungsstiel",
-        "description": "Geräte mit Teleskopstangen zur einfachen Reinigung von hohen Fenstern, Wintergärten oder Dachfenstern."
+        "slug": "abdeckhauben-fuer-cosori-modelle",
+        "name": "Abdeckhauben für Cosori Modelle",
+        "categoryNameCanonical": "Abdeckhauben für Cosori Modelle",
+        "description": "Passgenaue Abdeckungen für die beliebten Cosori Heißluftfritteusen."
       },
       {
-        "slug": "fenstersauger-mit-wechselduese",
-        "name": "Fenstersauger mit schmaler Wechseldüse",
-        "categoryNameCanonical": "Fenstersauger mit schmaler Wechseldüse",
-        "description": "Modelle mit einer zusätzlichen, kleineren Saugdüse für Sprossenfenster und schmale Glasflächen."
+        "slug": "universelle-staubschutzhuellen",
+        "name": "Universelle Staubschutzhüllen",
+        "categoryNameCanonical": "Universelle Staubschutzhüllen",
+        "description": "Abdeckungen in verschiedenen Größen, die für eine Vielzahl von Marken und Modellen geeignet sind."
       }
     ]
   },
   {
-    "slug": "laubsauger",
-    "name": "Laubsauger & -bläser",
-    "categoryNameCanonical": "Laubsauger & -bläser",
-    "description": "Gartengeräte zum Aufsaugen, Blasen oder Häckseln von Laub und kleinen Gartenabfällen. Erleichtern die herbstliche Gartenarbeit erheblich.",
+    "slug": "airfryer-kochbuecher",
+    "name": "Airfryer Kochbücher",
+    "categoryNameCanonical": "Airfryer Kochbücher",
+    "description": "Entdecken Sie neue Rezeptideen, Tipps und Tricks, um das volle Potenzial Ihrer Heißluftfritteuse auszuschöpfen.",
     "subcategories": [
       {
-        "slug": "akku-laubsauger",
-        "name": "Akku-Laubsauger",
-        "categoryNameCanonical": "Akku-Laubsauger",
-        "description": "Kabellose und flexible Geräte für Gärten ohne direkten Stromanschluss."
+        "slug": "kochbuecher-zum-abnehmen-mit-dem-airfryer",
+        "name": "Kochbücher zum Abnehmen mit dem Airfryer",
+        "categoryNameCanonical": "Kochbücher zum Abnehmen mit dem Airfryer",
+        "description": "Rezepte für kalorienarme und gesunde Gerichte aus der Heißluftfritteuse."
       },
       {
-        "slug": "elektro-laubsauger",
-        "name": "Elektro-Laubsauger",
-        "categoryNameCanonical": "Elektro-Laubsauger",
-        "description": "Leistungsstarke, kabelgebundene Modelle für den dauerhaften Einsatz in der Nähe einer Steckdose."
+        "slug": "anfaenger-kochbuecher-fuer-heissluftfritteusen",
+        "name": "Anfänger-Kochbücher für Heißluftfritteusen",
+        "categoryNameCanonical": "Anfänger-Kochbücher für Heißluftfritteusen",
+        "description": "Einfache und schnelle Rezepte für den perfekten Einstieg in die Welt des Airfryings."
       },
       {
-        "slug": "laubsauger-mit-haeckselfunktion",
-        "name": "Laubsauger mit Häckselfunktion",
-        "categoryNameCanonical": "Laubsauger mit Häckselfunktion",
-        "description": "3-in-1-Geräte (Blasen, Saugen, Häckseln), die das aufgesaugte Laub zerkleinern und das Volumen im Fangsack reduzieren."
-      },
-      {
-        "slug": "benzin-laubsauger",
-        "name": "Benzin-Laubsauger",
-        "categoryNameCanonical": "Benzin-Laubsauger",
-        "description": "Besonders leistungsstarke und unabhängige Modelle für große Grundstücke und professionelle Anwendungen."
+        "slug": "vegetarische-und-vegane-airfryer-rezepte",
+        "name": "Vegetarische & Vegane Airfryer-Rezepte",
+        "categoryNameCanonical": "Vegetarische & Vegane Airfryer-Rezepte",
+        "description": "Kreative Ideen für fleischlose Gerichte, von knusprigem Gemüse bis zu Tofu-Spezialitäten."
       }
     ]
   },
   {
-    "slug": "rueckenstaubsauger",
-    "name": "Rückenstaubsauger",
-    "categoryNameCanonical": "Rückenstaubsauger",
-    "description": "Professionelle Staubsauger, die wie ein Rucksack getragen werden. Bieten maximale Bewegungsfreiheit bei der Reinigung von Kinos, Bussen, Treppenhäusern oder engen Räumen.",
+    "slug": "reinigung-fuer-airfryer",
+    "name": "Reinigung für Airfryer",
+    "categoryNameCanonical": "Reinigung für Airfryer",
+    "description": "Produkte und Hilfsmittel, die die Reinigung Ihrer Heißluftfritteuse schnell und einfach machen.",
     "subcategories": [
       {
-        "slug": "akku-rueckenstaubsauger",
-        "name": "Akku-Rückenstaubsauger",
-        "categoryNameCanonical": "Akku-Rückenstaubsauger",
-        "description": "Kabellose Modelle für höchste Flexibilität und Effizienz ohne Stolperfallen durch Kabel."
+        "slug": "spezielle-fettloeser-und-reiniger",
+        "name": "Spezielle Fettlöser und Reiniger",
+        "categoryNameCanonical": "Spezielle Fettlöser und Reiniger",
+        "description": "Kraftvolle Reinigungsmittel, die eingebranntes Fett und Essensreste mühelos entfernen."
       },
       {
-        "slug": "kabelgebundene-rueckenstaubsauger",
-        "name": "Kabelgebundene Rückenstaubsauger",
-        "categoryNameCanonical": "Kabelgebundene Rückenstaubsauger",
-        "description": "Geräte mit Netzbetrieb für konstante, hohe Saugleistung bei langen Reinigungsintervallen."
+        "slug": "reinigungsbuersten-sets",
+        "name": "Reinigungsbürsten-Sets",
+        "categoryNameCanonical": "Reinigungsbürsten-Sets",
+        "description": "Bürsten in verschiedenen Größen und Formen, um auch schwer zugängliche Ecken zu erreichen."
       },
       {
-        "slug": "leichte-rueckenstaubsauger",
-        "name": "Leichte & ergonomische Rückenstaubsauger",
-        "categoryNameCanonical": "Leichte & ergonomische Rückenstaubsauger",
-        "description": "Modelle mit geringem Gewicht und gepolsterten Tragegurten für hohen Arbeitskomfort."
+        "slug": "kratzschutzmatten-fuer-arbeitsplatten",
+        "name": "Kratzschutzmatten für Arbeitsplatten",
+        "categoryNameCanonical": "Kratzschutzmatten für Arbeitsplatten",
+        "description": "Schützen Sie Ihre Küchenoberflächen vor Hitze und Kratzern durch das Gerät."
       }
     ]
   },
   {
-    "slug": "kinderstaubsauger",
-    "name": "Kinderstaubsauger",
-    "categoryNameCanonical": "Kinderstaubsauger",
-    "description": "Spielzeug-Staubsauger, die echten Geräten nachempfunden sind. Oft mit realistischen Geräuschen, Lichteffekten und Saugfunktion für kleine Kügelchen.",
+    "slug": "airfryer-oelzerstaeuber-und-pinsel",
+    "name": "Airfryer Ölzerstäuber & Pinsel",
+    "categoryNameCanonical": "Airfryer Ölzerstäuber & Pinsel",
+    "description": "Dosieren Sie Öl sparsam und gleichmäßig für knusprige Ergebnisse mit weniger Fett.",
     "subcategories": [
       {
-        "slug": "kinderstaubsauger-mit-funktion",
-        "name": "Kinderstaubsauger mit echter Saugfunktion",
-        "categoryNameCanonical": "Kinderstaubsauger mit echter Saugfunktion",
-        "description": "Spielzeuge, die leichte Styroporkügelchen oder Papierschnipsel aufsaugen können."
+        "slug": "oel-spruehflaschen-aus-glas",
+        "name": "Öl-Sprühflaschen aus Glas",
+        "categoryNameCanonical": "Öl-Sprühflaschen aus Glas",
+        "description": "Wiederbefüllbare Sprüher für einen feinen Ölnebel, ideal zum leichten Benetzen von Speisen."
       },
       {
-        "slug": "lizenz-kinderstaubsauger",
-        "name": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "categoryNameCanonical": "Lizenz-Kinderstaubsauger (Bosch, Miele, Dyson)",
-        "description": "Detailgetreue Nachbildungen bekannter Markenstaubsauger für ein realistisches Spielerlebnis."
+        "slug": "silikonpinsel-zum-bestreichen",
+        "name": "Silikonpinsel zum Bestreichen",
+        "categoryNameCanonical": "Silikonpinsel zum Bestreichen",
+        "description": "Hitzebeständige Pinsel zum Auftragen von Öl, Marinaden oder Glasuren."
       },
       {
-        "slug": "kinderstaubsauger-aus-holz",
-        "name": "Kinderstaubsauger aus Holz",
-        "categoryNameCanonical": "Kinderstaubsauger aus Holz",
-        "description": "Robuste und nachhaltige Holzspielzeuge, die die Fantasie anregen und ohne Elektronik auskommen."
+        "slug": "oel-zerstaeuber-mit-pumpsystem",
+        "name": "Öl-Zerstäuber mit Pumpsystem",
+        "categoryNameCanonical": "Öl-Zerstäuber mit Pumpsystem",
+        "description": "Erzeugen Sie Druck ohne Treibgas für eine gleichmäßige und kontrollierte Ölverteilung."
       }
     ]
   },
   {
-    "slug": "zentralstaubsaugeranlagen",
-    "name": "Zentralstaubsauger-Anlagen",
-    "categoryNameCanonical": "Zentralstaubsauger-Anlagen",
-    "description": "Fest installierte Sauganlagen, bei denen eine zentrale Saugeinheit (z.B. im Keller) über ein Rohrsystem mit Saugdosen in den Wohnräumen verbunden ist.",
+    "slug": "airfryer-trenner-und-teiler",
+    "name": "Airfryer Trenner & Teiler",
+    "categoryNameCanonical": "Airfryer Trenner & Teiler",
+    "description": "Garen Sie verschiedene Lebensmittel im selben Korb, ohne dass sie sich vermischen.",
     "subcategories": [
       {
-        "slug": "zentralstaubsauger-komplettsets",
-        "name": "Zentralstaubsauger Komplett-Sets",
-        "categoryNameCanonical": "Zentralstaubsauger Komplett-Sets",
-        "description": "Pakete bestehend aus Saugeinheit, Rohrsystem, Saugdosen und Saugschlauch-Set für den Einbau."
+        "slug": "metall-trenner-fuer-garkoerbe",
+        "name": "Metall-Trenner für Garkörbe",
+        "categoryNameCanonical": "Metall-Trenner für Garkörbe",
+        "description": "Stabile Trennwände, um den Korb in zwei oder mehr Sektionen zu unterteilen."
       },
       {
-        "slug": "saugeinheiten-fuer-zentralstaubsauger",
-        "name": "Saugeinheiten für Zentralstaubsauger",
-        "categoryNameCanonical": "Saugeinheiten für Zentralstaubsauger",
-        "description": "Die Motoreinheiten der Anlage, erhältlich in verschiedenen Leistungsstufen je nach Hausgröße."
+        "slug": "silikon-trenner-fuer-doppelzonen",
+        "name": "Silikon-Trenner für Doppelzonen",
+        "categoryNameCanonical": "Silikon-Trenner für Doppelzonen",
+        "description": "Flexible Silikoneinsätze, die das Garen von vier unterschiedlichen Speisen in Dual-Zone-Fritteusen ermöglichen."
       },
       {
-        "slug": "zubehoer-fuer-zentralstaubsauger",
-        "name": "Zubehör für Zentralstaubsauger",
-        "categoryNameCanonical": "Zubehör für Zentralstaubsauger",
-        "description": "Saugschläuche, Saugdosen, Bürsten und Düsen für bestehende Zentralstaubsauger-Anlagen."
+        "slug": "verstellbare-korb-trenner",
+        "name": "Verstellbare Korb-Trenner",
+        "categoryNameCanonical": "Verstellbare Korb-Trenner",
+        "description": "Anpassbare Teiler für maximale Flexibilität bei der Aufteilung des Garraums."
       }
     ]
   },
   {
-    "slug": "staubsauger-zubehoer",
-    "name": "Staubsauger Zubehör",
-    "categoryNameCanonical": "Staubsauger Zubehör",
-    "description": "Allgemeines Zubehör zur Erweiterung der Funktionalität oder Reparatur Ihres Staubsaugers. Umfasst Düsen, Bürsten, Schläuche und mehr.",
+    "slug": "airfryer-zangen-und-greifer",
+    "name": "Airfryer Zangen & Greifer",
+    "categoryNameCanonical": "Airfryer Zangen & Greifer",
+    "description": "Sicheres und einfaches Wenden, Herausnehmen und Servieren von heißen Speisen aus Ihrer Heißluftfritteuse.",
     "subcategories": [
       {
-        "slug": "staubsaugerduesen-und-buersten",
-        "name": "Staubsaugerdüsen & -bürsten",
-        "categoryNameCanonical": "Staubsaugerdüsen & -bürsten",
-        "description": "Spezialdüsen für Hartböden, Teppiche (Turbodüsen), Polster, Fugen und empfindliche Oberflächen."
+        "slug": "silikon-zangen-fuer-antihaftbeschichtungen",
+        "name": "Silikon-Zangen für Antihaftbeschichtungen",
+        "categoryNameCanonical": "Silikon-Zangen für Antihaftbeschichtungen",
+        "description": "Schützen Sie die Beschichtung Ihres Garkorbs vor Kratzern."
       },
       {
-        "slug": "staubsaugerschlaeuche-und-rohre",
-        "name": "Staubsaugerschläuche & -rohre",
-        "categoryNameCanonical": "Staubsaugerschläuche & -rohre",
-        "description": "Ersatzschläuche, Teleskoprohre und Verlängerungen für verschiedene Staubsaugermodelle."
+        "slug": "korb-heber-und-greifzangen",
+        "name": "Korb-Heber und Greifzangen",
+        "categoryNameCanonical": "Korb-Heber und Greifzangen",
+        "description": "Spezielle Greifer zum sicheren Anheben heißer Einsätze wie Backformen oder Pizzapfannen."
       },
       {
-        "slug": "staubsauger-akkus-und-ladegeraete",
-        "name": "Staubsauger-Akkus & Ladegeräte",
-        "categoryNameCanonical": "Staubsauger-Akkus & Ladegeräte",
-        "description": "Ersatz- und Zweitakkus sowie Ladestationen für Akkustaubsauger."
-      },
-      {
-        "slug": "staubsauger-duftstaebchen",
-        "name": "Staubsauger-Duftstäbchen & Deos",
-        "categoryNameCanonical": "Staubsauger-Duftstäbchen & Deos",
-        "description": "Duftpatronen, die in den Staubsaugerbeutel oder Filter gegeben werden und für frischen Duft sorgen."
+        "slug": "edelstahl-grillzangen-sets",
+        "name": "Edelstahl-Grillzangen-Sets",
+        "categoryNameCanonical": "Edelstahl-Grillzangen-Sets",
+        "description": "Robuste Zangen in verschiedenen Längen für präzises Arbeiten."
       }
     ]
   },
   {
-    "slug": "staubsaugerbeutel",
-    "name": "Staubsaugerbeutel",
-    "categoryNameCanonical": "Staubsaugerbeutel",
-    "description": "Ersatzbeutel für Bodenstaubsauger mit Beutel. Verfügbar als Original-Markenbeutel oder als kompatible Alternativen für eine Vielzahl von Modellen.",
+    "slug": "ersatzteile-fuer-heissluftfritteusen",
+    "name": "Ersatzteile für Heißluftfritteusen",
+    "categoryNameCanonical": "Ersatzteile für Heißluftfritteusen",
+    "description": "Finden Sie passende Ersatzteile wie Garkörbe, Griffe oder Rührarme, um Ihr Gerät zu reparieren und seine Lebensdauer zu verlängern.",
     "subcategories": [
       {
-        "slug": "original-hersteller-staubsaugerbeutel",
-        "name": "Original-Marken-Staubsaugerbeutel",
-        "categoryNameCanonical": "Original-Marken-Staubsaugerbeutel",
-        "description": "Vom Hersteller (z.B. Miele, Siemens, Bosch) empfohlene Beutel für optimale Passform und Filterleistung."
+        "slug": "ersatz-garkoerbe-und-schubladen",
+        "name": "Ersatz-Garkörbe und Schubladen",
+        "categoryNameCanonical": "Ersatz-Garkörbe und Schubladen",
+        "description": "Originale und kompatible Körbe, falls die Beschichtung beschädigt ist."
       },
       {
-        "slug": "kompatible-staubsaugerbeutel",
-        "name": "Kompatible Staubsaugerbeutel",
-        "categoryNameCanonical": "Kompatible Staubsaugerbeutel",
-        "description": "Preisgünstige Alternativbeutel von Drittherstellern, die für bestimmte Staubsaugermodelle passend sind."
+        "slug": "ersatz-griffe-und-knoepfe",
+        "name": "Ersatz-Griffe und Knöpfe",
+        "categoryNameCanonical": "Ersatz-Griffe und Knöpfe",
+        "description": "Für den Austausch von gebrochenen oder abgenutzten Bedienelementen."
       },
       {
-        "slug": "vlies-staubsaugerbeutel",
-        "name": "Vlies-Staubbeutel",
-        "categoryNameCanonical": "Vlies-Staubbeutel",
-        "description": "Mehrlagige Synthetik-Beutel, die reißfester sind und eine bessere Filterung als Papierbeutel bieten."
-      },
-      {
-        "slug": "universal-staubsaugerbeutel",
-        "name": "Universal-Staubsaugerbeutel",
-        "categoryNameCanonical": "Universal-Staubsaugerbeutel",
-        "description": "Zuschneidbare Beutel oder solche mit Universal-Anschlussplatte, die für viele verschiedene Modelle passen."
+        "slug": "ersatz-grillplatten-und-crisper-einsaetze",
+        "name": "Ersatz-Grillplatten und Crisper-Einsätze",
+        "categoryNameCanonical": "Ersatz-Grillplatten und Crisper-Einsätze",
+        "description": "Ersetzen Sie zerkratzte oder verbogene Einlegeböden für optimale Ergebnisse."
       }
     ]
   },
   {
-    "slug": "staubsaugerfilter",
-    "name": "Staubsaugerfilter",
-    "categoryNameCanonical": "Staubsaugerfilter",
-    "description": "Wichtige Ersatzteile zur Aufrechterhaltung der Saugleistung und Luftqualität. Umfasst Motor-, Abluft-, HEPA- und Schaumstofffilter.",
+    "slug": "heissluftfritteusen-unter-100-euro",
+    "name": "Heißluftfritteusen unter 100 Euro",
+    "categoryNameCanonical": "Heißluftfritteusen unter 100 Euro",
+    "description": "Entdecken Sie preisgünstige Einsteigermodelle und Angebote für budgetbewusste Käufer.",
     "subcategories": [
       {
-        "slug": "hepa-filter-fuer-staubsauger",
-        "name": "HEPA-Filter",
-        "categoryNameCanonical": "HEPA-Filter",
-        "description": "Hocheffiziente Partikelfilter (High-Efficiency Particulate Air) für eine besonders saubere Abluft, ideal für Allergiker."
+        "slug": "kompakte-einstiegsmodelle",
+        "name": "Kompakte Einstiegsmodelle",
+        "categoryNameCanonical": "Kompakte Einstiegsmodelle",
+        "description": "Kleine und einfache Geräte, ideal zum Ausprobieren der Heißluftfritteusen-Technologie."
       },
       {
-        "slug": "motorschutzfilter-fuer-staubsauger",
-        "name": "Motorschutzfilter",
-        "categoryNameCanonical": "Motorschutzfilter",
-        "description": "Filter, die vor dem Motor sitzen, um ihn vor grobem Schmutz und Staub zu schützen und seine Lebensdauer zu verlängern."
+        "slug": "analoge-heissluftfritteusen",
+        "name": "Analoge Heißluftfritteusen",
+        "categoryNameCanonical": "Analoge Heißluftfritteusen",
+        "description": "Zuverlässige Modelle mit manueller Steuerung über Drehregler für Temperatur und Zeit."
       },
       {
-        "slug": "abluftfilter-fuer-staubsauger",
-        "name": "Abluftfilter (Mikrofilter)",
-        "categoryNameCanonical": "Abluftfilter (Mikrofilter)",
-        "description": "Filter am Luftauslass des Staubsaugers, die feine Partikel zurückhalten, bevor die Luft in den Raum zurückgeblasen wird."
-      },
-      {
-        "slug": "filter-sets-fuer-staubsauger",
-        "name": "Filter-Sets",
-        "categoryNameCanonical": "Filter-Sets",
-        "description": "Praktische Sets, die alle notwendigen Filter (z.B. Motor- und Abluftfilter) für einen kompletten Austausch enthalten."
+        "slug": "angebote-und-reduzierte-markengeraete",
+        "name": "Angebote und reduzierte Markengeräte",
+        "categoryNameCanonical": "Angebote und reduzierte Markengeräte",
+        "description": "Finden Sie Markengeräte von Vorjahresmodellen zu einem reduzierten Preis."
       }
     ]
   },
   {
-    "slug": "staubsaugeradapter",
-    "name": "Staubsaugeradapter",
-    "categoryNameCanonical": "Staubsaugeradapter",
-    "description": "Verbindungsstücke und Reduzierhülsen, um Zubehör mit unterschiedlichen Durchmessern oder von verschiedenen Marken miteinander kompatibel zu machen.",
+    "slug": "heissluftfritteusen-nach-farbe",
+    "name": "Heißluftfritteusen nach Farbe",
+    "categoryNameCanonical": "Heißluftfritteusen nach Farbe",
+    "description": "Wählen Sie eine Heißluftfritteuse, die perfekt zum Stil und Design Ihrer Küche passt.",
     "subcategories": [
       {
-        "slug": "adapter-fuer-elektrowerkzeuge",
-        "name": "Adapter für Elektrowerkzeuge",
-        "categoryNameCanonical": "Adapter für Elektrowerkzeuge",
-        "description": "Spezielle Adapter zum Anschluss eines Werkstattsaugers an Sägen, Schleifer oder Bohrmaschinen zur Staubabsaugung."
+        "slug": "schwarze-heissluftfritteusen",
+        "name": "Schwarze Heißluftfritteusen",
+        "categoryNameCanonical": "Schwarze Heißluftfritteusen",
+        "description": "Klassische und moderne schwarze Modelle, die in jede Küche passen."
       },
       {
-        "slug": "reduzierstuecke-fuer-staubsauger",
-        "name": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "categoryNameCanonical": "Reduzierstücke (z.B. 35mm auf 32mm)",
-        "description": "Hülsen zur Anpassung des Anschlussdurchmessers, um z.B. eine 32mm Düse an einem 35mm Rohr zu verwenden."
+        "slug": "edelstahl-heissluftfritteusen",
+        "name": "Edelstahl-Heißluftfritteusen",
+        "categoryNameCanonical": "Edelstahl-Heißluftfritteusen",
+        "description": "Elegante Geräte im Edelstahl-Look für eine hochwertige Optik."
       },
       {
-        "slug": "universaladapter-sets-fuer-staubsauger",
-        "name": "Universaladapter-Sets",
-        "categoryNameCanonical": "Universaladapter-Sets",
-        "description": "Mehrteilige Sets mit verschiedenen Adaptern, um eine breite Palette an Zubehörteilen und Saugern zu verbinden."
+        "slug": "weisse-heissluftfritteusen",
+        "name": "Weiße Heißluftfritteusen",
+        "categoryNameCanonical": "Weiße Heißluftfritteusen",
+        "description": "Helle und freundliche Modelle, die einen sauberen Look schaffen."
       },
       {
-        "slug": "markenspezifische-adapter",
-        "name": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "categoryNameCanonical": "Markenspezifische Adapter (Kärcher, Bosch, Makita)",
-        "description": "Adapter, die speziell dafür entwickelt wurden, Zubehörteile verschiedener bekannter Marken zu verbinden."
-      }
-    ]
-  },
-  {
-    "slug": "teichschlammsauger",
-    "name": "Teichschlammsauger",
-    "categoryNameCanonical": "Teichschlammsauger",
-    "description": "Leistungsstarke Sauger zur Entfernung von Schlamm, Algen und Pflanzenresten vom Grund eines Gartenteichs, um die Wasserqualität zu verbessern.",
-    "subcategories": [
-      {
-        "slug": "teichsauger-mit-automatischer-entleerung",
-        "name": "Teichsauger mit automatischer Entleerung",
-        "categoryNameCanonical": "Teichsauger mit automatischer Entleerung",
-        "description": "Modelle mit Zwei-Kammer-System, die ein kontinuierliches Saugen ohne Pausen zum Entleeren ermöglichen."
-      },
-      {
-        "slug": "multifunktionale-teichsauger",
-        "name": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "categoryNameCanonical": "Multifunktionale Teichsauger (Nass-Trocken-Sauger)",
-        "description": "Vielseitige Geräte, die sowohl zur Teichreinigung als auch als klassischer Nass-Trocken-Sauger verwendet werden können."
-      },
-      {
-        "slug": "teichsauger-sets-mit-zubehoer",
-        "name": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "categoryNameCanonical": "Teichsauger-Sets mit umfangreichem Zubehör",
-        "description": "Komplettpakete mit verschiedenen Düsen, Teleskopstangen und langen Saug- und Ablaufschläuchen."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-nach-leistung",
-    "name": "Staubsauger nach Leistung",
-    "categoryNameCanonical": "Staubsauger nach Leistung",
-    "description": "Kategorisierung von Staubsaugern basierend auf ihrer Leistungsaufnahme (Watt) oder Saugleistung (Pascal), um das passende Gerät für Ihre Anforderungen zu finden.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-ueber-800-watt",
-        "name": "Staubsauger über 800 Watt (kabelgebunden)",
-        "categoryNameCanonical": "Staubsauger über 800 Watt (kabelgebunden)",
-        "description": "Leistungsstarke Boden- und Industriestaubsauger für maximale Saugkraft und die Tiefenreinigung von Teppichen."
-      },
-      {
-        "slug": "akkustaubsauger-ueber-20-kpa",
-        "name": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "categoryNameCanonical": "Akkustaubsauger mit hoher Saugleistung (über 20 kPa)",
-        "description": "Kraftvolle, kabellose Modelle, deren Saugleistung mit der von kabelgebundenen Geräten konkurrieren kann."
-      },
-      {
-        "slug": "energiesparende-staubsauger",
-        "name": "Energiesparende Staubsauger (unter 700 Watt)",
-        "categoryNameCanonical": "Energiesparende Staubsauger (unter 700 Watt)",
-        "description": "Effiziente Modelle, die trotz geringerer Leistungsaufnahme eine gute Reinigungsleistung erzielen."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-nach-einsatzbereich",
-    "name": "Staubsauger nach Einsatzbereich",
-    "categoryNameCanonical": "Staubsauger nach Einsatzbereich",
-    "description": "Finden Sie den perfekten Staubsauger, der speziell auf die vorherrschenden Bodenbeläge oder besonderen Herausforderungen in Ihrem Zuhause zugeschnitten ist.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-fuer-hartboeden",
-        "name": "Staubsauger für Hartböden",
-        "categoryNameCanonical": "Staubsauger für Hartböden",
-        "description": "Geräte mit speziellen Parkett- oder Hartbodendüsen, die empfindliche Böden schonen und effektiv reinigen."
-      },
-      {
-        "slug": "staubsauger-fuer-teppiche",
-        "name": "Staubsauger für Teppiche",
-        "categoryNameCanonical": "Staubsauger für Teppiche",
-        "description": "Modelle mit hoher Saugkraft und elektrischen oder Turbobürsten zur Tiefenreinigung von Teppichfasern."
-      },
-      {
-        "slug": "staubsauger-fuer-gemischte-boeden",
-        "name": "Staubsauger für gemischte Bodenbeläge",
-        "categoryNameCanonical": "Staubsauger für gemischte Bodenbeläge",
-        "description": "Allrounder mit umschaltbaren Kombidüsen oder automatischer Bodenerkennung für Haushalte mit Hartböden und Teppichen."
-      }
-    ]
-  },
-  {
-    "slug": "dampfsauger",
-    "name": "Dampfsauger",
-    "categoryNameCanonical": "Dampfsauger",
-    "description": "Kombinationsgeräte, die heißen Dampf zur Desinfektion und Lösung von Schmutz verwenden und den gelösten Schmutz sowie das Wasser sofort wieder aufsaugen.",
-    "subcategories": [
-      {
-        "slug": "dampfsauger-fuer-boeden",
-        "name": "Dampfsauger für Böden",
-        "categoryNameCanonical": "Dampfsauger für Böden",
-        "description": "Geräte zur chemiefreien, hygienischen Reinigung von Fliesen, Stein und anderen versiegelten Hartböden."
-      },
-      {
-        "slug": "dampfsauger-mit-buegelfunktion",
-        "name": "Dampfsauger mit Bügelfunktion",
-        "categoryNameCanonical": "Dampfsauger mit Bügelfunktion",
-        "description": "Multifunktionale Systeme, an die ein professionelles Dampfbügeleisen angeschlossen werden kann."
-      },
-      {
-        "slug": "professionelle-dampfsauger",
-        "name": "Professionelle Dampfsauger",
-        "categoryNameCanonical": "Professionelle Dampfsauger",
-        "description": "Robuste Geräte mit hohem Dampfdruck und großer Kesselkapazität für den gewerblichen Einsatz."
-      }
-    ]
-  },
-  {
-    "slug": "tischstaubsauger",
-    "name": "Tischstaubsauger",
-    "categoryNameCanonical": "Tischstaubsauger",
-    "description": "Sehr kleine, oft batteriebetriebene Mini-Sauger zur schnellen Entfernung von Krümeln, Staub oder Radiergummiresten vom Schreibtisch oder Esstisch.",
-    "subcategories": [
-      {
-        "slug": "akku-tischstaubsauger",
-        "name": "Akku- & batteriebetriebene Tischstaubsauger",
-        "categoryNameCanonical": "Akku- & batteriebetriebene Tischstaubsauger",
-        "description": "Kabellose, handliche Kleingeräte, die immer griffbereit sind."
-      },
-      {
-        "slug": "tischstaubsauger-design",
-        "name": "Design-Tischstaubsauger",
-        "categoryNameCanonical": "Design-Tischstaubsauger",
-        "description": "Kompakte Sauger in lustigen Formen (z.B. Marienkäfer) oder stilvollem Design."
-      },
-      {
-        "slug": "tischstaubsauger-fuer-buero",
-        "name": "Tischstaubsauger für Büro & Tastatur",
-        "categoryNameCanonical": "Tischstaubsauger für Büro & Tastatur",
-        "description": "Mini-Sauger mit kleinen Bürstenaufsätzen zur Reinigung von Tastaturen und Schreibtischoberflächen."
-      }
-    ]
-  },
-  {
-    "slug": "leichte-staubsauger",
-    "name": "Leichte Staubsauger",
-    "categoryNameCanonical": "Leichte Staubsauger",
-    "description": "Staubsauger mit einem besonders geringen Gewicht für eine mühelose Handhabung, ideal für mehrstöckige Wohnungen, Treppen oder Personen, die nicht schwer heben möchten.",
-    "subcategories": [
-      {
-        "slug": "stielstaubsauger-unter-3kg",
-        "name": "Stielstaubsauger unter 3 kg",
-        "categoryNameCanonical": "Stielstaubsauger unter 3 kg",
-        "description": "Extrem leichte, oft kabellose Modelle, die sich einfach manövrieren und anheben lassen."
-      },
-      {
-        "slug": "kompakte-bodenstaubsauger",
-        "name": "Kompakte Bodenstaubsauger",
-        "categoryNameCanonical": "Kompakte Bodenstaubsauger",
-        "description": "Kleine und leichte, kabelgebundene Staubsauger, die sich einfach tragen und verstauen lassen."
-      },
-      {
-        "slug": "handstaubsauger-unter-1kg",
-        "name": "Handstaubsauger unter 1 kg",
-        "categoryNameCanonical": "Handstaubsauger unter 1 kg",
-        "description": "Federleichte Handgeräte für die schnelle und unkomplizierte Reinigung zwischendurch."
-      }
-    ]
-  },
-  {
-    "slug": "leise-staubsauger-allgemein",
-    "name": "Leise Staubsauger",
-    "categoryNameCanonical": "Leise Staubsauger",
-    "description": "Eine Auswahl an Staubsaugern verschiedener Bauarten (Boden-, Akku-, Roboterstaubsauger), die sich durch einen besonders geräuscharmen Betrieb auszeichnen.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-unter-65-db",
-        "name": "Staubsauger unter 65 dB (Extra leise)",
-        "categoryNameCanonical": "Staubsauger unter 65 dB (Extra leise)",
-        "description": "Flüsterleise Modelle, die das Staubsaugen auch in den Abendstunden oder bei schlafenden Kindern ermöglichen."
-      },
-      {
-        "slug": "leise-bodenstaubsauger-spezial",
-        "name": "Leise Bodenstaubsauger",
-        "categoryNameCanonical": "Leise Bodenstaubsauger",
-        "description": "Kabelgebundene Modelle mit spezieller Schalldämmung für eine ruhige und dennoch gründliche Reinigung."
-      },
-      {
-        "slug": "leise-akkustaubsauger",
-        "name": "Leise Akkustaubsauger",
-        "categoryNameCanonical": "Leise Akkustaubsauger",
-        "description": "Kabellose Staubsauger, die für einen geräuscharmen Betrieb optimiert sind, oft mit speziellen Eco-Modi."
-      },
-      {
-        "slug": "leise-saugroboter",
-        "name": "Leise Saugroboter",
-        "categoryNameCanonical": "Leise Saugroboter",
-        "description": "Autonome Reiniger, die unauffällig im Hintergrund arbeiten, ohne zu stören."
-      }
-    ]
-  },
-  {
-    "slug": "staubsauger-reparatur-ersatzteile",
-    "name": "Staubsauger Reparatur & Ersatzteile",
-    "categoryNameCanonical": "Staubsauger Reparatur & Ersatzteile",
-    "description": "Einzelne Bauteile und Ersatzteile zur Reparatur und Wartung Ihres Staubsaugers, um seine Lebensdauer zu verlängern.",
-    "subcategories": [
-      {
-        "slug": "staubsauger-motoren",
-        "name": "Staubsauger-Motoren",
-        "categoryNameCanonical": "Staubsauger-Motoren",
-        "description": "Ersatzmotoren für verschiedene Staubsaugermarken und -modelle."
-      },
-      {
-        "slug": "staubsauger-raeder-und-rollen",
-        "name": "Räder und Rollen für Staubsauger",
-        "categoryNameCanonical": "Räder und Rollen für Staubsauger",
-        "description": "Ersatzräder für Bodendüsen und den Korpus des Staubsaugers."
-      },
-      {
-        "slug": "schalter-und-elektronik-fuer-staubsauger",
-        "name": "Schalter und Elektronik für Staubsauger",
-        "categoryNameCanonical": "Schalter und Elektronik für Staubsauger",
-        "description": "Ersatzteile wie Ein-/Ausschalter, Leistungsregler und Platinen."
-      },
-      {
-        "slug": "kohlebuersten-fuer-staubsaugermotoren",
-        "name": "Kohlebürsten für Staubsaugermotoren",
-        "categoryNameCanonical": "Kohlebürsten für Staubsaugermotoren",
-        "description": "Verschleißteile für den Elektromotor, die bei Abnutzung ausgetauscht werden können."
+        "slug": "farbige-heissluftfritteusen-rot-creme",
+        "name": "Farbige Heißluftfritteusen (z.B. Rot, Creme)",
+        "categoryNameCanonical": "Farbige Heißluftfritteusen (z.B. Rot, Creme)",
+        "description": "Setzen Sie einen Farbakzent in Ihrer Küche mit einem Gerät in Ihrer Lieblingsfarbe."
       }
     ]
   }
