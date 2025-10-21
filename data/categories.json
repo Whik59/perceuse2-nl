@@ -1,533 +1,799 @@
 [
   {
-    "slug": "bluetooth-in-ear-kopfhoerer",
-    "name": "Bluetooth In-Ear Kopfhörer",
-    "categoryNameCanonical": "Bluetooth In-Ear Kopfhörer",
-    "description": "Kabellose Ohrhörer für maximale Bewegungsfreiheit, die direkt im Ohr sitzen. Ideal für Smartphones, Sport und den täglichen Gebrauch.",
+    "slug": "massagepistolen",
+    "name": "Massagepistolen",
+    "categoryNameCanonical": "Massagepistolen",
+    "description": "Leistungsstarke Perkussionsmassagegeräte zur Tiefenmuskelentspannung, ideal für Sportler und zur Regeneration.",
     "subcategories": [
       {
-        "slug": "true-wireless-ohrhoerer",
-        "name": "True-Wireless-Ohrhörer",
-        "categoryNameCanonical": "True-Wireless-Ohrhörer",
-        "description": "Vollständig kabellose Ohrhörer mit Ladecase für höchste Portabilität."
+        "slug": "mini-massagepistolen",
+        "name": "Mini-Massagepistolen für Reisen",
+        "categoryNameCanonical": "Mini-Massagepistolen für Reisen",
+        "description": "Kompakte und leichte Massagepistolen, perfekt für den Einsatz unterwegs."
       },
       {
-        "slug": "in-ear-kopfhoerer-nackenbuegel",
-        "name": "In-Ear Kopfhörer mit Nackenbügel",
-        "categoryNameCanonical": "In-Ear Kopfhörer mit Nackenbügel",
-        "description": "Durch ein Nackenband verbundene Ohrhörer, ideal für Sport und sicheren Halt."
+        "slug": "massagepistolen-mit-heizfunktion",
+        "name": "Massagepistolen mit Heizfunktion",
+        "categoryNameCanonical": "Massagepistolen mit Heizfunktion",
+        "description": "Geräte mit integrierter Wärmefunktion zur zusätzlichen Muskelentspannung."
       },
       {
-        "slug": "in-ear-kopfhoerer-lange-akkulaufzeit",
-        "name": "In-Ear Kopfhörer mit langer Akkulaufzeit",
-        "categoryNameCanonical": "In-Ear Kopfhörer mit langer Akkulaufzeit",
-        "description": "Modelle, die für ausgedehnte Hörsessions ohne häufiges Aufladen konzipiert sind."
+        "slug": "profi-massagepistolen",
+        "name": "Profi-Massagepistolen mit hoher Leistung",
+        "categoryNameCanonical": "Profi-Massagepistolen mit hoher Leistung",
+        "description": "Besonders kraftvolle Geräte mit hoher Amplitude für den professionellen Einsatz."
+      },
+      {
+        "slug": "massagepistolen-mit-mehreren-aufsaetzen",
+        "name": "Massagepistolen mit mehreren Aufsätzen",
+        "categoryNameCanonical": "Massagepistolen mit mehreren Aufsätzen",
+        "description": "Sets inklusive verschiedener Aufsätze für unterschiedliche Muskelgruppen."
       }
     ]
   },
   {
-    "slug": "bluetooth-over-ear-kopfhoerer",
-    "name": "Bluetooth Over-Ear Kopfhörer",
-    "categoryNameCanonical": "Bluetooth Over-Ear Kopfhörer",
-    "description": "Kabellose Kopfhörer, die das Ohr vollständig umschließen und für immersiven Klang und Komfort sorgen. Oft mit Features wie Noise Cancelling.",
+    "slug": "nacken-und-schultermassagegeraete",
+    "name": "Nacken- & Schultermassagegeräte",
+    "categoryNameCanonical": "Nacken- & Schultermassagegeräte",
+    "description": "Spezialisierte Geräte zur Linderung von Verspannungen im Nacken- und Schulterbereich, oft mit Shiatsu- und Wärmefunktion.",
     "subcategories": [
       {
-        "slug": "faltbare-bluetooth-over-ear-kopfhoerer",
-        "name": "Faltbare Bluetooth Over-Ear Kopfhörer",
-        "categoryNameCanonical": "Faltbare Bluetooth Over-Ear Kopfhörer",
-        "description": "Kompakte, zusammenklappbare Modelle, perfekt für Reisen und unterwegs."
+        "slug": "shiatsu-nackenmassagegeraete",
+        "name": "Shiatsu-Nackenmassagegeräte",
+        "categoryNameCanonical": "Shiatsu-Nackenmassagegeräte",
+        "description": "Geräte, die die Knetbewegung einer Shiatsu-Massage imitieren."
       },
       {
-        "slug": "bluetooth-over-ear-multipoint",
-        "name": "Bluetooth Over-Ear mit Multipoint",
-        "categoryNameCanonical": "Bluetooth Over-Ear mit Multipoint",
-        "description": "Ermöglicht die gleichzeitige Verbindung mit zwei Geräten, z. B. Laptop und Handy."
+        "slug": "nackenmassagegeraete-mit-waermefunktion",
+        "name": "Nackenmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Nackenmassagegeräte mit Wärmefunktion",
+        "description": "Modelle mit zuschaltbarer Infrarotwärme für tiefere Entspannung."
       },
       {
-        "slug": "bluetooth-over-ear-noise-cancelling",
-        "name": "Bluetooth Over-Ear mit Noise Cancelling",
-        "categoryNameCanonical": "Bluetooth Over-Ear mit Noise Cancelling",
-        "description": "Reduziert aktiv Umgebungsgeräusche für ungestörten Musikgenuss."
+        "slug": "kabellose-nackenmassagegeraete",
+        "name": "Kabellose Nackenmassagegeräte",
+        "categoryNameCanonical": "Kabellose Nackenmassagegeräte",
+        "description": "Akkubetriebene Geräte für maximale Flexibilität und Nutzung an jedem Ort."
       }
     ]
   },
   {
-    "slug": "noise-cancelling-kopfhoerer",
-    "name": "Noise-Cancelling-Kopfhörer",
-    "categoryNameCanonical": "Noise-Cancelling-Kopfhörer",
-    "description": "Kopfhörer mit aktiver Geräuschunterdrückung (ANC) zur Reduzierung von Umgebungsgeräuschen in Flugzeugen, Zügen oder Büros.",
+    "slug": "rueckenmassagegeraete",
+    "name": "Rückenmassagegeräte",
+    "categoryNameCanonical": "Rückenmassagegeräte",
+    "description": "Vielfältige Geräte zur Massage des gesamten Rückens, von Massageauflagen bis zu handgeführten Modellen.",
     "subcategories": [
       {
-        "slug": "anc-over-ear-kopfhoerer",
-        "name": "ANC Over-Ear Kopfhörer",
-        "categoryNameCanonical": "ANC Over-Ear Kopfhörer",
-        "description": "Bieten die beste Geräuschisolierung durch die Kombination von ANC und ohrumschließendem Design."
+        "slug": "shiatsu-massageauflagen-fuer-stuehle",
+        "name": "Shiatsu-Massageauflagen für Stühle",
+        "categoryNameCanonical": "Shiatsu-Massageauflagen für Stühle",
+        "description": "Auflagen zur Anbringung an Büro- oder Wohnzimmerstühlen."
       },
       {
-        "slug": "anc-in-ear-ohrhoerer",
-        "name": "ANC In-Ear Ohrhörer",
-        "categoryNameCanonical": "ANC In-Ear Ohrhörer",
-        "description": "Kompakte Ohrhörer mit aktiver Geräuschunterdrückung für unterwegs."
+        "slug": "massageguertel-fuer-den-unteren-ruecken",
+        "name": "Massagegürtel für den unteren Rücken",
+        "categoryNameCanonical": "Massagegürtel für den unteren Rücken",
+        "description": "Gürtel mit Vibrations- und Wärmefunktion speziell für den Lendenbereich."
       },
       {
-        "slug": "noise-cancelling-kopfhoerer-reisen",
-        "name": "Noise-Cancelling-Kopfhörer für Reisen",
-        "categoryNameCanonical": "Noise-Cancelling-Kopfhörer für Reisen",
-        "description": "Leichte, faltbare Modelle mit langer Akkulaufzeit, ideal für lange Flüge."
+        "slug": "manuelle-rueckenmassagegeraete",
+        "name": "Manuelle Rückenmassagehilfen",
+        "categoryNameCanonical": "Manuelle Rückenmassagehilfen",
+        "description": "Haken, Rollen und andere Werkzeuge zur Selbstmassage schwer erreichbarer Stellen."
       }
     ]
   },
   {
-    "slug": "gaming-headsets",
-    "name": "Gaming-Headsets",
-    "categoryNameCanonical": "Gaming-Headsets",
-    "description": "Spezialisierte Kopfhörer mit Mikrofon für Gamer, optimiert für Surround-Sound, Sprachkommunikation und langen Tragekomfort.",
+    "slug": "fussmassagegeraete",
+    "name": "Fußmassagegeräte",
+    "categoryNameCanonical": "Fußmassagegeräte",
+    "description": "Elektrische Geräte zur Entspannung müder Füße durch Shiatsu, Luftkompression oder Vibration.",
     "subcategories": [
       {
-        "slug": "gaming-headsets-pc",
-        "name": "Gaming-Headsets für PC",
-        "categoryNameCanonical": "Gaming-Headsets für PC",
-        "description": "Modelle mit USB- oder Klinkenanschluss, oft mit anpassbarer Software."
+        "slug": "fussmassagegeraete-mit-waermefunktion",
+        "name": "Fußmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Fußmassagegeräte mit Wärmefunktion",
+        "description": "Geräte mit integrierter Heizung zur Förderung der Durchblutung."
       },
       {
-        "slug": "gaming-headsets-ps5",
-        "name": "Gaming-Headsets für PS5",
-        "categoryNameCanonical": "Gaming-Headsets für PS5",
-        "description": "Kompatibel mit PlayStation 5, oft mit 3D-Audio-Unterstützung."
+        "slug": "fussmassagegeraete-mit-luftkompression",
+        "name": "Fußmassagegeräte mit Luftkompression",
+        "categoryNameCanonical": "Fußmassagegeräte mit Luftkompression",
+        "description": "Modelle, die mit Luftkissen arbeiten, um die Füße sanft zu komprimieren."
       },
       {
-        "slug": "gaming-headsets-xbox",
-        "name": "Gaming-Headsets für Xbox",
-        "categoryNameCanonical": "Gaming-Headsets für Xbox",
-        "description": "Speziell für Xbox-Konsolen entwickelte kabellose oder kabelgebundene Headsets."
-      },
-      {
-        "slug": "kabellose-gaming-headsets",
-        "name": "Kabellose Gaming-Headsets",
-        "categoryNameCanonical": "Kabellose Gaming-Headsets",
-        "description": "Bieten maximale Bewegungsfreiheit beim Spielen durch 2,4-GHz-Funk oder Bluetooth."
+        "slug": "fussreflexzonen-massagegeraete",
+        "name": "Fußreflexzonen-Massagegeräte",
+        "categoryNameCanonical": "Fußreflexzonen-Massagegeräte",
+        "description": "Spezielle Geräte zur Stimulierung der Fußreflexzonen."
       }
     ]
   },
   {
-    "slug": "sportkopfhoerer",
-    "name": "Sportkopfhörer",
-    "categoryNameCanonical": "Sportkopfhörer",
-    "description": "Schweiß- und wasserfeste Kopfhörer, die für einen sicheren Halt bei körperlicher Aktivität wie Laufen, Fitness oder Schwimmen konzipiert sind.",
+    "slug": "handmassagegeraete",
+    "name": "Handmassagegeräte",
+    "categoryNameCanonical": "Handmassagegeräte",
+    "description": "Vielseitige, elektrisch betriebene Geräte für die gezielte Anwendung an verschiedenen Körperstellen.",
     "subcategories": [
       {
-        "slug": "wasserdichte-kopfhoerer-schwimmen",
-        "name": "Wasserdichte Kopfhörer zum Schwimmen",
-        "categoryNameCanonical": "Wasserdichte Kopfhörer zum Schwimmen",
-        "description": "IPX7/8-zertifizierte Modelle, oft mit integriertem MP3-Player."
+        "slug": "infrarot-handmassagegeraete",
+        "name": "Infrarot-Handmassagegeräte",
+        "categoryNameCanonical": "Infrarot-Handmassagegeräte",
+        "description": "Handgeräte, die wohltuende Infrarotwärme abgeben."
       },
       {
-        "slug": "sportkopfhoerer-mit-ohrbuegel",
-        "name": "Sportkopfhörer mit Ohrbügel",
-        "categoryNameCanonical": "Sportkopfhörer mit Ohrbügel",
-        "description": "Bieten extra sicheren Halt und verhindern das Herausfallen beim Laufen oder Springen."
+        "slug": "perkussions-handmassagegeraete",
+        "name": "Perkussions-Handmassagegeräte",
+        "categoryNameCanonical": "Perkussions-Handmassagegeräte",
+        "description": "Klopffunktion für eine intensive Tiefenmassage."
       },
       {
-        "slug": "knochenschall-kopfhoerer-sport",
-        "name": "Knochenschall-Kopfhörer für Sport",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer für Sport",
-        "description": "Halten die Ohren frei, um Umgebungsgeräusche wahrzunehmen, ideal für Radfahrer und Läufer."
+        "slug": "kabellose-handmassagegeraete",
+        "name": "Kabellose Handmassagegeräte",
+        "categoryNameCanonical": "Kabellose Handmassagegeräte",
+        "description": "Akkubetriebene Modelle für den flexiblen Einsatz ohne Kabel."
       }
     ]
   },
   {
-    "slug": "kabelgebundene-kopfhoerer",
-    "name": "Kabelgebundene Kopfhörer",
-    "categoryNameCanonical": "Kabelgebundene Kopfhörer",
-    "description": "Klassische Kopfhörer mit Kabelverbindung für verlustfreie Audioqualität und ohne Akku-Sorgen. Ideal für Hi-Fi-Anlagen, PCs und ältere Geräte.",
+    "slug": "massagesessel",
+    "name": "Massagesessel",
+    "categoryNameCanonical": "Massagesessel",
+    "description": "Hochwertige Sessel für eine Ganzkörpermassage, oft mit Zero-Gravity-Funktion und verschiedenen Automatikprogrammen.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-3-5mm-klinke",
-        "name": "Kopfhörer mit 3,5mm-Klinke",
-        "categoryNameCanonical": "Kopfhörer mit 3,5mm-Klinke",
-        "description": "Der universelle Standard für die meisten Audiogeräte."
+        "slug": "massagesessel-mit-shiatsu-funktion",
+        "name": "Massagesessel mit Shiatsu-Funktion",
+        "categoryNameCanonical": "Massagesessel mit Shiatsu-Funktion",
+        "description": "Sessel, die eine authentische Shiatsu-Knetmassage bieten."
       },
       {
-        "slug": "kopfhoerer-mit-usb-c",
-        "name": "Kopfhörer mit USB-C",
-        "categoryNameCanonical": "Kopfhörer mit USB-C",
-        "description": "Für moderne Smartphones und Laptops ohne traditionellen Kopfhöreranschluss."
+        "slug": "massagesessel-mit-zero-gravity",
+        "name": "Massagesessel mit Zero-Gravity-Position",
+        "categoryNameCanonical": "Massagesessel mit Zero-Gravity-Position",
+        "description": "Modelle, die den Körper in eine nahezu schwerelose Position bringen."
       },
       {
-        "slug": "kopfhoerer-mit-lightning-anschluss",
-        "name": "Kopfhörer mit Lightning-Anschluss",
-        "categoryNameCanonical": "Kopfhörer mit Lightning-Anschluss",
-        "description": "Speziell für Apple iPhones und iPads konzipiert."
+        "slug": "kompakte-massagesessel",
+        "name": "Kompakte Massagesessel für Wohnräume",
+        "categoryNameCanonical": "Kompakte Massagesessel für Wohnräume",
+        "description": "Platzsparende Modelle, die sich gut in das Wohnambiente integrieren."
       }
     ]
   },
   {
-    "slug": "kinderkopfhoerer",
-    "name": "Kinderkopfhörer",
-    "categoryNameCanonical": "Kinderkopfhörer",
-    "description": "Robuste und sichere Kopfhörer für Kinder, oft mit integrierter Lautstärkebegrenzung zum Schutz des empfindlichen Gehörs.",
+    "slug": "faszienrollen",
+    "name": "Faszienrollen",
+    "categoryNameCanonical": "Faszienrollen",
+    "description": "Rollen zur Selbstmassage des Bindegewebes (Faszien) zur Verbesserung der Flexibilität und Linderung von Muskelkater.",
     "subcategories": [
       {
-        "slug": "kinderkopfhoerer-mit-lautstaerkebegrenzung",
-        "name": "Kinderkopfhörer mit Lautstärkebegrenzung",
-        "categoryNameCanonical": "Kinderkopfhörer mit Lautstärkebegrenzung",
-        "description": "Schützen das Gehör durch eine maximale Dezibel-Grenze (meist 85dB)."
+        "slug": "faszienrollen-aus-hartschaum",
+        "name": "Faszienrollen aus Hartschaum",
+        "categoryNameCanonical": "Faszienrollen aus Hartschaum",
+        "description": "Standardrollen in verschiedenen Härtegraden für Einsteiger und Fortgeschrittene."
       },
       {
-        "slug": "kabellose-kinderkopfhoerer",
-        "name": "Kabellose Kinderkopfhörer",
-        "categoryNameCanonical": "Kabellose Kinderkopfhörer",
-        "description": "Bluetooth-Modelle ohne Kabel, um Verwicklungsgefahr zu vermeiden."
+        "slug": "faszienrollen-mit-vibration",
+        "name": "Faszienrollen mit Vibration",
+        "categoryNameCanonical": "Faszienrollen mit Vibration",
+        "description": "Elektrische Rollen mit zuschaltbarer Vibration für eine intensivere Wirkung."
       },
       {
-        "slug": "kinderkopfhoerer-fuer-toniebox",
-        "name": "Kinderkopfhörer für Toniebox",
-        "categoryNameCanonical": "Kinderkopfhörer für Toniebox",
-        "description": "Kabelgebundene Modelle, die speziell für die Verwendung mit Hörspielboxen geeignet sind."
+        "slug": "mini-faszienrollen",
+        "name": "Mini-Faszienrollen für Arme & Füße",
+        "categoryNameCanonical": "Mini-Faszienrollen für Arme & Füße",
+        "description": "Kleine Rollen zur gezielten Behandlung von kleineren Muskelgruppen."
+      },
+      {
+        "slug": "faszienrollen-aus-holz-oder-kork",
+        "name": "Faszienrollen aus Holz oder Kork",
+        "categoryNameCanonical": "Faszienrollen aus Holz oder Kork",
+        "description": "Nachhaltige und feste Alternativen zum klassischen Schaumstoff."
       }
     ]
   },
   {
-    "slug": "tv-kopfhoerer",
-    "name": "TV-Kopfhörer",
-    "categoryNameCanonical": "TV-Kopfhörer",
-    "description": "Kopfhörer für den Fernseher, oft kabellos (Funk/RF oder Bluetooth mit geringer Latenz), um den Ton zu genießen, ohne andere zu stören.",
+    "slug": "massagebaelle",
+    "name": "Massagebälle",
+    "categoryNameCanonical": "Massagebälle",
+    "description": "Bälle zur punktuellen Massage von Triggerpunkten und schwer erreichbaren Muskelpartien.",
     "subcategories": [
       {
-        "slug": "funk-kopfhoerer-fuer-tv",
-        "name": "Funk-Kopfhörer für TV (RF)",
-        "categoryNameCanonical": "Funk-Kopfhörer für TV (RF)",
-        "description": "Bieten eine stabile Verbindung mit großer Reichweite und ohne Tonverzögerung."
+        "slug": "igelbaelle-mit-noppen",
+        "name": "Igelbälle (Massagebälle mit Noppen)",
+        "categoryNameCanonical": "Igelbälle (Massagebälle mit Noppen)",
+        "description": "Bälle mit Stacheln zur Förderung der Durchblutung und Stimulation."
       },
       {
-        "slug": "bluetooth-kopfhoerer-fuer-tv",
-        "name": "Bluetooth-Kopfhörer für TV",
-        "categoryNameCanonical": "Bluetooth-Kopfhörer für TV",
-        "description": "Modelle mit Low-Latency-Codecs (aptX LL) zur Synchronisation von Bild und Ton."
+        "slug": "faszienbaelle-glatt",
+        "name": "Glatte Faszienbälle (Lacrosse-Bälle)",
+        "categoryNameCanonical": "Glatte Faszienbälle (Lacrosse-Bälle)",
+        "description": "Harte, glatte Bälle für eine intensive, punktuelle Tiefenmassage."
       },
       {
-        "slug": "kinnbuegelhoerer-fuer-senioren",
-        "name": "Kinnbügelhörer für Senioren",
-        "categoryNameCanonical": "Kinnbügelhörer für Senioren",
-        "description": "Leichte Hörsysteme, die unter dem Kinn getragen werden, oft mit Sprachverstärkung."
+        "slug": "doppel-massagebaelle",
+        "name": "Doppel-Massagebälle (Duobälle)",
+        "categoryNameCanonical": "Doppel-Massagebälle (Duobälle)",
+        "description": "Zwei verbundene Bälle, ideal für die Massage entlang der Wirbelsäule."
       }
     ]
   },
   {
-    "slug": "on-ear-kopfhoerer",
-    "name": "On-Ear Kopfhörer",
-    "categoryNameCanonical": "On-Ear Kopfhörer",
-    "description": "Kopfhörer, die auf den Ohren aufliegen. Ein Kompromiss aus der Kompaktheit von In-Ears und der Klangqualität von Over-Ears.",
+    "slug": "klappbare-massageliegen",
+    "name": "Klappbare Massageliegen",
+    "categoryNameCanonical": "Klappbare Massageliegen",
+    "description": "Mobile und transportable Massageliegen für Therapeuten, die Hausbesuche machen oder begrenzten Platz haben.",
     "subcategories": [
       {
-        "slug": "leichte-on-ear-kopfhoerer",
-        "name": "Leichte On-Ear Kopfhörer",
-        "categoryNameCanonical": "Leichte On-Ear Kopfhörer",
-        "description": "Besonders leichte Modelle für hohen Tragekomfort über längere Zeit."
+        "slug": "massageliegen-aus-holz-klappbar",
+        "name": "Klappbare Massageliegen aus Holz",
+        "categoryNameCanonical": "Klappbare Massageliegen aus Holz",
+        "description": "Stabile und ästhetisch ansprechende Holzkonstruktionen."
       },
       {
-        "slug": "faltbare-on-ear-kopfhoerer",
-        "name": "Faltbare On-Ear Kopfhörer",
-        "categoryNameCanonical": "Faltbare On-Ear Kopfhörer",
-        "description": "Kompakt und einfach zu transportieren, ideal für Pendler."
+        "slug": "massageliegen-aus-aluminium-klappbar",
+        "name": "Klappbare Massageliegen aus Aluminium",
+        "categoryNameCanonical": "Klappbare Massageliegen aus Aluminium",
+        "description": "Besonders leichte Modelle für den einfachen Transport."
       },
       {
-        "slug": "bluetooth-on-ear-kopfhoerer",
-        "name": "Bluetooth On-Ear Kopfhörer",
-        "categoryNameCanonical": "Bluetooth On-Ear Kopfhörer",
-        "description": "Kabellose On-Ear-Modelle für den unkomplizierten mobilen Einsatz."
+        "slug": "massageliegen-komplettsets",
+        "name": "Klappbare Massageliegen als Komplettset",
+        "categoryNameCanonical": "Klappbare Massageliegen als Komplettset",
+        "description": "Sets inklusive Kopfstütze, Armlehnen und Tragetasche."
       }
     ]
   },
   {
-    "slug": "buero-call-center-headsets",
-    "name": "Büro & Call-Center-Headsets",
-    "categoryNameCanonical": "Büro & Call-Center-Headsets",
-    "description": "Headsets mit hochwertigen Mikrofonen und Geräuschunterdrückung für klare Kommunikation in Videokonferenzen und Telefonaten.",
+    "slug": "massagestuehle-fuer-therapeuten",
+    "name": "Massagestühle für Therapeuten",
+    "categoryNameCanonical": "Massagestühle für Therapeuten",
+    "description": "Ergonomische, mobile Stühle für die Massage im Sitzen, ideal für Events, Büros oder Messen.",
     "subcategories": [
       {
-        "slug": "usb-headsets-fuer-buero",
-        "name": "USB-Headsets für Büro",
-        "categoryNameCanonical": "USB-Headsets für Büro",
-        "description": "Einfache Plug-and-Play-Installation am PC oder Laptop."
+        "slug": "massagestuehle-aus-aluminium",
+        "name": "Massagestühle aus Aluminium",
+        "categoryNameCanonical": "Massagestühle aus Aluminium",
+        "description": "Leichte und robuste Stühle für den einfachen Transport und Aufbau."
       },
       {
-        "slug": "headsets-mit-noise-cancelling-mikrofon",
-        "name": "Headsets mit Noise-Cancelling-Mikrofon",
-        "categoryNameCanonical": "Headsets mit Noise-Cancelling-Mikrofon",
-        "description": "Filtern Hintergrundgeräusche heraus, damit Ihre Stimme klar verständlich ist."
+        "slug": "massagestuehle-mit-tragetasche",
+        "name": "Massagestühle mit Tragetasche",
+        "categoryNameCanonical": "Massagestühle mit Tragetasche",
+        "description": "Modelle, die standardmäßig mit einer passenden Tasche geliefert werden."
       },
       {
-        "slug": "einohr-headsets-monaural",
-        "name": "Einohr-Headsets (Monaural)",
-        "categoryNameCanonical": "Einohr-Headsets (Monaural)",
-        "description": "Ermöglichen es, mit einem Ohr die Umgebung wahrzunehmen, während man telefoniert."
+        "slug": "verstellbare-massagestuehle",
+        "name": "Voll verstellbare Massagestühle",
+        "categoryNameCanonical": "Voll verstellbare Massagestühle",
+        "description": "Stühle mit anpassbarer Sitzfläche, Arm- und Kopfstütze."
       }
     ]
   },
   {
-    "slug": "studio-kopfhoerer",
-    "name": "Studio-Kopfhörer",
-    "categoryNameCanonical": "Studio-Kopfhörer",
-    "description": "Professionelle Kopfhörer für Musiker und Produzenten mit neutralem, unverfälschtem Klangbild für Mixing, Mastering und Recording.",
+    "slug": "massageliegenbezuege-und-tuecher",
+    "name": "Massageliegenbezüge & -tücher",
+    "categoryNameCanonical": "Massageliegenbezüge & -tücher",
+    "description": "Hygienische und komfortable Bezüge zum Schutz von Massageliegen und für das Wohlbefinden der Klienten.",
     "subcategories": [
       {
-        "slug": "offene-studio-kopfhoerer",
-        "name": "Offene Studio-Kopfhörer",
-        "categoryNameCanonical": "Offene Studio-Kopfhörer",
-        "description": "Bieten eine breite, natürliche Klangbühne, ideal für Mixing und Mastering."
+        "slug": "einweg-massageliegenbezuege",
+        "name": "Einweg-Massageliegenbezüge auf Rolle",
+        "categoryNameCanonical": "Einweg-Massageliegenbezüge auf Rolle",
+        "description": "Hygienische Papier- oder Vliesrollen für den professionellen Einsatz."
       },
       {
-        "slug": "geschlossene-studio-kopfhoerer",
-        "name": "Geschlossene Studio-Kopfhörer",
-        "categoryNameCanonical": "Geschlossene Studio-Kopfhörer",
-        "description": "Isolieren Außengeräusche, perfekt für die Aufnahme (Recording) von Gesang oder Instrumenten."
+        "slug": "waschbare-frottee-spannbezuege",
+        "name": "Waschbare Spannbezüge aus Frottee",
+        "categoryNameCanonical": "Waschbare Spannbezüge aus Frottee",
+        "description": "Wiederverwendbare und weiche Bezüge aus Baumwolle oder Frottee."
       },
       {
-        "slug": "studio-kopfhoerer-hohe-impedanz",
-        "name": "Studio-Kopfhörer mit hoher Impedanz",
-        "categoryNameCanonical": "Studio-Kopfhörer mit hoher Impedanz",
-        "description": "Für den Einsatz mit professionellen Kopfhörerverstärkern für höchste Klangtreue."
+        "slug": "oelfeste-massageliegenbezuege",
+        "name": "Ölfeste & abwischbare Schutzbezüge",
+        "categoryNameCanonical": "Ölfeste & abwischbare Schutzbezüge",
+        "description": "Bezüge aus PU-Material, die Massageöl abweisen und leicht zu reinigen sind."
       }
     ]
   },
   {
-    "slug": "knochenschall-kopfhoerer",
-    "name": "Knochenschall-Kopfhörer",
-    "categoryNameCanonical": "Knochenschall-Kopfhörer",
-    "description": "Übertragen den Schall über die Wangenknochen, sodass die Ohren frei bleiben. Ideal für Sportler und Personen mit Hörbeeinträchtigungen.",
+    "slug": "massageoele",
+    "name": "Massageöle",
+    "categoryNameCanonical": "Massageöle",
+    "description": "Pflanzliche und mineralische Öle, die die Haut pflegen und das Gleiten der Hände bei der Massage erleichtern.",
     "subcategories": [
       {
-        "slug": "knochenschall-kopfhoerer-fuer-radfahrer",
-        "name": "Knochenschall-Kopfhörer für Radfahrer",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer für Radfahrer",
-        "description": "Ermöglichen das Hören von Musik und gleichzeitigem Wahrnehmen des Verkehrs."
+        "slug": "massageoele-auf-mandeloelbasis",
+        "name": "Massageöle auf Mandelölbasis",
+        "categoryNameCanonical": "Massageöle auf Mandelölbasis",
+        "description": "Besonders hautfreundliche und gut verträgliche Basisöle."
       },
       {
-        "slug": "wasserdichte-knochenschall-kopfhoerer",
-        "name": "Wasserdichte Knochenschall-Kopfhörer",
-        "categoryNameCanonical": "Wasserdichte Knochenschall-Kopfhörer",
-        "description": "IP68-zertifizierte Modelle, die auch beim Schwimmen getragen werden können."
+        "slug": "waermende-massageoele",
+        "name": "Wärmende Massageöle mit Arnika & Ingwer",
+        "categoryNameCanonical": "Wärmende Massageöle mit Arnika & Ingwer",
+        "description": "Öle mit durchblutungsfördernden Zusätzen, ideal für Sportmassagen."
       },
       {
-        "slug": "knochenschall-kopfhoerer-mit-mikrofon",
-        "name": "Knochenschall-Kopfhörer mit Mikrofon",
-        "categoryNameCanonical": "Knochenschall-Kopfhörer mit Mikrofon",
-        "description": "Geeignet für Telefonate, ohne die Ohren zu bedecken."
+        "slug": "entspannende-massageoele",
+        "name": "Entspannende Massageöle mit Lavendel",
+        "categoryNameCanonical": "Entspannende Massageöle mit Lavendel",
+        "description": "Aromatische Öle zur Förderung von Ruhe und Entspannung."
+      },
+      {
+        "slug": "neutrale-massageoele-fuer-profis",
+        "name": "Neutrale Massageöle für Profis",
+        "categoryNameCanonical": "Neutrale Massageöle für Profis",
+        "description": "Geruchsneutrale und ergiebige Öle in Großgebinden für den Praxisbedarf."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-mit-mikrofon",
-    "name": "Kopfhörer mit Mikrofon (Headsets)",
-    "categoryNameCanonical": "Kopfhörer mit Mikrofon (Headsets)",
-    "description": "Allzweck-Kopfhörer mit integriertem Mikrofon für Telefonate, Online-Meetings und einfache Sprachaufnahmen.",
+    "slug": "massagelotionen-und-cremes",
+    "name": "Massagelotionen & -cremes",
+    "categoryNameCanonical": "Massagelotionen & -cremes",
+    "description": "Bieten eine Alternative zu Ölen, ziehen schneller ein und hinterlassen ein weniger fettiges Hautgefühl.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-mikrofon-fuer-handy",
-        "name": "Kopfhörer mit Mikrofon für Handy",
-        "categoryNameCanonical": "Kopfhörer mit Mikrofon für Handy",
-        "description": "Kabelgebundene oder kabellose Modelle für klare Anrufe unterwegs."
+        "slug": "massagelotionen-mit-hoher-gleitfaehigkeit",
+        "name": "Massagelotionen mit hoher Gleitfähigkeit",
+        "categoryNameCanonical": "Massagelotionen mit hoher Gleitfähigkeit",
+        "description": "Lotionen für langanhaltende Massagen, ohne schnell einzuziehen."
       },
       {
-        "slug": "headsets-fuer-videokonferenzen",
-        "name": "Headsets für Videokonferenzen",
-        "categoryNameCanonical": "Headsets für Videokonferenzen",
-        "description": "Optimiert für Sprachverständlichkeit in Programmen wie Zoom, Teams oder Skype."
+        "slug": "massagecremes-fuer-sportler",
+        "name": "Sport-Massagecremes",
+        "categoryNameCanonical": "Sport-Massagecremes",
+        "description": "Cremes mit kühlenden oder wärmenden Eigenschaften zur Muskelregeneration."
       },
       {
-        "slug": "kopfhoerer-mit-stummschaltung",
-        "name": "Kopfhörer mit Stummschaltung",
-        "categoryNameCanonical": "Kopfhörer mit Stummschaltung",
-        "description": "Verfügen über eine physische Taste oder Funktion zum schnellen Stummschalten des Mikrofons."
+        "slug": "parfuemfreie-massagelotionen",
+        "name": "Parfümfreie Massagelotionen für sensible Haut",
+        "categoryNameCanonical": "Parfümfreie Massagelotionen für sensible Haut",
+        "description": "Hypoallergene Produkte ohne Duftstoffe."
       }
     ]
   },
   {
-    "slug": "reisekopfhoerer",
-    "name": "Reisekopfhörer",
-    "categoryNameCanonical": "Reisekopfhörer",
-    "description": "Kompakte, oft faltbare Kopfhörer mit Zubehör wie Transportetuis und Flugzeugadaptern, ideal für Pendler und Reisende.",
+    "slug": "hot-stone-massagesets",
+    "name": "Hot-Stone-Massagesets",
+    "categoryNameCanonical": "Hot-Stone-Massagesets",
+    "description": "Sets aus Basaltsteinen und Wärmegeräten für die Durchführung einer entspannenden Hot-Stone-Massage.",
     "subcategories": [
       {
-        "slug": "faltbare-und-kompakte-kopfhoerer",
-        "name": "Faltbare und kompakte Kopfhörer",
-        "categoryNameCanonical": "Faltbare und kompakte Kopfhörer",
-        "description": "Lassen sich klein zusammenlegen und platzsparend im Gepäck verstauen."
+        "slug": "hot-stone-sets-fuer-einsteiger",
+        "name": "Hot-Stone-Sets für Einsteiger",
+        "categoryNameCanonical": "Hot-Stone-Sets für Einsteiger",
+        "description": "Kleine Sets mit den wichtigsten Steinen und einem einfachen Erwärmer."
       },
       {
-        "slug": "kopfhoerer-mit-transportetui",
-        "name": "Kopfhörer mit Transportetui",
-        "categoryNameCanonical": "Kopfhörer mit Transportetui",
-        "description": "Werden mit einem Hard- oder Softcase zum Schutz auf Reisen geliefert."
+        "slug": "professionelle-hot-stone-sets",
+        "name": "Professionelle Hot-Stone-Sets",
+        "categoryNameCanonical": "Professionelle Hot-Stone-Sets",
+        "description": "Umfangreiche Sets mit einer Vielzahl von Steinen und professionellem Wärmegerät."
       },
       {
-        "slug": "kopfhoerer-mit-flugzeugadapter",
-        "name": "Kopfhörer mit Flugzeugadapter",
-        "categoryNameCanonical": "Kopfhörer mit Flugzeugadapter",
-        "description": "Ermöglichen den Anschluss an das In-Flight-Entertainment-System im Flugzeug."
+        "slug": "einzelne-massagesteine",
+        "name": "Einzelne Massagesteine aus Basalt",
+        "categoryNameCanonical": "Einzelne Massagesteine aus Basalt",
+        "description": "Zum Ersetzen oder Erweitern bestehender Sets."
       }
     ]
   },
   {
-    "slug": "audiophile-kopfhoerer",
-    "name": "Audiophile Kopfhörer",
-    "categoryNameCanonical": "Audiophile Kopfhörer",
-    "description": "High-End-Kopfhörer für anspruchsvolle Hörer, die Wert auf höchste Klangtreue, Detailreichtum und erstklassige Materialien legen.",
+    "slug": "schroepfsets",
+    "name": "Schröpfsets",
+    "categoryNameCanonical": "Schröpfsets",
+    "description": "Sets aus Gläsern oder Silikon-Cups zur Durchführung der Schröpftherapie, einer traditionellen Heilmethode.",
     "subcategories": [
       {
-        "slug": "offene-audiophile-kopfhoerer",
-        "name": "Offene audiophile Kopfhörer",
-        "categoryNameCanonical": "Offene audiophile Kopfhörer",
-        "description": "Für eine weite, natürliche Klangbühne und ein luftiges Hörerlebnis."
+        "slug": "schroepfglaeser-mit-vakuumpumpe",
+        "name": "Schröpfgläser-Sets mit Vakuumpumpe",
+        "categoryNameCanonical": "Schröpfgläser-Sets mit Vakuumpumpe",
+        "description": "Klassische Sets aus Kunststoff- oder Glasgläsern mit manueller Pumpe."
       },
       {
-        "slug": "planar-magnetische-kopfhoerer",
-        "name": "Planar-magnetische Kopfhörer",
-        "categoryNameCanonical": "Planar-magnetische Kopfhörer",
-        "description": "Nutzen eine spezielle Treibertechnologie für extrem präzisen und verzerrungsarmen Klang."
+        "slug": "silikon-schroepfkoepfe",
+        "name": "Schröpfsets aus Silikon",
+        "categoryNameCanonical": "Schröpfsets aus Silikon",
+        "description": "Flexible Cups, die durch Zusammendrücken ein Vakuum erzeugen."
       },
       {
-        "slug": "high-resolution-audio-kopfhoerer",
-        "name": "High-Resolution-Audio-Kopfhörer",
-        "categoryNameCanonical": "High-Resolution-Audio-Kopfhörer",
-        "description": "Zertifiziert für die Wiedergabe von hochauflösenden Audioformaten."
+        "slug": "schroepfsets-fuer-gesicht",
+        "name": "Schröpfsets für die Gesichtsmassage",
+        "categoryNameCanonical": "Schröpfsets für die Gesichtsmassage",
+        "description": "Kleinere, sanftere Cups speziell für die Anwendung im Gesicht."
       }
     ]
   },
   {
-    "slug": "dj-kopfhoerer",
-    "name": "DJ-Kopfhörer",
-    "categoryNameCanonical": "DJ-Kopfhörer",
-    "description": "Robuste Kopfhörer für DJs mit hoher Belastbarkeit, guter Geräuschisolierung und oft drehbaren Ohrmuscheln für einseitiges Monitoring.",
+    "slug": "akupressurmatten",
+    "name": "Akupressurmatten & -kissen",
+    "categoryNameCanonical": "Akupressurmatten & -kissen",
+    "description": "Matten und Kissen mit Kunststoffspitzen, die durch Druck auf Akupressurpunkte Verspannungen lösen sollen.",
     "subcategories": [
       {
-        "slug": "dj-kopfhoerer-mit-drehbaren-ohrmuscheln",
-        "name": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
-        "categoryNameCanonical": "DJ-Kopfhörer mit drehbaren Ohrmuscheln",
-        "description": "Ermöglichen das einfache Vorhören von Tracks mit einem Ohr."
+        "slug": "akupressurmatten-sets-mit-kissen",
+        "name": "Akupressurmatten-Sets mit Kissen",
+        "categoryNameCanonical": "Akupressurmatten-Sets mit Kissen",
+        "description": "Kombination aus Matte für den Rücken und Kissen für den Nacken."
       },
       {
-        "slug": "dj-kopfhoerer-mit-spiralkabel",
-        "name": "DJ-Kopfhörer mit Spiralkabel",
-        "categoryNameCanonical": "DJ-Kopfhörer mit Spiralkabel",
-        "description": "Bieten Flexibilität und verhindern Kabelsalat hinter dem DJ-Pult."
+        "slug": "akupressurmatten-aus-natuerlichen-materialien",
+        "name": "Akupressurmatten aus Leinen & Kokosfaser",
+        "categoryNameCanonical": "Akupressurmatten aus Leinen & Kokosfaser",
+        "description": "Ökologische Varianten mit natürlichen Füll- und Bezugsmaterialien."
       },
       {
-        "slug": "geschlossene-dj-kopfhoerer",
-        "name": "Geschlossene DJ-Kopfhörer",
-        "categoryNameCanonical": "Geschlossene DJ-Kopfhörer",
-        "description": "Bieten eine starke Abschirmung von lauten Umgebungsgeräuschen im Club."
+        "slug": "akupressurkissen-fuer-nacken",
+        "name": "Akupressurkissen für Nacken & Füße",
+        "categoryNameCanonical": "Akupressurkissen für Nacken & Füße",
+        "description": "Einzelne Kissen zur gezielten Anwendung."
       }
     ]
   },
   {
-    "slug": "in-ear-monitoring-systeme",
-    "name": "In-Ear-Monitoring-Systeme",
-    "categoryNameCanonical": "In-Ear-Monitoring-Systeme",
-    "description": "Professionelle Ohrhörer für Musiker auf der Bühne, die eine präzise und direkte Klangwiedergabe des eigenen Instruments oder der Stimme ermöglichen.",
+    "slug": "kopfmassagegeraete",
+    "name": "Kopfmassagegeräte",
+    "categoryNameCanonical": "Kopfmassagegeräte",
+    "description": "Manuelle und elektrische Geräte zur Stimulation der Kopfhaut und zur Förderung der Entspannung.",
     "subcategories": [
       {
-        "slug": "kabelgebundene-in-ear-monitore",
-        "name": "Kabelgebundene In-Ear-Monitore",
-        "categoryNameCanonical": "Kabelgebundene In-Ear-Monitore",
-        "description": "Direkte Verbindung zum Mischpult oder Bodypack für eine latenzfreie Übertragung."
+        "slug": "manuelle-kopfkrauler",
+        "name": "Manuelle Kopfkrauler (Massagespinnen)",
+        "categoryNameCanonical": "Manuelle Kopfkrauler (Massagespinnen)",
+        "description": "Klassische Geräte mit Metallarmen zur sanften Kopfhautstimulation."
       },
       {
-        "slug": "kabellose-in-ear-monitoring-systeme",
-        "name": "Kabellose In-Ear-Monitoring-Systeme",
-        "categoryNameCanonical": "Kabellose In-Ear-Monitoring-Systeme",
-        "description": "Bestehen aus Sender und Bodypack-Empfänger für maximale Bewegungsfreiheit auf der Bühne."
+        "slug": "elektrische-kopfhautmassagegeraete",
+        "name": "Elektrische Kopfhautmassagegeräte",
+        "categoryNameCanonical": "Elektrische Kopfhautmassagegeräte",
+        "description": "Wasserdichte, rotierende Geräte, oft auch für die Haarwäsche geeignet."
       },
       {
-        "slug": "in-ear-monitore-mit-mehreren-treibern",
-        "name": "In-Ear-Monitore mit mehreren Treibern",
-        "categoryNameCanonical": "In-Ear-Monitore mit mehreren Treibern",
-        "description": "Nutzen separate Treiber für Bässe, Mitten und Höhen für einen detaillierteren Klang."
+        "slug": "shampoo-massagebuersten",
+        "name": "Shampoo-Massagebürsten aus Silikon",
+        "categoryNameCanonical": "Shampoo-Massagebürsten aus Silikon",
+        "description": "Manuelle Bürsten zur Kopfhautmassage unter der Dusche."
       }
     ]
   },
   {
-    "slug": "schlaf-kopfhoerer",
-    "name": "Schlaf-Kopfhörer",
-    "categoryNameCanonical": "Schlaf-Kopfhörer",
-    "description": "Besonders flache und weiche Kopfhörer, die bequem im Liegen getragen werden können, um Hörbücher, Podcasts oder beruhigende Klänge zu hören.",
+    "slug": "gua-sha-und-gesichtsroller",
+    "name": "Gua Sha & Gesichtsmassageroller",
+    "categoryNameCanonical": "Gua Sha & Gesichtsmassageroller",
+    "description": "Traditionelle chinesische Schönheitswerkzeuge aus Edelsteinen wie Jade oder Rosenquarz zur Gesichtsmassage.",
     "subcategories": [
       {
-        "slug": "schlaf-kopfhoerer-als-stirnband",
-        "name": "Schlaf-Kopfhörer als Stirnband",
-        "categoryNameCanonical": "Schlaf-Kopfhörer als Stirnband",
-        "description": "Weiche Stoff-Stirnbänder mit integrierten, flachen Lautsprechern."
+        "slug": "gesichtsroller-aus-rosenquarz",
+        "name": "Gesichtsroller aus Rosenquarz",
+        "categoryNameCanonical": "Gesichtsroller aus Rosenquarz",
+        "description": "Roller aus dem beliebten rosa Edelstein zur Beruhigung der Haut."
       },
       {
-        "slug": "flache-in-ear-schlaf-ohrhoerer",
-        "name": "Flache In-Ear Schlaf-Ohrhörer",
-        "categoryNameCanonical": "Flache In-Ear Schlaf-Ohrhörer",
-        "description": "Kleine, weiche Ohrstöpsel, die auch für Seitenschläfer geeignet sind."
+        "slug": "gesichtsroller-aus-jade",
+        "name": "Gesichtsroller aus Jade",
+        "categoryNameCanonical": "Gesichtsroller aus Jade",
+        "description": "Klassische grüne Jade-Roller zur Förderung der Lymphdrainage."
       },
       {
-        "slug": "schlaf-kopfhoerer-mit-white-noise",
-        "name": "Schlaf-Kopfhörer mit White Noise",
-        "categoryNameCanonical": "Schlaf-Kopfhörer mit White Noise",
-        "description": "Modelle, die Umgebungsgeräusche maskieren und beim Einschlafen helfen."
+        "slug": "gua-sha-steine",
+        "name": "Gua Sha Steine in verschiedenen Formen",
+        "categoryNameCanonical": "Gua Sha Steine in verschiedenen Formen",
+        "description": "Flache, geformte Steine zur Konturierung und Massage des Gesichts."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-mit-radio",
-    "name": "Kopfhörer mit Radio",
-    "categoryNameCanonical": "Kopfhörer mit Radio",
-    "description": "Kopfhörer mit integriertem FM/AM-Radioempfänger, die das Musikhören ohne verbundenes Abspielgerät ermöglichen.",
+    "slug": "cellulite-massagegeraete",
+    "name": "Cellulite-Massagegeräte",
+    "categoryNameCanonical": "Cellulite-Massagegeräte",
+    "description": "Geräte zur Verbesserung des Hautbildes bei Cellulite durch Vakuum-, Knet- oder Vibrationsmassage.",
     "subcategories": [
       {
-        "slug": "kopfhoerer-mit-fm-radio",
-        "name": "Kopfhörer mit FM-Radio",
-        "categoryNameCanonical": "Kopfhörer mit FM-Radio",
-        "description": "Zum Empfang von UKW-Radiosendern, ideal für unterwegs oder bei der Arbeit."
+        "slug": "vakuum-massagegeraete-gegen-cellulite",
+        "name": "Vakuum-Massagegeräte gegen Cellulite",
+        "categoryNameCanonical": "Vakuum-Massagegeräte gegen Cellulite",
+        "description": "Geräte, die die Haut ansaugen und massieren, um das Bindegewebe zu stimulieren."
       },
       {
-        "slug": "gehoerschutz-mit-radio",
-        "name": "Gehörschutz mit Radio",
-        "categoryNameCanonical": "Gehörschutz mit Radio",
-        "description": "Robuster Kapselgehörschutz mit Radiofunktion für laute Arbeitsumgebungen."
+        "slug": "manuelle-cellulite-massageroller",
+        "name": "Manuelle Cellulite-Massageroller",
+        "categoryNameCanonical": "Manuelle Cellulite-Massageroller",
+        "description": "Handliche Roller mit Noppen zur täglichen Anwendung."
       },
       {
-        "slug": "bluetooth-kopfhoerer-mit-radio",
-        "name": "Bluetooth-Kopfhörer mit Radiofunktion",
-        "categoryNameCanonical": "Bluetooth-Kopfhörer mit Radiofunktion",
-        "description": "Kombinieren kabellose Konnektivität mit einem integrierten Radioempfänger."
+        "slug": "elektrische-cellulite-massagegeraete",
+        "name": "Elektrische Cellulite-Massagegeräte",
+        "categoryNameCanonical": "Elektrische Cellulite-Massagegeräte",
+        "description": "Leistungsstarke Geräte mit verschiedenen Aufsätzen und Intensitätsstufen."
       }
     ]
   },
   {
-    "slug": "kopfhoerer-zubehoer",
-    "name": "Kopfhörer-Zubehör",
-    "categoryNameCanonical": "Kopfhörer-Zubehör",
-    "description": "Alles, was Sie für Ihre Kopfhörer benötigen, von Ersatzteilen wie Ohrpolstern und Kabeln bis hin zu praktischen Ergänzungen wie Ständern und Adaptern.",
+    "slug": "fussbaeder-mit-massagefunktion",
+    "name": "Fußbäder mit Massagefunktion",
+    "categoryNameCanonical": "Fußbäder mit Massagefunktion",
+    "description": "Wellness-Geräte, die ein warmes Fußbad mit Sprudel-, Vibrations- oder Rollenmassage kombinieren.",
     "subcategories": [
       {
-        "slug": "ersatz-ohrpolster",
-        "name": "Ersatz-Ohrpolster",
-        "categoryNameCanonical": "Ersatz-Ohrpolster",
-        "description": "Ohrpolster aus Schaumstoff, Leder oder Velours zum Austausch bei Verschleiß."
+        "slug": "fussbaeder-mit-sprudelfunktion",
+        "name": "Fußbäder mit Sprudel- & Vibrationsfunktion",
+        "categoryNameCanonical": "Fußbäder mit Sprudel- & Vibrationsfunktion",
+        "description": "Standardmodelle für ein entspannendes Fußbad zu Hause."
       },
       {
-        "slug": "kopfhoererstaender-und-halterungen",
-        "name": "Kopfhörerständer und Halterungen",
-        "categoryNameCanonical": "Kopfhörerständer und Halterungen",
-        "description": "Zur sicheren und stilvollen Aufbewahrung Ihrer Kopfhörer am Schreibtisch."
+        "slug": "fussbaeder-mit-massagerollen",
+        "name": "Fußbäder mit integrierten Massagerollen",
+        "categoryNameCanonical": "Fußbäder mit integrierten Massagerollen",
+        "description": "Geräte mit motorisierten Rollen für eine intensivere Fußreflexzonenmassage."
       },
       {
-        "slug": "transportetuis-und-taschen",
-        "name": "Transportetuis und Taschen",
-        "categoryNameCanonical": "Transportetuis und Taschen",
-        "description": "Schutzhüllen für den sicheren Transport Ihrer Kopfhörer auf Reisen."
+        "slug": "faltbare-fussbaeder",
+        "name": "Faltbare Fußbäder zur platzsparenden Lagerung",
+        "categoryNameCanonical": "Faltbare Fußbäder zur platzsparenden Lagerung",
+        "description": "Kompakte Modelle, die nach Gebrauch einfach verstaut werden können."
+      }
+    ]
+  },
+  {
+    "slug": "massage-badeschuhe",
+    "name": "Massage-Badeschuhe & Sandalen",
+    "categoryNameCanonical": "Massage-Badeschuhe & Sandalen",
+    "description": "Schuhe mit Noppen im Fußbett, die bei jedem Schritt die Fußsohlen massieren und die Durchblutung anregen.",
+    "subcategories": [
+      {
+        "slug": "badeschuhe-mit-akupressur-noppen",
+        "name": "Badeschuhe mit Akupressur-Noppen",
+        "categoryNameCanonical": "Badeschuhe mit Akupressur-Noppen",
+        "description": "Sandalen mit strategisch platzierten Noppen zur Stimulation von Akupressurpunkten."
       },
       {
-        "slug": "kopfhoerer-adapter-und-kabel",
-        "name": "Kopfhörer-Adapter und Kabel",
-        "categoryNameCanonical": "Kopfhörer-Adapter und Kabel",
-        "description": "Flugzeugadapter, Verlängerungskabel und Adapter von 6,3mm auf 3,5mm."
+        "slug": "reflexzonen-sandalen",
+        "name": "Reflexzonen-Sandalen mit Holzelementen",
+        "categoryNameCanonical": "Reflexzonen-Sandalen mit Holzelementen",
+        "description": "Sandalen, die auf die Prinzipien der Fußreflexzonenmassage abgestimmt sind."
+      },
+      {
+        "slug": "verstellbare-massage-sandalen",
+        "name": "Verstellbare Massage-Sandalen",
+        "categoryNameCanonical": "Verstellbare Massage-Sandalen",
+        "description": "Modelle mit Klettverschluss für eine individuelle Passform."
+      }
+    ]
+  },
+  {
+    "slug": "augenmassagegeraete",
+    "name": "Augenmassagegeräte",
+    "categoryNameCanonical": "Augenmassagegeräte",
+    "description": "Maskenähnliche Geräte zur Entspannung der Augenpartie durch Luftdruck, Vibration, Wärme und Musik.",
+    "subcategories": [
+      {
+        "slug": "augenmassagegeraete-mit-waermefunktion",
+        "name": "Augenmassagegeräte mit Wärmefunktion",
+        "categoryNameCanonical": "Augenmassagegeräte mit Wärmefunktion",
+        "description": "Modelle mit sanfter Wärme zur Linderung von trockenen und müden Augen."
+      },
+      {
+        "slug": "augenmassagegeraete-mit-bluetooth",
+        "name": "Augenmassagegeräte mit Bluetooth-Musik",
+        "categoryNameCanonical": "Augenmassagegeräte mit Bluetooth-Musik",
+        "description": "Geräte, die sich mit dem Smartphone verbinden, um entspannende Musik abzuspielen."
+      },
+      {
+        "slug": "faltbare-augenmassagegeraete",
+        "name": "Faltbare Augenmassagegeräte für Reisen",
+        "categoryNameCanonical": "Faltbare Augenmassagegeräte für Reisen",
+        "description": "Kompakte Designs, die sich leicht transportieren lassen."
+      }
+    ]
+  },
+  {
+    "slug": "massagekerzen",
+    "name": "Massagekerzen",
+    "categoryNameCanonical": "Massagekerzen",
+    "description": "Kerzen aus speziellen Wachsen und Ölen, die nach dem Anzünden schmelzen und als warmes Massageöl verwendet werden.",
+    "subcategories": [
+      {
+        "slug": "massagekerzen-mit-sheabutter",
+        "name": "Massagekerzen mit Sheabutter & Kakaobutter",
+        "categoryNameCanonical": "Massagekerzen mit Sheabutter & Kakaobutter",
+        "description": "Besonders pflegende Kerzen für trockene Haut."
+      },
+      {
+        "slug": "aphrodisierende-massagekerzen",
+        "name": "Aphrodisierende Massagekerzen",
+        "categoryNameCanonical": "Aphrodisierende Massagekerzen",
+        "description": "Kerzen mit anregenden Düften wie Ylang-Ylang oder Sandelholz."
+      },
+      {
+        "slug": "entspannende-massagekerzen-mit-lavendel",
+        "name": "Entspannende Massagekerzen mit Lavendel",
+        "categoryNameCanonical": "Entspannende Massagekerzen mit Lavendel",
+        "description": "Beruhigende Duftkompositionen für eine Relax-Massage."
+      }
+    ]
+  },
+  {
+    "slug": "massage-geschenksets",
+    "name": "Massage-Geschenksets",
+    "categoryNameCanonical": "Massage-Geschenksets",
+    "description": "Sorgfältig zusammengestellte Sets mit Massageölen, Werkzeugen und Zubehör, ideal als Geschenk.",
+    "subcategories": [
+      {
+        "slug": "geschenksets-fuer-paare",
+        "name": "Geschenksets für die Partnermassage",
+        "categoryNameCanonical": "Geschenksets für die Partnermassage",
+        "description": "Sets mit sinnlichen Ölen und Anleitungen für zwei Personen."
+      },
+      {
+        "slug": "wellness-geschenksets",
+        "name": "Wellness-Geschenksets mit Öl & Massagetool",
+        "categoryNameCanonical": "Wellness-Geschenksets mit Öl & Massagetool",
+        "description": "Kombinationen aus entspannendem Öl und einem manuellen Massagegerät."
+      },
+      {
+        "slug": "sportler-geschenksets",
+        "name": "Geschenksets für Sportler",
+        "categoryNameCanonical": "Geschenksets für Sportler",
+        "description": "Sets mit regenerierenden Ölen und Faszienbällen oder -rollen."
+      }
+    ]
+  },
+  {
+    "slug": "reise-massagegeraete",
+    "name": "Reise-Massagegeräte",
+    "categoryNameCanonical": "Reise-Massagegeräte",
+    "description": "Kompakte, leichte und oft akkubetriebene Geräte, die speziell für den Einsatz unterwegs konzipiert sind.",
+    "subcategories": [
+      {
+        "slug": "mini-massagepistolen-fuer-reisen",
+        "name": "Mini-Massagepistolen",
+        "categoryNameCanonical": "Mini-Massagepistolen",
+        "description": "Besonders kleine und handliche Massagepistolen, passen in jedes Handgepäck."
+      },
+      {
+        "slug": "aufblasbare-nackenkissen-mit-massage",
+        "name": "Aufblasbare Nackenkissen mit Massagefunktion",
+        "categoryNameCanonical": "Aufblasbare Nackenkissen mit Massagefunktion",
+        "description": "Platzsparende Kissen mit integrierter Vibration für Flug- oder Zugreisen."
+      },
+      {
+        "slug": "usb-betriebene-massagegeraete",
+        "name": "USB-betriebene Massagekissen",
+        "categoryNameCanonical": "USB-betriebene Massagekissen",
+        "description": "Kleine Kissen, die über einen USB-Anschluss mit Strom versorgt werden."
+      }
+    ]
+  },
+  {
+    "slug": "massage-lehrbuecher",
+    "name": "Massage-Lehrbücher & Anleitungen",
+    "categoryNameCanonical": "Massage-Lehrbücher & Anleitungen",
+    "description": "Bücher, DVDs und Poster mit Anleitungen zu verschiedenen Massagetechniken und anatomischem Wissen.",
+    "subcategories": [
+      {
+        "slug": "buecher-ueber-klassische-massage",
+        "name": "Bücher über klassische Massage",
+        "categoryNameCanonical": "Bücher über klassische Massage",
+        "description": "Grundlagenwerke für die schwedische Massage und andere Basistechniken."
+      },
+      {
+        "slug": "buecher-ueber-partnermassage",
+        "name": "Bücher über Partnermassage",
+        "categoryNameCanonical": "Bücher über Partnermassage",
+        "description": "Anleitungen für Laien zur gegenseitigen Massage."
+      },
+      {
+        "slug": "anatomie-poster-fuer-masseure",
+        "name": "Anatomie-Poster der Muskulatur",
+        "categoryNameCanonical": "Anatomie-Poster der Muskulatur",
+        "description": "Visuelle Hilfsmittel mit Darstellungen des menschlichen Muskelapparats."
+      }
+    ]
+  },
+  {
+    "slug": "vibrationsplatten",
+    "name": "Vibrationsplatten",
+    "categoryNameCanonical": "Vibrationsplatten",
+    "description": "Trainingsgeräte, die durch Vibrationen die Muskulatur stimulieren und zur Entspannung beitragen können.",
+    "subcategories": [
+      {
+        "slug": "vibrationsplatten-mit-seitenalternierender-vibration",
+        "name": "Vibrationsplatten mit seitenalternierender Vibration",
+        "categoryNameCanonical": "Vibrationsplatten mit seitenalternierender Vibration",
+        "description": "Platten mit einer Wipp-Bewegung, die als besonders gelenkschonend gilt."
+      },
+      {
+        "slug": "vibrationsplatten-mit-trainingsbaendern",
+        "name": "Vibrationsplatten mit Trainingsbändern",
+        "categoryNameCanonical": "Vibrationsplatten mit Trainingsbändern",
+        "description": "Sets, die zusätzlich Widerstandsbänder für ein Ganzkörpertraining enthalten."
+      },
+      {
+        "slug": "kompakte-vibrationsplatten",
+        "name": "Kompakte Vibrationsplatten für zuhause",
+        "categoryNameCanonical": "Kompakte Vibrationsplatten für zuhause",
+        "description": "Platzsparende Modelle für das Training in den eigenen vier Wänden."
+      }
+    ]
+  },
+  {
+    "slug": "lymphdrainage-geraete",
+    "name": "Lymphdrainage-Geräte",
+    "categoryNameCanonical": "Lymphdrainage-Geräte",
+    "description": "Geräte mit Luftdruckmanschetten für Beine, Arme oder den Bauch zur Unterstützung des Lymphsystems.",
+    "subcategories": [
+      {
+        "slug": "lymphdrainage-geraete-fuer-beine",
+        "name": "Lymphdrainage-Geräte für die Beine",
+        "categoryNameCanonical": "Lymphdrainage-Geräte für die Beine",
+        "description": "Manschetten, die die Beine umschließen und durch wechselnden Druck massieren."
+      },
+      {
+        "slug": "lymphdrainage-geraete-komplettsets",
+        "name": "Lymphdrainage-Geräte als Komplettset",
+        "categoryNameCanonical": "Lymphdrainage-Geräte als Komplettset",
+        "description": "Sets mit Manschetten für Beine, Arme und Bauch."
+      },
+      {
+        "slug": "manuelle-lymphdrainage-roller",
+        "name": "Manuelle Roller für die Lymphdrainage",
+        "categoryNameCanonical": "Manuelle Roller für die Lymphdrainage",
+        "description": "Holzroller oder andere manuelle Tools zur Anregung des Lymphflusses."
+      }
+    ]
+  },
+  {
+    "slug": "sportmassage-geraete",
+    "name": "Sportmassage-Geräte",
+    "categoryNameCanonical": "Sportmassage-Geräte",
+    "description": "Spezialisierte Geräte zur Regeneration nach dem Sport, zur Leistungssteigerung und zur Behandlung von Sportverletzungen.",
+    "subcategories": [
+      {
+        "slug": "massagepistolen-fuer-sportler",
+        "name": "Massagepistolen für Sportler",
+        "categoryNameCanonical": "Massagepistolen für Sportler",
+        "description": "Leistungsstarke Perkussionsgeräte zur schnellen Muskelregeneration."
+      },
+      {
+        "slug": "kompressionsstiefel-recovery-boots",
+        "name": "Kompressionsstiefel (Recovery Boots)",
+        "categoryNameCanonical": "Kompressionsstiefel (Recovery Boots)",
+        "description": "Luftdruckmanschetten für die Beine, die die Regeneration beschleunigen."
+      },
+      {
+        "slug": "vibrations-faszienrollen",
+        "name": "Faszienrollen mit Vibration",
+        "categoryNameCanonical": "Faszienrollen mit Vibration",
+        "description": "Kombination aus Faszientraining und Vibration für intensive Ergebnisse."
+      }
+    ]
+  },
+  {
+    "slug": "massage-zubehoer",
+    "name": "Massagezubehör",
+    "categoryNameCanonical": "Massagezubehör",
+    "description": "Praktische Hilfsmittel und Verbrauchsmaterialien für die professionelle und private Massageanwendung.",
+    "subcategories": [
+      {
+        "slug": "kopfstuetzen-und-polster",
+        "name": "Kopfstützen & Lagerungspolster",
+        "categoryNameCanonical": "Kopfstützen & Lagerungspolster",
+        "description": "Ergonomische Kissen und Rollen zur komfortablen Lagerung während der Massage."
+      },
+      {
+        "slug": "tragetaschen-fuer-massageliegen",
+        "name": "Tragetaschen für Massageliegen",
+        "categoryNameCanonical": "Tragetaschen für Massageliegen",
+        "description": "Robuste Taschen zum Schutz und Transport von mobilen Massageliegen."
+      },
+      {
+        "slug": "oelwaermer-und-dispenser",
+        "name": "Ölwärmer & Dispenser",
+        "categoryNameCanonical": "Ölwärmer & Dispenser",
+        "description": "Geräte zum Erwärmen von Massageöl und praktische Spenderflaschen."
       }
     ]
   }

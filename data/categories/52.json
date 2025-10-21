@@ -1,52 +1,53 @@
 {
   "categoryId": 52,
-  "categoryNameCanonical": "Headsets für Videokonferenzen",
-  "slug": "kopfhoerer-mit-mikrofon/headsets-fuer-videokonferenzen",
-  "parentCategoryId": 50,
-  "level": 1,
-  "description": "Professionelle Headsets für Videokonferenzen. Klarer Sound & Komfort. Jetzt kaufen!",
-  "content": "<div><h2>Professionelle Headsets für kristallklare Videokonferenzen</h2><p>In der heutigen digitalen Arbeitswelt sind Videokonferenzen zum Standard geworden. Doch schlechte Audioqualität kann schnell zu Missverständnissen und Frustration führen. Unsere speziellen <b>Headsets für Videokonferenzen</b> sind darauf ausgelegt, Ihnen ein unvergleichliches Klangerlebnis zu bieten, sodass Sie sich voll und ganz auf das Gespräch konzentrieren können.</p><p>Entdecken Sie Modelle mit exzellentem <b>Noise Cancelling</b>, das störende Hintergrundgeräusche herausfiltert – sowohl für Sie als auch für Ihre Gesprächspartner. Mit einem <b>Videokonferenz Headset</b> aus unserem Sortiment profitieren Sie von kristallklarem Sound, einem Mikrofon, das Ihre Stimme präzise erfasst, und hohem Tragekomfort, selbst bei langen Online-Meetings. Ob <b>USB Headset</b> für einfache Plug-and-Play-Nutzung oder kabellose Lösungen für maximale Flexibilität im <b>Homeoffice</b> oder <b>Büro</b> – wir haben die passende Lösung für Ihre <b>Online Meetings</b>. Steigern Sie Ihre Produktivität und Professionalität mit dem richtigen Audio-Equipment.</p></div>",
+  "categoryNameCanonical": "Massagelotionen & -cremes",
+  "slug": "massagelotionen-und-cremes",
+  "parentCategoryId": null,
+  "level": 0,
+  "description": "Entdecken Sie unsere hochwertigen Massagelotionen & Cremes für Entspannung & Wohlbefinden. Jetzt kaufen!",
+  "content": "<div><h2>Tiefenentspannung & Wohltuende Pflege: Massagelotionen & -cremes</h2><p>Tauchen Sie ein in die Welt der Entspannung und des Wohlbefindens mit unserer exklusiven Auswahl an Massagelotionen und -cremes. Ob zur Linderung von Muskelschmerzen, zur Förderung der Durchblutung oder einfach für einen Moment der Ruhe – die richtige Massagelotion oder -creme ist entscheidend für ein unvergleichliches Massageerlebnis. Unsere Produkte sind sorgfältig ausgewählt, um höchste Qualität und Wirksamkeit zu gewährleisten. Sie spenden Ihrer Haut nicht nur intensive Feuchtigkeit und wichtige Nährstoffe, sondern ermöglichen auch eine reibungslose und angenehme Gleitfähigkeit bei jeder Massage.</p><p>Entdecken Sie spezielle Formulierungen für Sportmassagen, entspannende Wellness-Anwendungen oder therapeutische Zwecke. Von leichten, schnell einziehenden Lotionen bis hin zu reichhaltigen, pflegenden Cremes mit wärmenden oder kühlenden Effekten – finden Sie das perfekte Produkt, das Ihre individuellen Bedürfnisse erfüllt. Verwöhnen Sie Ihre Sinne mit angenehmen Düften aus ätherischen Ölen und spüren Sie, wie Verspannungen weichen und Ihre Haut geschmeidig und vitalisiert wird. Gönnen Sie sich und Ihrer Haut nur das Beste für eine umfassende Regeneration und Entspannung.</p></div>",
   "seo": {
-    "title": "Headsets für Videokonferenzen: Top Sound & Komfort kaufen",
-    "description": "Professionelle Headsets für Videokonferenzen. Klarer Sound & Komfort. Jetzt kaufen!",
+    "title": "Massagelotionen & Cremes | Tiefenentspannung & Pflege",
+    "description": "Entdecken Sie unsere hochwertigen Massagelotionen & Cremes für Entspannung & Wohlbefinden. Jetzt kaufen!",
     "keywords": [
-      "Headsets Videokonferenzen",
-      "Videokonferenz Headset",
-      "Noise Cancelling Headset",
-      "USB Headset",
-      "Büro Headset",
-      "Online Meetings"
+      "Massagelotion",
+      "Massagecreme",
+      "Entspannung",
+      "Muskelentspannung",
+      "Hautpflege",
+      "Wellness",
+      "Massageöl",
+      "Sportmassage",
+      "feuchtigkeitsspendend",
+      "therapeutisch"
     ],
-    "enhancedAt": "2025-10-12T22:44:50.777288"
+    "enhancedAt": "2025-10-13T21:02:55.424792"
   },
   "faq": [
     {
-      "question": "Warum sollte ich ein spezielles Headset für Videokonferenzen nutzen?",
-      "answer": "Spezielle Headsets bieten überragende Audioqualität, effektive Geräuschunterdrückung (Noise Cancelling) für beide Seiten und optimierten Tragekomfort. Dies sorgt für eine professionelle Kommunikation und reduziert Ablenkungen während Online-Meetings."
+      "question": "Wofür werden Massagelotionen verwendet?",
+      "answer": "Massagelotionen dienen der Entspannung der Muskeln, der Linderung von Verspannungen und der intensiven Pflege der Haut während und nach der Massage. Sie verbessern die Gleitfähigkeit und das Massageerlebnis."
     },
     {
-      "question": "Welche Merkmale sind bei einem Videokonferenz-Headset besonders wichtig?",
-      "answer": "Achten Sie auf ein hochwertiges Mikrofon mit Geräuschunterdrückung, klaren Sound für die Wiedergabe, hohen Tragekomfort (besonders bei langen Meetings) und passende Konnektivität (z.B. USB-A, USB-C oder kabellos via Bluetooth)."
+      "question": "Welchen Unterschied gibt es zwischen Lotionen und Cremes?",
+      "answer": "Lotionen sind oft leichter, haben eine höhere Wasseranteil und ziehen schneller ein, ideal für größere Flächen oder leichtere Massagen. Cremes sind reichhaltiger, pflegender und eignen sich gut für intensivere Massagen, trockene Hautpartien oder eine tiefere Feuchtigkeitspflege."
     },
     {
-      "question": "Sind kabelgebundene oder kabellose Headsets besser für Videokonferenzen?",
-      "answer": "Kabelgebundene Headsets bieten oft eine stabilere Verbindung und erfordern kein Aufladen, ideal für den stationären Einsatz. Kabellose Headsets bieten maximale Bewegungsfreiheit und Flexibilität, was im Homeoffice oder Großraumbüro vorteilhaft sein kann. Die Wahl hängt von Ihren persönlichen Präferenzen ab."
+      "question": "Sind Massagelotionen auch für empfindliche Haut geeignet?",
+      "answer": "Ja, viele Massagelotionen sind speziell für empfindliche Haut formuliert. Achten Sie auf Produkte, die als hypoallergen gekennzeichnet sind, frei von Duft- und Farbstoffen oder auf natürlichen Inhaltsstoffen basieren. Ein Patch-Test vor der vollständigen Anwendung wird empfohlen."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:50.777300",
+  "enhancedAt": "2025-10-13T21:02:55.424806",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten Headsets für Videokonferenzen",
+    "title": "Vergleich der 5 besten Massagelotionen & -cremes",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
-      "Anschlussart",
-      "Mikrofon Geräuschunterdrückung",
-      "Audio",
-      "Bedienelemente",
-      "Kompatibilität",
-      "Tragekomfort",
+      "Inhalt",
+      "Hauttyp",
+      "Duft",
       "Anwendungsbereich",
       "Besondere Eigenschaft"
     ],
@@ -54,117 +55,102 @@
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/61EmutePDGL._AC_SL1400_.jpg]",
-        "name": "Jabra Evolve2 65 MS Stereo Headset, NC, USB-A",
-        "preis": "145.0€",
-        "bewertung": "4.3/5",
-        "anschlussart": "Kabellos (Bluetooth mit USB-A Adapter)",
-        "mikrofon_geräuschunterdrückung": "Ja, aktiv (ANC)",
-        "audio": "Stereo",
-        "bedienelemente": "Am Headset",
-        "kompatibilität": "PC, Notebook, Microsoft Teams",
-        "tragekomfort": "Ergonomisch, ganztägiger Einsatz",
-        "anwendungsbereich": "Modernes Arbeitsumfeld, Homeoffice, Großraumbüro",
-        "besondere_eigenschaft": "MS Teams zertifiziert, bis zu 37h Akku",
-        "productUrl": "/product/evolve2-jabra-stereo-headset-nc-usb-a",
-        "image": "https://m.media-amazon.com/images/I/61EmutePDGL._AC_SL1400_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51Cye5E+DbL._AC_SL1000_.jpg]",
+        "name": "Schupp Massage-Lotion pH 5.5, 200ml",
+        "preis": "4.0€",
+        "bewertung": "4.6/5",
+        "inhalt": "200 ml",
+        "hauttyp": "Alle Hauttypen",
+        "duft": "Neutral",
+        "anwendungsbereich": "Körperpflege & Massage",
+        "besondere_eigenschaft": "pH-Wert 5.5, unterstützt Hautschutzfunktion",
+        "productUrl": "/product/200ml-schupp-massage-lotion-5-5",
+        "image": "https://m.media-amazon.com/images/I/51Cye5E+DbL._AC_SL1000_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/6144+3nBNhL._AC_SL1500_.jpg]",
-        "name": "Logitech H390 USB Headset für PC",
-        "preis": "37.0€",
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/41im1Qr+H5L._AC_SL1000_.jpg]",
+        "name": "Schupp Massage-Lotion Neutral 1L",
+        "preis": "12.0€",
         "bewertung": "4.5/5",
-        "anschlussart": "USB-A",
-        "mikrofon_geräuschunterdrückung": "Ja, drehbar",
-        "audio": "Stereo",
-        "bedienelemente": "Am Kabel (Inline-Steuerung)",
-        "kompatibilität": "PC, Mac",
-        "tragekomfort": "Komfortable Ohrpolster, leicht",
-        "anwendungsbereich": "Videokonferenzen, Online-Schulungen, Gaming, Büro",
-        "besondere_eigenschaft": "Plug-and-Play",
-        "productUrl": "/product/logitech-h390-usb-headset-fur",
-        "image": "https://m.media-amazon.com/images/I/6144+3nBNhL._AC_SL1500_.jpg"
+        "inhalt": "1000 ml",
+        "hauttyp": "Alle Hauttypen, auch empfindliche Haut",
+        "duft": "Neutral (Parfümfrei)",
+        "anwendungsbereich": "Körperpflege & Massage, Physiotherapie",
+        "besondere_eigenschaft": "Parfümfrei, hautschonend, rückstandsfrei",
+        "productUrl": "/product/1l-schupp-massage-lotion-neutral",
+        "image": "https://m.media-amazon.com/images/I/41im1Qr+H5L._AC_SL1000_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71P882-EdmL._AC_SL1500_.jpg]",
-        "name": "Wantek USB Headset Mikrofon PC Laptop Typ C 3.5mm",
-        "preis": "28.0€",
-        "bewertung": "4.3/5",
-        "anschlussart": "USB-C, USB-A, 3,5mm Klinke (3-in-1)",
-        "mikrofon_geräuschunterdrückung": "Ja",
-        "audio": "Stereo",
-        "bedienelemente": "Am Kabel",
-        "kompatibilität": "PC, Laptop, Smartphones",
-        "tragekomfort": "Ergonomisch, weiche Ohrpolster",
-        "anwendungsbereich": "Callcenter, Homeoffice, Skype, Zoom, Online-Kurse",
-        "besondere_eigenschaft": "Vielseitige 3-in-1 Anschlussmöglichkeiten",
-        "productUrl": "/product/3-5mm-wantek-usb-headset-mikrofon-laptop",
-        "image": "https://m.media-amazon.com/images/I/71P882-EdmL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/410BKjep6vL._AC_SL1000_.jpg]",
+        "name": "Massage-Lotion Top",
+        "preis": "8.0€",
+        "bewertung": "4.4/5",
+        "inhalt": "500 ml",
+        "hauttyp": "Alle Hauttypen, auch empfindliche Haut",
+        "duft": "Neutral",
+        "anwendungsbereich": "Körperpflege & Massage, Wellness",
+        "besondere_eigenschaft": "Optimierte Gleitfähigkeit, seidige Textur",
+        "productUrl": "/product/massage-lotion-top",
+        "image": "https://m.media-amazon.com/images/I/410BKjep6vL._AC_SL1000_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif]",
-        "name": "USB Headset Business PC Mikrofon Noise Cancelling",
-        "preis": "27.0€",
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/31yU+ryx+aL._AC_SL1000_.jpg]",
+        "name": "Schupp Massage-Lotion Zitrone 1000ml",
+        "preis": "8.0€",
         "bewertung": "4.3/5",
-        "anschlussart": "USB",
-        "mikrofon_geräuschunterdrückung": "Ja",
-        "audio": "Stereo",
-        "bedienelemente": "Am Kabel",
-        "kompatibilität": "PC, Laptops, Skype, UC, Lync SoftPhones",
-        "tragekomfort": "Ultra Komfort, super leicht",
-        "anwendungsbereich": "Business, Call Center, Büro, Videokonferenzen",
-        "besondere_eigenschaft": "Kristallklarer Chat, Plug-and-Play",
-        "productUrl": "/product/usb-headset-business-mikrofon-noise-cancelling",
-        "image": "https://images-na.ssl-images-amazon.com/images/G/01/x-locale/common/grey-pixel.gif"
+        "inhalt": "1000 ml",
+        "hauttyp": "Empfindliche Haut",
+        "duft": "Zitrone",
+        "anwendungsbereich": "Körperpflege & Massage",
+        "besondere_eigenschaft": "Belebender Zitronenduft, Großpackung",
+        "productUrl": "/product/1000ml-schupp-massage-lotion-zitrone",
+        "image": "https://m.media-amazon.com/images/I/31yU+ryx+aL._AC_SL1000_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71jxQsCgKYL._AC_SL1500_.jpg]",
-        "name": "PC Headset Handy Mikrofon Lautstärkeregler 3,5mm Klinke",
-        "preis": "24.0€",
-        "bewertung": "4.1/5",
-        "anschlussart": "3,5mm Klinke",
-        "mikrofon_geräuschunterdrückung": "Ja",
-        "audio": "Stereo",
-        "bedienelemente": "Am Kabel",
-        "kompatibilität": "iPhone, Laptop, Tablet, PC",
-        "tragekomfort": "Superleichtes Design",
-        "anwendungsbereich": "Homeoffice, Business, Callcenter, Webinare",
-        "besondere_eigenschaft": "Universelle 3,5mm Kompatibilität",
-        "productUrl": "/product/3-5mm-headset-handy-mikrofon-lautstarkeregler-klinke",
-        "image": "https://m.media-amazon.com/images/I/71jxQsCgKYL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/714ZmgqsdVL._SL1500_.jpg]",
+        "name": "SCHUPP Massage-Lotion Zitrone, 200ml",
+        "preis": "12.0€",
+        "bewertung": "4.2/5",
+        "inhalt": "200 ml",
+        "hauttyp": "Trockene & rissige Haut",
+        "duft": "Zitrone",
+        "anwendungsbereich": "Körperpflege & Massage",
+        "besondere_eigenschaft": "Made in Germany, hohe Gleitfähigkeit, pflegt trockene Haut",
+        "productUrl": "/product/200ml-schupp-massage-lotion-zitrone",
+        "image": "https://m.media-amazon.com/images/I/714ZmgqsdVL._SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: So wählen Sie die besten Headsets für Videokonferenzen?",
+    "title": "Kaufberatung: So wählen Sie die besten Massagelotionen & -cremes aus",
     "sections": [
       {
-        "heading": "1. Klare Audioqualität und Mikrofon",
-        "content": "Eine hohe Audioqualität ist entscheidend für professionelle Videokonferenzen. Achten Sie auf Mikrofone mit Geräuschunterdrückung (Noise-Cancelling), um Hintergrundgeräusche zu filtern. Dies sorgt dafür, dass Ihre Stimme klar und deutlich übertragen wird, selbst in lauten Umgebungen. Headsets mit HD-Audio optimieren die Sprachverständlichkeit."
+        "heading": "1. Konsistenz & Hautgefühl",
+        "content": "Wählen Sie zwischen leichter Lotion für schnelle Absorption und reichhaltiger Creme für intensivere Pflege. Lotionen wie Schupp Massage-Lotion pH 5.5 sind ideal für empfindliche Haut und hinterlassen keinen klebrigen Film. Cremes bieten oft längere Gleitfähigkeit und nähren die Haut tiefer. Achten Sie auf nicht-fettende Formeln für ein angenehmes Hautgefühl während und nach der Massage."
       },
       {
-        "heading": "2. Tragekomfort für lange Meetings",
-        "content": "Langanhaltender Komfort ist bei häufigen Videokonferenzen unerlässlich. Wählen Sie ein leichtes Headset mit verstellbarem Kopfbügel und weichen Ohrpolstern, um Druckstellen zu vermeiden. Kabelgebundene Modelle wie das Logitech H390 bieten konstante Verbindung, während kabellose Freiheit ermöglichen. Testen Sie den Sitz vor dem Kauf."
+        "heading": "2. Wirkweise & Inhaltsstoffe",
+        "content": "Überlegen Sie den gewünschten Effekt: Entspannung (Lavendel), Wärmung (Rosmarin) oder Kühlung (Menthol). Für empfindliche Haut sind pH-neutrale Produkte (z.B. pH 5.5) ohne Parabene oder starke Duftstoffe ratsam. Prüfen Sie die Inhaltsstoffe auf Allergene; natürliche Öle wie Jojoba oder Mandel sind oft verträglich. Einige Produkte bieten auch pflegende Vitamine."
       },
       {
-        "heading": "3. Konnektivität und Kompatibilität",
-        "content": "Prüfen Sie die Anschlussmöglichkeiten: USB-A, USB-C oder Bluetooth? Stellen Sie sicher, dass das Headset mit Ihren Geräten (PC, Laptop) und Konferenzplattformen (Zoom, Teams, Skype) kompatibel ist. Ein \"Plug & Play\"-Gerät wie das Logitech H390 (USB) ist oft sofort einsatzbereit und erspart Installationsprobleme."
+        "heading": "3. Verwendungszweck & Hauttyp",
+        "content": "Für professionelle Massagen sind Produkte mit langer Gleitfähigkeit essenziell. Für den Heimgebrauch sind kleinere Mengen und spezielle Bedürfnisse wie trockene oder normale Haut wichtig. Achten Sie auf Formulierungen, die gut mit Ihrem Hauttyp harmonieren, um Irritationen zu vermeiden. Einige Produkte sind speziell für sensible Haut entwickelt, um Rötungen vorzubeugen."
       },
       {
-        "heading": "4. Nützliche Zusatzfunktionen",
-        "content": "Praktische Bedienelemente erhöhen den Nutzungskomfort. Achten Sie auf integrierte Tasten zur Lautstärkeregelung und Mikrofonstummschaltung direkt am Kabel oder Ohrstück. Eine LED-Anzeige für den Mute-Status ist ebenfalls hilfreich. Solche Funktionen ermöglichen eine schnelle und unkomplizierte Steuerung während des Meetings."
+        "heading": "4. Geruch & Zusätze",
+        "content": "Der Geruch beeinflusst maßgeblich das Massageerlebnis. Bevorzugen Sie dezente Düfte oder komplett geruchsneutrale Optionen für Allergiker. Vermeiden Sie Produkte mit übermäßigen Farb- und Konservierungsstoffen, um Hautirritationen vorzubeugen. Ätherische Öle können die Wirkung verstärken, aber auch Allergien auslösen, daher vorsichtig wählen. Parfümfreie Produkte sind oft die beste Wahl."
       },
       {
-        "heading": "5. Preis-Leistungs-Verhältnis und Marke",
-        "content": "Berücksichtigen Sie Ihr Budget im Verhältnis zur benötigten Qualität. Renommierte Marken wie Jabra, Poly oder Logitech bieten oft zuverlässige Produkte. Das Logitech H390 USB Headset für ca. 37€ ist ein gutes Beispiel für ein preiswertes Einsteigermodell, das grundlegende Anforderungen für Heimanwender und kleine Büros erfüllt."
+        "heading": "5. Preis-Leistungs-Verhältnis & Verpackung",
+        "content": "Ein günstiger Preis wie 4.0€ für 200ml (z.B. Schupp) kann ein guter Indikator sein, wenn die Qualität stimmt. Größere Gebinde sind oft kostengünstiger für Vielnutzer. Achten Sie auf praktische Spender oder Tuben, die eine hygienische und sparsame Entnahme ermöglichen. Lesen Sie Kundenbewertungen für zusätzliche Einschätzungen zur Ergiebigkeit und Verträglichkeit des Produkts."
       }
     ]
   }

@@ -1,162 +1,151 @@
 {
   "categoryId": 34,
-  "categoryNameCanonical": "On-Ear Kopfhörer",
-  "slug": "on-ear-kopfhoerer",
-  "parentCategoryId": null,
-  "level": 0,
-  "description": "Entdecke hochwertige On-Ear Kopfhörer: Ergonomie, brillante Audioqualität und Stil. Jetzt kaufen!",
-  "content": "<div><h2>On-Ear Kopfhörer: Perfekter Klang, kompakter Komfort</h2><p>Tauchen Sie ein in die Welt des hervorragenden Klangs mit unseren hochwertigen <b>On-Ear Kopfhörern</b>. Diese <b>kompakten Kopfhörer</b> sind die ideale Wahl für alle, die eine ausgezeichnete Audioqualität in einem stilvollen und <b>leichten Design</b> suchen. Im Gegensatz zu sperrigen Over-Ear Modellen sitzen unsere <b>bequemen On-Ear</b> Kopfhörer direkt auf den Ohrmuscheln, was sie perfekt für unterwegs macht, sei es auf Reisen, beim täglichen Pendeln oder einfach nur zum entspannten Musikhören zu Hause.</p><p>Unsere Auswahl umfasst <b>Bluetooth On-Ear</b> Modelle für kabellose Freiheit und <b>Kabel On-Ear</b> Varianten für audiophile Puristen. Erleben Sie einen ausgewogenen <b>Sound On-Ear</b> mit klaren Höhen, satten Mitten und tiefen Bässen, der Ihre Lieblingsmusik zum Leben erweckt. Mit ergonomischen Designs und weichen Ohrpolstern garantieren diese <b>Hifi On-Ear</b> Kopfhörer langanhaltenden Tragekomfort, auch bei ausgedehnten <b>Musik hören On-Ear</b>-Sitzungen. Entdecken Sie jetzt den perfekten Begleiter für Ihr akustisches Erlebnis!</p></div>",
+  "categoryNameCanonical": "Doppel-Massagebälle (Duobälle)",
+  "slug": "massagebaelle/doppel-massagebaelle",
+  "parentCategoryId": 31,
+  "level": 1,
+  "description": "Effektive Selbstmassage mit Doppel-Massagebällen. Lösen Sie Verspannungen in Rücken, Nacken & Faszien.",
+  "content": "<div><h2>Doppel-Massagebälle: Ihr Spezialist für gezielte Faszien- und Rückenmassage</h2><p>Entdecken Sie die effektive Welt der Selbstmassage mit unseren hochwertigen Doppel-Massagebällen, auch bekannt als Duobälle. Diese innovativen Faszienbälle sind das ideale Hilfsmittel, um tiefe Verspannungen und Faszienverklebungen im Rücken, Nacken und anderen Körperbereichen gezielt zu lösen. Dank ihrer einzigartigen Form, die eine Aussparung in der Mitte besitzt, ermöglichen sie eine präzise Massage entlang der Wirbelsäule, ohne dabei Knochen oder Dornfortsätze zu belasten.</p><p><h3>Vielseitige Anwendung und tiefe Wirkung</h3></p><p>Unsere Duobälle sind perfekt geeignet für Sportler, Büromitarbeiter und jeden, der unter Muskelverspannungen oder eingeschränkter Beweglichkeit leidet. Nutzen Sie sie zur Regeneration nach dem Training, zur Linderung von Rückenschmerzen oder zur Aktivierung der Muskulatur. Die gezielte Druckausübung stimuliert die Durchblutung, fördert die Elastizität des Bindegewebes und kann die Flexibilität sowie das allgemeine Wohlbefinden signifikant verbessern. Egal ob harte oder weichere Ausführung – wählen Sie den Härtegrad, der am besten zu Ihren Bedürfnissen passt.</p><p><h3>Qualität und Komfort für Ihre Selbstmassage</h3></p><p>Wir legen Wert auf Qualität und Nachhaltigkeit. Unsere Doppel-Massagebälle sind aus strapazierfähigen, hautfreundlichen Materialien gefertigt, die eine lange Lebensdauer garantieren. Sie sind leicht, handlich und passen perfekt in jede Sporttasche, sodass Sie Ihre persönliche Massagesitzung jederzeit und überall genießen können. Investieren Sie in Ihr Wohlbefinden und erleben Sie die transformative Kraft einer regelmäßigen Selbstmassage mit unseren erstklassigen Doppel-Massagebällen.</p></div>",
   "seo": {
-    "title": "On-Ear Kopfhörer: Top Klang & Komfort für Unterwegs",
-    "description": "Entdecke hochwertige On-Ear Kopfhörer: Ergonomie, brillante Audioqualität und Stil. Jetzt kaufen!",
+    "title": "Doppel-Massagebälle | Faszien & Rücken Massage | Duoball",
+    "description": "Effektive Selbstmassage mit Doppel-Massagebällen. Lösen Sie Verspannungen in Rücken, Nacken & Faszien.",
     "keywords": [
-      "On-Ear Kopfhörer",
-      "Kompakte Kopfhörer",
-      "Leichte Kopfhörer",
-      "Bequeme On-Ear",
-      "Kopfhörer mit Bügel",
-      "Bluetooth On-Ear",
-      "Kabel On-Ear",
-      "Hifi On-Ear",
-      "Sound On-Ear",
-      "Musik hören On-Ear"
+      "Doppel-Massagebälle",
+      "Duoball",
+      "Faszienball",
+      "Rückenmassage",
+      "Nackenmassage",
+      "Selbstmassage",
+      "Triggerpunktmassage",
+      "Verspannungen lösen",
+      "Sportmassage",
+      "Regeneration",
+      "Massagegerät"
     ],
-    "enhancedAt": "2025-10-12T22:44:51.142876"
+    "enhancedAt": "2025-10-13T21:03:13.964181"
   },
   "faq": [
     {
-      "question": "Was sind On-Ear Kopfhörer?",
-      "answer": "On-Ear Kopfhörer sitzen direkt auf den Ohrmuscheln und bieten eine gute Balance aus Klangqualität und Tragekomfort. Sie sind oft kompakter und leichter als Over-Ear Modelle."
+      "question": "Was sind Doppel-Massagebälle (Duobälle) und wofür werden sie verwendet?",
+      "answer": "Doppel-Massagebälle, auch Duobälle genannt, sind speziell geformte Massagegeräte, die aus zwei miteinander verbundenen Bällen bestehen. Sie wurden entwickelt, um gezielt entlang der Wirbelsäule oder an Gliedmaßen Verspannungen und Faszienverklebungen zu lösen, ohne dabei Knochen oder die Wirbelsäule direkt zu belasten."
     },
     {
-      "question": "Was ist der Unterschied zu Over-Ear Kopfhörern?",
-      "answer": "On-Ear Kopfhörer liegen auf den Ohren auf, während Over-Ear Kopfhörer die Ohren komplett umschließen. On-Ears sind in der Regel kleiner, leichter und bieten oft eine bessere Belüftung, Over-Ears isolieren meist stärker."
+      "question": "Für welche Körperbereiche eignen sich Doppel-Massagebälle am besten?",
+      "answer": "Duobälle sind besonders effektiv für die Massage des Rückens (entlang der Wirbelsäule), des Nackens, der Waden, der Oberschenkel und der Arme. Die Aussparung zwischen den beiden Bällen schont Knochenstrukturen und ermöglicht eine tiefe und präzise Faszien- und Muskelmassage in diesen Bereichen."
     },
     {
-      "question": "Sind On-Ear Kopfhörer bequem für lange Hörsitzungen?",
-      "answer": "Viele moderne On-Ear Modelle sind mit weichen Ohrpolstern und verstellbaren Bügeln ausgestattet, um auch bei längerem Tragen hohen Komfort zu gewährleisten. Achten Sie auf Modelle mit ergonomischem Design."
+      "question": "Wie wende ich einen Doppel-Massageball richtig an, um Verspannungen zu lösen?",
+      "answer": "Legen Sie den Duoball auf den Boden und platzieren Sie den zu massierenden Körperteil darauf, z.B. den Rücken entlang der Wirbelsäule. Üben Sie leichten Druck aus und rollen Sie langsam hin und her oder verharren Sie auf Schmerzpunkten. Atmen Sie tief und entspannt. Beginnen Sie mit sanftem Druck und steigern Sie diesen allmählich, um die Muskulatur an das Gefühl zu gewöhnen."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-12T22:44:51.142893",
+  "enhancedAt": "2025-10-13T21:03:13.964198",
   "comparisonTable": {
-    "title": "Vergleich der 5 besten On-Ear Kopfhörer",
+    "title": "Vergleich der 5 Produkte (inkl. Doppel-Massagebälle)",
     "columns": [
       "Rang",
       "Preis",
       "Bewertung",
-      "Konnektivität",
-      "Mikrofon",
-      "Noise Cancelling (Hören)",
-      "Betriebsdauer",
-      "Besondere Merkmale",
-      "Farbe"
+      "Marke",
+      "Produkttyp",
+      "Hauptzweck",
+      "Verfügbare Varianten"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/6107aYfAoHL._AC_SL1500_.jpg]",
-        "name": "Sony WH-CH720N: Kabellose ANC Kopfhörer, 35h Akku, Weiß",
-        "preis": "69.0€",
-        "bewertung": "4.4/5",
-        "konnektivitaet": "Kabellos (Bluetooth)",
-        "mikrofon": "Ja",
-        "noise_cancelling_hoeren": "Ja",
-        "betriebsdauer": "Bis zu 35 Stunden",
-        "besondere_merkmale": "Aktives Noise Cancelling (ANC), Schnellladung",
-        "farbe": "Weiß",
-        "productUrl": "/product/wh-ch720n-sony-kabellose-anc-kopfhorer-35h",
-        "image": "https://m.media-amazon.com/images/I/6107aYfAoHL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/81gytpJ30TL._AC_UL320_.jpg]",
+        "name": "JPTsports Faszienball-Set mit eBook & Tasche",
+        "preis": "21.0€",
+        "bewertung": "4.6/5",
+        "marke": "JPTsports",
+        "produkttyp": "Faszienball-Set",
+        "hauptzweck": "Muskelregeneration & verbesserte Beweglichkeit",
+        "verfuegbare_variante": "Einzelball (10cm) & Duoball (8cm & 12cm)",
+        "productUrl": "/product/jptsports-faszienball-set-mit-ebook-tasche",
+        "image": "https://m.media-amazon.com/images/I/81gytpJ30TL._AC_UL320_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61sD52iWpnL._AC_UY218_.jpg]",
-        "name": "Sony ULT WEAR Bluetooth Kopfhörer, Noise Cancelling, 30h Akku",
-        "preis": "119.0€",
-        "bewertung": "4.4/5",
-        "konnektivitaet": "Kabellos (Bluetooth)",
-        "mikrofon": "Ja",
-        "noise_cancelling_hoeren": "Ja",
-        "betriebsdauer": "Bis zu 30 Stunden",
-        "besondere_merkmale": "Bass Boost Funktion, Aktives Noise Cancelling (ANC)",
-        "farbe": "Forest-Gray",
-        "productUrl": "/product/sony-ult-wear-bluetooth-kopfhorer-noise",
-        "image": "https://m.media-amazon.com/images/I/61sD52iWpnL._AC_UY218_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61DrGh9UOUL._AC_SL1500_.jpg]",
+        "name": "High Pulse® Massage-Doppelball Nacken/Rücken",
+        "preis": "10.0€",
+        "bewertung": "4.5/5",
+        "marke": "High Pulse®",
+        "produkttyp": "Massage-Doppelball",
+        "hauptzweck": "Gezielte Tiefenmassage & Muskelregeneration",
+        "verfuegbare_variante": "8 cm oder 12 cm Durchmesser",
+        "productUrl": "/product/high-pulse-massage-doppelball-nacken-rucken",
+        "image": "https://m.media-amazon.com/images/I/61DrGh9UOUL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51JNqP2C4rL._AC_SL1500_.jpg]",
-        "name": "Beats Solo 4 kabellos On-Ear, 50h Akku, Wolkenrosa",
-        "preis": "174.0€",
-        "bewertung": "4.5/5",
-        "konnektivitaet": "Kabellos (Bluetooth)",
-        "mikrofon": "Ja",
-        "noise_cancelling_hoeren": "Nein",
-        "betriebsdauer": "Bis zu 50 Stunden",
-        "besondere_merkmale": "Extrem lange Akkulaufzeit, Apple & Android kompatibel",
-        "farbe": "Wolkenrosa",
-        "productUrl": "/product/beats-solo-kabellos-on-ear-50h-akku",
-        "image": "https://m.media-amazon.com/images/I/51JNqP2C4rL._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71pfcoSOwbL._AC_SL1200_.jpg]",
+        "name": "Navaris Peanut Duo Massageball Set",
+        "preis": "26.0€",
+        "bewertung": "4.3/5",
+        "marke": "Navaris",
+        "produkttyp": "Peanut Duo Massageball Set",
+        "hauptzweck": "Tiefenmuskelentspannung & Triggerpunkt-Massage",
+        "verfuegbare_variante": "2 Größen (z.B. 8cm & 12cm)",
+        "productUrl": "/product/navaris-peanut-duo-massageball-set",
+        "image": "https://m.media-amazon.com/images/I/71pfcoSOwbL._AC_SL1200_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/61Hmo8CzT9L._AC_SL1500_.jpg]",
-        "name": "Sennheiser PC 3 Chat Headset Kabel Mikrofon Schwarz",
-        "preis": "19.0€",
-        "bewertung": "4.2/5",
-        "konnektivitaet": "Kabelgebunden",
-        "mikrofon": "Ja",
-        "noise_cancelling_hoeren": "Nein",
-        "betriebsdauer": "Unbegrenzt (Kabelgebunden)",
-        "besondere_merkmale": "Rauschunterdrückendes Mikrofon, Plug-and-Play",
-        "farbe": "Schwarz",
-        "productUrl": "/product/sennheiser-chat-headset-kabel-mikrofon-schwarz",
-        "image": "https://m.media-amazon.com/images/I/61Hmo8CzT9L._AC_SL1500_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/81bkPhDz2uL._AC_SL1300_.jpg]",
+        "name": "Newgen Medicals Duoball: Faszienmassage & Selbstmassage",
+        "preis": "10.0€",
+        "bewertung": "4.0/5",
+        "marke": "Newgen Medicals",
+        "produkttyp": "Duo-Faszienmassageball",
+        "hauptzweck": "Muskelverspannungen lösen & Durchblutung fördern",
+        "verfuegbare_variante": "8 cm Durchmesser",
+        "productUrl": "/product/newgen-medicals-duoball-faszienmassage-selbstmassage",
+        "image": "https://m.media-amazon.com/images/I/81bkPhDz2uL._AC_SL1300_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/51udwldPBbL._AC_SL1000_.jpg]",
-        "name": "Sony MDR-ZX110 Faltbarer Bügelkopfhörer Schwarz",
-        "preis": "11.0€",
-        "bewertung": "4.5/5",
-        "konnektivitaet": "Kabelgebunden",
-        "mikrofon": "Nein",
-        "noise_cancelling_hoeren": "Nein",
-        "betriebsdauer": "Unbegrenzt (Kabelgebunden)",
-        "besondere_merkmale": "Faltbares Design, Leichtgewicht, kräftige Bässe",
-        "farbe": "Schwarz",
-        "productUrl": "/product/mdr-zx110-sony-faltbarer-bugelkopfhorer-schwarz",
-        "image": "https://m.media-amazon.com/images/I/51udwldPBbL._AC_SL1000_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/91vNvdcd9oL._AC_SL1500_.jpg]",
+        "name": "Robotik-Kit Plus: 3 Farben/Muster",
+        "preis": "18.0€",
+        "bewertung": "4.6/5",
+        "marke": "BLACKROLL",
+        "produkttyp": "Robotik-Baukasten",
+        "hauptzweck": "Kreativität & technisches Verständnis fördern",
+        "verfuegbare_variante": "3 Farben/Muster",
+        "productUrl": "/product/robotik-kit-plus-farben-muster",
+        "image": "https://m.media-amazon.com/images/I/91vNvdcd9oL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Kaufberatung: On-Ear Kopfhörer richtig auswählen",
+    "title": "Kaufberatung: So wählen Sie die besten Doppel-Massagebälle (Duobälle)?",
     "sections": [
       {
-        "heading": "1. Klangqualität und Mikrofon",
-        "content": "Achten Sie auf ausgewogenen Klang für Musik und klare Sprachübertragung für Chats. Für Online-Kommunikation ist ein gutes Mikrofon entscheidend. Modelle wie das Sennheiser PC 3 bieten hier eine solide Leistung für den Einstieg und sind ideal für den täglichen Gebrauch."
+        "heading": "1. Material und Härtegrad",
+        "content": "Achten Sie auf hautfreundliches Material wie Silikon oder EPP. Die Härte beeinflusst die Intensität: Weicher für empfindliche Bereiche, härter für tiefe Muskelentspannung. Eine mittlere Härte ist oft ein guter Kompromiss für vielseitige Anwendung und effektive Triggerpunkt-Massage bei Doppel-Massagebällen."
       },
       {
-        "heading": "2. Tragekomfort und Material",
-        "content": "Lange Nutzung erfordert Komfort. Weiche, atmungsaktive Ohrpolster und ein geringes Gewicht sind essenziell. Der Bügel sollte verstellbar sein, um einen optimalen, druckfreien Sitz zu gewährleisten. Testen Sie den Tragekomfort bei Bedarf, um Ermüdung vorzubeugen."
+        "heading": "2. Größe und Form",
+        "content": "Duobälle gibt es in verschiedenen Größen. Kleinere Bälle (ca. 6-8 cm Durchmesser pro Ball) eignen sich gut für Nacken, Arme und Füße. Größere Modelle (ca. 8-10 cm) sind ideal für den Rücken, Oberschenkel und Po. Die typische Peanut-Form der Duobälle schont die Wirbelsäule bei der Rückenmassage."
       },
       {
-        "heading": "3. Verbindung und Kompatibilität",
-        "content": "Überlegen Sie, ob kabelgebunden (3,5mm Klinke, USB) oder kabellos (Bluetooth) besser passt. Kabelgebundene bieten oft stabilere Verbindungen und keine Akkulaufzeit-Sorgen. Prüfen Sie die Kompatibilität mit Ihren Geräten (PC, Konsole, Smartphone) vor dem Kauf."
+        "heading": "3. Anwendungsbereiche und Druckintensität",
+        "content": "Doppel-Massagebälle sind hervorragend für die gezielte Selbstmassage von Rücken, Nacken, Schultern und Füßen geeignet. Beginnen Sie sanft und steigern Sie den Druck vorsichtig, um Schmerzpunkte effektiv zu lösen. Rollen Sie langsam über verspannte Stellen, um die Durchblutung zu fördern und Verspannungen zu lockern."
       },
       {
-        "heading": "4. Robustheit und Verarbeitung",
-        "content": "Gute Verarbeitung garantiert Langlebigkeit. Achten Sie auf stabile Materialien und eine solide Konstruktion. Verstärkte Kabel und robuste Gelenke sind ein Pluspunkt für täglichen Gebrauch. Lesen Sie Bewertungen zur Materialqualität, um Fehlkäufe zu vermeiden."
+        "heading": "4. Portabilität und Hygiene",
+        "content": "Ein leichtes, kompaktes Duoball-Design ist ideal für Reisen oder das Fitnessstudio. Achten Sie auf abwaschbare und schweißresistente Materialien, um eine einfache Reinigung zu gewährleisten. Dies ist entscheidend für die Hygiene, besonders bei häufigem Gebrauch Ihrer Doppel-Massagebälle. Strapazierfähige Materialien sichern zudem eine lange Lebensdauer."
       },
       {
-        "heading": "5. Budget und Verwendungszweck",
-        "content": "Legen Sie Ihr Budget fest. Für einfache Nutzung und Chats reichen Modelle um 20€ oft aus. Für anspruchsvollere Audioerlebnisse oder häufigen Gebrauch kann sich eine Investition lohnen. Das Preis-Leistungs-Verhältnis ist entscheidend für Ihre Wahl."
+        "heading": "5. Preis-Leistungs-Verhältnis und Bewertungen",
+        "content": "Vergleichen Sie Preise und lesen Sie Kundenbewertungen. Ein fairer Preis für einen guten Duoball liegt oft um die 15-25 €. Produkte wie das erwähnte Robotik-Kit Plus zeigen, dass Qualität nicht immer teuer sein muss. Achten Sie auf Marken, die für gute Verarbeitung und Materialqualität bekannt sind, um eine nachhaltige Kaufentscheidung zu treffen."
       }
     ]
   }
