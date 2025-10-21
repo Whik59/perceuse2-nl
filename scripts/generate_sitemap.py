@@ -107,7 +107,7 @@ def load_category_products_mapping() -> Dict[str, List[str]]:
         print(f"Warning: Could not load category-products mapping: {e}")
     return {}
 
-def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, Any]]) -> str:
+def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, Any]], site_url: str) -> str:
     """Generate hierarchical sitemap XML content with categories, subcategories, and products"""
     
     # Create root element
@@ -127,7 +127,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
     # Add homepage
     create_url_element(
         urlset, 
-        SITE_URL, 
+        site_url, 
         PRIORITY_HOMEPAGE, 
         CHANGEFREQ_HOMEPAGE,
         datetime.now().strftime("%Y-%m-%d")
@@ -136,7 +136,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
     # Add categories page
     create_url_element(
         urlset,
-        f"{SITE_URL}/categories",
+        f"{site_url}/categories",
         PRIORITY_CATEGORIES,
         CHANGEFREQ_CATEGORIES,
         datetime.now().strftime("%Y-%m-%d")
@@ -146,7 +146,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
     for category in categories:
         if category.get('slug'):
             # Add main category page
-            category_url = f"{SITE_URL}/category/{category['slug']}"
+            category_url = f"{site_url}/category/{category['slug']}"
             create_url_element(
                 urlset,
                 category_url,
@@ -161,7 +161,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
                     if subcategory.get('slug'):
                         # Create hierarchical slug for subcategory
                         subcategory_slug = f"{category['slug']}/{subcategory['slug']}"
-                        subcategory_url = f"{SITE_URL}/category/{subcategory_slug}"
+                        subcategory_url = f"{site_url}/category/{subcategory_slug}"
                         create_url_element(
                             urlset,
                             subcategory_url,
@@ -184,7 +184,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
                             for product_id in product_ids[:10]:  # Limit to first 10 products per category
                                 product = product_lookup.get(product_id.upper())
                                 if product and product.get('slug'):
-                                    product_url = f"{SITE_URL}/product/{product['slug']}"
+                                    product_url = f"{site_url}/product/{product['slug']}"
                                     create_url_element(
                                         urlset,
                                         product_url,
@@ -199,7 +199,7 @@ def generate_sitemap(categories: List[Dict[str, Any]], products: List[Dict[str, 
         for product_id in product_ids:
             product = product_lookup.get(product_id.upper())
             if product and product.get('slug') and product['slug'] not in added_products:
-                product_url = f"{SITE_URL}/product/{product['slug']}"
+                product_url = f"{site_url}/product/{product['slug']}"
                 create_url_element(
                     urlset,
                     product_url,
@@ -311,7 +311,7 @@ def main():
     
     # Generate sitemap
     print("\nGenerating sitemap...")
-    xml_content = generate_sitemap(categories, products)
+    xml_content = generate_sitemap(categories, products, site_url)
     
     # Save sitemap
     print("\nSaving sitemap...")
