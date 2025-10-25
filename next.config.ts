@@ -3,6 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   images: {
+    unoptimized: true, // Disable image optimization to avoid quota issues
     remotePatterns: [
       {
         protocol: 'https',
@@ -64,7 +65,7 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384], // Keep small sizes for icons
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 days cache
     dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
+    contentSecurityPolicy: "default-src 'self' https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://images-eu.ssl-images-amazon.com; img-src 'self' data: https:; script-src 'none'; sandbox;",
   },
   experimental: {
     optimizePackageImports: ['lucide-react'],
