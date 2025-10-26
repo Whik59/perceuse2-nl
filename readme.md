@@ -30,9 +30,9 @@ git remote -v
 
 
 
-git remote remove origin; git remote add origin https://github.com/Whik59/vaccuum-de; git add .; git commit -m "update"; git push origin main
+git remote remove origin; git remote add origin https://github.com/Whik59/drone-nl; git add .; git commit -m "german template"; git push --force origin main
 
 
 
-python scripts/pipeline.py "staubsauger" "de" --language german --min-categories 30 --max-categories 50
+python scripts/pipeline.py "drone" "nl" --language dutch --min-categories 1 --max-categories 1
 

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://kaufen-kinderwagen.de/sitemap.xml
+Sitemap: https://drone-kopen.nl/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/

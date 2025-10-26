@@ -1,203 +1,203 @@
 {
   "categories": {
-    "title": "Kinderwagen-Kategorien",
+    "title": "Drone-categorieën",
     "hero": {
-      "title": "Finden Sie den perfekten Kinderwagen für sich",
-      "subtitle": "Entdecken Sie unsere große Auswahl an hochwertigen Kinderwagen"
+      "title": "Vind de perfecte drone voor u",
+      "subtitle": "Ontdek onze grote selectie van hoogwaardige drones"
     },
-    "subtitle": "Erkunden Sie unsere spezialisierten Kinderwagen-Kategorien",
-    "helpDescription": "Unser Expertenteam hilft Ihnen, den perfekten Kinderwagen zu finden"
+    "subtitle": "Verken onze gespecialiseerde drone-categorieën",
+    "helpDescription": "Ons expertenteam helpt u de perfecte drone te vinden"
   },
-  "siteName": "Ihr perfekter Kinderwagen",
-  "companyName": "Kinderwagen GmbH",
-  "products": "Kinderwagen",
-  "productNotFound": "Kinderwagen nicht gefunden",
+  "siteName": "Uw perfecte drone",
+  "companyName": "Drone BV",
+  "products": "Drones",
+  "productNotFound": "Drone niet gevonden",
   "support": {
-    "title": "Kundenservice",
-    "subtitle": "Wir sind für Sie da, um alle Fragen zu unseren Kinderwagen zu beantworten",
+    "title": "Klantenservice",
+    "subtitle": "Wij zijn er voor u om al uw vragen over onze drones te beantwoorden",
     "faq": {
-      "title": "Häufig gestellte Fragen",
-      "categoryTitle": "Häufig gestellte Fragen",
-      "subtitle": "Finden Sie schnell Antworten auf Ihre Fragen zu unseren Kinderwagen, Lieferung, Rücksendungen und mehr.",
-      "contactCta": "Finden Sie keine Antwort auf Ihre Frage?",
-      "contactTeam": "Kontaktieren Sie unser Team",
-      "sendEmail": "E-Mail senden",
+      "title": "Veelgestelde vragen",
+      "categoryTitle": "Veelgestelde vragen",
+      "subtitle": "Vind snel antwoorden op uw vragen over onze drones, levering, retourzendingen en meer.",
+      "contactCta": "Vindt u geen antwoord op uw vraag?",
+      "contactTeam": "Neem contact op met ons team",
+      "sendEmail": "E-mail versturen",
       "questions": [
         {
           "id": "1",
-          "question": "Wie lange hält die Qualität von Kinderwagen?",
-          "answer": "Unsere Kinderwagen sind langlebig gebaut und können je nach Modell 3 bis 8 Jahre halten. Sie sind für sichere und komfortable Fahrten optimiert und garantieren bei jeder Nutzung hervorragende Sicherheit und Komfort."
+          "question": "Hoe lang gaat de kwaliteit van drones mee?",
+          "answer": "Onze drones zijn duurzaam gebouwd en kunnen afhankelijk van het model 3 tot 8 jaar meegaan. Ze zijn geoptimaliseerd voor veilige en comfortabele vluchten en garanderen bij elke vlucht uitstekende veiligheid en comfort."
         },
         {
           "id": "2",
-          "question": "Sind die Kinderwagen sicher?",
-          "answer": "Absolut. Alle unsere Kinderwagen entsprechen den strengsten europäischen Sicherheitsstandards (CE, TÜV). Sie verfügen über hochwertige Materialien, robuste Konstruktion und geprüfte Sicherheitsmerkmale wie 5-Punkt-Gurte und stabile Räder."
+          "question": "Zijn de drones veilig?",
+          "answer": "Absoluut. Al onze drones voldoen aan de strengste Europese veiligheidsnormen (CE, TÜV). Ze beschikken over hoogwaardige materialen, robuuste constructie en geteste veiligheidskenmerken zoals GPS-navigatie en automatische terugkeerfuncties."
         },
         {
           "id": "3",
-          "question": "Wie funktioniert der kostenlose Versand?",
-          "answer": "Der Versand ist für alle Bestellungen ab 50 € in Deutschland kostenlos. Wir versenden innerhalb von 24 Stunden (Werktage) mit Sendungsverfolgung. Für Bestellungen unter 50 € betragen die Versandkosten 4,90 €. Lieferung in 2-3 Werktagen."
+          "question": "Hoe werkt de gratis verzending?",
+          "answer": "De verzending is voor alle bestellingen vanaf €50 in Nederland gratis. Wij verzenden binnen 24 uur (werkdagen) met track & trace. Voor bestellingen onder €50 bedragen de verzendkosten €4,90. Levering binnen 2-3 werkdagen."
         },
         {
           "id": "4",
-          "question": "Kann ich Kinderwagen zurückgeben, wenn ich nicht zufrieden bin?",
-          "answer": "Ja, wir bieten eine 30-Tage-Zufriedenheitsgarantie oder Geld-zurück-Garantie. Wenn Sie mit Ihrem Kauf nicht vollständig zufrieden sind, können Sie den Kinderwagen in der Originalverpackung für eine volle Rückerstattung zurücksenden."
+          "question": "Kan ik drones retourneren als ik niet tevreden ben?",
+          "answer": "Ja, wij bieden een 30-dagen tevredenheidsgarantie of geld-terug-garantie. Als u niet volledig tevreden bent met uw aankoop, kunt u de drone in de originele verpakking retourneren voor volledige terugbetaling."
         },
         {
           "id": "5",
-          "question": "Wie bediene ich die Kinderwagen?",
-          "answer": "Unsere Kinderwagen sind sehr einfach zu bedienen. Sie müssen den Kinderwagen nur zusammenklappen oder aufklappen, die Bremse lösen und losfahren. Viele Modelle bieten verschiedene Positionen für das Kind und einfache Faltmechanismen. Einige haben auch verstellbare Griffe für verschiedene Höhen."
+          "question": "Hoe bedien ik de drones?",
+          "answer": "Onze drones zijn zeer eenvoudig te bedienen. U hoeft alleen de drone op te starten, de GPS te kalibreren en te vliegen. Veel modellen bieden verschillende vliegmodi en eenvoudige bediening. Sommige hebben ook verstelbare camera-instellingen voor verschillende hoogtes."
         },
         {
           "id": "6",
-          "question": "Welche Funktionen gibt es?",
-          "answer": "Die meisten unserer Kinderwagen bieten verschiedene Funktionen wie verstellbare Rückenlehne, Sonnenschutz, große Einkaufskörbe und einfache Faltmechanismen. Einige Premium-Modelle bieten zusätzliche Features wie Federung, verstellbare Griffe und verschiedene Sitzpositionen für maximale Flexibilität."
+          "question": "Welke functies zijn er?",
+          "answer": "De meeste van onze drones bieden verschillende functies zoals verstelbare camera, GPS-navigatie, grote batterijcapaciteit en eenvoudige bediening. Sommige premium-modellen bieden extra functies zoals obstacle avoidance, verstelbare camera-instellingen en verschillende vliegmodi voor maximale flexibiliteit."
         },
         {
           "id": "7",
-          "question": "Gibt es eine Garantie auf die Kinderwagen?",
-          "answer": "Alle unsere Kinderwagen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler abdeckt. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+          "question": "Is er een garantie op de drones?",
+          "answer": "Al onze drones hebben een 2-jarige fabrieksgarantie die productiefouten dekt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
         },
         {
           "id": "8",
-          "question": "Wie reinige und pflege ich meine Kinderwagen?",
-          "answer": "Die Wartung ist sehr einfach: Verwenden Sie ein weiches, feuchtes Tuch, um das Äußere zu reinigen. Vermeiden Sie aggressive Chemikalien. Die Stoffe können mit mildem Reinigungsmittel und warmem Wasser gereinigt werden. Überprüfen Sie die Kinderwagen regelmäßig und reinigen Sie sie gemäß den Herstelleranweisungen."
+          "question": "Hoe reinig en onderhoud ik mijn drones?",
+          "answer": "Het onderhoud is zeer eenvoudig: gebruik een zacht, vochtig doekje om de buitenkant schoon te maken. Vermijd agressieve chemicaliën. De propellers kunnen met mild reinigingsmiddel en warm water worden gereinigd. Controleer de drones regelmatig en reinig ze volgens de fabrieksinstructies."
         }
       ],
       "deliveryTime": {
-        "question": "Wie lange dauert die Lieferung?",
-        "answer": "Die Lieferzeiten hängen von Ihrem Standort ab. Für Deutschland beträgt die Standardlieferung 2-3 Werktage. Für andere europäische Länder beträgt die Lieferzeit 3-5 Werktage. Bestellungen werden innerhalb von 24 Stunden (Werktage) bearbeitet, und Sie erhalten eine Bestätigungs-E-Mail mit der Sendungsverfolgungsnummer."
+        "question": "Hoe lang duurt de levering?",
+        "answer": "De levertijden zijn afhankelijk van uw locatie. Voor Nederland bedraagt de standaardlevering 2-3 werkdagen. Voor andere Europese landen bedraagt de levertijd 3-5 werkdagen. Bestellingen worden binnen 24 uur (werkdagen) verwerkt en u ontvangt een bevestigings-e-mail met het track & trace-nummer."
       },
       "returns": {
-        "question": "Wie lautet die Rückgabepolitik?",
-        "answer": "Wir bieten eine 30-Tage-Zufriedenheitsgarantie. Sie können Ihre Kinderwagen in der Originalverpackung zurücksenden, wenn Sie nicht vollständig zufrieden sind. Die Rücksendekosten gehen zu Ihren Lasten, außer bei Herstellungsfehlern. Die Rückerstattung wird innerhalb von 5-7 Werktagen nach Erhalt des Produkts bearbeitet."
+        "question": "Wat is het retourbeleid?",
+        "answer": "Wij bieden een 30-dagen tevredenheidsgarantie. U kunt uw drones in de originele verpakking retourneren als u niet volledig tevreden bent. De retourkosten komen voor uw rekening, behalve bij productiefouten. De terugbetaling wordt binnen 5-7 werkdagen na ontvangst van het product verwerkt."
       },
       "warranty": {
-        "question": "Welche Garantie haben die Massagegeräte?",
-        "answer": "Alle unsere Kinderwagen haben eine 2-jährige Herstellergarantie, die Herstellungsfehler und technische Mängel abdeckt, die nicht durch den Nutzer verursacht wurden. Diese Garantie ergänzt Ihre gesetzlichen Verbraucherrechte. Bewahren Sie Ihre Rechnung auf und kontaktieren Sie unseren Kundenservice, um die Garantie in Anspruch zu nehmen."
+        "question": "Welke garantie hebben de drones?",
+        "answer": "Al onze drones hebben een 2-jarige fabrieksgarantie die productiefouten en technische gebreken dekt die niet door de gebruiker zijn veroorzaakt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
       },
       "payment": {
-        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
-        "answer": "Wir akzeptieren alle gängigen Kredit- und Debitkarten (Visa, Mastercard, American Express), PayPal, Banküberweisung und Zahlung bei Lieferung. Alle Zahlungen werden sicher über Amazon abgewickelt und gewährleisten maximale Sicherheit für Ihre Transaktionen."
+        "question": "Welke betaalmethoden accepteert u?",
+        "answer": "Wij accepteren alle gangbare credit- en debetkaarten (Visa, Mastercard, American Express), PayPal, bankoverschrijving en betaling bij levering. Alle betalingen worden veilig via Amazon afgehandeld en garanderen maximale veiligheid voor uw transacties."
       },
       "tracking": {
-        "question": "Wie kann ich meine Bestellung verfolgen?",
-        "answer": "Sobald Ihre Bestellung bearbeitet wurde, erhalten Sie eine Bestätigungs-E-Mail mit der Sendungsverfolgungsnummer. Sie können Ihr Paket direkt auf der Amazon-Website oder mit der Sendungsverfolgungsnummer auf der Website des Transportunternehmens verfolgen. Sie können auch unseren Kundenservice für Updates kontaktieren."
+        "question": "Hoe kan ik mijn bestelling volgen?",
+        "answer": "Zodra uw bestelling is verwerkt, ontvangt u een bevestigings-e-mail met het track & trace-nummer. U kunt uw pakket direct op de Amazon-website of met het track & trace-nummer op de website van de transporteur volgen. U kunt ook onze klantenservice voor updates contacteren."
       }
     },
     "contact": {
-      "title": "Kontaktieren Sie uns",
-      "subjectLabel": "Betreff",
-      "subjectPlaceholder": "Betreff auswählen",
-      "emailLabel": "Ihre E-Mail",
-      "emailPlaceholder": "ihre@email.de",
-      "messageLabel": "Nachricht",
-      "messagePlaceholder": "Beschreiben Sie Ihr Anliegen hier...",
-      "sendWhatsApp": "Über WhatsApp senden",
-      "whatsappResponse": "Wir antworten schnell über WhatsApp",
+      "title": "Neem contact met ons op",
+      "subjectLabel": "Onderwerp",
+      "subjectPlaceholder": "Selecteer onderwerp",
+      "emailLabel": "Uw e-mail",
+      "emailPlaceholder": "uw@email.nl",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Beschrijf hier uw vraag...",
+      "sendWhatsApp": "Via WhatsApp versturen",
+      "whatsappResponse": "Wij reageren snel via WhatsApp",
       "subjects": {
-        "order": "Frage zur Bestellung",
-        "refund": "Rückerstattungsanfrage",
-        "exchange": "Produktumtausch",
-        "quality": "Qualitätsproblem",
-        "delivery": "Frage zur Lieferung",
-        "other": "Sonstiges"
+        "order": "Vraag over bestelling",
+        "refund": "Terugbetalingsverzoek",
+        "exchange": "Productruil",
+        "quality": "Kwaliteitsprobleem",
+        "delivery": "Vraag over levering",
+        "other": "Overig"
       }
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere Kinderwagen, die Sie interessieren könnten",
-    "ourShop": "kaufen-kinderwagen.de"
+    "alsoLikeSubtitle": "Andere drones die u mogelijk interesseren",
+    "ourShop": "drone-kopen.nl"
   },
   "hero": {
     "expertise": {
-      "title": "Perfekte Kinderwagen!",
-      "subtitle": "Sichere und komfortable Fahrten. Qualität und Sicherheit garantiert.",
-      "cta": "Jetzt kaufen!"
+      "title": "Perfecte drones!",
+      "subtitle": "Veilige en comfortabele vluchten. Kwaliteit en veiligheid gegarandeerd.",
+      "cta": "Nu kopen!"
     },
     "trust": {
       "rating": "4,9/5",
-      "badge": "★★★★★ Zufriedene Kunden",
-      "reviews": "Über 2000+ verifizierte Bewertungen",
-      "delivery": "Kostenloser 24h-Versand",
-      "guarantee": "Umfassende 2-Jahres-Garantie"
+      "badge": "★★★★★ Tevreden klanten",
+      "reviews": "Meer dan 2000+ geverifieerde beoordelingen",
+      "delivery": "Gratis 24u verzending",
+      "guarantee": "Uitgebreide 2-jaren garantie"
     },
     "features": {
       "quality": {
-        "title": "Präzise Sicherheit",
-        "description": "Bis zu 99,9 % Sicherheitsstandard. Perfekt für außergewöhnliche Kindersicherheit ohne Kompromisse."
+        "title": "Precisie veiligheid",
+        "description": "Tot 99,9% veiligheidsstandaard. Perfect voor buitengewone drone-veiligheid zonder compromissen."
       },
       "design": {
-        "title": "Präzise Steuerung",
-        "description": "Präzise Lenkung und Bremsen für einfache Bedienung. Passt sich an verschiedene Untergründe an."
+        "title": "Precisie besturing",
+        "description": "Precisie besturing en remmen voor eenvoudige bediening. Past zich aan verschillende ondergronden aan."
       },
       "innovation": {
-        "title": "Fortschrittliche Technologie",
-        "description": "360°-Federungstechnologie. Gleichbleibende Qualität und perfekte Ergebnisse bei jeder Nutzung."
+        "title": "Geavanceerde technologie",
+        "description": "360° stabilisatietechnologie. Consistente kwaliteit en perfecte resultaten bij elke vlucht."
       },
       "support": {
-        "title": "Premium-Kundenservice",
-        "description": "Personalisierter Support, um alle Ihre Fragen zu klären. Wir begleiten Sie bei jedem Schritt."
+        "title": "Premium klantenservice",
+        "description": "Gepersonaliseerde ondersteuning om al uw vragen te beantwoorden. Wij begeleiden u bij elke stap."
       }
     }
   },
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfekte Kinderwagen!",
-        "subtitle": "Sichere und komfortable Fahrten. Qualität und Sicherheit garantiert.",
-        "loading": "Ihr Kinderwagen wird geladen...",
-        "viewAll": "Begrenzte Angebote!"
+        "title": "Perfecte drones!",
+        "subtitle": "Veilige en comfortabele vluchten. Kwaliteit en veiligheid gegarandeerd.",
+        "loading": "Uw drone wordt geladen...",
+        "viewAll": "Beperkte aanbiedingen!"
       }
     },
     "whyChoose": {
-      "subtitle": "Entdecken Sie die exklusiven Vorteile, die uns zur besten Wahl für Kinderwagen machen",
+      "subtitle": "Ontdek de exclusieve voordelen die ons de beste keuze voor drones maken",
       "advantage1": {
-        "title": "Premium-Qualität",
-        "description": "Kinderwagen höchster Qualität, entwickelt mit langlebigen Materialien und fortschrittlicher Technologie für maximale Sicherheit."
+        "title": "Premium kwaliteit",
+        "description": "Drones van de hoogste kwaliteit, ontwikkeld met duurzame materialen en geavanceerde technologie voor maximale veiligheid."
       },
       "advantage3": {
-        "title": "Spezialisierter Support",
-        "description": "Spezialisiertes Kundenserviceteam für Kinderwagen. Wir helfen Ihnen bei allen Fragen oder Problemen, die Sie haben könnten."
+        "title": "Gespecialiseerde ondersteuning",
+        "description": "Gespecialiseerd klantenserviceteam voor drones. Wij helpen u bij alle vragen of problemen die u mogelijk heeft."
       },
-      "cta": "Schließen Sie sich unseren über 15.000 zufriedenen Kunden an"
+      "cta": "Sluit u aan bij onze meer dan 15.000 tevreden klanten"
     }
   },
   "metadata": {
-    "title": "Kinderwagen kaufen - Die besten Kinderwagen im Vergleich",
-    "description": "Entdecken Sie die besten Kinderwagen mit detaillierten Bewertungen und Vergleichen. Kostenloser Versand und beste Preise garantiert."
+    "title": "Drone kopen - De beste drones in vergelijking",
+    "description": "Ontdek de beste drones met gedetailleerde beoordelingen en vergelijkingen. Gratis verzending en beste prijzen gegarandeerd."
   },
   "siteConfig": {
-    "language": "de",
-    "locale": "de-DE",
+    "language": "nl",
+    "locale": "nl-NL",
     "site": {
-      "name": "Kinderwagen",
-      "description": "Finden Sie den perfekten Kinderwagen. Große Auswahl an Kinderwagen, Buggy und Kinderwagen-Zubehör. Unglaubliche Preise und schneller Versand!",
-      "url": "https://kaufen-kinderwagen.de",
+      "name": "Drones",
+      "description": "Vind de perfecte drone. Grote selectie van drones, quadcopters en drone-accessoires. Ongelooflijke prijzen en snelle verzending!",
+      "url": "https://drone-kopen.nl",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Kinderwagen - Kinderwagen und Babyausstattung",
-      "titleTemplate": "%s | Kinderwagen",
-      "defaultDescription": "Finden Sie den perfekten Kinderwagen. Große Auswahl an Kinderwagen, Buggy und Kinderwagen-Zubehör. Unglaubliche Preise und schneller Versand!",
+      "defaultTitle": "Drones - Drones en drone-accessoires",
+      "titleTemplate": "%s | Drones",
+      "defaultDescription": "Vind de perfecte drone. Grote selectie van drones, quadcopters en drone-accessoires. Ongelooflijke prijzen en snelle verzending!",
       "keywords": [
-        "Kinderwagen",
-        "Buggy",
-        "Babyausstattung",
-        "Kinderwagen kaufen",
-        "Kinderwagen-Angebote",
-        "Günstige Kinderwagen",
-        "Beste Kinderwagen",
-        "Professionelle Kinderwagen",
-        "Sichere Kinderwagen"
+        "Drones",
+        "Quadcopter",
+        "Drone-accessoires",
+        "Drone kopen",
+        "Drone-aanbiedingen",
+        "Goedkope drones",
+        "Beste drones",
+        "Professionele drones",
+        "Veilige drones"
       ],
-      "ogImage": "/og-image-kinderwagen.jpg"
+      "ogImage": "/og-image-drones.jpg"
     },
     "business": {
-      "email": "info@kaufen-kinderwagen.de",
-      "phone": "+49 30 12345678",
-      "address": "Kinderwagenstraße 1, 10115 Berlin, Deutschland",
+      "email": "info@drone-kopen.nl",
+      "phone": "+31 20 12345678",
+      "address": "Droneweg 1, 1012 AB Amsterdam, Nederland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -205,21 +205,21 @@
       }
     },
     "affiliate": {
-      "amazonTag": "kinderwagen-21",
-      "disclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Verkäufen."
+      "amazonTag": "drones-21",
+      "disclaimer": "Als Amazon-partner verdienen wij aan gekwalificeerde verkopen."
     },
     "features": {
       "expertReviews": {
         "enabled": true,
-        "message": "Expertenbewertungen und detaillierte Tests"
+        "message": "Expertbeoordelingen en gedetailleerde tests"
       },
       "priceComparison": {
         "enabled": true,
-        "message": "Preisvergleich in Echtzeit"
+        "message": "Prijsvergelijking in realtime"
       },
       "buyingGuides": {
         "enabled": true,
-        "message": "Detaillierte Kaufberatung"
+        "message": "Gedetailleerde koopadvies"
       }
     }
   }

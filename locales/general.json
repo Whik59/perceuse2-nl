@@ -1,721 +1,720 @@
 {
   "categories": {
-    "browseAll": "Alle Kategorien ansehen",
-    "discoverNow": "Jetzt entdecken",
-    "noProducts": "Keine Produkte in dieser Kategorie verfügbar",
-    "loading": "Kategorien werden geladen...",
-    "error": "Fehler beim Laden der Kategorien",
-    "collectionsAvailable": "Verfügbare Kollektionen",
-    "discover": "Entdecken",
-    "subcategories": "Unterkategorien",
-    "popular": "Beliebt",
-    "rating": "Bewertung",
-    "products": "Produkte",
-    "viewAll": "Alle ansehen",
-    "showMore": "Mehr anzeigen",
-    "showLess": "Weniger anzeigen",
-    "filterBy": "Filtern nach",
-    "sortBy": "Sortieren nach",
-    "priceRange": "Preisspanne",
-    "inStock": "Auf Lager",
-    "onSale": "Im Angebot",
-    "newArrivals": "Neuheiten",
-    "bestSellers": "Bestseller",
-    "topRated": "Am besten bewertet",
-    "searchPlaceholder": "Kategorien durchsuchen...",
-    "allSubcategories": "Alle Unterkategorien",
-    "subcategoriesDescription": "Entdecken Sie alle verfügbaren Unterkategorien",
-    "needHelp": "Brauchen Sie Hilfe?",
-    "backToHome": "Zurück zur Startseite",
-    "exploreBySpecialty": "Nach Spezialität erkunden",
-    "refineSearch": "Verfeinern Sie Ihre Suche mit unseren spezialisierten Unterkategorien",
-    "viewCollection": "Kollektion ansehen",
-    "priceAscending": "Preis aufsteigend",
-    "priceDescending": "Preis absteigend",
-    "productsFound": "Produkte gefunden",
-    "productFound": "Produkt gefunden",
-    "allSpecialtiesIncluded": "(alle Spezialitäten eingeschlossen)",
-    "minimumRating": "Mindestbewertung",
-    "allRatings": "Alle Bewertungen",
-    "fourStarsAndUp": "4★ und mehr",
-    "threeStarsAndUp": "3★ und mehr",
-    "twoStarsAndUp": "2★ und mehr",
-    "inStockOnly": "Nur auf Lager",
-    "noProductsFound": "Keine Produkte gefunden",
-    "modifyFilters": "Versuchen Sie, Ihre Filter zu ändern oder erkunden Sie unsere anderen Kategorien",
-    "viewMoreProducts": "Weitere Produkte ansehen",
-    "relatedTerms": "Verwandte Begriffe",
-    "collections": "Kollektionen",
-    "mostPopularCategories": "Beliebteste Kategorien",
-    "discoverCollections": "Entdecken Sie unsere sorgfältig ausgewählten Kollektionen für jeden Geschmack",
-    "viewAllCategories": "Alle Kategorien ansehen"
+    "browseAll": "Alle categorieën bekijken",
+    "discoverNow": "Nu ontdekken",
+    "noProducts": "Geen producten beschikbaar in deze categorie",
+    "loading": "Categorieën worden geladen...",
+    "error": "Fout bij het laden van categorieën",
+    "collectionsAvailable": "Beschikbare collecties",
+    "discover": "Ontdekken",
+    "subcategories": "Subcategorieën",
+    "popular": "Populair",
+    "rating": "Beoordeling",
+    "products": "Producten",
+    "viewAll": "Alles bekijken",
+    "showMore": "Meer tonen",
+    "showLess": "Minder tonen",
+    "filterBy": "Filteren op",
+    "sortBy": "Sorteren op",
+    "priceRange": "Prijsklasse",
+    "inStock": "Op voorraad",
+    "onSale": "In de aanbieding",
+    "newArrivals": "Nieuw binnen",
+    "bestSellers": "Bestsellers",
+    "topRated": "Hoogst beoordeeld",
+    "searchPlaceholder": "Zoek in categorieën...",
+    "allSubcategories": "Alle subcategorieën",
+    "subcategoriesDescription": "Ontdek alle beschikbare subcategorieën",
+    "needHelp": "Hulp nodig?",
+    "backToHome": "Terug naar de homepage",
+    "exploreBySpecialty": "Ontdekken op specialiteit",
+    "refineSearch": "Verfijn uw zoekopdracht met onze gespecialiseerde subcategorieën",
+    "viewCollection": "Collectie bekijken",
+    "priceAscending": "Prijs oplopend",
+    "priceDescending": "Prijs aflopend",
+    "productsFound": "Producten gevonden",
+    "productFound": "Product gevonden",
+    "allSpecialtiesIncluded": "(alle specialiteiten inbegrepen)",
+    "minimumRating": "Minimale beoordeling",
+    "allRatings": "Alle beoordelingen",
+    "fourStarsAndUp": "4★ en hoger",
+    "threeStarsAndUp": "3★ en hoger",
+    "twoStarsAndUp": "2★ en hoger",
+    "inStockOnly": "Alleen op voorraad",
+    "noProductsFound": "Geen producten gevonden",
+    "modifyFilters": "Probeer uw filters aan te passen of ontdek onze andere categorieën",
+    "viewMoreProducts": "Meer producten bekijken",
+    "relatedTerms": "Gerelateerde termen",
+    "collections": "Collecties",
+    "mostPopularCategories": "Meest populaire categorieën",
+    "discoverCollections": "Ontdek onze zorgvuldig geselecteerde collecties voor elke smaak",
+    "viewAllCategories": "Alle categorieën bekijken"
   },
   "navigation": {
-    "home": "Startseite",
-    "products": "Produkte",
-    "categories": "Kategorien",
-    "cart": "Auswahl",
-    "checkout": "Amazon",
-    "account": "Mein Konto",
-    "contact": "Kontakt"
+    "home": "Homepage",
+    "products": "Producten",
+    "categories": "Categorieën",
+    "cart": "Winkelwagen",
+    "checkout": "Afrekenen",
+    "account": "Mijn account",
+    "contact": "Contact"
   },
   "product": {
-    "description": "Beschreibung",
-    "specifications": "Spezifikationen",
-    "customerReviews": "Kundenbewertungen",
-    "faq": "Häufig gestellte Fragen",
-    "quickReview": "Unser Urteil in 30 Sekunden",
-    "reviewAnalysis": "Bewertung",
-    "reviewAnalysisSummary": "Umfassende Produktanalyse",
-    "reviewAnalysisStrengths": "Stärken",
-    "reviewAnalysisWeaknesses": "Verbesserungspunkte",
-    "reviewAnalysisDetailed": "Detaillierte Analyse",
-    "reviewAnalysisRecommendation": "Empfehlung",
-    "reviewAnalysisValue": "Preis-Leistungs-Verhältnis",
-    "reviewAnalysisFinalVerdict": "Unser endgültiges Urteil",
+    "description": "Beschrijving",
+    "specifications": "Specificaties",
+    "customerReviews": "Klantbeoordelingen",
+    "faq": "Veelgestelde vragen",
+    "quickReview": "Onze mening in 30 seconden",
+    "reviewAnalysis": "Beoordeling",
+    "reviewAnalysisSummary": "Uitgebreide productanalyse",
+    "reviewAnalysisStrengths": "Sterke punten",
+    "reviewAnalysisWeaknesses": "Verbeterpunten",
+    "reviewAnalysisDetailed": "Gedetailleerde analyse",
+    "reviewAnalysisRecommendation": "Aanbeveling",
+    "reviewAnalysisValue": "Prijs-kwaliteitverhouding",
+    "reviewAnalysisFinalVerdict": "Ons definitieve oordeel",
     "heroReviews": {
-      "title": "Unser umfassender Test",
+      "title": "Onze uitgebreide test",
       "subtitle": ""
     },
-    "alsoLike": "Das könnte Ihnen auch gefallen",
-    "buyNow": "Jetzt kaufen",
-    "viewProduct": "Ansehen",
-    "whyChoose": "Warum {productTitle} wählen",
-    "overallAssessment": "Gesamtbewertung",
-    "pointsToConsider": "Zu beachtende Punkte",
-    "finalRecommendation": "Endgültige Empfehlung",
-    "targetAudience": "Zielgruppe",
-    "loading": "Wird geladen...",
-    "notFound": "Produkt nicht gefunden",
-    "notFoundDescription": "Das gesuchte Produkt ist nicht verfügbar",
-    "viewersCount": "Personen sehen dieses Produkt",
-    "lastOrderBy": "Letzte Bestellung von",
-    "temporarilyUnavailable": "Vorübergehend nicht verfügbar",
-    "limitedStock": "Begrenzter Vorrat",
-    "remaining": "verbleibend",
-    "inStock": "Auf Lager",
-    "savings": "Ersparnis von",
-    "paymentInstallments": "Ratenzahlung",
-    "secureTransaction": "Sichere Transaktion",
-    "delivery48h": "Lieferung in 48h",
-    "outOfStock": "Ausverkauft",
-    "offer24h": "24h-Angebot",
-    "checkAvailability": "Verfügbarkeit prüfen",
-    "quantity": "Menge",
-    "redirecting": "Weiterleitung...",
-    "buyOnAmazon": "Kaufen",
-    "favorites": "Favoriten",
-    "share": "Teilen",
-    "technicalSpecifications": "Technische Spezifikationen",
-    "noSpecifications": "Keine Spezifikationen für dieses Produkt verfügbar",
-    "frequentlyAskedQuestions": "Häufig gestellte Fragen",
-    "basedOnReviews": "Basierend auf",
-    "reviews": "Bewertungen",
-    "verifiedPurchase": "Verifizierter Kauf",
-    "clientsRecommend": "der Kunden empfehlen dieses Produkt",
-    "similarProductsLoading": "Ähnliche Produkte werden geladen...",
-    "limitedOffer": "Begrenztes Angebot",
-    "expiresIn": "Läuft ab in",
-    "addToCartForDiscount": "Klicken Sie unten",
-    "cartDiscountDisclaimer": "Produkt in den Warenkorb legen = 30% Rabatt!",
-    "quickPreview": "Schnellvorschau",
-    "saveAmount": "Sparen Sie {amount}",
-    "filters": "Filter",
-    "products": "Produkte",
+    "alsoLike": "Dit vind je misschien ook leuk",
+    "buyNow": "Nu kopen",
+    "viewProduct": "Bekijken",
+    "whyChoose": "Waarom kiezen voor {productTitle}",
+    "overallAssessment": "Algemene beoordeling",
+    "pointsToConsider": "Aandachtspunten",
+    "finalRecommendation": "Definitieve aanbeveling",
+    "targetAudience": "Doelgroep",
+    "loading": "Wordt geladen...",
+    "notFound": "Product niet gevonden",
+    "notFoundDescription": "Het gezochte product is niet beschikbaar",
+    "viewersCount": "Personen bekijken dit product",
+    "lastOrderBy": "Laatste bestelling door",
+    "temporarilyUnavailable": "Tijdelijk niet beschikbaar",
+    "limitedStock": "Beperkte voorraad",
+    "remaining": "resterend",
+    "inStock": "Op voorraad",
+    "savings": "Besparing van",
+    "paymentInstallments": "Betaling in termijnen",
+    "secureTransaction": "Veilige transactie",
+    "delivery48h": "Levering binnen 48 uur",
+    "outOfStock": "Uitverkocht",
+    "offer24h": "24-uurs aanbieding",
+    "checkAvailability": "Beschikbaarheid controleren",
+    "quantity": "Aantal",
+    "redirecting": "Doorsturen...",
+    "buyOnAmazon": "Kopen",
+    "favorites": "Favorieten",
+    "share": "Delen",
+    "technicalSpecifications": "Technische specificaties",
+    "noSpecifications": "Geen specificaties beschikbaar voor dit product",
+    "frequentlyAskedQuestions": "Veelgestelde vragen",
+    "basedOnReviews": "Gebaseerd op",
+    "reviews": "Beoordelingen",
+    "verifiedPurchase": "Geverifieerde aankoop",
+    "clientsRecommend": "van de klanten beveelt dit product aan",
+    "similarProductsLoading": "Vergelijkbare producten worden geladen...",
+    "limitedOffer": "Beperkt aanbod",
+    "expiresIn": "Verloopt over",
+    "addToCartForDiscount": "Klik hieronder",
+    "cartDiscountDisclaimer": "Product in de winkelwagen leggen = 30% korting!",
+    "quickPreview": "Snelle preview",
+    "saveAmount": "Bespaar {amount}",
+    "filters": "Filters",
+    "products": "Producten",
     "sort": {
-      "newest": "Neueste",
-      "priceLow": "Preis: niedrig bis hoch",
-      "priceHigh": "Preis: hoch bis niedrig",
-      "rating": "Am besten bewertet"
+      "newest": "Nieuwste",
+      "priceLow": "Prijs: laag naar hoog",
+      "priceHigh": "Prijs: hoog naar laag",
+      "rating": "Hoogst beoordeeld"
     },
-    "priceRange": "Preisspanne",
-    "minRating": "Mindestbewertung",
-    "allRatings": "Alle Bewertungen",
-    "4stars": "4 Sterne und mehr",
-    "3stars": "3 Sterne und mehr",
-    "2stars": "2 Sterne und mehr",
-    "1star": "1 Stern und mehr",
-    "availability": "Verfügbarkeit",
-    "noProducts": "Keine Produkte verfügbar",
-    "noProductsDescription": "Keine Produkte gefunden, die den ausgewählten Filtern entsprechen"
+    "priceRange": "Prijsklasse",
+    "minRating": "Minimale beoordeling",
+    "allRatings": "Alle beoordelingen",
+    "4stars": "4 sterren en hoger",
+    "3stars": "3 sterren en hoger",
+    "2stars": "2 sterren en hoger",
+    "1star": "1 ster en hoger",
+    "availability": "Beschikbaarheid",
+    "noProducts": "Geen producten beschikbaar",
+    "noProductsDescription": "Geen producten gevonden die overeenkomen met de geselecteerde filters"
   },
   "common": {
-    "close": "Schließen",
-    "cancel": "Abbrechen",
-    "confirm": "Bestätigen",
-    "loading": "Wird geladen...",
-    "error": "Ein Fehler ist aufgetreten",
+    "close": "Sluiten",
+    "cancel": "Annuleren",
+    "confirm": "Bevestigen",
+    "loading": "Wordt geladen...",
+    "error": "Er is een fout opgetreden",
     "siteName": "Website",
-    "companyName": "Unternehmen",
-    "home": "Startseite",
-    "linkCopied": "Link kopiert",
-    "qualityExceptional": "Hervorragende Qualität",
-    "amazonShipping": "Amazon-Versand"
+    "companyName": "Bedrijf",
+    "home": "Homepage",
+    "linkCopied": "Link gekopieerd",
+    "qualityExceptional": "Uitstekende kwaliteit",
+    "amazonShipping": "Amazon-verzending"
   },
   "homepage": {
-    "title": "Startseite",
-    "loading": "Wird geladen...",
+    "title": "Homepage",
+    "loading": "Wordt geladen...",
     "whyChoose": {
-      "title": "Warum uns wählen?",
+      "title": "Waarom kiezen voor ons?",
       "advantage2": {
-        "title": "Schnelle Lieferung",
-        "description": "Kostenloser Versand in 24-48 Stunden in ganz Deutschland. Ihre Zufriedenheit ist unsere Priorität, deshalb garantieren wir schnelle und sichere Lieferungen."
+        "title": "Snelle levering",
+        "description": "Gratis verzending binnen 24-48 uur in heel Nederland. Uw tevredenheid is onze prioriteit, daarom garanderen we snelle en veilige leveringen."
       },
       "advantage4": {
-        "title": "Umfassende Garantie",
-        "description": "2 Jahre Garantie auf alle unsere Produkte. Ihre Zufriedenheit ist mit unserem erstklassigen Kundenservice garantiert."
+        "title": "Uitgebreide garantie",
+        "description": "2 jaar garantie op al onze producten. Uw tevredenheid is gegarandeerd met onze eersteklas klantenservice."
       },
       "comparison": {
-        "title": "Vergleich mit der Konkurrenz",
-        "us": "Wir",
-        "others": "Andere",
-        "criteria": "Kriterien",
-        "quality": "Qualität",
-        "standardQuality": "Standardqualität",
-        "fastShipping": "Schnelle Lieferung 24h",
-        "slowShipping": "Langsame Lieferung 5-7 Tage",
-        "warranty": "2 Jahre Garantie",
-        "limitedWarranty": "Eingeschränkte Garantie",
-        "support": "Spezialisierter Support",
-        "basicSupport": "Grundlegender Support",
-        "tableFooter": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt anzuzeigen. Preise können variieren."
+        "title": "Vergelijking met de concurrentie",
+        "us": "Wij",
+        "others": "Anderen",
+        "criteria": "Criteria",
+        "quality": "Kwaliteit",
+        "standardQuality": "Standaardkwaliteit",
+        "fastShipping": "Snelle levering 24 uur",
+        "slowShipping": "Langzame levering 5-7 dagen",
+        "warranty": "2 jaar garantie",
+        "limitedWarranty": "Beperkte garantie",
+        "support": "Gespecialiseerde ondersteuning",
+        "basicSupport": "Basis ondersteuning",
+        "tableFooter": "Vergelijking van de {count} beste producten op basis van specificaties en klantbeoordelingen. Klik op een rij om het product te bekijken. Prijzen kunnen variëren."
       }
     }
   },
   "errors": {
-    "somethingWrong": "Etwas ist schiefgelaufen",
-    "tryAgain": "Erneut versuchen",
-    "pageNotFound": "Seite nicht gefunden",
-    "productNotFound": "Produkt nicht gefunden",
-    "categoryNotFound": "Kategorie nicht gefunden",
-    "amazonRedirectError": "Fehler bei der Weiterleitung zu Amazon",
-    "amazonUnavailable": "Amazon nicht verfügbar",
+    "somethingWrong": "Er is iets misgegaan",
+    "tryAgain": "Probeer opnieuw",
+    "pageNotFound": "Pagina niet gevonden",
+    "productNotFound": "Product niet gevonden",
+    "categoryNotFound": "Categorie niet gevonden",
+    "amazonRedirectError": "Fout bij doorverwijzing naar Amazon",
+    "amazonUnavailable": "Amazon niet beschikbaar",
     "404": {
       "title": "404",
-      "heading": "Seite nicht gefunden",
-      "description": "Es tut uns leid, wir konnten die gesuchte Seite nicht finden. Sie wurde möglicherweise verschoben, gelöscht oder existiert nicht.",
-      "goHome": "Zur Startseite",
-      "browseCategories": "Kategorien durchsuchen",
-      "helpText": "Wenn Sie glauben, dass es sich um einen Fehler handelt, kontaktieren Sie bitte unser Support-Team."
+      "heading": "Pagina niet gevonden",
+      "description": "Het spijt ons, we konden de gezochte pagina niet vinden. Deze is mogelijk verplaatst, verwijderd of bestaat niet.",
+      "goHome": "Naar de homepage",
+      "browseCategories": "Categorieën bekijken",
+      "helpText": "Als u denkt dat dit een fout is, neem dan contact op met ons ondersteuningsteam."
     }
   },
   "search": {
-    "placeholder": "Produkte suchen...",
-    "noResults": "Keine Produkte gefunden",
-    "searchFor": "Nach Produkten suchen",
-    "suggestions": "Vorschläge:",
+    "placeholder": "Zoek naar producten...",
+    "noResults": "Geen producten gevonden",
+    "searchFor": "Zoeken naar producten",
+    "suggestions": "Suggesties:",
     "all": "Alle",
-    "products": "Produkte",
-    "categories": "Kategorien",
-    "searching": "Suche läuft...",
-    "noResultsFound": "Keine Ergebnisse gefunden",
-    "tryOtherKeywords": "Versuchen Sie andere Schlüsselwörter oder erkunden Sie unsere Kategorien",
-    "viewAllCategories": "Alle Kategorien ansehen",
-    "loading": "Wird geladen..."
+    "products": "Producten",
+    "categories": "Categorieën",
+    "searching": "Zoeken...",
+    "noResultsFound": "Geen resultaten gevonden",
+    "tryOtherKeywords": "Probeer andere zoekwoorden of ontdek onze categorieën",
+    "viewAllCategories": "Alle categorieën bekijken",
+    "loading": "Wordt geladen..."
   },
   "comparison": {
-    "title": "Produktvergleich",
-    "compareProducts": "Produkte vergleichen",
-    "specifications": "Spezifikationen",
-    "price": "Preis",
-    "rating": "Bewertung",
-    "availability": "Verfügbarkeit",
-    "description": "Vergleich der {count} besten Produkte basierend auf Spezifikationen und Kundenbewertungen. Klicken Sie auf eine Zeile, um das Produkt anzuzeigen. Preise können variieren.",
-    "clickToView": "Klicken Sie auf eine Zeile, um das Produkt anzuzeigen",
-    "pricesMayVary": "Preise können variieren"
+    "title": "Productvergelijking",
+    "compareProducts": "Producten vergelijken",
+    "specifications": "Specificaties",
+    "price": "Prijs",
+    "rating": "Beoordeling",
+    "availability": "Beschikbaarheid",
+    "description": "Vergelijking van de {count} beste producten op basis van specificaties en klantbeoordelingen. Klik op een rij om het product te bekijken. Prijzen kunnen variëren.",
+    "clickToView": "Klik op een rij om het product te bekijken",
+    "pricesMayVary": "Prijzen kunnen variëren"
   },
   "header": {
     "premium": "PREMIUM",
-    "partner": "Amazon-Partner",
-    "madeInGermany": "Hergestellt in Europa",
-    "verified": "Verifiziert",
+    "partner": "Amazon-partner",
+    "madeInGermany": "Gemaakt in Europa",
+    "verified": "Geverifieerd",
     "rating": "4,9/5",
     "search": {
-      "placeholder": "Produkte suchen..."
+      "placeholder": "Zoek naar producten..."
     },
-    "support": "Support",
+    "support": "Ondersteuning",
     "cart": {
-      "title": "Meine Auswahl"
+      "title": "Mijn winkelwagen"
     }
   },
   "social": {
-    "shareProduct": "Dieses Produkt teilen",
-    "followUs": "Folgen Sie uns",
-    "customerReviews": "Kundenbewertungen Amazon"
+    "shareProduct": "Dit product delen",
+    "followUs": "Volg ons",
+    "customerReviews": "Klantbeoordelingen Amazon"
   },
   "urgency": {
-    "orderInNext": "Bestellen Sie in den nächsten",
-    "hours": "Stunden",
+    "orderInNext": "Bestel binnen de komende",
+    "hours": "Uren",
     "minutes": "Minuten",
-    "toReceiveBy": "um zu erhalten bis",
-    "popularChoice": "Beliebte Wahl",
+    "toReceiveBy": "om te ontvangen voor",
+    "popularChoice": "Populaire keuze",
     "bestSeller": "Bestseller",
-    "almostSoldOut": "Begrenzter Vorrat",
-    "amazonPrime": "Amazon Prime Lieferung verfügbar",
-    "freeShipping": "Kostenloser Versand",
-    "cartDiscount": "-30%, wenn Sie es in den nächsten 5 Minuten in den Warenkorb legen!"
+    "almostSoldOut": "Beperkte voorraad",
+    "amazonPrime": "Amazon Prime-levering beschikbaar",
+    "freeShipping": "Gratis verzending",
+    "cartDiscount": "-30% als u het in de komende 5 minuten in de winkelwagen legt!"
   },
   "amazon": {
-    "buyOnAmazon": "Auf Amazon kaufen",
-    "buyNow": "Jetzt kaufen",
-    "viewOnAmazon": "Auf Amazon ansehen",
-    "priceOnAmazon": "Preis auf Amazon",
-    "onAmazon": "auf Amazon",
-    "affiliateNotice": "Als Amazon-Partner verdienen wir an qualifizierten Käufen.",
-    "redirecting": "Weiterleitung zu Amazon...",
-    "openInNewTab": "In neuem Tab öffnen",
-    "viaAmazon": "über Amazon",
+    "buyOnAmazon": "Kopen op Amazon",
+    "buyNow": "Nu kopen",
+    "viewOnAmazon": "Bekijk op Amazon",
+    "priceOnAmazon": "Prijs op Amazon",
+    "onAmazon": "op Amazon",
+    "affiliateNotice": "Als Amazon-partner verdienen we aan gekwalificeerde aankopen.",
+    "redirecting": "Doorsturen naar Amazon...",
+    "openInNewTab": "Openen in nieuw tabblad",
+    "viaAmazon": "via Amazon",
     "amazonLogo": "/Amazon_icon.svg"
   },
   "banner": {
-    "discount": "Rabatt",
-    "clientReviews": "Kundenbewertungen",
-    "ordersDelivered": "Bestellungen geliefert",
-    "amazonPartenaire": "Amazon-Partner",
-    "madeInGermany": "Hergestellt in Deutschland",
-    "qualityAssured": "Qualität garantiert",
-    "fastDelivery": "Schnelle Lieferung",
-    "securePayment": "Sichere Zahlung",
-    "customerSupport": "Kundenservice 24/7",
-    "freeReturns": "Kostenlose Rücksendungen",
-    "emergencyDiscount": "-30% auf alle Produkte",
-    "timeLeft": "Verbleibende Zeit",
-    "hours": "Std",
+    "discount": "Korting",
+    "clientReviews": "Klantbeoordelingen",
+    "ordersDelivered": "Bestellingen geleverd",
+    "amazonPartenaire": "Amazon-partner",
+    "madeInGermany": "Gemaakt in Duitsland",
+    "qualityAssured": "Kwaliteit gegarandeerd",
+    "fastDelivery": "Snelle levering",
+    "securePayment": "Veilige betaling",
+    "customerSupport": "Klantenservice 24/7",
+    "freeReturns": "Gratis retourneren",
+    "emergencyDiscount": "-30% op alle producten",
+    "timeLeft": "Resterende tijd",
+    "hours": "Uur",
     "minutes": "Min",
-    "seconds": "Sek"
+    "seconds": "Sec"
   },
   "support": {
-    "title": "Kundenservice",
-    "subtitle": "Wir sind hier, um Ihnen bei allen Fragen zu helfen",
+    "title": "Klantenservice",
+    "subtitle": "We zijn hier om u te helpen bij al uw vragen",
     "contact": {
-      "title": "Kontaktieren Sie uns",
-      "subjectLabel": "Betreff",
-      "selectSubject": "Betreff auswählen",
-      "emailLabel": "Ihre E-Mail",
-      "emailPlaceholder": "ihre@email.de",
-      "messageLabel": "Nachricht",
-      "messagePlaceholder": "Beschreiben Sie Ihr Anliegen hier...",
-      "sendWhatsApp": "Über WhatsApp senden",
-      "whatsappInfo": "Wir antworten Ihnen über WhatsApp in weniger als 2 Stunden",
-      "whatsappTemplate": "Hallo, ich habe eine Frage zu meiner Bestellung:",
-      "subject": "Betreff",
-      "email": "E-Mail",
-      "message": "Nachricht",
+      "title": "Neem contact met ons op",
+      "subjectLabel": "Onderwerp",
+      "selectSubject": "Selecteer onderwerp",
+      "emailLabel": "Uw e-mail",
+      "emailPlaceholder": "uw@email.nl",
+      "messageLabel": "Bericht",
+      "messagePlaceholder": "Beschrijf hier uw vraag...",
+      "sendWhatsApp": "Verzenden via WhatsApp",
+      "whatsappInfo": "We reageren binnen 2 uur via WhatsApp",
+      "whatsappTemplate": "Hallo, ik heb een vraag over mijn bestelling:",
+      "subject": "Onderwerp",
+      "email": "E-mail",
+      "message": "Bericht",
       "subjects": {
-        "order": "Frage zur Bestellung",
-        "refund": "Rückerstattungsanfrage",
-        "exchange": "Produktumtausch",
-        "quality": "Qualitätsproblem",
-        "delivery": "Frage zur Lieferung",
-        "other": "Sonstige Anfrage"
+        "order": "Vraag over bestelling",
+        "refund": "Verzoek om terugbetaling",
+        "exchange": "Productruil",
+        "quality": "Kwaliteitsprobleem",
+        "delivery": "Vraag over levering",
+        "other": "Overige vraag"
       }
     }
   },
   "cart": {
-    "title": "Meine Auswahl",
-    "addToCart": "In den Warenkorb",
-    "yourCart": "Ihr Warenkorb",
-    "cartEmpty": "Ihr Warenkorb ist leer",
-    "continueShopping": "Weiter einkaufen",
-    "removeItem": "Entfernen",
-    "updateQuantity": "Menge ändern",
-    "subtotal": "Zwischensumme",
-    "shipping": "Versand",
-    "total": "Gesamt",
-    "proceedToCheckout": "Zur Kasse",
+    "title": "Mijn winkelwagen",
+    "addToCart": "In winkelwagen",
+    "yourCart": "Uw winkelwagen",
+    "cartEmpty": "Uw winkelwagen is leeg",
+    "continueShopping": "Verder winkelen",
+    "removeItem": "Verwijderen",
+    "updateQuantity": "Aantal wijzigen",
+    "subtotal": "Subtotaal",
+    "shipping": "Verzending",
+    "total": "Totaal",
+    "proceedToCheckout": "Naar de kassa",
     "empty": {
-      "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Produkte zu Ihrer Auswahl hinzu, um fortzufahren",
-      "button": "Zurück zum Shop"
+      "title": "Uw winkelwagen is leeg",
+      "description": "Voeg producten toe aan uw winkelwagen om verder te gaan",
+      "button": "Terug naar de winkel"
     },
-    "removeFromCart": "Aus dem Warenkorb entfernen",
-    "quantity": "Menge",
-    "price": "Preis",
-    "added": "Zum Warenkorb hinzugefügt",
-    "removed": "Aus dem Warenkorb entfernt",
-    "updated": "Warenkorb aktualisiert",
-    "checkout": "Bestellen",
-    "discountCode": "Rabattcode",
-    "applyDiscount": "Anwenden",
-    "discountApplied": "Code {code} angewendet",
-    "invalidDiscount": "Ungültiger Rabattcode",
-    "discountError": "Ein Fehler ist aufgetreten",
-    "reduction": "Rabatt",
-    "freeShipping": "Kostenlos",
+    "removeFromCart": "Uit winkelwagen verwijderen",
+    "quantity": "Aantal",
+    "price": "Prijs",
+    "added": "Toegevoegd aan winkelwagen",
+    "removed": "Verwijderd uit winkelwagen",
+    "updated": "Winkelwagen bijgewerkt",
+    "checkout": "Afrekenen",
+    "discountCode": "Kortingscode",
+    "applyDiscount": "Toepassen",
+    "discountApplied": "Code {code} toegepast",
+    "invalidDiscount": "Ongeldige kortingscode",
+    "discountError": "Er is een fout opgetreden",
+    "reduction": "Korting",
+    "freeShipping": "Gratis",
     "crossedOutShipping": "5,99€",
     "orderCommand": "Bestellen",
-    "totalEstimated": "Geschätzte Gesamtsumme",
-    "amazonNotice": "Endgültiger Preis und Versandkosten auf Amazon",
-    "buyOnAmazon": "Kaufen",
-    "buyNow": "Jetzt kaufen",
-    "viewFullSelection": "Meine vollständige Auswahl ansehen",
-    "pageTitle": "Ihre Auswahl",
-    "pageSubtitle": "Ihre ausgewählten Produkte - Direkt auf Amazon kaufen",
-    "summary": "Zusammenfassung",
-    "items": "Artikel",
-    "clearCart": "Auswahl leeren",
-    "amazonPartenaire": "Auf Amazon kaufen",
-    "amazonPartenaireText": "Als Amazon-Partner verdienen wir an qualifizierten Käufen.",
+    "totalEstimated": "Geschat totaal",
+    "amazonNotice": "Definitieve prijs en verzendkosten op Amazon",
+    "buyOnAmazon": "Kopen",
+    "buyNow": "Nu kopen",
+    "viewFullSelection": "Mijn volledige winkelwagen bekijken",
+    "pageTitle": "Uw winkelwagen",
+    "pageSubtitle": "Uw geselecteerde producten - Direct kopen op Amazon",
+    "summary": "Samenvatting",
+    "items": "Artikelen",
+    "clearCart": "Winkelwagen legen",
+    "amazonPartenaire": "Kopen op Amazon",
+    "amazonPartenaireText": "Als Amazon-partner verdienen we aan gekwalificeerde aankopen.",
     "trustSignals": {
-      "freeShipping": "Kostenloser Versand",
-      "securePayment": "Sichere Zahlung",
-      "freeReturns": "Kostenlose Rücksendungen"
+      "freeShipping": "Gratis verzending",
+      "securePayment": "Veilige betaling",
+      "freeReturns": "Gratis retourneren"
     },
     "amazonButton": {
-      "buyNow": "Jetzt kaufen",
-      "buyOnAmazon": "Auf Amazon kaufen",
-      "viaAmazon": "über Amazon",
+      "buyNow": "Nu kopen",
+      "buyOnAmazon": "Kopen op Amazon",
+      "viaAmazon": "via Amazon",
       "amazonLogo": "/Amazon_icon.svg"
     }
   },
   "checkout": {
     "empty": {
-      "title": "Ihre Auswahl ist leer",
-      "description": "Fügen Sie Produkte zu Ihrer Auswahl hinzu, bevor Sie zur Kasse gehen",
-      "button": "Unsere Produkte entdecken"
+      "title": "Uw winkelwagen is leeg",
+      "description": "Voeg producten toe aan uw winkelwagen voordat u afrekent",
+      "button": "Ontdek onze producten"
     },
-    "backToCart": "Zurück zur Auswahl",
-    "pageTitle": "Kauf abschließen",
-    "pageSubtitle": "Sie werden zu Amazon weitergeleitet, um Ihren Kauf abzuschließen",
+    "backToCart": "Terug naar winkelwagen",
+    "pageTitle": "Aankoop afronden",
+    "pageSubtitle": "U wordt doorgestuurd naar Amazon om uw aankoop te voltooien",
     "securePurchase": {
-      "title": "Sicherer Kauf bei Amazon",
-      "subtitle": "Profitieren Sie von der Sicherheit und den Garantien von Amazon"
+      "title": "Veilige aankoop bij Amazon",
+      "subtitle": "Profiteer van de veiligheid en garanties van Amazon"
     },
     "benefits": {
-      "securePayment": "100% sichere Zahlung",
-      "fastShipping": "Schnelle Lieferung mit Amazon Prime",
-      "allPayments": "Alle Zahlungsmethoden akzeptiert"
+      "securePayment": "100% veilige betaling",
+      "fastShipping": "Snelle levering met Amazon Prime",
+      "allPayments": "Alle betaalmethoden geaccepteerd"
     },
     "amazonGuarantee": {
       "title": "Amazon A-Z Garantie",
-      "description": "Ihre Käufe sind durch die Amazon A-Z Garantie geschützt. Kostenlose Rücksendungen und volle Rückerstattung bei Problemen."
+      "description": "Uw aankopen zijn beschermd door de Amazon A-Z Garantie. Gratis retourneren en volledige terugbetaling bij problemen."
     },
     "partnerInfo": {
-      "title": "Partnerinformationen",
-      "description": "Als Amazon-Partner verdienen wir an qualifizierten Käufen. Dies beeinflusst nicht den Preis, den Sie zahlen."
+      "title": "Partnerinformatie",
+      "description": "Als Amazon-partner verdienen we aan gekwalificeerde aankopen. Dit heeft geen invloed op de prijs die u betaalt."
     },
     "orderSummary": {
-      "title": "Zusammenfassung Ihrer Auswahl",
-      "quantity": "Menge",
-      "subtotal": "Zwischensumme",
-      "shipping": "Versandkosten",
-      "shippingNote": "Berechnet auf Amazon",
-      "totalEstimated": "Geschätzte Gesamtsumme",
-      "finalPrice": "Endgültiger Preis auf Amazon"
+      "title": "Samenvatting van uw winkelwagen",
+      "quantity": "Aantal",
+      "subtotal": "Subtotaal",
+      "shipping": "Verzendkosten",
+      "shippingNote": "Berekend op Amazon",
+      "totalEstimated": "Geschat totaal",
+      "finalPrice": "Definitieve prijs op Amazon"
     },
     "buttons": {
-      "continueToAmazon": "Weiter zu Amazon",
-      "modifySelection": "Auswahl ändern"
+      "continueToAmazon": "Doorgaan naar Amazon",
+      "modifySelection": "Winkelwagen aanpassen"
     }
   },
   "floatingButtons": {
-    "videoTooltip": "Video ansehen",
-    "cartTooltip": "Auswahl",
-    "cartAriaLabel": "Auswahl anzeigen",
-    "closeVideoAriaLabel": "Video schließen"
+    "videoTooltip": "Video bekijken",
+    "cartTooltip": "Winkelwagen",
+    "cartAriaLabel": "Winkelwagen tonen",
+    "closeVideoAriaLabel": "Video sluiten"
   },
   "exitIntent": {
-    "title": "Warten Sie! Gehen Sie nicht mit leeren Händen",
-    "subtitle": "Sie haben {count} Artikel{plural} in Ihrer Auswahl",
+    "title": "Wacht! Ga niet met lege handen weg",
+    "subtitle": "U heeft {count} artikel{plural} in uw winkelwagen",
     "specialOffer": {
-      "title": "BEGRENZTES SONDERANGEBOT",
-      "discount": "35% RABATT",
-      "saveAmount": "Sparen Sie {amount} auf Ihre Bestellung",
-      "currentPrice": "Aktueller Preis",
-      "newPrice": "Neuer Preis",
-      "expiresIn": "Dieses Angebot läuft ab in:"
+      "title": "BEPERKT SPECIAAL AANBOD",
+      "discount": "35% KORTING",
+      "saveAmount": "Bespaar {amount} op uw bestelling",
+      "currentPrice": "Huidige prijs",
+      "newPrice": "Nieuwe prijs",
+      "expiresIn": "Dit aanbod verloopt over:"
     },
     "cartPreview": {
-      "title": "Ihre ausgewählten Artikel",
-      "quantity": "Menge",
-      "moreItems": "+{count} weitere Artikel{plural}"
+      "title": "Uw geselecteerde artikelen",
+      "quantity": "Aantal",
+      "moreItems": "+{count} extra artikel{plural}"
     },
     "trustSignals": {
-      "shipping": "Versand",
-      "free": "Kostenlos",
-      "returns": "Rücksendungen",
-      "days": "30 Tage",
+      "shipping": "Verzending",
+      "free": "Gratis",
+      "returns": "Retourneren",
+      "days": "30 dagen",
       "warranty": "Garantie",
-      "years": "2 Jahre"
+      "years": "2 jaar"
     },
     "buttons": {
-      "takeOffer": "Angebot nutzen",
-      "continueShopping": "Weiter einkaufen"
+      "takeOffer": "Aanbod benutten",
+      "continueShopping": "Verder winkelen"
     },
-    "footer": "Der Rabattcode wird automatisch an der Kasse angewendet"
+    "footer": "De kortingscode wordt automatisch toegepast bij het afrekenen"
   },
   "trustSignals": {
-    "freeShipping": "Kostenloser Versand",
-    "freeReturns": "Kostenlose Rücksendungen in 30 Tagen",
-    "warranty": "Umfassender Schutz enthalten",
-    "expertSupport": "Experten-Support",
-    "customerSupport": "Kundenservice 7 Tage per Chat und Telefon"
+    "freeShipping": "Gratis verzending",
+    "freeReturns": "Gratis retourneren binnen 30 dagen",
+    "warranty": "Uitgebreide bescherming inbegrepen",
+    "expertSupport": "Deskundige ondersteuning",
+    "customerSupport": "Klantenservice 7 dagen per week via chat en telefoon"
   },
   "promotions": {
-    "freeShipping": "Kostenloser Versand",
-    "amazonPartenaire": "Amazon-Partner",
-    "trustBanner": "Amazon-Partner • 10h • 30% Rabatt • 4,6/5 Kundenbewertungen • 2000+ gelieferte Bestellungen",
-    "amazonVerified": "Amazon-verifiziert",
-    "secureCheckout": "Sichere Kasse",
-    "fastDelivery": "Schnelle Lieferung"
+    "freeShipping": "Gratis verzending",
+    "amazonPartenaire": "Amazon-partner",
+    "trustBanner": "Amazon-partner • 10 uur • 30% korting • 4,6/5 klantbeoordelingen • 2000+ geleverde bestellingen",
+    "amazonVerified": "Amazon-geverifieerd",
+    "secureCheckout": "Veilige kassa",
+    "fastDelivery": "Snelle levering"
   },
   "internalLinks": {
-    "title": "Entdecken Sie auch",
-    "footer": "Entdecken Sie unsere anderen Kategorien, um genau das zu finden, was Sie brauchen"
+    "title": "Ontdek ook",
+    "footer": "Ontdek onze andere categorieën om precies te vinden wat u nodig heeft"
   },
   "buyingGuide": {
-    "footer": "Expertenrat, um die richtige Wahl zu treffen"
+    "footer": "Deskundig advies om de juiste keuze te maken"
   },
   "subcategoryCards": {
-    "title": "Unterkategorien erkunden",
-    "loading": "Unterkategorien werden geladen...",
-    "noSubcategories": "Keine Unterkategorien verfügbar"
+    "title": "Subcategorieën ontdekken",
+    "loading": "Subcategorieën worden geladen...",
+    "noSubcategories": "Geen subcategorieën beschikbaar"
   },
   "categoryPage": {
     "notFound": {
-      "title": "Kategorie nicht gefunden",
-      "description": "Die gesuchte Kategorie existiert nicht."
+      "title": "Categorie niet gevonden",
+      "description": "De gezochte categorie bestaat niet."
     },
-    "exploreCategories": "Kategorien erkunden {categoryName}",
-    "faq": "Häufig gestellte Fragen",
+    "exploreCategories": "Categorieën ontdekken {categoryName}",
+    "faq": "Veelgestelde vragen",
     "priceRange": {
       "min": "Min",
       "max": "Max"
     },
     "comparisonTable": {
-      "title": "Produktvergleich",
-      "incentive": "Klicken Sie auf die 3 besten Produkte für detaillierte Informationen und Bewertungen"
+      "title": "Productvergelijking",
+      "incentive": "Klik op de 3 beste producten voor gedetailleerde informatie en beoordelingen"
     }
   },
   "footer": {
-    "copyright": "Alle Rechte vorbehalten",
-    "companyDescription": "Spezialisten für hochwertige Produkte. Hervorragende Qualität und kompetenter Support.",
+    "copyright": "Alle rechten voorbehouden",
+    "companyDescription": "Specialisten in hoogwaardige producten. Uitstekende kwaliteit en deskundige ondersteuning.",
     "legal": {
-      "title": "Rechtliche Informationen",
-      "terms": "Allgemeine Geschäftsbedingungen",
-      "privacy": "Datenschutzrichtlinie",
-      "cookies": "Cookie-Richtlinie",
-      "returns": "Rückgabepolitik",
-      "shipping": "Versandinformationen",
+      "title": "Juridische informatie",
+      "terms": "Algemene voorwaarden",
+      "privacy": "Privacybeleid",
+      "cookies": "Cookiebeleid",
+      "returns": "Retourbeleid",
+      "shipping": "Verzendinformatie",
       "warranty": "Garantie",
-      "contact": "Kontakt"
+      "contact": "Contact"
     },
     "company": {
-      "title": "Unternehmen",
-      "about": "Über uns",
-      "careers": "Karriere",
-      "press": "Presse",
-      "partners": "Partner"
+      "title": "Bedrijf",
+      "about": "Over ons",
+      "careers": "Carrière",
+      "press": "Pers",
+      "partners": "Partners"
     },
     "support": {
-      "title": "Support",
-      "help": "Hilfezentrum",
-      "faq": "Häufig gestellte Fragen",
-      "shipping": "Versand",
-      "returns": "Rücksendungen",
+      "title": "Ondersteuning",
+      "help": "Helpcentrum",
+      "faq": "Veelgestelde vragen",
+      "shipping": "Verzending",
+      "returns": "Retourneren",
       "warranty": "Garantie"
     },
     "social": {
-      "title": "Folgen Sie uns",
+      "title": "Volg ons",
       "facebook": "Facebook",
       "twitter": "Twitter",
       "instagram": "Instagram",
       "youtube": "YouTube"
     },
-    "affiliateDisclaimer": "Als Amazon-Partner verdienen wir an qualifizierten Käufen. Diese Website nimmt am Amazon EU-Partnerprogramm teil, einem Affiliate-Werbeprogramm, das Websites ermöglicht, durch Werbung und Verlinkung zu Amazon.de Provisionen zu verdienen."
+    "affiliateDisclaimer": "Als Amazon-partner verdienen we aan gekwalificeerde aankopen. Deze website neemt deel aan het Amazon EU-partnerprogramma, een affiliate-advertentieprogramma dat websites in staat stelt om door middel van advertenties en links naar Amazon.nl commissies te verdienen."
   },
   "terms": {
-    "title": "Allgemeine Geschäftsbedingungen",
-    "subtitle": "Nutzungsbedingungen unserer Dienste",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Willkommen auf unserer Website. Diese allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und unserer Dienste.",
-    "acceptance": "Durch den Zugriff und die Nutzung unserer Website akzeptieren Sie diese Bedingungen vollständig.",
+    "title": "Algemene voorwaarden",
+    "subtitle": "Gebruiksvoorwaarden van onze diensten",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "Welkom op onze website. Deze algemene voorwaarden regelen het gebruik van onze website en diensten.",
+    "acceptance": "Door toegang te krijgen tot en gebruik te maken van onze website, accepteert u deze voorwaarden volledig.",
     "general": {
-      "title": "Allgemeine Bestimmungen",
-      "content1": "Diese allgemeinen Geschäftsbedingungen regeln die Nutzung unserer Website und der von uns angebotenen Dienste. Durch die Nutzung unserer Dienste verpflichten Sie sich, alle hier festgelegten Bestimmungen einzuhalten.",
-      "content2": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern. Änderungen treten sofort nach ihrer Veröffentlichung auf unserer Website in Kraft."
+      "title": "Algemene bepalingen",
+      "content1": "Deze algemene voorwaarden regelen het gebruik van onze website en de door ons aangeboden diensten. Door gebruik te maken van onze diensten, verbindt u zich ertoe alle hier vastgelegde bepalingen na te leven.",
+      "content2": "We behouden ons het recht voor om deze voorwaarden op elk moment te wijzigen. Wijzigingen treden onmiddellijk in werking na publicatie op onze website."
     },
     "orders": {
-      "title": "Bestellungen und Käufe",
-      "process": "Alle Bestellungen werden über Amazon abgewickelt. Durch Klicken auf 'Auf Amazon kaufen' werden Sie zur Amazon-Website weitergeleitet, um Ihren Kauf abzuschließen.",
-      "confirmation": "Die Bestellbestätigung erfolgt direkt über Amazon. Sie erhalten eine Bestätigungs-E-Mail von Amazon mit den Details Ihres Kaufs.",
-      "payment": "Alle Zahlungen werden sicher über Amazon abgewickelt. Wir akzeptieren alle auf Amazon verfügbaren Zahlungsmethoden."
+      "title": "Bestellingen en aankopen",
+      "process": "Alle bestellingen worden afgehandeld via Amazon. Door op 'Kopen op Amazon' te klikken, wordt u doorgestuurd naar de Amazon-website om uw aankoop te voltooien.",
+      "confirmation": "De bestelbevestiging wordt rechtstreeks via Amazon verzonden. U ontvangt een bevestigingsmail van Amazon met de details van uw aankoop.",
+      "payment": "Alle betalingen worden veilig afgehandeld via Amazon. We accepteren alle betaalmethoden die beschikbaar zijn op Amazon."
     },
     "prices": {
-      "title": "Preise und Zahlungen",
-      "currency": "Alle Preise sind in Euro (€) angegeben und enthalten die geltende Mehrwertsteuer. Die Preise können je nach Verfügbarkeit und Amazon-Angeboten variieren."
+      "title": "Prijzen en betalingen",
+      "currency": "Alle prijzen zijn in euro (€) en inclusief de toepasselijke btw. Prijzen kunnen variëren afhankelijk van beschikbaarheid en Amazon-aanbiedingen."
     },
     "services": {
-      "title": "Unsere Dienste",
-      "description": "Wir bieten Informationen zu hochwertigen Produkten und ermöglichen den Kauf über Amazon."
+      "title": "Onze diensten",
+      "description": "Wij bieden informatie over hoogwaardige producten en maken aankopen via Amazon mogelijk."
     },
     "userObligations": {
-      "title": "Pflichten der Nutzer",
-      "description": "Die Nutzer müssen wahrheitsgemäße Informationen angeben und unsere Dienste verantwortungsvoll nutzen."
+      "title": "Verplichtingen van de gebruiker",
+      "description": "Gebruikers moeten waarheidsgetrouwe informatie verstrekken en onze diensten verantwoordelijk gebruiken."
     },
     "liability": {
-      "title": "Haftungsbeschränkung",
-      "description": "Wir sind nicht für Produkte verantwortlich, die über Amazon gekauft werden. Bitte lesen Sie die Amazon-Bedingungen für weitere Informationen."
+      "title": "Aansprakelijkheidsbeperking",
+      "description": "Wij zijn niet verantwoordelijk voor producten die via Amazon worden gekocht. Raadpleeg de Amazon-voorwaarden voor meer informatie."
     },
     "modifications": {
-      "title": "Änderungen",
-      "description": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern."
+      "title": "Wijzigingen",
+      "description": "We behouden ons het recht voor om deze voorwaarden op elk moment te wijzigen."
     }
   },
   "privacy": {
-    "title": "Datenschutzrichtlinie",
-    "subtitle": "Wie wir Ihre persönlichen Daten schützen und verwenden",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir respektieren Ihre Privatsphäre und verpflichten uns, Ihre persönlichen Daten zu schützen.",
+    "title": "Privacybeleid",
+    "subtitle": "Hoe we uw persoonlijke gegevens beschermen en gebruiken",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "We respecteren uw privacy en verbinden ons ertoe uw persoonlijke gegevens te beschermen.",
     "dataCollection": {
-      "title": "Daten, die wir sammeln",
-      "description": "Wir sammeln die Informationen, die Sie uns freiwillig zur Verfügung stellen, wie Ihren Namen und Ihre E-Mail-Adresse."
+      "title": "Gegevens die we verzamelen",
+      "description": "We verzamelen de informatie die u vrijwillig verstrekt, zoals uw naam en e-mailadres."
     },
     "dataUsage": {
-      "title": "Wie wir Ihre Daten verwenden",
-      "description": "Wir verwenden Ihre Daten, um unsere Dienste zu verbessern und mit Ihnen über relevante Produkte zu kommunizieren."
+      "title": "Hoe we uw gegevens gebruiken",
+      "description": "We gebruiken uw gegevens om onze diensten te verbeteren en om met u te communiceren over relevante producten."
     },
     "dataProtection": {
-      "title": "Datenschutz",
-      "description": "Wir setzen Sicherheitsmaßnahmen ein, um Ihre persönlichen Daten vor unbefugtem Zugriff zu schützen."
+      "title": "Gegevensbescherming",
+      "description": "We nemen beveiligingsmaatregelen om uw persoonlijke gegevens te beschermen tegen ongeoorloofde toegang."
     },
     "cookies": {
       "title": "Cookies",
-      "description": "Wir verwenden Cookies, um Ihr Surferlebnis zu verbessern und die Nutzung der Website zu analysieren."
+      "description": "We gebruiken cookies om uw surfervaring te verbeteren en het gebruik van de website te analyseren."
     },
     "rights": {
-      "title": "Ihre Rechte",
-      "description": "Sie haben das Recht, auf Ihre persönlichen Daten zuzugreifen, sie zu korrigieren, zu löschen oder zu übertragen."
+      "title": "Uw rechten",
+      "description": "U heeft het recht om toegang te krijgen tot uw persoonlijke gegevens, deze te corrigeren, te verwijderen of over te dragen."
     }
   },
   "cookies": {
-    "title": "Cookie-Richtlinie",
-    "subtitle": "Informationen zur Verwendung von Cookies auf unserer Website",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Diese Website verwendet Cookies, um Ihr Surferlebnis zu verbessern.",
+    "title": "Cookiebeleid",
+    "subtitle": "Informatie over het gebruik van cookies op onze website",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "Deze website gebruikt cookies om uw surfervaring te verbeteren.",
     "whatAreCookies": {
-      "title": "Was ist ein Cookie?",
-      "description": "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie unsere Website besuchen."
+      "title": "Wat is een cookie?",
+      "description": "Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u onze website bezoekt."
     },
     "typesOfCookies": {
-      "title": "Arten von Cookies, die wir verwenden",
-      "essential": "Essentielle Cookies: Notwendig für die grundlegende Funktionalität der Website",
-      "analytics": "Analytische Cookies: Helfen uns zu verstehen, wie Sie unsere Website nutzen",
-      "marketing": "Marketing-Cookies: Um Ihnen relevante Inhalte zu zeigen"
+      "title": "Soorten cookies die we gebruiken",
+      "essential": "Essentiële cookies: Noodzakelijk voor de basisfuncties van de website",
+      "analytics": "Analytische cookies: Helpen ons te begrijpen hoe u onze website gebruikt",
+      "marketing": "Marketingcookies: Om u relevante inhoud te tonen"
     },
     "managingCookies": {
-      "title": "Verwaltung von Cookies",
-      "description": "Sie können Cookies über die Einstellungen Ihres Browsers steuern und löschen."
+      "title": "Cookies beheren",
+      "description": "U kunt cookies beheren en verwijderen via de instellingen van uw browser."
     }
   },
   "returns": {
-    "title": "Rückgabepolitik",
-    "subtitle": "Informationen zu Rücksendungen und Rückerstattungen",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir verstehen, dass Sie manchmal ein Produkt zurückgeben müssen. So funktioniert unser Rückgabeprozess.",
+    "title": "Retourbeleid",
+    "subtitle": "Informatie over retourneren en terugbetalingen",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "We begrijpen dat u soms een product moet retourneren. Zo werkt ons retourproces.",
     "returnPeriod": {
-      "title": "Rückgabefrist",
-      "description": "Sie haben 30 Tage ab Lieferdatum, um jedes Produkt zurückzusenden."
+      "title": "Retourperiode",
+      "description": "U heeft 30 dagen vanaf de leverdatum om een product te retourneren."
     },
     "returnConditions": {
-      "title": "Rückgabebedingungen",
-      "description": "Das Produkt muss sich in seinem ursprünglichen Zustand befinden, mit allen Zubehörteilen und der Originalverpackung."
+      "title": "Retourvoorwaarden",
+      "description": "Het product moet zich in de oorspronkelijke staat bevinden, met alle accessoires en de originele verpakking."
     },
     "returnProcess": {
-      "title": "Rückgabeprozess",
-      "description": "Kontaktieren Sie unseren Kundenservice, um den Rückgabeprozess zu starten."
+      "title": "Retourproces",
+      "description": "Neem contact op met onze klantenservice om het retourproces te starten."
     },
     "refunds": {
-      "title": "Rückerstattungen",
-      "description": "Rückerstattungen werden nach Erhalt und Überprüfung des zurückgesandten Produkts bearbeitet."
+      "title": "Terugbetalingen",
+      "description": "Terugbetalingen worden verwerkt na ontvangst en controle van het geretourneerde product."
     }
   },
   "shipping": {
-    "title": "Versandinformationen",
-    "subtitle": "Details zu Lieferung und Versand",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wichtige Informationen zu unseren Liefer- und Versanddiensten.",
+    "title": "Verzendinformatie",
+    "subtitle": "Details over levering en verzending",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "Belangrijke informatie over onze levering- en verzenddiensten.",
     "shippingMethods": {
-      "title": "Versandmethoden",
-      "description": "Alle Produkte werden über Amazon mit Standard- oder Prime-Versand versandt."
+      "title": "Verzendmethoden",
+      "description": "Alle producten worden via Amazon verzonden met standaard- of Prime-verzending."
     },
     "deliveryTimes": {
-      "title": "Lieferzeiten",
-      "description": "Die Lieferzeiten variieren je nach Standort, in der Regel zwischen 1 und 3 Werktagen."
+      "title": "Levertijden",
+      "description": "Levertijden variëren afhankelijk van de locatie, meestal tussen 1 en 3 werkdagen."
     },
     "shippingCosts": {
-      "title": "Versandkosten",
-      "description": "Die Versandkosten werden auf Amazon basierend auf Ihrem Standort automatisch berechnet."
+      "title": "Verzendkosten",
+      "description": "Verzendkosten worden op Amazon automatisch berekend op basis van uw locatie."
     },
     "tracking": {
-      "title": "Sendungsverfolgung",
-      "description": "Sie erhalten eine Sendungsverfolgungsnummer, um den Status Ihres Pakets zu verfolgen."
+      "title": "Verzendtracking",
+      "description": "U ontvangt een trackingnummer om de status van uw pakket te volgen."
     }
   },
   "warranty": {
     "title": "Garantie",
-    "subtitle": "Informationen zu Produktgarantien",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Alle unsere Produkte enthalten die Herstellergarantie und zusätzlichen Schutz.",
+    "subtitle": "Informatie over productgaranties",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "Al onze producten zijn inclusief fabrieksgarantie en aanvullende bescherming.",
     "manufacturerWarranty": {
-      "title": "Herstellergarantie",
-      "description": "Alle Produkte enthalten die standardmäßige Herstellergarantie, in der Regel 2 Jahre."
+      "title": "Fabrieksgarantie",
+      "description": "Alle producten hebben de standaard fabrieksgarantie, meestal 2 jaar."
     },
     "amazonProtection": {
       "title": "Amazon A-Z Garantie",
-      "description": "Alle Produkte sind durch die Amazon A-Z Garantie geschützt."
+      "description": "Alle producten zijn beschermd door de Amazon A-Z Garantie."
     },
     "warrantyCoverage": {
-      "title": "Garantieumfang",
-      "description": "Die Garantie deckt Herstellungsfehler und technische Ausfälle ab, die nicht durch den Nutzer verursacht wurden."
+      "title": "Garantiedekking",
+      "description": "De garantie dekt fabricagefouten en technische storingen die niet door de gebruiker zijn veroorzaakt."
     },
     "warrantyClaims": {
-      "title": "Garantieansprüche",
-      "description": "Für Garantieansprüche kontaktieren Sie direkt Amazon oder den Hersteller."
+      "title": "Garantieclaims",
+      "description": "Neem voor garantieclaims direct contact op met Amazon of de fabrikant."
     }
   },
   "about": {
-    "title": "Über uns",
-    "subtitle": "Mehr über unser Unternehmen erfahren",
-    "lastUpdated": "Zuletzt aktualisiert:",
-    "lastUpdatedDate": "12. September 2025",
-    "introduction": "Wir sind Spezialisten für hochwertige Produkte für Enthusiasten und Profis.",
+    "title": "Over ons",
+    "subtitle": "Meer informatie over ons bedrijf",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "Wij zijn specialisten in hoogwaardige producten voor enthousiastelingen en professionals.",
     "mission": {
-      "title": "Unsere Mission",
-      "description": "Den Zugang zu hochwertigen Produkten, fortschrittlicher Technologie und kompetentem Support für Enthusiasten und Profis zu erleichtern."
+      "title": "Onze missie",
+      "description": "Toegang bieden tot hoogwaardige producten, geavanceerde technologie en deskundige ondersteuning voor enthousiastelingen en professionals."
     },
     "values": {
-      "title": "Unsere Werte",
-      "description": "Einfachheit, Qualität, persönlicher Support und Vertrauen sind die Säulen unseres Dienstes."
+      "title": "Onze waarden",
+      "description": "Eenvoud, kwaliteit, persoonlijke ondersteuning en vertrouwen zijn de pijlers van onze service."
     },
     "team": {
-      "title": "Unser Team",
-      "description": "Wir haben Experten für Produkte und Kundenservice, spezialisiert auf Enthusiasten und Profis."
+      "title": "Ons team",
+      "description": "We hebben experts in producten en klantenservice, gespecialiseerd in enthousiastelingen en professionals."
     }
   },
-  
-    "contact": {
-      "title": "Kontakt",
-      "subtitle": "Kontaktieren Sie uns",
-      "lastUpdated": "Zuletzt aktualisiert:",
-      "lastUpdatedDate": "12. September 2025",
-      "introduction": "Wir sind hier, um Ihnen bei allen Fragen zu helfen.",
-      "methods": {
-        "title": "Kontaktmethoden",
-        "phone": "Telefon: +49 30 123 456 789",
-        "email": "E-Mail: info@ledlampe-kaufen.de",
-        "whatsapp": "WhatsApp: +49 151 234 567 89",
-        "hours": "Servicezeiten: Montag bis Freitag, 9:00 - 18:00 Uhr"
-      },
-      "responseTime": {
-        "title": "Antwortzeit",
-        "description": "Wir beantworten alle Anfragen innerhalb von 24 Stunden."
-      }
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Neem contact met ons op",
+    "lastUpdated": "Laatst bijgewerkt:",
+    "lastUpdatedDate": "12 september 2025",
+    "introduction": "We zijn hier om u te helpen bij al uw vragen.",
+    "methods": {
+      "title": "Contactmethoden",
+      "phone": "Telefoon: +49 30 123 456 789",
+      "email": "E-mail: info@ledlampe-kopen.nl",
+      "whatsapp": "WhatsApp: +49 151 234 567 89",
+      "hours": "Service-uren: Maandag t/m vrijdag, 9:00 - 18:00 uur"
+    },
+    "responseTime": {
+      "title": "Reactietijd",
+      "description": "We beantwoorden alle vragen binnen 24 uur."
     }
   }
+}

@@ -1,33 +1,33 @@
 [
   {
-    "slug": "kinderwagen-fuer-babys-und-kleinkinder",
-    "name": "Kinderwagen für Babys & Kleinkinder",
-    "categoryNameCanonical": "Kinderwagen für Babys & Kleinkinder",
-    "description": "Eine Auswahl an Kinderwagen, die auf die wichtigsten Kaufkriterien wie Systemtyp, Alter des Kindes und spezifische Nutzungsanforderungen zugeschnitten sind. Finden Sie Kombikinderwagen, Buggys und spezialisierte Modelle.",
+    "slug": "drones-en-accessoires",
+    "name": "Drones en Accessoires",
+    "categoryNameCanonical": "Drones en Accessoires",
+    "description": "Vind drones en essentiële accessoires gebaseerd op de meest gezochte onderdelen en functies. Categorieën omvatten stroomvoorziening, transportoplossingen, en specifieke onderdelen voor reparatie en upgrades.",
     "subcategories": [
       {
-        "slug": "kombikinderwagen-3-in-1-systeme",
-        "name": "Kombikinderwagen & 3-in-1-Systeme",
-        "categoryNameCanonical": "Kombikinderwagen & 3-in-1-Systeme",
-        "description": "Flexible All-in-One-Lösungen, die mit Ihrem Kind mitwachsen. Enthält oft Babyschale, Babywanne und Sportwagenaufsatz für den Einsatz ab der Geburt bis ins Kleinkindalter."
+        "slug": "drone-accus-en-opladers",
+        "name": "Drone Accu's en Opladers",
+        "categoryNameCanonical": "Drone Accu's en Opladers",
+        "description": "Essentiële stroomvoorzieningen inclusief vervangende accu's, extra batterijen en oplaadstations om de vliegtijd te maximaliseren."
       },
       {
-        "slug": "buggys-und-sportwagen",
-        "name": "Buggys & Sportwagen",
-        "categoryNameCanonical": "Buggys & Sportwagen",
-        "description": "Leichte, wendige und oft kompakt klappbare Kinderwagen, ideal für Kinder ab ca. 6 Monaten, die bereits selbstständig sitzen können. Perfekt für den Stadtalltag und Reisen."
+        "slug": "drone-tassen-en-koffers",
+        "name": "Drone Tassen en Koffers",
+        "categoryNameCanonical": "Drone Tassen en Koffers",
+        "description": "Beschermende rugzakken, harde koffers en draagtassen ontworpen voor het veilig opbergen en vervoeren van drones en hun accessoires."
       },
       {
-        "slug": "geschwister-und-zwillingswagen",
-        "name": "Geschwister- & Zwillingswagen",
-        "categoryNameCanonical": "Geschwister- & Zwillingswagen",
-        "description": "Praktische Kinderwagen für zwei Kinder. Modelle für Zwillinge oder Geschwister unterschiedlichen Alters, verfügbar in Tandem- (hintereinander) oder nebeneinanderliegender Anordnung."
+        "slug": "drone-onderdelen-en-propellers",
+        "name": "Drone Onderdelen en Propellers",
+        "categoryNameCanonical": "Drone Onderdelen en Propellers",
+        "description": "Vervangingsonderdelen voor onderhoud en reparatie, zoals propellers, antennes, en landingsgestellen."
       },
       {
-        "slug": "kinderwagen-zubehoer",
-        "name": "Kinderwagen Zubehör & Ersatzteile",
-        "categoryNameCanonical": "Kinderwagen Zubehör & Ersatzteile",
-        "description": "Essentielles Zubehör wie Abdeckungen für Regen und Winter, Adapter für Babyschalen, Organizer und Ersatzteile wie Achsen oder Räder zur Erweiterung und Wartung Ihres Kinderwagens."
+        "slug": "accessoires-voor-dji-drones",
+        "name": "Accessoires voor DJI Drones",
+        "categoryNameCanonical": "Accessoires voor DJI Drones",
+        "description": "Specifiek ontworpen en compatibele accessoires voor de meest populaire DJI-modellen, waaronder de Mini, Air en Avata series."
       }
     ]
   }
