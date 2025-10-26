@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Star, ThumbsUp, CheckCircle } from 'lucide-react';
-import { getString, generateProductReviews, generateProductReviewSnippet } from '../lib/utils';
+import { getString, generateProductReviewSnippet } from '../lib/utils';
 
 interface Review {
   id: number;
@@ -23,13 +23,15 @@ interface ReviewsProps {
   className?: string;
   productSlug?: string; // For product-specific reviews
   productName?: string; // For product-specific reviews
+  productAsin?: string; // Product ASIN for loading the correct JSON file
 }
 
 const Reviews: React.FC<ReviewsProps> = ({ 
   limit = 6, 
   className = "",
   productSlug,
-  productName
+  productName,
+  productAsin
 }) => {
   const [reviewsData, setReviewsData] = useState<ReviewsData | null>(null);
   const [displayedReviews, setDisplayedReviews] = useState<Review[]>([]);
@@ -37,10 +39,10 @@ const Reviews: React.FC<ReviewsProps> = ({
   useEffect(() => {
     const loadReviews = async () => {
       try {
-        if (productSlug && productName) {
+        if (productSlug && productName && productAsin) {
           // Try to load the actual product data to get AI-generated reviews
           try {
-            const productResponse = await import(`../data/products/${productSlug}.json`);
+            const productResponse = await import(`../data/products/${productAsin.toLowerCase()}.json`);
             const productData = productResponse.default;
             
             // Use AI-generated customer reviews if available
@@ -98,41 +100,22 @@ const Reviews: React.FC<ReviewsProps> = ({
               return;
             }
           } catch (error) {
-            // If product file not found, fall back to generated reviews
+            // If product file not found, no reviews available
+            setReviewsData({ reviews: [] });
+            setDisplayedReviews([]);
+            return;
           }
-          
-          // Fallback: Generate product-specific reviews using the same system as product pages
-          const productReviews = generateProductReviews(productSlug, productName, limit);
-          
-          const productSpecificData: ReviewsData = {
-            reviews: productReviews.map((review, index) => ({
-              id: index + 1,
-              author: review.author.name || review.author,
-              rating: review.reviewRating?.ratingValue || 5,
-              date: review.datePublished || new Date().toISOString().split('T')[0],
-              text: review.reviewBody || '',
-              verified: true,
-              helpful: Math.floor(Math.random() * 20) + 5
-            }))
-          };
-          
-          setReviewsData(productSpecificData);
-          setDisplayedReviews(productSpecificData.reviews);
         } else {
-          // Fallback to static reviews for backward compatibility
-          const response = await import('../locales/reviews.json');
-          const data = response.default as ReviewsData;
-          setReviewsData(data);
-          // Shuffle and limit reviews
-          const shuffled = [...data.reviews].sort(() => Math.random() - 0.5);
-          setDisplayedReviews(shuffled.slice(0, limit));
+          // No reviews for non-product pages - Reviews component should only be used on product pages
+          setReviewsData({ reviews: [] });
+          setDisplayedReviews([]);
         }
       } catch (error) {
         setReviewsData({ reviews: [] });
       }
     };
     loadReviews();
-  }, [limit, productSlug, productName]);
+  }, [limit, productSlug, productName, productAsin]);
 
   const renderStars = (rating: number) => (
     <div className="flex items-center">
@@ -156,6 +139,11 @@ const Reviews: React.FC<ReviewsProps> = ({
 
   if (!reviewsData) {
     return <div className={`animate-pulse ${className}`}></div>;
+  }
+
+  // Don't render anything if there are no reviews
+  if (!displayedReviews || displayedReviews.length === 0) {
+    return null;
   }
 
   return (

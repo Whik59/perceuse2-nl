@@ -1,5 +1,5 @@
 import { Product, Category, SiteConfig } from './types';
-import { generateProductReviewSnippet, generateProductReviews, getLocalizedSiteConfig } from './utils';
+import { generateProductReviewSnippet, getLocalizedSiteConfig } from './utils';
 
 export interface SEOProps {
   title: string;
@@ -30,7 +30,6 @@ export const generateProductSEO = (product: Product, siteConfig?: SiteConfig): S
 
   // Generate review snippet for this product
   const reviewSnippet = generateProductReviewSnippet(product.slug, product.title);
-  const individualReviews = generateProductReviews(product.slug, product.title, 5);
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -60,7 +59,7 @@ export const generateProductSEO = (product: Product, siteConfig?: SiteConfig): S
       "bestRating": "5",
       "worstRating": "1"
     },
-    "review": individualReviews
+    "review": []
   };
 
   return {

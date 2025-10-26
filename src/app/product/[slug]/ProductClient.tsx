@@ -11,7 +11,7 @@ import ProductCard from '../../../../components/ProductCard';
 import Reviews from '../../../../components/Reviews';
 import { Product, Category, ProductVariation } from '../../../../lib/types';
 import { getAmazonUrlWithAffiliateTag } from '../../../../lib/cart';
-import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, generateProductReviews, slugToReadableTitle } from '../../../../lib/utils';
+import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, slugToReadableTitle } from '../../../../lib/utils';
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
 import { 
@@ -399,7 +399,6 @@ const ProductClient: React.FC<ProductClientProps> = ({ product, categories }) =>
 
   // Generate review data using consistent snippet system
   const reviewSnippet = generateProductReviewSnippet(product.slug, productTitle);
-  const individualReviews = generateProductReviews(product.slug, productTitle, 5);
   const productReviews = {
     averageRating: reviewSnippet.averageRating,
     totalReviews: reviewSnippet.reviewCount,
