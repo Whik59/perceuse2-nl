@@ -954,7 +954,7 @@ const ProductDetailPage: React.FC = () => {
                     limit={8} 
                     productSlug={slug} 
                     productName={product?.title || ''} 
-                    productAsin={product?.productId || ''}
+                    productAsin={String(product?.productId || '')}
                   />
                 )}
               </div>
@@ -1367,7 +1367,7 @@ const ProductDetailPage: React.FC = () => {
               limit={8} 
               productSlug={slug} 
               productName={product?.title || ''} 
-              productAsin={product?.productId || ''}
+              productAsin={String(product?.productId || '')}
             />
           </div>
         </div>

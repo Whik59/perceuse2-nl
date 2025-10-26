@@ -78,7 +78,7 @@ const Reviews: React.FC<ReviewsProps> = ({
               
               // Add feature step reviews
               if (reviewAnalysis.feature_steps && reviewAnalysis.feature_steps.length > 0) {
-                reviewAnalysis.feature_steps.slice(0, limit - 1).forEach((step, index) => {
+                reviewAnalysis.feature_steps.slice(0, limit - 1).forEach((step: any, index: number) => {
                   aiReviews.push({
                     id: index + 2,
                     author: `Customer Review ${index + 1}`,
