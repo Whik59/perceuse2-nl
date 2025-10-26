@@ -568,7 +568,7 @@ const ProductDetailPage: React.FC = () => {
               <span className="text-neutral-300 flex-shrink-0">/</span>
               {currentCategory ? (
                 <>
-                  <Link href={`/category/${currentCategory.categoryId}`} className="hover:text-neutral-800 transition-colors truncate">
+                  <Link href={`/category/${currentCategory.slug}`} className="hover:text-neutral-800 transition-colors truncate">
                     {currentCategory.categoryNameCanonical}
                   </Link>
                   <span className="text-neutral-300 flex-shrink-0">/</span>

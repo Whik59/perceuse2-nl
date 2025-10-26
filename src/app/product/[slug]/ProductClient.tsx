@@ -413,7 +413,7 @@ const ProductClient: React.FC<ProductClientProps> = ({ product, categories }) =>
   const breadcrumbItems = [
     ...(currentCategory ? [{
       name: currentCategory.categoryNameCanonical || currentCategory.name || 'Category',
-      url: `/category/${currentCategory.categoryId}`
+      url: `/category/${currentCategory.slug}`
     }] : []),
     {
       name: productTitle,
