@@ -1,145 +1,163 @@
 {
   "categoryId": 1,
-  "categoryNameCanonical": "Drones en Accessoires",
-  "slug": "drones-en-accessoires",
+  "categoryNameCanonical": "Drone Accessoires en Onderdelen",
+  "slug": "drone-accessoires-en-onderdelen",
   "parentCategoryId": null,
   "level": 0,
-  "description": "De beste drones en onmisbare accessoires voor elk avontuur. Koop nu online!",
-  "content": "<div><h2>Ontdek de Wereld van Drones en Essentiële Accessoires</h2><p>Stap in de spannende wereld van drones! Of u nu een beginnende piloot bent die de basics wil leren, of een ervaren professional die adembenemende luchtopnames maakt, wij hebben de perfecte drone voor uw behoeften. Van compacte, gebruiksvriendelijke mini-drones die ideaal zijn voor binnen- en beginnersvluchten, tot krachtige, geavanceerde cameradrone uitgerust met 4K-camera's en lange vliegtijden voor indrukwekkende projecten.</p><p>Maar een drone is pas compleet met de juiste accessoires. Verleng uw vliegplezier met extra <a href=\"/drone-accu's\">drone accu's</a>, zorg voor optimale prestaties met duurzame <a href=\"/drone-propellers\">drone propellers</a>, en bescherm uw waardevolle apparatuur met een robuuste <a href=\"/drone-tassen\">draagtas</a>. Ontdek ook <a href=\"/drone-onderdelen\">reserveonderdelen</a>, <a href=\"/fpv-brillen\">FPV brillen</a> en andere handige gadgets die uw vliegervaring naar een hoger niveau tillen. Wij bieden een breed assortiment aan originele en compatibele accessoires om uw drone in topconditie te houden en elke vlucht te optimaliseren.</p><p>Blader door ons uitgebreide assortiment, vergelijk de verschillende modellen en vind alles wat u nodig heeft voor uw volgende luchtabventuur. Vlieg hoger, verder en leg onvergetelijke momenten vast met de beste drones en onmisbare accessoires die er zijn!</p></div>",
+  "description": "Vind alle drone accessoires en onderdelen. Upgrade je drone, snelle levering!",
+  "content": "<div><h2>Alles voor Jouw Drone: Accessoires en Onderdelen</h2><p>Ontdek ons uitgebreide assortiment aan <strong>drone accessoires en onderdelen</strong>, speciaal geselecteerd om jouw vliegervaring te verbeteren of je drone te herstellen. Of je nu op zoek bent naar een nieuwe <strong>drone accu</strong> voor langere vliegtijden, duurzame <strong>drone propellers</strong> voor optimale prestaties, of specifieke <strong>DJI onderdelen</strong> voor je favoriete model; wij hebben het allemaal.</p><p>Een defect onderdeel kan je vluchtplezier flink bederven. Gelukkig bieden wij een breed scala aan vervangende <strong>drone onderdelen</strong>, van camera's en gimbals tot motoren en landingsgestellen. Zorg ervoor dat je drone altijd in topconditie verkeert met onze kwalitatieve componenten. Upgrade je drone, herstel hem na een val of pas hem aan jouw specifieke wensen aan met onze betrouwbare producten.</p><p>Naast essentiële vervangingsonderdelen vind je hier ook handige accessoires die het vliegen veiliger en leuker maken. Denk aan draagtassen voor veilig transport, beschermkappen voor extra duurzaamheid, en geavanceerde laders voor snelle oplaadtijden. Optimaliseer jouw drone met de beste <strong>drone accessoires</strong> op de markt en ga zorgeloos de lucht in!</p></div>",
   "seo": {
-    "title": "Drones en Accessoires | Vliegplezier & Perfecte Shots",
-    "description": "De beste drones en onmisbare accessoires voor elk avontuur. Koop nu online!",
+    "title": "Drone Accessoires & Onderdelen | Alles Voor Jouw Drone",
+    "description": "Vind alle drone accessoires en onderdelen. Upgrade je drone, snelle levering!",
     "keywords": [
-      "drones",
       "drone accessoires",
-      "quadcopter",
-      "cameradrone",
-      "drone accu"
+      "drone onderdelen",
+      "drone accu",
+      "drone propellers",
+      "DJI onderdelen"
     ],
-    "enhancedAt": "2025-10-26T18:24:14.305536"
+    "enhancedAt": "2025-10-26T18:40:39.974724"
   },
   "faq": [
     {
-      "question": "Welke drone past het beste bij mij?",
-      "answer": "Dat hangt af van uw ervaring, budget en het beoogde gebruik. Overweegt u hobbyvluchten, professionele opnames, of FPV-racen? Wij adviseren u graag!"
+      "question": "Welke drone accessoires zijn essentieel?",
+      "answer": "Essentiële accessoires omvatten extra accu's, reserve propellers, landingsgestellen, beschermkappen en draagtassen voor veilig transport en langere vliegtijden."
     },
     {
-      "question": "Welke accessoires zijn essentieel voor mijn drone?",
-      "answer": "Essentiële accessoires zijn vaak extra accu's voor langere vliegtijden, reservepropellers, een stevige draagtas voor transport, en eventueel een landingsmat."
+      "question": "Hoe vind ik de juiste onderdelen voor mijn drone?",
+      "answer": "Controleer altijd het specifieke modelnummer van uw drone. De compatibiliteit van onderdelen staat meestal duidelijk vermeld bij het product om ervoor te zorgen dat ze perfect passen."
     },
     {
-      "question": "Mag ik overal vliegen met mijn drone?",
-      "answer": "Nee, er zijn strikte regels en 'no-fly zones' waar u niet mag vliegen. Informeer u altijd goed over de actuele lokale en nationale wetgeving voordat u gaat vliegen."
+      "question": "Kan ik mijn drone zelf repareren met losse onderdelen?",
+      "answer": "Eenvoudige reparaties zoals het vervangen van propellers of landingsgestellen zijn vaak zelf uit te voeren. Voor complexere reparaties is specialistische kennis of professionele hulp aan te raden."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-26T18:24:14.305555",
+  "enhancedAt": "2025-10-26T18:40:39.974757",
   "comparisonTable": {
-    "title": "Vergelijking van Drones en Accessoires Producten",
+    "title": "Vergelijking van Drone Accessoires en Onderdelen",
     "columns": [
       "Rang",
       "Prijs",
       "Beoordeling",
       "Merk",
-      "Productsoort",
-      "Primaire functie",
-      "Compatibiliteit"
+      "Compatibiliteit",
+      "Functie",
+      "Materiaal",
+      "Producttype",
+      "Installatiegemak",
+      "Bijzondere Eigenschap"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51UGb6-Eo0L._AC_UL320_.jpg]",
-        "name": "POFET Drone Stroboscoop Knipperlicht LED Oplaadbaar",
-        "prijs": "17.0€",
-        "bewertung": "4.8/5",
-        "merk": "POFET",
-        "productsoort": "Drone Stroboscoop Knipperlicht",
-        "primaire_functie": "Zichtbaarheid & Veiligheid Drone",
-        "compatibiliteit": "Universeel voor Alle Drones",
-        "productUrl": "/product/pofet-drone-stroboscoop-knipperlicht-led-oplaadbaar",
-        "image": "https://m.media-amazon.com/images/I/51UGb6-Eo0L._AC_UL320_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51+4tC2xTiL._AC_SL1500_.jpg]",
+        "name": "Propellers DJI Mini 4 Pro/Mini 3 Pro",
+        "prijs": "9.0€",
+        "beoordeling": "4.8/5",
+        "merk": "DJI",
+        "compatibiliteit": "DJI Mini 4 Pro, DJI Mini 3 Pro",
+        "functie": "Optimalisatie prestaties en veiligheid",
+        "materiaal": "Hoogwaardig duurzaam composiet",
+        "producttype": "Snelsluitende propellers",
+        "installatiegemak": "Snelle en eenvoudige installatie",
+        "bijzondere_eigenschap": "Langere vliegtijd, minder geluid",
+        "productUrl": "/product/pro-propellers-dji-mini-pro-mini",
+        "image": "https://m.media-amazon.com/images/I/51+4tC2xTiL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/51om6RUxGJL._AC_SL1500_.jpg]",
-        "name": "Quadcopter Frame Kit 250mm Koolstofvezel FPV Racing Drone",
-        "prijs": "25.0€",
-        "bewertung": "4.3/5",
-        "merk": "Yunir",
-        "productsoort": "Quadcopter Frame Kit",
-        "primaire_functie": "Basis voor FPV Racing Drone",
-        "compatibiliteit": "QAV250 Mini 4-assige FPV Drone, Racing Drones",
-        "productUrl": "/product/250mm-quadcopter-frame-kit-koolstofvezel-fpv",
-        "image": "https://m.media-amazon.com/images/I/51om6RUxGJL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71Qi2Hi0xEL._AC_SL1500_.jpg]",
+        "name": "FPVtosky Nachts Reflecterend Drone Landingsplatform 64cm",
+        "prijs": "28.0€",
+        "beoordeling": "4.7/5",
+        "merk": "FPVtosky",
+        "compatibiliteit": "Universeel (o.a. DJI Mavic 3, Mini 4 Pro)",
+        "functie": "Veilig opstijgen en landen, bescherming",
+        "materiaal": "Duurzaam reflecterend materiaal",
+        "producttype": "Drone landingsplatform",
+        "installatiegemak": "Snel opvouwbaar en op te zetten",
+        "bijzondere_eigenschap": "Reflecterend voor nachtvluchten, stabiel",
+        "productUrl": "/product/64cm-fpvtosky-nachts-reflecterend-drone-landingsplatform",
+        "image": "https://m.media-amazon.com/images/I/71Qi2Hi0xEL._AC_SL1500_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/51DYz3ZEUHL._AC_UL320_.jpg]",
-        "name": "Craznick Propeller Guard DJI Mini 3 Pro/3",
-        "prijs": "15.0€",
-        "bewertung": "4.3/5",
-        "merk": "Craznick",
-        "productsoort": "Propellerbescherming",
-        "primaire_functie": "Bescherming Drone & Propellers",
-        "compatibiliteit": "DJI Mini 3 Pro / DJI Mini 3",
-        "productUrl": "/product/craznick-propeller-guard-dji-mini-pro-3",
-        "image": "https://m.media-amazon.com/images/I/51DYz3ZEUHL._AC_UL320_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/715mCbXLn8L._AC_SL1500_.jpg]",
+        "name": "RC Drone Propellers Zwart/Zilver Mini Helikopter",
+        "prijs": "7.0€",
+        "beoordeling": "4.4/5",
+        "merk": "Dilwe",
+        "compatibiliteit": "Mini RC Drones, Mini Helikopters",
+        "functie": "Verbeterde vliegprestaties",
+        "materiaal": "Hoogwaardig kunststof",
+        "producttype": "Reservepropellers",
+        "installatiegemak": "Makkelijk te installeren",
+        "bijzondere_eigenschap": "Verbeterde stabiliteit en controle",
+        "productUrl": "/product/drone-propellers-zwart-zilver-mini-helikopter",
+        "image": "https://m.media-amazon.com/images/I/715mCbXLn8L._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/41yHNvzkuVL._AC_SL1000_.jpg]",
-        "name": "WANGCL Drone Strobe LED Rood Blauw Lampen",
-        "prijs": "7.0€",
-        "bewertung": "3.7/5",
-        "merk": "WANGCL",
-        "productsoort": "Drone Strobe LED Lampen",
-        "primaire_functie": "Zichtbaarheid & Navigatie Drone",
-        "compatibiliteit": "Mavic Air, Mavic Mini, Phantom 3/4 en vergelijkbaar",
-        "productUrl": "/product/wangcl-drone-strobe-led-rood-blauw",
-        "image": "https://m.media-amazon.com/images/I/41yHNvzkuVL._AC_SL1000_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/41RxhBqh79L._AC_SL1000_.jpg]",
+        "name": "Zalati Armhouder DJI Mavic Mini 2/SE Links",
+        "prijs": "8.0€",
+        "beoordeling": "4.2/5",
+        "merk": "Zalati",
+        "compatibiliteit": "DJI Mavic Mini 2, DJI Mini SE",
+        "functie": "Reparatie en vervanging van arm",
+        "materiaal": "Duurzaam kunststof",
+        "producttype": "Vervangende armhouder",
+        "installatiegemak": "Eenvoudig zelf te installeren",
+        "bijzondere_eigenschap": "Naadloze pasvorm, kostenbesparend",
+        "productUrl": "/product/zalati-armhouder-dji-mavic-mini-2-se",
+        "image": "https://m.media-amazon.com/images/I/41RxhBqh79L._AC_SL1000_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61zutOLBmlL._AC_SL1120_.jpg]",
-        "name": "Slimme Plug & Play Gateway",
-        "prijs": "109.0€",
-        "bewertung": "4.4/5",
-        "merk": "De Loolinn Store",
-        "productsoort": "Gateway / Smart Home Hub",
-        "primaire_functie": "Slimme Woningautomatisering",
-        "compatibiliteit": "Zigbee, Z-Wave, Wi-Fi apparaten",
-        "productUrl": "/product/slimme-plug-play-gateway",
-        "image": "https://m.media-amazon.com/images/I/61zutOLBmlL._AC_SL1120_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61feskjv4rL._AC_SL1500_.jpg]",
+        "name": "RC Drone Reparatie Flatkabel DJI Mavic Mini",
+        "prijs": "11.0€",
+        "beoordeling": "3.4/5",
+        "merk": "VBESTLIFE",
+        "compatibiliteit": "DJI Mavic Mini",
+        "functie": "Herstel signaalverbindingen",
+        "materiaal": "Duurzaam flexibel kabelmateriaal",
+        "producttype": "Platte signaalkabel",
+        "installatiegemak": "Eenvoudige plug-and-play",
+        "bijzondere_eigenschap": "Essentieel reparatieonderdeel voor signaal",
+        "productUrl": "/product/drone-reparatie-flatkabel-dji-mavic-mini",
+        "image": "https://m.media-amazon.com/images/I/61feskjv4rL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Koopgids: Hoe Kies je de Beste Drones en Accessoires?",
+    "title": "Koopgids: Hoe kies je de beste Drone Accessoires en Onderdelen?",
     "sections": [
       {
-        "heading": "1. Gebruik en Doel Bepalen",
-        "content": "Overweeg eerst je doel: zoek je een hobby-drone, een race-drone (zoals een FPV Racing Drone), of een drone voor luchtfotografie? Beginners starten best met gebruiksvriendelijke modellen. Experts kiezen voor geavanceerde functies en aanpasbare kits, zoals een Quadcopter Frame Kit van koolstofvezel. Dit beïnvloedt functies zoals GPS en cameraresolutie."
+        "heading": "1. Compatibiliteit en Functie",
+        "content": "Kies accessoires die perfect passen bij jouw specifieke dronemodel (bijv. DJI Mavic Mini). Controleer altijd het modelnummer. Denk aan functies zoals extra accu's voor langere vliegtijden, robuuste propellers voor betere prestaties, of beschermkappen. Zorg dat de functie aansluit bij jouw gebruiksbehoeften en de compatibiliteit gegarandeerd is."
       },
       {
-        "heading": "2. Vliegprestaties en Accuduur",
-        "content": "Let op de vliegtijd en het bereik. Een langere accuduur betekent meer vliegplezier. Controleer ook de stabiliteit bij wind en de reactiesnelheid van de besturing. Reserve-accu's zijn essentieel voor langere sessies. Denk aan de motor kracht en efficiëntie voor de beste prestaties."
+        "heading": "2. Kwaliteit en Duurzaamheid",
+        "content": "Investeer in hoogwaardige onderdelen, bij voorkeur origineel of van gerenommeerde derden. Goedkope imitaties kunnen de prestaties negatief beïnvloeden en zelfs schade veroorzaken. Voor reparatieonderdelen, zoals een flatkabel, is duurzaamheid essentieel voor de levensduur van je drone. Lees reviews en specificaties zorgvuldig om kwaliteit te waarborgen."
       },
       {
-        "heading": "3. Camera en FPV-mogelijkheden",
-        "content": "Voor luchtfotografie is een goede camera cruciaal: minstens 1080p, liefst 4K, met een stabiele gimbal. Voor FPV (First Person View) racen, zoals bij de FPV Racing Drone, is lage latentie en een breed gezichtsveld belangrijk. Controleer of live videostreaming mogelijk is."
+        "heading": "3. Specifieke Reparatieonderdelen",
+        "content": "Bij reparatieonderdelen, zoals een RC Drone Reparatie Flatkabel, is precisie cruciaal. Zorg dat je het exacte onderdeelnummer en de juiste specificaties hebt voor jouw drone. Een verkeerd onderdeel kan tot verdere defecten leiden. Overweeg of je zelf de reparatie uitvoert of dit overlaat aan een gespecialiseerde service voor optimale resultaten."
       },
       {
-        "heading": "4. Bouwkwaliteit en Onderhoud",
-        "content": "Robuustheid is belangrijk, vooral voor beginners. Koolstofvezel, zoals bij de 250mm Koolstofvezel FPV Racing Drone, biedt duurzaamheid en een laag gewicht. Controleer de beschikbaarheid van reserveonderdelen, zoals propellers en motoren. Een modulair design vereenvoudigt reparaties en upgrades."
+        "heading": "4. Optimalisatie en Upgrades",
+        "content": "Denk aan accessoires die je vliegervaring verbeteren. Dit kunnen cameralenzen, ND-filters, extra landing gestellen, of stevige draagtassen zijn. Deze beschermen je drone en optimaliseren de functionaliteit. Kies upgrades die passen bij je vliegstijl, of je nu een hobbyist bent of professionele luchtfotografie bedrijft."
       },
       {
-        "heading": "5. Essentiële Accessoires en Veiligheid",
-        "content": "Extra accu's, een snellader en reservepropellers zijn onmisbaar. Een stevige draagtas beschermt je drone. Overweeg landingspads en propellorbeschermers voor veilig vliegen. Leer de lokale regels voor dronegebruik en vlieg altijd verantwoord."
+        "heading": "5. Prijs en Waarde",
+        "content": "Vergelijk prijzen, maar laat dit niet de enige factor zijn. Een hogere prijs kan duiden op betere kwaliteit en garantie. Zoek naar de beste balans tussen kosten en de toegevoegde waarde voor je drone. Controleer garantievoorwaarden en retourbeleid. Een goede investering in accessoires verlengt de levensduur en het plezier van je drone."
       }
     ]
   }

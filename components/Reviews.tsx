@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Star, ThumbsUp, CheckCircle } from 'lucide-react';
-import { getString } from '../lib/utils';
+import { getString, generateProductReviews, generateProductReviewSnippet } from '../lib/utils';
 
 interface Review {
   id: number;
@@ -21,11 +21,15 @@ interface ReviewsData {
 interface ReviewsProps {
   limit?: number;
   className?: string;
+  productSlug?: string; // For product-specific reviews
+  productName?: string; // For product-specific reviews
 }
 
 const Reviews: React.FC<ReviewsProps> = ({ 
   limit = 6, 
-  className = "" 
+  className = "",
+  productSlug,
+  productName
 }) => {
   const [reviewsData, setReviewsData] = useState<ReviewsData | null>(null);
   const [displayedReviews, setDisplayedReviews] = useState<Review[]>([]);
@@ -33,18 +37,102 @@ const Reviews: React.FC<ReviewsProps> = ({
   useEffect(() => {
     const loadReviews = async () => {
       try {
-        const response = await import('../locales/reviews.json');
-        const data = response.default as ReviewsData;
-        setReviewsData(data);
-        // Shuffle and limit reviews
-        const shuffled = [...data.reviews].sort(() => Math.random() - 0.5);
-        setDisplayedReviews(shuffled.slice(0, limit));
+        if (productSlug && productName) {
+          // Try to load the actual product data to get AI-generated reviews
+          try {
+            const productResponse = await import(`../data/products/${productSlug}.json`);
+            const productData = productResponse.default;
+            
+            // Use AI-generated customer reviews if available
+            if (productData.customerReviews && productData.customerReviews.length > 0) {
+              const productSpecificData: ReviewsData = {
+                reviews: productData.customerReviews.slice(0, limit)
+              };
+              
+              setReviewsData(productSpecificData);
+              setDisplayedReviews(productSpecificData.reviews);
+              return;
+            }
+            
+            // Fallback: Use AI-generated review analysis if available
+            if (productData.reviewAnalysis) {
+              const reviewAnalysis = productData.reviewAnalysis;
+              
+              // Create reviews from the AI-generated analysis
+              const aiReviews = [];
+              
+              // Add main detailed review
+              if (reviewAnalysis.detailed_review) {
+                aiReviews.push({
+                  id: 1,
+                  author: "Expert Reviewer",
+                  rating: reviewAnalysis.overall_rating || 4.5,
+                  date: new Date(Date.now() - Math.random() * 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+                  text: reviewAnalysis.detailed_review,
+                  verified: true,
+                  helpful: Math.floor(Math.random() * 15) + 10
+                });
+              }
+              
+              // Add feature step reviews
+              if (reviewAnalysis.feature_steps && reviewAnalysis.feature_steps.length > 0) {
+                reviewAnalysis.feature_steps.slice(0, limit - 1).forEach((step, index) => {
+                  aiReviews.push({
+                    id: index + 2,
+                    author: `Customer Review ${index + 1}`,
+                    rating: Math.floor(Math.random() * 2) + 4, // 4-5 stars
+                    date: new Date(Date.now() - Math.random() * 60 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+                    text: `${step.title}: ${step.description}`,
+                    verified: true,
+                    helpful: Math.floor(Math.random() * 20) + 5
+                  });
+                });
+              }
+              
+              const productSpecificData: ReviewsData = {
+                reviews: aiReviews
+              };
+              
+              setReviewsData(productSpecificData);
+              setDisplayedReviews(productSpecificData.reviews);
+              return;
+            }
+          } catch (error) {
+            // If product file not found, fall back to generated reviews
+          }
+          
+          // Fallback: Generate product-specific reviews using the same system as product pages
+          const productReviews = generateProductReviews(productSlug, productName, limit);
+          
+          const productSpecificData: ReviewsData = {
+            reviews: productReviews.map((review, index) => ({
+              id: index + 1,
+              author: review.author.name || review.author,
+              rating: review.reviewRating?.ratingValue || 5,
+              date: review.datePublished || new Date().toISOString().split('T')[0],
+              text: review.reviewBody || '',
+              verified: true,
+              helpful: Math.floor(Math.random() * 20) + 5
+            }))
+          };
+          
+          setReviewsData(productSpecificData);
+          setDisplayedReviews(productSpecificData.reviews);
+        } else {
+          // Fallback to static reviews for backward compatibility
+          const response = await import('../locales/reviews.json');
+          const data = response.default as ReviewsData;
+          setReviewsData(data);
+          // Shuffle and limit reviews
+          const shuffled = [...data.reviews].sort(() => Math.random() - 0.5);
+          setDisplayedReviews(shuffled.slice(0, limit));
+        }
       } catch (error) {
         setReviewsData({ reviews: [] });
       }
     };
     loadReviews();
-  }, [limit]);
+  }, [limit, productSlug, productName]);
 
   const renderStars = (rating: number) => (
     <div className="flex items-center">

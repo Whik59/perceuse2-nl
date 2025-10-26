@@ -951,7 +951,11 @@ const ProductDetailPage: React.FC = () => {
                 )}
 
                 {activeTab === 'reviews' && (
-                  <Reviews />
+                  <Reviews 
+                    limit={8} 
+                    productSlug={slug} 
+                    productName={product?.title || ''} 
+                  />
                 )}
               </div>
 
@@ -1359,7 +1363,11 @@ const ProductDetailPage: React.FC = () => {
 
           {/* Reviews Content */}
           <div className="mt-24 border-t border-neutral-100 pt-16">
-            <Reviews limit={8} />
+            <Reviews 
+              limit={8} 
+              productSlug={slug} 
+              productName={product?.title || ''} 
+            />
           </div>
         </div>
 

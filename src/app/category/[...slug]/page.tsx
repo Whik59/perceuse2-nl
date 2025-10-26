@@ -663,8 +663,7 @@ const CategoryPage: React.FC = () => {
       )}
       
 
-      {/* Customer Reviews */}
-      <Reviews limit={6} />
+      {/* Customer Reviews - Removed to avoid duplicate content issues */}
     </Layout>
   );
 };

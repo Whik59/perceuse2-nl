@@ -513,8 +513,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
         </div>
       </section>
 
-      {/* Reviews Section */}
-      <Reviews limit={6} />
+      {/* Reviews Section - Removed to avoid duplicate content issues */}
       
     </Layout>
   );

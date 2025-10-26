@@ -1,33 +1,33 @@
 [
   {
-    "slug": "drones-en-accessoires",
-    "name": "Drones en Accessoires",
-    "categoryNameCanonical": "Drones en Accessoires",
-    "description": "Vind drones en essentiële accessoires gebaseerd op de meest gezochte onderdelen en functies. Categorieën omvatten stroomvoorziening, transportoplossingen, en specifieke onderdelen voor reparatie en upgrades.",
+    "slug": "drone-accessoires-en-onderdelen",
+    "name": "Drone Accessoires en Onderdelen",
+    "categoryNameCanonical": "Drone Accessoires en Onderdelen",
+    "description": "Vind alle essentiële accessoires en vervangende onderdelen voor uw drone. Van accu's en opladers tot transporttassen en propellers, voor hobbyisten en professionals.",
     "subcategories": [
       {
         "slug": "drone-accus-en-opladers",
         "name": "Drone Accu's en Opladers",
         "categoryNameCanonical": "Drone Accu's en Opladers",
-        "description": "Essentiële stroomvoorzieningen inclusief vervangende accu's, extra batterijen en oplaadstations om de vliegtijd te maximaliseren."
+        "description": "Verleng uw vliegtijd met extra accu's, batterijen en snelladers. Essentiële stroomvoorzieningen voor populaire drone-modellen en merken."
       },
       {
         "slug": "drone-tassen-en-koffers",
         "name": "Drone Tassen en Koffers",
         "categoryNameCanonical": "Drone Tassen en Koffers",
-        "description": "Beschermende rugzakken, harde koffers en draagtassen ontworpen voor het veilig opbergen en vervoeren van drones en hun accessoires."
+        "description": "Bescherm uw investering met stevige koffers, rugzakken en draagtassen. Ontworpen voor veilig transport en opslag van uw drone en accessoires."
       },
       {
-        "slug": "drone-onderdelen-en-propellers",
-        "name": "Drone Onderdelen en Propellers",
-        "categoryNameCanonical": "Drone Onderdelen en Propellers",
-        "description": "Vervangingsonderdelen voor onderhoud en reparatie, zoals propellers, antennes, en landingsgestellen."
+        "slug": "drone-onderdelen-en-upgrades",
+        "name": "Drone Onderdelen en Upgrades",
+        "categoryNameCanonical": "Drone Onderdelen en Upgrades",
+        "description": "Vind vervangende onderdelen zoals propellers, antennes en landingsgestellen, of upgrade uw drone voor betere prestaties en functionaliteit."
       },
       {
         "slug": "accessoires-voor-dji-drones",
         "name": "Accessoires voor DJI Drones",
         "categoryNameCanonical": "Accessoires voor DJI Drones",
-        "description": "Specifiek ontworpen en compatibele accessoires voor de meest populaire DJI-modellen, waaronder de Mini, Air en Avata series."
+        "description": "Specifiek ontworpen en compatibele accessoires voor alle populaire DJI-modellen, waaronder de Mini, Air, Avata en Mavic series."
       }
     ]
   }

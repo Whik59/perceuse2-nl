@@ -607,8 +607,7 @@ const CategoryClient: React.FC<CategoryClientProps> = ({ category, categories, p
       )}
       
 
-      {/* Customer Reviews */}
-      <Reviews limit={6} />
+      {/* Customer Reviews - Removed to avoid duplicate content issues */}
     </Layout>
   );
 };
