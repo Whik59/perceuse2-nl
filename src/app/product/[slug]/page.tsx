@@ -782,50 +782,7 @@ const ProductDetailPage: React.FC = () => {
                 </div>
               )}
 
-              {/* CTA */}
-              {!isOutOfStock && (
-                <div className="space-y-6">
-
-                  {/* Premium CTA Buttons */}
-                  <div className="space-y-6">
-                    <Button
-                      onClick={handleBuyOnAmazon}
-                      disabled={isAddingToCart}
-                      loading={isAddingToCart}
-                      className="w-full bg-gradient-to-r from-orange-600 to-orange-700 text-white hover:from-orange-700 hover:to-orange-800 py-3 sm:py-4 text-sm sm:text-base font-semibold rounded-lg sm:rounded-xl transition-all duration-300 shadow-md hover:shadow-lg tracking-wide"
-                      size="lg"
-                    >
-                      <ShoppingCart className="w-4 h-4 sm:w-5 sm:h-5 mr-2 sm:mr-3" />
-                      <span className="truncate">
-                        {isAddingToCart ? getString('product.redirecting') : `${getString('product.buyNow')} ${productTitle}`}
-                      </span>
-                    </Button>
-                  </div>
-                  
-                  {/* Red Disclaimer */}
-                  <div className="relative mt-4 p-4 bg-gradient-to-r from-red-500 via-red-600 to-red-500 rounded-xl shadow-lg border-2 border-red-400 overflow-hidden">
-                    {/* Animated background effect */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
-                    
-                    {/* Content */}
-                    <div className="relative flex items-center justify-center space-x-3">
-                      <div className="flex-shrink-0">
-                        <AlertTriangle className="w-5 h-5 text-white animate-bounce" />
-                      </div>
-                      <span className="text-white font-bold text-sm sm:text-base text-center leading-tight">
-                        ⚡ {getString('product.cartDiscountDisclaimer')} ⚡
-                      </span>
-                      <div className="flex-shrink-0">
-                        <AlertTriangle className="w-5 h-5 text-white animate-bounce" />
-                      </div>
-                    </div>
-                    
-                    {/* Decorative elements */}
-                    <div className="absolute top-1 left-1 w-2 h-2 bg-white/30 rounded-full animate-ping"></div>
-                    <div className="absolute bottom-1 right-1 w-2 h-2 bg-white/30 rounded-full animate-ping" style={{animationDelay: '0.5s'}}></div>
-                  </div>
-                </div>
-              )}
+              {/* CTA Section Removed - Only sticky button remains */}
 
               {/* Trust Signals section removed */}
             </div>
