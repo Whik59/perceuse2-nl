@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://drone-kopen.nl/sitemap.xml
+Sitemap: https://boormachine-kopen.nl/sitemap.xml
 
 # Disallow admin and private areas
 Disallow: /admin/

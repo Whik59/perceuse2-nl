@@ -30,7 +30,7 @@ git remote -v
 
 
 
-git remote remove origin; git remote add origin https://github.com/Whik59/drone-nl; git add .; git commit -m "german template"; git push --force origin main
+git remote remove origin; git remote add origin https://github.com/Whik59/perceuse-nl; git add .; git commit -m "german template"; git push --force origin main
 
 
 

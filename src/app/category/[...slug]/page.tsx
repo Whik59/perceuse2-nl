@@ -235,7 +235,7 @@ const CategoryPage: React.FC = () => {
               <div className="w-full h-[300px] overflow-hidden">
                 <Image
                   src="/hero2.png"
-                  alt="Professional Massagegeräte 2"
+                  alt={getString('product.altTexts.professionalTools2')}
                   width={500}
                   height={375}
                   className="w-full h-full object-cover object-center"
@@ -286,7 +286,7 @@ const CategoryPage: React.FC = () => {
               <div className="w-full h-[300px] overflow-hidden">
                 <Image
                   src="/hero3.png"
-                  alt="Professional Massagegeräte"
+                  alt={getString('product.altTexts.professionalTools')}
                   width={500}
                   height={375}
                   className="w-full h-full object-cover object-center"
@@ -306,7 +306,7 @@ const CategoryPage: React.FC = () => {
               <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                 <Image
                   src="/hero2.png"
-                  alt="Professional Massagegeräte 2"
+                  alt={getString('product.altTexts.professionalTools2')}
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"
@@ -322,7 +322,7 @@ const CategoryPage: React.FC = () => {
               <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                 <Image
                   src="/hero3.png"
-                  alt="Professional Massagegeräte"
+                  alt={getString('product.altTexts.professionalTools')}
                   width={800}
                   height={600}
                   className="w-auto h-auto max-w-lg"

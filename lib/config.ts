@@ -1,39 +1,39 @@
 // Configuration utility for environment variables
 export const siteConfig = {
   // Site Information
-  siteName: process.env.SITE_NAME || 'Airfryer Kaufen',
-  companyName: process.env.COMPANY_NAME || 'Airfryer GmbH',
-  siteUrl: process.env.SITE_URL || 'https://mapeluche.com',
+  siteName: process.env.SITE_NAME || 'Boormachine Kopen',
+  companyName: process.env.COMPANY_NAME || 'Boormachine BV',
+  siteUrl: process.env.SITE_URL || 'https://boormachine-kopen.nl',
   
   // Business Information
   business: {
-    email: process.env.CONTACT_EMAIL || 'contact@mapeluche.com',
-    phone: process.env.BUSINESS_PHONE || '+33 1 23 45 67 89',
-    address: process.env.BUSINESS_ADDRESS || '123 Rue du Commerce, 75001 Paris, France',
+    email: process.env.CONTACT_EMAIL || 'info@boormachine-kopen.nl',
+    phone: process.env.BUSINESS_PHONE || '+31 20 12345678',
+    address: process.env.BUSINESS_ADDRESS || 'Boormachineweg 1, 1012 AB Amsterdam, Nederland',
     siret: process.env.BUSINESS_SIRET || '123 456 789 00012',
-    vat: process.env.BUSINESS_VAT || 'FR12 123456789',
-    legalForm: process.env.BUSINESS_LEGAL_FORM || 'SARL (Société à Responsabilité Limitée)'
+    vat: process.env.BUSINESS_VAT || 'NL12 123456789',
+    legalForm: process.env.BUSINESS_LEGAL_FORM || 'BV (Besloten Vennootschap)'
   },
   
   // Legal Information
   legal: {
-    lastUpdated: process.env.LEGAL_LAST_UPDATED || '15 janvier 2024',
+    lastUpdated: process.env.LEGAL_LAST_UPDATED || '15 januari 2024',
     hostingProvider: process.env.HOSTING_PROVIDER || 'Vercel Inc.',
     hostingAddress: process.env.HOSTING_ADDRESS || '340 S Lemon Ave #4133, Walnut, CA 91789, USA'
   },
   
   // SEO
   seo: {
-    defaultTitle: process.env.SEO_DEFAULT_TITLE || 'Ma Peluche - Peluches de Qualité Exceptionnelle',
-    defaultDescription: process.env.SEO_DEFAULT_DESCRIPTION || 'Boutique en ligne spécialisée dans les peluches premium avec livraison gratuite et garantie satisfaction.',
-    keywords: process.env.SEO_KEYWORDS?.split(',') || ['peluches', 'doudou', 'jouets', 'enfant', 'qualité', 'livraison gratuite']
+    defaultTitle: process.env.SEO_DEFAULT_TITLE || 'Boormachine Kopen - De Beste Boormachines',
+    defaultDescription: process.env.SEO_DEFAULT_DESCRIPTION || 'Boutique en ligne spécialisée dans les boormachines premium avec livraison gratuite et garantie satisfaction.',
+    keywords: process.env.SEO_KEYWORDS?.split(',') || ['boormachines', 'schroefmachines', 'gereedschap', 'klussen', 'kwaliteit', 'livraison gratuite']
   },
   
   // Features
   features: {
     freeShippingThreshold: parseInt(process.env.FREE_SHIPPING_THRESHOLD || '50'),
-    returnPeriod: parseInt(process.env.RETURN_PERIOD_DAYS || '14'),
-    warrantyPeriod: process.env.WARRANTY_PERIOD || '2 ans'
+    returnPeriod: parseInt(process.env.RETURN_PERIOD_DAYS || '30'),
+    warrantyPeriod: process.env.WARRANTY_PERIOD || '2 jaar'
   }
 };
 

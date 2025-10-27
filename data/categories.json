@@ -1,33 +1,117 @@
 [
   {
-    "slug": "drone-accessoires-en-onderdelen",
-    "name": "Drone Accessoires en Onderdelen",
-    "categoryNameCanonical": "Drone Accessoires en Onderdelen",
-    "description": "Vind alle essentiële accessoires en vervangende onderdelen voor uw drone. Van accu's en opladers tot transporttassen en propellers, voor hobbyisten en professionals.",
+    "slug": "accuboormachines",
+    "name": "Accuboormachines",
+    "categoryNameCanonical": "Accuboormachines",
+    "description": "Draadloze boormachines voor maximale flexibiliteit en mobiliteit, ideaal voor klussen in en rond het huis zonder de beperking van een snoer.",
     "subcategories": [
       {
-        "slug": "drone-accus-en-opladers",
-        "name": "Drone Accu's en Opladers",
-        "categoryNameCanonical": "Drone Accu's en Opladers",
-        "description": "Verleng uw vliegtijd met extra accu's, batterijen en snelladers. Essentiële stroomvoorzieningen voor populaire drone-modellen en merken."
+        "slug": "accuboormachine-sets",
+        "name": "Accuboormachine Sets (met Accu & Lader)",
+        "categoryNameCanonical": "Accuboormachine Sets (met Accu & Lader)",
+        "description": "Complete sets inclusief een of meerdere accu's en een oplader, zodat u direct aan de slag kunt."
       },
       {
-        "slug": "drone-tassen-en-koffers",
-        "name": "Drone Tassen en Koffers",
-        "categoryNameCanonical": "Drone Tassen en Koffers",
-        "description": "Bescherm uw investering met stevige koffers, rugzakken en draagtassen. Ontworpen voor veilig transport en opslag van uw drone en accessoires."
+        "slug": "accu-klopboormachines",
+        "name": "Accu Klopboormachines",
+        "categoryNameCanonical": "Accu Klopboormachines",
+        "description": "Krachtige draadloze modellen met een klopfunctie voor het boren in steen en licht metselwerk."
       },
       {
-        "slug": "drone-onderdelen-en-upgrades",
-        "name": "Drone Onderdelen en Upgrades",
-        "categoryNameCanonical": "Drone Onderdelen en Upgrades",
-        "description": "Vind vervangende onderdelen zoals propellers, antennes en landingsgestellen, of upgrade uw drone voor betere prestaties en functionaliteit."
+        "slug": "compacte-accuboormachines",
+        "name": "Compacte Accuboormachines",
+        "categoryNameCanonical": "Compacte Accuboormachines",
+        "description": "Lichtgewicht en compacte modellen, ideaal voor werken in krappe ruimtes of boven het hoofd."
       },
       {
-        "slug": "accessoires-voor-dji-drones",
-        "name": "Accessoires voor DJI Drones",
-        "categoryNameCanonical": "Accessoires voor DJI Drones",
-        "description": "Specifiek ontworpen en compatibele accessoires voor alle populaire DJI-modellen, waaronder de Mini, Air, Avata en Mavic series."
+        "slug": "losse-accus-en-laders",
+        "name": "Losse Accu's en Laders",
+        "categoryNameCanonical": "Losse Accu's en Laders",
+        "description": "Extra of vervangende accu's en opladers om uw werktijd te verlengen en compatibiliteit te garanderen."
+      }
+    ]
+  },
+  {
+    "slug": "gesnoerde-boormachines",
+    "name": "Gesnoerde Boormachines",
+    "categoryNameCanonical": "Gesnoerde Boormachines",
+    "description": "Boormachines met snoer voor constante, ononderbroken kracht. Perfect voor zwaardere, langdurige projecten in hout, metaal en kunststof.",
+    "subcategories": [
+      {
+        "slug": "boormachines-hoog-vermogen",
+        "name": "Boormachines met Hoog Vermogen (800W+)",
+        "categoryNameCanonical": "Boormachines met Hoog Vermogen (800W+)",
+        "description": "Krachtige modellen met een hoog wattage voor de meest veeleisende boorklussen in harde materialen."
+      },
+      {
+        "slug": "klopboormachines-met-snoer",
+        "name": "Klopboormachines met Snoer",
+        "categoryNameCanonical": "Klopboormachines met Snoer",
+        "description": "Modellen met een inschakelbare klopfunctie voor effectief boren in metselwerk en steen."
+      },
+      {
+        "slug": "boormachines-voor-hout-en-metaal",
+        "name": "Boormachines voor Hout en Metaal",
+        "categoryNameCanonical": "Boormachines voor Hout en Metaal",
+        "description": "Standaard boormachines geoptimaliseerd voor precieze en schone boorgaten in hout en diverse metalen."
+      }
+    ]
+  },
+  {
+    "slug": "boorhamers-voor-zwaar-werk",
+    "name": "Boorhamers voor Zwaar Werk",
+    "categoryNameCanonical": "Boorhamers voor Zwaar Werk",
+    "description": "Gespecialiseerde machines ontworpen voor het moeiteloos boren in harde materialen zoals beton en gewapend beton, vaak met beitelmogelijkheid.",
+    "subcategories": [
+      {
+        "slug": "boorhamers-voor-beton",
+        "name": "Boorhamers voor Beton",
+        "categoryNameCanonical": "Boorhamers voor Beton",
+        "description": "Krachtige boorhamers met pneumatisch mechanisme, specifiek voor het boren van grote gaten in beton."
+      },
+      {
+        "slug": "combihamers-boren-en-beitelen",
+        "name": "Combihamers (Boren en Beitelen)",
+        "categoryNameCanonical": "Combihamers (Boren en Beitelen)",
+        "description": "Veelzijdige machines die kunnen boren, hamerboren en beitelen voor sloop- en renovatiewerk."
+      },
+      {
+        "slug": "accu-boorhamers",
+        "name": "Accu Boorhamers",
+        "categoryNameCanonical": "Accu Boorhamers",
+        "description": "Draadloze boorhamers die de kracht van een gesnoerd model combineren met de vrijheid van een accu."
+      }
+    ]
+  },
+  {
+    "slug": "boormachine-accessoires",
+    "name": "Boormachine Accessoires",
+    "categoryNameCanonical": "Boormachine Accessoires",
+    "description": "Essentiële toebehoren om de functionaliteit van uw boormachine uit te breiden, van boren en bitjes tot speciale opzetstukken.",
+    "subcategories": [
+      {
+        "slug": "boren-en-bitsets",
+        "name": "Boren- en Bitsets",
+        "categoryNameCanonical": "Boren- en Bitsets",
+        "description": "Uitgebreide sets met diverse maten boren en schroefbitjes voor hout, metaal, steen en universeel gebruik."
+      },
+      {
+        "slug": "boorborstels-en-polijstpads",
+        "name": "Boorborstels en Polijstpads",
+        "categoryNameCanonical": "Boorborstels en Polijstpads",
+        "description": "Opzetstukken voor het reinigen van hardnekkig vuil, ontroesten van metaal of het polijsten van oppervlakken."
+      },
+      {
+        "slug": "speciale-adapters-en-hulpstukken",
+        "name": "Speciale Adapters en Hulpstukken",
+        "categoryNameCanonical": "Speciale Adapters en Hulpstukken",
+        "description": "Adapters, bithouders, haakse opzetstukken en stofafzuiging om de veelzijdigheid van uw machine te vergroten."
+      },
+      {
+        "slug": "boorstatieven-en-geleiders",
+        "name": "Boorstatieven en Geleiders",
+        "categoryNameCanonical": "Boorstatieven en Geleiders",
+        "description": "Hulpmiddelen voor het garanderen van perfect rechte en precieze boorgaten, ideaal voor werkplaatsgebruik."
       }
     ]
   }

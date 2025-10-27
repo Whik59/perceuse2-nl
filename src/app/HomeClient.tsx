@@ -212,7 +212,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
                 <div className="w-full h-[300px] overflow-hidden">
                   <Image
                     src="/hero2.png"
-                    alt="Professional Massagegeräte 2"
+                    alt={getString('product.altTexts.professionalTools2')}
                     width={500}
                     height={375}
                     className="w-full h-full object-cover object-center"
@@ -263,7 +263,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
               <div className="w-full h-[300px] overflow-hidden">
                   <Image
                     src="/hero1.png"
-                    alt="Professional Massagegeräte"
+                    alt={getString('product.altTexts.professionalTools')}
                     width={500}
                     height={375}
                     className="w-full h-full object-cover object-center"

@@ -995,7 +995,7 @@ const ProductDetailPage: React.FC = () => {
                       <div className="w-full h-[300px] overflow-hidden">
                         <Image
                           src="/hero5.png"
-                          alt="Professional Massagegeräte"
+                          alt={getString('product.altTexts.professionalTools')}
                           width={700}
                           height={525}
                           className="w-full h-full object-cover object-center"
@@ -1031,7 +1031,7 @@ const ProductDetailPage: React.FC = () => {
                       <div className="bg-white p-2 lg:p-4 flex items-center justify-center">
                         <Image
                           src="/hero5.png"
-                          alt="Professional Massagegeräte"
+                          alt={getString('product.altTexts.professionalTools')}
                           width={1000}
                           height={750}
                           className="w-auto h-auto max-w-full"
@@ -1169,7 +1169,7 @@ const ProductDetailPage: React.FC = () => {
                           {getString('product.whyChoose').replace('{productTitle}', productTitle)}
                         </h3>
                         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-                          Entdecken Sie die wichtigsten Funktionen und Vorteile dieses Produkts
+                          {getString('product.whyChoose.subtitle')}
                         </p>
                       </div>
                       <div className="space-y-3">
@@ -1446,7 +1446,7 @@ const ProductDetailPage: React.FC = () => {
                     <div className="flex items-center justify-between min-w-[350px]">
                       <div className="flex items-center space-x-3">
                         <div className="w-10 h-10 bg-white rounded-lg shadow-sm flex items-center justify-center overflow-hidden">
-                          <img src={product.imagePaths?.[0] || '/logo.png'} alt="Our Shop" className="w-full h-full object-cover" />
+                          <img src={product.imagePaths?.[0] || '/logo.png'} alt={getString('product.altTexts.ourShop')} className="w-full h-full object-cover" />
                         </div>
                         <div>
                           <div className="font-bold text-gray-700 text-base">{getString('product.ourShop')}</div>

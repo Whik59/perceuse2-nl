@@ -1,163 +1,173 @@
 {
   "categoryId": 1,
-  "categoryNameCanonical": "Drone Accessoires en Onderdelen",
-  "slug": "drone-accessoires-en-onderdelen",
+  "categoryNameCanonical": "Accuboormachines",
+  "slug": "accuboormachines",
   "parentCategoryId": null,
   "level": 0,
-  "description": "Vind alle drone accessoires en onderdelen. Upgrade je drone, snelle levering!",
-  "content": "<div><h2>Alles voor Jouw Drone: Accessoires en Onderdelen</h2><p>Ontdek ons uitgebreide assortiment aan <strong>drone accessoires en onderdelen</strong>, speciaal geselecteerd om jouw vliegervaring te verbeteren of je drone te herstellen. Of je nu op zoek bent naar een nieuwe <strong>drone accu</strong> voor langere vliegtijden, duurzame <strong>drone propellers</strong> voor optimale prestaties, of specifieke <strong>DJI onderdelen</strong> voor je favoriete model; wij hebben het allemaal.</p><p>Een defect onderdeel kan je vluchtplezier flink bederven. Gelukkig bieden wij een breed scala aan vervangende <strong>drone onderdelen</strong>, van camera's en gimbals tot motoren en landingsgestellen. Zorg ervoor dat je drone altijd in topconditie verkeert met onze kwalitatieve componenten. Upgrade je drone, herstel hem na een val of pas hem aan jouw specifieke wensen aan met onze betrouwbare producten.</p><p>Naast essentiële vervangingsonderdelen vind je hier ook handige accessoires die het vliegen veiliger en leuker maken. Denk aan draagtassen voor veilig transport, beschermkappen voor extra duurzaamheid, en geavanceerde laders voor snelle oplaadtijden. Optimaliseer jouw drone met de beste <strong>drone accessoires</strong> op de markt en ga zorgeloos de lucht in!</p></div>",
+  "description": "Vind de perfecte accuboormachine voor al je klussen. Krachtig, draadloos en veelzijdig.",
+  "content": "<div><h2>Accuboormachines: Draadloze Kracht voor Elke Klus</h2><p>Een accuboormachine is het ultieme gereedschap voor elke klusser, professional of doe-het-zelver. Geen gedoe meer met snoeren; geniet van optimale bewegingsvrijheid en krachtige prestaties, waar je ook bent. Of je nu gaten boort in hout, metaal of steen, of schroeven vastzet, een accuboormachine maakt elke taak lichter en efficiënter.</p><p>Bij de keuze van de juiste accuboormachine zijn diverse factoren van belang. Let op de accucapaciteit (uitgedrukt in volt en ampère-uur (Ah)) voor de gebruiksduur, het maximale koppel (Nm) voor de draaikracht en de aanwezigheid van een klopfunctie voor het boren in hardere materialen. Wij bieden een uitgebreid assortiment van topmerken zoals Makita, Bosch, DeWalt en Festool, geschikt voor elke toepassing.</p><p>Ontdek het gemak van draadloos werken met een accuboormachine. Van lichte montagewerkzaamheden tot zware constructieklussen, er is altijd een model dat perfect aansluit bij jouw behoeften. Profiteer van innovatieve technologieën, ergonomisch design en een lange levensduur. Bekijk onze collectie en vind vandaag nog jouw nieuwe accuboormachine!</p></div>",
   "seo": {
-    "title": "Drone Accessoires & Onderdelen | Alles Voor Jouw Drone",
-    "description": "Vind alle drone accessoires en onderdelen. Upgrade je drone, snelle levering!",
+    "title": "Accuboormachines Kopen? Draadloos Boren & Schroeven | Topmerken",
+    "description": "Vind de perfecte accuboormachine voor al je klussen. Krachtig, draadloos en veelzijdig.",
     "keywords": [
-      "drone accessoires",
-      "drone onderdelen",
-      "drone accu",
-      "drone propellers",
-      "DJI onderdelen"
+      "accuboormachine",
+      "draadloze boormachine",
+      "schroefmachine"
     ],
-    "enhancedAt": "2025-10-26T18:40:39.974724"
+    "enhancedAt": "2025-10-26T19:53:37.563869"
   },
   "faq": [
     {
-      "question": "Welke drone accessoires zijn essentieel?",
-      "answer": "Essentiële accessoires omvatten extra accu's, reserve propellers, landingsgestellen, beschermkappen en draagtassen voor veilig transport en langere vliegtijden."
+      "question": "Waar let je op bij het kopen van een accuboormachine?",
+      "answer": "Focus op accucapaciteit (volt/Ah), koppel (Nm), toerental, en functies zoals een klopfunctie voor optimale prestaties."
     },
     {
-      "question": "Hoe vind ik de juiste onderdelen voor mijn drone?",
-      "answer": "Controleer altijd het specifieke modelnummer van uw drone. De compatibiliteit van onderdelen staat meestal duidelijk vermeld bij het product om ervoor te zorgen dat ze perfect passen."
+      "question": "Wat is het verschil tussen een accuboormachine en een klopboormachine?",
+      "answer": "Een klopboormachine heeft een extra klopfunctie om in hardere materialen te boren, terwijl een standaard accuboormachine primair is voor boren en schroeven."
     },
     {
-      "question": "Kan ik mijn drone zelf repareren met losse onderdelen?",
-      "answer": "Eenvoudige reparaties zoals het vervangen van propellers of landingsgestellen zijn vaak zelf uit te voeren. Voor complexere reparaties is specialistische kennis of professionele hulp aan te raden."
+      "question": "Hoe onderhoud ik mijn accuboormachine voor een lange levensduur?",
+      "answer": "Houd de machine schoon, bewaar accu's op kamertemperatuur en voorkom diepontlading voor optimale prestaties en duurzaamheid."
     }
   ],
   "productCount": 0,
-  "enhancedAt": "2025-10-26T18:40:39.974757",
+  "enhancedAt": "2025-10-26T19:53:37.563879",
   "comparisonTable": {
-    "title": "Vergelijking van Drone Accessoires en Onderdelen",
+    "title": "Vergelijking van 5 Accuboormachines",
     "columns": [
       "Rang",
       "Prijs",
       "Beoordeling",
       "Merk",
-      "Compatibiliteit",
-      "Functie",
-      "Materiaal",
-      "Producttype",
-      "Installatiegemak",
-      "Bijzondere Eigenschap"
+      "Accuspanning",
+      "Max. Koppel (Nm)",
+      "Slagfunctie",
+      "Aantal versnellingen",
+      "LED-verlichting",
+      "Motortype",
+      "Inclusief accu/lader",
+      "Inclusief koffer"
     ],
     "products": [
       {
         "rank": 1,
         "rang": "1",
-        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/51+4tC2xTiL._AC_SL1500_.jpg]",
-        "name": "Propellers DJI Mini 4 Pro/Mini 3 Pro",
-        "prijs": "9.0€",
-        "beoordeling": "4.8/5",
-        "merk": "DJI",
-        "compatibiliteit": "DJI Mini 4 Pro, DJI Mini 3 Pro",
-        "functie": "Optimalisatie prestaties en veiligheid",
-        "materiaal": "Hoogwaardig duurzaam composiet",
-        "producttype": "Snelsluitende propellers",
-        "installatiegemak": "Snelle en eenvoudige installatie",
-        "bijzondere_eigenschap": "Langere vliegtijd, minder geluid",
-        "productUrl": "/product/pro-propellers-dji-mini-pro-mini",
-        "image": "https://m.media-amazon.com/images/I/51+4tC2xTiL._AC_SL1500_.jpg"
+        "rangWithImage": "1 [IMAGE: https://m.media-amazon.com/images/I/71hZdRTGVJL._AC_SL1500_.jpg]",
+        "name": "Makita DHP485RTJ Slagboorschroefmachine 18V 5.0Ah",
+        "preis": "269.0€",
+        "bewertung": "4.7/5",
+        "merk": "Makita",
+        "accuspanning": "18 V",
+        "max_koppel_nm": "62 Nm",
+        "slagfunctie": "Ja",
+        "aantal_versnellingen": "2",
+        "led_verlichting": "Ja",
+        "motortype": "Borstelloos",
+        "inclusief_accu_lader": "Ja",
+        "inclusief_koffer": "Ja",
+        "productUrl": "/product/makita-dhp485rtj-slagboorschroefmachine-18v-5-0ah",
+        "image": "https://m.media-amazon.com/images/I/71hZdRTGVJL._AC_SL1500_.jpg"
       },
       {
         "rank": 2,
         "rang": "2",
-        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/71Qi2Hi0xEL._AC_SL1500_.jpg]",
-        "name": "FPVtosky Nachts Reflecterend Drone Landingsplatform 64cm",
-        "prijs": "28.0€",
-        "beoordeling": "4.7/5",
-        "merk": "FPVtosky",
-        "compatibiliteit": "Universeel (o.a. DJI Mavic 3, Mini 4 Pro)",
-        "functie": "Veilig opstijgen en landen, bescherming",
-        "materiaal": "Duurzaam reflecterend materiaal",
-        "producttype": "Drone landingsplatform",
-        "installatiegemak": "Snel opvouwbaar en op te zetten",
-        "bijzondere_eigenschap": "Reflecterend voor nachtvluchten, stabiel",
-        "productUrl": "/product/64cm-fpvtosky-nachts-reflecterend-drone-landingsplatform",
-        "image": "https://m.media-amazon.com/images/I/71Qi2Hi0xEL._AC_SL1500_.jpg"
+        "rangWithImage": "2 [IMAGE: https://m.media-amazon.com/images/I/61kot2T1hML._AC_UL320_.jpg]",
+        "name": "Black+Decker BDC18BAFC-QW Boorschroevendraaier 18V",
+        "preis": "92.0€",
+        "bewertung": "4.4/5",
+        "merk": "Black+Decker",
+        "accuspanning": "18 V",
+        "max_koppel_nm": "35 Nm",
+        "slagfunctie": "Nee",
+        "aantal_versnellingen": "2",
+        "led_verlichting": "Ja",
+        "motortype": "Geborsteld",
+        "inclusief_accu_lader": "Ja",
+        "inclusief_koffer": "Ja",
+        "productUrl": "/product/bdc18bafc-qw-black-decker-boorschroevendraaier-18v",
+        "image": "https://m.media-amazon.com/images/I/61kot2T1hML._AC_UL320_.jpg"
       },
       {
         "rank": 3,
         "rang": "3",
-        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/715mCbXLn8L._AC_SL1500_.jpg]",
-        "name": "RC Drone Propellers Zwart/Zilver Mini Helikopter",
-        "prijs": "7.0€",
-        "beoordeling": "4.4/5",
-        "merk": "Dilwe",
-        "compatibiliteit": "Mini RC Drones, Mini Helikopters",
-        "functie": "Verbeterde vliegprestaties",
-        "materiaal": "Hoogwaardig kunststof",
-        "producttype": "Reservepropellers",
-        "installatiegemak": "Makkelijk te installeren",
-        "bijzondere_eigenschap": "Verbeterde stabiliteit en controle",
-        "productUrl": "/product/drone-propellers-zwart-zilver-mini-helikopter",
-        "image": "https://m.media-amazon.com/images/I/715mCbXLn8L._AC_SL1500_.jpg"
+        "rangWithImage": "3 [IMAGE: https://m.media-amazon.com/images/I/71Dv3EsnqFL._AC_SL1500_.jpg]",
+        "name": "Bosch GSB 18V-55 Accuschroefklopboormachine",
+        "preis": "128.0€",
+        "bewertung": "4.6/5",
+        "merk": "Bosch Professional",
+        "accuspanning": "18 V",
+        "max_koppel_nm": "55 Nm",
+        "slagfunctie": "Ja",
+        "aantal_versnellingen": "2",
+        "led_verlichting": "Ja",
+        "motortype": "Geborsteld",
+        "inclusief_accu_lader": "Nee",
+        "inclusief_koffer": "Nee",
+        "productUrl": "/product/bosch-gsb-18v-55-accuschroefklopboormachine",
+        "image": "https://m.media-amazon.com/images/I/71Dv3EsnqFL._AC_SL1500_.jpg"
       },
       {
         "rank": 4,
         "rang": "4",
-        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/41RxhBqh79L._AC_SL1000_.jpg]",
-        "name": "Zalati Armhouder DJI Mavic Mini 2/SE Links",
-        "prijs": "8.0€",
-        "beoordeling": "4.2/5",
-        "merk": "Zalati",
-        "compatibiliteit": "DJI Mavic Mini 2, DJI Mini SE",
-        "functie": "Reparatie en vervanging van arm",
-        "materiaal": "Duurzaam kunststof",
-        "producttype": "Vervangende armhouder",
-        "installatiegemak": "Eenvoudig zelf te installeren",
-        "bijzondere_eigenschap": "Naadloze pasvorm, kostenbesparend",
-        "productUrl": "/product/zalati-armhouder-dji-mavic-mini-2-se",
-        "image": "https://m.media-amazon.com/images/I/41RxhBqh79L._AC_SL1000_.jpg"
+        "rangWithImage": "4 [IMAGE: https://m.media-amazon.com/images/I/614PKBY8xvL._AC_SL1200_.jpg]",
+        "name": "Bosch EasyDrill 1200 Accuschroefboormachine 12V 2.0Ah",
+        "preis": "82.0€",
+        "bewertung": "4.7/5",
+        "merk": "Bosch",
+        "accuspanning": "12 V",
+        "max_koppel_nm": "30 Nm",
+        "slagfunctie": "Nee",
+        "aantal_versnellingen": "2",
+        "led_verlichting": "Ja",
+        "motortype": "Geborsteld",
+        "inclusief_accu_lader": "Ja",
+        "inclusief_koffer": "Ja",
+        "productUrl": "/product/bosch-easydrill-1200-accuschroefboormachine-12v-2-0ah",
+        "image": "https://m.media-amazon.com/images/I/614PKBY8xvL._AC_SL1200_.jpg"
       },
       {
         "rank": 5,
         "rang": "5",
-        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/61feskjv4rL._AC_SL1500_.jpg]",
-        "name": "RC Drone Reparatie Flatkabel DJI Mavic Mini",
-        "prijs": "11.0€",
-        "beoordeling": "3.4/5",
-        "merk": "VBESTLIFE",
-        "compatibiliteit": "DJI Mavic Mini",
-        "functie": "Herstel signaalverbindingen",
-        "materiaal": "Duurzaam flexibel kabelmateriaal",
-        "producttype": "Platte signaalkabel",
-        "installatiegemak": "Eenvoudige plug-and-play",
-        "bijzondere_eigenschap": "Essentieel reparatieonderdeel voor signaal",
-        "productUrl": "/product/drone-reparatie-flatkabel-dji-mavic-mini",
-        "image": "https://m.media-amazon.com/images/I/61feskjv4rL._AC_SL1500_.jpg"
+        "rangWithImage": "5 [IMAGE: https://m.media-amazon.com/images/I/71uQdrwCMJL._AC_SL1500_.jpg]",
+        "name": "Einhell TE-CD 18/40 Li-Solo Accu Boor-/Schroefmachine",
+        "preis": "42.0€",
+        "bewertung": "4.7/5",
+        "merk": "Einhell",
+        "accuspanning": "18 V",
+        "max_koppel_nm": "40 Nm",
+        "slagfunctie": "Nee",
+        "aantal_versnellingen": "2",
+        "led_verlichting": "Ja",
+        "motortype": "Geborsteld",
+        "inclusief_accu_lader": "Nee",
+        "inclusief_koffer": "Nee",
+        "productUrl": "/product/einhell-te-cd-18-40-li-solo-accu-boor-schroefmachine",
+        "image": "https://m.media-amazon.com/images/I/71uQdrwCMJL._AC_SL1500_.jpg"
       }
     ]
   },
   "buyingGuide": {
-    "title": "Koopgids: Hoe kies je de beste Drone Accessoires en Onderdelen?",
+    "title": "Koopgids: Hoe Kies Je de Beste Accuboormachine?",
     "sections": [
       {
-        "heading": "1. Compatibiliteit en Functie",
-        "content": "Kies accessoires die perfect passen bij jouw specifieke dronemodel (bijv. DJI Mavic Mini). Controleer altijd het modelnummer. Denk aan functies zoals extra accu's voor langere vliegtijden, robuuste propellers voor betere prestaties, of beschermkappen. Zorg dat de functie aansluit bij jouw gebruiksbehoeften en de compatibiliteit gegarandeerd is."
+        "heading": "1. Vermogen en Voltage",
+        "content": "Het voltage (V) geeft de kracht aan. 12V is licht en compact voor kleine klusjes. 18V, zoals de Black+Decker BDC18BAFC-QW, is de populaire standaard voor huis, tuin en keuken, krachtig genoeg voor de meeste taken. 20V of meer is voor zwaarder werk. Overweeg je klussenpakket voor de juiste keuze in vermogen."
       },
       {
-        "heading": "2. Kwaliteit en Duurzaamheid",
-        "content": "Investeer in hoogwaardige onderdelen, bij voorkeur origineel of van gerenommeerde derden. Goedkope imitaties kunnen de prestaties negatief beïnvloeden en zelfs schade veroorzaken. Voor reparatieonderdelen, zoals een flatkabel, is duurzaamheid essentieel voor de levensduur van je drone. Lees reviews en specificaties zorgvuldig om kwaliteit te waarborgen."
+        "heading": "2. Accutype en Capaciteit",
+        "content": "Kies altijd voor Lithium-Ion (Li-Ion) accu's; deze zijn licht, laden snel op en hebben geen geheugeneffect. De capaciteit (Ah) bepaalt hoe lang je kunt werken. Voor incidenteel gebruik volstaat 1.5Ah-2.0Ah. Bij intensiever gebruik is 4.0Ah of meer aan te raden, eventueel met een extra accu voor ononderbroken werken."
       },
       {
-        "heading": "3. Specifieke Reparatieonderdelen",
-        "content": "Bij reparatieonderdelen, zoals een RC Drone Reparatie Flatkabel, is precisie cruciaal. Zorg dat je het exacte onderdeelnummer en de juiste specificaties hebt voor jouw drone. Een verkeerd onderdeel kan tot verdere defecten leiden. Overweeg of je zelf de reparatie uitvoert of dit overlaat aan een gespecialiseerde service voor optimale resultaten."
+        "heading": "3. Koppel en Versnellingen",
+        "content": "Het koppel (Nm) geeft de draaikracht aan, essentieel voor schroeven in hard materiaal. Een hoger koppel is krachtiger. Let op instelbare koppelstanden om overschroeven te voorkomen. Meerdere versnellingen zijn handig: een lage snelheid voor precisiewerk of schroeven, en een hoge snelheid voor snel boren. Flexibiliteit is hierbij cruciaal."
       },
       {
-        "heading": "4. Optimalisatie en Upgrades",
-        "content": "Denk aan accessoires die je vliegervaring verbeteren. Dit kunnen cameralenzen, ND-filters, extra landing gestellen, of stevige draagtassen zijn. Deze beschermen je drone en optimaliseren de functionaliteit. Kies upgrades die passen bij je vliegstijl, of je nu een hobbyist bent of professionele luchtfotografie bedrijft."
+        "heading": "4. Functies en Ergonomie",
+        "content": "Overweeg extra functionaliteiten zoals een klopboorfunctie voor metselwerk, ingebouwde LED-verlichting of een snellader. Een comfortabele, ergonomische grip en een gebalanceerd, licht gewicht zijn vitaal voor langdurig en comfortabel gebruik. Probeer de boormachine in de hand om de balans en het gevoel te testen."
       },
       {
-        "heading": "5. Prijs en Waarde",
-        "content": "Vergelijk prijzen, maar laat dit niet de enige factor zijn. Een hogere prijs kan duiden op betere kwaliteit en garantie. Zoek naar de beste balans tussen kosten en de toegevoegde waarde voor je drone. Controleer garantievoorwaarden en retourbeleid. Een goede investering in accessoires verlengt de levensduur en het plezier van je drone."
+        "heading": "5. Prijs-Kwaliteit en Merk",
+        "content": "Jouw budget en het beoogde gebruik bepalen de keuze. Instapmodellen zoals de Black+Decker BDC18BAFC-QW bieden voor ongeveer 92.0€ uitstekende prestaties voor de doe-het-zelver. Voor professioneel of dagelijks intensief gebruik loont het om te investeren in topmerken met duurzamere materialen, betere prestaties en een langere levensduur."
       }
     ]
   }

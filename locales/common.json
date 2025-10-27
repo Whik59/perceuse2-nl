@@ -1,37 +1,37 @@
 {
   "categories": {
-    "title": "Drone-categorieën",
+    "title": "Boormachine-categorieën",
     "hero": {
-      "title": "Vind de perfecte drone voor u",
-      "subtitle": "Ontdek onze grote selectie van hoogwaardige drones"
+      "title": "Vind de perfecte boormachine voor u",
+      "subtitle": "Ontdek onze grote selectie van hoogwaardige boormachines"
     },
-    "subtitle": "Verken onze gespecialiseerde drone-categorieën",
-    "helpDescription": "Ons expertenteam helpt u de perfecte drone te vinden"
+    "subtitle": "Verken onze gespecialiseerde boormachine-categorieën",
+    "helpDescription": "Ons expertenteam helpt u de perfecte boormachine te vinden"
   },
-  "siteName": "Uw perfecte drone",
-  "companyName": "Drone BV",
-  "products": "Drones",
-  "productNotFound": "Drone niet gevonden",
+  "siteName": "Uw perfecte boormachine",
+  "companyName": "Boormachine BV",
+  "products": "Boormachines",
+  "productNotFound": "Boormachine niet gevonden",
   "support": {
     "title": "Klantenservice",
-    "subtitle": "Wij zijn er voor u om al uw vragen over onze drones te beantwoorden",
+    "subtitle": "Wij zijn er voor u om al uw vragen over onze boormachines te beantwoorden",
     "faq": {
       "title": "Veelgestelde vragen",
       "categoryTitle": "Veelgestelde vragen",
-      "subtitle": "Vind snel antwoorden op uw vragen over onze drones, levering, retourzendingen en meer.",
+      "subtitle": "Vind snel antwoorden op uw vragen over onze boormachines, levering, retourzendingen en meer.",
       "contactCta": "Vindt u geen antwoord op uw vraag?",
       "contactTeam": "Neem contact op met ons team",
       "sendEmail": "E-mail versturen",
       "questions": [
         {
           "id": "1",
-          "question": "Hoe lang gaat de kwaliteit van drones mee?",
-          "answer": "Onze drones zijn duurzaam gebouwd en kunnen afhankelijk van het model 3 tot 8 jaar meegaan. Ze zijn geoptimaliseerd voor veilige en comfortabele vluchten en garanderen bij elke vlucht uitstekende veiligheid en comfort."
+          "question": "Hoe lang gaat de kwaliteit van boormachines mee?",
+          "answer": "Onze boormachines zijn duurzaam gebouwd en kunnen afhankelijk van het model 5 tot 15 jaar meegaan. Ze zijn geoptimaliseerd voor zwaar gebruik en garanderen bij elke klus uitstekende prestaties en betrouwbaarheid."
         },
         {
           "id": "2",
-          "question": "Zijn de drones veilig?",
-          "answer": "Absoluut. Al onze drones voldoen aan de strengste Europese veiligheidsnormen (CE, TÜV). Ze beschikken over hoogwaardige materialen, robuuste constructie en geteste veiligheidskenmerken zoals GPS-navigatie en automatische terugkeerfuncties."
+          "question": "Zijn de boormachines veilig?",
+          "answer": "Absoluut. Al onze boormachines voldoen aan de strengste Europese veiligheidsnormen (CE, TÜV). Ze beschikken over hoogwaardige materialen, robuuste constructie en geteste veiligheidskenmerken zoals automatische uitschakeling en slipkoppeling."
         },
         {
           "id": "3",
@@ -40,28 +40,28 @@
         },
         {
           "id": "4",
-          "question": "Kan ik drones retourneren als ik niet tevreden ben?",
-          "answer": "Ja, wij bieden een 30-dagen tevredenheidsgarantie of geld-terug-garantie. Als u niet volledig tevreden bent met uw aankoop, kunt u de drone in de originele verpakking retourneren voor volledige terugbetaling."
+          "question": "Kan ik boormachines retourneren als ik niet tevreden ben?",
+          "answer": "Ja, wij bieden een 30-dagen tevredenheidsgarantie of geld-terug-garantie. Als u niet volledig tevreden bent met uw aankoop, kunt u de boormachine in de originele verpakking retourneren voor volledige terugbetaling."
         },
         {
           "id": "5",
-          "question": "Hoe bedien ik de drones?",
-          "answer": "Onze drones zijn zeer eenvoudig te bedienen. U hoeft alleen de drone op te starten, de GPS te kalibreren en te vliegen. Veel modellen bieden verschillende vliegmodi en eenvoudige bediening. Sommige hebben ook verstelbare camera-instellingen voor verschillende hoogtes."
+          "question": "Hoe bedien ik de boormachines?",
+          "answer": "Onze boormachines zijn zeer eenvoudig te bedienen. U hoeft alleen de boormachine aan te zetten, de juiste boor te kiezen en te boren. Veel modellen bieden verschillende snelheden en eenvoudige bediening. Sommige hebben ook verstelbare koppelinstellingen voor verschillende materialen."
         },
         {
           "id": "6",
           "question": "Welke functies zijn er?",
-          "answer": "De meeste van onze drones bieden verschillende functies zoals verstelbare camera, GPS-navigatie, grote batterijcapaciteit en eenvoudige bediening. Sommige premium-modellen bieden extra functies zoals obstacle avoidance, verstelbare camera-instellingen en verschillende vliegmodi voor maximale flexibiliteit."
+          "answer": "De meeste van onze boormachines bieden verschillende functies zoals verstelbare snelheid, verschillende boorstanden, grote batterijcapaciteit en eenvoudige bediening. Sommige premium-modellen bieden extra functies zoals LED-verlichting, verstelbare koppelinstellingen en verschillende boorstanden voor maximale flexibiliteit."
         },
         {
           "id": "7",
-          "question": "Is er een garantie op de drones?",
-          "answer": "Al onze drones hebben een 2-jarige fabrieksgarantie die productiefouten dekt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
+          "question": "Is er een garantie op de boormachines?",
+          "answer": "Al onze boormachines hebben een 2-jarige fabrieksgarantie die productiefouten dekt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
         },
         {
           "id": "8",
-          "question": "Hoe reinig en onderhoud ik mijn drones?",
-          "answer": "Het onderhoud is zeer eenvoudig: gebruik een zacht, vochtig doekje om de buitenkant schoon te maken. Vermijd agressieve chemicaliën. De propellers kunnen met mild reinigingsmiddel en warm water worden gereinigd. Controleer de drones regelmatig en reinig ze volgens de fabrieksinstructies."
+          "question": "Hoe reinig en onderhoud ik mijn boormachines?",
+          "answer": "Het onderhoud is zeer eenvoudig: gebruik een zacht, droog doekje om de buitenkant schoon te maken. Vermijd agressieve chemicaliën. De boorhouder kan met mild reinigingsmiddel worden gereinigd. Controleer de boormachine regelmatig en reinig deze volgens de fabrieksinstructies."
         }
       ],
       "deliveryTime": {
@@ -70,11 +70,11 @@
       },
       "returns": {
         "question": "Wat is het retourbeleid?",
-        "answer": "Wij bieden een 30-dagen tevredenheidsgarantie. U kunt uw drones in de originele verpakking retourneren als u niet volledig tevreden bent. De retourkosten komen voor uw rekening, behalve bij productiefouten. De terugbetaling wordt binnen 5-7 werkdagen na ontvangst van het product verwerkt."
+        "answer": "Wij bieden een 30-dagen tevredenheidsgarantie. U kunt uw boormachines in de originele verpakking retourneren als u niet volledig tevreden bent. De retourkosten komen voor uw rekening, behalve bij productiefouten. De terugbetaling wordt binnen 5-7 werkdagen na ontvangst van het product verwerkt."
       },
       "warranty": {
-        "question": "Welke garantie hebben de drones?",
-        "answer": "Al onze drones hebben een 2-jarige fabrieksgarantie die productiefouten en technische gebreken dekt die niet door de gebruiker zijn veroorzaakt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
+        "question": "Welke garantie hebben de boormachines?",
+        "answer": "Al onze boormachines hebben een 2-jarige fabrieksgarantie die productiefouten en technische gebreken dekt die niet door de gebruiker zijn veroorzaakt. Deze garantie vult uw wettelijke consumentenrechten aan. Bewaar uw factuur en neem contact op met onze klantenservice om de garantie in te roepen."
       },
       "payment": {
         "question": "Welke betaalmethoden accepteert u?",
@@ -106,13 +106,21 @@
     }
   },
   "product": {
-    "alsoLikeSubtitle": "Andere drones die u mogelijk interesseren",
-    "ourShop": "drone-kopen.nl"
+    "alsoLikeSubtitle": "Andere boormachines die u mogelijk interesseren",
+    "ourShop": "boormachine-kopen.nl",
+    "whyChoose": {
+      "subtitle": "Ontdek de belangrijkste functies en voordelen van dit product"
+    },
+    "altTexts": {
+      "ourShop": "Onze winkel",
+      "professionalTools": "Professionele boormachines",
+      "professionalTools2": "Professionele boormachines 2"
+    }
   },
   "hero": {
     "expertise": {
-      "title": "Perfecte drones!",
-      "subtitle": "Veilige en comfortabele vluchten. Kwaliteit en veiligheid gegarandeerd.",
+      "title": "Perfecte boormachines!",
+      "subtitle": "Krachtige en betrouwbare prestaties. Kwaliteit en duurzaamheid gegarandeerd.",
       "cta": "Nu kopen!"
     },
     "trust": {
@@ -124,16 +132,16 @@
     },
     "features": {
       "quality": {
-        "title": "Precisie veiligheid",
-        "description": "Tot 99,9% veiligheidsstandaard. Perfect voor buitengewone drone-veiligheid zonder compromissen."
+        "title": "Precisie kracht",
+        "description": "Tot 99,9% betrouwbaarheidsstandaard. Perfect voor zware klussen zonder compromissen."
       },
       "design": {
-        "title": "Precisie besturing",
-        "description": "Precisie besturing en remmen voor eenvoudige bediening. Past zich aan verschillende ondergronden aan."
+        "title": "Precisie bediening",
+        "description": "Precisie bediening en controle voor eenvoudig gebruik. Past zich aan verschillende materialen aan."
       },
       "innovation": {
         "title": "Geavanceerde technologie",
-        "description": "360° stabilisatietechnologie. Consistente kwaliteit en perfecte resultaten bij elke vlucht."
+        "description": "360° koppeltechnologie. Consistente kwaliteit en perfecte resultaten bij elke klus."
       },
       "support": {
         "title": "Premium klantenservice",
@@ -144,60 +152,60 @@
   "homepage": {
     "hero": {
       "featured": {
-        "title": "Perfecte drones!",
-        "subtitle": "Veilige en comfortabele vluchten. Kwaliteit en veiligheid gegarandeerd.",
-        "loading": "Uw drone wordt geladen...",
+        "title": "Perfecte boormachines!",
+        "subtitle": "Krachtige en betrouwbare prestaties. Kwaliteit en duurzaamheid gegarandeerd.",
+        "loading": "Uw boormachine wordt geladen...",
         "viewAll": "Beperkte aanbiedingen!"
       }
     },
     "whyChoose": {
-      "subtitle": "Ontdek de exclusieve voordelen die ons de beste keuze voor drones maken",
+      "subtitle": "Ontdek de exclusieve voordelen die ons de beste keuze voor boormachines maken",
       "advantage1": {
         "title": "Premium kwaliteit",
-        "description": "Drones van de hoogste kwaliteit, ontwikkeld met duurzame materialen en geavanceerde technologie voor maximale veiligheid."
+        "description": "Boormachines van de hoogste kwaliteit, ontwikkeld met duurzame materialen en geavanceerde technologie voor maximale prestaties."
       },
       "advantage3": {
         "title": "Gespecialiseerde ondersteuning",
-        "description": "Gespecialiseerd klantenserviceteam voor drones. Wij helpen u bij alle vragen of problemen die u mogelijk heeft."
+        "description": "Gespecialiseerd klantenserviceteam voor boormachines. Wij helpen u bij alle vragen of problemen die u mogelijk heeft."
       },
       "cta": "Sluit u aan bij onze meer dan 15.000 tevreden klanten"
     }
   },
   "metadata": {
-    "title": "Drone kopen - De beste drones in vergelijking",
-    "description": "Ontdek de beste drones met gedetailleerde beoordelingen en vergelijkingen. Gratis verzending en beste prijzen gegarandeerd."
+    "title": "Boormachine kopen - De beste boormachines in vergelijking",
+    "description": "Ontdek de beste boormachines met gedetailleerde beoordelingen en vergelijkingen. Gratis verzending en beste prijzen gegarandeerd."
   },
   "siteConfig": {
     "language": "nl",
     "locale": "nl-NL",
     "site": {
-      "name": "Drones",
-      "description": "Vind de perfecte drone. Grote selectie van drones, quadcopters en drone-accessoires. Ongelooflijke prijzen en snelle verzending!",
-      "url": "https://drone-kopen.nl",
+      "name": "Boormachines",
+      "description": "Vind de perfecte boormachine. Grote selectie van boormachines, schroefmachines en boormachine-accessoires. Ongelooflijke prijzen en snelle verzending!",
+      "url": "https://boormachine-kopen.nl",
       "logo": "/logo.png",
       "favicon": "/favicon.ico"
     },
     "seo": {
-      "defaultTitle": "Drones - Drones en drone-accessoires",
-      "titleTemplate": "%s | Drones",
-      "defaultDescription": "Vind de perfecte drone. Grote selectie van drones, quadcopters en drone-accessoires. Ongelooflijke prijzen en snelle verzending!",
+      "defaultTitle": "Boormachines - Boormachines en boormachine-accessoires",
+      "titleTemplate": "%s | Boormachines",
+      "defaultDescription": "Vind de perfecte boormachine. Grote selectie van boormachines, schroefmachines en boormachine-accessoires. Ongelooflijke prijzen en snelle verzending!",
       "keywords": [
-        "Drones",
-        "Quadcopter",
-        "Drone-accessoires",
-        "Drone kopen",
-        "Drone-aanbiedingen",
-        "Goedkope drones",
-        "Beste drones",
-        "Professionele drones",
-        "Veilige drones"
+        "Boormachines",
+        "Schroefmachines",
+        "Boormachine-accessoires",
+        "Boormachine kopen",
+        "Boormachine-aanbiedingen",
+        "Goedkope boormachines",
+        "Beste boormachines",
+        "Professionele boormachines",
+        "Betrouwbare boormachines"
       ],
-      "ogImage": "/og-image-drones.jpg"
+      "ogImage": "/og-image-boormachines.jpg"
     },
     "business": {
-      "email": "info@drone-kopen.nl",
+      "email": "info@boormachine-kopen.nl",
       "phone": "+31 20 12345678",
-      "address": "Droneweg 1, 1012 AB Amsterdam, Nederland",
+      "address": "Boormachineweg 1, 1012 AB Amsterdam, Nederland",
       "socialMedia": {
         "facebook": "",
         "instagram": "",
@@ -205,7 +213,7 @@
       }
     },
     "affiliate": {
-      "amazonTag": "drones-21",
+      "amazonTag": "boormachines-21",
       "disclaimer": "Als Amazon-partner verdienen wij aan gekwalificeerde verkopen."
     },
     "features": {
