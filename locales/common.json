@@ -10,6 +10,10 @@
   },
   "siteName": "Uw perfecte boormachine",
   "companyName": "Boormachine BV",
+  "domainName": "boormachine",
+  "navigation": {
+    "about": "Over ons"
+  },
   "products": "Boormachines",
   "productNotFound": "Boormachine niet gevonden",
   "support": {
@@ -290,6 +294,150 @@
       "buyingGuides": {
         "enabled": true,
         "message": "Gedetailleerde koopadvies"
+      }
+    }
+  },
+  "footer": {
+    "affiliateDisclaimer": "Deze website bevat affiliate links. Wij kunnen een commissie ontvangen wanneer u via onze links een aankoop doet, zonder extra kosten voor u. Dit helpt ons om de website gratis te houden en u te voorzien van waardevolle reviews en vergelijkingen.",
+    "legal": {
+      "mentionsLegales": "Juridische informatie",
+      "politiqueConfidentialite": "Privacybeleid",
+      "cgu": "Algemene voorwaarden",
+      "cookies": "Cookiebeleid",
+      "contact": "Contact",
+      "allRightsReserved": "Alle rechten voorbehouden",
+      "routes": {
+        "mentionsLegales": "juridische-informatie",
+        "politiqueConfidentialite": "privacybeleid",
+        "cgu": "algemene-voorwaarden",
+        "cookies": "cookiebeleid",
+        "contact": "contact"
+      }
+    }
+  },
+  "legal": {
+    "mentionsLegales": {
+      "title": "Juridische informatie",
+      "description": "Juridische informatie van de website {domainName}",
+      "editeur": {
+        "title": "Uitgever van de website",
+        "content": "Deze website wordt uitgegeven door Boormachine BV, gevestigd in Nederland. KvK-nummer: 12345678, BTW-nummer: NL123456789B01. Hoofdredacteur: de algemeen directeur van Boormachine BV."
+      },
+      "hebergeur": {
+        "title": "Hosting",
+        "content": "De website wordt gehost door Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, Verenigde Staten. Voor vragen over de hosting kunt u Vercel direct benaderen."
+      },
+      "responsable": {
+        "title": "Verantwoordelijke voor de publicatie",
+        "content": "De verantwoordelijke voor de publicatie is de algemeen directeur van Boormachine BV, bereikbaar via info@boormachine.nl of telefonisch op +31 20 123 4567."
+      },
+      "propriete": {
+        "title": "Intellectueel eigendom",
+        "content": "Deze website valt onder de Nederlandse en internationale wetgeving betreffende auteursrecht en intellectueel eigendom. Alle reproductierechten zijn voorbehouden, inclusief voor downloadbare documenten en iconografische en fotografische representaties. De reproductie van geheel of gedeeltelijk van deze website op elektronische media is ten strengste verboden, behoudens uitdrukkelijke toestemming van de hoofdredacteur."
+      },
+      "liens": {
+        "title": "Hyperlinks",
+        "content": "Deze website kan links bevatten naar andere websites. Wij zijn niet verantwoordelijk voor de inhoud van deze externe sites en kunnen niet aansprakelijk worden gesteld voor schade voortvloeiend uit het gebruik ervan."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Voor vragen over deze juridische informatie kunt u contact met ons opnemen via info@boormachine.nl of per post naar Boormachine BV, Postbus 123, 1000 AB Amsterdam."
+      }
+    },
+    "politiqueConfidentialite": {
+      "title": "Privacybeleid",
+      "description": "Privacybeleid van de website {domainName}",
+      "introduction": {
+        "title": "Inleiding",
+        "content": "Dit privacybeleid beschrijft hoe Boormachine BV uw persoonlijke gegevens verzamelt, gebruikt en beschermt wanneer u onze website boormachine.nl bezoekt."
+      },
+      "collecte": {
+        "title": "Gegevensverzameling",
+        "content": "Wij verzamelen gegevens die u ons direct verstrekt (naam, e-mailadres) evenals gegevens die automatisch worden verzameld tijdens uw navigatie (IP-adres, cookies, bezochte pagina's). Deze informatie wordt verzameld in overeenstemming met de AVG."
+      },
+      "utilisation": {
+        "title": "Gebruik van gegevens",
+        "content": "Uw persoonlijke gegevens worden gebruikt voor: het verbeteren van onze website, het leveren van onze diensten, het versturen van marketingcommunicatie (met uw toestemming), en het nakomen van onze wettelijke verplichtingen."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "Onze website gebruikt cookies om uw navigatie-ervaring te verbeteren. U kunt uw cookievoorkeuren beheren via onze toestemmingsbanner of de instellingen van uw browser."
+      },
+      "droits": {
+        "title": "Uw rechten",
+        "content": "In overeenstemming met de AVG heeft u de volgende rechten: toegang tot uw gegevens, rectificatie, verwijdering, beperking van de verwerking, gegevensportabiliteit, en bezwaar tegen de verwerking. Om deze rechten uit te oefenen, neem contact met ons op via info@boormachine.nl."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Voor vragen over dit privacybeleid kunt u contact opnemen met onze functionaris voor gegevensbescherming via info@boormachine.nl of per post naar Boormachine BV, Postbus 123, 1000 AB Amsterdam."
+      }
+    },
+    "cgu": {
+      "title": "Algemene voorwaarden",
+      "description": "Algemene voorwaarden van de website {domainName}",
+      "objet": {
+        "title": "Doel",
+        "content": "Deze algemene voorwaarden regelen het gebruik van de website boormachine.nl uitgegeven door Boormachine BV. Het gebruik van de website impliceert de volledige en onvoorwaardelijke aanvaarding van deze algemene voorwaarden."
+      },
+      "acceptation": {
+        "title": "Aanvaarding van de voorwaarden",
+        "content": "De toegang tot en het gebruik van de website zijn onderworpen aan deze algemene voorwaarden. Door toegang te krijgen tot de website, erkent u kennis te hebben genomen van deze voorwaarden en verbindt u zich ertoe deze te respecteren."
+      },
+      "services": {
+        "title": "Aangeboden diensten",
+        "content": "De website boormachine.nl biedt informatie, beoordelingen en vergelijkingen over boormachines. Deze informatie wordt verstrekt ter informatie en vormt geen persoonlijk advies."
+      },
+      "responsabilite": {
+        "title": "Verantwoordelijkheid",
+        "content": "De gebruiker is alleen verantwoordelijk voor het gebruik dat hij maakt van de informatie op de website. Boormachine BV kan niet aansprakelijk worden gesteld voor directe of indirecte schade voortvloeiend uit het gebruik van de website."
+      },
+      "modification": {
+        "title": "Wijziging van de algemene voorwaarden",
+        "content": "Wij behouden ons het recht voor om deze algemene voorwaarden op elk moment te wijzigen. De wijzigingen treden in werking zodra ze op de website worden gepubliceerd. Het is uw verantwoordelijkheid om deze voorwaarden regelmatig te raadplegen."
+      }
+    },
+    "cookies": {
+      "title": "Cookiebeleid",
+      "description": "Cookiebeleid van de website {domainName}",
+      "definition": {
+        "title": "Wat is een cookie?",
+        "content": "Een cookie is een klein tekstbestand dat op uw computer, tablet of smartphone wordt geplaatst wanneer u een website bezoekt. Het stelt de website in staat om uw acties en voorkeuren gedurende een bepaalde periode te onthouden."
+      },
+      "types": {
+        "title": "Gebruikte cookie-types",
+        "content": "Onze website gebruikt verschillende soorten cookies: technische cookies (noodzakelijk voor de werking), analytische cookies (Google Analytics), voorkeurscookies (onthouden van uw keuzes), en social media cookies (deelknoppen)."
+      },
+      "utilisation": {
+        "title": "Gebruik van cookies",
+        "content": "Wij gebruiken cookies om uw navigatie-ervaring te verbeteren, het websiteverkeer te analyseren, de inhoud te personaliseren, en de effectiviteit van onze advertentiecampagnes te meten."
+      },
+      "gestion": {
+        "title": "Beheer van uw voorkeuren",
+        "content": "U kunt cookies accepteren of weigeren via onze toestemmingsbanner. U kunt ook uw browser configureren om cookies te blokkeren, maar dit kan de werking van de website beïnvloeden."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Voor vragen over ons gebruik van cookies kunt u contact met ons opnemen via info@boormachine.nl of raadpleeg ons privacybeleid."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contactpagina van de website {domainName}",
+      "information": {
+        "title": "Algemene informatie",
+        "content": "Heeft u een vraag over onze boormachines of heeft u hulp nodig? Ons team staat voor u klaar. Aarzel niet om contact met ons op te nemen voor informatie of ondersteuning."
+      },
+      "contact": {
+        "title": "Neem contact met ons op",
+        "content": "E-mail: info@boormachine.nl\nTelefoon: +31 20 123 4567\nAdres: Boormachine BV, Postbus 123, 1000 AB Amsterdam\n\nWij reageren zo snel mogelijk op uw bericht."
+      },
+      "horaires": {
+        "title": "Openingstijden",
+        "content": "Onze klantenservice is beschikbaar van maandag tot vrijdag van 09:00 tot 18:00. Buiten deze uren kunt u een bericht achterlaten en wij reageren zo snel mogelijk."
+      },
+      "reponse": {
+        "title": "Reactietijd",
+        "content": "Wij streven ernaar om binnen 24 uur te reageren op e-mailverzoeken en binnen 48 uur op postverzoeken."
       }
     }
   }

@@ -291,16 +291,39 @@
   "support": {
     "title": "Klantenservice",
     "subtitle": "We zijn hier om u te helpen bij al uw vragen",
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "deliveryTime": {
+        "question": "Hoe lang duurt de levering?",
+        "answer": "De levering gebeurt via Amazon en duurt meestal 1-2 werkdagen voor Prime-leden en 3-5 werkdagen voor standaard levering. U ontvangt een trackingnummer zodra uw bestelling wordt verzonden."
+      },
+      "returns": {
+        "question": "Kan ik producten retourneren?",
+        "answer": "Ja, alle producten kunnen binnen 30 dagen worden geretourneerd via Amazon. U kunt het retourproces starten via uw Amazon-account of door contact met ons op te nemen."
+      },
+      "warranty": {
+        "question": "Wat is de garantie op de producten?",
+        "answer": "Alle producten worden geleverd met de standaard fabrieksgarantie van de producent. De garantieperiode varieert per product en wordt duidelijk vermeld op de productpagina."
+      },
+      "payment": {
+        "question": "Welke betaalmethoden worden geaccepteerd?",
+        "answer": "Alle betalingen worden veilig afgehandeld via Amazon. U kunt betalen met creditcard, bankoverschrijving, PayPal en andere door Amazon ondersteunde betaalmethoden."
+      },
+      "tracking": {
+        "question": "Hoe kan ik mijn bestelling volgen?",
+        "answer": "Na het plaatsen van uw bestelling ontvangt u een bevestigingsmail van Amazon met een trackingnummer. U kunt uw bestelling volgen via de Amazon-website of app."
+      }
+    },
     "contact": {
       "title": "Neem contact met ons op",
       "subjectLabel": "Onderwerp",
-      "selectSubject": "Selecteer onderwerp",
+      "subjectPlaceholder": "Selecteer onderwerp",
       "emailLabel": "Uw e-mail",
       "emailPlaceholder": "uw@email.nl",
       "messageLabel": "Bericht",
       "messagePlaceholder": "Beschrijf hier uw vraag...",
       "sendWhatsApp": "Verzenden via WhatsApp",
-      "whatsappInfo": "We reageren binnen 2 uur via WhatsApp",
+      "whatsappResponse": "We reageren binnen 2 uur via WhatsApp",
       "whatsappTemplate": "Hallo, ik heb een vraag over mijn bestelling:",
       "subject": "Onderwerp",
       "email": "E-mail",

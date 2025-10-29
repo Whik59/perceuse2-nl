@@ -142,6 +142,25 @@ class AIProductEnhancer:
         """Get product-specific keywords from config"""
         return self.ai_config.get("keywords", ["products", "best price", "offer"])
     
+    def get_review_keywords(self):
+        """Get review keywords based on the output language"""
+        review_keywords_map = {
+            'german': 'test-bewertung',
+            'spanish': 'test-resena',
+            'french': 'test-avis',
+            'italian': 'test-recensione',
+            'dutch': 'test-beoordeling',
+            'polish': 'test-opinia',
+            'swedish': 'test-recension',
+            'english': 'test-review',
+            'portuguese': 'test-avaliacao',
+            'russian': 'test-otzyv',
+            'chinese': 'test-pinglun',
+            'japanese': 'test-hyoron',
+            'korean': 'test-pyeongga'
+        }
+        return review_keywords_map.get(self.output_language, 'test-review')
+    
     # OPTIMIZED AI prompts - shorter and more focused for speed
     def get_prompts(self):
         """Get dynamic prompts based on config"""
@@ -410,10 +429,14 @@ Fragen über das tatsächliche Produkt: {product_name}"""
         return clean_desc[:100] if clean_desc else f"{product_name[:50]} - Solo {price}€"
     
     def optimize_product_name(self, original_name):
-        """Optimize product name for SEO and appeal - SHORTER and CLEANER"""
+        """Optimize product name for SEO and appeal - SHORTER and CLEANER with review keywords"""
         safe_print(f"[AI] Optimizing product name...")
         
-        prompt = f"""Optimize this product name for SEO (max 50 chars, shorter is better):
+        # Get review keywords for the current language
+        review_keywords = self.get_review_keywords()
+        language_name = self.language_map.get(self.output_language, self.output_language.title())
+        
+        prompt = f"""Optimize this product name for SEO (max 50 chars, shorter is better) in {language_name}:
 
 Original: "{original_name}"
 
@@ -423,10 +446,11 @@ REQUIREMENTS:
 - Make it shorter and more impactful
 - Focus on main product type and brand
 - Remove unnecessary descriptive words
+- Add review keywords: "{review_keywords.replace('-', ' ')}" at the end
 
 EXAMPLES:
-- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu"
-- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser"
+- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu {review_keywords.replace('-', ' ')}"
+- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser {review_keywords.replace('-', ' ')}"
 
 Respond ONLY with the optimized name (no quotes, no explanation)."""
         
@@ -444,7 +468,7 @@ Respond ONLY with the optimized name (no quotes, no explanation)."""
         return clean_name if clean_name else original_name[:60]
     
     def create_seo_slug(self, product_name):
-        """Create SEO-friendly slug"""
+        """Create SEO-friendly slug with review keywords"""
         safe_print(f"[AI] Creating SEO slug...")
         prompts = self.get_prompts()
         prompt = prompts['slug_optimization'].format(product_name=product_name)
@@ -464,6 +488,11 @@ Respond ONLY with the optimized name (no quotes, no explanation)."""
         slug = re.sub(r'[^a-z0-9\-]', '-', slug)
         slug = re.sub(r'-+', '-', slug)
         slug = slug.strip('-')
+        
+        # Add review keywords based on language
+        review_keywords = self.get_review_keywords()
+        if review_keywords:
+            slug = f"{slug}-{review_keywords}"
         
         return slug[:60]  # Limit to 60 characters
     
@@ -1466,8 +1495,10 @@ Return JSON:
             raise Exception(f"Failed to enhance product: {str(e)}")
 
     def optimize_product_name_fast(self, original_name):
-        """AI-powered name optimization - SHORTER and CLEANER"""
+        """AI-powered name optimization - SHORTER and CLEANER with review keywords"""
         language_name = self.language_map.get(self.output_language, self.output_language.title())
+        review_keywords = self.get_review_keywords()
+        
         prompt = f"""Short SEO name (max 50 chars) for: "{original_name}" in {language_name}
 
 REQUIREMENTS:
@@ -1475,10 +1506,11 @@ REQUIREMENTS:
 - Keep only: brand + product type + key feature
 - Make it shorter and impactful
 - Focus on main keywords
+- Add review keywords: "{review_keywords.replace('-', ' ')}" at the end
 
 EXAMPLES:
-- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu"
-- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser"
+- "Arbre à Chat Tendeur de Plafond Mekidulu avec Capsule Spatiale et Plateformes" → "Arbre Chat Tendeur Plafond Mekidulu {review_keywords.replace('-', ' ')}"
+- "Robot Aspirateur Intelligent Xiaomi avec Navigation Laser" → "Robot Aspirateur Xiaomi Laser {review_keywords.replace('-', ' ')}"
 
 Return ONLY the optimized name."""
         
@@ -1499,7 +1531,7 @@ Return ONLY the optimized name."""
         return clean_name if clean_name else original_name[:60]
 
     def create_seo_slug_fast(self, product_name):
-        """Create SEO-optimized slug with keyword focus"""
+        """Create SEO-optimized slug with keyword focus and review keywords"""
         # Extract key SEO elements
         words = product_name.lower().split()
         
@@ -1552,6 +1584,11 @@ Return ONLY the optimized name."""
         slug = re.sub(r'[^a-z0-9\-]', '-', slug)
         slug = re.sub(r'-+', '-', slug)
         slug = slug.strip('-')
+        
+        # Add review keywords based on language
+        review_keywords = self.get_review_keywords()
+        if review_keywords:
+            slug = f"{slug}-{review_keywords}"
         
         return slug[:60]  # Limit to 60 characters
 

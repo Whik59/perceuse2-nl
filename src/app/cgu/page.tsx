@@ -1,0 +1,63 @@
+import React from 'react';
+import { Metadata } from 'next';
+import Layout from '../../../components/layout/Layout';
+import { getString } from '../../../lib/utils';
+
+export const metadata: Metadata = {
+  title: `${getString('legal.cgu.title')} | ${getString('common.siteName')}`,
+  description: getString('legal.cgu.description'),
+  robots: 'index, follow',
+};
+
+const CGUPage: React.FC = () => {
+  return (
+    <Layout>
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="prose prose-lg max-w-none">
+          <h1 className="text-3xl font-bold text-gray-900 mb-8">
+            {getString('legal.cgu.title')}
+          </h1>
+          
+          <div className="space-y-6 text-gray-700">
+            <section>
+              <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                {getString('legal.cgu.objet.title')}
+              </h2>
+              <p>{getString('legal.cgu.objet.content')}</p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                {getString('legal.cgu.acceptation.title')}
+              </h2>
+              <p>{getString('legal.cgu.acceptation.content')}</p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                {getString('legal.cgu.services.title')}
+              </h2>
+              <p>{getString('legal.cgu.services.content')}</p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                {getString('legal.cgu.responsabilite.title')}
+              </h2>
+              <p>{getString('legal.cgu.responsabilite.content')}</p>
+            </section>
+
+            <section>
+              <h2 className="text-xl font-semibold text-gray-900 mb-3">
+                {getString('legal.cgu.modification.title')}
+              </h2>
+              <p>{getString('legal.cgu.modification.content')}</p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </Layout>
+  );
+};
+
+export default CGUPage;
