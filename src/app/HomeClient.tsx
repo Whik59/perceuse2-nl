@@ -500,16 +500,6 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
             )}
           </div>
           
-          <div className="text-center mt-12">
-            <Link href="/">
-              <Button 
-                size="lg"
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 text-lg font-semibold rounded-lg transition-all duration-300"
-              >
-                {getString('homepage.hero.featured.viewAll')}
-              </Button>
-            </Link>
-          </div>
         </div>
       </section>
 
