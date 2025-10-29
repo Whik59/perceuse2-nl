@@ -54,6 +54,7 @@
     "home": "Homepage",
     "products": "Producten",
     "categories": "Categorieën",
+    "about": "Over Ons",
     "cart": "Winkelwagen",
     "checkout": "Afrekenen",
     "account": "Mijn account",
@@ -80,7 +81,10 @@
     "alsoLike": "Dit vind je misschien ook leuk",
     "buyNow": "Nu kopen",
     "viewProduct": "Bekijken",
-    "whyChoose": "Waarom kiezen voor {productTitle}",
+    "whyChoose": {
+      "title": "Waarom kiezen voor {productTitle}",
+      "subtitle": "Ontdek de belangrijkste functies en voordelen van dit product"
+    },
     "overallAssessment": "Algemene beoordeling",
     "pointsToConsider": "Aandachtspunten",
     "finalRecommendation": "Definitieve aanbeveling",
@@ -155,7 +159,7 @@
   "homepage": {
     "title": "Homepage",
     "loading": "Wordt geladen...",
-    "whyChoose": {
+    "whyChooseUs": {
       "title": "Waarom kiezen voor ons?",
       "advantage2": {
         "title": "Snelle levering",

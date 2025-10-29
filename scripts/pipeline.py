@@ -187,10 +187,18 @@ def main():
     else:
         print("⚠️  Continuing with next step...")
     
-    # Step 9: Generate Sitemap
+    # Step 9: Generate About Us Hero Image
+    total_steps += 1
+    command = f'python scripts/generate_about_image.py "{args.keyword}" --language {args.language}'
+    if run_command(command, "Step 9: Generate About Us Hero Image"):
+        success_count += 1
+    else:
+        print("⚠️  Continuing with next step...")
+    
+    # Step 10: Generate Sitemap
     total_steps += 1
     command = 'python scripts/generate_sitemap.py'
-    if run_command(command, "Step 9: Generate Sitemap"):
+    if run_command(command, "Step 10: Generate Sitemap"):
         success_count += 1
     else:
         print("⚠️  Continuing with next step...")

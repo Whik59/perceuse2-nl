@@ -713,6 +713,19 @@ const Header: React.FC<HeaderProps> = ({
                 </div>
               );
             })}
+            
+            {/* About Us Link - Desktop */}
+            <div className="relative group">
+              <Link
+                href="/about"
+                className="flex items-center text-gray-700 hover:text-orange-600 font-medium text-sm transition-all duration-500 py-2 px-4 group relative"
+              >
+                <span className="relative">
+                  {getString('navigation.about')}
+                  <span className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-0 h-[1px] bg-orange-600 transition-all duration-500 group-hover:w-full"></span>
+                </span>
+              </Link>
+            </div>
         </nav>
 
         {/* Mobile Menu */}
@@ -818,8 +831,19 @@ const Header: React.FC<HeaderProps> = ({
                   );
                 })}
               
+              {/* About Us Link */}
+              <div className="border-t border-gray-100">
+                <Link
+                  href="/about"
+                  className="block text-gray-700 hover:text-orange-600 font-medium text-sm py-4 px-4 hover:bg-orange-50 transition-all duration-200"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {getString('navigation.about')}
+                </Link>
+              </div>
+              
               {/* Support Button */}
-              <div className="border-t border-gray-100 mt-2">
+              <div className="border-t border-gray-100">
               <button
                 onClick={() => {
                   setIsSupportOpen(true);

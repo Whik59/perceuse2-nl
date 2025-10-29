@@ -34,5 +34,5 @@ git remote remove origin; git remote add origin https://github.com/Whik59/perceu
 
 
 
-python scripts/pipeline.py "drone" "nl" --language dutch --min-categories 1 --max-categories 1
+python scripts/pipeline.py "boormachine" "nl" --language dutch --min-categories 1 --max-categories 1
 

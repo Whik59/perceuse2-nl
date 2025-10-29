@@ -175,6 +175,68 @@
     "title": "Boormachine kopen - De beste boormachines in vergelijking",
     "description": "Ontdek de beste boormachines met gedetailleerde beoordelingen en vergelijkingen. Gratis verzending en beste prijzen gegarandeerd."
   },
+  "about": {
+    "hero": {
+      "title": "Over Ons",
+      "subtitle": "Uw vertrouwde partner voor hoogwaardige boormachines en deskundig advies",
+      "expertise": "Deskundige selectie",
+      "trusted": "Vertrouwd door duizenden",
+      "customers": "Tevreden klanten"
+    },
+    "introduction": "Wij zijn gespecialiseerd in het selecteren en beoordelen van de beste boormachines op de markt. Met jarenlange ervaring en diepgaande kennis van verschillende boormachine-categorieën, helpen wij u de juiste keuze te maken voor uw behoeften.\n\nOns team van experts test en evalueert boormachines grondig, zodat u alleen de hoogste kwaliteit krijgt. We werken samen met Amazon om u toegang te bieden tot een breed scala aan boormachines tegen concurrerende prijzen.",
+    "mission": "Onze missie is om u te helpen de perfecte boormachine te vinden die voldoet aan uw verwachtingen en budget. We geloven dat iedereen toegang moet hebben tot hoogwaardige boormachines, ondersteund door deskundig advies en uitstekende klantenservice.",
+    "missionTitle": "Onze Missie",
+    "whyChooseUs": {
+      "quality": "Alleen de beste boormachines geselecteerd door experts",
+      "expertise": "Jarenlange ervaring in boormachine-evaluatie en -selectie",
+      "customerService": "Uitstekende klantenservice en ondersteuning",
+      "amazonPartnership": "Officiële Amazon-partner voor veilige aankopen",
+      "localSupport": "Lokale ondersteuning in het Nederlands",
+      "trust": "Vertrouwd door duizenden tevreden klanten"
+    },
+    "whyChooseUsTitle": "Waarom Kiezen Voor Ons?",
+    "whyChooseUsSubtitle": "Ontdek wat ons onderscheidt van de concurrentie",
+    "expertise": "Onze expertise ligt in het grondig testen en evalueren van boormachines voordat we ze aanbevelen. We begrijpen de nuances van verschillende boormachine-categorieën en kunnen u helpen de juiste keuze te maken op basis van uw specifieke behoeften en budget.\n\nWe werken nauw samen met fabrikanten en verkopers om de nieuwste boormachines en trends te volgen, zodat u altijd op de hoogte bent van de beste opties op de markt.",
+    "expertiseTitle": "Onze Expertise",
+    "values": {
+      "quality": {
+        "title": "Kwaliteit",
+        "description": "We accepteren alleen de hoogste kwaliteit boormachines en testen ze grondig voordat we ze aanbevelen."
+      },
+      "trust": {
+        "title": "Vertrouwen",
+        "description": "Transparantie en eerlijkheid staan centraal in alles wat we doen. U kunt vertrouwen op onze onafhankelijke beoordelingen."
+      },
+      "customerFirst": {
+        "title": "Klant Eerst",
+        "description": "Uw tevredenheid is onze prioriteit. We gaan altijd de extra mijl om ervoor te zorgen dat u de beste ervaring heeft."
+      },
+      "innovation": {
+        "title": "Innovatie",
+        "description": "We blijven op de hoogte van de nieuwste trends en technologieën om u de beste boormachines te kunnen aanbieden."
+      }
+    },
+    "valuesTitle": "Onze Waarden",
+    "valuesSubtitle": "De principes die ons leiden in alles wat we doen",
+    "trustSignals": {
+      "amazonPartner": "Officiële Amazon-partner",
+      "securePayment": "100% veilige betaling",
+      "fastDelivery": "Snelle levering",
+      "customerSupport": "24/7 klantenservice"
+    },
+    "trustSignalsTitle": "Waarom Vertrouwen Op Ons?",
+    "trustSignalsSubtitle": "Uw vertrouwen is ons belangrijkste bezit",
+    "contact": {
+      "title": "Neem Contact Op",
+      "subtitle": "We zijn hier om u te helpen bij al uw vragen",
+      "email": "E-mail",
+      "phone": "Telefoon",
+      "responseTime": "Reactietijd",
+      "button": "Contact Opnemen"
+    },
+    "contactTitle": "Neem Contact Op",
+    "contactSubtitle": "We zijn hier om u te helpen bij al uw vragen"
+  },
   "siteConfig": {
     "language": "nl",
     "locale": "nl-NL",

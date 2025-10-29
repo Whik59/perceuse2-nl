@@ -1123,7 +1123,7 @@ const ProductDetailPage: React.FC = () => {
                           <Star className="w-6 h-6 text-white fill-white" />
                         </div>
                         <h3 className="text-2xl lg:text-3xl font-bold text-orange-600 mb-2">
-                          {getString('product.whyChoose').replace('{productTitle}', productTitle)}
+                          {getString('product.whyChoose.title').replace('{productTitle}', productTitle)}
                         </h3>
                         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
                           {getString('product.whyChoose.subtitle')}
