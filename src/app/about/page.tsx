@@ -20,39 +20,7 @@ import {
   Globe
 } from 'lucide-react';
 
-interface AboutContent {
-  hero: {
-    title: string;
-    subtitle: string;
-  };
-  introduction: string;
-  mission: string;
-  whyChooseUs: string[];
-  expertise: string;
-  authorBio?: string;
-  values: Array<{
-    title: string;
-    description: string;
-  }>;
-  contactInfo: {
-    email: string;
-    phone: string;
-    responseTime: string;
-  };
-  trustSignals: string[];
-  metadata?: {
-    generated_at: string;
-    keyword: string;
-    language: string;
-    version: string;
-  };
-}
-
-interface AboutPageProps {
-  content?: AboutContent;
-}
-
-const AboutPage: React.FC<AboutPageProps> = () => {
+const AboutPage: React.FC = () => {
   // Use static translations from common.json
   const aboutData = {
     hero: {
@@ -106,7 +74,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
       <Head>
         <title>{aboutData.hero.title} | {getString('common.siteName')}</title>
         <meta name="description" content={aboutData.hero.subtitle} />
-        <meta name="keywords" content={`${aboutData.metadata?.keyword || 'product'}, about us, expertise, quality, customer service`} />
+        <meta name="keywords" content="boormachines, about us, expertise, quality, customer service" />
         
         {/* Open Graph */}
         <meta property="og:title" content={aboutData.hero.title} />
