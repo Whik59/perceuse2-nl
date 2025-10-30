@@ -7,8 +7,10 @@ import Image from 'next/image';
 import { Search, Package, Tag, Star, ArrowRight, Filter } from 'lucide-react';
 import Layout from '../../../components/layout/Layout';
 import ProductCard from '../../../components/ProductCard';
+import Author from '../../../components/Author';
 import { getString } from '../../../lib/utils';
 import { Product, Category } from '../../../lib/types';
+import { getAuthor } from '../../../lib/getAuthor';
 
 interface SearchResult {
   categories: Category[];
@@ -30,6 +32,7 @@ const SearchContent: React.FC = () => {
   const [searchQuery, setSearchQuery] = useState(query);
   const [activeTab, setActiveTab] = useState<'all' | 'products' | 'categories'>('all');
   const [categoryImages, setCategoryImages] = useState<Record<number, string>>({});
+  const [author, setAuthor] = useState(getAuthor());
 
   useEffect(() => {
     if (query) {
@@ -299,6 +302,16 @@ const SearchContent: React.FC = () => {
               )}
             </>
           )}
+
+          {/* Author Section */}
+          <div className="mt-16">
+            <Author 
+              author={author}
+              productCategory="boormachines"
+              publishedDate="2024-01-01"
+              updatedDate="2025-10-29"
+            />
+          </div>
         </div>
       </div>
     </Layout>

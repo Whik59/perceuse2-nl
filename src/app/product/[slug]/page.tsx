@@ -14,6 +14,8 @@ import { getAmazonUrlWithAffiliateTag } from '../../../../lib/cart';
 import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, slugToReadableTitle } from '../../../../lib/utils';
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
+import Author from '../../../../components/Author';
+import { getAuthor } from '../../../../lib/getAuthor';
 import { 
   Star, 
   Plus, 
@@ -160,6 +162,12 @@ const ProductDetailPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState('description');
   const [currentCategory, setCurrentCategory] = useState<Category | null>(null);
   const [countdown, setCountdown] = useState({ minutes: 10, seconds: 0 });
+  const [author, setAuthor] = useState(() => {
+    console.log('🔍 [DEBUG] ProductPage: Initializing author state');
+    const authorData = getAuthor();
+    console.log('🔍 [DEBUG] ProductPage: Author data loaded:', authorData);
+    return authorData;
+  });
 
   // SEO and conversion hooks
   useEffect(() => {
@@ -1332,6 +1340,18 @@ const ProductDetailPage: React.FC = () => {
 
         {/* Floating Action Buttons */}
         {/* The FloatingButtons component is now integrated into the Layout's floating buttons props */}
+        
+        {/* Author Section - Always displayed at bottom */}
+        <div className="bg-slate-50 py-16 border-t border-slate-100">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Author 
+              author={author}
+              productCategory={currentCategory?.name || 'boormachines'}
+              publishedDate={product.createdAt}
+              updatedDate={product.updatedAt}
+            />
+          </div>
+        </div>
       </Layout>
       {product && (
         <div className="fixed bottom-0 left-0 w-full z-50 bg-white border-t border-gray-200 shadow-2xl p-0 sm:p-4 animate-slide-up">

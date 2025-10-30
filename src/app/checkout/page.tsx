@@ -4,9 +4,11 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Layout from '../../../components/layout/Layout';
 import { Button } from '../../../components/ui/Button';
+import Author from '../../../components/Author';
 import { CartState, Category } from '../../../lib/types';
 import { redirectToAmazonCart, calculateCartTotals } from '../../../lib/cart';
 import { formatCurrency, getString } from '../../../lib/utils';
+import { getAuthor } from '../../../lib/getAuthor';
 import { 
   ExternalLink,
   ShoppingBag,
@@ -23,6 +25,7 @@ const CheckoutPage: React.FC = () => {
   });
   
   const [categories, setCategories] = useState<Category[]>([]);
+  const [author, setAuthor] = useState(getAuthor());
 
   useEffect(() => {
     // Load cart from localStorage
@@ -200,6 +203,16 @@ const CheckoutPage: React.FC = () => {
                   </Link>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Author Section */}
+          <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <Author 
+                author={author}
+                productCategory="boormachines"
+              />
             </div>
           </div>
         </div>

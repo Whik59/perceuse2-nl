@@ -2,7 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import Layout from '../../../components/layout/Layout';
+import Author from '../../../components/Author';
 import { getString, getSiteConfig } from '../../../lib/utils';
+import { getAuthor } from '../../../lib/getAuthor';
 import { ChevronRight, Shield, Lock, Eye, FileText } from 'lucide-react';
 
 // Get site configuration for metadata
@@ -16,6 +18,8 @@ export const metadata: Metadata = {
 };
 
 const PrivacyPage: React.FC = () => {
+  const author = getAuthor();
+  
   return (
     <Layout>
       <div className="min-h-screen bg-gray-50">
@@ -156,6 +160,14 @@ const PrivacyPage: React.FC = () => {
                     </div>
                   </div>
                 </section>
+
+                {/* Author Section */}
+                <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100 -mx-8 px-8">
+                  <Author 
+                    author={author}
+                    productCategory="boormachines"
+                  />
+                </div>
 
               </div>
             </div>

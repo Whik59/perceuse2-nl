@@ -5,6 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import Layout from '../../../components/layout/Layout';
 import { Button } from '../../../components/ui/Button';
+import Author from '../../../components/Author';
 import { CartState, Category } from '../../../lib/types';
 import { 
   updateCartItemQuantity, 
@@ -14,6 +15,7 @@ import {
   redirectToAmazonCart
 } from '../../../lib/cart';
 import { getString, formatCurrency } from '../../../lib/utils';
+import { getAuthor } from '../../../lib/getAuthor';
 import { 
   Plus, 
   Minus, 
@@ -31,6 +33,7 @@ const CartPage: React.FC = () => {
   });
   
   const [categories, setCategories] = useState<Category[]>([]);
+  const [author, setAuthor] = useState(getAuthor());
 
   useEffect(() => {
     // Load cart from localStorage
@@ -270,6 +273,16 @@ const CartPage: React.FC = () => {
                 </div>
               </div>
               </div>
+            </div>
+          </div>
+
+          {/* Author Section */}
+          <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <Author 
+                author={author}
+                productCategory="boormachines"
+              />
             </div>
           </div>
       </div>

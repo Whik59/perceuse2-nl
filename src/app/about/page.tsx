@@ -4,7 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Layout from '../../../components/layout/Layout';
 import { Button } from '../../../components/ui/Button';
+import Author from '../../../components/Author';
 import { getString } from '../../../lib/utils';
+import { getAuthor } from '../../../lib/getAuthor';
 import { 
   Star, 
   Check, 
@@ -21,6 +23,9 @@ import {
 } from 'lucide-react';
 
 const AboutPage: React.FC = () => {
+  // Get author data
+  const author = getAuthor();
+  
   // Use static translations from common.json
   const aboutData = {
     hero: {
@@ -341,6 +346,18 @@ const AboutPage: React.FC = () => {
                 </Button>
               </Link>
             </div>
+          </div>
+        </section>
+
+        {/* Author Section */}
+        <section className="py-16 bg-gray-50">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Author 
+              author={author}
+              productCategory="boormachines"
+              publishedDate="2024-01-01"
+              updatedDate="2025-10-29"
+            />
           </div>
         </section>
       </Layout>

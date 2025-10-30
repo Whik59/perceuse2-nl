@@ -13,10 +13,12 @@ import ComparisonTable from '../../../../components/ComparisonTable';
 import BuyingGuide from '../../../../components/BuyingGuide';
 import InternalLinks from '../../../../components/InternalLinks';
 import SmartLinkedText from '../../../../components/SmartLinkedText';
+import Author from '../../../../components/Author';
 import { Product, Category, CartState } from '../../../../lib/types';
 import { getString, formatCurrency } from '../../../../lib/utils';
 import { createCartItem, addToCart } from '../../../../lib/cart';
 import { getCategoryContent, CategoryContent } from '../../../../lib/getCategoryContent';
+import { getAuthor } from '../../../../lib/getAuthor';
 import { 
   Grid3X3, 
   List, 
@@ -58,6 +60,12 @@ const CategoryPage: React.FC = () => {
 
   const [categories, setCategories] = useState<Category[]>([]);
   const [categoryContent, setCategoryContent] = useState<CategoryContent | null>(null);
+  const [author, setAuthor] = useState(() => {
+    console.log('🔍 [DEBUG] CategoryPage: Initializing author state');
+    const authorData = getAuthor();
+    console.log('🔍 [DEBUG] CategoryPage: Author data loaded:', authorData);
+    return authorData;
+  });
 
   useEffect(() => {
     const loadCategoryData = async () => {
@@ -661,7 +669,16 @@ const CategoryPage: React.FC = () => {
           </div>
         </div>
       )}
-      
+
+      {/* Author Section - Always displayed */}
+      <div className="bg-slate-50 py-16 border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Author 
+            author={author}
+            productCategory={category?.name || 'boormachines'}
+          />
+        </div>
+      </div>
 
       {/* Customer Reviews - Removed to avoid duplicate content issues */}
     </Layout>

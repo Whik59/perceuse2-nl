@@ -1,7 +1,9 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Layout from '../../../components/layout/Layout';
+import Author from '../../../components/Author';
 import { getString } from '../../../lib/utils';
+import { getAuthor } from '../../../lib/getAuthor';
 
 export const metadata: Metadata = {
   title: `${getString('legal.cgu.title')} | ${getString('common.siteName')}`,
@@ -10,6 +12,8 @@ export const metadata: Metadata = {
 };
 
 const AlgemeneVoorwaardenPage: React.FC = () => {
+  const author = getAuthor();
+  
   return (
     <Layout>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -53,6 +57,14 @@ const AlgemeneVoorwaardenPage: React.FC = () => {
               </h2>
               <p>{getString('legal.cgu.modification.content')}</p>
             </section>
+          </div>
+
+          {/* Author Section */}
+          <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100 -mx-8 px-8">
+            <Author 
+              author={author}
+              productCategory="boormachines"
+            />
           </div>
         </div>
       </div>

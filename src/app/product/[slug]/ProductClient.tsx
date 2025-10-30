@@ -14,6 +14,8 @@ import { getAmazonUrlWithAffiliateTag } from '../../../../lib/cart';
 import { formatCurrency, getString, generateProductRating, generateProductReviewSnippet, slugToReadableTitle } from '../../../../lib/utils';
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
+import Author from '../../../../components/Author';
+import { getAuthor } from '../../../../lib/getAuthor';
 import { 
   Star, 
   Plus, 
@@ -159,6 +161,12 @@ const ProductClient: React.FC<ProductClientProps> = ({ product, categories }) =>
   const [activeTab, setActiveTab] = useState('description');
   const [currentCategory, setCurrentCategory] = useState<Category | null>(null);
   const [countdown, setCountdown] = useState({ minutes: 10, seconds: 0 });
+  const [author, setAuthor] = useState(() => {
+    console.log('🔍 [DEBUG] ProductClient: Initializing author state');
+    const authorData = getAuthor();
+    console.log('🔍 [DEBUG] ProductClient: Author data loaded:', authorData);
+    return authorData;
+  });
 
   // SEO and conversion hooks
   useEffect(() => {
@@ -680,6 +688,18 @@ const ProductClient: React.FC<ProductClientProps> = ({ product, categories }) =>
         {/* Rest of the product page content would go here... */}
         {/* For brevity, I'm including just the essential parts */}
         
+      </div>
+
+      {/* Author Section - Always displayed at bottom */}
+      <div className="bg-slate-50 py-16 border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Author 
+            author={author}
+            productCategory={currentCategory?.name || 'boormachines'}
+            publishedDate={product.createdAt}
+            updatedDate={product.updatedAt}
+          />
+        </div>
       </div>
     </Layout>
   );

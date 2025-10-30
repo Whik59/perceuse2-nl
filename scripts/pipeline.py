@@ -195,10 +195,18 @@ def main():
     else:
         print("⚠️  Continuing with next step...")
     
-    # Step 10: Generate Sitemap
+    # Step 10: Generate Author Profile Picture
+    total_steps += 1
+    command = 'python scripts/generate_author_images.py'
+    if run_command(command, "Step 10: Generate Author Profile Picture"):
+        success_count += 1
+    else:
+        print("⚠️  Continuing with next step...")
+    
+    # Step 11: Generate Sitemap
     total_steps += 1
     command = 'python scripts/generate_sitemap.py'
-    if run_command(command, "Step 10: Generate Sitemap"):
+    if run_command(command, "Step 11: Generate Sitemap"):
         success_count += 1
     else:
         print("⚠️  Continuing with next step...")
