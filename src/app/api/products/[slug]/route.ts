@@ -1,6 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getProductBySlug } from '../../../../../lib/getProducts';
+import { memoryCache, CACHE_KEYS } from '../../../../../lib/cache';
+
+// Use Edge Runtime for better performance (lower CPU usage)
+export const runtime = 'nodejs'; // Keep nodejs for file system access
 
 export async function GET(
   request: NextRequest,
@@ -10,30 +15,54 @@ export async function GET(
     const resolvedParams = await params;
     const slug = resolvedParams.slug;
 
+    // Use optimized getProductBySlug which has caching and index support
+    const product = getProductBySlug(slug);
+    
+    if (!product) {
+      return NextResponse.json({ error: 'Product not found' }, { status: 404 });
+    }
+
     const productsDir = path.join(process.cwd(), 'data', 'products');
     
-    // Get all product files since we need to search by slug within the files
-    const productFiles = fs.readdirSync(productsDir).filter(file => file.endsWith('.json'));
-    
+    // Optimized: Try index first to avoid scanning all files
+    const indexPath = path.join(process.cwd(), 'data', 'indices', 'product-slug-index.json');
     let productData = null;
-    let foundFileName = null;
     
-    // Search through all product files to find the one with matching slug
-    for (const fileName of productFiles) {
+    if (fs.existsSync(indexPath)) {
       try {
-        const filePath = path.join(productsDir, fileName);
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
-        const data = JSON.parse(fileContent);
+        const index = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+        const fileName = index[slug];
         
-        // Check if this product has the matching slug
-        if (data.slug === slug) {
-          productData = data;
-          foundFileName = fileName;
-          break;
+        if (fileName) {
+          const filePath = path.join(productsDir, fileName);
+          if (fs.existsSync(filePath)) {
+            productData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          }
         }
       } catch (error) {
-        console.error(`Error reading product file ${fileName}:`, error);
-        continue;
+        // Fall through to scan
+      }
+    }
+    
+    // Fallback: Scan files if index doesn't exist or failed
+    if (!productData) {
+      const productFiles = fs.readdirSync(productsDir).filter(file => file.endsWith('.json'));
+      
+      for (const fileName of productFiles) {
+        try {
+          const filePath = path.join(productsDir, fileName);
+          const fileContent = fs.readFileSync(filePath, 'utf-8');
+          const data = JSON.parse(fileContent);
+          
+          // Check if this product has the matching slug
+          if (data.slug === slug) {
+            productData = data;
+            break;
+          }
+        } catch (error) {
+          console.error(`Error reading product file ${fileName}:`, error);
+          continue;
+        }
       }
     }
     
@@ -42,10 +71,21 @@ export async function GET(
     }
     
     // Load the category-products mapping to find which categories contain this product
+    // Use cache to avoid repeated file reads
     let categoryIds: number[] = [];
+    const categoryMapCacheKey = CACHE_KEYS.CATEGORY_PRODUCTS_MAP;
+    let categoryProductsData: Record<string, string[]> = {};
+    
     try {
-      const categoryProductsPath = path.join(process.cwd(), 'data', 'indices', 'category-products.json');
-      const categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
+      const cached = memoryCache.get<Record<string, string[]>>(categoryMapCacheKey);
+      if (cached) {
+        categoryProductsData = cached;
+      } else {
+        const categoryProductsPath = path.join(process.cwd(), 'data', 'indices', 'category-products.json');
+        categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
+        // Cache for 10 minutes
+        memoryCache.set(categoryMapCacheKey, categoryProductsData, 10 * 60 * 1000);
+      }
       
       // Find all categories that contain this product
       for (const [categoryId, productList] of Object.entries(categoryProductsData)) {
@@ -105,7 +145,13 @@ export async function GET(
       affiliateId: productData.affiliateId || 'friteuseexp-21'
     };
 
-    return NextResponse.json(transformedProduct);
+    return NextResponse.json(transformedProduct, {
+      headers: {
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+        'CDN-Cache-Control': 'public, s-maxage=86400',
+        'Vercel-CDN-Cache-Control': 'public, s-maxage=86400',
+      }
+    });
   } catch (error) {
     console.error('Error fetching product:', error);
     return NextResponse.json({ error: 'Failed to fetch product' }, { status: 500 });

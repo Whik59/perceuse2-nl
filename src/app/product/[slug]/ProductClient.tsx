@@ -15,7 +15,7 @@ import { formatCurrency, getString, generateProductRating, generateProductReview
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
 import Author from '../../../../components/Author';
-import { getAuthor } from '../../../../lib/getAuthor';
+import { getAuthor, Author as AuthorType } from '../../../../lib/getAuthor';
 import { 
   Star, 
   Plus, 
@@ -162,9 +162,7 @@ const ProductClient: React.FC<ProductClientProps> = ({ product, categories }) =>
   const [currentCategory, setCurrentCategory] = useState<Category | null>(null);
   const [countdown, setCountdown] = useState({ minutes: 10, seconds: 0 });
   const [author, setAuthor] = useState(() => {
-    console.log('🔍 [DEBUG] ProductClient: Initializing author state');
     const authorData = getAuthor();
-    console.log('🔍 [DEBUG] ProductClient: Author data loaded:', authorData);
     return authorData;
   });
 

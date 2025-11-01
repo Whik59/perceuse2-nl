@@ -39,11 +39,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -161,5 +161,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:04.164957",
   "originalName": "Panasonic 52055E40 eneloop SmartPlus lader, voor 1-4 AA/AAA Ni-MH-batterijen met 4 ledlampjes & 10 veiligheidsfuncties, inclusief 4 eneloop AA/Mignon-batterijen, min. 2500 mAh,zwart",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T02:00:00.000Z"
 }

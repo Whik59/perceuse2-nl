@@ -1,0 +1,1457 @@
+{
+  "generatedAt": "2025-11-01T15:25:01.866Z",
+  "daily": {
+    "categories": 5,
+    "products": 50
+  },
+  "startDate": "2025-11-01T08:00:00.000Z",
+  "intervalMinutes": 60,
+  "items": [
+    {
+      "type": "category",
+      "slug": "accuboormachines",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-01T08:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "accuboormachines/accuboormachine-sets",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-01T09:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "accuboormachines/accu-klopboormachines",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-01T10:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "accuboormachines/compacte-accuboormachines",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-01T11:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "accuboormachines/losse-accus-en-laders",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-01T12:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "gesnoerde-boormachines",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-02T08:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "gesnoerde-boormachines/boormachines-hoog-vermogen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-02T09:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "gesnoerde-boormachines/klopboormachines-met-snoer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-02T10:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "gesnoerde-boormachines/boormachines-voor-hout-en-metaal",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-02T11:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boorhamers-voor-zwaar-werk",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-02T12:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boorhamers-voor-zwaar-werk/boorhamers-voor-beton",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-03T08:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boorhamers-voor-zwaar-werk/combihamers-boren-en-beitelen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-03T09:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boorhamers-voor-zwaar-werk/accu-boorhamers",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-03T10:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boormachine-accessoires",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-03T11:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boormachine-accessoires/boren-en-bitsets",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-03T12:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boormachine-accessoires/boorborstels-en-polijstpads",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-04T08:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boormachine-accessoires/speciale-adapters-en-hulpstukken",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-04T09:00:00.000Z"
+    },
+    {
+      "type": "category",
+      "slug": "boormachine-accessoires/boorstatieven-en-geleiders",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\categories.json",
+      "publishAt": "2025-11-04T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "wolfcraft-tecmobil-boorstandaard-4522000-mobiel-boren",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0001p19po.json",
+      "publishAt": "2025-11-04T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "wolfcraft-boorstandaard-3406000-exact-boren",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0002yyw30.json",
+      "publishAt": "2025-11-04T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bestseller-robotica-component",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b000p4kr5e.json",
+      "publishAt": "2025-11-04T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-1-6mm-snelspanboorhouder-1-2-huls",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b000r5lqp6.json",
+      "publishAt": "2025-11-04T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-hr2470-sds-plus-boorhamer-turquoiseblauw",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b001349soq.json",
+      "publishAt": "2025-11-04T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-25-delige-mini-x-line-schroefbit-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b001ibopwe.json",
+      "publishAt": "2025-11-04T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dremel-690-speedclic-snijwielset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0035pvtha.json",
+      "publishAt": "2025-11-04T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "43mm-kwb-boorstandaard-euro-greep-houder-mobiel",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0043vucgo.json",
+      "publishAt": "2025-11-04T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "43mm-kwb-boormachinestandaard-eurohals-stationair-gebruik",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0050aci2s.json",
+      "publishAt": "2025-11-04T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-boorhamer-pbh-2100-sre-sds",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0064jktti.json",
+      "publishAt": "2025-11-04T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-cyl-9-softceramic-tegelboorset-5-delig",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00754i1z0.json",
+      "publishAt": "2025-11-04T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "50-delig-black-decker-a7188-xj-boor-schroefbitset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0076vlvxg.json",
+      "publishAt": "2025-11-04T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-rt-rh-boorhamerset-krachtig-compleet",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b007c1te98.json",
+      "publishAt": "2025-11-04T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-43-delige-schroefbit-dopsleutelset-prof",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0097dyzhk.json",
+      "publishAt": "2025-11-05T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "metabo-combihamer-khe-3250-krachtpatser-voor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b009gvinu8.json",
+      "publishAt": "2025-11-05T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "800w-makita-hr2600-2-boormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00bhvtmg4.json",
+      "publishAt": "2025-11-05T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-41-delige-v-line-titanium-boor-schroefset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00ggkmm9k.json",
+      "publishAt": "2025-11-05T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1010w-einhell-tc-id-1000-klopboormachine-slagboor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00ht94xf8.json",
+      "publishAt": "2025-11-05T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-26-delige-schroefbit-ratelset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00hy7lv6e.json",
+      "publishAt": "2025-11-05T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1200w-ryobi-bedrade-boormachine-snelheden",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00i8h0a6g.json",
+      "publishAt": "2025-11-05T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-32-delige-schroefbitset-met-accessoires",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00im7biy0.json",
+      "publishAt": "2025-11-05T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1600w-einhell-boorhamer-th-rh-1600-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00iyeexuc.json",
+      "publishAt": "2025-11-05T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-dhr241z-accu-boorhamer-18v-basic",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00kppxf70.json",
+      "publishAt": "2025-11-05T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx333-klopboorhamer-1250w-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00mippt56.json",
+      "publishAt": "2025-11-05T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dewalt-accu-haakse-boormachine-18v-smalle-plaatsen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00pqtgghg.json",
+      "publishAt": "2025-11-05T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "ryobi-r18sds-0-accu-combihamer-sds-plus-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00veu9jzc.json",
+      "publishAt": "2025-11-05T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "26mm-dewalt-sds-plus-combihamer-d25133k",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00wb1ospo.json",
+      "publishAt": "2025-11-05T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "28mm-dewalt-sds-plus-combihamer-d25144k-900w",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00wb1ovvu.json",
+      "publishAt": "2025-11-05T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dewalt-dch273nt-18v-accu-kombihammer-borstel",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b00wb1pldm.json",
+      "publishAt": "2025-11-05T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-750w-gbm-13-2-boormachine-snelspanboorhouder",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b013wald1o.json",
+      "publishAt": "2025-11-05T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "black-decker-bdch188n-accu-klopboormachine-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0142tn7ue.json",
+      "publishAt": "2025-11-05T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "milescraft-1316-cabinetmate-borenmal-plankpen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b014a1z8j2.json",
+      "publishAt": "2025-11-05T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "milescraft-1318-drillmate-boorgeleider",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b014a1z92i.json",
+      "publishAt": "2025-11-05T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-gsr-12v-15-accuschroefboormachine-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b015wgdx6e.json",
+      "publishAt": "2025-11-05T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "black-decker-li-ion-ultra-compacte-boor-bdcdd12",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b016xlyjx8.json",
+      "publishAt": "2025-11-05T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "6mm-fein-bop-boormachine-500w-sneldraaiend",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0189ks3zq.json",
+      "publishAt": "2025-11-05T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "26mm-makita-hr2631ft13-combihamer-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b019mza43g.json",
+      "publishAt": "2025-11-05T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dunlop-acculader-led-druppellader-12v-auto",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01blgwqgc.json",
+      "publishAt": "2025-11-06T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "ddf482z-accuboormachine-18v-zonder-accu-oplader",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01bpymnhw.json",
+      "publishAt": "2025-11-06T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "900w-einhell-tc-rh-900-boorhamer-kit",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01cym2nhy.json",
+      "publishAt": "2025-11-06T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "black-decker-bdchd18k-accu-slagboorschroevendraaier-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01d9wa43i.json",
+      "publishAt": "2025-11-06T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "hdm1037-ferm-boorhamer-pneumatisch-1500w-zwart",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01h3g94wi.json",
+      "publishAt": "2025-11-06T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-830w-boorhamer-gbh-2-26-sds",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01ldzyoei.json",
+      "publishAt": "2025-11-06T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "alle-details-bekijken",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01m8py57v.json",
+      "publishAt": "2025-11-06T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bdc18bafc-qw-black-decker-boorschroevendraaier-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b01n1njizq.json",
+      "publishAt": "2025-11-06T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-900w-advancedimpact-900-klopboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b06xr3djrz.json",
+      "publishAt": "2025-11-06T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-800w-universalimpact-800-klopboormachine-zwart-groen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b06xr5fvw3.json",
+      "publishAt": "2025-11-06T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx317-2-klopboormachine-600w-beton-hout",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0711jvx1m.json",
+      "publishAt": "2025-11-06T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx390-9-boorhamer-sds-plus-20v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b071xlz7ys.json",
+      "publishAt": "2025-11-06T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-dhr171z-sds-accuboorhamer-18v-los",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0759bcvk9.json",
+      "publishAt": "2025-11-06T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "950w-dewalt-combihamer-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b075npxgf5.json",
+      "publishAt": "2025-11-05T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "innovatieve-slimme-sensor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b076bczh84.json",
+      "publishAt": "2025-11-05T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "trotec-prds-10-20v-accu-boorhamer-hoog",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b079m519zf.json",
+      "publishAt": "2025-11-05T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "jteng-polijstschijven-boormachine-set-stuks",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07b9vy39r.json",
+      "publishAt": "2025-11-05T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "710w-teeno-boorhamer-acc-koffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07brltr64.json",
+      "publishAt": "2025-11-05T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-1100w-gsb-24-2-klopboormachine-l-case",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07cywkznd.json",
+      "publishAt": "2025-11-05T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "powc1071-accuschroefboormachine-20v-powerplus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07gvsg2z8.json",
+      "publishAt": "2025-11-05T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "710w-black-decker-beh710k-qs-klopboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07gz4bwz2.json",
+      "publishAt": "2025-11-05T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "powc1061-powerplus-accuschroefboor-16v-li-ion",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07h5mljqw.json",
+      "publishAt": "2025-11-05T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "3-delig-bgs-9685-adapterset-boormachines-1-4",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07jzcc57d.json",
+      "publishAt": "2025-11-05T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "850w-beh850k-klopboormachine-13mm",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07kgl5ds9.json",
+      "publishAt": "2025-11-05T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-dhp485rtj-slagboorschroefmachine-18v-5-0ah",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07kwngnnv.json",
+      "publishAt": "2025-11-05T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "800w-einhell-boorhamer-tc-rh",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07l6xq4gn.json",
+      "publishAt": "2025-11-05T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-te-cd-18-40-li-solo-accu-boor-schroefmachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07l6z417x.json",
+      "publishAt": "2025-11-06T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "450w-black-decker-beh201-gb-hamerboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07mtf5gm9.json",
+      "publishAt": "2025-11-06T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "850w-black-decker-beh850ka32-qs-klopboormachine-accessoires",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07n17jk8p.json",
+      "publishAt": "2025-11-06T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bcd001c1-qw-black-decker-boormachine-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07n8yllg7.json",
+      "publishAt": "2025-11-06T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-tc-dh-sds-sloophamer-krachtige-betonbreker",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07p15ntff.json",
+      "publishAt": "2025-11-06T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-35-delige-boren-schroefbitset-pick-click",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07p6pkr4s.json",
+      "publishAt": "2025-11-06T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "pro-techno-gadget",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07s9dqnsn.json",
+      "publishAt": "2025-11-06T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-dhr182z-accu-combihamer-sds-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b07tk53zwb.json",
+      "publishAt": "2025-11-06T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-gsb-18v-55-accuschroefklopboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0822295df.json",
+      "publishAt": "2025-11-06T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "uraqt-acculader-12v-24v-lcd-rood",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08239l9sd.json",
+      "publishAt": "2025-11-06T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "black-decker-18v-sds-combihamer-bcd900b",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08474dm7f.json",
+      "publishAt": "2025-11-06T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-gadget-technologie-innovatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b084z27779.json",
+      "publishAt": "2025-11-06T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "black-decker-sds-plus-boor-beitelhamer-behs03k",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0857r3hz6.json",
+      "publishAt": "2025-11-06T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-56",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08brg2c3d.json",
+      "publishAt": "2025-11-06T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuschroefboormachine-easydrill-1200-12v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08cvt3qkl.json",
+      "publishAt": "2025-11-06T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "2000w-boorhamer-slagboormachine-koffer-boor-beit",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08gq79z13.json",
+      "publishAt": "2025-11-06T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easydrill-1200-accuschroefboormachine-12v-2-0ah",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08gq8lgtv.json",
+      "publishAt": "2025-11-06T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "socket-adapter-set-1-4-3-8-3-8-1-4-3-8-1-2",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08jcchzmj.json",
+      "publishAt": "2025-11-06T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "multifunctionele-draadloze-miniboormachine-usb-variabele-sne",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08l32rfht.json",
+      "publishAt": "2025-11-06T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-universaldrill-18v-accuschroefboormachine-accu-s",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08lp6mb7h.json",
+      "publishAt": "2025-11-06T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "80mm-kshineni-auto-polijstspons-set-stuks",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08lsn8mt8.json",
+      "publishAt": "2025-11-06T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "techno-upgrade-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08nwkmt8v.json",
+      "publishAt": "2025-11-06T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "30-50-80mm-spta-polijstspons-set-stuks-auto",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08nwvjp4r.json",
+      "publishAt": "2025-11-06T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-boorhamer-tc-rh-620-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08skgj5x6.json",
+      "publishAt": "2025-11-06T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-boorhamer-gbh-2-21-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08x6svrrc.json",
+      "publishAt": "2025-11-07T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-boorhamer-gbh-2-21-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08xwn9h9n.json",
+      "publishAt": "2025-11-07T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-professional-boorhamer-gbh-2-21-sds",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08xwq7d7h.json",
+      "publishAt": "2025-11-07T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-robotstofzuiger-114",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b08zdgzk6n.json",
+      "publishAt": "2025-11-07T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-84-0",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b093sqc678.json",
+      "publishAt": "2025-11-07T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "boormachine-standaard-360-rotatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b097jh7wbn.json",
+      "publishAt": "2025-11-07T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-thuisbeveiliging-starterspakket-17-24-nov",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b097tkwgml.json",
+      "publishAt": "2025-11-07T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easyimpact-630-klopboormachine-met-koffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b098jxs6hc.json",
+      "publishAt": "2025-11-07T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-dhp487z-accu-slagboorschroevendraaier-18v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b099nrhwz5.json",
+      "publishAt": "2025-11-07T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "nog-slechts-voorraad",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09bnkjt3l.json",
+      "publishAt": "2025-11-07T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "imren-18650-batterijlader-usb-c-universeel",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09ck9kv4d.json",
+      "publishAt": "2025-11-07T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-60nm-nitro-accuboormachine-20v-borstelloos",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09gksf1s6.json",
+      "publishAt": "2025-11-07T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1050w-einhell-boorhamer-te-rh",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09kgw22mf.json",
+      "publishAt": "2025-11-07T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboorhamer-universalimpact-18v-60-accu-s",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09mtpgvbh.json",
+      "publishAt": "2025-11-06T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboormachine-universaldrill-18v-60-met-accu-s",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09mtpsfzl.json",
+      "publishAt": "2025-11-06T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "intelligente-energiebesparingsbundel",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09pkjnsy4.json",
+      "publishAt": "2025-11-06T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easydrill-18v-40-accuboormachine-zonder-accu",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09plkktkz.json",
+      "publishAt": "2025-11-06T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easyimpact-18v-40-klopboormachine-2-0ah",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09plkvrt6.json",
+      "publishAt": "2025-11-06T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboorhamer-easyimpact-18v-40-met-accu",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09pllc8yp.json",
+      "publishAt": "2025-11-06T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easydrill-18v-40-accuboormachine-accu-koffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09plldcg4.json",
+      "publishAt": "2025-11-06T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easydrill-18v-38-accu-met-lader",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09qh4nbxr.json",
+      "publishAt": "2025-11-06T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "10-delige-makita-e-12011-impact-black-bit",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09x712trs.json",
+      "publishAt": "2025-11-06T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "metabo-combihamer-khe-2445-kracht-precisie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09x76bpcm.json",
+      "publishAt": "2025-11-06T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx100-9-accuschroefboormachine-20v-10mm-30nm",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b09ys1tppy.json",
+      "publishAt": "2025-11-06T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx381-borstelloze-accuboormachine-20v",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b1vfz9br.json",
+      "publishAt": "2025-11-06T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "worx-wx381-9-nitro-accuboormachine-20v-slagboor-boor-beitel",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b1vgszyk.json",
+      "publishAt": "2025-11-06T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "800w-dongcheng-boorhamer-sds-plus-2-8j",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b27l7j16.json",
+      "publishAt": "2025-11-07T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "panasonic-eneloop-smartplus-lader",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b2x2lqfb.json",
+      "publishAt": "2025-11-07T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "panasonic-eneloop-smartplus-lader-mignon",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b2x5t2ss.json",
+      "publishAt": "2025-11-07T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "panasonic-eneloop-basic-usb-lader-blauw",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b5x2q2f2.json",
+      "publishAt": "2025-11-07T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-technologie-bespaar-10",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b6cn5f2w.json",
+      "publishAt": "2025-11-07T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "metabo-combihamer-ltx-18v-zonder-accu",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b7nxghvv.json",
+      "publishAt": "2025-11-07T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "metabo-accu-combihamer-ltx",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b7nxjc6f.json",
+      "publishAt": "2025-11-07T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "15x-polijstsponzen-auto-polijstpads-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0b99j91sk.json",
+      "publishAt": "2025-11-07T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboorhamer-universalhammer-18v-sds-plus",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bbrsh9rh.json",
+      "publishAt": "2025-11-07T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "pro-gereedschap-stuks-impact-adapter-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bfx3wt2t.json",
+      "publishAt": "2025-11-07T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "robot-geavanceerde-kit",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bqyw9fj6.json",
+      "publishAt": "2025-11-07T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1400w-vevor-sloophamer-boorhamer-19j-2900",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bs96ylcs.json",
+      "publishAt": "2025-11-07T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "intelligente-connectiviteitsoplossing-35",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bsvf9564.json",
+      "publishAt": "2025-11-07T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "2200w-vevor-sloophamer-66j-1350-bpm",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0btslpbq4.json",
+      "publishAt": "2025-11-07T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboorhamer-easyimpact-18v-38-2ah-koffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bws4dtns.json",
+      "publishAt": "2025-11-07T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "vervangende-acculader-makita-dc18rc-dc18ra-lcd",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bxf3ff1x.json",
+      "publishAt": "2025-11-07T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "40mm-forstnerboor-hardmetaal-zeskant-schacht",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bxls543y.json",
+      "publishAt": "2025-11-07T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "robot-component-nog-voorraad",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0bysjmbf2.json",
+      "publishAt": "2025-11-07T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "fousenuk-20x-lamellenslijpers-boormachine-roterend-gereedsch",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0c2hhfvvn.json",
+      "publishAt": "2025-11-07T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-domotica-hub-efficientie-connectiviteit",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0c2hlfph1.json",
+      "publishAt": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "avhrit-2023-accuboorhamer-borstelloze-motor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0c4kt8zfw.json",
+      "publishAt": "2025-11-07T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-tp-hd-18-26-accu-boorhamer-power-x-change",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0c662rgkk.json",
+      "publishAt": "2025-11-07T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-sensor-real-time-data",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0c8t22bd2.json",
+      "publishAt": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "10mm-katsu-fit-bat-21v-accuboormachine-borstelloos",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cbymd7f9.json",
+      "publishAt": "2025-11-07T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "yofuly-mini-zuilboormachine-snelheden-elektrisch",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cc5s3wpc.json",
+      "publishAt": "2025-11-08T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-gsb-600-klopboormachine-met-snoer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ccsjdmbd.json",
+      "publishAt": "2025-11-08T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-accu-boorhamer-te-hd-18-20-solo",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cg96c1qp.json",
+      "publishAt": "2025-11-08T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1050w-workpro-boorhamer-sds-plus-joule",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cgc9c2wr.json",
+      "publishAt": "2025-11-08T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1500w-eneacro-sds-plus-boorhamer-joule",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cgcdjx1m.json",
+      "publishAt": "2025-11-08T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-iot-hub",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cgcmssfz.json",
+      "publishAt": "2025-11-08T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1300w-eneacro-sds-max-sloophamer-20j",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ch4d44jf.json",
+      "publishAt": "2025-11-08T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "deko-gereedschapskist-roze-elektrisch-186-delen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cj8s1l82.json",
+      "publishAt": "2025-11-08T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-slimme-navigatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cjc75hk4.json",
+      "publishAt": "2025-11-08T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "550w-black-decker-hamerboor-13mm-variabele-snelheid",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cp7xcqkb.json",
+      "publishAt": "2025-11-08T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "29-delig-xflyp-auto-polijstpads-boor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cqc5wmxk.json",
+      "publishAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "30-delige-hi-spec-gereedschapsset-18v-accuschroevendraaier-b",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0csk6cxv5.json",
+      "publishAt": "2025-11-08T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "4000mah-accuboorhamer-4-in-1-met-accu",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cw62tp2s.json",
+      "publishAt": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-robot-automatisering-thuis",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cwqvz9bk.json",
+      "publishAt": "2025-11-07T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "ergaoboy-rvs-reducer-hex-bushing-1-2",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cybmnsvc.json",
+      "publishAt": "2025-11-07T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "ergaoboy-bsp-reductie-koppelingen-rvs-304",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0cybx9yxj.json",
+      "publishAt": "2025-11-07T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "product-pagina-prijs-49-0",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d12dht5f.json",
+      "publishAt": "2025-11-07T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "25nm-accuschroevendraaier-12v-2ah-accu-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d1fmqmzt.json",
+      "publishAt": "2025-11-07T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1-16mm-snelspanboorhouder-b16-mk2-adapter",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d2v26d3f.json",
+      "publishAt": "2025-11-07T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "sundpey-accuschroefboormachine-21v-met-accu-s",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d2v58hm5.json",
+      "publishAt": "2025-11-07T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "2200w-krachtige-boorhamer-compleet-met-boorkronen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d4db5cz6.json",
+      "publishAt": "2025-11-07T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-8-delige-accuschroevendraaier-bitset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d6rk261x.json",
+      "publishAt": "2025-11-07T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "intelligente-acculader-auto-12v-reparatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d6vn5bk6.json",
+      "publishAt": "2025-11-07T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "slimme-technologie-bundel-bespaar-bij-stuks",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d7x29k61.json",
+      "publishAt": "2025-11-07T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dekopro-boormachine-draadloos-20v-rood-boor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d81dy4j7.json",
+      "publishAt": "2025-11-07T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "gisam-16-8v-accuboormachine-schroefmachine-2-in-1",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d878y2z6.json",
+      "publishAt": "2025-11-07T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "furuising-steeksleuteladapter-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d8j1wmpd.json",
+      "publishAt": "2025-11-08T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "21v-accuboormachine-schroevendraaierset-accu-s",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d8qqlqwx.json",
+      "publishAt": "2025-11-08T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "accuboorhamer-borstelloos-makita-18v-compatibel-functies",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d8szdz5h.json",
+      "publishAt": "2025-11-08T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "workpro-accuboormachine-set-roze-grijs",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d97n6xwk.json",
+      "publishAt": "2025-11-08T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "workpro-accu-boor-schroevendraaier-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d97nwnkc.json",
+      "publishAt": "2025-11-08T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "hychika-accuboormachine-borstelloos-met-delen",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0d9828d7k.json",
+      "publishAt": "2025-11-08T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "10mm-dekopro-accuschroefboormachine-boorhouder-led-type-c",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dcmsjlyj.json",
+      "publishAt": "2025-11-08T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-te-cd-18-44-li-i-kit-klopboor-schroefmachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ddxzmyf2.json",
+      "publishAt": "2025-11-08T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "5-delige-aladeno-driehoek-schuurspons-set-met",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dhcldn31.json",
+      "publishAt": "2025-11-08T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "flintronic-impact-socket-adapter-reducer-1-2",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dhrq2hpc.json",
+      "publishAt": "2025-11-08T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "65nm-accuschroefboormachine-21v-brushless-complete-set",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dhxnpg4f.json",
+      "publishAt": "2025-11-08T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "accuschroevendraaier-12v-met-accu-s-accessoires",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0djfj8fzd.json",
+      "publishAt": "2025-11-08T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "42nm-accuboormachine-20v-zeegroen-2000mah",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0djqqlk5t.json",
+      "publishAt": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-iot-hub",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0djr22bjv.json",
+      "publishAt": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "smart-geavanceerde-home-hub-centrale-controle",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0djzkf3jq.json",
+      "publishAt": "2025-11-08T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "10mm-katsu-fit-bat-21v-borstelloze-accuboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dkbd46ch.json",
+      "publishAt": "2025-11-08T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "einhell-accu-boorhamer-tp-hd-18-22",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dkjfhyk6.json",
+      "publishAt": "2025-11-08T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bevigor-oplaadbare-batterijlader-slots",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dmdygxll.json",
+      "publishAt": "2025-11-08T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "aiqinu-polijstopzetstukken-accuschroevendraaierset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dn66vqdj.json",
+      "publishAt": "2025-11-08T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "robotstofzuiger-xs100-slimme-reiniging-voor-elk",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dp7ql2vv.json",
+      "publishAt": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "smart-innovatieve-home-hub",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dphj7fgz.json",
+      "publishAt": "2025-11-08T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "tech-accessoires-alle-details-bekijken",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dppk65p6.json",
+      "publishAt": "2025-11-08T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "19-delige-hi-spec-accuschroevendraaier-gereedschapsset-roze-",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dqcyzpd2.json",
+      "publishAt": "2025-11-08T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "8mm-messing-90-hoek-t-stuk-naar",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0drgd3tjk.json",
+      "publishAt": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "1300mah-flintronic-draadloze-boormachine-3-6v-boren",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0drs69m4p.json",
+      "publishAt": "2025-11-09T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "80mm-lamswollen-polijstopzetstuk-7-delig",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ds86ybcp.json",
+      "publishAt": "2025-11-09T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-slimme-navigatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ds95mxhl.json",
+      "publishAt": "2025-11-09T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "340w-elektrische-kolomboormachine-mini-tafelboormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dsl9zsxx.json",
+      "publishAt": "2025-11-09T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "makita-hr2670-combihamer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dt19c7jx.json",
+      "publishAt": "2025-11-09T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-stille-efficiente-reiniging",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0dtjc6czf.json",
+      "publishAt": "2025-11-09T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "flintronic-boorgeleider-houtbewerking-3-in-1-rood",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f18f34r6.json",
+      "publishAt": "2025-11-09T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "10mm-bwintech-10x-rvs-slang-barb",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f2f8by47.json",
+      "publishAt": "2025-11-09T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "6mm-bwintech-10x-rvs-slang-barb",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f2f8nm3q.json",
+      "publishAt": "2025-11-09T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bwintech-rvs-slang-barb-koppelingen-stuks",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f2f91j6f.json",
+      "publishAt": "2025-11-09T09:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "accuboormachine-21v-draadloos-metaal-boorhouder",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f2mx6r1t.json",
+      "publishAt": "2025-11-09T10:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "2200w-delphi-sds-plus-boorhamer-functies",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f3xv66l3.json",
+      "publishAt": "2025-11-09T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-gbh-18v-18-accuboorhamer-onechuck-l-boxx",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f48g7g1d.json",
+      "publishAt": "2025-11-09T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "zincline-24v-accuboormachine-set-zn-7001",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f48vvy64.json",
+      "publishAt": "2025-11-08T11:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "smart-geavanceerde-hub-voor-thuisautomatisering",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f4cd4dp7.json",
+      "publishAt": "2025-11-08T12:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "precisie-boorstandaard-verstelbaar-staande-boormachine",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f62cytzt.json",
+      "publishAt": "2025-11-08T13:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "110-delige-hi-spec-roze-accuboormachine-set-dames",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f73zvk88.json",
+      "publishAt": "2025-11-08T14:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "boorstandaard-verstelbaar-met-bekkentang",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f7hxrx97.json",
+      "publishAt": "2025-11-08T15:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "hogert-technik-accu-klopboorhamer-18v-kracht-precisie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f9fpcmrt.json",
+      "publishAt": "2025-11-08T16:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "smart-slimme-thuisbeveiliging-camera-sensoren-pakket",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0f9whg2nj.json",
+      "publishAt": "2025-11-08T17:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "alle-details-bekijken",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fbgkvtgw.json",
+      "publishAt": "2025-11-08T18:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-easydrill-18v-38-accuboormachine-accu-koffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fc6xpql1.json",
+      "publishAt": "2025-11-08T19:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "bosch-accuboorhamer-easyimpact-18v-38-opbergkoffer",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fc6yfdl7.json",
+      "publishAt": "2025-11-08T20:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "smart-geavanceerde-home-hub-12-nov",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fd8p81v1.json",
+      "publishAt": "2025-11-08T21:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "elektrische-mini-handboor-versnellingen-boren",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fdjrvslb.json",
+      "publishAt": "2025-11-08T22:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "dekopro-20v-accuboormachine-set-roze-inclusief",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0ffsblh4d.json",
+      "publishAt": "2025-11-08T23:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "precisie-boorstandaard-met-verstelbare-kop",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fg2y5j9n.json",
+      "publishAt": "2025-11-09T00:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "25-150mm-uhetlet-magnetische-schroefbitset",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fgdgt992.json",
+      "publishAt": "2025-11-09T01:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "morgen-okt",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fhqny4tw.json",
+      "publishAt": "2025-11-09T02:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "okt-nov",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fkbb5bl8.json",
+      "publishAt": "2025-11-09T03:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "verticale-boormal-set-met-zoekfunctie-voor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fkmw6d8p.json",
+      "publishAt": "2025-11-09T04:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "pro-vonroc-accuboormachine-20v-borstelloze-motor",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fknb2zc5.json",
+      "publishAt": "2025-11-09T05:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "910w-dewinner-klopboormachine-115-stuks-gereedschapskist",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fqp1mnrd.json",
+      "publishAt": "2025-11-09T06:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "gebogen-boorblok-geleider-30-45-90",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fv3qzz7c.json",
+      "publishAt": "2025-11-09T07:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "geavanceerde-robotstofzuiger-met-slimme-navigatie",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fwx9x77g.json",
+      "publishAt": "2025-11-09T08:00:00.000Z"
+    },
+    {
+      "type": "product",
+      "slug": "boorgeleider-plaatsbepaler-voor-houtbewerking",
+      "filePath": "C:\\Users\\whik\\Desktop\\amazonaffi\\data\\products\\b0fxbqgdf1.json",
+      "publishAt": "2025-11-09T09:00:00.000Z"
+    }
+  ]
+}

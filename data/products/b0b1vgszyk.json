@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -83,7 +83,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer capabele combihamer voor zwaar werk, met krachtige motor.",
     "strengths": [
       "Indrukwekkende slagkracht van 2 Joule",
@@ -131,5 +131,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:01.733400",
   "originalName": "WORX NITRO WX381.9 Accuboormachine 20 V, sluitkracht 2 J, voor boren, slagboren en beitelen, 22 mm beton, borstelloze motor, 3 boren, levering zonder accu en oplader",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T23:00:00.000Z"
 }

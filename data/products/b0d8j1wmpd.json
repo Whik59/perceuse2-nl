@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -160,5 +160,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:22.801261",
   "originalName": "Furuising 4 Stuks Steeksleuteladapter 1/4\" tot 3/8\", 3/8\" tot 1/4\", 3/8\" tot 1/2\", 1/2\" tot 3/8\", Dopsleutel Adapter, Socket Adapter en Verloop Set voor Ratels, Moeren,Ddopsleutels",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T00:00:00.000Z"
 }

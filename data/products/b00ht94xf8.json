@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -126,5 +126,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:39.415798",
   "originalName": "Einhell TC-ID 1000 E Klopboormachine | Hamerboor met hulphandvat, zachte greep, snelheidsregeling | 1010W elektrische boor met slaghamerboorfunctie, rood",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T04:00:00.000Z"
 }

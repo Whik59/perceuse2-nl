@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -153,5 +153,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:11.842875",
   "originalName": "Einhell accu boorhamer TE-HD 18/20 Li Solo Power X-Change (18 V, 1,8 J, boordiepte in beton: 20 mm, max. slagfrequentie: 4.750 s/min, SDS-Plus, zonder accu)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T02:00:00.000Z"
 }

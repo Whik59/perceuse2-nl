@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:41.540454",
   "originalName": "Black+Decker Li-Ion ultra-compacte boor (kleine accuschroevendraaier met ergonomische softgrip en led-werklicht voor boor- en schroeftoepassingen, 1 x accuboormachine Li-Ion 10,8 V) BDCDD12",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T21:00:00.000Z"
 }

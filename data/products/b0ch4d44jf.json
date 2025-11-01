@@ -44,11 +44,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -78,7 +78,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige sloophamer voor veeleisende klussen.",
     "strengths": [
       "Uitstekende slagkracht voor snelle sloopresultaten.",
@@ -123,5 +123,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:10.181026",
   "originalName": "ENEACRO SDS-Max Sloophamer voor beton, 1300 W, 20 joule, zware belasting, elektrische slaghamer, trillingscontrole, schaal van aluminiumlegering, inclusief gereedschapstas en beitels",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T06:00:00.000Z"
 }

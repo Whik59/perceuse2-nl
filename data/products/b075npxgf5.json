@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -163,5 +163,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:53.475512",
   "originalName": "DEWALT Combihamer SDS-plus 30 mm 950 Watt",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T11:00:00.000Z"
 }

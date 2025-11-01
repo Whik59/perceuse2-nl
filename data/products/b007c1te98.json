@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -76,7 +76,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer krachtige en veelzijdige boorhamer set met uitstekende prijs-kwaliteitverhouding.",
     "strengths": [
       "Indrukwekkend vermogen voor zwaar werk",
@@ -121,5 +121,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:38.362759",
   "originalName": "Einhell Boorhamerset RT-RH 32 Kit (1.250 W, 3 functies, pneumatisch slagwerk, SDS-plus-gereedschapsopname, incl. punten-/platte beitel, boorkroon, 10 boren, koffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-04T23:00:00.000Z"
 }

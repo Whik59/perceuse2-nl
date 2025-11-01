@@ -42,11 +42,11 @@
     "averageRating": 0,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -158,5 +158,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:40.619998",
   "originalName": "VONROC PRO Accuboormachine 20V – 40 Nm – Brushless motor - 17 schroefstanden + boorstand - Incl. 2 bits - Incl. 2.0Ah Accu en snellader",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T05:00:00.000Z"
 }

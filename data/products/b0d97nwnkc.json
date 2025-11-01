@@ -42,11 +42,11 @@
     "averageRating": 4.1,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -79,7 +79,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke accu boor-schroevendraaier voor thuisgebruik.",
     "strengths": [
       "Compact en lichtgewicht",
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:19.613338",
   "originalName": "WORKPRO 8V Accu Boor- en Schroevendraaier Set, Accu Schroevendraaier, 2000 mAh Accu Boormachine, 12 Nm Koppel, 10mm Boorkop, LED-Licht, Compleet Accessoireset, Zwart & Grijs",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T04:00:00.000Z"
 }

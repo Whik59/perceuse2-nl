@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -73,7 +73,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Stevige en betrouwbare RVS reductiekoppelingen.",
     "strengths": [
       "Hoge kwaliteit 304 roestvrij staal",
@@ -150,5 +150,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:14.098624",
   "originalName": "ERGAOBOY 2 stuks 1-1/4 \"x 3/4\" BSP Male koud inleidende mannelijke Reducing Hex Fittings, Stainless Steel 304 Pijp hulpstukken",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T13:00:00.000Z"
 }

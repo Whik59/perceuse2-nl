@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -165,5 +165,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:54.126428",
   "originalName": "Bosch Professional 18V System accuschroefklopboormachine GSB 18V-55 (draaimoment 55 Nm, zonder accu's en oplader, in kartonnen doos)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T08:00:00.000Z"
 }

@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -71,7 +71,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Compacte en veelzijdige mini-zuilboormachine voor diverse hobby- en knutseltoepassingen.",
     "strengths": [
       "7 snelheidsinstellingen voor precieze controle",
@@ -148,5 +148,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:09.653786",
   "originalName": "Yofuly Mini-zuilboormachine met 7 snelheden, mini-boortafel, bankboor, boormachine, mini-boormachine, elektrisch, multifunctioneel, voor knutselen, metaal, hout",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T00:00:00.000Z"
 }

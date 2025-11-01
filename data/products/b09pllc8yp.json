@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -155,5 +155,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:03.446029",
   "originalName": "Bosch Home and Garden accuboorhamer EasyImpact 18V-40 (1 accu 2,0 Ah, 18 Volt System, in opbergkoffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T16:00:00.000Z"
 }

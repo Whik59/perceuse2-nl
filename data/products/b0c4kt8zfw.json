@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -79,7 +79,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige accuboorhamer voor diverse toepassingen.",
     "strengths": [
       "Borstelloze motor voor efficiëntie en levensduur",
@@ -157,5 +157,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:10.925729",
   "originalName": "Avhrit 2023 Accuboorhamer, bijgewerkt, met 2 draagbare lithium-accu's (21 V), borstelloze motor, 3 functies voor privé- en professioneel gebruik.",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T20:00:00.000Z"
 }

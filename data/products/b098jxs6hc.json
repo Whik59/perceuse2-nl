@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -78,7 +78,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke klopboormachine voor thuisgebruik met goede prijs-kwaliteitverhouding.",
     "strengths": [
       "Krachtige 630W motor",
@@ -157,5 +157,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:00.730812",
   "originalName": "Bosch elektrische klopboormachine EasyImpact 630 (630 watt, in opbergkoffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T07:00:00.000Z"
 }

@@ -81,51 +81,63 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
     loadCart();
   }, []);
 
-  // Load category images
+  // Load category images using batch API call
   useEffect(() => {
     const loadCategoryImages = async () => {
       setIsLoadingCategories(true);
-       const topCategories = categories.slice(0, 20); // Get first 20 categories
-      const categoriesWithImages: CategoryWithImage[] = [];
+      const topCategories = categories.slice(0, 20); // Get first 20 categories
+      
+      try {
+        // Batch API call to fetch all category images at once
+        const categoryIds = topCategories
+          .filter(cat => cat.categoryId !== undefined)
+          .map(cat => cat.categoryId!);
+        
+        if (categoryIds.length === 0) {
+          setIsLoadingCategories(false);
+          return;
+        }
 
-      for (const category of topCategories) {
-        try {
-          let imageUrl = '';
-          let hasImage = false;
+        const response = await fetch('/api/categories/images', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ categoryIds }),
+        });
+
+        if (response.ok) {
+          const imagesMap: Record<number, string | null> = await response.json();
           
-          // Try to find a product image from this category
-          try {
-            const response = await fetch(`/api/products/by-category/${category.categoryId}`);
-            
-            if (response.ok) {
-              const products = await response.json();
-              
-              if (products.length > 0 && products[0].imagePaths?.length > 0) {
-                imageUrl = products[0].imagePaths[0];
-                hasImage = true;
-              }
-            }
-          } catch (error) {
-            console.error(`Error loading products for category ${category.categoryId}:`, error);
-          }
-          
-          categoriesWithImages.push({
-            ...category,
-            imageUrl,
-            hasImage
+          const categoriesWithImages: CategoryWithImage[] = topCategories.map((category) => {
+            const imageUrl = category.categoryId ? imagesMap[category.categoryId] || '' : '';
+            return {
+              ...category,
+              imageUrl: imageUrl || '',
+              hasImage: !!imageUrl
+            };
           });
-        } catch (error) {
-          console.error(`Error loading image for category ${category.categoryId}:`, error);
-          categoriesWithImages.push({
-            ...category,
+
+          setCategoriesWithImages(categoriesWithImages);
+        } else {
+          // Fallback: set categories without images
+          setCategoriesWithImages(topCategories.map(cat => ({
+            ...cat,
             imageUrl: '',
             hasImage: false
-          });
+          })));
         }
+      } catch (error) {
+        console.error('Error loading category images:', error);
+        // Fallback: set categories without images
+        setCategoriesWithImages(topCategories.map(cat => ({
+          ...cat,
+          imageUrl: '',
+          hasImage: false
+        })));
+      } finally {
+        setIsLoadingCategories(false);
       }
-
-      setCategoriesWithImages(categoriesWithImages);
-      setIsLoadingCategories(false);
     };
 
     if (categories.length > 0) {

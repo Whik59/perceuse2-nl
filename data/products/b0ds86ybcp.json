@@ -20,7 +20,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "80 mm lamswollen kap, 7-delig polijstopzetstuk voor accuschroevendraaier, slijpopzetstuk voor accuschroevendraaier, polijstpads, wol, polijstopzetstuk, accuschroevendraaierset voor polijstmachine,",
   "amazonPrice": "5.0€",
-  "amazonRating": 5.0,
+  "amazonRating": 5,
   "amazonReviewCount": 0,
   "brand": "Merk: Sivono",
   "seo": {
@@ -35,14 +35,14 @@
     "ogDescription": "7-delige 80mm lamswollen polijstopzetstuk voor accuschroevendraaier. Professionele glans."
   },
   "reviews": {
-    "averageRating": 5.0,
+    "averageRating": 5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -151,5 +151,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:24.544197",
   "originalName": "80 mm lamswollen kap, 7-delig polijstopzetstuk voor accuschroevendraaier, slijpopzetstuk voor accuschroevendraaier, polijstpads, wol, polijstopzetstuk, accuschroevendraaierset voor polijstmachine,",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T01:00:00.000Z"
 }

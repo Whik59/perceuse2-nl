@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -78,7 +78,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige klopboormachine voor een uitstekende prijs.",
     "strengths": [
       "Sterke 850W motor voor efficiënt boren.",
@@ -157,5 +157,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:52.622223",
   "originalName": "BEH850K Klopboormachine, 850W, 1-versnelling, klopboormachine, 13 mm snelspanboorhouder, constante rechts-/linksloop, rubberen greep, dubbele handgreep, incl. 3x HSS-boor, 3x steenboor, in koffer",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T21:00:00.000Z"
 }

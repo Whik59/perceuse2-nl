@@ -38,11 +38,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -153,5 +153,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:02.746270",
   "originalName": "WORX Borstelloze accuboormachine, 20 V, WX381, 2 J, 3-in-1, boren, boren, beitelen in alle materialen, trillingsbescherming, levering met 1 accu 4 Ah, oplader en accessoires",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T22:00:00.000Z"
 }

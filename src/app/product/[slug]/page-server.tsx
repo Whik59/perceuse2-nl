@@ -63,17 +63,20 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 
 // Generate static params for all products
 export async function generateStaticParams() {
-  const products = getProducts();
+  const products = getProducts(); // This now only returns published products
   
   return products.map((product) => ({
     slug: product.slug,
   }));
 }
 
+// Revalidate every 24 hours (86400 seconds)
+export const revalidate = 86400;
+
 const ProductPage = async ({ params }: ProductPageProps) => {
   const product = getProductBySlug(params.slug);
   
-  if (!product) {
+  if (!product || (product.publishAt && new Date(product.publishAt) > new Date())) {
     notFound();
   }
 

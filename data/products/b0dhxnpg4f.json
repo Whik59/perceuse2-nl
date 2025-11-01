@@ -42,11 +42,11 @@
     "averageRating": 4.3,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -164,5 +164,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.469040",
   "originalName": "Accuschroefboormachine 21V Brushless, Draadloze Accuboormachine met 2x2000mAh Accu’s & Snellader, 65Nm Koppel, 20+3 Standen, 2 Snelheden, LED, 46-delige Borenset voor Thuis & Klussen",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T10:00:00.000Z"
 }

@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:01.413752",
   "originalName": "Bosch Professional boorhamer GBH 2-21 (met SDS plus, incl. 3x boor SDS plus (6/8/10 mm), extra handgreep, machinedoek, diepteaanslag, in opbergkoffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T00:00:00.000Z"
 }

@@ -42,11 +42,11 @@
     "averageRating": 3.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -72,7 +72,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Solide en veelzijdige boorstandaard die de nauwkeurigheid verbetert.",
     "strengths": [
       "Verstelbare hoogte voor diverse toepassingen",
@@ -118,5 +118,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:37.765731",
   "originalName": "Boorstandaard met verstelbare hoogte en platte bekkentang, staande boormachine, staande boormachine, boorstandaard, boorstandaard",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T15:00:00.000Z"
 }

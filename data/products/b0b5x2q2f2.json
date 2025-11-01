@@ -42,11 +42,11 @@
     "averageRating": 4.1,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -157,5 +157,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:04.674413",
   "originalName": "Panasonic BC 1000 eneloop Basic USB lader, voor 2 of 4 AA/AAA NiMH-batterijen, met 6 veiligheidsfuncties & micro USB-laadkabel,Blauw",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T03:00:00.000Z"
 }

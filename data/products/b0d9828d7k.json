@@ -39,11 +39,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -77,7 +77,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke en veelzijdige accuboormachine voor thuisgebruik.",
     "strengths": [
       "Krachtig borstelloos motor",
@@ -155,5 +155,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.471857",
   "originalName": "HYCHIKA Accuboormachine, borstelloze accuschroevendraaier, max. 45 Nm, met 23 + 1 draaimomentniveaus, 53 stuks accessoires, 2 versnellingen, ledlicht, 1500 mAh accuboor voor huis en tuin, doe-het-zelf",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T05:00:00.000Z"
 }

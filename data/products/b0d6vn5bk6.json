@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -149,5 +149,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:16.655237",
   "originalName": "Acculader voor auto's, 12 V, 6 A, intelligente auto-acculader, acculader met temperatuurcompensatie en reparatiemodus, oplader voor motoraccu voor vrachtwagen, grasmaaier",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T20:00:00.000Z"
 }

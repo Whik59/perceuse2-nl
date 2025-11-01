@@ -20,7 +20,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "2000 W boorhamer, slagboormachine met koffer, boor, beitel",
   "amazonPrice": "102.0€",
-  "amazonRating": 5.0,
+  "amazonRating": 5,
   "amazonReviewCount": 0,
   "brand": "Merk: DIFU",
   "seo": {
@@ -35,14 +35,14 @@
     "ogDescription": "2000W Boorhamer Slagboormachine, Koffer, Boor, Beitels - Kracht & Precisie"
   },
   "reviews": {
-    "averageRating": 5.0,
+    "averageRating": 5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -147,5 +147,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:52.713451",
   "originalName": "2000 W boorhamer, slagboormachine met koffer, boor, beitel",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T15:00:00.000Z"
 }

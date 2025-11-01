@@ -42,11 +42,11 @@
     "averageRating": 0,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -71,7 +71,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Een krachtige en veelzijdige accuslagboorhamer voor een scherpe prijs.",
     "strengths": [
       "Goede prijs-kwaliteitverhouding",
@@ -119,5 +119,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:36.320101",
   "originalName": "HÖGERT TECHNIK Accu-klopboorhamer 18V, 1,5 J pneumatische slagaandrijving, 5100 IPM, SDS+ boorhouder, ledverlichting, ideaal voor metselwerk, hout en metaal + Promo 2,0 Ah accu",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T16:00:00.000Z"
 }

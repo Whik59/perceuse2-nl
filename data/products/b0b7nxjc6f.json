@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "Metabo accu-combihamer KH 18 LTX BL 24-18 V, 2,2 J slagenergie, SDS-Plus - 3 functies: boren, borstelloze motor, hamerboren, beitelen, trillingsdemping, LED-lamp, stofvrij boren (601712840)",
   "amazonPrice": "266.0€",
-  "amazonRating": 5.0,
+  "amazonRating": 5,
   "amazonReviewCount": 0,
   "brand": "Merk: metabo",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "Metabo KH 18 LTX BL 24 accu-combihamer: 2,2J, borstelloos, SDS-Plus, 3 functies. Kracht & comfort."
   },
   "reviews": {
-    "averageRating": 5.0,
+    "averageRating": 5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -196,5 +196,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:13.205683",
   "originalName": "Metabo accu-combihamer KH 18 LTX BL 24-18 V, 2,2 J slagenergie, SDS-Plus - 3 functies: boren, borstelloze motor, hamerboren, beitelen, trillingsdemping, LED-lamp, stofvrij boren (601712840)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T06:00:00.000Z"
 }

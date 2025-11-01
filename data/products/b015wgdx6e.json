@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -84,7 +84,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer complete en krachtige 12V accuschroefboormachine voor diverse klussen.",
     "strengths": [
       "Compact en lichtgewicht ontwerp",
@@ -130,5 +130,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:39.945217",
   "originalName": "Bosch Professional 12V System accuschroefboormachine GSR 12V-15 met 2 x accu 2,0 Ah, oplader, 39-dlg. accessoireset, tas - Amazon Exclusive-set",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T20:00:00.000Z"
 }

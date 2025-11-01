@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "kwb Boorstandaard voor boormachines met 43 mm euro hals of 43 mm handgreephouder, mobiele boorvoor accuschroevendraaiers met bijpassende houder, mobiele boorstandaard voor rechte en schuine gaten",
   "amazonPrice": "17.0€",
-  "amazonRating": 4.0,
+  "amazonRating": 4,
   "amazonReviewCount": 0,
   "brand": "Merk: kwb",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "kwb Boorstandaard 43mm Eurohals/Greep. Mobiel. Rechte & schuine gaten."
   },
   "reviews": {
-    "averageRating": 4.0,
+    "averageRating": 4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -77,7 +77,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke en veelzijdige boorstandaard voor precisiewerk.",
     "strengths": [
       "Goede compatibiliteit met diverse boormachines.",
@@ -154,5 +154,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:40.907139",
   "originalName": "kwb Boorstandaard voor boormachines met 43 mm euro hals of 43 mm handgreephouder, mobiele boorvoor accuschroevendraaiers met bijpassende houder, mobiele boorstandaard voor rechte en schuine gaten",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-04T18:00:00.000Z"
 }

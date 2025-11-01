@@ -42,11 +42,11 @@
     "averageRating": 3.1,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -134,5 +134,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.468523",
   "originalName": "Flintronic Draadloze boormachine, 3,5 Nm, schroevendraaier, 1300 mAh, 3,6 V + 10 boren, 2 draairichtingen + ledlamp, USB-oplaadkabel, ideaal voor ambachtslieden, installatie van meubels en speelgoed",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T00:00:00.000Z"
 }

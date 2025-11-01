@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "Bosch Professional 06011B2000 GBM 13-2 RE boormachine, snelspanboorhouder 13 mm, 750 W, 230 V, zwart, blauw, grijs",
   "amazonPrice": "210.0€",
-  "amazonRating": 5.0,
+  "amazonRating": 5,
   "amazonReviewCount": 0,
   "brand": "De Bosch Professional Store openen",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "Bosch GBM 13-2 RE 750W boormachine. Snelspanboorhouder 13mm. Krachtig en duurzaam."
   },
   "reviews": {
-    "averageRating": 5.0,
+    "averageRating": 5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -164,5 +164,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:41.656407",
   "originalName": "Bosch Professional 06011B2000 GBM 13-2 RE boormachine, snelspanboorhouder 13 mm, 750 W, 230 V, zwart, blauw, grijs",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T16:00:00.000Z"
 }

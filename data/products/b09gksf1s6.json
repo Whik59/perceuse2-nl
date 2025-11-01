@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:02.653181",
   "originalName": "WORX Nitro - Borstelloze accuschroefboormachine 20 V-2 Ah - 60 Nm ø13 mm - WX102.9 (levering zonder accu en oplader, 3 schroef-/booraccessoires)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T11:00:00.000Z"
 }

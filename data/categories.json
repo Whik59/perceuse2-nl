@@ -9,27 +9,37 @@
         "slug": "accuboormachine-sets",
         "name": "Accuboormachine Sets (met Accu & Lader)",
         "categoryNameCanonical": "Accuboormachine Sets (met Accu & Lader)",
-        "description": "Complete sets inclusief een of meerdere accu's en een oplader, zodat u direct aan de slag kunt."
+        "description": "Complete sets inclusief een of meerdere accu's en een oplader, zodat u direct aan de slag kunt.",
+        "publish": false,
+        "publishAt": "2025-11-01T09:00:00.000Z"
       },
       {
         "slug": "accu-klopboormachines",
         "name": "Accu Klopboormachines",
         "categoryNameCanonical": "Accu Klopboormachines",
-        "description": "Krachtige draadloze modellen met een klopfunctie voor het boren in steen en licht metselwerk."
+        "description": "Krachtige draadloze modellen met een klopfunctie voor het boren in steen en licht metselwerk.",
+        "publish": false,
+        "publishAt": "2025-11-01T10:00:00.000Z"
       },
       {
         "slug": "compacte-accuboormachines",
         "name": "Compacte Accuboormachines",
         "categoryNameCanonical": "Compacte Accuboormachines",
-        "description": "Lichtgewicht en compacte modellen, ideaal voor werken in krappe ruimtes of boven het hoofd."
+        "description": "Lichtgewicht en compacte modellen, ideaal voor werken in krappe ruimtes of boven het hoofd.",
+        "publish": false,
+        "publishAt": "2025-11-01T11:00:00.000Z"
       },
       {
         "slug": "losse-accus-en-laders",
         "name": "Losse Accu's en Laders",
         "categoryNameCanonical": "Losse Accu's en Laders",
-        "description": "Extra of vervangende accu's en opladers om uw werktijd te verlengen en compatibiliteit te garanderen."
+        "description": "Extra of vervangende accu's en opladers om uw werktijd te verlengen en compatibiliteit te garanderen.",
+        "publish": false,
+        "publishAt": "2025-11-01T12:00:00.000Z"
       }
-    ]
+    ],
+    "publish": false,
+    "publishAt": "2025-11-01T08:00:00.000Z"
   },
   {
     "slug": "gesnoerde-boormachines",
@@ -41,21 +51,29 @@
         "slug": "boormachines-hoog-vermogen",
         "name": "Boormachines met Hoog Vermogen (800W+)",
         "categoryNameCanonical": "Boormachines met Hoog Vermogen (800W+)",
-        "description": "Krachtige modellen met een hoog wattage voor de meest veeleisende boorklussen in harde materialen."
+        "description": "Krachtige modellen met een hoog wattage voor de meest veeleisende boorklussen in harde materialen.",
+        "publish": false,
+        "publishAt": "2025-11-02T09:00:00.000Z"
       },
       {
         "slug": "klopboormachines-met-snoer",
         "name": "Klopboormachines met Snoer",
         "categoryNameCanonical": "Klopboormachines met Snoer",
-        "description": "Modellen met een inschakelbare klopfunctie voor effectief boren in metselwerk en steen."
+        "description": "Modellen met een inschakelbare klopfunctie voor effectief boren in metselwerk en steen.",
+        "publish": false,
+        "publishAt": "2025-11-02T10:00:00.000Z"
       },
       {
         "slug": "boormachines-voor-hout-en-metaal",
         "name": "Boormachines voor Hout en Metaal",
         "categoryNameCanonical": "Boormachines voor Hout en Metaal",
-        "description": "Standaard boormachines geoptimaliseerd voor precieze en schone boorgaten in hout en diverse metalen."
+        "description": "Standaard boormachines geoptimaliseerd voor precieze en schone boorgaten in hout en diverse metalen.",
+        "publish": false,
+        "publishAt": "2025-11-02T11:00:00.000Z"
       }
-    ]
+    ],
+    "publish": false,
+    "publishAt": "2025-11-02T08:00:00.000Z"
   },
   {
     "slug": "boorhamers-voor-zwaar-werk",
@@ -67,21 +85,29 @@
         "slug": "boorhamers-voor-beton",
         "name": "Boorhamers voor Beton",
         "categoryNameCanonical": "Boorhamers voor Beton",
-        "description": "Krachtige boorhamers met pneumatisch mechanisme, specifiek voor het boren van grote gaten in beton."
+        "description": "Krachtige boorhamers met pneumatisch mechanisme, specifiek voor het boren van grote gaten in beton.",
+        "publish": false,
+        "publishAt": "2025-11-03T08:00:00.000Z"
       },
       {
         "slug": "combihamers-boren-en-beitelen",
         "name": "Combihamers (Boren en Beitelen)",
         "categoryNameCanonical": "Combihamers (Boren en Beitelen)",
-        "description": "Veelzijdige machines die kunnen boren, hamerboren en beitelen voor sloop- en renovatiewerk."
+        "description": "Veelzijdige machines die kunnen boren, hamerboren en beitelen voor sloop- en renovatiewerk.",
+        "publish": false,
+        "publishAt": "2025-11-03T09:00:00.000Z"
       },
       {
         "slug": "accu-boorhamers",
         "name": "Accu Boorhamers",
         "categoryNameCanonical": "Accu Boorhamers",
-        "description": "Draadloze boorhamers die de kracht van een gesnoerd model combineren met de vrijheid van een accu."
+        "description": "Draadloze boorhamers die de kracht van een gesnoerd model combineren met de vrijheid van een accu.",
+        "publish": false,
+        "publishAt": "2025-11-03T10:00:00.000Z"
       }
-    ]
+    ],
+    "publish": false,
+    "publishAt": "2025-11-02T12:00:00.000Z"
   },
   {
     "slug": "boormachine-accessoires",
@@ -93,26 +119,36 @@
         "slug": "boren-en-bitsets",
         "name": "Boren- en Bitsets",
         "categoryNameCanonical": "Boren- en Bitsets",
-        "description": "Uitgebreide sets met diverse maten boren en schroefbitjes voor hout, metaal, steen en universeel gebruik."
+        "description": "Uitgebreide sets met diverse maten boren en schroefbitjes voor hout, metaal, steen en universeel gebruik.",
+        "publish": false,
+        "publishAt": "2025-11-03T12:00:00.000Z"
       },
       {
         "slug": "boorborstels-en-polijstpads",
         "name": "Boorborstels en Polijstpads",
         "categoryNameCanonical": "Boorborstels en Polijstpads",
-        "description": "Opzetstukken voor het reinigen van hardnekkig vuil, ontroesten van metaal of het polijsten van oppervlakken."
+        "description": "Opzetstukken voor het reinigen van hardnekkig vuil, ontroesten van metaal of het polijsten van oppervlakken.",
+        "publish": false,
+        "publishAt": "2025-11-04T08:00:00.000Z"
       },
       {
         "slug": "speciale-adapters-en-hulpstukken",
         "name": "Speciale Adapters en Hulpstukken",
         "categoryNameCanonical": "Speciale Adapters en Hulpstukken",
-        "description": "Adapters, bithouders, haakse opzetstukken en stofafzuiging om de veelzijdigheid van uw machine te vergroten."
+        "description": "Adapters, bithouders, haakse opzetstukken en stofafzuiging om de veelzijdigheid van uw machine te vergroten.",
+        "publish": false,
+        "publishAt": "2025-11-04T09:00:00.000Z"
       },
       {
         "slug": "boorstatieven-en-geleiders",
         "name": "Boorstatieven en Geleiders",
         "categoryNameCanonical": "Boorstatieven en Geleiders",
-        "description": "Hulpmiddelen voor het garanderen van perfect rechte en precieze boorgaten, ideaal voor werkplaatsgebruik."
+        "description": "Hulpmiddelen voor het garanderen van perfect rechte en precieze boorgaten, ideaal voor werkplaatsgebruik.",
+        "publish": false,
+        "publishAt": "2025-11-04T10:00:00.000Z"
       }
-    ]
+    ],
+    "publish": false,
+    "publishAt": "2025-11-03T11:00:00.000Z"
   }
 ]

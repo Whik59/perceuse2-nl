@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "POWER plus POWC1071 Accuschroevendraaier & accuboormachine, accuschroevendraaier en boor 20 V, bevat 1 x 1,3 Ah accu en oplader, gereedschapskoffer, voor hout, steen en metaal, elektrische boormachine",
   "amazonPrice": "39.0€",
-  "amazonRating": 4.0,
+  "amazonRating": 4,
   "amazonReviewCount": 0,
   "brand": "Merk: POWERPLUS",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "20V Accuschroefboormachine POWERplus POWC1071: hout, steen, metaal. Inclusief accu, koffer."
   },
   "reviews": {
-    "averageRating": 4.0,
+    "averageRating": 4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -91,7 +91,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke en veelzijdige accuschroefboormachine voor huis-tuin-en-keuken klussen.",
     "strengths": [
       "Krachtige 20V motor",
@@ -168,5 +168,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:51.861940",
   "originalName": "POWER plus POWC1071 Accuschroevendraaier & accuboormachine, accuschroevendraaier en boor 20 V, bevat 1 x 1,3 Ah accu en oplader, gereedschapskoffer, voor hout, steen en metaal, elektrische boormachine",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T17:00:00.000Z"
 }

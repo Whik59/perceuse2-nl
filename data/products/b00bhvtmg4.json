@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:40.787488",
   "originalName": "Makita HR2600/2 boormachine, 800 W, 240 V",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T02:00:00.000Z"
 }

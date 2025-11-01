@@ -38,11 +38,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -76,7 +76,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Een prima compacte schroefboormachine voor lichte klussen.",
     "strengths": [
       "Compact en lichtgewicht",
@@ -122,5 +122,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:59.664206",
   "originalName": "WORX - Accuschroefboormachine 20V - WX100.9 - ø10mm - 30Nm (Levering zonder accu en oplader, draagtas, dubbel schroefopzetstuk, ideaal voor kleine werkzaamheden) zwart",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T21:00:00.000Z"
 }

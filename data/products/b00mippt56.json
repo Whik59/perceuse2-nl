@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -168,5 +168,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:41.557375",
   "originalName": "Worx WX333 klopboorhamer 1250 W voor hamerboren, boren en beitelen – krachtige SDS plus hamerboor met antivibratiehandgreep – 5 joule enkele slagkracht",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T10:00:00.000Z"
 }

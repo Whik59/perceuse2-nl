@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -164,5 +164,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:11.426297",
   "originalName": "VEVOR Sloophamer, 2200 W, boorhamer, 66 J 1350 BPM, boorhamer met 6 verwisselbare beitels, 360 graden draaibare handgreep, anti-trilling, betonbreker voor beitelen, bouw, loodgieterswerk",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T13:00:00.000Z"
 }

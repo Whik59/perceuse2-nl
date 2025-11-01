@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -129,5 +129,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:09.789432",
   "originalName": "ENEACRO SDS-Plus Boorhamer, 7 Joule 1500 W breekhamer met 4 functies, anti-vibratiegreep en veiligheidskoppeling, 32 mm boorcapaciteit in beton, met boor en beitel, gereedschapspakket",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T04:00:00.000Z"
 }

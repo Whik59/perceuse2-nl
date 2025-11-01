@@ -42,11 +42,11 @@
     "averageRating": 4.2,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -136,5 +136,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:12.618658",
   "originalName": "Snelspanboorhouder 1-16 mm, B16 boorkop Mk2, boorkopadapter, kegeldoorn met uitstrippers, mini-boorhouder MK2 voor draaimachine boormachine",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T16:00:00.000Z"
 }

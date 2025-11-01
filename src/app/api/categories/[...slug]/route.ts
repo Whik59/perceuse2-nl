@@ -17,7 +17,13 @@ export async function GET(
     const category = allCategories.find((cat) => cat.slug === fullSlug);
     
     if (category) {
-      return NextResponse.json(category);
+      return NextResponse.json(category, {
+        headers: {
+          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+          'CDN-Cache-Control': 'public, s-maxage=86400',
+          'Vercel-CDN-Cache-Control': 'public, s-maxage=86400',
+        }
+      });
     }
     
     return NextResponse.json({ error: 'Category not found' }, { status: 404 });

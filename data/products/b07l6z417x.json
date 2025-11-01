@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -161,5 +161,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:52.811757",
   "originalName": "Einhell Accu Boor-/ Schroefmachine TE-CD 18/40 Li-Solo Power X-Change, Li-Ion, 18 V, max. 40 Nm, 2-versnellingsbak, snelheidselektronica, softgrip, zonder accu en lader",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T00:00:00.000Z"
 }

@@ -42,11 +42,11 @@
     "averageRating": 4.1,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -154,5 +154,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:56.027616",
   "originalName": "Multifunctionele, draadloze roterende elektrische miniboormachine met USB en variabele snelheid, graveerpen, slijpset voor polijsten/snijden/snijden/reinigen/slijpen, doe-het-zelf-gereedschapsset",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T18:00:00.000Z"
 }

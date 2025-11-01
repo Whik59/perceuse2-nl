@@ -1,8 +1,12 @@
 import { NextResponse } from 'next/server';
 import { getCategories } from '../../../../lib/getCategories';
 
+// Use Node.js runtime (needed for file system)
+export const runtime = 'nodejs';
+
 export async function GET() {
   try {
+    // getCategories already has caching built-in
     const categories = await getCategories();
     return NextResponse.json(categories, {
       headers: {

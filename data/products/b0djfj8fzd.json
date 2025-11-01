@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -156,5 +156,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.480527",
   "originalName": "12 V accuschroevendraaierset, accuboormachine met 2 accu's en oplader, 25 + 1 draaimomentniveaus, 45 N.m Max slagboorschroevendraaier, 2 versnellingen en led, accuboor met 25 accessoires,",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T11:00:00.000Z"
 }

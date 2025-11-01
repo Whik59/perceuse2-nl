@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -157,5 +157,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:14.103606",
   "originalName": "ERGAOBOY 2 stuks 304 roestvrij staal Reducer Hex Bushing, 1/2\" BSP Male naar 1/8\" BSP vrouwelijke buis, verminderen Adapter Fitting Converter",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T12:00:00.000Z"
 }

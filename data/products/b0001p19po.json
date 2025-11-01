@@ -42,11 +42,11 @@
     "averageRating": 3.9,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -156,5 +156,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:41.173654",
   "originalName": "wolfcraft Mobiele boorstandaard tecmobil I 4522000 I Voor veilig mobiel boren",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-04T11:00:00.000Z"
 }

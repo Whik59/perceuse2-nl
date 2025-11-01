@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -156,5 +156,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:10.226220",
   "originalName": "Vervangende Oplader DC18RC DC18RA Accu Snellader voor Makita 14.4V~18V Li-Ion Schuif accu's BL1440 BL1815 BL1830 BL 1840 BL 1850 BL1860 met LCD display",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T15:00:00.000Z"
 }

@@ -42,11 +42,11 @@
     "averageRating": 4.8,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -87,7 +87,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige borstelloze accuboorhamer, ideaal voor diverse klussen.",
     "strengths": [
       "Compatibel met Makita 18V accu's",
@@ -166,5 +166,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.779691",
   "originalName": "Accuboorhamer, compatibel met Makita 18 V lithium-ion accu, borstelloze combihamer, slagboormachine, 3 functies: boren, hamerboren, beitel, met 6-delige boorbeitelset (zonder accu)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T02:00:00.000Z"
 }

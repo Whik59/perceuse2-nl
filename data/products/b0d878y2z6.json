@@ -38,11 +38,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -78,7 +78,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer capabele 2-in-1 accu-tool voor diverse klussen.",
     "strengths": [
       "Sterke prestaties met 50 Nm koppel",
@@ -156,5 +156,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:20.665196",
   "originalName": "Gisam 16,8 V accuschroevendraaier & accuboormachine, 2-in-1 accuboorset, Max 50 Nm accuboormachine met 2 x 2000 mAh accu, 23 + 1 treden (2-met 2 accu's)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T23:00:00.000Z"
 }

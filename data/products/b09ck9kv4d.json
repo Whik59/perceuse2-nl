@@ -38,11 +38,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -153,5 +153,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:02.029196",
   "originalName": "IMREN 18650 battery charger, Universele batterijlader voor 18650 met 2 Ssloten batterij lader voor Li-ION 3,7V 18650 18490 18350 18500 17500 14500 20700 21700 26650 Lithium batterij (met USB-C)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T10:00:00.000Z"
 }

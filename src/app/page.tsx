@@ -46,6 +46,9 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 }
 
+// Revalidate every 24 hours (86400 seconds)
+export const revalidate = 86400;
+
 const HomePage = async () => {
   // Fetch data on the server
   const products: Product[] = getProducts();

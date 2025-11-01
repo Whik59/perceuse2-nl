@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "TROTEC PRDS 10-20V Accu boorhamer hoog vermogen voor een lage prijs - krachtig schroeven, boren en klopboren",
   "amazonPrice": "52.0€",
-  "amazonRating": 4.0,
+  "amazonRating": 4,
   "amazonReviewCount": 0,
   "brand": "Merk: TROTEC",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "TROTEC PRDS 10-20V: Krachtige accu boorhamer. Schroeven, boren, klopboren. Lage prijs."
   },
   "reviews": {
-    "averageRating": 4.0,
+    "averageRating": 4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -81,7 +81,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige accu boorhamer met uitstekende prijs-kwaliteitverhouding.",
     "strengths": [
       "Hoge boor- en klopkracht",
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:52.804264",
   "originalName": "TROTEC PRDS 10-20V Accu boorhamer hoog vermogen voor een lage prijs - krachtig schroeven, boren en klopboren",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T13:00:00.000Z"
 }

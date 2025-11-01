@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -160,5 +160,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:51.266323",
   "originalName": "Bosch Professional klopboormachine GSB 24-2 vermogen 1100 watt, max. koppel: 40/14,5 Nm, met snelspanboorhouder, extra handgreep, diepteaanslag, L-Case",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T16:00:00.000Z"
 }

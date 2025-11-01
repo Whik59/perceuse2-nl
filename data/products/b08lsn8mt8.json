@@ -42,11 +42,11 @@
     "averageRating": 4.3,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -79,7 +79,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Uitstekende en veelzijdige polijstset voor autodetailers.",
     "strengths": [
       "Complete set met diverse padsoorten",
@@ -124,5 +124,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:55.969325",
   "originalName": "Kshineni Auto Polijstspons 11 Stuks 80mm Polijstset Polijstpad Set Handpolijstpads, Sponzen, Wol Polijstschijf voor Polijstmachine Polijstvacht Polijstkap Polijstpad Boormachine Adapter",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T20:00:00.000Z"
 }

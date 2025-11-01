@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -82,7 +82,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke accu-combihamer voor diverse klussen.",
     "strengths": [
       "Veelzijdig inzetbaar (boren, slagboren, lichte beitelwerkzaamheden)",
@@ -160,5 +160,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:54.295122",
   "originalName": "Black+Decker 18V SDS-plus accu-combihamer (1,2 joule, voor effectief boren, slagboren en lichte beitelwerkzaamheden, led-werklamp, 1 x 6 mm boor, levering zonder accu en oplader) BCD900B",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T10:00:00.000Z"
 }

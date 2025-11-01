@@ -38,11 +38,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -67,7 +67,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Essentiële set voor gereedschapskist",
     "strengths": [
       "Robuust chroom-vanadium staal",
@@ -144,5 +144,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:57.404126",
   "originalName": "4 Stuk Socket Adapter 1/4\" tot 3/8\", 3/8\" tot 1/4\", 3/8\" tot 1/2\", 1/2\" tot 3/8\" Reducer Set Drive Conversies Chrome Vanadium Staal",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T17:00:00.000Z"
 }

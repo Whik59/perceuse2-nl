@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -153,5 +153,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:00.250456",
   "originalName": "SPTA Polijstspons Set, 43 Stuks 30mm, 50mm, 80mm Polijstpads, Wol Polijstschijven, Auto Sponzen Pads Polijst met Achterplaat Dille Adapter, voor accuschroevendraaiers, Polijstmachine, Slijpen en Waxen",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T22:00:00.000Z"
 }

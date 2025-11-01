@@ -1,10 +1,26 @@
 import fs from 'fs';
 import path from 'path';
 import { Category, SubCategory } from './types';
+import { memoryCache, CACHE_KEYS } from './cache';
 
 const categoriesFilePath = path.join(process.cwd(), 'data/categories.json');
 
-export const getCategories = async (): Promise<Category[]> => {
+// Helper to check if an item is published
+const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
+  if (item.publish === false) return false; // Explicitly unpublished
+  if (item.publishAt && new Date(item.publishAt) > new Date()) {
+    return false; // Scheduled for the future
+  }
+  return true;
+};
+
+export const getCategories = async (includeUnpublished = false): Promise<Category[]> => {
+  // Check cache first (reduces CPU significantly)
+  const cached = memoryCache.get<Category[]>(CACHE_KEYS.CATEGORIES_LIST);
+  if (cached) {
+    return cached;
+  }
+
   try {
     const fileContents = await fs.promises.readFile(categoriesFilePath, 'utf8');
     const rawCategories = JSON.parse(fileContents);
@@ -28,7 +44,9 @@ export const getCategories = async (): Promise<Category[]> => {
         level: 0,
         description: rawCategory.description,
         name: rawCategory.name,
-        subcategories: rawCategory.subcategories || []
+        subcategories: rawCategory.subcategories || [],
+        publish: rawCategory.publish,
+        publishAt: rawCategory.publishAt,
       };
 
       categories.push(mainCategory);
@@ -43,14 +61,22 @@ export const getCategories = async (): Promise<Category[]> => {
             slug: `${rawCategory.slug}/${subcat.slug}`, // Hierarchical slug
             level: 1,
             description: subcat.description,
-            name: subcat.name
+            name: subcat.name,
+            publish: subcat.publish,
+            publishAt: subcat.publishAt,
           };
           categories.push(subcategory);
         });
       }
     });
 
-    return categories;
+    // Cache the result for 10 minutes
+    memoryCache.set(CACHE_KEYS.CATEGORIES_LIST, categories, 10 * 60 * 1000);
+
+    if (includeUnpublished) {
+      return categories;
+    }
+    return categories.filter(isPublished);
   } catch (error) {
     console.error('Error fetching categories:', error);
     return []; // Return empty array on error
@@ -58,6 +84,13 @@ export const getCategories = async (): Promise<Category[]> => {
 };
 
 export const getCategoryBySlug = (slug: string): Category | null => {
+  // Check cache first
+  const cacheKey = CACHE_KEYS.CATEGORY_BY_SLUG(slug);
+  const cached = memoryCache.get<Category>(cacheKey);
+  if (cached) {
+    return cached;
+  }
+
   try {
     const fileContents = fs.readFileSync(categoriesFilePath, 'utf8');
     const rawCategories = JSON.parse(fileContents);
@@ -104,7 +137,14 @@ export const getCategoryBySlug = (slug: string): Category | null => {
     });
 
     // Find category by slug
-    return categories.find(cat => cat.slug === slug) || null;
+    const category = categories.find(cat => cat.slug === slug) || null;
+    
+    // Cache the result
+    if (category) {
+      memoryCache.set(cacheKey, category, 10 * 60 * 1000);
+    }
+    
+    return category;
   } catch (error) {
     console.error('Error fetching category by slug:', error);
     return null;

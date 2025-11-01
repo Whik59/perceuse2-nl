@@ -30,7 +30,13 @@ export async function GET(request: NextRequest) {
       }
     }).filter(Boolean);
 
-    return NextResponse.json({ products });
+    return NextResponse.json({ products }, {
+      headers: {
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+        'CDN-Cache-Control': 'public, s-maxage=86400',
+        'Vercel-CDN-Cache-Control': 'public, s-maxage=86400',
+      }
+    });
   } catch (error) {
     console.error('Error loading products for smart linking:', error);
     return NextResponse.json({ products: [] }, { status: 500 });

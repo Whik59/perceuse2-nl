@@ -42,11 +42,11 @@
     "averageRating": 4.8,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -132,5 +132,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:01.213176",
   "originalName": "Metabo combihamer KHE 2445 – 601709500 – Combihamer voor hamerboren, boren en beitelen – 4 m kabellengte",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T20:00:00.000Z"
 }

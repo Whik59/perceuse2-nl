@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -167,5 +167,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:00.782684",
   "originalName": "aleawol Elektrische boormachinestandaarstandaard, 360 graden rotatie, multifunctionele verticale boorstandaard, houder voor boormachine, werkbank, slijper, tafelklemmen, houtbewerkingsklemmen (35-43",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T05:00:00.000Z"
 }

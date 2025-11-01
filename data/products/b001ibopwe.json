@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -77,7 +77,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Een uitstekende, compacte set bits van Bosch voor dagelijks gebruik.",
     "strengths": [
       "Zeer veelzijdig met een breed scala aan bit-types",
@@ -156,5 +156,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:41.530494",
   "originalName": "Bosch 25-delige Mini-X-Line-schroefbit (PH-, PZ-, zeskant-, T-, TH-, S-Bit, accessoires boormachine en schroevendraaier)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-04T16:00:00.000Z"
 }

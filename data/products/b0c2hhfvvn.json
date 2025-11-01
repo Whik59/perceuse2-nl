@@ -42,11 +42,11 @@
     "averageRating": 4.1,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -155,5 +155,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:11.081881",
   "originalName": "Fousenuk 20 stuks lamellenslijpers, lamellenslijper met 10 verschillende diameters, polijstschijven voor boormachine en roterend gereedschap, rechte slijper met schacht voor ontroesten, gepolijst",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T18:00:00.000Z"
 }

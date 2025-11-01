@@ -42,11 +42,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -81,7 +81,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Een uitstekende, gebruiksvriendelijke accuboormachine voor thuisgebruik.",
     "strengths": [
       "Goede prijs-kwaliteitverhouding",
@@ -160,5 +160,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:19.293161",
   "originalName": "WORKPRO 8V Accuboormachine Set, Accuboormachine, 2000 mAh Accu Boormachine, 12 Nm Koppel, 10mm Boorkop, LED-Licht, Compleet Accessoireset, Voor Huishoudreparaties & DIY, Roze & Grijs",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T03:00:00.000Z"
 }

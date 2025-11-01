@@ -37,6 +37,10 @@ export interface Product {
   quickReview?: string;
   
   // Remove inventory and shipping as they're not needed for affiliate
+  
+  // Publish control fields
+  publish?: boolean;
+  publishAt?: string; // ISO date string
 }
 
 export interface ProductVariation {
@@ -101,6 +105,10 @@ export interface Category {
   productCount?: number;
   children?: Category[]; // For nested display
   faq?: FAQItem[]; // AI-generated FAQ for the category
+  
+  // Publish control fields
+  publish?: boolean;
+  publishAt?: string; // ISO date string
 }
 
 export interface SubCategory {
@@ -116,6 +124,10 @@ export interface SubCategory {
   seo?: SEOData;
   productCount?: number;
   faq?: FAQItem[];
+  
+  // Publish control fields
+  publish?: boolean;
+  publishAt?: string; // ISO date string
 }
 
 export interface SEOData {

@@ -38,11 +38,11 @@
     "averageRating": 4.9,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -149,5 +149,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:24.132800",
   "originalName": "Messing buis doorstroombeslag, 2 stuks prikkels 8 mm tot 1/8 inch mannelijk messing hoek buis 90 graden buisverbinders hoekverbinding voor water en olie",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T23:00:00.000Z"
 }

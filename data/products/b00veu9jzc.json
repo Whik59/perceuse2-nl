@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -172,5 +172,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:42.351100",
   "originalName": "Ryobi 5133002305 Accu-Combihamer, Sds-Plus Type R18SDS-0 18 V, Hyper Groen",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T12:00:00.000Z"
 }

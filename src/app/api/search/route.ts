@@ -69,7 +69,13 @@ export async function GET(request: NextRequest) {
       results.suggestions = suggestions.slice(0, 8);
     }
 
-    return NextResponse.json(results);
+    return NextResponse.json(results, {
+      headers: {
+        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=3600',
+        'CDN-Cache-Control': 'public, s-maxage=300',
+        'Vercel-CDN-Cache-Control': 'public, s-maxage=300',
+      }
+    });
 
   } catch (error) {
     console.error('Search API error:', error);

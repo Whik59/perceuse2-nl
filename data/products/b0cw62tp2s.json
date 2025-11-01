@@ -42,11 +42,11 @@
     "averageRating": 4.3,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -150,5 +150,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:14.309128",
   "originalName": "Accuboorhamer, demolierhamer, accu-boorhamer, 4-in-1 functie, SDS-plus-adapter met boorhouder, 3 punten, 2 beitels, 2 x 4000 mAh accu",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T12:00:00.000Z"
 }

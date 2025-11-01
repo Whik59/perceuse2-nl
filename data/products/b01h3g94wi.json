@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -78,7 +78,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige boorhamer voor diverse klussen.",
     "strengths": [
       "Sterk vermogen (1500W) voor zwaar werk",
@@ -123,5 +123,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:47.380416",
   "originalName": "Ferm HDM1037 Pneumatische Boorhamer 1500W - Zijhandgreep - inclusief 3x SDS Plus boren 2x SDS Plus beitels gereedschapskoppen, zwart, blauw",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T04:00:00.000Z"
 }

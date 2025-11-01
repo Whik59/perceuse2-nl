@@ -38,11 +38,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -70,7 +70,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer goede set polijstsponzen voor thuisgebruik en lichte professionele toepassingen.",
     "strengths": [
       "Zeer veelzijdig",
@@ -147,5 +147,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:06.926601",
   "originalName": "15 stuks polijstsponzen voor de auto, polijstpad, autosponzen polijstpads, polijstpads voor accuschroevendraaier, polijstmachine, boormachine polijsten, slijpen, waxen",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T07:00:00.000Z"
 }

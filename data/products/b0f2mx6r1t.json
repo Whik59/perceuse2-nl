@@ -38,11 +38,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -75,7 +75,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Krachtige en veelzijdige accuboormachine voor diverse projecten.",
     "strengths": [
       "Indrukwekkend koppel van 45 Nm",
@@ -155,5 +155,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:24.933205",
   "originalName": "Accuboormachine, 21 V, draadloos, 45 Nm, accuschroevendraaier, 25 + 3 koppelinstellingen, 10 mm, metaal, boorhouder, 2 snelheden, led, voor reparatie/knutselen",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T10:00:00.000Z"
 }

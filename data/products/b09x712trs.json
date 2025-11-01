@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -148,5 +148,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:02.173132",
   "originalName": "Makita E-12011 10-delige Impact Black Bit Set",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T19:00:00.000Z"
 }

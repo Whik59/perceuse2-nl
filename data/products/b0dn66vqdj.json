@@ -38,11 +38,11 @@
     "averageRating": 4.3,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -73,7 +73,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Zeer goede set voor enthousiaste doe-het-zelvers",
     "strengths": [
       "Uitstekende prijs-kwaliteitverhouding",
@@ -118,5 +118,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:21.778846",
   "originalName": "AiQInu 7 stuks polijstopzetstukken, accuschroevendraaierset, 125 mm polijstschijf, boormachine, polijstpad, wollen polijstschijf, autopolijstkap voor autopolieren, slijpen en waxen, met",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T18:00:00.000Z"
 }

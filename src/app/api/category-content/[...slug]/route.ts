@@ -132,7 +132,13 @@ export async function GET(
       internalLinks: category.internalLinks || []
     };
     
-    return NextResponse.json({ content: categoryContent });
+    return NextResponse.json({ content: categoryContent }, {
+      headers: {
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=86400',
+        'CDN-Cache-Control': 'public, s-maxage=86400',
+        'Vercel-CDN-Cache-Control': 'public, s-maxage=86400',
+      }
+    });
   } catch (error) {
     const resolvedParams = await params;
     console.error(`Error loading category content for ${resolvedParams.slug}:`, error);

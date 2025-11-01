@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { getString } from '../lib/utils';
+import { getAuthor, Author as AuthorType } from '../lib/getAuthor';
 
 interface Author {
   id: string;
@@ -15,32 +16,13 @@ interface Author {
 }
 
 interface AuthorProps {
-  author?: Author;
-  productCategory?: string;
-  publishedDate?: string;
-  updatedDate?: string;
+  productCategory: string;
+  publishedDate: string;
+  updatedDate: string;
 }
 
-const Author: React.FC<AuthorProps> = ({ 
-  author, 
-  productCategory = 'producten',
-  publishedDate,
-  updatedDate 
-}) => {
-  console.log('🔍 [DEBUG] Author component rendered with props:', { author, productCategory, publishedDate, updatedDate });
-  
-  // If no author provided, use fallback
-  const displayAuthor = author || {
-    id: 'fallback',
-    name: getString('authors.fallbackAuthor.name').replace('{product_category}', productCategory),
-    title: getString('authors.fallbackAuthor.title').replace('{product_category}', productCategory),
-    bio: getString('authors.fallbackAuthor.bio'),
-    expertise: productCategory,
-    experience: '5+ jaar ervaring',
-    image: 'default-author.png'
-  };
-  
-  console.log('🔍 [DEBUG] displayAuthor:', displayAuthor);
+const Author: React.FC<AuthorProps> = ({ productCategory, publishedDate, updatedDate }) => {
+  const displayAuthor = getAuthor();
 
   // Format dates
   const formatDate = (dateString?: string) => {

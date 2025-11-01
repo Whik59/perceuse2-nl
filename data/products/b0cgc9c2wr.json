@@ -42,11 +42,11 @@
     "averageRating": 4.5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -159,5 +159,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:11.561648",
   "originalName": "WORKPRO Boorhamer SDS-Plus 1050 W, Boormachine 3 Joule Afbreekhamer, Variabele Snelheid 0-1150 omw/min, 0-5100 BPM, met 4 Functies, Boorcapaciteit: Beton (26mm), Hout (42mm), Staal (13mm)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T03:00:00.000Z"
 }

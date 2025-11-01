@@ -151,6 +151,7 @@
     "error": "Er is een fout opgetreden",
     "siteName": "Website",
     "companyName": "Bedrijf",
+    "domainName": "your-domain.com",
     "home": "Homepage",
     "linkCopied": "Link gekopieerd",
     "qualityExceptional": "Uitstekende kwaliteit",
@@ -595,26 +596,102 @@
     "subtitle": "Hoe we uw persoonlijke gegevens beschermen en gebruiken",
     "lastUpdated": "Laatst bijgewerkt:",
     "lastUpdatedDate": "12 september 2025",
-    "introduction": "We respecteren uw privacy en verbinden ons ertoe uw persoonlijke gegevens te beschermen.",
+    "introduction": {
+        "title": "Placeholder Title",
+        "content1": "Placeholder content1",
+        "content2": "Placeholder content2"
+    },
     "dataCollection": {
-      "title": "Gegevens die we verzamelen",
-      "description": "We verzamelen de informatie die u vrijwillig verstrekt, zoals uw naam en e-mailadres."
+        "intro": "Placeholder intro",
+        "personalInfo": "Placeholder personalInfo",
+        "contactInfo": "Placeholder contactInfo",
+        "paymentInfo": "Placeholder paymentInfo",
+        "navigationInfo": "Placeholder navigationInfo"
     },
     "dataUsage": {
-      "title": "Hoe we uw gegevens gebruiken",
-      "description": "We gebruiken uw gegevens om onze diensten te verbeteren en om met u te communiceren over relevante producten."
+        "intro": "Placeholder intro",
+        "orderProcessing": "Placeholder orderProcessing",
+        "customerService": "Placeholder customerService",
+        "marketing": "Placeholder marketing",
+        "improvements": "Placeholder improvements"
     },
     "dataProtection": {
-      "title": "Gegevensbescherming",
-      "description": "We nemen beveiligingsmaatregelen om uw persoonlijke gegevens te beschermen tegen ongeoorloofde toegang."
+        "content1": "Placeholder content1",
+        "content2": "Placeholder content2"
+    },
+    "userRights": {
+        "title": "Placeholder Title",
+        "intro": "Placeholder intro",
+        "access": "Placeholder access",
+        "rectification": "Placeholder rectification",
+        "deletion": "Placeholder deletion",
+        "portability": "Placeholder portability",
+        "opposition": "Placeholder opposition"
     },
     "cookies": {
-      "title": "Cookies",
-      "description": "We gebruiken cookies om uw surfervaring te verbeteren en het gebruik van de website te analyseren."
+        "content1": "Placeholder content1",
+        "content2": "Placeholder content2"
     },
-    "rights": {
-      "title": "Uw rechten",
-      "description": "U heeft het recht om toegang te krijgen tot uw persoonlijke gegevens, deze te corrigeren, te verwijderen of over te dragen."
+    "contact": {
+        "title": "Placeholder Title",
+        "content": "Placeholder content",
+        "email": "Placeholder email",
+        "address": "Placeholder address",
+        "responseTime": "Placeholder responseTime"
+    }
+  },
+  "legal": {
+    "title": "Placeholder Title",
+    "subtitle": "Placeholder subtitle",
+    "lastUpdated": "Placeholder lastUpdated",
+    "lastUpdatedDate": "Placeholder lastUpdatedDate",
+    "company": {
+        "title": "Placeholder Title",
+        "name": "Placeholder name",
+        "status": "Placeholder status",
+        "statusValue": "Placeholder statusValue",
+        "siret": "Placeholder siret",
+        "siretValue": "Placeholder siretValue",
+        "vat": "Placeholder vat",
+        "vatValue": "Placeholder vatValue"
+    },
+    "contact": {
+        "address": "Placeholder address",
+        "addressValue": "Placeholder addressValue",
+        "phone": "Placeholder phone",
+        "phoneValue": "Placeholder phoneValue",
+        "email": "Placeholder email",
+        "emailValue": "Placeholder emailValue"
+    },
+    "director": {
+        "title": "Placeholder Title",
+        "content": "Placeholder content"
+    },
+    "hosting": {
+        "title": "Placeholder Title",
+        "provider": "Placeholder provider",
+        "providerValue": "Placeholder providerValue",
+        "address": "Placeholder address",
+        "addressValue": "Placeholder addressValue"
+    },
+    "intellectual": {
+        "title": "Placeholder Title",
+        "content1": "Placeholder content1",
+        "content2": "Placeholder content2"
+    },
+    "liability": {
+        "title": "Placeholder Title",
+        "content1": "Placeholder content1",
+        "content2": "Placeholder content2"
+    },
+    "data": {
+        "title": "Placeholder Title",
+        "content": "Placeholder content",
+        "privacyLink": "Placeholder privacyLink"
+    },
+    "law": {
+        "title": "Placeholder Title",
+        "content": "Placeholder content"
     }
   },
   "cookies": {

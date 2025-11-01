@@ -33,6 +33,8 @@ import {
   CreditCard,
   AlertTriangle
 } from 'lucide-react';
+import { ProductStructuredData } from '../../../../components/ProductStructuredData';
+import { notFound } from 'next/navigation';
 
 // FAQ Accordion Component
 const FAQAccordion: React.FC<{ faq: any[] }> = ({ faq }) => {

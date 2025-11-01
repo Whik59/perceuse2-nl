@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -174,5 +174,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:05.902543",
   "originalName": "Bosch accuboorhamer UniversalImpact 18V-60 (2 accu's 2,0 Ah, 18 Volt System, in opbergkoffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-06T11:00:00.000Z"
 }

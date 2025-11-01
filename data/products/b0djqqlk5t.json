@@ -38,11 +38,11 @@
     "averageRating": 4.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -122,5 +122,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:20.139810",
   "originalName": "Accuschroevendraaier met 2x 2000mAh accu's, Accuboormachine 20 V zeegroen 42Nm Max, accuboormachine met 2 snelheden, compatibel met Makita accu, 25+1 koppelniveaus, 10mm boorhouder, LED-lampje",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T12:00:00.000Z"
 }

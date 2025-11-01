@@ -42,11 +42,11 @@
     "averageRating": 4.7,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -155,5 +155,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:25.467244",
   "originalName": "Bwintech 10 stuks roestvrij staal slang Barb hulpstukken, 3/8-inch BSP vrouwelijke x 10MM Barb Connector met 10 stuks klemmen, slang Barb Adapter Barb hulpstukken voor lucht, brandstof, water, olie",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T07:00:00.000Z"
 }

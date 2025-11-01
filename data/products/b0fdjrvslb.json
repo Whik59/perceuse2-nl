@@ -42,11 +42,11 @@
     "averageRating": 3.4,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -160,5 +160,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:40.269598",
   "originalName": "Elektrische mini-handboor, 3 versnellingen, mini-handboor, doe-het-zelf, met 10 boren, oplaadbaar, oplaadbare boormachine voor modelbouw, hout, hars, sieraden maken, zilver",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-08T22:00:00.000Z"
 }

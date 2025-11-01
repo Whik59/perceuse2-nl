@@ -18,7 +18,7 @@ import { Product, Category, CartState } from '../../../../lib/types';
 import { getString, formatCurrency } from '../../../../lib/utils';
 import { createCartItem, addToCart } from '../../../../lib/cart';
 import { getCategoryContent, CategoryContent } from '../../../../lib/getCategoryContent';
-import { getAuthor } from '../../../../lib/getAuthor';
+import { getAuthor, Author as AuthorType } from '../../../../lib/getAuthor';
 import { 
   Grid3X3, 
   List, 
@@ -59,9 +59,7 @@ const CategoryClient: React.FC<CategoryClientProps> = ({ category, categories, p
 
   const [categoryContent, setCategoryContent] = useState<CategoryContent | null>(null);
   const [author, setAuthor] = useState(() => {
-    console.log('🔍 [DEBUG] CategoryClient: Initializing author state');
     const authorData = getAuthor();
-    console.log('🔍 [DEBUG] CategoryClient: Author data loaded:', authorData);
     return authorData;
   });
 

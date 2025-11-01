@@ -61,9 +61,7 @@ const CategoryPage: React.FC = () => {
   const [categories, setCategories] = useState<Category[]>([]);
   const [categoryContent, setCategoryContent] = useState<CategoryContent | null>(null);
   const [author, setAuthor] = useState(() => {
-    console.log('🔍 [DEBUG] CategoryPage: Initializing author state');
     const authorData = getAuthor();
-    console.log('🔍 [DEBUG] CategoryPage: Author data loaded:', authorData);
     return authorData;
   });
 

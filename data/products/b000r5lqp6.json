@@ -38,11 +38,11 @@
     "averageRating": 4.2,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -70,7 +70,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke snelspanboorhouder voor precieze boortaken.",
     "strengths": [
       "Snelle en eenvoudige wisseling van boren",
@@ -147,5 +147,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:40.020842",
   "originalName": "Bosch Professional Snelspanboorhouder (1 huls, spanbereik 1-6 mm, opname 1/2\" - buitenzeskantschacht, accessoires accu boormachine).",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-04T14:00:00.000Z"
 }

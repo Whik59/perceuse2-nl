@@ -64,18 +64,21 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 
 // Generate static params for all categories
 export async function generateStaticParams() {
-  const categories = await getCategories();
+  const categories = await getCategories(); // This now only returns published categories
   
   return categories.map((category) => ({
     slug: category.slug.split('/'),
   }));
 }
 
+// Revalidate every 24 hours (86400 seconds)
+export const revalidate = 86400;
+
 const CategoryPage = async ({ params }: CategoryPageProps) => {
   const fullSlug = params.slug.join('/');
   const category = getCategoryBySlug(fullSlug);
   
-  if (!category) {
+  if (!category || (category.publishAt && new Date(category.publishAt) > new Date())) {
     notFound();
   }
 

@@ -38,11 +38,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -81,7 +81,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Degelijke boorhamer voor veelzijdig gebruik",
     "strengths": [
       "Uitstekende prijs-kwaliteitverhouding",
@@ -128,5 +128,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:59.570849",
   "originalName": "Bosch Professional boorhamer GBH 2-21 (met SDS plus, incl. snelspanboorhouder, extra handgreep, machinedoek, diepteaanslag, in opbergkoffer)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-07T02:00:00.000Z"
 }

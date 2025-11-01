@@ -42,11 +42,11 @@
     "averageRating": 4.6,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -76,7 +76,7 @@
     }
   ],
   "reviewAnalysis": {
-    "overall_rating": 4.0,
+    "overall_rating": 4,
     "summary": "Veelzijdige en nauwkeurige boorgeleider voor diverse houtbewerkingstaken.",
     "strengths": [
       "Uitstekende precisie bij verticaal boren",
@@ -154,5 +154,7 @@
   ],
   "enhancedAt": "2025-10-26T19:51:24.850902",
   "originalName": "Flintronic Houtbewerkingscentrumzoekset, 3-in-1 boorgeleidezoeker met 3/4/5/6/7/8/9/10 mm boorbussen, timmerwerk boorgeleiders set voor verticaal boren (rood)",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-09T06:00:00.000Z"
 }

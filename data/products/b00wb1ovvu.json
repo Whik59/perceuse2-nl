@@ -24,7 +24,7 @@
   "affiliateId": "clickclickh0a-21",
   "originalAmazonTitle": "Dewalt SDS-Plus combihamer (28 mm) D25144K (900 Watt, max. enkele slagenergie 3,0 joule, zonder gereedschap verwisselbare gereedschapshouder, elektropneumatisch uitschakelbare hamerwerk,",
   "amazonPrice": "201.0€",
-  "amazonRating": 5.0,
+  "amazonRating": 5,
   "amazonReviewCount": 0,
   "brand": "Merk: DEWALT",
   "seo": {
@@ -39,14 +39,14 @@
     "ogDescription": "Dewalt SDS-Plus combihamer D25144K: 900W, 3.0J, snel wisselen, uitschakelbaar hamerwerk."
   },
   "reviews": {
-    "averageRating": 5.0,
+    "averageRating": 5,
     "totalReviews": 0,
     "breakdown": {
-      "5": 60,
-      "4": 25,
-      "3": 10,
+      "1": 2,
       "2": 3,
-      "1": 2
+      "3": 10,
+      "4": 25,
+      "5": 60
     }
   },
   "specifications": {
@@ -164,5 +164,7 @@
   ],
   "enhancedAt": "2025-10-26T19:50:44.007853",
   "originalName": "Dewalt SDS-Plus combihamer (28 mm) D25144K (900 Watt, max. enkele slagenergie 3,0 joule, zonder gereedschap verwisselbare gereedschapshouder, elektropneumatisch uitschakelbare hamerwerk,",
-  "enhanced": true
+  "enhanced": true,
+  "publish": false,
+  "publishAt": "2025-11-05T14:00:00.000Z"
 }

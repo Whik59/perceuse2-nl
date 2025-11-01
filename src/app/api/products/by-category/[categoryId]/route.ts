@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { memoryCache, CACHE_KEYS } from '../../../../../../lib/cache';
+
+export const runtime = 'nodejs';
 
 export async function GET(
   request: NextRequest,
@@ -10,18 +13,38 @@ export async function GET(
     const resolvedParams = await params;
     const categoryId = parseInt(resolvedParams.categoryId);
 
-    // Check if category-products mapping exists
-    const categoryProductsPath = path.join(process.cwd(), 'data', 'indices', 'category-products.json');
+    // Check if category-products mapping exists - use cache to reduce file reads
+    const categoryMapCacheKey = CACHE_KEYS.CATEGORY_PRODUCTS_MAP;
+    let categoryProductsData: Record<string, string[]> = {};
     
-    let productIds: string[] = [];
-    
-    if (fs.existsSync(categoryProductsPath)) {
-      const categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
-      productIds = categoryProductsData[categoryId.toString()] || [];
+    const cached = memoryCache.get<Record<string, string[]>>(categoryMapCacheKey);
+    if (cached) {
+      categoryProductsData = cached;
     } else {
-      console.log(`Category-products mapping not found at ${categoryProductsPath}`);
-      // Return empty array if no mapping exists
-      return NextResponse.json([]);
+      const categoryProductsPath = path.join(process.cwd(), 'data', 'indices', 'category-products.json');
+      
+      if (fs.existsSync(categoryProductsPath)) {
+        categoryProductsData = JSON.parse(fs.readFileSync(categoryProductsPath, 'utf-8'));
+        // Cache for 10 minutes
+        memoryCache.set(categoryMapCacheKey, categoryProductsData, 10 * 60 * 1000);
+      } else {
+        console.log(`Category-products mapping not found`);
+        return NextResponse.json([], {
+          headers: {
+            'Cache-Control': 'public, s-maxage=1800, stale-while-revalidate=3600',
+          }
+        });
+      }
+    }
+    
+    const productIds: string[] = categoryProductsData[categoryId.toString()] || [];
+    
+    if (productIds.length === 0) {
+      return NextResponse.json([], {
+        headers: {
+          'Cache-Control': 'public, s-maxage=1800, stale-while-revalidate=3600',
+        }
+      });
     }
     
     const productsDir = path.join(process.cwd(), 'data', 'products');
