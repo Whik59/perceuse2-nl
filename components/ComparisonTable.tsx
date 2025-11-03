@@ -228,14 +228,33 @@ const ComparisonTable: React.FC<ComparisonTableProps> = ({ title, columns, produ
               <tr 
                 key={index} 
                 className="hover:bg-orange-50 transition-colors cursor-pointer border-b border-orange-100"
-                onClick={() => {
-                  const url = product.productUrl || product.amazonUrl || '#';
-                  if (url !== '#') {
-                    if (product.amazonUrl) {
-                      window.open(url, '_blank', 'noopener,noreferrer');
-                    } else {
-                      window.location.href = url;
+                onClick={async () => {
+                  // Always prioritize Amazon URL for affiliate sales
+                  let url = product.amazonUrl;
+                  
+                  // If no Amazon URL, fetch it from the product API
+                  if (!url && product.productUrl) {
+                    try {
+                      const slug = product.productUrl.replace('/product/', '');
+                      const response = await fetch(`/api/products/${slug}`);
+                      if (response.ok) {
+                        const productData = await response.json();
+                        url = productData.amazonUrl;
+                      }
+                    } catch (error) {
+                      console.error('Error fetching Amazon URL:', error);
+                      url = product.productUrl; // Fallback to product page
                     }
+                  }
+                  
+                  // Final fallback
+                  if (!url) {
+                    url = product.productUrl || '#';
+                  }
+                  
+                  if (url !== '#') {
+                    // Open links in new tab
+                    window.open(url, '_blank', 'noopener,noreferrer');
                   }
                 }}
               >
