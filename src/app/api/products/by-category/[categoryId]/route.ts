@@ -55,6 +55,26 @@ export async function GET(
       return NextResponse.json([]);
     }
     
+    // Helper to check if a product is published
+    const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
+      // If explicitly set to false, check if publishAt makes it published
+      if (item.publish === false && item.publishAt) {
+        // If publishAt is set and is in the future, it's not published yet
+        return new Date(item.publishAt) <= new Date();
+      }
+      
+      // If explicitly set to false and no publishAt, it's unpublished
+      if (item.publish === false) return false;
+      
+      // If publishAt is set and is in the future, it's not published yet
+      if (item.publishAt && new Date(item.publishAt) > new Date()) {
+        return false;
+      }
+      
+      // If publish is explicitly true, or if it's undefined/null (backward compatibility), it's published
+      return true;
+    };
+    
     const products = [];
     
     for (const productId of productIds) {
@@ -65,6 +85,11 @@ export async function GET(
         
         if (fs.existsSync(filePath)) {
           const productData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+          
+          // Check if product is published
+          if (!isPublished(productData)) {
+            continue; // Skip unpublished products
+          }
           
           // Transform the scraped data to match the expected Product interface
           const transformedProduct = {

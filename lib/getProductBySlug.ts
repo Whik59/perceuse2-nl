@@ -4,6 +4,26 @@ import { Product } from './types';
 
 const productsDirectory = path.join(process.cwd(), 'data/products');
 
+// Helper to check if a product is published
+const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
+  // If explicitly set to false, check if publishAt makes it published
+  if (item.publish === false && item.publishAt) {
+    // If publishAt is set and is in the future, it's not published yet
+    return new Date(item.publishAt) <= new Date();
+  }
+  
+  // If explicitly set to false and no publishAt, it's unpublished
+  if (item.publish === false) return false;
+  
+  // If publishAt is set and is in the future, it's not published yet
+  if (item.publishAt && new Date(item.publishAt) > new Date()) {
+    return false;
+  }
+  
+  // If publish is explicitly true, or if it's undefined/null (backward compatibility), it's published
+  return true;
+};
+
 export const getProductBySlug = async (slug: string): Promise<Product | null> => {
   try {
     const filePath = path.join(productsDirectory, `${slug}.json`);
@@ -14,6 +34,11 @@ export const getProductBySlug = async (slug: string): Promise<Product | null> =>
     
     const fileContents = fs.readFileSync(filePath, 'utf8');
     const productData = JSON.parse(fileContents);
+    
+    // Check if product is published
+    if (!isPublished(productData)) {
+      return null; // Don't return unpublished products
+    }
     
     // Transform the scraped product data to match our interface
     if (productData.productId && (productData.name || productData.originalAmazonTitle)) {
