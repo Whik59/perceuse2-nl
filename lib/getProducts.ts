@@ -24,7 +24,11 @@ export const getProducts = (includeUnpublished = false): Product[] => {
   // Check cache first
   const cached = memoryCache.get<Product[]>(CACHE_KEYS.PRODUCTS_LIST);
   if (cached) {
-    return cached;
+    // Filter cached results if not including unpublished
+    if (includeUnpublished) {
+      return cached;
+    }
+    return cached.filter(isPublished);
   }
 
   try {

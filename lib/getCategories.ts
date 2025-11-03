@@ -23,7 +23,11 @@ export const getCategories = async (includeUnpublished = false): Promise<Categor
   // Check cache first (reduces CPU significantly)
   const cached = memoryCache.get<Category[]>(CACHE_KEYS.CATEGORIES_LIST);
   if (cached) {
-    return cached;
+    // Filter cached results if not including unpublished
+    if (includeUnpublished) {
+      return cached;
+    }
+    return cached.filter(isPublished);
   }
 
   try {
