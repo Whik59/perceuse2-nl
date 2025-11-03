@@ -3,67 +3,63 @@ import { Metadata } from 'next';
 import Layout from '../../../components/layout/Layout';
 import Author from '../../../components/Author';
 import { getString } from '../../../lib/utils';
-import { getAuthor } from '../../../lib/getAuthor';
-
 export const metadata: Metadata = {
-  title: `${getString('legal.cgu.title')} | ${getString('common.siteName')}`,
-  description: getString('legal.cgu.description', { domainName: getString('common.domainName') }),
+  title: `${getString('legal.cookies.title')} | ${getString('common.siteName')}`,
+  description: getString('legal.cookies.description', { domainName: getString('common.domainName') }),
   robots: 'index, follow',
 };
 
-const AlgemeneVoorwaardenPage: React.FC = () => {
-  const author = getAuthor();
+const CookiePolicyPage: React.FC = () => {
   
   return (
     <Layout>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="prose prose-lg max-w-none">
           <h1 className="text-3xl font-bold text-gray-900 mb-8">
-            {getString('legal.cgu.title')}
+            {getString('legal.cookies.title')}
           </h1>
           
           <div className="space-y-6 text-gray-700">
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                {getString('legal.cgu.objet.title')}
+                {getString('legal.cookies.definition.title')}
               </h2>
-              <p>{getString('legal.cgu.objet.content')}</p>
+              <p>{getString('legal.cookies.definition.content')}</p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                {getString('legal.cgu.acceptation.title')}
+                {getString('legal.cookies.types.title')}
               </h2>
-              <p>{getString('legal.cgu.acceptation.content')}</p>
+              <p>{getString('legal.cookies.types.content')}</p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                {getString('legal.cgu.services.title')}
+                {getString('legal.cookies.utilisation.title')}
               </h2>
-              <p>{getString('legal.cgu.services.content')}</p>
+              <p>{getString('legal.cookies.utilisation.content')}</p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                {getString('legal.cgu.responsabilite.title')}
+                {getString('legal.cookies.gestion.title')}
               </h2>
-              <p>{getString('legal.cgu.responsabilite.content')}</p>
+              <p>{getString('legal.cookies.gestion.content')}</p>
             </section>
 
             <section>
               <h2 className="text-xl font-semibold text-gray-900 mb-3">
-                {getString('legal.cgu.modification.title')}
+                {getString('legal.cookies.contact.title')}
               </h2>
-              <p>{getString('legal.cgu.modification.content')}</p>
+              <p>{getString('legal.cookies.contact.content')}</p>
             </section>
           </div>
 
           {/* Author Section */}
           <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100 -mx-8 px-8">
             <Author 
-              author={author}
-              productCategory="boormachines"
+              productCategory={getString('common.defaultProductCategory')}
             />
           </div>
         </div>
@@ -72,5 +68,5 @@ const AlgemeneVoorwaardenPage: React.FC = () => {
   );
 };
 
-export default AlgemeneVoorwaardenPage;
+export default CookiePolicyPage;
 

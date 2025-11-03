@@ -7,12 +7,16 @@ import { getAuthor } from '../lib/getAuthor';
 
 interface AuthorProps {
   productCategory: string;
-  publishedDate: string;
-  updatedDate: string;
+  publishedDate?: string;
+  updatedDate?: string;
 }
 
 const Author: React.FC<AuthorProps> = ({ productCategory, publishedDate, updatedDate }) => {
   const displayAuthor = getAuthor();
+
+  // Use provided dates or fallback to dates from getAuthor()
+  const finalPublishedDate = publishedDate || displayAuthor.publishedDate;
+  const finalUpdatedDate = updatedDate || displayAuthor.updatedDate;
 
   // Format dates
   const formatDate = (dateString?: string) => {
@@ -29,8 +33,8 @@ const Author: React.FC<AuthorProps> = ({ productCategory, publishedDate, updated
     }
   };
 
-  const formattedPublishedDate = formatDate(publishedDate);
-  const formattedUpdatedDate = formatDate(updatedDate);
+  const formattedPublishedDate = formatDate(finalPublishedDate);
+  const formattedUpdatedDate = formatDate(finalUpdatedDate);
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-6 shadow-sm">

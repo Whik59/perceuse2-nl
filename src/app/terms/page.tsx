@@ -3,17 +3,14 @@ import { Metadata } from 'next';
 import Layout from '../../../components/layout/Layout';
 import Author from '../../../components/Author';
 import { getString } from '../../../lib/utils';
-import { getAuthor } from '../../../lib/getAuthor';
 
 export const metadata: Metadata = {
   title: `${getString('legal.cgu.title')} | ${getString('common.siteName')}`,
-  description: getString('legal.cgu.description'),
+  description: getString('legal.cgu.description', { domainName: getString('common.domainName') }),
   robots: 'index, follow',
 };
 
-const CGUPage: React.FC = () => {
-  const author = getAuthor();
-  
+const TermsAndConditionsPage: React.FC = () => {
   return (
     <Layout>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -62,8 +59,7 @@ const CGUPage: React.FC = () => {
           {/* Author Section */}
           <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100 -mx-8 px-8">
             <Author 
-              author={author}
-              productCategory="boormachines"
+              productCategory={getString('common.defaultProductCategory')}
             />
           </div>
         </div>
@@ -72,4 +68,5 @@ const CGUPage: React.FC = () => {
   );
 };
 
-export default CGUPage;
+export default TermsAndConditionsPage;
+

@@ -55,8 +55,7 @@ const ContactPage: React.FC = () => {
           {/* Author Section */}
           <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100 -mx-8 px-8">
             <Author 
-              author={author}
-              productCategory="boormachines"
+              productCategory={getString('common.defaultProductCategory')}
             />
           </div>
         </div>

@@ -11,6 +11,7 @@
   "siteName": "Uw perfecte boormachine",
   "companyName": "Boormachine BV",
   "domainName": "boormachine",
+  "defaultProductCategory": "boormachines",
   "navigation": {
     "about": "Over ons"
   },
@@ -307,10 +308,10 @@
       "contact": "Contact",
       "allRightsReserved": "Alle rechten voorbehouden",
       "routes": {
-        "mentionsLegales": "juridische-informatie",
-        "politiqueConfidentialite": "privacybeleid",
-        "cgu": "algemene-voorwaarden",
-        "cookies": "cookiebeleid",
+        "mentionsLegales": "legal",
+        "politiqueConfidentialite": "privacy",
+        "cgu": "terms",
+        "cookies": "cookie-policy",
         "contact": "contact"
       }
     }
@@ -448,6 +449,8 @@
     "bio": "Hallo, ik ben Marco! Al meer dan 12 jaar ben ik gepassioneerd bezig met boormachines en elektrisch gereedschap. Wat begon als een hobby in mijn werkplaats, groeide uit tot expertise in het testen en analyseren van honderden boormachines - van compacte accuboormachines tot krachtige professionele modellen. Ik heb elk type getest en begrijp de verschillen tussen merken zoals Bosch, Makita, DeWalt en Black+Decker. Door hands-on testen help ik u de perfecte boormachine te vinden die past bij uw projecten en budget. Na jaren van testen heb ik {domainName} opgericht om mijn kennis te delen en u te helpen de juiste keuze te maken.",
     "expertise": "Boormachines, Accuboormachines, Draadloze boormachines, Elektrisch gereedschap, Professionele boormachines, DIY gereedschap, Bouwtechnieken, Klussen",
     "experience": "12+ jaar ervaring",
-    "image": "author.png"
+    "image": "author.png",
+    "publishedDate": "2024-01-01",
+    "updatedDate": "2025-10-29"
   }
 }

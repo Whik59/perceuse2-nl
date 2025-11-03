@@ -306,10 +306,7 @@ const SearchContent: React.FC = () => {
           {/* Author Section */}
           <div className="mt-16">
             <Author 
-              author={author}
-              productCategory="boormachines"
-              publishedDate="2024-01-01"
-              updatedDate="2025-10-29"
+              productCategory={getString('common.defaultProductCategory')}
             />
           </div>
         </div>

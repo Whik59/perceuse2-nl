@@ -353,10 +353,7 @@ const AboutPage: React.FC = () => {
         <section className="py-16 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Author 
-              author={author}
-              productCategory="boormachines"
-              publishedDate="2024-01-01"
-              updatedDate="2025-10-29"
+              productCategory={getString('common.defaultProductCategory')}
             />
           </div>
         </section>

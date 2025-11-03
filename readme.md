@@ -30,9 +30,9 @@ git remote -v
 
 
 
-git remote remove origin; git remote add origin https://github.com/Whik59/perceuse-nl; git add .; git commit -m "german template"; git push --force origin main
+git remote remove origin; git remote add origin https://github.com/Whik59/perceuse2-nl; git add .; git commit -m "german template"; git push --force origin main
 
-
+git remote remove origin; git remote add origin git@github.com:Whik59/perceuse2-nl.git; git add .; git commit -m "update"; git push -u origin main
 
 python scripts/pipeline.py "boormachine" "nl" --language dutch --min-categories 1 --max-categories 1
 

@@ -19,7 +19,6 @@ import { redirectToAmazonCart } from '../../lib/cart';
 import { Star, Truck, Shield, RefreshCw, Award, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useCategories, useCategoryProducts } from '../../lib/useDataCache';
 import Author from '../../components/Author';
-import { getAuthor } from '../../lib/getAuthor';
 
 interface CategoryWithImage extends Category {
   imageUrl?: string;
@@ -39,7 +38,6 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
   const [categoriesWithImages, setCategoriesWithImages] = useState<CategoryWithImage[]>([]);
   const [isLoadingCategories, setIsLoadingCategories] = useState(true);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [author, setAuthor] = useState(getAuthor());
 
   // Use cached categories data
   const { data: cachedCategories, fetchData: fetchCategories } = useCategories();
@@ -524,10 +522,7 @@ const HomeClient: React.FC<HomeClientProps> = ({ products, categories: propCateg
       <section className="py-16 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <Author 
-              author={author}
-              productCategory="boormachines"
-              publishedDate="2024-01-01"
-              updatedDate="2025-10-29"
+              productCategory={getString('common.defaultProductCategory')}
             />
         </div>
       </section>

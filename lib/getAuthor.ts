@@ -13,6 +13,8 @@ export type Author = {
   expertise: string;
   experience: string;
   image: string;
+  publishedDate: string;
+  updatedDate: string;
 };
 
 /**
@@ -41,6 +43,8 @@ export function getAuthor(): Author {
     expertise: authorData.expertise,
     experience: authorData.experience,
     image: authorData.image,
+    publishedDate: authorData.publishedDate || '2024-01-01',
+    updatedDate: authorData.updatedDate || '2025-10-29',
   };
 
   // Cache the result

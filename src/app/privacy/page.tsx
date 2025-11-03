@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   robots: 'index, follow',
 };
 
-const PrivacybeleidPage: React.FC = () => {
+const PrivacyPolicyPage: React.FC = () => {
   return (
     <Layout>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -67,4 +67,4 @@ const PrivacybeleidPage: React.FC = () => {
   );
 };
 
-export default PrivacybeleidPage;
+export default PrivacyPolicyPage;

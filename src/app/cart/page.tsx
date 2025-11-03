@@ -280,8 +280,7 @@ const CartPage: React.FC = () => {
           <div className="mt-16 bg-slate-50 py-16 border-t border-slate-100">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
               <Author 
-                author={author}
-                productCategory="boormachines"
+                productCategory={getString('common.defaultProductCategory')}
               />
             </div>
           </div>
