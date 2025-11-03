@@ -7,7 +7,13 @@ const categoriesFilePath = path.join(process.cwd(), 'data/categories.json');
 
 // Helper to check if an item is published
 const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
-  // If explicitly set to false, it's unpublished
+  // If explicitly set to false, check if publishAt makes it published
+  if (item.publish === false && item.publishAt) {
+    // If publishAt is set and is in the future, it's not published yet
+    return new Date(item.publishAt) <= new Date();
+  }
+  
+  // If explicitly set to false and no publishAt, it's unpublished
   if (item.publish === false) return false;
   
   // If publishAt is set and is in the future, it's not published yet
