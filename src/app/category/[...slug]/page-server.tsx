@@ -17,7 +17,8 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
   const fullSlug = params.slug.join('/');
   const category = getCategoryBySlug(fullSlug);
   
-  if (!category) {
+  // getCategoryBySlug now filters by publish status
+  if (!category || category.publish === false || (category.publishAt && new Date(category.publishAt) > new Date())) {
     return {
       title: 'Catégorie non trouvée',
       description: 'La catégorie demandée n\'a pas été trouvée.',
@@ -78,7 +79,8 @@ const CategoryPage = async ({ params }: CategoryPageProps) => {
   const fullSlug = params.slug.join('/');
   const category = getCategoryBySlug(fullSlug);
   
-  if (!category || (category.publishAt && new Date(category.publishAt) > new Date())) {
+  // getCategoryBySlug now filters by publish status, but we double-check here
+  if (!category || category.publish === false || (category.publishAt && new Date(category.publishAt) > new Date())) {
     notFound();
   }
 

@@ -7,10 +7,15 @@ const productsDirectory = path.join(process.cwd(), 'data/products');
 
 // Helper to check if an item is published
 const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
-  if (item.publish === false) return false; // Explicitly unpublished
+  // If explicitly set to false, it's unpublished
+  if (item.publish === false) return false;
+  
+  // If publishAt is set and is in the future, it's not published yet
   if (item.publishAt && new Date(item.publishAt) > new Date()) {
-    return false; // Scheduled for the future
+    return false;
   }
+  
+  // If publish is explicitly true, or if it's undefined/null (backward compatibility), it's published
   return true;
 };
 
@@ -62,11 +67,15 @@ export const getProducts = (includeUnpublished = false): Product[] => {
   }
 };
 
-export const getProductBySlug = (slug: string): Product | null => {
+export const getProductBySlug = (slug: string, includeUnpublished = false): Product | null => {
   // Check cache first
   const cacheKey = CACHE_KEYS.PRODUCTS_BY_SLUG(slug);
   const cached = memoryCache.get<Product>(cacheKey);
   if (cached) {
+    // Check publish status if not including unpublished
+    if (!includeUnpublished && !isPublished(cached)) {
+      return null;
+    }
     return cached;
   }
 
@@ -91,6 +100,12 @@ export const getProductBySlug = (slug: string): Product | null => {
             if (product) {
               product.publish = productData.publish;
               product.publishAt = productData.publishAt;
+              
+              // Check publish status
+              if (!includeUnpublished && !isPublished(product)) {
+                return null;
+              }
+              
               memoryCache.set(cacheKey, product, 10 * 60 * 1000);
               return product;
             }
@@ -124,6 +139,12 @@ export const getProductBySlug = (slug: string): Product | null => {
           if (product) {
             product.publish = productData.publish;
             product.publishAt = productData.publishAt;
+            
+            // Check publish status
+            if (!includeUnpublished && !isPublished(product)) {
+              return null;
+            }
+            
             memoryCache.set(cacheKey, product, 10 * 60 * 1000);
             return product;
           }

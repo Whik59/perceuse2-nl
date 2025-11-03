@@ -16,7 +16,8 @@ interface ProductPageProps {
 export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
   const product = getProductBySlug(params.slug);
   
-  if (!product) {
+  // getProductBySlug now filters by publish status
+  if (!product || product.publish === false || (product.publishAt && new Date(product.publishAt) > new Date())) {
     return {
       title: 'Produit non trouvé',
       description: 'Le produit demandé n\'a pas été trouvé.',
@@ -76,7 +77,8 @@ export const revalidate = 86400;
 const ProductPage = async ({ params }: ProductPageProps) => {
   const product = getProductBySlug(params.slug);
   
-  if (!product || (product.publishAt && new Date(product.publishAt) > new Date())) {
+  // getProductBySlug now filters by publish status, but we double-check here
+  if (!product || product.publish === false || (product.publishAt && new Date(product.publishAt) > new Date())) {
     notFound();
   }
 

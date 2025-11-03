@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import fs from 'fs';
 import path from 'path';
+import { memoryCache, CACHE_KEYS } from '../../../../lib/cache';
 
 // This is a secret key to prevent unauthorized access.
 // You MUST set this in your Vercel environment variables.
@@ -87,6 +88,15 @@ export async function POST(request: NextRequest) {
         // Also revalidate homepage and the main sitemap
         revalidatePath('/');
         revalidatePath('/sitemap.xml');
+        
+        // Clear relevant cache entries to ensure fresh data
+        if (item.type === 'product') {
+          memoryCache.delete(CACHE_KEYS.PRODUCTS_BY_SLUG(item.slug));
+          memoryCache.delete(CACHE_KEYS.PRODUCTS_LIST);
+        } else {
+          memoryCache.delete(CACHE_KEYS.CATEGORY_BY_SLUG(item.slug));
+          memoryCache.delete(CACHE_KEYS.CATEGORIES_LIST);
+        }
 
         publishedSlugs.push(item.slug);
         updatedCount++;

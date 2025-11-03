@@ -7,10 +7,15 @@ const categoriesFilePath = path.join(process.cwd(), 'data/categories.json');
 
 // Helper to check if an item is published
 const isPublished = (item: { publish?: boolean; publishAt?: string }): boolean => {
-  if (item.publish === false) return false; // Explicitly unpublished
+  // If explicitly set to false, it's unpublished
+  if (item.publish === false) return false;
+  
+  // If publishAt is set and is in the future, it's not published yet
   if (item.publishAt && new Date(item.publishAt) > new Date()) {
-    return false; // Scheduled for the future
+    return false;
   }
+  
+  // If publish is explicitly true, or if it's undefined/null (backward compatibility), it's published
   return true;
 };
 
@@ -83,11 +88,15 @@ export const getCategories = async (includeUnpublished = false): Promise<Categor
   }
 };
 
-export const getCategoryBySlug = (slug: string): Category | null => {
+export const getCategoryBySlug = (slug: string, includeUnpublished = false): Category | null => {
   // Check cache first
   const cacheKey = CACHE_KEYS.CATEGORY_BY_SLUG(slug);
   const cached = memoryCache.get<Category>(cacheKey);
   if (cached) {
+    // Check publish status if not including unpublished
+    if (!includeUnpublished && !isPublished(cached)) {
+      return null;
+    }
     return cached;
   }
 
@@ -114,7 +123,9 @@ export const getCategoryBySlug = (slug: string): Category | null => {
         level: 0,
         description: rawCategory.description,
         name: rawCategory.name,
-        subcategories: rawCategory.subcategories || []
+        subcategories: rawCategory.subcategories || [],
+        publish: rawCategory.publish,
+        publishAt: rawCategory.publishAt,
       };
 
       categories.push(mainCategory);
@@ -129,7 +140,9 @@ export const getCategoryBySlug = (slug: string): Category | null => {
             slug: `${rawCategory.slug}/${subcat.slug}`, // Hierarchical slug
             level: 1,
             description: subcat.description,
-            name: subcat.name
+            name: subcat.name,
+            publish: subcat.publish,
+            publishAt: subcat.publishAt,
           };
           categories.push(subcategory);
         });
@@ -138,6 +151,11 @@ export const getCategoryBySlug = (slug: string): Category | null => {
 
     // Find category by slug
     const category = categories.find(cat => cat.slug === slug) || null;
+    
+    // Check publish status
+    if (category && !includeUnpublished && !isPublished(category)) {
+      return null;
+    }
     
     // Cache the result
     if (category) {
