@@ -274,17 +274,19 @@ const CategoryPage: React.FC = () => {
                 </p>
               </div>
 
-              {/* CTA Button */}
-              <div className="pt-0">
-                <Link href="#products">
-                    <Button 
-                      size="sm" 
-                      className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
-                    >
-                      {getString('categories.discoverNow')}
-                    </Button>
-                </Link>
-              </div>
+              {/* CTA Button - Only show when there are products */}
+              {filteredProducts.length > 0 && (
+                <div className="pt-0">
+                  <Link href="#products">
+                      <Button 
+                        size="sm" 
+                        className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-8 py-2.5 text-sm font-bold rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
+                      >
+                        {getString('categories.discoverNow')}
+                      </Button>
+                  </Link>
+                </div>
+              )}
             </div>
 
             {/* Bottom Image - Mobile - Hidden */}
@@ -365,17 +367,19 @@ const CategoryPage: React.FC = () => {
                   </p>
                 </div>
 
-                {/* CTA Button */}
-                <div className="pt-1">
-                  <Link href="#products">
-                    <Button 
-                      size="lg" 
-                      className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-10 py-3 text-base font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
-                    >
-                      {getString('categories.discoverNow')}
-                    </Button>
-                  </Link>
-                </div>
+                {/* CTA Button - Only show when there are products */}
+                {filteredProducts.length > 0 && (
+                  <div className="pt-1">
+                    <Link href="#products">
+                      <Button 
+                        size="lg" 
+                        className="bg-white hover:bg-orange-50 text-orange-600 hover:text-orange-700 px-10 py-3 text-base font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-102 transform border border-orange-200/50 hover:border-orange-300/50"
+                      >
+                        {getString('categories.discoverNow')}
+                      </Button>
+                    </Link>
+                  </div>
+                )}
               </div>
 
               {/* Right Column - Empty */}
@@ -407,129 +411,129 @@ const CategoryPage: React.FC = () => {
         />
       )}
 
-      {/* Products Section */}
-      <div id="products" className="py-8 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Filters and View Controls */}
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 space-y-4 sm:space-y-0">
-            <div className="flex items-center space-x-4">
-              <button
-                onClick={() => setShowFilters(!showFilters)}
-                className="flex items-center space-x-2 text-gray-700 hover:text-gray-900 transition-colors"
-              >
-                <SlidersHorizontal className="w-5 h-5" />
-                <span className="text-sm font-medium">{getString('product.filters')}</span>
-              </button>
-              
-              <div className="flex items-center space-x-2">
+      {/* Products Section - Only show when there are products */}
+      {filteredProducts.length > 0 && (
+        <div id="products" className="py-8 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            {/* Filters and View Controls */}
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-8 space-y-4 sm:space-y-0">
+              <div className="flex items-center space-x-4">
                 <button
-                  onClick={() => setViewMode('grid')}
-                  className={`p-2 rounded-lg transition-colors ${
-                    viewMode === 'grid' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:text-gray-900'
-                  }`}
+                  onClick={() => setShowFilters(!showFilters)}
+                  className="flex items-center space-x-2 text-gray-700 hover:text-gray-900 transition-colors"
                 >
-                  <Grid3X3 className="w-5 h-5" />
+                  <SlidersHorizontal className="w-5 h-5" />
+                  <span className="text-sm font-medium">{getString('product.filters')}</span>
                 </button>
-                <button
-                  onClick={() => setViewMode('list')}
-                  className={`p-2 rounded-lg transition-colors ${
-                    viewMode === 'list' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:text-gray-900'
-                  }`}
+                
+                <div className="flex items-center space-x-2">
+                  <button
+                    onClick={() => setViewMode('grid')}
+                    className={`p-2 rounded-lg transition-colors ${
+                      viewMode === 'grid' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    <Grid3X3 className="w-5 h-5" />
+                  </button>
+                  <button
+                    onClick={() => setViewMode('list')}
+                    className={`p-2 rounded-lg transition-colors ${
+                      viewMode === 'list' ? 'bg-gray-900 text-white' : 'text-gray-600 hover:text-gray-900'
+                    }`}
+                  >
+                    <List className="w-5 h-5" />
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex items-center space-x-4">
+                <span className="text-sm text-gray-600">
+                  {filteredProducts.length} {getString('product.products')}
+                </span>
+                
+                <select
+                  value={filters.sortBy}
+                  onChange={(e) => handleFilterChange({ sortBy: e.target.value as any })}
+                  className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
                 >
-                  <List className="w-5 h-5" />
-                </button>
+                  <option value="newest">{getString('product.sort.newest')}</option>
+                  <option value="price_asc">{getString('product.sort.priceLow')}</option>
+                  <option value="price_desc">{getString('product.sort.priceHigh')}</option>
+                  <option value="rating">{getString('product.sort.rating')}</option>
+                </select>
               </div>
             </div>
 
-            <div className="flex items-center space-x-4">
-              <span className="text-sm text-gray-600">
-                {filteredProducts.length} {getString('product.products')}
-              </span>
-              
-              <select
-                value={filters.sortBy}
-                onChange={(e) => handleFilterChange({ sortBy: e.target.value as any })}
-                className="border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-              >
-                <option value="newest">{getString('product.sort.newest')}</option>
-                <option value="price_asc">{getString('product.sort.priceLow')}</option>
-                <option value="price_desc">{getString('product.sort.priceHigh')}</option>
-                <option value="rating">{getString('product.sort.rating')}</option>
-              </select>
-            </div>
-          </div>
+            {/* Filters Panel */}
+            {showFilters && (
+              <div className="bg-gray-50 rounded-xl p-6 mb-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  {/* Price Range */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      {getString('product.priceRange')}
+                    </label>
+                    <div className="flex items-center space-x-2">
+                      <input
+                        type="number"
+                        value={filters.priceRange[0]}
+                        onChange={(e) => handleFilterChange({ 
+                          priceRange: [parseInt(e.target.value), filters.priceRange[1]] 
+                        })}
+                        className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                        placeholder={getString('categoryPage.priceRange.min')}
+                      />
+                      <span className="text-gray-500">-</span>
+                      <input
+                        type="number"
+                        value={filters.priceRange[1]}
+                        onChange={(e) => handleFilterChange({ 
+                          priceRange: [filters.priceRange[0], parseInt(e.target.value)] 
+                        })}
+                        className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
+                        placeholder={getString('categoryPage.priceRange.max')}
+                      />
+                    </div>
+                  </div>
 
-          {/* Filters Panel */}
-          {showFilters && (
-            <div className="bg-gray-50 rounded-xl p-6 mb-8">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {/* Price Range */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    {getString('product.priceRange')}
-                  </label>
-                  <div className="flex items-center space-x-2">
-                    <input
-                      type="number"
-                      value={filters.priceRange[0]}
-                      onChange={(e) => handleFilterChange({ 
-                        priceRange: [parseInt(e.target.value), filters.priceRange[1]] 
-                      })}
+                  {/* Rating Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      {getString('product.minRating')}
+                    </label>
+                    <select
+                      value={filters.rating}
+                      onChange={(e) => handleFilterChange({ rating: parseInt(e.target.value) })}
                       className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                      placeholder={getString('categoryPage.priceRange.min')}
-                    />
-                    <span className="text-gray-500">-</span>
-                    <input
-                      type="number"
-                      value={filters.priceRange[1]}
-                      onChange={(e) => handleFilterChange({ 
-                        priceRange: [filters.priceRange[0], parseInt(e.target.value)] 
-                      })}
-                      className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                      placeholder={getString('categoryPage.priceRange.max')}
-                    />
+                    >
+                      <option value={0}>{getString('product.allRatings')}</option>
+                      <option value={4}>{getString('product.4stars')}</option>
+                      <option value={3}>{getString('product.3stars')}</option>
+                      <option value={2}>{getString('product.2stars')}</option>
+                      <option value={1}>{getString('product.1star')}</option>
+                    </select>
+                  </div>
+
+                  {/* In Stock Filter */}
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      {getString('product.availability')}
+                    </label>
+                    <label className="flex items-center">
+                      <input
+                        type="checkbox"
+                        checked={filters.inStock}
+                        onChange={(e) => handleFilterChange({ inStock: e.target.checked })}
+                        className="rounded border-gray-300 text-gray-900 focus:ring-gray-900"
+                      />
+                      <span className="ml-2 text-sm text-gray-700">{getString('product.inStock')}</span>
+                    </label>
                   </div>
                 </div>
-
-                {/* Rating Filter */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    {getString('product.minRating')}
-                  </label>
-                  <select
-                    value={filters.rating}
-                    onChange={(e) => handleFilterChange({ rating: parseInt(e.target.value) })}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent"
-                  >
-                    <option value={0}>{getString('product.allRatings')}</option>
-                    <option value={4}>{getString('product.4stars')}</option>
-                    <option value={3}>{getString('product.3stars')}</option>
-                    <option value={2}>{getString('product.2stars')}</option>
-                    <option value={1}>{getString('product.1star')}</option>
-                  </select>
-                </div>
-
-                {/* In Stock Filter */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
-                    {getString('product.availability')}
-                  </label>
-                  <label className="flex items-center">
-                    <input
-                      type="checkbox"
-                      checked={filters.inStock}
-                      onChange={(e) => handleFilterChange({ inStock: e.target.checked })}
-                      className="rounded border-gray-300 text-gray-900 focus:ring-gray-900"
-                    />
-                    <span className="ml-2 text-sm text-gray-700">{getString('product.inStock')}</span>
-                  </label>
-                </div>
               </div>
-            </div>
-          )}
+            )}
 
-          {/* Products Grid */}
-          {filteredProducts.length > 0 ? (
+            {/* Products Grid */}
             <div className={`grid gap-6 ${
               viewMode === 'grid' 
                 ? 'grid-cols-2 lg:grid-cols-6' 
@@ -543,26 +547,9 @@ const CategoryPage: React.FC = () => {
                 />
               ))}
             </div>
-          ) : (
-            <div className="text-center py-12">
-              <div className="text-gray-400 mb-4">
-                <Package className="w-16 h-16 mx-auto" />
-              </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">
-                {getString('product.noProducts')}
-              </h3>
-              <p className="text-gray-600 mb-6">
-                {getString('product.noProductsDescription')}
-              </p>
-              <Link href="/">
-                <Button variant="primary">
-                  {getString('navigation.home')}
-                </Button>
-              </Link>
-            </div>
-          )}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Comparison Table Section - Below Products */}
       {categoryContent?.comparisonTable && (

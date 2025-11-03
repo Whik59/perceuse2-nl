@@ -1506,7 +1506,8 @@ PRODUCTS DATA (ONLY USE THESE {len(products_data)} PRODUCTS - DO NOT INVENT ANY 
     'images': p.get('images', []),
     'brand': p.get('brand', ''),
     'originalName': p.get('originalName', ''),
-    'specifications': p.get('specifications', {})
+    'specifications': p.get('specifications', {}),
+    'amazonUrl': p.get('amazonUrl', '')
 } for p in products_data], ensure_ascii=False, indent=2)}
 
 REQUIREMENTS:
@@ -1519,7 +1520,7 @@ REQUIREMENTS:
 - If a specification is not explicitly mentioned, infer it from the product name, description, and context
 - Use realistic specifications based on product names, descriptions, and category context
 - Use the actual product images from the images array (first image)
-- Use internal product page URLs (/product/[slug]) instead of Amazon URLs
+- Include both productUrl (/product/[slug]) AND amazonUrl from product data
 - CRITICAL: Return ONLY valid JSON format - no markdown, no explanations
 - CRITICAL: Include ALL {len(products_data)} products provided - do not skip any products
 - CRITICAL: Each product must be different - no duplicates allowed
@@ -1547,6 +1548,7 @@ EXAMPLE STRUCTURE:
       "anwendungsbereich": "Gesichtspflege (inferred from category context)",
       "besondere_eigenschaft": "Hohe Qualität (inferred from brand/description)",
       "productUrl": "/product/actual-product-slug",
+      "amazonUrl": "https://amazon.nl/dp/XXXXXXXXXX/?tag=clickclickh0a-21",
       "image": "https://actual-product-image-url.jpg"
     }},
     {{
@@ -1560,6 +1562,7 @@ EXAMPLE STRUCTURE:
       "anwendungsbereich": "Körperpflege (inferred from category context)",
       "besondere_eigenschaft": "Langlebig (inferred from brand/description)",
       "productUrl": "/product/second-product-slug",
+      "amazonUrl": "https://amazon.nl/dp/YYYYYYYYYY/?tag=clickclickh0a-21",
       "image": "https://second-product-image-url.jpg"
     }}
   ]
@@ -1570,7 +1573,7 @@ IMPORTANT RULES:
 - ALWAYS include rank as a number (1, 2, 3, etc.) - never "N/A"
 - Price should include € symbol (e.g., "6.0€" not "6.0")
 - Rating should be in X.X/5 format
-- Include productUrl and image in each product object but NOT in columns
+- Include productUrl and amazonUrl and image in each product object but NOT in columns
 - ALWAYS infer realistic specifications from product names, descriptions, and category context
 - NEVER use "N/A", "Nicht angegeben", "Non spécifié", or empty values
 - ONLY include columns where ALL products have meaningful, non-empty values

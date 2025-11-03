@@ -182,18 +182,19 @@ const Header: React.FC<HeaderProps> = ({
 
   // Use cached categories data
   const { data: cachedCategories, fetchData: fetchCategories } = useCategories();
-  const categories = cachedCategories || propCategories;
+  // Treat empty array as "not provided" - use cached or fetch
+  const categories = (propCategories && propCategories.length > 0) ? propCategories : (cachedCategories || []);
 
-  // Fetch categories if not cached and not provided as props
+  // Fetch categories if not cached and not provided as props (or provided as empty array)
   useEffect(() => {
-    if (!cachedCategories && propCategories.length === 0) {
+    if (!cachedCategories && (!propCategories || propCategories.length === 0)) {
       fetchCategories(async () => {
         const response = await fetch('/api/categories');
         if (!response.ok) throw new Error('Failed to fetch categories');
         return response.json();
       });
     }
-  }, [cachedCategories, propCategories.length, fetchCategories]);
+  }, [cachedCategories, propCategories, fetchCategories]);
 
   // Enhanced dropdown hover handlers with delay
   const handleDropdownEnter = (categoryId: number) => {
