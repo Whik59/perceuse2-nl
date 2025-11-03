@@ -200,7 +200,7 @@ const CategoryPage: React.FC = () => {
 
   if (isLoading) {
     return (
-      <Layout>
+      <Layout categories={categories}>
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900 mx-auto mb-4"></div>
@@ -213,7 +213,7 @@ const CategoryPage: React.FC = () => {
 
   if (!category) {
     return (
-      <Layout>
+      <Layout categories={categories}>
         <div className="min-h-screen flex items-center justify-center">
           <div className="text-center">
             <h1 className="text-2xl font-bold text-gray-900 mb-4">{getString('categoryPage.notFound.title')}</h1>
