@@ -4,8 +4,8 @@ import commonStrings from '../locales/common.json';
 // Cache for author data to avoid repeated processing
 let authorCache: Author | null = null;
 
-// Define a simple Author type
-type Author = {
+// Define and export the Author type
+export type Author = {
   id: string;
   name: string;
   title: string;

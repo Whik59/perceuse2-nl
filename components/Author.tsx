@@ -3,17 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { getString } from '../lib/utils';
-import { getAuthor, Author as AuthorType } from '../lib/getAuthor';
-
-interface Author {
-  id: string;
-  name: string;
-  title: string;
-  bio: string;
-  expertise: string;
-  experience: string;
-  image: string;
-}
+import { getAuthor } from '../lib/getAuthor';
 
 interface AuthorProps {
   productCategory: string;

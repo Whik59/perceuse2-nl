@@ -15,7 +15,7 @@ import { formatCurrency, getString, generateProductRating, generateProductReview
 import { getProductContent, ProductContent } from '../../../../lib/getProductContent';
 import { MDXRemote } from 'next-mdx-remote';
 import Author from '../../../../components/Author';
-import { getAuthor, Author as AuthorType } from '../../../../lib/getAuthor';
+import { getAuthor } from '../../../../lib/getAuthor';
 import { 
   Star, 
   Plus, 

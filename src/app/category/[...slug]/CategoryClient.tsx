@@ -18,7 +18,7 @@ import { Product, Category, CartState } from '../../../../lib/types';
 import { getString, formatCurrency } from '../../../../lib/utils';
 import { createCartItem, addToCart } from '../../../../lib/cart';
 import { getCategoryContent, CategoryContent } from '../../../../lib/getCategoryContent';
-import { getAuthor, Author as AuthorType } from '../../../../lib/getAuthor';
+import { getAuthor } from '../../../../lib/getAuthor';
 import { 
   Grid3X3, 
   List, 
